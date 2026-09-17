@@ -1,0 +1,18 @@
+
+KEYWORDS = [
+    "CFD", "computational fluid dynamics", "computational fluid mechanics",
+    "computational aerodynamics", "aerodynamics", "fluid mechanics",
+    "compressible flow", "high-speed flow", "hypersonics", "turbulence",
+    "shock waves", "gas dynamics", "aerothermodynamics", "DNS", "LES", "turbulent flows",
+    "RANS", "numerical methods", "boundary-layer transition",
+    "fluid-structure interaction", "aeroelasticity", "propulsion",
+    "scramjets", "combustion", "reactive flows", "rarefied gas dynamics",
+    "high-temperature flow", "aeroacoustics", "atmospheric entry", "uas", "uav", "drones",
+    "spacecraft aerodynamics", "scientific computing", "computational physics",
+    "numerical PDEs", "multiphysics", "physics-informed ML", "PINN",
+]
+
+SEARCH_TERMS = (
+    "aerodynamics OR aerospace OR \"fluid mechanics\" OR turbulence OR "
+    "combustion OR propulsion OR hypersonics OR \"computational physics\""
+)
