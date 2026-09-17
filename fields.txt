@@ -1,18 +1,87 @@
+"""
+Keywords and field ontology for Aerospace, Mechanical, Computational Engineering,
+and Applied Mathematics faculty matching.
+"""
 
 KEYWORDS = [
+    # CORE CFD / FLUID DYNAMICS
     "CFD", "computational fluid dynamics", "computational fluid mechanics",
-    "computational aerodynamics", "aerodynamics", "fluid mechanics",
-    "compressible flow", "high-speed flow", "hypersonics", "turbulence",
-    "shock waves", "gas dynamics", "aerothermodynamics", "DNS", "LES", "turbulent flows",
-    "RANS", "numerical methods", "boundary-layer transition",
-    "fluid-structure interaction", "aeroelasticity", "propulsion",
-    "scramjets", "combustion", "reactive flows", "rarefied gas dynamics",
-    "high-temperature flow", "aeroacoustics", "atmospheric entry", "uas", "uav", "drones",
-    "spacecraft aerodynamics", "scientific computing", "computational physics",
-    "numerical PDEs", "multiphysics", "physics-informed ML", "PINN",
+    "fluid mechanics", "computational aerodynamics", "aerodynamics", "fluid dynamics",
+    "numerical fluid mechanics", "numerical methods for fluid mechanics",
+    "scientific computing for fluid mechanics", "incompressible flow", "viscous flow",
+    "navier-stokes", "euler equations", "potential flow", "vorticity", "circulation",
+    
+    # HIGH-SPEED / COMPRESSIBLE / HYPERSONICS
+    "compressible flow", "high-speed flow", "hypersonics", "hypersonic flow",
+    "hypersonic aerodynamics", "shock waves", "shock-boundary layer interaction", "sbli",
+    "gas dynamics", "compressible aerodynamics", "high-temperature gas dynamics",
+    "rarefied gas dynamics", "nonequilibrium gas dynamics", "molecular gas dynamics",
+    "atmospheric entry", "reentry aerodynamics", "spacecraft aerodynamics",
+    "entry / descent / landing", "edl", "aerothermodynamics", "oblique shocks",
+    "bow shock", "expansion waves", "plasma aerodynamics", "magnetohydrodynamics", "mhd",
+
+    # TURBULENCE
+    "turbulence", "turbulent flows", "dns", "direct numerical simulation",
+    "les", "large eddy simulation", "rans", "reynolds-averaged navier-stokes",
+    "hybrid rans/les", "wall-bounded turbulence", "turbulence modeling",
+    "transition", "turbulent mixing", "eddy viscosity", "subgrid-scale modeling",
+    "reynolds stress", "boundary layer turbulence", "isotropic turbulence",
+
+    # BOUNDARY LAYERS / FLOW PHYSICS
+    "boundary layers", "boundary-layer transition", "flow separation", "instability",
+    "hydrodynamic instability", "wake flows", "vortex dynamics", "shear flows",
+    "multiphase flow", "transport phenomena", "fluid-structure interaction", "fsi",
+    "aeroelasticity", "tollmien-schlichting", "crossflow instability", "flow control",
+    "drag reduction", "laminar-turbulent transition", "cavitation", "microfluidics",
+
+    # PROPULSION / COMBUSTION / REACTIVE FLOWS
+    "propulsion", "aerospace propulsion", "jet propulsion", "scramjets", "ramjets",
+    "gas turbines", "internal flows", "combustion", "combustion modeling",
+    "reactive flows", "reacting flows", "high-speed combustion", "detonation",
+    "propulsion systems", "hypersonic propulsion", "rocket propulsion", "turbomachinery",
+    "chemical kinetics", "flame dynamics", "soot formation", "combustion instability",
+    "rotating detonation engines", "rde", "pulse detonation engines", "electric propulsion",
+
+    # AEROACOUSTICS
+    "aeroacoustics", "computational aeroacoustics", "caa", "noise prediction",
+    "jet noise", "acoustic fluid dynamics", "airframe noise", "rotorcraft acoustics",
+    "sound generation", "wave propagation", "acoustic liner",
+
+    # COMPUTATIONAL MATHEMATICS / SCIENTIFIC COMPUTING
+    "applied mathematics", "computational mathematics", "numerical analysis",
+    "numerical pdes", "partial differential equations", "scientific computing",
+    "computational physics", "high-performance computing", "hpc",
+    "numerical simulation", "multiscale modeling", "reduced-order modeling", "rom",
+    "uncertainty quantification", "uq", "optimization", "inverse problems",
+    "numerical linear algebra", "finite volume method", "fvm", "finite element method", "fem",
+    "discontinuous galerkin", "spectral methods", "mesh generation", "adaptive mesh refinement",
+    "amr", "multigrid", "parallel computing", "gpu computing", "tensor methods",
+
+    # MODERN COMPUTATIONAL / AI / MACHINE LEARNING METHODS
+    "physics-informed machine learning", "physics-informed neural networks", "pinns", "pinn",
+    "scientific machine learning", "sciml", "machine learning for pdes",
+    "ai for fluid mechanics", "machine learning for fluid dynamics", "neural operators",
+    "fourier neural operator", "fno", "deeponets", "deep learning for scientific computing",
+    "data-driven modeling", "surrogate modeling", "computational intelligence",
+    "reinforcement learning for flow control", "sparse identification", "sindy",
+    "differentiable programming",
+
+    # MULTIPHYSICS / THERMAL SCIENCES
+    "multiphysics", "coupled physics", "thermo-fluid dynamics", "thermal-fluid sciences",
+    "fluid-thermal interaction", "fluid-structure-thermal interaction", "fsti",
+    "heat transfer", "conjugate heat transfer", "radiative transfer",
+    "thermal protection systems", "tps", "ablation", "solid-fluid interaction",
+
+    # AEROSPACE & MECHANICAL APPLICATIONS
+    "aircraft aerodynamics", "spacecraft aerodynamics", "uav", "uas", "drones",
+    "unmanned aerial vehicles", "atmospheric flight", "space flight", "entry vehicles",
+    "reentry vehicles", "launch vehicles", "high-speed vehicles", "rotorcraft",
+    "wing design", "aerodynamic shape optimization", "flight mechanics",
 ]
 
+# High-level search terms for broad discovery
 SEARCH_TERMS = (
-    "aerodynamics OR aerospace OR \"fluid mechanics\" OR turbulence OR "
-    "combustion OR propulsion OR hypersonics OR \"computational physics\""
+    "\"computational fluid dynamics\" OR CFD OR aerodynamics OR \"fluid mechanics\" OR "
+    "turbulence OR hypersonics OR propulsion OR combustion OR aeroelasticity OR "
+    "\"scientific computing\" OR \"numerical PDEs\" OR \"physics-informed\" OR \"applied mathematics\""
 )
