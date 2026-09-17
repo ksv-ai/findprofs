@@ -413,7 +413,8 @@ def main():
                 leads.append(lead)
                 uni_leads_count += 1
 
-            print(f"   + Extracted {uni_leads_count} faculty leads for {matched_uni_name}")
+            safe_name = matched_uni_name.encode("cp1252", errors="replace").decode("cp1252")
+            print(f"   + Extracted {uni_leads_count} faculty leads for {safe_name}")
             done_unis.add(uni_name)
 
             # Checkpoint every 3 universities
