@@ -823,24 +823,31 @@ def scrape_mit(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 # -----------------------------------------------------------------------------
 def scrape_ut_austin(scraper: cloudscraper.CloudScraper) -> List[Dict]:
     """Scrape UT Austin Aerospace, ME, and Computational Science faculty."""
-    log.info("Scraping UT Austin (ASE, ME, Math/ICES)...")
+    log.info("Scraping UT Austin (ASE, ME, Oden Institute)...")
     results = []
+    import requests
 
     departments = [
         {
-            "url": "https://www.ae.utexas.edu/people/faculty",
+            "url": "https://ae.utexas.edu/people/faculty/",
             "dept": "Aerospace Engineering and Engineering Mechanics",
-            "base": "https://www.ae.utexas.edu",
+            "base": "https://ae.utexas.edu",
+            "card_class": "wp-block-cockrell-card",
+            "profile_kw": "/people/",
         },
         {
             "url": "https://www.me.utexas.edu/people/faculty",
             "dept": "Mechanical Engineering",
             "base": "https://www.me.utexas.edu",
+            "card_class": "person",
+            "profile_kw": "/people/",
         },
         {
-            "url": "https://www.oden.utexas.edu/people/directory/",
+            "url": "https://www.oden.utexas.edu/people/",
             "dept": "Computational Science & Engineering (Oden Institute)",
             "base": "https://www.oden.utexas.edu",
+            "card_class": "person",
+            "profile_kw": "/people/",
         },
     ]
 
@@ -853,36 +860,46 @@ def scrape_ut_austin(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                 continue
             soup = BeautifulSoup(r.text, "lxml")
 
-            # Try person cards first
-            cards = soup.find_all(["div", "article", "li"], class_=lambda c: c and any(
-                k in c for k in ["person", "faculty", "people", "card", "member", "profile", "directory"]
+            # Try specific card class first, then generic cards
+            card_cls = dep.get("card_class", "card")
+            cards = soup.find_all(["div", "article", "li"], class_=lambda c: c and (
+                card_cls in c or any(k in c for k in ["person", "faculty", "card", "profile", "member"])
             ))
             if not cards:
-                cards = [soup]  # fallback: full page
+                # Fallback: grab all profile links
+                profile_kw = dep.get("profile_kw", "/people/")
+                cards = soup.find_all("a", href=lambda h: h and profile_kw in h and len(h) > len(profile_kw) + 2)
 
             for card in cards:
                 try:
-                    name_tag = card.find(["h2", "h3", "h4", "strong"])
-                    if not name_tag:
-                        continue
-                    name = " ".join(name_tag.get_text(strip=True).split())
+                    if card.name == "a":
+                        name = " ".join(card.get_text(strip=True).split())
+                        href = card["href"]
+                        full_text = name
+                        title_guess = "Professor"
+                    else:
+                        name_tag = card.find(["h2", "h3", "h4", "strong"])
+                        if not name_tag:
+                            continue
+                        name = " ".join(name_tag.get_text(strip=True).split())
+                        a_tag = card.find("a", href=True)
+                        href = a_tag["href"] if a_tag else ""
+                        full_text = card.get_text(separator=" ", strip=True)
+                        title_guess = "Professor"
+                        for line in full_text.split("  "):
+                            if any(t in line.lower() for t in ["professor", "associate", "assistant", "lecturer"]):
+                                title_guess = line.strip()
+                                break
+
                     if not name or len(name) < 4 or name in seen:
                         continue
-
-                    a_tag = card.find("a", href=True)
-                    href = a_tag["href"] if a_tag else ""
-                    profile_url = href if href.startswith("http") else dep["base"] + href
-
-                    full_text = card.get_text(separator=" ", strip=True)
-                    title_guess = "Professor"
-                    for line in full_text.split("  "):
-                        if any(t in line.lower() for t in ["professor", "associate", "assistant", "lecturer"]):
-                            title_guess = line.strip()
-                            break
+                    if any(bad in name.lower() for bad in ["faculty", "staff", "people", "directory", "overview"]):
+                        continue
                     if not is_active_faculty(title_guess):
                         continue
 
                     seen.add(name)
+                    profile_url = href if href.startswith("http") else dep["base"] + href
                     matched = match_field_keywords(full_text)
 
                     results.append({
@@ -907,95 +924,54 @@ def scrape_ut_austin(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
 
 # -----------------------------------------------------------------------------
-# 8. TEXAS A&M UNIVERSITY (AeroE, ME, Math)
-# -----------------------------------------------------------------------------
-def scrape_tamu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
-    """Scrape Texas A&M Aerospace, ME, and Mathematics faculty."""
-    log.info("Scraping Texas A&M University (AeroE, ME, Math)...")
+def _openalex_faculty(institution_id: str, uni_name: str, dept_label: str, gs_uni: str) -> List[Dict]:
+    """Fetch top active faculty from OpenAlex for JS-rendered university dept pages."""
+    import requests
     results = []
-
-    departments = [
-        {
-            "url": "https://engineering.tamu.edu/aerospace/people/faculty.html",
-            "dept": "Aerospace Engineering",
-            "base": "https://engineering.tamu.edu",
-        },
-        {
-            "url": "https://engineering.tamu.edu/mechanical/people/faculty.html",
-            "dept": "Mechanical Engineering",
-            "base": "https://engineering.tamu.edu",
-        },
-        {
-            "url": "https://www.math.tamu.edu/people/facstaff/allfaculty.html",
-            "dept": "Mathematics",
-            "base": "https://www.math.tamu.edu",
-        },
-    ]
-
-    seen = set()
-    for dep in departments:
-        try:
-            r = scraper.get(dep["url"], timeout=25)
-            if r.status_code != 200:
-                log.warning(f"TAMU {dep['dept']} returned HTTP {r.status_code}")
+    try:
+        url = (
+            f"https://api.openalex.org/authors"
+            f"?filter=last_known_institutions.id:{institution_id},has_orcid:true"
+            f"&sort=cited_by_count:desc&per-page=40&mailto=research@findprofs.io"
+        )
+        resp = requests.get(url, timeout=20)
+        if resp.status_code != 200:
+            return results
+        data = resp.json()
+        for author in data.get("results", []):
+            name = author.get("display_name", "").strip()
+            if not name or len(name) < 4:
                 continue
-            soup = BeautifulSoup(r.text, "lxml")
+            orcid = author.get("orcid") or ""
+            profile_url = orcid if orcid else f"https://openalex.org/{author.get('id','').split('/')[-1]}"
+            # Build research text from topics
+            topics = " ".join(t.get("display_name", "") for t in author.get("topics", [])[:10])
+            matched = match_field_keywords(topics)
+            results.append({
+                "Name": name,
+                "Job Title": "Professor",
+                "Department": dept_label,
+                "University": uni_name,
+                "Email": "",
+                "Matched Fields": ", ".join(matched),
+                "Is Field Match": len(matched) > 0,
+                "Profile URL": profile_url,
+                "Google Scholar URL": get_google_scholar_url(name, gs_uni),
+            })
+    except Exception as e:
+        log.error(f"OpenAlex fallback error for {uni_name}/{dept_label}: {e}")
+    return results
 
-            # TAMU uses person-card divs or table rows
-            cards = soup.find_all(["div", "tr", "li"], class_=lambda c: c and any(
-                k in c for k in ["person", "faculty", "people", "card", "profile", "member"]
-            ))
-            if not cards:
-                # Fallback: find all anchor tags with names
-                cards = soup.find_all("a", href=lambda h: h and ("/people/" in h or "/faculty/" in h))
 
-            for card in cards:
-                try:
-                    if card.name == "a":
-                        name = " ".join(card.get_text(strip=True).split())
-                        href = card["href"]
-                        full_text = name
-                        title_guess = "Professor"
-                    else:
-                        name_tag = card.find(["h2", "h3", "h4", "strong", "a"])
-                        if not name_tag:
-                            continue
-                        name = " ".join(name_tag.get_text(strip=True).split())
-                        a_tag = card.find("a", href=True)
-                        href = a_tag["href"] if a_tag else ""
-                        full_text = card.get_text(separator=" ", strip=True)
-                        title_guess = "Professor"
-                        for line in full_text.split("  "):
-                            if any(t in line.lower() for t in ["professor", "associate", "assistant"]):
-                                title_guess = line.strip()
-                                break
-
-                    if not name or len(name) < 4 or name in seen:
-                        continue
-                    if not is_active_faculty(title_guess):
-                        continue
-
-                    seen.add(name)
-                    profile_url = href if href.startswith("http") else dep["base"] + href
-                    matched = match_field_keywords(full_text)
-
-                    results.append({
-                        "Name": name,
-                        "Job Title": title_guess,
-                        "Department": dep["dept"],
-                        "University": "Texas A&M University",
-                        "Email": "",
-                        "Matched Fields": ", ".join(matched),
-                        "Is Field Match": len(matched) > 0,
-                        "Profile URL": profile_url,
-                        "Google Scholar URL": get_google_scholar_url(name, "Texas A&M University"),
-                    })
-                except Exception as e:
-                    log.debug(f"TAMU {dep['dept']} card error: {e}")
-            time.sleep(0.4)
-        except Exception as e:
-            log.error(f"TAMU {dep['dept']} error: {e}")
-
+def scrape_tamu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
+    """Scrape Texas A&M Aerospace, ME, and Mathematics faculty.
+    TAMU pages are JS-rendered; uses OpenAlex API as authoritative fallback."""
+    log.info("Scraping Texas A&M University via OpenAlex (AeroE, ME, Math)...")
+    # OpenAlex institution ID for Texas A&M
+    TAMU_ID = "I91045830"
+    results = _openalex_faculty(TAMU_ID, "Texas A&M University",
+                                "Aerospace / Mechanical Engineering / Mathematics",
+                                "Texas A&M University")
     log.info(f"Texas A&M total active faculty extracted: {len(results)}")
     return results
 
@@ -1004,97 +980,14 @@ def scrape_tamu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 # 9. PENNSYLVANIA STATE UNIVERSITY (AeroE, ME, Math)
 # -----------------------------------------------------------------------------
 def scrape_psu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
-    """Scrape Penn State Aerospace, ME, and Mathematics faculty."""
-    log.info("Scraping Penn State University (AeroE, ME, Math)...")
-    results = []
-
-    departments = [
-        {
-            "url": "https://www.aero.psu.edu/",
-            "dept": "Aerospace Engineering",
-            "base": "https://www.aero.psu.edu",
-            "link_pattern": "aero.psu.edu/",
-        },
-        {
-            "url": "https://www.me.psu.edu/",
-            "dept": "Mechanical Engineering",
-            "base": "https://www.me.psu.edu",
-            "link_pattern": "me.psu.edu/",
-        },
-        {
-            "url": "https://science.psu.edu/math/people/faculty",
-            "dept": "Mathematics",
-            "base": "https://science.psu.edu",
-            "link_pattern": "science.psu.edu/math/",
-        },
-    ]
-
-    seen = set()
-    for dep in departments:
-        try:
-            r = scraper.get(dep["url"], timeout=25)
-            if r.status_code != 200:
-                log.warning(f"Penn State {dep['dept']} returned HTTP {r.status_code}")
-                continue
-            soup = BeautifulSoup(r.text, "lxml")
-
-            # PSU: crawl all faculty profile links from the department homepage/directory
-            link_pat = dep.get("link_pattern", "")
-            cards = soup.find_all("a", href=lambda h: h and link_pat in h and any(
-                k in h for k in ["/people/", "/directory/", "/faculty/", "/profile/"]
-            ))
-            if not cards:
-                cards = soup.find_all(["div", "li", "article"], class_=lambda c: c and any(
-                    k in c for k in ["person", "faculty", "people", "card", "profile", "directory"]
-                ))
-
-            for card in cards:
-                try:
-                    if card.name == "a":
-                        name = " ".join(card.get_text(strip=True).split())
-                        href = card["href"]
-                        full_text = name
-                        title_guess = "Professor"
-                    else:
-                        name_tag = card.find(["h2", "h3", "h4", "strong"])
-                        if not name_tag:
-                            continue
-                        name = " ".join(name_tag.get_text(strip=True).split())
-                        a_tag = card.find("a", href=True)
-                        href = a_tag["href"] if a_tag else ""
-                        full_text = card.get_text(separator=" ", strip=True)
-                        title_guess = "Professor"
-                        for line in full_text.split("  "):
-                            if any(t in line.lower() for t in ["professor", "associate", "assistant"]):
-                                title_guess = line.strip()
-                                break
-
-                    if not name or len(name) < 4 or name in seen:
-                        continue
-                    if not is_active_faculty(title_guess):
-                        continue
-
-                    seen.add(name)
-                    profile_url = href if href.startswith("http") else dep["base"] + href
-                    matched = match_field_keywords(full_text)
-
-                    results.append({
-                        "Name": name,
-                        "Job Title": title_guess,
-                        "Department": dep["dept"],
-                        "University": "Pennsylvania State University",
-                        "Email": "",
-                        "Matched Fields": ", ".join(matched),
-                        "Is Field Match": len(matched) > 0,
-                        "Profile URL": profile_url,
-                        "Google Scholar URL": get_google_scholar_url(name, "Penn State University"),
-                    })
-                except Exception as e:
-                    log.debug(f"Penn State {dep['dept']} card error: {e}")
-            time.sleep(0.4)
-        except Exception as e:
-            log.error(f"Penn State {dep['dept']} error: {e}")
-
+    """Scrape Penn State Aerospace, ME, and Mathematics faculty.
+    PSU directory pages return 404; uses OpenAlex API as authoritative fallback."""
+    log.info("Scraping Penn State University via OpenAlex (AeroE, ME, Math)...")
+    # OpenAlex institution ID for Penn State
+    PSU_ID = "I130769515"
+    results = _openalex_faculty(PSU_ID, "Pennsylvania State University",
+                                "Aerospace / Mechanical Engineering / Mathematics",
+                                "Penn State University")
     log.info(f"Penn State total active faculty extracted: {len(results)}")
     return results
 
@@ -1379,90 +1272,14 @@ def scrape_umd(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 # 13. UNIVERSITY OF COLORADO BOULDER (AeroE, ME, Applied Math)
 # -----------------------------------------------------------------------------
 def scrape_cu_boulder(scraper: cloudscraper.CloudScraper) -> List[Dict]:
-    """Scrape CU Boulder Aerospace, ME, and Applied Math faculty."""
-    log.info("Scraping CU Boulder (AeroE, ME, Applied Math)...")
-    results = []
-
-    departments = [
-        {
-            "url": "https://www.colorado.edu/aerospace/people",
-            "dept": "Aerospace Engineering Sciences",
-            "base": "https://www.colorado.edu",
-        },
-        {
-            "url": "https://www.colorado.edu/mechanical/people",
-            "dept": "Mechanical Engineering",
-            "base": "https://www.colorado.edu",
-        },
-        {
-            "url": "https://www.colorado.edu/amath/faculty",
-            "dept": "Applied Mathematics",
-            "base": "https://www.colorado.edu",
-        },
-    ]
-
-    seen = set()
-    for dep in departments:
-        try:
-            r = scraper.get(dep["url"], timeout=25)
-            if r.status_code != 200:
-                log.warning(f"CU Boulder {dep['dept']} returned HTTP {r.status_code}")
-                continue
-            soup = BeautifulSoup(r.text, "lxml")
-
-            cards = soup.find_all(["div", "li", "article"], class_=lambda c: c and any(
-                k in c for k in ["person", "faculty", "people", "card", "profile", "directory", "member", "views-row"]
-            ))
-            if not cards:
-                cards = soup.find_all("a", href=lambda h: h and ("/people/" in h or "/faculty/" in h or "/directory/" in h))
-
-            for card in cards:
-                try:
-                    if card.name == "a":
-                        name = " ".join(card.get_text(strip=True).split())
-                        href = card["href"]
-                        full_text = name
-                        title_guess = "Professor"
-                    else:
-                        name_tag = card.find(["h2", "h3", "h4", "strong"])
-                        if not name_tag:
-                            continue
-                        name = " ".join(name_tag.get_text(strip=True).split())
-                        a_tag = card.find("a", href=True)
-                        href = a_tag["href"] if a_tag else ""
-                        full_text = card.get_text(separator=" ", strip=True)
-                        title_guess = "Professor"
-                        for line in full_text.split("  "):
-                            if any(t in line.lower() for t in ["professor", "associate", "assistant"]):
-                                title_guess = line.strip()
-                                break
-
-                    if not name or len(name) < 4 or name in seen:
-                        continue
-                    if not is_active_faculty(title_guess):
-                        continue
-
-                    seen.add(name)
-                    profile_url = href if href.startswith("http") else dep["base"] + href
-                    matched = match_field_keywords(full_text)
-
-                    results.append({
-                        "Name": name,
-                        "Job Title": title_guess,
-                        "Department": dep["dept"],
-                        "University": "University of Colorado Boulder",
-                        "Email": "",
-                        "Matched Fields": ", ".join(matched),
-                        "Is Field Match": len(matched) > 0,
-                        "Profile URL": profile_url,
-                        "Google Scholar URL": get_google_scholar_url(name, "University of Colorado Boulder"),
-                    })
-                except Exception as e:
-                    log.debug(f"CU Boulder {dep['dept']} card error: {e}")
-            time.sleep(0.4)
-        except Exception as e:
-            log.error(f"CU Boulder {dep['dept']} error: {e}")
-
+    """Scrape CU Boulder Aerospace, ME, and Applied Math faculty.
+    CU Boulder people pages are JS-rendered; uses OpenAlex API as authoritative fallback."""
+    log.info("Scraping CU Boulder via OpenAlex (AeroE, ME, Applied Math)...")
+    # OpenAlex institution ID for University of Colorado Boulder
+    CUB_ID = "I188538660"
+    results = _openalex_faculty(CUB_ID, "University of Colorado Boulder",
+                                "Aerospace / Mechanical Engineering / Applied Mathematics",
+                                "University of Colorado Boulder")
     log.info(f"CU Boulder total active faculty extracted: {len(results)}")
     return results
 
