@@ -388,8 +388,8 @@ def main():
                 recent = sorted(works, key=lambda w: w.get("publication_year", 0), reverse=True)
                 recent_paper = recent[0] if recent else {}
 
-                doi = most_cited.get("doi", "")
-                paper_url = doi if doi.startswith("http") else (f"https://doi.org/{doi.lstrip('/')}" if doi else most_cited.get("id", ""))
+                doi = most_cited.get("doi") or ""
+                paper_url = doi if doi.startswith("http") else (f"https://doi.org/{doi.lstrip('/')}" if doi else (most_cited.get("id") or ""))
 
                 lead = {
                     "Name": author_name,
