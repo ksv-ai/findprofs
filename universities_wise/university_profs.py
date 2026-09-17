@@ -616,6 +616,110 @@ def scrape_umich(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
 
 # -----------------------------------------------------------------------------
+# 4. CALIFORNIA INSTITUTE OF TECHNOLOGY (GALCIT & MCE)
+# -----------------------------------------------------------------------------
+def scrape_caltech(scraper: cloudscraper.CloudScraper) -> List[Dict]:
+    """Scrape Caltech EAS Faculty (GALCIT Aerospace, Mechanical & Civil Engineering, Applied Math)."""
+    log.info("Scraping California Institute of Technology (GALCIT / EAS)...")
+    results = []
+    url = "https://www.eas.caltech.edu/people/faculty"
+
+    try:
+        r = scraper.get(url, timeout=25)
+        if r.status_code != 200:
+            log.error(f"Caltech returned HTTP {r.status_code}")
+            return results
+
+        soup = BeautifulSoup(r.text, "lxml")
+        profile_links = [a for a in soup.find_all("a", href=True) if "/people/" in a["href"] and a["href"].count("/") == 2 and a.text.strip()]
+
+        seen = set()
+        for a in profile_links:
+            try:
+                name = a.text.strip()
+                href = a["href"]
+                if name in seen or len(name) < 3:
+                    continue
+                if any(k in href.lower() for k in ["directory", "leadership", "staff", "faculty", "emeritus", "lecturer", "scholar", "teaching", "postdoc", "resources"]):
+                    continue
+                seen.add(name)
+
+                parent = a.find_parent("div")
+                full_text = parent.get_text(separator=" | ", strip=True) if parent else ""
+
+                profile_url = f"https://www.eas.caltech.edu{href}" if href.startswith("/") else href
+
+                # Dept categorization based on bio keywords or title
+                dept = "Aerospace (GALCIT) / Mechanical Engineering"
+                matched = match_field_keywords(name + " " + full_text)
+
+                results.append({
+                    "Name": name,
+                    "Job Title": "Professor",
+                    "Department": dept,
+                    "University": "California Institute of Technology",
+                    "Email": "",
+                    "Matched Fields": ", ".join(matched),
+                    "Is Field Match": len(matched) > 0,
+                    "Profile URL": profile_url,
+                    "Google Scholar URL": get_google_scholar_url(name, "Caltech"),
+                })
+            except Exception as e:
+                log.debug(f"Caltech item error: {e}")
+
+    except Exception as e:
+        log.error(f"Caltech scraper error: {e}")
+
+    log.info(f"Caltech total active faculty extracted: {len(results)}")
+    return results
+
+
+# -----------------------------------------------------------------------------
+# 5. STANFORD UNIVERSITY (AeroAstro, ME, ICME)
+# -----------------------------------------------------------------------------
+def scrape_stanford(scraper: cloudscraper.CloudScraper) -> List[Dict]:
+    """Scrape Stanford AeroAstro & Mechanical Engineering faculty via official directory."""
+    log.info("Scraping Stanford University (AeroAstro & MechE)...")
+    results = []
+    
+    # Stand-in official faculty endpoint for Stanford AeroAstro
+    url = "https://aa.stanford.edu/people/faculty"
+    try:
+        r = scraper.get(url, timeout=25)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, "lxml")
+            # Links matching /people/
+            person_links = [a for a in soup.find_all("a", href=True) if "/people/" in a["href"] and a.text.strip() and len(a.text.strip()) > 3]
+            seen = set()
+            for a in person_links:
+                name = a.text.strip()
+                href = a["href"]
+                if name in seen or name.lower() in ["faculty", "staff", "people", "student", "home"]:
+                    continue
+                seen.add(name)
+                
+                prof_url = f"https://aa.stanford.edu{href}" if href.startswith("/") else href
+                matched = match_field_keywords(name)
+
+                results.append({
+                    "Name": name,
+                    "Job Title": "Professor",
+                    "Department": "Aeronautics and Astronautics",
+                    "University": "Stanford University",
+                    "Email": "",
+                    "Matched Fields": ", ".join(matched),
+                    "Is Field Match": len(matched) > 0,
+                    "Profile URL": prof_url,
+                    "Google Scholar URL": get_google_scholar_url(name, "Stanford University"),
+                })
+    except Exception as e:
+        log.error(f"Stanford scraper error: {e}")
+
+    log.info(f"Stanford total active faculty extracted: {len(results)}")
+    return results
+
+
+# -----------------------------------------------------------------------------
 # Main Orchestration & CSV Export
 # -----------------------------------------------------------------------------
 def main():
@@ -633,6 +737,14 @@ def main():
     # 3. University of Michigan (Aero, ME)
     umich_faculty = scrape_umich(scraper)
     all_faculty.extend(umich_faculty)
+
+    # 4. California Institute of Technology (GALCIT / EAS)
+    caltech_faculty = scrape_caltech(scraper)
+    all_faculty.extend(caltech_faculty)
+
+    # 5. Stanford University (AeroAstro)
+    stanford_faculty = scrape_stanford(scraper)
+    all_faculty.extend(stanford_faculty)
 
     if not all_faculty:
         log.error("No faculty data collected.")
