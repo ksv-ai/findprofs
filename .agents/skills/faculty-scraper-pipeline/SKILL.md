@@ -129,6 +129,49 @@ Leverage the OpenAlex API using the active API key to extract publication intell
    - Retrieve works filtered by `publication_year:2024-2026` sorted by year descending.
    - Format with paper title, journal/venue name, year, and direct clickable DOI link.
 4. **Disambiguation Rule**: Cross-reference the author's institutions with the university name and filter topics against aerospace/mechanical keywords to prevent mismatching namesakes.
+5. **Clean & Compact JSON Schema for `openalex_cache/`**:
+   - Instead of saving massive raw OpenAlex payload dumps with thousands of lines of API internals, store a **curated, high-value structured JSON** (modeled after `rows_571_590_openalex.json`):
+   ```json
+   {
+     "name": "Professor Name",
+     "uni": "Institution Name",
+     "author_id": "A...",
+     "author_display_name": "...",
+     "works_count": 150,
+     "cited_by_count": 5200,
+     "top_topics": [
+       {"topic": "Fluid Dynamics", "count": 45}
+     ],
+     "top_cited_works": [
+       {
+         "title": "...",
+         "publication_year": 2020,
+         "doi": "https://doi.org/...",
+         "venue": "Journal of Fluid Mechanics",
+         "cited_by_count": 350,
+         "concepts": ["Turbulence", "CFD"],
+         "abstract": "...",
+         "authors": ["Author 1", "Author 2"]
+       }
+     ],
+     "recent_works": [
+       {
+         "title": "...",
+         "publication_year": 2025,
+         "doi": "https://doi.org/...",
+         "venue": "AIAA Journal",
+         "type": "journal-article",
+         "concepts": ["Hypersonics", "Aerodynamics"],
+         "abstract": "...",
+         "authors": ["Author 1", "Author 2"]
+       }
+     ]
+   }
+   ```
+   - **Why this is better**:
+     - Reduces file size by 80–90% while retaining 100% of the useful information (abstracts, concepts, citations, DOIs, authors).
+     - Far easier to query, inspect, and use for downstream cold email generators or LLM summarization.
+     - Prevents disk exhaustion on large university scraping batches.
 
 ### Step 7: Dual Output Generation & Git Synchronization (Stage 6 & 7)
 1. **Excel Workbook (`<slug>_aerospace_mechanical_faculty.xlsx`)**:

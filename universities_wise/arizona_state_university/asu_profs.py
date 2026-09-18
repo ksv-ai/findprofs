@@ -289,37 +289,82 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     matched_author = results[0]
 
             if matched_author:
-                saved_intel["author_metadata"] = matched_author
+                auth_id = matched_author.get("id", "")
                 topics_raw = matched_author.get("topics", [])
-                if topics_raw:
-                    top_topics = []
-                    for t in topics_raw[:3]:
-                        t_name = t.get("display_name", "")
-                        t_cnt = t.get("count", 0)
-                        if t_name and t_cnt:
-                            top_topics.append(f"{t_name} ({t_cnt})")
-                        elif t_name:
-                            top_topics.append(t_name)
-                    if top_topics:
-                        tags_str = " | ".join(top_topics)
+                top_topics_clean = []
+                top_topics_str_list = []
+                for t in topics_raw[:5]:
+                    t_name = t.get("display_name", "")
+                    t_cnt = t.get("count", 0)
+                    if t_name:
+                        top_topics_clean.append({"topic": t_name, "count": t_cnt})
+                        top_topics_str_list.append(f"{t_name} ({t_cnt})" if t_cnt else t_name)
+                if top_topics_str_list:
+                    tags_str = " | ".join(top_topics_str_list[:3])
 
-                auth_id = matched_author.get("id")
+                clean_profile = {
+                    "name": name,
+                    "uni": "Arizona State University",
+                    "author_id": auth_id.split("/")[-1] if "/" in auth_id else auth_id,
+                    "author_display_name": matched_author.get("display_name", name),
+                    "works_count": matched_author.get("works_count", 0),
+                    "cited_by_count": matched_author.get("cited_by_count", 0),
+                    "top_topics": top_topics_clean,
+                    "top_cited_works": [],
+                    "recent_works": []
+                }
+
+                def clean_work_obj(w: Dict[str, Any]) -> Dict[str, Any]:
+                    source = w.get("primary_location", {}).get("source", {}) if w.get("primary_location") else {}
+                    venue = source.get("display_name", "") if source else ""
+                    doi = w.get("doi") or (w.get("primary_location", {}).get("landing_page_url") if w.get("primary_location") else None)
+                    concepts = [c.get("display_name", "") for c in w.get("concepts", [])[:8] if isinstance(c, dict) and c.get("display_name")]
+                    authors = [a.get("author", {}).get("display_name", "") for a in w.get("authorships", []) if a.get("author", {}).get("display_name")]
+                    
+                    # Reconstruct abstract from inverted index if present
+                    abstract = ""
+                    inv_idx = w.get("abstract_inverted_index")
+                    if inv_idx and isinstance(inv_idx, dict):
+                        word_positions = []
+                        for word, positions in inv_idx.items():
+                            for pos in positions:
+                                word_positions.append((pos, word))
+                        word_positions.sort(key=lambda x: x[0])
+                        abstract = " ".join([wp[1] for wp in word_positions])
+                        if len(abstract) > 1200:
+                            abstract = abstract[:1197] + "..."
+
+                    return {
+                        "title": w.get("title") or "",
+                        "publication_year": w.get("publication_year"),
+                        "publication_date": w.get("publication_date") or "",
+                        "doi": doi or "",
+                        "venue": venue,
+                        "type": w.get("type") or "",
+                        "cited_by_count": w.get("cited_by_count") or 0,
+                        "is_oa": w.get("open_access", {}).get("is_oa", False),
+                        "oa_url": w.get("open_access", {}).get("oa_url") or "",
+                        "concepts": concepts,
+                        "abstract": abstract,
+                        "authors": authors
+                    }
+
                 if auth_id:
                     # 1. Top 3 Cited Papers with Journal, Year, Citations, and DOI URL
                     works_url = f"https://api.openalex.org/works?filter=author.id:{auth_id}&sort=cited_by_count:desc&per_page=3&api_key={OPENALEX_API_KEY}"
                     w_res = requests.get(works_url, timeout=10)
                     if w_res.status_code == 200:
                         works = w_res.json().get("results", [])
-                        saved_intel["top_cited_works"] = works
                         papers_list = []
                         for w in works:
-                            w_title = w.get("title")
-                            w_year = w.get("publication_year")
-                            w_cites = w.get("cited_by_count")
-                            source = w.get("primary_location", {}).get("source", {}) if w.get("primary_location") else {}
-                            j = source.get("display_name", "") if source else ""
+                            cw = clean_work_obj(w)
+                            clean_profile["top_cited_works"].append(cw)
+                            w_title = cw["title"]
+                            w_year = cw["publication_year"]
+                            w_cites = cw["cited_by_count"]
+                            j = cw["venue"]
                             j_str = f" [{j}]" if j else ""
-                            doi = w.get("doi") or (w.get("primary_location", {}).get("landing_page_url") if w.get("primary_location") else None)
+                            doi = cw["doi"]
                             doi_str = f" [DOI: {doi}]" if doi else ""
                             if w_title:
                                 papers_list.append(f'"{w_title}"{j_str} ({w_year}, {w_cites} cites){doi_str}')
@@ -331,26 +376,25 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     r_res = requests.get(recent_url, timeout=10)
                     if r_res.status_code == 200:
                         r_works = r_res.json().get("results", [])
-                        saved_intel["recent_works"] = r_works
                         recent_list = []
                         for w in r_works:
-                            w_title = w.get("title")
-                            w_year = w.get("publication_year")
-                            source = w.get("primary_location", {}).get("source", {}) if w.get("primary_location") else {}
-                            j = source.get("display_name", "") if source else ""
+                            cw = clean_work_obj(w)
+                            clean_profile["recent_works"].append(cw)
+                            w_title = cw["title"]
+                            w_year = cw["publication_year"]
+                            j = cw["venue"]
                             j_str = f" [{j}]" if j else ""
-                            doi = w.get("doi") or (w.get("primary_location", {}).get("landing_page_url") if w.get("primary_location") else None)
+                            doi = cw["doi"]
                             doi_str = f" [DOI: {doi}]" if doi else ""
                             if w_title:
                                 recent_list.append(f'"{w_title}"{j_str} ({w_year}){doi_str}')
                         if recent_list:
                             recent_papers_str = " | ".join(recent_list)
 
-        # Store complete JSON extraction for future reference
-        if saved_intel.get("author_metadata"):
-            import json
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(saved_intel, f, indent=2, ensure_ascii=False)
+                    # Write compact, clean, highly informative JSON cache
+                    import json
+                    with open(cache_file, "w", encoding="utf-8") as f:
+                        json.dump(clean_profile, f, indent=2, ensure_ascii=False)
 
     except Exception as e:
         log.debug(f"Error fetching academic scholar intel for {name}: {e}")
