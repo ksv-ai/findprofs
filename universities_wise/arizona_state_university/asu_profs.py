@@ -288,25 +288,60 @@ def main():
 
     df = pd.DataFrame(faculty)
     df.drop_duplicates(subset=["Name", "University", "Department"], inplace=True)
+    # Sort professors alphabetically from A to Z
+    df.sort_values(by="Name", key=lambda col: col.str.strip().str.lower(), inplace=True)
     df.reset_index(drop=True, inplace=True)
 
     # 1. Export ALL Active Faculty
     output_all_csv = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.csv")
     df.to_csv(output_all_csv, index=False, encoding="utf-8-sig")
-    log.info(f"\nSuccessfully exported ALL {len(df)} faculty to: {output_all_csv}")
+    log.info(f"\nSuccessfully exported ALL {len(df)} faculty (sorted A-Z) to: {output_all_csv}")
 
     # 2. Export Field-Matched Faculty
     field_matched_df = df[df["Is Field Match"] == True].copy()
+    field_matched_df.sort_values(by="Name", key=lambda col: col.str.strip().str.lower(), inplace=True)
+    field_matched_df.reset_index(drop=True, inplace=True)
     output_matched_csv = os.path.join(script_dir, "asu_aerospace_mechanical_faculty_field_matched.csv")
     field_matched_df.to_csv(output_matched_csv, index=False, encoding="utf-8-sig")
-    log.info(f"Successfully exported {len(field_matched_df)} FIELD-MATCHED faculty to: {output_matched_csv}")
+    log.info(f"Successfully exported {len(field_matched_df)} FIELD-MATCHED faculty (sorted A-Z) to: {output_matched_csv}")
 
-    # 3. Export JSON & Excel for comprehensive tracking
+    # 3. Export JSON & Excel with clickable hyperlinks
     output_json = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.json")
     df.to_json(output_json, orient="records", indent=2)
+
     output_xlsx = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
-    df.to_excel(output_xlsx, index=False)
-    log.info(f"Also exported JSON to {output_json} and Excel to {output_xlsx}")
+    with pd.ExcelWriter(output_xlsx, engine='openpyxl') as writer:
+        df.to_excel(writer, sheet_name='All Faculty A-Z', index=False)
+        field_matched_df.to_excel(writer, sheet_name='Field Matched A-Z', index=False)
+
+        for sheetname in ['All Faculty A-Z', 'Field Matched A-Z']:
+            ws = writer.sheets[sheetname]
+            header = [cell.value for cell in ws[1]]
+            prof_col = header.index("Profile URL") + 1 if "Profile URL" in header else None
+            scholar_col = header.index("Google Scholar URL") + 1 if "Google Scholar URL" in header else None
+            email_col = header.index("Email") + 1 if "Email" in header else None
+
+            for row in range(2, ws.max_row + 1):
+                if prof_col:
+                    val = ws.cell(row=row, column=prof_col).value
+                    if val and str(val).startswith("http"):
+                        cell = ws.cell(row=row, column=prof_col)
+                        cell.hyperlink = str(val)
+                        cell.style = "Hyperlink"
+                if scholar_col:
+                    val = ws.cell(row=row, column=scholar_col).value
+                    if val and str(val).startswith("http"):
+                        cell = ws.cell(row=row, column=scholar_col)
+                        cell.hyperlink = str(val)
+                        cell.style = "Hyperlink"
+                if email_col:
+                    val = ws.cell(row=row, column=email_col).value
+                    if val and "@" in str(val):
+                        cell = ws.cell(row=row, column=email_col)
+                        cell.hyperlink = f"mailto:{val}"
+                        cell.style = "Hyperlink"
+
+    log.info(f"Also exported JSON to {output_json} and clickable Excel to {output_xlsx}")
 
     # Preview
     print("\n" + "=" * 90)
