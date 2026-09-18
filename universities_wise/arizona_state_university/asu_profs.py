@@ -276,6 +276,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                     "Scholar ID": scholar_id,
                     "Profile URL": profile_url,
                     "Google Scholar URL": "",  # will be generated
+                    "Directory URL": "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/",
                     "asurite": asurite
                 })
 
@@ -329,7 +330,8 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
     columns_to_export = [
         "Name", "Job Title", "Department", "University", "Email",
         "Matched Count", "Matched Fields", "Research Interests", "Expertise Areas",
-        "Research / Bio Summary", "Is Field Match", "Scholar ID", "Profile URL", "Google Scholar URL"
+        "Research / Bio Summary", "Is Field Match", "Scholar ID", "Profile URL",
+        "Google Scholar URL", "Directory URL"
     ]
 
     sheets_data = [
@@ -352,6 +354,7 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
         prof_col_idx = columns_to_export.index("Profile URL")
         scholar_col_idx = columns_to_export.index("Google Scholar URL")
         email_col_idx = columns_to_export.index("Email")
+        dir_col_idx = columns_to_export.index("Directory URL")
 
         for r_idx, row_dict in enumerate(data_rows):
             row_values = [row_dict.get(c, "") for c in columns_to_export]
@@ -362,6 +365,7 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
             s_url = row_dict.get("Google Scholar URL", "")
             email = row_dict.get("Email", "")
             s_id = row_dict.get("Scholar ID", "")
+            d_url = row_dict.get("Directory URL", "")
 
             if p_url.startswith("http"):
                 row_values[prof_col_idx] = f'=HYPERLINK("{p_url}", "{p_url}")'
@@ -372,6 +376,9 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
 
             if email and "@" in email:
                 row_values[email_col_idx] = f'=HYPERLINK("mailto:{email}", "{email}")'
+
+            if d_url.startswith("http"):
+                row_values[dir_col_idx] = f'=HYPERLINK("{d_url}", "{d_url}")'
 
             ws.append(row_values)
 
@@ -389,6 +396,9 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
                     cell.font = link_font
                 elif c_idx - 1 == email_col_idx and "@" in email:
                     cell.hyperlink = f"mailto:{email}"
+                    cell.font = link_font
+                elif c_idx - 1 == dir_col_idx and d_url.startswith("http"):
+                    cell.hyperlink = d_url
                     cell.font = link_font
 
         # Auto-fit column widths
