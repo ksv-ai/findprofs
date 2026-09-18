@@ -70,7 +70,7 @@ For each faculty member with an active lab URL, the scraper visits their lab hom
 
 ---
 
-## 3. Columns in the Dataset (29 Total — Cold Email Outreach Architecture)
+## 3. Columns in the Dataset (32 Total — Cold Email Outreach Architecture)
 
 | Col # | Column Name | Description | Example Real Data |
 | :---: | :--- | :--- | :--- |
@@ -85,24 +85,27 @@ For each faculty member with an active lab URL, the scraper visits their lab hom
 | 9 | `Matched Count` | Total field keywords matched (Primary sort) | `7` |
 | 10 | `Matched Fields` | List of matched research fields | `aerospace, guidance, heat transfer, materials...` |
 | 11 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) | `Simultaneous velocity and density measurements...` |
-| 12 | `Courses Taught` | Filtered lecture courses taught | `MAE 241: Intro to Thermodynamics \| MAE 501...` |
-| 13 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER | `2017 AFOSR Young Investigator (YIP) Award` |
-| 14 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails | `Email me your CV along with a 1-2 page document...` |
-| 15 | `Research Interests` | Scraped research interests | `Nanoscale radiative transfer, metamaterials` |
-| 16 | `Expertise Areas` | Scraped expertise categories | `Energy, Heat Transfer, Nanotechnology` |
-| 17 | `Research / Bio Summary` | Bio summary | `Associate Professor of Mechanical Engineering...` |
-| 18 | `Education / Degrees` | Degrees and alma maters | `Ph.D. Mechanical Engineering, Georgia Tech 2011` |
-| 19 | `Lab / Research Group Name` | Official research lab name | `Nanoscale Thermal Radiation Lab` |
-| 20 | `Lab / Personal Website` | Lab homepage URL (hyperlinked) | `http://faculty.engineering.asu.edu/lpwang` |
-| 21 | `Actively Hiring / Openings` | Live hiring notice from lab | `Multiple UG/MS research positions available...` |
-| 22 | `Target Skills / Prerequisites` | Required technical skills | `Python, PyTorch, ROS2, Linear Algebra, CFD` |
-| 23 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware | `Towing Tank, GPU Cluster, 3D Printer, AFM` |
-| 24 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
-| 25 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
-| 26 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
-| 27 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
-| 28 | `Is Field Match` | Boolean filter flag | `TRUE` |
-| 29 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
+| 12 | `Recent Papers (2024-2026)` | 3 recent papers with journal & year | `"Self-adaptive thermal regulation..." [Solar Energy] (2026)` |
+| 13 | `Top Cited Papers` | 3 landmark papers with journal, year & cites | `"Perfect selective metamaterial..." [Optics Express] (2013, 350 cites)` |
+| 14 | `Courses Taught` | Filtered lecture courses taught | `MAE 241: Intro to Thermodynamics \| MAE 501...` |
+| 15 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER | `2017 AFOSR Young Investigator (YIP) Award` |
+| 16 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails | `Email me your CV along with a 1-2 page document...` |
+| 17 | `Google Scholar Tags` | Official research interest tags | `Thermal Radiation and Cooling, Metamaterials` |
+| 18 | `Research Interests` | Scraped research interests | `Nanoscale radiative transfer, metamaterials` |
+| 19 | `Expertise Areas` | Scraped expertise categories | `Energy, Heat Transfer, Nanotechnology` |
+| 20 | `Research / Bio Summary` | Bio summary | `Associate Professor of Mechanical Engineering...` |
+| 21 | `Education / Degrees` | Degrees and alma maters | `Ph.D. Mechanical Engineering, Georgia Tech 2011` |
+| 22 | `Lab / Research Group Name` | Official research lab name | `Nanoscale Thermal Radiation Lab` |
+| 23 | `Lab / Personal Website` | Lab homepage URL (hyperlinked) | `http://faculty.engineering.asu.edu/lpwang` |
+| 24 | `Actively Hiring / Openings` | Live hiring notice from lab | `Multiple UG/MS research positions available...` |
+| 25 | `Target Skills / Prerequisites` | Required technical skills | `Python, PyTorch, ROS2, Linear Algebra, CFD` |
+| 26 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware | `Towing Tank, GPU Cluster, 3D Printer, AFM` |
+| 27 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
+| 28 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
+| 29 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
+| 30 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
+| 31 | `Is Field Match` | Boolean filter flag | `TRUE` |
+| 32 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
 
 The Excel workbook contains two sheets:
 1. **`Field Matched`**: Filtered cohort with `Matched Count > 0`, sorted descending by matched count.

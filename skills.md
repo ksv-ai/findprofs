@@ -29,7 +29,7 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 
 ---
 
-## 2. Standardized 29-Column Dataset Schema (Cold Outreach Architecture)
+## 2. Standardized 32-Column Dataset Schema (Cold Outreach Architecture)
 
 Every university extraction pipeline outputs an Excel workbook with two clean sheets:
 1. **`Field Matched`**: Only professors with `Matched Count > 0`, sorted descending.
@@ -50,24 +50,27 @@ Every university extraction pipeline outputs an Excel workbook with two clean sh
 | 9 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
 | 10 | `Matched Fields` | Comma-separated list of matched field keywords |
 | 11 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
-| 12 | `Courses Taught` | Filtered lecture courses taught |
-| 13 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
-| 14 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
-| 15 | `Research Interests` | Specific research topic tags |
-| 16 | `Expertise Areas` | High-level research domain taxonomy |
-| 17 | `Research / Bio Summary` | Bio summary or research focus paragraph |
-| 18 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 19 | `Lab / Research Group Name` | Official research lab or group title |
-| 20 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 21 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 22 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 23 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
-| 24 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 25 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 26 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 27 | `Office Location` | Building and room number |
-| 28 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 29 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 12 | `Recent Papers (2024-2026)` | 3 recent papers with journal & year (cold email hook) |
+| 13 | `Top Cited Papers` | 3 landmark papers with journal, year & citation count |
+| 14 | `Courses Taught` | Filtered lecture courses taught |
+| 15 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
+| 16 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
+| 17 | `Google Scholar Tags` | Official research interest tags |
+| 18 | `Research Interests` | Specific research topic tags |
+| 19 | `Expertise Areas` | High-level research domain taxonomy |
+| 20 | `Research / Bio Summary` | Bio summary or research focus paragraph |
+| 21 | `Education / Degrees` | Degrees, institutions, and graduation years |
+| 22 | `Lab / Research Group Name` | Official research lab or group title |
+| 23 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 24 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 25 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
+| 26 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
+| 27 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 28 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 29 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 30 | `Office Location` | Building and room number |
+| 31 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 32 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 
