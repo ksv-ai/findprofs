@@ -509,20 +509,26 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
     field_matched_list = [f for f in faculty_list if f["Is Field Match"]]
     field_matched_list.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
 
-    # Complete columns requested by user
+    # Reordered columns: High-value / primary info first, followed by lab intelligence, profile links, and directory URL
     columns_to_export = [
-        "Name", "Job Title", "Department", "University", "Email",
-        "Matched Count", "Matched Fields", "Research Interests", "Expertise Areas",
-        "Research / Bio Summary", "Education / Degrees", "Lab / Research Group Name",
-        "Actively Hiring / Openings", "Target Skills / Prerequisites", "Funding Sponsors",
-        "Software / Code Repo", "Latest Project / Highlight", "Office Location",
-        "Lab / Personal Website", "Is Field Match", "Scholar ID", "Profile URL",
-        "Google Scholar URL", "Directory URL"
+        # 1. Primary Identification & Contact
+        "Name", "Job Title", "Email", "University", "Department",
+        # 2. Research Match Relevance (Sorted primary criteria)
+        "Matched Count", "Matched Fields",
+        # 3. Lab Intelligence & Active Hiring
+        "Actively Hiring / Openings", "Lab / Research Group Name", "Lab / Personal Website",
+        "Target Skills / Prerequisites", "Funding Sponsors", "Software / Code Repo",
+        "Latest Project / Highlight",
+        # 4. Research Details & Background
+        "Research Interests", "Expertise Areas", "Research / Bio Summary", "Education / Degrees",
+        # 5. Direct Links & Location
+        "Google Scholar URL", "Scholar ID", "Profile URL", "Office Location", "Is Field Match",
+        "Directory URL"
     ]
 
     sheets_data = [
-        ("Field Matched (Max Keywords)", field_matched_list),
-        ("All Faculty (Max Keywords)", faculty_list)
+        ("Field Matched", field_matched_list),
+        ("All Faculty", faculty_list)
     ]
 
     for sheet_title, data_rows in sheets_data:

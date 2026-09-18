@@ -29,11 +29,11 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 
 ---
 
-## 2. Standardized 24-Column Dataset Schema
+## 2. Standardized 24-Column Dataset Schema (Logically Ordered)
 
-Every university extraction pipeline outputs an Excel workbook with two sheets:
-1. **`Field Matched (Max Keywords)`**: Only professors with `Matched Count > 0`, sorted descending.
-2. **`All Faculty (Max Keywords)`**: Complete cohort of verified active faculty, sorted descending by matched count.
+Every university extraction pipeline outputs an Excel workbook with two clean sheets:
+1. **`Field Matched`**: Only professors with `Matched Count > 0`, sorted descending.
+2. **`All Faculty`**: Complete cohort of verified active faculty, sorted descending by matched count.
 
 ### Column Specification:
 
@@ -41,27 +41,27 @@ Every university extraction pipeline outputs an Excel workbook with two sheets:
 | :---: | :--- | :--- |
 | 1 | `Name` | Faculty full name |
 | 2 | `Job Title` | Academic rank (Professor, Associate Professor, Assistant Professor) |
-| 3 | `Department` | Department / School name |
+| 3 | `Email` | Hyperlinked email address (`mailto:`) |
 | 4 | `University` | Institution name |
-| 5 | `Email` | Hyperlinked email address (`mailto:`) |
+| 5 | `Department` | Department / School name |
 | 6 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
 | 7 | `Matched Fields` | Comma-separated list of matched field keywords |
-| 8 | `Research Interests` | Specific research topic tags |
-| 9 | `Expertise Areas` | High-level research domain taxonomy |
-| 10 | `Research / Bio Summary` | Bio summary or research focus paragraph |
-| 11 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 12 | `Lab / Research Group Name` | Official research lab or group title |
-| 13 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 14 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 15 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 16 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 17 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 18 | `Office Location` | Building and room number |
-| 19 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 20 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 21 | `Scholar ID` | Direct Google Scholar 12-character User ID |
-| 22 | `Profile URL` | Official university directory profile page (hyperlinked) |
-| 23 | `Google Scholar URL` | Direct Scholar URL with `user=<id>` or targeted search |
+| 8 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 9 | `Lab / Research Group Name` | Official research lab or group title |
+| 10 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 11 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
+| 12 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 13 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 14 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 15 | `Research Interests` | Specific research topic tags |
+| 16 | `Expertise Areas` | High-level research domain taxonomy |
+| 17 | `Research / Bio Summary` | Bio summary or research focus paragraph |
+| 18 | `Education / Degrees` | Degrees, institutions, and graduation years |
+| 19 | `Google Scholar URL` | Direct Scholar URL with `user=<id>` or targeted search |
+| 20 | `Scholar ID` | Direct Google Scholar 12-character User ID |
+| 21 | `Profile URL` | Official university directory profile page (hyperlinked) |
+| 22 | `Office Location` | Building and room number |
+| 23 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
 | 24 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
