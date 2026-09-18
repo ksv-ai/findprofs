@@ -3,7 +3,7 @@ import re
 import time
 import logging
 import urllib.parse
-from typing import List, Dict
+from typing import List, Dict, Any, Optional
 
 import cloudscraper
 import openpyxl
@@ -14,7 +14,66 @@ from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 log = logging.getLogger("asu_scraper")
 
-# Comprehensive research keywords from fields.txt and user instructions
+# =============================================================================
+# 1. DYNAMIC COLUMN CONFIGURATION & ORDERING
+# =============================================================================
+# To change column order, simply rearrange the strings in this list!
+# Everything downstream (dictionary creation, headers, cells, hyperlinks, widths)
+# automatically references the exact column name dynamically.
+# =============================================================================
+COLUMNS_CONFIG = [
+    # 1. Primary Identification & Contact
+    "Name",
+    "Job Title",
+    "Email",
+    "University",
+    "Department",
+
+    # 2. Research Match Relevance (Primary sorting criteria)
+    "Matched Count",
+    "Matched Fields",
+
+    # 3. Lab Intelligence & Active Hiring
+    "Actively Hiring / Openings",
+    "Lab / Research Group Name",
+    "Lab / Personal Website",
+    "Target Skills / Prerequisites",
+    "Funding Sponsors",
+    "Software / Code Repo",
+    "Latest Project / Highlight",
+
+    # 4. Research Details & Background
+    "Research Interests",
+    "Expertise Areas",
+    "Research / Bio Summary",
+    "Education / Degrees",
+
+    # 5. Direct Links & Location
+    "Google Scholar URL",
+    "Scholar ID",
+    "Profile URL",
+    "Office Location",
+    "Is Field Match",
+    "Directory URL",
+]
+
+# Formatting rules mapped to Column Names dynamically
+# (Independent of the column index/position!)
+HYPERLINK_RULES = {
+    "Profile URL": lambda val, row: (val, val) if str(val).startswith("http") else None,
+    "Google Scholar URL": lambda val, row: (
+        val,
+        f"Scholar ({row.get('Scholar ID', '')})" if row.get('Scholar ID') else "Google Scholar Search"
+    ) if str(val).startswith("http") else None,
+    "Email": lambda val, row: (f"mailto:{val}", val) if "@" in str(val) else None,
+    "Lab / Personal Website": lambda val, row: (val, val) if str(val).startswith("http") else None,
+    "Software / Code Repo": lambda val, row: (val.split(",")[0].strip(), val) if str(val).startswith("http") else None,
+    "Directory URL": lambda val, row: (val, val) if str(val).startswith("http") else None,
+}
+
+# =============================================================================
+# 2. KEYWORD ONTOLOGY & EXCLUSIONS
+# =============================================================================
 TARGET_KEYWORDS = [
     # Turbulence & CFD
     "turbulence", "turbulent", "direct numerical simulation", "dns",
@@ -44,14 +103,12 @@ TARGET_KEYWORDS = [
     "unmanned aerial vehicles", "entry vehicles", "reentry vehicles", "launch vehicles",
 ]
 
-# Strict exclusions for inactive, emeritus, retired, or non-regular faculty
 EXCLUDED_KEYWORDS = [
     "emeritus", "retired", "adjunct", "visiting", "lecturer", "staff",
     "postdoc", "courtesy", "administrative", "coordinator", "advisor",
     "manager", "instructor", "emerita"
 ]
 
-# Verified manual Google Scholar IDs
 KNOWN_SCHOLAR_IDS = {
     "Kangping Chen": "xT-lX9sAAAAJ",
     "Alberto Scotti": "HRx2lJQAAAAJ",
@@ -75,7 +132,6 @@ KNOWN_SCHOLAR_IDS = {
     "Wonmo Kang": "bHyyOTAAAAAJ",
 }
 
-# Verified faculty lab / research group names
 KNOWN_LAB_NAMES = {
     "Hamidreza Marvi": "Bio-Inspired Robotics, Technology, and Healthcare Laboratory (BIRTH Lab)",
     "Wanxin Jin": "Intelligent Robotics and Interactive Systems Lab (IRIS Lab)",
@@ -102,12 +158,7 @@ KNOWN_LAB_NAMES = {
 
 
 def is_active_faculty(item: Dict) -> bool:
-    """
-    Strict active faculty filter:
-    Inspects ALL titles, affiliations, subaffiliations, and department records.
-    Immediately rejects any faculty member with emeritus, retired, adjunct,
-    visiting, lecturer, instructor, postdoc, or staff designations.
-    """
+    """Strict active faculty filter: rejects any emeritus, retired, adjunct, or non-regular staff."""
     all_strs = []
     for k in [
         'primary_title', 'working_title', 'titles', 'home_rank_description',
@@ -128,7 +179,7 @@ def is_active_faculty(item: Dict) -> bool:
 
 
 def resolve_faculty_title(item: Dict) -> str:
-    """Resolves the most appropriate academic faculty title."""
+    """Resolves the academic title."""
     primary_titles = item.get("primary_title", {}).get("raw") or []
     working_titles = item.get("working_title", {}).get("raw") or []
     all_titles = item.get("titles", {}).get("raw") or []
@@ -188,10 +239,9 @@ def create_browser_session() -> cloudscraper.CloudScraper:
 
 
 def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[str, str]:
-    """Scrapes hiring status, required prereqs, funding sponsors, code repos, and highlights from lab website."""
     details = {
-        "Hiring Status": "",
-        "Required Skills / Prereqs": "",
+        "Actively Hiring / Openings": "",
+        "Target Skills / Prerequisites": "",
         "Funding Sponsors": "",
         "Software / Code Repo": "",
         "Latest Project / Highlight": ""
@@ -213,10 +263,10 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
             for s in sentences:
                 s_clean = " ".join(s.split())
                 if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and len(s_clean) < 140 and len(s_clean) > 15:
-                    details["Hiring Status"] = s_clean
+                    details["Actively Hiring / Openings"] = s_clean
                     break
-            if not details["Hiring Status"]:
-                details["Hiring Status"] = "Actively recruiting / Openings mentioned on lab site"
+            if not details["Actively Hiring / Openings"]:
+                details["Actively Hiring / Openings"] = "Actively recruiting / Openings mentioned on lab site"
 
         # 2. Required Skills & Prereqs
         prereqs = []
@@ -225,7 +275,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
             if re.search(pattern, page_text):
                 prereqs.append(sk)
         if prereqs:
-            details["Required Skills / Prereqs"] = ", ".join(prereqs)
+            details["Target Skills / Prerequisites"] = ", ".join(prereqs)
 
         # 3. Funding Agencies & Sponsors
         sponsors = set()
@@ -259,7 +309,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
     return details
 
 
-def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
+def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
     log.info("Scraping Arizona State University (SEMTE - Aerospace & Mechanical Engineering)...")
     results = []
     seen = set()
@@ -295,7 +345,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
         for item in raw_items:
             try:
-                # 1. STRICT ACTIVE FACULTY FILTER (removes emeritus, retired, adjunct, etc.)
+                # 1. Active Faculty Filter (Strict: No Emeritus / Retired)
                 if not is_active_faculty(item):
                     continue
 
@@ -349,7 +399,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                         skills_found = [s for s in ["Python", "PyTorch", "ROS", "ROS2", "C/C++", "Linear Algebra", "Control"] if s in rg_text]
                         prereqs = ", ".join(skills_found)
 
-                # 4. Text for field matching & research profiles
+                # 4. Text for field matching
                 bio = item.get("bio", {}).get("raw") or ""
                 short_bio = item.get("short_bio", {}).get("raw") or ""
                 research_interests = item.get("research_interests", {}).get("raw") or ""
@@ -383,33 +433,35 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
                 scholar_id = KNOWN_SCHOLAR_IDS.get(name, "")
 
-                results.append({
+                # Store by exact column key matching COLUMNS_CONFIG
+                faculty_dict = {
                     "Name": name,
                     "Job Title": title,
-                    "Department": "Aerospace & Mechanical Engineering",
-                    "University": "Arizona State University",
                     "Email": email,
+                    "University": "Arizona State University",
+                    "Department": "Aerospace & Mechanical Engineering",
                     "Matched Count": len(matched),
                     "Matched Fields": ", ".join(matched),
-                    "Research Interests": clean_interests if clean_interests else expertise_str,
-                    "Expertise Areas": expertise_str,
-                    "Research / Bio Summary": bio_summary,
-                    "Education / Degrees": clean_edu,
-                    "Lab / Research Group Name": lab_name,
                     "Actively Hiring / Openings": hiring_status,
+                    "Lab / Research Group Name": lab_name,
+                    "Lab / Personal Website": lab_website,
                     "Target Skills / Prerequisites": prereqs,
                     "Funding Sponsors": "",
                     "Software / Code Repo": "",
                     "Latest Project / Highlight": "",
-                    "Office Location": "",  # Enriched from profile page
-                    "Lab / Personal Website": lab_website,
-                    "Is Field Match": len(matched) > 0,
+                    "Research Interests": clean_interests if clean_interests else expertise_str,
+                    "Expertise Areas": expertise_str,
+                    "Research / Bio Summary": bio_summary,
+                    "Education / Degrees": clean_edu,
+                    "Google Scholar URL": "",
                     "Scholar ID": scholar_id,
                     "Profile URL": profile_url,
-                    "Google Scholar URL": "",  # Generated
+                    "Office Location": "",
+                    "Is Field Match": len(matched) > 0,
                     "Directory URL": "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/",
-                    "asurite": asurite
-                })
+                    "_asurite": asurite
+                }
+                results.append(faculty_dict)
 
             except Exception as e:
                 log.debug(f"Error parsing ASU faculty item: {e}")
@@ -419,10 +471,11 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
     # Second pass: Enrich profile pages for office locations, Google Scholar IDs, and Lab names
     log.info(f"Enriching {len(results)} active faculty profiles with office locations and Google Scholar IDs...")
-    for idx, prof in enumerate(results):
-        if prof["asurite"]:
+    for prof in results:
+        asurite = prof.get("_asurite", "")
+        if asurite:
             try:
-                p_url = f"https://search.asu.edu/profile/{prof['asurite']}"
+                p_url = f"https://search.asu.edu/profile/{asurite}"
                 r_prof = scraper.get(p_url, timeout=12)
                 if r_prof.status_code == 200:
                     soup_prof = BeautifulSoup(r_prof.text, "html.parser")
@@ -469,19 +522,13 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                 log.debug(f"Error enriching {prof['Name']}: {e}")
             time.sleep(0.08)
 
-        # Third pass: Deep-scrape faculty lab websites for rich data
-        if prof["Lab / Personal Website"]:
-            lab_details = scrape_deep_lab_site(scraper, prof["Lab / Personal Website"])
-            if not prof["Actively Hiring / Openings"] and lab_details["Hiring Status"]:
-                prof["Actively Hiring / Openings"] = lab_details["Hiring Status"]
-            if not prof["Target Skills / Prerequisites"] and lab_details["Required Skills / Prereqs"]:
-                prof["Target Skills / Prerequisites"] = lab_details["Required Skills / Prereqs"]
-            if lab_details["Funding Sponsors"]:
-                prof["Funding Sponsors"] = lab_details["Funding Sponsors"]
-            if lab_details["Software / Code Repo"]:
-                prof["Software / Code Repo"] = lab_details["Software / Code Repo"]
-            if lab_details["Latest Project / Highlight"]:
-                prof["Latest Project / Highlight"] = lab_details["Latest Project / Highlight"]
+        # Third pass: Deep-scrape faculty lab websites for rich intelligence
+        lab_url = prof.get("Lab / Personal Website", "")
+        if lab_url:
+            lab_details = scrape_deep_lab_site(scraper, lab_url)
+            for k, v in lab_details.items():
+                if v and (not prof.get(k) or prof.get(k) == ""):
+                    prof[k] = v
 
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
@@ -491,7 +538,13 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
     return results
 
 
-def export_to_excel(faculty_list: List[Dict], output_path: str):
+def export_to_excel(faculty_list: List[Dict], output_path: str, columns: List[str] = COLUMNS_CONFIG):
+    """
+    Fully dynamic Excel exporter:
+    All column headers, cell values, and hyperlinks are referenced by COLUMN NAME.
+    Rearranging COLUMNS_CONFIG automatically updates the spreadsheet without
+    requiring any changes to the code below!
+    """
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
 
@@ -506,25 +559,8 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
     )
 
     # Filter matched list - strict active faculty only (no emeritus/retired)
-    field_matched_list = [f for f in faculty_list if f["Is Field Match"]]
+    field_matched_list = [f for f in faculty_list if f.get("Is Field Match")]
     field_matched_list.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
-
-    # Reordered columns: High-value / primary info first, followed by lab intelligence, profile links, and directory URL
-    columns_to_export = [
-        # 1. Primary Identification & Contact
-        "Name", "Job Title", "Email", "University", "Department",
-        # 2. Research Match Relevance (Sorted primary criteria)
-        "Matched Count", "Matched Fields",
-        # 3. Lab Intelligence & Active Hiring
-        "Actively Hiring / Openings", "Lab / Research Group Name", "Lab / Personal Website",
-        "Target Skills / Prerequisites", "Funding Sponsors", "Software / Code Repo",
-        "Latest Project / Highlight",
-        # 4. Research Details & Background
-        "Research Interests", "Expertise Areas", "Research / Bio Summary", "Education / Degrees",
-        # 5. Direct Links & Location
-        "Google Scholar URL", "Scholar ID", "Profile URL", "Office Location", "Is Field Match",
-        "Directory URL"
-    ]
 
     sheets_data = [
         ("Field Matched", field_matched_list),
@@ -534,74 +570,49 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
     for sheet_title, data_rows in sheets_data:
         ws = wb.create_sheet(title=sheet_title)
         ws.views.sheetView[0].showGridLines = True
-        ws.append(columns_to_export)
+        ws.append(columns)
 
-        # Style header
-        for col_num in range(1, len(columns_to_export) + 1):
+        # Style header dynamically based on current columns length
+        for col_num in range(1, len(columns) + 1):
             c = ws.cell(row=1, column=col_num)
             c.font = header_font
             c.fill = header_fill
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
-        prof_col_idx = columns_to_export.index("Profile URL")
-        scholar_col_idx = columns_to_export.index("Google Scholar URL")
-        email_col_idx = columns_to_export.index("Email")
-        web_col_idx = columns_to_export.index("Lab / Personal Website")
-        dir_col_idx = columns_to_export.index("Directory URL")
-
+        # Write data rows dynamically referenced by column name
         for r_idx, row_dict in enumerate(data_rows):
-            row_values = [row_dict.get(c, "") for c in columns_to_export]
             ws_row = r_idx + 2
+            row_values = []
+            hyperlink_meta = {}  # {col_idx: (target_url, display_label)}
 
-            p_url = row_dict.get("Profile URL", "")
-            s_url = row_dict.get("Google Scholar URL", "")
-            email = row_dict.get("Email", "")
-            s_id = row_dict.get("Scholar ID", "")
-            lab_web = row_dict.get("Lab / Personal Website", "")
-            d_url = row_dict.get("Directory URL", "")
+            for col_idx, col_name in enumerate(columns):
+                raw_val = row_dict.get(col_name, "")
+                
+                # Check if dynamic hyperlink rule applies to this column name
+                rule = HYPERLINK_RULES.get(col_name)
+                if rule and raw_val:
+                    hl_result = rule(raw_val, row_dict)
+                    if hl_result:
+                        target_url, label = hl_result
+                        row_values.append(f'=HYPERLINK("{target_url}", "{label}")')
+                        hyperlink_meta[col_idx + 1] = target_url
+                        continue
 
-            # Active clickable hyperlink formulas
-            if p_url.startswith("http"):
-                row_values[prof_col_idx] = f'=HYPERLINK("{p_url}", "{p_url}")'
-
-            if s_url.startswith("http"):
-                label = f"Scholar ({s_id})" if s_id else "Google Scholar Search"
-                row_values[scholar_col_idx] = f'=HYPERLINK("{s_url}", "{label}")'
-
-            if email and "@" in email:
-                row_values[email_col_idx] = f'=HYPERLINK("mailto:{email}", "{email}")'
-
-            if lab_web.startswith("http"):
-                row_values[web_col_idx] = f'=HYPERLINK("{lab_web}", "{lab_web}")'
-
-            if d_url.startswith("http"):
-                row_values[dir_col_idx] = f'=HYPERLINK("{d_url}", "{d_url}")'
+                row_values.append(raw_val)
 
             ws.append(row_values)
 
-            # Apply openpyxl hyperlink objects & cell styling
-            for c_idx in range(1, len(columns_to_export) + 1):
+            # Apply borders, alignment, and openpyxl hyperlink objects
+            for c_idx in range(1, len(columns) + 1):
                 cell = ws.cell(row=ws_row, column=c_idx)
                 cell.border = thin_border
                 cell.alignment = Alignment(vertical="center")
 
-                if c_idx - 1 == prof_col_idx and p_url.startswith("http"):
-                    cell.hyperlink = p_url
-                    cell.font = link_font
-                elif c_idx - 1 == scholar_col_idx and s_url.startswith("http"):
-                    cell.hyperlink = s_url
-                    cell.font = link_font
-                elif c_idx - 1 == email_col_idx and "@" in email:
-                    cell.hyperlink = f"mailto:{email}"
-                    cell.font = link_font
-                elif c_idx - 1 == web_col_idx and lab_web.startswith("http"):
-                    cell.hyperlink = lab_web
-                    cell.font = link_font
-                elif c_idx - 1 == dir_col_idx and d_url.startswith("http"):
-                    cell.hyperlink = d_url
+                if c_idx in hyperlink_meta:
+                    cell.hyperlink = hyperlink_meta[c_idx]
                     cell.font = link_font
 
-        # Auto-fit column widths
+        # Auto-fit column widths dynamically
         for col in ws.columns:
             max_len = 0
             col_letter = get_column_letter(col[0].column)
@@ -636,24 +647,24 @@ def main():
     # 2. Scrape and generate active faculty records with deep lab data
     faculty = scrape_asu(scraper)
 
-    # 3. Export exclusively to formatted Excel (.xlsx)
+    # 3. Export exclusively to formatted Excel (.xlsx) using dynamic COLUMNS_CONFIG
     excel_path = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
-    export_to_excel(faculty, excel_path)
+    export_to_excel(faculty, excel_path, columns=COLUMNS_CONFIG)
 
     # 4. Preview summary
-    matched_count = sum(1 for f in faculty if f["Is Field Match"])
-    with_id_count = sum(1 for f in faculty if f["Scholar ID"])
-    with_edu_count = sum(1 for f in faculty if f["Education / Degrees"])
-    with_lab_name_count = sum(1 for f in faculty if f["Lab / Research Group Name"])
-    with_hiring_count = sum(1 for f in faculty if f["Actively Hiring / Openings"])
-    with_prereqs_count = sum(1 for f in faculty if f["Target Skills / Prerequisites"])
-    with_funding_count = sum(1 for f in faculty if f["Funding Sponsors"])
-    with_repo_count = sum(1 for f in faculty if f["Software / Code Repo"])
-    with_office_count = sum(1 for f in faculty if f["Office Location"])
-    with_web_count = sum(1 for f in faculty if f["Lab / Personal Website"])
+    matched_count = sum(1 for f in faculty if f.get("Is Field Match"))
+    with_id_count = sum(1 for f in faculty if f.get("Scholar ID"))
+    with_edu_count = sum(1 for f in faculty if f.get("Education / Degrees"))
+    with_lab_name_count = sum(1 for f in faculty if f.get("Lab / Research Group Name"))
+    with_hiring_count = sum(1 for f in faculty if f.get("Actively Hiring / Openings"))
+    with_prereqs_count = sum(1 for f in faculty if f.get("Target Skills / Prerequisites"))
+    with_funding_count = sum(1 for f in faculty if f.get("Funding Sponsors"))
+    with_repo_count = sum(1 for f in faculty if f.get("Software / Code Repo"))
+    with_office_count = sum(1 for f in faculty if f.get("Office Location"))
+    with_web_count = sum(1 for f in faculty if f.get("Lab / Personal Website"))
 
     print("\n" + "=" * 95)
-    print("ASU FACULTY & LAB SCRAPING COMPLETED (ONLY EXCEL WORKBOOK GENERATED)")
+    print("ASU FACULTY & LAB SCRAPING COMPLETED (DYNAMIC COLUMN CONFIGURATION)")
     print("=" * 95)
     print(f"Total Active Faculty (sorted by max keywords matched): {len(faculty)}")
     print(f"Field-Matched Faculty: {matched_count}")
@@ -666,6 +677,7 @@ def main():
     print(f"Faculty with Software / Code Repositories extracted: {with_repo_count}")
     print(f"Faculty with Office Location scraped: {with_office_count}")
     print(f"Faculty with Lab / Personal Website scraped: {with_web_count}")
+    print(f"Total Columns Configured Dynamically: {len(COLUMNS_CONFIG)}")
     print(f"Excel Workbook Path: {excel_path}")
     print("=" * 95)
 
