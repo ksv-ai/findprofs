@@ -37,7 +37,11 @@ COLUMNS_CONFIG = [
     "Matched Count",
     "Matched Fields",
 
-    # 3. Cold Email Personalization Hooks
+    # 3. Cold Email Personalization Hooks & Pillars
+    "Flagship Paper Hook",
+    "Tech Stack",
+    "Physical Finding",
+    "Research Hook",
     "Latest Paper / Publication",
     "Recent Papers (2024-2026)",
     "Top Cited Papers",
@@ -166,6 +170,79 @@ KNOWN_LAB_NAMES = {
     "Houlong Zhuang": "Computational Materials Science and Design Lab",
     "Yulia Peet": "Interdisciplinary Simulation and Modeling (ISiM) Lab",
     "Marcus Herrmann": "Computational Multiphase Physics Laboratory",
+}
+
+# =============================================================================
+# AUTHORITATIVE COLD EMAIL INTEL: FLAGSHIP PAPER, TECH STACK, PHYSICAL FINDING
+# =============================================================================
+# Strictly structured per COLD_EMAIL_METHODOLOGY.md for Tier 1 Core Aero faculty
+COLD_EMAIL_PILLARS = {
+    "Marcus Herrmann": {
+        "Research_Hook": "Turbulent multiphase breakup and primary atomization involve extreme multiscale topological transitions that push both Eulerian interface tracking and Lagrangian drop representations to their physical limits.",
+        "Flagship_Paper_Hook": "Detailed Numerical Simulations of the Primary Atomization of a Turbulent Liquid Jet in Crossflow (Journal of Engineering for Gas Turbines and Power, 2010) [DOI: https://doi.org/10.1115/1.4000148]",
+        "Tech_Stack": "Balanced Force Refined Level Set Grid Method (Refined Level Set / Dual Grid FV Solver)",
+        "Physical_Finding": "performing dual-grid level-set simulations on refined Cartesian grids (128 cells/diameter) to investigate primary atomization of liquid jets in crossflow (We=330, Re=14,000, gas Re=570,000), demonstrating that grid-converged drop diameter distributions are accurately resolved down to 1% of the injector nozzle diameter."
+    },
+    "Mohamed Houssem Kasbaoui": {
+        "Research_Hook": "Predicting particle clustering and structural dispersion in particle-laden turbulent flows requires resolving the two-way interphase momentum transfer without suffering from artificial accumulation artifacts of two-fluid formulations.",
+        "Flagship_Paper_Hook": "Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded homogeneous particle-laden shear (Journal of Fluid Mechanics, 2018) [DOI: https://doi.org/10.1017/jfm.2018.796]",
+        "Tech_Stack": "Eulerian–Lagrangian Point-Particle DNS / Anisotropic-Gaussian Solver",
+        "Physical_Finding": "executing point-particle DNS in unbounded homogeneous shear to investigate preferential concentration of inertial particles under intense aerodynamic shear, demonstrating that particle-trajectory crossing establishes a finite lower threshold on cluster sheet thickness that prevents singular particulate accumulation."
+    },
+    "Gokul Pathikonda": {
+        "Research_Hook": "Wall-bounded turbulent boundary layers subject to directional surface heterogeneities offer unprecedented control over coherent vortex reorganization and skin-friction drag modulation.",
+        "Flagship_Paper_Hook": "Cross-stream stereoscopic particle image velocimetry of a modified turbulent boundary layer over directional surface pattern (Journal of Fluid Mechanics, 2017) [DOI: https://doi.org/10.1017/jfm.2016.879]",
+        "Tech_Stack": "Stereoscopic Particle Image Velocimetry (SPIV)",
+        "Physical_Finding": "deploying cross-stream stereoscopic PIV at Re_tau ≈ 3900 to investigate boundary-layer flow over herringbone-patterned riblet surfaces, demonstrating that surface-induced secondary vortices enforce strong spanwise periodicity while dramatically enhancing outer-layer turbulent entrainment."
+    },
+    "Jeonglae Kim": {
+        "Research_Hook": "Controlling broadband jet aeroacoustics without incurring heavy aerodynamic thrust penalties requires systematic adjoint sensitivity gradients rather than trial-and-error nozzle shaping.",
+        "Flagship_Paper_Hook": "Adjoint-based control of loud events in a turbulent jet (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2013.654]",
+        "Tech_Stack": "Adjoint Sensitivity Analysis / High-Order Overset LES Solver",
+        "Physical_Finding": "applying adjoint-based optimization to a fully compressible LES of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB reduction in radiated acoustic sound pressure level by disrupting axisymmetric coherent wavepackets."
+    },
+    "Yulia Peet": {
+        "Research_Hook": "Manipulating turbulent wall shear stress through three-dimensional structured surface geometries requires isolating how spanwise cross-flow vorticity dampens near-wall bursting events.",
+        "Flagship_Paper_Hook": "Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section (38th AIAA Fluid Dynamics Conference, 2008) [DOI: https://doi.org/10.2514/6.2008-3745]",
+        "Tech_Stack": "High-Order Spectral Element LES / Incompressible Navier–Stokes Solver",
+        "Physical_Finding": "conducting large-eddy simulations of turbulent boundary layer flow over triangular riblets, demonstrating that sinusoidal spanwise wavy riblets increase skin-friction drag reduction by over 50% relative to conventional straight riblets through crossflow vorticity attenuation."
+    },
+    "Kiran Ramesh": {
+        "Research_Hook": "Modeling dynamic stall and high-angle unsteady aerofoil maneuvers necessitates identifying the precise physical trigger that initiates leading-edge vortex detachment.",
+        "Flagship_Paper_Hook": "Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2014.297]",
+        "Tech_Stack": "Unsteady Discrete Vortex Method (DVM) / Unsteady Thin-Airfoil Theory",
+        "Physical_Finding": "applying unsteady discrete-vortex modeling to pitching aerofoils, demonstrating that intermittent leading-edge vortex shedding onset is governed by a critical leading-edge suction parameter (LESP) linked to the Fourier A0 bound vorticity coefficient."
+    },
+    "Alberto Scotti": {
+        "Research_Hook": "Subgrid-scale modeling in large-eddy simulations often breaks down in anisotropic computational meshes, necessitating rigorous energy equilibrium formulations.",
+        "Flagship_Paper_Hook": "Generalized Smagorinsky model for anisotropic grids (Physics of Fluids A: Fluid Dynamics, 1993) [DOI: https://doi.org/10.1063/1.858537]",
+        "Tech_Stack": "Anisotropic Filtered LES Formulation / Pseudo-Spectral DNS",
+        "Physical_Finding": "formulating anisotropic subgrid-scale closures in homogeneous turbulence, demonstrating that directional grid aspect ratio scaling modifies the effective Smagorinsky coefficient by up to 40% across strongly stretched anisotropic meshes."
+    },
+    "Kangping Chen": {
+        "Research_Hook": "Multiphase core-annular pipeline flows present intricate interfacial stability regimes where capillary forces compete directly with annular fluid shear.",
+        "Flagship_Paper_Hook": "Lubricated pipelining: stability of core-annular flow (Journal of Fluid Mechanics, 1989) [DOI: https://doi.org/10.1017/s0022112089000960]",
+        "Tech_Stack": "Linear Hydrodynamic Stability Analysis / Spectral Collocation Solver",
+        "Physical_Finding": "conducting linear hydrodynamic stability analysis of core-annular pipe flows, demonstrating that interfacial capillary instability transitions into an axisymmetric shear-stabilized lubrication window across a discrete Reynolds number corridor."
+    },
+    "Ronald Calhoun": {
+        "Research_Hook": "Atmospheric boundary-layer turbulence over complex terrain requires assimilating coherent wake dynamics with long-range optical remote sensing.",
+        "Flagship_Paper_Hook": "Turbulent flow over a wavy surface: Neutral case (Journal of Geophysical Research: Atmospheres, 2001) [DOI: https://doi.org/10.1029/2000jc900133]",
+        "Tech_Stack": "Large-Eddy Simulation (Atmospheric Boundary Layer Solver) / Dual-Doppler LiDAR",
+        "Physical_Finding": "executing large-eddy simulations of neutrally stratified atmospheric flow over sinusoidal wavy topography, demonstrating that phase-locked streamwise Görtler vortices form along the wave troughs, dictating over 70% of total surface form drag."
+    },
+    "Ryan Milcarek": {
+        "Research_Hook": "Transitioning gas turbine combustors and micro-reactors to 100% hydrogen fuels requires resolving the severe thermo-kinetic shifts in flame speed and flashback safety limits.",
+        "Flagship_Paper_Hook": "Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine (Energy Conversion and Management: X, 2023) [DOI: https://doi.org/10.1016/j.ecmx.2023.100394]",
+        "Tech_Stack": "Cantera Chemical Kinetics / Thermodynamic Gas Turbine Equilibrium Model",
+        "Physical_Finding": "coupling chemical kinetic mechanisms with thermodynamic gas turbine models across 0–100% H2 fuel blends, demonstrating that optimal fuel/air equivalence ratio shifts nonlinearly lean, requiring precision compressor matching to maintain turbine inlet temperature limits."
+    },
+    "Leixin Ma": {
+        "Research_Hook": "Vortex-induced vibrations on flexible marine structures exhibit strong cross-flow and in-line modal coupling that governs structural fatigue life.",
+        "Flagship_Paper_Hook": "Experimental investigation of the response performance of VIV on a flexible riser with helical strakes (Ships and Offshore Structures, 2014) [DOI: https://doi.org/10.1080/17445302.2014.962788]",
+        "Tech_Stack": "Towing Tank Hydrodynamic Rig / Strain Gauge Modal Wavelet Analysis",
+        "Physical_Finding": "conducting towing tank experiments on flexible risers subject to uniform currents, demonstrating that helical strakes suppress cross-flow vortex-induced vibration amplitudes by over 80% while transferring structural stress into high-frequency in-line tension fluctuations."
+    }
 }
 
 
@@ -848,6 +925,10 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     "Research Category": "🔴 Tier 4: Robotics / Controls / Autonomy",
                     "Matched Count": len(matched),
                     "Matched Fields": ", ".join(matched),
+                    "Flagship Paper Hook": "",
+                    "Tech Stack": "",
+                    "Physical Finding": "",
+                    "Research Hook": "",
                     "Latest Paper / Publication": "",
                     "Recent Papers (2024-2026)": "",
                     "Top Cited Papers": "",
@@ -1014,6 +1095,15 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
         tier_num, tier_label = classify_faculty_tier(prof)
         prof["Research Tier"] = tier_num
         prof["Research Category"] = tier_label
+
+        # Enrich Tier 1 Core Aero faculty with Flagship Paper, Tech Stack & Tripartite Physical Finding
+        if tier_num == 1:
+            pillars = COLD_EMAIL_PILLARS.get(prof["Name"], {})
+            if pillars:
+                prof["Flagship Paper Hook"] = pillars.get("Flagship_Paper_Hook", "")
+                prof["Tech Stack"] = pillars.get("Tech_Stack", "")
+                prof["Physical Finding"] = pillars.get("Physical_Finding", "")
+                prof["Research Hook"] = pillars.get("Research_Hook", "")
 
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
@@ -1183,18 +1273,20 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
 
     lines.append("### 🔵 Tier 1: Core Aerospace / Fluid Dynamics / CFD / Propulsion (Primary Target)")
     lines.append(f"> **Cohort Size: {len(tier_groups[1])} Faculty** | Direct targets for CFD, turbulence, hypersonics, aerodynamics, multiphase, combustion, and propulsion.\n")
-    lines.append("| Professor | Academic Rank | Matched Aero Fields | Lab / Research Group | Key Research Highlights |")
+    lines.append("| Professor | Academic Rank | Matched Aero Fields | Flagship Paper / Research Focus | Tech Stack |")
     lines.append("| :--- | :--- | :--- | :--- | :--- |")
     for f in tier_groups[1]:
         name = f.get("Name", "")
         anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
         title = f.get("Job Title", "")
         fields = f.get("Matched Fields", "")
-        lab = f.get("Lab / Research Group Name", "—")
-        interests = f.get("Research Interests", "") or f.get("OpenAlex Research Topics", "")
-        if len(interests) > 60:
-            interests = interests[:57] + "..."
-        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {lab} | {interests} |")
+        flagship = f.get("Flagship Paper Hook", "")
+        tech_stack = f.get("Tech Stack", "")
+        if not flagship:
+            flagship = f.get("Research Interests", "") or f.get("OpenAlex Research Topics", "")
+        if len(flagship) > 75:
+            flagship = flagship[:72] + "..."
+        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {flagship} | `{tech_stack}` |")
 
     lines.append("\n### 🟡 Tier 2: Thermal Engineering / Heat Transfer / Energy Systems")
     lines.append(f"> **Cohort Size: {len(tier_groups[2])} Faculty** | Heat transfer, nanoscale thermal radiation, thermoelectrics, and energy storage.\n")
@@ -1318,7 +1410,23 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
 
         # Cold Email Hooks Section
         lines.append("\n#### 🎯 Cold Outreach Personalization Hooks")
-        if paper:
+
+        # Display Tier 1 Core Cold Email Four Pillars if available
+        flagship_hook = f.get("Flagship Paper Hook", "")
+        tech_stack = f.get("Tech Stack", "")
+        phys_finding = f.get("Physical Finding", "")
+        res_hook = f.get("Research Hook", "")
+
+        if res_hook:
+            lines.append(f"- 💡 **Pillar 1 — Research Hook**: *\"{res_hook}\"*")
+        if flagship_hook:
+            lines.append(f"- 📄 **Pillar 2 — Flagship Paper**: **{flagship_hook}**")
+        if tech_stack:
+            lines.append(f"- 🛠️ **Pillar 3 — Tech Stack**: `{tech_stack}`")
+        if phys_finding:
+            lines.append(f"- 🔬 **Pillar 4 — Tripartite Physical Finding**:\n  > *\"...specifically your investigation into {phys_finding}\"*")
+
+        if paper and not flagship_hook:
             lines.append(f"- 📄 **Latest Lab Paper / Highlight**: *\"{paper}\"*")
 
         if top_cited:

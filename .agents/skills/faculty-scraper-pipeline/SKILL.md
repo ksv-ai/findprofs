@@ -54,31 +54,37 @@ Every university extraction pipeline outputs an Excel workbook with clean sheets
 | 6 | `Department` | Department / School name |
 | 7 | `Scholar ID` | Direct Google Scholar 12-character User ID |
 | 8 | `Email` | Hyperlinked email address (`mailto:`) |
-| 9 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
-| 10 | `Matched Fields` | Comma-separated list of matched field keywords |
-| 11 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
-| 12 | `Recent Papers (2024-2026)` | 3 recent papers with journal, year & clickable DOI |
-| 13 | `Top Cited Papers` | 3 landmark papers with journal, year, cites & clickable DOI |
-| 14 | `Courses Taught` | Filtered lecture courses taught |
-| 15 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
-| 16 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
-| 17 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
-| 18 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
-| 19 | `Research Interests` | Specific research topic tags |
-| 20 | `Expertise Areas` | High-level research domain taxonomy |
-| 21 | `Research / Bio Summary` | Bio summary or research focus paragraph |
-| 22 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 23 | `Lab / Research Group Name` | Official research lab or group title |
-| 24 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 25 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 26 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 27 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
-| 28 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 29 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 30 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 31 | `Office Location` | Building and room number |
-| 32 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 33 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 9 | `Research Tier` | Authoritative tier (Tier 1: Core Aero, Tier 2: Thermal, Tier 3: Structures, Tier 4: Robotics) |
+| 10 | `Research Category` | Formatted tier badge and domain description |
+| 11 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
+| 12 | `Matched Fields` | Comma-separated list of matched field keywords |
+| 13 | `Flagship Paper Hook` | **Pillar 2**: Landmark paper title with journal, year & DOI |
+| 14 | `Tech Stack` | **Pillar 3**: Exact numerical solvers, codes, or experimental rigs used |
+| 15 | `Physical Finding` | **Pillar 4**: Tripartite structure (`[gerund solver] to investigate [geometry] demonstrating [causality + hard number]`) |
+| 16 | `Research Hook` | **Pillar 1**: Broad curiosity-driven opening sentence connecting PI's research agenda |
+| 17 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
+| 18 | `Recent Papers (2024-2026)` | 3 recent papers with journal, year & clickable DOI |
+| 19 | `Top Cited Papers` | 3 landmark papers with journal, year, cites & clickable DOI |
+| 20 | `Courses Taught` | Filtered lecture courses taught |
+| 21 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
+| 22 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
+| 23 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
+| 24 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
+| 25 | `Research Interests` | Specific research topic tags |
+| 26 | `Expertise Areas` | High-level research domain taxonomy |
+| 27 | `Research / Bio Summary` | Bio summary or research focus paragraph |
+| 28 | `Education / Degrees` | Degrees, institutions, and graduation years |
+| 29 | `Lab / Research Group Name` | Official research lab or group title |
+| 30 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 31 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 32 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
+| 33 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
+| 34 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 35 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 36 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 37 | `Office Location` | Building and room number |
+| 38 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 39 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 
@@ -121,6 +127,55 @@ def is_core_aero_prof(prof_dict: dict) -> bool:
     ])
     hits = [p.pattern.replace(r'\b', '') for p in COMPILED_AERO if p.search(text)]
     return len(hits) >= 1  # Strictly gate OpenAlex extraction
+### 3.3 Authoritative OpenAlex JSON Cache Schema (`openalex_cache/<slug>.json`)
+Every cached JSON file must adhere to this complete, standardized schema matching the ASU reference standard:
+```json
+{
+  "name": "Marcus Herrmann",
+  "uni": "Arizona State University",
+  "author_id": "A5009928604",
+  "author_display_name": "Marcus Herrmann",
+  "works_count": 168,
+  "cited_by_count": 2685,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 66
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling Primary Atomization",
+      "publication_year": 2008,
+      "publication_date": "2008-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fluid.40.111406.102200",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 440,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": ["Direct numerical simulation", "Multiphase flow", "Breakup"],
+      "abstract": "Full reconstructed abstract from inverted index...",
+      "authors": ["Mikhael Gorokhovski", "Marcus Herrmann"]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Recent publication title 2024-2026...",
+      "publication_year": 2025,
+      "publication_date": "2025-01-20",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.113765",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": ["Immersed boundary method", "Turbulence"],
+      "abstract": "Reconstructed abstract...",
+      "authors": ["Himanshu Dave", "Marcus Herrmann"]
+    }
+  ]
+}
 ```
 
 ---
