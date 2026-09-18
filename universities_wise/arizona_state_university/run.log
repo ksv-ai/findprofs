@@ -1,119 +1,119 @@
-2026-09-19 04:40:55,648 - INFO - Scraping Arizona State University (SEMTE - Aerospace & Mechanical Engineering)...
-2026-09-19 04:40:57,589 - INFO - Retrieved 55 raw items from ASU API.
-2026-09-19 04:40:57,666 - INFO - Enriching 48 active faculty profiles with cold email hooks, courses, and publications...
-2026-09-19 04:40:57,666 - INFO - [1/48] Processing Ryan Milcarek...
-2026-09-19 04:41:06,449 - INFO - [2/48] Processing Aditi Chattopadhyay...
-2026-09-19 04:41:09,362 - INFO - [3/48] Processing T.-W. Lee...
-2026-09-19 04:41:11,719 - INFO - [4/48] Processing Huei-Ping Huang...
-2026-09-19 04:41:15,906 - INFO - [5/48] Processing Cindy (Xiangjia) Li...
-2026-09-19 04:41:19,561 - INFO - [6/48] Processing Leixin Ma...
-2026-09-19 04:41:28,834 - INFO - [7/48] Processing Marc Mignolet...
-2026-09-19 04:41:31,999 - INFO - [8/48] Processing James Middleton...
-2026-09-19 04:41:34,780 - INFO - [9/48] Processing Wonmo Kang...
-2026-09-19 04:41:38,277 - INFO - [10/48] Processing Kiran Ramesh...
-2026-09-19 04:41:47,736 - INFO - [11/48] Processing Jagannathan Rajagopalan...
-2026-09-19 04:41:52,311 - INFO - [12/48] Processing Kunal Garg...
-2026-09-19 04:41:55,426 - INFO - [13/48] Processing Patrick Phelan...
-2026-09-19 04:41:57,868 - INFO - [14/48] Processing Ricardo Cruz Lozano...
-2026-09-19 04:42:00,792 - INFO - [15/48] Processing Joshua Wilbur...
-2026-09-19 04:42:03,970 - INFO - [16/48] Processing Hyunglae Lee...
-2026-09-19 04:42:07,361 - INFO - [17/48] Processing Matthew Peet...
-2026-09-19 04:42:11,680 - INFO - [18/48] Processing Erik Andersen...
-2026-09-19 04:42:13,759 - INFO - [19/48] Processing Zhe Xu...
-2026-09-19 04:42:17,174 - INFO - [20/48] Processing Alberto Scotti...
-2026-09-19 04:42:25,616 - INFO - [21/48] Processing Yulia Peet...
-2026-09-19 04:42:33,073 - INFO - [22/48] Processing Tianyu Yang...
-2026-09-19 04:42:36,276 - INFO - [23/48] Processing Houlong Zhuang...
-2026-09-19 04:42:38,723 - INFO - [24/48] Processing Yongming Liu...
-2026-09-19 04:42:41,158 - INFO - [25/48] Processing Beomjin Kwon...
-2026-09-19 04:42:45,057 - INFO - [26/48] Processing Derrick Speaks...
-2026-09-19 04:42:48,166 - INFO - [27/48] Processing Qiong Nian...
-2026-09-19 04:42:51,102 - INFO - [28/48] Processing Gokul Pathikonda...
-2026-09-19 04:43:00,154 - INFO - [29/48] Processing Jeonglae Kim...
-2026-09-19 04:43:06,866 - INFO - [30/48] Processing Marcus Herrmann...
-2026-09-19 04:43:13,254 - INFO - [31/48] Processing Srinivas Chakravarthi Kosaraju...
-2026-09-19 04:43:15,400 - INFO - [32/48] Processing Jiefeng Sun...
-2026-09-19 04:43:20,931 - INFO - [33/48] Processing Minglei Qu...
-2026-09-19 04:43:23,304 - INFO - [34/48] Processing Robert Wang...
-2026-09-19 04:43:25,842 - INFO - [35/48] Processing Spring Berman...
-2026-09-19 04:43:29,071 - INFO - [36/48] Processing Ronald Calhoun...
-2026-09-19 04:43:35,996 - INFO - [37/48] Processing Kangping Chen...
-2026-09-19 04:43:43,219 - INFO - [38/48] Processing Liping Wang...
-2026-09-19 04:43:49,979 - INFO - [39/48] Processing Jay Oswald...
-2026-09-19 04:43:54,448 - INFO - [40/48] Processing Konrad Rykaczewski...
-2026-09-19 04:43:59,269 - INFO - [41/48] Processing Hamidreza Marvi...
-2026-09-19 04:44:02,202 - INFO - [42/48] Processing Yi Ren...
-2026-09-19 04:44:04,648 - INFO - [43/48] Processing Leila Ladani...
-2026-09-19 04:44:07,190 - INFO - [44/48] Processing Pedro Peralta...
-2026-09-19 04:44:10,830 - INFO - [45/48] Processing Mohamed Houssem Kasbaoui...
-2026-09-19 04:44:22,361 - INFO - [46/48] Processing Lin Li...
-2026-09-19 04:44:25,580 - INFO - [47/48] Processing Ivy Chang...
-2026-09-19 04:44:27,612 - INFO - [48/48] Processing Wanxin Jin...
-2026-09-19 04:44:31,393 - INFO - Total active faculty successfully extracted: 48
-2026-09-19 04:44:31,981 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.xlsx
-2026-09-19 04:44:31,985 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.md
-2026-09-19 04:44:31,986 - INFO - 
+2026-09-19 05:36:25,432 - INFO - Scraping Arizona State University (SEMTE - Aerospace & Mechanical Engineering)...
+2026-09-19 05:36:26,733 - INFO - Retrieved 55 raw items from ASU API.
+2026-09-19 05:36:26,871 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aditi Chattopadhyay (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,872 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Huei-Ping Huang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,874 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cindy (Xiangjia) Li (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,875 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Marc Mignolet (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,876 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor James Middleton (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,877 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wonmo Kang (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,879 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jagannathan Rajagopalan (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,881 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kunal Garg (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,882 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ricardo Cruz Lozano (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,882 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Joshua Wilbur (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,883 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hyunglae Lee (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,884 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Matthew Peet (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,885 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Erik Andersen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,886 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Zhe Xu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,889 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Houlong Zhuang (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,891 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yongming Liu (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,892 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Derrick Speaks (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,893 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Qiong Nian (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,895 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Srinivas Chakravarthi Kosaraju (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,897 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jiefeng Sun (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,904 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Minglei Qu (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,907 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Spring Berman (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,910 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jay Oswald (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,912 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hamidreza Marvi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,913 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yi Ren (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,915 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Leila Ladani (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,916 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Pedro Peralta (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,917 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Lin Li (🟠 Tier 3: Structures / Materials / Manufacturing)
+2026-09-19 05:36:26,918 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ivy Chang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,919 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wanxin Jin (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 05:36:26,919 - INFO - Retained 18 Tier 1 & Tier 2 active faculty for deep enrichment...
+2026-09-19 05:36:26,920 - INFO - [1/18] Processing Ryan Milcarek (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:36:35,508 - INFO - [2/18] Processing T.-W. Lee (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:36:37,931 - INFO - [3/18] Processing Leixin Ma (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:36:47,776 - INFO - [4/18] Processing Kiran Ramesh (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:36:55,801 - INFO - [5/18] Processing Patrick Phelan (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:36:57,926 - INFO - [6/18] Processing Alberto Scotti (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:04,700 - INFO - [7/18] Processing Yulia Peet (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:11,241 - INFO - [8/18] Processing Tianyu Yang (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:37:13,531 - INFO - [9/18] Processing Beomjin Kwon (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:37:17,699 - INFO - [10/18] Processing Gokul Pathikonda (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:25,143 - INFO - [11/18] Processing Jeonglae Kim (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:31,836 - INFO - [12/18] Processing Marcus Herrmann (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:38,504 - INFO - [13/18] Processing Robert Wang (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:37:41,891 - INFO - [14/18] Processing Ronald Calhoun (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:48,107 - INFO - [15/18] Processing Kangping Chen (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:37:55,190 - INFO - [16/18] Processing Liping Wang (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:38:00,946 - INFO - [17/18] Processing Konrad Rykaczewski (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 05:38:04,584 - INFO - [18/18] Processing Mohamed Houssem Kasbaoui (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 05:38:15,604 - INFO - Total Tier 1 & Tier 2 active faculty successfully extracted: 18
+2026-09-19 05:38:15,836 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.xlsx
+2026-09-19 05:38:15,839 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.md
+2026-09-19 05:38:15,840 - INFO - 
 ===============================================================================================
-2026-09-19 04:44:31,987 - INFO - ASU AEROSPACE & MECHANICAL ENGINEERING PIPELINE EXECUTION AUDIT REPORT
-2026-09-19 04:44:31,987 - INFO - ===============================================================================================
-2026-09-19 04:44:31,987 - INFO - Total Active Faculty Extracted: 48
-2026-09-19 04:44:31,987 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion: 11 (Exclusively populates 'Aero Focus' Tab)
-2026-09-19 04:44:31,987 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     7
-2026-09-19 04:44:31,987 - INFO -   - [Tier 3] Structures / Materials / Mfg:         12
-2026-09-19 04:44:31,987 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       18
-2026-09-19 04:44:31,987 - INFO - Field-Matched Faculty Candidates: 42 / 48 (87.5%)
-2026-09-19 04:44:31,987 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 04:44:31,987 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
-2026-09-19 04:44:31,988 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
-2026-09-19 04:44:31,988 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 04:44:31,988 - INFO - 1   | Name                                   | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,988 - INFO - 2   | University                             | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,988 - INFO - 3   | Profile URL                            | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,988 - INFO - 4   | Google Scholar URL                     | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 5   | Job Title                              | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 6   | Department                             | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 7   | Scholar ID                             | 23       | 25         |  47.9% | 🟡 Selective
-2026-09-19 04:44:31,989 - INFO - 8   | Email                                  | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 9   | Research Tier                          | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 10  | Research Category                      | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 11  | Matched Count                          | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,989 - INFO - 12  | Matched Fields                         | 42       | 6          |  87.5% | 🔵 Strong
-2026-09-19 04:44:31,989 - INFO - 13  | Flagship Paper Hook                    | 11       | 37         |  22.9% | 🟡 Selective (Tier 1 Core Aero: 11/11)
-2026-09-19 04:44:31,989 - INFO - 14  | Flagship Paper DOI                     | 11       | 37         |  22.9% | 🟡 Selective (Tier 1 Core Aero: 11/11)
-2026-09-19 04:44:31,989 - INFO - 15  | Tech Stack                             | 11       | 37         |  22.9% | 🟡 Selective (Tier 1 Core Aero: 11/11)
-2026-09-19 04:44:31,989 - INFO - 16  | Physical Finding                       | 11       | 37         |  22.9% | 🟡 Selective (Tier 1 Core Aero: 11/11)
-2026-09-19 04:44:31,989 - INFO - 17  | Research Hook                          | 11       | 37         |  22.9% | 🟡 Selective (Tier 1 Core Aero: 11/11)
-2026-09-19 04:44:31,990 - INFO - 18  | Latest Paper / Publication             | 16       | 32         |  33.3% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 19  | Recent Papers (2024-2026)              | 9        | 39         |  18.8% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 20  | Top Cited Papers                       | 11       | 37         |  22.9% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 21  | Courses Taught                         | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,990 - INFO - 22  | Recent Awards / Honors                 | 6        | 42         |  12.5% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 23  | Cold Email / Application Instructions  | 7        | 41         |  14.6% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 24  | OpenAlex Research Topics               | 11       | 37         |  22.9% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 25  | Google Scholar Tags                    | 11       | 37         |  22.9% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 26  | Research Interests                     | 27       | 21         |  56.2% | 🔵 Strong
-2026-09-19 04:44:31,990 - INFO - 27  | Expertise Areas                        | 17       | 31         |  35.4% | 🟡 Selective
-2026-09-19 04:44:31,990 - INFO - 28  | Research / Bio Summary                 | 42       | 6          |  87.5% | 🔵 Strong
-2026-09-19 04:44:31,990 - INFO - 29  | Education / Degrees                    | 43       | 5          |  89.6% | 🔵 Strong
-2026-09-19 04:44:31,990 - INFO - 30  | Lab / Research Group Name              | 21       | 27         |  43.8% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 31  | Lab / Personal Website                 | 27       | 21         |  56.2% | 🔵 Strong
-2026-09-19 04:44:31,991 - INFO - 32  | Actively Hiring / Openings             | 7        | 41         |  14.6% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 33  | Target Skills / Prerequisites          | 2        | 46         |   4.2% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 34  | Lab Facilities & Equipment             | 4        | 44         |   8.3% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 35  | Funding Sponsors                       | 6        | 42         |  12.5% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 36  | Software / Code Repo                   | 2        | 46         |   4.2% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 37  | Latest Project / Highlight             | 13       | 35         |  27.1% | 🟡 Selective
-2026-09-19 04:44:31,991 - INFO - 38  | Office Location                        | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,991 - INFO - 39  | Is Field Match                         | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,991 - INFO - 40  | Directory URL                          | 48       | 0          | 100.0% | ✅ Complete
-2026-09-19 04:44:31,991 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 04:44:31,991 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
-2026-09-19 04:44:31,992 - INFO -   [OK] Active Faculty Discovery: 100% verified non-emeritus faculty harvested from ASU REST API.
-2026-09-19 04:44:31,992 - INFO -   [OK] Selective OpenAlex Integration: All 11 Tier 1 Core Aero faculty queried; non-aero strictly filtered.
-2026-09-19 04:44:31,992 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Paper, Clickable DOI, Tech Stack, & Tripartite Finding.
-2026-09-19 04:44:31,992 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and full paper abstracts.
-2026-09-19 04:44:31,992 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
-2026-09-19 04:44:31,992 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.xlsx
-2026-09-19 04:44:31,992 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.md
-2026-09-19 04:44:31,992 - INFO - Run Log File: D:\Others\findprofs\universities_wise\arizona_state_university\run.log
-2026-09-19 04:44:31,992 - INFO - ===============================================================================================
+2026-09-19 05:38:15,840 - INFO - ASU AEROSPACE & MECHANICAL ENGINEERING PIPELINE EXECUTION AUDIT REPORT
+2026-09-19 05:38:15,840 - INFO - ===============================================================================================
+2026-09-19 05:38:15,840 - INFO - Total Active Faculty Extracted: 18
+2026-09-19 05:38:15,840 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion: 11 (Exclusively populates 'Aero Focus' Tab)
+2026-09-19 05:38:15,840 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     7
+2026-09-19 05:38:15,841 - INFO -   - [Tier 3] Structures / Materials / Mfg:         0
+2026-09-19 05:38:15,841 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       0
+2026-09-19 05:38:15,841 - INFO - Field-Matched Faculty Candidates: 18 / 18 (100.0%)
+2026-09-19 05:38:15,841 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 05:38:15,841 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
+2026-09-19 05:38:15,841 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
+2026-09-19 05:38:15,841 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 05:38:15,841 - INFO - 1   | Name                                   | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 2   | University                             | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 3   | Profile URL                            | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 4   | Google Scholar URL                     | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 5   | Job Title                              | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 6   | Department                             | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,841 - INFO - 7   | Scholar ID                             | 11       | 7          |  61.1% | 🔵 Strong
+2026-09-19 05:38:15,842 - INFO - 8   | Email                                  | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,842 - INFO - 9   | Research Tier                          | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,842 - INFO - 10  | Research Category                      | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,842 - INFO - 11  | Matched Count                          | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,842 - INFO - 12  | Matched Fields                         | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,842 - INFO - 13  | Flagship Paper Hook                    | 11       | 7          |  61.1% | 🔵 Strong (Tier 1 Core Aero: 11/11)
+2026-09-19 05:38:15,842 - INFO - 14  | Flagship Paper DOI                     | 11       | 7          |  61.1% | 🔵 Strong (Tier 1 Core Aero: 11/11)
+2026-09-19 05:38:15,842 - INFO - 15  | Tech Stack                             | 11       | 7          |  61.1% | 🔵 Strong (Tier 1 Core Aero: 11/11)
+2026-09-19 05:38:15,842 - INFO - 16  | Physical Finding                       | 11       | 7          |  61.1% | 🔵 Strong (Tier 1 Core Aero: 11/11)
+2026-09-19 05:38:15,842 - INFO - 17  | Research Hook                          | 11       | 7          |  61.1% | 🔵 Strong (Tier 1 Core Aero: 11/11)
+2026-09-19 05:38:15,842 - INFO - 18  | Latest Paper / Publication             | 8        | 10         |  44.4% | 🟡 Selective
+2026-09-19 05:38:15,843 - INFO - 19  | Recent Papers (2024-2026)              | 9        | 9          |  50.0% | 🔵 Strong
+2026-09-19 05:38:15,843 - INFO - 20  | Top Cited Papers                       | 11       | 7          |  61.1% | 🔵 Strong
+2026-09-19 05:38:15,843 - INFO - 21  | Courses Taught                         | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,843 - INFO - 22  | Recent Awards / Honors                 | 2        | 16         |  11.1% | 🟡 Selective
+2026-09-19 05:38:15,843 - INFO - 23  | Cold Email / Application Instructions  | 2        | 16         |  11.1% | 🟡 Selective
+2026-09-19 05:38:15,843 - INFO - 24  | OpenAlex Research Topics               | 11       | 7          |  61.1% | 🔵 Strong
+2026-09-19 05:38:15,843 - INFO - 25  | Google Scholar Tags                    | 11       | 7          |  61.1% | 🔵 Strong
+2026-09-19 05:38:15,843 - INFO - 26  | Research Interests                     | 9        | 9          |  50.0% | 🔵 Strong
+2026-09-19 05:38:15,843 - INFO - 27  | Expertise Areas                        | 6        | 12         |  33.3% | 🟡 Selective
+2026-09-19 05:38:15,843 - INFO - 28  | Research / Bio Summary                 | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,843 - INFO - 29  | Education / Degrees                    | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,844 - INFO - 30  | Lab / Research Group Name              | 8        | 10         |  44.4% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 31  | Lab / Personal Website                 | 10       | 8          |  55.6% | 🔵 Strong
+2026-09-19 05:38:15,844 - INFO - 32  | Actively Hiring / Openings             | 2        | 16         |  11.1% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 33  | Target Skills / Prerequisites          | 1        | 17         |   5.6% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 34  | Lab Facilities & Equipment             | 3        | 15         |  16.7% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 35  | Funding Sponsors                       | 3        | 15         |  16.7% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 36  | Software / Code Repo                   | 1        | 17         |   5.6% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 37  | Latest Project / Highlight             | 6        | 12         |  33.3% | 🟡 Selective
+2026-09-19 05:38:15,844 - INFO - 38  | Office Location                        | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,844 - INFO - 39  | Is Field Match                         | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,844 - INFO - 40  | Directory URL                          | 18       | 0          | 100.0% | ✅ Complete
+2026-09-19 05:38:15,844 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 05:38:15,845 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
+2026-09-19 05:38:15,845 - INFO -   [OK] Active Faculty Discovery: 100% verified non-emeritus faculty harvested from ASU REST API.
+2026-09-19 05:38:15,845 - INFO -   [OK] Selective OpenAlex Integration: All 11 Tier 1 Core Aero faculty queried; non-aero strictly filtered.
+2026-09-19 05:38:15,845 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Paper, Clickable DOI, Tech Stack, & Tripartite Finding.
+2026-09-19 05:38:15,845 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and full paper abstracts.
+2026-09-19 05:38:15,845 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
+2026-09-19 05:38:15,845 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.xlsx
+2026-09-19 05:38:15,845 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\arizona_state_university\asu_aerospace_mechanical_faculty.md
+2026-09-19 05:38:15,845 - INFO - Run Log File: D:\Others\findprofs\universities_wise\arizona_state_university\run.log
+2026-09-19 05:38:15,845 - INFO - ===============================================================================================

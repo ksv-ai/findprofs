@@ -137,63 +137,123 @@ def is_core_aero_prof(prof_dict: dict) -> bool:
     hits = [p.pattern.replace(r'\b', '') for p in COMPILED_AERO if p.search(text)]
     return len(hits) >= 1  # Strictly gate OpenAlex extraction
 ### 3.3 Authoritative OpenAlex JSON Cache Schema (`openalex_cache/<slug>.json`)
-Every cached JSON file must adhere to this complete, standardized schema matching the ASU reference standard and capturing full academic impact metrics:
+Every cached JSON file must adhere to this standardized schema (containing author metrics, `top_topics`, `top_cited_works` for landmark historical impact, and **5 `recent_works` (2024–2026)** with full reconstructed abstracts, clickable DOIs, concepts, and venues):
 ```json
 {
-  "name": "Marcus Herrmann",
-  "uni": "Arizona State University",
-  "author_id": "A5009928604",
-  "author_display_name": "Marcus Herrmann",
-  "works_count": 168,
-  "cited_by_count": 2685,
-  "2yr_mean_citedness": 1.6,
-  "h_index": 24,
-  "i10_index": 42,
-  "affiliations": [
-    "University of Stuttgart",
-    "Infineon Technologies (Germany)",
-    "University of Freiburg"
-  ],
+  "name": "Aaron Morris",
+  "uni": "Purdue University",
+  "author_id": "A5073999729",
+  "author_display_name": "Aaron Morris",
+  "works_count": 41,
+  "cited_by_count": 773,
   "top_topics": [
     {
-      "topic": "Fluid Dynamics and Heat Transfer",
-      "count": 66
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 22
     },
     {
-      "topic": "Fluid Dynamics and Turbulent Flows",
-      "count": 27
+      "topic": "Granular flow and fluidized beds",
+      "count": 19
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 13
     }
   ],
   "top_cited_works": [
     {
-      "title": "Modeling Primary Atomization",
-      "publication_year": 2008,
-      "publication_date": "2008-01-01",
-      "doi": "https://doi.org/10.1146/annurev.fluid.40.111406.102200",
-      "venue": "Annual Review of Fluid Mechanics",
-      "type": "review",
-      "cited_by_count": 440,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": ["Direct numerical simulation", "Multiphase flow", "Breakup"],
+      "title": "Extension of a coarse grained particle method to simulate heat transfer in fluidized beds",
+      "publication_year": 2017,
+      "publication_date": "2017-04-18",
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2017.04.040",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 133,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2017.04.040",
+      "concepts": [
+        "Heat transfer",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Fluidized bed"
+      ],
       "abstract": "Full reconstructed abstract from OpenAlex inverted index...",
-      "authors": ["Mikhael Gorokhovski", "Marcus Herrmann"]
+      "authors": [
+        "Liqiang Lu",
+        "Aaron Morris",
+        "Tingwen Li",
+        "Sofiane Benyahia"
+      ]
     }
   ],
   "recent_works": [
     {
-      "title": "Recent publication title 2024-2026...",
-      "publication_year": 2025,
-      "publication_date": "2025-01-20",
-      "doi": "https://doi.org/10.1016/j.jcp.2025.113765",
-      "venue": "Journal of Computational Physics",
+      "title": "Modeling of fluidized systems using a novel Monte Carlo approach for granular interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.1002/aic.70212",
+      "venue": "AIChE Journal",
       "type": "article",
-      "cited_by_count": 2,
+      "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
-      "concepts": ["Immersed boundary method", "Turbulence"],
+      "concepts": [
+        "Fluidization",
+        "Monte Carlo method",
+        "Statistical physics",
+        "Bubble"
+      ],
+      "abstract": "Abstract A kinetic theory‐based Monte Carlo algorithm for simulating particle dynamics within a gas–solid flow is presented. The technique, called the energy direct simulation Monte Carlo (EDSMC) method, has a formulation that is unique in the field of fluidization modeling...",
+      "authors": [
+        "M. A. Black",
+        "Aaron Morris"
+      ]
+    },
+    {
+      "title": "Continuum correlations from CFD-DEM modeling of conduction heat transfer in granular flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6030431",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6030431",
+      "concepts": [
+        "Heat transfer",
+        "Mechanics",
+        "Thermal conduction"
+      ],
       "abstract": "Full reconstructed abstract...",
-      "authors": ["Himanshu Dave", "Marcus Herrmann"]
+      "authors": [
+        "Krutika Appaswamy",
+        "Chathusha Vidwantha Punchi Wedikkara",
+        "Zhiwen Ma",
+        "Aaron Morris"
+      ]
+    },
+    {
+      "title": "Geometric Optimization of an External Enclosure to Enhance Receiver Thermal Performance in Concentrated Solar Power Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.1115/es2025-157075",
+      "venue": "ASME Energy Sustainability",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Enclosure",
+        "Thermal",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Abstract Concentrated Solar Power (CSP) holds promise as a method of effectively harnessing solar energy...",
+      "authors": [
+        "Chathusha Vidwantha Punchi Wedikkara",
+        "Janna Martinek",
+        "Zhiwen Ma",
+        "Aaron Morris"
+      ]
     }
   ]
 }
@@ -275,23 +335,28 @@ Follow this standardized 7-step replication protocol for any new institution (e.
 1. Profile Scraping: Office location, degrees, courses taught, awards, Google Scholar ID.
 2. Lab Scraping: Active hiring statements, prerequisites (Python, C++, ROS, PyTorch), experimental facilities, funding sponsors, GitHub code repos.
 
-### Step 5: Selective OpenAlex API Extraction (Aero Core Only)
-1. Evaluate faculty against `is_core_aero_prof()`.
-2. **Extract OpenAlex JSON only for qualifying aero faculty**; save compact structured JSON to `openalex_cache/<slug>.json`.
-3. For core aero faculty, extract:
+### Step 5: Selective OpenAlex API Extraction (Tier 1 & Computational Math Core Only)
+1. Evaluate faculty against `is_core_aero_prof()` and Tier 1 / Comp Math classification.
+2. **Extract OpenAlex JSON only for qualifying Tier 1 core aero and computational math faculty**; save compact structured JSON to `openalex_cache/<slug>.json`.
+3. For qualifying faculty, extract and populate:
+   - `author_id`, `author_display_name`, `works_count`, `cited_by_count`.
    - Top Research Topics (with publication counts).
-   - Top 3 Cited Papers (with journal, year, cites, DOI).
-   - Top 3 Recent Papers 2024–2026 (with journal, year, DOI).
-   - Flagship paper, Tech Stack, and abstract for Tripartite Finding generation.
+   - Top 3 Cited Papers (`top_cited_works`) (with journal, year, cites, DOI, full reconstructed abstract, concepts, and authors).
+   - **5 Recent Papers 2024–2026** (`recent_works`) (with journal, year, DOI, full reconstructed abstract, concepts, and authors).
+   - **2 Flagship Papers (2020–2026)**: High-impact recent papers in core aero/fluids/CFD with clickable DOIs and abstracts.
+   - **Tech Stack & Research Hook**: Synthesized across the body of the 4–5 recent papers.
+   - **Tripartite Physical Finding**: Formulated from the recent flagship papers.
 
-### Step 6: Multi-Sheet Excel & Markdown Generation
+### Step 6: Multi-Sheet Excel & Markdown Generation (Tier 1 & Tier 2 Only)
 1. Build Excel workbook (`<slug>_aerospace_mechanical_faculty.xlsx`):
-   - Sheet 1: `Aero Focus` (solely Core Aero/Fluids/CFD professors, ready for cold outreach).
-   - Sheet 2: `Field Matched` (all active professors with matched keywords).
-   - Sheet 3: `All Faculty` (complete cohort audit log).
+   - Filter out all non-Tier-1/2 faculty (drop pure robotics, materials, manufacturing, civil, biomedical).
+   - Sheet 1: `Aero Focus` (solely Core Aero/Fluids/CFD and Computational Math professors, ready for cold outreach).
+   - Sheet 2: `Field Matched` (qualifying Tier 1 and Tier 2 professors with matched keywords, sorted descending).
+   - Sheet 3: `All Faculty` (complete qualifying Tier 1 and Tier 2 cohort audit log).
 2. Build Markdown directory (`<slug>_aerospace_mechanical_faculty.md`):
    - Quick jump index, visual indicator badges (🔥 Hiring, 📩 Cold Email, 📄 Paper, 🔬 Lab).
-   - Clickable DOI links for landmark and recent publications.
+   - Dual recent flagship papers (2020–2026) with direct clickable DOIs and abstracts.
+   - 5 recent papers (2024–2026) with clickable DOIs.
 
 ### Step 7: Automatic GitHub Synchronization
 - Commit all updated code, workbooks, markdown files, and curated cache to GitHub repository under user `ksv-ai`.

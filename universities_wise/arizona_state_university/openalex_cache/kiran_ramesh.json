@@ -197,6 +197,57 @@
         "Geoffrey L. Abulencia",
         "Jayson P. Rogelio"
       ]
+    },
+    {
+      "title": "Effect of rounded trailing edges on unsteady airfoil loading at low reynolds numbers",
+      "publication_year": 2025,
+      "publication_date": "2025-07-05",
+      "doi": "https://doi.org/10.1007/s00162-025-00747-z",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00162-025-00747-z.pdf",
+      "concepts": [
+        "Airfoil",
+        "Reynolds number",
+        "Trailing edge",
+        "Mechanics",
+        "Mathematics",
+        "Computational Science and Engineering",
+        "Geometry",
+        "Physics"
+      ],
+      "abstract": "Abstract The steady potential flow past a traditional airfoil with a round leading edge and a sharp trailing edge can usually be simulated using the assumption of Kutta condition at the trailing edge. However, for the airfoil undergoing unsteady motion, especially at high reduced frequencies, numerical and experimental studies have shown that the flow can curve around the trailing edge, resulting in the stagnation point moving away from the trailing edge. This phenomenon becomes increasingly apparent when the airfoil has a round trailing edge instead of the usual sharp one. Inspired by the success of using leading-edge suction force to represent the flow turn-around at the leading edge and the associated vortex shedding, this work introduces the trailing-edge suction force and connects it to the trailing-edge unsteady flow physics. In this work, the effect of trailing edge roundness on the unsteady airfoil flow is studied by generating airfoil shapes with various amounts of roundness. Computational fluid dynamics (CFD) studies of unsteady flow past airfoils with different round trailing edges are performed to study the effects of the trailing-edge suction force on the flowfield....",
+      "authors": [
+        "Yi Tsung Lee",
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam"
+      ]
+    },
+    {
+      "title": "RideSecure : LPC2148 Powered Smart Helmet",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.20944/preprints202505.1483.v1",
+      "venue": "Preprints.org",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.preprints.org/frontend/manuscript/09d95dd04e5a19fb2fccdd691e584b90/download_pub",
+      "concepts": [
+        "Computer science",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "Motorcycle riders face critical safety challenges due to over-speeding, impaired driving, and delayed emergency response. RideSecure is a smart helmet system built on the LPC2148 microcontroller that combines MPU6050 accelerometer/gyroscope for accident detection, MQ-3 alcohol sensor for impairment monitoring, and GSM/GPS modules for real-time emergency alerts. Unlike conventional systems that only respond after incidents, RideSecure proactively prevents accidents through intelligent threshold-based alerts and automated emergency response mechanisms. The system is simulated and validated using Proteus and Keil environments for functional reliability.",
+      "authors": [
+        "Sumedh Udupa Uppinkudru",
+        "V. K. Bhat",
+        "V S Sreenivaas",
+        "Kiran Ramesh"
+      ]
     }
   ]
 }

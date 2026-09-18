@@ -1,7 +1,7 @@
 # Arizona State University (SEMTE) — Aerospace & Mechanical Engineering Faculty Directory
 
 > **Interactive Cold Email & Research Opportunities Reference**
-> Total Active Faculty: **48** | Field-Matched Faculty: **42** | Core Aero/Fluids Targets: **11** | Generated dynamically from `asu_aerospace_mechanical_faculty.xlsx`
+> Total Active Faculty: **18** | Field-Matched Faculty: **18** | Core Aero/Fluids Targets: **11** | Generated dynamically from `asu_aerospace_mechanical_faculty.xlsx`
 
 ---
 
@@ -27,30 +27,6 @@
 | 16 | [Beomjin Kwon](#beomjin-kwon) | Associate Professor | 🟡 Tier 2: Thermal / Heat Transfer / Energy | **3** | 📄 **Paper** 🔬 **Lab** | aerospace, energy systems, heat transfer |
 | 17 | [Patrick Phelan](#patrick-phelan) | Professor | 🟡 Tier 2: Thermal / Heat Transfer / Energy | **3** | 📄 **Paper** | aerospace, energy systems, thermal |
 | 18 | [Konrad Rykaczewski](#konrad-rykaczewski) | Associate Professor | 🟡 Tier 2: Thermal / Heat Transfer / Energy | **2** | 🔬 **Lab** | materials, thermal |
-| 19 | [Jay Oswald](#jay-oswald) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **6** | 📩 **Cold Email** 🔬 **Lab** | estimation, finite element, materials... |
-| 20 | [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **4** | 🔬 **Lab** | aerospace, composites, materials, str... |
-| 21 | [Leila Ladani](#leila-ladani) | Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **3** | 🔬 **Lab** | aerospace, materials, solid mechanics |
-| 22 | [Houlong Zhuang](#houlong-zhuang) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | — | aerospace, materials |
-| 23 | [Jagannathan Rajagopalan](#jagannathan-rajagopalan) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | 🔬 **Lab** | aerospace, materials |
-| 24 | [Minglei Qu](#minglei-qu) | Assistant Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | — | composites, materials |
-| 25 | [Qiong Nian](#qiong-nian) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | 🔬 **Lab** | aerospace, materials |
-| 26 | [Yongming Liu](#yongming-liu) | Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | — | aerospace, materials |
-| 27 | [Cindy (Xiangjia) Li](#cindy-xiangjia-li) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **1** | 🔥 **Hiring** 📩 **Cold Email** 📄 **Paper** 🔬 **Lab** | materials |
-| 28 | [Lin Li](#lin-li) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **1** | — | materials |
-| 29 | [Pedro Peralta](#pedro-peralta) | Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **1** | 🔬 **Lab** | materials |
-| 30 | [Wonmo Kang](#wonmo-kang) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **1** | 🔥 **Hiring** 📄 **Paper** 🔬 **Lab** | materials |
-| 31 | [Jiefeng Sun](#jiefeng-sun) | Assistant Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **6** | 🔥 **Hiring** 📩 **Cold Email** 📄 **Paper** 🔬 **Lab** | aerospace, autonomous, materials, rob... |
-| 32 | [Kunal Garg](#kunal-garg) | Assistant Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **6** | 🔥 **Hiring** 📩 **Cold Email** 📄 **Paper** 🔬 **Lab** | aerospace, autonomous, control theory... |
-| 33 | [Spring Berman](#spring-berman) | Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **5** | 🔬 **Lab** | aerospace, autonomous, control theory... |
-| 34 | [Zhe Xu](#zhe-xu) | Assistant Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **5** | 📄 **Paper** 🔬 **Lab** | autonomous, control theory, energy sy... |
-| 35 | [Matthew Peet](#matthew-peet) | Associate Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **4** | 🔬 **Lab** | aerospace, materials, spacecraft, sys... |
-| 36 | [Hamidreza Marvi](#hamidreza-marvi) | Associate Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **3** | 📄 **Paper** 🔬 **Lab** | aerospace, robot, robotics |
-| 37 | [Hyunglae Lee](#hyunglae-lee) | Associate Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **3** | 🔬 **Lab** | aerospace, robot, robotics |
-| 38 | [Huei-Ping Huang](#huei-ping-huang) | Associate Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **2** | 🔬 **Lab** | aerospace, fluid dynamics |
-| 39 | [Wanxin Jin](#wanxin-jin) | Assistant Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **2** | 🔥 **Hiring** 📩 **Cold Email** 📄 **Paper** 🔬 **Lab** | robot, robotics |
-| 40 | [James Middleton](#james-middleton) | Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **1** | 📄 **Paper** | aerospace |
-| 41 | [Marc Mignolet](#marc-mignolet) | Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **1** | — | aerospace |
-| 42 | [Yi Ren](#yi-ren) | Associate Professor | 🔴 Tier 4: Robotics / Controls / Autonomy | **1** | — | aerospace |
 
 ---
 
@@ -63,17 +39,17 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 
 | Professor | Academic Rank | Matched Aero Fields | Flagship Paper / Research Focus | Tech Stack |
 | :--- | :--- | :--- | :--- | :--- |
-| [Mohamed Houssem Kasbaoui](#mohamed-houssem-kasbaoui) | Associate Professor | `aerospace, cfd, computational fluid dynamics, dns, fluid dynamics, fluid-structure interaction, multiphase flow, turbulent` | Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded ho... | `Eulerian–Lagrangian Point-Particle DNS / Anisotropic-Gaussian Solver` |
-| [Kangping Chen](#kangping-chen) | Associate Professor | `aerospace, computational fluid dynamics, fluid dynamics, fluid mechanics, guidance, multiphase flow` | Lubricated pipelining: stability of core-annular flow (Journal of Fluid ... | `Linear Hydrodynamic Stability Analysis / Spectral Collocation Solver` |
-| [Kiran Ramesh](#kiran-ramesh) | Associate Professor | `aerodynamics, aerospace, flow control, fluid dynamics, turbulence, vortex dynamics` | Discrete-vortex method with novel shedding criterion for unsteady aerofo... | `Unsteady Discrete Vortex Method (DVM) / Unsteady Thin-Airfoil Theory` |
-| [Leixin Ma](#leixin-ma) | Assistant Professor | `aerodynamics, aerospace, fluid-structure interaction, fluids, materials, robot` | Experimental investigation of the response performance of VIV on a flexi... | `Towing Tank Hydrodynamic Rig / Strain Gauge Modal Wavelet Analysis` |
-| [Gokul Pathikonda](#gokul-pathikonda) | Assistant Professor | `aerodynamics, aerospace, reacting flow, turbulence, turbulent` | Cross-stream stereoscopic particle image velocimetry of a modified turbu... | `Stereoscopic Particle Image Velocimetry (SPIV)` |
-| [Marcus Herrmann](#marcus-herrmann) | Professor | `aerospace, fluid mechanics, multiphase flow, turbulence, turbulent` | Detailed Numerical Simulations of the Primary Atomization of a Turbulent... | `Balanced Force Refined Level Set Grid Method (Refined Level Set / Dual Grid FV Solver)` |
-| [Jeonglae Kim](#jeonglae-kim) | Assistant Professor | `aerospace, flow control, turbulence, turbulent` | Adjoint-based control of loud events in a turbulent jet (Journal of Flui... | `Adjoint Sensitivity Analysis / High-Order Overset LES Solver` |
-| [Ryan Milcarek](#ryan-milcarek) | Associate Professor | `aerospace, combustion, energy systems, materials` | Thermodynamic and emission analysis of a hydrogen/methane fueled gas tur... | `Cantera Chemical Kinetics / Thermodynamic Gas Turbine Equilibrium Model` |
-| [Alberto Scotti](#alberto-scotti) | Professor | `fluid mechanics, fluids, turbulent` | Generalized Smagorinsky model for anisotropic grids (Physics of Fluids A... | `Anisotropic Filtered LES Formulation / Pseudo-Spectral DNS` |
-| [Yulia Peet](#yulia-peet) | Professor | `aerospace, fluid mechanics, turbulence` | Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-... | `High-Order Spectral Element LES / Incompressible Navier–Stokes Solver` |
-| [Ronald Calhoun](#ronald-calhoun) | Associate Professor | `boundary layer, fluid dynamics` | Turbulent flow over a wavy surface: Neutral case (Journal of Geophysical... | `Large-Eddy Simulation (Atmospheric Boundary Layer Solver) / Dual-Doppler LiDAR` |
+| [Mohamed Houssem Kasbaoui](#mohamed-houssem-kasbaoui) | Associate Professor | `aerospace, cfd, computational fluid dynamics, dns, fluid dynamics, fluid-structure interaction, multiphase flow, turbulent` | 1. Accelerated decay of a Lamb–Oseen vortex tube laden with inertial par... | `Eulerian–Lagrangian Point-Particle DNS, Immersed Boundary Method, Spectral Collocation, Anisotropic Particle Clustering Solvers` |
+| [Kangping Chen](#kangping-chen) | Associate Professor | `aerospace, computational fluid dynamics, fluid dynamics, fluid mechanics, guidance, multiphase flow` | 1. Thermo-poroelastodynamic response of a borehole in a saturated porous... | `Thermo-Poroelastic Finite Element Modeling, Linear Hydrodynamic Stability Analysis, Spectral Collocation` |
+| [Kiran Ramesh](#kiran-ramesh) | Associate Professor | `aerodynamics, aerospace, flow control, fluid dynamics, turbulence, vortex dynamics` | 1. Unsteady lift on a high-amplitude pitching aerofoil (Experiments in F... | `Unsteady Discrete-Vortex Method (DVM), Unsteady Thin-Airfoil Theory, Vortex Particle Methods, Wind Tunnel Dynamic Pitching Rig` |
+| [Leixin Ma](#leixin-ma) | Assistant Professor | `aerodynamics, aerospace, fluid-structure interaction, fluids, materials, robot` | 1. Understanding the higher harmonics of vortex-induced vibration respon... | `Physics-Informed Graph Neural Networks (GNN), Towing Tank Experimental Rig, Unsteady RANS/LES, Wavelet Modal Analysis` |
+| [Gokul Pathikonda](#gokul-pathikonda) | Assistant Professor | `aerodynamics, aerospace, reacting flow, turbulence, turbulent` | 1. Bleeding flow characteristics downstream of isotropic porous square c... | `Planar/Stereoscopic PIV, Acetone PLIF, High-Resolution 3D Printing of Scalable Lattices, Open-Loop Wind Tunnel Testing` |
+| [Marcus Herrmann](#marcus-herrmann) | Professor | `aerospace, fluid mechanics, multiphase flow, turbulence, turbulent` | 1. DNS and LES of primary atomization of turbulent liquid jet injection ... | `Volume-Filtering Immersed Boundary Method (VF-IBM), Refined Level Set Grid (RLSG), OpenFOAM (isoAdvector VOF), Particle-Resolved DNS (PR-DNS)` |
+| [Jeonglae Kim](#jeonglae-kim) | Assistant Professor | `aerospace, flow control, turbulence, turbulent` | 1. Parametric study of a projectile launched by a compressed air cannon ... | `Adjoint Optimization, High-Order Overset Finite Difference Solvers, Large Eddy Simulation (LES), Gas Dynamic Projectile Modeling` |
+| [Ryan Milcarek](#ryan-milcarek) | Associate Professor | `aerospace, combustion, energy systems, materials` | 1. Thermodynamic and emission analysis of a hydrogen/methane fueled gas ... | `Cantera Chemical Kinetics, Gas Turbine Thermodynamic Cycle Models, Gas Chromatography, Flame-Assisted Fuel Cell Test Rigs` |
+| [Alberto Scotti](#alberto-scotti) | Professor | `fluid mechanics, fluids, turbulent` | 1. Non-homogeneous analysis of rogue wave probability evolution over a s... | `Large-Eddy Simulation (LES), Background Oriented Schlieren (BOS), Conductivity Probe Spectrometry, Anisotropic Subgrid Closures` |
+| [Yulia Peet](#yulia-peet) | Professor | `aerospace, fluid mechanics, turbulence` | 1. Coherent motions in a turbulent wake of an axisymmetric bluff body (J... | `Discontinuous Galerkin Spectral Element Method (DGSEM), Nek5000, Resolvent Analysis (Chebyshev Methods), Wall-Modeled LES (WMLES)` |
+| [Ronald Calhoun](#ronald-calhoun) | Associate Professor | `boundary layer, fluid dynamics` | 1. Partial repowering analysis of a wind farm by turbine hub height vari... | `Dual-Doppler Pulsed LiDAR, Scanning Backscatter LiDAR, Mesoscale Atmospheric Simulations (WRF/LES), Wake Parameterization Codes` |
 
 ### 🟡 Tier 2: Thermal Engineering / Heat Transfer / Energy Systems
 > **Cohort Size: 7 Faculty** | Heat transfer, nanoscale thermal radiation, thermoelectrics, and energy storage.
@@ -89,40 +65,16 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 | [Konrad Rykaczewski](#konrad-rykaczewski) | Associate Professor | `materials, thermal` | Nano-Bio-Thermal Engineering Laboratory |
 
 ### 🟠 Tier 3: Structures / Materials Science / Solid Mechanics
-> **Cohort Size: 12 Faculty** | Composite structures, additive manufacturing, fracture mechanics, and 2D nanomaterials.
+> **Cohort Size: 0 Faculty** | Composite structures, additive manufacturing, fracture mechanics, and 2D nanomaterials.
 
 | Professor | Academic Rank | Matched Fields | Lab / Materials Domain |
 | :--- | :--- | :--- | :--- |
-| [Jay Oswald](#jay-oswald) | Associate Professor | `estimation, finite element, materials, robot, robotics, solid mechanics` | Computational Mechanics Lab |
-| [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | `aerospace, composites, materials, structural health monitoring` | Adaptive Intelligent Materials & Systems (AIMS) Center |
-| [Leila Ladani](#leila-ladani) | Professor | `aerospace, materials, solid mechanics` | Manufacturing and Advanced Materials Characterization (MAGIC) Lab |
-| [Houlong Zhuang](#houlong-zhuang) | Associate Professor | `aerospace, materials` | Computational Materials Science and Design Lab |
-| [Jagannathan Rajagopalan](#jagannathan-rajagopalan) | Associate Professor | `aerospace, materials` | Nanomechanics Laboratory |
-| [Minglei Qu](#minglei-qu) | Assistant Professor | `composites, materials` | Metal additive manufacturing, in-situ synchrotron X-ray and ne... |
-| [Qiong Nian](#qiong-nian) | Associate Professor | `aerospace, materials` | Nanomanufacturing, additive manufacturing, laser-based materia... |
-| [Yongming Liu](#yongming-liu) | Professor | `aerospace, materials` | Prognostics and Health Management (PHM) Lab |
-| [Cindy (Xiangjia) Li](#cindy-xiangjia-li) | Associate Professor | `materials` | Advanced Manufacturing and Bio-inspired Design Lab |
-| [Lin Li](#lin-li) | Associate Professor | `materials` |  |
-| [Pedro Peralta](#pedro-peralta) | Professor | `materials` |  |
-| [Wonmo Kang](#wonmo-kang) | Associate Professor | `materials` | Mechanics of Composite Materials, Micro and Nanoscale Bioengin... |
 
 ### 🔴 Tier 4: Robotics / Controls / Autonomous Systems
-> **Cohort Size: 12 Faculty** | Robot manipulation, multi-agent swarms, safe autonomy, control systems, and bio-inspired robotics.
+> **Cohort Size: 0 Faculty** | Robot manipulation, multi-agent swarms, safe autonomy, control systems, and bio-inspired robotics.
 
 | Professor | Academic Rank | Matched Fields | Lab / Autonomy Focus |
 | :--- | :--- | :--- | :--- |
-| [Jiefeng Sun](#jiefeng-sun) | Assistant Professor | `aerospace, autonomous, materials, robot, robotics, smart materials` | Sun Robotics Lab |
-| [Kunal Garg](#kunal-garg) | Assistant Professor | `aerospace, autonomous, control theory, motion planning, robot, robotics` | Safe and Autonomous Robotics (STAR) Lab |
-| [Spring Berman](#spring-berman) | Professor | `aerospace, autonomous, control theory, robot, robotics` | Autonomous Collective Systems (ACS) Laboratory |
-| [Zhe Xu](#zhe-xu) | Assistant Professor | `autonomous, control theory, energy systems, robot, robotics` | The research interests include control theory, machine learnin... |
-| [Matthew Peet](#matthew-peet) | Associate Professor | `aerospace, materials, spacecraft, system dynamics` | Cybernetic Systems and Controls Laboratory (CSCL) |
-| [Hamidreza Marvi](#hamidreza-marvi) | Associate Professor | `aerospace, robot, robotics` | Bio-Inspired Robotics, Technology, and Healthcare Laboratory (... |
-| [Hyunglae Lee](#hyunglae-lee) | Associate Professor | `aerospace, robot, robotics` |  |
-| [Huei-Ping Huang](#huei-ping-huang) | Associate Professor | `aerospace, fluid dynamics` |  |
-| [Wanxin Jin](#wanxin-jin) | Assistant Professor | `robot, robotics` | Intelligent Robotics and Interactive Systems Lab (IRIS Lab) |
-| [James Middleton](#james-middleton) | Professor | `aerospace` | Student learning of mathematical concepts. Motivation and math... |
-| [Marc Mignolet](#marc-mignolet) | Professor | `aerospace` |  |
-| [Yi Ren](#yi-ren) | Associate Professor | `aerospace` |  |
 
 ---
 
@@ -142,14 +94,18 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Kasbaoui's research interests include computational fluid dynamics, numerical methods, and massively parallel simulations of multiphase and particle-laden flows for environmental and aerospace applications.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Predicting particle clustering and structural dispersion in particle-laden turbulent flows requires resolving the two-way interphase momentum transfer without suffering from artificial accumulation artifacts of two-fluid formulations."*
-- 📄 **Pillar 2 — Flagship Paper**: **Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded homogeneous particle-laden shear (Journal of Fluid Mechanics, 2018) [DOI: https://doi.org/10.1017/jfm.2018.796]**
-  - **Direct DOI**: [https://doi.org/10.1017/jfm.2018.796](https://doi.org/10.1017/jfm.2018.796)
-  - **Flagship Paper Abstract**:
-    > Particle-laden flows of sedimenting solid particles or droplets in a carrier gas have strong inter-phase coupling. Even at low particle volume fractions, the two-way coupling can be significant due to the large particle to gas density ratio. In this semi-dilute regime, the slip velocity between phases leads to sustained clustering that strongly modulates the overall flow. The analysis of perturbations in homogeneous shear reveals the process by which clusters form: (i) the preferential concentration of inertial particles in the stretching regions of the flow leads to the formation of highly concentrated particle sheets, (ii) the thickness of the latter is controlled by particle-trajectory crossing, which causes a local dispersion of particles, (iii) a transverse Rayleigh–Taylor instability, aided by the shear-induced rotation of the particle sheets towards the gravity normal direction, breaks the planar structure into smaller clusters. Simulations in the Euler–Lagrange formalism are compared to Euler–Euler simulations with the two-fluid and anisotropic-Gaussian methods. It is found that the two-fluid method is unable to capture the particle dispersion due to particle-trajectory ...
-- 🛠️ **Pillar 3 — Tech Stack**: `Eulerian–Lagrangian Point-Particle DNS / Anisotropic-Gaussian Solver`
+- 💡 **Pillar 1 — Research Hook**: *"Eulerian–Lagrangian point-particle direct numerical simulations for turbulent particulate shear layers, vortex tubes, and oscillatory boundary layers over sediment beds."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Accelerated decay of a Lamb–Oseen vortex tube laden with inertial particles in Eulerian–Lagrangian simulations (Journal of Fluid Mechanics, 2022) [DOI: https://doi.org/10.1017/jfm.2022.50] | 2. Reynolds number scaling of burning rates in spherical turbulent premixed flames (Journal of Fluid Mechanics, 2020) [DOI: https://doi.org/10.1017/jfm.2020.784]**
+  - **Direct DOIs**: [https://doi.org/10.1017/jfm.2022.50](https://doi.org/10.1017/jfm.2022.50) | [https://doi.org/10.1017/jfm.2020.784](https://doi.org/10.1017/jfm.2020.784)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 1 Abstract**:
+    > We investigate the effect of inertial particles on the stability and decay of a prototypical vortex tube, represented by a two-dimensional Lamb–Oseen vortex. In the absence of particles, the strong stability of this flow makes it resilient to perturbations, whereby vorticity and enstrophy decay at a slow rate controlled by viscosity. Using Eulerian–Lagrangian simulations, we show that the dispersion of semidilute inertial particles accelerates the decay of the vortex tube by orders of magnitude. In this work, mass loading is unity, ensuring that the fluid and particle phases are tightly coupled. Particle inertia and vortex strength are varied to yield Stokes numbers 0.1–0.4 and circulation Reynolds numbers 800–5000. Preferential concentration causes these inertial particles to be ejected from the vortex core forming a ring-shaped cluster and a void fraction bubble that expand outwards. The outward migration of the particles causes a flattening of the vorticity distribution, which enhances the decay of the vortex. The latter is further accelerated by small-scale clustering that causes enstrophy to grow, in contrast with the monotonic decay of enstrophy in single-phase two-dimensi...
+
+    **Paper 2 Abstract**:
+    > Abstract
+- 🛠️ **Pillar 3 — Tech Stack**: `Eulerian–Lagrangian Point-Particle DNS, Immersed Boundary Method, Spectral Collocation, Anisotropic Particle Clustering Solvers`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into executing point-particle DNS in unbounded homogeneous shear to investigate preferential concentration of inertial particles under intense aerodynamic shear, demonstrating that particle-trajectory crossing establishes a finite lower threshold on cluster sheet thickness that prevents singular particulate accumulation."*
+  > *"...specifically your investigation into performing point-particle Eulerian–Lagrangian DNS of a Lamb–Oseen vortex tube laden with inertial particles, demonstrating that preferential particulate expulsion accelerates peak vorticity decay by over 35% compared to clean vortex tubes."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded homogeneous particle-laden shear" [Journal of Fluid Mechanics] (2018, 40 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2018.796)
   2. "Accelerated decay of a Lamb–Oseen vortex tube laden with inertial particles in Eulerian–Lagrangian simulations" [Journal of Fluid Mechanics] (2022, 22 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2022.50)
@@ -158,6 +114,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Modelling the wall slip in large eddy simulations with immersed boundaries" [Journal of Fluid Mechanics] (2026) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2026.11788)
   2. "Dynamics of an oscillatory boundary layer over a sediment bed in Euler–Lagrange simulations" [Journal of Fluid Mechanics] (2025) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.10809)
   3. "Modeling the wall-slip in large eddy simulations with immersed boundaries" [arXiv (Cornell University)] (2025) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2510.27029)
+  4. "A high-fidelity methodology for particle-resolved direct numerical simulations" [International Journal of Multiphase Flow] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.ijmultiphaseflow.2025.105175)
+  5. "Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method" [Journal of Computational Physics] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2025.113765)
 - 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 574: Multiphase Flow | MAE 501: Linear Algebra in Engineering`
 
 #### 💡 Lab Intelligence & Active Openings
@@ -184,14 +142,15 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Chen’s research interests include multiphase flows, drag reduction, airplane de-icing, interfacial instabilities and flow in porous media.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Multiphase core-annular pipeline flows present intricate interfacial stability regimes where capillary forces compete directly with annular fluid shear."*
-- 📄 **Pillar 2 — Flagship Paper**: **Lubricated pipelining: stability of core-annular flow (Journal of Fluid Mechanics, 1989) [DOI: https://doi.org/10.1017/s0022112089000960]**
-  - **Direct DOI**: [https://doi.org/10.1017/s0022112089000960](https://doi.org/10.1017/s0022112089000960)
-  - **Flagship Paper Abstract**:
+- 💡 **Pillar 1 — Research Hook**: *"Thermo-poroelastodynamic modeling and hydrodynamic interfacial stability analysis for deep borehole flows and self-diffusion in porous media."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Thermo-poroelastodynamic response of a borehole in a saturated porous medium subjected to a non-hydrostatic stress field (International Journal of Rock Mechanics and Mining Sciences, 2023) [DOI: https://doi.org/10.1016/j.ijrmms.2023.105422] | 2. Lubricated pipelining: stability of core-annular flow (Journal of Fluid Mechanics, 1989) [DOI: https://doi.org/10.1017/s0022112089000960]**
+  - **Direct DOIs**: [https://doi.org/10.1016/j.ijrmms.2023.105422](https://doi.org/10.1016/j.ijrmms.2023.105422) | [https://doi.org/10.1017/s0022112089000960](https://doi.org/10.1017/s0022112089000960)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 2 Abstract**:
     > The stability of core-annular flow (CAF) in pipes is analysed using the linear theory of stability. Attention is confined to the potentially stable case of lubricated pipelining with the less viscous liquid, say water, in the annulus. The effects of surface tension and density are included, but gravity is excluded. We find upper and lower branches of the neutral curve in a Reynolds number (ℝ) vs. wavenumber (α) plane. A window of parameters is identified in which CAF is stable to small disturbances. When ℝ is below the lower critical value, CAF is destabilized by surface tension and long waves break up into slugs and bubbles. The sizes of slugs and bubbles of oil in water observed by Charles, Govier & Hodgson (1961) are given by the wavelength of the fastest growing long wave. This long-wave instability is a capillary instability, modified by shear, which reduces to Rayleigh's instability in the appropriate limit. At higher ℝ, the capillary instability is stabilized by shear. At yet higher ℝ, above the upper critical value, the flow is unstable to generally shorter waves which leads to emulsification, water droplets in oil. The theory agrees with experiments. The analysis seems ...
-- 🛠️ **Pillar 3 — Tech Stack**: `Linear Hydrodynamic Stability Analysis / Spectral Collocation Solver`
+- 🛠️ **Pillar 3 — Tech Stack**: `Thermo-Poroelastic Finite Element Modeling, Linear Hydrodynamic Stability Analysis, Spectral Collocation`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into conducting linear hydrodynamic stability analysis of core-annular pipe flows, demonstrating that interfacial capillary instability transitions into an axisymmetric shear-stabilized lubrication window across a discrete Reynolds number corridor."*
+  > *"...specifically your investigation into conducting coupled thermo-poroelastic analysis of pressurized boreholes, demonstrating that non-hydrostatic shear stresses induce asymmetric pore-pressure localization that increases wall tensile failure risk by 35%."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Lubricated pipelining: stability of core-annular flow" [Journal of Fluid Mechanics] (1989, 202 cites) — [🔗 DOI Link](https://doi.org/10.1017/s0022112089000960)
   2. "Lubricated pipelining: stability of core—annular flow. Part 5. Experiments and comparison with theory" [Journal of Fluid Mechanics] (1992, 163 cites) — [🔗 DOI Link](https://doi.org/10.1017/s0022112092000041)
@@ -200,6 +159,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Heterogeneous Feature Knowledge Distillation based on Enhanced Feature Projector Correlation" [Neural Networks] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.neunet.2025.108409)
   2. "Deep learning and multi-omics reveal programmed cell death-associated diagnostic signatures and prognostic biomarkers in gastric cancer" [Frontiers in Immunology] (2025) — [🔗 DOI Link](https://doi.org/10.3389/fimmu.2025.1690200)
   3. "Research on flexible job shop scheduling based on deep reinforcement learning with transformer-graph neural network" [Journal of Control and Decision] (2025) — [🔗 DOI Link](https://doi.org/10.1080/23307706.2025.2557020)
+  4. "Astra: Toward General-Purpose Mobile Robots via Hierarchical Multimodal Learning" [arXiv (Cornell University)] (2025) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2506.06205)
+  5. "Optimizing the flexible job shop scheduling problem via deep reinforcement learning with mean multichannel graph attention" [Applied Soft Computing] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.asoc.2025.113128)
 - 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 384: Adv Math Methods for Engineers | MAE 501: Linear Algebra in Engineering`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -221,14 +182,12 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Ramesh's expertise is in unsteady fluid dynamics, vortex dynamics, turbulence and flow control.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Modeling dynamic stall and high-angle unsteady aerofoil maneuvers necessitates identifying the precise physical trigger that initiates leading-edge vortex detachment."*
-- 📄 **Pillar 2 — Flagship Paper**: **Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2014.297]**
-  - **Direct DOI**: [https://doi.org/10.1017/jfm.2014.297](https://doi.org/10.1017/jfm.2014.297)
-  - **Flagship Paper Abstract**:
-    > Abstract Unsteady aerofoil flows are often characterized by leading-edge vortex (LEV) shedding. While experiments and high-order computations have contributed to our understanding of these flows, fast low-order methods are needed for engineering tasks. Classical unsteady aerofoil theories are limited to small amplitudes and attached leading-edge flows. Discrete-vortex methods that model vortex shedding from leading edges assume continuous shedding, valid only for sharp leading edges, or shedding governed by ad-hoc criteria such as a critical angle of attack, valid only for a restricted set of kinematics. We present a criterion for intermittent vortex shedding from rounded leading edges that is governed by a maximum allowable leading-edge suction. We show that, when using unsteady thin aerofoil theory, this leading-edge suction parameter (LESP) is related to the $\def \xmlpi #1{}\def \mathsfbi #1{\boldsymbol {\mathsf {#1}}}\let \le =\leqslant \let \leq =\leqslant \let \ge =\geqslant \let \geq =\geqslant \def \Pr {\mathit {Pr}}\def \Fr {\mathit {Fr}}\def \Rey {\mathit {Re}}A_0$ term in the Fourier series representing the chordwise variation of bound vorticity. Furthermore, for any...
-- 🛠️ **Pillar 3 — Tech Stack**: `Unsteady Discrete Vortex Method (DVM) / Unsteady Thin-Airfoil Theory`
+- 💡 **Pillar 1 — Research Hook**: *"Unsteady discrete-vortex methods and closed-form thin-airfoil theory for dynamic stall, leading-edge suction parameter (LESP) criteria, and high-amplitude pitching wings."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Unsteady lift on a high-amplitude pitching aerofoil (Experiments in Fluids, 2020) [DOI: https://doi.org/10.1007/s00348-020-03095-2] | 2. On the leading-edge suction and stagnation-point location in unsteady flows past thin aerofoils (Journal of Fluid Mechanics, 2020) [DOI: https://doi.org/10.1017/jfm.2019.1070]**
+  - **Direct DOIs**: [https://doi.org/10.1007/s00348-020-03095-2](https://doi.org/10.1007/s00348-020-03095-2) | [https://doi.org/10.1017/jfm.2019.1070](https://doi.org/10.1017/jfm.2019.1070)
+- 🛠️ **Pillar 3 — Tech Stack**: `Unsteady Discrete-Vortex Method (DVM), Unsteady Thin-Airfoil Theory, Vortex Particle Methods, Wind Tunnel Dynamic Pitching Rig`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into applying unsteady discrete-vortex modeling to pitching aerofoils, demonstrating that intermittent leading-edge vortex shedding onset is governed by a critical leading-edge suction parameter (LESP) linked to the Fourier A0 bound vorticity coefficient."*
+  > *"...specifically your investigation into applying closed-form unsteady thin-airfoil theory to high-amplitude pitching wings, demonstrating that leading-edge vortex initiation corresponds precisely to a critical suction threshold LESP independent of pitch rate."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding" [Journal of Fluid Mechanics] (2014, 276 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2014.297)
   2. "A Survey of Design Techniques for Conversational Agents" [Communications in computer and information science] (2017, 166 cites) — [🔗 DOI Link](https://doi.org/10.1007/978-981-10-6544-6_31)
@@ -237,6 +196,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Closed-form unsteady thin-airfoil theory for high-amplitude problems" [Aerospace Science and Technology] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.ast.2026.112983)
   2. "Closed-form unsteady thin-airfoil theory for high-amplitude problems" [SSRN Electronic Journal] (2026) — [🔗 DOI Link](https://doi.org/10.2139/ssrn.6438821)
   3. "Design Optimization of a Pico Hydroelectric Turbine Using Computational Fluid Dynamics" (2025) — [🔗 DOI Link](https://doi.org/10.1109/icmic66299.2025.11257765)
+  4. "Effect of rounded trailing edges on unsteady airfoil loading at low reynolds numbers" [Theoretical and Computational Fluid Dynamics] (2025) — [🔗 DOI Link](https://doi.org/10.1007/s00162-025-00747-z)
+  5. "RideSecure : LPC2148 Powered Smart Helmet" [Preprints.org] (2025) — [🔗 DOI Link](https://doi.org/10.20944/preprints202505.1483.v1)
 - 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 593: Applied Project | MAE 564: Advanced Aerodynamics`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -259,14 +220,12 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Leixin Ma's career goal is a data-driven and physically consistent approach to modeling and designing programmable smart structures and robots, especially under complex fluid flow conditions.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Vortex-induced vibrations on flexible marine structures exhibit strong cross-flow and in-line modal coupling that governs structural fatigue life."*
-- 📄 **Pillar 2 — Flagship Paper**: **Experimental investigation of the response performance of VIV on a flexible riser with helical strakes (Ships and Offshore Structures, 2014) [DOI: https://doi.org/10.1080/17445302.2014.962788]**
-  - **Direct DOI**: [https://doi.org/10.1080/17445302.2014.962788](https://doi.org/10.1080/17445302.2014.962788)
-  - **Flagship Paper Abstract**:
-    > Experimental investigations were conducted on a flexible riser with and without helical strakes. A uniform current was obtained by towing a riser model in a tank, and the vortex-induced vibration (VIV) suppression of strakes with different heights and pitches was studied. The experimental results indicate that the response characteristics of a bare riser can be quite distinct from those of a riser with helical strakes, and the suppression performance depends on the geometry of the helical strakes. The VIV responses in the cross-flow (CF) and in-line (IL) directions can be coupled via variations in the tensile force. The fatigue damage in the CF direction is of the same order as that in the IL direction for the bare riser. However, for the riser fitted with helical strakes, the fatigue damage in the CF direction is much smaller than that in the IL direction. The experimental results also confirmed that the strake height has a greater influence on the VIV response than the strake pitch, and the drag exerted on the riser increases with the strake pitch and height.
-- 🛠️ **Pillar 3 — Tech Stack**: `Towing Tank Hydrodynamic Rig / Strain Gauge Modal Wavelet Analysis`
+- 💡 **Pillar 1 — Research Hook**: *"High-harmonic vortex-induced vibration (VIV) modeling, biomimetic wake sensing, and physics-informed graph neural networks for flexible ocean and aerospace structures."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Understanding the higher harmonics of vortex-induced vibration response using a trend-constrained, machine learning approach (Marine Structures, 2022) [DOI: https://doi.org/10.1016/j.marstruc.2022.103195] | 2. Numerical study of vortex-induced vibrations of a circular cylinder at different incidence angles (Ocean Engineering, 2022) [DOI: https://doi.org/10.1016/j.oceaneng.2022.111858]**
+  - **Direct DOIs**: [https://doi.org/10.1016/j.marstruc.2022.103195](https://doi.org/10.1016/j.marstruc.2022.103195) | [https://doi.org/10.1016/j.oceaneng.2022.111858](https://doi.org/10.1016/j.oceaneng.2022.111858)
+- 🛠️ **Pillar 3 — Tech Stack**: `Physics-Informed Graph Neural Networks (GNN), Towing Tank Experimental Rig, Unsteady RANS/LES, Wavelet Modal Analysis`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into conducting towing tank experiments on flexible risers subject to uniform currents, demonstrating that helical strakes suppress cross-flow vortex-induced vibration amplitudes by over 80% while transferring structural stress into high-frequency in-line tension fluctuations."*
+  > *"...specifically your investigation into applying trend-constrained machine learning to flexible cylinder VIV experiments, demonstrating that 3rd and 5th harmonic cross-flow lift forces arise from nonlinear wake-body phase shifts, contributing over 25% of cyclic structural fatigue damage."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "An investigation into the hydrodynamics of a flexible riser undergoing vortex-induced vibration" [Journal of Fluids and Structures] (2016, 178 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jfluidstructs.2016.03.006)
   2. "Theoretical and numerical analysis of bending behavior of unbonded flexible risers" [Marine Structures] (2015, 42 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.marstruc.2015.10.001)
@@ -275,6 +234,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2609.15001)
   2. "HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://arxiv.org/abs/2609.15001)
   3. "Graph neural network-based aquaculture net modeling and inference — A frequency domain approach" [Ocean Engineering] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.oceaneng.2026.127799)
+  4. "Decoding propulsive wakes using biomimetic seal whiskers" [Bioinspiration & Biomimetics] (2026) — [🔗 DOI Link](https://doi.org/10.1088/1748-3190/ae9a20)
+  5. "Passive fish-like body dynamics in bluff-body wakes" [Physics of Fluids] (2026) — [🔗 DOI Link](https://doi.org/10.1063/5.0344906)
 - 📚 **Courses Taught**: `MAE 499: Individualized Instruction | MAE 202: Mech.Particles/Rigid Bodies II | MAE 318: System Dynamics and Control I`
 
 #### 💡 Lab Intelligence & Active Openings
@@ -304,14 +265,15 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Dr. Pathikonda studies turbulent fluid flows to understand natural and engineering phenomena using lab experiments. His expertise is in complex (reacting) mixing, high Re-flows, laser-based & spectroscopic techniques, etc.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Wall-bounded turbulent boundary layers subject to directional surface heterogeneities offer unprecedented control over coherent vortex reorganization and skin-friction drag modulation."*
-- 📄 **Pillar 2 — Flagship Paper**: **Cross-stream stereoscopic particle image velocimetry of a modified turbulent boundary layer over directional surface pattern (Journal of Fluid Mechanics, 2017) [DOI: https://doi.org/10.1017/jfm.2016.879]**
-  - **Direct DOI**: [https://doi.org/10.1017/jfm.2016.879](https://doi.org/10.1017/jfm.2016.879)
-  - **Flagship Paper Abstract**:
-    > A turbulent boundary layer developed over a herringbone patterned riblet surface is investigated using stereoscopic particle image velocimetry in the cross-stream plane at $Re_{\unicode[STIX]{x1D70F}}\approx 3900$ . The three velocity components resulting from this experiment reveal a pronounced spanwise periodicity in all single-point velocity statistics. Consistent with previous hot-wire studies over similar-type riblets, we observe a weak time-average secondary flow in the form of $\unicode[STIX]{x1D6FF}$ -filling streamwise vortices. The observed differences in the surface and secondary flow characteristics, compared to other heterogeneous-roughness studies, may suggest that different mechanisms are responsible for the flow modifications in this case. Observations of instantaneous velocity fields reveal modified and rearranged turbulence structures. The instantaneous snapshots also suggest that the time-average secondary flow may be an artefact arising from superpositions of much stronger instantaneous turbulent events enhanced by the surface texture. In addition, the observed instantaneous secondary motions seem to have promoted a free-stream-engulfing behaviour in the oute...
-- 🛠️ **Pillar 3 — Tech Stack**: `Stereoscopic Particle Image Velocimetry (SPIV)`
+- 💡 **Pillar 1 — Research Hook**: *"High-resolution planar PIV, PLIF, and custom anemometry diagnostics for investigating bleeding wakes downstream of porous square cylinders and passive scalar transport in turbulent boundary layers."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Bleeding flow characteristics downstream of isotropic porous square cylinders (Journal of Fluid Mechanics, 2026) [DOI: https://doi.org/10.1017/jfm.2025.11073] | 2. Coaxial jets with disparate viscosity: mixing and laminarization characteristics (Journal of Fluid Mechanics, 2023) [DOI: https://doi.org/10.1017/jfm.2022.1076]**
+  - **Direct DOIs**: [https://doi.org/10.1017/jfm.2025.11073](https://doi.org/10.1017/jfm.2025.11073) | [https://doi.org/10.1017/jfm.2022.1076](https://doi.org/10.1017/jfm.2022.1076)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 1 Abstract**:
+    > This study experimentally investigates the bleeding flow characteristics downstream of isotropic porous square cylinders as a function of permeability and pore configuration across a broad range of Darcy numbers ( $2.4 \times 10^{-5} \lt \textit{Da} \lt 2.9 \times 10^{-3}$ ). The porous cylinders, constructed with a simple cubic lattice design, were fabricated using a high-resolution three-dimensional printing technique. This novel design method, based on a periodic and scalable lattice structure, allows fine control over the number of lattice pores along the cylinder width, $D$ , and the corresponding permeability, independently of porosity. Permeability was carefully determined by measuring the pressure drop and superficial velocity for each porous structure considered in this study. High-resolution particle image velocimetry measurements were conducted in an open-loop wind tunnel to characterize the downstream flow structures. The results reveal that bleeding flow characteristics near the cylinder trailing edge are strongly influenced by both permeability and pore configuration. These structural behaviours are further explored using an analogy to multiple plane turbulent jets...
+- 🛠️ **Pillar 3 — Tech Stack**: `Planar/Stereoscopic PIV, Acetone PLIF, High-Resolution 3D Printing of Scalable Lattices, Open-Loop Wind Tunnel Testing`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into deploying cross-stream stereoscopic PIV at Re_tau ≈ 3900 to investigate boundary-layer flow over herringbone-patterned riblet surfaces, demonstrating that surface-induced secondary vortices enforce strong spanwise periodicity while dramatically enhancing outer-layer turbulent entrainment."*
+  > *"...specifically your investigation into deploying high-resolution particle image velocimetry downstream of 3D-printed isotropic porous square cylinders (2.4e-5 < Da < 2.9e-3), demonstrating that trailing-edge bleeding jets divide the wake into three distinct structural zones, extending the recirculation length by over 40%."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Cross-stream stereoscopic particle image velocimetry of a modified turbulent boundary layer over directional surface pattern" [Journal of Fluid Mechanics] (2017, 120 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2016.879)
   2. "The transition to turbulence in shock-driven mixing: effects of Mach number and initial conditions" [Journal of Fluid Mechanics] (2019, 77 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2019.330)
@@ -320,6 +282,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Bleeding flow characteristics downstream of isotropic porous square cylinders" [Journal of Fluid Mechanics] (2026) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.11073)
   2. "Coherent organisation of passive scalar from a point source in a turbulent boundary layer" [Journal of Fluid Mechanics] (2025) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.10926)
   3. "Turbulent/non-turbulent interface in Rayleigh–Taylor flows" [Journal of Turbulence] (2025) — [🔗 DOI Link](https://doi.org/10.1080/14685248.2025.2489451)
+  4. "Advanced human heat exposure sensing using two cylinder anemometer and radiometer: introducing CARla" [International Journal of Biometeorology] (2025) — [🔗 DOI Link](https://doi.org/10.1007/s00484-025-02860-4)
+  5. "Characterization of Convecting-Rotating Cylinder (CRC) to Investigate Vortex-Boundary Layer Interactions" (2025) — [🔗 DOI Link](https://doi.org/10.2514/6.2025-2761)
 - 📚 **Courses Taught**: `MAE 575: Turbulence | MAE 593: Applied Project | MAE 499: Individualized Instruction`
 
 #### 💡 Lab Intelligence & Active Openings
@@ -343,12 +307,12 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Herrmann's research interests include fluid mechanics, modeling and numerical simulation of multiphase flows with a focus on turbulent atomization processes, and numerical methods for discontinuous interfaces.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Turbulent multiphase breakup and primary atomization involve extreme multiscale topological transitions that push both Eulerian interface tracking and Lagrangian drop representations to their physical limits."*
-- 📄 **Pillar 2 — Flagship Paper**: **Detailed Numerical Simulations of the Primary Atomization of a Turbulent Liquid Jet in Crossflow (Journal of Engineering for Gas Turbines and Power, 2010) [DOI: https://doi.org/10.1115/1.4000148]**
-  - **Direct DOI**: [https://doi.org/10.1115/1.4000148](https://doi.org/10.1115/1.4000148)
-- 🛠️ **Pillar 3 — Tech Stack**: `Balanced Force Refined Level Set Grid Method (Refined Level Set / Dual Grid FV Solver)`
+- 💡 **Pillar 1 — Research Hook**: *"Direct numerical simulations and volume-filtering immersed boundary formulations for resolving particle-laden and primary atomizing flows in complex injector nozzles."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. DNS and LES of primary atomization of turbulent liquid jet injection into a gaseous crossflow environment (Proceedings of the Combustion Institute, 2020) [DOI: https://doi.org/10.1016/j.proci.2020.08.004] | 2. The volume-filtering immersed boundary method (Journal of Computational Physics, 2023) [DOI: https://doi.org/10.1016/j.jcp.2023.112136]**
+  - **Direct DOIs**: [https://doi.org/10.1016/j.proci.2020.08.004](https://doi.org/10.1016/j.proci.2020.08.004) | [https://doi.org/10.1016/j.jcp.2023.112136](https://doi.org/10.1016/j.jcp.2023.112136)
+- 🛠️ **Pillar 3 — Tech Stack**: `Volume-Filtering Immersed Boundary Method (VF-IBM), Refined Level Set Grid (RLSG), OpenFOAM (isoAdvector VOF), Particle-Resolved DNS (PR-DNS)`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into performing dual-grid level-set simulations on refined Cartesian grids (128 cells/diameter) to investigate primary atomization of liquid jets in crossflow (We=330, Re=14,000, gas Re=570,000), demonstrating that grid-converged drop diameter distributions are accurately resolved down to 1% of the injector nozzle diameter."*
+  > *"...specifically your investigation into coupling volume-filtering immersed boundary methods with direct numerical simulations across liquid jet in crossflow geometries (q=6.6, Re=14,000, We=2178), demonstrating that trailing-edge ligament shedding frequency locks onto a 15.8 kHz dominant out-of-phase wave mode."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Modeling Primary Atomization" [Annual Review of Fluid Mechanics] (2008, 440 cites) — [🔗 DOI Link](https://doi.org/10.1146/annurev.fluid.40.111406.102200)
   2. "A balanced force refined level set grid method for two-phase flows on unstructured flow solver grids" [Journal of Computational Physics] (2007, 316 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2007.11.002)
@@ -357,6 +321,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "A high-fidelity methodology for particle-resolved direct numerical simulations" [International Journal of Multiphase Flow] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.ijmultiphaseflow.2025.105175)
   2. "BPS2025 - Liquid nano-sheet sample delivery for femtosecond solution X-ray scattering" [Biophysical Journal] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.bpj.2024.11.838)
   3. "Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method" [Journal of Computational Physics] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2025.113765)
+  4. "Synchronized droplet nozzle for in-vacuum X-ray scattering experiments" [Lab on a Chip] (2025) — [🔗 DOI Link](https://doi.org/10.1039/d5lc00063g)
+  5. "A High-Fidelity Methodology for Particle-Resolved Direct Numerical Simulations" [arXiv (Cornell University)] (2024) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2404.19030)
 - 📚 **Courses Taught**: `MAE 384: Adv Math Methods for Engineers | MAE 484: Internship | MAE 561: Computational Fluid Dynamics`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -377,14 +343,15 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Kim's research interests include large-eddy simulation of high-speed turbulent flows with multi-physics, aeroacoustics, flow control and optimization.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Controlling broadband jet aeroacoustics without incurring heavy aerodynamic thrust penalties requires systematic adjoint sensitivity gradients rather than trial-and-error nozzle shaping."*
-- 📄 **Pillar 2 — Flagship Paper**: **Adjoint-based control of loud events in a turbulent jet (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2013.654]**
-  - **Direct DOI**: [https://doi.org/10.1017/jfm.2013.654](https://doi.org/10.1017/jfm.2013.654)
-  - **Flagship Paper Abstract**:
+- 💡 **Pillar 1 — Research Hook**: *"High-order overset-mesh algorithms and adjoint sensitivity optimization for aeroacoustic noise control and projectile gas dynamics."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Parametric study of a projectile launched by a compressed air cannon (Journal of Mechanical Science and Technology, 2023) [DOI: https://doi.org/10.1007/s12206-023-1029-x] | 2. Adjoint-based control of loud events in a turbulent jet (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2013.654]**
+  - **Direct DOIs**: [https://doi.org/10.1007/s12206-023-1029-x](https://doi.org/10.1007/s12206-023-1029-x) | [https://doi.org/10.1017/jfm.2013.654](https://doi.org/10.1017/jfm.2013.654)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 2 Abstract**:
     > Abstract Efforts to reduce the noise from turbulent jets at fixed flow conditions, with aircraft noise as the principal technological motivation, have generally involved some degree of parametric empiricism often based upon a series of trial-and-error testing. As a result, it is unclear if the modest reductions found, in rare cases that do not greatly affect the flow field or incur prohibitive losses, are near the limit of what can be accomplished or if there are undiscovered opportunities for more substantive reductions with better designs or active control. We assess this using an adjoint-based optimization procedure in conjunction with an experimentally validated large-eddy simulation of a Mach 1.3 turbulent jet. The adjoint solution provides a definitive direction in which to adjust a model control actuation in order to reduce noise, providing guidance that seems lacking by any other current means. It is found that three conjugate-gradient iterations in the control space provide ∼3.5 dB of reduction, comparable to other reductions found empirically. The control seems to work by disrupting the coherence of acoustically efficient axisymmetric flow structures. The control and n...
-- 🛠️ **Pillar 3 — Tech Stack**: `Adjoint Sensitivity Analysis / High-Order Overset LES Solver`
+- 🛠️ **Pillar 3 — Tech Stack**: `Adjoint Optimization, High-Order Overset Finite Difference Solvers, Large Eddy Simulation (LES), Gas Dynamic Projectile Modeling`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into applying adjoint-based optimization to a fully compressible LES of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB reduction in radiated acoustic sound pressure level by disrupting axisymmetric coherent wavepackets."*
+  > *"...specifically your investigation into applying adjoint-based optimization to large-eddy simulations of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB sound pressure level reduction by suppressing axisymmetric wavepackets."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Adjoint-based control of loud events in a turbulent jet" [Journal of Fluid Mechanics] (2014, 46 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2013.654)
   2. "LES Investigation of a Mach 1.3 Jet With and Without Plasma Actuators" [47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition] (2009, 38 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2009-290)
@@ -411,14 +378,15 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Milcarek's current research focuses on energy management and efficiency, energy system modeling, energy transition, energy storage, solid oxide fuel cells fabrication and testing, partial oxidation and synthesis of hydrogen.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Transitioning gas turbine combustors and micro-reactors to 100% hydrogen fuels requires resolving the severe thermo-kinetic shifts in flame speed and flashback safety limits."*
-- 📄 **Pillar 2 — Flagship Paper**: **Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine (Energy Conversion and Management: X, 2023) [DOI: https://doi.org/10.1016/j.ecmx.2023.100394]**
-  - **Direct DOI**: [https://doi.org/10.1016/j.ecmx.2023.100394](https://doi.org/10.1016/j.ecmx.2023.100394)
-  - **Flagship Paper Abstract**:
+- 💡 **Pillar 1 — Research Hook**: *"Thermodynamic equilibrium modeling and chemical kinetics for hydrogen/methane/ammonia gas turbine combustor retrofits and flame-assisted micro-reactors."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine (Energy Conversion and Management: X, 2023) [DOI: https://doi.org/10.1016/j.ecmx.2023.100394] | 2. Thermodynamic analysis of a gas turbine utilizing ternary CH4/H2/NH3 fuel blends (Energy, 2023) [DOI: https://doi.org/10.1016/j.energy.2023.128818]**
+  - **Direct DOIs**: [https://doi.org/10.1016/j.ecmx.2023.100394](https://doi.org/10.1016/j.ecmx.2023.100394) | [https://doi.org/10.1016/j.energy.2023.128818](https://doi.org/10.1016/j.energy.2023.128818)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 1 Abstract**:
     > The importance of hydrogen in the effort to decarbonize the power sector has grown immensely in recent years. Previous studies have investigated the effects of mixing hydrogen into natural gas for gas turbine combustors, but limited studies have examined the resulting effects hydrogen addition has on the entire system. In this work, a thermodynamic model of a gas turbine with combustion chemical kinetics integrated is created and the effects hydrogen addition (0–100 vol% addition) has on the system performance, emissions and combustion kinetics are analyzed. The maximum system performance is achieved when the maximum turbine inlet temperature is reached, and the resulting optimal fuel/air equivalence ratio is determined. As hydrogen is added to the fuel mixture, the optimal equivalence ratio shifts leaner, causing non-linearity in emissions and system performance at optimal conditions. An analysis of variance is conducted, and it is shown that isentropic efficiencies of the turbine and compressor influences the system performance the most out of any system parameter. While isentropic efficiencies of the turbine and compressor increase towards 100%, an operating regime where the ...
-- 🛠️ **Pillar 3 — Tech Stack**: `Cantera Chemical Kinetics / Thermodynamic Gas Turbine Equilibrium Model`
+- 🛠️ **Pillar 3 — Tech Stack**: `Cantera Chemical Kinetics, Gas Turbine Thermodynamic Cycle Models, Gas Chromatography, Flame-Assisted Fuel Cell Test Rigs`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into coupling chemical kinetic mechanisms with thermodynamic gas turbine models across 0–100% H2 fuel blends, demonstrating that optimal fuel/air equivalence ratio shifts nonlinearly lean, requiring precision compressor matching to maintain turbine inlet temperature limits."*
+  > *"...specifically your investigation into coupling detailed chemical kinetics with thermodynamic cycle models across ternary CH4/H2/NH3 fuel mixtures, demonstrating that staged rich-quench-lean combustor architectures achieve complete carbon emission reduction while keeping NOx levels below 15 ppm."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "A review of energy storage technologies for demand-side management in industrial facilities" [Journal of Cleaner Production] (2021, 100 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jclepro.2021.127322)
   2. "Techno-Economic Assessment of CHP Systems in Wastewater Treatment Plants" [Environments] (2020, 78 cites) — [🔗 DOI Link](https://doi.org/10.3390/environments7100074)
@@ -427,6 +395,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Multi-year assessment of energy storage capacity for a carbon-neutral grid in Arizona and the impact of wind energy integration" [Renewable Energy] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.renene.2026.126276)
   2. "Analysis of gas turbines with diffusion, premixed and rich-quench-lean combustor designs utilizing ternary CH4/H2/NH3 fuel blends" [Energy Conversion and Management] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.enconman.2026.121736)
   3. "Micro-scale thermal partial oxidation reformer and integrated solid oxide fuel cell operating with jet fuel" [Journal of Power Sources] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.jpowsour.2026.240198)
+  4. "Solid oxide fuel cell power generation from thermal partial oxidation of methanol reformate" [Energy Conversion and Management] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.enconman.2026.121281)
+  5. "Multi-objective optimal energy storage dispatch control strategies for cost and CO2 emissions savings in 933 commercial and industrial facilities leveraging utility demand response programs" [Journal of Energy Storage] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.est.2025.119499)
 - 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 436: Combustion | MAE 536: Combustion`
 - 🏆 **Recent Awards / Honors**: Outstanding Faculty Mentor, Fulton Schools of Engineering, For the Fulton Forge Student Research programs, 2026 | 1st Place, Student Paper Competition, 2025 ASME IMECE Power Symposium, 2025
 
@@ -450,14 +420,12 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Scotti's main focus is theoretical, experimental and computational aspects of environmental fluid mechanics.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Subgrid-scale modeling in large-eddy simulations often breaks down in anisotropic computational meshes, necessitating rigorous energy equilibrium formulations."*
-- 📄 **Pillar 2 — Flagship Paper**: **Generalized Smagorinsky model for anisotropic grids (Physics of Fluids A: Fluid Dynamics, 1993) [DOI: https://doi.org/10.1063/1.858537]**
-  - **Direct DOI**: [https://doi.org/10.1063/1.858537](https://doi.org/10.1063/1.858537)
-  - **Flagship Paper Abstract**:
-    > The Smagorinsky subgrid model is revised to properly account for grid anisotropy, using energy equilibrium considerations in isotropic turbulence. For moderate resolution anisotropies, Deardorff’s estimate involving an equivalent grid scale Δeq=(Δ1Δ2Δ3)1/3 is given a rigorous basis. For more general grid anisotropies, the Smagorinsky eddy viscosity is recast as νT=[csΔeqf(a1, a2)]2‖S̃‖, where f(a1,a2) is a function of the grid aspect ratios a1 and a2, and ‖S̃‖ is the resolved strain rate magnitude. The asymptotic behavior of νT at several limits of the aspect ratios are examined. Approximation formulas are developed so that f(a1,a2) can easily be evaluated in practice, for arbitrary values of a1 and a2. It is argued that these results should be used in conjunction with the dynamic model of Germano et al. whenever the anisotropy of the test-filter differs significantly from that of the basic grid.
-- 🛠️ **Pillar 3 — Tech Stack**: `Anisotropic Filtered LES Formulation / Pseudo-Spectral DNS`
+- 💡 **Pillar 1 — Research Hook**: *"Large-eddy simulation closures, Lagrangian flow geometry, and laboratory stratification experiments for non-homogeneous wave probability evolution and turbulent mixing."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Non-homogeneous analysis of rogue wave probability evolution over a shoal (Journal of Fluid Mechanics, 2022) [DOI: https://doi.org/10.1017/jfm.2022.206] | 2. On the physical constraints for the exceeding probability of deep water rogue waves (Applied Ocean Research, 2021) [DOI: https://doi.org/10.1016/j.apor.2020.102402]**
+  - **Direct DOIs**: [https://doi.org/10.1017/jfm.2022.206](https://doi.org/10.1017/jfm.2022.206) | [https://doi.org/10.1016/j.apor.2020.102402](https://doi.org/10.1016/j.apor.2020.102402)
+- 🛠️ **Pillar 3 — Tech Stack**: `Large-Eddy Simulation (LES), Background Oriented Schlieren (BOS), Conductivity Probe Spectrometry, Anisotropic Subgrid Closures`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into formulating anisotropic subgrid-scale closures in homogeneous turbulence, demonstrating that directional grid aspect ratio scaling modifies the effective Smagorinsky coefficient by up to 40% across strongly stretched anisotropic meshes."*
+  > *"...specifically your investigation into formulating non-homogeneous wave probability evolution across shoaling bathymetry, demonstrating that localized topographic focusing increases extreme wave crest occurrence by over 60% relative to Gaussian linear theory."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "The formation and fate of internal waves in the South China Sea" [Nature] (2015, 739 cites) — [🔗 DOI Link](https://doi.org/10.1038/nature14399)
   2. "Generalized Smagorinsky model for anisotropic grids" [Physics of Fluids A Fluid Dynamics] (1993, 282 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.858537)
@@ -466,6 +434,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "A Versatile Laboratory Approach to Reproduce and Analyze Internal Ocean Wave Dynamics" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2603.13512)
   2. "A Versatile Laboratory Approach to Reproduce and Analyze Internal Ocean Wave Dynamics" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](http://arxiv.org/abs/2603.13512)
   3. "Lagrangian geometry of flows" [Physical Review Fluids] (2026) — [🔗 DOI Link](https://doi.org/10.1103/q2fw-vgrr)
+  4. "COMPARATIVE ANALYSIS OF ALTERNATIVE LAYOUTS FOR THE NEW DEEPWATER BREAKWATER OF GENOA PORT" [Coastal Engineering Proceedings] (2025) — [🔗 DOI Link](https://doi.org/10.9753/icce.v38.papers.40)
+  5. "Flow structure of radiatively driven convection in inertial and rotating frames under steady and periodic radiative forcing" [Carolina Digital Repository (University of North Carolina at Chapel Hill)] (2024) — [🔗 DOI Link](https://doi.org/10.17615/a5rn-hf68)
 - 📚 **Courses Taught**: `MAE 501: Linear Algebra in Engineering | MAE 215: Intro to Programming in MATLAB | MAE 202: Mech.Particles/Rigid Bodies II`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -486,14 +456,12 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Yulia Peet is an associate professor of aerospace and mechanical engineering in the School for Engineering of Matter, Transport and Energy with the Ira A. Fulton Schools of Engineering at Arizona State University. Her Ph.D. degree is in Aeronautics and Astronautics from Stanford (2006), M.S. and B.S. degrees are from Moscow Institute of Physics and Technology (1999 and 1997). Her previous appoi...
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Manipulating turbulent wall shear stress through three-dimensional structured surface geometries requires isolating how spanwise cross-flow vorticity dampens near-wall bursting events."*
-- 📄 **Pillar 2 — Flagship Paper**: **Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section (38th AIAA Fluid Dynamics Conference, 2008) [DOI: https://doi.org/10.2514/6.2008-3745]**
-  - **Direct DOI**: [https://doi.org/10.2514/6.2008-3745](https://doi.org/10.2514/6.2008-3745)
-  - **Flagship Paper Abstract**:
-    > It is known that longitudinal ribs manufactured in a flat surface act to reduce turbulent skin-friction drag, providing a moderate drag reduction of 4 to 8%. It is shown in this paper that this value can be increased by at least 50% if sinusoidal-like rods are used instead of conventional straight riblets. Large Eddy Simulation of a turbulent flow over a riblet-covered surface is performed for three cases: straight riblets and sinusoidal riblets with two different values of wavelength. All riblets have triangular cross-section. It is found that drag reduction with sinusoidal riblets depend strongly on the wavelength, showing a benefit over straight riblets for a larger value of the wavelength, and an opposite trend for a smaller value. Different nature of the flow over straight and sinusoidal riblet surfaces is revealed by looking at crossflow motion in transverse planes, mean and instantaneous streamwise vorticity, and organized coherent structures. Turbulent statistics is compared between all three cases, crossflow turbulence intensity is reduced for sinusoidal riblets as opposed to straight riblets.
-- 🛠️ **Pillar 3 — Tech Stack**: `High-Order Spectral Element LES / Incompressible Navier–Stokes Solver`
+- 💡 **Pillar 1 — Research Hook**: *"High-order discontinuous Galerkin spectral element methods (DGSEM) and DNS for resolving turbulent bluff-body wakes, wind farm coherence, and wall-modeled LES drag reduction."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Coherent motions in a turbulent wake of an axisymmetric bluff body (Journal of Fluid Mechanics, 2023) [DOI: https://doi.org/10.1017/jfm.2023.231] | 2. Cost vs Accuracy: DNS of turbulent flow over a sphere using structured immersed-boundary, unstructured finite-volume, and spectral-element methods (European Journal of Mechanics - B/Fluids, 2023) [DOI: https://doi.org/10.1016/j.euromechflu.2023.07.008]**
+  - **Direct DOIs**: [https://doi.org/10.1017/jfm.2023.231](https://doi.org/10.1017/jfm.2023.231) | [https://doi.org/10.1016/j.euromechflu.2023.07.008](https://doi.org/10.1016/j.euromechflu.2023.07.008)
+- 🛠️ **Pillar 3 — Tech Stack**: `Discontinuous Galerkin Spectral Element Method (DGSEM), Nek5000, Resolvent Analysis (Chebyshev Methods), Wall-Modeled LES (WMLES)`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into conducting large-eddy simulations of turbulent boundary layer flow over triangular riblets, demonstrating that sinusoidal spanwise wavy riblets increase skin-friction drag reduction by over 50% relative to conventional straight riblets through crossflow vorticity attenuation."*
+  > *"...specifically your investigation into conducting DNS of an axisymmetric bluff-body wake at Re=5000 via high-order spectral elements, demonstrating that helical m=±1 vortex shedding modes govern wake entrainment and sustain coherent low-frequency flapping."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "Theoretical prediction of turbulent skin friction on geometrically complex surfaces" [Physics of Fluids] (2009, 78 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.3241993)
   2. "Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section" [38th Fluid Dynamics Conference and Exhibit] (2008, 56 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2008-3745)
@@ -502,6 +470,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Correction: Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483.c1)
   2. "Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483)
   3. "Inflectional Instability of Linearized Incompressible Euler Equations via Linear Partial Inequality Tests" (2025) — [🔗 DOI Link](https://doi.org/10.1109/cdc57313.2025.11312828)
+  4. "Differentiation-based and integration-based Chebyshev methods for resolvent analysis of channel flow" [Journal of Computational and Applied Mathematics] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.cam.2025.116987)
+  5. "Discontinuous Galerkin spectral element method with hybrid sub-element order reduction for shock-capturing with Navier–Stokes equations" [Computers & Fluids] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.compfluid.2025.106650)
 - 📚 **Courses Taught**: `MAE 215: Intro to Programming in MATLAB | MAE 591: Seminar | MAE 593: Applied Project`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -522,14 +492,15 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - **Bio / Summary**: Calhoun’s research interests are in fluid dynamics; atmospheric sciences; boundary layer; wind energy and remote sensing.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 💡 **Pillar 1 — Research Hook**: *"Atmospheric boundary-layer turbulence over complex terrain requires assimilating coherent wake dynamics with long-range optical remote sensing."*
-- 📄 **Pillar 2 — Flagship Paper**: **Turbulent flow over a wavy surface: Neutral case (Journal of Geophysical Research: Atmospheres, 2001) [DOI: https://doi.org/10.1029/2000jc900133]**
-  - **Direct DOI**: [https://doi.org/10.1029/2000jc900133](https://doi.org/10.1029/2000jc900133)
-  - **Flagship Paper Abstract**:
-    > In many geophysical flows the passage of a turbulent fluid over a wavy surface significantly affects quantities of interest, such as momentum flux, mixing, and transport of scalars. Large‐eddy simulation is used here to investigate neutrally stratified flow over a wavy bed. A wavy surface tends to organize the turbulent flow by imposing its wavelength and phase on the near‐wall field. Both instantaneous turbulent structures and turbulence statistics provide evidence of this organization. For example, a vortex identification method applied to the instantaneous flow field reveals streamwise vortices that are locked into a phase relationship with the wavy boundary. These vortices may be linked to a Görtier instability mechanism caused by the wavy wall. Statistical analyses are also presented to gain insights into the effect of the wavy surface. In particular, we compare the effects of three different hill heights. Finally, a brief analysis of the components of drag is given.
-- 🛠️ **Pillar 3 — Tech Stack**: `Large-Eddy Simulation (Atmospheric Boundary Layer Solver) / Dual-Doppler LiDAR`
+- 💡 **Pillar 1 — Research Hook**: *"Mesoscale wake simulation and dual-Doppler LiDAR anemometry for turbulent wind farm interaction, repowering, and atmospheric boundary-layer dynamics."*
+- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **1. Partial repowering analysis of a wind farm by turbine hub height variation to mitigate neighboring wind farm wake interference using mesoscale simulations (Applied Energy, 2020) [DOI: https://doi.org/10.1016/j.apenergy.2020.115050] | 2. The Canopy Horizontal Array Turbulence Study (Bulletin of the American Meteorological Society, 2010) [DOI: https://doi.org/10.1175/2010bams2614.1]**
+  - **Direct DOIs**: [https://doi.org/10.1016/j.apenergy.2020.115050](https://doi.org/10.1016/j.apenergy.2020.115050) | [https://doi.org/10.1175/2010bams2614.1](https://doi.org/10.1175/2010bams2614.1)
+  - **Flagship Papers Abstract Data**:
+    > **Paper 2 Abstract**:
+    > The Canopy Horizontal Array Turbulence Study (CHATS) took place in spring 2007 and is the third in the series of Horizontal Array Turbulence Study (HATS) experiments. The HATS experiments have been instrumental in testing and developing subfilterscale (SFS) models for large-eddy simulation (LES) of planetary boundary layer (PBL) turbulence. The CHATS campaign took place in a deciduous walnut orchard near Dixon, California, and was designed to examine the impacts of vegetation on SFS turbulence. Measurements were collected both prior to and following leafout to capture the impact of leaves on the turbulence, stratification, and scalar source/sink distribution. CHATS utilized crosswind arrays of fast-response instrumentation to investigate the impact of the canopy-imposed distribution of momentum extraction and scalar sources on SFS transport of momentum, energy, and three scalars. To directly test and link with PBL parameterizations of canopy-modified turbulent exchange, CHATS also included a 30-m profile tower instrumented with turbulence instrumentation, fast and slow chemical sensors, aerosol samplers, and radiation instrumentation. A highresolution scanning backscatter lidar ...
+- 🛠️ **Pillar 3 — Tech Stack**: `Dual-Doppler Pulsed LiDAR, Scanning Backscatter LiDAR, Mesoscale Atmospheric Simulations (WRF/LES), Wake Parameterization Codes`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
-  > *"...specifically your investigation into executing large-eddy simulations of neutrally stratified atmospheric flow over sinusoidal wavy topography, demonstrating that phase-locked streamwise Görtler vortices form along the wave troughs, dictating over 70% of total surface form drag."*
+  > *"...specifically your investigation into executing mesoscale wake simulations with hub height variation across dense wind turbine arrays, demonstrating that alternating hub heights mitigates downstream wake interference and recovers up to 12% in farm-level annual energy production."*
 - 🌟 **Top Cited Papers (Landmark Research)**:
   1. "The Canopy Horizontal Array Turbulence Study" [Bulletin of the American Meteorological Society] (2010, 128 cites) — [🔗 DOI Link](https://doi.org/10.1175/2010bams2614.1)
   2. "Scopes and Challenges of Dual-Doppler Lidar Wind Measurements—An Error Analysis" [Journal of Atmospheric and Oceanic Technology] (2013, 114 cites) — [🔗 DOI Link](https://doi.org/10.1175/jtech-d-12-00244.1)
@@ -695,547 +666,6 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 
 #### 💡 Lab Intelligence & Active Openings
 - 🚀 **Active Research Thrust**: Rykaczewski Lab
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="jay-oswald"></a>
-### 19. Jay Oswald
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/joswald1) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jay%20Oswald%20Arizona%20State%20University) | [🔬 Computational Mechanics Lab](http://sparky.fulton.asu.edu/oswald/) | [✉️ joswald1@asu.edu](mailto:joswald1@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (6)**: `estimation, finite element, materials, robot, robotics, solid mechanics`
-- **Office Location**: ENGRC 353 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Mechanical Engineering, Northwestern University, Evanston, IL 2011 | M.S. Mechanical Engineering, Case Western Reserve University, Cleveland, OH 2005 | B.S. Mechanical Engineering, Case Western Reserve University, Cleveland, OH 2004
-- **Research Topics**: Development of computational mechanics: finite element methods, molecular dynamics, multiscale methods, failure analysis, and material design.
-- **Bio / Summary**: Dr. Oswald develops computational and AI-driven methods for advanced manufacturing, including laser welding, automated inspection, robotics, and computational mechanics.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 404: Finite Elements in Engineering | MAE 503: Finite Elements in Engineering | MAE 593: Applied Project`
-
-#### 💡 Lab Intelligence & Active Openings
-- 📩 **Cold Email / Application Instructions**:
-  > If you're interested in joining our group, please email Prof. Oswald with your CV, research interests, and any supporting materials such as publications or code samples.
-- 🚀 **Active Research Thrust**: Multiscale polymer analysis
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="aditi-chattopadhyay"></a>
-### 20. Aditi Chattopadhyay
-*Regents Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/chattopa) | [🎓 Google Scholar (w3fU9E0AAAAJ)](https://scholar.google.com/citations?hl=en&user=w3fU9E0AAAAJ) | [🔬 Adaptive Intelligent Materials & Systems (AIMS) Center](https://aims.asu.edu/) | [✉️ aditi@asu.edu](mailto:aditi@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (4)**: `aerospace, composites, materials, structural health monitoring`
-- **Office Location**: ENGRC 427 (TEMPE, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Aerospace Engineering, Georgia Institute of Technology, Atlanta, Georgia | M.S. Aerospace Engineering, Georgia Institute of Technology, Atlanta, Georgia | B. Tech (Honors.) Aerospace Engineering, Indian Institute of Technology, Kharagpur, India
-- **Research Topics**: Structural and computational mechanics of composite materials, including ceramic matrix composites (CMCs) under thermomechanical and oxidative damage, multiscale and reduced-order modeling of heterogeneous materials, and molecular dynamics of nano-enhanced composites. Multifunctional materials, including shape memory polymers, self-sensing and self-healing mechanophore-based composites, and carbon nanotube-integrated composites. Structural health management and damage prognosis, fatigue of metallic and composite structures, multidisciplinary design optimization, and machine learning for aviation safety and air traffic management.
-- **Bio / Summary**: Chattopadhyay is the director of Adaptive Intelligent Materials and Systems (AIMS) Center at ASU. Her research focuses on structural health monitoring and damage prognosis, and multidisciplinary design optimization.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 557: Mechanics Composite Materials | MAE 494: Special Topics | MAE 521: Structural Optimization`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="leila-ladani"></a>
-### 21. Leila Ladani
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/ljannesa) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Leila%20Ladani%20Arizona%20State%20University) | [🔬 Manufacturing and Advanced Materials Characterization (MAGIC) Lab](https://magic.asu.edu/) | [✉️ ladani@asu.edu](mailto:ladani@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (3)**: `aerospace, materials, solid mechanics`
-- **Office Location**: ISTB4, ROOM 379 781 S Terrace Rd (Tempe, AZ 85287)
-- **Education & Degrees**: PhD. Mechanical Engineering, University of Maryland-College Park 2007 | M.S. Mechanical Engineering, University of Maryland-College Park 2005 | PhD. Student, Mechanical Engineering, Isfahan University of Technology, Iran 2001-2002 | M.S. Mechanical Engineering, Isfahan University of Technology, Iran 2001 | B.S. Mechanical Engineering, Isfahan University of Technology, Iran 1999
-- **Expertise Taxonomy**: Additive Manufacturing, Manufacturing Engineering
-- **Research Topics**: Manufacturing process simulation and modeling and experiments Additive manufacturing Micro/nano manufacturing Microelectronic packaging Application of AI in manufacturing Mechanic of metallic materials Materials characterization Fatigue and damage modeling and simulation
-- **Bio / Summary**: Dr. Ladani is a Professor of Mechanical and Aerospace Engineering at Arizona State University.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 598: Special Topics | MAE 494: Special Topics | MAE 201: Mech. Particles/Rigid Bodies I`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="houlong-zhuang"></a>
-### 22. Houlong Zhuang
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/hzhuang7) | [🎓 Google Scholar (4yYKCpUAAAAJ)](https://scholar.google.com/citations?hl=en&user=4yYKCpUAAAAJ) | [✉️ zhuanghl@asu.edu](mailto:zhuanghl@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (2)**: `aerospace, materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Postdoc, Department of Mechanical and Aerospace Engineering, Princeton University Postdoc, Center for Nanophase Materials Sciences, Oak Ridge National Laboratory Ph.D., Major: Materials Science and Engineering; Minor: Applied Engineering Physics, Cornell University M.S., Major: Materials Science and Engineering; Minor: Applied Engineering Physics, Cornell University M.Phil., Mechanical Engineering, The University of Hong Kong B.Eng., Materials Science and Engineering, Hunan University
-- **Expertise Taxonomy**: Artificial Photosynthesis, Chemistry, Computational Physics, Machine Learning, Materials Science, Metals, Nanoscience, Semiconductors
-- **Research Topics**: Quantum simulations Machine learning Quantum computing
-- **Bio / Summary**: Dr. Houlong Zhuang is an associate professor in the School for Engineering of Matter, Transport and Energy at ASU. He received his doctorate in materials science and engineering at Cornell University. Prior to ASU, Dr. Zhuang was a postdoctoral researcher at Princeton University. Dr. Zhuang’s current research interests are quantum mechanical simulations, machine learning, and quantum computing.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 551: Appl Machine Learn Mech Engr | MAE 451: Appl Machine Learn Mech Engr | MAE 202: Mech.Particles/Rigid Bodies II`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="jagannathan-rajagopalan"></a>
-### 23. Jagannathan Rajagopalan
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/jrajago1) | [🎓 Google Scholar (ClqRIhIAAAAJ)](https://scholar.google.com/citations?hl=en&user=ClqRIhIAAAAJ) | [🔬 Nanomechanics Laboratory](http://faculty.engineering.asu.edu/jagan/) | [✉️ Jagannathan.Rajagopalan@asu.edu](mailto:Jagannathan.Rajagopalan@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (2)**: `aerospace, materials`
-- **Office Location**: ENGRC 355 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Mechanical Science and Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 2009 | M.Tech. Mechanical Engineering, Indian Institute of Technology Madras, Chennai, India 2004 | B.Tech. Mechanical Engineering, Indian Institute of Technology Madras, Chennai, India 2004
-- **Expertise Taxonomy**: Thin Film Materials, Materials Science, Mechanical Engineering
-- **Research Topics**: Synthesis of nanocrystalline materials with tailored microstructures, Mechanics of nanostructured metal and alloy films, MEMS for in situ materials testing, Polymer based micro devices for cell mechanics and biohybrid platforms
-- **Bio / Summary**: Rajagopalan's research focuses on the mechanics of nanoscale materials, cells and biological systems.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 519: Mechanics of Micro/Nano System | MAE 213: Mechanics of Materials`
-- 🏆 **Recent Awards / Honors**: 2017 Best poster award at the TMS Annual Meeting. 2015 NSF CAREER award. 2010 Keynote presentation, U.S. National Congre
-
-#### 💡 Lab Intelligence & Active Openings
-- 🚀 **Active Research Thrust**: Nanostructured Materials
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="minglei-qu"></a>
-### 24. Minglei Qu
-*Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/mingleiq) | [🎓 Google Scholar (9LWNC50AAAAJ)](https://scholar.google.com/citations?hl=en&user=9LWNC50AAAAJ) | [✉️ minglei.qu@asu.edu](mailto:minglei.qu@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (2)**: `composites, materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: PhD. Mechanical Engineering, University of Wisconsin-Madison 2023
-- **Research Topics**: Metal additive manufacturing, in-situ synchrotron X-ray and neutron characterization, non-equilibrium phase transformation, metal matrix composites. Selected Publications M. Qu , J. Yuan, Q. Guo, A. Nabaa, L. I. Escano, J. Huang, Q. Li, L. Chen. Achieving uniformly refined grain structure in metal additive manufacturing: Experimental demonstration and analytical model development. Additive Manufacturing 108 (2025) 104805. M. Qu , D. Yu, J. Yuan, L. Chen, K. An, Y. Chen. Multi-stage load partitioning in additively manufactured Al6061+TiC nanocomposite characterized by in-situ neutron diffraction. Additive Manufacturing, 96 (2024) 104584. M. Qu , J. Yuan, A. Nabaa, J. Huang, C. A. Chuang, L. Chen. Melting and solidification dynamics during laser additive manufacturing of reaction-based metal matrix composites uncovered by in-situ synchrotron X-ray diffraction. Acta Materialia , 271 (2024) 119875. M. Qu , Q. Guo, L. I. Escano, A. Nabaa, S. M. H. Hojjatzadeh, Z. A. Young, L. Chen. Controlling process instability for defect lean metal additive manufacturing. Nature Communications , 13 (2022) 1079. M. Qu , Q. Guo, L. I. Escano, A. Nabaa, K. Fezzaa, L. Chen. Nanoparticle-enabled increase of energy efficiency during laser metal additive manufacturing. Additive Manufacturing , 60 (2022) 103242. M. Qu , Q.Guo, L. I. Escano, J. Yuan, S. J. Clark, K. Fezzaa, L. Chen. Controlling melt flow by nanoparticles to eliminate surface wave induced surface fluctuation. Additive Manufacturing , 59 (2022) 103081.
-- **Bio / Summary**: Minglei Qu is an Assistant Professor of Mechanical Engineering and a graduate faculty of Materials Science and Engineering in the School for Engineering of Matter, Transport and Energy at ASU. His research lies at the intersection of metal additive manufacturing, in-situ characterization, and materials science. By utilizing advanced in-situ characterization tools, including synchrotron X-ray im...
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 213: Mechanics of Materials | MAE 598: Special Topics`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="qiong-nian"></a>
-### 25. Qiong Nian
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/qnian) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qiong%20Nian%20Arizona%20State%20University) | [🔬 Lab Website](https://mmmplab.engineering.asu.edu/) | [✉️ Qiong.Nian@asu.edu](mailto:Qiong.Nian@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (2)**: `aerospace, materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D. Manufacturing, Industrial Engineering, Purdue University 2015 | B.Sc. Materials Science and Engineering, University of Science and Technology of China 2009
-- **Expertise Taxonomy**: Additive Manufacturing, Manufacturing Engineering, Mechanical Engineering
-- **Research Topics**: Nanomanufacturing, additive manufacturing, laser-based material processing, laser matter interaction and physics simulation; inkjet printing of functional materials; and 2D materials fabrication for energy storage and bio-sensors.
-- **Bio / Summary**: Nian's research interests include additive manufacturing, laser-based manufacturing and material processing, laser matter interaction and physics simulation, and functional materials for energy storage and bio-sensors.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 545: Modern Manufacturing Methods | MAE 499: Individualized Instruction`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="yongming-liu"></a>
-### 26. Yongming Liu
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/yliu35) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yongming%20Liu%20Arizona%20State%20University) | [✉️ Yongming.Liu@asu.edu](mailto:Yongming.Liu@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (2)**: `aerospace, materials`
-- **Office Location**: ENGRC 409 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Civil Engineering, Vanderbilt University 2006 | M.S. Structural Engineering, Tongji University, Shanghai, China 2002 | B.S. Structural Engineering, Tongji University, Shanghai, China 1999
-- **Research Topics**: Yongming Liu is a professor of aerospace and mechanical engineering with the School for Engineering of Matter, Transport and Energy at Arizona State University. Fatigue and fracture of engineering materials and structures, probabilistic computational mechanics, risk assessment and management, multi-physics damage modeling and structural durability, multi-scale uncertainty quantification and propagation, imaging-based experimental testing, diagnostics and prognostics
-- **Bio / Summary**: Liu heads the Prognostic Analysis and Reliability Assessment Laboratory (PARA). He joined ASU in 2012.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 548: Prob Methods for Eng Des/Analy | MAE 593: Applied Project | MAE 584: Internship`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="cindy-xiangjia-li"></a>
-### 27. Cindy (Xiangjia) Li
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/xiangji5) | [🎓 Google Scholar (tGQzHJIAAAAJ)](https://scholar.google.com/citations?hl=en&user=tGQzHJIAAAAJ) | [🔬 Advanced Manufacturing and Bio-inspired Design Lab](https://www.cindyxjli.com/) | [✉️ xiangjia.li@asu.edu](mailto:xiangjia.li@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (1)**: `materials`
-- **Office Location**: ERC457 551 E Tyler Mall (Tempe, AZ 85281)
-- **Education & Degrees**: Ph.D. in Industrial and Systems Engineering, University of Southern California, 2019 M.S. in Computer Science, University of Southern California, 2019 M.S. in Manufacturing Engineering, Nanjing University of Aeronautics and Astronautics, 2014 B.E. in Mechanical Engineering and Automation, Nanjing University of Aeronautics and Astronautics, 2011
-- **Expertise Taxonomy**: Ceramic Technology, Mechanics of Composite Materials, Mechanical Engineering, Biomimicry, 3D Printing, Additive Manufacturing, Manufacturing Engineering
-- **Research Topics**: Biomimetic Additive Manufacturing (3D Printing); Bioinspired Material and Structure Design; Stereolithography; Photopolymerization based 3D Printing; Multi-material and Multi-scale 3D printing; Biofabrication; Biomaterial; Ceramic Printing; Nanocomposite Printing; Physical Field Assisted Printing; 4D Printing; Flexible Sensor; Biomedical Device; Tissue Repair and Regeneration.
-- **Bio / Summary**: Xiangjia (Cindy) Li is an Associate Professor at Arizona State University. Her research focuses on multiscale, multimaterial additive manufacturing and bioinspired design for functional materials and devices.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Dylan Joralmon~, Soham Khairnar, Xiangjia Li*, "Rapid Fabrication of Multi-Metal 3D Objects with Adjustable Gradients by Contin..."*
-- 📚 **Courses Taught**: `MAE 301: Applied Experimental Statistic | MAE 593: Applied Project | MAE 494: Special Topics`
-- 🏆 **Recent Awards / Honors**: 2026 The J. Orin Edson Entrepreneurship & Innovation Seed Funding Award ASU 2025 1st place Skysong Startup Competition C
-
-#### 💡 Lab Intelligence & Active Openings
-- 🔥 **Actively Hiring / Openings**: **The labMI is looking for creative, motivated and energetic Ph.D., Master and Undergraduate students from diverse science and engineering field!**
-- 📩 **Cold Email / Application Instructions**:
-  > If you are interested in joining us, please send the full CV (with GPA; working and research experiences; publications) to Prof. Li (email: xiangjia.li AT asu.edu).
-- 💰 **Funding Sponsors**: NSF
-- 🚀 **Active Research Thrust**: Manufacturing
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="lin-li"></a>
-### 28. Lin Li
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/linli25) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lin%20Li%20Arizona%20State%20University) | [✉️ Lin.Li.10@asu.edu](mailto:Lin.Li.10@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (1)**: `materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: PhD The Ohio State University
-- **Bio / Summary**: Li uses multiscale material mechanics models, computational and data tools to explore advanced materials for extreme environments.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 520: Stress Analysis | MAE 499: Individualized Instruction | MAE 598: Special Topics`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="pedro-peralta"></a>
-### 29. Pedro Peralta
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/pperalta) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pedro%20Peralta%20Arizona%20State%20University) | [🔬 Lab Website](https://faculty.engineering.asu.edu/pperalta/) | [✉️ pperalta@asu.edu](mailto:pperalta@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (1)**: `materials`
-- **Office Location**: ENGRC 352 (TEMPE, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Materials Science and Engineering, University of Pennsylvania | M.S. Mechanical Engineering and Applied Mechanics, University of Pennsylvania | Bachelor’s degree. Mechanical Engineering, Universidad Simón Bolívar, Caracas, Venezuela
-- **Bio / Summary**: Peralta's research focuses on mechanics of materials, fatigue and fracture of metallic alloys, dynamic and shock loading of metallic and intermetallic materials.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 213: Mechanics of Materials | MAE 593: Applied Project | MAE 520: Stress Analysis`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="wonmo-kang"></a>
-### 30. Wonmo Kang
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/wkang16) | [🎓 Google Scholar (bHyyOTAAAAAJ)](https://scholar.google.com/citations?hl=en&user=bHyyOTAAAAAJ) | [🔬 Lab Website](https://wonmokang3.wixsite.com/website) | [✉️ Wonmo.Kang@asu.edu](mailto:Wonmo.Kang@asu.edu)
-
-- **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (1)**: `materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D. Mechanical Science and Engineering, University of Illinois at Urbana-Champaign 2012
-- **Expertise Taxonomy**: Mechanics of Composite Materials, Micro and Nanoscale Bioengineering, Nanotechnology, Thin Film Materials
-- **Research Topics**: Mechanics of Composite Materials, Micro and Nanoscale Bioengineering, Nanotechnology, Thin Film Materials
-- **Bio / Summary**: Kang's current research interests include functional materials for energy/manufacturing applications and biomaterials/biomechanics for injury and wound healing mechanisms.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"top of page This website was built on Wix. Create yours today. Get Started Bio & Nano Lab Home Dr. Kang Lab Members Publication..."*
-- 📚 **Courses Taught**: `MAE 598: Special Topics | MAE 494: Special Topics | MAE 202: Mech.Particles/Rigid Bodies II`
-- 🏆 **Recent Awards / Honors**: NSF Career Award through the Advanced Manufacturing (AM) program, 2024. | U.S. Air Force Research Lab Summer Faculty (AFRL) Fellowship , 2021.
-
-#### 💡 Lab Intelligence & Active Openings
-- 🔥 **Actively Hiring / Openings**: **Actively recruiting / Openings mentioned on lab site**
-- 🔬 **Lab Facilities & Experimental Equipment**: `SEM`
-- 💰 **Funding Sponsors**: NSF, ONR
-- 🚀 **Active Research Thrust**: Highlighted as a cover in Small
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="jiefeng-sun"></a>
-### 31. Jiefeng Sun
-*Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/jsun165) | [🎓 Google Scholar (fjUoHOsAAAAJ)](https://scholar.google.com/citations?hl=en&user=fjUoHOsAAAAJ) | [🔬 Sun Robotics Lab](https://sunroboticslab.github.io) | [✉️ Jiefeng.Sun@asu.edu](mailto:Jiefeng.Sun@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (6)**: `aerospace, autonomous, materials, robot, robotics, smart materials`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D. in Robotics and Control, Colorado State University, 2022 M.S. in Mechanical Engineering, Dalian University of Technology, 2017 B.S. in Mechanical Engineering, Lanzhou University of Technology, 2014
-- **Expertise Taxonomy**: Autonomous Technologies, Control Systems, Mechanical Engineering, Robotics
-- **Research Topics**: Hire students to conduct research https://sunroboticslab.github.io
-- **Bio / Summary**: Sun's research focuses on the design, dynamics, and control of soft robots and artificial muscles
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"2026 Versatile artificial muscles by decoupling anisotropy Eric Weissman, Rohan Khatavkar, and Jiefeng Sun Proceedings of the N..."*
-- 📚 **Courses Taught**: `MAE 547: Modeling and Control of Robots | MAE 593: Applied Project | MAE 499: Individualized Instruction`
-
-#### 💡 Lab Intelligence & Active Openings
-- 🔥 **Actively Hiring / Openings**: **I am seeking multiple highly motivated Master students or undergrads to conduct theses. To apply, interested candidates should fill in this form: https://forms.gle/RCwqu4wkCjhBUoFL7 | I am a K-12 student/teacher and would like information for a school report, tour, help with my robotics team, a research internship, etc. My students and I are very excited about using robotics as a teaching tool to encourage interest in Science, Technology, Engineering, and Math (STEM) topics. We actively involved in outreach and are have an outreach webpage to answer your questions.**
-- 📩 **Cold Email / Application Instructions**:
-  > To apply, interested candidates should submit an application to Arizona State University via https://webapp4.asu.edu/dgsadmissions/ , specifying their interest in working with Dr. Sun. Additionally, they should send an email titled “Prospective Ph.D. Student” to jiefeng.sun@asu.edu, attaching their CV and a cover letter before submitting their application. | I am seeking multiple highly motivated Master students or undergrads to conduct theses. To apply, interested candidates should fill in this form: https://forms.gle/RCwqu4wkCjhBUoFL7
-- 🚀 **Active Research Thrust**: Mission and Core Values
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="kunal-garg"></a>
-### 32. Kunal Garg
-*Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/kgarg24) | [🎓 Google Scholar (vs3pl-8AAAAJ)](https://scholar.google.com/citations?hl=en&user=vs3pl-8AAAAJ) | [🔬 Safe and Autonomous Robotics (STAR) Lab](https://sites.google.com/asu.edu/kunalgarg/) | [✉️ kgarg24@asu.edu](mailto:kgarg24@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (6)**: `aerospace, autonomous, control theory, motion planning, robot, robotics`
-- **Office Location**: 551 E Tyler Mall ERC 475 (Tempe, AZ 85281)
-- **Education & Degrees**: PhD. Aerospace Engineering, University of Michigan, Ann Arbor, 2021 MS. Aerospace Engineering, University of Michigan, Ann Arbor, 2019 BTech. Aerospace Engineering, Indian Institute of Technology, Bombay, 2016
-- **Expertise Taxonomy**: Control Systems, Dynamical Systems, Machine Learning, Nonlinear Dynamical Systems, Robotics
-- **Research Topics**: Distributed multi-agent motion planning and control, Provably safe control design using machine learning-based certificates, Foundation models in complex robotic tasks, Failure prediction from limited demonstrations, Human-robot interaction.
-- **Bio / Summary**: Garg's research interests include control synthesis for multi-agent coordination using control theory and machine learning.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Search this site Embedded Files Skip to main content Skip to navigation Kunal Garg Home People Teaching Research Publications K..."*
-- 📚 **Courses Taught**: `MAE 417: System Dynamics and Control II | MAE 593: Applied Project | MAE 598: Special Topics`
-
-#### 💡 Lab Intelligence & Active Openings
-- 🔥 **Actively Hiring / Openings**: **Actively seeking graduate students (see lab link/instructions)**
-- 📩 **Cold Email / Application Instructions**:
-  > More specific topics that I will be interested in working on are: Multi-agent robotics Team robotics with aerial and ground robots Learning-based methods for safe robotics Optimization-based methods for safe robotic control Reinforcement learning for multi-objective robotic applications Large-Language Models (LLMs) in robotic applications The pre-requisites and background I am looking for are as follows: Strong interests in control, autonomy, and robotics Strong mathematical background in Linear Systems and Linear Algebra, ODEs, Probability, and Calculus Programming efficiency: Python (C/C++ is optional, but will be a good add-on as we will plan to conduct hardware experiments) Hands-on experience with ML packages (PyTorch or JAX) Hands-on experience with ROS or ROS2 Email me your CV along with a one or two-page document on why you are interested in working with me, what topic(s) you are interested in working on, what motivates you to work on those, which of the pre-requisites listed above you meet, and what's your plan for meeting the rest of the requirements
-- 🛠️ **Target Skills / Prerequisites**: `Python, PyTorch, ROS, ROS2, C/C++, Linear Algebra`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="spring-berman"></a>
-### 33. Spring Berman
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/smberma2) | [🎓 Google Scholar (KKup0OgAAAAJ)](https://scholar.google.com/citations?hl=en&user=KKup0OgAAAAJ) | [🔬 Autonomous Collective Systems (ACS) Laboratory](http://faculty.engineering.asu.edu/acs/) | [✉️ Spring.Berman@asu.edu](mailto:Spring.Berman@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (5)**: `aerospace, autonomous, control theory, robot, robotics`
-- **Office Location**: ENGRC 375 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Mechanical Engineering and Applied Mechanics, University of Pennsylvania 2010 | M.S.E. Mechanical Engineering and Applied Mechanics, University of Pennsylvania 2008 | B.S.E. Mechanical and Aerospace Engineering, Princeton University 2005 | Certificate. Robotics and Intelligent Systems, Princeton University 2005
-- **Expertise Taxonomy**: Systems and Control Theory, Mechanical Engineering, Autonomous Technologies, Robotics
-- **Research Topics**: Modeling, analysis, control, and optimization of multi-robot systems including robotic swarms; analysis of collective behaviors in biology and biologically-inspired control of distributed systems
-- **Bio / Summary**: Dr. Berman directs the Autonomous Collective Systems Laboratory at ASU, which models and analyzes behaviors in biological and engineered collectives and designs control strategies for multi-robot systems.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 318: System Dynamics and Control I | MAE 598: Special Topics | MAE 593: Applied Project`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="zhe-xu"></a>
-### 34. Zhe Xu
-*Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/xzhe1) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhe%20Xu%20Arizona%20State%20University) | [🔬 Lab Website](https://sites.google.com/site/zhexudavid00710/research?authuser=0) | [✉️ xzhe1@asu.edu](mailto:xzhe1@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (5)**: `autonomous, control theory, energy systems, robot, robotics`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D Degree at the  Department of Electrical, Computer, and Systems Engineering  at  Rensselaer Polytechnic Institute  in 2018 | Master's Degree at the  School of electrical and information engineering  at  Tianjin University  in 2014 | Bachelor's Degree at the  School of electrical and information engineering  at  Tianjin University  in 2011
-- **Expertise Taxonomy**: Artificial Intelligence, Control Systems, Electric Power and Energy Systems, Machine Learning, Robotics, Systems and Control Theory
-- **Research Topics**: The research interests include control theory, machine learning, formal methods and autonomous systems.
-- **Bio / Summary**: My research interests include control theory, formal methods, and machine learning (including reinforcement learning), with applications on autonomous systems and cyber-physical systems.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Search this site Embedded Files Skip to main content Skip to navigation Home Publications Research Teaching Group Members Outre..."*
-- 📚 **Courses Taught**: `MAE 506: Adv Sys Model, Dynamic, Contrl | MAE 318: System Dynamics and Control I | MAE 593: Applied Project`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="matthew-peet"></a>
-### 35. Matthew Peet
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/mpeet) | [🎓 Google Scholar (l7umOqMAAAAJ)](https://scholar.google.com/citations?hl=en&user=l7umOqMAAAAJ) | [🔬 Cybernetic Systems and Controls Laboratory (CSCL)](http://control.asu.edu/) | [✉️ mpeet@asu.edu](mailto:mpeet@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (4)**: `aerospace, materials, spacecraft, system dynamics`
-- **Office Location**: ENGRC 253 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Aeronautics and Astronautics, Stanford University 2006 | Bachelor's degree. Physics, University of Texas-Austin 1999 | Bachelor's degree. Aerospace Engineering, University of Texas-Austin 1999
-- **Expertise Taxonomy**: Control Systems, Dynamical Systems Theory, Aerospace Engineering, Algorithm Development, Dynamical Systems, Nonlinear Dynamical Systems, Mathematical and System Dynamics Modeling, Immunology
-- **Research Topics**: The intersection of computer science and control including convex optimization, artificial intelligence, and manipulation of delayed and PDE systems. The understanding and regulation of complex dynamical systems such as the motion of plasma in nuclear fusion reactors, autoregulation in the human immune response, and the motion of spacecraft in orbit.
-- **Bio / Summary**: Peet's current research interests are in the role of computation as it is applied to the understanding and control of complex and large-scale systems.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 318: System Dynamics and Control I | MAE 509: LMI Methods`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="hamidreza-marvi"></a>
-### 36. Hamidreza Marvi
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/hmarvi) | [🎓 Google Scholar (00Fepb0AAAAJ)](https://scholar.google.com/citations?hl=en&user=00Fepb0AAAAJ) | [🔬 Bio-Inspired Robotics, Technology, and Healthcare Laboratory (BIRTH Lab)](http://birth.asu.edu) | [✉️ hmarvi@asu.edu](mailto:hmarvi@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (3)**: `aerospace, robot, robotics`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D. Mechanical Engineering, Georgia Institute of Technology, Atlanta 2013 | M.S. Mechanical Engineering, Clemson University, SC 2009 | M.S. Biomedical Engineering, Sharif University of Technology, Tehran, Iran 2007 | B.S. Mechanical Engineering, Iran University of Science and Technology, Tehran 2004
-- **Research Topics**: Bio-inspired robotics Soft robotics Magnetic micro-robotics Mechanics of animal locomotion
-- **Bio / Summary**: Marvi would like to develop bio-inspired robotic systems and programmable interfacial structures for search and rescue, exploratory and medical applications.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Shape-programmable magnetic soft matter,"*
-- 📚 **Courses Taught**: `MAE 417: System Dynamics and Control II | MAE 598: Special Topics | MAE 547: Modeling and Control of Robots`
-- 🏆 **Recent Awards / Honors**: KEEN Professorship, The Kern Family Foundation, 2017. | Peebles Award for Graduate Student Research in Adhesion Science, Adhesion Society, 2015.
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="hyunglae-lee"></a>
-### 37. Hyunglae Lee
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/hlee234) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hyunglae%20Lee%20Arizona%20State%20University) | [🔬 Lab Website](https://faculty.engineering.asu.edu/hlee) | [✉️ Hyunglae.Lee@asu.edu](mailto:Hyunglae.Lee@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (3)**: `aerospace, robot, robotics`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: B.S. Mechanical and Aerospace Engineering, Seoul National University (2002) M.S. Mechanical and Aerospace Engineering, Seoul National University (2004) Ph.D Mechanical Engineering, Massachusetts Institute of Technology (2013)
-- **Bio / Summary**: Lee's research interests include physical human-robot interaction, neuromuscular control of human movement, robot-aided neurorehabilitation, bio-inspired robotics and system identification for physiological systems.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 598: Special Topics | MAE 417: System Dynamics and Control II | MAE 593: Applied Project`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="huei-ping-huang"></a>
-### 38. Huei-Ping Huang
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/hhuang38) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huei-Ping%20Huang%20Arizona%20State%20University) | [🔬 Lab Website](http://www.public.asu.edu/~hhuang38) | [✉️ Huei-Ping.Huang@asu.edu](mailto:Huei-Ping.Huang@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (2)**: `aerospace, fluid dynamics`
-- **Office Location**: ENGRC 359 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. University of Illinois-Urbana-Champaign 1997 | M.S. National Taiwan University 1989 | B.S. National Central University,Taiwan 1987
-- **Bio / Summary**: Huang's research interests are geophysical and environmental fluid dynamics, numerical simulation of atmospheric and oceanic flows, Earth system remote sensing, and climate change.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 502: Partial Diff Equations Engr | MAE 460: Applied Comput Fluid Dynamics | MAE 593: Applied Project`
-
-#### 💡 Lab Intelligence & Active Openings
-- 🚀 **Active Research Thrust**: Log in to www_public
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="wanxin-jin"></a>
-### 39. Wanxin Jin
-*Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/wjin34) | [🎓 Google Scholar (SoEC4h4AAAAJ)](https://scholar.google.com/citations?hl=en&user=SoEC4h4AAAAJ) | [🔬 Intelligent Robotics and Interactive Systems Lab (IRIS Lab)](https://irislab.tech/) | [✉️ wjin@asu.edu](mailto:wjin@asu.edu) | [💻 Code Repo](https://github.com/asu-iris)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (2)**: `robot, robotics`
-- **Office Location**: Campus: Tempe
-- **Education & Degrees**: Ph.D., Purdue University 2021 | Master of Science, Harbin Institute of Technology, 2016 | Bachelor of Engineering, Harbin Institute of Technology, 2014
-- **Research Topics**: https://irislab.tech/
-- **Bio / Summary**: Jin's research includes robotics, control and machine learning, with a focus on the autonomy of robots interacting with humans and objects.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Below are selected papers that represent our main research threads. Please visit Publications for the full list. Contact-rich i..."*
-- 📚 **Courses Taught**: `MAE 301: Applied Experimental Statistic | MAE 593: Applied Project | MAE 547: Modeling and Control of Robots`
-
-#### 💡 Lab Intelligence & Active Openings
-- 🔥 **Actively Hiring / Openings**: **ASU undergraduate and master students are welcome to join IRIS Lab research projects in robotics, embodied AI, vision and perception, robot learning, control, and autonomy. Students interested in a thesis, independent study, or sustained applied research project are especially encouraged to reach out. | If you are interested, please email Dr. Wanxin Jin with your CV, transcript, and a brief description of your research interests. In your email, please mention the topics you are interested in, your relevant background, and whether you are looking for thesis research, independent study, an applied project, hourly research work, or volunteer research experience.**
-- 📩 **Cold Email / Application Instructions**:
-  > If you are interested, please email Dr. Wanxin Jin with your CV, transcript, and a brief description of your research interests. In your email, please mention the topics you are interested in, your relevant background, and whether you are looking for thesis research, independent study, an applied project, hourly research work, or volunteer research experience. | If you are interested, please submit this form: https://forms.gle/Yo5mQcwTrogHTgu77 . If there is a potential fit, you should expect to be contacted within one week; if you do not hear back, please email wjin@asu.edu for follow-up.
-- 💰 **Funding Sponsors**: NSF
-- 🚀 **Active Research Thrust**: Recent Updates
-- 💻 **Software / Repositories**: https://github.com/asu-iris
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="james-middleton"></a>
-### 40. James Middleton
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/jimbo) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=James%20Middleton%20Arizona%20State%20University) | [✉️ jimbo@asu.edu](mailto:jimbo@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (1)**: `aerospace`
-- **Office Location**: ENGRC 381 (TEMPE, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Educational Psychology, University of Wisconsin-Madison 1992
-- **Research Topics**: Student learning of mathematical concepts. Motivation and mathematics learning. Teacher change. Applications of technology to mathematics teaching and learning.
-- **Bio / Summary**: Middleton’s research interests focus in the following areas where he has published extensively: children’s mathematical thinking; teacher and student motivation in mathematics; and teacher change in mathematics.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📄 **Latest Lab Paper / Highlight**: *"Journal Articles Middleton, J. A. (in press). Archimedes, Euler, & Nursing Cats: Rethinking the Arithmetic Mean. OnCore,"*
-- 📚 **Courses Taught**: `MAE 484: Internship | MAE 301: Applied Experimental Statistic | MAE 394: Special Topics`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="marc-mignolet"></a>
-### 41. Marc Mignolet
-*Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/marc03) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Marc%20Mignolet%20Arizona%20State%20University) | [✉️ marc.mignolet@asu.edu](mailto:marc.mignolet@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (1)**: `aerospace`
-- **Office Location**: ENGRC 411 (TEMPE, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Rice University 1987
-- **Bio / Summary**: Mignolet's research interests include structural dynamics, vibrations, modeling of uncertainty in structures and stochastic multiscale analyses.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 510: Dynamics and Vibrations | MAE 591: Seminar | MAE 394: Special Topics`
-
-[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
-
----
-
-<a id="yi-ren"></a>
-### 42. Yi Ren
-*Associate Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🔴 Tier 4: Robotics / Controls / Autonomy**
-
-[🏛️ Directory Profile](https://search.asu.edu/profile/yren32) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yi%20Ren%20Arizona%20State%20University) | [✉️ yiren@asu.edu](mailto:yiren@asu.edu)
-
-- **Research Categorization**: **🔴 Tier 4: Robotics / Controls / Autonomy**
-- **Matched Research Keywords (1)**: `aerospace`
-- **Office Location**: GWC 464 (Tempe, AZ 85287-6106)
-- **Education & Degrees**: Ph.D. Mechanical Engineering, University of Michigan 2011 | M.S. Mechanical Engineering, University of Michigan 2009 | B.S. Automative Engineering, Tsinghua University, China 2007
-- **Bio / Summary**: Ren’s current research interests include optimization, product/configuration design, human-computer interaction and machine learning.
-
-#### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 494: Special Topics | MAE 598: Special Topics | MAE 301: Applied Experimental Statistic`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
