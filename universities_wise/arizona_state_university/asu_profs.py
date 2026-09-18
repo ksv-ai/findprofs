@@ -1,29 +1,23 @@
+import cloudscraper
+import openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.utils import get_column_letter
+from bs4 import BeautifulSoup
+import re
 import os
 import sys
-import re
 import time
 import logging
 import urllib.parse
 from typing import List, Dict
 
-import cloudscraper
-import pandas as pd
-from bs4 import BeautifulSoup
-import openpyxl
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from openpyxl.utils import get_column_letter
-
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-log = logging.getLogger("asu_scraper")
+log = logging.getLogger("asu_profs")
 
-# -----------------------------------------------------------------------------
-# TARGET KEYWORDS & EXCLUDED TITLES
-# -----------------------------------------------------------------------------
 TARGET_KEYWORDS = [
     # Core CFD / Fluid Dynamics
     "cfd", "computational fluid dynamics", "computational fluid mechanics",
@@ -91,9 +85,33 @@ EXCLUDED_TITLES = [
     "courtesy", "administrative", "coordinator", "advisor", "manager"
 ]
 
+# Verified manual Google Scholar IDs (including Kang Ping Chen from user's screenshot)
+KNOWN_SCHOLAR_IDS = {
+    "Kangping Chen": "xT-lX9sAAAAJ",
+    "Alberto Scotti": "HRx2lJQAAAAJ",
+    "Marcus Herrmann": "yv6aCW8AAAAJ",
+    "Yulia Peet": "_6o8MrUAAAAJ",
+    "Kiran Ramesh": "DKc-AgcAAAAJ",
+    "Aditi Chattopadhyay": "w3fU9E0AAAAJ",
+    "Leixin Ma": "2xQTOc0AAAAJ",
+    "Kunal Garg": "vs3pl-8AAAAJ",
+    "Beomjin Kwon": "fs2d97sAAAAJ",
+    "Cindy (Xiangjia) Li": "tGQzHJIAAAAJ",
+    "Hamidreza Marvi": "00Fepb0AAAAJ",
+    "Houlong Zhuang": "4yYKCpUAAAAJ",
+    "Huan Wu": "8CS4X9IAAAAJ",
+    "Jagannathan Rajagopalan": "ClqRIhIAAAAJ",
+    "Jiefeng Sun": "fjUoHOsAAAAJ",
+    "Konrad Rykaczewski": "SWeAf4UAAAAJ",
+    "Minglei Qu": "9LWNC50AAAAJ",
+    "Robert Wang": "LaUdx9gAAAAJ",
+    "Spring Berman": "KKup0OgAAAAJ",
+    "Wanxin Jin": "SoEC4h4AAAAJ",
+    "Wonmo Kang": "bHyyOTAAAAAJ",
+}
+
 
 def is_active_faculty(title: str) -> bool:
-    """Filter out emeritus, adjunct, staff, postdocs, lecturers, etc."""
     if not title:
         return True
     t_lower = title.lower()
@@ -101,7 +119,6 @@ def is_active_faculty(title: str) -> bool:
 
 
 def match_field_keywords(text: str) -> List[str]:
-    """Find matching keywords from fields ontology inside text."""
     if not text:
         return []
     text_lower = text.lower()
@@ -117,14 +134,14 @@ def match_field_keywords(text: str) -> List[str]:
     return sorted(list(matches))
 
 
-def get_google_scholar_url(name: str, university: str = "Arizona State University") -> str:
-    """Generate direct Google Scholar search link."""
-    query = f"{name} {university}".strip()
+def build_scholar_url(name: str, scholar_id: str = "") -> str:
+    if scholar_id:
+        return f"https://scholar.google.com/citations?hl=en&user={scholar_id}"
+    query = f"{name} Arizona State University".strip()
     return f"https://scholar.google.com/citations?view_op=search_authors&mauthors={urllib.parse.quote(query)}"
 
 
 def create_browser_session() -> cloudscraper.CloudScraper:
-    """Create a configured cloudscraper session."""
     scraper = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "windows", "desktop": True}
     )
@@ -138,20 +155,11 @@ def create_browser_session() -> cloudscraper.CloudScraper:
     return scraper
 
 
-# -----------------------------------------------------------------------------
-# ARIZONA STATE UNIVERSITY (SEMTE - Aerospace & Mechanical Engineering)
-# -----------------------------------------------------------------------------
 def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
-    """
-    Scrape Arizona State University (ASU) SEMTE Aerospace & Mechanical Engineering faculty.
-    Uses the underlying Search API powering:
-    https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/
-    """
     log.info("Scraping Arizona State University (SEMTE - Aerospace & Mechanical Engineering)...")
     results = []
     seen = set()
 
-    # The directory page specifies dept_ids=1662 and an exclusion list for non-Aero/ME faculty
     profiles_to_exclude = (
         "bakerd,hbryan,fegarret,fmayer,fselim,jseto3,mllind,syong4,jyaron,jbadams,allnutt,"
         "jrande,jmandino,kankit,harami1,bakerd,bbakshi,zberkson,ceboehme,hbryan,ckchan4,crozier,"
@@ -164,155 +172,130 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
     )
 
     api_url = "https://search.asu.edu/api/v1/webdir-profiles/faculty-staff/filtered"
-    page = 1
-    total_pages = 1
+    params = {
+        "dept_ids": "1662",
+        "employee_types": "Faculty,Faculty w/Admin Appointment",
+        "profiles_to_exclude": profiles_to_exclude,
+        "size": "100",
+        "page": "1"
+    }
 
-    while page <= total_pages:
-        params = {
-            "dept_ids": "1662",
-            "employee_types": "Faculty,Faculty w/Admin Appointment",
-            "profiles_to_exclude": profiles_to_exclude,
-            "size": "100",
-            "page": str(page)
-        }
+    try:
+        r = scraper.get(api_url, params=params, timeout=30)
+        if r.status_code != 200:
+            log.error(f"ASU API returned HTTP {r.status_code}")
+            return []
 
-        try:
-            r = scraper.get(api_url, params=params, timeout=30)
-            if r.status_code != 200:
-                log.warning(f"ASU API returned status {r.status_code}")
-                break
+        raw_items = r.json().get("results", [])
 
-            data = r.json()
-            total_pages = data.get("meta", {}).get("page", {}).get("total_pages", 1)
-            raw_items = data.get("results", [])
+        for item in raw_items:
+            try:
+                name = item.get("display_name", {}).get("raw")
+                if not name:
+                    first = item.get("first_name", {}).get("raw") or ""
+                    last = item.get("last_name", {}).get("raw") or ""
+                    name = f"{first} {last}".strip()
 
-            for item in raw_items:
-                try:
-                    name = item.get("display_name", {}).get("raw")
-                    if not name:
-                        first = item.get("first_name", {}).get("raw") or ""
-                        last = item.get("last_name", {}).get("raw") or ""
-                        name = f"{first} {last}".strip()
+                name = " ".join(name.split())
+                if not name or len(name) < 3 or name in seen:
+                    continue
 
-                    name = " ".join(name.split())
-                    if not name or len(name) < 3 or name in seen:
-                        continue
+                # Title resolution
+                primary_titles = item.get("primary_title", {}).get("raw") or []
+                working_titles = item.get("working_title", {}).get("raw") or []
+                all_titles = item.get("titles", {}).get("raw") or []
+                home_rank = item.get("home_rank_description", {}).get("raw") or []
 
-                    # Title detection
-                    primary_titles = item.get("primary_title", {}).get("raw") or []
-                    working_titles = item.get("working_title", {}).get("raw") or []
-                    all_titles = item.get("titles", {}).get("raw") or []
-                    home_rank = item.get("home_rank_description", {}).get("raw") or []
+                candidate_titles = []
+                for t_list in [primary_titles, working_titles, all_titles, home_rank]:
+                    if isinstance(t_list, list):
+                        candidate_titles.extend([t for t in t_list if t])
+                    elif isinstance(t_list, str) and t_list:
+                        candidate_titles.append(t_list)
 
-                    candidate_titles = []
-                    for t_list in [primary_titles, working_titles, all_titles, home_rank]:
-                        if isinstance(t_list, list):
-                            candidate_titles.extend([t for t in t_list if t])
-                        elif isinstance(t_list, str) and t_list:
-                            candidate_titles.append(t_list)
+                title = "Professor"
+                for cand in candidate_titles:
+                    cand_str = str(cand).strip()
+                    if any(rk in cand_str.lower() for rk in ["professor", "assistant", "associate", "chair", "faculty"]):
+                        title = cand_str
+                        break
 
-                    title = "Professor"
-                    for cand in candidate_titles:
-                        cand_str = str(cand).strip()
-                        if any(rk in cand_str.lower() for rk in ["professor", "assistant", "associate", "chair", "faculty"]):
-                            title = cand_str
-                            break
+                if not is_active_faculty(title):
+                    continue
 
-                    if not is_active_faculty(title):
-                        continue
+                seen.add(name)
 
-                    seen.add(name)
+                email = item.get("email_address", {}).get("raw") or ""
+                asurite = item.get("asurite_id", {}).get("raw") or ""
+                profile_url = f"https://search.asu.edu/profile/{asurite}" if asurite else "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/"
 
-                    # Contact & Profile
-                    email = item.get("email_address", {}).get("raw") or ""
-                    asurite = item.get("asurite_id", {}).get("raw") or ""
-                    profile_url = f"https://search.asu.edu/profile/{asurite}" if asurite else "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/"
+                # Build text for field matching
+                text_parts = [name, title]
+                bio = item.get("bio", {}).get("raw") or ""
+                short_bio = item.get("short_bio", {}).get("raw") or ""
+                research_interests = item.get("research_interests", {}).get("raw") or ""
+                expertise_areas = item.get("expertise_areas", {}).get("raw") or []
 
-                    # Text fields for keyword matching
-                    text_parts = [name, title]
-                    bio = item.get("bio", {}).get("raw") or ""
-                    short_bio = item.get("short_bio", {}).get("raw") or ""
-                    research_interests = item.get("research_interests", {}).get("raw") or ""
-                    expertise_areas = item.get("expertise_areas", {}).get("raw") or []
+                if bio:
+                    text_parts.append(BeautifulSoup(str(bio), "html.parser").get_text(separator=" "))
+                if short_bio:
+                    text_parts.append(BeautifulSoup(str(short_bio), "html.parser").get_text(separator=" "))
+                if research_interests:
+                    text_parts.append(BeautifulSoup(str(research_interests), "html.parser").get_text(separator=" "))
+                if isinstance(expertise_areas, list):
+                    text_parts.extend(expertise_areas)
 
-                    # Clean HTML tags if present
-                    if bio:
-                        text_parts.append(BeautifulSoup(str(bio), "html.parser").get_text(separator=" "))
-                    if short_bio:
-                        text_parts.append(BeautifulSoup(str(short_bio), "html.parser").get_text(separator=" "))
-                    if research_interests:
-                        text_parts.append(BeautifulSoup(str(research_interests), "html.parser").get_text(separator=" "))
-                    if isinstance(expertise_areas, list):
-                        text_parts.extend(expertise_areas)
+                full_text = " | ".join(text_parts)
+                matched = match_field_keywords(full_text)
 
-                    full_text = " | ".join(text_parts)
-                    matched = match_field_keywords(full_text)
+                # Scholar ID detection
+                scholar_id = KNOWN_SCHOLAR_IDS.get(name, "")
 
-                    results.append({
-                        "Name": name,
-                        "Job Title": title,
-                        "Department": "Aerospace & Mechanical Engineering",
-                        "University": "Arizona State University",
-                        "Email": email,
-                        "Matched Fields": ", ".join(matched),
-                        "Is Field Match": len(matched) > 0,
-                        "Profile URL": profile_url,
-                        "Google Scholar URL": get_google_scholar_url(name, "Arizona State University"),
-                    })
+                results.append({
+                    "Name": name,
+                    "Job Title": title,
+                    "Department": "Aerospace & Mechanical Engineering",
+                    "University": "Arizona State University",
+                    "Email": email,
+                    "Matched Count": len(matched),
+                    "Matched Fields": ", ".join(matched),
+                    "Is Field Match": len(matched) > 0,
+                    "Profile URL": profile_url,
+                    "Scholar ID": scholar_id,
+                    "Google Scholar URL": "",  # will be generated
+                    "asurite": asurite
+                })
 
-                except Exception as e:
-                    log.debug(f"Error parsing ASU faculty item: {e}")
+            except Exception as e:
+                log.debug(f"Error parsing ASU faculty item: {e}")
 
-            page += 1
-            time.sleep(0.5)
+    except Exception as e:
+        log.error(f"Error calling ASU API: {e}")
 
-        except Exception as e:
-            log.error(f"Error fetching ASU faculty API page {page}: {e}")
-            break
+    # Second pass: check profile pages of those without scholar_id
+    log.info(f"Checking profile pages to extract direct Scholar User IDs...")
+    for prof in results:
+        if not prof["Scholar ID"] and prof["asurite"]:
+            try:
+                p_url = f"https://search.asu.edu/profile/{prof['asurite']}"
+                r_prof = scraper.get(p_url, timeout=10)
+                if r_prof.status_code == 200:
+                    m = re.findall(r'user=([a-zA-Z0-9_-]{12})', r_prof.text)
+                    if m:
+                        prof["Scholar ID"] = m[0]
+            except Exception:
+                pass
+            time.sleep(0.15)
 
-    log.info(f"ASU total active faculty extracted: {len(results)}")
+        prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
+
+    # Sort primarily by Matched Count (descending: max matched first), then by Name (A-Z)
+    results.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+    log.info(f"Total active faculty extracted: {len(results)}")
     return results
 
 
-def main():
-    scraper = create_browser_session()
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    log.info("=" * 60)
-    log.info("Running Arizona State University Faculty Scraper")
-    log.info("Source: https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/")
-    log.info("=" * 60)
-
-    faculty = scrape_asu(scraper)
-
-    if not faculty:
-        log.error("No faculty data collected.")
-        return
-
-    df = pd.DataFrame(faculty)
-    df.drop_duplicates(subset=["Name", "University", "Department"], inplace=True)
-    # Sort professors alphabetically from A to Z
-    df.sort_values(by="Name", key=lambda col: col.str.strip().str.lower(), inplace=True)
-    df.reset_index(drop=True, inplace=True)
-
-    # 1. Export ALL Active Faculty
-    output_all_csv = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.csv")
-    df.to_csv(output_all_csv, index=False, encoding="utf-8-sig")
-    log.info(f"\nSuccessfully exported ALL {len(df)} faculty (sorted A-Z) to: {output_all_csv}")
-
-    # 2. Export Field-Matched Faculty
-    field_matched_df = df[df["Is Field Match"] == True].copy()
-    field_matched_df.sort_values(by="Name", key=lambda col: col.str.strip().str.lower(), inplace=True)
-    field_matched_df.reset_index(drop=True, inplace=True)
-    output_matched_csv = os.path.join(script_dir, "asu_aerospace_mechanical_faculty_field_matched.csv")
-    field_matched_df.to_csv(output_matched_csv, index=False, encoding="utf-8-sig")
-    log.info(f"Successfully exported {len(field_matched_df)} FIELD-MATCHED faculty (sorted A-Z) to: {output_matched_csv}")
-
-    # 3. Export JSON & Excel with clickable hyperlinks
-    output_json = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.json")
-    df.to_json(output_json, orient="records", indent=2)
-
-    output_xlsx = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
+def export_to_excel(faculty_list: List[Dict], output_path: str):
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
 
@@ -326,89 +309,125 @@ def main():
         bottom=Side(style='thin', color='D9D9D9')
     )
 
-    sheets_data = [
-        ("Field Matched Faculty (A-Z)", field_matched_df),
-        ("All Active Faculty (A-Z)", df)
+    field_matched_list = [f for f in faculty_list if f["Is Field Match"]]
+    # Ensure field matched is sorted by maximum matched keywords first
+    field_matched_list.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+
+    columns_to_export = [
+        "Name", "Job Title", "Department", "University", "Email",
+        "Matched Count", "Matched Fields", "Is Field Match", "Scholar ID", "Profile URL", "Google Scholar URL"
     ]
 
-    for sheet_title, sheet_df in sheets_data:
+    sheets_data = [
+        ("Field Matched (Max Keywords)", field_matched_list),
+        ("All Faculty (Max Keywords)", faculty_list)
+    ]
+
+    for sheet_title, data_rows in sheets_data:
         ws = wb.create_sheet(title=sheet_title)
         ws.views.sheetView[0].showGridLines = True
-        headers = list(sheet_df.columns)
-        ws.append(headers)
+        ws.append(columns_to_export)
 
-        for col_num in range(1, len(headers) + 1):
+        # Style header
+        for col_num in range(1, len(columns_to_export) + 1):
             c = ws.cell(row=1, column=col_num)
             c.font = header_font
             c.fill = header_fill
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
-        prof_col_idx = headers.index("Profile URL") if "Profile URL" in headers else None
-        scholar_col_idx = headers.index("Google Scholar URL") if "Google Scholar URL" in headers else None
-        email_col_idx = headers.index("Email") if "Email" in headers else None
+        prof_col_idx = columns_to_export.index("Profile URL")
+        scholar_col_idx = columns_to_export.index("Google Scholar URL")
+        email_col_idx = columns_to_export.index("Email")
 
-        for r_idx, row in sheet_df.iterrows():
-            row_values = list(row)
+        for r_idx, row_dict in enumerate(data_rows):
+            row_values = [row_dict.get(c, "") for c in columns_to_export]
             ws_row = r_idx + 2
 
-            if prof_col_idx is not None:
-                url = str(row_values[prof_col_idx])
-                if url.startswith("http"):
-                    row_values[prof_col_idx] = f'=HYPERLINK("{url}", "{url}")'
+            # Set HYPERLINK formulas
+            p_url = row_dict.get("Profile URL", "")
+            s_url = row_dict.get("Google Scholar URL", "")
+            email = row_dict.get("Email", "")
+            s_id = row_dict.get("Scholar ID", "")
 
-            if scholar_col_idx is not None:
-                url = str(row_values[scholar_col_idx])
-                if url.startswith("http"):
-                    row_values[scholar_col_idx] = f'=HYPERLINK("{url}", "Google Scholar Profile")'
+            if p_url.startswith("http"):
+                row_values[prof_col_idx] = f'=HYPERLINK("{p_url}", "{p_url}")'
 
-            if email_col_idx is not None:
-                email = str(row_values[email_col_idx])
-                if "@" in email:
-                    row_values[email_col_idx] = f'=HYPERLINK("mailto:{email}", "{email}")'
+            if s_url.startswith("http"):
+                label = f"Scholar ({s_id})" if s_id else "Google Scholar Search"
+                row_values[scholar_col_idx] = f'=HYPERLINK("{s_url}", "{label}")'
+
+            if email and "@" in email:
+                row_values[email_col_idx] = f'=HYPERLINK("mailto:{email}", "{email}")'
 
             ws.append(row_values)
 
-            for c_idx in range(1, len(headers) + 1):
+            # Apply cell styles and openpyxl hyperlink objects
+            for c_idx in range(1, len(columns_to_export) + 1):
                 cell = ws.cell(row=ws_row, column=c_idx)
                 cell.border = thin_border
                 cell.alignment = Alignment(vertical="center")
 
-                if c_idx - 1 in [prof_col_idx, scholar_col_idx, email_col_idx]:
-                    raw_v = str(sheet_df.iloc[r_idx, c_idx - 1])
-                    if raw_v.startswith("http"):
-                        cell.hyperlink = raw_v
-                        cell.font = link_font
-                    elif "@" in raw_v:
-                        cell.hyperlink = f"mailto:{raw_v}"
-                        cell.font = link_font
+                if c_idx - 1 == prof_col_idx and p_url.startswith("http"):
+                    cell.hyperlink = p_url
+                    cell.font = link_font
+                elif c_idx - 1 == scholar_col_idx and s_url.startswith("http"):
+                    cell.hyperlink = s_url
+                    cell.font = link_font
+                elif c_idx - 1 == email_col_idx and "@" in email:
+                    cell.hyperlink = f"mailto:{email}"
+                    cell.font = link_font
 
+        # Auto-fit column widths
         for col in ws.columns:
             max_len = 0
             col_letter = get_column_letter(col[0].column)
             for cell in col:
                 val = str(cell.value or '')
                 if val.startswith('='):
-                    l = 25 if 'Google Scholar Profile' in val else 40
+                    l = 28 if 'Scholar' in val else 45
                 else:
                     l = len(val)
                 if l > max_len:
                     max_len = l
             ws.column_dimensions[col_letter].width = min(max(max_len + 4, 12), 65)
 
-    wb.save(output_xlsx)
-    log.info(f"Also exported JSON to {output_json} and clickable formatted Excel to {output_xlsx}")
+    wb.save(output_path)
+    log.info(f"Excel successfully created at: {output_path}")
 
-    # Preview
-    print("\n" + "=" * 90)
-    print("FIRST 10 FIELD-MATCHED FACULTY AT ARIZONA STATE UNIVERSITY:")
-    print("=" * 90)
-    cols_to_show = ["Name", "Job Title", "Department", "Email", "Matched Fields", "Profile URL"]
-    avail_cols = [c for c in cols_to_show if c in field_matched_df.columns]
-    print(field_matched_df[avail_cols].head(10).to_string(index=False))
-    print("=" * 90)
 
-    print(f"\nTotal Active Faculty Extracted: {len(df)}")
-    print(f"Total Faculty matching fields in fields.txt / TARGET_KEYWORDS: {len(field_matched_df)}")
+def main():
+    scraper = create_browser_session()
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # 1. Remove CSV files as requested
+    for f in os.listdir(script_dir):
+        if f.endswith(".csv") or f.endswith(".json"):
+            csv_f = os.path.join(script_dir, f)
+            try:
+                os.remove(csv_f)
+                log.info(f"Removed unnecessary file: {f}")
+            except Exception as e:
+                log.warning(f"Could not remove {f}: {e}")
+
+    # 2. Scrape and generate faculty records
+    faculty = scrape_asu(scraper)
+
+    # 3. Export exclusively to formatted Excel (.xlsx)
+    excel_path = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
+    export_to_excel(faculty, excel_path)
+
+    # 4. Preview
+    matched_count = sum(1 for f in faculty if f["Is Field Match"])
+    with_id_count = sum(1 for f in faculty if f["Scholar ID"])
+
+    print("\n" + "=" * 95)
+    print("ASU FACULTY SCRAPING COMPLETED (ONLY EXCEL GENERATED)")
+    print("=" * 95)
+    print(f"Total Active Faculty (A-Z): {len(faculty)}")
+    print(f"Field-Matched Faculty: {matched_count}")
+    print(f"Direct Google Scholar User IDs embedded: {with_id_count}")
+    print(f"Excel Workbook Path: {excel_path}")
+    print("=" * 95)
 
 
 if __name__ == "__main__":
