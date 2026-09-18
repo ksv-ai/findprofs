@@ -9,6 +9,9 @@ from typing import List, Dict
 import cloudscraper
 import pandas as pd
 from bs4 import BeautifulSoup
+import openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.utils import get_column_letter
 
 # Configure logging
 logging.basicConfig(
@@ -310,38 +313,90 @@ def main():
     df.to_json(output_json, orient="records", indent=2)
 
     output_xlsx = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
-    with pd.ExcelWriter(output_xlsx, engine='openpyxl') as writer:
-        df.to_excel(writer, sheet_name='All Faculty A-Z', index=False)
-        field_matched_df.to_excel(writer, sheet_name='Field Matched A-Z', index=False)
+    wb = openpyxl.Workbook()
+    wb.remove(wb.active)
 
-        for sheetname in ['All Faculty A-Z', 'Field Matched A-Z']:
-            ws = writer.sheets[sheetname]
-            header = [cell.value for cell in ws[1]]
-            prof_col = header.index("Profile URL") + 1 if "Profile URL" in header else None
-            scholar_col = header.index("Google Scholar URL") + 1 if "Google Scholar URL" in header else None
-            email_col = header.index("Email") + 1 if "Email" in header else None
+    link_font = Font(name="Calibri", size=11, color="0563C1", underline="single")
+    header_font = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
+    header_fill = PatternFill(start_color="1F497D", end_color="1F497D", fill_type="solid")
+    thin_border = Border(
+        left=Side(style='thin', color='D9D9D9'),
+        right=Side(style='thin', color='D9D9D9'),
+        top=Side(style='thin', color='D9D9D9'),
+        bottom=Side(style='thin', color='D9D9D9')
+    )
 
-            for row in range(2, ws.max_row + 1):
-                if prof_col:
-                    val = ws.cell(row=row, column=prof_col).value
-                    if val and str(val).startswith("http"):
-                        cell = ws.cell(row=row, column=prof_col)
-                        cell.hyperlink = str(val)
-                        cell.style = "Hyperlink"
-                if scholar_col:
-                    val = ws.cell(row=row, column=scholar_col).value
-                    if val and str(val).startswith("http"):
-                        cell = ws.cell(row=row, column=scholar_col)
-                        cell.hyperlink = str(val)
-                        cell.style = "Hyperlink"
-                if email_col:
-                    val = ws.cell(row=row, column=email_col).value
-                    if val and "@" in str(val):
-                        cell = ws.cell(row=row, column=email_col)
-                        cell.hyperlink = f"mailto:{val}"
-                        cell.style = "Hyperlink"
+    sheets_data = [
+        ("Field Matched Faculty (A-Z)", field_matched_df),
+        ("All Active Faculty (A-Z)", df)
+    ]
 
-    log.info(f"Also exported JSON to {output_json} and clickable Excel to {output_xlsx}")
+    for sheet_title, sheet_df in sheets_data:
+        ws = wb.create_sheet(title=sheet_title)
+        ws.views.sheetView[0].showGridLines = True
+        headers = list(sheet_df.columns)
+        ws.append(headers)
+
+        for col_num in range(1, len(headers) + 1):
+            c = ws.cell(row=1, column=col_num)
+            c.font = header_font
+            c.fill = header_fill
+            c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+
+        prof_col_idx = headers.index("Profile URL") if "Profile URL" in headers else None
+        scholar_col_idx = headers.index("Google Scholar URL") if "Google Scholar URL" in headers else None
+        email_col_idx = headers.index("Email") if "Email" in headers else None
+
+        for r_idx, row in sheet_df.iterrows():
+            row_values = list(row)
+            ws_row = r_idx + 2
+
+            if prof_col_idx is not None:
+                url = str(row_values[prof_col_idx])
+                if url.startswith("http"):
+                    row_values[prof_col_idx] = f'=HYPERLINK("{url}", "{url}")'
+
+            if scholar_col_idx is not None:
+                url = str(row_values[scholar_col_idx])
+                if url.startswith("http"):
+                    row_values[scholar_col_idx] = f'=HYPERLINK("{url}", "Google Scholar Profile")'
+
+            if email_col_idx is not None:
+                email = str(row_values[email_col_idx])
+                if "@" in email:
+                    row_values[email_col_idx] = f'=HYPERLINK("mailto:{email}", "{email}")'
+
+            ws.append(row_values)
+
+            for c_idx in range(1, len(headers) + 1):
+                cell = ws.cell(row=ws_row, column=c_idx)
+                cell.border = thin_border
+                cell.alignment = Alignment(vertical="center")
+
+                if c_idx - 1 in [prof_col_idx, scholar_col_idx, email_col_idx]:
+                    raw_v = str(sheet_df.iloc[r_idx, c_idx - 1])
+                    if raw_v.startswith("http"):
+                        cell.hyperlink = raw_v
+                        cell.font = link_font
+                    elif "@" in raw_v:
+                        cell.hyperlink = f"mailto:{raw_v}"
+                        cell.font = link_font
+
+        for col in ws.columns:
+            max_len = 0
+            col_letter = get_column_letter(col[0].column)
+            for cell in col:
+                val = str(cell.value or '')
+                if val.startswith('='):
+                    l = 25 if 'Google Scholar Profile' in val else 40
+                else:
+                    l = len(val)
+                if l > max_len:
+                    max_len = l
+            ws.column_dimensions[col_letter].width = min(max(max_len + 4, 12), 65)
+
+    wb.save(output_xlsx)
+    log.info(f"Also exported JSON to {output_json} and clickable formatted Excel to {output_xlsx}")
 
     # Preview
     print("\n" + "=" * 90)
