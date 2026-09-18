@@ -1,0 +1,191 @@
+{
+  "name": "Kathleen C. Howell",
+  "uni": "Purdue University",
+  "author_id": "A5069943922",
+  "author_display_name": "Kathleen C. Howell",
+  "works_count": 250,
+  "cited_by_count": 5583,
+  "top_topics": [
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 181
+    },
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 175
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 86
+    },
+    {
+      "topic": "Stellar, planetary, and galactic studies",
+      "count": 41
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Three-dimensional, periodic, ?halo? orbits",
+      "publication_year": 1984,
+      "publication_date": "1984-01-01",
+      "doi": "https://doi.org/10.1007/bf01358403",
+      "venue": "Celestial Mechanics and Dynamical Astronomy",
+      "type": "article",
+      "cited_by_count": 429,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Libration (molecule)",
+        "Lagrangian point",
+        "Halo",
+        "Halo orbit",
+        "Periodic orbits",
+        "Three-body problem",
+        "Physics",
+        "Mass ratio"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kathleen C. Howell"
+      ]
+    },
+    {
+      "title": "Numerical determination of Lissajous trajectories in the restricted three-body problem",
+      "publication_year": 1987,
+      "publication_date": "1987-03-01",
+      "doi": "https://doi.org/10.1007/bf01238756",
+      "venue": "Celestial Mechanics and Dynamical Astronomy",
+      "type": "article",
+      "cited_by_count": 242,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lissajous curve",
+        "Classification of discontinuities",
+        "Trajectory",
+        "Mathematics",
+        "Path (computing)",
+        "Range (aeronautics)",
+        "Mathematical analysis",
+        "Geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kathleen C. Howell",
+        "Henry J. Pernicka"
+      ]
+    },
+    {
+      "title": "Application of Dynamical Systems Theory to Trajectory Design for a Libration Point Mission",
+      "publication_year": 1997,
+      "publication_date": "1997-06-01",
+      "doi": "https://doi.org/10.1007/bf03546374",
+      "venue": "The Journal of the Astronautical Sciences",
+      "type": "article",
+      "cited_by_count": 215,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conic section",
+        "Trajectory",
+        "Libration (molecule)",
+        "Phase space",
+        "Point (geometry)",
+        "Computer science",
+        "Lagrangian point",
+        "Space (punctuation)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kathleen C. Howell",
+        "B. T. Barden",
+        "M. W. Lo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On-Orbit Servicing Networks in Cislunar Space: A Framework for Orbit Selection, Transfer Design, and Scheduling",
+      "publication_year": 2025,
+      "publication_date": "2025-11-25",
+      "doi": "https://doi.org/10.1007/s40295-025-00551-1",
+      "venue": "The Journal of the Astronautical Sciences",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40295-025-00551-1.pdf",
+      "concepts": [
+        "Computer science",
+        "Scheduling (production processes)",
+        "Software deployment",
+        "Distributed computing",
+        "Schedule",
+        "Genetic algorithm",
+        "Context (archaeology)",
+        "Scalability"
+      ],
+      "abstract": "Abstract This investigation introduces a comprehensive framework for designing and optimizing on-orbit servicing networks in cislunar space, integrating innovative approaches to orbit selection, transfer design, and initial scheduling. Within the context of this investigation, scheduling refers to the selection of the servicer-customer satellite pairings and the order in which each of the customer hubs are processed. A genetic algorithm serves as a basis for initial orbit selection, as well as search space reduction by adhering to beneficial criteria such as deployment costs, station-keeping requirements, and Lunar south pole coverage. The Genetic Algorithm is also leveraged to identify high-performing orbit families while supporting the extension to additional mission objectives. A phasing-informed transfer design pipeline is introduced, employing manifold arc trajectories and phasing penalties to estimate transfer costs efficiently for long-range rendezvous. This approach enhances the understanding of the underlying dynamics that is critical for trajectory design and schedule development. Two initial scheduling solutions are proposed: an Auction Algorithm with a low computatio...",
+      "authors": [
+        "Cody Waldecker",
+        "Kathleen C. Howell"
+      ]
+    },
+    {
+      "title": "Leveraging the Hill restricted four-body problem to investigate the ephemeris transition characteristics in the Earth-Moon L2 halo orbit region",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1007/s42064-024-0250-4",
+      "venue": "Astrodynamics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s42064-024-0250-4.pdf",
+      "concepts": [
+        "Ephemeris",
+        "Halo orbit",
+        "Halo",
+        "Orbit (dynamics)",
+        "Physics",
+        "Astronomy",
+        "Lagrangian point",
+        "Orbital mechanics"
+      ],
+      "abstract": "Abstract The Earth-Moon L 1 , L 2 halo orbit families support a variety of options for lunar surface activities as well as other developments in the cislunar region. The planned operational orbit for NASA’s Gateway is the 9:2 L 2 synodic resonant halo orbit. Furthermore, orbits from this family could serve as staging locations for future missions to near-Earth asteroids and Mars, hubs for servicing logistics, and nodes for sensor networks. Therefore, it is essential to understand the dynamics that govern the halo orbit regions. Previously, a sub-region in the L 2 halo family of the Earth-Moon system, termed the “Interface Region” was identified to be particularly challenging when transitioning the solutions from this L 2 halo family sub-region to the Higher-Fidelity Ephemeris model (HFEM). Recent research suggests that the intermediate models incorporating pulsation in the Earth-Moon motion offer more insight into the dynamics governing this general underlying flow. This investigation aims to characterize the interface region by understanding the dynamical structures via the Hill Restricted Four-Body Problem (HR4BP).",
+      "authors": [
+        "Rohith Reddy Sanaga",
+        "Kathleen C. Howell"
+      ]
+    },
+    {
+      "title": "Unified transition scheme for invariant tori across various models in the cislunar domain",
+      "publication_year": 2025,
+      "publication_date": "2025-09-23",
+      "doi": "https://doi.org/10.1016/j.cnsns.2025.109323",
+      "venue": "Communications in Nonlinear Science and Numerical Simulation",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Invariant (physics)",
+        "Torus",
+        "Numerical continuation",
+        "Mathematics",
+        "Continuation",
+        "Computer science",
+        "Scheme (mathematics)",
+        "Adaptability"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rohith Reddy Sanaga",
+        "Beom Park",
+        "Kathleen C. Howell"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "name": "Guang Lin",
+  "uni": "Purdue University",
+  "author_id": "A5078138445",
+  "author_display_name": "Guang Lin",
+  "works_count": 399,
+  "cited_by_count": 6812,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 78
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 67
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 39
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 22
+    },
+    {
+      "topic": "Power System Optimization and Stability",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "EEG-based emotion recognition using 4D convolutional recurrent neural network",
+      "publication_year": 2020,
+      "publication_date": "2020-09-14",
+      "doi": "https://doi.org/10.1007/s11571-020-09634-1",
+      "venue": "Cognitive Neurodynamics",
+      "type": "article",
+      "cited_by_count": 248,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7568753",
+      "concepts": [
+        "Computer science",
+        "Convolutional neural network",
+        "Electroencephalography",
+        "Artificial intelligence",
+        "Recurrent neural network",
+        "Pattern recognition (psychology)",
+        "Emotion recognition",
+        "Deep learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fangyao Shen",
+        "Guojun Dai",
+        "Guang Lin",
+        "Jianhai Zhang",
+        "Wanzeng Kong",
+        "Hong Zeng"
+      ]
+    },
+    {
+      "title": "Compressive sensing based machine learning strategy for characterizing the flow around a cylinder with limited pressure measurements",
+      "publication_year": 2013,
+      "publication_date": "2013-12-01",
+      "doi": "https://doi.org/10.1063/1.4836815",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Physics",
+        "Cylinder",
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Norm (philosophy)",
+        "Algorithm"
+      ],
+      "abstract": "Compressive sensing is used to determine the flow characteristics around a cylinder (Reynolds number and pressure/flow field) from a sparse number of pressure measurements on the cylinder. Using a supervised machine learning strategy, library elements encoding the dimensionally reduced dynamics are computed for various Reynolds numbers. Convex L1 optimization is then used with a limited number of pressure measurements on the cylinder to reconstruct, or decode, the full pressure field and the resulting flow field around the cylinder. Aside from the highly turbulent regime (large Reynolds number) where only the Reynolds number can be identified, accurate reconstruction of the pressure field and Reynolds number is achieved. The proposed data-driven strategy thus achieves encoding of the fluid dynamics using the L2 norm, and robust decoding (flow field reconstruction) using the sparsity promoting L1 norm.",
+      "authors": [
+        "Ido Bright",
+        "Guang Lin",
+        "J. Nathan Kutz"
+      ]
+    },
+    {
+      "title": "Multi-output separable Gaussian process: Towards an efficient, fully Bayesian paradigm for uncertainty quantification",
+      "publication_year": 2013,
+      "publication_date": "2013-02-07",
+      "doi": "https://doi.org/10.1016/j.jcp.2013.01.011",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 178,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Gaussian process",
+        "Covariance",
+        "Algorithm",
+        "Computer science",
+        "Kronecker product",
+        "Measure (data warehouse)",
+        "Covariance matrix"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ilias Bilionis",
+        "Nicholas Zabaras",
+        "Bledar A. Konomi",
+        "Guang Lin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "In situ studies on heavy ion irradiation and partial oxidation induced stacking faults and nanograins in tungsten nanolaminates",
+      "publication_year": 2026,
+      "publication_date": "2026-09-03",
+      "doi": "https://doi.org/10.1016/j.mattod.2026.103494",
+      "venue": "Materials Today",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Irradiation",
+        "Stacking",
+        "Tungsten",
+        "Stacking fault",
+        "Transmission electron microscopy",
+        "Vacancy defect",
+        "Grain boundary"
+      ],
+      "abstract": "",
+      "authors": [
+        "Adil Wazeer",
+        "D. McK. Paul",
+        "Xuanyu Sheng",
+        "Lihao Shi",
+        "Yinghang Liu",
+        "Zhongxia Shang",
+        "Chang Xia",
+        "Vaibhav Singh",
+        "Wei-Ying Chen",
+        "Fei Gao",
+        "Haiyan Wang",
+        "Yexiang Xue",
+        "Guang Lin",
+        "Tim Gräning",
+        "Xiao‐Ying Yu",
+        "X. Zhang"
+      ]
+    },
+    {
+      "title": "Bayesian data-driven discovery of partial differential equations with variable coefficients",
+      "publication_year": 2026,
+      "publication_date": "2026-08-19",
+      "doi": "https://doi.org/10.1016/j.camwa.2026.07.034",
+      "venue": "Computers & Mathematics with Applications",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4747393",
+      "concepts": [
+        "Bayesian probability",
+        "Variable (mathematics)",
+        "Mathematics",
+        "Partial differential equation",
+        "Computer science",
+        "Applied mathematics",
+        "Statistics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aoxue Chen",
+        "Yifan Du",
+        "Liyao Gao",
+        "Guang Lin"
+      ]
+    },
+    {
+      "title": "Muon with spectral guidance: Efficient optimization for scientific machine learning",
+      "publication_year": 2026,
+      "publication_date": "2026-07-24",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115231",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Muon",
+        "Algorithm",
+        "Computational learning theory",
+        "Physics",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Binghang Lu",
+        "Jiahao Zhang",
+        "Guang Lin"
+      ]
+    }
+  ]
+}

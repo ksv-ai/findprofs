@@ -1,0 +1,202 @@
+{
+  "name": "Kyle Hanquist",
+  "uni": "Purdue University",
+  "author_id": "A5024422249",
+  "author_display_name": "Kyle M. Hanquist",
+  "works_count": 64,
+  "cited_by_count": 602,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 38
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 35
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 17
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 17
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Detailed modeling of electron emission for transpiration cooling of hypersonic vehicles",
+      "publication_year": 2017,
+      "publication_date": "2017-02-01",
+      "doi": "https://doi.org/10.1063/1.4974961",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 72,
+      "is_oa": true,
+      "oa_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4974961",
+      "concepts": [
+        "Hypersonic speed",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Electron temperature",
+        "Electron",
+        "Plasma",
+        "Space charge",
+        "Thermionic emission"
+      ],
+      "abstract": "Electron transpiration cooling (ETC) is a recently proposed approach to manage the high heating loads experienced at the sharp leading edges of hypersonic vehicles. Computational fluid dynamics (CFD) can be used to investigate the feasibility of ETC in a hypersonic environment. A modeling approach is presented for ETC, which includes developing the boundary conditions for electron emission from the surface, accounting for the space-charge limit effects of the near-wall plasma sheath. The space-charge limit models are assessed using 1D direct-kinetic plasma sheath simulations, taking into account the thermionically emitted electrons from the surface. The simulations agree well with the space-charge limit theory proposed by Takamura et al. for emitted electrons with a finite temperature, especially at low values of wall bias, which validates the use of the theoretical model for the hypersonic CFD code. The CFD code with the analytical sheath models is then used for a test case typical of a leading edge radius in a hypersonic flight environment. The CFD results show that ETC can lower the surface temperature of sharp leading edges of hypersonic vehicles, especially at higher veloci...",
+      "authors": [
+        "Kyle M. Hanquist",
+        "Kentaro Hara",
+        "Iain D. Boyd"
+      ]
+    },
+    {
+      "title": "Test cases for grid-based direct kinetic modeling of plasma flows",
+      "publication_year": 2018,
+      "publication_date": "2018-05-22",
+      "doi": "https://doi.org/10.1088/1361-6595/aac6b9",
+      "venue": "Plasma Sources Science and Technology",
+      "type": "article",
+      "cited_by_count": 62,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6595/aac6b9/pdf",
+      "concepts": [
+        "Test particle",
+        "Phase space",
+        "Kinetic energy",
+        "Physics",
+        "Discretization",
+        "Ionization",
+        "Kinetic theory",
+        "Plasma modeling"
+      ],
+      "abstract": "Abstract Grid-based kinetic models are promising in that the numerical noise inherent in particle-based methods is essentially eliminated. Here, we call such grid-based techniques a direct kinetic (DK) model. Velocity distribution functions are directly obtained by solving kinetic equations, such as the Vlasov equation, in discretized phase space, i.e., both physical and velocity space. In solving the kinetic equations that are hyperbolic partial differential equations, we employ a conservative, positivity-preserving numerical scheme, which is necessary for robust calculations of problems particularly including ionization. Test cases described in this paper include plasma sheaths with electron emission and injection and expansion of neutral atom flow in a two-dimensional configuration. A unifying kinetic theory of space charge limited sheaths for both floating and conducting surfaces is presented. The improved theory is verified using the collisionless DK simulation, particularly for small sheath potentials that particle-based kinetic simulations may struggle due to statistical noise. For benchmarking of the grid-based and particle-based kinetic simulations, hybrid simulations o...",
+      "authors": [
+        "Kentaro Hara",
+        "Kyle M. Hanquist"
+      ]
+    },
+    {
+      "title": "Shock-tube measurements of coupled vibration–dissociation time-histories and rate parameters in oxygen and argon mixtures from 5000 K to 10 000 K",
+      "publication_year": 2020,
+      "publication_date": "2020-07-01",
+      "doi": "https://doi.org/10.1063/5.0012426",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vibrational energy relaxation",
+        "Shock tube",
+        "Absorbance",
+        "Argon",
+        "Atomic physics",
+        "Vibrational temperature",
+        "Dissociation (chemistry)",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "Shock-tube experiments were conducted behind reflected shocks using ultraviolet (UV) laser absorption to measure coupled vibration–dissociation (CVDV) time-histories and rate parameters in dilute mixtures of oxygen (O2) and argon (Ar). Experiments probed 2% and 5% O2 in Ar mixtures for initial post-reflected-shock conditions from 5000 K to 10 000 K and 0.04 atm to 0.45 atm. A tunable, pulsed UV laser absorption diagnostic measured absorbance time-histories from the fourth, fifth, and sixth vibrational levels of the electronic ground state of O2, and experiments were repeated—with closely matched temperature and pressure conditions—to probe absorbance time-histories corresponding to each vibrational level. The absorbance ratio from two vibrational levels, interpreted via an experimentally validated spectroscopic model, determined vibrational temperature time-histories. In contrast, the absorbance involving a single vibrational level determined vibrational-state-specific number density time-histories. These temperature and state-specific number density time-histories agree reasonably well with state-to-state modeling at low temperatures but deviate significantly at high temperatur...",
+      "authors": [
+        "Jesse W. Streicher",
+        "Ajay Krish",
+        "Ronald K. Hanson",
+        "Kyle M. Hanquist",
+        "Ross S. Chaudhry",
+        "Iain D. Boyd"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Alkali Metal Seeding for Enhanced Ionization in Hypersonic Flight",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4057",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Seeding",
+        "Alkali metal",
+        "Materials science",
+        "Ionization",
+        "Hypersonic flight",
+        "Hypersonic speed",
+        "Atomic physics",
+        "Metal"
+      ],
+      "abstract": "Alkali metal seeding offers a potential approach for increasing electron number density in hypersonic shock layers and boundary layers, with applications to communication blackout mitigation, sensing, and electromagnetic flow control. This work develops an extended finite-rate chemistry framework for alkali-seeded hypersonic plasmas within SU2-NEMO and Mutation++, incorporating air plasma kinetics with sodium, potassium, and cesium reaction pathways. Results show that alkali seeding can substantially enhance electron mole fraction relative to unseeded air, particularly at lower temperatures and reduced pressures where baseline air ionization remains weak. Cesium provides the strongest enhancement in moderate-temperature regimes, while sodium and potassium become increasingly competitive at higher temperatures.",
+      "authors": [
+        "Walter B. Richardson",
+        "Vamsikrishna Pasumarthi",
+        "Shelby Horth",
+        "Ana Tuba",
+        "Brad Porter",
+        "Nahid Rahman",
+        "Kyle M. Hanquist"
+      ]
+    },
+    {
+      "title": "Numerical Investigation of High-Enthalpy Effects on Aero-Optics in Hypersonic Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-02-22",
+      "doi": "https://doi.org/10.2514/1.t7189",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Polarizability",
+        "Non-equilibrium thermodynamics",
+        "Refraction",
+        "Refractive index",
+        "Mechanics",
+        "Energy balance",
+        "Turbulence"
+      ],
+      "abstract": "Hypersonic flows exhibit high complexity, encompassing high-enthalpy, reactive flows (involving chemistry), energy transfer between molecular energy modes, turbulence, boundary layers, unsteadiness, and shocks. These factors can directly or indirectly affect and degrade optical signals as they propagate through the medium. While previous aero-optics research has typically relied on perfect gas assumptions suitable for low-speed, low-enthalpy flows, this study explores real-gas behavior in hypersonic regimes. It addresses three primary objectives: the effect of chemical reactions on polarizability, the behavior of optical properties such as the index of refraction and dielectric constant, and the influence of Reynolds-averaged Navier–Stokes-fidelity turbulence on the flowfield. The results show that polarizability is not solely a function of signal frequency but is also influenced by a molecule’s internal energy state, particularly vibrational modes. Although high-energy vibrational states are affected by non-Boltzmann distributions, their influence on overall polarizability is minimal. Additionally, the Gladstone–Dale constant is tied to species distributions, which may require ...",
+      "authors": [
+        "Liza E. Martin",
+        "Kyle M. Hanquist"
+      ]
+    },
+    {
+      "title": "Thrust Regulation in a Solid Fuel Ramjet Using Dynamic Mode Adaptive Control",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1389",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ramjet",
+        "Control theory (sociology)",
+        "Thrust",
+        "Robustness (evolution)",
+        "Controller (irrigation)",
+        "Adaptive control",
+        "Computer science",
+        "Combustion"
+      ],
+      "abstract": "This paper presents the application of a novel data-driven adaptive control technique, called dynamic mode adaptive control (DMAC), for regulating thrust in a solid fuel ramjet (SFRJ). A high-fidelity computational model incorporating compressible flow theory and equilibrium chemistry is used to simulate the combustion dynamics. An adaptive tracking controller is designed using the DMAC framework, which leverages dynamic mode decomposition to approximate the local system behavior, followed by a tracking controller synthesized around the identified model. Simulation results demonstrate that DMAC provides an effective and reliable approach for thrust regulation in SFRJs. In addition, a systematic hyperparameter sensitivity study is conducted by varying the tuning parameters over several orders of magnitude. The resulting responses show that the closed-loop performance and tracking error remain stable across wide parameter variations, indicating that DMAC exhibits strong robustness to hyperparameter tuning.",
+      "authors": [
+        "Parham Oveissi",
+        "Gohar T. Khokhar",
+        "Kyle M. Hanquist",
+        "Ankit Goel"
+      ]
+    }
+  ]
+}

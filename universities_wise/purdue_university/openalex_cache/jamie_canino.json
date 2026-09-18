@@ -1,0 +1,89 @@
+{
+  "name": "Jamie Canino",
+  "uni": "Purdue University",
+  "author_id": "A5079083237",
+  "author_display_name": "Jamie Canino",
+  "works_count": 2,
+  "cited_by_count": 6,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 1
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 1
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 1
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 1
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Computational Modelling of Rocket Injector Internal Flows",
+      "publication_year": 2007,
+      "publication_date": "2007-07-08",
+      "doi": "https://doi.org/10.2514/6.2007-5571",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Injector",
+        "Rocket (weapon)",
+        "Aerospace engineering",
+        "Computer science",
+        "Environmental science",
+        "Mechanical engineering",
+        "Engineering"
+      ],
+      "abstract": "Hydrodynamic instabilities within injector passages can couple to chamber acoustic modes and lead to unacceptable levels of combustion instabilities in liquid rocket engines. The instability of vena-contracta regions and mixing between fuel and oxidizer can serve as a fundamental source of unsteadiness produced by the injector, even in the absence of upstream or downstream pressure perturbations. This natural or “unforced” response can provide valuable information regarding frequencies where the element could conceivably couple to chamber modes. In particular, during throttled conditions, the changes in the injector response may lead to an alignment of the injector and chamber modes. For these reasons, the basic unforced response of the injector element is of particular interest when developing a new engine. The LOCI/CHEM code was used to perform single-element, 2-D unsteady CFD computations on the Hydrogen/Oxygen MultiElement Experiment (HOMEE) injector which was hot-fire tested at Purdue University. Parametric studies on O/F ratio, LOX post thickness, and hydrogen inlet temperature variations were performed to evaluate their effect on the unsteady vortex shedding process and i...",
+      "authors": [
+        "John Tsohas",
+        "Jamie Canino",
+        "Stephen D. Heister"
+      ]
+    },
+    {
+      "title": "Optimization of Lenz-Type VAWT Geometries with Computational Fluid Dynamics",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-0017",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind power",
+        "Vertical axis wind turbine",
+        "Computational fluid dynamics",
+        "Torque",
+        "Turbine",
+        "Rotor (electric)",
+        "Marine engineering",
+        "Computer science"
+      ],
+      "abstract": "The renewable energy industry is evaluating vertical axis wind turbines (VAWT) because they are operable in both turbulent and omnidirectional wind conditions and maintain a smaller physical footprint than traditional turbines. However, most traditional VAWT designs generate significantly less power than a corresponding horizontal axis wind turbine (HAWT). VAWTs will also typically start generating power at lower wind speeds than HAWT. In this work computational fluid dynamics and wind tunnel experiments have been used to investigate the tradeoff between high mechanical energy production and low starting wind speeds. The design space is explored using a genetic algorithm approach. Several key finds were gathered through the optimization, modeling, and validation process. It is shown that, although discrepancies are seen between the computational and experimental data, the approach described allowed for general trends to be captured allowing for design optimization. Two key values are targets, a positive coefficient of torque which indicates that wind that can overcome the losses in the system will create positive rotation, and coefficient of power, which is an indication of the ...",
+      "authors": [
+        "Dylan M. Habig",
+        "Timothy Mayer",
+        "Trevor Ransbury",
+        "Brandon Frymire",
+        "Luke McClung",
+        "Jamie Canino"
+      ]
+    }
+  ],
+  "recent_works": []
+}

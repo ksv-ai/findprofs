@@ -128,7 +128,7 @@ def is_core_aero_prof(prof_dict: dict) -> bool:
     hits = [p.pattern.replace(r'\b', '') for p in COMPILED_AERO if p.search(text)]
     return len(hits) >= 1  # Strictly gate OpenAlex extraction
 ### 3.3 Authoritative OpenAlex JSON Cache Schema (`openalex_cache/<slug>.json`)
-Every cached JSON file must adhere to this complete, standardized schema matching the ASU reference standard:
+Every cached JSON file must adhere to this complete, standardized schema matching the ASU reference standard and capturing full academic impact metrics:
 ```json
 {
   "name": "Marcus Herrmann",
@@ -137,10 +137,22 @@ Every cached JSON file must adhere to this complete, standardized schema matchin
   "author_display_name": "Marcus Herrmann",
   "works_count": 168,
   "cited_by_count": 2685,
+  "2yr_mean_citedness": 1.6,
+  "h_index": 24,
+  "i10_index": 42,
+  "affiliations": [
+    "University of Stuttgart",
+    "Infineon Technologies (Germany)",
+    "University of Freiburg"
+  ],
   "top_topics": [
     {
       "topic": "Fluid Dynamics and Heat Transfer",
       "count": 66
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 27
     }
   ],
   "top_cited_works": [
@@ -155,7 +167,7 @@ Every cached JSON file must adhere to this complete, standardized schema matchin
       "is_oa": false,
       "oa_url": "",
       "concepts": ["Direct numerical simulation", "Multiphase flow", "Breakup"],
-      "abstract": "Full reconstructed abstract from inverted index...",
+      "abstract": "Full reconstructed abstract from OpenAlex inverted index...",
       "authors": ["Mikhael Gorokhovski", "Marcus Herrmann"]
     }
   ],
@@ -171,7 +183,7 @@ Every cached JSON file must adhere to this complete, standardized schema matchin
       "is_oa": false,
       "oa_url": "",
       "concepts": ["Immersed boundary method", "Turbulence"],
-      "abstract": "Reconstructed abstract...",
+      "abstract": "Full reconstructed abstract...",
       "authors": ["Himanshu Dave", "Marcus Herrmann"]
     }
   ]

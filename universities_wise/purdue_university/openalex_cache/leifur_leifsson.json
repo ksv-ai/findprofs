@@ -1,0 +1,198 @@
+{
+  "name": "Leifur Leifsson",
+  "uni": "Purdue University",
+  "author_id": "A5033341887",
+  "author_display_name": "Leifur Leifsson",
+  "works_count": 298,
+  "cited_by_count": 3291,
+  "top_topics": [
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 155
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 107
+    },
+    {
+      "topic": "Microwave Engineering and Waveguides",
+      "count": 66
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 66
+    },
+    {
+      "topic": "Antenna Design and Optimization",
+      "count": 42
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Surrogate-Based Methods",
+      "publication_year": 2011,
+      "publication_date": "2011-01-01",
+      "doi": "https://doi.org/10.1007/978-3-642-20859-1_3",
+      "venue": "Studies in computational intelligence",
+      "type": "book-chapter",
+      "cited_by_count": 257,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Surrogate model",
+        "Computer science",
+        "Mathematical optimization",
+        "Engineering optimization",
+        "Optimization problem",
+        "Sensitivity (control systems)",
+        "Algorithm",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sławomir Kozieł",
+        "David Echeverría Ciaurri",
+        "Leifur Leifsson"
+      ]
+    },
+    {
+      "title": "Surrogate-based aerodynamic shape optimization for delaying airfoil dynamic stall using Kriging regression and infill criteria",
+      "publication_year": 2021,
+      "publication_date": "2021-02-15",
+      "doi": "https://doi.org/10.1016/j.ast.2021.106555",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ast.2021.106555",
+      "concepts": [
+        "Airfoil",
+        "Stall (fluid mechanics)",
+        "Kriging",
+        "Infill",
+        "Aerodynamics",
+        "Computer science",
+        "Structural engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vishal Raul",
+        "Leifur Leifsson"
+      ]
+    },
+    {
+      "title": "Surrogate-Based Aerodynamic Shape Optimization by Variable-Resolution Models",
+      "publication_year": 2012,
+      "publication_date": "2012-11-22",
+      "doi": "https://doi.org/10.2514/1.j051583",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 111,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Surrogate model",
+        "Airfoil",
+        "Transonic",
+        "Mathematical optimization",
+        "Robustness (evolution)",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Inviscid flow"
+      ],
+      "abstract": "A surrogate-based optimization algorithm for transonic airfoil design is presented. The approach replaces the direct optimization of an accurate, but computationally expensive, high-fidelity computational fluid dynamics model by an iterative reoptimization of a physics-based surrogate model. The surrogate model is constructed, during each design iteration, using the low-fidelity model and the data obtained from one high-fidelity model evaluation. The low-fidelity model is based on the same governing fluid flow equations as the high-fidelity one, but uses coarser mesh resolution and relaxed convergence criteria. The shape-preserving response prediction technique is utilized to predict the high-fidelity model response, here, the airfoil pressure distribution. In this prediction process, the shape-preserving response prediction employs the actual changes of the low-fidelity model response due to the design variable adjustments. The shape-preserving response prediction algorithm is embedded into the trust region framework that ensures good convergence properties of the optimization procedure. This method is applied to constrained airfoil lift maximization and drag minimization in tw...",
+      "authors": [
+        "Sławomir Kozieł",
+        "Leifur Leifsson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Adaptive Hyperparameter Optimization Strategies for Neural Network Models in Engineering Design Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-06-17",
+      "doi": "https://doi.org/10.2514/1.i011839",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bayesian optimization",
+        "Hyperparameter",
+        "Computer science",
+        "Reduction (mathematics)",
+        "Hyperparameter optimization",
+        "Artificial neural network",
+        "Mathematical optimization",
+        "Multidisciplinary design optimization"
+      ],
+      "abstract": "Surrogate-based optimization using neural networks (NNs) reduces computational costs in engineering design but depends heavily on systematic hyperparameter optimization (HPO). This study compares HPO methods—including grid search, random search, Bayesian optimization (BO), hyperband (HB), and BOHB—using analytical functions and aerodynamic shape optimization (ASO). The study first explores HPO in a one-shot method where NNs are trained with datasets of different sample sizes. The analysis then extends to adaptive HPO approaches within an efficient global optimization (EGO) framework using NNs, which employs sequential sampling. Under this framework, static HPO (maintaining initially optimized HPs), periodic HPO (adjusting HPs every five infill points), and dynamic HPO (adjusting HPs after each infill point) are compared. In ASO with a one-shot method, BOHB achieves a drag coefficient ([Formula: see text]) of 117 drag counts (d.c.)—close to BO’s 115 d.c.—while requiring only 30.5% of BO’s computational time with 500 samples. Additionally, in ASO with sequential sampling, periodic HPO effectively balances performance and computational efficiency by achieving a [Formula: see text] ...",
+      "authors": [
+        "Taeho Jeong",
+        "Pavankumar Koratikere",
+        "Leifur Leifsson"
+      ]
+    },
+    {
+      "title": "Special Issue: Data-Driven Design Under Uncertainty",
+      "publication_year": 2026,
+      "publication_date": "2026-01-28",
+      "doi": "https://doi.org/10.1115/1.4070968",
+      "venue": "Journal of Mechanical Design",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/doi/10.1115/1.4070968/7587319/md-25-1931.pdf",
+      "concepts": [
+        "Probabilistic logic",
+        "Computer science",
+        "Process (computing)",
+        "Engineering design process",
+        "Generative grammar",
+        "Systems engineering",
+        "Industrial engineering",
+        "Uncertainty quantification"
+      ],
+      "abstract": "Advances in data acquisition, high-performance computing, and machine learning (ML) are reshaping the way engineers conceive, analyze, and optimize complex mechanical systems. Across applications as diverse as materials discovery, manufacturing process optimization, digital twins, robotics, and resilient network design, the engineering community increasingly relies on data-driven methods to model systems characterized by high dimensionality, evolving states, and heterogeneous sources of uncertainty. As these systems grow in complexity, uncertainty quantification (UQ) and design under uncertainty have become foundational to ensuring that engineered solutions are robust, reliable, and trustworthy. This special issue of the ASME Journal of Mechanical Design was conceived to bring together fundamental contributions that expand the capabilities of UQ and uncertainty-aware design optimization in the age of modern ML. The call emphasized interpretability, scalability, multi-fidelity reasoning, and the integration of new paradigms—including generative AI, probabilistic deep learning, graph-based representations, and large language models—into engineering workflows. It also highlighted t...",
+      "authors": [
+        "Ramin Bostanabad",
+        "Kathryn Maupin",
+        "Subhayan De",
+        "Audrey Olivier",
+        "Anton van Beek",
+        "Zhen Hu",
+        "Leifur Leifsson",
+        "Wei Chen"
+      ]
+    },
+    {
+      "title": "Efficient Design of Airfoil Shapes Using Surface Pressure–Informed Bayesian Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0148",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamics",
+        "Transonic",
+        "Bayesian optimization",
+        "Mathematical optimization",
+        "Shape optimization",
+        "Mathematics",
+        "Surrogate model"
+      ],
+      "abstract": "Aerodynamic shape optimization (ASO) of airfoil shapes is an essential part of the aerodynamic design process. Optimizing the shape of an airfoil is a challenging and time-consuming task when computationally expensive numerical simulations are required. As an alternative, surrogate-based optimization methods, such as machine learning models and Bayesian optimization (BO), have been explored to optimize the shapes of airfoils. However, most currently used methods do not utilize information from surface pressure distributions in creating the surrogate model or the optimization search. Surface pressure distributions are essential aerodynamic features that influence the design of an airfoil. As such, this work proposes surface pressure-informed Bayesian optimization (SPINBO), a novel BO methodology that incorporates surface pressure distribution information into the surrogate modeling methodology and relates the pressure distribution to the aerodynamic coefficients. The proposed approach is characterized using the drag minimization problem of the RAE 2822 airfoil in transonic viscous flow at a Mach number of 0.734 and a Reynolds number of 6.5 million. A comparison is made between th...",
+      "authors": [
+        "Abhijnan Dikshit",
+        "Leifur Leifsson"
+      ]
+    }
+  ]
+}

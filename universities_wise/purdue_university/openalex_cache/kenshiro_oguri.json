@@ -1,0 +1,206 @@
+{
+  "name": "Kenshiro Oguri",
+  "uni": "Purdue University",
+  "author_id": "A5070392086",
+  "author_display_name": "Kenshiro Oguri",
+  "works_count": 74,
+  "cited_by_count": 403,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 45
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 30
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 21
+    },
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 11
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "EQUULEUS Trajectory Design",
+      "publication_year": 2020,
+      "publication_date": "2020-01-24",
+      "doi": "https://doi.org/10.1007/s40295-019-00206-y",
+      "venue": "The Journal of the Astronautical Sciences",
+      "type": "article",
+      "cited_by_count": 51,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Aerospace engineering",
+        "Spacecraft",
+        "CubeSat",
+        "Halo orbit",
+        "Thrust",
+        "Orbit (dynamics)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kenshiro Oguri",
+        "K. OSHIMA",
+        "Stefano Campagnola",
+        "Kota Kakihara",
+        "Naoya Ozaki",
+        "Nicola Baresi",
+        "Yasuhiro Kawakatsu",
+        "Ryu Funase"
+      ]
+    },
+    {
+      "title": "Robust Spacecraft Guidance Around Small Bodies Under Uncertainty: Stochastic Optimal Control Approach",
+      "publication_year": 2021,
+      "publication_date": "2021-04-30",
+      "doi": "https://doi.org/10.2514/1.g005426",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 44,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Stochastic programming",
+        "Computer science",
+        "Robustness (evolution)",
+        "Robust optimization",
+        "Control theory (sociology)",
+        "Optimal control",
+        "Nonlinear programming"
+      ],
+      "abstract": "Dynamical environments around small celestial bodies are complex and uncertain, leading to highly perturbed, uncertain orbital motions in their proximity. Under such complexity and uncertainty, mission designers need to plan robust guidance and control of the spacecraft orbit to meet some requirements derived from their mission objectives such as precise science observation campaigns. To develop a robust planner for spacecraft guidance under uncertainty, this paper presents a stochastic optimal control approach to design robust guidance policies that minimize the expected control effort while ensuring the requirement satisfaction with a user-defined confidence level, i.e., chance constraints. The solution method is formulated as a two-stage optimization framework that consists of a convex programming stage, followed by a nonlinear programming stage. The developed framework is applied to a small-body global-mapping scenario on a science orbit around asteroid Bennu, demonstrating the robustness of the optimized guidance policies; the stochastic orbital states are controlled to meet science requirements to 99.9% confidence over 31 days with minimum control cost. Although the develo...",
+      "authors": [
+        "Kenshiro Oguri",
+        "Jay W. McMahon"
+      ]
+    },
+    {
+      "title": "Trajectory & maneuver design of the NEA Scout solar sail mission",
+      "publication_year": 2024,
+      "publication_date": "2024-08-28",
+      "doi": "https://doi.org/10.1016/j.actaastro.2024.08.039",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.actaastro.2024.08.039",
+      "concepts": [
+        "Solar sail",
+        "Trajectory",
+        "Aerospace engineering",
+        "Astrobiology",
+        "Aeronautics",
+        "Marine engineering",
+        "Environmental science",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Gregory Lantoine",
+        "Andrew Cox",
+        "Theodore H. Sweetser",
+        "Dan Grebow",
+        "Gregory J. Whiffen",
+        "David Garza",
+        "Anastassios E. Petropoulos",
+        "Kenshiro Oguri",
+        "Julie Kangas",
+        "Gerhard Kruizinga",
+        "Julie Castillo‐Rogez"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Global Optimization Framework for Automated Low-Thrust Gravity-Assist Trajectory Design",
+      "publication_year": 2026,
+      "publication_date": "2026-09-08",
+      "doi": "https://doi.org/10.48550/arxiv.2609.09515",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2609.09515",
+      "concepts": [
+        "Trajectory optimization",
+        "Trajectory",
+        "Mathematical optimization",
+        "Multivariable calculus",
+        "Pruning",
+        "Computer science",
+        "Sequential quadratic programming",
+        "Global optimization"
+      ],
+      "abstract": "Gravity-assist trajectory design requires searching numerous leg combinations, but applying nonlinear programming (NLP) for low-thrust trajectory optimization to all combinations is computationally prohibitive. Therefore, conventional frameworks first perform broad search using lightweight trajectory models such as Lambert-based calculation and simplified deep-space maneuver models, while pruning infeasible candidates. However, to maintain efficiency, conventional approaches handle only low-dimensional formulations with limited constraints such as up to a couple of impulse maneuvers per leg. Consequently, they cannot accommodate the constrained multivariable optimization required for low-thrust design, running the risk of prematurely pruning viable trajectories. To address this, this paper introduces a convex pruning approach capable of solving constrained multivariable problems directly within broad search while retaining the computational efficiency. We then augment the broad search stage with a robust local low-thrust optimization algorithm based on thrust regularization, which together enable global exploration and optimization in an automated fashion. We apply the proposed ...",
+      "authors": [
+        "Ryo Iijima",
+        "Kenshiro Oguri",
+        "Toshinori Kuwahara"
+      ]
+    },
+    {
+      "title": "On the Optimality of Markovian Policies for Chance-Constrained Covariance Steering",
+      "publication_year": 2026,
+      "publication_date": "2026-08-23",
+      "doi": "https://doi.org/10.48550/arxiv.2608.22589",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2608.22589",
+      "concepts": [
+        "Covariance",
+        "Markov process",
+        "Regular polygon",
+        "Mathematical optimization",
+        "State space",
+        "Mathematics",
+        "Optimal control",
+        "State (computer science)"
+      ],
+      "abstract": "Many studies on finite-horizon stochastic optimal control, including covariance steering, parameterize control policies as state-history-affine. This parameterization enables a convex reformulation, thereby yielding a tractable solution method. However, the necessity of dependence on previous states has not been well established. \\textit{Is this dependence necessary, or merely an artifact of the convex reformulation?} We show that it is an artifact that can be removed losslessly. Given an optimal solution of the state-history-affine formulation, we construct a deterministic Markovian policy which is affine in the current state. We show that, even for the covariance steering problem with a broad class of commonly used state and control safety constraints, the synthesized Markovian policy almost surely produces the same control actions as the history-dependent policy and therefore the same state trajectories, cost, and moments. Thus, every optimum of the history-dependent formulation admits a lossless Markovian transformation. Geometrically, the history-dependent formulation lifts the policy space for convexity, and its optimal solution can be projected back to the Markovian polic...",
+      "authors": [
+        "Naoya Kumagai",
+        "Kenshiro Oguri"
+      ]
+    },
+    {
+      "title": "(Preprint) AAS 26-718 POLYNOMIAL CHAOS EXPANSION FOR UNCERTAINTY PROPAGATION IN REGULARIZED CISLUNAR DYNAMICS",
+      "publication_year": 2026,
+      "publication_date": "2026-07-22",
+      "doi": "https://doi.org/10.13140/rg.2.2.22661.92648",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.13140/rg.2.2.22661.92648",
+      "concepts": [
+        "Polynomial chaos",
+        "Mathematics",
+        "Applied mathematics",
+        "Dynamics (music)",
+        "Polynomial",
+        "Propagation of uncertainty",
+        "CHAOS (operating system)",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Davide Roversi",
+        "Kenshiro Oguri"
+      ]
+    }
+  ]
+}

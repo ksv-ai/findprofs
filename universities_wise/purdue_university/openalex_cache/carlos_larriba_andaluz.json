@@ -1,0 +1,206 @@
+{
+  "name": "Carlos Larriba-Andaluz",
+  "uni": "Purdue University",
+  "author_id": "A5059744573",
+  "author_display_name": "Carlos Larriba‐Andaluz",
+  "works_count": 53,
+  "cited_by_count": 1259,
+  "top_topics": [
+    {
+      "topic": "Mass Spectrometry Techniques and Applications",
+      "count": 39
+    },
+    {
+      "topic": "Analytical Chemistry and Chromatography",
+      "count": 15
+    },
+    {
+      "topic": "Analytical chemistry methods development",
+      "count": 14
+    },
+    {
+      "topic": "Ion-surface interactions and analysis",
+      "count": 8
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Benchmark Comparison for a Multi-Processing Ion Mobility Calculator in the Free Molecular Regime",
+      "publication_year": 2017,
+      "publication_date": "2017-05-05",
+      "doi": "https://doi.org/10.1007/s13361-017-1661-8",
+      "venue": "Journal of the American Society for Mass Spectrometry",
+      "type": "article",
+      "cited_by_count": 150,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Chemistry",
+        "Ion",
+        "Calculator",
+        "Yield (engineering)",
+        "Computational physics",
+        "Biomolecule",
+        "Algorithm"
+      ],
+      "abstract": "A benchmark comparison between two ion mobility and collision cross-section (CCS) calculators, MOBCAL and IMoS, is presented here as a standard to test the efficiency and performance of both programs. Utilizing 47 organic ions, results are in excellent agreement between IMoS and MOBCAL in He and N 2, when both programs use identical input parameters. Due to a more efficiently written algorithm and to its parallelization, IMoS is able to calculate the same CCS (within 1%) with a speed around two orders of magnitude faster than its MOBCAL counterpart when seven cores are used. Due to the high computational cost of MOBCAL in N 2, reaching tens of thousands of seconds even for small ions, the comparison between IMoS and MOBCAL is stopped at 70 atoms. Large biomolecules (>10000 atoms) remain computationally expensive when IMoS is used in N 2 (even when employing 16 cores). Approximations such as diffuse trajectory methods (DHSS, TDHSS) with and without partial charges and projected area approximation corrections can be used to reduce the total computational time by several folds without hurting the accuracy of the solution. These latter methods can in principle be used with coarse-gr...",
+      "authors": [
+        "Vaibhav Shrivastav",
+        "Minal Nahin",
+        "Christopher J. Hogan",
+        "Carlos Larriba‐Andaluz"
+      ]
+    },
+    {
+      "title": "Collision cross section calculations for polyatomic ions considering rotating diatomic/linear gas molecules",
+      "publication_year": 2014,
+      "publication_date": "2014-11-18",
+      "doi": "https://doi.org/10.1063/1.4901890",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 92,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diatomic molecule",
+        "Polyatomic ion",
+        "Ion",
+        "Atomic physics",
+        "Inelastic collision",
+        "Chemistry",
+        "Molecule",
+        "Physics"
+      ],
+      "abstract": "Structural characterization of ions in the gas phase is facilitated by measurement of ion collision cross sections (CCS) using techniques such as ion mobility spectrometry. Further information is gained from CCS measurement when comparison is made between measurements and accurately predicted CCSs for model ion structures and the gas in which measurements are made. While diatomic gases, namely molecular nitrogen and air, are being used in CCS measurement with increasingly prevalency, the majority of studies in which measurements are compared to predictions use models in which gas molecules are spherical or non-rotating, which is not necessarily appropriate for diatomic gases. Here, we adapt a momentum transfer based CCS calculation approach to consider rotating, diatomic gas molecule collisions with polyatomic ions, and compare CCS predictions with a diatomic gas molecule to those made with a spherical gas molecular for model spherical ions, tetra-alkylammonium ions, and multiply charged polyethylene glycol ions. CCS calculations are performed using both specular-elastic and diffuse-inelastic collisions rules, which mimic negligible internal energy exchange and complete thermal ...",
+      "authors": [
+        "Carlos Larriba‐Andaluz",
+        "Christopher J. Hogan"
+      ]
+    },
+    {
+      "title": "Gas molecule scattering & ion mobility measurements for organic macro-ions in He versus N 2 environments",
+      "publication_year": 2015,
+      "publication_date": "2015-01-01",
+      "doi": "https://doi.org/10.1039/c5cp01017a",
+      "venue": "Physical Chemistry Chemical Physics",
+      "type": "article",
+      "cited_by_count": 85,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ion",
+        "Ion-mobility spectrometry",
+        "Molecule",
+        "Chemistry",
+        "Mass spectrometry",
+        "Dicyanamide",
+        "Polyatomic ion",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "A pending issue in linking ion mobility measurements to ion structures is that the collisional cross section (CCS, the measured structural parameter in ion mobility spectrometry) of an ion is strongly dependent upon the manner in which gas molecules effectively impinge on and are reemitted from ion surfaces (when modeling ions as fixed structures). To directly examine the gas molecule impingement and reemission processes and their influence, we measured the CCSs of positively charged ions of room temperature ionic liquids 1-ethyl-3-methylimidazolium dicyanamide (EMIM-N(CN)2) and 1-ethyl-3-methylimidazolium tetrafluoroborate (EMIM-BF4) in N2 using a differential mobility analyzer-mass spectrometer (DMA-MS) and in He using a drift tube mobility spectrometer-mass spectrometer (DT-MS). Cluster ions, generated via electrosprays, took the form (AB)N(A)z, spanning up to z = 20 and with masses greater than 100 kDa. As confirmed by molecular dynamics simulations, at the measurement temperature (∼300 K), such cluster ions took on globular conformations in the gas phase. Based upon their attained charge levels, in neither He nor N2 did the ion-induced dipole potential significantly influen...",
+      "authors": [
+        "Carlos Larriba‐Andaluz",
+        "Juan Fernández-García",
+        "Michael A. Ewing",
+        "Christopher J. Hogan",
+        "David E. Clemmer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "First order approximation of polyatomic ion and neutral diffusion in neutral gases under arbitrary fields",
+      "publication_year": 2026,
+      "publication_date": "2026-07-10",
+      "doi": "https://doi.org/10.1063/5.0337543",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polyatomic ion",
+        "Ion",
+        "Monatomic gas",
+        "Thermal diffusivity",
+        "Molecular dynamics",
+        "Chemistry",
+        "Diffusion",
+        "Kinetic energy"
+      ],
+      "abstract": "This work presents a trajectory-based method for predicting diffusion coefficients of ions and neutral molecules in dilute gases from the thermal limit to strongly driven conditions. Classical trajectory simulations are coupled with two-temperature kinetic theory to evaluate the collision integrals required by the generalized Einstein relations. Polyatomic ion geometries and charge distributions obtained from density functional theory are incorporated directly into 4-6-12 interaction potentials, allowing a consistent treatment of molecular structure, long-range interactions, and energy transfer during collisions. The method is implemented in the Mass Diffusivity Software (MaDiS) and validated against experimental data for both neutral and ionic systems across a wide range of conditions. For neutral molecules in the zero-field limit, the calculated diffusion coefficients reproduce experimental trends across multiple gases and temperatures with an average deviation of ∼5%, despite the use of non-optimized Lennard-Jones parameters. The simulations correctly capture the temperature dependence of diffusivity and remain consistent across a wide range of molecular sizes. Under applied ...",
+      "authors": [
+        "Farah Mubas-Sirah",
+        "Wiljones Djoutsop",
+        "Carlos Larriba‐Andaluz"
+      ]
+    },
+    {
+      "title": "Optimization of Electric Field Traveling Waves in SLIM Platforms for Improved Resolution via Analytical Solutions of the Nernst–Planck Equation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.1021/jasms.5c00347",
+      "venue": "Journal of the American Society for Mass Spectrometry",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Electric field",
+        "Waveform",
+        "Ion",
+        "Field (mathematics)",
+        "Voltage",
+        "Benchmark (surveying)",
+        "Traveling wave",
+        "Chemistry"
+      ],
+      "abstract": "Ion mobility spectrometry (IMS) is increasingly recognized as a powerful technique in analytical chemistry, enabling the separation of gas-phase ions based on their size-to-charge ratio. Among the most advanced implementations of IMS are the Structures for Lossless Ion Manipulations (SLIM) platform, and the cyclic IMS system, which use traveling electric waveforms across precisely patterned electrodes to transport and separate ions. Most SLIM and cyclic IMS systems employ square voltage waves to transmit the ions; however, due to fringing effects, the ions usually observe pseudosinusoidal electric fields as they travel. This fringing effect has not been addressed despite a myriad of studies of different waveforms. In this work, we derive and solve the axisymmetric two-dimensional Nernst-Planck equation under several linearly varying electric field conditions to analyze waveform performance. By comparing field profiles, we show that a linearly decreasing field offers a unique advantage: it suppresses longitudinal diffusion. This condition, in which the standard deviation of the ion distribution remains constant or even shrinks during transport, sets a theoretical benchmark for fi...",
+      "authors": [
+        "Xi Chen",
+        "Mohsen Latif",
+        "Wiljones Djoutsop",
+        "Carlos Larriba‐Andaluz"
+      ]
+    },
+    {
+      "title": "Unraveling Ligand-Driven Isomerism in Redox-Active Mixed-Ligand Polyoxometalates Using Ion Mobility Spectrometry",
+      "publication_year": 2025,
+      "publication_date": "2025-10-28",
+      "doi": "https://doi.org/10.1021/acsnano.5c12468",
+      "venue": "ACS Nano",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Steric effects",
+        "Structural isomer",
+        "Density functional theory",
+        "Cluster (spacecraft)",
+        "Ligand (biochemistry)",
+        "Chemistry",
+        "Ion-mobility spectrometry",
+        "Characterization (materials science)"
+      ],
+      "abstract": "Redox-active metal-oxide clusters that combine atomic precision with tunable solubility and electronic structure are emerging as functional components for energy storage, catalysis, and quantum materials. Polyoxovanadate (POV)-alkoxides, in particular, offer a modular platform where ligand shell composition can be tailored without disrupting the core structure. However, structural characterization of mixed-ligand POV-alkoxides is hindered by the presence of compositional and isomeric heterogeneity. Here, we report the structural investigation of mixed-ligand Lindqvist-type POV-alkoxides using ion mobility–mass spectrometry (IM-MS) coupled with density functional theory (DFT) and collision cross section (CCS) simulations. We examine two series of clusters, [V 6 O 7 (OR 1 ) 12– x (OR 2 ) x ] ( x = 0–8), with ligands of varying steric bulk: methoxy/ethoxy (MeO/EtO) and ethoxy/ethoxyethyl (EtO/EOE). While the MeO/EtO series shows a linear increase in CCS with ligand substitution, the EtO/EOE series exhibits a curved trend and broadened CCS distributions, indicating the formation of multiple low-energy isomers. DFT results reveal that this behavior arises from the preferential extens...",
+      "authors": [
+        "Solita M. Wilson",
+        "Xilai Li",
+        "Viraj Gandhi",
+        "Ashley Johnson",
+        "Eric Schreiber",
+        "Liam Ryan",
+        "Lidya Sertse",
+        "Carlos Larriba‐Andaluz",
+        "Ellen M. Matson",
+        "Julia Laskin"
+      ]
+    }
+  ]
+}

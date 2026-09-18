@@ -1,0 +1,196 @@
+{
+  "name": "Gregory A. Blaisdell",
+  "uni": "Purdue University",
+  "author_id": "A5069345570",
+  "author_display_name": "Gregory A. Blaisdell",
+  "works_count": 141,
+  "cited_by_count": 2416,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 109
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 74
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 71
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 31
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The effect of the formulation of nonlinear terms on aliasing errors in spectral methods",
+      "publication_year": 1996,
+      "publication_date": "1996-07-01",
+      "doi": "https://doi.org/10.1016/0168-9274(96)00005-0",
+      "venue": "Applied Numerical Mathematics",
+      "type": "article",
+      "cited_by_count": 183,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Nonlinear system",
+        "Burgers' equation",
+        "Aliasing",
+        "Mathematical analysis",
+        "Isotropy",
+        "Compressibility",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Gregory A. Blaisdell",
+        "Evangelos Spyropoulos",
+        "Jianyu Qin"
+      ]
+    },
+    {
+      "title": "Compressibility effects on the growth and structure of homogeneous turbulent shear flow",
+      "publication_year": 1993,
+      "publication_date": "1993-11-01",
+      "doi": "https://doi.org/10.1017/s0022112093002848",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 179,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Compressibility",
+        "Mechanics",
+        "Turbulence kinetic energy",
+        "Homogeneous isotropic turbulence",
+        "Isotropy",
+        "Mach number",
+        "Compressible flow"
+      ],
+      "abstract": "Compressibility effects within decaying isotropic turbulence and homogeneous turbulent shear flow have been studied using direct numerical simulation. The objective of this work is to increase our understanding of compressible turbulence and to aid the development of turbulence models for compressible flows. The numerical simulations of compressible isotropic turbulence show that compressibility effects are highly dependent on the initial conditions. The shear flow simulations, on the other hand, show that measures of compressibility evolve to become independent of their initial values and are parameterized by the root mean square Mach number. The growth rate of the turbulence in compressible homogeneous shear flow is reduced compared to that in the incompressible case. The reduced growth rate is the result of an increase in the dissipation rate and energy transfer to internal energy by the pressure–dilatation correlation. Examination of the structure of compressible homogeneous shear flow reveals the presence of eddy shocklets, which are important for the increased dissipation rate of compressible turbulence.",
+      "authors": [
+        "Gregory A. Blaisdell",
+        "Nagi N. Mansour",
+        "W. C. Reynolds"
+      ]
+    },
+    {
+      "title": "Overview of Turbulent Inflow Boundary Conditions for Large-Eddy Simulations",
+      "publication_year": 2017,
+      "publication_date": "2017-12-05",
+      "doi": "https://doi.org/10.2514/1.j055528",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 173,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inflow",
+        "Turbulence",
+        "Large eddy simulation",
+        "Computer science",
+        "Boundary value problem",
+        "Computational fluid dynamics",
+        "Turbulence modeling",
+        "Statistical physics"
+      ],
+      "abstract": "Generating realistic turbulent inflow conditions for large-eddy simulations and other large-scale-resolving approaches is essential to fully exploit the ever-increasing capabilities of modern computers in solving fluid flow problems of engineering interest. This research area has received much attention during the last two decades and will continue to grow as large-eddy simulation is applied to an even wider range of flows. It is deceptively difficult to generate turbulent inflow fluctuations that are realistic for a specific problem, and various methods have been designed to improve this realism. A review of such turbulent inflow boundary conditions is presented, broadly classified into transition-inducing approaches, turbulence library-based methods, recycling–rescaling-based methods, and synthetic turbulence generators. The last category is given more attention to cover a variety of creative approaches that are found in the literature as well as due to its practicality for problems of industrial interest. Selection of a particular method for a particular application is a compromise between the required fidelity and the allowable complexity and computational expense. Lack of q...",
+      "authors": [
+        "Nitin S. Dhamankar",
+        "Gregory A. Blaisdell",
+        "Anastasios S. Lyrintzis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Performance Analysis of an Unsteady Ejector Driven by Exhaust Conditions of a Rotating Detonation Engine (RDE)",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1976",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Injector",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Azimuth",
+        "Flow (mathematics)",
+        "Detonation",
+        "Rotational symmetry",
+        "Thrust"
+      ],
+      "abstract": "The goal of this project is to assess the performance and mixing characteristics of unsteady ejectors driven by a rotating detonation engine (RDE), using 3D unsteady RANS simulations and detached eddy simulations (DES). These simulations will incorporate the azimuthal variations in flow properties and the azimuthal component of velocity at the exit plane of an RDE, characteristics often neglected in similar computational studies. As a precursor to these studies, preliminary axisymmetric RANS calculations have been performed, neglecting azimuthal variation in flow properties and the azimuthal component of velocity. The motivation behind these preliminary calculations is to show proof of concept and serve as a foundation for the subsequent high-fidelity three-dimensional simulations. The flow conditions at the exit of the RDE are obtained using a Method of Characteristics (MOC) solver, which provides realistic two-dimensional steady-state solution of the unwrapped RDE. Results from these calculations indicate that the ejector is capable of significantly attenuating the oscillations of the RDE exhaust. The unsteady ejector also exhibited elevated values of entrainment ratio and thr...",
+      "authors": [
+        "Sai Lakshminarayanan Balakrishnan",
+        "Gregory A. Blaisdell"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of an Axisymmetric Shock-Wave/Boundary-Layer Interaction at Mach 2.5",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2519",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Boundary layer",
+        "Rotational symmetry",
+        "Physics",
+        "Reynolds number"
+      ],
+      "abstract": "Implicit large-eddy simulation (ILES) of a turbulent, axisymmetric, shock-wave/boundary- layer interaction was performed at Mach 2.5. The simulation was performed to compare to recent experimental work completed at NASA Glenn Research Center (GRC) under the Turbulent Computational Fluid Dynamics Validation Experiment (TCFDVE). The circular test section of the TCFDVE allows shock-wave/boundary-layer interactions to be studied without corner effects. The ILES was completed using a low-dissipation, hybrid advection scheme available in VULCAN-CFD which blends a fourth-order symmetric reconstruction with a third-order upwind-biased MUSCL scheme. The method of recycling/rescaling was used to generate a scale-resolved turbulent boundary layer. To save on computational cost, a Reynolds-averaged Navier-Stokes (RANS) solution was imposed at some boundary conditions. Comparison to experimental data showed promising results. PIV, Pitot, wall static pressure taps, and hot-wire data were used for comparison. With significant computational resource allocation, the current two billion point ILES simulation was run at an experimental Reynolds number for approximately 102 cycles of the dominant l...",
+      "authors": [
+        "Layton W. Howerton",
+        "Gregory A. Blaisdell",
+        "Jonathan Poggie"
+      ]
+    },
+    {
+      "title": "Time Resolved BOS Velocimetry of Synthetic Raytraced Images of a Low Speed Mixing Flow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2293",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Velocimetry",
+        "Particle image velocimetry",
+        "Schlieren",
+        "Measure (data warehouse)",
+        "Optics",
+        "Mixing (physics)",
+        "Laser Doppler velocimetry",
+        "Particle tracking velocimetry"
+      ],
+      "abstract": "Background oriented schlieren (BOS) based time-resolved velocimetry is proposed as a non-intrusive experimental method to simultaneously measure span-averaged velocity and density. Although past work has successfully shown BOS velocimetry to estimate temporally averaged profiles, the potential of spatio-temporally resolved BOS velocimetry remains relatively unexplored. To evaluate the feasibility of BOS velocimetry, synthetic images were generated from an LES data set of a low-convective-Mach-number (",
+      "authors": [
+        "Chandler J. Moy",
+        "Sai Lakshminarayanan Balakrishnan",
+        "Gregory A. Blaisdell",
+        "Sally P. Bane"
+      ]
+    }
+  ]
+}

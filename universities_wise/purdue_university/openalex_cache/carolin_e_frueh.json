@@ -1,0 +1,222 @@
+{
+  "name": "Carolin E Frueh",
+  "uni": "Purdue University",
+  "author_id": "A5004732417",
+  "author_display_name": "Carolin Frueh",
+  "works_count": 82,
+  "cited_by_count": 486,
+  "top_topics": [
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 33
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 20
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 19
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 17
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A comprehensive review on Cislunar expansion and space domain awareness",
+      "publication_year": 2024,
+      "publication_date": "2024-05-01",
+      "doi": "https://doi.org/10.1016/j.paerosci.2024.101019",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 63,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2408.03261",
+      "concepts": [
+        "Space (punctuation)",
+        "Domain (mathematical analysis)",
+        "Computer science",
+        "Computer graphics (images)",
+        "Mathematics",
+        "Human–computer interaction",
+        "Mathematical analysis",
+        "Operating system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Brian P. Baker-McEvilly",
+        "Surabhi Bhadauria",
+        "David Canales",
+        "Carolin Frueh"
+      ]
+    },
+    {
+      "title": "Space Situational Awareness Sensor Tasking: Comparison of Machine Learning with Classical Optimization Methods",
+      "publication_year": 2019,
+      "publication_date": "2019-12-20",
+      "doi": "https://doi.org/10.2514/1.g004279",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematical optimization",
+        "Ant colony optimization algorithms",
+        "Path (computing)",
+        "Population",
+        "Particle swarm optimization",
+        "Optimization problem"
+      ],
+      "abstract": "The object population in the space around the Earth is subject to increase. With the advancements in sensor capabilities, it can be expected that, at the same time, more of those objects will be detected. Although this allows for significant advances in understanding of the detectable objects and the expansion of object catalogs, it also leads to significant stress on the sensor systems and makes efficient sensor tasking a prime challenge. To solve sensor tasking as an optimization problem of observing objects when a priori information is available, various methods exist. Classical methods rely on the problem being formulated in a convex representation. Computationally intensive methods based on artificial intelligence, such as machine learning, have recently gained a lot of attention and are suitable for problems even when no convex formulation can be found. In this paper, performances of a simple traditional greedy algorithm and the more complex Weapon-Target Assignment algorithm are compared with the performance of two machine learning algorithms: ant colony and distributed Q-learning. Ant colony optimization is a swarm optimization path finding methodology based on probabili...",
+      "authors": [
+        "Bryan Little",
+        "Carolin Frueh"
+      ]
+    },
+    {
+      "title": "Tracklet-to-orbit association for maneuvering space objects using optimal control theory",
+      "publication_year": 2021,
+      "publication_date": "2021-01-22",
+      "doi": "https://doi.org/10.1016/j.actaastro.2021.01.026",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 38,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geostationary orbit",
+        "Orbit (dynamics)",
+        "Computer science",
+        "Satellite",
+        "Medium Earth orbit",
+        "Association (psychology)",
+        "Orbit determination",
+        "Object (grammar)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Romain Serra",
+        "Carlos Yáñez",
+        "Carolin Frueh"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Material Property Sensitivity of Light Curve Attitude Estimation for the Lunar Trailblazer",
+      "publication_year": 2026,
+      "publication_date": "2026-07-01",
+      "doi": "https://doi.org/10.1029/2025ea004733",
+      "venue": "Earth and Space Science",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2025ea004733",
+      "concepts": [
+        "Spacecraft",
+        "Sensitivity (control systems)",
+        "Angular resolution (graph drawing)",
+        "Observatory",
+        "Light curve",
+        "Angular velocity",
+        "Remote sensing",
+        "Orientation (vector space)"
+      ],
+      "abstract": "Abstract The Lunar Trailblazer (LTB) spacecraft launched on 27 February 2025, toward a planned low‐lunar orbit. Eleven hours into its mission, contact with Trailblazer was lost, and recovery efforts began. Estimating the orientation and angular velocity state of Trailblazer was central for recovery to determine whether and when the vehicle could be contacted again. This work documents a method to estimate Trailblazer's attitude state using only ground‐based optical telescopes. This data is cheap to collect and scales favorably with distance compared to radar data. We rely on photometric light curves, time histories of Trailblazer's observed brightness. The process of estimating Trailblazer's orientation and angular velocity from this data is known as light curve inversion. Light curve attitude inversion, in addition to inherent ambiguities caused by symmetries in the observed object's geometry and the geometry of the observation, is sensitive to the object's assumed surface materials. In this paper, we study the impact of surface material accuracy using two light curves of Trailblazer acquired by the 4.2‐m aperture Lowell Discovery Telescope in Arizona on 10 March 2025 and the 8...",
+      "authors": [
+        "Liam Robinson",
+        "Amanda V. Steckel",
+        "Carolin Frueh",
+        "B. L. Ehlmann"
+      ]
+    },
+    {
+      "title": "Global Light Curve Attitude Estimation with Noisy Measurements and Inertia Uncertainty",
+      "publication_year": 2026,
+      "publication_date": "2026-01-21",
+      "doi": "https://doi.org/10.1007/s40295-025-00557-9",
+      "venue": "The Journal of the Astronautical Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s40295-025-00557-9.pdf",
+      "concepts": [
+        "Inversion (geology)",
+        "Noise (video)",
+        "Inertia",
+        "Brightness",
+        "Mathematics",
+        "Moment of inertia",
+        "Ground truth",
+        "Object (grammar)"
+      ],
+      "abstract": "Abstract Attitude information about human-made space objects can be an integral part of determining the status of individual satellites. If resolved optical images are unavailable due to distance or atmospheric effects, attitude information is still present in the time history of the observed object’s brightness—its light curve. Extracting this information—a process known as attitude inversion—is plagued by many ambiguities, namely, the fact that infinitely many orientations may correspond to the same observed brightness value. In this work, we present a method for attitude inversion from the light curve and observation geometry when the object’s shape and optical material properties are known but measurements are corrupted by noise from the celestial background, the image sensor, atmospheric turbulence, and the shot noise inherent to the object signal. We efficiently search the entire attitude space to yield collections of solutions that inherently account for ambiguities due to noise and symmetries in the object’s geometry. This new optimization framework allows us to account for uncertainties in the object’s moments of inertia directly. The capabilities and limitations of our...",
+      "authors": [
+        "Liam Robinson",
+        "Carolin Frueh"
+      ]
+    },
+    {
+      "title": "Goals and trends in space exploration: An overview of the panel on exploration sessions at the committee on space research general assembly 2024",
+      "publication_year": 2025,
+      "publication_date": "2025-12-19",
+      "doi": "https://doi.org/10.1016/j.lssr.2025.12.005",
+      "venue": "Life Sciences in Space Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.lssr.2025.12.005",
+      "concepts": [
+        "Space (punctuation)",
+        "General assembly",
+        "Space research",
+        "Panel discussion",
+        "Space exploration",
+        "Computer science",
+        "Engineering",
+        "Systems engineering"
+      ],
+      "abstract": "In response to the growing importance of space exploration, the objectives of the COSPAR Panel on Exploration (PEX) are to provide high quality, independent science input to support the development of a global space exploration program, to promote space sciences as a key element of this program, to contribute to maximize its scientific return via enhanced international cooperation, and to take action to safeguard the scientific assets of solar system bodies. This paper summarizes the presentations of the two panel sessions at the COSPAR assembly 2024 and identifies the most intensely discussed recent topics of interest or concern for space exploration. These topics include environment stewardship of celestial bodies, space debris, resource utilization, the Moon, Mars, and other celestial bodies that we want to explore with planetary protection measures, preservation of dark and quiet skies, potential atmospheric pollution, space as an independent goal of sustainable development, human spaceflight, agile and affordable space programs, and the early preparation of a new edition of the COSPAR exploration roadmap.",
+      "authors": [
+        "André Galli",
+        "Heather Smith",
+        "Michel Blanc",
+        "B. H. Foing",
+        "H. Boithias",
+        "S. J. Bolton",
+        "Soyoung Chung",
+        "A. Coustenis",
+        "Eric Dautriat",
+        "Jean‐Pierre de Vera",
+        "Peter T. Doran",
+        "François Dubrulle",
+        "Fatemeh Fazel Hesar",
+        "Carolin Frueh",
+        "Shaifali Garg",
+        "Niklas Hedman",
+        "Kyeong Ja Kim",
+        "Stéphanie Lizy-Destrez",
+        "Andreas Lösch",
+        "Alessandra Marino",
+        "Christopher P. McKay",
+        "Patrick Michel",
+        "O. Mousis",
+        "Antonino Salmeri",
+        "U. Shah",
+        "Shine Sr",
+        "Michael H. Sims",
+        "Jean-Claude Worms",
+        "Hajime Yano"
+      ]
+    }
+  ]
+}

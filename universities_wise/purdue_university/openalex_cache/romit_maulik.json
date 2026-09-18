@@ -1,0 +1,196 @@
+{
+  "name": "Romit Maulik",
+  "uni": "Purdue University",
+  "author_id": "A5048243433",
+  "author_display_name": "Romit Maulik",
+  "works_count": 178,
+  "cited_by_count": 2789,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 76
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 58
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 46
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 18
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Reduced-order modeling of advection-dominated systems with recurrent neural networks and convolutional autoencoders",
+      "publication_year": 2021,
+      "publication_date": "2021-03-01",
+      "doi": "https://doi.org/10.1063/5.0039986",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 303,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2002.00470",
+      "concepts": [
+        "Physics",
+        "Convolutional neural network",
+        "Advection",
+        "Order (exchange)",
+        "Statistical physics",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Applied mathematics"
+      ],
+      "abstract": "A common strategy for the dimensionality reduction of nonlinear partial differential equations (PDEs) relies on the use of the proper orthogonal decomposition (POD) to identify a reduced subspace and the Galerkin projection for evolving dynamics in this reduced space. However, advection-dominated PDEs are represented poorly by this methodology since the process of truncation discards important interactions between higher-order modes during time evolution. In this study, we demonstrate that encoding using convolutional autoencoders (CAEs) followed by a reduced-space time evolution by recurrent neural networks overcomes this limitation effectively. We demonstrate that a truncated system of only two latent space dimensions can reproduce a sharp advecting shock profile for the viscous Burgers equation with very low viscosities, and a six-dimensional latent space can recreate the evolution of the inviscid shallow water equations. Additionally, the proposed framework is extended to a parametric reduced-order model by directly embedding parametric information into the latent space to detect trends in system evolution. Our results show that these advection-dominated systems are more ame...",
+      "authors": [
+        "Romit Maulik",
+        "Bethany Lusch",
+        "Prasanna Balaprakash"
+      ]
+    },
+    {
+      "title": "An artificial neural network framework for reduced order modeling of transient flows",
+      "publication_year": 2019,
+      "publication_date": "2019-04-25",
+      "doi": "https://doi.org/10.1016/j.cnsns.2019.04.025",
+      "venue": "Communications in Nonlinear Science and Numerical Simulation",
+      "type": "article",
+      "cited_by_count": 170,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cnsns.2019.04.025",
+      "concepts": [
+        "Artificial neural network",
+        "Nonlinear system",
+        "Galerkin method",
+        "Model order reduction",
+        "Projection (relational algebra)",
+        "Transient (computer programming)",
+        "Computer science",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Omer San",
+        "Romit Maulik",
+        "Mansoor Ahmed"
+      ]
+    },
+    {
+      "title": "Neural network closures for nonlinear model order reduction",
+      "publication_year": 2018,
+      "publication_date": "2018-01-29",
+      "doi": "https://doi.org/10.1007/s10444-018-9590-z",
+      "venue": "Advances in Computational Mathematics",
+      "type": "article",
+      "cited_by_count": 154,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Artificial neural network",
+        "Computer science",
+        "Projection (relational algebra)",
+        "Galerkin method",
+        "Burgers' equation",
+        "Applied mathematics",
+        "Algorithm"
+      ],
+      "abstract": "",
+      "authors": [
+        "Omer San",
+        "Romit Maulik"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Generalizable data-driven turbulence closure modeling on unstructured grids with differentiable physics",
+      "publication_year": 2026,
+      "publication_date": "2026-07-04",
+      "doi": "https://doi.org/10.1016/j.compfluid.2026.107200",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Closure (psychology)",
+        "Differentiable function",
+        "Applied mathematics",
+        "Physics",
+        "Mathematics",
+        "Computational fluid dynamics",
+        "Statistical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hojin Kim",
+        "Varun Shankar",
+        "Venkatasubramanian Viswanathan",
+        "Romit Maulik"
+      ]
+    },
+    {
+      "title": "Localized PCA-Net neural operators for scalable solution reconstruction of elliptic PDEs",
+      "publication_year": 2026,
+      "publication_date": "2026-05-23",
+      "doi": "https://doi.org/10.1007/s44379-026-00070-2",
+      "venue": "Machine learning for computational science and engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-9285101/latest.pdf",
+      "concepts": [
+        "Computer science",
+        "Computational complexity theory",
+        "Artificial neural network",
+        "Operator (biology)",
+        "Pipeline (software)",
+        "Convolutional neural network",
+        "Algorithm",
+        "Smoothing"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mrigank Dhingra",
+        "Romit Maulik",
+        "Adil Rasheed",
+        "Omer San"
+      ]
+    },
+    {
+      "title": "SALSA-RL: stability analysis in the latent space of actions for reinforcement learning",
+      "publication_year": 2026,
+      "publication_date": "2026-04-07",
+      "doi": "https://doi.org/10.1016/j.neunet.2026.108957",
+      "venue": "Neural Networks",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stability (learning theory)",
+        "Artificial intelligence",
+        "Computer science",
+        "Reinforcement learning",
+        "Space (punctuation)",
+        "Machine learning",
+        "Mathematics",
+        "Latent variable"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xuyang Li",
+        "Romit Maulik"
+      ]
+    }
+  ]
+}
