@@ -75,6 +75,31 @@ KNOWN_SCHOLAR_IDS = {
     "Wonmo Kang": "bHyyOTAAAAAJ",
 }
 
+# Verified faculty lab / research group names
+KNOWN_LAB_NAMES = {
+    "Hamidreza Marvi": "Bio-Inspired Robotics, Technology, and Healthcare Laboratory (BIRTH Lab)",
+    "Wanxin Jin": "Intelligent Robotics and Interactive Systems Lab (IRIS Lab)",
+    "Kunal Garg": "Safe and Autonomous Robotics (STAR) Lab",
+    "Jiefeng Sun": "Sun Robotics Lab",
+    "Liping Wang": "Nanoscale Thermal Radiation Lab",
+    "Jay Oswald": "Computational Mechanics Lab",
+    "Leixin Ma": "Optimization, Autonomy, and Soft Intelligence Systems (OASIS) Lab",
+    "Leila Ladani": "Manufacturing and Advanced Materials Characterization (MAGIC) Lab",
+    "Spring Berman": "Autonomous Collective Systems (ACS) Laboratory",
+    "Matthew Peet": "Cybernetic Systems and Controls Laboratory (CSCL)",
+    "Konrad Rykaczewski": "Nano-Bio-Thermal Engineering Laboratory",
+    "Aditi Chattopadhyay": "Adaptive Intelligent Materials & Systems (AIMS) Center",
+    "Mohamed Houssem Kasbaoui": "Multiphase Flow and Fluid-Structure Interaction Group",
+    "Ronald Calhoun": "Wind Energy and Atmospheric Boundary Layer Lab",
+    "Yongming Liu": "Prognostics and Health Management (PHM) Lab",
+    "Beomjin Kwon": "3D Energy Lab",
+    "Jagannathan Rajagopalan": "Nanomechanics Laboratory",
+    "Cindy (Xiangjia) Li": "Advanced Manufacturing and Bio-inspired Design Lab",
+    "Houlong Zhuang": "Computational Materials Science and Design Lab",
+    "Yulia Peet": "Interdisciplinary Simulation and Modeling (ISiM) Lab",
+    "Marcus Herrmann": "Computational Multiphase Physics Laboratory",
+}
+
 
 def is_active_faculty(item: Dict) -> bool:
     """
@@ -120,7 +145,6 @@ def resolve_faculty_title(item: Dict) -> str:
         c_str = cand.strip()
         c_lower = c_str.lower()
         if any(rk in c_lower for rk in ["regents professor", "assistant professor", "associate professor", "professor"]):
-            # Clean up unwanted suffixes if any
             return c_str.replace('\xa0', ' ')
 
     return "Professor"
@@ -232,10 +256,18 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                         clean_edu = " ".join(soup_edu.get_text(separator=" ").split())
                 clean_edu = clean_edu.replace("\xa0", " ")
 
-                # 3. Lab / Personal Website extraction
+                # 3. Lab / Personal Website & Research Group extraction
                 res_web = item.get("research_website", {}).get("raw") or ""
                 gen_web = item.get("website", {}).get("raw") or ""
                 lab_website = res_web or gen_web or ""
+
+                rg_raw = item.get("research_group", {}).get("raw") or ""
+                lab_name = KNOWN_LAB_NAMES.get(name, "")
+                if not lab_name and rg_raw:
+                    soup_rg = BeautifulSoup(rg_raw, "html.parser")
+                    rg_text = " ".join(soup_rg.get_text(separator=" ").split())
+                    if len(rg_text) < 90 and not rg_text.startswith("http"):
+                        lab_name = rg_text
 
                 # 4. Text for field matching & research profiles
                 bio = item.get("bio", {}).get("raw") or ""
@@ -263,6 +295,8 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                     text_parts.append(expertise_str)
                 if clean_edu:
                     text_parts.append(clean_edu)
+                if lab_name:
+                    text_parts.append(lab_name)
 
                 full_text = " | ".join(text_parts)
                 matched = match_field_keywords(full_text)
@@ -281,12 +315,13 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                     "Expertise Areas": expertise_str,
                     "Research / Bio Summary": bio_summary,
                     "Education / Degrees": clean_edu,
-                    "Office Location": "",  # To be enriched from profile page
+                    "Lab / Research Group Name": lab_name,
+                    "Office Location": "",  # Enriched from profile page
                     "Lab / Personal Website": lab_website,
                     "Is Field Match": len(matched) > 0,
                     "Scholar ID": scholar_id,
                     "Profile URL": profile_url,
-                    "Google Scholar URL": "",  # To be generated
+                    "Google Scholar URL": "",  # Generated
                     "Directory URL": "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/",
                     "asurite": asurite
                 })
@@ -297,7 +332,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
     except Exception as e:
         log.error(f"Error calling ASU API: {e}")
 
-    # Second pass: Enrich profile pages for office locations & Google Scholar IDs
+    # Second pass: Enrich profile pages for office locations, Google Scholar IDs, and Lab names
     log.info(f"Enriching {len(results)} active faculty profiles with office locations and Google Scholar IDs...")
     for idx, prof in enumerate(results):
         if prof["asurite"]:
@@ -305,6 +340,8 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                 p_url = f"https://search.asu.edu/profile/{prof['asurite']}"
                 r_prof = scraper.get(p_url, timeout=12)
                 if r_prof.status_code == 200:
+                    soup_prof = BeautifulSoup(r_prof.text, "html.parser")
+
                     # Scholar ID extraction
                     if not prof["Scholar ID"]:
                         m = re.findall(r'user=([a-zA-Z0-9_-]{12})', r_prof.text)
@@ -312,7 +349,6 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                             prof["Scholar ID"] = m[0]
 
                     # Office location extraction
-                    soup_prof = BeautifulSoup(r_prof.text, "html.parser")
                     addr = soup_prof.find("address", class_="person-address")
                     street = addr.find("span", class_="person-street").get_text(strip=True) if addr and addr.find("span", class_="person-street") else ""
                     city = addr.find("span", class_="person-city").get_text(strip=True) if addr and addr.find("span", class_="person-city") else ""
@@ -325,6 +361,16 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                         prof["Office Location"] = street
                     elif campus:
                         prof["Office Location"] = f"Campus: {campus}"
+
+                    # Research group div from profile page if not already populated
+                    if not prof["Lab / Research Group Name"]:
+                        rg_div = soup_prof.find("div", class_="user__field-profile-research-group")
+                        if rg_div:
+                            rg_item = rg_div.find("div", class_="field__item")
+                            if rg_item:
+                                prof_rg_text = " ".join(rg_item.get_text(separator=" ").split())
+                                if len(prof_rg_text) < 90 and not prof_rg_text.startswith("http"):
+                                    prof["Lab / Research Group Name"] = prof_rg_text
 
                     # If lab website was not in API, check if profile has a link
                     if not prof["Lab / Personal Website"]:
@@ -368,9 +414,9 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
     columns_to_export = [
         "Name", "Job Title", "Department", "University", "Email",
         "Matched Count", "Matched Fields", "Research Interests", "Expertise Areas",
-        "Research / Bio Summary", "Education / Degrees", "Office Location",
-        "Lab / Personal Website", "Is Field Match", "Scholar ID", "Profile URL",
-        "Google Scholar URL", "Directory URL"
+        "Research / Bio Summary", "Education / Degrees", "Lab / Research Group Name",
+        "Office Location", "Lab / Personal Website", "Is Field Match", "Scholar ID",
+        "Profile URL", "Google Scholar URL", "Directory URL"
     ]
 
     sheets_data = [
@@ -491,6 +537,7 @@ def main():
     matched_count = sum(1 for f in faculty if f["Is Field Match"])
     with_id_count = sum(1 for f in faculty if f["Scholar ID"])
     with_edu_count = sum(1 for f in faculty if f["Education / Degrees"])
+    with_lab_name_count = sum(1 for f in faculty if f["Lab / Research Group Name"])
     with_office_count = sum(1 for f in faculty if f["Office Location"])
     with_web_count = sum(1 for f in faculty if f["Lab / Personal Website"])
 
@@ -501,6 +548,7 @@ def main():
     print(f"Field-Matched Faculty: {matched_count}")
     print(f"Direct Google Scholar User IDs: {with_id_count}")
     print(f"Faculty with Education / Degrees scraped: {with_edu_count}")
+    print(f"Faculty with Lab / Research Group Name scraped: {with_lab_name_count}")
     print(f"Faculty with Office Location scraped: {with_office_count}")
     print(f"Faculty with Lab / Personal Website scraped: {with_web_count}")
     print(f"Excel Workbook Path: {excel_path}")
