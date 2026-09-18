@@ -31,7 +31,9 @@ COLUMNS_CONFIG = [
     "Scholar ID",
     "Email",
 
-    # 2. Field Match Criteria
+    # 2. Field Match Criteria & Prioritization Tiers
+    "Research Tier",
+    "Research Category",
     "Matched Count",
     "Matched Fields",
 
@@ -91,11 +93,12 @@ TARGET_KEYWORDS = [
     "flow control", "boundary layer", "shear flow", "vortex dynamics", "vortices",
     "compressible flow", "incompressible flow", "reacting flow", "multiphase flow",
     "microfluidics", "biofluid", "fluid-structure interaction", "fsi",
-    "shock waves", "hypersonic", "supersonic", "transonic",
+    "shock waves", "hypersonic", "supersonic", "transonic", "aerothermodynamics",
 
-    # Thermal & Propulsion
-    "heat transfer", "thermal", "thermodynamics", "convection", "conduction",
-    "radiation", "combustion", "propulsion", "energy systems",
+    # Propulsion, Combustion & High-Speed Engines
+    "propulsion", "combustion", "scramjet", "scramjets", "flame dynamics",
+    "detonation", "rotating detonation", "rocket propulsion", "nozzle", "heat transfer",
+    "thermal", "thermodynamics", "convection", "conduction", "radiation", "energy systems",
 
     # Robotics, Control & Autonomy
     "robotics", "robot", "autonomous", "uav", "drone", "guidance", "navigation",
@@ -224,6 +227,93 @@ def match_field_keywords(text: str) -> List[str]:
             if kw in text_lower:
                 matches.add(kw)
     return sorted(list(matches))
+
+
+# =============================================================================
+# RESEARCH TIER & AERO CORE CLASSIFICATION ENGINE
+# =============================================================================
+TIER_1_AERO_TERMS = [
+    r'\bcomputational fluid dynamics\b', r'\bcfd\b', r'\bfluid dynamics\b',
+    r'\bfluid mechanics\b', r'\bturbulence\b', r'\bturbulent\b',
+    r'\bdirect numerical simulation\b', r'\bdns\b', r'\blarge eddy simulation\b', r'\bles\b',
+    r'\baerodynamics\b', r'\baerodynamic\b', r'\bhypersonic\b', r'\bsupersonic\b',
+    r'\btransonic\b', r'\bcompressible flow\b', r'\bshock waves\b', r'\bairfoil\b',
+    r'\baerothermodynamics\b', r'\bscramjet\b', r'\bscramjets\b',
+    r'\bpropulsion\b', r'\bcombustion\b', r'\bflame dynamics\b', r'\bflame\b',
+    r'\bdetonation\b', r'\brotating detonation\b', r'\brocketry\b', r'\bnozzle\b',
+    r'\bmultiphase flow\b', r'\bmultiphase\b', r'\bparticle dynamics in fluid\b',
+    r'\bboundary layer\b', r'\bvortex\b', r'\bvortices\b', r'\bflow control\b',
+    r'\bshear flow\b', r'\baeroelasticity\b', r'\bwind and air flow\b', r'\bwind energy\b',
+    r'\bbiomimetic flight\b'
+]
+_COMPILED_T1 = [re.compile(p, re.IGNORECASE) for p in TIER_1_AERO_TERMS]
+
+TIER_2_THERMAL_TERMS = [
+    r'\bheat transfer\b', r'\bthermal\b', r'\bthermodynamics\b', r'\bconvection\b',
+    r'\bconduction\b', r'\bradiation\b', r'\bthermal management\b', r'\benergy systems\b',
+    r'\bfuel cells?\b', r'\bthermoelectric\b'
+]
+_COMPILED_T2 = [re.compile(p, re.IGNORECASE) for p in TIER_2_THERMAL_TERMS]
+
+TIER_3_MATERIALS_TERMS = [
+    r'\bmaterials\b', r'\bcomposites\b', r'\bsolid mechanics\b', r'\bfracture\b',
+    r'\bnanomaterials\b', r'\bmanufacturing\b', r'\badditive manufacturing\b',
+    r'\b3d printing\b', r'\bgraphene\b', r'\bmxene\b', r'\bbattery\b',
+    r'\bstructural health monitoring\b', r'\bfinite element\b', r'\bfea\b', r'\bfem\b'
+]
+_COMPILED_T3 = [re.compile(p, re.IGNORECASE) for p in TIER_3_MATERIALS_TERMS]
+
+TIER_4_ROBOTICS_TERMS = [
+    r'\brobot\b', r'\brobotics\b', r'\bswarm\b', r'\bautonomy\b', r'\bautonomous\b',
+    r'\breinforcement learning\b', r'\bcontrol systems?\b', r'\bcontrol theory\b',
+    r'\boptimal control\b', r'\bpath planning\b', r'\bmanipulation\b', r'\buav\b', r'\bdrone\b'
+]
+_COMPILED_T4 = [re.compile(p, re.IGNORECASE) for p in TIER_4_ROBOTICS_TERMS]
+
+
+def classify_faculty_tier(prof_dict: Dict[str, Any]) -> Tuple[int, str]:
+    """
+    Evaluates professor profile across matched fields, OpenAlex topics,
+    research interests, lab group name, and bio to assign an authoritative Research Tier:
+      Tier 1: 🔵 Core Aero / Fluids / CFD / Propulsion / Combustion
+      Tier 2: 🟡 Thermal / Heat Transfer / Energy Systems
+      Tier 3: 🟠 Structures / Materials / Manufacturing
+      Tier 4: 🔴 Robotics / Controls / Autonomy
+    """
+    name = prof_dict.get("Name", "")
+    text = " | ".join([
+        str(prof_dict.get("Matched Fields", "")),
+        str(prof_dict.get("OpenAlex Research Topics", "")),
+        str(prof_dict.get("Research Interests", "")),
+        str(prof_dict.get("Lab / Research Group Name", "")),
+        str(prof_dict.get("Research / Bio Summary", ""))
+    ])
+
+    # Disambiguate known outliers
+    if name in ["T.-W. Lee", "Huei-Ping Huang"]:
+        t1_hits = []
+    else:
+        t1_hits = [p.pattern.replace(r'\b', '') for p in _COMPILED_T1 if p.search(text)]
+        if len(t1_hits) >= 2 or name in ["Ryan Milcarek", "Alberto Scotti", "Mohamed Houssem Kasbaoui", "Marcus Herrmann", "Yulia Peet", "Gokul Pathikonda", "Kiran Ramesh", "Jeonglae Kim", "Kangping Chen", "Ronald Calhoun", "Leixin Ma"]:
+            return 1, "🔵 Tier 1: Core Aero / Fluids / Propulsion"
+
+    t2_hits = [p.pattern.replace(r'\b', '') for p in _COMPILED_T2 if p.search(text)]
+    t3_hits = [p.pattern.replace(r'\b', '') for p in _COMPILED_T3 if p.search(text)]
+    t4_hits = [p.pattern.replace(r'\b', '') for p in _COMPILED_T4 if p.search(text)]
+
+    if len(t4_hits) >= max(len(t2_hits), len(t3_hits)) and len(t4_hits) > 0:
+        return 4, "🔴 Tier 4: Robotics / Controls / Autonomy"
+    if len(t2_hits) >= len(t3_hits) and len(t2_hits) > 0:
+        return 2, "🟡 Tier 2: Thermal / Heat Transfer / Energy"
+    if len(t3_hits) > 0:
+        return 3, "🟠 Tier 3: Structures / Materials / Manufacturing"
+    return 4, "🔴 Tier 4: Robotics / Controls / Autonomy"
+
+
+def is_core_aero_faculty(prof_dict: Dict[str, Any]) -> bool:
+    """Returns True ONLY if professor qualifies for Tier 1 Core Aero/Fluids focus."""
+    tier_num, _ = classify_faculty_tier(prof_dict)
+    return tier_num == 1
 
 
 def build_scholar_url(name: str, scholar_id: str = "") -> str:
@@ -754,6 +844,8 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     "Department": "Aerospace & Mechanical Engineering",
                     "Scholar ID": scholar_id,
                     "Email": email,
+                    "Research Tier": 4,
+                    "Research Category": "🔴 Tier 4: Robotics / Controls / Autonomy",
                     "Matched Count": len(matched),
                     "Matched Fields": ", ".join(matched),
                     "Latest Paper / Publication": "",
@@ -905,20 +997,28 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     elif not prof.get(k) or prof.get(k) == "":
                         prof[k] = v
 
-        # Fourth pass: Fetch OpenAlex Research Topics, Top Cited Works, and Recent Papers via OpenAlex
-        tags_intel, papers_intel, recent_intel = fetch_academic_scholar_intel(prof["Name"])
-        if tags_intel:
-            prof["OpenAlex Research Topics"] = tags_intel
-            prof["Google Scholar Tags"] = tags_intel
-        if papers_intel:
-            prof["Top Cited Papers"] = papers_intel
-        if recent_intel:
-            prof["Recent Papers (2024-2026)"] = recent_intel
+        # Fourth pass: Selectively fetch OpenAlex Research Topics, Top Cited Works, and Recent Papers
+        # STRICT RULE: OpenAlex extraction is ONLY performed for Core Aero / Fluids / CFD / Propulsion faculty!
+        # Non-aero faculty (robotics, materials, civil, biomedical) are skipped from OpenAlex JSON caching.
+        if is_core_aero_faculty(prof):
+            tags_intel, papers_intel, recent_intel = fetch_academic_scholar_intel(prof["Name"])
+            if tags_intel:
+                prof["OpenAlex Research Topics"] = tags_intel
+                prof["Google Scholar Tags"] = tags_intel
+            if papers_intel:
+                prof["Top Cited Papers"] = papers_intel
+            if recent_intel:
+                prof["Recent Papers (2024-2026)"] = recent_intel
+
+        # Compute authoritative Research Tier & Category
+        tier_num, tier_label = classify_faculty_tier(prof)
+        prof["Research Tier"] = tier_num
+        prof["Research Category"] = tier_label
 
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
-    # Sort primarily by Matched Count (descending: max keywords matched first), then by Name (A-Z)
-    results.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+    # Sort primarily by Research Tier (1 -> 4), then by Matched Count (descending), then by Name (A-Z)
+    results.sort(key=lambda x: (x.get("Research Tier", 4), -x.get("Matched Count", 0), x["Name"].strip().lower()))
     log.info(f"Total active faculty successfully extracted: {len(results)}")
     return results
 
@@ -943,13 +1043,22 @@ def export_to_excel(faculty_list: List[Dict], output_path: str, columns: List[st
         bottom=Side(style='thin', color='D9D9D9')
     )
 
-    # Filter matched list - strict active faculty only (no emeritus/retired)
+    # 1. Aero Focus List: Strictly Core Aero / Fluids / CFD / Propulsion (Tier 1)
+    aero_focus_list = [f for f in faculty_list if f.get("Research Tier") == 1]
+    aero_focus_list.sort(key=lambda x: (-x.get("Matched Count", 0), x["Name"].strip().lower()))
+
+    # 2. Field Matched List: All keyword-matched faculty (sorted by Tier 1 -> 4, then Matched Count desc)
     field_matched_list = [f for f in faculty_list if f.get("Is Field Match")]
-    field_matched_list.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+    field_matched_list.sort(key=lambda x: (x.get("Research Tier", 4), -x.get("Matched Count", 0), x["Name"].strip().lower()))
+
+    # 3. All Faculty List: Complete active faculty cohort
+    all_faculty_list = list(faculty_list)
+    all_faculty_list.sort(key=lambda x: (x.get("Research Tier", 4), -x.get("Matched Count", 0), x["Name"].strip().lower()))
 
     sheets_data = [
+        ("Aero Focus", aero_focus_list),
         ("Field Matched", field_matched_list),
-        ("All Faculty", faculty_list)
+        ("All Faculty", all_faculty_list)
     ]
 
     for sheet_title, data_rows in sheets_data:
@@ -1022,23 +1131,30 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
     and direct clickable links.
     """
     field_matched = [f for f in faculty_list if f.get("Is Field Match")]
-    field_matched.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+    field_matched.sort(key=lambda x: (x.get("Research Tier", 4), -x.get("Matched Count", 0), x["Name"].strip().lower()))
+
+    # Group faculty by Tier for analysis
+    tier_groups = {1: [], 2: [], 3: [], 4: []}
+    for f in field_matched:
+        t_num = f.get("Research Tier", 4)
+        tier_groups[t_num].append(f)
 
     lines = []
     lines.append("# Arizona State University (SEMTE) — Aerospace & Mechanical Engineering Faculty Directory\n")
     lines.append("> **Interactive Cold Email & Research Opportunities Reference**")
-    lines.append(f"> Total Active Faculty: **{len(faculty_list)}** | Field-Matched Faculty: **{len(field_matched)}** | Generated dynamically from `asu_aerospace_mechanical_faculty.xlsx`\n")
+    lines.append(f"> Total Active Faculty: **{len(faculty_list)}** | Field-Matched Faculty: **{len(field_matched)}** | Core Aero/Fluids Targets: **{len(tier_groups[1])}** | Generated dynamically from `asu_aerospace_mechanical_faculty.xlsx`\n")
     lines.append("---\n")
 
     # Table of Contents / Quick Jump
-    lines.append("## 📋 Quick Directory Index (Ranked by Matched Keywords)\n")
-    lines.append("| Rank | Professor | Job Title | Matched Count | Indicators | Key Research Fields |")
-    lines.append("| :---: | :--- | :--- | :---: | :---: | :--- |")
+    lines.append("## 📋 Quick Directory Index (Ranked by Research Tier & Matched Keywords)\n")
+    lines.append("| Rank | Professor | Job Title | Research Tier | Matched Count | Indicators | Key Research Fields |")
+    lines.append("| :---: | :--- | :--- | :--- | :---: | :---: | :--- |")
 
     for idx, f in enumerate(field_matched, 1):
         name = f.get("Name", "")
         anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
         title = f.get("Job Title", "")
+        tier_lbl = f.get("Research Category", "🔴 Tier 4: Robotics / Controls / Autonomy")
         count = f.get("Matched Count", 0)
         fields = f.get("Matched Fields", "")
         if len(fields) > 40:
@@ -1055,7 +1171,72 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
             indicators.append("🔬 **Lab**")
         ind_str = " ".join(indicators) if indicators else "—"
 
-        lines.append(f"| {idx} | [{name}](#{anchor}) | {title} | **{count}** | {ind_str} | {fields} |")
+        lines.append(f"| {idx} | [{name}](#{anchor}) | {title} | {tier_lbl} | **{count}** | {ind_str} | {fields} |")
+
+    lines.append("\n---\n")
+
+    # =========================================================================
+    # COMPREHENSIVE FACULTY RESEARCH TIER & CATEGORIZATION REVIEW
+    # =========================================================================
+    lines.append("## 🎯 Faculty Research Categorization & Prioritization Tiers\n")
+    lines.append("This section organizes all faculty into 4 authoritative tiers to optimize cold outreach and research alignment. OpenAlex JSON caching and deep publication intelligence are strictly preserved for **Tier 1 (Core Aero/Fluids/Propulsion)** faculty.\n")
+
+    lines.append("### 🔵 Tier 1: Core Aerospace / Fluid Dynamics / CFD / Propulsion (Primary Target)")
+    lines.append(f"> **Cohort Size: {len(tier_groups[1])} Faculty** | Direct targets for CFD, turbulence, hypersonics, aerodynamics, multiphase, combustion, and propulsion.\n")
+    lines.append("| Professor | Academic Rank | Matched Aero Fields | Lab / Research Group | Key Research Highlights |")
+    lines.append("| :--- | :--- | :--- | :--- | :--- |")
+    for f in tier_groups[1]:
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        fields = f.get("Matched Fields", "")
+        lab = f.get("Lab / Research Group Name", "—")
+        interests = f.get("Research Interests", "") or f.get("OpenAlex Research Topics", "")
+        if len(interests) > 60:
+            interests = interests[:57] + "..."
+        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {lab} | {interests} |")
+
+    lines.append("\n### 🟡 Tier 2: Thermal Engineering / Heat Transfer / Energy Systems")
+    lines.append(f"> **Cohort Size: {len(tier_groups[2])} Faculty** | Heat transfer, nanoscale thermal radiation, thermoelectrics, and energy storage.\n")
+    lines.append("| Professor | Academic Rank | Matched Fields | Lab / Research Focus |")
+    lines.append("| :--- | :--- | :--- | :--- |")
+    for f in tier_groups[2]:
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        fields = f.get("Matched Fields", "")
+        lab = f.get("Lab / Research Group Name", "") or f.get("Research Interests", "Thermal & Energy Systems")
+        if len(lab) > 65:
+            lab = lab[:62] + "..."
+        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {lab} |")
+
+    lines.append("\n### 🟠 Tier 3: Structures / Materials Science / Solid Mechanics")
+    lines.append(f"> **Cohort Size: {len(tier_groups[3])} Faculty** | Composite structures, additive manufacturing, fracture mechanics, and 2D nanomaterials.\n")
+    lines.append("| Professor | Academic Rank | Matched Fields | Lab / Materials Domain |")
+    lines.append("| :--- | :--- | :--- | :--- |")
+    for f in tier_groups[3]:
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        fields = f.get("Matched Fields", "")
+        lab = f.get("Lab / Research Group Name", "") or f.get("Research Interests", "Materials / Structures")
+        if len(lab) > 65:
+            lab = lab[:62] + "..."
+        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {lab} |")
+
+    lines.append("\n### 🔴 Tier 4: Robotics / Controls / Autonomous Systems")
+    lines.append(f"> **Cohort Size: {len(tier_groups[4])} Faculty** | Robot manipulation, multi-agent swarms, safe autonomy, control systems, and bio-inspired robotics.\n")
+    lines.append("| Professor | Academic Rank | Matched Fields | Lab / Autonomy Focus |")
+    lines.append("| :--- | :--- | :--- | :--- |")
+    for f in tier_groups[4]:
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        fields = f.get("Matched Fields", "")
+        lab = f.get("Lab / Research Group Name", "") or f.get("Research Interests", "Robotics & Controls")
+        if len(lab) > 65:
+            lab = lab[:62] + "..."
+        lines.append(f"| [{name}](#{anchor}) | {title} | `{fields}` | {lab} |")
 
     lines.append("\n---\n")
     lines.append("## 🔬 Comprehensive Faculty Profiles & Cold Outreach Intelligence\n")
@@ -1093,7 +1274,8 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
 
         lines.append(f"<a id=\"{anchor}\"></a>")
         lines.append(f"### {idx}. {name}")
-        lines.append(f"*{title} — {dept}, Arizona State University*\n")
+        tier_cat = f.get("Research Category", "🔴 Tier 4: Robotics / Controls / Autonomy")
+        lines.append(f"*{title} — {dept}, Arizona State University* | **{tier_cat}**\n")
 
         # Quick Links
         link_items = []
@@ -1119,6 +1301,7 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
         recent_papers = f.get("Recent Papers (2024-2026)", "")
 
         # Overview Table
+        lines.append(f"- **Research Categorization**: **{tier_cat}**")
         lines.append(f"- **Matched Research Keywords ({count})**: `{fields}`")
         if scholar_tags:
             lines.append(f"- **Top Research Topics (Topic & Pub Count)**: `{scholar_tags}`")
@@ -1240,11 +1423,19 @@ def main():
     with_scholar_tags_count = sum(1 for f in faculty if f.get("Google Scholar Tags"))
     with_top_cited_count = sum(1 for f in faculty if f.get("Top Cited Papers"))
     with_recent_papers_count = sum(1 for f in faculty if f.get("Recent Papers (2024-2026)"))
+    tier1_count = sum(1 for f in faculty if f.get("Research Tier") == 1)
+    tier2_count = sum(1 for f in faculty if f.get("Research Tier") == 2)
+    tier3_count = sum(1 for f in faculty if f.get("Research Tier") == 3)
+    tier4_count = sum(1 for f in faculty if f.get("Research Tier") == 4)
 
     print("\n" + "=" * 95)
-    print("ASU FACULTY & LAB SCRAPING COMPLETED (COLD EMAIL HOOKS INCLUDED)")
+    print("ASU FACULTY & LAB SCRAPING COMPLETED (PRIORITIZATION TIERS & AERO FOCUS INCLUDED)")
     print("=" * 95)
-    print(f"Total Active Faculty (sorted by max keywords matched): {len(faculty)}")
+    print(f"Total Active Faculty: {len(faculty)}")
+    print(f"  [Tier 1] Core Aero/Fluids/CFD/Propulsion: {tier1_count} (POPULATES 'AERO FOCUS' TAB)")
+    print(f"  [Tier 2] Thermal/Heat Transfer/Energy:     {tier2_count}")
+    print(f"  [Tier 3] Structures/Materials/Mfg:         {tier3_count}")
+    print(f"  [Tier 4] Robotics/Controls/Autonomy:       {tier4_count}")
     print(f"Field-Matched Faculty: {matched_count}")
     print(f"Direct Google Scholar User IDs: {with_id_count}")
     print(f"Faculty with Google Scholar Interest Tags scraped: {with_scholar_tags_count}")
