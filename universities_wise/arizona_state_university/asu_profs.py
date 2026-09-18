@@ -240,10 +240,25 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
     """
     Fetches exact Google Scholar interest tags, 3 top-cited papers (with journal, year, cites, and clickable DOI),
     and 3 recent papers from 2024-2026 (with journal, year, and clickable DOI) using OpenAlex with API key.
+    All extracted JSON data is saved locally in 'openalex_cache/' for future reference and auditing.
     """
     tags_str = ""
     top_papers_str = ""
     recent_papers_str = ""
+    
+    # Ensure cache directory exists for future reference
+    cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "openalex_cache")
+    os.makedirs(cache_dir, exist_ok=True)
+    slug = re.sub(r'[^a-zA-Z0-9]+', '_', name.strip().lower()).strip('_')
+    cache_file = os.path.join(cache_dir, f"{slug}.json")
+    
+    saved_intel: Dict[str, Any] = {
+        "faculty_name": name,
+        "author_metadata": {},
+        "top_cited_works": [],
+        "recent_works": []
+    }
+    
     try:
         clean_name = " ".join(name.split())
         url = f"https://api.openalex.org/authors?search={urllib.parse.quote(clean_name)}&api_key={OPENALEX_API_KEY}"
@@ -274,6 +289,7 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     matched_author = results[0]
 
             if matched_author:
+                saved_intel["author_metadata"] = matched_author
                 topics_raw = matched_author.get("topics", [])
                 if topics_raw:
                     top_topics = []
@@ -294,6 +310,7 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     w_res = requests.get(works_url, timeout=10)
                     if w_res.status_code == 200:
                         works = w_res.json().get("results", [])
+                        saved_intel["top_cited_works"] = works
                         papers_list = []
                         for w in works:
                             w_title = w.get("title")
@@ -314,6 +331,7 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     r_res = requests.get(recent_url, timeout=10)
                     if r_res.status_code == 200:
                         r_works = r_res.json().get("results", [])
+                        saved_intel["recent_works"] = r_works
                         recent_list = []
                         for w in r_works:
                             w_title = w.get("title")
@@ -327,6 +345,12 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                                 recent_list.append(f'"{w_title}"{j_str} ({w_year}){doi_str}')
                         if recent_list:
                             recent_papers_str = " | ".join(recent_list)
+
+        # Store complete JSON extraction for future reference
+        if saved_intel.get("author_metadata"):
+            import json
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(saved_intel, f, indent=2, ensure_ascii=False)
 
     except Exception as e:
         log.debug(f"Error fetching academic scholar intel for {name}: {e}")

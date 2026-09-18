@@ -11,9 +11,10 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 
 ## 1. Core Operating Constraints & Rules
 
-1. **NO Intermediate CSV or JSON Files**:
-   - The final output MUST strictly be a stylized Excel workbook (`.xlsx`).
-   - Clean up and purge any temporary `.csv` or `.json` files upon completion.
+1. **NO Intermediate CSV or JSON Spreadsheets**:
+   - The final primary output MUST strictly be a stylized Excel workbook (`.xlsx`) and interactive markdown reference (`.md`).
+   - Clean up and purge any temporary `.csv` or tabular `.json` spreadsheet dumps.
+   - Preserved API Intelligence: All raw API extractions from OpenAlex must be preserved in a dedicated `openalex_cache/` directory (named by professor slug) for complete reproducibility, auditability, and future reference.
 2. **Strict Active Faculty Verification (Zero Emeritus / Retired Faculty)**:
    - Always inspect ALL candidate title fields, appointment lists, affiliations, and subaffiliations.
    - Reject any profile containing: `emeritus`, `retired`, `adjunct`, `visiting`, `lecturer`, `instructor`, `postdoc`, `courtesy`, or `staff`.

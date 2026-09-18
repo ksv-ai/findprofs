@@ -1,0 +1,2822 @@
+{
+  "faculty_name": "Jeonglae Kim",
+  "author_metadata": {
+    "id": "https://openalex.org/A5004865972",
+    "orcid": null,
+    "display_name": "Jeonglae Kim",
+    "raw_author_names": [
+      "Jeonglae Kim"
+    ],
+    "full_name": "Jeonglae Kim",
+    "relevance_score": 2094.5603,
+    "works_count": 11,
+    "cited_by_count": 139,
+    "summary_stats": {
+      "2yr_mean_citedness": 0.0,
+      "h_index": 5,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004865972",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I157725225",
+          "ror": "https://ror.org/047426m28",
+          "display_name": "University of Illinois Urbana-Champaign",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157725225"
+          ]
+        },
+        "years": [
+          2014,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197347611",
+          "ror": "https://ror.org/047dqcg40",
+          "display_name": "Korea University",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I197347611"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55732556",
+          "ror": "https://ror.org/03efmqc40",
+          "display_name": "Arizona State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55732556"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I197347611",
+        "ror": "https://ror.org/047dqcg40",
+        "display_name": "Korea University",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I197347611"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I55732556",
+        "ror": "https://ror.org/03efmqc40",
+        "display_name": "Arizona State University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I55732556"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11008",
+        "display_name": "Aerodynamics and Acoustics in Jet Flows",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10360",
+        "display_name": "Fluid Dynamics and Turbulent Flows",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10173",
+        "display_name": "Computational Fluid Dynamics and Aerodynamics",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10553",
+        "display_name": "Combustion and flame dynamics",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10822",
+        "display_name": "Acoustic Wave Phenomena Research",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11008",
+        "display_name": "Aerodynamics and Acoustics in Jet Flows",
+        "value": 7.97e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10360",
+        "display_name": "Fluid Dynamics and Turbulent Flows",
+        "value": 1.71e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10822",
+        "display_name": "Acoustic Wave Phenomena Research",
+        "value": 1.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12007",
+        "display_name": "Plasma and Flow Control in Aerodynamics",
+        "value": 1.35e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10553",
+        "display_name": "Combustion and flame dynamics",
+        "value": 1.31e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "119947313",
+        "wikidata": "https://www.wikidata.org/wiki/Q5596635",
+        "display_name": "Jet (fluid)",
+        "score": 0.7790584564208984
+      },
+      {
+        "id": "57879066",
+        "wikidata": "https://www.wikidata.org/wiki/Q41217",
+        "display_name": "Mechanics",
+        "score": 0.689008355140686
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.6342542171478271
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.5715860724449158
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.3475176692008972
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2007,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2010,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 46
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      }
+    ],
+    "display_name_alternatives": [
+      "Jeonglae Kim"
+    ],
+    "block_key": "j kim",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004865972",
+    "updated_date": "2026-09-17T12:20:00",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "top_cited_works": [
+    {
+      "id": "https://openalex.org/W2152575054",
+      "doi": "https://doi.org/10.1017/jfm.2013.654",
+      "title": "Adjoint-based control of loud events in a turbulent jet",
+      "display_name": "Adjoint-based control of loud events in a turbulent jet",
+      "publication_year": 2014,
+      "publication_date": "2014-02-07",
+      "ids": {
+        "openalex": "https://openalex.org/W2152575054",
+        "doi": "https://doi.org/10.1017/jfm.2013.654",
+        "mag": "2152575054"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1017/jfm.2013.654",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/jfm.2013.654",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S152000018",
+          "display_name": "Journal of Fluid Mechanics",
+          "issn_l": "0022-1120",
+          "issn": [
+            "0022-1120",
+            "1469-7645",
+            "1750-6859"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Fluid Mechanics",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004865972",
+            "display_name": "Jeonglae Kim",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jeonglae Kim",
+          "raw_affiliation_strings": [
+            "Department of Mechanical Science and Engineering, University of Illinois at Urbana-Champaign, 1206 W. Green Street, Urbana, IL 61801, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Mechanical Science and Engineering, University of Illinois at Urbana-Champaign, 1206 W. Green Street, Urbana, IL 61801, USA",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5011367707",
+            "display_name": "Daniel J. Bodony",
+            "orcid": "https://orcid.org/0000-0002-7678-7044"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Daniel J. Bodony",
+          "raw_affiliation_strings": [
+            "Department of Aerospace Engineering, University of Illinois at Urbana-Champaign, 104 S. Wright Street, Urbana, IL 61801, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Aerospace Engineering, University of Illinois at Urbana-Champaign, 104 S. Wright Street, Urbana, IL 61801, USA",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027423603",
+            "display_name": "Jonathan B. Freund",
+            "orcid": "https://orcid.org/0000-0002-7073-1365"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Jonathan B. Freund",
+          "raw_affiliation_strings": [
+            "Department of Aerospace Engineering, University of Illinois at Urbana-Champaign, 104 S. Wright Street, Urbana, IL 61801, USA",
+            "Department of Mechanical Science and Engineering, University of Illinois at Urbana-Champaign, 1206 W. Green Street, Urbana, IL 61801, USA"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Aerospace Engineering, University of Illinois at Urbana-Champaign, 104 S. Wright Street, Urbana, IL 61801, USA",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Mechanical Science and Engineering, University of Illinois at Urbana-Champaign, 1206 W. Green Street, Urbana, IL 61801, USA",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5027423603"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I157725225"
+      ],
+      "apc_list": {
+        "value": 3550,
+        "currency": "USD",
+        "value_usd": 3550
+      },
+      "apc_paid": null,
+      "fwci": 102.0125,
+      "has_fulltext": false,
+      "cited_by_count": 46,
+      "citation_normalized_percentile": {
+        "value": 0.99772733,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 94,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "741",
+        "issue": null,
+        "first_page": "28",
+        "last_page": "59"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11008",
+        "display_name": "Aerodynamics and Acoustics in Jet Flows",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11008",
+          "display_name": "Aerodynamics and Acoustics in Jet Flows",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2202",
+            "display_name": "Aerospace Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10360",
+          "display_name": "Fluid Dynamics and Turbulent Flows",
+          "score": 0.9991000294685364,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2206",
+            "display_name": "Computational Mechanics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11206",
+          "display_name": "Model Reduction and Neural Networks",
+          "score": 0.9926999807357788,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3109",
+            "display_name": "Statistical and Nonlinear Physics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/31",
+            "display_name": "Physics and Astronomy"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/jet-noise",
+          "display_name": "Jet noise",
+          "score": 0.7827370762825012
+        },
+        {
+          "id": "https://openalex.org/keywords/turbulence",
+          "display_name": "Turbulence",
+          "score": 0.666877806186676
+        },
+        {
+          "id": "https://openalex.org/keywords/jet",
+          "display_name": "Jet (fluid)",
+          "score": 0.5068872570991516
+        },
+        {
+          "id": "https://openalex.org/keywords/parametric-statistics",
+          "display_name": "Parametric statistics",
+          "score": 0.5037688612937927
+        },
+        {
+          "id": "https://openalex.org/keywords/mach-number",
+          "display_name": "Mach number",
+          "score": 0.5025427341461182
+        },
+        {
+          "id": "https://openalex.org/keywords/noise",
+          "display_name": "Noise (video)",
+          "score": 0.48434412479400635
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.4675402045249939
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.45291540026664734
+        },
+        {
+          "id": "https://openalex.org/keywords/control-theory",
+          "display_name": "Control theory (sociology)",
+          "score": 0.4426221549510956
+        },
+        {
+          "id": "https://openalex.org/keywords/large-eddy-simulation",
+          "display_name": "Large eddy simulation",
+          "score": 0.43503665924072266
+        },
+        {
+          "id": "https://openalex.org/keywords/mechanics",
+          "display_name": "Mechanics",
+          "score": 0.42343637347221375
+        },
+        {
+          "id": "https://openalex.org/keywords/perturbation",
+          "display_name": "Perturbation (astronomy)",
+          "score": 0.4129774570465088
+        },
+        {
+          "id": "https://openalex.org/keywords/statistical-physics",
+          "display_name": "Statistical physics",
+          "score": 0.3505876958370209
+        },
+        {
+          "id": "https://openalex.org/keywords/control",
+          "display_name": "Control (management)",
+          "score": 0.2437918484210968
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.22626915574073792
+        },
+        {
+          "id": "https://openalex.org/keywords/statistics",
+          "display_name": "Statistics",
+          "score": 0.11200010776519775
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778940620",
+          "wikidata": "https://www.wikidata.org/wiki/Q6188942",
+          "display_name": "Jet noise",
+          "level": 3,
+          "score": 0.7827370762825012
+        },
+        {
+          "id": "https://openalex.org/C196558001",
+          "wikidata": "https://www.wikidata.org/wiki/Q190132",
+          "display_name": "Turbulence",
+          "level": 2,
+          "score": 0.666877806186676
+        },
+        {
+          "id": "https://openalex.org/C119947313",
+          "wikidata": "https://www.wikidata.org/wiki/Q5596635",
+          "display_name": "Jet (fluid)",
+          "level": 2,
+          "score": 0.5068872570991516
+        },
+        {
+          "id": "https://openalex.org/C117251300",
+          "wikidata": "https://www.wikidata.org/wiki/Q1849855",
+          "display_name": "Parametric statistics",
+          "level": 2,
+          "score": 0.5037688612937927
+        },
+        {
+          "id": "https://openalex.org/C165231844",
+          "wikidata": "https://www.wikidata.org/wiki/Q160669",
+          "display_name": "Mach number",
+          "level": 2,
+          "score": 0.5025427341461182
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.48434412479400635
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4675402045249939
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.45291540026664734
+        },
+        {
+          "id": "https://openalex.org/C47446073",
+          "wikidata": "https://www.wikidata.org/wiki/Q5165890",
+          "display_name": "Control theory (sociology)",
+          "level": 3,
+          "score": 0.4426221549510956
+        },
+        {
+          "id": "https://openalex.org/C121448008",
+          "wikidata": "https://www.wikidata.org/wiki/Q1755722",
+          "display_name": "Large eddy simulation",
+          "level": 3,
+          "score": 0.43503665924072266
+        },
+        {
+          "id": "https://openalex.org/C57879066",
+          "wikidata": "https://www.wikidata.org/wiki/Q41217",
+          "display_name": "Mechanics",
+          "level": 1,
+          "score": 0.42343637347221375
+        },
+        {
+          "id": "https://openalex.org/C177918212",
+          "wikidata": "https://www.wikidata.org/wiki/Q803623",
+          "display_name": "Perturbation (astronomy)",
+          "level": 2,
+          "score": 0.4129774570465088
+        },
+        {
+          "id": "https://openalex.org/C121864883",
+          "wikidata": "https://www.wikidata.org/wiki/Q677916",
+          "display_name": "Statistical physics",
+          "level": 1,
+          "score": 0.3505876958370209
+        },
+        {
+          "id": "https://openalex.org/C2775924081",
+          "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+          "display_name": "Control (management)",
+          "level": 2,
+          "score": 0.2437918484210968
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.22626915574073792
+        },
+        {
+          "id": "https://openalex.org/C105795698",
+          "wikidata": "https://www.wikidata.org/wiki/Q12483",
+          "display_name": "Statistics",
+          "level": 1,
+          "score": 0.11200010776519775
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C115961682",
+          "wikidata": "https://www.wikidata.org/wiki/Q860623",
+          "display_name": "Image (mathematics)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1017/jfm.2013.654",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1017/jfm.2013.654",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S152000018",
+            "display_name": "Journal of Fluid Mechanics",
+            "issn_l": "0022-1120",
+            "issn": [
+              "0022-1120",
+              "1469-7645",
+              "1750-6859"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310311721",
+            "host_organization_name": "Cambridge University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311721",
+              "https://openalex.org/P4310311702"
+            ],
+            "host_organization_lineage_names": [
+              "Cambridge University Press",
+              "University of Cambridge"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Fluid Mechanics",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
+          "score": 0.6200000047683716
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320306101",
+          "display_name": "National Aeronautics and Space Administration",
+          "ror": "https://ror.org/027ka1x80"
+        },
+        {
+          "id": "https://openalex.org/F4320309374",
+          "display_name": "Ohio State University",
+          "ror": "https://ror.org/00rs6vg23"
+        },
+        {
+          "id": "https://openalex.org/F4320337345",
+          "display_name": "Office of Naval Research",
+          "ror": "https://ror.org/00rk2pe57"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 67,
+      "referenced_works": [
+        "https://openalex.org/W124993034",
+        "https://openalex.org/W1966359670",
+        "https://openalex.org/W1968317884",
+        "https://openalex.org/W1972280645",
+        "https://openalex.org/W1974961323",
+        "https://openalex.org/W1981756274",
+        "https://openalex.org/W1982676365",
+        "https://openalex.org/W1983165369",
+        "https://openalex.org/W1998127729",
+        "https://openalex.org/W2001500851",
+        "https://openalex.org/W2002616426",
+        "https://openalex.org/W2004840352",
+        "https://openalex.org/W2005378463",
+        "https://openalex.org/W2015197832",
+        "https://openalex.org/W2017479642",
+        "https://openalex.org/W2021517931",
+        "https://openalex.org/W2024545184",
+        "https://openalex.org/W2034246316",
+        "https://openalex.org/W2034704398",
+        "https://openalex.org/W2043200311",
+        "https://openalex.org/W2046413099",
+        "https://openalex.org/W2047166888",
+        "https://openalex.org/W2053718869",
+        "https://openalex.org/W2054077541",
+        "https://openalex.org/W2054197107",
+        "https://openalex.org/W2062712788",
+        "https://openalex.org/W2065596545",
+        "https://openalex.org/W2066111877",
+        "https://openalex.org/W2067260262",
+        "https://openalex.org/W2070514138",
+        "https://openalex.org/W2074457552",
+        "https://openalex.org/W2078644903",
+        "https://openalex.org/W2080693911",
+        "https://openalex.org/W2083449273",
+        "https://openalex.org/W2086209713",
+        "https://openalex.org/W2089979907",
+        "https://openalex.org/W2095387898",
+        "https://openalex.org/W2095702650",
+        "https://openalex.org/W2096945723",
+        "https://openalex.org/W2103606462",
+        "https://openalex.org/W2110360252",
+        "https://openalex.org/W2111405281",
+        "https://openalex.org/W2111509581",
+        "https://openalex.org/W2114207542",
+        "https://openalex.org/W2119389101",
+        "https://openalex.org/W2123467795",
+        "https://openalex.org/W2126315656",
+        "https://openalex.org/W2135393609",
+        "https://openalex.org/W2146794926",
+        "https://openalex.org/W2151173177",
+        "https://openalex.org/W2151652088",
+        "https://openalex.org/W2152671090",
+        "https://openalex.org/W2161838126",
+        "https://openalex.org/W2169513642",
+        "https://openalex.org/W2169565444",
+        "https://openalex.org/W2313175173",
+        "https://openalex.org/W2325095812",
+        "https://openalex.org/W2325823659",
+        "https://openalex.org/W2329894699",
+        "https://openalex.org/W2331098260",
+        "https://openalex.org/W2341283081",
+        "https://openalex.org/W2605328162",
+        "https://openalex.org/W3021394930",
+        "https://openalex.org/W3171172616",
+        "https://openalex.org/W4210840446",
+        "https://openalex.org/W4252456546",
+        "https://openalex.org/W4380415235"
+      ],
+      "related_works": [
+        "https://openalex.org/W4379878358",
+        "https://openalex.org/W2032264760",
+        "https://openalex.org/W2027877250",
+        "https://openalex.org/W65290257",
+        "https://openalex.org/W4243350184",
+        "https://openalex.org/W2323984444",
+        "https://openalex.org/W2674723473",
+        "https://openalex.org/W2054962483",
+        "https://openalex.org/W2742391116",
+        "https://openalex.org/W2017108738"
+      ],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "Efforts": [
+          1
+        ],
+        "to": [
+          2,
+          119,
+          127,
+          157,
+          165,
+          216,
+          236,
+          250,
+          261,
+          283
+        ],
+        "reduce": [
+          3,
+          128,
+          205,
+          217
+        ],
+        "the": [
+          4,
+          17,
+          44,
+          56,
+          65,
+          148,
+          169,
+          199,
+          218,
+          288
+        ],
+        "noise": [
+          5,
+          15,
+          206
+        ],
+        "from": [
+          6,
+          198,
+          220
+        ],
+        "turbulent": [
+          7,
+          108,
+          223
+        ],
+        "jets": [
+          8,
+          224,
+          274
+        ],
+        "at": [
+          9
+        ],
+        "fixed": [
+          10
+        ],
+        "flow": [
+          11,
+          57,
+          175
+        ],
+        "conditions,": [
+          12
+        ],
+        "with": [
+          13,
+          82,
+          98,
+          267
+        ],
+        "aircraft": [
+          14
+        ],
+        "as": [
+          16
+        ],
+        "principal": [
+          18
+        ],
+        "technological": [
+          19
+        ],
+        "motivation,": [
+          20
+        ],
+        "have": [
+          21
+        ],
+        "generally": [
+          22
+        ],
+        "involved": [
+          23
+        ],
+        "some": [
+          24
+        ],
+        "degree": [
+          25
+        ],
+        "of": [
+          26,
+          34,
+          67,
+          104,
+          154,
+          171,
+          244
+        ],
+        "parametric": [
+          27
+        ],
+        "empiricism": [
+          28
+        ],
+        "often": [
+          29
+        ],
+        "based": [
+          30,
+          255
+        ],
+        "upon": [
+          31,
+          256
+        ],
+        "a": [
+          32,
+          38,
+          105,
+          114,
+          121,
+          195,
+          241,
+          252,
+          257,
+          264
+        ],
+        "series": [
+          33
+        ],
+        "trial-and-error": [
+          35
+        ],
+        "testing.": [
+          36
+        ],
+        "As": [
+          37
+        ],
+        "result,": [
+          39
+        ],
+        "it": [
+          40,
+          233
+        ],
+        "is": [
+          41,
+          141,
+          234
+        ],
+        "unclear": [
+          42
+        ],
+        "if": [
+          43,
+          73
+        ],
+        "modest": [
+          45,
+          214
+        ],
+        "reductions": [
+          46,
+          81,
+          159
+        ],
+        "found,": [
+          47
+        ],
+        "in": [
+          48,
+          96,
+          117,
+          125,
+          147,
+          240,
+          285
+        ],
+        "rare": [
+          49
+        ],
+        "cases": [
+          50
+        ],
+        "that": [
+          51,
+          132,
+          143,
+          187
+        ],
+        "do": [
+          52
+        ],
+        "not": [
+          53,
+          193,
+          248
+        ],
+        "greatly": [
+          54
+        ],
+        "affect": [
+          55
+        ],
+        "field": [
+          58
+        ],
+        "or": [
+          59,
+          72,
+          85,
+          228,
+          275
+        ],
+        "incur": [
+          60
+        ],
+        "prohibitive": [
+          61
+        ],
+        "losses,": [
+          62
+        ],
+        "are": [
+          63,
+          75,
+          182
+        ],
+        "near": [
+          64
+        ],
+        "limit": [
+          66
+        ],
+        "what": [
+          68
+        ],
+        "can": [
+          69
+        ],
+        "be": [
+          70,
+          194,
+          212,
+          251,
+          280
+        ],
+        "accomplished": [
+          71
+        ],
+        "there": [
+          74,
+          210,
+          246
+        ],
+        "undiscovered": [
+          76
+        ],
+        "opportunities": [
+          77,
+          215
+        ],
+        "for": [
+          78
+        ],
+        "more": [
+          79,
+          207,
+          281
+        ],
+        "substantive": [
+          80
+        ],
+        "better": [
+          83
+        ],
+        "designs": [
+          84
+        ],
+        "active": [
+          86
+        ],
+        "control.": [
+          87
+        ],
+        "We": [
+          88
+        ],
+        "assess": [
+          89
+        ],
+        "this": [
+          90
+        ],
+        "using": [
+          91
+        ],
+        "an": [
+          92,
+          99,
+          268
+        ],
+        "adjoint-based": [
+          93,
+          289
+        ],
+        "optimization": [
+          94,
+          290
+        ],
+        "procedure": [
+          95,
+          291
+        ],
+        "conjunction": [
+          97
+        ],
+        "experimentally": [
+          100
+        ],
+        "validated": [
+          101
+        ],
+        "large-eddy": [
+          102
+        ],
+        "simulation": [
+          103
+        ],
+        "Mach": [
+          106
+        ],
+        "1.3": [
+          107
+        ],
+        "jet.": [
+          109,
+          201
+        ],
+        "The": [
+          110,
+          162,
+          177
+        ],
+        "adjoint": [
+          111
+        ],
+        "solution": [
+          112
+        ],
+        "provides": [
+          113
+        ],
+        "definitive": [
+          115
+        ],
+        "direction": [
+          116
+        ],
+        "which": [
+          118,
+          286
+        ],
+        "adjust": [
+          120
+        ],
+        "model": [
+          122
+        ],
+        "control": [
+          123,
+          149,
+          163,
+          178
+        ],
+        "actuation": [
+          124
+        ],
+        "order": [
+          126
+        ],
+        "noise,": [
+          129
+        ],
+        "providing": [
+          130
+        ],
+        "guidance": [
+          131
+        ],
+        "seems": [
+          133,
+          164
+        ],
+        "lacking": [
+          134
+        ],
+        "by": [
+          135,
+          167
+        ],
+        "any": [
+          136,
+          188,
+          238
+        ],
+        "other": [
+          137,
+          158,
+          276
+        ],
+        "current": [
+          138
+        ],
+        "means.": [
+          139
+        ],
+        "It": [
+          140
+        ],
+        "found": [
+          142,
+          160
+        ],
+        "three": [
+          144
+        ],
+        "conjugate-gradient": [
+          145
+        ],
+        "iterations": [
+          146,
+          203
+        ],
+        "space": [
+          150,
+          243
+        ],
+        "provide": [
+          151,
+          295
+        ],
+        "∼3.5": [
+          152
+        ],
+        "dB": [
+          153
+        ],
+        "reduction,": [
+          155
+        ],
+        "comparable": [
+          156
+        ],
+        "empirically.": [
+          161
+        ],
+        "work": [
+          166
+        ],
+        "disrupting": [
+          168
+        ],
+        "coherence": [
+          170
+        ],
+        "acoustically": [
+          172
+        ],
+        "efficient": [
+          173
+        ],
+        "axisymmetric": [
+          174
+        ],
+        "structures.": [
+          176
+        ],
+        "and": [
+          179
+        ],
+        "noise-reduction": [
+          180
+        ],
+        "mechanisms": [
+          181
+        ],
+        "informative,": [
+          183
+        ],
+        "but": [
+          184,
+          209
+        ],
+        "also": [
+          185
+        ],
+        "suggest": [
+          186
+        ],
+        "significantly": [
+          189
+        ],
+        "quieter": [
+          190
+        ],
+        "state": [
+          191
+        ],
+        "would": [
+          192
+        ],
+        "simple": [
+          196,
+          221
+        ],
+        "perturbation": [
+          197
+        ],
+        "uncontrolled": [
+          200
+        ],
+        "Additional": [
+          202
+        ],
+        "might": [
+          204,
+          211
+        ],
+        "significantly,": [
+          208
+        ],
+        "only": [
+          213
+        ],
+        "sound": [
+          219
+        ],
+        "round": [
+          222
+        ],
+        "without": [
+          225
+        ],
+        "radical": [
+          226
+        ],
+        "changes": [
+          227
+        ],
+        "relatively": [
+          229
+        ],
+        "sophisticated": [
+          230
+        ],
+        "controls.": [
+          231
+        ],
+        "Though": [
+          232
+        ],
+        "difficult": [
+          235
+        ],
+        "prove": [
+          237
+        ],
+        "behaviour": [
+          239
+        ],
+        "global": [
+          242
+        ],
+        "actuations,": [
+          245
+        ],
+        "does": [
+          247
+        ],
+        "seem": [
+          249
+        ],
+        "direct": [
+          253
+        ],
+        "route": [
+          254
+        ],
+        "local": [
+          258
+        ],
+        "sensitivity": [
+          259
+        ],
+        "gradient": [
+          260
+        ],
+        "substantially": [
+          262
+        ],
+        "quieting": [
+          263
+        ],
+        "jet,": [
+          265
+        ],
+        "even": [
+          266
+        ],
+        "unrealistically": [
+          269
+        ],
+        "flexible": [
+          270
+        ],
+        "actuation.": [
+          271
+        ],
+        "More": [
+          272
+        ],
+        "complex": [
+          273
+        ],
+        "noisy": [
+          277
+        ],
+        "flows": [
+          278
+        ],
+        "may": [
+          279
+        ],
+        "amenable": [
+          282
+        ],
+        "control,": [
+          284
+        ],
+        "case": [
+          287
+        ],
+        "demonstrated": [
+          292
+        ],
+        "here": [
+          293
+        ],
+        "could": [
+          294
+        ],
+        "invaluable": [
+          296
+        ],
+        "engineering": [
+          297
+        ],
+        "guidance.": [
+          298
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 8
+        }
+      ],
+      "updated_date": "2026-08-21T09:56:20.448147",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2335140165",
+      "doi": "https://doi.org/10.2514/6.2009-290",
+      "title": "LES Investigation of a Mach 1.3 Jet With and Without Plasma Actuators",
+      "display_name": "LES Investigation of a Mach 1.3 Jet With and Without Plasma Actuators",
+      "publication_year": 2009,
+      "publication_date": "2009-01-05",
+      "ids": {
+        "openalex": "https://openalex.org/W2335140165",
+        "doi": "https://doi.org/10.2514/6.2009-290",
+        "mag": "2335140165"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2514/6.2009-290",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2514/6.2009-290",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306499471",
+          "display_name": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+        "raw_type": "proceedings-article"
+      },
+      "type": "conference-paper",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004865972",
+            "display_name": "Jeonglae Kim",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jeonglae Kim",
+          "raw_affiliation_strings": [
+            "University of Illinois at Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois at Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5000448218",
+            "display_name": "Asghar Afshari",
+            "orcid": "https://orcid.org/0000-0001-6533-9089"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Asghar Afshari",
+          "raw_affiliation_strings": [
+            "University of Illinois at Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois at Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5011367707",
+            "display_name": "Daniel J. Bodony",
+            "orcid": "https://orcid.org/0000-0002-7678-7044"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Daniel Bodony",
+          "raw_affiliation_strings": [
+            "University of Illinois at Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois at Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027423603",
+            "display_name": "Jonathan B. Freund",
+            "orcid": "https://orcid.org/0000-0002-7073-1365"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jonathan Freund",
+          "raw_affiliation_strings": [
+            "University of Illinois at Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois at Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I157725225"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 13.2874,
+      "has_fulltext": false,
+      "cited_by_count": 38,
+      "citation_normalized_percentile": {
+        "value": 0.99184255,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10360",
+        "display_name": "Fluid Dynamics and Turbulent Flows",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10360",
+          "display_name": "Fluid Dynamics and Turbulent Flows",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2206",
+            "display_name": "Computational Mechanics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11008",
+          "display_name": "Aerodynamics and Acoustics in Jet Flows",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2202",
+            "display_name": "Aerospace Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12007",
+          "display_name": "Plasma and Flow Control in Aerodynamics",
+          "score": 0.9994999766349792,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2202",
+            "display_name": "Aerospace Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/mach-number",
+          "display_name": "Mach number",
+          "score": 0.7749245166778564
+        },
+        {
+          "id": "https://openalex.org/keywords/jet",
+          "display_name": "Jet (fluid)",
+          "score": 0.6379870176315308
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.5809363126754761
+        },
+        {
+          "id": "https://openalex.org/keywords/plasma-actuator",
+          "display_name": "Plasma actuator",
+          "score": 0.5777322053909302
+        },
+        {
+          "id": "https://openalex.org/keywords/actuator",
+          "display_name": "Actuator",
+          "score": 0.5771036744117737
+        },
+        {
+          "id": "https://openalex.org/keywords/plasma",
+          "display_name": "Plasma",
+          "score": 0.5604793429374695
+        },
+        {
+          "id": "https://openalex.org/keywords/mach-reflection",
+          "display_name": "Mach reflection",
+          "score": 0.4617796838283539
+        },
+        {
+          "id": "https://openalex.org/keywords/aerospace-engineering",
+          "display_name": "Aerospace engineering",
+          "score": 0.45576581358909607
+        },
+        {
+          "id": "https://openalex.org/keywords/mechanics",
+          "display_name": "Mechanics",
+          "score": 0.39696159958839417
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.30535516142845154
+        },
+        {
+          "id": "https://openalex.org/keywords/mach-wave",
+          "display_name": "Mach wave",
+          "score": 0.2312939465045929
+        },
+        {
+          "id": "https://openalex.org/keywords/engineering",
+          "display_name": "Engineering",
+          "score": 0.17570635676383972
+        },
+        {
+          "id": "https://openalex.org/keywords/nuclear-physics",
+          "display_name": "Nuclear physics",
+          "score": 0.10182762145996094
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C165231844",
+          "wikidata": "https://www.wikidata.org/wiki/Q160669",
+          "display_name": "Mach number",
+          "level": 2,
+          "score": 0.7749245166778564
+        },
+        {
+          "id": "https://openalex.org/C119947313",
+          "wikidata": "https://www.wikidata.org/wiki/Q5596635",
+          "display_name": "Jet (fluid)",
+          "level": 2,
+          "score": 0.6379870176315308
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.5809363126754761
+        },
+        {
+          "id": "https://openalex.org/C18590420",
+          "wikidata": "https://www.wikidata.org/wiki/Q7201761",
+          "display_name": "Plasma actuator",
+          "level": 4,
+          "score": 0.5777322053909302
+        },
+        {
+          "id": "https://openalex.org/C172707124",
+          "wikidata": "https://www.wikidata.org/wiki/Q423488",
+          "display_name": "Actuator",
+          "level": 2,
+          "score": 0.5771036744117737
+        },
+        {
+          "id": "https://openalex.org/C82706917",
+          "wikidata": "https://www.wikidata.org/wiki/Q10251",
+          "display_name": "Plasma",
+          "level": 2,
+          "score": 0.5604793429374695
+        },
+        {
+          "id": "https://openalex.org/C169889854",
+          "wikidata": "https://www.wikidata.org/wiki/Q6723332",
+          "display_name": "Mach reflection",
+          "level": 4,
+          "score": 0.4617796838283539
+        },
+        {
+          "id": "https://openalex.org/C146978453",
+          "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+          "display_name": "Aerospace engineering",
+          "level": 1,
+          "score": 0.45576581358909607
+        },
+        {
+          "id": "https://openalex.org/C57879066",
+          "wikidata": "https://www.wikidata.org/wiki/Q41217",
+          "display_name": "Mechanics",
+          "level": 1,
+          "score": 0.39696159958839417
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.30535516142845154
+        },
+        {
+          "id": "https://openalex.org/C107119854",
+          "wikidata": "https://www.wikidata.org/wiki/Q775708",
+          "display_name": "Mach wave",
+          "level": 3,
+          "score": 0.2312939465045929
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.17570635676383972
+        },
+        {
+          "id": "https://openalex.org/C185544564",
+          "wikidata": "https://www.wikidata.org/wiki/Q81197",
+          "display_name": "Nuclear physics",
+          "level": 1,
+          "score": 0.10182762145996094
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C89448510",
+          "wikidata": "https://www.wikidata.org/wiki/Q58313",
+          "display_name": "Dielectric barrier discharge",
+          "level": 3,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2514/6.2009-290",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2514/6.2009-290",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306499471",
+            "display_name": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
+          "score": 0.8500000238418579
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 25,
+      "referenced_works": [
+        "https://openalex.org/W49012809",
+        "https://openalex.org/W124993034",
+        "https://openalex.org/W1964560601",
+        "https://openalex.org/W1974704359",
+        "https://openalex.org/W1983165369",
+        "https://openalex.org/W1985926034",
+        "https://openalex.org/W1996579580",
+        "https://openalex.org/W2004152688",
+        "https://openalex.org/W2004840352",
+        "https://openalex.org/W2005984935",
+        "https://openalex.org/W2017479642",
+        "https://openalex.org/W2043291772",
+        "https://openalex.org/W2046413099",
+        "https://openalex.org/W2050947747",
+        "https://openalex.org/W2062712788",
+        "https://openalex.org/W2065932192",
+        "https://openalex.org/W2074457552",
+        "https://openalex.org/W2078644903",
+        "https://openalex.org/W2086209713",
+        "https://openalex.org/W2092252095",
+        "https://openalex.org/W2103606462",
+        "https://openalex.org/W2114473945",
+        "https://openalex.org/W2123766729",
+        "https://openalex.org/W2132796867",
+        "https://openalex.org/W2151652088"
+      ],
+      "related_works": [
+        "https://openalex.org/W1604500314",
+        "https://openalex.org/W1992645339",
+        "https://openalex.org/W2048469134",
+        "https://openalex.org/W1971115917",
+        "https://openalex.org/W2085273969",
+        "https://openalex.org/W2077110693",
+        "https://openalex.org/W581919112",
+        "https://openalex.org/W2910620474",
+        "https://openalex.org/W2365261872",
+        "https://openalex.org/W2017107654"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 7
+        }
+      ],
+      "updated_date": "2026-07-29T14:22:42.915294",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2326154810",
+      "doi": "https://doi.org/10.2514/6.2010-3818",
+      "title": "A High-Order, Overset-Mesh Algorithm for Adjoint-Based Optimization for Aeroacoustics Control",
+      "display_name": "A High-Order, Overset-Mesh Algorithm for Adjoint-Based Optimization for Aeroacoustics Control",
+      "publication_year": 2010,
+      "publication_date": "2010-06-07",
+      "ids": {
+        "openalex": "https://openalex.org/W2326154810",
+        "doi": "https://doi.org/10.2514/6.2010-3818",
+        "mag": "2326154810"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2514/6.2010-3818",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2514/6.2010-3818",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "16th AIAA/CEAS Aeroacoustics Conference",
+        "raw_type": "proceedings-article"
+      },
+      "type": "conference-paper",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5004865972",
+            "display_name": "Jeonglae Kim",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jeonglae Kim",
+          "raw_affiliation_strings": [
+            "University of Illinois, Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois, Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5011367707",
+            "display_name": "Daniel J. Bodony",
+            "orcid": "https://orcid.org/0000-0002-7678-7044"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Daniel Bodony",
+          "raw_affiliation_strings": [
+            "University of Illinois, Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois, Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5027423603",
+            "display_name": "Jonathan B. Freund",
+            "orcid": "https://orcid.org/0000-0002-7073-1365"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I157725225",
+              "display_name": "University of Illinois Urbana-Champaign",
+              "ror": "https://ror.org/047426m28",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jonathan Freund",
+          "raw_affiliation_strings": [
+            "University of Illinois, Urbana-Champaign"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Illinois, Urbana-Champaign",
+              "institution_ids": [
+                "https://openalex.org/I157725225"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I157725225"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 18.3764,
+      "has_fulltext": false,
+      "cited_by_count": 21,
+      "citation_normalized_percentile": {
+        "value": 0.99657436,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 99
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11008",
+        "display_name": "Aerodynamics and Acoustics in Jet Flows",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11008",
+          "display_name": "Aerodynamics and Acoustics in Jet Flows",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2202",
+            "display_name": "Aerospace Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10822",
+          "display_name": "Acoustic Wave Phenomena Research",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2204",
+            "display_name": "Biomedical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10360",
+          "display_name": "Fluid Dynamics and Turbulent Flows",
+          "score": 0.9984999895095825,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2206",
+            "display_name": "Computational Mechanics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/computational-aeroacoustics",
+          "display_name": "Computational aeroacoustics",
+          "score": 0.8124974370002747
+        },
+        {
+          "id": "https://openalex.org/keywords/aeroacoustics",
+          "display_name": "Aeroacoustics",
+          "score": 0.7386801242828369
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.5715860724449158
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-optimization",
+          "display_name": "Mathematical optimization",
+          "score": 0.35034066438674927
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.3438708782196045
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.259749174118042
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C121684219",
+          "wikidata": "https://www.wikidata.org/wiki/Q2735940",
+          "display_name": "Computational aeroacoustics",
+          "level": 4,
+          "score": 0.8124974370002747
+        },
+        {
+          "id": "https://openalex.org/C120763676",
+          "wikidata": "https://www.wikidata.org/wiki/Q381331",
+          "display_name": "Aeroacoustics",
+          "level": 3,
+          "score": 0.7386801242828369
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5715860724449158
+        },
+        {
+          "id": "https://openalex.org/C126255220",
+          "wikidata": "https://www.wikidata.org/wiki/Q141495",
+          "display_name": "Mathematical optimization",
+          "level": 1,
+          "score": 0.35034066438674927
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.3438708782196045
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.259749174118042
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C68115822",
+          "wikidata": "https://www.wikidata.org/wiki/Q1068172",
+          "display_name": "Sound pressure",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2514/6.2010-3818",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2514/6.2010-3818",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "16th AIAA/CEAS Aeroacoustics Conference",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
+          "score": 0.5899999737739563
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320306101",
+          "display_name": "National Aeronautics and Space Administration",
+          "ror": "https://ror.org/027ka1x80"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 59,
+      "referenced_works": [
+        "https://openalex.org/W49012809",
+        "https://openalex.org/W1550555215",
+        "https://openalex.org/W1572591577",
+        "https://openalex.org/W1631665119",
+        "https://openalex.org/W1765320685",
+        "https://openalex.org/W1964560601",
+        "https://openalex.org/W1968317884",
+        "https://openalex.org/W1974704359",
+        "https://openalex.org/W1982676365",
+        "https://openalex.org/W1983165369",
+        "https://openalex.org/W1993444906",
+        "https://openalex.org/W1996579580",
+        "https://openalex.org/W1999192945",
+        "https://openalex.org/W2001763699",
+        "https://openalex.org/W2004840352",
+        "https://openalex.org/W2005378463",
+        "https://openalex.org/W2005984935",
+        "https://openalex.org/W2006430937",
+        "https://openalex.org/W2017479642",
+        "https://openalex.org/W2023490615",
+        "https://openalex.org/W2035367449",
+        "https://openalex.org/W2036533194",
+        "https://openalex.org/W2043200311",
+        "https://openalex.org/W2044070003",
+        "https://openalex.org/W2046413099",
+        "https://openalex.org/W2048350076",
+        "https://openalex.org/W2062712788",
+        "https://openalex.org/W2065090691",
+        "https://openalex.org/W2066111877",
+        "https://openalex.org/W2067260262",
+        "https://openalex.org/W2072980307",
+        "https://openalex.org/W2074457552",
+        "https://openalex.org/W2078644903",
+        "https://openalex.org/W2086209713",
+        "https://openalex.org/W2103606462",
+        "https://openalex.org/W2111509581",
+        "https://openalex.org/W2114207542",
+        "https://openalex.org/W2136160744",
+        "https://openalex.org/W2139875220",
+        "https://openalex.org/W2145819405",
+        "https://openalex.org/W2146794926",
+        "https://openalex.org/W2151173177",
+        "https://openalex.org/W2151652088",
+        "https://openalex.org/W2313175173",
+        "https://openalex.org/W2320969903",
+        "https://openalex.org/W2324703863",
+        "https://openalex.org/W2325095812",
+        "https://openalex.org/W2325570506",
+        "https://openalex.org/W2329504225",
+        "https://openalex.org/W2335140165",
+        "https://openalex.org/W2578730987",
+        "https://openalex.org/W2764433274",
+        "https://openalex.org/W2796575992",
+        "https://openalex.org/W2947485592",
+        "https://openalex.org/W3185643773",
+        "https://openalex.org/W4210840446",
+        "https://openalex.org/W4252456546",
+        "https://openalex.org/W4298771957",
+        "https://openalex.org/W4380415235"
+      ],
+      "related_works": [
+        "https://openalex.org/W1641985753",
+        "https://openalex.org/W2391834670",
+        "https://openalex.org/W3173253651",
+        "https://openalex.org/W2139155618",
+        "https://openalex.org/W4235505166",
+        "https://openalex.org/W2047481645",
+        "https://openalex.org/W4249780223",
+        "https://openalex.org/W2085391260",
+        "https://openalex.org/W2548236378",
+        "https://openalex.org/W2070304671"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 7
+        }
+      ],
+      "updated_date": "2026-07-29T14:22:42.915294",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "recent_works": []
+}

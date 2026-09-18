@@ -532,6 +532,7 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/rjmilcar) | [🎓 Google Scholar (m-Pb6g2pm2UC)](https://scholar.google.com/citations?hl=en&user=m-Pb6g2pm2UC) | [🔬 Lab Website](http://RESEARCHGATE.net/profile/Ryan_Milcarek) | [✉️ Ryan.Milcarek@asu.edu](mailto:Ryan.Milcarek@asu.edu)
 
 - **Matched Research Keywords (4)**: `aerospace, combustion, energy systems, materials`
+- **Top Research Topics (Topic & Pub Count)**: `Advancements in Solid Oxide Fuel Cells (54) | Fuel Cells and Related Materials (31) | Catalytic Processes in Materials Science (30)`
 - **Office Location**: ENGRC 465 (Tempe, AZ 85287)
 - **Education & Degrees**: Ph.D. Mechanical and Aerospace Engineering, College of Engineering and Computer Science, Syracuse University 2018 | M.S. Mechanical and Aerospace Engineering, College of Engineering and Computer Science, Syracuse University 2017 | M.S. Energy Systems Engineering, College of Engineering and Computer Science, Syracuse University 2017 | Certificate of Advanced Study (CAS) Sustainable Enterprise, Martin J. Whitman School of Management, Syracuse University 2017 | Certificate in University Teaching (CUT). Graduate School, Future Professorate Program, Syracuse University 2017 | B.S. Mechanical Engineering; minor: Mathematics (Summa Cum Laude), L.C. Smith College of Engineering and Computer Science, Syracuse University 2014
 - **Expertise Taxonomy**: Ceramics, Electrochemistry, Energy, Energy and Sustainability, Energy Conservation, Energy Economics, Energy Efficiency Technologies, Thin Film Materials
@@ -540,6 +541,14 @@
 
 #### 🎯 Cold Outreach Personalization Hooks
 - 📄 **Latest Lab Paper / Highlight**: *"Micro-scale Thermal Partial Oxidation Reformer and Integrated Solid Oxide Fuel Cell Operating with Jet Fuel,"*
+- 🌟 **Top Cited Papers (Landmark Research)**:
+  1. "A review of energy storage technologies for demand-side management in industrial facilities" [Journal of Cleaner Production] (2021, 100 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jclepro.2021.127322)
+  2. "Techno-Economic Assessment of CHP Systems in Wastewater Treatment Plants" [Environments] (2020, 78 cites) — [🔗 DOI Link](https://doi.org/10.3390/environments7100074)
+  3. "Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine" [Energy Conversion and Management X] (2023, 50 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.ecmx.2023.100394)
+- 🔬 **Recent Papers (2024–2026)**:
+  1. "Multi-year assessment of energy storage capacity for a carbon-neutral grid in Arizona and the impact of wind energy integration" [Renewable Energy] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.renene.2026.126276)
+  2. "Analysis of gas turbines with diffusion, premixed and rich-quench-lean combustor designs utilizing ternary CH4/H2/NH3 fuel blends" [Energy Conversion and Management] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.enconman.2026.121736)
+  3. "Micro-scale thermal partial oxidation reformer and integrated solid oxide fuel cell operating with jet fuel" [Journal of Power Sources] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.jpowsour.2026.240198)
 - 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 436: Combustion | MAE 536: Combustion`
 - 🏆 **Recent Awards / Honors**: Outstanding Faculty Mentor, Fulton Schools of Engineering, For the Fulton Forge Student Research programs, 2026 | 1st Place, Student Paper Competition, 2025 ASME IMECE Power Symposium, 2025
 
@@ -842,7 +851,6 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/hzhuang7) | [🎓 Google Scholar (4yYKCpUAAAAJ)](https://scholar.google.com/citations?hl=en&user=4yYKCpUAAAAJ) | [✉️ zhuanghl@asu.edu](mailto:zhuanghl@asu.edu)
 
 - **Matched Research Keywords (2)**: `aerospace, materials`
-- **Top Research Topics (Topic & Pub Count)**: `2D Materials and Applications (58) | Graphene research and applications (43) | MXene and MAX Phase Materials (23)`
 - **Office Location**: Campus: Tempe
 - **Education & Degrees**: Postdoc, Department of Mechanical and Aerospace Engineering, Princeton University Postdoc, Center for Nanophase Materials Sciences, Oak Ridge National Laboratory Ph.D., Major: Materials Science and Engineering; Minor: Applied Engineering Physics, Cornell University M.S., Major: Materials Science and Engineering; Minor: Applied Engineering Physics, Cornell University M.Phil., Mechanical Engineering, The University of Hong Kong B.Eng., Materials Science and Engineering, Hunan University
 - **Expertise Taxonomy**: Artificial Photosynthesis, Chemistry, Computational Physics, Machine Learning, Materials Science, Metals, Nanoscience, Semiconductors
@@ -850,14 +858,6 @@
 - **Bio / Summary**: Dr. Houlong Zhuang is an associate professor in the School for Engineering of Matter, Transport and Energy at ASU. He received his doctorate in materials science and engineering at Cornell University. Prior to ASU, Dr. Zhuang was a postdoctoral researcher at Princeton University. Dr. Zhuang’s current research interests are quantum mechanical simulations, machine learning, and quantum computing.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 🌟 **Top Cited Papers (Landmark Research)**:
-  1. "Prediction and Characterization of MXene Nanosheet Anodes for Non-Lithium-Ion Batteries" [ACS Nano] (2014, 1046 cites) — [🔗 DOI Link](https://doi.org/10.1021/nn503921j)
-  2. "Single-Layer Group-III Monochalcogenide Photocatalysts for Water Splitting" [Chemistry of Materials] (2013, 852 cites) — [🔗 DOI Link](https://doi.org/10.1021/cm401661x)
-  3. "Computational Screening of 2D Materials for Photocatalysis" [The Journal of Physical Chemistry Letters] (2015, 833 cites) — [🔗 DOI Link](https://doi.org/10.1021/jz502646d)
-- 🔬 **Recent Papers (2024–2026)**:
-  1. "Large Language Model Assisted Discovery of Optimal Dopants for Enhanced Thermoelectric Performance in CoSb$_3$ Based Skutterudites" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2604.06048)
-  2. "Large Language Model Assisted Discovery of Optimal Dopants for Enhanced Thermoelectric Performance in CoSb$_3$ Based Skutterudites" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](http://arxiv.org/abs/2604.06048)
-  3. "AI and 3D printing help researchers create heat- and pressure-resistant materials for aerospace and defense applications" (2026) — [🔗 DOI Link](https://doi.org/10.64628/aai.rjqc4cr7j)
 - 📚 **Courses Taught**: `MAE 551: Appl Machine Learn Mech Engr | MAE 451: Appl Machine Learn Mech Engr | MAE 202: Mech.Particles/Rigid Bodies II`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -1302,10 +1302,6 @@
   1. "Plant-Derived Exosomal MicroRNAs Shape the Gut Microbiota" [Cell Host & Microbe] (2018, 1030 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.chom.2018.10.001)
   2. "MVP-mediated exosomal sorting of miR-193a promotes colon cancer progression" [Nature Communications] (2017, 502 cites) — [🔗 DOI Link](https://doi.org/10.1038/ncomms14448)
   3. "CD36 gene transfer confers capacity for phagocytosis of cells undergoing apoptosis." [The Journal of Experimental Medicine] (1995, 394 cites) — [🔗 DOI Link](https://doi.org/10.1084/jem.181.5.1857)
-- 🔬 **Recent Papers (2024–2026)**:
-  1. "A Rapid Poly(ethylene glycol)-Assisted Magnetic Isolation Approach for High-Throughput Extracellular Vesicle Isolation and Subsequent Biomarker Analysis" [ACS Nano] (2026) — [🔗 DOI Link](https://doi.org/10.1021/acsnano.6c09351)
-  2. "Impact of sarcopenia on short- and long-term outcomes after resection of perihilar cholangiocarcinoma: a two-center study" [BMC Cancer] (2026) — [🔗 DOI Link](https://doi.org/10.1186/s12885-026-16305-7)
-  3. "Genotypic features of Spinocerebellar Ataxia in Northern China: A Comparative Analysis with Southern China" [The Cerebellum] (2026) — [🔗 DOI Link](https://doi.org/10.1007/s12311-026-02058-3)
 - 📚 **Courses Taught**: `MAE 494: Special Topics | MAE 598: Special Topics | MAE 301: Applied Experimental Statistic`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
