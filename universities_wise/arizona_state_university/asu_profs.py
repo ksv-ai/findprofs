@@ -285,37 +285,50 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
                 subpages["research"] = full_sub_url
 
         # 1. Hiring / Openings & Cold Email Instructions (from homepage)
-        if any(w in page_text.lower() for w in ["looking for motivated", "openings", "join us", "open position", "phd positions available", "prospective students", "intern"]):
-            sentences = re.split(r'[.\n]', page_text)
-            for s in sentences:
-                s_clean = " ".join(s.split())
-                if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and 15 < len(s_clean) < 140:
-                    details["Actively Hiring / Openings"] = s_clean
-                    break
-                if any(k in s_clean.lower() for k in ["email me", "send your cv", "subject line", "cover letter", "cv, transcript"]) and 20 < len(s_clean) < 180:
-                    details["Cold Email / Application Instructions"] = s_clean
+        openings_keywords = ["looking for", "openings", "positions available", "join our group", "join the lab", "phd position", "undergraduate", "intern"]
+        instructions_keywords = ["email me", "send your cv", "subject line", "cover letter", "cv, transcript", "to apply", "statement on describing", "interested candidates should", "prospective ph"]
 
-            if not details["Actively Hiring / Openings"]:
-                details["Actively Hiring / Openings"] = "Actively recruiting / Openings mentioned on lab site"
+        # First extract from full semantic paragraphs/list items
+        for el in soup.find_all(["p", "li", "blockquote"]):
+            el_text = " ".join(el.get_text(separator=" ").split())
+            el_text_clean = el_text.replace('\xa0', ' ').strip()
+            t_low = el_text_clean.lower()
+            if not details["Cold Email / Application Instructions"] and any(k in t_low for k in ["send your cv", "email me", "to apply", "prospective ph", "subject line", "statement on describing", "interested candidates should", "cv, transcript"]):
+                if 25 <= len(el_text_clean) <= 1200:
+                    details["Cold Email / Application Instructions"] = el_text_clean
+            if not details["Actively Hiring / Openings"] and any(k in t_low for k in ["looking for motivated", "openings", "positions available", "phd positions available", "open position"]):
+                if 20 <= len(el_text_clean) <= 500:
+                    details["Actively Hiring / Openings"] = el_text_clean
 
-        # Check dedicated openings subpage if available
+        # Check dedicated openings subpage if available for richer full statements
         if "openings" in subpages:
             try:
                 r_o = scraper.get(subpages["openings"], timeout=8)
                 if r_o.status_code == 200:
                     soup_o = BeautifulSoup(r_o.text, "html.parser")
-                    text_o = soup_o.get_text(separator=" ")
-                    sentences_o = re.split(r'[.\n]', text_o)
-                    for s in sentences_o:
-                        s_c = " ".join(s.split())
-                        if not details["Actively Hiring / Openings"] and any(k in s_c.lower() for k in ["looking for", "openings", "phd position", "undergraduate", "interns"]) and 15 < len(s_c) < 140:
-                            details["Actively Hiring / Openings"] = s_c
-                        if any(k in s_c.lower() for k in ["email", "send", "cv", "transcript", "statement", "subject line"]) and 25 < len(s_c) < 180:
-                            if not details["Cold Email / Application Instructions"]:
-                                details["Cold Email / Application Instructions"] = s_c
-                                break
+                    # Search semantic paragraphs/lists for complete outreach instructions
+                    found_subpage_instructions = []
+                    found_subpage_openings = []
+                    for el in soup_o.find_all(["p", "li", "blockquote"]):
+                        el_text = " ".join(el.get_text(separator=" ").split())
+                        el_text_clean = el_text.replace('\xa0', ' ').strip()
+                        t_low = el_text_clean.lower()
+                        if any(k in t_low for k in ["to apply", "send your cv", "email", "prospective ph", "prospective student", "cover letter", "subject line", "cv, transcript", "statement on describing", "interested candidates should"]):
+                            if 35 <= len(el_text_clean) <= 1200 and el_text_clean not in found_subpage_instructions:
+                                found_subpage_instructions.append(el_text_clean)
+                        if any(k in t_low for k in ["looking for", "openings", "phd position", "undergraduate", "interns", "seeking"]):
+                            if 25 <= len(el_text_clean) <= 500 and el_text_clean not in found_subpage_openings:
+                                found_subpage_openings.append(el_text_clean)
+
+                    if found_subpage_instructions:
+                        details["Cold Email / Application Instructions"] = " | ".join(found_subpage_instructions[:2])
+                    if found_subpage_openings:
+                        details["Actively Hiring / Openings"] = " | ".join(found_subpage_openings[:2])
             except Exception:
                 pass
+
+        if not details["Actively Hiring / Openings"] and any(w in page_text.lower() for w in ["openings", "join us", "open position", "phd positions available"]):
+            details["Actively Hiring / Openings"] = "Actively recruiting / Openings mentioned on lab site"
 
         # 2. Latest Publications from dedicated pub subpage or homepage
         target_pub_soup = soup
@@ -670,8 +683,13 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
         if lab_url:
             lab_details = scrape_deep_lab_site(scraper, lab_url)
             for k, v in lab_details.items():
-                if v and (not prof.get(k) or prof.get(k) == ""):
-                    prof[k] = v
+                if v:
+                    # Prefer rich complete instructions and openings from lab sites over truncated initial snippets
+                    if k in ["Cold Email / Application Instructions", "Actively Hiring / Openings", "Latest Paper / Publication"]:
+                        if not prof.get(k) or len(str(v)) > len(str(prof.get(k, ""))):
+                            prof[k] = v
+                    elif not prof.get(k) or prof.get(k) == "":
+                        prof[k] = v
 
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
@@ -773,6 +791,153 @@ def export_to_excel(faculty_list: List[Dict], output_path: str, columns: List[st
     log.info(f"Excel successfully created at: {output_path}")
 
 
+def export_to_markdown(faculty_list: List[Dict], md_path: str):
+    """
+    Generates an organized, comprehensive Markdown document (.md)
+    containing full faculty profiles, active opportunities, cold outreach hooks,
+    and direct clickable links.
+    """
+    field_matched = [f for f in faculty_list if f.get("Is Field Match")]
+    field_matched.sort(key=lambda x: (-x["Matched Count"], x["Name"].strip().lower()))
+
+    lines = []
+    lines.append("# Arizona State University (SEMTE) — Aerospace & Mechanical Engineering Faculty Directory\n")
+    lines.append("> **Interactive Cold Email & Research Opportunities Reference**")
+    lines.append(f"> Total Active Faculty: **{len(faculty_list)}** | Field-Matched Faculty: **{len(field_matched)}** | Generated dynamically from `asu_aerospace_mechanical_faculty.xlsx`\n")
+    lines.append("---\n")
+
+    # Table of Contents / Quick Jump
+    lines.append("## 📋 Quick Directory Index (Ranked by Matched Keywords)\n")
+    lines.append("| Rank | Professor | Job Title | Matched Count | Indicators | Key Research Fields |")
+    lines.append("| :---: | :--- | :--- | :---: | :---: | :--- |")
+
+    for idx, f in enumerate(field_matched, 1):
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        count = f.get("Matched Count", 0)
+        fields = f.get("Matched Fields", "")
+        if len(fields) > 40:
+            fields = fields[:37] + "..."
+
+        indicators = []
+        if f.get("Actively Hiring / Openings"):
+            indicators.append("🔥 **Hiring**")
+        if f.get("Cold Email / Application Instructions"):
+            indicators.append("📩 **Cold Email**")
+        if f.get("Latest Paper / Publication"):
+            indicators.append("📄 **Paper**")
+        if f.get("Lab / Personal Website"):
+            indicators.append("🔬 **Lab**")
+        ind_str = " ".join(indicators) if indicators else "—"
+
+        lines.append(f"| {idx} | [{name}](#{anchor}) | {title} | **{count}** | {ind_str} | {fields} |")
+
+    lines.append("\n---\n")
+    lines.append("## 🔬 Comprehensive Faculty Profiles & Cold Outreach Intelligence\n")
+
+    for idx, f in enumerate(field_matched, 1):
+        name = f.get("Name", "")
+        anchor = name.lower().replace(" ", "-").replace(".", "").replace("(", "").replace(")", "").replace("/", "")
+        title = f.get("Job Title", "")
+        dept = f.get("Department", "Aerospace & Mechanical Engineering")
+        p_url = f.get("Profile URL", "")
+        s_url = f.get("Google Scholar URL", "")
+        s_id = f.get("Scholar ID", "")
+        email = f.get("Email", "")
+        count = f.get("Matched Count", 0)
+        fields = f.get("Matched Fields", "")
+
+        paper = f.get("Latest Paper / Publication", "")
+        courses = f.get("Courses Taught", "")
+        awards = f.get("Recent Awards / Honors", "")
+        cold_email = f.get("Cold Email / Application Instructions", "")
+
+        interests = f.get("Research Interests", "")
+        expertise = f.get("Expertise Areas", "")
+        bio = f.get("Research / Bio Summary", "")
+        edu = f.get("Education / Degrees", "")
+
+        lab_name = f.get("Lab / Research Group Name", "")
+        lab_web = f.get("Lab / Personal Website", "")
+        hiring = f.get("Actively Hiring / Openings", "")
+        prereqs = f.get("Target Skills / Prerequisites", "")
+        sponsors = f.get("Funding Sponsors", "")
+        repo = f.get("Software / Code Repo", "")
+        project = f.get("Latest Project / Highlight", "")
+        office = f.get("Office Location", "")
+
+        lines.append(f"<a id=\"{anchor}\"></a>")
+        lines.append(f"### {idx}. {name}")
+        lines.append(f"*{title} — {dept}, Arizona State University*\n")
+
+        # Quick Links
+        link_items = []
+        if p_url:
+            link_items.append(f"[🏛️ Directory Profile]({p_url})")
+        if s_url:
+            scholar_label = f"🎓 Google Scholar ({s_id})" if s_id else "🎓 Google Scholar"
+            link_items.append(f"[{scholar_label}]({s_url})")
+        if lab_web:
+            lab_label = f"🔬 {lab_name}" if lab_name else "🔬 Lab Website"
+            link_items.append(f"[{lab_label}]({lab_web})")
+        if email:
+            clean_email = email.replace("mailto:", "").strip()
+            link_items.append(f"[✉️ {clean_email}](mailto:{clean_email})")
+        if repo:
+            repo_first = repo.split(",")[0].strip()
+            link_items.append(f"[💻 Code Repo]({repo_first})")
+
+        lines.append(" | ".join(link_items) + "\n")
+
+        # Overview Table
+        lines.append(f"- **Matched Research Keywords ({count})**: `{fields}`")
+        if office:
+            lines.append(f"- **Office Location**: {office}")
+        if edu:
+            lines.append(f"- **Education & Degrees**: {edu}")
+        if expertise:
+            lines.append(f"- **Expertise Taxonomy**: {expertise}")
+        if interests:
+            lines.append(f"- **Research Topics**: {interests}")
+        if bio:
+            lines.append(f"- **Bio / Summary**: {bio}")
+
+        # Cold Email Hooks Section
+        lines.append("\n#### 🎯 Cold Outreach Personalization Hooks")
+        if paper:
+            lines.append(f"- 📄 **Latest Paper / Publication**: *\"{paper}\"*")
+        if courses:
+            lines.append(f"- 📚 **Courses Taught**: `{courses}`")
+        if awards:
+            lines.append(f"- 🏆 **Recent Awards / Honors**: {awards}")
+        if not paper and not courses and not awards:
+            lines.append("- *Refer to official profile and Scholar link above for custom hooks.*")
+
+        # Lab Intelligence & Openings Section
+        if hiring or cold_email or prereqs or sponsors or project or repo:
+            lines.append("\n#### 💡 Lab Intelligence & Active Openings")
+            if hiring:
+                lines.append(f"- 🔥 **Actively Hiring / Openings**: **{hiring}**")
+            if cold_email:
+                lines.append(f"- 📩 **Cold Email / Application Instructions**:\n  > {cold_email}")
+            if prereqs:
+                lines.append(f"- 🛠️ **Target Skills / Prerequisites**: `{prereqs}`")
+            if sponsors:
+                lines.append(f"- 💰 **Funding Sponsors**: {sponsors}")
+            if project:
+                lines.append(f"- 🚀 **Active Research Thrust**: {project}")
+            if repo:
+                lines.append(f"- 💻 **Software / Repositories**: {repo}")
+
+        lines.append("\n[⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)\n")
+        lines.append("---\n")
+
+    with open(md_path, "w", encoding="utf-8") as f_out:
+        f_out.write("\n".join(lines))
+    log.info(f"Markdown successfully created at: {md_path}")
+
+
 def main():
     scraper = create_browser_session()
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -793,6 +958,10 @@ def main():
     # 3. Export exclusively to formatted Excel (.xlsx) using dynamic COLUMNS_CONFIG
     excel_path = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.xlsx")
     export_to_excel(faculty, excel_path, columns=COLUMNS_CONFIG)
+
+    # 4. Export formatted Markdown (.md) reference
+    md_path = os.path.join(script_dir, "asu_aerospace_mechanical_faculty.md")
+    export_to_markdown(faculty, md_path)
 
     # 4. Preview summary
     matched_count = sum(1 for f in faculty if f.get("Is Field Match"))

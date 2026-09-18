@@ -9,8 +9,9 @@ This directory contains the standalone scraper and dataset for **Arizona State U
 ```text
 universities_wise/arizona_state_university/
 ├── README.md                              <- Detailed documentation and architecture guide
-├── asu_profs.py                           <- Comprehensive standalone scraper & Excel exporter
-└── asu_aerospace_mechanical_faculty.xlsx  <- Formatted Excel dataset (strictly no CSV/JSON)
+├── asu_profs.py                           <- Comprehensive standalone scraper, Excel & Markdown exporter
+├── asu_aerospace_mechanical_faculty.xlsx  <- Formatted Excel dataset (strictly no CSV/JSON)
+└── asu_aerospace_mechanical_faculty.md    <- Interactive Markdown faculty directory with direct links
 ```
 
 ---
