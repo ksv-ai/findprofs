@@ -44,6 +44,7 @@ COLUMNS_CONFIG = [
     "Cold Email / Application Instructions",
 
     # 4. Academic Background & Research Focus
+    "OpenAlex Research Topics",
     "Google Scholar Tags",
     "Research Interests",
     "Expertise Areas",
@@ -237,8 +238,8 @@ OPENALEX_API_KEY = "JyKkBSgwqlZae8wfXCatfk"
 
 def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
     """
-    Fetches exact Google Scholar interest tags, 3 top-cited papers (with journal, year, cites),
-    and 3 recent papers from 2024-2026 (with journal, year) using OpenAlex with API key.
+    Fetches exact Google Scholar interest tags, 3 top-cited papers (with journal, year, cites, and clickable DOI),
+    and 3 recent papers from 2024-2026 (with journal, year, and clickable DOI) using OpenAlex with API key.
     """
     tags_str = ""
     top_papers_str = ""
@@ -250,14 +251,22 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
         if r.status_code == 200:
             results = r.json().get("results", [])
             matched_author = None
-            for a in results[:8]:
-                insts = " ".join([inst.get("display_name", "") for inst in a.get("last_known_institutions", [])])
-                if any(k in insts.lower() for k in ["arizona state", "asu", "fulton"]):
+            for a in results[:10]:
+                insts_raw = a.get("last_known_institutions") or []
+                insts = " ".join([inst.get("display_name", "") for inst in insts_raw if isinstance(inst, dict)])
+                topics_text = " ".join([t.get("display_name", "") for t in a.get("topics", []) if isinstance(t, dict)]).lower()
+                # Check for aerospace/mechanical alignment to avoid wrong namesake
+                has_asu = any(k in insts.lower() for k in ["arizona state", "asu", "fulton"])
+                has_mech_aerospace = any(k in topics_text for k in ["control", "robot", "fluid", "mechanic", "material", "aerospace", "thermal", "propulsion", "energy", "optim"])
+                if has_asu and has_mech_aerospace:
                     matched_author = a
                     break
+                elif has_asu and not matched_author:
+                    matched_author = a
+
             if not matched_author and results:
                 # If no direct ASU affiliation tag, match author with name match
-                for a in results[:5]:
+                for a in results[:6]:
                     if clean_name.lower() in a.get("display_name", "").lower():
                         matched_author = a
                         break
@@ -265,13 +274,22 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                     matched_author = results[0]
 
             if matched_author:
-                topics = [t.get("display_name") for t in matched_author.get("topics", []) if t.get("display_name")]
-                if topics:
-                    tags_str = ", ".join(topics[:5])
+                topics_raw = matched_author.get("topics", [])
+                if topics_raw:
+                    top_topics = []
+                    for t in topics_raw[:3]:
+                        t_name = t.get("display_name", "")
+                        t_cnt = t.get("count", 0)
+                        if t_name and t_cnt:
+                            top_topics.append(f"{t_name} ({t_cnt})")
+                        elif t_name:
+                            top_topics.append(t_name)
+                    if top_topics:
+                        tags_str = " | ".join(top_topics)
 
                 auth_id = matched_author.get("id")
                 if auth_id:
-                    # 1. Top 3 Cited Papers with Journal, Year, and Citations
+                    # 1. Top 3 Cited Papers with Journal, Year, Citations, and DOI URL
                     works_url = f"https://api.openalex.org/works?filter=author.id:{auth_id}&sort=cited_by_count:desc&per_page=3&api_key={OPENALEX_API_KEY}"
                     w_res = requests.get(works_url, timeout=10)
                     if w_res.status_code == 200:
@@ -284,12 +302,14 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                             source = w.get("primary_location", {}).get("source", {}) if w.get("primary_location") else {}
                             j = source.get("display_name", "") if source else ""
                             j_str = f" [{j}]" if j else ""
+                            doi = w.get("doi") or (w.get("primary_location", {}).get("landing_page_url") if w.get("primary_location") else None)
+                            doi_str = f" [DOI: {doi}]" if doi else ""
                             if w_title:
-                                papers_list.append(f'"{w_title}"{j_str} ({w_year}, {w_cites} cites)')
+                                papers_list.append(f'"{w_title}"{j_str} ({w_year}, {w_cites} cites){doi_str}')
                         if papers_list:
                             top_papers_str = " | ".join(papers_list)
 
-                    # 2. Top 3 Recent Papers from 2024-2026 with Journal and Year
+                    # 2. Top 3 Recent Papers from 2024-2026 with Journal, Year, and DOI URL
                     recent_url = f"https://api.openalex.org/works?filter=author.id:{auth_id},publication_year:2024-2026&sort=publication_year:desc&per_page=3&api_key={OPENALEX_API_KEY}"
                     r_res = requests.get(recent_url, timeout=10)
                     if r_res.status_code == 200:
@@ -301,8 +321,10 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                             source = w.get("primary_location", {}).get("source", {}) if w.get("primary_location") else {}
                             j = source.get("display_name", "") if source else ""
                             j_str = f" [{j}]" if j else ""
+                            doi = w.get("doi") or (w.get("primary_location", {}).get("landing_page_url") if w.get("primary_location") else None)
+                            doi_str = f" [DOI: {doi}]" if doi else ""
                             if w_title:
-                                recent_list.append(f'"{w_title}"{j_str} ({w_year})')
+                                recent_list.append(f'"{w_title}"{j_str} ({w_year}){doi_str}')
                         if recent_list:
                             recent_papers_str = " | ".join(recent_list)
 
@@ -672,6 +694,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     "Courses Taught": "",
                     "Recent Awards / Honors": clean_awards,
                     "Cold Email / Application Instructions": cold_email_instructions,
+                    "OpenAlex Research Topics": "",
                     "Google Scholar Tags": "",
                     "Research Interests": clean_interests if clean_interests else expertise_str,
                     "Expertise Areas": expertise_str,
@@ -700,7 +723,8 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
 
     # Second pass: Enrich profile pages for office locations, Google Scholar IDs, Courses, and Publications
     log.info(f"Enriching {len(results)} active faculty profiles with cold email hooks, courses, and publications...")
-    for prof in results:
+    for i, prof in enumerate(results, 1):
+        log.info(f"[{i}/{len(results)}] Processing {prof['Name']}...")
         asurite = prof.get("_asurite", "")
         if asurite:
             try:
@@ -798,7 +822,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
 
             except Exception as e:
                 log.debug(f"Error enriching {prof['Name']}: {e}")
-            time.sleep(0.08)
+            time.sleep(0.05)
 
         # Third pass: Deep-scrape faculty lab websites for rich intelligence
         lab_url = prof.get("Lab / Personal Website", "")
@@ -813,9 +837,10 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     elif not prof.get(k) or prof.get(k) == "":
                         prof[k] = v
 
-        # Fourth pass: Fetch Google Scholar Interest Tags, Top Cited Works, and Recent Papers via OpenAlex
+        # Fourth pass: Fetch OpenAlex Research Topics, Top Cited Works, and Recent Papers via OpenAlex
         tags_intel, papers_intel, recent_intel = fetch_academic_scholar_intel(prof["Name"])
         if tags_intel:
+            prof["OpenAlex Research Topics"] = tags_intel
             prof["Google Scholar Tags"] = tags_intel
         if papers_intel:
             prof["Top Cited Papers"] = papers_intel
@@ -1028,7 +1053,7 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
         # Overview Table
         lines.append(f"- **Matched Research Keywords ({count})**: `{fields}`")
         if scholar_tags:
-            lines.append(f"- **Google Scholar Interest Tags**: `{scholar_tags}`")
+            lines.append(f"- **Top Research Topics (Topic & Pub Count)**: `{scholar_tags}`")
         if office:
             lines.append(f"- **Office Location**: {office}")
         if edu:
@@ -1044,10 +1069,31 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
         lines.append("\n#### 🎯 Cold Outreach Personalization Hooks")
         if paper:
             lines.append(f"- 📄 **Latest Lab Paper / Highlight**: *\"{paper}\"*")
-        if recent_papers:
-            lines.append(f"- 🔬 **Recent Papers (2024-2026)**: {recent_papers}")
+
         if top_cited:
-            lines.append(f"- 🌟 **Top Cited Papers (Landmark Research)**: {top_cited}")
+            lines.append("- 🌟 **Top Cited Papers (Landmark Research)**:")
+            # Parse individual papers separated by " | "
+            for p_idx, p_entry in enumerate(top_cited.split(" | "), 1):
+                p_entry = p_entry.strip()
+                # Format [DOI: https://doi.org/...] as clickable markdown link
+                if "[DOI: " in p_entry:
+                    doi_url = p_entry.split("[DOI: ")[1].rstrip("]")
+                    clean_text = p_entry.split(" [DOI: ")[0]
+                    lines.append(f"  {p_idx}. {clean_text} — [🔗 DOI Link]({doi_url})")
+                else:
+                    lines.append(f"  {p_idx}. {p_entry}")
+
+        if recent_papers:
+            lines.append("- 🔬 **Recent Papers (2024–2026)**:")
+            for p_idx, p_entry in enumerate(recent_papers.split(" | "), 1):
+                p_entry = p_entry.strip()
+                if "[DOI: " in p_entry:
+                    doi_url = p_entry.split("[DOI: ")[1].rstrip("]")
+                    clean_text = p_entry.split(" [DOI: ")[0]
+                    lines.append(f"  {p_idx}. {clean_text} — [🔗 DOI Link]({doi_url})")
+                else:
+                    lines.append(f"  {p_idx}. {p_entry}")
+
         if courses:
             lines.append(f"- 📚 **Courses Taught**: `{courses}`")
         if awards:
