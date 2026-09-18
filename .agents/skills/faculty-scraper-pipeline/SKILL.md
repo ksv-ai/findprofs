@@ -29,7 +29,7 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 
 ---
 
-## 2. Standardized 28-Column Dataset Schema (Cold Outreach Architecture)
+## 2. Standardized 29-Column Dataset Schema (Cold Outreach Architecture)
 
 Every university extraction pipeline outputs an Excel workbook with two clean sheets:
 1. **`Field Matched`**: Only professors with `Matched Count > 0`, sorted descending.
@@ -61,12 +61,13 @@ Every university extraction pipeline outputs an Excel workbook with two clean sh
 | 20 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
 | 21 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
 | 22 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 23 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 24 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 25 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 26 | `Office Location` | Building and room number |
-| 27 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 28 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 23 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
+| 24 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 25 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 26 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 27 | `Office Location` | Building and room number |
+| 28 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 29 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 

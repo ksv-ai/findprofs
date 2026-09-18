@@ -70,7 +70,7 @@ For each faculty member with an active lab URL, the scraper visits their lab hom
 
 ---
 
-## 3. Columns in the Dataset (28 Total — Cold Email Outreach Architecture)
+## 3. Columns in the Dataset (29 Total — Cold Email Outreach Architecture)
 
 | Col # | Column Name | Description | Example Real Data |
 | :---: | :--- | :--- | :--- |
@@ -96,12 +96,13 @@ For each faculty member with an active lab URL, the scraper visits their lab hom
 | 20 | `Lab / Personal Website` | Lab homepage URL (hyperlinked) | `http://faculty.engineering.asu.edu/lpwang` |
 | 21 | `Actively Hiring / Openings` | Live hiring notice from lab | `Multiple UG/MS research positions available...` |
 | 22 | `Target Skills / Prerequisites` | Required technical skills | `Python, PyTorch, ROS2, Linear Algebra, CFD` |
-| 23 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
-| 24 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
-| 25 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
-| 26 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
-| 27 | `Is Field Match` | Boolean filter flag | `TRUE` |
-| 28 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
+| 23 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware | `Towing Tank, GPU Cluster, 3D Printer, AFM` |
+| 24 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
+| 25 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
+| 26 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
+| 27 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
+| 28 | `Is Field Match` | Boolean filter flag | `TRUE` |
+| 29 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
 
 The Excel workbook contains two sheets:
 1. **`Field Matched`**: Filtered cohort with `Matched Count > 0`, sorted descending by matched count.

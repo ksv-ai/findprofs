@@ -63,17 +63,19 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/mkasbaou) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Mohamed%20Houssem%20Kasbaoui%20Arizona%20State%20University) | [🔬 Multiphase Flow and Fluid-Structure Interaction Group](https://kasbaoui.bitbucket.io) | [✉️ houssem.kasbaoui@asu.edu](mailto:houssem.kasbaoui@asu.edu) | [💻 Code Repo](https://bitbucket.org/krgasu/leap/downloads/leap-v0.8.2.tar.gz)
 
 - **Matched Research Keywords (8)**: `aerospace, cfd, computational fluid dynamics, dns, fluid dynamics, fluid-structure interaction, multiphase flow, turbulent`
+- **Office Location**: Campus: Tempe
 - **Education & Degrees**: Ph.D.  Aerospace Engineering, Cornell University, 2017 | M.Sc.  Aerospace Engineering, Cornell University, 2015 | M.Sc.  Theoretical Physics, Université Paris-Sud, 2014 | Diplôme d'Ingénieur , Ecole Centrale Paris, 2013 | B.Sc.  Theoretical Physics, Université Paris-Sud, 2011
 - **Bio / Summary**: Kasbaoui's research interests include computational fluid dynamics, numerical methods, and massively parallel simulations of multiphase and particle-laden flows for environmental and aerospace applications.
 
 #### 🎯 Cold Outreach Personalization Hooks
 - 📄 **Latest Paper / Publication**: *"Refereed Journal Papers M. H. Kasbaoui and M. Herrmann, A high-fidelity methodology for particle-resolved direct numerical simu..."*
+- 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 574: Multiphase Flow | MAE 501: Linear Algebra in Engineering`
 
 #### 💡 Lab Intelligence & Active Openings
 - 🛠️ **Target Skills / Prerequisites**: `CFD`
 - 💰 **Funding Sponsors**: AFOSR
 - 🚀 **Active Research Thrust**: School for Engineering of Matter, Transport & Energy
-- 💻 **Software / Repositories**: https://bitbucket.org/krgasu/leap/downloads/leap-v0.8.2.tar.gz
+- 💻 **Software / Repositories**: https://bitbucket.org/krgasu/leap/downloads/leap-v0.8.2.tar.gz, https://bitbucket.org/krgasu/leap/src/master
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -100,6 +102,7 @@
 - 🔥 **Actively Hiring / Openings**: **Multiple UG/MS research positions available for Fall 2024 (volunteer) and Spring/Summer 2025 (possible FURI / MORE support)**
 - 📩 **Cold Email / Application Instructions**:
   > Please send your CV to Prof. Wang ( [email protected] ). We will try to get back to you ASAP with possible available positions. Please also send a 2-page statement on describing your previous research experience as well as how your research interests match Prof. Wang’s group’s research themes. | Please send Prof. Wang ( [email protected] ) with your resumes for applications and for more details on the projects.
+- 🔬 **Lab Facilities & Experimental Equipment**: `AFM`
 - 💰 **Funding Sponsors**: NASA, NSF
 - 🚀 **Active Research Thrust**: News&Awards
 
@@ -183,12 +186,13 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/kramesh2) | [🎓 Google Scholar (DKc-AgcAAAAJ)](https://scholar.google.com/citations?hl=en&user=DKc-AgcAAAAJ) | [✉️ Kiran.Ramesh@asu.edu](mailto:Kiran.Ramesh@asu.edu)
 
 - **Matched Research Keywords (6)**: `aerodynamics, aerospace, flow control, fluid dynamics, turbulence, vortex dynamics`
+- **Office Location**: Engineering research centre Room 383 551 E Tyler mall (Tempe, AZ 85281)
 - **Education & Degrees**: PhD North Carolina State University
 - **Research Topics**: Unsteady aerodynamics, vortex dynamics, flow control, turbulence, separated flows
 - **Bio / Summary**: Ramesh's expertise is in unsteady fluid dynamics, vortex dynamics, turbulence and flow control.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- *Refer to official profile and Scholar link above for custom hooks.*
+- 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 593: Applied Project | MAE 564: Advanced Aerodynamics`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -242,6 +246,7 @@
 - 🔥 **Actively Hiring / Openings**: **More Home Research People Publications News Openings Facility Teaching Resources | Update: We are currently hiring multiple fully-funded graduate students, undergraduate students and visiting scholars! The first year graduate students will be selected as the prestigious Ira A. Fulton fellowship from the ASU School of Engineering.**
 - 📩 **Cold Email / Application Instructions**:
   > Undergraduate students : Highly-motivated undergraduate students are encouraged to get in touch. The students are encouraged to apply Fulton Undergraduate Research Initiative (FURI) ( Proposals are due the 3rd Wednesday of every March and October ) , Summer Research Initiative (SURI) etc. No prior research experiences are expected. Email to: leixinma@ asu .edu . | Visiting scholars from different backgrounds are welcome to contact Prof. Ma for projects with mutual interests. Email to: leixinma@asu.edu
+- 🔬 **Lab Facilities & Experimental Equipment**: `Towing Tank, FDM`
 - 🚀 **Active Research Thrust**: Ocean and Soft Intelligent Structure Interaction Lab
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -376,14 +381,13 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/rywang) | [🎓 Google Scholar (LaUdx9gAAAAJ)](https://scholar.google.com/citations?hl=en&user=LaUdx9gAAAAJ) | [🔬 Lab Website](http://wang.faculty.asu.edu/) | [✉️ rywang@asu.edu](mailto:rywang@asu.edu)
 
 - **Matched Research Keywords (4)**: `composites, heat transfer, materials, thermal`
-- **Office Location**: ENGRC 307 (Tempe, AZ 85287-6106)
 - **Education & Degrees**: Ph.D. Mechanical Engineering, University of California-Berkeley 2008 | M.S. Mechanical Engineering, University of California-Berkeley 2005 | B.S. Mechanical Engineering, University of California-Los Angeles 2003
 - **Expertise Taxonomy**: Mechanical Engineering, Energy, Renewable Energy, Energy and Sustainability, Clean Energy, Energy Efficiency Technologies, Materials Science and Engineering, Chemical Engineering, Nanoengineering, Nanoscience, Nanotechnology, Solid State Physics, Thin Film Materials, Semiconductors, Chemistry, Physics
 - **Research Topics**: My research group is an interdisciplinary nanoengineering team that focuses on manipulating material properties for thermal energy applications. Some of our focus areas are thermoelectric power generation, thermal storage media, heat transfer, and phonon optics. To achieve our objectives, we custom-design materials using colloidal nanoparticles, chemical precursors, and nanocomposites.
 - **Bio / Summary**: Wang's research interests include thermal energy conversion, storage, and transport in nanostructured materials; thermoelectric power generation; thermal storage media; heat transfer, and phonon optics
 
 #### 🎯 Cold Outreach Personalization Hooks
-- 📚 **Courses Taught**: `MAE 241: Intro to Thermodynamics | MAE 593: Applied Project | MAE 588: Nanoscale Heat Transfer`
+- *Refer to official profile and Scholar link above for custom hooks.*
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -434,14 +438,15 @@
 ### 18. Tianyu Yang
 *Assistant Professor — Aerospace & Mechanical Engineering, Arizona State University*
 
-[🏛️ Directory Profile](https://search.asu.edu/profile/tyang123) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianyu%20Yang%20Arizona%20State%20University) | [✉️ Tianyu.Yang@asu.edu](mailto:Tianyu.Yang@asu.edu)
+[🏛️ Directory Profile](https://search.asu.edu/profile/tyang123) | [🎓 Google Scholar (OmBV67MAAAAJ)](https://scholar.google.com/citations?hl=en&user=OmBV67MAAAAJ) | [✉️ Tianyu.Yang@asu.edu](mailto:Tianyu.Yang@asu.edu)
 
 - **Matched Research Keywords (4)**: `autonomous, heat transfer, materials, thermal`
+- **Office Location**: Campus: Tempe
 - **Education & Degrees**: PhD. University of Illinois at Urbana Champaign, 2016-2021 | BS. Tsinghua University, China 2012-2016
 - **Bio / Summary**: Yang studies heat transfer, thermal management of electronics, and biomedical devices. She has published multiple research papers in major scientific journals.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- *Refer to official profile and Scholar link above for custom hooks.*
+- 📚 **Courses Taught**: `MAE 241: Intro to Thermodynamics`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -454,11 +459,12 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/chattopa) | [🎓 Google Scholar (w3fU9E0AAAAJ)](https://scholar.google.com/citations?hl=en&user=w3fU9E0AAAAJ) | [✉️ aditi@asu.edu](mailto:aditi@asu.edu)
 
 - **Matched Research Keywords (3)**: `aerospace, materials, structural health monitoring`
+- **Office Location**: ENGRC 427 (TEMPE, AZ 85287-6106)
 - **Education & Degrees**: Ph. D. Aerospace Engineering, Georgia Institute of Technology | M.S. Aerospace Engineering, Georgia Institute of Technology | B. Tech. Aeronautical Engineering (Honors), Indian Institute of Technology, Kharagpur, India 1980
 - **Bio / Summary**: Chattopadhyay is the director of Adaptive Intelligent Materials and Systems (AIMS) Center at ASU. Her research focuses on structural health monitoring and damage prognosis, and multidisciplinary design optimization.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- *Refer to official profile and Scholar link above for custom hooks.*
+- 📚 **Courses Taught**: `MAE 557: Mechanics Composite Materials | MAE 494: Special Topics | MAE 521: Structural Optimization`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -501,6 +507,7 @@
 - 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 241: Intro to Thermodynamics | MAE 598: Special Topics`
 
 #### 💡 Lab Intelligence & Active Openings
+- 🔬 **Lab Facilities & Experimental Equipment**: `3D Printer`
 - 💰 **Funding Sponsors**: NSF
 - 🚀 **Active Research Thrust**: 3D Energy Device Laboratory
 
@@ -633,11 +640,12 @@
 [🏛️ Directory Profile](https://search.asu.edu/profile/hhuang38) | [🎓 Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huei-Ping%20Huang%20Arizona%20State%20University) | [🔬 Lab Website](http://www.public.asu.edu/~hhuang38) | [✉️ Huei-Ping.Huang@asu.edu](mailto:Huei-Ping.Huang@asu.edu)
 
 - **Matched Research Keywords (2)**: `aerospace, fluid dynamics`
+- **Office Location**: ENGRC 359 (Tempe, AZ 85287-6106)
 - **Education & Degrees**: Ph.D. University of Illinois-Urbana-Champaign 1997 | M.S. National Taiwan University 1989 | B.S. National Central University,Taiwan 1987
 - **Bio / Summary**: Huang's research interests are geophysical and environmental fluid dynamics, numerical simulation of atmospheric and oceanic flows, Earth system remote sensing, and climate change.
 
 #### 🎯 Cold Outreach Personalization Hooks
-- *Refer to official profile and Scholar link above for custom hooks.*
+- 📚 **Courses Taught**: `MAE 502: Partial Diff Equations Engr | MAE 460: Applied Comput Fluid Dynamics | MAE 593: Applied Project`
 
 #### 💡 Lab Intelligence & Active Openings
 - 🚀 **Active Research Thrust**: Log in to www_public
@@ -683,6 +691,9 @@
 
 #### 🎯 Cold Outreach Personalization Hooks
 - 📚 **Courses Taught**: `MAE 593: Applied Project | MAE 499: Individualized Instruction | MAE 586: Advanced Heat Transfer`
+
+#### 💡 Lab Intelligence & Active Openings
+- 🚀 **Active Research Thrust**: Rykaczewski Lab
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 
@@ -913,6 +924,7 @@
 
 #### 💡 Lab Intelligence & Active Openings
 - 🔥 **Actively Hiring / Openings**: **Actively recruiting / Openings mentioned on lab site**
+- 🔬 **Lab Facilities & Experimental Equipment**: `SEM`
 - 💰 **Funding Sponsors**: NSF, ONR
 - 🚀 **Active Research Thrust**: Highlighted as a cover in Small
 

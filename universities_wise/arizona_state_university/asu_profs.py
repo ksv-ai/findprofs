@@ -51,6 +51,7 @@ COLUMNS_CONFIG = [
     "Lab / Personal Website",
     "Actively Hiring / Openings",
     "Target Skills / Prerequisites",
+    "Lab Facilities & Equipment",
     "Funding Sponsors",
     "Software / Code Repo",
     "Latest Project / Highlight",
@@ -245,6 +246,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
     details = {
         "Actively Hiring / Openings": "",
         "Target Skills / Prerequisites": "",
+        "Lab Facilities & Equipment": "",
         "Funding Sponsors": "",
         "Software / Code Repo": "",
         "Latest Project / Highlight": "",
@@ -262,7 +264,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         soup = BeautifulSoup(r.text, "html.parser")
         page_text = soup.get_text(separator=" ")
 
-        # Discover internal subpages (publications, openings/join, people, research)
+        # Discover internal subpages (publications, openings/join, people, research, facilities)
         base_domain = urllib.parse.urlparse(url).netloc
         subpages = {}
         for a_tag in soup.find_all("a", href=True):
@@ -283,6 +285,8 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
                 subpages["openings"] = full_sub_url
             if any(w in sub_path or w in sub_text for w in ["research", "projects", "thrust"]) and "research" not in subpages:
                 subpages["research"] = full_sub_url
+            if any(w in sub_path or w in sub_text for w in ["facility", "facilities", "equipment", "infrastructure", "setup", "lab-tour"]) and "facilities" not in subpages:
+                subpages["facilities"] = full_sub_url
 
         # 1. Hiring / Openings & Cold Email Instructions (from homepage)
         openings_keywords = ["looking for", "openings", "positions available", "join our group", "join the lab", "phd position", "undergraduate", "intern"]
@@ -362,7 +366,37 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         if prereqs:
             details["Target Skills / Prerequisites"] = ", ".join(prereqs)
 
-        # 4. Funding Agencies & Sponsors
+        # 4. Lab Facilities & Experimental Equipment
+        facilities_found = []
+        facility_candidates = [
+            "Wind Tunnel", "Water Tunnel", "Towing Tank", "PIV", "Particle Image Velocimetry",
+            "Schlieren", "Laser Diagnostics", "AFM", "Atomic Force Microscopy", "FTIR",
+            "Spectrometer", "Vicon", "OptiTrack", "Franka Emika", "Allegro Hand", "Leap Hand",
+            "GPU Cluster", "HPC", "RTX 4090", "A100", "H100", "3D Printer", "FDM", "SLA",
+            "MTS", "Instron", "SEM", "Scanning Electron Microscopy", "Cleanroom", "Spectroscopy",
+            "Hypersonic", "Shock Tube", "Plasma"
+        ]
+
+        target_fac_soup = soup
+        if "facilities" in subpages:
+            try:
+                r_f = scraper.get(subpages["facilities"], timeout=8)
+                if r_f.status_code == 200:
+                    target_fac_soup = BeautifulSoup(r_f.text, "html.parser")
+            except Exception:
+                pass
+
+        fac_text = target_fac_soup.get_text(separator=" ")
+        for eq in facility_candidates:
+            pattern = r'(?<!\w)' + re.escape(eq) + r'(?!\w)'
+            if re.search(pattern, fac_text, re.IGNORECASE):
+                if eq not in facilities_found:
+                    facilities_found.append(eq)
+
+        if facilities_found:
+            details["Lab Facilities & Equipment"] = ", ".join(facilities_found[:6])
+
+        # 5. Funding Agencies & Sponsors
         sponsors = set()
         for sp in ["NSF", "NASA", "DARPA", "ONR", "AFOSR", "DOE", "NIH", "ARPA-E", "Lockheed Martin", "Boeing", "Honeywell", "Sandia National Laboratories"]:
             pattern = r'\b' + re.escape(sp) + r'\b'
@@ -560,6 +594,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     "Lab / Personal Website": lab_website,
                     "Actively Hiring / Openings": hiring_status,
                     "Target Skills / Prerequisites": prereqs,
+                    "Lab Facilities & Equipment": "",
                     "Funding Sponsors": "",
                     "Software / Code Repo": "",
                     "Latest Project / Highlight": "",
@@ -915,7 +950,8 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
             lines.append("- *Refer to official profile and Scholar link above for custom hooks.*")
 
         # Lab Intelligence & Openings Section
-        if hiring or cold_email or prereqs or sponsors or project or repo:
+        facilities = f.get("Lab Facilities & Equipment", "")
+        if hiring or cold_email or prereqs or facilities or sponsors or project or repo:
             lines.append("\n#### 💡 Lab Intelligence & Active Openings")
             if hiring:
                 lines.append(f"- 🔥 **Actively Hiring / Openings**: **{hiring}**")
@@ -923,6 +959,8 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
                 lines.append(f"- 📩 **Cold Email / Application Instructions**:\n  > {cold_email}")
             if prereqs:
                 lines.append(f"- 🛠️ **Target Skills / Prerequisites**: `{prereqs}`")
+            if facilities:
+                lines.append(f"- 🔬 **Lab Facilities & Experimental Equipment**: `{facilities}`")
             if sponsors:
                 lines.append(f"- 💰 **Funding Sponsors**: {sponsors}")
             if project:
@@ -978,6 +1016,7 @@ def main():
     with_papers_count = sum(1 for f in faculty if f.get("Latest Paper / Publication"))
     with_awards_count = sum(1 for f in faculty if f.get("Recent Awards / Honors"))
     with_instruct_count = sum(1 for f in faculty if f.get("Cold Email / Application Instructions"))
+    with_facilities_count = sum(1 for f in faculty if f.get("Lab Facilities & Equipment"))
 
     print("\n" + "=" * 95)
     print("ASU FACULTY & LAB SCRAPING COMPLETED (COLD EMAIL HOOKS INCLUDED)")
@@ -990,6 +1029,7 @@ def main():
     print(f"Faculty with Recent Papers / Publications scraped: {with_papers_count}")
     print(f"Faculty with Awards / Honors scraped: {with_awards_count}")
     print(f"Faculty with Cold Email / Application Instructions: {with_instruct_count}")
+    print(f"Faculty with Lab Facilities & Equipment scraped: {with_facilities_count}")
     print(f"Faculty with Lab / Research Group Name scraped: {with_lab_name_count}")
     print(f"Faculty with Actively Hiring / Openings identified: {with_hiring_count}")
     print(f"Faculty with Target Skills / Prerequisites extracted: {with_prereqs_count}")
@@ -999,6 +1039,7 @@ def main():
     print(f"Faculty with Lab / Personal Website scraped: {with_web_count}")
     print(f"Total Columns Configured Dynamically: {len(COLUMNS_CONFIG)}")
     print(f"Excel Workbook Path: {excel_path}")
+    print(f"Markdown Reference Path: {md_path}")
     print("=" * 95)
 
 
