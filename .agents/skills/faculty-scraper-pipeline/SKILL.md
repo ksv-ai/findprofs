@@ -58,33 +58,34 @@ Every university extraction pipeline outputs an Excel workbook with clean sheets
 | 10 | `Research Category` | Formatted tier badge and domain description |
 | 11 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
 | 12 | `Matched Fields` | Comma-separated list of matched field keywords |
-| 13 | `Flagship Paper Hook` | **Pillar 2**: Landmark paper title with journal, year & DOI |
-| 14 | `Tech Stack` | **Pillar 3**: Exact numerical solvers, codes, or experimental rigs used |
-| 15 | `Physical Finding` | **Pillar 4**: Tripartite structure (`[gerund solver] to investigate [geometry] demonstrating [causality + hard number]`) |
-| 16 | `Research Hook` | **Pillar 1**: Broad curiosity-driven opening sentence connecting PI's research agenda |
-| 17 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
-| 18 | `Recent Papers (2024-2026)` | 3 recent papers with journal, year & clickable DOI |
-| 19 | `Top Cited Papers` | 3 landmark papers with journal, year, cites & clickable DOI |
-| 20 | `Courses Taught` | Filtered lecture courses taught |
-| 21 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
-| 22 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
-| 23 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
-| 24 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
-| 25 | `Research Interests` | Specific research topic tags |
-| 26 | `Expertise Areas` | High-level research domain taxonomy |
-| 27 | `Research / Bio Summary` | Bio summary or research focus paragraph |
-| 28 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 29 | `Lab / Research Group Name` | Official research lab or group title |
-| 30 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 31 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 32 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 33 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
-| 34 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 35 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 36 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 37 | `Office Location` | Building and room number |
-| 38 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 39 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 13 | `Flagship Paper Hook` | **Pillar 2**: Landmark paper title with journal & year |
+| 14 | `Flagship Paper DOI` | **Pillar 2 DOI**: Direct, clickable DOI hyperlink (`https://doi.org/...`) |
+| 15 | `Tech Stack` | **Pillar 3**: Exact numerical solvers, codes, or experimental rigs used |
+| 16 | `Physical Finding` | **Pillar 4**: Tripartite structure (`[gerund solver] to investigate [geometry] demonstrating [causality + hard number]`) |
+| 17 | `Research Hook` | **Pillar 1**: Broad curiosity-driven opening sentence connecting PI's research agenda |
+| 18 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
+| 19 | `Recent Papers (2024-2026)` | 3 recent papers with journal, year & clickable DOI |
+| 20 | `Top Cited Papers` | 3 landmark papers with journal, year, cites & clickable DOI |
+| 21 | `Courses Taught` | Filtered lecture courses taught |
+| 22 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
+| 23 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
+| 24 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
+| 25 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
+| 26 | `Research Interests` | Specific research topic tags |
+| 27 | `Expertise Areas` | High-level research domain taxonomy |
+| 28 | `Research / Bio Summary` | Bio summary or research focus paragraph |
+| 29 | `Education / Degrees` | Degrees, institutions, and graduation years |
+| 30 | `Lab / Research Group Name` | Official research lab or group title |
+| 31 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 32 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 33 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
+| 34 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
+| 35 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 36 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 37 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 38 | `Office Location` | Building and room number |
+| 39 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 40 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 

@@ -28,7 +28,7 @@
 | 17 | [Patrick Phelan](#patrick-phelan) | Professor | 🟡 Tier 2: Thermal / Heat Transfer / Energy | **3** | 📄 **Paper** | aerospace, energy systems, thermal |
 | 18 | [Konrad Rykaczewski](#konrad-rykaczewski) | Associate Professor | 🟡 Tier 2: Thermal / Heat Transfer / Energy | **2** | 🔬 **Lab** | materials, thermal |
 | 19 | [Jay Oswald](#jay-oswald) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **6** | 📩 **Cold Email** 🔬 **Lab** | estimation, finite element, materials... |
-| 20 | [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **3** | — | aerospace, materials, structural heal... |
+| 20 | [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **4** | 🔬 **Lab** | aerospace, composites, materials, str... |
 | 21 | [Leila Ladani](#leila-ladani) | Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **3** | 🔬 **Lab** | aerospace, materials, solid mechanics |
 | 22 | [Houlong Zhuang](#houlong-zhuang) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | — | aerospace, materials |
 | 23 | [Jagannathan Rajagopalan](#jagannathan-rajagopalan) | Associate Professor | 🟠 Tier 3: Structures / Materials / Manufacturing | **2** | 🔬 **Lab** | aerospace, materials |
@@ -94,7 +94,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 | Professor | Academic Rank | Matched Fields | Lab / Materials Domain |
 | :--- | :--- | :--- | :--- |
 | [Jay Oswald](#jay-oswald) | Associate Professor | `estimation, finite element, materials, robot, robotics, solid mechanics` | Computational Mechanics Lab |
-| [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | `aerospace, materials, structural health monitoring` | Adaptive Intelligent Materials & Systems (AIMS) Center |
+| [Aditi Chattopadhyay](#aditi-chattopadhyay) | Regents Professor | `aerospace, composites, materials, structural health monitoring` | Adaptive Intelligent Materials & Systems (AIMS) Center |
 | [Leila Ladani](#leila-ladani) | Professor | `aerospace, materials, solid mechanics` | Manufacturing and Advanced Materials Characterization (MAGIC) Lab |
 | [Houlong Zhuang](#houlong-zhuang) | Associate Professor | `aerospace, materials` | Computational Materials Science and Design Lab |
 | [Jagannathan Rajagopalan](#jagannathan-rajagopalan) | Associate Professor | `aerospace, materials` | Nanomechanics Laboratory |
@@ -144,6 +144,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Predicting particle clustering and structural dispersion in particle-laden turbulent flows requires resolving the two-way interphase momentum transfer without suffering from artificial accumulation artifacts of two-fluid formulations."*
 - 📄 **Pillar 2 — Flagship Paper**: **Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded homogeneous particle-laden shear (Journal of Fluid Mechanics, 2018) [DOI: https://doi.org/10.1017/jfm.2018.796]**
+  - **Direct DOI**: [https://doi.org/10.1017/jfm.2018.796](https://doi.org/10.1017/jfm.2018.796)
+  - **Flagship Paper Abstract**:
+    > Particle-laden flows of sedimenting solid particles or droplets in a carrier gas have strong inter-phase coupling. Even at low particle volume fractions, the two-way coupling can be significant due to the large particle to gas density ratio. In this semi-dilute regime, the slip velocity between phases leads to sustained clustering that strongly modulates the overall flow. The analysis of perturbations in homogeneous shear reveals the process by which clusters form: (i) the preferential concentration of inertial particles in the stretching regions of the flow leads to the formation of highly concentrated particle sheets, (ii) the thickness of the latter is controlled by particle-trajectory crossing, which causes a local dispersion of particles, (iii) a transverse Rayleigh–Taylor instability, aided by the shear-induced rotation of the particle sheets towards the gravity normal direction, breaks the planar structure into smaller clusters. Simulations in the Euler–Lagrange formalism are compared to Euler–Euler simulations with the two-fluid and anisotropic-Gaussian methods. It is found that the two-fluid method is unable to capture the particle dispersion due to particle-trajectory ...
 - 🛠️ **Pillar 3 — Tech Stack**: `Eulerian–Lagrangian Point-Particle DNS / Anisotropic-Gaussian Solver`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into executing point-particle DNS in unbounded homogeneous shear to investigate preferential concentration of inertial particles under intense aerodynamic shear, demonstrating that particle-trajectory crossing establishes a finite lower threshold on cluster sheet thickness that prevents singular particulate accumulation."*
@@ -183,6 +186,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Multiphase core-annular pipeline flows present intricate interfacial stability regimes where capillary forces compete directly with annular fluid shear."*
 - 📄 **Pillar 2 — Flagship Paper**: **Lubricated pipelining: stability of core-annular flow (Journal of Fluid Mechanics, 1989) [DOI: https://doi.org/10.1017/s0022112089000960]**
+  - **Direct DOI**: [https://doi.org/10.1017/s0022112089000960](https://doi.org/10.1017/s0022112089000960)
+  - **Flagship Paper Abstract**:
+    > The stability of core-annular flow (CAF) in pipes is analysed using the linear theory of stability. Attention is confined to the potentially stable case of lubricated pipelining with the less viscous liquid, say water, in the annulus. The effects of surface tension and density are included, but gravity is excluded. We find upper and lower branches of the neutral curve in a Reynolds number (ℝ) vs. wavenumber (α) plane. A window of parameters is identified in which CAF is stable to small disturbances. When ℝ is below the lower critical value, CAF is destabilized by surface tension and long waves break up into slugs and bubbles. The sizes of slugs and bubbles of oil in water observed by Charles, Govier & Hodgson (1961) are given by the wavelength of the fastest growing long wave. This long-wave instability is a capillary instability, modified by shear, which reduces to Rayleigh's instability in the appropriate limit. At higher ℝ, the capillary instability is stabilized by shear. At yet higher ℝ, above the upper critical value, the flow is unstable to generally shorter waves which leads to emulsification, water droplets in oil. The theory agrees with experiments. The analysis seems ...
 - 🛠️ **Pillar 3 — Tech Stack**: `Linear Hydrodynamic Stability Analysis / Spectral Collocation Solver`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into conducting linear hydrodynamic stability analysis of core-annular pipe flows, demonstrating that interfacial capillary instability transitions into an axisymmetric shear-stabilized lubrication window across a discrete Reynolds number corridor."*
@@ -217,6 +223,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Modeling dynamic stall and high-angle unsteady aerofoil maneuvers necessitates identifying the precise physical trigger that initiates leading-edge vortex detachment."*
 - 📄 **Pillar 2 — Flagship Paper**: **Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2014.297]**
+  - **Direct DOI**: [https://doi.org/10.1017/jfm.2014.297](https://doi.org/10.1017/jfm.2014.297)
+  - **Flagship Paper Abstract**:
+    > Abstract Unsteady aerofoil flows are often characterized by leading-edge vortex (LEV) shedding. While experiments and high-order computations have contributed to our understanding of these flows, fast low-order methods are needed for engineering tasks. Classical unsteady aerofoil theories are limited to small amplitudes and attached leading-edge flows. Discrete-vortex methods that model vortex shedding from leading edges assume continuous shedding, valid only for sharp leading edges, or shedding governed by ad-hoc criteria such as a critical angle of attack, valid only for a restricted set of kinematics. We present a criterion for intermittent vortex shedding from rounded leading edges that is governed by a maximum allowable leading-edge suction. We show that, when using unsteady thin aerofoil theory, this leading-edge suction parameter (LESP) is related to the $\def \xmlpi #1{}\def \mathsfbi #1{\boldsymbol {\mathsf {#1}}}\let \le =\leqslant \let \leq =\leqslant \let \ge =\geqslant \let \geq =\geqslant \def \Pr {\mathit {Pr}}\def \Fr {\mathit {Fr}}\def \Rey {\mathit {Re}}A_0$ term in the Fourier series representing the chordwise variation of bound vorticity. Furthermore, for any...
 - 🛠️ **Pillar 3 — Tech Stack**: `Unsteady Discrete Vortex Method (DVM) / Unsteady Thin-Airfoil Theory`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into applying unsteady discrete-vortex modeling to pitching aerofoils, demonstrating that intermittent leading-edge vortex shedding onset is governed by a critical leading-edge suction parameter (LESP) linked to the Fourier A0 bound vorticity coefficient."*
@@ -252,6 +261,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Vortex-induced vibrations on flexible marine structures exhibit strong cross-flow and in-line modal coupling that governs structural fatigue life."*
 - 📄 **Pillar 2 — Flagship Paper**: **Experimental investigation of the response performance of VIV on a flexible riser with helical strakes (Ships and Offshore Structures, 2014) [DOI: https://doi.org/10.1080/17445302.2014.962788]**
+  - **Direct DOI**: [https://doi.org/10.1080/17445302.2014.962788](https://doi.org/10.1080/17445302.2014.962788)
+  - **Flagship Paper Abstract**:
+    > Experimental investigations were conducted on a flexible riser with and without helical strakes. A uniform current was obtained by towing a riser model in a tank, and the vortex-induced vibration (VIV) suppression of strakes with different heights and pitches was studied. The experimental results indicate that the response characteristics of a bare riser can be quite distinct from those of a riser with helical strakes, and the suppression performance depends on the geometry of the helical strakes. The VIV responses in the cross-flow (CF) and in-line (IL) directions can be coupled via variations in the tensile force. The fatigue damage in the CF direction is of the same order as that in the IL direction for the bare riser. However, for the riser fitted with helical strakes, the fatigue damage in the CF direction is much smaller than that in the IL direction. The experimental results also confirmed that the strake height has a greater influence on the VIV response than the strake pitch, and the drag exerted on the riser increases with the strake pitch and height.
 - 🛠️ **Pillar 3 — Tech Stack**: `Towing Tank Hydrodynamic Rig / Strain Gauge Modal Wavelet Analysis`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into conducting towing tank experiments on flexible risers subject to uniform currents, demonstrating that helical strakes suppress cross-flow vortex-induced vibration amplitudes by over 80% while transferring structural stress into high-frequency in-line tension fluctuations."*
@@ -294,6 +306,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Wall-bounded turbulent boundary layers subject to directional surface heterogeneities offer unprecedented control over coherent vortex reorganization and skin-friction drag modulation."*
 - 📄 **Pillar 2 — Flagship Paper**: **Cross-stream stereoscopic particle image velocimetry of a modified turbulent boundary layer over directional surface pattern (Journal of Fluid Mechanics, 2017) [DOI: https://doi.org/10.1017/jfm.2016.879]**
+  - **Direct DOI**: [https://doi.org/10.1017/jfm.2016.879](https://doi.org/10.1017/jfm.2016.879)
+  - **Flagship Paper Abstract**:
+    > A turbulent boundary layer developed over a herringbone patterned riblet surface is investigated using stereoscopic particle image velocimetry in the cross-stream plane at $Re_{\unicode[STIX]{x1D70F}}\approx 3900$ . The three velocity components resulting from this experiment reveal a pronounced spanwise periodicity in all single-point velocity statistics. Consistent with previous hot-wire studies over similar-type riblets, we observe a weak time-average secondary flow in the form of $\unicode[STIX]{x1D6FF}$ -filling streamwise vortices. The observed differences in the surface and secondary flow characteristics, compared to other heterogeneous-roughness studies, may suggest that different mechanisms are responsible for the flow modifications in this case. Observations of instantaneous velocity fields reveal modified and rearranged turbulence structures. The instantaneous snapshots also suggest that the time-average secondary flow may be an artefact arising from superpositions of much stronger instantaneous turbulent events enhanced by the surface texture. In addition, the observed instantaneous secondary motions seem to have promoted a free-stream-engulfing behaviour in the oute...
 - 🛠️ **Pillar 3 — Tech Stack**: `Stereoscopic Particle Image Velocimetry (SPIV)`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into deploying cross-stream stereoscopic PIV at Re_tau ≈ 3900 to investigate boundary-layer flow over herringbone-patterned riblet surfaces, demonstrating that surface-induced secondary vortices enforce strong spanwise periodicity while dramatically enhancing outer-layer turbulent entrainment."*
@@ -330,6 +345,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Turbulent multiphase breakup and primary atomization involve extreme multiscale topological transitions that push both Eulerian interface tracking and Lagrangian drop representations to their physical limits."*
 - 📄 **Pillar 2 — Flagship Paper**: **Detailed Numerical Simulations of the Primary Atomization of a Turbulent Liquid Jet in Crossflow (Journal of Engineering for Gas Turbines and Power, 2010) [DOI: https://doi.org/10.1115/1.4000148]**
+  - **Direct DOI**: [https://doi.org/10.1115/1.4000148](https://doi.org/10.1115/1.4000148)
 - 🛠️ **Pillar 3 — Tech Stack**: `Balanced Force Refined Level Set Grid Method (Refined Level Set / Dual Grid FV Solver)`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into performing dual-grid level-set simulations on refined Cartesian grids (128 cells/diameter) to investigate primary atomization of liquid jets in crossflow (We=330, Re=14,000, gas Re=570,000), demonstrating that grid-converged drop diameter distributions are accurately resolved down to 1% of the injector nozzle diameter."*
@@ -363,6 +379,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Controlling broadband jet aeroacoustics without incurring heavy aerodynamic thrust penalties requires systematic adjoint sensitivity gradients rather than trial-and-error nozzle shaping."*
 - 📄 **Pillar 2 — Flagship Paper**: **Adjoint-based control of loud events in a turbulent jet (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2013.654]**
+  - **Direct DOI**: [https://doi.org/10.1017/jfm.2013.654](https://doi.org/10.1017/jfm.2013.654)
+  - **Flagship Paper Abstract**:
+    > Abstract Efforts to reduce the noise from turbulent jets at fixed flow conditions, with aircraft noise as the principal technological motivation, have generally involved some degree of parametric empiricism often based upon a series of trial-and-error testing. As a result, it is unclear if the modest reductions found, in rare cases that do not greatly affect the flow field or incur prohibitive losses, are near the limit of what can be accomplished or if there are undiscovered opportunities for more substantive reductions with better designs or active control. We assess this using an adjoint-based optimization procedure in conjunction with an experimentally validated large-eddy simulation of a Mach 1.3 turbulent jet. The adjoint solution provides a definitive direction in which to adjust a model control actuation in order to reduce noise, providing guidance that seems lacking by any other current means. It is found that three conjugate-gradient iterations in the control space provide ∼3.5 dB of reduction, comparable to other reductions found empirically. The control seems to work by disrupting the coherence of acoustically efficient axisymmetric flow structures. The control and n...
 - 🛠️ **Pillar 3 — Tech Stack**: `Adjoint Sensitivity Analysis / High-Order Overset LES Solver`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into applying adjoint-based optimization to a fully compressible LES of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB reduction in radiated acoustic sound pressure level by disrupting axisymmetric coherent wavepackets."*
@@ -394,6 +413,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Transitioning gas turbine combustors and micro-reactors to 100% hydrogen fuels requires resolving the severe thermo-kinetic shifts in flame speed and flashback safety limits."*
 - 📄 **Pillar 2 — Flagship Paper**: **Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine (Energy Conversion and Management: X, 2023) [DOI: https://doi.org/10.1016/j.ecmx.2023.100394]**
+  - **Direct DOI**: [https://doi.org/10.1016/j.ecmx.2023.100394](https://doi.org/10.1016/j.ecmx.2023.100394)
+  - **Flagship Paper Abstract**:
+    > The importance of hydrogen in the effort to decarbonize the power sector has grown immensely in recent years. Previous studies have investigated the effects of mixing hydrogen into natural gas for gas turbine combustors, but limited studies have examined the resulting effects hydrogen addition has on the entire system. In this work, a thermodynamic model of a gas turbine with combustion chemical kinetics integrated is created and the effects hydrogen addition (0–100 vol% addition) has on the system performance, emissions and combustion kinetics are analyzed. The maximum system performance is achieved when the maximum turbine inlet temperature is reached, and the resulting optimal fuel/air equivalence ratio is determined. As hydrogen is added to the fuel mixture, the optimal equivalence ratio shifts leaner, causing non-linearity in emissions and system performance at optimal conditions. An analysis of variance is conducted, and it is shown that isentropic efficiencies of the turbine and compressor influences the system performance the most out of any system parameter. While isentropic efficiencies of the turbine and compressor increase towards 100%, an operating regime where the ...
 - 🛠️ **Pillar 3 — Tech Stack**: `Cantera Chemical Kinetics / Thermodynamic Gas Turbine Equilibrium Model`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into coupling chemical kinetic mechanisms with thermodynamic gas turbine models across 0–100% H2 fuel blends, demonstrating that optimal fuel/air equivalence ratio shifts nonlinearly lean, requiring precision compressor matching to maintain turbine inlet temperature limits."*
@@ -430,6 +452,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Subgrid-scale modeling in large-eddy simulations often breaks down in anisotropic computational meshes, necessitating rigorous energy equilibrium formulations."*
 - 📄 **Pillar 2 — Flagship Paper**: **Generalized Smagorinsky model for anisotropic grids (Physics of Fluids A: Fluid Dynamics, 1993) [DOI: https://doi.org/10.1063/1.858537]**
+  - **Direct DOI**: [https://doi.org/10.1063/1.858537](https://doi.org/10.1063/1.858537)
+  - **Flagship Paper Abstract**:
+    > The Smagorinsky subgrid model is revised to properly account for grid anisotropy, using energy equilibrium considerations in isotropic turbulence. For moderate resolution anisotropies, Deardorff’s estimate involving an equivalent grid scale Δeq=(Δ1Δ2Δ3)1/3 is given a rigorous basis. For more general grid anisotropies, the Smagorinsky eddy viscosity is recast as νT=[csΔeqf(a1, a2)]2‖S̃‖, where f(a1,a2) is a function of the grid aspect ratios a1 and a2, and ‖S̃‖ is the resolved strain rate magnitude. The asymptotic behavior of νT at several limits of the aspect ratios are examined. Approximation formulas are developed so that f(a1,a2) can easily be evaluated in practice, for arbitrary values of a1 and a2. It is argued that these results should be used in conjunction with the dynamic model of Germano et al. whenever the anisotropy of the test-filter differs significantly from that of the basic grid.
 - 🛠️ **Pillar 3 — Tech Stack**: `Anisotropic Filtered LES Formulation / Pseudo-Spectral DNS`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into formulating anisotropic subgrid-scale closures in homogeneous turbulence, demonstrating that directional grid aspect ratio scaling modifies the effective Smagorinsky coefficient by up to 40% across strongly stretched anisotropic meshes."*
@@ -455,6 +480,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 
 - **Research Categorization**: **🔵 Tier 1: Core Aero / Fluids / Propulsion**
 - **Matched Research Keywords (3)**: `aerospace, fluid mechanics, turbulence`
+- **Top Research Topics (Topic & Pub Count)**: `Fluid Dynamics and Turbulent Flows (58) | Fluid Dynamics and Vibration Analysis (27) | Wind and Air Flow Studies (26)`
 - **Office Location**: ENGRC 379 (Tempe, AZ 85287-6106)
 - **Education & Degrees**: Ph.D. Aeronautics and Astronautics, Stanford University 2006 | M.S. Management, State University Higher School of Economics, Moscow, Russia 2000 | M.S. Aeromechanics and Flight Engineering, Moscow Institute of Physics and Technology, Russia 1999 | B.S. Applied Mathematics and Physics, Moscow Institute of Physics and Technology, Russia 1997
 - **Bio / Summary**: Yulia Peet is an associate professor of aerospace and mechanical engineering in the School for Engineering of Matter, Transport and Energy with the Ira A. Fulton Schools of Engineering at Arizona State University. Her Ph.D. degree is in Aeronautics and Astronautics from Stanford (2006), M.S. and B.S. degrees are from Moscow Institute of Physics and Technology (1999 and 1997). Her previous appoi...
@@ -462,9 +488,20 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Manipulating turbulent wall shear stress through three-dimensional structured surface geometries requires isolating how spanwise cross-flow vorticity dampens near-wall bursting events."*
 - 📄 **Pillar 2 — Flagship Paper**: **Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section (38th AIAA Fluid Dynamics Conference, 2008) [DOI: https://doi.org/10.2514/6.2008-3745]**
+  - **Direct DOI**: [https://doi.org/10.2514/6.2008-3745](https://doi.org/10.2514/6.2008-3745)
+  - **Flagship Paper Abstract**:
+    > It is known that longitudinal ribs manufactured in a flat surface act to reduce turbulent skin-friction drag, providing a moderate drag reduction of 4 to 8%. It is shown in this paper that this value can be increased by at least 50% if sinusoidal-like rods are used instead of conventional straight riblets. Large Eddy Simulation of a turbulent flow over a riblet-covered surface is performed for three cases: straight riblets and sinusoidal riblets with two different values of wavelength. All riblets have triangular cross-section. It is found that drag reduction with sinusoidal riblets depend strongly on the wavelength, showing a benefit over straight riblets for a larger value of the wavelength, and an opposite trend for a smaller value. Different nature of the flow over straight and sinusoidal riblet surfaces is revealed by looking at crossflow motion in transverse planes, mean and instantaneous streamwise vorticity, and organized coherent structures. Turbulent statistics is compared between all three cases, crossflow turbulence intensity is reduced for sinusoidal riblets as opposed to straight riblets.
 - 🛠️ **Pillar 3 — Tech Stack**: `High-Order Spectral Element LES / Incompressible Navier–Stokes Solver`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into conducting large-eddy simulations of turbulent boundary layer flow over triangular riblets, demonstrating that sinusoidal spanwise wavy riblets increase skin-friction drag reduction by over 50% relative to conventional straight riblets through crossflow vorticity attenuation."*
+- 🌟 **Top Cited Papers (Landmark Research)**:
+  1. "Theoretical prediction of turbulent skin friction on geometrically complex surfaces" [Physics of Fluids] (2009, 78 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.3241993)
+  2. "Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section" [38th Fluid Dynamics Conference and Exhibit] (2008, 56 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2008-3745)
+  3. "Pressure loss reduction in hydrogen pipelines by surface restructuring" [International Journal of Hydrogen Energy] (2009, 46 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.ijhydene.2009.08.035)
+- 🔬 **Recent Papers (2024–2026)**:
+  1. "Correction: Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483.c1)
+  2. "Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483)
+  3. "Inflectional Instability of Linearized Incompressible Euler Equations via Linear Partial Inequality Tests" (2025) — [🔗 DOI Link](https://doi.org/10.1109/cdc57313.2025.11312828)
 - 📚 **Courses Taught**: `MAE 215: Intro to Programming in MATLAB | MAE 591: Seminar | MAE 593: Applied Project`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -487,6 +524,9 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 #### 🎯 Cold Outreach Personalization Hooks
 - 💡 **Pillar 1 — Research Hook**: *"Atmospheric boundary-layer turbulence over complex terrain requires assimilating coherent wake dynamics with long-range optical remote sensing."*
 - 📄 **Pillar 2 — Flagship Paper**: **Turbulent flow over a wavy surface: Neutral case (Journal of Geophysical Research: Atmospheres, 2001) [DOI: https://doi.org/10.1029/2000jc900133]**
+  - **Direct DOI**: [https://doi.org/10.1029/2000jc900133](https://doi.org/10.1029/2000jc900133)
+  - **Flagship Paper Abstract**:
+    > In many geophysical flows the passage of a turbulent fluid over a wavy surface significantly affects quantities of interest, such as momentum flux, mixing, and transport of scalars. Large‐eddy simulation is used here to investigate neutrally stratified flow over a wavy bed. A wavy surface tends to organize the turbulent flow by imposing its wavelength and phase on the near‐wall field. Both instantaneous turbulent structures and turbulence statistics provide evidence of this organization. For example, a vortex identification method applied to the instantaneous flow field reveals streamwise vortices that are locked into a phase relationship with the wavy boundary. These vortices may be linked to a Görtier instability mechanism caused by the wavy wall. Statistical analyses are also presented to gain insights into the effect of the wavy surface. In particular, we compare the effects of three different hill heights. Finally, a brief analysis of the components of drag is given.
 - 🛠️ **Pillar 3 — Tech Stack**: `Large-Eddy Simulation (Atmospheric Boundary Layer Solver) / Dual-Doppler LiDAR`
 - 🔬 **Pillar 4 — Tripartite Physical Finding**:
   > *"...specifically your investigation into executing large-eddy simulations of neutrally stratified atmospheric flow over sinusoidal wavy topography, demonstrating that phase-locked streamwise Görtler vortices form along the wave troughs, dictating over 70% of total surface form drag."*
@@ -689,12 +729,13 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 ### 20. Aditi Chattopadhyay
 *Regents Professor — Aerospace & Mechanical Engineering, Arizona State University* | **🟠 Tier 3: Structures / Materials / Manufacturing**
 
-[🏛️ Directory Profile](https://search.asu.edu/profile/chattopa) | [🎓 Google Scholar (w3fU9E0AAAAJ)](https://scholar.google.com/citations?hl=en&user=w3fU9E0AAAAJ) | [✉️ aditi@asu.edu](mailto:aditi@asu.edu)
+[🏛️ Directory Profile](https://search.asu.edu/profile/chattopa) | [🎓 Google Scholar (w3fU9E0AAAAJ)](https://scholar.google.com/citations?hl=en&user=w3fU9E0AAAAJ) | [🔬 Adaptive Intelligent Materials & Systems (AIMS) Center](https://aims.asu.edu/) | [✉️ aditi@asu.edu](mailto:aditi@asu.edu)
 
 - **Research Categorization**: **🟠 Tier 3: Structures / Materials / Manufacturing**
-- **Matched Research Keywords (3)**: `aerospace, materials, structural health monitoring`
+- **Matched Research Keywords (4)**: `aerospace, composites, materials, structural health monitoring`
 - **Office Location**: ENGRC 427 (TEMPE, AZ 85287-6106)
-- **Education & Degrees**: Ph. D. Aerospace Engineering, Georgia Institute of Technology | M.S. Aerospace Engineering, Georgia Institute of Technology | B. Tech. Aeronautical Engineering (Honors), Indian Institute of Technology, Kharagpur, India 1980
+- **Education & Degrees**: Ph.D. Aerospace Engineering, Georgia Institute of Technology, Atlanta, Georgia | M.S. Aerospace Engineering, Georgia Institute of Technology, Atlanta, Georgia | B. Tech (Honors.) Aerospace Engineering, Indian Institute of Technology, Kharagpur, India
+- **Research Topics**: Structural and computational mechanics of composite materials, including ceramic matrix composites (CMCs) under thermomechanical and oxidative damage, multiscale and reduced-order modeling of heterogeneous materials, and molecular dynamics of nano-enhanced composites. Multifunctional materials, including shape memory polymers, self-sensing and self-healing mechanophore-based composites, and carbon nanotube-integrated composites. Structural health management and damage prognosis, fatigue of metallic and composite structures, multidisciplinary design optimization, and machine learning for aviation safety and air traffic management.
 - **Bio / Summary**: Chattopadhyay is the director of Adaptive Intelligent Materials and Systems (AIMS) Center at ASU. Her research focuses on structural health monitoring and damage prognosis, and multidisciplinary design optimization.
 
 #### 🎯 Cold Outreach Personalization Hooks
