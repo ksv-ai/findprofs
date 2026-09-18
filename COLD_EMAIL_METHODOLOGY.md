@@ -27,35 +27,35 @@
 ## 1. Overview of the Pipeline
 
 ```
-[XLSX Master Directory]
+[XLSX Master Directory (Tier 1 & Tier 2 + Computational Math)]
         │
         ▼
-[OpenAlex API]  ──cached──▶  [scratch/rows_*_openalex.json]
+[OpenAlex API]  ──cached──▶  [openalex_cache/<slug>.json]
         │
-        ├─── PILLAR 1: Research Hook (from all works combined)
-        ├─── PILLAR 2: Flagship Paper Filter (fluid-dynamics scoring)
-        │         └── DOI → Crossref Verification
-        ├─── PILLAR 3: Tech Stack (from flagship paper abstract)
-        └─── PILLAR 4: Tripartite Physical Finding (from abstract)
+        ├─── PILLAR 1: Research Hook (Synthesized across 4–5 recent papers: Method + Regime + Outcome)
+        ├─── PILLAR 2: Dual Recent Flagship Papers (2020–2026, Core Aero/Fluids/CFD scoring)
+        │         └── Direct Clickable DOIs → Crossref/OpenAlex Verification
+        ├─── PILLAR 3: Tech Stack (Synthesized across 4–5 recent papers)
+        └─── PILLAR 4: Tripartite Physical Finding (from recent flagship papers)
         │
         ▼
 [Apply all 4 pillars back to XLSX columns]
         │
         ▼
-[generate_us_r1_previews.py]  ──▶  [US_R1_Tier1_Cold_Emails.md]
+[generate markdown reference with abstracts & clickable DOIs]
         │
         ▼
-[git commit & push → ksv-ai/uniabroad]
+[git commit & push → ksv-ai/findprofs]
 ```
 
 **Four Quality Gates:**
 
 | Gate | Pillar | Pass Criterion |
 |------|--------|----------------|
-| G1 | Research Hook | Broad, curiosity-driven, no proper nouns, ends with open question or implication |
-| G2 | Flagship Paper | Crossref HTTP 200 + fluid-dynamics subject + primary research (not review) |
-| G3 | Tech Stack | Named solver/tool actually used in that specific paper |
-| G4 | Physical Finding | Valid Tripartite structure with at least one hard quantitative benchmark |
+| G1 | Research Hook | Synthesized from **4–5 recent papers**: `[Primary Method] + [Flow Regime/Physics] + [Target Engineering Outcome]`. Curiosity-driven, no proper nouns. |
+| G2 | Flagship Papers | **2 Recent Flagship Papers (2020–2026)**: Crossref/OpenAlex verified DOI + fluid-dynamics subject + primary research (not review). |
+| G3 | Tech Stack | Named solvers/tools/diagnostics synthesized across the **4–5 recent papers**. |
+| G4 | Physical Finding | Valid Tripartite structure with at least one hard quantitative benchmark from recent flagship work. |
 
 ---
 
@@ -65,12 +65,14 @@
 
 The Research Hook is the **opening sentence** of the cold email. It appears right after "Dear Prof. [Name]," and its job is to:
 
-1. Show you have read and understood the professor's **broad research agenda** (not just one paper).
+1. Show you have read and understood the professor's **recent research trajectory (across 4–5 recent papers, 2024–2026)**.
 2. Create an immediate **intellectual connection** — it should feel like a fellow scientist wrote it, not a template bot.
-3. Be **curiosity-driven and forward-looking** — it mentions an open challenge, an unsolved question, or a compelling implication, not just a summary of past work.
+3. Be formulated using the standard tripartite engineering synthesis:
+   $$\text{Research Hook} = \mathbf{[Primary\ Method\ /\ Numerical\ Scheme]} + \mathbf{[Flow\ Regime\ /\ Physics]} + \mathbf{[Target\ Engineering\ Outcome]}$$
+4. Be **curiosity-driven and forward-looking** — it mentions an open challenge, an unsolved question, or a compelling implication, not just a historical summary.
 
 **The hook is NOT:**
-- A citation of a specific paper (that comes in the Flagship Paper sentence).
+- A citation of a single paper (that comes in the Flagship Paper sentence).
 - A flattery phrase ("Your work is impressive…").
 - A generic discipline label ("As a fluid dynamics researcher…").
 - A sentence that could apply to any CFD professor.
@@ -78,16 +80,14 @@ The Research Hook is the **opening sentence** of the cold email. It appears righ
 ### 2.2 The Structure Template
 
 ```
-[Broad phenomenon / open challenge in the field]
-+ [Why it matters / what makes it hard]
-+ [The direction or approach the professor takes]
+[Primary Method / Numerical Scheme] + [Flow Regime / Physics] + [Target Engineering Outcome]
 ```
 
-Or more concisely:
+Or framed as an active scientific inquiry:
 
 ```
-"[Field-level problem or phenomenon] — [what makes it fundamentally hard or important]
-— [what this professor's approach uniquely addresses]."
+"[Primary method/solver] for resolving [flow regime or multi-scale phenomenon]
+in order to [target engineering outcome or physical discovery]."
 ```
 
 **The hook must be specific enough to identify the professor's sub-area but broad enough that it covers their entire body of work, not just one paper.**
@@ -259,27 +259,28 @@ Read the draft hook and ask:
 
 ---
 
-## 3. PILLAR 2 — Flagship Paper Selection & Filtering
+## 3. PILLAR 2 — Dual Recent Flagship Paper Selection & Filtering
 
-### 3.1 What Is the Flagship Paper?
+### 3.1 What Are the Flagship Papers?
 
-The flagship paper is the **single most impressive, relevant, and verifiable primary research article** by the professor that:
+The **2 Flagship Papers** are the two most impressive, relevant, and verifiable primary research articles by the professor that:
 
-1. Is directly in the fluid-dynamics / CFD / aero-acoustics domain.
-2. Has a **live, Crossref-verified DOI** (HTTP 200 response).
-3. Is a **primary research article** (not a review, not a textbook chapter, not an editorial).
-4. Contains enough **methodological detail** to extract a Tech Stack and a Tripartite Finding.
-5. Ideally has **≥ 20 citations** (shows impact and credibility).
+1. Are drawn strictly from **recent publications (2020–2026)** to reflect modern lab capabilities and active grants.
+2. Are closely tied to **core fluid dynamics / CFD / turbulence / hypersonics / combustion / aero-acoustics**.
+3. Have **live, verified DOIs** with direct clickable hyperlinks (`https://doi.org/...`).
+4. Are **primary research articles** (not a review, not an editorial, not a book chapter).
+5. Contain sufficient **methodological and physical detail** to extract the Tech Stack and Tripartite Findings.
 
-### 3.2 The Four-Layer Filter
+### 3.2 The Five-Layer Filter
 
-Apply filters in this order. A paper must pass **all four** to be selected:
+Apply filters in this order. Candidate papers must pass **all five** to qualify as flagship papers:
 
 ```
-FILTER 1: Subject Filter        → Is it fluid dynamics / CFD / aero?
-FILTER 2: Article Type Filter   → Is it primary research (not a review)?
-FILTER 3: DOI Filter            → Does the DOI resolve via Crossref?
-FILTER 4: Detail Filter         → Does the abstract contain method + result?
+FILTER 1: Recency Filter        → Published between 2020 and 2026?
+FILTER 2: Subject Filter        → Is it fluid dynamics / CFD / aero (score ≥ 2)?
+FILTER 3: Article Type Filter   → Is it primary research (not a review/editorial)?
+FILTER 4: DOI Filter            → Does the DOI resolve via OpenAlex/Crossref?
+FILTER 5: Detail Filter         → Does the abstract contain method + quantitative result?
 ```
 
 ---
@@ -454,21 +455,21 @@ Select the paper with the **highest score** that also passes **all four filters*
 
 ---
 
-## 4. PILLAR 3 — Tech Stack Extraction
+## 4. PILLAR 3 — Tech Stack Extraction (Across 4–5 Recent Papers)
 
 ### 4.1 What Is the Tech Stack?
 
-The Tech Stack is a **short, comma-separated list of the primary computational or experimental tools** used in the flagship paper. It appears in the cold email as:
+The Tech Stack is a **concise, comma-separated list of the primary computational solvers, numerical frameworks, and experimental tools** actively deployed across the professor's **4–5 recent papers (2024–2026)**. It appears in the cold outreach profile as:
 
-> **Tech Stack:** OpenFOAM (LES), Nek5000, PIV
+> **Tech Stack:** OpenFOAM (LES), Nek5000, high-order DG, Stereo PIV
 
-It is **not** a general statement of what the professor "knows." It is specifically what they **used in that exact paper** to produce the results.
+It is **not** a generic list of high-level buzzwords. It represents the specific software, numerical methods, and diagnostics the lab actively uses today to generate data and publish findings.
 
 ### 4.2 Why Does It Matter?
 
-- It proves you read the paper, not just the abstract title.
-- It shows methodological compatibility — "I have used the same solver you used."
-- It grounds the email in specifics that distinguish it from generic outreach.
+- It proves you understand their current lab infrastructure and active grant workflows.
+- It shows methodological compatibility — demonstrating you have skills in the exact tools they need.
+- It grounds your application in software and hardware proficiencies that allow you to contribute immediately.
 
 ### 4.3 Step-by-Step Extraction (5 Steps)
 
