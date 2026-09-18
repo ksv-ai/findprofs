@@ -14,27 +14,33 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 1. **NO Intermediate CSV or JSON Spreadsheets**:
    - The final primary output MUST strictly be a stylized Excel workbook (`.xlsx`) and interactive markdown reference (`.md`).
    - Clean up and purge any temporary `.csv` or tabular `.json` spreadsheet dumps.
-   - Preserved API Intelligence: All raw API extractions from OpenAlex must be preserved in a dedicated `openalex_cache/` directory (named by professor slug) for complete reproducibility, auditability, and future reference.
-2. **Strict Active Faculty Verification (Zero Emeritus / Retired Faculty)**:
+2. **Selective OpenAlex Extraction (Core Aero / CFD / Fluid Mechanics Focus Only)**:
+   - OpenAlex enrichment and local `openalex_cache/` JSON file extraction MUST strictly target professors whose research focus is in **Core Aero / Fluids / CFD / Turbulence / Hypersonics / Aerodynamics / Multiphase / Propulsion / Combustion**.
+   - Non-aero faculty (pure robotics, materials science, manufacturing, biomedical, electronic packaging, civil/environmental) must NOT have OpenAlex cache files created. This keeps the cache and downstream cold email intelligence 100% focused on relevant faculty without noisy, irrelevant data.
+   - In Excel, support a dedicated **`Aero Focus`** sheet (or tier-based prioritization) containing solely these core aerospace/fluids faculty.
+3. **Preserved API Intelligence**:
+   - All raw API extractions from OpenAlex for core aero faculty are preserved in `openalex_cache/<slug>.json` for complete reproducibility, auditability, and downstream cold email generation.
+4. **Strict Active Faculty Verification (Zero Emeritus / Retired Faculty)**:
    - Always inspect ALL candidate title fields, appointment lists, affiliations, and subaffiliations.
    - Reject any profile containing: `emeritus`, `retired`, `adjunct`, `visiting`, `lecturer`, `instructor`, `postdoc`, `courtesy`, or `staff`.
-3. **Keyword Matching & Ranking (`fields.txt`)**:
+5. **Keyword Matching & Ranking (`fields.txt`)**:
    - Extract research keywords from `fields.txt` across Turbulence, CFD, Fluids, Thermal/Heat Transfer, Robotics, Control, Autonomy, Materials, Structures, and Aerospace.
-   - Both sheets in Excel must be sorted in descending order of **maximum matched keywords first** (`Matched Count`).
-4. **Active Clickable Excel Hyperlinks**:
+   - Excel sheets must be sorted with high-priority fluids/CFD faculty prominently positioned (`Matched Count` or `Research Tier`).
+6. **Active Clickable Excel Hyperlinks**:
    - Every URL and email must use `=HYPERLINK("...", "...")` formulas and OpenPyXL `Hyperlink` styles so they work seamlessly in Microsoft Excel, Google Sheets, and LibreOffice.
-5. **Authentic, Real Data Only**:
+7. **Authentic, Real Data Only**:
    - Never fabricate data. If a faculty member does not have a lab website or office number, leave the cell empty.
-6. **Automatic GitHub Synchronization**:
+8. **Automatic GitHub Synchronization**:
    - After code or dataset modifications, commit and push to GitHub repository under user `ksv-ai`.
 
 ---
 
-## 2. Standardized 33-Column Dataset Schema (Cold Outreach Architecture)
+## 2. Standardized Dataset Schema (Cold Outreach Architecture)
 
-Every university extraction pipeline outputs an Excel workbook with two clean sheets:
-1. **`Field Matched`**: Only professors with `Matched Count > 0`, sorted descending.
-2. **`All Faculty`**: Complete cohort of verified active faculty, sorted descending by matched count.
+Every university extraction pipeline outputs an Excel workbook with clean sheets:
+1. **`Aero Focus`**: Only professors working strictly in Core Aero, Fluids, CFD, Turbulence, Hypersonics, and Propulsion.
+2. **`Field Matched`**: All professors with `Matched Count > 0`, sorted descending.
+3. **`All Faculty`**: Complete cohort of verified active faculty, sorted descending by matched count.
 
 ### Column Specification:
 
@@ -76,113 +82,136 @@ Every university extraction pipeline outputs an Excel workbook with two clean sh
 
 ---
 
-## 3. Playbook: How to Transfer the Pipeline to Any New University
+## 3. Core Aero / Fluids Focus Filtering Protocol
 
-To scrape any new institution (e.g. Georgia Tech, Purdue, MIT, Michigan) and achieve identical high-fidelity output, follow this standardized 7-step replication protocol:
+To prevent scraping noisy, irrelevant profiles (robotics, materials science, manufacturing, biomedical) into the OpenAlex cache and cold email queue, enforce the **Core Aero Filter**:
+
+### 3.1 Qualifying Research Areas
+A professor qualifies for OpenAlex JSON cache extraction and the `Aero Focus` tab if their profile matches at least one (or two) core aerospace/fluid dynamics paradigms:
+- **CFD & Turbulence**: Direct Numerical Simulation (DNS), Large Eddy Simulation (LES), RANS, turbulent shear flows, boundary layer transition, vortex dynamics.
+- **Aerodynamics & Gas Dynamics**: High-speed aerodynamics, hypersonics, supersonics, shock waves, shock–boundary-layer interaction (SBLI), compressible/incompressible flow, airfoils/wings.
+- **Multiphase & Complex Flows**: Multiphase flow, droplet/bubble dynamics, particle dynamics in fluid flows, granular flows.
+- **Propulsion & Reacting Flows**: Combustion, flame dynamics, jet noise/acoustics, rotating detonation engines, scramjets, nozzles.
+- **Experimental Fluids**: Particle Image Velocimetry (PIV, SPIV, Tomo-PIV), hot-wire anemometry, Schlieren, wind tunnel/water tunnel facilities.
+
+### 3.2 Automated Filter Logic
+```python
+import re
+
+CORE_AERO_TERMS = [
+    r'\bcomputational fluid dynamics\b', r'\bcfd\b', r'\bfluid dynamics\b',
+    r'\bfluid mechanics\b', r'\bturbulence\b', r'\bturbulent\b',
+    r'\baerodynamics\b', r'\baerodynamic\b', r'\bmultiphase flow\b', r'\bmultiphase\b',
+    r'\bcombustion\b', r'\bpropulsion\b', r'\bhypersonic\b', r'\bsupersonic\b',
+    r'\btransonic\b', r'\bdirect numerical simulation\b', r'\bdns\b',
+    r'\blarge eddy simulation\b', r'\bboundary layer\b', r'\bvortex\b', r'\bvortices\b',
+    r'\bflow control\b', r'\bshear flow\b', r'\bcompressible flow\b', r'\bshock waves\b',
+    r'\bwind and air flow\b', r'\bwind energy\b', r'\baeroelasticity\b',
+    r'\bparticle dynamics in fluid\b', r'\biomimetic flight\b'
+]
+COMPILED_AERO = [re.compile(p, re.IGNORECASE) for p in CORE_AERO_TERMS]
+
+def is_core_aero_prof(prof_dict: dict) -> bool:
+    """Returns True ONLY if professor's profile text contains verified aero/fluids keywords."""
+    text = " | ".join([
+        str(prof_dict.get("Matched Fields", "")),
+        str(prof_dict.get("Research Interests", "")),
+        str(prof_dict.get("Research / Bio Summary", "")),
+        str(prof_dict.get("Lab / Research Group Name", "")),
+    ])
+    hits = [p.pattern.replace(r'\b', '') for p in COMPILED_AERO if p.search(text)]
+    return len(hits) >= 1  # Strictly gate OpenAlex extraction
+```
+
+---
+
+## 4. Cold Outreach Intelligence: Flagship Paper, Tech Stack & Tripartite Finding
+
+To elevate cold emails from generic inquiries into high-impact academic outreach that achieves a 25–35% response rate, adhere to the **4 Pillars of Cold Outreach**:
+
+### 4.1 Pillar 1: Research Hook
+- **Purpose**: Opens the email immediately after the salutation. Demonstrates understanding of the professor's overarching research agenda, tension, or open question.
+- **Rule**: 1–2 sentences, curiosity-driven, no proper nouns (no professor name, no paper titles, no university name).
+- **Template Frame**:
+  `"[Field-level phenomenon / open challenge] — [what makes it fundamentally hard or intractable] — [what this group's approach addresses]."`
+
+### 4.2 Pillar 2: Flagship Paper Selection & Filtering
+The flagship paper is the single most relevant primary research paper used as the anchor hook. It must pass 4 strict filters:
+1. **Subject Filter**: Fluid dynamics / CFD / aerodynamics keyword score $\ge 2$ in title + concepts.
+2. **Article Type Filter**: Must be primary original research (exclude `review`, `survey`, `overview`, `book-chapter`, `editorial`, `erratum`).
+3. **DOI Verification**: DOI must resolve with HTTP 200 via the Crossref API (`https://api.crossref.org/works/<doi>`).
+4. **Detail Filter**: Abstract must contain both a named method/solver (for Tech Stack) and a quantitative metric (for Tripartite Finding).
+
+**Paper Scoring Formula**:
+$$\text{Score} = \text{Citations} + (50 \times \text{Fluid Keyword Hits}) + 100 \times \mathbb{I}(\text{Has Quant Result}) - 500 \times \mathbb{I}(\text{Is Review}) + \text{Recency Bonus}$$
+
+### 4.3 Pillar 3: Tech Stack Extraction
+- **Definition**: A concise, comma-separated list of the primary computational solvers or experimental tools actually used in the flagship paper.
+- **Categories**:
+  - *Open-Source CFD*: `OpenFOAM (LES)`, `Nek5000 (spectral-element DNS)`, `SU2 (adjoint optimization)`.
+  - *Commercial CFD*: `ANSYS Fluent (k-ω SST)`, `STAR-CCM+`, `CONVERGE`, `OVERFLOW`.
+  - *In-House Codes*: `In-house pseudo-spectral DNS solver`, `Immersed-boundary solver`.
+  - *Experimental*: `Stereo PIV`, `Tomo-PIV`, `Hot-wire anemometry`, `Schlieren imaging`.
+- **Rules**: Max 2–3 tools, under 60 characters, official naming format.
+
+### 4.4 Pillar 4: Tripartite Physical Finding
+The Tripartite Finding connects directly after the phrase:
+> *"…specifically your investigation into…"*
+
+It consists of three mandatory, interconnected components:
+1. **Part 1 `[ENGINE]` — Active Methodology / Solver**:
+   - Opens with an active gerund (`performing`, `conducting`, `coupling`, `deploying`).
+   - Example: `performing wall-resolved large-eddy simulations (WRLES)` or `deploying stereo PIV in a Mach 2.5 blowdown tunnel`.
+2. **Part 2 `[ARENA]` — Specific Flow Physics & Geometry**:
+   - Combines geometry + flow condition / dimensionless regime.
+   - Example: `transonic shock–boundary-layer interaction (SBLI) over a 24° compression ramp at Re_theta = 4500`.
+3. **Part 3 `[PAYOFF]` — Root Physical Mechanism & Hard Quantitative Benchmark**:
+   - Reveals causality (why the flow behaves as it does) and contains **at least one hard quantitative benchmark** (%, dB, St, Cf, Re_tau, Ma).
+   - Example: `demonstrating that low-frequency shock oscillation is driven by upstream boundary layer breathing, resulting in a 28% peak wall-pressure fluctuation reduction`.
+
+**Full Sentence Assembly Example**:
+> *"I was particularly drawn to your work in [Journal], specifically your investigation into **performing wall-resolved large-eddy simulations** to investigate **transonic shock–boundary-layer interaction over a 24° compression ramp**, demonstrating that **shock-unsteadiness is coupled to upstream coherent structures, resulting in a 28% peak wall-pressure fluctuation reduction**."*
+
+---
+
+## 5. Playbook: Transferring the Pipeline to Any New University
+
+Follow this standardized 7-step replication protocol for any new institution (e.g. Purdue, Georgia Tech, Michigan, UIUC, Texas A&M):
 
 ### Step 1: Project Setup & Workspace Isolation
-1. Create a dedicated directory: `universities_wise/<university_slug>/` (e.g. `universities_wise/georgia_tech/`).
-2. Follow the no-CSV/JSON rule: Only produce the final `.xlsx` workbook and `.md` reference directory. Delete any temporary dump files automatically.
-3. Import the shared 33-column `COLUMNS_CONFIG` and keyword ontology (`TARGET_KEYWORDS`, `EXCLUDED_KEYWORDS`) directly from the project standard.
+1. Create directory: `universities_wise/<university_slug>/`.
+2. Clean up any temporary `.csv` or tabular `.json` spreadsheets.
+3. Import `COLUMNS_CONFIG` and `TARGET_KEYWORDS`.
 
-### Step 2: Directory Architecture Discovery & Harvesting (Stage 1)
-1. Identify the target schools/departments (e.g. Aerospace Engineering + Mechanical Engineering).
-2. Inspect the network requests and DOM structure:
-   - **JSON REST API Endpoint** (e.g. ASU Drupal API): If the university powers its directory via an API, call it directly with pagination (`page_size=100`) to retrieve raw records with rich metadata.
-   - **Server-Side Rendered HTML Cards** (e.g. Georgia Tech, Auburn): Parse cards using `BeautifulSoup` or `cloudscraper`, extracting faculty name, academic title, department, email, and profile URL.
-   - **Client-Side SPA / Dynamic Loading**: If behind client-side rendering or bot-protection, use `cloudscraper` sessions with realistic headers.
+### Step 2: Directory Architecture Discovery & Harvesting
+1. Identify Aerospace Engineering & Mechanical Engineering faculty rosters.
+2. Intercept JSON REST API or scrape server-side HTML directory cards.
 
-### Step 3: Strict Active Faculty Verification (Stage 2)
-1. Inspect all candidate titles, appointments, affiliations, and rank descriptions.
-2. Filter out all non-target personnel:
-   - Reject: `emeritus`, `retired`, `emerita`, `adjunct`, `visiting`, `lecturer`, `instructor`, `postdoc`, `courtesy`, `administrative`, `coordinator`, `advisor`, `manager`, `staff`.
-3. Retain strictly active tenured & tenure-track faculty:
-   - Keep: `Assistant Professor`, `Associate Professor`, `Professor`, `Chaired Professor`, `Regents Professor`.
+### Step 3: Strict Active Faculty Verification
+1. Reject: `emeritus`, `retired`, `adjunct`, `visiting`, `lecturer`, `instructor`, `postdoc`, `staff`.
+2. Keep: `Assistant Professor`, `Associate Professor`, `Professor`, `Chaired Professor`, `Regents Professor`.
 
-### Step 4: Primary Profile Scraping & Cold Email Hooks (Stage 3)
-Visit each faculty member's official university profile page (`https://search...` or `https://.../people/...`) to extract:
-1. **Office Location**: Building, room number, and campus.
-2. **Education & Degrees**: Degree credentials, universities, and graduation years.
-3. **Courses Taught**: Filter out research credits/dissertations; capture 2–3 active lecture courses.
-4. **Recent Awards & Accolades**: Fellowships, NSF CAREER awards, society honors.
-5. **Cold Email Instructions**: Look for explicit PI guidance on how to reach out (`send CV`, `subject line`, `prospective student`, `statement of interest`).
-6. **Direct Google Scholar User ID**: Search for 12-character ID strings matching `user=([a-zA-Z0-9_-]{12})`.
+### Step 4: Primary Profile & Lab Website Intelligence
+1. Profile Scraping: Office location, degrees, courses taught, awards, Google Scholar ID.
+2. Lab Scraping: Active hiring statements, prerequisites (Python, C++, ROS, PyTorch), experimental facilities, funding sponsors, GitHub code repos.
 
-### Step 5: Deep Lab Website Crawling & Intelligence (Stage 4)
-If a faculty member has a personal or lab website (`sites.google.com`, lab subdomains, or external URLs):
-1. Visit the lab homepage and discover internal subpages (`/publications`, `/openings`, `/join`, `/research`, `/facilities`, `/equipment`).
-2. Extract rich outreach intelligence:
-   - **Actively Hiring / Openings**: Live statements seeking PhD, MS, or undergraduate students.
-   - **Target Skills / Prerequisites**: Programming languages (`Python`, `C++`), frameworks (`PyTorch`, `ROS/ROS2`), or foundational math (`Linear Algebra`, `CFD`).
-   - **Lab Facilities & Experimental Equipment**: Hardware, testbeds, and setups (Wind Tunnel, Towing Tank, PIV, AFM, GPU cluster, 3D printing).
-   - **Funding Sponsors**: Federal/industrial sponsors (*NSF, NASA, ONR, DARPA, AFOSR, DOE*).
-   - **Code Repositories**: Open-source GitHub, GitLab, or Bitbucket project links.
+### Step 5: Selective OpenAlex API Extraction (Aero Core Only)
+1. Evaluate faculty against `is_core_aero_prof()`.
+2. **Extract OpenAlex JSON only for qualifying aero faculty**; save compact structured JSON to `openalex_cache/<slug>.json`.
+3. For core aero faculty, extract:
+   - Top Research Topics (with publication counts).
+   - Top 3 Cited Papers (with journal, year, cites, DOI).
+   - Top 3 Recent Papers 2024–2026 (with journal, year, DOI).
+   - Flagship paper, Tech Stack, and abstract for Tripartite Finding generation.
 
-### Step 6: Academic Intel via OpenAlex API (Stage 5)
-Leverage the OpenAlex API using the active API key to extract publication intelligence without bot blocks:
-1. **OpenAlex Research Topics**: Query the author's primary topics and format with publication counts:
-   - Example: `Fluid Dynamics and Heat Transfer (66) | Fluid Dynamics and Turbulent Flows (27) | Particle Dynamics in Fluid Flows (27)`
-2. **Top 3 Cited Papers (Landmark Research)**:
-   - Retrieve top 3 works sorted by `cited_by_count:desc`.
-   - Format with paper title, journal/venue name, publication year, citation count, and direct clickable DOI link (`[🔗 DOI Link](https://doi.org/...)`).
-3. **Top 3 Recent Papers (2024–2026)**:
-   - Retrieve works filtered by `publication_year:2024-2026` sorted by year descending.
-   - Format with paper title, journal/venue name, year, and direct clickable DOI link.
-4. **Disambiguation Rule**: Cross-reference the author's institutions with the university name and filter topics against aerospace/mechanical keywords to prevent mismatching namesakes.
-5. **Clean & Compact JSON Schema for `openalex_cache/`**:
-   - Instead of saving massive raw OpenAlex payload dumps with thousands of lines of API internals, store a **curated, high-value structured JSON** (modeled after `rows_571_590_openalex.json`):
-   ```json
-   {
-     "name": "Professor Name",
-     "uni": "Institution Name",
-     "author_id": "A...",
-     "author_display_name": "...",
-     "works_count": 150,
-     "cited_by_count": 5200,
-     "top_topics": [
-       {"topic": "Fluid Dynamics", "count": 45}
-     ],
-     "top_cited_works": [
-       {
-         "title": "...",
-         "publication_year": 2020,
-         "doi": "https://doi.org/...",
-         "venue": "Journal of Fluid Mechanics",
-         "cited_by_count": 350,
-         "concepts": ["Turbulence", "CFD"],
-         "abstract": "...",
-         "authors": ["Author 1", "Author 2"]
-       }
-     ],
-     "recent_works": [
-       {
-         "title": "...",
-         "publication_year": 2025,
-         "doi": "https://doi.org/...",
-         "venue": "AIAA Journal",
-         "type": "journal-article",
-         "concepts": ["Hypersonics", "Aerodynamics"],
-         "abstract": "...",
-         "authors": ["Author 1", "Author 2"]
-       }
-     ]
-   }
-   ```
-   - **Why this is better**:
-     - Reduces file size by 80–90% while retaining 100% of the useful information (abstracts, concepts, citations, DOIs, authors).
-     - Far easier to query, inspect, and use for downstream cold email generators or LLM summarization.
-     - Prevents disk exhaustion on large university scraping batches.
+### Step 6: Multi-Sheet Excel & Markdown Generation
+1. Build Excel workbook (`<slug>_aerospace_mechanical_faculty.xlsx`):
+   - Sheet 1: `Aero Focus` (solely Core Aero/Fluids/CFD professors, ready for cold outreach).
+   - Sheet 2: `Field Matched` (all active professors with matched keywords).
+   - Sheet 3: `All Faculty` (complete cohort audit log).
+2. Build Markdown directory (`<slug>_aerospace_mechanical_faculty.md`):
+   - Quick jump index, visual indicator badges (🔥 Hiring, 📩 Cold Email, 📄 Paper, 🔬 Lab).
+   - Clickable DOI links for landmark and recent publications.
 
-### Step 7: Dual Output Generation & Git Synchronization (Stage 6 & 7)
-1. **Excel Workbook (`<slug>_aerospace_mechanical_faculty.xlsx`)**:
-   - Sheet 1: `Field Matched` (sorted descending by `Matched Count`).
-   - Sheet 2: `All Faculty` (complete cohort, sorted descending by `Matched Count`).
-   - Write all 33 dynamic columns using `=HYPERLINK(...)` formulas and OpenPyXL `Hyperlink` styles.
-2. **Markdown Directory (`<slug>_aerospace_mechanical_faculty.md`)**:
-   - Interactive Quick Directory Index with clickable anchor bookmarks (`[Professor Name](#anchor)`).
-   - Visual indicator badges: 🔥 **Hiring**, 📩 **Cold Email**, 📄 **Paper**, 🔬 **Lab**.
-   - Structured numbered lists for papers with embedded `[🔗 DOI Link]` buttons.
-   - Return-to-top buttons on every profile (`[⬆️ Back to Top]`).
-3. **Commit & Push to GitHub**:
-   - Synchronize all code, spreadsheets, and markdown documentation to GitHub repository under user `ksv-ai`.
-
+### Step 7: Automatic GitHub Synchronization
+- Commit all updated code, workbooks, markdown files, and curated cache to GitHub repository under user `ksv-ai`.
