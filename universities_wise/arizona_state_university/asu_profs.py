@@ -262,21 +262,85 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         soup = BeautifulSoup(r.text, "html.parser")
         page_text = soup.get_text(separator=" ")
 
-        # 1. Hiring / Openings & Cold Email Instructions
-        if any(w in page_text.lower() for w in ["looking for motivated", "openings", "join us", "open position", "phd positions available", "prospective students"]):
+        # Discover internal subpages (publications, openings/join, people, research)
+        base_domain = urllib.parse.urlparse(url).netloc
+        subpages = {}
+        for a_tag in soup.find_all("a", href=True):
+            href = a_tag["href"].strip()
+            if not href or href.startswith("#") or href.startswith("javascript:"):
+                continue
+            full_sub_url = urllib.parse.urljoin(url, href)
+            parsed_sub = urllib.parse.urlparse(full_sub_url)
+            # Stay within domain or subpath if Google Sites
+            if parsed_sub.netloc != base_domain and not ("sites.google.com" in url and "sites.google.com" in full_sub_url):
+                continue
+            sub_text = a_tag.get_text(strip=True).lower()
+            sub_path = parsed_sub.path.lower()
+
+            if any(w in sub_path or w in sub_text for w in ["publication", "papers", "pubs", "selected-publications"]) and "pub" not in subpages:
+                subpages["pub"] = full_sub_url
+            if any(w in sub_path or w in sub_text for w in ["opening", "join", "prospective", "opportunities", "contact"]) and "openings" not in subpages:
+                subpages["openings"] = full_sub_url
+            if any(w in sub_path or w in sub_text for w in ["research", "projects", "thrust"]) and "research" not in subpages:
+                subpages["research"] = full_sub_url
+
+        # 1. Hiring / Openings & Cold Email Instructions (from homepage)
+        if any(w in page_text.lower() for w in ["looking for motivated", "openings", "join us", "open position", "phd positions available", "prospective students", "intern"]):
             sentences = re.split(r'[.\n]', page_text)
             for s in sentences:
                 s_clean = " ".join(s.split())
-                if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and len(s_clean) < 140 and len(s_clean) > 15:
+                if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and 15 < len(s_clean) < 140:
                     details["Actively Hiring / Openings"] = s_clean
                     break
-                if any(k in s_clean.lower() for k in ["email me", "send your cv", "subject line", "cover letter"]) and 20 < len(s_clean) < 160:
+                if any(k in s_clean.lower() for k in ["email me", "send your cv", "subject line", "cover letter", "cv, transcript"]) and 20 < len(s_clean) < 180:
                     details["Cold Email / Application Instructions"] = s_clean
 
             if not details["Actively Hiring / Openings"]:
                 details["Actively Hiring / Openings"] = "Actively recruiting / Openings mentioned on lab site"
 
-        # 2. Required Skills & Prereqs
+        # Check dedicated openings subpage if available
+        if "openings" in subpages:
+            try:
+                r_o = scraper.get(subpages["openings"], timeout=8)
+                if r_o.status_code == 200:
+                    soup_o = BeautifulSoup(r_o.text, "html.parser")
+                    text_o = soup_o.get_text(separator=" ")
+                    sentences_o = re.split(r'[.\n]', text_o)
+                    for s in sentences_o:
+                        s_c = " ".join(s.split())
+                        if not details["Actively Hiring / Openings"] and any(k in s_c.lower() for k in ["looking for", "openings", "phd position", "undergraduate", "interns"]) and 15 < len(s_c) < 140:
+                            details["Actively Hiring / Openings"] = s_c
+                        if any(k in s_c.lower() for k in ["email", "send", "cv", "transcript", "statement", "subject line"]) and 25 < len(s_c) < 180:
+                            if not details["Cold Email / Application Instructions"]:
+                                details["Cold Email / Application Instructions"] = s_c
+                                break
+            except Exception:
+                pass
+
+        # 2. Latest Publications from dedicated pub subpage or homepage
+        target_pub_soup = soup
+        if "pub" in subpages:
+            try:
+                r_p = scraper.get(subpages["pub"], timeout=8)
+                if r_p.status_code == 200:
+                    target_pub_soup = BeautifulSoup(r_p.text, "html.parser")
+            except Exception:
+                pass
+
+        # Extract paper title from pub soup
+        for item in target_pub_soup.find_all(["li", "p", "div"]):
+            p_text = " ".join(item.get_text(separator=" ").split())
+            if any(yr in p_text for yr in ["2026", "2025", "2024", "2023"]) and len(p_text) > 35:
+                # Filter out pure headers/footers
+                if not any(ig in p_text.lower() for ig in ["all rights reserved", "copyright", "google scholar"]):
+                    # Clean out author prefix if structured
+                    clean_title = p_text
+                    if len(clean_title) > 130:
+                        clean_title = clean_title[:127] + "..."
+                    details["Latest Paper / Publication"] = clean_title
+                    break
+
+        # 3. Required Skills & Prereqs
         prereqs = []
         for sk in ["Python", "C++", "PyTorch", "TensorFlow", "ROS", "ROS2", "OpenFOAM", "MATLAB", "JAX", "ANSYS", "SolidWorks", "Linear Algebra", "CFD"]:
             pattern = r'\b' + re.escape(sk) + r'\b'
@@ -285,7 +349,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         if prereqs:
             details["Target Skills / Prerequisites"] = ", ".join(prereqs)
 
-        # 3. Funding Agencies & Sponsors
+        # 4. Funding Agencies & Sponsors
         sponsors = set()
         for sp in ["NSF", "NASA", "DARPA", "ONR", "AFOSR", "DOE", "NIH", "ARPA-E", "Lockheed Martin", "Boeing", "Honeywell", "Sandia National Laboratories"]:
             pattern = r'\b' + re.escape(sp) + r'\b'
@@ -294,7 +358,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         if sponsors:
             details["Funding Sponsors"] = ", ".join(sorted(list(sponsors)))
 
-        # 4. Code / GitHub / Bitbucket Repository
+        # 5. Code / GitHub / Bitbucket Repository
         repos = set()
         for a_tag in soup.find_all("a", href=True):
             href = a_tag["href"]
@@ -304,7 +368,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         if repos:
             details["Software / Code Repo"] = ", ".join(sorted(list(repos))[:2])
 
-        # 5. Latest Project / Headline
+        # 6. Latest Project / Headline
         headings = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3']) if 8 < len(h.get_text(strip=True)) < 80]
         for h in headings:
             if not any(ig in h.lower() for ig in ["welcome", "home", "search", "navigation", "menu"]):
