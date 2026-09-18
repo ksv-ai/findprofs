@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Cache & Checkpoints
+.openalex_cache/
+.r1_all_checkpoint.json
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
