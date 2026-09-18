@@ -187,6 +187,78 @@ def create_browser_session() -> cloudscraper.CloudScraper:
     return scraper
 
 
+def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[str, str]:
+    """Scrapes hiring status, required prereqs, funding sponsors, code repos, and highlights from lab website."""
+    details = {
+        "Hiring Status": "",
+        "Required Skills / Prereqs": "",
+        "Funding Sponsors": "",
+        "Software / Code Repo": "",
+        "Latest Project / Highlight": ""
+    }
+    if not url or not url.startswith("http"):
+        return details
+
+    try:
+        r = scraper.get(url, timeout=10)
+        if r.status_code != 200:
+            return details
+
+        soup = BeautifulSoup(r.text, "html.parser")
+        page_text = soup.get_text(separator=" ")
+
+        # 1. Hiring / Openings detection
+        if any(w in page_text.lower() for w in ["looking for motivated", "openings", "join us", "open position", "phd positions available", "prospective students"]):
+            sentences = re.split(r'[.\n]', page_text)
+            for s in sentences:
+                s_clean = " ".join(s.split())
+                if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and len(s_clean) < 140 and len(s_clean) > 15:
+                    details["Hiring Status"] = s_clean
+                    break
+            if not details["Hiring Status"]:
+                details["Hiring Status"] = "Actively recruiting / Openings mentioned on lab site"
+
+        # 2. Required Skills & Prereqs
+        prereqs = []
+        for sk in ["Python", "C++", "PyTorch", "TensorFlow", "ROS", "ROS2", "OpenFOAM", "MATLAB", "JAX", "ANSYS", "SolidWorks", "Linear Algebra", "CFD"]:
+            pattern = r'\b' + re.escape(sk) + r'\b'
+            if re.search(pattern, page_text):
+                prereqs.append(sk)
+        if prereqs:
+            details["Required Skills / Prereqs"] = ", ".join(prereqs)
+
+        # 3. Funding Agencies & Sponsors
+        sponsors = set()
+        for sp in ["NSF", "NASA", "DARPA", "ONR", "AFOSR", "DOE", "NIH", "ARPA-E", "Lockheed Martin", "Boeing", "Honeywell", "Sandia National Laboratories"]:
+            pattern = r'\b' + re.escape(sp) + r'\b'
+            if re.search(pattern, page_text):
+                sponsors.add(sp)
+        if sponsors:
+            details["Funding Sponsors"] = ", ".join(sorted(list(sponsors)))
+
+        # 4. Code / GitHub / Bitbucket Repository
+        repos = set()
+        for a_tag in soup.find_all("a", href=True):
+            href = a_tag["href"]
+            if "github.com" in href or "bitbucket.org" in href or "gitlab.com" in href:
+                if not any(ign in href for ign in ["github.com/google", "github.com/facebook", "github.com/twitter"]):
+                    repos.add(href.rstrip("/"))
+        if repos:
+            details["Software / Code Repo"] = ", ".join(sorted(list(repos))[:2])
+
+        # 5. Latest Project / Headline
+        headings = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3']) if 8 < len(h.get_text(strip=True)) < 80]
+        for h in headings:
+            if not any(ig in h.lower() for ig in ["welcome", "home", "search", "navigation", "menu"]):
+                details["Latest Project / Highlight"] = h
+                break
+
+    except Exception as e:
+        log.debug(f"Deep lab scraping error for {url}: {e}")
+
+    return details
+
+
 def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
     log.info("Scraping Arizona State University (SEMTE - Aerospace & Mechanical Engineering)...")
     results = []
@@ -263,11 +335,19 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
 
                 rg_raw = item.get("research_group", {}).get("raw") or ""
                 lab_name = KNOWN_LAB_NAMES.get(name, "")
-                if not lab_name and rg_raw:
+                hiring_status = ""
+                prereqs = ""
+
+                if rg_raw:
                     soup_rg = BeautifulSoup(rg_raw, "html.parser")
                     rg_text = " ".join(soup_rg.get_text(separator=" ").split())
-                    if len(rg_text) < 90 and not rg_text.startswith("http"):
+                    if not lab_name and len(rg_text) < 90 and not rg_text.startswith("http"):
                         lab_name = rg_text
+                    if "looking for" in rg_text.lower() or "graduate students" in rg_text.lower():
+                        hiring_status = "Actively seeking graduate students (see bio/lab link)"
+                    if any(s in rg_text for s in ["Python", "PyTorch", "ROS", "ROS2", "C++", "Linear Algebra"]):
+                        skills_found = [s for s in ["Python", "PyTorch", "ROS", "ROS2", "C/C++", "Linear Algebra", "Control"] if s in rg_text]
+                        prereqs = ", ".join(skills_found)
 
                 # 4. Text for field matching & research profiles
                 bio = item.get("bio", {}).get("raw") or ""
@@ -316,6 +396,11 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                     "Research / Bio Summary": bio_summary,
                     "Education / Degrees": clean_edu,
                     "Lab / Research Group Name": lab_name,
+                    "Actively Hiring / Openings": hiring_status,
+                    "Target Skills / Prerequisites": prereqs,
+                    "Funding Sponsors": "",
+                    "Software / Code Repo": "",
+                    "Latest Project / Highlight": "",
                     "Office Location": "",  # Enriched from profile page
                     "Lab / Personal Website": lab_website,
                     "Is Field Match": len(matched) > 0,
@@ -384,6 +469,20 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                 log.debug(f"Error enriching {prof['Name']}: {e}")
             time.sleep(0.08)
 
+        # Third pass: Deep-scrape faculty lab websites for rich data
+        if prof["Lab / Personal Website"]:
+            lab_details = scrape_deep_lab_site(scraper, prof["Lab / Personal Website"])
+            if not prof["Actively Hiring / Openings"] and lab_details["Hiring Status"]:
+                prof["Actively Hiring / Openings"] = lab_details["Hiring Status"]
+            if not prof["Target Skills / Prerequisites"] and lab_details["Required Skills / Prereqs"]:
+                prof["Target Skills / Prerequisites"] = lab_details["Required Skills / Prereqs"]
+            if lab_details["Funding Sponsors"]:
+                prof["Funding Sponsors"] = lab_details["Funding Sponsors"]
+            if lab_details["Software / Code Repo"]:
+                prof["Software / Code Repo"] = lab_details["Software / Code Repo"]
+            if lab_details["Latest Project / Highlight"]:
+                prof["Latest Project / Highlight"] = lab_details["Latest Project / Highlight"]
+
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
     # Sort primarily by Matched Count (descending: max keywords matched first), then by Name (A-Z)
@@ -415,8 +514,10 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
         "Name", "Job Title", "Department", "University", "Email",
         "Matched Count", "Matched Fields", "Research Interests", "Expertise Areas",
         "Research / Bio Summary", "Education / Degrees", "Lab / Research Group Name",
-        "Office Location", "Lab / Personal Website", "Is Field Match", "Scholar ID",
-        "Profile URL", "Google Scholar URL", "Directory URL"
+        "Actively Hiring / Openings", "Target Skills / Prerequisites", "Funding Sponsors",
+        "Software / Code Repo", "Latest Project / Highlight", "Office Location",
+        "Lab / Personal Website", "Is Field Match", "Scholar ID", "Profile URL",
+        "Google Scholar URL", "Directory URL"
     ]
 
     sheets_data = [
@@ -526,7 +627,7 @@ def main():
             except Exception as e:
                 log.warning(f"Could not remove {f}: {e}")
 
-    # 2. Scrape and generate active faculty records
+    # 2. Scrape and generate active faculty records with deep lab data
     faculty = scrape_asu(scraper)
 
     # 3. Export exclusively to formatted Excel (.xlsx)
@@ -538,17 +639,25 @@ def main():
     with_id_count = sum(1 for f in faculty if f["Scholar ID"])
     with_edu_count = sum(1 for f in faculty if f["Education / Degrees"])
     with_lab_name_count = sum(1 for f in faculty if f["Lab / Research Group Name"])
+    with_hiring_count = sum(1 for f in faculty if f["Actively Hiring / Openings"])
+    with_prereqs_count = sum(1 for f in faculty if f["Target Skills / Prerequisites"])
+    with_funding_count = sum(1 for f in faculty if f["Funding Sponsors"])
+    with_repo_count = sum(1 for f in faculty if f["Software / Code Repo"])
     with_office_count = sum(1 for f in faculty if f["Office Location"])
     with_web_count = sum(1 for f in faculty if f["Lab / Personal Website"])
 
     print("\n" + "=" * 95)
-    print("ASU FACULTY SCRAPING COMPLETED (ONLY EXCEL WORKBOOK GENERATED)")
+    print("ASU FACULTY & LAB SCRAPING COMPLETED (ONLY EXCEL WORKBOOK GENERATED)")
     print("=" * 95)
     print(f"Total Active Faculty (sorted by max keywords matched): {len(faculty)}")
     print(f"Field-Matched Faculty: {matched_count}")
     print(f"Direct Google Scholar User IDs: {with_id_count}")
     print(f"Faculty with Education / Degrees scraped: {with_edu_count}")
     print(f"Faculty with Lab / Research Group Name scraped: {with_lab_name_count}")
+    print(f"Faculty with Actively Hiring / Openings identified: {with_hiring_count}")
+    print(f"Faculty with Target Skills / Prerequisites extracted: {with_prereqs_count}")
+    print(f"Faculty with Funding Sponsors extracted: {with_funding_count}")
+    print(f"Faculty with Software / Code Repositories extracted: {with_repo_count}")
     print(f"Faculty with Office Location scraped: {with_office_count}")
     print(f"Faculty with Lab / Personal Website scraped: {with_web_count}")
     print(f"Excel Workbook Path: {excel_path}")
