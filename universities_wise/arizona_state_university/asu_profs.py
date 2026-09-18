@@ -236,14 +236,24 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                 research_interests = item.get("research_interests", {}).get("raw") or ""
                 expertise_areas = item.get("expertise_areas", {}).get("raw") or []
 
-                if bio:
-                    text_parts.append(BeautifulSoup(str(bio), "html.parser").get_text(separator=" "))
-                if short_bio:
-                    text_parts.append(BeautifulSoup(str(short_bio), "html.parser").get_text(separator=" "))
-                if research_interests:
-                    text_parts.append(BeautifulSoup(str(research_interests), "html.parser").get_text(separator=" "))
-                if isinstance(expertise_areas, list):
-                    text_parts.extend(expertise_areas)
+                clean_bio = " ".join(BeautifulSoup(str(bio), "html.parser").get_text(separator=" ").split()) if bio else ""
+                clean_short_bio = " ".join(BeautifulSoup(str(short_bio), "html.parser").get_text(separator=" ").split()) if short_bio else ""
+                clean_interests = " ".join(BeautifulSoup(str(research_interests), "html.parser").get_text(separator=" ").split()) if research_interests else ""
+                expertise_str = ", ".join(expertise_areas) if isinstance(expertise_areas, list) else str(expertise_areas)
+
+                # Combined biography summary
+                bio_summary = clean_short_bio if clean_short_bio else clean_bio
+                if len(bio_summary) > 400:
+                    bio_summary = bio_summary[:397] + "..."
+
+                if clean_bio:
+                    text_parts.append(clean_bio)
+                if clean_short_bio:
+                    text_parts.append(clean_short_bio)
+                if clean_interests:
+                    text_parts.append(clean_interests)
+                if expertise_str:
+                    text_parts.append(expertise_str)
 
                 full_text = " | ".join(text_parts)
                 matched = match_field_keywords(full_text)
@@ -259,9 +269,12 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict]:
                     "Email": email,
                     "Matched Count": len(matched),
                     "Matched Fields": ", ".join(matched),
+                    "Research Interests": clean_interests if clean_interests else expertise_str,
+                    "Expertise Areas": expertise_str,
+                    "Research / Bio Summary": bio_summary,
                     "Is Field Match": len(matched) > 0,
-                    "Profile URL": profile_url,
                     "Scholar ID": scholar_id,
+                    "Profile URL": profile_url,
                     "Google Scholar URL": "",  # will be generated
                     "asurite": asurite
                 })
@@ -315,7 +328,8 @@ def export_to_excel(faculty_list: List[Dict], output_path: str):
 
     columns_to_export = [
         "Name", "Job Title", "Department", "University", "Email",
-        "Matched Count", "Matched Fields", "Is Field Match", "Scholar ID", "Profile URL", "Google Scholar URL"
+        "Matched Count", "Matched Fields", "Research Interests", "Expertise Areas",
+        "Research / Bio Summary", "Is Field Match", "Scholar ID", "Profile URL", "Google Scholar URL"
     ]
 
     sheets_data = [
