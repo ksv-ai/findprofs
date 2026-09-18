@@ -29,7 +29,7 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
 
 ---
 
-## 2. Standardized 24-Column Dataset Schema (Logically Ordered)
+## 2. Standardized 28-Column Dataset Schema (Cold Outreach Architecture)
 
 Every university extraction pipeline outputs an Excel workbook with two clean sheets:
 1. **`Field Matched`**: Only professors with `Matched Count > 0`, sorted descending.
@@ -40,29 +40,33 @@ Every university extraction pipeline outputs an Excel workbook with two clean sh
 | Col # | Column Header | Description |
 | :---: | :--- | :--- |
 | 1 | `Name` | Faculty full name |
-| 2 | `Job Title` | Academic rank (Professor, Associate Professor, Assistant Professor) |
-| 3 | `Email` | Hyperlinked email address (`mailto:`) |
-| 4 | `University` | Institution name |
-| 5 | `Department` | Department / School name |
-| 6 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
-| 7 | `Matched Fields` | Comma-separated list of matched field keywords |
-| 8 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 9 | `Lab / Research Group Name` | Official research lab or group title |
-| 10 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 11 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
-| 12 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
-| 13 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 14 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 2 | `University` | Institution name |
+| 3 | `Profile URL` | Official university directory profile page (hyperlinked) |
+| 4 | `Google Scholar URL` | Direct Scholar URL with `user=<id>` or targeted search |
+| 5 | `Job Title` | Academic rank (Professor, Associate Professor, Assistant Professor) |
+| 6 | `Department` | Department / School name |
+| 7 | `Scholar ID` | Direct Google Scholar 12-character User ID |
+| 8 | `Email` | Hyperlinked email address (`mailto:`) |
+| 9 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
+| 10 | `Matched Fields` | Comma-separated list of matched field keywords |
+| 11 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
+| 12 | `Courses Taught` | Filtered lecture courses taught |
+| 13 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
+| 14 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
 | 15 | `Research Interests` | Specific research topic tags |
 | 16 | `Expertise Areas` | High-level research domain taxonomy |
 | 17 | `Research / Bio Summary` | Bio summary or research focus paragraph |
 | 18 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 19 | `Google Scholar URL` | Direct Scholar URL with `user=<id>` or targeted search |
-| 20 | `Scholar ID` | Direct Google Scholar 12-character User ID |
-| 21 | `Profile URL` | Official university directory profile page (hyperlinked) |
-| 22 | `Office Location` | Building and room number |
-| 23 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 24 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 19 | `Lab / Research Group Name` | Official research lab or group title |
+| 20 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 21 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 22 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, ROS2, PyTorch, etc.) |
+| 23 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, DARPA, etc.) |
+| 24 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 25 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 26 | `Office Location` | Building and room number |
+| 27 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 28 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 

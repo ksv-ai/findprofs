@@ -17,48 +17,51 @@ log = logging.getLogger("asu_scraper")
 # =============================================================================
 # 1. DYNAMIC COLUMN CONFIGURATION & ORDERING
 # =============================================================================
-# To change column order, simply rearrange the strings in this list!
-# Everything downstream (dictionary creation, headers, cells, hyperlinks, widths)
-# automatically references the exact column name dynamically.
+# Easily reorder or add columns here. Everything references the column name dynamically.
 # =============================================================================
 COLUMNS_CONFIG = [
-    # 1. Primary Identification & Contact
+    # 1. Primary Profile & Identification
     "Name",
-    "Job Title",
-    "Email",
     "University",
+    "Profile URL",
+    "Google Scholar URL",
+    "Job Title",
     "Department",
+    "Scholar ID",
+    "Email",
 
-    # 2. Research Match Relevance (Primary sorting criteria)
+    # 2. Field Match Criteria
     "Matched Count",
     "Matched Fields",
 
-    # 3. Lab Intelligence & Active Hiring
-    "Actively Hiring / Openings",
-    "Lab / Research Group Name",
-    "Lab / Personal Website",
-    "Target Skills / Prerequisites",
-    "Funding Sponsors",
-    "Software / Code Repo",
-    "Latest Project / Highlight",
+    # 3. Cold Email Personalization Hooks
+    "Latest Paper / Publication",
+    "Courses Taught",
+    "Recent Awards / Honors",
+    "Cold Email / Application Instructions",
 
-    # 4. Research Details & Background
+    # 4. Academic Background & Research Focus
     "Research Interests",
     "Expertise Areas",
     "Research / Bio Summary",
     "Education / Degrees",
 
-    # 5. Direct Links & Location
-    "Google Scholar URL",
-    "Scholar ID",
-    "Profile URL",
+    # 5. Lab Intelligence & Active Opportunities
+    "Lab / Research Group Name",
+    "Lab / Personal Website",
+    "Actively Hiring / Openings",
+    "Target Skills / Prerequisites",
+    "Funding Sponsors",
+    "Software / Code Repo",
+    "Latest Project / Highlight",
+
+    # 6. Location, Match Status & Source
     "Office Location",
     "Is Field Match",
     "Directory URL",
 ]
 
 # Formatting rules mapped to Column Names dynamically
-# (Independent of the column index/position!)
 HYPERLINK_RULES = {
     "Profile URL": lambda val, row: (val, val) if str(val).startswith("http") else None,
     "Google Scholar URL": lambda val, row: (
@@ -244,7 +247,9 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         "Target Skills / Prerequisites": "",
         "Funding Sponsors": "",
         "Software / Code Repo": "",
-        "Latest Project / Highlight": ""
+        "Latest Project / Highlight": "",
+        "Latest Paper / Publication": "",
+        "Cold Email / Application Instructions": ""
     }
     if not url or not url.startswith("http"):
         return details
@@ -257,7 +262,7 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
         soup = BeautifulSoup(r.text, "html.parser")
         page_text = soup.get_text(separator=" ")
 
-        # 1. Hiring / Openings detection
+        # 1. Hiring / Openings & Cold Email Instructions
         if any(w in page_text.lower() for w in ["looking for motivated", "openings", "join us", "open position", "phd positions available", "prospective students"]):
             sentences = re.split(r'[.\n]', page_text)
             for s in sentences:
@@ -265,6 +270,9 @@ def scrape_deep_lab_site(scraper: cloudscraper.CloudScraper, url: str) -> Dict[s
                 if any(k in s_clean.lower() for k in ["looking for", "openings", "positions available", "join our group", "join the lab"]) and len(s_clean) < 140 and len(s_clean) > 15:
                     details["Actively Hiring / Openings"] = s_clean
                     break
+                if any(k in s_clean.lower() for k in ["email me", "send your cv", "subject line", "cover letter"]) and 20 < len(s_clean) < 160:
+                    details["Cold Email / Application Instructions"] = s_clean
+
             if not details["Actively Hiring / Openings"]:
                 details["Actively Hiring / Openings"] = "Actively recruiting / Openings mentioned on lab site"
 
@@ -387,6 +395,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                 lab_name = KNOWN_LAB_NAMES.get(name, "")
                 hiring_status = ""
                 prereqs = ""
+                cold_email_instructions = ""
 
                 if rg_raw:
                     soup_rg = BeautifulSoup(rg_raw, "html.parser")
@@ -394,12 +403,29 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                     if not lab_name and len(rg_text) < 90 and not rg_text.startswith("http"):
                         lab_name = rg_text
                     if "looking for" in rg_text.lower() or "graduate students" in rg_text.lower():
-                        hiring_status = "Actively seeking graduate students (see bio/lab link)"
+                        hiring_status = "Actively seeking graduate students (see lab link/instructions)"
                     if any(s in rg_text for s in ["Python", "PyTorch", "ROS", "ROS2", "C++", "Linear Algebra"]):
                         skills_found = [s for s in ["Python", "PyTorch", "ROS", "ROS2", "C/C++", "Linear Algebra", "Control"] if s in rg_text]
                         prereqs = ", ".join(skills_found)
+                    if "email me" in rg_text.lower() or "cv along with" in rg_text.lower():
+                        sentences = re.split(r'[.\n]', rg_text)
+                        for s in sentences:
+                            if any(k in s.lower() for k in ["email me", "cv along with", "one or two-page", "subject line"]):
+                                cold_email_instructions = s.strip()
+                                break
 
-                # 4. Text for field matching
+                # 4. Honors / Awards from API if present
+                awards_raw = item.get("honors_awards", {}).get("raw") or ""
+                clean_awards = ""
+                if awards_raw:
+                    soup_aw = BeautifulSoup(awards_raw, "html.parser")
+                    lis = [li.get_text(separator=" ").strip() for li in soup_aw.find_all("li")]
+                    if lis:
+                        clean_awards = " | ".join(lis[:2])
+                    else:
+                        clean_awards = " ".join(soup_aw.get_text(separator=" ").split())[:120]
+
+                # 5. Text for field matching
                 bio = item.get("bio", {}).get("raw") or ""
                 short_bio = item.get("short_bio", {}).get("raw") or ""
                 research_interests = item.get("research_interests", {}).get("raw") or ""
@@ -436,26 +462,30 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                 # Store by exact column key matching COLUMNS_CONFIG
                 faculty_dict = {
                     "Name": name,
-                    "Job Title": title,
-                    "Email": email,
                     "University": "Arizona State University",
+                    "Profile URL": profile_url,
+                    "Google Scholar URL": "",
+                    "Job Title": title,
                     "Department": "Aerospace & Mechanical Engineering",
+                    "Scholar ID": scholar_id,
+                    "Email": email,
                     "Matched Count": len(matched),
                     "Matched Fields": ", ".join(matched),
-                    "Actively Hiring / Openings": hiring_status,
-                    "Lab / Research Group Name": lab_name,
-                    "Lab / Personal Website": lab_website,
-                    "Target Skills / Prerequisites": prereqs,
-                    "Funding Sponsors": "",
-                    "Software / Code Repo": "",
-                    "Latest Project / Highlight": "",
+                    "Latest Paper / Publication": "",
+                    "Courses Taught": "",
+                    "Recent Awards / Honors": clean_awards,
+                    "Cold Email / Application Instructions": cold_email_instructions,
                     "Research Interests": clean_interests if clean_interests else expertise_str,
                     "Expertise Areas": expertise_str,
                     "Research / Bio Summary": bio_summary,
                     "Education / Degrees": clean_edu,
-                    "Google Scholar URL": "",
-                    "Scholar ID": scholar_id,
-                    "Profile URL": profile_url,
+                    "Lab / Research Group Name": lab_name,
+                    "Lab / Personal Website": lab_website,
+                    "Actively Hiring / Openings": hiring_status,
+                    "Target Skills / Prerequisites": prereqs,
+                    "Funding Sponsors": "",
+                    "Software / Code Repo": "",
+                    "Latest Project / Highlight": "",
                     "Office Location": "",
                     "Is Field Match": len(matched) > 0,
                     "Directory URL": "https://faculty.engineering.asu.edu/directory/semte/aerospace-and-mechanical-engineering/",
@@ -469,8 +499,8 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
     except Exception as e:
         log.error(f"Error calling ASU API: {e}")
 
-    # Second pass: Enrich profile pages for office locations, Google Scholar IDs, and Lab names
-    log.info(f"Enriching {len(results)} active faculty profiles with office locations and Google Scholar IDs...")
+    # Second pass: Enrich profile pages for office locations, Google Scholar IDs, Courses, and Publications
+    log.info(f"Enriching {len(results)} active faculty profiles with cold email hooks, courses, and publications...")
     for prof in results:
         asurite = prof.get("_asurite", "")
         if asurite:
@@ -499,6 +529,55 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                         prof["Office Location"] = street
                     elif campus:
                         prof["Office Location"] = f"Campus: {campus}"
+
+                    # Courses Taught (lecture & seminar courses)
+                    lecture_courses = []
+                    for tr in soup_prof.find_all("tr"):
+                        tds = tr.find_all("td")
+                        if len(tds) >= 2:
+                            c_num = tds[0].get_text(strip=True)
+                            c_title = tds[1].get_text(strip=True)
+                            if any(w in c_title.lower() for w in ["thesis", "dissertation", "research", "continuing registration", "directed study"]):
+                                continue
+                            if ("MAE" in c_num or "FSE" in c_num or "EGR" in c_num) and c_title:
+                                entry = f"{c_num}: {c_title}"
+                                if entry not in lecture_courses:
+                                    lecture_courses.append(entry)
+                    if lecture_courses:
+                        prof["Courses Taught"] = " | ".join(lecture_courses[:3])
+
+                    # Recent Awards / Honors from profile if empty
+                    if not prof["Recent Awards / Honors"]:
+                        award_div = soup_prof.find("div", class_=lambda c: c and "honors" in c)
+                        if award_div:
+                            item_el = award_div.find("div", class_="field__item")
+                            if item_el:
+                                aw_text = " ".join(item_el.get_text(separator=" ").split())
+                                if len(aw_text) > 130:
+                                    aw_text = aw_text[:127] + "..."
+                                prof["Recent Awards / Honors"] = aw_text
+
+                    # Latest Paper / Publication from profile page
+                    pub_div = soup_prof.find("div", class_=lambda c: c and "publications" in c)
+                    if pub_div:
+                        item_el = pub_div.find("div", class_="field__item")
+                        if item_el:
+                            pub_text = " ".join(item_el.get_text(separator=" ").split())
+                            quoted = re.findall(r'[\"“]([^\"”]{15,130})[\"”]', pub_text)
+                            if quoted:
+                                prof["Latest Paper / Publication"] = quoted[0].strip()
+                            elif not pub_text.startswith("http"):
+                                prof["Latest Paper / Publication"] = pub_text[:120].strip()
+
+                    # Cold Email instructions from profile text if not already populated
+                    if not prof["Cold Email / Application Instructions"]:
+                        p_full = soup_prof.get_text(separator=" ")
+                        if "email me" in p_full.lower() or "prospective student" in p_full.lower():
+                            for s in re.split(r'[.\n]', p_full):
+                                s_c = " ".join(s.split())
+                                if any(k in s_c.lower() for k in ["email me", "prospective student", "join my group", "subject line"]) and 20 < len(s_c) < 150:
+                                    prof["Cold Email / Application Instructions"] = s_c
+                                    break
 
                     # Research group div from profile page if not already populated
                     if not prof["Lab / Research Group Name"]:
@@ -644,7 +723,7 @@ def main():
             except Exception as e:
                 log.warning(f"Could not remove {f}: {e}")
 
-    # 2. Scrape and generate active faculty records with deep lab data
+    # 2. Scrape and generate active faculty records with cold email hooks
     faculty = scrape_asu(scraper)
 
     # 3. Export exclusively to formatted Excel (.xlsx) using dynamic COLUMNS_CONFIG
@@ -662,14 +741,22 @@ def main():
     with_repo_count = sum(1 for f in faculty if f.get("Software / Code Repo"))
     with_office_count = sum(1 for f in faculty if f.get("Office Location"))
     with_web_count = sum(1 for f in faculty if f.get("Lab / Personal Website"))
+    with_courses_count = sum(1 for f in faculty if f.get("Courses Taught"))
+    with_papers_count = sum(1 for f in faculty if f.get("Latest Paper / Publication"))
+    with_awards_count = sum(1 for f in faculty if f.get("Recent Awards / Honors"))
+    with_instruct_count = sum(1 for f in faculty if f.get("Cold Email / Application Instructions"))
 
     print("\n" + "=" * 95)
-    print("ASU FACULTY & LAB SCRAPING COMPLETED (DYNAMIC COLUMN CONFIGURATION)")
+    print("ASU FACULTY & LAB SCRAPING COMPLETED (COLD EMAIL HOOKS INCLUDED)")
     print("=" * 95)
     print(f"Total Active Faculty (sorted by max keywords matched): {len(faculty)}")
     print(f"Field-Matched Faculty: {matched_count}")
     print(f"Direct Google Scholar User IDs: {with_id_count}")
     print(f"Faculty with Education / Degrees scraped: {with_edu_count}")
+    print(f"Faculty with Courses Taught scraped: {with_courses_count}")
+    print(f"Faculty with Recent Papers / Publications scraped: {with_papers_count}")
+    print(f"Faculty with Awards / Honors scraped: {with_awards_count}")
+    print(f"Faculty with Cold Email / Application Instructions: {with_instruct_count}")
     print(f"Faculty with Lab / Research Group Name scraped: {with_lab_name_count}")
     print(f"Faculty with Actively Hiring / Openings identified: {with_hiring_count}")
     print(f"Faculty with Target Skills / Prerequisites extracted: {with_prereqs_count}")

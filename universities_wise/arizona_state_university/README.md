@@ -69,38 +69,42 @@ For each faculty member with an active lab URL, the scraper visits their lab hom
 
 ---
 
-## 3. Columns in the Dataset (24 Total — Logically Ordered)
+## 3. Columns in the Dataset (28 Total — Cold Email Outreach Architecture)
 
 | Col # | Column Name | Description | Example Real Data |
 | :---: | :--- | :--- | :--- |
 | 1 | `Name` | Faculty Full Name | `Liping Wang` |
-| 2 | `Job Title` | Official academic rank | `Associate Professor` |
-| 3 | `Email` | Direct email address (hyperlinked) | `liping.wang@asu.edu` |
-| 4 | `University` | Institution name | `Arizona State University` |
-| 5 | `Department` | Department name | `Aerospace & Mechanical Engineering` |
-| 6 | `Matched Count` | Total field keywords matched (Primary sort) | `7` |
-| 7 | `Matched Fields` | List of matched research fields | `aerospace, guidance, heat transfer, materials...` |
-| 8 | `Actively Hiring / Openings` | Live hiring notice from lab | `Multiple UG/MS research positions available...` |
-| 9 | `Lab / Research Group Name` | Official research lab name | `Nanoscale Thermal Radiation Lab` |
-| 10 | `Lab / Personal Website` | Lab homepage URL (hyperlinked) | `http://faculty.engineering.asu.edu/lpwang` |
-| 11 | `Target Skills / Prerequisites` | Required technical skills | `Python, PyTorch, ROS2, Linear Algebra, CFD` |
-| 12 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
-| 13 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
-| 14 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
+| 2 | `University` | Institution name | `Arizona State University` |
+| 3 | `Profile URL` | ASU official profile link | `https://search.asu.edu/profile/lwang78` |
+| 4 | `Google Scholar URL` | Direct Scholar link (hyperlinked) | `https://scholar.google.com/citations?hl=en&user=...` |
+| 5 | `Job Title` | Official academic rank | `Associate Professor` |
+| 6 | `Department` | Department name | `Aerospace & Mechanical Engineering` |
+| 7 | `Scholar ID` | Direct Google Scholar user ID | `xT-lX9sAAAAJ` |
+| 8 | `Email` | Direct email address (hyperlinked) | `liping.wang@asu.edu` |
+| 9 | `Matched Count` | Total field keywords matched (Primary sort) | `7` |
+| 10 | `Matched Fields` | List of matched research fields | `aerospace, guidance, heat transfer, materials...` |
+| 11 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) | `Simultaneous velocity and density measurements...` |
+| 12 | `Courses Taught` | Filtered lecture courses taught | `MAE 241: Intro to Thermodynamics \| MAE 501...` |
+| 13 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER | `2017 AFOSR Young Investigator (YIP) Award` |
+| 14 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails | `Email me your CV along with a 1-2 page document...` |
 | 15 | `Research Interests` | Scraped research interests | `Nanoscale radiative transfer, metamaterials` |
 | 16 | `Expertise Areas` | Scraped expertise categories | `Energy, Heat Transfer, Nanotechnology` |
 | 17 | `Research / Bio Summary` | Bio summary | `Associate Professor of Mechanical Engineering...` |
 | 18 | `Education / Degrees` | Degrees and alma maters | `Ph.D. Mechanical Engineering, Georgia Tech 2011` |
-| 19 | `Google Scholar URL` | Direct Scholar link (hyperlinked) | `https://scholar.google.com/citations?hl=en&user=...` |
-| 20 | `Scholar ID` | Direct Google Scholar user ID | `xT-lX9sAAAAJ` |
-| 21 | `Profile URL` | ASU official profile link | `https://search.asu.edu/profile/lwang78` |
-| 22 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
-| 23 | `Is Field Match` | Boolean filter flag | `TRUE` |
-| 24 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
+| 19 | `Lab / Research Group Name` | Official research lab name | `Nanoscale Thermal Radiation Lab` |
+| 20 | `Lab / Personal Website` | Lab homepage URL (hyperlinked) | `http://faculty.engineering.asu.edu/lpwang` |
+| 21 | `Actively Hiring / Openings` | Live hiring notice from lab | `Multiple UG/MS research positions available...` |
+| 22 | `Target Skills / Prerequisites` | Required technical skills | `Python, PyTorch, ROS2, Linear Algebra, CFD` |
+| 23 | `Funding Sponsors` | Active research sponsors | `NASA, NSF` |
+| 24 | `Software / Code Repo` | Lab GitHub or Bitbucket URL | `https://bitbucket.org/krgasu/leap/` |
+| 25 | `Latest Project / Highlight` | Headline research project | `News & Awards: NSF CAREER Award` |
+| 26 | `Office Location` | Building & room number | `ENGRC 327 (Tempe, AZ 85287-6106)` |
+| 27 | `Is Field Match` | Boolean filter flag | `TRUE` |
+| 28 | `Directory URL` | Source SEMTE directory URL | `https://faculty.engineering.asu.edu/directory/...` |
 
 The Excel workbook contains two sheets:
-1. **`Field Matched`**: Filtered cohort with `Matched Count > 0`.
-2. **`All Faculty`**: Full active faculty cohort.
+1. **`Field Matched`**: Filtered cohort with `Matched Count > 0`, sorted descending by matched count.
+2. **`All Faculty`**: Full active faculty cohort, sorted descending by matched count.
 
 ---
 
