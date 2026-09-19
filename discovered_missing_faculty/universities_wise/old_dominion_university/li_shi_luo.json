@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Li‐Shi Luo",
+  "full_name": "Li‐Shi Luo",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Old Dominion University",
+  "author_id": "A5046433030",
+  "works_count": 188,
+  "cited_by_count": 17620,
+  "h_index": 49,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 119
+    },
+    {
+      "topic": "Aerosol Filtration and Electrostatic Precipitation",
+      "count": 60
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 59
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 42
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Theory of the lattice Boltzmann method: Dispersion, dissipation, isotropy, Galilean invariance, and stability",
+      "publication_year": 2000,
+      "publication_date": "2000-06-01",
+      "doi": "https://doi.org/10.1103/physreve.61.6546",
+      "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+      "type": "article",
+      "cited_by_count": 2266,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20000046606/downloads/20000046606.pdf",
+      "concepts": [
+        "Physics",
+        "Velocity Moments",
+        "Boltzmann equation",
+        "Lattice Boltzmann methods",
+        "Galilean",
+        "Galilean invariance",
+        "Classical mechanics",
+        "Dissipation"
+      ],
+      "abstract": "The generalized hydrodynamics (the wave vector dependence of the transport coefficients) of a generalized lattice Boltzmann equation (LBE) is studied in detail. The generalized lattice Boltzmann equation is constructed in moment space rather than in discrete velocity space. The generalized hydrodynamics of the model is obtained by solving the dispersion equation of the linearized LBE either analytically by using perturbation technique or numerically. The proposed LBE model has a maximum number of adjustable parameters for the given set of discrete velocities. Generalized hydrodynamics characterizes dispersion, dissipation (hyperviscosities), anisotropy, and lack of Galilean invariance of the model, and can be applied to select the values of the adjustable parameters that optimize the properties of the model. The proposed generalized hydrodynamic analysis also provides some insights into stability and proper initial conditions for LBE simulations. The stability properties of some two-dimensional LBE models are analyzed and compared with each other in the parameter space of the mean streaming velocity and the viscous relaxation time. The procedure described in this work can be app...",
+      "authors": [
+        "Pierre Lallemand",
+        "Li‐Shi Luo"
+      ]
+    },
+    {
+      "title": "Theory of the lattice Boltzmann method: From the Boltzmann equation to the lattice Boltzmann equation",
+      "publication_year": 1997,
+      "publication_date": "1997-12-01",
+      "doi": "https://doi.org/10.1103/physreve.56.6811",
+      "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+      "type": "article",
+      "cited_by_count": 1736,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Bhatnagar–Gross–Krook operator",
+        "HPP model",
+        "Boltzmann equation",
+        "Lattice gas automaton",
+        "Direct simulation Monte Carlo",
+        "Boltzmann relation",
+        "Physics"
+      ],
+      "abstract": "In this paper, the lattice Boltzmann equation is directly derived from the Boltzmann equation. It is shown that the lattice Boltzmann equation is a special discretized form of the Boltzmann equation. Various approximations for the discretization of the Boltzmann equation in both time and phase space are discussed in detail. A general procedure to derive the lattice Boltzmann model from the continuous Boltzmann equation is demonstrated explicitly. The lattice Boltzmann models derived include the two-dimensional 6-bit, 7-bit, and 9-bit, and three-dimensional 27-bit models.",
+      "authors": [
+        "Xiaoyi He",
+        "Li‐Shi Luo"
+      ]
+    },
+    {
+      "title": "Lattice Boltzmann Model for the Incompressible Navier–Stokes Equation",
+      "publication_year": 1997,
+      "publication_date": "1997-08-01",
+      "doi": "https://doi.org/10.1023/b:joss.0000015179.12689.e4",
+      "venue": "Journal of Statistical Physics",
+      "type": "article",
+      "cited_by_count": 1239,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hagen–Poiseuille equation",
+        "Compressibility",
+        "Incompressible flow",
+        "Lattice Boltzmann methods",
+        "Mach number",
+        "Mathematics",
+        "Pressure-correction method",
+        "Navier–Stokes equations"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xiaoyi He",
+        "Li‐Shi Luo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Dual-time stepping methods for the lattice Boltzmann equation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-29",
+      "doi": "https://doi.org/10.1016/j.compfluid.2026.107055",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Mathematics",
+        "Physics",
+        "Boltzmann equation",
+        "Mathematical analysis",
+        "Statistical physics",
+        "Applied mathematics",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xingzhou Ji",
+        "Li‐Shi Luo"
+      ]
+    },
+    {
+      "title": "A second order curved interface-conforming arbitrary-Langrangian-Eulerian method for interface dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6203414",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6203414",
+      "concepts": [
+        "Interface (matter)",
+        "Dimensionless quantity",
+        "Rotational symmetry",
+        "Benchmark (surveying)",
+        "Stability (learning theory)",
+        "Amplitude",
+        "Surface (topology)",
+        "Bubble"
+      ],
+      "abstract": "",
+      "authors": [
+        "Li‐Shi Luo",
+        "Shiji Chen",
+        "Zekang Cheng",
+        "Jie Li"
+      ]
+    },
+    {
+      "title": "Stability Analysis of Linear Systems with a Periodically Time-Varying Delay via a Discontinuous Lyapunov Functional Approach",
+      "publication_year": 2025,
+      "publication_date": "2025-08-26",
+      "doi": "https://doi.org/10.1007/s00034-025-03291-7",
+      "venue": "Circuits Systems and Signal Processing",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Stability (learning theory)",
+        "Mathematics",
+        "Lyapunov function",
+        "Computer science",
+        "Nonlinear system",
+        "Physics",
+        "Control (management)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Li‐Shi Luo",
+        "Jun Chen",
+        "Bo Song",
+        "Guangming Zhuang"
+      ]
+    },
+    {
+      "title": "Inhibiting Effects of Vegetation Coverage on Runoff, Sediment, and Organic Carbon Loss on Steep Loess Gully‐Slopes",
+      "publication_year": 2025,
+      "publication_date": "2025-06-27",
+      "doi": "https://doi.org/10.1002/ldr.70039",
+      "venue": "Land Degradation and Development",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ldr.70039",
+      "concepts": [
+        "Loess",
+        "Surface runoff",
+        "Vegetation (pathology)",
+        "Sediment",
+        "Environmental science",
+        "Hydrology (agriculture)",
+        "Soil loss",
+        "Soil carbon"
+      ],
+      "abstract": "ABSTRACT In the steep gully slopes below the gully shoulder line, the effect of vegetation coverage on the relationship between erosion and soil organic carbon loss has not been completely clarified. Our in situ rainfall experiments were implemented on plots with five grass coverages on the gully‐slopes of the Loess Plateau. Vegetation coverage affected the linear relationship between runoff and sediment. The slope of the fitted line decreased with increasing coverage, meaning that the increase in coverage reduced the sediment transport capacity of flow. High coverage resulted in higher runoff cost for sediment control than medium coverage. The runoff cost for sediment control values at 75% and 90% coverage was 1.69–1.71 times greater than that of 50% coverage. The lower and high thresholds for vegetation cover related to erosion were 35% and 65%, and higher for runoff (lower threshold: 40%; high threshold: 75%). Increasing coverage reduced the total organic carbon loss (TOC) and decreased by 66.9%–99.9%. There was an increasing power function between runoff and organic carbon loss, and between erosion and organic carbon loss with different vegetation coverage (R 2 > 0.95, p < 0...",
+      "authors": [
+        "Xingni Hu",
+        "Yonghong Li",
+        "Wenzhao Guo",
+        "Jiaxin Li",
+        "Xuchao Zhu",
+        "Li‐Shi Luo",
+        "Pei Tian",
+        "Haoze Sun"
+      ]
+    },
+    {
+      "title": "New stability criteria for discrete-time systems with a time-varying delay via a delay-variation-dependent free-matrix-based inequality",
+      "publication_year": 2025,
+      "publication_date": "2025-03-27",
+      "doi": "https://doi.org/10.1007/s40435-025-01634-5",
+      "venue": "International Journal of Dynamics and Control",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Stability (learning theory)",
+        "Variation (astronomy)",
+        "Discrete time and continuous time",
+        "Inequality",
+        "Control theory (sociology)",
+        "Matrix (chemical analysis)",
+        "Linear matrix inequality"
+      ],
+      "abstract": "",
+      "authors": [
+        "Li‐Shi Luo",
+        "Jun Chen",
+        "Bo Song",
+        "Guangming Zhuang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "faculty_name": "John R. Wagner",
+  "full_name": "John R. Wagner",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Clemson University",
+  "author_id": "A5007939390",
+  "works_count": 427,
+  "cited_by_count": 3591,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Refrigeration and Air Conditioning Technologies",
+      "count": 37
+    },
+    {
+      "topic": "Hydraulic and Pneumatic Systems",
+      "count": 31
+    },
+    {
+      "topic": "Vehicle Dynamics and Control Systems",
+      "count": 29
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 26
+    },
+    {
+      "topic": "Electric and Hybrid Vehicle Technologies",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Hybrid Electric Vehicle Motor Cooling System—Design, Model, and Control",
+      "publication_year": 2019,
+      "publication_date": "2019-02-28",
+      "doi": "https://doi.org/10.1109/tvt.2019.2902135",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radiator (engine cooling)",
+        "Automotive engineering",
+        "Coolant",
+        "Water cooling",
+        "Internal combustion engine cooling",
+        "Electric motor",
+        "Engineering",
+        "Propulsion"
+      ],
+      "abstract": "Hybrid electric vehicle motors offer propulsion while accelerating and charge the battery pack when braking or decelerating. Though electric motors have high operating efficiency, considerable heat is generated based on required operating torque and speed. Thus, an efficient motor cooling system is needed to maintain the temperature within a prescribed range. The traditional motor liquid cooling system is effective but consumes energy to run the coolant pump and radiator fan. This paper examines the performance of a hybrid cooling system, combining heat pipes with conventional liquid cooling in a compact thermal cradle. This innovative design allows heat removal via an integrated thermal pathway by regulating various actuators (e.g., centrifugal fans, radiator pump, and fan) to minimize energy consumption. A reduced order thermal model predicts the motor's internal temperatures. Cooling performance is evaluated based on the Urban Assault driving cycle for different conditions. Numerical results show that the electric motor temperature is maintained at approximately the target value of 70 °C. Additionally, up to approximately 370 kJ of energy is saved as compared to a conventiona...",
+      "authors": [
+        "Junkui Huang",
+        "Shervin Shoai Naini",
+        "Richard S. Miller",
+        "Denise Rizzo",
+        "Katherine Sebeck",
+        "Scott Shurin",
+        "John R. Wagner"
+      ]
+    },
+    {
+      "title": "An Advanced Engine Thermal Management System: Nonlinear Control and Test",
+      "publication_year": 2005,
+      "publication_date": "2005-04-01",
+      "doi": "https://doi.org/10.1109/tmech.2005.844707",
+      "venue": "IEEE/ASME Transactions on Mechatronics",
+      "type": "article",
+      "cited_by_count": 111,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Automotive engineering",
+        "Turbocharger",
+        "Engineering",
+        "Mechanical engineering",
+        "Internal combustion engine",
+        "Piston (optics)",
+        "Thermostat",
+        "Control valves"
+      ],
+      "abstract": "Internal combustion engine thermal management system functionality can be enhanced through the introduction of smart thermostat valves and variable speed electric pumps and fans. The traditional automotive cooling system components include a wax based thermostat valve and crankshaft driven water pump. However, servo-motor driven valves, pumps, and fans can better regulate the engine's coolant fluid flow to realize fuel economy gains and tailpipe emission reductions. To study these cooling system actuators, with accompanying nonlinear control strategy, a scale experimental system has been fabricated which features a smart valve, electric coolant pump, radiator with electric fan, and immersion heater. In this paper, mathematical models will be presented to describe the system's behavior. A nonlinear controller will then be designed for transient temperature tracking. Representative experimental results are presented and discussed to demonstrate the smart valve's operation in maintaining the temperature within a neighborhood of the target value for various scenarios including highway mode, full power with load disturbance, and quick heat.",
+      "authors": [
+        "P. Setlur",
+        "John R. Wagner",
+        "D.M. Dawson",
+        "E. Marotta"
+      ]
+    },
+    {
+      "title": "A Trajectory Tracking Steer-by-Wire Control System for Ground Vehicles",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1109/tvt.2005.861189",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "type": "article",
+      "cited_by_count": 95,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Engineering",
+        "Trajectory",
+        "Chassis",
+        "Vehicle dynamics",
+        "Control theory (sociology)",
+        "Automotive engineering",
+        "Tracking error",
+        "Propulsion"
+      ],
+      "abstract": "The application of multi-disciplinary automotive technologies to hybrid vehicles has resulted in the integration of alternative propulsion sources and drive-by-wire components for enhanced ground vehicle performance, fuel economy, and occupant safety. The integration of steer-by-wire systems in vehicles facilitates autonomous and semi-autonomous operations, better lateral vehicle behavior, an adjustable steering \"feel,\" and elimination of problems arising due to potential engine cycling. In this paper, a continuous time-varying tracking controller is designed for the vehicle's position/orientation using a simplified vehicle description and reference model for tracking. The tracking error is globally, exponentially forced to a neighborhood of about zero by transforming the system into a flat input-state system and then fusing a filtered tracking error transformation with the dynamic oscillator design. Mathematical models are presented for a steer-by-wire rack and pinion unit, vehicle chassis, and tire/road interface dynamics. Representative numerical results are discussed to demonstrate the vehicle's transient response for a prescribed trajectory profile.",
+      "authors": [
+        "P. Setlur",
+        "John R. Wagner",
+        "D.M. Dawson",
+        "David Braganza"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Design of a Micro Vertical Axis Wind Turbine: Modeling and Analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-12-03",
+      "doi": "https://doi.org/10.14733/cadaps.2026.340-357",
+      "venue": "Computer-Aided Design and Applications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.14733/cadaps.2026.340-357",
+      "concepts": [
+        "CAD",
+        "Computer Aided Design",
+        "Engineering drawing",
+        "Domain (mathematical analysis)",
+        "Engineering",
+        "Technology CAD",
+        "Computer science",
+        "Electronic design automation"
+      ],
+      "abstract": "Computer-Aided Design and Applications is an international journal on the applications of CAD and CAM. It publishes papers in the general domain of CAD plus in emerging fields like bio-CAD, nano-CAD, soft-CAD, garment-CAD, PLM, PDM, CAD data mining, CAD and the internet, CAD education, genetic algorithms and CAD engines. The journal is aimed at all developers and users of CAD technology to ptovide CAD solutions for various stages of design and manufacturing. The journal publishes all about Computer-Aided Design and Computer-Aided technologies.",
+      "authors": [
+        "Mohammad Bhati",
+        "Satchit Ramnath",
+        "John R. Wagner"
+      ]
+    },
+    {
+      "title": "Collaborative Interactions on a Senior Capstone Design Project - Impact of PLM Tools and Strategies",
+      "publication_year": 2025,
+      "publication_date": "2025-08-21",
+      "doi": "https://doi.org/10.18260/1-2--56106",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Capstone",
+        "Computer science",
+        "Systems engineering",
+        "Engineering management",
+        "Engineering",
+        "Manufacturing engineering",
+        "Software engineering",
+        "Process management"
+      ],
+      "abstract": "",
+      "authors": [
+        "F. J. Rowell",
+        "Douglas Byrd",
+        "Todd Schweisinger",
+        "John R. Wagner"
+      ]
+    },
+    {
+      "title": "Declarative Integration of CAD Software Into Multi-Physics Simulation via Constraint Hypergraphs",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1115/detc2025-168376",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Executable",
+        "Programming language",
+        "Solver",
+        "Software engineering",
+        "Set (abstract data type)",
+        "Process (computing)",
+        "Programmer"
+      ],
+      "abstract": "Abstract Declarative modeling frameworks, such as Modelica, are often used to represent systems that require reusable and interoperable models. Simulation in such a framework requires a solver that is capable of transforming the model into an executable process. However, most declarative solvers are insular, in that they are unable to integrate with software applications needed for simulating complex systems, limiting their usability for simulating multi-domain models. This paper describes a process for creating declarative models that can integrate with an external tool by deconstructing its Application Programmer Interface (API) into a set of functions arranged into a constraint hypergraph. The constraint hypergraph’s solver is shown to be capable of automatically parsing these functions to simulate arbitrary pairs of inputs and outputs. The result is a holistic modeling framework that allows for flexible simulation of a complex system, integrates directly with otherwise sequestered platforms, and reveals cross-cutting interactions between system elements. This is demonstrated by integrating the solid modeling capabilities of Onshape with a dynamic model of a crankshaft from a...",
+      "authors": [
+        "J. Morris",
+        "Gregory Mocko",
+        "Satchit Ramnath",
+        "John R. Wagner"
+      ]
+    },
+    {
+      "title": "Constraint Hypergraphs as a Unifying Framework for Digital Twins",
+      "publication_year": 2025,
+      "publication_date": "2025-07-07",
+      "doi": "https://doi.org/10.48550/arxiv.2507.05494",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.05494",
+      "concepts": [
+        "Interoperability",
+        "Constraint (computer-aided design)",
+        "Computer science",
+        "Observability",
+        "Hypergraph",
+        "Formalism (music)",
+        "Theoretical computer science",
+        "Observable"
+      ],
+      "abstract": "Digital twins, used to represent physical systems, have been lauded as tools for understanding reality. Complex system behavior is typically captured in domain-specific models crafted by subject experts. Contemporary methods for employing models in a digital twin require prescriptive interfaces, resulting in twins that are difficult to connect, redeploy, and modify. The limited interoperability of these twins has prompted calls for a universal framework enabling observability across model aggregations. Here we show how a new mathematical formalism called a constraint hypergraph addresses these challenges in interoperability. A digital twin is shown to be the second of two coupled systems where both adhere to the same constraint hypergraph, permitting the properties of the first to be observable from the second. Interoperability is given by deconstructing models into a structure enabling autonomous, white-box simulation of system properties. The resulting digital twins can interact immediately with both human and autonomous agents. This is demonstrated in a case study of a microgrid, showing how both measured and simulated data from the aggregated twins can be provided regardless...",
+      "authors": [
+        "J. Morris",
+        "Douglas L. Van Bossuyt",
+        "Edward J. Louis",
+        "Gregory Mocko",
+        "John R. Wagner"
+      ]
+    },
+    {
+      "title": "Exploration of Collaborative Design Spaces: Student Engineering Interactions and Workflows in Product Development",
+      "publication_year": 2025,
+      "publication_date": "2025-04-09",
+      "doi": "https://doi.org/10.18260/1-2--54208",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/54208.pdf",
+      "concepts": [
+        "Workflow",
+        "Computer science",
+        "New product development",
+        "Product design",
+        "Product (mathematics)",
+        "Software engineering",
+        "Collaborative engineering",
+        "Collaborative software"
+      ],
+      "abstract": "Product Lifecycle Management (PLM) initiatives can improve an enterprise's efficiency by increasing collaborative design opportunities within its business structure.PLM solutions provide mediums to collaborate on all aspects of a company's workflow, including engineering, testing, manufacturing, marketing, and general services.This paper examines the major PLM tools and software used to establish a collaborative design space: computer-aided design (CAD), computeraided engineering (CAE), computer-aided manufacturing (CAM), and product data management (PDM).The interactions between these PLM tools and a business' organizational structure are analyzed to determine some of the most effective PLM integration strategies to improve collaboration for all functions.Engineering enterprises split many of the major functions into technical and non-technical categories and match them with PLM solutions to create a collaborative design space that incorporates all departments.An educational case study was conducted on a collaborative student design team whose objective was to create a digital twin of a scaled-down off-road tracked ground vehicle.Siemens Teamcenter was integrated within the tea...",
+      "authors": [
+        "F. J. Rowell",
+        "Todd Schweisinger",
+        "John R. Wagner"
+      ]
+    }
+  ]
+}

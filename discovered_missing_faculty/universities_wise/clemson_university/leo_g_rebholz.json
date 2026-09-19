@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Leo G. Rebholz",
+  "full_name": "Leo G. Rebholz",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Clemson University",
+  "author_id": "A5028355904",
+  "works_count": 222,
+  "cited_by_count": 3326,
+  "h_index": 32,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 112
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 91
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 62
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 47
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Data-Driven Filtered Reduced Order Modeling of Fluid Flows",
+      "publication_year": 2018,
+      "publication_date": "2018-01-01",
+      "doi": "https://doi.org/10.1137/17m1145136",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 151,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ansatz",
+        "Projection (relational algebra)",
+        "Applied mathematics",
+        "Nonlinear system",
+        "Mathematics",
+        "Flow (mathematics)",
+        "Computer science",
+        "Filter (signal processing)"
+      ],
+      "abstract": "We propose a data-driven filtered reduced order model (DDF-ROM) framework for the numerical simulation of fluid flows. The novel DDF-ROM framework consists of two steps: (i) In the first step, we use ROM projection to filter the nonlinear PDE and construct a filtered ROM. This filtered ROM is low-dimensional but is not closed (because of the nonlinearity in the given PDE). (ii) In the second step, we use data-driven modeling to close the filtered ROM, i.e., to model the interaction between the resolved and unresolved modes. To this end, we use a quadratic ansatz to model this interaction and close the filtered ROM. To find the new coefficients in the closed filtered ROM, we solve an optimization problem that minimizes the difference between the full order model data and our ansatz. We emphasize that the new DDF-ROM is built on general ideas of spatial filtering and optimization and is independent of (restrictive) phenomenological arguments. We investigate the DDF-ROM in the numerical simulation of a 2D channel flow past a circular cylinder at Reynolds numbers $Re=100, Re=500$, and $Re=1000$. The DDF-ROM is significantly more accurate than the standard projection ROM. Furthermore...",
+      "authors": [
+        "Xuping Xie",
+        "Muhammad Mohebujjaman",
+        "Leo G. Rebholz",
+        "Traian Iliescu"
+      ]
+    },
+    {
+      "title": "On conservation laws of Navier–Stokes Galerkin discretizations",
+      "publication_year": 2017,
+      "publication_date": "2017-02-21",
+      "doi": "https://doi.org/10.1016/j.jcp.2017.02.039",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 136,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2017.02.039",
+      "concepts": [
+        "Conservation law",
+        "Navier–Stokes equations",
+        "Galerkin method",
+        "Mathematics",
+        "Discontinuous Galerkin method",
+        "Discretization",
+        "Applied mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sergey Charnyi",
+        "Timo Heister",
+        "Maxim A. Olshanskii",
+        "Leo G. Rebholz"
+      ]
+    },
+    {
+      "title": "On the parameter choice in grad-div stabilization for the Stokes equations",
+      "publication_year": 2013,
+      "publication_date": "2013-09-02",
+      "doi": "https://doi.org/10.1007/s10444-013-9316-1",
+      "venue": "Advances in Computational Mathematics",
+      "type": "article",
+      "cited_by_count": 133,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pointwise",
+        "Mathematics",
+        "Omega",
+        "Finite element method",
+        "Subspace topology",
+        "Mathematical analysis",
+        "Minification",
+        "Norm (philosophy)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eleanor W. Jenkins",
+        "Volker John",
+        "Alexander Linke",
+        "Leo G. Rebholz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the Choice of Optimization Norm for Anderson Acceleration of the Picard Iteration for Navier–Stokes Equations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-23",
+      "doi": "https://doi.org/10.1002/num.70113",
+      "venue": "Numerical Methods for Partial Differential Equations",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/num.70113",
+      "concepts": [
+        "Mathematics",
+        "Norm (philosophy)",
+        "Convergence (economics)",
+        "Nonlinear system",
+        "Applied mathematics",
+        "Convergence tests",
+        "Optimization problem",
+        "Fixed point"
+      ],
+      "abstract": "ABSTRACT While recent Anderson acceleration (AA) convergence theory [Pollock et al., IMA Num. An. , 2021] requires that the AA optimization norm match the Hilbert space norm associated with the fixed point operator, in implementations the norm is the most common choice. So far there is little research done regarding this discrepancy. To address this issue, we consider AA applied to the Picard iteration for the Navier–Stokes equations (NSE) with varying choices of the AA optimization norm. We prove a sharpened and generalized convergence estimate with the AA optimization norm, and an essentially equivalent (in terms of associated Lipschitz constants) result for when is used. While no analogous theory seems possible for , numerical tests were run to compare varying choices of AA optimization norms. These tests revealed similar convergence for and in terms of iterations needed for convergence and usually but not always similar for : for flow past a cylinder, convergence using performs significantly worse.",
+      "authors": [
+        "Elizabeth Hawkins",
+        "Leo G. Rebholz"
+      ]
+    },
+    {
+      "title": "Anderson acceleration of a Picard solver for the Oldroyd-B model of viscoelastic fluids",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.1007/s10444-025-10270-8",
+      "venue": "Advances in Computational Mathematics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Smoothness",
+        "Viscoelasticity",
+        "Compressibility",
+        "Mathematics",
+        "Acceleration",
+        "Nonlinear system",
+        "Convergence (economics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Duygu Vargun",
+        "Igor Oliveira Monteiro",
+        "Leo G. Rebholz"
+      ]
+    },
+    {
+      "title": "An efficient splitting iteration for a CDA-accelerated solver for incompressible flow problems",
+      "publication_year": 2025,
+      "publication_date": "2025-09-16",
+      "doi": "https://doi.org/10.48550/arxiv.2509.12547",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.12547",
+      "concepts": [
+        "Solver",
+        "Mathematics",
+        "Applied mathematics",
+        "Convergence (economics)",
+        "Fixed-point iteration",
+        "Constant (computer programming)",
+        "Lipschitz continuity",
+        "Algebraic number"
+      ],
+      "abstract": "We propose, analyze, and test an efficient splitting iteration for solving the incompressible, steady Navier-Stokes equations in the setting where partial solution data is known. The (possibly noisy) solution data is incorporated into a Picard-type solver via continuous data assimilation (CDA). Efficiency is gained over the usual Picard iteration through an algebraic splitting of Yosida-type that produces easier linear solves, and accuracy/consistency is shown to be maintained through the use of an incremental pressure and grad-div stabilization. We prove that CDA scales the Lipschitz constant of the associated fixed point operator by $H^{1/2}$, where $H$ is the characteristic spacing of the known solution data. This implies that CDA accelerates an already converging solver (and the more data, the more acceleration) and enables convergence of solvers in parameter regimes where the solver would fail (and the more data, the larger the parameter regime). Numerical tests illustrate the theory on several benchmark test problems and show that the proposed efficient solver gives nearly identical results in terms of number of iterations to converge; in other words, the proposed solver g...",
+      "authors": [
+        "V. Fisher",
+        "Leo G. Rebholz",
+        "Duygu Vargun"
+      ]
+    },
+    {
+      "title": "Analysis of the Picard-Newton Iteration for the Navier-Stokes Equations: Global Stability and Quadratic Convergence",
+      "publication_year": 2025,
+      "publication_date": "2025-05-27",
+      "doi": "https://doi.org/10.1007/s10915-025-02946-6",
+      "venue": "Journal of Scientific Computing",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10915-025-02946-6.pdf",
+      "concepts": [
+        "Mathematics",
+        "Convergence (economics)",
+        "Quadratic equation",
+        "Stability (learning theory)",
+        "Newton's method",
+        "Mathematical analysis",
+        "Navier–Stokes equations",
+        "Applied mathematics"
+      ],
+      "abstract": "Abstract We analyze and test a simple-to-implement two-step iteration for the incompressible Navier-Stokes equations that consists of first applying the Picard iteration and then applying the Newton iteration to the Picard output. We prove that this composition of Picard and Newton converges quadratically, and our analysis (which covers both the unique solution and non-unique solution cases) also suggests that this solver has a larger convergence basin than usual Newton because of the improved stability properties of Picard-Newton over Newton. Numerical tests show that Picard-Newton converges more reliably for higher Reynolds numbers and worse initial conditions than Picard and Newton iterations. We also consider enhancing the Picard step with Anderson acceleration (AA), and find that the AAPicard-Newton iteration has even better convergence properties on several benchmark test problems.",
+      "authors": [
+        "Sara Pollock",
+        "Leo G. Rebholz",
+        "Xuemin Tu",
+        "Mengying Xiao"
+      ]
+    },
+    {
+      "title": "Anderson acceleration of a Picard solver for the Oldroyd-B model of viscoelastic fluids",
+      "publication_year": 2025,
+      "publication_date": "2025-02-01",
+      "doi": "https://doi.org/10.48550/arxiv.2502.00533",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2502.00533",
+      "concepts": [
+        "Viscoelasticity",
+        "Acceleration",
+        "Solver",
+        "Mechanics",
+        "Physics",
+        "Mathematics",
+        "Classical mechanics",
+        "Mathematical optimization"
+      ],
+      "abstract": "We study an iterative nonlinear solver for the Oldroyd-B system describing incompressible viscoelastic fluid flow. We establish a range of attributes of the fixed-point-based solver, together with the conditions under which it becomes contractive and examining the smoothness properties of its corresponding fixed-point function. Under these properties, we demonstrate that the solver meets the necessary conditions for recent Anderson acceleration (AA) framework, thereby showing that AA enhances the solver's linear convergence rate. Results from two benchmark tests illustrate how AA improves the solver's ability to converge as the Weissenberg number is increased.",
+      "authors": [
+        "Duygu Vargun",
+        "Igor Oliveira Monteiro",
+        "Leo G. Rebholz"
+      ]
+    }
+  ]
+}

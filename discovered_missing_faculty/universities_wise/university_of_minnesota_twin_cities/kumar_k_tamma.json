@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Kumar K. Tamma",
+  "full_name": "Kumar K. Tamma",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Minnesota-Twin Cities",
+  "author_id": "A5065390310",
+  "works_count": 440,
+  "cited_by_count": 5110,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 132
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 90
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 89
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 56
+    },
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 55
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Design, analysis, and synthesis of generalized single step single solve and optimal algorithms for structural dynamics",
+      "publication_year": 2003,
+      "publication_date": "2003-12-15",
+      "doi": "https://doi.org/10.1002/nme.873",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 195,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Algorithm",
+        "Dissipative system",
+        "Overshoot (microwave communication)",
+        "Computer science",
+        "Stability (learning theory)",
+        "Displacement (psychology)",
+        "Mathematics",
+        "Psychology"
+      ],
+      "abstract": "Abstract The primary objectives of the present exposition are to: (i) provide a generalized unified mathematical framework and setting leading to the unique design of computational algorithms for structural dynamic problems encompassing the broad scope of linear multi‐step (LMS) methods and within the limitation of the Dahlquist barrier theorem (Reference [3], G. Dahlquist, BIT 1963; 3 : 27), and also leading to new designs of numerically dissipative methods with optimal algorithmic attributes that cannot be obtained employing existing frameworks in the literature, (ii) provide a meaningful characterization of various numerical dissipative/non‐dissipative time integration algorithms both new and existing in the literature based on the overshoot behavior of algorithms leading to the notion of algorithms by design , (iii) provide design guidelines on selection of algorithms for structural dynamic analysis within the scope of LMS methods. For structural dynamics problems, first the so‐called linear multi‐step methods (LMS) are proven to be spectrally identical to a newly developed family of generalized single step single solve (GSSSS) algorithms. The design, synthesis and analysis ...",
+      "authors": [
+        "Xiangmin Zhou",
+        "Kumar K. Tamma"
+      ]
+    },
+    {
+      "title": "Asymptotic expansion homogenization for heterogeneous media: computational issues and applications",
+      "publication_year": 2001,
+      "publication_date": "2001-09-01",
+      "doi": "https://doi.org/10.1016/s1359-835x(01)00100-2",
+      "venue": "Composites Part A Applied Science and Manufacturing",
+      "type": "article",
+      "cited_by_count": 161,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Homogenization (climate)",
+        "Macro",
+        "Linear elasticity",
+        "Applied mathematics",
+        "Finite element method",
+        "Elasticity (physics)",
+        "Computer science",
+        "Partial differential equation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Peter W. Chung",
+        "Kumar K. Tamma",
+        "Raju R. Namburu"
+      ]
+    },
+    {
+      "title": "The time dimension: A theory towards the evolution, classification, characterization and design of computational algorithms for transient/ dynamic applications",
+      "publication_year": 2000,
+      "publication_date": "2000-06-01",
+      "doi": "https://doi.org/10.1007/bf02736209",
+      "venue": "Archives of Computational Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 135,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Variety (cybernetics)",
+        "Dimension (graph theory)",
+        "Computer science",
+        "Field (mathematics)",
+        "Operator (biology)",
+        "Algorithm",
+        "Characterization (materials science)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kumar K. Tamma",
+        "Xiangmin Zhou",
+        "D. Sha"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the comparison of spectral accuracy between single-solve and sub-step time integration algorithms with controllable dissipation parameter",
+      "publication_year": 2026,
+      "publication_date": "2026-03-23",
+      "doi": "https://doi.org/10.1016/j.compstruc.2026.108201",
+      "venue": "Computers & Structures",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compstruc.2026.108201",
+      "concepts": [
+        "Algorithm",
+        "Dissipation",
+        "Numerical integration",
+        "Numerical analysis",
+        "Computer science",
+        "Spectral method",
+        "Computer simulation",
+        "Time stepping"
+      ],
+      "abstract": "A new comparison framework is developed to fairly evaluate and properly compare single-solve and sub-step time integration algorithms with controllable numerical dissipation. Unlike existing and/or past practices that rely only upon using different time step sizes to ensure comparable computational cost, this work emphasizes the necessity of simultaneously accounting for the effect of the infinity spectral radius, i.e., ρ ∞ ∈ [ 0 , 1 ] , which governs the amount of numerical dissipation in practical applications. Neglecting this consideration, as is common in much of the current literature, may result in less accurate conclusions and potentially overlook some aspects of the performance of traditional single-step single-solve time integration algorithms. Numerical implementations are presented to demonstrate how to compute spectral properties in the newly proposed comparison framework to achieve a fair and proper comparison. The numerical illustrations demonstrate that the two-sub-step ρ ∞ -Bathe method with ρ ∞ ∈ [ 0 , 0.1 ] exhibits improved numerical properties compared to the single-step single-solve KDP- α method. Likewise, the two-sub-step ρ ∞ -Bathe method with ρ ∞ ∈ [ 0 ,...",
+      "authors": [
+        "Yazhou Wang",
+        "D. Maxam",
+        "Kumar K. Tamma",
+        "Nikolaus A. Adams"
+      ]
+    },
+    {
+      "title": "Time integration algorithms with optimized controllable numerical dissipation for dynamic systems",
+      "publication_year": 2026,
+      "publication_date": "2026-03-06",
+      "doi": "https://doi.org/10.1016/j.apm.2026.116878",
+      "venue": "Applied Mathematical Modelling",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apm.2026.116878",
+      "concepts": [
+        "Trapezoidal rule",
+        "Numerical integration",
+        "Initialization",
+        "Dissipation",
+        "Algorithm",
+        "Numerical analysis",
+        "Nonlinear system",
+        "Numerical stability"
+      ],
+      "abstract": "• New single-step and linear multi-step time integration methods are developed. • The methods achieve second-order accuracy with controllable numerical dissipation. • The framework bridges the Park method and the Crank-Nicolson/midpoint rule. • Superior numerical performance is shown by comparisons with widely used methods. This paper presents a new family of implicit time integration algorithms with controllable numerical dissipation for first- and second-order initial value problems. The generalized time-weighted residual methodology provides the fundamental design framework, which is further investigated through cubic approximations to construct a new class of single-step algorithms with optimized numerical properties. Equivalent linear multistep formulations are also derived to enclose the design space. A non-standard stability analysis via the second-order equation of motion and a novel initialization strategy enable the proposed algorithms to achieve second-order accuracy in time, unconditional stability, zero-order overshooting, and controllable numerical dissipation and dispersion through a user-defined parameter, ρ ∞ , with optimal spectral accuracy. For the first time,...",
+      "authors": [
+        "Yazhou Wang",
+        "D. Maxam",
+        "Xuan Liang",
+        "Kumar K. Tamma",
+        "Nikolaus A. Adams"
+      ]
+    },
+    {
+      "title": "A new concept for initialization of single-step time integration algorithms: Eliminating pesky high-frequency overshooting behavior",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1016/j.compstruc.2026.108137",
+      "venue": "Computers & Structures",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compstruc.2026.108137",
+      "concepts": [
+        "Initialization",
+        "Computer science",
+        "Control theory (sociology)",
+        "Algorithm",
+        "Time delay and integration",
+        "Numerical integration",
+        "Mathematics",
+        "Control engineering"
+      ],
+      "abstract": "In this paper, we propose a new concept of a modified initialization for three-value single-step time integration algorithms in structural dynamics problems. High-frequency spurious modes have long been recognized as a primary cause of undesirable overshooting in numerical time integration. This undesired overshooting behavior has attracted sustained research interest over the past several decades, particularly in the context of linear multi-step and equivalent single-step methods, with the aim of mitigating such adverse effects. Unfortunately, these deleterious aspects have been an issue for the research community at large. We present a novel and simple methodology to completely circumvent and resolve the issue of overshooting that can be straightforwardly implemented in research and commercial software. The primary contribution is a modified initialization procedure that is necessary and completely eliminates overshooting under arbitrary conditions, and preserves the global second-order time accuracy. The theoretical framework and design principles are demonstrated under the umbrella of the G eneralized S ingle- S tep S ingle- S olve computational framework for second-order ti...",
+      "authors": [
+        "Yazhou Wang",
+        "D. Maxam",
+        "Kumar K. Tamma",
+        "Nikolaus A. Adams",
+        "Tao Xue"
+      ]
+    },
+    {
+      "title": "A new family of explicit generalized single-step single-stage integration methods for structural/multibody dynamics with improved stability for viscous damping",
+      "publication_year": 2026,
+      "publication_date": "2026-01-24",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118732",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Nonlinear system",
+        "Stability (learning theory)",
+        "Modal",
+        "Applied mathematics",
+        "Numerical integration",
+        "Limit (mathematics)",
+        "Numerical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "D. Maxam",
+        "Pranav Chengala Madhusoodana",
+        "Kumar K. Tamma"
+      ]
+    },
+    {
+      "title": "Dynamic response of structural plates undergoing moving loads and thermal strains using Finite Elements – Part 2",
+      "publication_year": 2025,
+      "publication_date": "2025-12-02",
+      "doi": "https://doi.org/10.1080/01495739.2025.2540403",
+      "venue": "Journal of Thermal Stresses",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Thermal",
+        "Materials science",
+        "Structural engineering",
+        "Mechanics",
+        "Moving load",
+        "Composite material",
+        "Finite difference method"
+      ],
+      "abstract": "A wide array of basics and concepts emanate from and can be easily understood from application of simple beams, straight and/or curved under the influence of moving mechanical loads as presented in Part 1 of this article. Although the basics are essentially the same, another level of complexity arises due to the added dimension for plates in contrast to beams which is of focus in this article in Part 2. Involving thermal effects in addition to moving mechanical loads, is yet another added degree of complexity but is not unbearable. The necessary mathematical models subjected to appropriate boundary conditions involved is presented. The numerical procedure is also presented for plates influenced by moving loads with particular attention to the Mindlin-Reisner plate theory. Thermal effects are then introduced. The class of applications include bridges, railway and subway tracks, aircraft carrier decks, etc. A variety of speeds of the moving-load problems are briefly studied along with a few cases with different temperature gradients. The finite element method in conjunction with a general-purpose time integration computational framework is employed with focus upon the MPR-EPA/MPA ...",
+      "authors": [
+        "Kumar K. Tamma"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Max Gunzburger",
+  "full_name": "Max Gunzburger",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Florida State University",
+  "author_id": "A5076283476",
+  "works_count": 564,
+  "cited_by_count": 22468,
+  "h_index": 74,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 208
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 113
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 93
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 85
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 66
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Centroidal Voronoi Tessellations: Applications and Algorithms",
+      "publication_year": 1999,
+      "publication_date": "1999-01-01",
+      "doi": "https://doi.org/10.1137/s0036144599352836",
+      "venue": "SIAM Review",
+      "type": "article",
+      "cited_by_count": 2291,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Centroidal Voronoi tessellation",
+        "Voronoi diagram",
+        "Centroid",
+        "Tessellation (computer graphics)",
+        "Mathematics",
+        "Algorithm",
+        "Computer science",
+        "Geometry"
+      ],
+      "abstract": "A centroidal Voronoi tessellation is a Voronoi tessellation whose generating points are the centroids (centers of mass) of the corresponding Voronoi regions. We give some applications of such tessellations to problems in image compression, quadrature, finite difference methods, distribution of resources, cellular biology, statistics, and the territorial behavior of animals. We discuss methodsfor computing these tessellations, provide some analyses concerning both the tessellations and the methods for their determination, and, finally, present the results of some numerical experiments.",
+      "authors": [
+        "Qiang Du",
+        "Vance Faber",
+        "Max Gunzburger"
+      ]
+    },
+    {
+      "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+      "publication_year": 2018,
+      "publication_date": "2018-01-01",
+      "doi": "https://doi.org/10.1137/16m1082469",
+      "venue": "SIAM Review",
+      "type": "article",
+      "cited_by_count": 1072,
+      "is_oa": true,
+      "oa_url": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+      "concepts": [
+        "Inference",
+        "Computer science",
+        "Fidelity",
+        "Surrogate model",
+        "Speedup",
+        "Propagation of uncertainty",
+        "Uncertainty quantification",
+        "Mathematical optimization"
+      ],
+      "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity ...",
+      "authors": [
+        "Benjamin Peherstorfer",
+        "Karen Willcox",
+        "Max Gunzburger"
+      ]
+    },
+    {
+      "title": "Boundary Conditions for the Numerical Solution of Elliptic Equations in Exterior Regions",
+      "publication_year": 1982,
+      "publication_date": "1982-04-01",
+      "doi": "https://doi.org/10.1137/0142032",
+      "venue": "SIAM Journal on Applied Mathematics",
+      "type": "article",
+      "cited_by_count": 635,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/19800015552/downloads/19800015552.pdf",
+      "concepts": [
+        "Mathematics",
+        "Poincaré–Steklov operator",
+        "Boundary value problem",
+        "Mathematical analysis",
+        "Finite element method",
+        "Mixed boundary condition",
+        "Robin boundary condition",
+        "Helmholtz equation"
+      ],
+      "abstract": "Elliptic equations in exterior regions frequently require a boundary condition at infinity to ensure the well-posedness of the problem. Examples of practical applications include the Helmholtz equation and Laplace’s equation. Computational procedures based on a direct discretization of the elliptic problem require the replacement of the condition at infinity by a boundary condition on a finite artificial surface. Direct imposition of the condition at infinity along the finite boundary results in large errors. A sequence of boundary conditions is developed which provides increasingly accurate approximations to the problem in the infinite domain. Estimates of the error due to the finite boundary are obtained for several cases. Computations are presented which demonstrate the increased accuracy that can be obtained by the use of the higher order boundary conditions. The examples are based on a finite element formulation but finite difference methods can also be used.",
+      "authors": [
+        "A. Bayliss",
+        "Max Gunzburger",
+        "Eli Turkel"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nonlocal modeling of spatial fractional diffusion with truncated interaction domains and truncated kernel function singularity",
+      "publication_year": 2025,
+      "publication_date": "2025-09-19",
+      "doi": "https://doi.org/10.48550/arxiv.2509.16315",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.16315",
+      "concepts": [
+        "Bounded function",
+        "Mathematics",
+        "Domain (mathematical analysis)",
+        "Operator (biology)",
+        "Singularity",
+        "Laplace operator",
+        "Mathematical analysis",
+        "Kernel (algebra)"
+      ],
+      "abstract": "Parabolic partial differential equations (PDEs) are in ubiquitous, very effective use to model diffusion processes. However, there are many applications (e.g., such as in hydrology, animal foraging, biology, and light diffusion just do name a few) for which results obtained through the use of parabolic PDEs do not agree with observations. In many situations the use of fractional diffusion models has been found to be more faithful to that which is observed. Specifically, we replace the Laplacian operator in the PDE by a fractional Laplacian operator ${\\mathcal L}$ which is an integral operator for which solutions are sought for on all of space, has an unbounded domain of integration, and for a given point $x$ the integrand contains a kernel function $ϕ(y-x)$ that is infinite whenever $y=x$. These three features pose impediments not only for the construction of efficient discretization methods but also because all three involve one or more sort of \"infinity''. To overcome these impediments we choose to invoke one or more of the following strategies. (a) We seek solutions only within a chosen bounded domain $Ω$. (b) For every $x\\inΩ$, we choose a bounded domain of integration such ...",
+      "authors": [
+        "Shiping Zhou",
+        "Yanzhi Zhang",
+        "Max Gunzburger"
+      ]
+    },
+    {
+      "title": "Splitting Method for Stochastic Navier-Stokes Equations",
+      "publication_year": 2025,
+      "publication_date": "2025-04-06",
+      "doi": "https://doi.org/10.48550/arxiv.2504.04360",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2504.04360",
+      "concepts": [
+        "Mathematics",
+        "Uniqueness",
+        "Nonlinear system",
+        "Stability (learning theory)",
+        "Applied mathematics",
+        "Operator splitting",
+        "Numerical analysis",
+        "Stochastic process"
+      ],
+      "abstract": "This paper investigates the two-dimensional stochastic steady-state Navier-Stokes(NS) equations with additive random noise. We introduce an innovative splitting method that decomposes the stochastic NS equations into a deterministic NS component and a stochastic equation. We rigorously analyze the proposed splitting method from the perspectives of equivalence, stability, existence and uniqueness of the solution. We also propose a modified splitting scheme, which simplified the stochastic equation by omitting its nonlinear terms. A detailed analysis of the solution properties for this modified approach is provided. Additionally, we discuss the statistical errors with both the original splitting format and the modified scheme. Our theoretical and numerical studies demonstrate that the equivalent splitting scheme exhibits significantly enhanced stability compared to the original stochastic NS equations, enabling more effective handling of nonlinear characteristics. Several numerical experiments were performed to compare the statistical errors of the splitting method and the modified splitting method. Notably, the deterministic NS equation in the splitting method does not require re...",
+      "authors": [
+        "Jie Zhu",
+        "Yujun Zhu",
+        "Ming Ju",
+        "Max Gunzburger"
+      ]
+    },
+    {
+      "title": "An end-to-end deep learning method for solving nonlocal Allen–Cahn and Cahn–Hilliard phase-field models",
+      "publication_year": 2025,
+      "publication_date": "2025-01-17",
+      "doi": "https://doi.org/10.1016/j.cma.2024.117721",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/2538287",
+      "concepts": [
+        "Allen–Cahn equation",
+        "Cahn–Hilliard equation",
+        "End-to-end principle",
+        "Field (mathematics)",
+        "Phase (matter)",
+        "Applied mathematics",
+        "Mathematics",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yuwei Geng",
+        "Olena Burkovska",
+        "Lili Ju",
+        "Guannan Zhang",
+        "Max Gunzburger"
+      ]
+    },
+    {
+      "title": "Multifidelity uncertainty quantification for ice sheet simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-01-09",
+      "doi": "https://doi.org/10.1007/s10596-024-10329-3",
+      "venue": "Computational Geosciences",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10596-024-10329-3.pdf",
+      "concepts": [
+        "Uncertainty quantification",
+        "Hydrogeology",
+        "Environmental science",
+        "Geology",
+        "Geotechnical engineering",
+        "Mathematics",
+        "Statistics"
+      ],
+      "abstract": "Ice sheet simulations suffer from vast parametric uncertainties, such as the basal sliding boundary condition or geothermal heat flux. Quantifying the resulting uncertainties in predictions is of utmost importance to support judicious decision-making, but high-fidelity simulations are too expensive to embed within uncertainty quantification (UQ) computations. UQ methods typically employ Monte Carlo simulation to estimate statistics of interest, which requires hundreds (or more) of ice sheet simulations. Cheaper low-fidelity models are readily available (e.g., approximated physics, coarser meshes), but replacing the high-fidelity model with a lower fidelity surrogate introduces bias, which means that UQ results generated with a low-fidelity model cannot be rigorously trusted. Multifidelity UQ retains the high-fidelity model but expands the estimator to shift computations to low-fidelity models, while still guaranteeing an unbiased estimate. Through this exploitation of multiple models, multifidelity estimators guarantee a target accuracy at reduced computational cost. This paper presents a comprehensive multifidelity UQ framework for ice sheet simulations. We present three multif...",
+      "authors": [
+        "Nicole Aretz",
+        "Max Gunzburger",
+        "Mathieu Morlighem",
+        "Karen Willcox"
+      ]
+    },
+    {
+      "title": "Multifidelity Uncertainty Quantification for Ice Sheet Simulations",
+      "publication_year": 2024,
+      "publication_date": "2024-12-08",
+      "doi": "https://doi.org/10.48550/arxiv.2412.06110",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2412.06110",
+      "concepts": [
+        "Ice sheet",
+        "Uncertainty quantification",
+        "Environmental science",
+        "Climatology",
+        "Geology",
+        "Geomorphology",
+        "Mathematics",
+        "Statistics"
+      ],
+      "abstract": "Ice sheet simulations suffer from vast parametric uncertainties, such as the basal sliding boundary condition or geothermal heat flux. Quantifying the resulting uncertainties in predictions is of utmost importance to support judicious decision-making, but high-fidelity simulations are too expensive to embed within uncertainty quantification (UQ) computations. UQ methods typically employ Monte Carlo simulation to estimate statistics of interest, which requires hundreds (or more) of ice sheet simulations. Cheaper low-fidelity models are readily available (e.g., approximated physics, coarser meshes), but replacing the high-fidelity model with a lower fidelity surrogate introduces bias, which means that UQ results generated with a low-fidelity model cannot be rigorously trusted. Multifidelity UQ retains the high-fidelity model but expands the estimator to shift computations to low-fidelity models, while still guaranteeing an unbiased estimate. Through this exploitation of multiple models, multifidelity estimators guarantee a target accuracy at reduced computational cost. This paper presents a comprehensive multifidelity UQ framework for ice sheet simulations. We present three multif...",
+      "authors": [
+        "Nicole Aretz",
+        "Max Gunzburger",
+        "Mathieu Morlighem",
+        "Karen Willcox"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "faculty_name": "Ali H. Nayfeh",
+  "full_name": "Ali H. Nayfeh",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Virginia Polytechnic Institute and State University",
+  "author_id": "A5042354204",
+  "works_count": 832,
+  "cited_by_count": 38920,
+  "h_index": 84,
+  "top_topics": [
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 255
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 113
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 106
+    },
+    {
+      "topic": "Mechanical and Optical Resonators",
+      "count": 95
+    },
+    {
+      "topic": "Advanced MEMS and NEMS Technologies",
+      "count": 77
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Nonlinear Oscillations",
+      "publication_year": 1980,
+      "publication_date": "1980-09-01",
+      "doi": "https://doi.org/10.1115/1.3153771",
+      "venue": "Journal of Applied Mechanics",
+      "type": "article",
+      "cited_by_count": 4685,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Mechanics",
+        "Physics",
+        "Control theory (sociology)",
+        "Computer science",
+        "Artificial intelligence",
+        "Quantum mechanics",
+        "Control (management)"
+      ],
+      "abstract": "Nonlinear Oscillations is a self-contained and thorough treatment of the vigorous research that has occurred in nonlinear mechanics since 1970. The book begins with fundamental concepts and techniques of analysis and progresses through recent developments and provides an overview that abstracts and introduces main nonlinear phenomena. It treats systems having a single degree of freedom, introducing basic concepts and analytical methods, and extends concepts and methods to systems having degrees of freedom. Most of this material cannot be found in any other text. Nonlinear Oscillations uses sim",
+      "authors": [
+        "Ali H. Nayfeh",
+        "Dean T. Mook",
+        "Phillip Holmes"
+      ]
+    },
+    {
+      "title": "Introduction to perturbation techniques",
+      "publication_year": 1981,
+      "publication_date": "1981-01-01",
+      "doi": "http://lib.myilibrary.com?id=317358",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 3633,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Duffing equation",
+        "Mathematics",
+        "Nonlinear system",
+        "Algebraic equation",
+        "Mathematical analysis",
+        "Mathieu function",
+        "Quadratic equation",
+        "Perturbation (astronomy)"
+      ],
+      "abstract": "Similarities, differences, advantages and limitations of perturbation techniques are pointed out concisely. The techniques are described by means of examples that consist mainly of algebraic and ordinary differential equations. Each chapter contains a number of exercises.",
+      "authors": [
+        "Ali H. Nayfeh"
+      ]
+    },
+    {
+      "title": "Applied Nonlinear Dynamics",
+      "publication_year": 1995,
+      "publication_date": "1995-03-29",
+      "doi": "https://doi.org/10.1002/9783527617548",
+      "venue": "",
+      "type": "book",
+      "cited_by_count": 1950,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Dynamics (music)",
+        "Computer science",
+        "Statistical physics",
+        "Physics",
+        "Acoustics",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ali H. Nayfeh",
+        "Balakumar Balachandran"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Fluid Forces And Structure-Induced Damping of Obliquely-Oscillating Offshore Structures",
+      "publication_year": 2025,
+      "publication_date": "2025-05-07",
+      "doi": "https://doi.org/10.31219/osf.io/rzkgm_v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://osf.io/rzkgm_v1/download",
+      "concepts": [
+        "Submarine pipeline",
+        "Physics",
+        "Mechanics",
+        "Geology",
+        "Geotechnical engineering"
+      ],
+      "abstract": "We use high-order CFD methods and statistical analysis techniques to study the flow over a cylinder, approximating circular cross-section offshore structures, oscillating in a direction inclined to the horizontal direction. We vary the orientation angle from 0 to 180 degrees, where the 90-degree case corresponds to oscillation perpendicular to the incoming stream. We study (in the time-domain and through the angle-response curves) variations of the induced force properties, their symmetry or skew symmetry about the case of a 90-degree orientation angle, and the structure-induced damping of the flow. We identify the range of orientation angles where the entrainment phenomenon takes place and study the influence of the motion amplitude on this phenomenon. We propose a technique to derive reference (scaling) quantities for the oblique fluid force. Unlike the lift and drag, such reference quantities cannot be obtained from the stationary-structure case because such an oblique force is not defined then.",
+      "authors": [
+        "Osama A. Marzouk",
+        "Ali H. Nayfeh"
+      ]
+    },
+    {
+      "title": "A Parametric Study and Optimization of Ship-Stabilization Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-02-03",
+      "doi": "https://doi.org/10.31219/osf.io/9w3gc_v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 6,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.31219/osf.io/9w3gc_v1",
+      "concepts": [
+        "Parametric statistics",
+        "System optimization",
+        "Computer science",
+        "Operations research",
+        "Control theory (sociology)",
+        "Mathematical optimization",
+        "Engineering",
+        "Mathematics"
+      ],
+      "abstract": "We conduct a parametric study on the performance of passive and active anti-roll tank systems that stabilize the motion of ships to identify the influence of continuous and discrete design variables; such as the number of tanks, their locations, and their overall mass (relative to the mass of the ship). We carried out simulations for the motion of a typical cargo ship with and without control. We modified the original geometry such that pitching can excessively excite rolling through autoparametric resonance. We found interesting phenomena, such as sharp loss-of-effectiveness and saturation. We suggest a two-tank system (either passive or active); its mass is determined from the desired roll limit.",
+      "authors": [
+        "Osama A. Marzouk",
+        "Ali H. Nayfeh"
+      ]
+    },
+    {
+      "title": "A Parametric Study and Optimization of Ship-Stabilization Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-02-01",
+      "doi": "https://doi.org/10.14293/pr2199.001450.v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.scienceopen.com/document_file/03fbeb3e-fd42-4c2d-ac72-5e8185161796/ScienceOpenPreprint/parametric_ship_preprint.pdf",
+      "concepts": [
+        "Parametric statistics",
+        "Limit (mathematics)",
+        "Control theory (sociology)",
+        "Added mass",
+        "Saturation (graph theory)",
+        "Motion (physics)",
+        "Parametric oscillator",
+        "Marine engineering"
+      ],
+      "abstract": "We conduct a parametric study on the performance of passive and active anti-roll tank systems that stabilize the motion of ships to identify the influence of continuous and discrete design variables; such as the number of tanks, their locations, and their overall mass (relative to the mass of the ship). We carried out simulations for the motion of a typical cargo ship with and without control. We modified the original geometry such that pitching can excessively excite rolling through autoparametric resonance. We found interesting phenomena, such as sharp loss-of-effectiveness and saturation. We suggest a two-tank system (either passive or active); its mass is determined from the desired roll limit.",
+      "authors": [
+        "Osama A. Marzouk",
+        "Ali H. Nayfeh"
+      ]
+    },
+    {
+      "title": "A Parametric Study and Optimization of Ship-Stabilization Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5147921",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5147921",
+      "concepts": [
+        "Parametric statistics",
+        "Computer science",
+        "Operations research",
+        "Marine engineering",
+        "Control theory (sociology)",
+        "Engineering",
+        "Mathematics",
+        "Statistics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Osama A. Marzouk",
+        "Ali H. Nayfeh"
+      ]
+    },
+    {
+      "title": "Fluid Forces and Structure-Induced Damping of Obliquely-Oscillating Offshore Structures",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5242026",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5242026",
+      "concepts": [
+        "Submarine pipeline",
+        "Mechanics",
+        "Physics",
+        "Geology",
+        "Geotechnical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Osama A. Marzouk",
+        "Ali H. Nayfeh"
+      ]
+    }
+  ]
+}

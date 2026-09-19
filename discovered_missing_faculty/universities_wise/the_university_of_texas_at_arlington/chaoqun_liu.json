@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Chaoqun Liu",
+  "full_name": "Chaoqun Liu",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "The University of Texas at Arlington",
+  "author_id": "A5042452305",
+  "works_count": 412,
+  "cited_by_count": 7700,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 268
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 147
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 117
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 62
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 51
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Computational Fluid Dynamics: A Practical Approach",
+      "publication_year": 2007,
+      "publication_date": "2007-11-09",
+      "doi": "https://doi.org/10.1016/c2015-0-06135-4",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 783,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Field (mathematics)",
+        "Software",
+        "Aerospace",
+        "Computer science",
+        "Engineering",
+        "Software engineering",
+        "Mechanical engineering"
+      ],
+      "abstract": "Computational Fluid Dynamics, Second Edition, provides an introduction to CFD fundamentals that focuses on the use of commercial CFD software to solve engineering problems. This new edition provides expanded coverage of CFD techniques including discretisation via finite element and spectral element as well as finite difference and finite volume methods and multigrid method. There is additional coverage of high-pressure fluid dynamics and meshless approach to provide a broader overview of the application areas where CFD can be used. The book combines an appropriate level of mathematical background, worked examples, computer screen shots, and step-by-step processes, walking students through modeling and computing as well as interpretation of CFD results. © 2012 Elsevier .",
+      "authors": [
+        "Jiyuan Tu",
+        "Guan Heng Yeoh",
+        "Chaoqun Liu"
+      ]
+    },
+    {
+      "title": "Rortex—A new vortex vector definition and vorticity tensor and vector decompositions",
+      "publication_year": 2018,
+      "publication_date": "2018-03-01",
+      "doi": "https://doi.org/10.1063/1.5023001",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 577,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1802.04099",
+      "concepts": [
+        "Vorticity",
+        "Physics",
+        "Vortex",
+        "Vector field",
+        "Classical mechanics",
+        "Turbulence",
+        "Schur decomposition",
+        "Rotation (mathematics)"
+      ],
+      "abstract": "A vortex is intuitively recognized as the rotational/swirling motion of the fluids. However, an unambiguous and universally accepted definition for vortex is yet to be achieved in the field of fluid mechanics, which is probably one of the major obstacles causing considerable confusions and misunderstandings in turbulence research. In our previous work, a new vector quantity that is called vortex vector was proposed to accurately describe the local fluid rotation and clearly display vortical structures. In this paper, the definition of the vortex vector, named Rortex here, is revisited from the mathematical perspective. The existence of the possible rotational axis is proved through real Schur decomposition. Based on real Schur decomposition, a fast algorithm for calculating Rortex is also presented. In addition, new vorticity tensor and vector decompositions are introduced: the vorticity tensor is decomposed to a rigidly rotational part and a non-rotationally anti-symmetric part, and the vorticity vector is decomposed to a rigidly rotational vector which is called the Rortex vector and a non-rotational vector which is called the shear vector. Several cases, including the 2D Coue...",
+      "authors": [
+        "Chaoqun Liu",
+        "Yisheng Gao",
+        "Shuling Tian",
+        "Xiangrui Dong"
+      ]
+    },
+    {
+      "title": "Third generation of vortex identification methods: Omega and Liutex/Rortex based systems",
+      "publication_year": 2019,
+      "publication_date": "2019-02-20",
+      "doi": "https://doi.org/10.1007/s42241-019-0022-4",
+      "venue": "Journal of Hydrodynamics",
+      "type": "article",
+      "cited_by_count": 567,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vorticity",
+        "Vortex",
+        "Vortex tube",
+        "Physics",
+        "Burgers vortex",
+        "Conservative vector field",
+        "Scalar (mathematics)",
+        "Vortex stretching"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chaoqun Liu",
+        "Yisheng Gao",
+        "Xiangrui Dong",
+        "Yiqian Wang",
+        "Jianming Liu",
+        "Yuning Zhang",
+        "Xiaoshu Cai",
+        "Nan Gui"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Design and Analysis of a Bearing-Integrated Rotary Transformer",
+      "publication_year": 2025,
+      "publication_date": "2025-07-25",
+      "doi": "https://doi.org/10.3390/en18153991",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1996-1073/18/15/3991/pdf?version=1753530150",
+      "concepts": [
+        "Transformer",
+        "Stator",
+        "Excitation",
+        "Engineering",
+        "Bearing (navigation)",
+        "Electrical engineering",
+        "Mechanical engineering",
+        "Computer science"
+      ],
+      "abstract": "In this paper, a bearing- and transformer-integrated electric excitation synchronous motor excitation system (bearing-integrated rotary transformer) is proposed to support the motor rotor and energy transmission of excitation systems. Firstly, the working principle of the bearing-integrated rotary transformer is discussed. Secondly, the structure and electromagnetism of the bearing-integrated rotary transformer are designed through the processes and principles of pole slot matching, stator/rotor size, winding, and the magnetic regulating needle. Thirdly, the bearing-integrated rotary transformer undergoes an electromagnetic–thermal simulation. Finally, a prototype of the bearing-integrated rotary transformer is manufactured, and the electromagnetic and transmission characteristics are tested, verifying the correctness of the proposed scheme and providing additional ideas for the improvement of synchronous motor excitation systems.",
+      "authors": [
+        "Xiaoou Fan",
+        "Shaohua Ma",
+        "Dezhi Chen",
+        "Chaoqun Liu"
+      ]
+    },
+    {
+      "title": "Research of three harmonic excitation synchronous motor speed control system",
+      "publication_year": 2025,
+      "publication_date": "2025-07-01",
+      "doi": "https://doi.org/10.1063/5.0267419",
+      "venue": "AIP Advances",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0267419",
+      "concepts": [
+        "Excitation",
+        "Synchronous motor",
+        "Harmonic",
+        "Control (management)",
+        "Control system",
+        "Physics",
+        "Control theory (sociology)",
+        "Electrical engineering"
+      ],
+      "abstract": "This paper presents a speed control system based on the third harmonic excitation synchronous motor. Compared with harmonic excitation by adding harmonic windings in the electric excitation motor, the structure is simpler, with lower hardware costs and higher versatility. The working principle of the system and the design idea of the harmonic extraction circuit are described. Harmonic injection technology is used to ensure the stability of excitation current. Stator current, harmonic current, flux density, and other motor performance parameters are calculated by the finite element method and co-simulation, and the advantages compared with the traditional excitation method are analyzed. Experimental results of a 300-W prototype machine agree well with theoretical analysis and co-simulation results, confirming its feasibility and accuracy.",
+      "authors": [
+        "Xiaoou Fan",
+        "Shaohua Ma",
+        "Dezhi Chen",
+        "Chaoqun Liu"
+      ]
+    },
+    {
+      "title": "ICLR: Coupling In-Context Learning with Refiner for Aspect Term Extraction",
+      "publication_year": 2025,
+      "publication_date": "2025-06-30",
+      "doi": "https://doi.org/10.1109/ijcnn64981.2025.11227155",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Term (time)",
+        "Computer science",
+        "Artificial intelligence",
+        "Sentence",
+        "Selection (genetic algorithm)",
+        "Machine learning",
+        "Natural language processing"
+      ],
+      "abstract": "To mitigate the need for large-scale labeled data and reduce the computational costs for adapting the model to new tasks, this study explores in-context learning (ICL) for aspect term extraction (ATE) with large language models (LLMs). We propose the dynamic sentence type prompting tailored for aspect term extraction tasks. Our hypothesis suggests that LLMs can learn task-specific aspects from demonstrations in ICL.We build upon the exploration of ICL for ATE and introduce a method for constructing explicit and sentence-type based demonstrations. This method shifts from arbitrary example selection to a systematic approach which highlights critical sentence types. We are inspired by human analogical reasoning and introduce the link-of-analogy prompting. This enables LLMs to generalize effectively to new ATE tasks. LLMs can draw analogies to known aspects which improves their performance on unseen categories. Meanwhile, the large language models can refine the extraction performance by iteratively refining the extracted results based on the specified criterion. We conduct experiments using the SemEval benchmark corpora, including R14-16 and L14, focusing on the domains of Restaura...",
+      "authors": [
+        "Chaoqun Liu",
+        "Hong Yu",
+        "Qingting Xu",
+        "Jianmin Yao"
+      ]
+    },
+    {
+      "title": "A loosely coupled rotary transformer with an improved core structure",
+      "publication_year": 2025,
+      "publication_date": "2025-06-01",
+      "doi": "https://doi.org/10.1063/5.0266448",
+      "venue": "AIP Advances",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0266448",
+      "concepts": [
+        "Transformer",
+        "Materials science",
+        "Computer science",
+        "Electrical engineering",
+        "Engineering",
+        "Voltage"
+      ],
+      "abstract": "The loosely coupled transformer has high leakage inductance and a low coupling coefficient because of the large air gap, resulting in low efficiency. To address the issues, a loosely coupled rotary transformer with an improved pot core structure is proposed by increasing the number of winding turns and decreasing the size of the central limb. First, the equivalent magnetic circuit model of the loosely coupled rotary transformer is built to analyze the relationship between different parameters of the rotary transformer. Second, the finite element analysis software is used to analyze the 2D and 3D models of the pot core rotary transformer and validate the correctness of the proposed structure. Finally, pot core rotary transformer prototypes and a contactless energy transfer system experimental platform are constructed to compare the performance of the traditional and improved rotary transformers, and the effectiveness of the proposed scheme is further verified by experimental results.",
+      "authors": [
+        "Xiaoou Fan",
+        "Shaohua Ma",
+        "Dezhi Chen",
+        "Chaoqun Liu"
+      ]
+    },
+    {
+      "title": "Vortex visualization of tropical cyclones by Liutex",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.1007/s42241-025-0018-1",
+      "venue": "Journal of Hydrodynamics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tropical cyclone",
+        "Vortex",
+        "Meteorology",
+        "Visualization",
+        "Climatology",
+        "Geology",
+        "Environmental science",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Oscar Álvarez",
+        "Chenxi Ma",
+        "Sim Aberson",
+        "Chaoqun Liu"
+      ]
+    }
+  ]
+}

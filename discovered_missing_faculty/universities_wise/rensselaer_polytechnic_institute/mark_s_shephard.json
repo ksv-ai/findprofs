@@ -1,0 +1,300 @@
+{
+  "faculty_name": "Mark S. Shephard",
+  "full_name": "Mark S. Shephard",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5080270359",
+  "works_count": 423,
+  "cited_by_count": 10295,
+  "h_index": 50,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 115
+    },
+    {
+      "topic": "Computational Geometry and Mesh Generation",
+      "count": 96
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 59
+    },
+    {
+      "topic": "Computer Graphics and Visualization Techniques",
+      "count": 41
+    },
+    {
+      "topic": "Advanced Numerical Analysis Techniques",
+      "count": 37
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Automatic three‐dimensional mesh generation by the finite octree technique",
+      "publication_year": 1991,
+      "publication_date": "1991-09-01",
+      "doi": "https://doi.org/10.1002/nme.1620320406",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 727,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Octree",
+        "Mesh generation",
+        "Geometric modeling",
+        "Geometric design",
+        "Polygon mesh",
+        "Computer science",
+        "Geometric data analysis",
+        "Mathematics"
+      ],
+      "abstract": "Abstract An octree‐based fully automatic three‐dimensional mesh generator is presented. The mesh generator is capable of meshing non‐manifold models of arbitrary geometric complexity through the explicit tracking and enforcement of geometric compatibility and geometric similarity at each step of the meshing process. The resulting procedure demonstrates a linear growth rate with respect to the number of elements and can be easily integrated with any geometric modeller through a set of geometric operators.",
+      "authors": [
+        "Mark S. Shephard",
+        "Marcel K. Georges"
+      ]
+    },
+    {
+      "title": "Automatic three‐dimensional mesh generation by the modified‐octree technique",
+      "publication_year": 1984,
+      "publication_date": "1984-11-01",
+      "doi": "https://doi.org/10.1002/nme.1620201103",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 412,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Octree",
+        "Polygon mesh",
+        "Finite element method",
+        "Mesh generation",
+        "Computer science",
+        "Computational science",
+        "Encoding (memory)",
+        "Algorithm"
+      ],
+      "abstract": "Abstract An approach for the fully automatic generation of three‐dimensional finite element meshes is presented. The method is specifically designed for use with solid modelling systems which provide a complete and unique definition of the geometry of a part. The method follows from the basic concepts of the octree encoding technique with specific modifications made to produce valid, user controllable finite element meshes. Example problems are included to demonstrate the technique.",
+      "authors": [
+        "Mark A. Yerry",
+        "Mark S. Shephard"
+      ]
+    },
+    {
+      "title": "Multiphysics simulations",
+      "publication_year": 2013,
+      "publication_date": "2013-02-01",
+      "doi": "https://doi.org/10.1177/1094342012468181",
+      "venue": "The International Journal of High Performance Computing Applications",
+      "type": "article",
+      "cited_by_count": 395,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multiphysics",
+        "Computer science",
+        "Variety (cybernetics)",
+        "Software",
+        "Software engineering",
+        "Computational science",
+        "Systems engineering",
+        "Theoretical computer science"
+      ],
+      "abstract": "We consider multiphysics applications from algorithmic and architectural perspectives, where “algorithmic” includes both mathematical analysis and computational complexity, and “architectural” includes both software and hardware environments. Many diverse multiphysics applications can be reduced, en route to their computational simulation, to a common algebraic coupling paradigm. Mathematical analysis of multiphysics coupling in this form is not always practical for realistic applications, but model problems representative of applications discussed herein can provide insight. A variety of software frameworks for multiphysics applications have been constructed and refined within disciplinary communities and executed on leading-edge computer systems. We examine several of these, expose some commonalities among them, and attempt to extrapolate best practices to future systems. From our study, we summarize challenges and forecast opportunities.",
+      "authors": [
+        "David E. Keyes",
+        "Lois Curfman McInnes",
+        "Carol S. Woodward",
+        "William Gropp",
+        "E. S. Myra",
+        "Michael Pernice",
+        "John B. Bell",
+        "Jed Brown",
+        "Alain Clo",
+        "Jeffrey M. Connors",
+        "Emil M. Constantinescu",
+        "D. Estep",
+        "Kate Evans",
+        "Charbel Farhat",
+        "Ammar Hakim",
+        "Glenn Hammond",
+        "Glen Hansen",
+        "Judith Hill",
+        "Tobin Isaac",
+        "Xiangmin Jiao",
+        "Kirk E. Jordan",
+        "Dinesh Kaushik",
+        "Efthimios Kaxiras",
+        "Alice Koniges",
+        "Kihwan Lee",
+        "A.E. Lott",
+        "Qiming Lu",
+        "J. H. Magerlein",
+        "R. M. Maxwell",
+        "Michael McCourt",
+        "Miriam Mehl",
+        "Roger P. Pawlowski",
+        "Amanda Randles",
+        "Daniel R. Reynolds",
+        "Béatrice Rivière",
+        "Ulrich Rüde",
+        "Tim Scheibe",
+        "John N. Shadid",
+        "Brendan Sheehan",
+        "Mark S. Shephard",
+        "Andrew Siegel",
+        "Barry Smith",
+        "Xian-Zhu Tang",
+        "C. R. Wilson",
+        "Barbara Wohlmuth"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "PCMS: Parallel coupler for multimodel simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-26",
+      "doi": "https://doi.org/10.1016/j.cpc.2026.110283",
+      "venue": "Computer Physics Communications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.18838",
+      "concepts": [
+        "Microturbulence",
+        "Coupling (piping)",
+        "Discretization",
+        "Code (set theory)",
+        "Scaling",
+        "Physics",
+        "Computational science",
+        "Field (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jacob Merson",
+        "Cameron W. Smith",
+        "Mark S. Shephard",
+        "Fuad Hasan",
+        "A. Paudel",
+        "Angel Castillo-Crooke",
+        "Joyal Mathew",
+        "Mohammad Elahi"
+      ]
+    },
+    {
+      "title": "Curved Mesh Adaptation for High-Order Finite Element Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://doi.org/10.48550/arxiv.2606.10763",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.10763",
+      "concepts": [
+        "Polygon mesh",
+        "Finite element method",
+        "Boundary (topology)",
+        "Mesh generation",
+        "Interpolation (computer graphics)",
+        "Domain (mathematical analysis)",
+        "T-vertices",
+        "Computer science"
+      ],
+      "abstract": "The ability to take advantage of computationally efficient high-order finite element methods to perform adaptive finite element analysis of complex engineering problems over general 3D domains requires the ability to adapt meshes with curved elements that maintain the level of geometric approximation of the domain boundary required. This paper presents a conforming curved mesh adaptation procedure aimed at effectively supporting automated adaptive analysis of problems for which the domain geometry is defined in a CAD system. The local mesh modification procedures interact with the CAD geometry to curve the mesh edges and faces representing those boundaries to the order of approximation of the high-order elements being used. The curved mesh edges and faces representing the domain boundaries are based on Bézier approximation geometry, which provides more accurate evaluations of surface-related quantities of interest than the commonly used interpolation methods. To attain computational efficiency during mesh adaptation, the interior mesh entities have their geometric order kept as low as possible while still maintaining control of element shapes. The order of curved mesh entities i...",
+      "authors": [
+        "Aditya Yogesh Joshi",
+        "Mark S. Shephard"
+      ]
+    },
+    {
+      "title": "Curved Mesh Adaptation for High-Order Finite Element Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://arxiv.org/abs/2606.10763",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.10763",
+      "concepts": [
+        "Polygon mesh",
+        "Finite element method",
+        "Boundary (topology)",
+        "Mesh generation",
+        "Interpolation (computer graphics)",
+        "Domain (mathematical analysis)",
+        "T-vertices",
+        "Computer science"
+      ],
+      "abstract": "The ability to take advantage of computationally efficient high-order finite element methods to perform adaptive finite element analysis of complex engineering problems over general 3D domains requires the ability to adapt meshes with curved elements that maintain the level of geometric approximation of the domain boundary required. This paper presents a conforming curved mesh adaptation procedure aimed at effectively supporting automated adaptive analysis of problems for which the domain geometry is defined in a CAD system. The local mesh modification procedures interact with the CAD geometry to curve the mesh edges and faces representing those boundaries to the order of approximation of the high-order elements being used. The curved mesh edges and faces representing the domain boundaries are based on Bézier approximation geometry, which provides more accurate evaluations of surface-related quantities of interest than the commonly used interpolation methods. To attain computational efficiency during mesh adaptation, the interior mesh entities have their geometric order kept as low as possible while still maintaining control of element shapes. The order of curved mesh entities i...",
+      "authors": [
+        "Aditya Yogesh Joshi",
+        "Mark S. Shephard"
+      ]
+    },
+    {
+      "title": "Curved Mesh Adaptation for High-Order Finite Element Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-08",
+      "doi": "https://doi.org/10.21203/rs.3.rs-9926839/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-9926839/latest.pdf",
+      "concepts": [
+        "Polygon mesh",
+        "Finite element method",
+        "Boundary (topology)",
+        "Mesh generation",
+        "Interpolation (computer graphics)",
+        "Domain (mathematical analysis)",
+        "T-vertices",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aditya Yogesh Joshi",
+        "Mark S. Shephard"
+      ]
+    },
+    {
+      "title": "Unstructured Mesh Tools for Fusion Energy System Design",
+      "publication_year": 2026,
+      "publication_date": "2026-06-07",
+      "doi": "https://doi.org/10.48550/arxiv.2606.08822",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.08822",
+      "concepts": [
+        "Workflow",
+        "Fusion",
+        "Leverage (statistics)",
+        "Computer science",
+        "Key (lock)",
+        "Systems engineering",
+        "Coupling (piping)",
+        "Computational science"
+      ],
+      "abstract": "The execution of accurate simulations of fusion energy systems requires the appropriate representation of critical component geometries as well as the coupling of complex fusion physics codes with one another and with engineering analysis tools. This paper examines the challenges of creating simulation workflows that fully leverage existing fusion research codes while integrating them with commercial computer-aided engineering (CAE) software. Key areas addressed include: (a) the construction and meshing of analysis geometries taking full advantage of available geometric modeling and meshing technologies; (b) the effective coupling of fusion physics and engineering analysis codes; and (c) the support for simulation workflows that couple particle and continuum modeling methods.",
+      "authors": [
+        "Mark S. Shephard",
+        "Jacob Merson",
+        "Onkar Sahni",
+        "Cameron A. B. Smith",
+        "Usman Riaz",
+        "Fuad Hasan",
+        "Aditya Y. Joshi",
+        "D. Nath",
+        "A. Paudel"
+      ]
+    }
+  ]
+}

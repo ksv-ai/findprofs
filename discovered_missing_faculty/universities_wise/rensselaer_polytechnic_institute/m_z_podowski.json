@@ -1,0 +1,199 @@
+{
+  "faculty_name": "M.Z. Podowski",
+  "full_name": "M.Z. Podowski",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5112268654",
+  "works_count": 151,
+  "cited_by_count": 2013,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Nuclear reactor physics and engineering",
+      "count": 62
+    },
+    {
+      "topic": "Nuclear Engineering Thermal-Hydraulics",
+      "count": 55
+    },
+    {
+      "topic": "Fluid Dynamics and Mixing",
+      "count": 40
+    },
+    {
+      "topic": "Nuclear Materials and Properties",
+      "count": 36
+    },
+    {
+      "topic": "Heat Transfer and Boiling Studies",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "MULTIDIMENSIONAL EFFECTS IN FORCED CONVECTION SUBCOOLED BOILING",
+      "publication_year": 1990,
+      "publication_date": "1990-01-01",
+      "doi": "https://doi.org/10.1615/ihtc9.40",
+      "venue": "Proceeding of International Heat Transfer Conference 9",
+      "type": "conference-paper",
+      "cited_by_count": 413,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Subcooling",
+        "Forced convection",
+        "Boiling",
+        "Mechanics",
+        "Convection",
+        "Thermodynamics",
+        "Materials science",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "N. Kurul",
+        "M.Z. Podowski"
+      ]
+    },
+    {
+      "title": "Effect of nanoparticles on sessile droplet contact angle",
+      "publication_year": 2006,
+      "publication_date": "2006-04-24",
+      "doi": "https://doi.org/10.1088/0957-4484/17/10/014",
+      "venue": "Nanotechnology",
+      "type": "article",
+      "cited_by_count": 210,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Contact angle",
+        "Materials science",
+        "Thioglycolic acid",
+        "Nanoparticle",
+        "Wetting",
+        "Nanofluid",
+        "Bismuth telluride",
+        "Chemical engineering"
+      ],
+      "abstract": "This paper investigates the change in contact angle of droplets of fluid containing dispersed nanoparticles (nanofluid) functionalized with thioglycolic acid molecules as a function of the concentration and size of nanoparticles, and the quality and composition of the substrate material. Bismuth telluride nanoparticles with an average size ranging from 2.5 to 10.4 nm and functionalized with thioglycolic acid groups were grown by a microemulsion method and dispersed in water. Experimental measurements of the contact angle of nanofluid droplets cast on smooth glass and silicon substrates show that the contact angle depends strongly on nanoparticle concentration. Moreover, smaller size nanoparticles lead to larger changes in contact angle at the same mass concentration. These findings contribute to understanding the role of functionalized nanoparticles in surface wettability.",
+      "authors": [
+        "Saeid Vafaei",
+        "Theodorian Borca‐Tasciuc",
+        "M.Z. Podowski",
+        "A. Purkayastha",
+        "Ganpati Ramanath",
+        "P. M. Ajayan"
+      ]
+    },
+    {
+      "title": "Analysis of the relationship between liquid droplet size and contact angle",
+      "publication_year": 2005,
+      "publication_date": "2005-05-01",
+      "doi": "https://doi.org/10.1016/j.cis.2005.03.001",
+      "venue": "Advances in Colloid and Interface Science",
+      "type": "article",
+      "cited_by_count": 145,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Contact angle",
+        "Rotational symmetry",
+        "Work (physics)",
+        "Mechanics",
+        "Laplace's equation",
+        "Materials science",
+        "Laplace pressure",
+        "Solid surface"
+      ],
+      "abstract": "",
+      "authors": [
+        "Saeid Vafaei",
+        "M.Z. Podowski"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the Development of Parallel Linear Solvers for Simulations of Reactor Thermalhydraulics",
+      "publication_year": 2024,
+      "publication_date": "2024-12-12",
+      "doi": "https://doi.org/10.83144/pcns.v14i1.4421",
+      "venue": "Canadian Nuclear Society Proceedings",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.83144/pcns.v14i1.4421",
+      "concepts": [
+        "Solver",
+        "Multigrid method",
+        "Computer science",
+        "Computational science",
+        "Discretization",
+        "Linear system",
+        "Nonlinear system",
+        "Multiphase flow"
+      ],
+      "abstract": "The state-of-the-art multiphase fluid dynamics code, NPHASE-CMFD, performs multiphase flow simulations in complex domains using implicit nonlinear treatment of the governing equations and in parallel, which is a very challenging environment for the linear solver. The present work illustrates how the Portable, Extensible Toolkit for Scientific Computation (PETSc) and scalable Algebraic Multigrid (AMG) preconditioner from Hypre can be utilized to construct robust and scalable linear solvers for the Newton correction equation obtained from the discretized system of governing conservation equations in NPHASE-CMFD. The overall long-tem objective of this work is to extend the NPHASE-CMFD code into a fully-scalable solver of multiphase flow and heat transfer problems, applicable to both steady-state and stiff time-dependent phenomena in complete fuel assemblies of nuclear reactors and, eventually, the entire reactor core (such as the Virtual Reactor concept envisioned by CASL). This campaign appropriately begins with the linear algebraic equation solver, which is traditionally a bottleneck to scalability in PDE-based codes. The computational complexity of the solver is usually superlin...",
+      "authors": [
+        "Yan Yan",
+        "Steven Antal",
+        "Brian Edge",
+        "David Keyes",
+        "Dillon Shaver",
+        "Igor Bolotnov",
+        "M.Z. Podowski"
+      ]
+    },
+    {
+      "title": "On the importance of consistency of multiple-level modeling of multiphase flow in reactor systems",
+      "publication_year": 2023,
+      "publication_date": "2023-05-15",
+      "doi": "https://doi.org/10.1016/j.nucengdes.2023.112341",
+      "venue": "Nuclear Engineering and Design",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Parametric statistics",
+        "Computer science",
+        "Consistency (knowledge bases)",
+        "Scale (ratio)",
+        "Simple (philosophy)",
+        "Mathematics",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "M.Z. Podowski"
+      ]
+    },
+    {
+      "title": "TOWARD MECHANISTIC MULTIDIMENSIONAL MODELING OF FORCED-CONVECTION BOILING",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.1615/boiling2000.60",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boiling",
+        "Forced convection",
+        "Nucleate boiling",
+        "Heat transfer",
+        "Subcooling",
+        "Convection",
+        "Thermodynamics",
+        "Critical heat flux"
+      ],
+      "abstract": "Practical applications of forced-convection boiling encompass a wide spectrum of industrial systems, including but not limited to, thermal energy generation systems. Because of the complexity of phenomena governing boiling heat transfer in general, and subcooled boiling in particular, a commonly used approach to both fundamental and practical problems has traditionally been based on experimental correlations rather than mechanistic models. The recent progress in computational fluid dynamics, combined with improved experimental techniques in two-phase flow and heat transfer, has shown that the application of computer simulations based on rigorous physical models is gradually becoming a useful tool in the analysis of various two- and multiphase flow and heat transfer problems. The objective of this paper is to discuss some of the recent accomplishments in the mechanistic modeling of forced-convection low-quality boiling, including both the nucleate boiling regime and the mechanisms governing the departure from nucleate boiling (critical heat flux - CHF).",
+      "authors": [
+        "M.Z. Podowski"
+      ]
+    }
+  ]
+}

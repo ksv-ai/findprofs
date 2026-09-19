@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Elaine S. Oran",
+  "full_name": "Elaine S. Oran",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Texas A&M University",
+  "author_id": "A5030002366",
+  "works_count": 567,
+  "cited_by_count": 16660,
+  "h_index": 64,
+  "top_topics": [
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 209
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 126
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 123
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 100
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 88
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical Simulation of Reactive Flow",
+      "publication_year": 2000,
+      "publication_date": "2000-11-06",
+      "doi": "https://doi.org/10.1017/cbo9780511574474",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book",
+      "cited_by_count": 1122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flow (mathematics)",
+        "Explosive material",
+        "Computer science",
+        "Computation",
+        "Fluid dynamics",
+        "Atmosphere (unit)",
+        "Space (punctuation)",
+        "Aerospace engineering"
+      ],
+      "abstract": "Reactive flows encompass a broad range of physical phenomena, interacting over many different time and space scales. Such flows occur in combustion, chemical lasers, the earth's oceans and atmosphere, and stars and interstellar space. Despite the obvious physical differences in these flows, there is a striking similarity in the forms of their descriptive equations. Thus, the considerations and procedures for constructing numerical models of these systems are also similar, and these similarities can be exploited. Moreover, using the latest technology, what were once difficult and expensive computations can now be done on desktop computers. This book takes account of the explosive growth in computer technology and the greatly increased capacity for solving complex reactive flow problems that have occurred since the first edition of Numerical Simulation of Reactive Flow was published in 1987. It presents algorithms useful for reactive flow simulations, describes trade-offs involved in their use, and gives guidance for building and using models of complex reactive flows.",
+      "authors": [
+        "Elaine S. Oran",
+        "Jay P. Boris"
+      ]
+    },
+    {
+      "title": "New insights into large eddy simulation",
+      "publication_year": 1992,
+      "publication_date": "1992-12-01",
+      "doi": "https://doi.org/10.1016/0169-5983(92)90023-p",
+      "venue": "Fluid Dynamics Research",
+      "type": "article",
+      "cited_by_count": 977,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Direct numerical simulation",
+        "Large eddy simulation",
+        "Nonlinear system",
+        "Reynolds stress equation model",
+        "Turbulence modeling",
+        "Statistical physics",
+        "K-epsilon turbulence model"
+      ],
+      "abstract": "Fluid dynamic turbulence is one of the most challenging computational physics problems because of the extremely wide range of time and space scales involved, the strong nonlinearity of the governing equations, and the many practical and important applications. While most linear fluid instabilities are well understood, the nonlinear interactions among them makes even the relatively simple limit of homogeneous isotropic turbulence difficult to treat physically, mathematically, and computationally. Turbulence is modeled computationally by a two-stage bootstrap process. The first stage, direct numerical simulation, attempts to resolve the relevant physical time and space scales but its application is limited to diffusive flows with a relatively small Reynolds number (Re). Using direct numerical simulation to provide a database, in turn, allows calibration of phenomenological turbulence models for engineering applications. Large eddy simulation incorporates a form of turbulence modeling applicable when the large-scale flows of interest are intrinsically time dependent, thus throwing common statistical models into question. A promising approach to large eddy simulation involves the us...",
+      "authors": [
+        "J. P. Boris",
+        "Fernando F. Grinstein",
+        "Elaine S. Oran",
+        "R. L. Kolbe"
+      ]
+    },
+    {
+      "title": "Origins of the deflagration-to-detonation transition in gas-phase combustion",
+      "publication_year": 2006,
+      "publication_date": "2006-10-24",
+      "doi": "https://doi.org/10.1016/j.combustflame.2006.07.010",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 623,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Deflagration",
+        "Detonation",
+        "Mechanics",
+        "Turbulence",
+        "Ignition system",
+        "Combustion",
+        "Shock (circulatory)",
+        "Premixed flame"
+      ],
+      "abstract": "",
+      "authors": [
+        "Elaine S. Oran",
+        "Vadim N. Gamezo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Large-scale field experiments on enhancing In-Situ burning with fire whirls",
+      "publication_year": 2025,
+      "publication_date": "2025-07-01",
+      "doi": "https://doi.org/10.1016/j.fuel.2025.136093",
+      "venue": "Fuel",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.fuel.2025.136093",
+      "concepts": [
+        "Environmental science",
+        "In situ",
+        "Scale (ratio)",
+        "Atmospheric sciences",
+        "Field (mathematics)",
+        "Meteorology",
+        "Geology",
+        "Physics"
+      ],
+      "abstract": "Fire whirls, a combustion-intensifying phenomenon, offer potential for cleaner, more efficient burns with reduced emissions in environmental applications like oil spill remediation. While most knowledge of fire whirls stems from laboratory-scale experiments, and only a limited subset of these experiments has captured emissions, this study addresses a critical research gap by conducting one of the largest controlled fire whirl experiments to date, focusing on enhancing in-situ burning. Using a 1.5-meter diameter crude oil pool with 15 mm and 40 mm slick thicknesses on an open water surface, fire whirls were successfully generated within a 5-meter-tall three-wall structure under the influence of various wind conditions. Measurements of flame geometry, flow velocity, temperature profiles, heat flux, mass consumption, and emissions were compared to pool fires. Results revealed that fire whirls, with mean flame heights nearly double those of pool fires, increased burning rates by 40% and reduced soot emissions by 40%. The highest fuel consumption efficiency of 95% was achieved in a 15 mm slick thickness fire whirl experiment, while in other fire whirl experiments, especially those wi...",
+      "authors": [
+        "Wuquan Cui",
+        "Joseph Dowling",
+        "Mohammadhadi Hajilou",
+        "Mitchell Huffman",
+        "Bhushan Pawar",
+        "Johanna Aurell",
+        "Qingsheng Wang",
+        "Elaine S. Oran",
+        "Karen Stone",
+        "Michael J. Gollner"
+      ]
+    },
+    {
+      "title": "Structure and dynamics of the blue whirl",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.1016/j.compfluid.2025.106676",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compfluid.2025.106676",
+      "concepts": [
+        "Dynamics (music)",
+        "Mathematics",
+        "Statistical physics",
+        "Geometry",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "",
+      "authors": [
+        "E. Tarik Balci",
+        "P.M. Anderson",
+        "Elaine S. Oran"
+      ]
+    },
+    {
+      "title": "Structure and Dynamics of the Blue Whirl",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5108033",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5108033",
+      "concepts": [
+        "Dynamics (music)",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "",
+      "authors": [
+        "E. Tarik Balci",
+        "Paul Anderson",
+        "Elaine S. Oran"
+      ]
+    },
+    {
+      "title": "Detonation Cell Size and DDT Distance for Ethylene-Oxygen-Nitrogen Mixtures",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-2782",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nitrogen",
+        "Oxygen",
+        "Detonation",
+        "Ethylene",
+        "Cell size",
+        "Materials science",
+        "Chemistry",
+        "Environmental science"
+      ],
+      "abstract": "In recent years, there has been growing interest in using ethylene as a fuel for detonation engines. Ethylene–air mixtures are appealing for detonation characterization, as ethylene exhibits better detonability compared to other hydrocarbon fuels. It is therefore crucial to have a thorough understanding of the chemical kinetics and detonation stability parameters specific to ethylene–air mixtures. To gain further insights into the detonation properties of this mixture, studying the deflagration-to-detonation transition (DDT) is of great importance. However, there is currently only a limited amount of published research on ethylene–oxygen–nitrogen mixtures for varying equivalence ratio and diluent concentration, both in terms of experimental and numerical studies. In this study, this gap is addressed by measuring the detonation cell size and DDT distance and time for ethylene–oxygen–nitrogen mixtures with varying equivalence ratio and nitrogen dilution concentration. The results show that there is greater variation in cell size and DDT time as the equivalence ratio is varied for mixtures with higher nitrogen dilution. The experimental data were used to calibrate and validate a re...",
+      "authors": [
+        "David J. Lont",
+        "Ashwath Sethu Venkataraman",
+        "Athena Padgiotis",
+        "Milin Martin",
+        "Elaine S. Oran",
+        "Scott I. Jackson",
+        "Yule Huang",
+        "Hoden A. Farah"
+      ]
+    },
+    {
+      "title": "Proper Orthogonal Decomposition Analysis of the Blue Whirl: Effects of Tilting the Flame",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0590",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Decomposition",
+        "Computer science",
+        "Automotive engineering",
+        "Chemistry",
+        "Engineering",
+        "Organic chemistry"
+      ],
+      "abstract": "This study presents three-dimensional, unsteady numerical simulations focused on investigating the effect of tilting on the flame and flow structure of the blue whirl. The flame tilt adjustment involves gradually altering the tilting angle within a 0.05-second timeframe, followed by a constant tilting angle throughout the simulation. Analysis of the flame structure encompasses parameters such as heat release rate, stoichiometric fuel-oxidizer equivalence ratio, and flame index. Flow dynamics investigation uses the Proper Orthogonal Decomposition method, identifying coherent flow structures based on modal energy. Results demonstrate the blue whirl's ability to sustain flame and flow structures even when subjected to a 40-degree tilt.",
+      "authors": [
+        "E. Tarik Balci",
+        "Elaine S. Oran"
+      ]
+    }
+  ]
+}

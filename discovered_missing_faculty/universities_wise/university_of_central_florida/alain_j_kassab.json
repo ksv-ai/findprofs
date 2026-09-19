@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Alain J. Kassab",
+  "full_name": "Alain J. Kassab",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Central Florida",
+  "author_id": "A5068734730",
+  "works_count": 266,
+  "cited_by_count": 3219,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 75
+    },
+    {
+      "topic": "Numerical methods in inverse problems",
+      "count": 35
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 33
+    },
+    {
+      "topic": "Mechanical Circulatory Support Devices",
+      "count": 25
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An Efficient Localized Radial Basis Function Meshless Method for Fluid Flow and Conjugate Heat Transfer",
+      "publication_year": 2006,
+      "publication_date": "2006-05-25",
+      "doi": "https://doi.org/10.1115/1.2402181",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 157,
+      "is_oa": true,
+      "oa_url": "https://stars.library.ucf.edu/facultybib2000/7060",
+      "concepts": [
+        "Radial basis function",
+        "Regularized meshless method",
+        "Interpolation (computer graphics)",
+        "Fluid dynamics",
+        "Flow (mathematics)",
+        "Vector field",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "A localized radial basis function (RBF) meshless method is developed for coupled viscous fluid flow and convective heat transfer problems. The method is based on new localized radial-basis function (RBF) expansions using Hardy Multiquadrics for the sought-after unknowns. An efficient set of formulae are derived to compute the RBF interpolation in terms of vector products thus providing a substantial computational savings over traditional meshless methods. Moreover, the approach developed in this paper is applicable to explicit or implicit time marching schemes as well as steady-state iterative methods. We apply the method to viscous fluid flow and conjugate heat transfer (CHT) modeling. The incompressible Navier–Stokes are time marched using a Helmholtz potential decomposition for the velocity field. When CHT is considered, the same RBF expansion is used to solve the heat conduction problem in the solid regions enforcing temperature and heat flux continuity of the solid/fluid interfaces. The computation is accelerated by distributing the load over several processors via a domain decomposition along with an interface interpolation tailored to pass information through each of the ...",
+      "authors": [
+        "Eduardo Divo",
+        "Alain J. Kassab"
+      ]
+    },
+    {
+      "title": "Film cooling effectiveness: Comparison of adiabatic and conjugate heat transfer CFD models",
+      "publication_year": 2009,
+      "publication_date": "2009-05-27",
+      "doi": "https://doi.org/10.1016/j.ijthermalsci.2009.04.007",
+      "venue": "International Journal of Thermal Sciences",
+      "type": "article",
+      "cited_by_count": 143,
+      "is_oa": true,
+      "oa_url": "https://stars.library.ucf.edu/facultybib2000/2150",
+      "concepts": [
+        "Adiabatic process",
+        "Turbulence",
+        "Coolant",
+        "Heat transfer",
+        "Materials science",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Adiabatic wall"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mahmood Silieti",
+        "Alain J. Kassab",
+        "Eduardo Divo"
+      ]
+    },
+    {
+      "title": "Proper orthogonal decomposition and modal analysis for acceleration of transient FEM thermal analysis",
+      "publication_year": 2004,
+      "publication_date": "2004-11-18",
+      "doi": "https://doi.org/10.1002/nme.1205",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 129,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nme.1205",
+      "concepts": [
+        "Finite element method",
+        "Galerkin method",
+        "Degrees of freedom (physics and chemistry)",
+        "Mathematics",
+        "Boundary value problem",
+        "Applied mathematics",
+        "Modal analysis",
+        "Transient (computer programming)"
+      ],
+      "abstract": "A method of reducing the number of degrees of freedom and the overall computing times in finite element method (FEM) has been devised. The technique is valid for linear problems and arbitrary temporal variation of boundary conditions. At the first stage of the method standard FEM time stepping procedure is invoked. The temperature fields obtained for the first few time steps undergo statistical analysis yielding an optimal set of globally defined trial and weighting functions for the Galerkin solution of the problem at hand. Simple matrix manipulations applied to the original FEM system produce a set of ordinary differential equations of a dimensionality greatly reduced when compared with the original FEM formulation. Using the concept of modal analysis the set is then solved analytically. Treatment of non-homogeneous initial conditions, time-dependent boundary conditions and controlling the error introduced by the reduction of the degrees of freedom are discussed. Several numerical examples are included for validation of the approach. Copyright © 2004 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Ryszard A. Bia ecki",
+        "Alain J. Kassab",
+        "A. Fic"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "In Vitro and In Silico Analysis of Entrainment Characterization in Injection Jet-Assisted Fontan Circulation",
+      "publication_year": 2025,
+      "publication_date": "2025-05-21",
+      "doi": "https://doi.org/10.3390/bioengineering12050555",
+      "venue": "Bioengineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2306-5354/12/5/555/pdf?version=1747831309",
+      "concepts": [
+        "In silico",
+        "Entrainment (biomusicology)",
+        "Jet (fluid)",
+        "Circulation (fluid dynamics)",
+        "In vitro",
+        "Cardiology",
+        "Internal medicine",
+        "Biomedical engineering"
+      ],
+      "abstract": "Fontan circulation is a fragile system in which imperfections at any of multiple levels may compromise the quality of life, produce secondary pathophysiology, and shorten life span. Increased inferior vena caval pressure itself may play a role in \"Fontan failure\". This study describes a mock flow loop model (MFL) designed to quantitatively estimate pulmonary flow entrainment induced by continuous and pulsed flow injections. A patient generic 3D-printed phantom model of the total cavopulmonary connection (TCPC) with average dimensions matching those of a 2-4-year-old patient was inserted in an MFL derived from a reduced lumped parameter model (LPM) representing cardiovascular circulation. The LPM comprises four 2-element Windkessel compartments (compliance and resistance), approximating the upper and lower systemic circulations and the right and left pulmonary circulations. The prescribed cardiac output is about 2.3 L/min for a body surface area of 0.675 m2. The injections originate from an external pump through a 7-9 fr catheter, following a strict protocol suggested by the clinical team, featuring a variation in injection rate (flow rate), injection volume, and injection modali...",
+      "authors": [
+        "Arka Das",
+        "Ray Prather",
+        "Anthony Damon",
+        "Michael Farias",
+        "Alain J. Kassab",
+        "Eduardo Divo",
+        "William M. DeCampli"
+      ]
+    },
+    {
+      "title": "Biomedical Engineering Students Report Positive Experiences Learning Anatomy from Human Cadavers",
+      "publication_year": 2025,
+      "publication_date": "2025-01-22",
+      "doi": "https://doi.org/10.1007/s43683-024-00166-2",
+      "venue": "Biomedical Engineering Education",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Human anatomy",
+        "Cadaver",
+        "Anatomy",
+        "Gross anatomy",
+        "Psychology",
+        "Medicine"
+      ],
+      "abstract": "",
+      "authors": [
+        "Emily L. Bradshaw",
+        "Luigi E. Perotti",
+        "Alain J. Kassab"
+      ]
+    },
+    {
+      "title": "Heat Transfer Analysis of Cryogenic EXLO Specimen Handling",
+      "publication_year": 2025,
+      "publication_date": "2025-01-13",
+      "doi": "https://doi.org/10.1093/mam/ozae121",
+      "venue": "Microscopy and Microanalysis",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://academic.oup.com/mam/advance-article-pdf/doi/10.1093/mam/ozae121/61429108/ozae121.pdf",
+      "concepts": [
+        "Thermocouple",
+        "Materials science",
+        "Thermal conduction",
+        "Liquid nitrogen",
+        "Heat transfer",
+        "Cryogenics",
+        "Lift (data mining)",
+        "Working fluid"
+      ],
+      "abstract": "A conduction heat transfer analysis of ex situ lift-out specimen handling under cryogenic conditions (cryo-EXLO) is performed and compared with experimentally determined temperature values using a type K thermocouple. Using a finite-volume solver for heat conduction, the analysis confirms that manipulation of a specimen by a probe above a working surface cooled at liquid nitrogen (LN2) temperatures can remain below the critical vitreous temperature up to several hundreds of micrometers above the working surface, allowing for ample distance for lift out and specimen manipulation. In addition, the temperature above the cryogenic shuttle sample holder working surface remains below the vitreous temperature for several tens of minutes without adding cryogen, yielding sufficient time to complete multiple manipulations. Periodically topping off the cryogen level may allow for unlimited cryo-EXLO manipulations with this hardware and geometry.",
+      "authors": [
+        "Kyle Beggs",
+        "Thomas E Dougherty",
+        "Alain J. Kassab",
+        "Lucille A. Giannuzzi"
+      ]
+    },
+    {
+      "title": "GPU-ACCELERATED SIMULATION OF VON KARMAN FLOWAROUND A CYLINDER",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1615/tfec2025.cmd.056222",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Computer graphics (images)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniel Botezelli",
+        "Arthur Mendonça de Azevedo",
+        "Elisan dos Santos Magalhães",
+        "Alain J. Kassab",
+        "Weeratunge Malalasekara"
+      ]
+    },
+    {
+      "title": "A COUPLED BOUNDARY CONDITION FOR THERMAL-FLUID CONJUGATE HEAT TRANSFER ANALYSIS",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1615/tfec2025.cmd.055882",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat transfer",
+        "Mechanics",
+        "Conjugate",
+        "Boundary (topology)",
+        "Thermal",
+        "Boundary value problem",
+        "Thermal analysis",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniel Botezelli",
+        "Arthur Mendonça de Azevedo",
+        "Elisan dos Santos Magalhães",
+        "Alain J. Kassab",
+        "Weeratunge Malalasekara"
+      ]
+    }
+  ]
+}

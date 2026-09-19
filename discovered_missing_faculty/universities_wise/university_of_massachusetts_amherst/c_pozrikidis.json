@@ -1,0 +1,105 @@
+{
+  "faculty_name": "C. Pozrikidis",
+  "full_name": "C. Pozrikidis",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Massachusetts-Amherst",
+  "author_id": "A5024029502",
+  "works_count": 284,
+  "cited_by_count": 9172,
+  "h_index": 51,
+  "top_topics": [
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 56
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 53
+    },
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 49
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 39
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Deformation of liquid capsules enclosed by elastic membranes in simple shear flow: large deformations and the effect of fluid viscosities",
+      "publication_year": 1998,
+      "publication_date": "1998-04-25",
+      "doi": "https://doi.org/10.1017/s0022112098008714",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 372,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Materials science",
+        "Shear flow",
+        "Simple shear",
+        "Shear rate",
+        "Stokes flow",
+        "Capillary number",
+        "Reynolds number"
+      ],
+      "abstract": "The deformation of a liquid capsule enclosed by an elastic membrane in an infinite simple shear flow is studied numerically at vanishing Reynolds numbers using a boundary-element method. The surface of the capsule is discretized into quadratic triangular elements that form an evolving unstructured grid. The elastic membrane tensions are expressed in terms of the surface deformation gradient, which is evaluated from the position of the grid points. Compared to an earlier formulation that uses global curvilinear coordinates, the triangular-element formulation suppresses numerical instabilities due to uneven discretization and thus enables the study of large deformations and the investigation of the effect of fluid viscosities. Computations are performed for capsules with spherical, spheroidal, and discoidal unstressed shapes over an extended range of the dimensionless shear rate and for a broad range of the ratio of the internal to surrounding fluid viscosities. Results for small deformations of spherical capsules are in quantitative agreement with the predictions of perturbation theories. Results for large deformations of spherical capsules and deformations of non-spherical capsu...",
+      "authors": [
+        "S. RAMANUJAN",
+        "C. Pozrikidis"
+      ]
+    },
+    {
+      "title": "A Practical Guide to Boundary Element Methods with the Software Library BEMLIB",
+      "publication_year": 2002,
+      "publication_date": "2002-05-15",
+      "doi": "https://doi.org/10.1201/9781420035254",
+      "venue": "",
+      "type": "reference-entry",
+      "cited_by_count": 360,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Boundary element method",
+        "Software",
+        "Element (criminal law)",
+        "Software engineering",
+        "Computational science",
+        "Engineering",
+        "Programming language"
+      ],
+      "abstract": "The boundary-element method is a powerful numerical technique for solving partial differential equations encountered in applied mathematics, science, and engineering. The strength of the method derives from its ability to solve with notable efficiency problems in domains with complex and possibly evolving geometry where traditional methods can be d",
+      "authors": [
+        "C. Pozrikidis"
+      ]
+    },
+    {
+      "title": "Modeling and Simulation of Capsules and Biological Cells",
+      "publication_year": 2003,
+      "publication_date": "2003-05-28",
+      "doi": "https://doi.org/10.1201/9780203503959",
+      "venue": "",
+      "type": "book",
+      "cited_by_count": 285,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Psychology"
+      ],
+      "abstract": "In the past three decades, considerable progress has been made in the mathematical analysis, modelling, and simulation of the fluid dynamics of liquid capsules and biological cells, and interest in this area is now at an all-time high. This book features a collection of chapters contributed by acknowledged leaders in the field who explore topics re",
+      "authors": [
+        "C. Pozrikidis"
+      ]
+    }
+  ],
+  "recent_works": []
+}

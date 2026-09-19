@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Markus P. Rumpfkeil",
+  "full_name": "Markus P. Rumpfkeil",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Dayton",
+  "author_id": "A5054806727",
+  "works_count": 90,
+  "cited_by_count": 1054,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 41
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 35
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 29
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 17
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analysis and optimization of ducted wind turbines",
+      "publication_year": 2018,
+      "publication_date": "2018-08-17",
+      "doi": "https://doi.org/10.1016/j.energy.2018.08.106",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 116,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbine",
+        "Thrust",
+        "Wind power",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Blade element momentum theory",
+        "Marine engineering",
+        "Engineering",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tariq Abdulsalam Khamlaj",
+        "Markus P. Rumpfkeil"
+      ]
+    },
+    {
+      "title": "Design Optimization Utilizing Gradient/Hessian Enhanced Surrogate Model",
+      "publication_year": 2010,
+      "publication_date": "2010-06-28",
+      "doi": "https://doi.org/10.2514/6.2010-4363",
+      "venue": "28th AIAA Applied Aerodynamics Conference",
+      "type": "conference-paper",
+      "cited_by_count": 83,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hessian matrix",
+        "Surrogate model",
+        "Computer science",
+        "Mathematical optimization",
+        "Mathematics",
+        "Applied mathematics"
+      ],
+      "abstract": "In this paper, gradient/Hessian-enhanced surrogate models have been developed based on Kriging approaches. The gradient/Hessian-enhanced Kriging methods have been developed based on direct and indirect formulations. The efficiencies of these methods are compared by analytical function fitting, aerodynamic data modeling and 2D airfoil drag minimization problems. For the aerodynamic problems, efficient CFD gradient/Hessian calculation methods are utilized that make use of adjoint and automatic differentiation techniques. The gradient/Hessian-enhanced surrogate models are shown to be useful in the development of efficient design optimization, aerodynamic database construction, and uncertainty analysis.",
+      "authors": [
+        "Wataru Yamazaki",
+        "Markus P. Rumpfkeil",
+        "Dimitri Mavriplis"
+      ]
+    },
+    {
+      "title": "The optimal control of unsteady flows with a discrete adjoint method",
+      "publication_year": 2008,
+      "publication_date": "2008-01-25",
+      "doi": "https://doi.org/10.1007/s11081-008-9035-5",
+      "venue": "Optimization and Engineering",
+      "type": "article",
+      "cited_by_count": 62,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Adjoint equation",
+        "Minification",
+        "Laminar flow",
+        "Flow (mathematics)",
+        "Optimal control",
+        "Mathematical optimization",
+        "Mathematics",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Markus P. Rumpfkeil",
+        "David W. Zingg"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multi-Fidelity Kriging Surrogate Models Applied to the Second UQ Challenge Problem",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0094",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kriging",
+        "Surrogate model",
+        "Uncertainty quantification",
+        "Mathematics",
+        "Moment (physics)",
+        "Mathematical optimization",
+        "Computer science",
+        "Applied mathematics"
+      ],
+      "abstract": "In this paper, a multi-fidelity kriging surrogate model is employed to tackle the second uncertainty quantification challenge problem where participants are asked to make an estimate of the predictive capability of XFOIL for lift, drag, and moment coefficients at four conditions given ``truth'' (RANS) data in seven different locations (one condition coincides with a truth data point, two are interpolatory, and one is extrapolatory). Accurate surrogate models, once obtained, can be employed for evaluating a large number of designs for uncertainty quantification, optimization, or design space exploration.",
+      "authors": [
+        "Markus P. Rumpfkeil"
+      ]
+    },
+    {
+      "title": "Summary of the Second AIAA Uncertainty Quantification Challenge Problem for Aerodynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0091",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Airfoil",
+        "Extrapolation",
+        "Aerodynamics",
+        "Computer science",
+        "Interpolation (computer graphics)",
+        "Uncertainty analysis",
+        "Field (mathematics)"
+      ],
+      "abstract": "In early 2025, the AIAA Fluid Dynamics Technical Committee Uncertainty Quantification Discussion Group announced its second community Challenge Problem. Similar to the first Challenge Problem in 2024, the second Challenge Problem tasks participants with applying methods in verification, validation, and uncertainty quantification towards the analysis of airfoil simulations using a common panel method code; however, unlike the first Challenge Problem, the second Challenge Problem emphasizes the quantification of model form uncertainty and the interpolation and/or extrapolation thereof. In this summary paper, a brief overview of the second Challenge Problem is presented. A short description of each method (provided by participants) used to solve the Challenge Problem is also included. The participant results are compared. Nine different teams using ten different approaches participated; overall the predictions are all fairly comparable, showing that the field has reached some level of maturity.",
+      "authors": [
+        "Andrew W. Cary",
+        "Markus P. Rumpfkeil",
+        "Petar O. Hristov",
+        "John A. Schaefer"
+      ]
+    },
+    {
+      "title": "Multi-Fidelity Gradient-based Approach to the Aerostructural Optimization Benchmark Problem",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1009",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematical optimization",
+        "Computation",
+        "Robustness (evolution)",
+        "Minification",
+        "Aeroelasticity",
+        "Benchmark (surveying)",
+        "Optimization problem",
+        "Computer science"
+      ],
+      "abstract": "This paper describes our approach and results for the benchmark model and optimization problem proposed by working group 1 for the special session on High-Fidelity Aeroelastic Design Optimization Applications and Benchmarks at the 2026 AIAA SciTech Forum. A gradient-based multi-fidelity constrained optimization approach is applied to this aeroelastic fuel burn minimization of a Boeing 717-like wing with a lift and a buffet constraint and utilizing three planform and one flow design variable (aspect ratio, sweep, taper and angle of attack). The highest and lowest fidelity levels considered are Euler and panel solutions, respectively, all combined with a modal structural solver. The coupling of the two solvers and adjoint gradient computations are accomplished with FUNtoFEM. The optimization results show that a 20% reduction in fuel burn is possible while producing enough lift for cruise without buffeting. The multi-fidelity approach outperforms the high-fidelity one in terms of both robustness and computational cost for most starting points considered.",
+      "authors": [
+        "Markus P. Rumpfkeil",
+        "Phil Beran"
+      ]
+    },
+    {
+      "title": "Comparison of Gradient-based and Global Autoencoded Lift-constrained Drag Minimizations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1613",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Transonic",
+        "NACA airfoil",
+        "Drag",
+        "Flow (mathematics)",
+        "Mathematics",
+        "Wave drag",
+        "Flight envelope"
+      ],
+      "abstract": "In this paper a traditional gradient-based quasi-Newton BFGS Optimizer as well as a global optimizer are applied to lift-constrained drag minimizations for steady inviscid flow over a transonic NACA 0012 airfoil with six Hicks-Henne sine bump shape design variables. For the global optimization, an autoencoder is used to perform a design dimensionality reduction and a surrogate model is constructed in the reduced dimension which is then employed in the global optimization. Results show that both methods lead to successful optimizations at comparable computational costs.",
+      "authors": [
+        "Kazuko Fuchi",
+        "Markus P. Rumpfkeil",
+        "Phil Beran",
+        "Dean E. Bryson"
+      ]
+    },
+    {
+      "title": "Analytical benchmark problems and methodological framework for the assessment and comparison of multifidelity optimization methods",
+      "publication_year": 2025,
+      "publication_date": "2025-11-10",
+      "doi": "https://doi.org/10.1007/s11831-025-10392-8",
+      "venue": "Archives of Computational Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s11831-025-10392-8.pdf",
+      "concepts": [
+        "Benchmarking",
+        "Benchmark (surveying)",
+        "Computer science",
+        "Strengths and weaknesses",
+        "Scalability",
+        "Suite",
+        "Set (abstract data type)",
+        "Multidisciplinary approach"
+      ],
+      "abstract": "Abstract As engineering systems increase in complexity and performance demands intensify, Multidisciplinary Design Optimization (MDO) methodologies are becoming essential for integrating models from multiple disciplines to optimize complex multi-physics systems. Within this context, major challenges remain in selecting appropriate disciplinary fidelity levels, and how to couple them effectively. Multifidelity methods offer a promising path forward by strategically combining information sources of varying fidelity - whether computational or experimental - to enable efficient and scalable design exploration and optimization. Despite the development of numerous multifidelity methods, their comparative performance remains difficult to assess due to the absence of standardized benchmark frameworks capable of evaluating performance across diverse optimization tasks. To address this gap, this paper introduces a comprehensive benchmarking framework that includes: (i) a suite of analytical benchmark optimization problems designed to stress-test and validate multifidelity methods; (ii) a set of assessment metrics for quantifying and comparing performance over measurable objectives; and (i...",
+      "authors": [
+        "Laura Mainini",
+        "Andrea Serani",
+        "Hayriye Pehlivan Solak",
+        "Francesco Di Fiore",
+        "Markus P. Rumpfkeil",
+        "Edmondo Minisci",
+        "Domenico Quagliarella",
+        "S. Yildiz",
+        "Simone Ficini",
+        "Riccardo Pellegrini",
+        "Andrew S. Thelen",
+        "Dean E. Bryson",
+        "Melike Nikbay",
+        "Matteo Diez",
+        "Philip Beran"
+      ]
+    }
+  ]
+}

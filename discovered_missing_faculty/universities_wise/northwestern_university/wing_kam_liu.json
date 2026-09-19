@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Wing Kam Liu",
+  "full_name": "Wing Kam Liu",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Northwestern University",
+  "author_id": "A5014509470",
+  "works_count": 524,
+  "cited_by_count": 38759,
+  "h_index": 100,
+  "top_topics": [
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 117
+    },
+    {
+      "topic": "Composite Material Mechanics",
+      "count": 84
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 53
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 53
+    },
+    {
+      "topic": "Additive Manufacturing Materials and Processes",
+      "count": 43
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Reproducing kernel particle methods",
+      "publication_year": 1995,
+      "publication_date": "1995-04-30",
+      "doi": "https://doi.org/10.1002/fld.1650200824",
+      "venue": "International Journal for Numerical Methods in Fluids",
+      "type": "article",
+      "cited_by_count": 2846,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Kernel (algebra)",
+        "Applied mathematics",
+        "Interpolation (computer graphics)",
+        "Mathematical analysis",
+        "Wavelet",
+        "Finite element method",
+        "Galerkin method"
+      ],
+      "abstract": "Abstract A new continuous reproducing kernel interpolation function which explores the attractive features of the flexible time‐frequency and space‐wave number localization of a window function is developed. This method is motivated by the theory of wavelets and also has the desirable attributes of the recently proposed smooth particle hydrodynamics (SPH) methods, moving least squares methods (MLSM), diffuse element methods (DEM) and element‐free Galerkin methods (EFGM). The proposed method maintains the advantages of the free Lagrange or SPH methods; however, because of the addition of a correction function, it gives much more accurate results. Therefore it is called the reproducing kernel particle method (RKPM). In computer implementation RKPM is shown to be more efficient than DEM and EFGM. Moreover, if the window function is C ∞ , the solution and its derivatives are also C ∞ in the entire domain. Theoretical analysis and numerical experiments on the 1D diffusion equation reveal the stability conditions and the effect of the dilation parameter on the unusually high convergence rates of the proposed method. Two‐dimensional examples of advection‐diffusion equations and compres...",
+      "authors": [
+        "Wing Kam Liu",
+        "Sukky Jun",
+        "Yi Fei Zhang"
+      ]
+    },
+    {
+      "title": "Lagrangian-Eulerian finite element formulation for incompressible viscous flows",
+      "publication_year": 1981,
+      "publication_date": "1981-12-01",
+      "doi": "https://doi.org/10.1016/0045-7825(81)90049-9",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1521,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Compressibility",
+        "Eulerian path",
+        "Lagrangian",
+        "Lagrangian and Eulerian specification of the flow field",
+        "Pressure-correction method",
+        "Incompressible flow",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thomas J.R. Hughes",
+        "Wing Kam Liu",
+        "Thomas Zimmermann"
+      ]
+    },
+    {
+      "title": "Mechanics of carbon nanotubes",
+      "publication_year": 2002,
+      "publication_date": "2002-10-16",
+      "doi": "https://doi.org/10.1115/1.1490129",
+      "venue": "Applied Mechanics Reviews",
+      "type": "article",
+      "cited_by_count": 1097,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Carbon nanotube",
+        "Multiphysics",
+        "Nanoelectromechanical systems",
+        "Computer science",
+        "Nanotechnology",
+        "Stiffness",
+        "Multiscale modeling",
+        "Buckling"
+      ],
+      "abstract": "Soon after the discovery of carbon nanotubes, it was realized that the theoretically predicted mechanical properties of these interesting structures–including high strength, high stiffness, low density and structural perfection–could make them ideal for a wealth of technological applications. The experimental verification, and in some cases refutation, of these predictions, along with a number of computer simulation methods applied to their modeling, has led over the past decade to an improved but by no means complete understanding of the mechanics of carbon nanotubes. We review the theoretical predictions and discuss the experimental techniques that are most often used for the challenging tasks of visualizing and manipulating these tiny structures. We also outline the computational approaches that have been taken, including ab initio quantum mechanical simulations, classical molecular dynamics, and continuum models. The development of multiscale and multiphysics models and simulation tools naturally arises as a result of the link between basic scientific research and engineering application; while this issue is still under intensive study, we present here some of the approaches...",
+      "authors": [
+        "Dong Qian",
+        "and Gregory J Wagner",
+        "Wing Kam Liu",
+        "Min-Feng Yu",
+        "Rodney S. Ruoff"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A convolutional hierarchical deep-learning neural network (C-HiDeNN) framework for non-linear finite element analysis",
+      "publication_year": 2026,
+      "publication_date": "2026-06-13",
+      "doi": "https://doi.org/10.1007/s00366-026-02345-x",
+      "venue": "Engineering With Computers",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00366-026-02345-x.pdf",
+      "concepts": [
+        "Convolutional neural network",
+        "Computer science",
+        "Finite element method",
+        "Algorithm",
+        "Element (criminal law)",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "We present a framework for the Convolutional Hierarchical Deep-learning Neural Network (C-HiDeNN) tailored for nonlinear finite element analysis. Building upon the structured foundation of HiDeNN, C-HiDeNN introduces a convolution operator to enhance numerical approximation. A distinctive feature of C-HiDeNN is its higher-order accurate approximation achieved through an expanded set of parameters, such as the polynomial order ‘ p ,’ dilation parameter ‘ a ,’ patch size ‘ s ,’ and nodal position ‘X’. These parameters function as the functional equivalents of weights and biases within each C-HiDeNN patch. In addition, C-HiDeNN can be selectively applied to regions requiring high resolution to adaptively improve local prediction accuracy. To demonstrate the effectiveness of this framework, we provide numerical examples in the context of nonlinear finite element analysis. The results show that our approach achieves significantly higher accuracy than conventional Finite Element Method (FEM) while substantially reducing computational costs.",
+      "authors": [
+        "Yingjian Liu",
+        "Pabbala Monish Yadav",
+        "Jiachen Guo",
+        "Chanwook Park",
+        "Gino Domel",
+        "Wing Kam Liu",
+        "Dong Qian"
+      ]
+    },
+    {
+      "title": "Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments",
+      "publication_year": 2026,
+      "publication_date": "2026-03-29",
+      "doi": "https://doi.org/10.48550/arxiv.2604.07359",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.07359",
+      "concepts": [
+        "Multiphysics",
+        "Materials science",
+        "NIST",
+        "Fusion",
+        "Metal powder",
+        "Solver",
+        "Layer (electronics)",
+        "Laser"
+      ],
+      "abstract": "Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part quality and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly influence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their influence on melt pool dynamics. We employed a high-fidelity multiphysics simulation framework based on the open source finite volume method (FVM) solver package `LaserBeamFoam' built on `OpenFOAM' to study the variations in different melt pool metrics -- melt pool depth, width, bead height, overlap depth, overlap width, solidified area, and dilution area. The solver captures coupled phenomena of heat transfer, fluid flow, vaporization, recoil pressure, Marangoni convection, and realistic laser reflection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct compariso...",
+      "authors": [
+        "Badhon Kumar",
+        "Rakibul Islam Kanak",
+        "Nishat Sultana",
+        "Jiachen Guo",
+        "Andrew Schrader",
+        "Wing Kam Liu",
+        "Abdullah Al Amin"
+      ]
+    },
+    {
+      "title": "Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments",
+      "publication_year": 2026,
+      "publication_date": "2026-03-29",
+      "doi": "http://arxiv.org/abs/2604.07359",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.07359",
+      "concepts": [
+        "Multiphysics",
+        "Materials science",
+        "NIST",
+        "Fusion",
+        "Metal powder",
+        "Solver",
+        "Layer (electronics)",
+        "Laser"
+      ],
+      "abstract": "Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part quality and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly influence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their influence on melt pool dynamics. We employed a high-fidelity multiphysics simulation framework based on the open source finite volume method (FVM) solver package `LaserBeamFoam' built on `OpenFOAM' to study the variations in different melt pool metrics -- melt pool depth, width, bead height, overlap depth, overlap width, solidified area, and dilution area. The solver captures coupled phenomena of heat transfer, fluid flow, vaporization, recoil pressure, Marangoni convection, and realistic laser reflection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct compariso...",
+      "authors": [
+        "Badhon Kumar",
+        "Rakibul Islam Kanak",
+        "Nishat Sultana",
+        "Jiachen Guo",
+        "Andrew Schrader",
+        "Wing Kam Liu",
+        "Abdullah Al Amin"
+      ]
+    },
+    {
+      "title": "Time-marching multi-level variational multiscale tensor decomposition algorithm for heat conduction with moving heat source",
+      "publication_year": 2026,
+      "publication_date": "2026-03-10",
+      "doi": "https://doi.org/10.1007/s00466-026-02757-y",
+      "venue": "Computational Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Galerkin method",
+        "Mathematics",
+        "Degrees of freedom (physics and chemistry)",
+        "Algorithm",
+        "Tensor (intrinsic definition)",
+        "Domain decomposition methods",
+        "Thermal conduction"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xinyi Guan",
+        "Jiayi Hu",
+        "Lei Zhang",
+        "Shaoqiang Tang",
+        "Wing Kam Liu"
+      ]
+    },
+    {
+      "title": "MultiLevel variational MultiScale (ML-VMS) framework for large-scale simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-13",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118807",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polygon mesh",
+        "Interpolation (computer graphics)",
+        "Finite element method",
+        "Hyperparameter",
+        "Convolution (computer science)",
+        "Computer science",
+        "Algorithm",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lei Zhang",
+        "Jiachen Guo",
+        "Shaoqiang Tang",
+        "Thomas Hughes",
+        "Wing Kam Liu"
+      ]
+    }
+  ]
+}

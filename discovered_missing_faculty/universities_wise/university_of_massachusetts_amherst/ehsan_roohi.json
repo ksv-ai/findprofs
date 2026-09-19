@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Ehsan Roohi",
+  "full_name": "Ehsan Roohi",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Massachusetts-Amherst",
+  "author_id": "A5067028133",
+  "works_count": 298,
+  "cited_by_count": 5035,
+  "h_index": 43,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 166
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 51
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 46
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 43
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 43
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An open source, parallel DSMC code for rarefied gas flows in arbitrary geometries",
+      "publication_year": 2010,
+      "publication_date": "2010-08-11",
+      "doi": "https://doi.org/10.1016/j.compfluid.2010.07.014",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 306,
+      "is_oa": true,
+      "oa_url": "https://www.research.ed.ac.uk/en/publications/89bc10cb-2d7f-4a69-9885-a6f63bf3f61e",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Direct simulation Monte Carlo",
+        "Code (set theory)",
+        "Supersonic speed",
+        "Computational science",
+        "Statistical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thomas Scanlon",
+        "Ehsan Roohi",
+        "Craig White",
+        "Masoud Darbandi",
+        "Jason M. Reese"
+      ]
+    },
+    {
+      "title": "Numerical simulation of cavitation around a two-dimensional hydrofoil using VOF method and LES turbulence model",
+      "publication_year": 2012,
+      "publication_date": "2012-09-18",
+      "doi": "https://doi.org/10.1016/j.apm.2012.09.002",
+      "venue": "Applied Mathematical Modelling",
+      "type": "article",
+      "cited_by_count": 241,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apm.2012.09.002",
+      "concepts": [
+        "Volume of fluid method",
+        "Cavitation",
+        "Turbulence",
+        "Mechanics",
+        "Finite volume method",
+        "Large eddy simulation",
+        "Turbulence modeling",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ehsan Roohi",
+        "Amir Pouyan Zahiri",
+        "Mahmood Passandideh-Fard"
+      ]
+    },
+    {
+      "title": "Heat transfer and entropy generation in a microchannel with longitudinal vortex generators using nanofluids",
+      "publication_year": 2016,
+      "publication_date": "2016-03-23",
+      "doi": "https://doi.org/10.1016/j.energy.2016.01.102",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 235,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Microchannel",
+        "Pressure drop",
+        "Materials science",
+        "Heat transfer",
+        "Coolant",
+        "Reynolds number",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Amin Ebrahimi",
+        "Farhad Rikhtegar",
+        "Amin Sabaghan",
+        "Ehsan Roohi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Bulk-to-Wall Observability in Rarefied Hypersonic Flow: Moment Limits and Incident Half-Range Sufficiency",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.48550/arxiv.2606.25752",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.25752",
+      "concepts": [
+        "Mechanics",
+        "Mach number",
+        "Direct simulation Monte Carlo",
+        "Knudsen number",
+        "Hypersonic speed",
+        "RADIUS",
+        "Physics",
+        "Heat transfer"
+      ],
+      "abstract": "Wall traction in a rarefied gas is a half-range functional of molecules arriving at and leaving a surface, whereas hybrid solvers, moment methods, and learned wall models often transmit only finite full-range moments. We determine which directional information is lost and what restores the wall functional using direct simulation Monte Carlo (DSMC) of Mach-6 flow over three triangular-protrusion orientations. Output-specialized neural networks interpolate a 57-condition DSMC database. A distinct ExtraTrees regression holds learner capacity, auxiliary features, train/test split, and seeds fixed while comparing the primitive state $S_0$, the momentum-flux-augmented state $S_1$, and the heat-flux-augmented state $S_2$. Adding the momentum-flux tensor $P_{ij}$ reduces aggregate pressure error by 31\\% but does not make signed shear transferable. An analytic null-space construction supplies the mechanism: strictly positive distributions can share all full-range moments through degree three while producing different pressure and opposite signed shear because the wall kernel selects the incident half space. A finite-distance off-wall ExtraTrees state $S_{\\mathrm{off}}$ shows that partial...",
+      "authors": [
+        "Elyas Lekzian",
+        "Ehsan Roohi"
+      ]
+    },
+    {
+      "title": "Bulk-to-Wall Observability in Rarefied Hypersonic Flow: Moment Limits and Incident Half-Range Sufficiency",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://arxiv.org/abs/2606.25752",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.25752",
+      "concepts": [
+        "Mechanics",
+        "Mach number",
+        "Direct simulation Monte Carlo",
+        "Knudsen number",
+        "Hypersonic speed",
+        "RADIUS",
+        "Physics",
+        "Heat transfer"
+      ],
+      "abstract": "Wall traction in a rarefied gas is a half-range functional of molecules arriving at and leaving a surface, whereas hybrid solvers, moment methods, and learned wall models often transmit only finite full-range moments. We determine which directional information is lost and what restores the wall functional using direct simulation Monte Carlo (DSMC) of Mach-6 flow over three triangular-protrusion orientations. Output-specialized neural networks interpolate a 57-condition DSMC database. A distinct ExtraTrees regression holds learner capacity, auxiliary features, train/test split, and seeds fixed while comparing the primitive state $S_0$, the momentum-flux-augmented state $S_1$, and the heat-flux-augmented state $S_2$. Adding the momentum-flux tensor $P_{ij}$ reduces aggregate pressure error by 31\\% but does not make signed shear transferable. An analytic null-space construction supplies the mechanism: strictly positive distributions can share all full-range moments through degree three while producing different pressure and opposite signed shear because the wall kernel selects the incident half space. A finite-distance off-wall ExtraTrees state $S_{\\mathrm{off}}$ shows that partial...",
+      "authors": [
+        "Elyas Lekzian",
+        "Ehsan Roohi"
+      ]
+    },
+    {
+      "title": "Accelerating Kinetic Fokker-Planck Simulations via a GPU-Native Deep Neural Network Surrogate: Application to Rarefied Internal and Hypersonic External Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://doi.org/10.48550/arxiv.2606.15622",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.15622",
+      "concepts": [
+        "Mechanics",
+        "Artificial neural network",
+        "Hypersonic speed",
+        "Statistical physics",
+        "Kinetic energy",
+        "Computer science",
+        "Physics",
+        "Parametric statistics"
+      ],
+      "abstract": "Particle-based Fokker--Planck (FP) models provide an efficient kinetic alternative to direct simulation Monte Carlo (DSMC) in slip and early transitional gas flow regimes, but advanced cubic-FP closures require repeated cell-wise moment evaluation and small dense linear solves. This work develops and validates a GPU-native neural surrogate that replaces the deterministic cubic-FP closure calculation inside the particle simulation loop. The trained weights are evaluated directly with batched \\texttt{CuPy} operations, avoiding CPU--GPU transfers during online deployment. The validation emphasizes quantitative evidence: component-level runtime profiles, break-even cost analysis including offline costs, conservation and stability diagnostics, particle-per-cell sensitivity, a direct time-averaged coefficient audit, and covariance-based entropy-proxy fidelity checks. The Couette case is retained as a compact, dimensionless verification problem, while the main internal-flow validation is a 2D lid-driven cavity tested by complete simulation conditions, including unseen moderately rarefied cases at nominal $Kn=0.5$ and $Kn=1.0$. For the hypersonic cylinder, a particle-moment covariance-b...",
+      "authors": [
+        "Ehsan Roohi"
+      ]
+    },
+    {
+      "title": "Accelerating Kinetic Fokker-Planck Simulations via a GPU-Native Deep Neural Network Surrogate: Application to Rarefied Internal and Hypersonic External Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://arxiv.org/abs/2606.15622",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.15622",
+      "concepts": [
+        "Mechanics",
+        "Artificial neural network",
+        "Hypersonic speed",
+        "Statistical physics",
+        "Kinetic energy",
+        "Computer science",
+        "Physics",
+        "Parametric statistics"
+      ],
+      "abstract": "Particle-based Fokker--Planck (FP) models provide an efficient kinetic alternative to direct simulation Monte Carlo (DSMC) in slip and early transitional gas flow regimes, but advanced cubic-FP closures require repeated cell-wise moment evaluation and small dense linear solves. This work develops and validates a GPU-native neural surrogate that replaces the deterministic cubic-FP closure calculation inside the particle simulation loop. The trained weights are evaluated directly with batched \\texttt{CuPy} operations, avoiding CPU--GPU transfers during online deployment. The validation emphasizes quantitative evidence: component-level runtime profiles, break-even cost analysis including offline costs, conservation and stability diagnostics, particle-per-cell sensitivity, a direct time-averaged coefficient audit, and covariance-based entropy-proxy fidelity checks. The Couette case is retained as a compact, dimensionless verification problem, while the main internal-flow validation is a 2D lid-driven cavity tested by complete simulation conditions, including unseen moderately rarefied cases at nominal $Kn=0.5$ and $Kn=1.0$. For the hypersonic cylinder, a particle-moment covariance-b...",
+      "authors": [
+        "Ehsan Roohi"
+      ]
+    },
+    {
+      "title": "Machine learning for rarefied gas transport in vacuum and micro/nano systems: promise, pitfalls, and a verification agenda",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://doi.org/10.48550/arxiv.2606.14039",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.14039",
+      "concepts": [
+        "Knudsen number",
+        "Extrapolation",
+        "Machine learning",
+        "Solver",
+        "Software deployment",
+        "Computer science",
+        "Fidelity",
+        "Artificial intelligence"
+      ],
+      "abstract": "Machine learning is beginning to influence rarefied-gas modeling at multiple levels, including equation-solving, operator learning, learned collision physics, moment closures, direct simulation Monte Carlo (DSMC) field surrogates, and gas--surface models. This Perspective argues that the central challenge is not demonstration-level success, but trustworthy use under realistic deployment conditions: multiregime Knudsen behavior, stochastic DSMC labels, sharp nonequilibrium structures, uncertain gas--surface interaction, and scarce direct experimental anchors. I classify the main method families by what is learned, distinguish soft physics penalties from structure-preserving designs, and propose evaluation standards based on extrapolation tests, noise-aware metrics, end-to-end cost accounting, and a three-level validation hierarchy. Most current evidence is solver-facing: it demonstrates surrogate fidelity to a teacher solver more often than direct physical fidelity to experiment. The aim is not to dismiss ML for rarefied and vacuum-related gas transport, but to separate what is already credible from what remains provisional, and to define a reporting standard that makes future cl...",
+      "authors": [
+        "Ehsan Roohi"
+      ]
+    }
+  ]
+}

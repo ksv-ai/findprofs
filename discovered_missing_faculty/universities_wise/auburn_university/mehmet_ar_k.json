@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Mehmet Arık",
+  "full_name": "Mehmet Arık",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Auburn University",
+  "author_id": "A5042514590",
+  "works_count": 198,
+  "cited_by_count": 3253,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 63
+    },
+    {
+      "topic": "Heat Transfer and Optimization",
+      "count": 62
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 57
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 56
+    },
+    {
+      "topic": "GaN-based semiconductor devices and materials",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Thermal management of LEDs: package to system",
+      "publication_year": 2004,
+      "publication_date": "2004-01-26",
+      "doi": "https://doi.org/10.1117/12.512731",
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "type": "conference-paper",
+      "cited_by_count": 269,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Light-emitting diode",
+        "Junction temperature",
+        "Incandescent light bulb",
+        "Materials science",
+        "Optoelectronics",
+        "Chip-scale package",
+        "Thermal resistance",
+        "Thermal management of high-power LEDs"
+      ],
+      "abstract": "Light emitting diodes, LEDs, historically have been used for indicators and produced low amounts of heat. The introduction of high brightness LEDs with white light and monochromatic colors have led to a movement towards general illumination. The increased electrical currents used to drive the LEDs have focused more attention on the thermal paths in the developments of LED power packaging. The luminous efficiency of LEDs is soon expected to reach over 80 lumens/W, this is approximately 6 times the efficiency of a conventional incandescent tungsten bulb. Thermal management for the solid-state lighting applications is a key design parameter for both package and system level. Package and system level thermal management is discussed in separate sections. Effect of chip packages on junction to board thermal resistance was compared for both SiC and Sapphire chips. The higher thermal conductivity of the SiC chip provided about 2 times better thermal performance than the latter, while the under-filled Sapphire chip package can only catch the SiC chip performance. Later, system level thermal management was studied based on established numerical models for a conceptual solid-state lighting...",
+      "authors": [
+        "Mehmet Arık",
+        "Charles A. Becker",
+        "Stanton Weaver",
+        "James Petroski"
+      ]
+    },
+    {
+      "title": "Direct Liquid Cooling of High Flux Micro and Nano Electronic Components",
+      "publication_year": 2006,
+      "publication_date": "2006-08-01",
+      "doi": "https://doi.org/10.1109/jproc.2006.879791",
+      "venue": "Proceedings of the IEEE",
+      "type": "article",
+      "cited_by_count": 261,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Critical heat flux",
+        "Dielectric",
+        "Computer cooling",
+        "Materials science",
+        "Heat transfer",
+        "Heat flux",
+        "Boiling",
+        "Chip"
+      ],
+      "abstract": "The inexorable rise in chip power dissipation and emergence of on-chip hot spots with heat fluxes approaching 1 =kW/cm/sup 2/ has turned renewed attention to direct cooling with dielectric liquids. Use of dielectric liquids in intimate contact with the heat dissipating surfaces eliminates the deleterious effects of solid-solid interface resistances and harnesses the highly efficient phase-change processes to the critical thermal management of advanced IC chips. In the interest of defining the state-of-the-art in direct liquid cooling, this paper begins with a discussion of the thermophysics of phase-change processes and a description of the available dielectric liquid cooling techniques and their history. It then describes the phenomenology of pool boiling, spray/jet impingement, gas-assisted evaporation, and synthetic jet impingement with dielectric liquids. Available correlations for predicting the heat transfer coefficients and limiting heat transfer rates, as well as documented empirical results for these promising techniques for on-chip hot spot cooling, are also provided and compared.",
+      "authors": [
+        "Avram Bar‐Cohen",
+        "Mehmet Arık",
+        "Michael Ohadi"
+      ]
+    },
+    {
+      "title": "Liquid cooling of data centers: A necessity facing challenges",
+      "publication_year": 2024,
+      "publication_date": "2024-04-05",
+      "doi": "https://doi.org/10.1016/j.applthermaleng.2024.123112",
+      "venue": "Applied Thermal Engineering",
+      "type": "article",
+      "cited_by_count": 221,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.applthermaleng.2024.123112",
+      "concepts": [
+        "Data center",
+        "Materials science",
+        "Business",
+        "Computer science",
+        "Operating system"
+      ],
+      "abstract": "The evolving data generation landscape requires faster and more efficient microprocessors, prompting innovative manufacturing methods for smaller and faster transistors. Transistor congestion and rising demand for parallel processing are pushing the thermal design power of microprocessors well beyond 280 W, a limit for air cooling, and are expected to surpass 700 W by 2025. Consequently, transitioning towards liquid cooling is necessary. This article is intended to serve as a comprehensive roadmap to understanding this shift. It covers four major liquid cooling techniques: indirect water cooling with rear door heat exchangers, direct liquid cooling using water blocks or evaporators, single-phase, and two-phase immersion cooling. Indirect water cooling with rear door heat exchangers is a simple water cooling adaptation for reducing the power consumption of existing air-cooled data centers, but it faces the same limitations as air cooling for high-power servers. With enhancements such as reduced hot air leakage, active rear door heat exchangers, and deployment in locations conducive to free cooling, this approach could provide highly efficient data centers for the foreseeable futu...",
+      "authors": [
+        "Mohammad Azarifar",
+        "Mehmet Arık",
+        "Je-Young Chang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Liquid synthetic jet assisted immersion cooling",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "https://doi.org/10.1016/j.icheatmasstransfer.2026.111193",
+      "venue": "International Communications in Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5458653",
+      "concepts": [
+        "Mechanics",
+        "Particle image velocimetry",
+        "Body orifice",
+        "Heat transfer",
+        "Heat transfer coefficient",
+        "Materials science",
+        "Flow visualization",
+        "Fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohammad Azarifar",
+        "Faisal Ahmed",
+        "Mehmet Arık"
+      ]
+    },
+    {
+      "title": "An Experimental and Computational Study on the Natural Convection Heat Transfer Around a Millimeter Scale Blue Light Emitting Diode",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6849570",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6849570",
+      "concepts": [
+        "Nusselt number",
+        "Rayleigh scattering",
+        "Materials science",
+        "Rayleigh number",
+        "Natural convection",
+        "Mechanics",
+        "Prandtl number",
+        "Optics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Erphan Safdari",
+        "Md Shafiqul Islam",
+        "Mehmet Arık",
+        "Muhammad Ikhlaq"
+      ]
+    },
+    {
+      "title": "Integration of Smart Components in Poultry Farming: A Critical Review on Lighting, Sensing, and Automation Technologies",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1115/1.4071725",
+      "venue": "ASME Open Journal of Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1115/1.4071725",
+      "concepts": [
+        "Automation",
+        "Industrialisation",
+        "Poultry farming",
+        "Emerging technologies",
+        "Population",
+        "Engineering",
+        "Business",
+        "World population"
+      ],
+      "abstract": "Abstract While the world population is increasing faster than ever, food consumption and demand are also increasing. To meet this fast-growing food demand, poultry and livestock industries, as well as the food processing industry, are expanding rapidly. In addition to the food industry, overall industrialization is advancing with state-of-the-art technologies, particularly artificial intelligence. With recent advancements in science and technology, every sector is adopting state-of-the-art technologies to improve performance at an affordable cost. Different sectors of agriculture are embracing the remarkable technological advancements offered by science. While these technological advancements offer innovations and opportunities, they also continue to produce new challenges. For instance, the extended industrialization of the modern era demands a continuous, uninterrupted supply of power, requiring energy-efficient, sustainable technologies so that maximum technological advantage can be achieved with the least energy use. This article focuses solely on modernizing poultry farming and explores the existing technologies for poultry lighting, sensing, and automation, highlighting th...",
+      "authors": [
+        "Md Shafiqul Islam",
+        "Mehmet Arık",
+        "Md. Hasibur Rahman",
+        "Tanzeel U. Rehman"
+      ]
+    },
+    {
+      "title": "A heat flux model for nucleate boiling on micro-cavity surfaces",
+      "publication_year": 2025,
+      "publication_date": "2025-10-30",
+      "doi": "https://doi.org/10.1016/j.applthermaleng.2025.128849",
+      "venue": "Applied Thermal Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://research.utwente.nl/en/publications/f4bc7cb4-ce63-4ed1-94e1-d554fdde7287",
+      "concepts": [
+        "Subcooling",
+        "Materials science",
+        "Nucleate boiling",
+        "Bubble",
+        "Heat flux",
+        "Thermodynamics",
+        "Boiling",
+        "Nucleation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tolga Emir",
+        "Gökhan Kayansalçık",
+        "Özgür Ertunç",
+        "Mehmet Arık",
+        "Mete Budaklı"
+      ]
+    },
+    {
+      "title": "Time-Dependent Optothermal Performance Analysis of a Flexible RGB-W LED Light Engine",
+      "publication_year": 2025,
+      "publication_date": "2025-08-31",
+      "doi": "https://doi.org/10.3390/mi16091007",
+      "venue": "Micromachines",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2072-666X/16/9/1007/pdf?version=1756630911",
+      "concepts": [
+        "Materials science",
+        "Optoelectronics",
+        "Optics",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "The wide application of light emitting diodes (LEDs) in lighting systems has necessitated the inclusion of spectral tunability by using multi-color LED chips. Since the lighting requirement depends on the specific application, it is very important to have flexibility in terms of the driving conditions. While many applications use single or rather white color, some recent applications require multi-spectral lighting systems especially for agricultural or human-medical treatment applications. These systems are underexplored and pose specific challenges. In this paper, a mixture of red, green, blue, white (RGB-W) LED chips was used to develop a compact light engine specifically for agricultural applications. A computational study was performed to understand the optical distribution. Later, attention was turned into development of prototype light engines followed by experimental validation for both the thermal and optical characteristics. Each LED string was driven separately at different current levels enabling an option for obtaining an infinite number of colors for numerous applications. Each LED string on the developed light engine was driven at 300 mA, 500 mA, 700 mA, and 900 m...",
+      "authors": [
+        "Md. Shafiqul Islam",
+        "Mehmet Arık"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Howard A. Stone",
+  "full_name": "Howard A. Stone",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Princeton University",
+  "author_id": "A5083316408",
+  "works_count": 1597,
+  "cited_by_count": 82423,
+  "h_index": 133,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 203
+    },
+    {
+      "topic": "Surface Modification and Superhydrophobicity",
+      "count": 187
+    },
+    {
+      "topic": "Particle physics theoretical and experimental studies",
+      "count": 180
+    },
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 152
+    },
+    {
+      "topic": "Pickering emulsions and particle stabilization",
+      "count": 150
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Engineering Flows in Small Devices: Microfluidics Toward a Lab-on-a-Chip",
+      "publication_year": 2003,
+      "publication_date": "2003-04-07",
+      "doi": "https://doi.org/10.1146/annurev.fluid.36.050802.122124",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 3645,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microfluidics",
+        "Electrokinetic phenomena",
+        "Fluid dynamics",
+        "Mixing (physics)",
+        "Nanotechnology",
+        "Focus (optics)",
+        "Fluid mechanics",
+        "Mechanics"
+      ],
+      "abstract": "Microfluidic devices for manipulating fluids are widespread and finding uses in many scientific and industrial contexts. Their design often requires unusual geometries and the interplay of multiple physical effects such as pressure gradients, electrokinetics, and capillarity. These circumstances lead to interesting variants of well-studied fluid dynamical problems and some new fluid responses. We provide an overview of flows in microdevices with focus on electrokinetics, mixing and dispersion, and multiphase flows. We highlight topics important for the description of the fluid dynamics: driving forces, geometry, and the chemical characteristics of surfaces.",
+      "authors": [
+        "Howard A. Stone",
+        "Abraham D. Stroock",
+        "Armand Ajdari"
+      ]
+    },
+    {
+      "title": "Chaotic Mixer for Microchannels",
+      "publication_year": 2002,
+      "publication_date": "2002-01-25",
+      "doi": "https://doi.org/10.1126/science.1066238",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 3419,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Mechanics",
+        "Laminar flow",
+        "Mixing (physics)",
+        "Turbulence",
+        "Channel (broadcasting)",
+        "Micromixing",
+        "Planar"
+      ],
+      "abstract": "It is difficult to mix solutions in microchannels. Under typical operating conditions, flows in these channels are laminar-the spontaneous fluctuations of velocity that tend to homogenize fluids in turbulent flows are absent, and molecular diffusion across the channels is slow. We present a passive method for mixing streams of steady pressure-driven flows in microchannels at low Reynolds number. Using this method, the length of the channel required for mixing grows only logarithmically with the Péclet number, and hydrodynamic dispersion along the channel is reduced relative to that in a simple, smooth channel. This method uses bas-relief structures on the floor of the channel that are easily fabricated with commonly used methods of planar lithography.",
+      "authors": [
+        "Abraham D. Stroock",
+        "Stephan K. W. Dertinger",
+        "Armand Ajdari",
+        "Igor Mezić",
+        "Howard A. Stone",
+        "George M. Whitesides"
+      ]
+    },
+    {
+      "title": "Formation of droplets and bubbles in a microfluidic T-junction—scaling and mechanism of break-up",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1039/b510841a",
+      "venue": "Lab on a Chip",
+      "type": "article",
+      "cited_by_count": 2304,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microfluidics",
+        "Surface tension",
+        "Mechanics",
+        "Microchannel",
+        "Capillary number",
+        "Scaling",
+        "Drop (telecommunication)",
+        "Break-Up"
+      ],
+      "abstract": "This article describes the process of formation of droplets and bubbles in microfluidic T-junction geometries. At low capillary numbers break-up is not dominated by shear stresses: experimental results support the assertion that the dominant contribution to the dynamics of break-up arises from the pressure drop across the emerging droplet or bubble. This pressure drop results from the high resistance to flow of the continuous (carrier) fluid in the thin films that separate the droplet from the walls of the microchannel when the droplet fills almost the entire cross-section of the channel. A simple scaling relation, based on this assertion, predicts the size of droplets and bubbles produced in the T-junctions over a range of rates of flow of the two immiscible phases, the viscosity of the continuous phase, the interfacial tension, and the geometrical dimensions of the device.",
+      "authors": [
+        "Piotr Garstecki",
+        "Michael J. Fuerstman",
+        "Howard A. Stone",
+        "George M. Whitesides"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Polydisperse polymer fractionation between phases",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1103/rhyc-3wmw",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fractionation",
+        "Polymer",
+        "Molar mass distribution",
+        "Materials science",
+        "Phase (matter)",
+        "Chemistry",
+        "Solvent",
+        "Thermodynamics"
+      ],
+      "abstract": "Polymer mixtures fractionate between phases depending on their molecular weight. Consequently, by varying solvent conditions, a polydisperse polymer sample can be separated between phases to achieve a particular molecular weight distribution in each phase. In principle, predictive physics-based theories can help guide separation design and interpret experimental phase-diagram and fractionation measurements. Even so, applying the standard Flory-Huggins model can require numerical computations that hamper the predictions considering the full molecular weight distribution. Here, we apply a recently derived exact analytical solution of multicomponent Flory-Huggins theory for polydisperse homopolymers to understand the principles of polymer fractionation for common molecular weight distributions. Consistent with previous studies, the method highlights the sensitivity of polymer fractionation to the shape, and in particular the tails, of this distribution. Our results provide a systematic approach to evaluate the full molecular weight distribution in phase coexistence calculations over the possible composition space.",
+      "authors": [
+        "J. Pedro de Souza",
+        "William M. Jacobs",
+        "Howard A. Stone"
+      ]
+    },
+    {
+      "title": "How surfactant fluxes stir liquid interfaces",
+      "publication_year": 2026,
+      "publication_date": "2026-06-23",
+      "doi": "https://doi.org/10.1038/s44286-026-00405-z",
+      "venue": "Nature Chemical Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pulmonary surfactant",
+        "Chemical engineering",
+        "Materials science",
+        "Range (aeronautics)",
+        "Chemistry",
+        "Chemical reaction",
+        "Flux (metallurgy)",
+        "Liquid liquid"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fernando Temprano-Coleto",
+        "Steffen Hardt",
+        "Howard A. Stone"
+      ]
+    },
+    {
+      "title": "Ultrasensitive Detection of Macromolecules in Water Via Flowing Nanoparticles on a Microchip",
+      "publication_year": 2026,
+      "publication_date": "2026-06-22",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c01823",
+      "venue": "Nano Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Macromolecule",
+        "Microfluidics",
+        "Nanotechnology",
+        "Filtration (mathematics)",
+        "Nanoparticle",
+        "TRACE (psycholinguistics)",
+        "Particle (ecology)",
+        "Materials science"
+      ],
+      "abstract": "Synthetic, natural, and biological macromolecules are ubiquitous in aquatic environments, affecting industrial processes such as filtration and posing ecological risks even at trace levels. Here, exploiting particle-polymer interactions under flow, we report a microfluidic platform for ultrasensitive monitoring of macromolecules in water. Fixed obstacles act as \"collectors\" enriching macromolecules, while injected micro/nanoparticles serve as \"detectors\" binding to those accumulated at the surface. The resulting ordered particle accumulation is visualized to assess macromolecule contamination using a standard microfluidic setup without additional assays or specialized modules. Quantitative analyses show well-calibrated concentration-intensity relationships, with parts-per-billion-level detection limits and subminute response times. Transitions in accumulation patterns under varying macromolecular properties further allow substance identification. Compared with existing methods, our approach demonstrates superior performance across sensitivity, selectivity, efficiency, and cost. The platform provides an alternative for water quality assessment and enables broader applications suc...",
+      "authors": [
+        "Xukang Lu",
+        "Mingbao Zhang",
+        "Tianzhu Jiang",
+        "Howard A. Stone",
+        "Moran Wang"
+      ]
+    },
+    {
+      "title": "Enucleated incompressible red blood cells in shear flow: Theoretical analysis of shape instabilities",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.1103/nw8l-tsps",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.19072",
+      "concepts": [
+        "Mechanics",
+        "Compressibility",
+        "Shear (geology)",
+        "Materials science",
+        "Physics",
+        "Incompressible flow",
+        "Classical mechanics",
+        "Shear stress"
+      ],
+      "abstract": "Red blood cells (RBCs) are essential for oxygen transport, and their remarkable ability to undergo significant deformations during flow is a crucial feature for their physiological function. At intermediate shear rates typical of the microcirculation, RBCs can adopt complex, multi-lobed shapes, signifying a dynamic instability. Here we adopt a perturbative theoretical framework of a quasi-spherical RBC under external shear flow to study such shape instabilities. To better capture RBC maturation and enucleation, we first extend the framework to explicitly account for different excess areas between the stress-free and current membrane shapes. We revisit the reduced equations of motion obtained for an ellipsoidally-shaped RBC, and demonstrate the effect of different excess areas and initial orientation on the dynamical trajectories. Then, we introduce additional spatial modes and show that an emerging instability critically depends on the RBC's shear and bending moduli, the internal to external viscosity ratio, and the excess area, mainly through the RBC's membrane tension. We also study the instability-induced saturation of the membrane tension, and the resulting excess area redis...",
+      "authors": [
+        "Anonymous",
+        "Howard A. Stone",
+        "Simon Mendez"
+      ]
+    },
+    {
+      "title": "Taylor–Aris dispersion in shear-rate-dependent fluid flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.1017/jfm.2026.11682",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5FC24669436484B73801C9A4AB86DD04/S0022112026116826a.pdf/div-class-title-taylor-aris-dispersion-in-shear-rate-dependent-fluid-flows-div.pdf",
+      "concepts": [
+        "Thermal diffusivity",
+        "Mechanics",
+        "Viscosity",
+        "Dispersion (optics)",
+        "Viscoelasticity",
+        "Thermodynamics",
+        "Mass diffusivity",
+        "Taylor dispersion"
+      ],
+      "abstract": "The spread of a pulse of solute in a pressure-driven channel flow is well described for a wide range of Newtonian flows for which the viscosity and diffusivity are constants. Over many decades, various extensions have been suggested for the dispersion in pressure-driven non-Newtonian channel flows. While many theoretical studies have examined the effect of shear-rate-dependent viscosity on dispersion for a variety of non-Newtonian constitutive models, the solute diffusivity has invariably been treated as a constant. This assumption, however, is in contrast to the expectation that the diffusivity of a colloidal particle is inversely related to the viscosity, e.g. recall the Stokes–Einstein relation. We account for this coupling of transport coefficients – viscosity and diffusivity – by assuming a generalised form of the Stokes–Einstein equation, inspired by the recognition that the viscosity is now a field, although only transport transverse to the main flow direction is relevant because of the common assumptions of Taylor–Aris dispersion. Thus, we derive a general formula for axial dispersion in steady, pressure-driven shear-rate-dependent flows in uniform channels. In particula...",
+      "authors": [
+        "Evgeniy Boyko",
+        "Howard A. Stone"
+      ]
+    }
+  ]
+}

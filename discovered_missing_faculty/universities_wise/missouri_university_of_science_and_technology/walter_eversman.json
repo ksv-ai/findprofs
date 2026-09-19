@@ -1,0 +1,166 @@
+{
+  "faculty_name": "Walter Eversman",
+  "full_name": "Walter Eversman",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Missouri University of Science and Technology",
+  "author_id": "A5067203099",
+  "works_count": 180,
+  "cited_by_count": 2716,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 126
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 110
+    },
+    {
+      "topic": "Vehicle Noise and Vibration Control",
+      "count": 38
+    },
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 34
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A numerical comparison between the multiple-scales and finite-element solution for sound propagation in lined flow ducts",
+      "publication_year": 2001,
+      "publication_date": "2001-06-22",
+      "doi": "https://doi.org/10.1017/s0022112001004438",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 127,
+      "is_oa": true,
+      "oa_url": "https://research.tue.nl/en/publications/2a930716-f2cd-43fb-b4ea-e124533c9394",
+      "concepts": [
+        "Turbofan",
+        "Mach number",
+        "Mechanics",
+        "Finite element method",
+        "Physics",
+        "Acoustics",
+        "Dimensionless quantity",
+        "Wavenumber"
+      ],
+      "abstract": "An explicit, analytical, multiple-scales solution for modal sound transmission through slowly varying ducts with mean flow and acoustic lining is tested against a numerical finite-element solution solving the same potential flow equations. The test geometry taken is representative of a high-bypass turbofan aircraft engine, with typical Mach numbers of 0.5–0.7, circumferential mode numbers m of 10–40, dimensionless wavenumbers of 10–50, and both hard and acoustically treated inlet walls of impedance Z = 2 − i. Of special interest is the presence of the spinner, which incorporates a geometrical complexity which could previously only be handled by fully numerical solutions. The results for predicted power attenuation loss show in general a very good agreement. The results for iso-pressure contour plots compare quite well in the cases where scattering into many higher radial modes can occur easily (high frequency, low angular mode), and again a very good agreement in the other cases.",
+      "authors": [
+        "S.W. Rienstra",
+        "Walter Eversman"
+      ]
+    },
+    {
+      "title": "Transmission of Sound in Ducts with Thin Shear Layers—Convergence to the Uniform Flow Case",
+      "publication_year": 1972,
+      "publication_date": "1972-07-01",
+      "doi": "https://doi.org/10.1121/1.1913082",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Duct (anatomy)",
+        "Sound transmission class",
+        "Shear (geology)",
+        "Boundary layer",
+        "Mechanics",
+        "Thin layer",
+        "Shear flow",
+        "Materials science"
+      ],
+      "abstract": "The problem of the transmission of sound in a duct with very thin shear layers at the walls is treated by an inner expansion method. The results show that the formulation of the problem of the transmission of sound in a duct with a shear layer at the wall converges, in the case of a vanishingly thin shear layer, to the formulation of the same problem when uniform flow is assumed and the wall boundary condition is that of continuity of particle displacement.",
+      "authors": [
+        "Walter Eversman",
+        "Roy J. Beckemeyer"
+      ]
+    },
+    {
+      "title": "Finite element formulations for acoustical radiation",
+      "publication_year": 1983,
+      "publication_date": "1983-05-01",
+      "doi": "https://doi.org/10.1016/0022-460x(83)90678-8",
+      "venue": "Journal of Sound and Vibration",
+      "type": "article",
+      "cited_by_count": 99,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Anechoic chamber",
+        "Finite element method",
+        "Envelope (radar)",
+        "French horn",
+        "Rotational symmetry",
+        "Mathematics",
+        "Mathematical analysis",
+        "Simple (philosophy)"
+      ],
+      "abstract": "",
+      "authors": [
+        "R.J. Astley",
+        "Walter Eversman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Further Investigation of Impedance Eduction in a Grazing Flow Duct Facility",
+      "publication_year": 2023,
+      "publication_date": "2023-11-06",
+      "doi": "https://doi.org/10.2514/1.j062928",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Acoustics",
+        "Duct (anatomy)",
+        "Acoustic impedance",
+        "Mach number",
+        "Sound pressure",
+        "Electrical impedance",
+        "Microphone",
+        "Mechanics"
+      ],
+      "abstract": "An established protocol for impedance eduction is based on a search procedure in which wall impedance in a duct propagation model is varied to obtain an acoustic field converging with one measured in a grazing flow duct. Here, an acoustic velocity potential formulation for the finite element model propagation model is extended to examine the relative effectiveness of driving the model with measured acoustic pressure at the source and termination and driving with acoustic pressure at the source and closing the computational domain with measured termination impedance. Also assessed is the appropriate location of measurement microphones to satisfy plane wave requirements for the computational model. Source acoustic pressure and termination impedance driving the propagation model produce superior eduction results with lower residual error, though the model driven with pressure at both the source and termination produces acceptable spectra. The microphone location in the gazing flow test facility is judged to be adequate for the range of grazing flow Mach number and frequency considered. Examination of impedance spectra for a range of lining samples has revealed a correlation of a de...",
+      "authors": [
+        "Walter Eversman",
+        "Mary Drouin"
+      ]
+    },
+    {
+      "title": "Impedance models for single and two degree of freedom linings with an improved data base and local non-linearity",
+      "publication_year": 2023,
+      "publication_date": "2023-06-01",
+      "doi": "https://doi.org/10.1177/1475472x231183153",
+      "venue": "International Journal of Aeroacoustics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Acoustics",
+        "Electrical impedance",
+        "Transfer function",
+        "Acoustic impedance",
+        "Linearity",
+        "Duct (anatomy)",
+        "Sound pressure",
+        "Computer science"
+      ],
+      "abstract": "Previously developed predictive models for impedance of single-degree-of-freedom and two-degree-of-freedom acoustic linings driven by a broad band acoustic source are reexamined. Two issues are addressed, the first being improvement of the conventional perforate face sheet impedance model. Data correlations based on flow bench measurements of steady flow pressure drop are reevaluated with emphasis on low flow velocity to improve the consistency of the prediction of linear resistance. In addition, for two-degree-of-freedom linings, face sheet mass reactance is modified to account for the presence of the septum. The second issue addresses the implication that for a non-linear lining, with impedance a function of the local sound pressure level, the installed performance of the lining depends on the local impedance, as opposed to impedance based on the source sound pressure level. This is investigated in the benchmarking of the impedance models by comparison of the acoustic transfer function predicted by a propagation code with the imbedded impedance model and transfer function measurements made in a grazing flow duct test facility. The propagation code is extended to make the non-l...",
+      "authors": [
+        "Walter Eversman",
+        "Mary Drouin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "faculty_name": "P. Bradshaw",
+  "full_name": "P. Bradshaw",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Michigan Technological University",
+  "author_id": "A5108871402",
+  "works_count": 247,
+  "cited_by_count": 13744,
+  "h_index": 57,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 174
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 59
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 49
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 38
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Momentum transfer in boundary layers",
+      "publication_year": 1977,
+      "publication_date": "1977-01-01",
+      "doi": "https://ci.nii.ac.jp/ncid/BA00130724",
+      "venue": "Medical Entomology and Zoology",
+      "type": "book",
+      "cited_by_count": 995,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Momentum transfer",
+        "Physics",
+        "Boundary (topology)",
+        "Mathematics",
+        "Mathematical analysis",
+        "Optics",
+        "Scattering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tuncer Cebeci",
+        "P. Bradshaw"
+      ]
+    },
+    {
+      "title": "Calculation of boundary-layer development using the turbulent energy equation",
+      "publication_year": 1967,
+      "publication_date": "1967-05-26",
+      "doi": "https://doi.org/10.1017/s0022112067002319",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 811,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Boundary layer",
+        "Mechanics",
+        "Dissipation",
+        "Physics",
+        "Boundary layer thickness",
+        "Momentum (technical analysis)",
+        "Turbulence kinetic energy"
+      ],
+      "abstract": "The turbulent energy equation is converted into a differential equation for the turbulent shear stress by defining three empirical functions relating the turbulent intensity, diffusion and dissipation to the shear stress profile. This equation, the mean momentum equation and the mean continuity equation form a hyperbolic system. Numerical integrations by the method of characteristics with preliminary choices of the three empirical functions compare favourably with the results of conventional calculation methods over a wide range of pressure gradients. Nearly all the empirical information required has been derived solely from the boundary layer in zero pressure gradient.",
+      "authors": [
+        "P. Bradshaw",
+        "D. H. Ferriss",
+        "N. P. Atwell"
+      ]
+    },
+    {
+      "title": "Compressible turbulent channel flows: DNS results and modelling",
+      "publication_year": 1995,
+      "publication_date": "1995-12-25",
+      "doi": "https://doi.org/10.1017/s0022112095004599",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 615,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Compressibility",
+        "Physics",
+        "Statistical physics",
+        "Boundary layer",
+        "Compressible flow"
+      ],
+      "abstract": "The present paper addresses some topical issues in modelling compressible turbulent shear flows. The work is based on direct numerical simulation (DNS) of two supersonic fully developed channel flows between very cold isothermal walls. Detailed decomposition and analysis of terms appearing in the mean momentum and energy equations are presented. The simulation results are used to provide insights into differences between conventional Reynolds and Favre averaging of the mean-flow and turbulent quantities. Study of the turbulence energy budget for the two cases shows that compressibility effects due to turbulent density and pressure fluctuations are insignificant. In particular, the dilatational dissipation and the mean product of the pressure and dilatation fluctuations are very small, contrary to the results of simulations for sheared homogeneous compressible turbulence and to recent proposals for models for general compressible turbulent flows. This provides a possible explanation of why the Van Driest density-weighted transformation (which ignores any true turbulent compressibility effects) is so successful in correlating compressible boundary-layer data. Finally, it is found ...",
+      "authors": [
+        "P. G. Huang",
+        "Gary N. Coleman",
+        "P. Bradshaw"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Long Duration Testing of a Rover-Mounted Chain Trencher Excavator in Simulated Lunar Surface Conditions",
+      "publication_year": 2023,
+      "publication_date": "2023-10-17",
+      "doi": "https://doi.org/10.2514/6.2023-4660",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Regolith",
+        "Astrobiology",
+        "Propellant",
+        "Aerospace engineering",
+        "Excavator",
+        "Spacecraft",
+        "Environmental science",
+        "Propulsion"
+      ],
+      "abstract": "Establishing a long-term presence on the moon is the largest challenge being tackled by NASA’s Artemis program. This goal will require significant infrastructure to support a sustainable human presence on the lunar surface. As humans travel further from earth, the difficulty of delivering mass to a destination increases. Thus, it is useful to minimize the landed mass needed per astronaut. One proposed solution is to implement In Situ Resource Utilization (ISRU) in mission architectures. By utilizing resources already present on the surface of other planets, bulky shipments of water, oxygen, and building materials could be avoided. A common goal of ISRU on the moon is the excavation of icy regolith for propellant production. By splitting water into hydrogen and oxygen locally with robotic missions, future human space flight missions can replace large volumes used by fuel tanks with more valuable payloads or decrease launch vehicle size. NASA solicited solutions via the Break the Ice Lunar Centennial Challenge (BTIL) to produce technology to enable future lunar excavation missions and understand wear [1]. In the current phase of the competition, 13 U.S.-based and 2 international t...",
+      "authors": [
+        "Marcello C. Guadagno",
+        "P. Bradshaw",
+        "Joe Primeau",
+        "Paul J. van Susante"
+      ]
+    }
+  ]
+}

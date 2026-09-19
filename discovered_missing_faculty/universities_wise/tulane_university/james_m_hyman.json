@@ -1,0 +1,319 @@
+{
+  "faculty_name": "James M. Hyman",
+  "full_name": "James M. Hyman",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Tulane University",
+  "author_id": "A5014553334",
+  "works_count": 278,
+  "cited_by_count": 22224,
+  "h_index": 65,
+  "top_topics": [
+    {
+      "topic": "COVID-19 epidemiological studies",
+      "count": 80
+    },
+    {
+      "topic": "Mosquito-borne diseases and control",
+      "count": 28
+    },
+    {
+      "topic": "Mathematical and Theoretical Epidemiology and Ecology Models",
+      "count": 28
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 27
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Determining Important Parameters in the Spread of Malaria Through the Sensitivity Analysis of a Mathematical Model",
+      "publication_year": 2008,
+      "publication_date": "2008-02-21",
+      "doi": "https://doi.org/10.1007/s11538-008-9299-0",
+      "venue": "Bulletin of Mathematical Biology",
+      "type": "article",
+      "cited_by_count": 1852,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Malaria",
+        "Basic reproduction number",
+        "Transmission (telecommunications)",
+        "Infectious disease (medical specialty)",
+        "Biting",
+        "Indoor residual spraying",
+        "Sensitivity (control systems)",
+        "Disease transmission"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nakul Chitnis",
+        "James M. Hyman",
+        "J. M. Cushing"
+      ]
+    },
+    {
+      "title": "Accelerating Markov Chain Monte Carlo Simulation by Differential Evolution with Self-Adaptive Randomized Subspace Sampling",
+      "publication_year": 2009,
+      "publication_date": "2009-01-01",
+      "doi": "https://doi.org/10.1515/ijnsns.2009.10.3.273",
+      "venue": "International Journal of Nonlinear Sciences and Numerical Simulation",
+      "type": "article",
+      "cited_by_count": 1188,
+      "is_oa": true,
+      "oa_url": "https://research.wur.nl/en/publications/accelerating-markov-chain-monte-carlo-simulation-by-differential-",
+      "concepts": [
+        "Markov chain Monte Carlo",
+        "Markov chain",
+        "Monte Carlo method",
+        "Subspace topology",
+        "Statistical physics",
+        "Computer science",
+        "Sampling (signal processing)",
+        "Markov chain mixing time"
+      ],
+      "abstract": "Article Accelerating Markov Chain Monte Carlo Simulation by Differential Evolution with Self-Adaptive Randomized Subspace Sampling was published on March 1, 2009 in the journal International Journal of Nonlinear Sciences and Numerical Simulation (volume 10, issue 3).",
+      "authors": [
+        "Jasper A. Vrugt",
+        "Cajo J. F. ter Braak",
+        "Cees Diks",
+        "B.A. Robinson",
+        "James M. Hyman",
+        "David Higdon"
+      ]
+    },
+    {
+      "title": "Compactons: Solitons with finite wavelength",
+      "publication_year": 1993,
+      "publication_date": "1993-02-01",
+      "doi": "https://doi.org/10.1103/physrevlett.70.564",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 1060,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Integrable system",
+        "Korteweg–de Vries equation",
+        "Mathematical physics",
+        "Conservation law",
+        "Nonlinear system",
+        "Wavelength",
+        "Dispersion (optics)"
+      ],
+      "abstract": "The understand the role of nonlinear dispersion in pattern formation, we introduce and study Korteweg--de Vries--like equations wtih nonlinear dispersion: ${\\mathit{u}}_{\\mathit{t}}$+(${\\mathit{u}}^{\\mathit{m}}$${)}_{\\mathit{x}}$+(${\\mathit{u}}^{\\mathit{n}}$${)}_{\\mathit{x}\\mathit{x}\\mathit{x}}$=0, m,n>1. The solitary wave solutions of these equations have remarkable properties: They collide elastically, but unlike the Korteweg--de Vries (m=2, n=1) solitons, they have compact support. When two ``compactons'' collide, the interaction site is marked by the birth of low-amplitude compacton-anticompacton pairs. These equations seem to have only a finite number of local conservation laws. Nevertheless, the behavior and the stability of these compactons is very similar to that observed in completely integrable systems.",
+      "authors": [
+        "Philip Rosenau",
+        "James M. Hyman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Improving Wolbachia-based control programs in urban settings: Insights from spatial modeling",
+      "publication_year": 2025,
+      "publication_date": "2025-12-12",
+      "doi": "https://doi.org/10.1371/journal.pntd.0013787",
+      "venue": "PLoS neglected tropical diseases",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://journals.plos.org/plosntds/article/file?id=10.1371/journal.pntd.0013787&type=printable",
+      "concepts": [
+        "Wolbachia",
+        "Dengue fever",
+        "Aedes aegypti",
+        "Mosquito control",
+        "Population",
+        "Biology",
+        "Aedes",
+        "Vector (molecular biology)"
+      ],
+      "abstract": "Mosquito-borne diseases such as dengue remain major global public health challenges, especially in areas facing rapid climate change. Conventional mosquito control often proves ineffective or unsustainable, highlighting the need for innovative approaches. One promising strategy is releasing Aedes aegypti mosquitoes infected with Wolbachia, a bacterium that reduces mosquito-borne virus transmission. However, spatial heterogeneity across release areas complicates large-scale Wolbachia deployment, particularly in complex urban landscapes. High spatial variation and limited access to certain regions can cause establishment failures, waste resources, and disproportionately affect disadvantaged communities. To address this, we developed a partial differential equation model that simulates the spatial spread of Wolbachia in mosquito populations. The model incorporates practical pre-release measures such as insecticide spraying and repeated releases, while accounting for variation in urban landscapes that influence mosquito movement. We identified strategies for optimizing Wolbachia releases under two common constraints: limited release size and limited pre-release insecticide effective...",
+      "authors": [
+        "Daniela Florez",
+        "Ricardo Cortez",
+        "James M. Hyman",
+        "Zhuolin Qu"
+      ]
+    },
+    {
+      "title": "COVID-19 Forecasting from U.S. Wastewater Surveillance Data: A Retrospective Multi-Model Study (2022-2024)",
+      "publication_year": 2025,
+      "publication_date": "2025-11-30",
+      "doi": "https://doi.org/10.48550/arxiv.2512.01074",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.01074",
+      "concepts": [
+        "Autoregressive integrated moving average",
+        "Statistics",
+        "Mean squared error",
+        "Interval (graph theory)",
+        "Econometrics",
+        "Prediction interval",
+        "Regression analysis",
+        "Time series"
+      ],
+      "abstract": "Accurate and reliable forecasting models are critical for guiding public health responses and policy decisions during pandemics such as COVID-19. Retrospective evaluation of model performance is essential for improving epidemic forecasting capabilities. In this study, we used COVID-19 wastewater data from CDC's National Wastewater Surveillance System to generate sequential weekly retrospective forecasts for the United States from March 2022 through September 2024, both at the national level and for four major regions (Northeast, Midwest, South, and West). We produced 133 weekly forecasts using 11 models, including ARIMA, generalized additive models (GAM), simple linear regression (SLR), Prophet, and the n-sub-epidemic framework (top-ranked, weighted-ensemble, and unweighted-ensemble variants). Forecast performance was assessed using mean absolute error (MAE), mean squared error (MSE), weighted interval score (WIS), and 95% prediction interval coverage. The n-sub-epidemic unweighted ensembles outperformed all other models at 3-4-week horizons, particularly at the national level and in the Midwest and West. ARIMA and GAM performed best at 1-2-week horizons in most regions, whereas...",
+      "authors": [
+        "Faharudeen Alhassan",
+        "Karami, Hamed",
+        "Amanda Bleichrodt",
+        "James M. Hyman",
+        "Isaac Chun‐Hai Fung",
+        "Ruiyan Luo",
+        "Gerardo Chowell"
+      ]
+    },
+    {
+      "title": "A National Evaluation of Intercostal Chest Drain Removal Strategies",
+      "publication_year": 2025,
+      "publication_date": "2025-11-04",
+      "doi": "https://doi.org/10.1016/j.chest.2025.10.027",
+      "venue": "CHEST Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.chest.2025.10.027",
+      "concepts": [
+        "Medicine",
+        "Surgery",
+        "Pneumothorax",
+        "Leak",
+        "Clamping",
+        "Clinical trial",
+        "Intercostal space",
+        "Intensive care medicine"
+      ],
+      "abstract": "BACKGROUND: Management of spontaneous pneumothorax often involves intercostal chest drain (ICD) insertion. Determining when to remove the ICD is controversial, with significant variation in practice. Establishing optimal ICD management in pneumothorax could reduce morbidity and improve cost-effectiveness. RESEARCH QUESTION: Do ICD removal strategies, including clamping and use of digital air leak devices, impact the risk of pneumothorax recurrence, need for repeat pleural procedures, or length of stay? STUDY DESIGN AND METHODS: We conducted a multicenter retrospective analysis of patients requiring ICD insertion for spontaneous pneumothorax from May 2021 to October 2023. Data were collected on demographics, clinical course, ICD removal strategy, pneumothorax recurrence (early and late), and repeat pleural intervention. RESULTS: A total of 791 admissions from 27 centers were included. The 30-day recurrence of pneumothorax was 13.0% (n = 103). Clamping trials were undertaken in 32.6% of cases (n = 258), but recurrence of pneumothorax was not significantly different in clamped compared with nonclamped groups (14.0% vs 12.6%, respectively; P = .67). Clamping identified pleural air r...",
+      "authors": [
+        "Niki Veale",
+        "Anthony W. Martinelli",
+        "Dheeraj Sethi",
+        "Phillip De Souza",
+        "Khaing Zar Mon",
+        "Joyce Oi Suet Cheng",
+        "David Morrow",
+        "May Sam",
+        "Irfan Saleem",
+        "Kay Por Yip",
+        "Jennifer Kerks",
+        "David Henshall",
+        "Tobias Smitherman-Cairns",
+        "Katherine R. Smith",
+        "Daniel Mitchell",
+        "Karl Jackson",
+        "Benjamin Pippard",
+        "Seemab Paul",
+        "Waheed Mohammad",
+        "James M. Hyman",
+        "B C Rowlands",
+        "S Bosence",
+        "Catharine Pearce",
+        "Ben Probyn",
+        "Richard Thorley",
+        "Matthew W. Mitchell",
+        "Andrew Griffiths",
+        "Richard Westley",
+        "Abdullah Huda",
+        "Asim Mehmood",
+        "Abid Khan",
+        "Vern Tee",
+        "Rachel Crooks",
+        "Paul Minnis",
+        "Lewis Standing",
+        "Wei Hann Ong",
+        "M Salman Rashid",
+        "Ahmed Salih",
+        "Eve Lynn Koh",
+        "Christie K.M. Ho",
+        "Yiwen Soo",
+        "Matthew R. Hayes",
+        "Clodagh Holmes",
+        "Fatima Al-Arrayed",
+        "Abeer Saad",
+        "Beenish Iqbal",
+        "Sam Trewick",
+        "Patrick Goodley",
+        "Jonathan Oldershaw",
+        "Elizabeth Thompson",
+        "Alexandra Hodge",
+        "Mohamed Gadallah",
+        "R. Bhat",
+        "Eleanor Barton",
+        "Anand Sundaralingam",
+        "Osei Kankam",
+        "James Quinn",
+        "John Corcoran",
+        "Steven Walker",
+        "Avinash Aujayeb",
+        "Jürgen Herre",
+        "Akhilesh Jha",
+        "Stefan J. Marciniak",
+        "Najib M. Rahman",
+        "Rob Hallifax"
+      ]
+    },
+    {
+      "title": "Using radial basis functions for control variate integration of high-dimensional functions defined by sparse sample data",
+      "publication_year": 2025,
+      "publication_date": "2025-10-04",
+      "doi": "https://doi.org/10.1007/s11075-025-02223-5",
+      "venue": "Numerical Algorithms",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s11075-025-02223-5.pdf",
+      "concepts": [
+        "Control variates",
+        "Numerical integration",
+        "Radial basis function",
+        "Mathematics",
+        "Convergence (economics)",
+        "Rate of convergence",
+        "Basis function",
+        "Quasi-Monte Carlo method"
+      ],
+      "abstract": "Abstract We introduce a control variate integration (CVI) method using radial basis functions (RBFs) for high-dimensional numerical integration with sparse sample data. Unlike polynomial-based CVI, which captures large-scale variations effectively but suffers from exponential basis function growth, our RBF approach adapts to both large- and small-scale data variations. For problems with moderately high dimensions ( $$d \\le 20$$ ), numerical experiments demonstrate that the RBF-based CVI significantly outperforms the traditional Monte Carlo and Quasi-Monte Carlo methods. Although the polynomial CVI typically preserves the convergence rate of the underlying sampling method, our RBF CVI demonstrates substantially faster convergence rates. Empirical observations show convergence rates between $$\\mathcal {O}(N^{-1.5})$$ and $$\\mathcal {O}(N^{-2})$$ in multiple test cases. This performance advantage holds for both independent and low-discrepancy sampling scenarios, offering a practical solution for high-dimensional integration problems with sparse data commonly encountered in computational finance, Bayesian inference, and uncertainty quantification.",
+      "authors": [
+        "Lin Li",
+        "James M. Hyman"
+      ]
+    },
+    {
+      "title": "Using Radial Basis Functions for Control Variate Integration of High-Dimensional Functions Defined by Sparse Sample Data",
+      "publication_year": 2025,
+      "publication_date": "2025-06-24",
+      "doi": "https://doi.org/10.21203/rs.3.rs-6720522/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-6720522/latest.pdf",
+      "concepts": [
+        "Random variate",
+        "Sample (material)",
+        "Basis (linear algebra)",
+        "Control variates",
+        "Computer science",
+        "Mathematics",
+        "Statistics",
+        "Random variable"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lin Li",
+        "James M. Hyman"
+      ]
+    }
+  ]
+}

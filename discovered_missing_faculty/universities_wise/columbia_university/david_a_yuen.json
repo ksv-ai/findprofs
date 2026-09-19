@@ -1,0 +1,264 @@
+{
+  "faculty_name": "David A. Yuen",
+  "full_name": "David A. Yuen",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Columbia University",
+  "author_id": "A5110077901",
+  "works_count": 687,
+  "cited_by_count": 19228,
+  "h_index": 65,
+  "top_topics": [
+    {
+      "topic": "High-pressure geophysics and materials",
+      "count": 325
+    },
+    {
+      "topic": "earthquake and tectonic studies",
+      "count": 269
+    },
+    {
+      "topic": "Geological and Geochemical Analysis",
+      "count": 248
+    },
+    {
+      "topic": "Geomagnetism and Paleomagnetism Studies",
+      "count": 71
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 48
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Layered convection induced by phase transitions",
+      "publication_year": 1985,
+      "publication_date": "1985-10-10",
+      "doi": "https://doi.org/10.1029/jb090ib12p10291",
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "type": "article",
+      "cited_by_count": 703,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Convection",
+        "Phase transition",
+        "Latent heat",
+        "Materials science",
+        "Rayleigh number",
+        "Thermodynamics",
+        "Adiabatic process",
+        "Phase boundary"
+      ],
+      "abstract": "We report a systematic study on the conditions under which an endothermic phase transition can enforce layered convection. Two‐dimensional numerical calculations of convection in a domain containing a divariant phase change were performed in the framework of the “extended Boussinesq approximation,” i.e., considering the effects of adiabatic gradient, latent heat, and frictional heating in the energy equation. We find that the critical value of the negative Clapeyron slope, which must be surpassed in order to induce layered convection, decreases in magnitude with increasing Rayleigh number Ra in the range 104 ≤ Ra ≤ 2×106. Near the critical Clapeyron slope, vacillations between double‐ and single‐layer convection or strongly leaking double‐layer convection are possible. The breakdown into layers is influenced very little by the latent heat release but depends solely on the phase boundary deflection caused by lateral temperature differences. The value of the critical Clapeyron slope also seems little affected by the width of the transition zone or by its depth. A possible superplastic rheology within the transition zone would tend to favor layered convection. Scaling the model res...",
+      "authors": [
+        "Ulrich R. Christensen",
+        "David A. Yuen"
+      ]
+    },
+    {
+      "title": "Characteristics-based marker-in-cell method with conservative finite-differences schemes for modeling geological flows with strongly variable transport properties",
+      "publication_year": 2003,
+      "publication_date": "2003-11-24",
+      "doi": "https://doi.org/10.1016/j.pepi.2003.09.006",
+      "venue": "Physics of The Earth and Planetary Interiors",
+      "type": "article",
+      "cited_by_count": 578,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal conductivity",
+        "Finite difference",
+        "Finite difference method",
+        "Viscosity",
+        "Variable (mathematics)",
+        "Mechanics",
+        "Thermal",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Taras Gerya",
+        "David A. Yuen"
+      ]
+    },
+    {
+      "title": "Rayleigh–Taylor instabilities from hydration and melting propel ‘cold plumes’ at subduction zones",
+      "publication_year": 2003,
+      "publication_date": "2003-06-30",
+      "doi": "https://doi.org/10.1016/s0012-821x(03)00265-6",
+      "venue": "Earth and Planetary Science Letters",
+      "type": "article",
+      "cited_by_count": 576,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geology",
+        "Asthenosphere",
+        "Slab",
+        "Subduction",
+        "Mantle wedge",
+        "Mantle (geology)",
+        "Geophysics",
+        "Lithosphere"
+      ],
+      "abstract": "",
+      "authors": [
+        "Taras Gerya",
+        "David A. Yuen"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Computational geodynamics to model mantle convection and magma oceans with the thermal lattice Boltzmann method and strong scaling on exascale clusters",
+      "publication_year": 2026,
+      "publication_date": "2026-04-10",
+      "doi": "https://doi.org/10.1093/gji/ggag131",
+      "venue": "Geophysical Journal International",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1093/gji/ggag131",
+      "concepts": [
+        "Geodynamics",
+        "Scaling",
+        "Geology",
+        "Geophysics",
+        "Lattice Boltzmann methods",
+        "Mantle convection",
+        "Convection",
+        "Thermal"
+      ],
+      "abstract": "SUMMARY The thermal lattice method (TLBM) offers an alternative to classical PDE-based numerical methods for modelling planetary dynamics. It solves the lattice Boltzmann equation on a unitary discrete lattice which requires no matrix operations, and hence scales extremely well on HPC clusters. We describe the TLBM equations which are capable of modelling solid state mantle convection and turbulent magma ocean dynamics, and we present how to obtain the physical (dimensional) timescale from the lattice timescale (number of time steps), convert quantities in physical (dimensional) units ($\\eta$, $\\kappa$, $\\sigma \\dots$) to unitary (dimensionless) lattice units and strong scaling performance in 3-D to 300 K cores. We present examples to illustrate the use of the TLBM to model plate tectonics, 2-D and 3-D mantle convection, turbulent magma ocean dynamics and planetary accretion. We present a table of run times which demonstrate the TLBM’s high throughput performance. The TLBM’s performance enables 3-D global convection modelling of the whole mantle on a lattice with up to $\\sim 2 \\times 10^{11}$ grid points corresponding to a resolution of 3 km, and magma ocean dynamics modelling i...",
+      "authors": [
+        "Péter Móra",
+        "Gabriele Morra",
+        "David A. Yuen",
+        "Leila Honarbakhsh"
+      ]
+    },
+    {
+      "title": "Deciphering influential features in the seismic catalog for large earthquake occurrence from a machine learning perspective",
+      "publication_year": 2025,
+      "publication_date": "2025-10-26",
+      "doi": "https://doi.org/10.1016/j.aiig.2025.100161",
+      "venue": "Artificial Intelligence in Geosciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.aiig.2025.100161",
+      "concepts": [
+        "Magnitude (astronomy)",
+        "Geology",
+        "Feature (linguistics)",
+        "Perspective (graphical)",
+        "Machine learning",
+        "Artificial intelligence",
+        "Centroid",
+        "Induced seismicity"
+      ],
+      "abstract": "The spatiotemporal distribution and magnitude of seismicity collected over decades are crucial for understanding the stress interactions underlying large earthquakes. In this study, machine learning (ML) explainers identify and rank the features that distinguish Large Earthquake Occurrence (LEO) from non-LEO spatiotemporal windows. Seventy-eight statistics related to time, latitude, longitude, depth, and magnitude were extracted from the earthquake catalog (Global Centroid Moment Tensor) to produce 202,706 spatiotemporally discretized windows. ML explainers trained on these windows revealed the maximum magnitude ( M max ) as the most influential feature. Classification performance improved when the maximum inter-event time, the average inter-event time, and the minimum ratio of focal depth to magnitude were jointly trained with M max . The top five features showed weak-to-moderate correlations, providing complementary information to the ML explainers. Our explainable ML framework can be extended to different earthquake catalogs, including those with focal mechanisms and small-magnitude events. • Our explainable machine learning (ML) pipeline, which includes feature extraction, X...",
+      "authors": [
+        "Jinsu Jang",
+        "Byung‐Dal So",
+        "David A. Yuen",
+        "Sung‐Joon Chang"
+      ]
+    },
+    {
+      "title": "A benchmark for finite Prandtl number convection: comparison of Boltzmann and Navier–Stokes solutions",
+      "publication_year": 2025,
+      "publication_date": "2025-06-26",
+      "doi": "https://doi.org/10.1093/gji/ggaf221",
+      "venue": "Geophysical Journal International",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1093/gji/ggaf221",
+      "concepts": [
+        "Prandtl number",
+        "Benchmark (surveying)",
+        "Turbulent Prandtl number",
+        "Mechanics",
+        "Convection",
+        "Navier–Stokes equations",
+        "Statistical physics",
+        "Physics"
+      ],
+      "abstract": "SUMMARY While modern thermal convection in rocky planets is controlled by a slow solid-state creep flow, the earliest stages of terrestrial planets likely experienced turbulent flow during which their silicate envelope was fully molten, usually called magma ocean. The main parameter separating the two regimes is the Prandtl number ($\\mathrm{ \\mathrm{ Pr}}$), which is so high for mantle convection to be usually assumed infinite, whereas magma oceans are characterized by $\\mathrm{ \\mathrm{ Pr}}$ on the order of 1. We compared the results of isoviscous convection simulations performed with three codes: (GAIA, TLBM, StreamV). These codes are based on different numerical formulations and were used for modelling convection with $\\mathrm{ \\mathrm{ Pr}}$ ranging from 1 to 1000, while exploring different convection intensity by varying the Rayleigh number ($\\mathrm{ \\mathrm{ Ra}}$) from $10^4$ to $10^6$. GAIA (Generic Automaton for planetary Interior Analysis) is a Finite Volume fluid flow and energy solver for the Navier–Stokes equations across arbitrary geometries. TLBM (Thermal Lattice Boltzmann Method) solves the mesocale momentum and energy distribution densities for colliding parti...",
+      "authors": [
+        "Gabriele Morra",
+        "P Mora",
+        "Christian Hüttig",
+        "Nicola Tosi",
+        "Henri Samuel",
+        "David A. Yuen"
+      ]
+    },
+    {
+      "title": "Correlation of earthquake occurrence among major fault zones in the eastern margin of the Tibetan Plateau through Big Data Analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.59717/j.xinn-geo.2025.100145",
+      "venue": "The Innovation Geoscience",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.59717/j.xinn-geo.2025.100145",
+      "concepts": [
+        "Plateau (mathematics)",
+        "Geology",
+        "Seismology",
+        "Margin (machine learning)",
+        "Fault (geology)",
+        "Earthquake prediction",
+        "Machine learning",
+        "Mathematical analysis"
+      ],
+      "abstract": "Regional earthquake correlation represents a fundamental yet open issue in seismicity and geodynamics. This study addresses the synchronicity of earthquake occurrences through statistical correlations among the active fault zones along the eastern margin of the Qinghai-Tibetan Plateau by means of a big data analysis approach. Utilizing the latest earthquake catalog (1970-August 2024), in association with the 17 major fault zones, we introduce an innovative method for catalog segmentation and apply Z-tests, Pearson correlation coefficients, and correlation network analysis to examine fault seismic activity relationships. The results reveal a seismic spatiotemporal migration pattern characterized by reduced seismicity near prominent earthquake epicenters, with subsequent large earthquakes occurring on non-adjacent faults and increased activity around epicenters. Through correlation networks, we identify three major seismic activity clusters: the eastern boundary of the Bayan Har Block, the eastern boundary of the Sichuan-Yunnan Rhombic Block, and the Sanjiang Lateral Collision Zone, aligning with traditional tectonic block divisions, validating the seismic activity similarity clus...",
+      "authors": [
+        "Huai Zhang",
+        "Tianya Liu",
+        "Shi Chen",
+        "Yan Zhang",
+        "Yicun Guo",
+        "Yaolin Shi",
+        "David A. Yuen"
+      ]
+    },
+    {
+      "title": "Scalable Simulations of 3D Turbulence Fine Structure in Nanoflare Using a Novel Plasma Statistical Algorithm",
+      "publication_year": 2023,
+      "publication_date": "2023-08-01",
+      "doi": "https://doi.org/10.11159/icsta23.122",
+      "venue": "Proceedings of the International Conference on Statistics, Theory and Applications (ICSTA ...)",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.11159/icsta23.122",
+      "concepts": [
+        "Turbulence",
+        "Scalability",
+        "Computer science",
+        "Algorithm",
+        "Plasma",
+        "Computational science",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "Based on algorithms of solving directly MHD partial differential equation algorithm (e.g., ATHENA [1], NIRVANA [2], ZEUS [3], FLASH [4], PIC [5-8], HPIC [9-11]), conventional simulation methods cannot attain the extreme range of scale for 3D turbulence fine-structure (Geometry and Physics) in flare-CME phenomena, especially for nanoflare heating problems.Here we present a parallel lattice Boltzmann algorithm based on plasma statistical physics, which allows us to reach even the relativistic regime necessary for modeling 3D turbulence fine-structure evolution.This innovative approach can simultaneously describe the continuous features of plasma at the macro-spatial-temporal scale, particle features of plasma at the micro-spatial-temporal scale, and particle features enforced by magnetic fields.However, the novel algorithm brings several challenges for fine-structure large-scale simulation, such as the gargantuan memory and storage requirements due to high dimensions and output data, and long simulation time, because each run takes a week.We propose optimization technologies for data access, communication, I/O, etc.These optimizations make it possible to achieve scalable and robus...",
+      "authors": [
+        "Bojing Zhu",
+        "Yan Li",
+        "Zhikuo Ma",
+        "Hui Yan",
+        "Ying Zhong",
+        "Wu Wang",
+        "Yufeng Guo",
+        "Zheng Li",
+        "David A. Yuen"
+      ]
+    }
+  ]
+}

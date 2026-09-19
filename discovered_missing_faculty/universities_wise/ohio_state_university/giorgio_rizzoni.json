@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Giorgio Rizzoni",
+  "full_name": "Giorgio Rizzoni",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Ohio State University",
+  "author_id": "A5075108700",
+  "works_count": 600,
+  "cited_by_count": 19047,
+  "h_index": 66,
+  "top_topics": [
+    {
+      "topic": "Electric and Hybrid Vehicle Technologies",
+      "count": 180
+    },
+    {
+      "topic": "Advanced Battery Technologies Research",
+      "count": 172
+    },
+    {
+      "topic": "Electric Vehicles and Infrastructure",
+      "count": 117
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 94
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 93
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A-ECMS: An Adaptive Algorithm for Hybrid Electric Vehicle Energy Management",
+      "publication_year": 2006,
+      "publication_date": "2006-10-04",
+      "doi": "https://doi.org/10.1109/cdc.2005.1582424",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 723,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Energy management",
+        "Minification",
+        "Fuel efficiency",
+        "State of charge",
+        "Automotive engineering",
+        "Electric vehicle",
+        "Computer science",
+        "Equivalence (formal languages)"
+      ],
+      "abstract": "Hybrid Electric Vehicles (HEV) improvements in fuel economy and emissions strongly depend on the energy management strategy. In this paper a new control strategy called Adaptive Equivalent Consumption Minimization Strategy (A-ECMS) is presented. This real-time energy management for HEV is obtained adding to the ECMS framework an on-the-fly algorithm for the estimation of the equivalence factor according to the driving conditions. The main idea is to periodically refresh the control parameter according to the current road load, so that the battery State of Charge (SOC) is maintained within the boundaries and the fuel consumption is minimized. The results obtained with A-ECMS show that the fuel economy that can be achieved is only slightly sub-optimal and the operations are charge-sustaining.",
+      "authors": [
+        "Cristian Musardo",
+        "Giorgio Rizzoni",
+        "B. Staccia"
+      ]
+    },
+    {
+      "title": "A-ECMS: An Adaptive Algorithm for Hybrid Electric Vehicle Energy Management",
+      "publication_year": 2005,
+      "publication_date": "2005-01-01",
+      "doi": "https://doi.org/10.3166/ejc.11.509-524",
+      "venue": "European Journal of Control",
+      "type": "article",
+      "cited_by_count": 675,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Electric vehicle",
+        "Automotive engineering",
+        "Computer science",
+        "Energy management",
+        "Control engineering",
+        "Energy (signal processing)",
+        "Algorithm",
+        "Control theory (sociology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Cristian Musardo",
+        "Giorgio Rizzoni",
+        "Yann Guezennec",
+        "B. Staccia"
+      ]
+    },
+    {
+      "title": "A Comparative Study Of Supervisory Control Strategies for Hybrid Electric Vehicles",
+      "publication_year": 2007,
+      "publication_date": "2007-05-01",
+      "doi": "https://doi.org/10.1109/tcst.2007.894649",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 569,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Electric vehicle",
+        "Optimal control",
+        "Energy management",
+        "Fuel efficiency",
+        "Torque",
+        "Dynamic programming",
+        "A priori and a posteriori",
+        "Electric motor"
+      ],
+      "abstract": "Hybrid electric vehicles (HEVs) improvements in fuel economy and emissions strongly depend on the energy management strategy. The parallel HEV control problem involves the determination of the time profiles of the power flows from the engine and the electric motor. This is also referred to as the power split between the conventional and the electric sources. The objective of HEV control is in fact to find out the sequence of optimal power splits at each instant of time that minimizes the fuel consumption over a given driving schedule. Big obstacles to the control design are the model complexity and the necessity of \"a priori\" knowledge of torque and velocity profiles. This paper presents three different energy management approaches for the control of a parallel hybrid electric sport-utility-vehicle that do not require a priori knowledge of the driving cycle. The considered approaches are: a rule-based control, an adaptive equivalent fuel consumption minimization strategy (A-ECMS), and the Hinfincontrol. Results, compared with the optimal solution given by the dynamic programming, show that the A-ECMS strategy is the best performing strategy",
+      "authors": [
+        "Pierluigi Pisu",
+        "Giorgio Rizzoni"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Assessing Geographical and Seasonal Influences on Energy Consumption and Driving Range for Electric Drayage Trucks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-29",
+      "doi": "https://doi.org/10.4271/14-15-03-0013",
+      "venue": "SAE International Journal of Electrified Vehicles",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Truck",
+        "Electrification",
+        "Range (aeronautics)",
+        "Environmental science",
+        "Energy consumption",
+        "Driving range",
+        "Transport engineering",
+        "Container (type theory)"
+      ],
+      "abstract": "The electrification of heavy-duty vehicles is a critical pathway toward improved energy efficiency in the freight sector. The current battery electric truck technology poses several challenges to commercial vehicle operations, such as limited driving range, sensitivity to climate conditions, and long recharging times. Estimating the energy consumption of heavy-duty electric trucks is crucial to assessing the feasibility of fleet electrification and its impact on the electric grid. This article focuses on developing a model-based simulation approach to predict and analyze the energy consumption of electric trucks by considering the impact of weather and geographical conditions on vehicle road load and auxiliary components power consumption, as well as the impact these factors have on driving range. Specifically, drayage trucks employed in logistics around maritime ports are used as a case study, with consideration of seasonal climate variations and geographical characteristics at different locations. The article includes results for three major container ports within the United States, providing region-specific insights into the energy requirements and driving range of the electr...",
+      "authors": [
+        "Ankur Shiledar",
+        "Manfredi Villani",
+        "Joseph N. E. Lucero",
+        "Ruixiao Sun",
+        "Vivek A. Sujan",
+        "Simona Onori",
+        "Giorgio Rizzoni"
+      ]
+    },
+    {
+      "title": "Enhancing the Reliability of Fault Diagnosis in Lithium-Ion Batteries Using a Hybrid Model-Based and Machine-Learning Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-04-23",
+      "doi": "https://doi.org/10.1109/tte.2026.3686655",
+      "venue": "IEEE Transactions on Transportation Electrification",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reliability (semiconductor)",
+        "Computer science",
+        "Reliability engineering",
+        "Machine learning",
+        "Artificial intelligence",
+        "Fault (geology)",
+        "Engineering",
+        "Artificial neural network"
+      ],
+      "abstract": "Lithium-ion batteries (LIB) are essential for electric vehicles (EV) and renewable energy storage, and their safe, reliable, and efficient operation is critical. As their use grows, robust fault diagnosis becomes key to maintaining availability and performance. A major challenge is that many battery faults exhibit similar patterns, making it difficult to distinguish and isolate specific fault types. This paper presents a hybrid approach that combines model-based methods with data-driven techniques to improve the safety and reliability of LIB systems. The proposed diagnostic architecture uses structural analysis (SA) to identify analytical redundancy for fault detection and isolation (FDI), while Extended Kalman Filter (EKF) algorithms generate residuals that capture inconsistencies between model predictions and measurements. These residuals are processed into statistical features and passed to a machine learning (ML) classifier for accurate fault detection and classification. In this series-hybrid structure, using SA–EKF residuals as classifier inputs significantly improves diagnostic performance compared to ML-only features, and among the tested classifiers, Residual-based RF a...",
+      "authors": [
+        "Taha Mohamed Abdelatif Maaradji",
+        "Said Alem",
+        "Emanuele Gravante",
+        "Matilde D’Arpino",
+        "Giorgio Rizzoni"
+      ]
+    },
+    {
+      "title": "Quantitative Evaluation of Observability for Batteries in Electric Aircraft Using Gramian-Based Methods",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2316",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Observability",
+        "Gramian matrix",
+        "Controllability Gramian",
+        "Measure (data warehouse)",
+        "Control theory (sociology)",
+        "Metric (unit)",
+        "Computer science",
+        "Controllability"
+      ],
+      "abstract": "Reliable thermal state estimation is fundamental to safe and efficient Battery Thermal Management Systems (BTMS) for electrified aviation. This paper develops a systematic observability analysis framework for lumped parameter thermal models of Lithium-ion batteries and quantifies the effect of temperature sensor placement using Gramian based degree of observability (DoO) metrics. Specifically, we construct the observability matrix and Gramian for linear time invariant (LTI) unit cell and module models and evaluate the condition number of the observability Gramian as a DoO measure to compare sensor layouts. We determine the minimum number of sensors required to give full system observability for a unit cell and a module. And establish configurations that provide the strongest observability among minimal sets. A Pareto analysis of the number of sensors versus normalized DoO (with proxy cost) reveals diminishing returns beyond a threshold, emphasizing that strategic placement governs observability and cost. The proposed framework enables design phase optimization of sensor layouts to improve thermal estimation fidelity under realistic financial, packaging, and manufacturing constra...",
+      "authors": [
+        "Rebekah O. Akintade",
+        "Giorgio Rizzoni"
+      ]
+    },
+    {
+      "title": "Analyzing and Simulating Energy Consumption of Battery Electric Transit Buses in Real-Driving Conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-09-29",
+      "doi": "https://doi.org/10.4271/02-19-02-0007",
+      "venue": "SAE International journal of commercial vehicles",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Battery (electricity)",
+        "Electrification",
+        "Energy consumption",
+        "Automotive engineering",
+        "Transit (satellite)",
+        "Public transport",
+        "Electricity",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Analyzing and accurately estimating the energy consumption of battery electric buses (BEBs) is essential as it directly impacts battery aging. As fleet electrification of transit agencies (TAs) is on the rise, they must take into account battery aging, since the battery accounts for nearly a quarter of the total bus cost. Understanding the strain placed on batteries during day-to-day operations will allow TAs to implement best-use practices, continue successful fleet electrification, and prolong battery life. The main objective of this research is to estimate and analyze the energy consumption of BEBs based on ambient conditions, geographical location, and driver behavior. This article presents a model for estimating the battery energy consumption of BEBs, which is validated using the data on federal transit bus performance tests performed by Penn State University and experimental aggregated trip data provided by the Central Ohio Transit Authority (COTA). The developed simulator aims to realistically estimate the actual BEB energy consumption, including factors that are difficult to account for, such as the weather conditions, driver behavior, and uncertain passenger load along ...",
+      "authors": [
+        "Ankur Shiledar",
+        "Anirudh Shanker",
+        "Luca Pulvirenti",
+        "Giuseppe Di Luca",
+        "Rebeccah Akintade",
+        "Giorgio Rizzoni"
+      ]
+    },
+    {
+      "title": "Scalable Real-Time Predictive Eco-Driving based on a Rollout Algorithm",
+      "publication_year": 2025,
+      "publication_date": "2025-09-25",
+      "doi": "https://doi.org/10.36227/techrxiv.175877877.75491428/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175877877.75491428/v1",
+      "concepts": [
+        "Computer science",
+        "Scalability",
+        "Software deployment",
+        "Distributed computing",
+        "Key (lock)",
+        "Model predictive control",
+        "Architecture",
+        "Work (physics)"
+      ],
+      "abstract": "The deployment of real-time predictive eco-driving control algorithms remains an active research area, primarily due to their computational complexity. This study addresses this challenge by examining the scalability of a Dynamic Programming based eco-driving algorithm. We propose a parallelized framework that leverages the multi-core and multi-threaded architecture of modern CPUs. The framework is then deployed on a low-cost compute platform to offer a practical solution to the computational and financial barriers associated with integrating eco-driving technologies into modern Connected and Automated Vehicles (CAVs). This work demonstrates the potential for more accessible and widespread adoption of these technologies.",
+      "authors": [
+        "Dennis Kibalama",
+        "Mehmet Fatih Ozkan",
+        "Giorgio Rizzoni"
+      ]
+    }
+  ]
+}

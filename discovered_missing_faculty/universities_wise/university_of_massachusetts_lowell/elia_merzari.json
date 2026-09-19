@@ -1,0 +1,323 @@
+{
+  "faculty_name": "Elia Merzari",
+  "full_name": "Elia Merzari",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Massachusetts-Lowell",
+  "author_id": "A5046254414",
+  "works_count": 430,
+  "cited_by_count": 3237,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Nuclear reactor physics and engineering",
+      "count": 166
+    },
+    {
+      "topic": "Nuclear Engineering Thermal-Hydraulics",
+      "count": 130
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 95
+    },
+    {
+      "topic": "Heat transfer and supercritical fluids",
+      "count": 94
+    },
+    {
+      "topic": "Nuclear Materials and Properties",
+      "count": 64
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "NekRS, a GPU-accelerated spectral element Navier–Stokes solver",
+      "publication_year": 2022,
+      "publication_date": "2022-10-18",
+      "doi": "https://doi.org/10.1016/j.parco.2022.102982",
+      "venue": "Parallel Computing",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.parco.2022.102982",
+      "concepts": [
+        "Software portability",
+        "Computer science",
+        "Solver",
+        "Scalability",
+        "Computational science",
+        "Code (set theory)",
+        "Grid",
+        "Parallel computing"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paul Fischer",
+        "Stefan Kerkemeier",
+        "Misun Min",
+        "Yu-Hsiang Lan",
+        "Malachi Phillips",
+        "Thilina Rathnayake",
+        "Elia Merzari",
+        "Ananias Tomboulides",
+        "Ali Karakus",
+        "Noel Chalmers",
+        "Tim Warburton"
+      ]
+    },
+    {
+      "title": "Benchmark exercise for fluid flow simulations in a liquid metal fast reactor fuel assembly",
+      "publication_year": 2016,
+      "publication_date": "2016-01-17",
+      "doi": "https://doi.org/10.1016/j.nucengdes.2015.11.002",
+      "venue": "Nuclear Engineering and Design",
+      "type": "article",
+      "cited_by_count": 102,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S002954931500494X",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Nuclear engineering",
+        "Bundle",
+        "National laboratory",
+        "Benchmark (surveying)",
+        "Nuclear reactor core",
+        "Liquid metal",
+        "Nuclear reactor"
+      ],
+      "abstract": "",
+      "authors": [
+        "Elia Merzari",
+        "Paul Fischer",
+        "Huanxin Yuan",
+        "Katrien Van Tichelen",
+        "S. Keijers",
+        "Jeroen De Ridder",
+        "Joris Degroote",
+        "Jan Vierendeels",
+        "H. Doolaard",
+        "Vinay R. Gopala",
+        "F. Roelofs"
+      ]
+    },
+    {
+      "title": "Frontier: Exploring Exascale",
+      "publication_year": 2023,
+      "publication_date": "2023-11-11",
+      "doi": "https://doi.org/10.1145/3581784.3607089",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 91,
+      "is_oa": true,
+      "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3581784.3607089",
+      "concepts": [
+        "Exascale computing",
+        "Petascale computing",
+        "Computer science",
+        "Supercomputer",
+        "Frontier",
+        "Oak Ridge National Laboratory",
+        "Software deployment",
+        "Architecture"
+      ],
+      "abstract": "As the US Department of Energy (DOE) computing facilities began deploying petascale systems in 2008, DOE was already setting its sights on exascale. In that year, DARPA published a report on the feasibility of reaching exascale. The report authors identified several key challenges in the pursuit of exascale including power, memory, concurrency, and resiliency. That report informed the DOE's computing strategy for reaching exascale. With the deployment of Oak Ridge National Laboratory's Frontier supercomputer, we have officially entered the exascale era. In this paper, we discuss Frontier's architecture, how it addresses those challenges, and describe some early application results from Oak Ridge Leadership Computing Facility's Center of Excellence and the Exascale Computing Project.",
+      "authors": [
+        "Scott Atchley",
+        "Christopher Zimmer",
+        "John R. Lange",
+        "David E. Bernholdt",
+        "Veronica Melesse Vergara",
+        "Thomas L. Beck",
+        "Michael J. Brim",
+        "Reuben D. Budiardja",
+        "Sunita Chandrasekaran",
+        "Markus Eisenbach",
+        "Thomas Evans",
+        "Matthew Ezell",
+        "Nicholas Frontiere",
+        "Antigoni Georgiadou",
+        "Joseph Glenski",
+        "Philipp Grete",
+        "Steven Hamilton",
+        "John Holmen",
+        "Axel Huebl",
+        "Daniel Jacobson",
+        "Wayne Joubert",
+        "Kim H. McMahon",
+        "Elia Merzari",
+        "Stan Moore",
+        "Andrew Myers",
+        "Stephen Nichols",
+        "Sarp Oral",
+        "Thomas Papatheodore",
+        "Danny Pérez",
+        "David Rogers",
+        "Evan E. Schneider",
+        "Jean-Luc Vay",
+        "P. K. Yeung"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Development of MOSCATO: A CFD-Level Electrochemistry and Corrosion Simulator for Molten Salt Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-23",
+      "doi": "https://doi.org/10.1080/00295639.2026.2650682",
+      "venue": "Nuclear Science and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Molten salt",
+        "Materials science",
+        "Electrochemistry",
+        "Corrosion",
+        "Metallurgy",
+        "Nuclear engineering",
+        "Molten salt reactor",
+        "Salt (chemistry)"
+      ],
+      "abstract": "For both coolant and fueled variants of molten salt reactors (MSRs), the corrosion of structural materials is a significant challenge. The corrosion stems from chemical and electrochemical reactions initiated by fissile material, fission products, and impurities in the salt. Lower-fidelity models rely on empirical correlations for mass transfer, simplified lumped temperature profiles, and similar assumptions. They do not capture detailed spatial variations in complex geometries, creating the need for high-fidelity modeling to bridge this gap.As we approach the demonstration and possible deployment of MSRs in this decade, the development of a high-fidelity, high-performance simulator becomes imperative. To simulate the complex electrochemical environment and corrosion within molten salt systems, we have developed the Molten Salt Chemistry And TranspOrt (MOSCATO) code. This endeavor is comprised of three essential components. First, mass transfer equations are coupled with the Navier-Stokes equations in order to account for the transport of species in the salt. Second, the diffusion of alloy constituents, such as Cr, Fe, Ni, etc. is simulated within the structural metals. Third, t...",
+      "authors": [
+        "Haomin Yuan",
+        "Yu-Hsiang Lan",
+        "Misun Min",
+        "Dezhi Dai",
+        "Dillon Shaver",
+        "John Acierno",
+        "Michael Seneca",
+        "Elia Merzari",
+        "Sierra Tutwiler",
+        "Lane Carasik",
+        "Nathaniel Hoyt"
+      ]
+    },
+    {
+      "title": "Validation of NekRS pebble bed modeling for low flow scenarios",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "https://doi.org/10.1016/j.nucengdes.2025.114693",
+      "venue": "Nuclear Engineering and Design",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.nucengdes.2025.114693",
+      "concepts": [
+        "Pebble",
+        "Flow (mathematics)",
+        "Environmental science",
+        "Model validation",
+        "Geotechnical engineering",
+        "Flow conditions",
+        "Marine engineering",
+        "Engineering"
+      ],
+      "abstract": "This study validates the high-fidelity NekRS Large Eddy Simulation (LES) framework for modeling conjugate heat transfer in low-flow pebble bed reactor scenarios, using the SANA experiments as a benchmark. Verification began by comparing the MOOSE Net Radiation Method to a 1D analytical model for a tall-cavity case, yielding Nusselt numbers within 1% relative difference. Next, the NekRS P1 approximation was compared to MOOSE in a single-pebble case, where temperature and velocity profiles agreed within 5% relative difference. Validation proceeded with the 283-pebble bed experiments at Texas A&M, in which NekRS velocity profiles fairly matched experimental measurements despite uncertainties in pebble placements. Finally, full conjugate heat transfer simulations of the SANA pebble beds (5 kW helium–graphite and helium–alumina cases) were performed, with the optimized configuration producing a mean temperature error of 1.56%. The effective chamfer thermal conductivity (representing conductive contact between pebbles) introduced significant uncertainty in modeling the SANA experiments; further work will optimize this parameter based on a refined contact resistance model. Simulations ...",
+      "authors": [
+        "Michael Seneca",
+        "Haomin Yuan",
+        "Tri Nguyen",
+        "David Reger",
+        "Victor Coppo Leite",
+        "Luiz Aldeia",
+        "Joseph Seo",
+        "Seth Macias",
+        "Dezhi Dai",
+        "Elia Merzari",
+        "Yassin Hassan"
+      ]
+    },
+    {
+      "title": "Development of Thermal Radiation Modeling Capability in High-Order Spectral Element CFD code",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7163486",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7163486",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Computer science",
+        "Scalability",
+        "Thermal radiation",
+        "Computational science",
+        "Heat transfer",
+        "Radiation",
+        "Thermal"
+      ],
+      "abstract": "",
+      "authors": [
+        "H J Yuan",
+        "Dezhi Dai",
+        "Dillon Shaver",
+        "Yuhsiang Lan",
+        "Guilherme Gottems",
+        "Elia Merzari"
+      ]
+    },
+    {
+      "title": "High-fidelity simulation of molten salt natural circulation loops using the spectral element method",
+      "publication_year": 2025,
+      "publication_date": "2025-12-24",
+      "doi": "https://doi.org/10.1016/j.nucengdes.2025.114687",
+      "venue": "Nuclear Engineering and Design",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nusselt number",
+        "Mechanics",
+        "Natural circulation",
+        "Reynolds number",
+        "Buoyancy",
+        "Materials science",
+        "Heat transfer",
+        "Large eddy simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tri Nguyen",
+        "John Barton",
+        "Haomin Yuan",
+        "Casey Emler",
+        "Elia Merzari"
+      ]
+    },
+    {
+      "title": "Direct numerical simulation of a cantilevered rod experiment",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2025.110112",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Direct numerical simulation",
+        "Turbulence kinetic energy",
+        "Cantilever",
+        "Computer simulation",
+        "Anisotropy",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sean P. Bistany",
+        "Victor Coppo Leite",
+        "Carolina Bourdot Dutra",
+        "Sinan Okyay",
+        "Anshuman Chaube",
+        "Tri Q. Nguyen",
+        "Elia Merzari"
+      ]
+    }
+  ]
+}

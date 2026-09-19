@@ -1,0 +1,149 @@
+{
+  "faculty_name": "Asghar Esmaeeli",
+  "full_name": "Asghar Esmaeeli",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Southern Illinois University-Carbondale",
+  "author_id": "A5013915205",
+  "works_count": 100,
+  "cited_by_count": 4601,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 48
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 42
+    },
+    {
+      "topic": "Fluid Dynamics and Mixing",
+      "count": 23
+    },
+    {
+      "topic": "Power Transformer Diagnostics and Insulation",
+      "count": 16
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Front-Tracking Method for the Computations of Multiphase Flow",
+      "publication_year": 2001,
+      "publication_date": "2001-05-01",
+      "doi": "https://doi.org/10.1006/jcph.2001.6726",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 2174,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Multiphase flow",
+        "Level set method",
+        "Volume of fluid method",
+        "Flow (mathematics)",
+        "Advection",
+        "Surface tension",
+        "Boundary value problem"
+      ],
+      "abstract": "",
+      "authors": [
+        "Grétar Tryggvason",
+        "Bernard Bunner",
+        "Asghar Esmaeeli",
+        "Damir Jurić",
+        "Nabeel Al‐Rawahi",
+        "Warren Tauber",
+        "JungHyun Han",
+        "Selman Nas",
+        "Y.-J. Jan"
+      ]
+    },
+    {
+      "title": "Direct numerical simulations of gas/liquid multiphase flows",
+      "publication_year": 2006,
+      "publication_date": "2006-06-07",
+      "doi": "https://doi.org/10.1016/j.fluiddyn.2005.08.006",
+      "venue": "Fluid Dynamics Research",
+      "type": "article",
+      "cited_by_count": 723,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1016/j.fluiddyn.2005.08.006/pdf",
+      "concepts": [
+        "Bubble",
+        "Turbulence",
+        "Reynolds number",
+        "Mechanics",
+        "Laminar flow",
+        "Direct numerical simulation",
+        "Boiling",
+        "Multiphase flow"
+      ],
+      "abstract": "Direct numerical simulations of bubbly flows are reviewed and recent progress is discussed. Simulations, of homogeneous bubble distribution in fully periodic domains at relatively low Reynolds numbers have already yielded considerable insight into the dynamics of such flows. Many aspects of the evolution converge rapidly with the size of the systems and results for the rise velocity, the velocity fluctuations, as well as the average relative orientation of bubble pairs have been obtained. The challenge now is to examine bubbles at higher Reynolds numbers, bubbles in channels and confined geometry, and bubble interactions with turbulent flows. We briefly review numerical methods used for direct numerical simulations of multiphase flows, with a particular emphasis on methods that use the so-called \"one-field\" formulation of the governing equations, and then discuss studies of bubbles in periodic domains, along with recent work on wobbly bubbles, bubbles in laminar and turbulent channel flows, and bubble formation in boiling.",
+      "authors": [
+        "Grétar Tryggvason",
+        "Asghar Esmaeeli",
+        "Jiacai Lu",
+        "Souvik Biswas"
+      ]
+    },
+    {
+      "title": "Direct numerical simulations of bubbly flows. Part 1. Low Reynolds number arrays",
+      "publication_year": 1998,
+      "publication_date": "1998-12-25",
+      "doi": "https://doi.org/10.1017/s0022112098003176",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 285,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Bubble",
+        "Mechanics",
+        "Physics",
+        "Stokes number",
+        "Breakup",
+        "Weber number",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Direct numerical simulations of the motion of two- and three-dimensional buoyant bubbles in periodic domains are presented. The full Navier–Stokes equations are solved by a finite difference/front tracking method that allows a fully deformable interface between the bubbles and the ambient fluid and the inclusion of surface tension. The governing parameters are selected such that the average rise Reynolds number is O(1) and deformations of the bubbles are small. The rise velocity of a regular array of three-dimensional bubbles at different volume fractions agrees relatively well with the prediction of Sangani (1988) for Stokes flow. A regular array of two- and three-dimensional bubbles, however, is an unstable configuration and the breakup, and the subsequent bubble–bubble interactions take place by ‘drafting, kissing, and tumbling’. A comparison between a finite Reynolds number two-dimensional simulation with sixteen bubbles and a Stokes flow simulation shows that the finite Reynolds number array breaks up much faster. It is found that a freely evolving array of two-dimensional bubbles rises faster than a regular array and simulations with different numbers of two-dimensional bu...",
+      "authors": [
+        "Asghar Esmaeeli",
+        "Grétar Tryggvason"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Transient electrohydrodynamics of coaxial liquid columns in transverse electric fields",
+      "publication_year": 2026,
+      "publication_date": "2026-05-27",
+      "doi": "https://doi.org/10.1007/s00707-026-04725-2",
+      "venue": "Acta Mechanica",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Electrohydrodynamics",
+        "Transient (computer programming)",
+        "Solid mechanics",
+        "Coaxial",
+        "Electric field",
+        "Mechanics",
+        "Transverse plane",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pedram Pournaderi",
+        "Asghar Esmaeeli"
+      ]
+    }
+  ]
+}

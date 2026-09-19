@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Abdul A. Khan",
+  "full_name": "Abdul A. Khan",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Dayton",
+  "author_id": "A5101936909",
+  "works_count": 118,
+  "cited_by_count": 2251,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Hydraulic flow and structures",
+      "count": 37
+    },
+    {
+      "topic": "Hydrology and Sediment Transport Processes",
+      "count": 32
+    },
+    {
+      "topic": "Hydrology and Watershed Management Studies",
+      "count": 21
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 19
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stream water quality prediction using boosted regression tree and random forest models",
+      "publication_year": 2022,
+      "publication_date": "2022-01-20",
+      "doi": "https://doi.org/10.1007/s00477-021-02152-4",
+      "venue": "Stochastic Environmental Research and Risk Assessment",
+      "type": "article",
+      "cited_by_count": 179,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Watershed",
+        "Environmental science",
+        "Random forest",
+        "Water quality",
+        "Hydrology (agriculture)",
+        "Overfitting",
+        "Surface runoff",
+        "STREAMS"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ali O. Alnahit",
+        "Ashok K. Mishra",
+        "Abdul A. Khan"
+      ]
+    },
+    {
+      "title": "Upwind Conservative Scheme for the Saint Venant Equations",
+      "publication_year": 2004,
+      "publication_date": "2004-10-01",
+      "doi": "https://doi.org/10.1061/(asce)0733-9429(2004)130:10(977)",
+      "venue": "Journal of Hydraulic Engineering",
+      "type": "article",
+      "cited_by_count": 131,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Upwind scheme",
+        "Hydraulic jump",
+        "Shallow water equations",
+        "Classification of discontinuities",
+        "Finite volume method",
+        "Open-channel flow",
+        "Monotone polygon",
+        "Mathematics"
+      ],
+      "abstract": "An upwind conservative scheme with a weighted average water-surface-gradient approach is proposed to compute one-dimensional open channel flows. The numerical scheme is based on the control volume method. The intercell flux is computed by the one-sided upwind method. The water surface gradient is evaluated by the weighted average of both upwind and downwind gradients. The scheme is tested with various examples, including dam-break problems in channels with rectangular and triangular cross-sections, hydraulic jump, partial dam-break problem, overtopping flow, a steady flow over bump with hydraulic jump, and a dam-break flood case in a natural river valley. Comparisons between numerical and exact solutions or experimental data demonstrated that the proposed scheme is capable of accurately reproducing various open channel flows, including subcritical, supercritical, and transcritical flows. The scheme is inherently robust, stable, and monotone. The scheme does not require any special treatment, such as artificial viscosity or front tracking technique, to capture steep gradients or discontinuities in the solution.",
+      "authors": [
+        "Xinya Ying",
+        "Abdul A. Khan",
+        "Sam S. Y. Wang"
+      ]
+    },
+    {
+      "title": "Leaching of DOC, DN, and inorganic constituents from scrap tires",
+      "publication_year": 2015,
+      "publication_date": "2015-02-21",
+      "doi": "https://doi.org/10.1016/j.chemosphere.2015.01.042",
+      "venue": "Chemosphere",
+      "type": "article",
+      "cited_by_count": 119,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Leaching (pedology)",
+        "Scrap",
+        "Metal",
+        "Dissolved organic carbon",
+        "Environmental chemistry",
+        "Zinc",
+        "Natural rubber",
+        "Chemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Meric Selbes",
+        "Özge Yılmaz",
+        "Abdul A. Khan",
+        "Tanju Karanfil"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Probabilistic Sub‐Daily Streamflow Forecasting in Data‐Scarce Catchments Through a Zero‐Shot Inductive Transfer Learning Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1111/1752-1688.70115",
+      "venue": "JAWRA Journal of the American Water Resources Association",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1111/1752-1688.70115",
+      "concepts": [
+        "Hydrograph",
+        "Flood forecasting",
+        "Probabilistic logic",
+        "Computer science",
+        "Streamflow",
+        "Scalability",
+        "Flood myth",
+        "Generalization"
+      ],
+      "abstract": "ABSTRACT Forecasting sub‐daily streamflow in regions with limited discharge data, such as newly gauged or sparsely monitored catchments, poses challenges to Deep Learning (DL) models, which require large training datasets. These scenarios, known as Prediction in Newly Gauged Basins (PNB) or Prediction with Limited Data (PLD), require models that remain accurate even when local training data are limited. This study uses the Temporal Fusion Transformer (TFT), a DL model that captures complex dependencies and generates probabilistic forecasts, supporting hydrological decision‐making under uncertainty. A single TFT model trained on 15 diverse gauged catchments was evaluated for a zero‐shot generalization on 10 unseen catchments using hydrological, meteorological, and physical attributes (catchments located across the eastern and south‐eastern United States), simulating real‐world PNB/PLD conditions. Results showed that the TFT model outperformed the National Water Model in continuous hydrograph simulation and flood forecasting. It achieved higher accuracy (average NSE = 0.655 vs. 0.58 for NWMv3.0), with over 91% of observed values falling within its 95% prediction intervals. The mod...",
+      "authors": [
+        "Elnaz Heidari",
+        "Abdul A. Khan"
+      ]
+    },
+    {
+      "title": "Characterization of Rotary Atomizer Spray Geometry Under the Influence of a Propeller",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2700",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propeller",
+        "Nozzle",
+        "Spray characteristics",
+        "Spray nozzle",
+        "Plume",
+        "Downwash",
+        "Mechanics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Recent advancements in aerial spraying have driven a shift toward rotary atomizers on unmanned aerial vehicle platforms because they produce uniform droplet sizes at low flow rates with minimal clogging. However, the interaction between rotary atomizer plumes and UAV propeller wakes remains poorly understood. This study uses an optical spray patternator to characterize the three-dimensional spray geometry of a rotary atomizer operated beneath a single 17×7 APC propeller and a dual propeller configuration in the University of Dayton Low Speed Wind Tunnel Laboratory. Intensity based reconstructions quantify changes in spray shape, diameter, and droplet concentration as functions of nozzle rotational speed and distance from the nozzle. A single propeller contracts the natural umbrella shaped plume into a column but causes the high-intensity core to erode rapidly, producing a fragmented spray and a diffused low-density halo. The dual propeller configuration generates a stronger, more uniform downwash that preserves a broad cylindrical high-intensity core, reduced low droplet density zone, and keeps the energetic region closer to the spray center. These results show that multi propel...",
+      "authors": [
+        "Brock A. Grenwood",
+        "Abdul A. Khan",
+        "Megan Bender",
+        "Sidaard Gunasekaran"
+      ]
+    },
+    {
+      "title": "Flow-Label Trends in IPv6 Traffic: A 9-Year Analysis of a Dataset Collected in Japan",
+      "publication_year": 2025,
+      "publication_date": "2025-05-20",
+      "doi": "https://doi.org/10.1109/hpsr64165.2025.11038848",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "IPv6",
+        "Flow (mathematics)",
+        "Computer science",
+        "World Wide Web",
+        "The Internet",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "RFC 6437 introduces the 20-bit flow label field in the IPv6 header and recommends it to be used alongside source and destination IP addresses for efficient flow classification. A recent paper from Google authors explains how they have begun to use this field in their IPv6 network to select an alternative path, thereby preventing congestion or outages. However, there is no prior research investigating whether connections make use of this field on the Internet. In this paper, we present a comprehensive analysis of the 9-year MAWI dataset (2016-2024), the Internet traces gathered from a large backbone link in Japan, and examine whether the IPv6 flow label is indeed employed on the Internet. Our findings reveal an increasing upward trend in the adoption of the flow label field. In particular, this trend correlates with the use of QUIC, whose specification—different from TCP—explicitly repeats the recommendation to utilize the flow label.",
+      "authors": [
+        "Abdul A. Khan",
+        "Mahmudul Hasan",
+        "Safiqul Islam",
+        "Khondaker M. Salehin",
+        "Michael Welzl",
+        "Boning Feng",
+        "Eiji Oki"
+      ]
+    },
+    {
+      "title": "Leveraging Recurrent Neural Networks for Flood Prediction and Assessment",
+      "publication_year": 2025,
+      "publication_date": "2025-04-16",
+      "doi": "https://doi.org/10.3390/hydrology12040090",
+      "venue": "Hydrology",
+      "type": "article",
+      "cited_by_count": 12,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2306-5338/12/4/90/pdf?version=1744784437",
+      "concepts": [
+        "Artificial neural network",
+        "Flood myth",
+        "Environmental science",
+        "Computer science",
+        "Hydrology (agriculture)",
+        "Geology",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "abstract": "Recent progress in Artificial Intelligence and Machine Learning (AIML) has accelerated improvements in the prediction performance of many hydrological processes. Yet, flood prediction remains a challenging task due to its complex nature. Two common challenges afflicting the task are flood volatility and the sensitivity and complexity of flood generation attributes. This study explores the application of Recurrent Neural Networks (RNNs)—specifically Vanilla Recurrent Neural Networks (VRNNs), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU)—in flood prediction and assessment. By integrating catchment-specific hydrological and meteorological variables, the RNN models leverage sequential data processing to capture the temporal dynamics and seasonal patterns characteristic of flooding. These models were employed across diverse terrains, including mountainous watersheds in the state of South Carolina, USA, to examine their robustness and adaptability. To identify significant hydrological events for flash flood analysis, a discharge frequency analysis was conducted using the Pearson Type III distribution. The 1-year and 2-year return period flows were estimated based on th...",
+      "authors": [
+        "Elnaz Heidari",
+        "Vidya Samadi",
+        "Abdul A. Khan"
+      ]
+    },
+    {
+      "title": "Evaluation of Various Land Use Metrics for Enhancing Stream Water Quality Predictions",
+      "publication_year": 2025,
+      "publication_date": "2025-03-16",
+      "doi": "https://doi.org/10.3390/w17060849",
+      "venue": "Water",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/w17060849",
+      "concepts": [
+        "Water quality",
+        "Environmental science",
+        "Land use",
+        "Quality (philosophy)",
+        "Hydrology (agriculture)",
+        "Water resource management",
+        "Computer science",
+        "Environmental resource management"
+      ],
+      "abstract": "Water quality in streams is primarily affected by various land use practices. This study analyzes water quality data collected from the outlets of 113 watersheds across three South Atlantic states in the USA. The objective is to evaluate the relationship between different land use metrics and long-term stream water quality, specifically investigating whether incorporating the spatial proximity of various land uses to the stream and outlet can enhance predictions of stream water quality. To achieve this, four distinct metrics were utilized to assess their influence on stream water quality. The first metric, known as the Lumped method, assigns equal weight to all land uses. The second, the Inverse Distance Weights stream (IDWs), gives greater weight to land uses located closer to the stream. The third metric, the Inverse Distance Weights Outlet (IDWO), weights land uses according to their proximity to the watershed outlet. The final metric focuses on hydrologically sensitive areas (HSAs), which are areas within watersheds that generate the majority of runoff. The results indicated that the Lumped metric emphasizes the significance of forested lands, whereas the HSAs, IDWs, and IDW...",
+      "authors": [
+        "Ali O. Alnahit",
+        "Ashok K. Mishra",
+        "Abdul A. Khan"
+      ]
+    }
+  ]
+}

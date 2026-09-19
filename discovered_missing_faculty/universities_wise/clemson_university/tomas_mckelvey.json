@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Tomas McKelvey",
+  "full_name": "Tomas McKelvey",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Clemson University",
+  "author_id": "A5008266977",
+  "works_count": 328,
+  "cited_by_count": 4230,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Control Systems and Identification",
+      "count": 78
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 52
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 34
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 31
+    },
+    {
+      "topic": "Microwave Imaging and Scattering Analysis",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Subspace-based multivariable system identification from frequency response data",
+      "publication_year": 1996,
+      "publication_date": "1996-07-01",
+      "doi": "https://doi.org/10.1109/9.508900",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 537,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Subspace topology",
+        "Multivariable calculus",
+        "Frequency domain",
+        "Noise (video)",
+        "Algorithm",
+        "MIMO",
+        "Frequency response",
+        "System identification"
+      ],
+      "abstract": "Two noniterative subspace-based algorithms which identify linear, time-invariant MIMO (multi-input/multioutput) systems from frequency response data are presented. The algorithms are related to the recent time-domain subspace identification techniques. The first algorithm uses equidistantly, in frequency, spaced data and is strongly consistent under weak noise assumptions. The second algorithm uses arbitrary frequency spacing and is strongly consistent under more restrictive noise assumptions, promising results are obtained when the algorithms are applied to real frequency data originating from a large flexible structure.",
+      "authors": [
+        "Tomas McKelvey",
+        "Hüseyin Akçay",
+        "Lennart Ljung"
+      ]
+    },
+    {
+      "title": "Microwave-Based Stroke Diagnosis Making Global Prehospital Thrombolytic Treatment Possible",
+      "publication_year": 2014,
+      "publication_date": "2014-06-19",
+      "doi": "https://doi.org/10.1109/tbme.2014.2330554",
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 378,
+      "is_oa": true,
+      "oa_url": "http://publications.lib.chalmers.se/records/fulltext/207371/local_207371.pdf",
+      "concepts": [
+        "Medicine",
+        "Stroke (engine)",
+        "Antenna (radio)",
+        "Emergency medicine",
+        "Medical physics",
+        "Computer science",
+        "Engineering",
+        "Mechanical engineering"
+      ],
+      "abstract": "Here, we present two different brain diagnostic devices based on microwave technology and the associated two first proof-of-principle measurements that show that the systems can differentiate hemorrhagic from ischemic stroke in acute stroke patients, as well as differentiate hemorrhagic patients from healthy volunteers. The system was based on microwave scattering measurements with an antenna system worn on the head. Measurement data were analyzed with a machine-learning algorithm that is based on training using data from patients with a known condition. Computer tomography images were used as reference. The detection methodology was evaluated with the leave-one-out validation method combined with a Monte Carlo-based bootstrap step. The clinical motivation for this project is that ischemic stroke patients may receive acute thrombolytic treatment at hospitals, dramatically reducing or abolishing symptoms. A microwave system is suitable for prehospital use, and therefore has the potential to allow significantly earlier diagnosis and treatment than today.",
+      "authors": [
+        "Mikael Persson",
+        "Andreas Fhager",
+        "Hana Dobšíček Trefná",
+        "Yinan Yu",
+        "Tomas McKelvey",
+        "Göran Pegenius",
+        "Jan‐Erik Karlsson",
+        "Mikael Elam"
+      ]
+    },
+    {
+      "title": "Subspace identification from closed loop data",
+      "publication_year": 1996,
+      "publication_date": "1996-07-01",
+      "doi": "https://doi.org/10.1016/0165-1684(96)00054-0",
+      "venue": "Signal Processing",
+      "type": "article",
+      "cited_by_count": 177,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Humanities",
+        "Mathematics",
+        "Algorithm",
+        "Physics",
+        "Philosophy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lennart Ljung",
+        "Tomas McKelvey"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Statistical Analysis Of Target Parameter Estimation Using Passive Radar",
+      "publication_year": 2025,
+      "publication_date": "2025-12-14",
+      "doi": "https://doi.org/10.1109/camsap66162.2025.11423989",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.07948",
+      "concepts": [
+        "Clutter",
+        "Computer science",
+        "Channel (broadcasting)",
+        "Passive radar",
+        "Noise (video)",
+        "Radar",
+        "Radar tracker",
+        "Estimation theory"
+      ],
+      "abstract": "A passive radar system uses one or more so-called Illuminators of Opportunity (IO) to detect and localize targets. In such systems, a reference channel is often used at each receiving node to capture the transmitted IO signal, while targets are detected using the main surveillance channel. The purpose of the present contribution is to analyze a method for estimating the target parameters in such a system. Specifically, we quantify the additional error contribution due to not knowing the transmitted IO waveform perfectly. A sufficient condition for this error to be negligible as compared to errors due to clutter and noise in the surveillance channel is then given.",
+      "authors": [
+        "Mats Viberg",
+        "Daniele Gerosa",
+        "Tomas McKelvey",
+        "Thomas Eriksson"
+      ]
+    },
+    {
+      "title": "A Waveform Model for Bistatic Radar with Arbitrary Long Coherent Processing Interval",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.23919/eusipco63237.2025.11226246",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bistatic radar",
+        "Waveform",
+        "Computer science",
+        "Radar",
+        "Algorithm",
+        "Interval (graph theory)",
+        "Continuous-wave radar",
+        "Range (aeronautics)"
+      ],
+      "abstract": "A model for bistatic radar waveforms with an arbitrary long coherent processing interval (CPI) is presented. The model describes the received waveform in the time domain accounting for the varying propagation delay due to the bistatic range variation during the CPI. The model represents the received waveform, accounting for relative constant velocity motion between radar platforms and target. Traditional methods often simplify this effect, leading to performance losses that can become severe for long CPI. The proposed model supports arbitrary transmitted waveforms including continuous wave (CW) operation, long CPIs, and varying positions and velocities of the transmitter, receiver, and target. It also extends to multichannel receivers. The developed model can readily be used in simulations to quantify the performance loss when evaluating suboptimal detectors based on simplifying model assumption. Simulations demonstrate the use of the model to highlight the impact of target velocity and CPI length on the performance when using the classical approximate Kronecker structure (space, fast-time, slow-time) processing model. The introduced model pave the way for future research on dev...",
+      "authors": [
+        "Tomas McKelvey",
+        "Patrik Dammert"
+      ]
+    },
+    {
+      "title": "Optimal Reduced Rank Modeling for General Noise Using Nullspace Estimation",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.23919/eusipco63237.2025.11226493",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-29184",
+      "concepts": [
+        "Estimator",
+        "Mathematics",
+        "Noise (video)",
+        "Algorithm",
+        "Mathematical optimization",
+        "Iterative method",
+        "Rank (graph theory)",
+        "Applied mathematics"
+      ],
+      "abstract": "The problem of optimal reconstruction of a lowrank matrix subject to additive noise of arbitrary noise color is addressed. We propose a non-iterative method based on modeling the nullspace of the data. The proposed technique is shown to yield statistically efficient estimates at sufficiently high Signal-to-Noise Ratio. Yet, the computational complexity is significantly reduced compared to existing methods. The empirical efficiency is verified using simulated data. In more difficult scenarios, the proposed NullSpace Estimator (NSE) can be used to initialize an iterative approach, and in the studied cases just one iteration of Alternating Least-Squares (ALS) was found enough.",
+      "authors": [
+        "Mats Viberg",
+        "Tomas McKelvey"
+      ]
+    },
+    {
+      "title": "Mitigating melanin-induced bias in pulse oximetry: Optical, algorithmic, engineering, hardware and modeling tools",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1016/j.sbsr.2025.100876",
+      "venue": "Sensing and Bio-Sensing Research",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.sbsr.2025.100876",
+      "concepts": [
+        "Pulse oximetry",
+        "Computer science",
+        "Pulse (music)",
+        "Computer hardware",
+        "Psychology",
+        "Telecommunications",
+        "Psychiatry",
+        "Detector"
+      ],
+      "abstract": "Melanin, the primary determinant of skin pigmentation, absorbs light at wavelengths that can have significant impact on the accuracy of pulse oximetry and other optical biosensing methods. This narrative review examines key factors influencing melanin-dependent pulse oximetry inaccuracies, including optical interference in transmission and reflectance modes. These inaccuracies further highlight the need for use of standardized skin tone metrics in device testing and design such as the Monk Skin Tone scale and Individual Typology Angle for performance stratification. There are several approaches in development that hope to address the errors in pulse oximetry measurements on melanin-rich skin. These include algorithmic and engineering approaches such as multi-wavelength sensing, regression-based correction, and machine learning models demonstrating significant reductions in melanin-induced error. Advances in pulse oximeter hardware and testing are also considered, including tissue-mimicking phantoms, optimized light sources, sensor design, and wearable innovations. Modeling tools, particularly Monte Carlo simulations, are also reviewed for their role in sensor design, spectral op...",
+      "authors": [
+        "McKenzie Bradley",
+        "Sydnee Barrett",
+        "Tomas McKelvey",
+        "Jeremiah Carpenter",
+        "Delphine Dean"
+      ]
+    },
+    {
+      "title": "New Rapid Methods for Assessing the Production and Removal of Labile Organic Carbon in Water Treatment Using Fluorescence and Oxygen Measurements",
+      "publication_year": 2025,
+      "publication_date": "2025-03-28",
+      "doi": "https://doi.org/10.1021/acsestwater.5c00153",
+      "venue": "ACS ES&T Water",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1021/acsestwater.5c00153",
+      "concepts": [
+        "Oxygen",
+        "Fluorescence",
+        "Production (economics)",
+        "Environmental chemistry",
+        "Carbon fibers",
+        "Chemistry",
+        "Environmental science",
+        "Materials science"
+      ],
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Labile organic carbon is a major nutrient, controlling microbial activity in aquatic ecosystems and contributing to the global cycling of carbon. During the production and distribution of drinking water, labile carbon fractions often escape treatment, which threatens water quality and biostability. This study proposes and compares two rapid methods for monitoring the production and removal of labile organic carbon in freshwater. One method measures the consumption of oxygen by bacteria during their initial exponential growth phase and uses this to predict how much labile organic carbon is present. The other method uses an a priori model of the fluorescence composition of dissolved organic matter to estimate the relative amount of biodegradable carbon fractions. In water treatment plants and in lab-scale experiments, both methods showed selectivity for biodegradable fractions of natural organic matter and indicated similar changes in scale and direction when water samples were exposed to biodegradation, with higher precision for the fluorescence measurement (coefficient of variation ∼1.5%) compared to the oxygen method (coefficie...",
+      "authors": [
+        "Aina McEvoy",
+        "Catherine J. Paul",
+        "Oskar Modin",
+        "Amir Saeid Mohammadi",
+        "Tomas McKelvey",
+        "Kathleen R. Murphy"
+      ]
+    }
+  ]
+}

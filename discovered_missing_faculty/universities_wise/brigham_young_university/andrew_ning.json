@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Andrew Ning",
+  "full_name": "Andrew Ning",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Brigham Young University",
+  "author_id": "A5066505573",
+  "works_count": 207,
+  "cited_by_count": 3696,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 76
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 37
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 33
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 32
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Maximization of the annual energy production of wind power plants by optimization of layout and yaw-based wake control",
+      "publication_year": 2016,
+      "publication_date": "2016-05-24",
+      "doi": "https://doi.org/10.1002/we.1993",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 297,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.1993",
+      "concepts": [
+        "Wake",
+        "Wind power",
+        "Turbine",
+        "Engineering",
+        "Inflow",
+        "Wind speed",
+        "Rotor (electric)",
+        "Maximization"
+      ],
+      "abstract": "This paper presents a wind plant modeling and optimization tool that enables the maximization of wind plant annual energy production (AEP) using yaw-based wake steering control and layout changes. The tool is an extension of a wake engineering model describing the steady-state effects of yaw on wake velocity profiles and power productions of wind turbines in a wind plant. To make predictions of a wind plant's AEP, necessary extensions of the original wake model include coupling it with a detailed rotor model and a control policy for turbine blade pitch and rotor speed. This enables the prediction of power production with wake effects throughout a range of wind speeds. We use the tool to perform an example optimization study on a wind plant based on the Princess Amalia Wind Park. In this case study, combined optimization of layout and wake steering control increases AEP by 5%. The power gains from wake steering control are highest for region 1.5 inflow wind speeds, and they continue to be present to some extent for the above-rated inflow wind speeds. The results show that layout optimization and wake steering are complementary because significant AEP improvements can be achieved ...",
+      "authors": [
+        "Pieter Gebraad",
+        "Jared Thomas",
+        "Andrew Ning",
+        "Paul Fleming",
+        "Katherine Dykes"
+      ]
+    },
+    {
+      "title": "Wind plant system engineering through optimization of layout and yaw control",
+      "publication_year": 2015,
+      "publication_date": "2015-03-18",
+      "doi": "https://doi.org/10.1002/we.1836",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 268,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind power",
+        "Turbine",
+        "Control (management)",
+        "Engineering",
+        "Wind speed",
+        "Marine engineering",
+        "Control engineering",
+        "Automotive engineering"
+      ],
+      "abstract": "Abstract Recent research has demonstrated exciting potential for wind plant control systems to improve the cost of energy of wind plants. Wind plant controls seek to improve global wind plant performance over control systems in which each turbine optimizes only its individual performance by accounting for the way wind turbines interact through their wakes. Although these technologies can be applied to existing wind plants, it is probable that the maximum benefit would be derived by designing wind plants with these capabilities in mind. In this paper, we use system engineering approaches to perform coupled wind plant controls and position layout optimizations of a model wind plant. Using several cost metrics, we compare the results of this optimization to the original plant and to plants in which the control or layout is optimized separately or sequentially. Results demonstrate that the benefit of this coupled optimization can be substantial, but it depends on the particular constraints of the optimization. Copyright © 2015 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Paul Fleming",
+        "Andrew Ning",
+        "Pieter Gebraad",
+        "Katherine Dykes"
+      ]
+    },
+    {
+      "title": "A simple solution method for the blade element momentum equations with guaranteed convergence",
+      "publication_year": 2013,
+      "publication_date": "2013-06-17",
+      "doi": "https://doi.org/10.1002/we.1636",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 266,
+      "is_oa": true,
+      "oa_url": "https://scholarsarchive.byu.edu/facpub/1673",
+      "concepts": [
+        "Robustness (evolution)",
+        "Parameterized complexity",
+        "Rate of convergence",
+        "Convergence (economics)",
+        "Simple (philosophy)",
+        "Mathematics",
+        "Finite element method",
+        "Blade (archaeology)"
+      ],
+      "abstract": "ABSTRACT The blade element momentum (BEM) equations, though conceptually simple, can be challenging to solve reliably and efficiently with high precision. These requirements are particularly important for efficient rotor blade optimization that utilizes gradient‐based algorithms. Many solution approaches exist for numerically converging the axial and tangential induction factors. These methods all generally suffer from a lack of robustness in some regions of the rotor blade design space, or require significantly increased complexity to promote convergence. The approach described here allows for the BEM equations to be parameterized by one variable—the local inflow angle. This reduction is mathematically equivalent, but greatly simplifies the solution approach. Namely, it allows for the use of one‐dimensional root‐finding algorithms for which very robust and efficient algorithms exist. This paper also discusses an appropriate arrangement of the equation and corresponding bounds for the one‐dimensional search—intervals that bracket the solution and over which the function is well behaved. The result is a methodology for solving the BEM equations with guaranteed convergence and at ...",
+      "authors": [
+        "Andrew Ning"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Accelerating Ordinary Differential Equations Through Physics-Preserving Neural Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-05-04",
+      "doi": "https://digitalcommons.usu.edu/spacegrant/2026/all2026/5",
+      "venue": "Digital Commons - USU (Utah State University)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ode",
+        "Ordinary differential equation",
+        "Solver",
+        "Artificial neural network",
+        "Computer science",
+        "Trajectory",
+        "Applied mathematics",
+        "Differential equation"
+      ],
+      "abstract": "Numerical simulation of ordinary differential equations (ODEs) can be challenging when the system exhibits high accelerations and rapidly changing dynamics. Under these conditions the ODE solver often needs to take very small time steps in order to resolve the solution accurately, resulting in increased computational cost. In order to accelerate the simulation of these ODEs we present a novel methodology that uses a pseudo-invertible neural network to map system states into a high-dimensional latent space. The network is then trained so that the dynamics in this learned latent space are slow, and can be simulated with relatively few solver function calls. Unlike existing neural methods, the latent dynamic equations are not learned from trajectory data, but derived from the original system equations and the chain rule. This allows the method to generalize better than existing approaches because the derived equations are correct by construction. In this work, we derive latent state equations of motion for any general ODE, and describe the loss function used to enforce slow time evolution of the latent states. We then apply this technique to two example ODEs and show that these pro...",
+      "authors": [
+        "Andrew Tagg",
+        "Andrew Frandsen",
+        "Andrew Ning"
+      ]
+    },
+    {
+      "title": "Coupled Structural Model for the Gradient-Based Unsteady Optimization of a Wind Turbine Jacket, Tower, and Pile System",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7478525",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7478525",
+      "concepts": [
+        "Turbine",
+        "Substructure",
+        "Structural engineering",
+        "Limit (mathematics)",
+        "Coupling (piping)",
+        "Engineering",
+        "Tower",
+        "Marine engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Weston Pace",
+        "Andrew Ning"
+      ]
+    },
+    {
+      "title": "Prefetching Location-Based Metaverse Assets over Named Data Networking",
+      "publication_year": 2025,
+      "publication_date": "2025-09-30",
+      "doi": "https://doi.org/10.1109/nof66640.2025.11223322",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Instruction prefetch",
+        "Computer science",
+        "sync",
+        "Bandwidth (computing)",
+        "Latency (audio)",
+        "Set (abstract data type)",
+        "Namespace",
+        "Distributed computing"
+      ],
+      "abstract": "The Metaverse will emphasize the use of 3D, shared, spatial content. To meet Metaverse requirements, networks will evolve to incorporate edge computing and a shift toward information-centric approaches, like Named Data Networking (NDN). A shared Metaverse over NDN requires spatial assets to be synchronized between users via Sync. To ensure users experience low latency while also avoiding unnecessary bandwidth usage, a prefetching approach for assets is necessary. We develop a model and set of algorithms for a prefetching system for both Sync datasets and assets that uses levels of detail to reduce bandwidth usage. Our model validates our simulations, which demonstrate the benefits of our system in reducing unnecessary bandwidth usage relative to a naive prefetching approach while simultaneously maintaining a very high successful prefetch rate.",
+      "authors": [
+        "Duff C. Jones",
+        "Andrew Ning",
+        "Arshin Rezazadeh",
+        "Michael Katchabaw",
+        "Hanan Lutfiyya"
+      ]
+    },
+    {
+      "title": "Wind Turbine Rotor Design Using High-Fidelity Aerostructural Optimization",
+      "publication_year": 2025,
+      "publication_date": "2025-07-31",
+      "doi": "https://doi.org/10.2514/1.j064556",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotor (electric)",
+        "High fidelity",
+        "Turbine",
+        "Aerospace engineering",
+        "Wind power",
+        "Computer science",
+        "Marine engineering",
+        "Engineering"
+      ],
+      "abstract": "Large wind turbines yield more energy but demand careful aeroelastic blade design. Coupled multiphysics design strategies can reduce wind energy costs by exploiting fluid–structure interactions. This work presents the first high-fidelity aerostructural optimization study of a large wind turbine rotor. We use blade-resolved fluid dynamics and structural solvers in a monolithic gradient-based optimization framework to explore steady-state torque and blade mass tradeoffs. The coupled-adjoint approach computes gradients efficiently, enabling the optimization of over 100 structural and geometric parameters simultaneously. Our optimization study modifies a DTU 10 MW benchmark with a simplified structure and isotropic material properties. The tightly coupled optimizations increase torque by 14% while reducing rotor mass by 9% or reduce blade mass by 27% while maintaining torque. Blade-resolved models provide greater design freedom, enabling 5% higher mass reductions than conventional parameterizations at equal torque. This framework paves the way for more detailed high-fidelity optimization studies to complement conventional design approaches.",
+      "authors": [
+        "Marco Mangano",
+        "Sicheng He",
+        "Yingqian Liao",
+        "Denis-Gabriel Caprace",
+        "Andrew Ning",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "Introduction and comparison of novel deep learning and optimization approaches to analytical wake modeling of a tilted wind turbine",
+      "publication_year": 2025,
+      "publication_date": "2025-01-15",
+      "doi": "https://doi.org/10.5194/wes-2024-172",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/wes-2024-172",
+      "concepts": [
+        "Wake",
+        "Turbine",
+        "Aerospace engineering",
+        "Marine engineering",
+        "Computer science",
+        "Environmental science",
+        "Engineering",
+        "Meteorology"
+      ],
+      "abstract": "Abstract. This paper introduces innovative optimization and deep learning techniques to enhance the prediction of complex wake dynamics in the downstream wind velocity of tilted wind turbines. Traditional methods for calibrating the Bastankhah wake model often lead to increased errors in wind velocity distribution due to overfitting local wake characteristics. To address this, we propose an additional global optimization step to reduce errors in wind velocity predictions with respect to various wake parameters. Despite this improvement, the Bastankhah model's axisymmetric Gaussian wake shape limits its accuracy for complex wake structures. Therefore, we also propose a deep learning approach, which demonstrates promising results by accurately modeling complex wake shapes across a broader range of tilt angles with minimal computational cost. The deep learning approach achieves near-identical predictions to high-fidelity large-eddy simulations, representing a promising advancement in wake modeling.",
+      "authors": [
+        "James Cutler",
+        "Christopher J. Bay",
+        "Andrew Ning"
+      ]
+    }
+  ]
+}

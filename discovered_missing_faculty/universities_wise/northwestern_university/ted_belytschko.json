@@ -1,0 +1,246 @@
+{
+  "faculty_name": "Ted Belytschko",
+  "full_name": "Ted Belytschko",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Northwestern University",
+  "author_id": "A5036500320",
+  "works_count": 646,
+  "cited_by_count": 88879,
+  "h_index": 141,
+  "top_topics": [
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 261
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 126
+    },
+    {
+      "topic": "Fatigue and fracture mechanics",
+      "count": 99
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 81
+    },
+    {
+      "topic": "Geotechnical Engineering and Underground Structures",
+      "count": 69
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A finite element method for crack growth without remeshing",
+      "publication_year": 1999,
+      "publication_date": "1999-09-10",
+      "doi": "https://doi.org/10.1002/(sici)1097-0207(19990910)46:1<131::aid-nme726>3.0.co;2-j",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 6358,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-01004829/document",
+      "concepts": [
+        "Partition of unity",
+        "Finite element method",
+        "Robustness (evolution)",
+        "Extended finite element method",
+        "Polygon mesh",
+        "Partition (number theory)",
+        "Structural engineering",
+        "Displacement (psychology)"
+      ],
+      "abstract": "An improvement of a new technique for modelling cracks in the finite element framework is presented. A standard displacement-based approximation is enriched near a crack by incorporating both discontinuous fields and the near tip asymptotic fields through a partition of unity method. A methodology that constructs the enriched approximation from the interaction of the crack geometry with the mesh is developed. This technique allows the entire crack to be represented independently of the mesh, and so remeshing is not necessary to model crack growth. Numerical experiments are provided to demonstrate the utility and robustness of the proposed technique. Copyright © 1999 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Nicolas Mo�s",
+        "John E. Dolbow",
+        "Ted Belytschko"
+      ]
+    },
+    {
+      "title": "Element‐free Galerkin methods",
+      "publication_year": 1994,
+      "publication_date": "1994-01-30",
+      "doi": "https://doi.org/10.1002/nme.1620370205",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 5640,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Galerkin method",
+        "Finite element method",
+        "Mathematics",
+        "Moving least squares",
+        "Rate of convergence",
+        "Applied mathematics",
+        "Least-squares function approximation",
+        "Mathematical analysis"
+      ],
+      "abstract": "Abstract An element‐free Galerkin method which is applicable to arbitrary shapes but requires only nodal data is applied to elasticity and heat conduction problems. In this method, moving least‐squares interpolants are used to construct the trial and test functions for the variational principle (weak form); the dependent variable and its gradient are continuous in the entire domain. In contrast to an earlier formulation by Nayroles and coworkers, certain key differences are introduced in the implementation to increase its accuracy. The numerical examples in this paper show that with these modifications, the method does not exhibit any volumetric locking, the rate of convergence can exceed that of finite elements significantly and a high resolution of localized steep gradients can be achieved. The moving least‐squares interpolants and the choices of the weight function are also discussed in this paper.",
+      "authors": [
+        "Ted Belytschko",
+        "Ye Lu",
+        "Linxia Gu"
+      ]
+    },
+    {
+      "title": "Elastic crack growth in finite elements with minimal remeshing",
+      "publication_year": 1999,
+      "publication_date": "1999-06-20",
+      "doi": "https://doi.org/10.1002/(sici)1097-0207(19990620)45:5<601::aid-nme598>3.0.co;2-s",
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 4824,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Structural engineering",
+        "Extended finite element method",
+        "Range (aeronautics)",
+        "Mathematics",
+        "Materials science",
+        "Engineering",
+        "Composite material"
+      ],
+      "abstract": "A minimal remeshing finite element method for crack growth is presented. Discontinuous enrichment functions are added to the finite element approximation to account for the presence of the crack. This method allows the crack to be arbitrarily aligned within the mesh. For severely curved cracks, remeshing may be needed but only away from the crack tip where remeshing is much easier. Results are presented for a wide range of two-dimensional crack problems showing excellent accuracy. Copyright © 1999 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Ted Belytschko",
+        "T. Howard Black"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Front Matter",
+      "publication_year": 2023,
+      "publication_date": "2023-12-04",
+      "doi": "https://doi.org/10.1002/9781119811145.fmatter",
+      "venue": "",
+      "type": "paratext",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Front (military)",
+        "Physics",
+        "Meteorology"
+      ],
+      "abstract": "Meshfree and Particle Methods Provides thorough coverage of essential concepts and state-of-the-art developments in the field Meshfree and Particle Methods is the first book of its kind to combine comprehensive, up-to-date information on the fundamental theories and applications of meshfree methods with systematic guidance on practical coding implementation. Broad in scope and content, this unique volume provides readers with the knowledge necessary to perform research and solve challenging problems in nearly all fields of science and engineering using meshfree computational techniques. The authors provide detailed descriptions of essential issues in meshfree methods, as well as specific techniques to address them, while discussing a wide range of subjects and use cases. Topics include approximations in meshfree methods, nonlinear meshfree methods, essential boundary condition enforcement, quadrature in meshfree methods, strong form collocation methods, and more. Throughout the book, topics are integrated with descriptions of computer implementation and an open-source code (with a dedicated chapter for users) to illustrate the connection between the formulations discussed in the...",
+      "authors": [
+        "Ted Belytschko",
+        "J. S. Chen",
+        "Michael Hillman"
+      ]
+    },
+    {
+      "title": "Strong Form Collocation Meshfree Methods",
+      "publication_year": 2023,
+      "publication_date": "2023-12-04",
+      "doi": "https://doi.org/10.1002/9781119811145.ch9",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Collocation (remote sensing)",
+        "Collocation method",
+        "Singular boundary method",
+        "Boundary value problem",
+        "Orthogonal collocation",
+        "Galerkin method",
+        "Meshfree methods",
+        "Mathematics"
+      ],
+      "abstract": "With the smooth meshfree approximations of moving least squares, reproducing kernel, and radial basis functions in hand, partial differential equations (PDEs) can be solved directly using the strong form of the problem. This chapter introduces the general procedures for solving boundary value problems by evaluating the PDEs and associated boundary conditions at collocation points called the strong form collocation method. This approach precludes the complexity of numerical integration in Galerkin meshfree methods, and essential boundary conditions are also enforced without special techniques. The radial basis collocation method (RBCM), the reproducing kernel collocation method (RKCM), and the localized radial basis collocation method (L-RBCM) are presented, and their convergence properties and conditioning of the discrete systems are discussed. A gradient RKCM (GRKCM) is also introduced, which employs implicit gradients for enhanced computational efficiency and stability in RKCM, and its convergence properties are given. An overview of proper weighting of the essential and natural boundary conditions equations for optimal convergence is also provided in this chapter. Subdomain s...",
+      "authors": [
+        "Ted Belytschko",
+        "J. S. Chen",
+        "Michael Hillman"
+      ]
+    },
+    {
+      "title": "Introduction to Meshfree and Particle Methods",
+      "publication_year": 2023,
+      "publication_date": "2023-12-04",
+      "doi": "https://doi.org/10.1002/9781119811145.ch1",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/9781119811145.ch1",
+      "concepts": [
+        "Meshfree methods",
+        "Finite element method",
+        "Diffuse element method",
+        "Smoothed finite element method",
+        "Smoothness",
+        "Smoothed-particle hydrodynamics",
+        "Applied mathematics",
+        "Computer science"
+      ],
+      "abstract": "This chapter presents the history of the development of meshfree methods, starting from smoothed particle hydrodynamics and the generalized finite difference methods to the diffuse element method and the general meshfree approach for solving PDEs. The construction of the approximation in terms of nodal points without element or any adjoining connectivity defines a meshfree method, which is the primary distinction from the finite element method (FEM). The shape functions can also be constructed with arbitrary smoothness, and the orders of continuity and completeness can be made independent in most meshfree methods, which is opposed to FEM and isogeometric analysis. Furthermore, the arbitrary smoothness in the meshfree approximation allows the solution of PDEs by using the standard weak form and the strong form directly. These unique properties make meshfree methods more effective in solving problems with severe deformations without the difficulties of element distortion and entanglement, and adaptive refinement can be carried out straightforwardly compared to FEM. Demonstrations of meshfree modeling of various challenging engineering problems are presented, and the wide variety o...",
+      "authors": [
+        "Ted Belytschko",
+        "J. S. Chen",
+        "Michael Hillman"
+      ]
+    },
+    {
+      "title": "RKPM2D",
+      "publication_year": 2023,
+      "publication_date": "2023-12-04",
+      "doi": "https://doi.org/10.1002/9781119811145.ch10",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Meshfree methods",
+        "Partial differential equation",
+        "Subroutine",
+        "Computer science",
+        "Quadrature (astronomy)",
+        "Applied mathematics",
+        "MATLAB",
+        "Computation"
+      ],
+      "abstract": "This chapter details an open-source software for solving partial differential equations under the reproducing kernel particle method (RKPM) meshfree computational framework called RKPM2D. It provides implementation details, including treating essential boundary conditions using Nitsche's method and employing advanced nodal quadrature. The MATLAB environment is utilized, and two-dimensional elasticity is chosen as the model problem for familiarizing the reader with the numerical procedures, algorithms, and the potential for the extension to solve other physical problems using meshfree methods. The subroutines and associated algorithmic details of several critical meshfree computations are presented, such as the construction of shape functions, matrix equation assembly, and the domain integration of variational equations using variationally consistent and stabilized nodal integration. Comprehensive procedures for providing the input for the RKPM2D code are also given in this chapter. Finally, numerical examples for verification and validation of the performance of meshfree methods are given, along with the associated input to the code needed to produce the results.",
+      "authors": [
+        "Ted Belytschko",
+        "J. S. Chen",
+        "Michael Hillman"
+      ]
+    },
+    {
+      "title": "Quadrature in Meshfree Methods",
+      "publication_year": 2023,
+      "publication_date": "2023-12-04",
+      "doi": "https://doi.org/10.1002/9781119811145.ch6",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Meshfree methods",
+        "Quadrature (astronomy)",
+        "Mathematics",
+        "Computer science",
+        "Physics",
+        "Structural engineering",
+        "Finite element method",
+        "Engineering"
+      ],
+      "abstract": "Numerical quadrature plays an essential role in the stability and convergence of the Galerkin meshfree solution of partial differential equations. However, conventional Gauss quadrature on a background mesh yields significant integration error for arbitrary point distributions due to the mismatch of the supports of approximation functions and the integration cells, leading to suboptimal convergence. Gauss quadrature rules are also incompatible with the nature of meshfree methods where the evaluation of state and field variables at the nodal points is desirable, especially for extreme deformation problems. This chapter presents several stabilized and variationally consistent nodal integration methods. First, the integration constraints (ICs) are introduced as a sufficient condition for achieving optimal convergence in meshfree methods. A stabilized conforming nodal integration (SCNI) is then introduced, which employs strain smoothing to achieve the ICs. A variationally consistent integration (VCI) framework is then presented that can be viewed as an arbitrary order generalization of SCNI and the ICs and can be used for a uniform correction of any integration technique, including ...",
+      "authors": [
+        "Ted Belytschko",
+        "J. S. Chen",
+        "Michael Hillman"
+      ]
+    }
+  ]
+}

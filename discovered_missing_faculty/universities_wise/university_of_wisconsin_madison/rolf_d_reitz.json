@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Rolf D. Reitz",
+  "full_name": "Rolf D. Reitz",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Wisconsin-Madison",
+  "author_id": "A5055610449",
+  "works_count": 699,
+  "cited_by_count": 49907,
+  "h_index": 111,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 618
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 453
+    },
+    {
+      "topic": "Vehicle emissions and performance",
+      "count": 237
+    },
+    {
+      "topic": "Biodiesel Production and Applications",
+      "count": 204
+    },
+    {
+      "topic": "Catalytic Processes in Materials Science",
+      "count": 100
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turbulence Modeling of Internal Combustion Engines Using RNG κ-ε Models",
+      "publication_year": 1995,
+      "publication_date": "1995-01-01",
+      "doi": "https://doi.org/10.1080/00102209508907782",
+      "venue": "Combustion Science and Technology",
+      "type": "article",
+      "cited_by_count": 1732,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "K-epsilon turbulence model",
+        "Compressibility",
+        "Combustion",
+        "Flow (mathematics)",
+        "Diesel engine",
+        "Thermodynamics"
+      ],
+      "abstract": "The RNG κ-ε turbulence model derived by Yakhot and Orszag (1986) based on the Renormalization Group theory has been modified and applied to variable-density engine flows in the present study. The original RNG-based turbulence transport approximations were developed formally for an incompressible flow. In order to account for flow compressibility the RNG ε-equation is modified and closed through an isotropic rapid distortion analysis. Computations were made of engine compressing/expanding flows and the results were compared with available experimental observations in a production diesel engine geometry. The modified RNG κ-ε model was also applied to diesel spray combustion computations. It is shown that the use of the RNG model is warranted for spray combustion modeling since the ratio of the turbulent to mean-strain time scales is appreciable due to spray-generated mean flow gradients, and the model introduces a term to account for these effects. Large scale flow structures are predicted which are affected by the spray and the squish and are consistent with endoscope combustion images. The effects of flow compressibility on both non-reacting compressing/expanding flows and react...",
+      "authors": [
+        "Zhiyu Han",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "MODELING SPRAY ATOMIZATION WITH THE KELVIN-HELMHOLTZ/RAYLEIGH-TAYLOR HYBRID MODEL",
+      "publication_year": 1999,
+      "publication_date": "1999-01-01",
+      "doi": "https://doi.org/10.1615/atomizspr.v9.i6.40",
+      "venue": "Atomization and Sprays",
+      "type": "article",
+      "cited_by_count": 1396,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Mechanics",
+        "Diesel fuel",
+        "Gasoline",
+        "Rayleigh scattering",
+        "Materials science",
+        "Penetration (warfare)",
+        "Drop (telecommunication)"
+      ],
+      "abstract": "An improved spray atomization model is presented for use in both diesel and gasoline spray computations. The KH-RT hybrid atomization model consists of two distinct steps: primary and secondary breakup. The Kelvin-Helmholtz (KH) instability model was used to predict the primary breakup of the intact liquid core of a diesel jet. The secondary breakup of the individual drops was modeled with the Kelvin-Helmholtz model in conjunction with the Rayleigh-Taylor (RT) accelerative instability model. A modification was made to the KH-RT hybrid model that allowed the RT accelerative instabilities to affect all drops outside the intact liquid core of the jet. In previous implementations, only the drops beyond the breakup length are affected by RT breakup. Furthermore, a Rosin-Rammler distribution was used to specify the sizes of children drops after the RT breakup of a parent drop. The modifications made to the KH-RT hybrid model were found to give satisfactory results and to improve the temperature dependence of the liquid fuel penetration of the diesel sprays significantly. The KH-RT model was also found to predict the spray shape, penetration, and local SMD of hollow-cone sprays as well...",
+      "authors": [
+        "Rolf D. Reitz",
+        "Jennifer C. Beale"
+      ]
+    },
+    {
+      "title": "Review of high efficiency and clean reactivity controlled compression ignition (RCCI) combustion in internal combustion engines",
+      "publication_year": 2014,
+      "publication_date": "2014-08-02",
+      "doi": "https://doi.org/10.1016/j.pecs.2014.05.003",
+      "venue": "Progress in Energy and Combustion Science",
+      "type": "article",
+      "cited_by_count": 1209,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.pecs.2014.05.003",
+      "concepts": [
+        "Ignition system",
+        "Combustion",
+        "Homogeneous charge compression ignition",
+        "Compression (physics)",
+        "Reactivity (psychology)",
+        "Internal combustion engine",
+        "Waste management",
+        "Chemistry"
+      ],
+      "abstract": "This article covers key and representative developments in the area of high efficiency and clean internal combustion engines. The main objective is to highlight recent efforts to improve (IC) engine fuel efficiency and combustion. Rising fuel prices and stringent emission mandates have demanded cleaner combustion and increased fuel efficiency from the IC engine. This need for increased efficiency has placed compression ignition (CI) engines in the forefront compared to spark ignition (SI) engines. However, the relatively high emission of oxides of nitrogen (NO x ) and particulate matter (PM) emitted by diesel engines increases their cost and raises environmental barriers that have prevented their widespread use in certain markets. The desire to increase IC engine fuel efficiency while simultaneously meeting emissions mandates has thus motivated considerable research. This paper describes recent progress to improve the fuel efficiency of diesel or CI engines through advanced combustion and fuels research. In particular, a dual fuel engine combustion technology called “reactivity controlled compression ignition” (RCCI), which is a variant of Homogeneous Charge Compression Ignition...",
+      "authors": [
+        "Rolf D. Reitz",
+        "Ganesh Duraisamy"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Liquid Disintegration Regime of Plain Orifice, Swirl, and Effervescent Atomization: A Review",
+      "publication_year": 2025,
+      "publication_date": "2025-12-31",
+      "doi": "https://doi.org/10.30880/ijie.2025.17.09.007",
+      "venue": "International Journal of Integrated Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.30880/ijie.2025.17.09.007",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Metallurgy",
+        "Mineralogy",
+        "Forensic engineering",
+        "Materials testing",
+        "Thermodynamics",
+        "Liquid phase"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zulkifli Abdul Ghaffar",
+        "Salmiah Kasolang",
+        "Ahmad Hussein Abdul Hamid",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "Multigrid laminar flame calculations using sparser analytical Jacobians, parallel iterative solvers, and hybrid integration",
+      "publication_year": 2025,
+      "publication_date": "2025-03-14",
+      "doi": "https://doi.org/10.1080/13647830.2025.2477717",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Multigrid method",
+        "Computer science",
+        "Iterative method",
+        "Applied mathematics",
+        "Mechanics",
+        "Algorithm",
+        "Mathematics"
+      ],
+      "abstract": "We propose a novel solution method for one-dimensional laminar flames, with the aim to be fast and robust enough that laminar flame speed calculations can be included in on-the-fly data-driven reaction mechanism development methods. A parallel flame solver strategy was developed and studied. The solver features a hybrid transient/steady-state non-linear solution method, common to flame solvers, with sparse Analytical derivatives for both forms, and is parallelised using MPI. A multi-grid approach is employed: the solution is initialised on a very coarse grid with 6 points and is then refined in regions of large gradients and curvature until grid convergence is reached. A novel, sparser approximate Jacobian formulation is proposed, which tailors well with zero-fillin incomplete LU matrix preconditioning and is successfully employed across operating conditions and reaction mechanism sizes. A variable Lewis number ‘diffusion-in-air’ formulation is also proposed to mitigate the cost of evaluating diffusion coefficients on large mechanisms, minimising model error. The present solver achieves near-linear scaling of computational cost versus reaction mechanism size. The comparison agai...",
+      "authors": [
+        "Federico Perini",
+        "Niccolò Fiorini",
+        "Lapo Cheli",
+        "Giovanni Vichi",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "Progress in knock combustion modeling of spark ignition engines",
+      "publication_year": 2024,
+      "publication_date": "2024-11-18",
+      "doi": "https://doi.org/10.1016/j.apenergy.2024.124852",
+      "venue": "Applied Energy",
+      "type": "article",
+      "cited_by_count": 16,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "SPARK (programming language)",
+        "Ignition system",
+        "Engine knocking",
+        "Combustion",
+        "Automotive engineering",
+        "Homogeneous charge compression ignition",
+        "Spark-ignition engine",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Feifan Ji",
+        "Shuo Meng",
+        "Zhiyu Han",
+        "Guangyu Dong",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "A RNG k-ε model with application to diesel combustion modeling",
+      "publication_year": 2024,
+      "publication_date": "2024-09-06",
+      "doi": "https://doi.org/10.1201/9780203735138-154",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diesel fuel",
+        "Environmental science",
+        "Automotive engineering",
+        "Engineering"
+      ],
+      "abstract": "A modified RNG k-ε turbulence model has been implemented in the KIVA-II computer code and applied to diesel combustion computations. The modifications account for effects of non-zero velocity dilatation on turbulence dissipation for density-variable engine flows. Computations were made of the in-cylinder processes in a Caterpillar engine and a Tacom engine with the use of both the modified RNG k-ε model and a traditional k-ε model. The RNG approach produces smaller turbulent viscosity than the traditional k-ε model does, which was found to be important for accurate predictions of spray combustion. Large scale flow structures with higher local gas temperatures were predicted with the use of the present turbulence model. With the improvement of flow modeling, better agreements between measured and calculated cylinder pressures, heat release rates and soot and NOx emissions were obtained over the range of injection timings and load considered. Quantitatively improved predictions of NOx formation in both the engines were also achieved due to the extreme sensitivity of NOx to the local gas temperatures.",
+      "authors": [
+        "Zhiyu Han",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "An Optimized, Data-Driven Reaction Mechanism for Dual-Fuel Combustion of Ammonia and Diesel Primary Reference Fuels",
+      "publication_year": 2023,
+      "publication_date": "2023-09-29",
+      "doi": "https://doi.org/10.4271/2023-32-0101",
+      "venue": "SAE International Journal of Advances and Current Practices in Mobility",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diesel fuel",
+        "Combustion",
+        "Ignition system",
+        "Process engineering",
+        "Chemistry",
+        "Computer science",
+        "Automotive engineering",
+        "Thermodynamics"
+      ],
+      "abstract": "The possibility to operate current diesel engines in dual-fuel mode with the addition of an alternative fuel is fundamental to accelerate the energy transition to achieve carbon neutrality. The simulation of the dual- fuel combustion process with 0D/1D combustion models is fundamental for the performance prediction, but still particularly challenging, due to chemical interactions of the mixture. The authors defined a novel data-driven workflow for the development of combustion reaction mechanisms and used it to generate a dual-fuel mechanism for Ammonia and Diesel Primary Reference Fuels (DPRF) suitable for efficient combustion simulations in heavy duty engines, with variable cetane number Diesel fuels. A baseline reaction mechanism was created by merging the detailed ammonia mechanism by Glarborg et al. with reaction pathways for n- hexadecane and 2,2,4,4,6,8,8-heptamethylnonane from a well-established multi-component fuel mechanism. To define its target validity space, a standardized database of experimental measurements was developed which covers ignition delay times and species concentration profiles in shock tubes, rapid compression machines, and jet stirred reactors. Stand...",
+      "authors": [
+        "Federico Perini",
+        "Rolf D. Reitz",
+        "Niccolò Fiorini",
+        "Alessandro Innocenti",
+        "Matteo Latinov",
+        "Giovanni Vichi"
+      ]
+    }
+  ]
+}

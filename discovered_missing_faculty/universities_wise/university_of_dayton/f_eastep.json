@@ -1,0 +1,119 @@
+{
+  "faculty_name": "F. Eastep",
+  "full_name": "F. Eastep",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Dayton",
+  "author_id": "A5111621825",
+  "works_count": 87,
+  "cited_by_count": 1173,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 38
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 28
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 17
+    },
+    {
+      "topic": "Composite Structure Analysis and Optimization",
+      "count": 16
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic and Aeroelastic Characteristics of Wings with Conformal Control Surfaces for Morphing Aircraft",
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "doi": "https://doi.org/10.2514/2.3062",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 172,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Morphing",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Wing",
+        "Flight control surfaces",
+        "Conformal map",
+        "Airfoil"
+      ],
+      "abstract": "Investigations are conducted on lifting surfaces with conventional and conformal trailing-edge control surfaces. The Sohngen inversion formula is used with the thin-airfoil integral equation to determine the aerodynamic pressure for various control surface chord-to-airfoil chord ratios. Comparisons to a conventional control surface show increases in lift and pitching moment of the airfoil with a conformal control surface. Aerodynamic pressure distributions acting on a wing with control surfaces are determined with the vortex lattice technique. Predicted aerodynamic pressures and roll moments are compared to available wind-tunnel data and provide a more general understanding of theaerodynamicbehavior observed there. Roll performance of a rectangular wing is determined for various control surface chord-to-wing chord ratios. It is found that the maximum roll rate is greater for a wing with a conformal control surface, but has a lower reversal dynamic pressure than the wing with a conventional control surface. The aerodynamic and aeroelastic results obtained from this investigation provide some insight for wings designed with conformal control surfaces.",
+      "authors": [
+        "Brian Sanders",
+        "F. Eastep",
+        "Edwin E. Forster"
+      ]
+    },
+    {
+      "title": "Numerical Analysis of Store-Induced Limit-Cycle Oscillation",
+      "publication_year": 2004,
+      "publication_date": "2004-11-01",
+      "doi": "https://doi.org/10.2514/1.404",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 89,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Oscillation (cell signaling)",
+        "Limit (mathematics)",
+        "Limit cycle",
+        "Numerical analysis",
+        "Mechanics",
+        "Physics",
+        "Aerospace engineering",
+        "Mathematics"
+      ],
+      "abstract": "Store-induced limit-cycle oscillation of a rectangular wing with tip store in transonic flow is simulated using a variety of mathematical models for the flowfield: transonic small-disturbance theory (with and without inclusion of store aerodynamics) and transonic small-disturbance theory with interactive boundary layer (without inclusion of store aerodynamics). For the conditions investigated, assuming inviscid flow, limit-cycle oscillations are observed to occur as a result of a weakly subcritical Hopf bifurcation and are obtained at speeds lower than those predicted 1) nonlinearly for clean-wing flutter and 2) linearly for wing/store flutter. The ability of transonic small-disturbance theory to predict the occurrence and strength of this type of limit-cycle oscillation is compared for the different models. Differences in unmatched and matched aeroelastic analysis are described. Solutions computed for the clean rectangular wing are compared to those computed with the Euler equations for a case of static aeroelastic behavior and for a case of forced, rigid-wing oscillation at Mach 0.92.",
+      "authors": [
+        "Philip Beran",
+        "N. S. Khot",
+        "F. Eastep",
+        "Richard Snyder",
+        "Jeffrey Zweber"
+      ]
+    },
+    {
+      "title": "Aeroelastic Tailoring of Composite Structures",
+      "publication_year": 1999,
+      "publication_date": "1999-11-01",
+      "doi": "https://doi.org/10.2514/2.2546",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 80,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Composite number",
+        "Structural engineering",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Aileron",
+        "Materials science",
+        "Computer science"
+      ],
+      "abstract": "A wing-design optimization study is conducted on a composite wing. The objective is to evaluate the effect of the compositelayup orientation on theoptimized weight while satisfying constraints on strength, roll-reversalvelocity, and e utter velocity. The wing optimization studies are presented with the composite layups oriented at 5-deg increments up to § 20 deg from the midspar of the wing. The multidisciplinary optimization system, ASTROS, was used in the design study. This study, although not conclusive, indicates that optimal designs when subjected to multiple structural constraints are relatively insensitive to the orientation of the laminate layup. I. Introduction M ULTIDISCIPLINARYdesign optimization (MDO)hasbeen the subject of numerous investigations in recent years. This technology push is primarily attributed to the rapid growth in speed, data transfer,and storage capabilities of modern computers. Itis anticipated that in a few years the speed of computation may surpass the Ge ops/s range with similar improvements in memory devices. The computer’ s capabilities are doubling or tripling in a relatively short time, while the cost of computation and information processing...",
+      "authors": [
+        "F. Eastep",
+        "Victoria Tischler",
+        "V. B. Venkayya",
+        "N. S. Khot"
+      ]
+    }
+  ],
+  "recent_works": []
+}

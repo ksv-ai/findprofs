@@ -1,0 +1,255 @@
+{
+  "faculty_name": "William D. Henshaw",
+  "full_name": "William D. Henshaw",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5111584732",
+  "works_count": 164,
+  "cited_by_count": 3818,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 68
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 50
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 24
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 22
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Composite overlapping meshes for the solution of partial differential equations",
+      "publication_year": 1990,
+      "publication_date": "1990-09-01",
+      "doi": "https://doi.org/10.1016/0021-9991(90)90196-8",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 541,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Partial differential equation",
+        "Polygon mesh",
+        "Grid",
+        "Interpolation (computer graphics)",
+        "Composite number",
+        "Mesh generation",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "G. Chesshire",
+        "William D. Henshaw"
+      ]
+    },
+    {
+      "title": "A Fourth-Order Accurate Method for the Incompressible Navier-Stokes Equations on Overlapping Grids",
+      "publication_year": 1994,
+      "publication_date": "1994-07-01",
+      "doi": "https://doi.org/10.1006/jcph.1994.1114",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 258,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Multigrid method",
+        "Mathematics",
+        "Poisson's equation",
+        "Pressure-correction method",
+        "Navier–Stokes equations",
+        "Mathematical analysis",
+        "Compressibility"
+      ],
+      "abstract": "",
+      "authors": [
+        "William D. Henshaw"
+      ]
+    },
+    {
+      "title": "Moving overlapping grids with adaptive mesh refinement for high-speed reactive and non-reactive flow",
+      "publication_year": 2006,
+      "publication_date": "2006-02-15",
+      "doi": "https://doi.org/10.1016/j.jcp.2006.01.005",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 125,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/886916",
+      "concepts": [
+        "Discretization",
+        "Euler equations",
+        "Adaptive mesh refinement",
+        "Grid",
+        "Mathematics",
+        "Boundary value problem",
+        "Cartesian coordinate system",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "William D. Henshaw",
+        "Donald W. Schwendeman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "EigenWave: An optimal O(N) method for computing eigenvalues and eigenvectors by time-filtering the wave equation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-14",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114758",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Multigrid method",
+        "Mathematics",
+        "Computation",
+        "Wave equation",
+        "Mathematical analysis",
+        "Applied mathematics",
+        "Boundary value problem"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniel Appelö",
+        "Jeffrey W. Banks",
+        "William D. Henshaw",
+        "Ngan Le",
+        "Donald W. Schwendeman"
+      ]
+    },
+    {
+      "title": "A rule of thumb for choosing points-per-wavelength for finite difference approximations of Helmholtz problems",
+      "publication_year": 2026,
+      "publication_date": "2026-01-23",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114703",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rule of thumb",
+        "Mathematics",
+        "Helmholtz free energy",
+        "Helmholtz equation",
+        "Applied mathematics",
+        "Simple (philosophy)",
+        "Finite difference",
+        "Approximation error"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniel Appelö",
+        "Jeffrey W. Banks",
+        "William D. Henshaw",
+        "Donald W. Schwendeman"
+      ]
+    },
+    {
+      "title": "On the Coefficients in Finite Difference Series Expansions of Derivatives",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1137/25m1731782",
+      "venue": "SIAM Journal on Numerical Analysis",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Mathematical analysis",
+        "Finite difference",
+        "Finite difference method",
+        "Applied mathematics",
+        "Series (stratigraphy)",
+        "Series expansion",
+        "Finite difference scheme"
+      ],
+      "abstract": "Abstract. The formulation of finite difference approximations is a classical problem in numerical analysis. In this article, we consider difference approximations that are based on a series expansion in powers of the second undivided difference. Each additional term in the series increases the order of accuracy by two. These expansions are useful in a variety of contexts such as in the development of modified equation schemes, the design of high-order accurate energy stable discretizations, and error analysis of certain finite element or finite difference schemes. Here, we provide closed form expressions for the coefficients in the series expansions for derivatives of all orders. We also provide some short recursions defining the series coefficients, and formulae for the stencil coefficients in standard difference approximations. The series expansions are used to show some useful properties of the Fourier symbols of difference approximations and to derive rules of thumb for the number of points-per-wavelength needed to achieve a given error tolerance when solving wave propagation problems involving higher spatial derivatives.",
+      "authors": [
+        "Jeffrey W. Banks",
+        "William D. Henshaw"
+      ]
+    },
+    {
+      "title": "A Multi-Frequency Helmholtz Solver Based on the WaveHoltz Algorithm",
+      "publication_year": 2025,
+      "publication_date": "2025-07-31",
+      "doi": "https://doi.org/10.48550/arxiv.2507.23613",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.23613",
+      "concepts": [
+        "Helmholtz equation",
+        "Discretization",
+        "Solver",
+        "Mathematics",
+        "Helmholtz free energy",
+        "Algorithm",
+        "Convergence (economics)",
+        "Applied mathematics"
+      ],
+      "abstract": "We develop and analyze a new approach for simultaneously computing multiple solutions to the Helmholtz equation for different frequencies and different forcing functions. The new Multi-Frequency WaveHoltz (MFWH) algorithm is an extension of the original WaveHoltz method and both are based on time-filtering solutions to an associated wave equation. With MFWH, the different Helmholtz solutions are computed simultaneously by solving a single wave equation combined with multiple time filters. The MFWH algorithm defines a fixed-point iteration which can be accelerated with Krylov methods such as GMRES. The solution of the wave equation can be efficiently solved with either explicit time-stepping or implicit time-stepping using as few as five time-steps per period. When combined with an $O(N)$ solver for the implicit equations, such a multigrid, the scheme has an $O(N)$ solution cost when the frequencies are fixed and the number of grid points $N$ increases. High-order accurate approximations in space are used together with second-order accurate approximations in time. We show how to remove time discretization errors so that the MFWH solutions converge to the corresponding solutions t...",
+      "authors": [
+        "Francis Appiah",
+        "Daniel Appelö",
+        "Jeffrey W. Banks",
+        "Cassandra Carrick",
+        "William D. Henshaw",
+        "Donald W. Schwendeman"
+      ]
+    },
+    {
+      "title": "EigenWave: An Optimal O(N) Method for Computing Eigenvalues and Eigenvectors by Time-Filtering the Wave Equation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-24",
+      "doi": "https://doi.org/10.48550/arxiv.2507.18282",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.18282",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Mathematics",
+        "Multigrid method",
+        "Computation",
+        "Mathematical analysis",
+        "Wave equation",
+        "Applied mathematics",
+        "Laplace operator"
+      ],
+      "abstract": "An algorithm named EigenWave is described to compute eigenvalues and eigenvectors of elliptic boundary value problems. The algorithm, based on the recently developed WaveHoltz scheme, solves a related time-dependent wave equation as part of an iteration. At each iteration, the solution to the wave equation is filtered in time. As the iteration progresses, the filtered solution generally contains relatively larger and larger proportions of eigenmodes whose eigenvalues are near a chosen target frequency (target eigenvalue). The ability to choose an arbitrary target frequency enables the computation of eigenvalues anywhere in the spectrum, without the need to invert an indefinite matrix, as is common with other approaches. Furthermore, the iteration can be embedded within a matrix-free Arnoldi algorithm, which enables the efficient computation of multiple eigenpairs near the target frequency. For efficiency, the time-dependent wave equation can be solved with implicit time-stepping and only about $10$ time-steps per-period are needed, independent of the mesh spacing. When the (definite) implicit time-stepping equations are solved with a multigrid algorithm, the cost of the resultin...",
+      "authors": [
+        "Daniel Appelö",
+        "Jeffrey W. Banks",
+        "William D. Henshaw",
+        "Nam T. P. Le",
+        "Donald W. Schwendeman"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "faculty_name": "Edmund B. Webb",
+  "full_name": "Edmund B. Webb",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Lehigh University",
+  "author_id": "A5054995190",
+  "works_count": 121,
+  "cited_by_count": 1938,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Surface Modification and Superhydrophobicity",
+      "count": 21
+    },
+    {
+      "topic": "nanoparticles nucleation surface interactions",
+      "count": 21
+    },
+    {
+      "topic": "Blood properties and coagulation",
+      "count": 15
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 12
+    },
+    {
+      "topic": "Platelet Disorders and Treatments",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Spreading dynamics of polymer nanodroplets",
+      "publication_year": 2003,
+      "publication_date": "2003-12-30",
+      "doi": "https://doi.org/10.1103/physreve.68.061603",
+      "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+      "type": "article",
+      "cited_by_count": 108,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/cond-mat/0308165",
+      "concepts": [
+        "Dissipative particle dynamics",
+        "Thermostat",
+        "Langevin dynamics",
+        "Polymer",
+        "Molecular dynamics",
+        "Materials science",
+        "Chemical physics",
+        "Monomer"
+      ],
+      "abstract": "The spreading of polymer droplets is studied using molecular dynamics simulations. To study the dynamics of both the precursor foot and the bulk droplet, large hemispherical drops of 200 000 monomers are simulated using a bead-spring model for polymers of chain length 10, 20, and 40 monomers per chain. We compare spreading on flat and atomistic surfaces, chain length effects, and different applications of the Langevin and dissipative particle dynamics thermostats. We find diffusive behavior for the precursor foot and good agreement with the molecular kinetic model of droplet spreading using both flat and atomistic surfaces. Despite the large system size and long simulation time relative to previous simulations, we find that even larger systems are required to observe hydrodynamic behavior in the hemispherical spreading droplet.",
+      "authors": [
+        "David R. Heine",
+        "Gary S. Grest",
+        "Edmund B. Webb"
+      ]
+    },
+    {
+      "title": "Precursor Film Controlled Wetting of Pb on Cu",
+      "publication_year": 2003,
+      "publication_date": "2003-12-02",
+      "doi": "https://doi.org/10.1103/physrevlett.91.236102",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 101,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wetting",
+        "Kinetics",
+        "Materials science",
+        "Drop (telecommunication)",
+        "Alloy",
+        "Copper",
+        "Chemical engineering",
+        "Solid surface"
+      ],
+      "abstract": "Wetting in a system where the kinetics of drop spreading are controlled by the rate of formation of a precursor film is modeled for the first time at the atomistic scale. Molecular dynamics simulations of Pb(l) wetting Cu(111) and Cu(100) show that a precursor film of atomic thickness evolves and spreads diffusively. This precursor film spreads significantly faster on Cu(111) than on Cu(100). For Cu(100), the kinetics of drop spreading are dramatically decreased by slow advancement of the precursor film. Slow precursor film kinetics on Cu(100) are partly due to the formation of a surface alloy at the solid-liquid interface which does not occur on Cu(111).",
+      "authors": [
+        "Edmund B. Webb",
+        "Gary S. Grest",
+        "David R. Heine"
+      ]
+    },
+    {
+      "title": "Thin Film Compressive Stresses due to Adatom Insertion into Grain Boundaries",
+      "publication_year": 2007,
+      "publication_date": "2007-07-19",
+      "doi": "https://doi.org/10.1103/physrevlett.99.036102",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 93,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Grain boundary",
+        "Crystallite",
+        "Compressive strength",
+        "Stress (linguistics)",
+        "Grain size",
+        "Composite material",
+        "Condensed matter physics"
+      ],
+      "abstract": "Atomic simulations of the growth of polycrystalline Ni demonstrate that deposited atoms incorporate into the film at boundaries, resulting in compressive stress generation. Incorporated atoms can also leave the boundaries and thus relieve compressive stress. This leads to a complex interplay between growth stress, adatom incorporation, and surface structure. A simple, theoretical model that accounts for grain size effects is proposed and is in good agreement with simulation results.",
+      "authors": [
+        "Chun‐Wei Pao",
+        "Stephen M. Foiles",
+        "Edmund B. Webb",
+        "David J. Srolovitz",
+        "Jerrold A. Floro"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Development of AMBER-compliant transferable force field parameters for polytetrafluoroethylene",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1515/chem-2024-0072",
+      "venue": "Open Chemistry",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1515/chem-2024-0072",
+      "concepts": [
+        "van der Waals force",
+        "Force field (fiction)",
+        "Dihedral angle",
+        "Molecular dynamics",
+        "Density functional theory",
+        "Dispersion (optics)",
+        "Wavenumber",
+        "Polytetrafluoroethylene"
+      ],
+      "abstract": "Abstract New transferable parameters for polytetrafluoroethylene (PTFE) compatible with the Assisted Model Building with Energy Refinement (AMBER) force field were developed by including many conformational states to improve accuracy. The Austin–Frisch–Petersson functional with dispersion hybrid density functional theory, advantageous for treating dispersion, was used to obtain quantum mechanical reference data. The restrained electrostatic potential method was used to compute the partial charges. The bonds, angles, and dihedral parameters were obtained via Paramfit software fitted to quantum mechanical data. The optimization of van der Waals parameters was obtained in the condensed phase through molecular dynamics simulations and the simplex method. These parameters were transferred to various molecular weights of PTFE assembly systems to calculate the density, radial distribution functions, power spectrum, and specific heat capacity. The highest percent error in density was 1.4% for the modeled PTFE ensembles. The calculated vibrational spectrum peaks closely matched experimental peaks with a maximum wavenumber deviation of 19 cm⁻¹. The highest percent error to specific heat c...",
+      "authors": [
+        "Orhan Kaya",
+        "Alparslan Öztekin",
+        "Edmund B. Webb"
+      ]
+    },
+    {
+      "title": "Predicting reaction behavior of tethered polymers in shear flow",
+      "publication_year": 2023,
+      "publication_date": "2023-11-06",
+      "doi": "https://doi.org/10.1063/5.0168440",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scaling",
+        "Brownian dynamics",
+        "Polymer",
+        "Brownian motion",
+        "Population",
+        "Shear rate",
+        "Kinetics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Kinetics of force-mediated chemical reactions of end-tethered polymers with varying chain length N in varying shear rate flow γ̇ are explored via coarse-grained Brownian dynamics simulations. At fixed γ̇, force F along a polymer increases linearly with N as previously predicted; however, contrary to existing theory, the F(N) slope increases for N above a transition length that exhibits minimal dependence on γ̇. Force profiles are used in a stochastic model of a force-mediated reaction to compute the time for x percent of a polymer population to experience a reaction, tx. Observations are insensitive to the selected value of x in that tx data for varying N and γ̇ can be consistently collapsed onto a single curve via appropriate scaling, with one master curve for systems below the transition N (small N) and another for those above (large N). Different force scaling for small and large N results in orders of magnitude difference in force-mediated reaction kinetics as represented by the population response time. Data presented illustrate the possibility of designing mechano-reactive polymer populations with highly controlled response to flow across a range in γ̇.",
+      "authors": [
+        "Anh Hung Nguyen",
+        "Sagar Kania",
+        "Alparslan Öztekin",
+        "Edmund B. Webb"
+      ]
+    }
+  ]
+}

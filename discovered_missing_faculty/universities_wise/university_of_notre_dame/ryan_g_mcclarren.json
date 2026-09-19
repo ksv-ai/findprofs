@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Ryan G. McClarren",
+  "full_name": "Ryan G. McClarren",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Notre Dame",
+  "author_id": "A5036337528",
+  "works_count": 270,
+  "cited_by_count": 2045,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Nuclear reactor physics and engineering",
+      "count": 88
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 48
+    },
+    {
+      "topic": "Nuclear Physics and Applications",
+      "count": 31
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 30
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Deep Neural Network Initialization With Decision Trees",
+      "publication_year": 2018,
+      "publication_date": "2018-10-01",
+      "doi": "https://doi.org/10.1109/tnnls.2018.2869694",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "type": "article",
+      "cited_by_count": 161,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Initialization",
+        "Decision tree",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Machine learning",
+        "Flexibility (engineering)",
+        "Incremental decision tree"
+      ],
+      "abstract": "In this paper, a novel, automated process for constructing and initializing deep feedforward neural networks based on decision trees is presented. The proposed algorithm maps a collection of decision trees trained on the data into a collection of initialized neural networks with the structures of the networks determined by the structures of the trees. The tree-informed initialization acts as a warm-start to the neural network training process, resulting in efficiently trained, accurate networks. These models, referred to as \"deep jointly informed neural networks\" (DJINN), demonstrate high predictive performance for a variety of regression and classification data sets and display comparable performance to Bayesian hyperparameter optimization at a lower computational cost. By combining the user-friendly features of decision tree models with the flexibility and scalability of deep neural networks, DJINN is an attractive algorithm for training predictive models on a wide range of complex data sets.",
+      "authors": [
+        "Kelli Humbird",
+        "J. L. Peterson",
+        "Ryan G. McClarren"
+      ]
+    },
+    {
+      "title": "Robust and accurate filtered spherical harmonics expansions for radiative transfer",
+      "publication_year": 2010,
+      "publication_date": "2010-04-05",
+      "doi": "https://doi.org/10.1016/j.jcp.2010.03.043",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 129,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solid harmonics",
+        "Spherical harmonics",
+        "Radiative transfer",
+        "Spin-weighted spherical harmonics",
+        "Monte Carlo method",
+        "Mathematics",
+        "Filter (signal processing)",
+        "Harmonics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ryan G. McClarren",
+        "Cory D. Hauck"
+      ]
+    },
+    {
+      "title": "Transfer Learning to Model Inertial Confinement Fusion Experiments",
+      "publication_year": 2019,
+      "publication_date": "2019-12-13",
+      "doi": "https://doi.org/10.1109/tps.2019.2955098",
+      "venue": "IEEE Transactions on Plasma Science",
+      "type": "article",
+      "cited_by_count": 86,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1650463",
+      "concepts": [
+        "Inertial confinement fusion",
+        "Plasma confinement",
+        "Fusion",
+        "Magnetic confinement fusion",
+        "Plasma",
+        "Inertial frame of reference",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "Inertial confinement fusion (ICF) experiments are designed using computer simulations that are approximations of reality and therefore must be calibrated to accurately predict experimental observations. In this article, we propose a novel technique for calibrating from simulations to experiments, or from low fidelity simulations to high fidelity simulations, via “transfer learning” (TL). TL is a commonly used technique in the machine learning community, in which models trained on one task are partially retrained to solve a separate, but related task, for which there is a limited quantity of data. We introduce the idea of hierarchical TL, in which neural networks trained on low fidelity models are calibrated to high fidelity models, then to experimental data. This technique essentially bootstraps the calibration process, enabling the creation of models which predict high fidelity simulations or experiments with minimal computational cost. We apply this technique to a database of ICF simulations and experiments carried out at the Omega laser facility. TL with deep neural networks enables the creation of models that are more predictive of Omega experiments than simulations alone. T...",
+      "authors": [
+        "Kelli Humbird",
+        "J. L. Peterson",
+        "B. K. Spears",
+        "Ryan G. McClarren"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Weak-DMD: A Galerkin approach to the problem of noise in the Dynamic Mode Decomposition algorithm",
+      "publication_year": 2026,
+      "publication_date": "2026-04-15",
+      "doi": "https://doi.org/10.48550/arxiv.2604.14350",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.14350",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Galerkin method",
+        "Eigenvalues and eigenvectors",
+        "Mathematics",
+        "Applied mathematics",
+        "Noise (video)",
+        "Series (stratigraphy)",
+        "Mode (computer interface)"
+      ],
+      "abstract": "Dynamic Mode Decomposition (DMD) is a data-driven method for approximating the spatiotemporal modes of a system. The eigenvectors and eigenvalues of the system are approximated from a series of time-snapshots of the state variables. The standard formulation of DMD is subject to strict assumptions concerning the time-spacing of the snapshots and is biased by measurement noise. Variations on the method have been developed to address these shortcomings, but the problem is still open. Motivated by the effectiveness of Galerkin methods in the field of model discovery, a weak formulation of DMD is presented, weak-DMD. Weak-DMD precludes timestep considerations and also filters noise. Results for two nuclear engineering applications and the flow of fluid past a cylinder are given and compared with a state of the art DMD algorithm.",
+      "authors": [
+        "William Bennett",
+        "Ryan G. McClarren",
+        "Ethan Smith",
+        "Melek DERMAN"
+      ]
+    },
+    {
+      "title": "Weak-DMD: A Galerkin approach to the problem of noise in the Dynamic Mode Decomposition algorithm",
+      "publication_year": 2026,
+      "publication_date": "2026-04-15",
+      "doi": "https://arxiv.org/abs/2604.14350",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.14350",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Galerkin method",
+        "Eigenvalues and eigenvectors",
+        "Mathematics",
+        "Applied mathematics",
+        "Noise (video)",
+        "Series (stratigraphy)",
+        "Mode (computer interface)"
+      ],
+      "abstract": "Dynamic Mode Decomposition (DMD) is a data-driven method for approximating the spatiotemporal modes of a system. The eigenvectors and eigenvalues of the system are approximated from a series of time-snapshots of the state variables. The standard formulation of DMD is subject to strict assumptions concerning the time-spacing of the snapshots and is biased by measurement noise. Variations on the method have been developed to address these shortcomings, but the problem is still open. Motivated by the effectiveness of Galerkin methods in the field of model discovery, a weak formulation of DMD is presented, weak-DMD. Weak-DMD precludes timestep considerations and also filters noise. Results for two nuclear engineering applications and the flow of fluid past a cylinder are given and compared with a state of the art DMD algorithm.",
+      "authors": [
+        "William Bennett",
+        "Ryan G. McClarren",
+        "Ethan Smith",
+        "Melek DERMAN"
+      ]
+    },
+    {
+      "title": "A Modified Frequency-Dependent Material Motion Benchmark for Thermal Radiative Transfer",
+      "publication_year": 2026,
+      "publication_date": "2026-03-18",
+      "doi": "https://doi.org/10.1080/23324309.2026.2639019",
+      "venue": "Journal of Computational and Theoretical Transport",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal",
+        "Thermal radiation",
+        "Motion (physics)",
+        "Physics",
+        "Radiative transfer",
+        "Heat transfer",
+        "Materials science",
+        "Benchmark (surveying)"
+      ],
+      "abstract": "In McClarren and Gentile, the authors presented a general solution for the radiation intensity in front of a purely absorbing slab moving through vacuum toward an observer at constant speed and with a constant temperature. This test problem demonstrated that ignoring certain material motion correction terms in the transport equation can lead to 20–80% errors in the spectral radiation energy density seen by the observer. Because the test problem involved a vacuum region (meaning zero absorption and scattering opacity), the test problem could not be run by many radiation transport algorithms. All simulations presented in (McClarren and Gentile) used Implicit Monte Carlo. In this work we will describe how to modify the solution so that the region between the slab and the observer has a nonzero opacity, and will present results for the modified test problem with multigroup diffusion and SN as well as IMC.",
+      "authors": [
+        "N. A. Gentile",
+        "Ryan G. McClarren"
+      ]
+    },
+    {
+      "title": "Analytic Solutions for Strong Blast Wave Radiographs",
+      "publication_year": 2026,
+      "publication_date": "2026-01-05",
+      "doi": "https://doi.org/10.1080/00295639.2025.2584756",
+      "venue": "Nuclear Science and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Radiography",
+        "Blast wave",
+        "Mathematical analysis",
+        "Geology",
+        "Optics",
+        "Geometry",
+        "Mathematics"
+      ],
+      "abstract": "Verification solutions for the radiographic imaging of blast waves are produced under certain assumptions. These are the spatial independence of the hydrodynamics and radiation in the y- and z-directions, monoenergetic radiation, nonrelativistic fluid kinetics, no significant heat transfer from incident X-rays, and negligible radiation energy compared to the internal energy of the fluid. The last two assumptions uncouple the hydrodynamics equations from the radiation transport equation. Radiograph solutions are given in general for a purely absorbing medium with cross sections that are a function of the traveling shock. Specific solutions are constructed for a square density wave and for the Taylor-Sedov–von Neumann self-similar blast wave. The influence of relativistic effects in the radiation equations due to high blast velocities is examined. In addition to the analytic pure absorber results, a transport benchmark solver is applied to the problem to produce radiation results to simulate Thomson scattering in the shocked fluid.",
+      "authors": [
+        "William Ira Bennett",
+        "Ryan G. McClarren",
+        "Jim Ferguson"
+      ]
+    },
+    {
+      "title": "Weak-DMD: A Galerkin approach to the problem of noise in the Dynamic Mode Decomposition algorithm",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6515172",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6515172",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Galerkin method",
+        "Eigenvalues and eigenvectors",
+        "Mathematics",
+        "Applied mathematics",
+        "Noise (video)",
+        "Series (stratigraphy)",
+        "Mode (computer interface)"
+      ],
+      "abstract": "",
+      "authors": [
+        "William Bennett",
+        "Ryan G. McClarren",
+        "Ethan Smith",
+        "Melek DERMAN"
+      ]
+    }
+  ]
+}

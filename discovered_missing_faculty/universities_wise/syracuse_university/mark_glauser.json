@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Mark Glauser",
+  "full_name": "Mark Glauser",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Syracuse University",
+  "author_id": "A5109075667",
+  "works_count": 342,
+  "cited_by_count": 4288,
+  "h_index": 32,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 208
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 180
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 81
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 70
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 39
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The proper orthogonal decomposition of pressure fluctuations surrounding a turbulent jet",
+      "publication_year": 1997,
+      "publication_date": "1997-06-10",
+      "doi": "https://doi.org/10.1017/s0022112097005089",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 334,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Vortex",
+        "Jet (fluid)",
+        "Instability",
+        "Scalar (mathematics)",
+        "Mechanics",
+        "Optics"
+      ],
+      "abstract": "It is shown that the pressure signal measured at the outer edge of a jet mixing layer is entirely hydrodynamic in nature and provides a good measure of the large-scale structure of the turbulent flow. Measurement of the pressure signal provides a unique opportunity to utilize proper orthogonal decomposition (POD) to deduce the streamwise structure. Since pressure is a scalar, a significant reduction in the numerical and experimental complexity inherent in the analysis of velocity vector fields results. The POD streamwise eigenfunctions show that the structure associated with any frequency–azimuthal mode number combination displays the general characteristics of amplification–saturation–decay of an instability wave, all within about three wavelengths. High-frequency components saturate early in x and low-frequency components saturate further downstream, indicative of the inhomogeneous character of the flow in the streamwise direction. Application of the POD technique allows the phase velocity to be determined taking into account the inhomogeneity of the flow in the streamwise direction. The phase velocity of each instability wave (POD eigenvector) is constant and equal to 0.58Uj,...",
+      "authors": [
+        "R. E. A. Arndt",
+        "Dean Long",
+        "Mark Glauser"
+      ]
+    },
+    {
+      "title": "Stochastic estimation and proper orthogonal decomposition: Complementary techniques for identifying structure",
+      "publication_year": 1994,
+      "publication_date": "1994-09-01",
+      "doi": "https://doi.org/10.1007/bf01874409",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 256,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Eigenfunction",
+        "Random field",
+        "Root mean square",
+        "Point of delivery",
+        "Field (mathematics)",
+        "Algorithm",
+        "Mathematics",
+        "Mean squared error"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jean-Paul Bonnet",
+        "Daniel R. Cole",
+        "J. Delville",
+        "Mark Glauser",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "On spectral linear stochastic estimation",
+      "publication_year": 2006,
+      "publication_date": "2006-10-04",
+      "doi": "https://doi.org/10.1007/s00348-006-0199-5",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Filter (signal processing)",
+        "Jet (fluid)",
+        "Statistical physics",
+        "Physics",
+        "Coherence (philosophical gambling strategy)",
+        "Conditional expectation",
+        "Noise (video)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Charles E. Tinney",
+        "Francois Coiffet",
+        "J. Delville",
+        "Andre Hall",
+        "Peter Jordan",
+        "Mark Glauser"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Geometric extended state observer on TSE(3) with fast finite-time stability: Theory and validation on a multi-rotor vehicle",
+      "publication_year": 2024,
+      "publication_date": "2024-09-20",
+      "doi": "https://doi.org/10.1016/j.ast.2024.109596",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scalable Vector Graphics",
+        "Algorithm",
+        "Observer (physics)",
+        "Computer science",
+        "Mathematics",
+        "Physics",
+        "World Wide Web",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ningshan Wang",
+        "Reza Hamrah",
+        "Amit K. Sanyal",
+        "Mark Glauser"
+      ]
+    },
+    {
+      "title": "Schlieren-Based Analysis of Supersonic Multistream Control Using Data-Driven and Filtering Techniques",
+      "publication_year": 2024,
+      "publication_date": "2024-09-02",
+      "doi": "https://doi.org/10.2514/1.j064097",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Schlieren",
+        "Supersonic speed",
+        "Schlieren photography",
+        "Acoustics",
+        "Optics",
+        "Shock (circulatory)",
+        "Splitter plate",
+        "Mach number"
+      ],
+      "abstract": "Synchronized time-resolved schlieren and far-field pressure measurements were used to examine control of a supersonic multi-aperture rectangular single- expansion ramp nozzle with an aft deck. The design contains core (Mach 1.6) and bypass (sonic) streams mixing behind a splitter plate, generating a high-frequency tone. Control was applied through splitter-plate trailing-edge spanwise waviness (passive), spanwise-arranged microjet blowing actuators (active), and their combination (hybrid). Passive and hybrid control successfully alleviate the tone, whereas active control amplifies and alters the tone frequency. Time-averaged schlieren data show changes to mean shock structures with control. Spectral proper orthogonal decomposition (SPOD) spectra from the raw schlieren data are consistent with the far-field measurements and reveal coherent structural details. Radiation associated with high-frequency structures is inhibited by passive and hybrid control that enhance mixing, but not by active control. Momentum potential theory filtering prior to SPOD application augments the analysis by isolating irrotational content, providing additional clues on acoustic vs hydrodynamic mechanism...",
+      "authors": [
+        "Seth Kelly",
+        "Yiyang Sun",
+        "Mark Glauser",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Measuring Research Impact",
+      "publication_year": 2024,
+      "publication_date": "2024-02-02",
+      "doi": "https://doi.org/10.18260/1-2--25369",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/25369.pdf",
+      "concepts": [
+        "Foundation (evidence)",
+        "Analytics",
+        "Library science",
+        "Computer science",
+        "Political science",
+        "Data science",
+        "Public relations",
+        "Medical education"
+      ],
+      "abstract": "Overview of Academic Analytics from Glauser's point of view Academic Analytics• Tool for assessment of research productivity • Data gathered for individual faculty members, then aggregated to programs, departments.• Population: Ph.D. granting institutions in the United States.• AAU",
+      "authors": [
+        "Mark Glauser"
+      ]
+    },
+    {
+      "title": "Experimental Efforts On the Control of a Multi-Stream Supersonic Rectangular Jet",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0700",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Aerospace engineering",
+        "Jet stream",
+        "Aerodynamics",
+        "Computer science",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "Experiments are conducted on a supersonic Multi-Aperture Rectangular Single Expansion Ramp Nozzle with both passive and active flow control techniques. The baseline flow is comprised of two physical streams, a core (M = 1.6) and bypass (M = 1.0) stream that coalesce behind a splitter plate, merge, and exit through a rectangular orifice onto an aft-deck plate meant to mimic the nozzle being integrated into an air-frame. This interaction between the streams produces a high-frequency tonal phenomena that propagates throughout the flow-field. Passive control via a geometric modification to the splitter plates trailing edge (SPTE) is implemented to alleviate this tone. Active control is implemented via steady blowing through a span-wise array of micro-jets in the near-splitter plate region. A hybrid control case combining the active and passive methods is also investigated and compared to the baseline flow. All tests were conducted at the jets nominal operating conditions and measured via time-resolved schlieren images with synchronized far-field pressure measurements. Spectral Proper Orthogonal Decomposition (SPOD) of the schlieren data sets breaks down the spatio-temporal scales an...",
+      "authors": [
+        "Seth Kelly",
+        "Yiyang Sun",
+        "Datta V. Gaitonde",
+        "Mark Glauser"
+      ]
+    },
+    {
+      "title": "Linear-operator-based input-output analysis of a supersonic multi-stream rectangular jet flow",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0285",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Flow (mathematics)",
+        "Jet stream",
+        "Choked flow",
+        "Mechanics",
+        "Operator (biology)",
+        "Computer science"
+      ],
+      "abstract": "We analyze a supersonic multi-stream rectangular jet flow using the linear-operator-based input-output method. The primary objective is to unravel the fundamental dynamics of perturbations and generate valuable insights for designing flow control strategies to minimize far-field noise and suppress near-field unsteadiness. We conduct a comprehensive resolvent analysis by leveraging a Large Eddy Simulation-derived time-averaged flowfield on the center plane as the base flow. A discounted resolvent analysis is performed over a finite-time window, revealing a reduction in flow response amplification with a higher discounted parameter. Exploring a wide range of frequencies and spanwise wavenumbers, we observe the maximum amplification near the dominant frequency of the flowfield. The leading forcing-response mode is located in different shear layer regions, subject to the combination of frequency and wavenumber. Furthermore, an input-output analysis provides insights into the componentwise amplification of the flow response, considering state variables and spatial restrictions. The streamwise input demonstrates maximum amplification near the dominant frequency and zero spanwise waven...",
+      "authors": [
+        "Mitesh Thakor",
+        "Yiyang Sun",
+        "Mark Glauser",
+        "Datta V. Gaitonde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "faculty_name": "David O. Kazmer",
+  "full_name": "David O. Kazmer",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Massachusetts-Lowell",
+  "author_id": "A5069634331",
+  "works_count": 324,
+  "cited_by_count": 3487,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Injection Molding Process and Properties",
+      "count": 131
+    },
+    {
+      "topic": "Manufacturing Process and Optimization",
+      "count": 91
+    },
+    {
+      "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 88
+    },
+    {
+      "topic": "Advanced machining processes and optimization",
+      "count": 35
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Bond and part strength in fused deposition modeling",
+      "publication_year": 2017,
+      "publication_date": "2017-03-20",
+      "doi": "https://doi.org/10.1108/rpj-03-2016-0050",
+      "venue": "Rapid Prototyping Journal",
+      "type": "article",
+      "cited_by_count": 206,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bond strength",
+        "Materials science",
+        "Fused deposition modeling",
+        "Nozzle",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Deposition (geology)",
+        "Acrylonitrile butadiene styrene"
+      ],
+      "abstract": "Purpose The purpose of this paper is to investigate the factors governing bond strength in fused deposition modeling (FDM) compared to strength in the fiber direction. Design/methodology/approach Acrylonitrile butadiene styrene (ABS) boxes with the thickness of a single fiber were made at different platform and nozzle temperatures, print speeds, fiber widths and layer heights to produce multiple specimens for measuring the strength. Findings Specimens produced with the fibers oriented in the tensile direction had 95 per cent of the strength of the constitutive filament. Bond strengths ranged from 40 to 85 per cent of the filament strength dependent on the FDM processing conditions. Diffusion, wetting and intimate contact all separately affect bond strength. Practical implications This study provides processing recommendations for producing the strongest FDM parts. The needs for higher nozzle temperatures and more robust feed motors are described; these recommendations can be useful for companies producing FDM products as well as companies designing FDM printers. Originality/value This is the first study that discusses wetting and intimate contact separately in FDM, and the resul...",
+      "authors": [
+        "Timothy J. Coogan",
+        "David O. Kazmer"
+      ]
+    },
+    {
+      "title": "Prediction of interlayer strength in material extrusion additive manufacturing",
+      "publication_year": 2020,
+      "publication_date": "2020-06-03",
+      "doi": "https://doi.org/10.1016/j.addma.2020.101368",
+      "venue": "Additive manufacturing",
+      "type": "article",
+      "cited_by_count": 160,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Extrusion",
+        "Rheology",
+        "Diffusion",
+        "Fused deposition modeling",
+        "Composite material",
+        "Viscosity",
+        "Consistency (knowledge bases)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Timothy J. Coogan",
+        "David O. Kazmer"
+      ]
+    },
+    {
+      "title": "In-line rheological monitoring of fused deposition modeling",
+      "publication_year": 2018,
+      "publication_date": "2018-12-31",
+      "doi": "https://doi.org/10.1122/1.5054648",
+      "venue": "Journal of Rheology",
+      "type": "article",
+      "cited_by_count": 157,
+      "is_oa": true,
+      "oa_url": "https://sor.scitation.org/doi/pdf/10.1122/1.5054648",
+      "concepts": [
+        "Rheometer",
+        "Materials science",
+        "Rheology",
+        "Nozzle",
+        "Rheometry",
+        "Viscosity",
+        "Composite material",
+        "Mechanics"
+      ],
+      "abstract": "An in-line rheometer has been incorporated into a fused deposition modeling printer for the first time by designing a modified nozzle with a custom pressure transducer and a thermocouple for measuring the processed melt temperature. Additionally, volumetric flow rates and shear rates were monitored by counting the stepper motor pulses as well as the pulses from a custom filament encoder to account for filament slippage and skipped motor steps. The incorporation of the sensors and the design and development of the in-line rheometer are described; and pressures, temperatures, and viscosities within the 3D printing nozzle are presented. The in-line rheometer was validated against traditional, off-line rotational rheology and capillary rheology measurements by analyzing two polymeric materials: polycarbonate and high-impact polystyrene. A variety of rheological corrections were considered for the in-line rheometer, including entrance effects, non-Newtonian corrections, shear heating, pressure effects, and temperature fluctuations/inaccuracies. Excellent agreement was obtained between the in-line and off-line rheometers after applying the most critical corrections, which were found t...",
+      "authors": [
+        "Timothy J. Coogan",
+        "David O. Kazmer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Thermal and Flow Effects of Limescale on the Cooling of Slender Injection Molding Cores: A Numerical Study",
+      "publication_year": 2026,
+      "publication_date": "2026-04-14",
+      "doi": "https://doi.org/10.3390/jmmp10040130",
+      "venue": "Journal of Manufacturing and Materials Processing",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2504-4494/10/4/130/pdf?version=1776160495",
+      "concepts": [
+        "Mold",
+        "Coolant",
+        "Molding (decorative)",
+        "Materials science",
+        "Water cooling",
+        "Flow (mathematics)",
+        "Mechanical engineering",
+        "Thermal"
+      ],
+      "abstract": "Different strategies have been proposed to optimize injection mold cooling to reduce cycle time and improve efficiency. While recent research has focused on the design of additively manufactured conformal cooling inserts, the impact of mold maintenance conditions on cooling performance has received limited attention, particularly regarding the formation of limescale. This work presents a numerical modeling approach to quantify the combined effects of thermal resistance and hydraulic restriction caused by limescale accumulation in high-aspect-ratio cooling channels used in slender mold cores. An integrated thermal-fluid analysis is employed to evaluate coolant flow behavior and heat-transfer performance and to assess their coupled influence on cooling efficiency and part dimensional stability. The results show that, in slender cooling channels, even thin limescale deposits can significantly reduce cooling performance, with hydraulic restriction emerging as the dominant mechanism under the investigated conditions due to the reduced effective flow area. Design strategies that reduce effective frictional length and mitigate limescale deposition reduced part temperature by approximat...",
+      "authors": [
+        "Andrea Gruber",
+        "Mayank Ambasana",
+        "Jeremy Payne",
+        "Aravind Rammohan",
+        "David O. Kazmer",
+        "Stephen Johnston",
+        "Davide Masato"
+      ]
+    },
+    {
+      "title": "Multilayer Packaging Films Designed for Deconstruction: Biopolyesters with Water-Soluble Barrier Layers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.1021/acssuschemeng.5c13289",
+      "venue": "ACS Sustainable Chemistry & Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1021/acssuschemeng.5c13289",
+      "concepts": [
+        "Materials science",
+        "Chemical engineering",
+        "Nanotechnology",
+        "Silicon",
+        "Food packaging",
+        "Carbon fibers",
+        "Raw material",
+        "Layer (electronics)"
+      ],
+      "abstract": "High Resolution Image Download MS PowerPoint Slide Growing consumer demand for environmentally friendly packaging materials has renewed interest in processing and design of biodegradable polymers. Herein, multilayer films composed of poly(butylene adipate- co -terephthalate) (PBAT) and poly(vinyl alcohol) (PVOH) were successfully fabricated via coextrusion blown film technology. To achieve high strength and low permeability, PBAT, known for its flexibility, toughness, and biodegradability, was used as the outer layer, whereas PVOH, with exceptional oxygen barrier and water solubility characteristics, was used as the core layer in the multilayer structure. With the inclusion of the PVOH core layer in the multilayer, the tensile strength, elongation at break, and oxygen barrier properties of the PBAT/PVOH film were greatly improved. The cross-sectional morphology and peel test results proved acceptable interlayer adhesion between layers. Oxygen permeation rate (OPR) and water vapor permeation rate (WVPR) testing showed that the multilayer sample provided an OPR of 4.20 cm 3 ·mil/m 2 ·day·atm at 0% relative humidity and a WVPR of 1.40 g·mil/m 2 ·day at 5% relative humidity, suitabl...",
+      "authors": [
+        "Pranabesh Sahu",
+        "Hrushikesh Pujari",
+        "Wan‐Ting Chen",
+        "David O. Kazmer",
+        "Margaret J. Sobkowicz"
+      ]
+    },
+    {
+      "title": "Modeling and characterization of a plasticating extruder with a compact mixing screw",
+      "publication_year": 2026,
+      "publication_date": "2026-03-02",
+      "doi": "https://doi.org/10.1007/s00170-026-17774-7",
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00170-026-17774-7.pdf",
+      "concepts": [
+        "Plastics extrusion",
+        "Materials science",
+        "Nozzle",
+        "Mixing (physics)",
+        "Homogeneity (statistics)",
+        "Die swell",
+        "Mechanical engineering",
+        "Composite material"
+      ],
+      "abstract": "This study presents the pilot-scale implementation of a compact extruder designed to process post-consumer recycled plastics using chaotic mixing theories. The system features a novel mixing screw with an exceptionally short 8:1 length-to-diameter ratio and counter-rotating mixing slots cut into double flights of variable pitch. These features induce chaotic advection to enhance dispersive and distributive mixing by disrupting solid bed formation, improving thermal and compositional homogeneity in the extrudate through the baker’s transformation. A model-based screw design methodology using non-isothermal, non-Newtonian computational fluid dynamic (CFD) simulations was developed to optimize geometry for energy efficiency and throughput. Significant experimental validation employed a custom-built extruder with a 31 mm screw and an instrumented nozzle equipped with melt pressure and temperature sensors. Throughput and melt temperature were characterized as functions of screw speed, barrel temperature, nozzle geometry, and extruder orientation. Multiple regression models for simulated and experimental data showed high fidelity (R² ≈ 0.99) and strong correlation ( r ≈ 0.95). Discrep...",
+      "authors": [
+        "Stiven Kodra",
+        "Will Drakas",
+        "Mitchell Mashburn",
+        "Patrick Ferrell",
+        "David O. Kazmer"
+      ]
+    },
+    {
+      "title": "Impact of Base Rubber and Cure Systems in Additive Manufacturing of Fully Compounded Thermoset Elastomers",
+      "publication_year": 2026,
+      "publication_date": "2026-02-23",
+      "doi": "https://doi.org/10.3390/polym18040540",
+      "venue": "Polymers",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2073-4360/18/4/540/pdf",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Natural rubber",
+        "Curing (chemistry)",
+        "Elastomer",
+        "Thermosetting polymer",
+        "Ultimate tensile strength",
+        "Shrinkage"
+      ],
+      "abstract": "While the effects of formulation variables of a rubber compound are well established for conventional rubber manufacturing techniques, their role in extrusion-based additive manufacturing remains underexplored. This study explores the impact of different base rubbers (NBR and EPDM) and curing agents (sulfur and peroxide) on processability and final part characteristics in material extrusion additive manufacturing applications. Under identical printing conditions, sulfur-cured NBR exhibits greater post-print shrinkage (12%) than sulfur-cured EPDM (7%). However, sulfur-cured NBR achieves a higher degree of adhesion between printed layers than sulfur-cured EPDM, as suggested by the % retention of the bulk materials' ultimate stress by the printed parts (84-100% and 51-62%, respectively). Additionally, a peroxide-cured NBR formulation was compared against the same sulfur-cured NBR formulation. Printed parts from the peroxide-cured NBR formulation showed higher shrinkage (16%) and lower % retention of the bulk materials' ultimate stress (26-33%) than the sulfur-cured NBR formulation. Additionally, the tensile behavior of all three rubber compounds was found to be strongly dependent o...",
+      "authors": [
+        "AA Mubasshir",
+        "Stiven Kodra",
+        "Chandramouli Sangeetham",
+        "David O. Kazmer",
+        "J. Mead"
+      ]
+    },
+    {
+      "title": "The Anisotropic Structure and Mechanical Behavior of Films Extruded From Recycled Polypropylene",
+      "publication_year": 2026,
+      "publication_date": "2026-01-26",
+      "doi": "https://doi.org/10.1002/pen.70353",
+      "venue": "Polymer Engineering and Science",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pen.70353",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Microstructure",
+        "Anisotropy",
+        "Lamellar structure",
+        "Polypropylene",
+        "Polyethylene",
+        "Extrusion"
+      ],
+      "abstract": "ABSTRACT The properties of recycled polyolefins vary widely because postconsumer and postindustrial feedstocks originate from diverse sources and contain contaminants that degrade mechanical performance. Here, we investigate the process‐structure relations that govern the anisotropic microstructure and mechanical behavior of films extruded from real‐world polypropylene (PP) recyclates containing varying levels of polyethylene (PE) contamination. Two recycled PP sources were analyzed: rPP1 with negligible PE content, and rPP2 containing approximately 40% by mass of high‐density PE, quantified by differential scanning calorimetry. A layer multiplying element (LME) was introduced upstream of the die to enhance redistribution of the PE and PP phases and to influence the development of striated morphologies during extrusion. Scanning electron microscopy revealed distinct elongated domain structures (ribbon‐ and thread‐like striations) produced by shear‐driven deformation, which reduced elongation at break in the transverse direction from about 1700% at a PE level near 0.3% to roughly 300% as the PE content increased to about 40%. LME processing improved the uniformity of these striat...",
+      "authors": [
+        "Beijun Shen",
+        "McKenzie L. Coughlin",
+        "Sixtus O. Nzeh",
+        "Kalman B. Migler",
+        "David O. Kazmer",
+        "Thao D. Nguyen"
+      ]
+    }
+  ]
+}

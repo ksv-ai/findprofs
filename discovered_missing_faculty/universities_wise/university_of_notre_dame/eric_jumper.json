@@ -1,0 +1,180 @@
+{
+  "faculty_name": "Eric Jumper",
+  "full_name": "Eric Jumper",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Notre Dame",
+  "author_id": "A5041911210",
+  "works_count": 322,
+  "cited_by_count": 6772,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 166
+    },
+    {
+      "topic": "Adaptive optics and wavefront sensing",
+      "count": 91
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 77
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 69
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 45
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Mechanisms and Responses of a Single Dielectric Barrier Plasma Actuator: Plasma Morphology",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.2514/1.2305",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 643,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma actuator",
+        "Plasma",
+        "Dielectric barrier discharge",
+        "Materials science",
+        "Actuator",
+        "Dielectric",
+        "Electric field",
+        "Electrode"
+      ],
+      "abstract": "We present simultaneous optical, electrical, and thrust measurements of an aerodynamic plasma actuator. These measurements indicate that the plasma actuator is a form of the dielectric barrier discharge, whose behavior is governed primarily by the buildup of charge on the dielectric-encapsulated electrode. Our measurements reveal the temporal and macroscale spatial structure of the plasma. Correlating the morphology of the plasma and the electrical characteristics of the discharge to the actuator performance as measured by the thrust produced indicates a direct coupling between the interelectrode electric field (strongly modified by the presence of the plasma) and the charges in the plasma. Our measurements discount bulk heating or asymmetries in the structure of the discharge as mechanisms for the production of bulk motion of the surrounding neutral air, although such asymmetries clearly exist and impact the effectiveness of the actuator.",
+      "authors": [
+        "C. L. Enloe",
+        "Thomas McLaughlin",
+        "Robert D. VanDyken",
+        "K. D. Kachner",
+        "Eric Jumper",
+        "Thomas Corke"
+      ]
+    },
+    {
+      "title": "Mechanisms and Responses of a Dielectric Barrier Plasma Actuator: Geometric Effects",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.2514/1.3884",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 609,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma actuator",
+        "Dielectric barrier discharge",
+        "Plasma",
+        "Actuator",
+        "Dielectric",
+        "Materials science",
+        "Mechanics",
+        "Flow control (data)"
+      ],
+      "abstract": "The single dielectric barrier discharge plasma, a plasma sustainable at atmospheric pressure, has shown considerable promise as a flow control device operating at modest (tens of watts) power levels. Measurements are presented of the development of the plasma during the course of the discharge cycle, and the relevance of these measurements to the modeling of the actuator's electrical properties is discussed. Experimental evidence is presented strongly pointing to the electric field enhancement near the leading edge of the actuator as a dominant factor determining the effectiveness of momentum coupling into the surrounding air",
+      "authors": [
+        "C. L. Enloe",
+        "Thomas McLaughlin",
+        "Robert D. VanDyken",
+        "K. D. Kachner",
+        "Eric Jumper",
+        "Thomas Corke",
+        "Martiqua Post",
+        "O. M. Haddad"
+      ]
+    },
+    {
+      "title": "Recent advances in aero-optics",
+      "publication_year": 2001,
+      "publication_date": "2001-04-01",
+      "doi": "https://doi.org/10.1016/s0376-0421(01)00008-2",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 336,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Adaptive optics",
+        "Physics",
+        "Planar",
+        "Deformable mirror",
+        "Refraction",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eric Jumper",
+        "Edward Fitzgerald"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental and computational investigation of Shack–Hartmann wavefront sensor measurements through a free shear layer",
+      "publication_year": 2024,
+      "publication_date": "2024-01-24",
+      "doi": "https://doi.org/10.1117/1.oe.63.1.014108",
+      "venue": "Optical Engineering",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-63/issue-1/014108/Experimental-and-computational-investigation-of-ShackHartmann-wavefront-sensor-measurements-through/10.1117/1.OE.63.1.014108.pdf",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Wavefront sensor",
+        "Adaptive optics",
+        "Deformable mirror",
+        "Computer science",
+        "Shear (geology)",
+        "Optical engineering"
+      ],
+      "abstract": "Experimental Shack–Hartmann wavefront sensor (SHWFS) measurements were collected for a laser beam that propagated through a weakly compressible shear layer. Complementary computational fluid dynamics (CFD) was also conducted to match the experiment. The path-integrated CFD results were then applied to a SHWFS model such that the experimental and CFD results could be compared. Using both the experimental and CFD wavefront results, it was found that, although the CFD results slightly overestimated the resultant wavefront error, the CFD and experimental results revealed extremely similar wavefront topology. In order to further examine the aberrations imposed onto the laser beam in both datasets, the SHWFS image-plane irradiance patterns and circulation of phase gradients were studied. Similar to the overall wavefront topology, these data reduction approaches revealed similar phenomena in both the experimental and CFD-modeled results. Specifically, appreciable circulation and beam spread of the SHWFS image-plane irradiance patterns were exhibited throughout the shear layer’s braid region. Both of these findings suggest that sharp phase gradients exist in the weakly compressible shea...",
+      "authors": [
+        "Jonathan D. Wells",
+        "Matthew Kalensky",
+        "R. Mark Rennie",
+        "Eric Jumper"
+      ]
+    },
+    {
+      "title": "Experimental and computational investigation of laser beam propagation through a free shear layer",
+      "publication_year": 2023,
+      "publication_date": "2023-10-03",
+      "doi": "https://doi.org/10.1117/12.2677374",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Shear (geology)",
+        "Plane (geometry)",
+        "Compressibility",
+        "Laser",
+        "Image plane",
+        "Laser beams"
+      ],
+      "abstract": "Experimental Shack–Hartmann Wavefront Sensor (SHWFS) measurements were collected and examined to further understand image-plane irradiance pattern behavior in the presence of potentially sharp thermodynamic gradients. An analysis of path-integrated phase and image-plane irradiance pattern spreading discovered regions within a weakly compressible shear layer where sharp gradients were previously not observed. This paper describes the analysis process and shows results which suggest that Shack-Hartmann wavefront sensors are not adequately resolving sharp thermodynamic gradients in aberrating flows.",
+      "authors": [
+        "Jonathan D. Wells",
+        "Matthew Kalensky",
+        "Mark R. Rennie",
+        "Eric Jumper"
+      ]
+    }
+  ]
+}

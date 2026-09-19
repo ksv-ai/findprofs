@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Nadine Aubry",
+  "full_name": "Nadine Aubry",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Tufts University",
+  "author_id": "A5017743698",
+  "works_count": 256,
+  "cited_by_count": 7070,
+  "h_index": 42,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 70
+    },
+    {
+      "topic": "Microfluidic and Bio-sensing Technologies",
+      "count": 49
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 46
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 34
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The dynamics of coherent structures in the wall region of a turbulent boundary layer",
+      "publication_year": 1988,
+      "publication_date": "1988-07-01",
+      "doi": "https://doi.org/10.1017/s0022112088001818",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1276,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Intermittency",
+        "Boundary layer",
+        "Eigenfunction",
+        "Physics",
+        "Turbulence",
+        "Chaotic",
+        "Flow (mathematics)",
+        "Ordinary differential equation"
+      ],
+      "abstract": "We have modelled the wall region of a turbulent boundary layer by expanding the instantaneous field in so-called empirical eigenfunctions, as permitted by the proper orthogonal decomposition theorem (Lumley 1967, 1981). We truncate the representation to obtain low-dimensional sets of ordinary differential equations, from the Navier–Stokes equations, via Galerkin projection. The experimentally determined eigenfunctions of Herzog (1986) are used; these are in the form of streamwise rolls. Our model equations represent the dynamical behaviour of these rolls. We show that these equations exhibit intermittency, which we analyse using the methods of dynamical systems theory, as well as a chaotic regime. We argue that this behaviour captures major aspects of the ejection and bursting events associated with streamwise vortex pairs which have been observed in experimental work (Klineet al.1967). We show that although this bursting behaviour is produced autonomously in the wall region, and the structure and duration of the bursts is determined there, the pressure signal from the outer part of the boundary layer triggers the bursts, and determines their average frequency. The analysis and ...",
+      "authors": [
+        "Nadine Aubry",
+        "Philip Holmes",
+        "John L. Lumley",
+        "Emily Stone"
+      ]
+    },
+    {
+      "title": "Enhancement of microfluidic mixing using time pulsing",
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "doi": "https://doi.org/10.1039/b302569a",
+      "venue": "Lab on a Chip",
+      "type": "article",
+      "cited_by_count": 370,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Mixing (physics)",
+        "Laminar flow",
+        "Mechanics",
+        "Inlet",
+        "Volumetric flow rate",
+        "Microfluidics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Many microfluidic applications require the mixing of reagents, but efficient mixing in these laminar (i.e., low Reynolds number) systems is typically difficult. Instead of using complex geometries and/or relatively long channels, we demonstrate the merits of flow rate time dependency through periodic forcing. We illustrate the technique by studying mixing in a simple \"T\" channel intersection by means of computational fluid dynamics (CFD) as well as physically mixing two aqueous reagents. The \"T\" geometry selected consists of two inlet channel segments merging at 90 degrees to each other, the outlet segment being an extension of one of the inlet segments. All channel segments are 200 microm wide by 120 microm deep, a practical scale for mass-produced disposable devices. The flow rate and average velocity after the confluence of the two reagents are 48 nl s(-1) and 2 mm s(-1) respectively, which, for aqueous solutions at room temperature, corresponds to a Reynolds number of 0.3. We use a mass diffusion constant of 10(-10) m(2) s(-1), typical of many BioMEMS applications, and vary the flow rates of the reagents such that the average flow rate remains unchanged but the instantaneous...",
+      "authors": [
+        "Ian Glasgow",
+        "Nadine Aubry"
+      ]
+    },
+    {
+      "title": "Spatiotemporal analysis of complex signals: Theory and applications",
+      "publication_year": 1991,
+      "publication_date": "1991-08-01",
+      "doi": "https://doi.org/10.1007/bf01048312",
+      "venue": "Journal of Statistical Physics",
+      "type": "article",
+      "cited_by_count": 356,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Statistical physics",
+        "Reynolds number",
+        "Turbulence",
+        "Mathematics",
+        "Instability",
+        "Dynamical systems theory",
+        "Entropy (arrow of time)",
+        "Lattice (music)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nadine Aubry",
+        "R�gis Guyonnet",
+        "R. Lima"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Fast Aerodynamic Performance Prediction for Airfoils across Multiple Reynolds Numbers Using Deep Learning Method",
+      "publication_year": 2024,
+      "publication_date": "2024-10-30",
+      "doi": "https://doi.org/10.1061/jaeeez.aseng-5333",
+      "venue": "Journal of Aerospace Engineering",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Reynolds number",
+        "Aerodynamics",
+        "Computer science",
+        "Aerospace engineering",
+        "Mechanics",
+        "Physics",
+        "Engineering"
+      ],
+      "abstract": "The paper proposes novel approaches to achieve rapid and accurate inference of aerodynamic performance parameters for airfoil optimization design using deep learning methods, compared with expensive computational fluid dynamics (CFD) simulation tools. Two deep neural networks are proposed, and they were tested for aerodynamic performance prediction (APPN), including the lift and drag coefficients and the surface pressure distribution. The network framework is constructed using a convolutional neural network (CNN) and a fully connected neural network (FCN). To enhance the prediction capability of the two networks under varying operating conditions including various angles of attack (AOAs), Mach numbers, and Reynolds numbers (R), a flexible and practical parameterization method called the signed distance function (SDF) is utilized to represent the geometric information and then merged with the Reynolds number for input to the network models. The prediction results show that the proposed models have clear advantages, including fast convergence, high prediction accuracy, and remarkable extensionality. Moreover, the predicted aerodynamic coefficients of an airfoil can be obtained wit...",
+      "authors": [
+        "Ming‐Yu Wu",
+        "Yan Wu",
+        "Yue Hua",
+        "Zhihua Chen",
+        "Wei‐Tao Wu",
+        "Nadine Aubry"
+      ]
+    },
+    {
+      "title": "HCP-PIGN: Efficient heat conduction prediction by physics-informed graph convolutional neural network",
+      "publication_year": 2024,
+      "publication_date": "2024-08-29",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2024.109552",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal conduction",
+        "Convolutional neural network",
+        "Artificial neural network",
+        "Graph",
+        "Computer science",
+        "Materials science",
+        "Artificial intelligence",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jiang-Zhou Peng",
+        "Nadine Aubry",
+        "Yu-Bai Li",
+        "Zhihua Chen",
+        "Mei Mei",
+        "Yue Hua"
+      ]
+    },
+    {
+      "title": "Data and physics-driven modeling for fluid flow with a physics-informed graph convolutional neural network",
+      "publication_year": 2024,
+      "publication_date": "2024-03-25",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2024.117551",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 25,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fluid dynamics",
+        "Physics",
+        "Convolutional neural network",
+        "Graph",
+        "Artificial neural network",
+        "Computer science",
+        "Particle physics",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jiang-Zhou Peng",
+        "Yue Hua",
+        "Nadine Aubry",
+        "Zhihua Chen",
+        "Mei Mei",
+        "Wei‐Tao Wu"
+      ]
+    },
+    {
+      "title": "Estimation of sequential transient flow around cylinders using recurrent neural network coupled graph convolutional network",
+      "publication_year": 2024,
+      "publication_date": "2024-01-16",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2024.116684",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Recurrent neural network",
+        "Computer science",
+        "Algorithm",
+        "Convolutional neural network",
+        "Flow (mathematics)",
+        "Computational fluid dynamics",
+        "Artificial neural network",
+        "Cylinder"
+      ],
+      "abstract": "",
+      "authors": [
+        "Haoran Xie",
+        "Yue Hua",
+        "Yubai Li",
+        "Nadine Aubry",
+        "Wei‐Tao Wu",
+        "Yong He",
+        "Jiang-Zhou Peng"
+      ]
+    },
+    {
+      "title": "Reconstruction of temperature field in nanofluid-filled annular receiver with fins using deep hybrid transformer-convolutional neural network",
+      "publication_year": 2023,
+      "publication_date": "2023-09-07",
+      "doi": "https://doi.org/10.1016/j.powtec.2023.118960",
+      "venue": "Powder Technology",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Transformer",
+        "Convolutional neural network",
+        "Artificial neural network",
+        "Materials science",
+        "Acoustics",
+        "Mechanical engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chang-Hao Yu",
+        "Yubai Li",
+        "Nadine Aubry",
+        "Peng Wu",
+        "Wei‐Tao Wu",
+        "Yue Hua",
+        "Zhifu Zhou"
+      ]
+    }
+  ]
+}

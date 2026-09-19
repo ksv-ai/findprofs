@@ -1,0 +1,113 @@
+{
+  "faculty_name": "Oktay Baysal",
+  "full_name": "Oktay Baysal",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Old Dominion University",
+  "author_id": "A5043495490",
+  "works_count": 172,
+  "cited_by_count": 2154,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 87
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 60
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 31
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 25
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic design optimization using sensitivity analysis and computational fluid dynamics",
+      "publication_year": 1992,
+      "publication_date": "1992-03-01",
+      "doi": "https://doi.org/10.2514/3.10977",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Sensitivity (control systems)",
+        "Computer science",
+        "Fluid dynamics",
+        "Multidisciplinary design optimization",
+        "Aerospace engineering",
+        "Mechanical engineering"
+      ],
+      "abstract": "An investigation was conducted from October 1, 1990 to May 31, 1994 on the development of methodologies to improve the designs (more specifically, the shape) of aerodynamic surfaces of coupling optimization algorithms (OA) with Computational Fluid Dynamics (CFD) algorithms via sensitivity analyses (SA). The study produced several promising methodologies and their proof-of-concept cases, which have been reported in the open literature.",
+      "authors": [
+        "Oktay Baysal",
+        "Mohamed E. Eleshaky"
+      ]
+    },
+    {
+      "title": "Three-dimensional aerodynamic shape optimization using discrete sensitivity analysis",
+      "publication_year": 1996,
+      "publication_date": "1996-09-01",
+      "doi": "https://doi.org/10.2514/3.13305",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Sensitivity (control systems)",
+        "Shape optimization",
+        "Computer science",
+        "Aerospace engineering",
+        "Control theory (sociology)",
+        "Structural engineering",
+        "Finite element method"
+      ],
+      "abstract": "An aerodynamic shape optimization procedure based on discrete sensitivity analysis is extended to treat three-dimensional geometries. The function of sensitivity analysis is to directly couple computational fluid dynamics (CFD) with numerical optimization techniques, which facilitates the construction of efficient direct-design methods. The development of a practical three-dimensional design procedures entails many challenges, such as: (1) the demand for significant efficiency improvements over current design methods; (2) a general and flexible three-dimensional surface representation; and (3) the efficient solution of very large systems of linear algebraic equations. It is demonstrated that each of these challenges is overcome by: (1) employing fully implicit (Newton) methods for the CFD analyses; (2) adopting a Bezier-Bernstein polynomial parameterization of two- and three-dimensional surfaces; and (3) using preconditioned conjugate gradient-like linear system solvers. Whereas each of these extensions independently yields an improvement in computational efficiency, the combined effect of implementing all the extensions simultaneously results in a significant factor of 50 decre...",
+      "authors": [
+        "Greg W. Burgreen",
+        "Oktay Baysal"
+      ]
+    },
+    {
+      "title": "Aerodynamic Sensitivity Analysis Methods for the Compressible Euler Equations",
+      "publication_year": 1991,
+      "publication_date": "1991-12-01",
+      "doi": "https://doi.org/10.1115/1.2926534",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Euler equations",
+        "Sensitivity (control systems)",
+        "Discretization",
+        "Compressible flow",
+        "Applied mathematics",
+        "Flow (mathematics)",
+        "Mathematics"
+      ],
+      "abstract": "A mathematical formulation is developed for aerodynamic sensitivity coefficients based on a discretized form of the compressible, two-dimensional Euler equations. A brief motivating introduction to the aerodynamic sensitivity analysis and the reasons behind an integrated flow/sensitivity analysis for design algorithms are presented. Two approaches to determine the aerodynamic sensitivity coefficients, namely, the finite difference approach, and the quasi-analytical approach are discussed with regards to their relative accuracies and involved computational efforts. In the quasi-analytical approach, the direct and the adjoint variable methods are formulated and assessed. Also, several methods to solve the system of linear algebraic equations, that arises in the quasi-analytical approach, are investigated with regards to their accuracies, computational time and memory requirements. A new flow prediction concept, which is an outcome of the direct method in the quasi-analytical approach, is developed and illustrated with an example. Surface pressure coefficient distributions of a nozzle-afterbody configuration obtained from the predicted flow-field solution are compared successfully ...",
+      "authors": [
+        "Oktay Baysal",
+        "Mohamed E. Eleshaky"
+      ]
+    }
+  ],
+  "recent_works": []
+}

@@ -1,0 +1,250 @@
+{
+  "faculty_name": "R. Ellahi",
+  "full_name": "R. Ellahi",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of California-Riverside",
+  "author_id": "A5017056586",
+  "works_count": 352,
+  "cited_by_count": 28316,
+  "h_index": 98,
+  "top_topics": [
+    {
+      "topic": "Nanofluid Flow and Heat Transfer",
+      "count": 304
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 128
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 122
+    },
+    {
+      "topic": "Heat Transfer and Optimization",
+      "count": 70
+    },
+    {
+      "topic": "Fractional Differential Equations Solutions",
+      "count": 51
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Effect of thermal radiation on magnetohydrodynamics nanofluid flow and heat transfer by means of two phase model",
+      "publication_year": 2014,
+      "publication_date": "2014-08-13",
+      "doi": "https://doi.org/10.1016/j.jmmm.2014.08.021",
+      "venue": "Journal of Magnetism and Magnetic Materials",
+      "type": "article",
+      "cited_by_count": 832,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Thermophoresis",
+        "Nusselt number",
+        "Thermal radiation",
+        "Mechanics",
+        "Schmidt number",
+        "Reynolds number",
+        "Heat transfer"
+      ],
+      "abstract": "",
+      "authors": [
+        "M. Sheikholeslami",
+        "D.D. Ganji",
+        "Maryiam Javed",
+        "R. Ellahi"
+      ]
+    },
+    {
+      "title": "The effects of MHD and temperature dependent viscosity on the flow of non-Newtonian nanofluid in a pipe: Analytical solutions",
+      "publication_year": 2012,
+      "publication_date": "2012-04-17",
+      "doi": "https://doi.org/10.1016/j.apm.2012.04.004",
+      "venue": "Applied Mathematical Modelling",
+      "type": "article",
+      "cited_by_count": 726,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0307904X12002296/pdf",
+      "concepts": [
+        "Nanofluid",
+        "Magnetohydrodynamic drive",
+        "Homotopy analysis method",
+        "Magnetohydrodynamics",
+        "Mechanics",
+        "Viscosity",
+        "Partial differential equation",
+        "Nonlinear system"
+      ],
+      "abstract": "",
+      "authors": [
+        "R. Ellahi"
+      ]
+    },
+    {
+      "title": "Three dimensional mesoscopic simulation of magnetic field effect on natural convection of nanofluid",
+      "publication_year": 2015,
+      "publication_date": "2015-06-13",
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2015.05.110",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 620,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Nusselt number",
+        "Hartmann number",
+        "Natural convection",
+        "Streamlines, streaklines, and pathlines",
+        "Lattice Boltzmann methods",
+        "Rayleigh number",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "M. Sheikholeslami",
+        "R. Ellahi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Ellahi’s PINN approach embedded with nonsimilarity features for MHD Casson fluid over a porous stretching cylinder under thermal radiation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-27",
+      "doi": "https://doi.org/10.1108/hff-11-2025-0871",
+      "venue": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal radiation",
+        "Mechanics",
+        "Magnetohydrodynamics",
+        "Partial differential equation",
+        "Heat transfer",
+        "Buoyancy",
+        "Flow (mathematics)",
+        "Boundary value problem"
+      ],
+      "abstract": "Purpose This study aims to introduce a local nonsimilarity feature–embedded physics-informed neural network (PINN) framework to model the thermal boundary layer flow of a non-Newtonian Casson fluid under the combined effects of viscous dissipation, magnetic field and radiative heat transfer over a porous stretching cylinder, while accounting for buoyancy effects. Design/methodology/approach The governing nonlinear partial differential equations are transformed into a nonsimilar form through appropriate transformations, and the solutions are approximated using a PINN trained with the Adam optimizer in Python. The network architecture consists of eight hidden layers with 64 neurons each. The accuracy of the proposed model is validated against the local nonsimilarity method, and its performance is further tested on independent data sets. The results show excellent agreement between the PINN predictions and reference solutions, confirming strong generalization capability and consistency with established theoretical models. Findings The analysis reveals that the Casson fluid parameter plays a crucial role in influencing both the rheological behavior and thermal characteristics of the...",
+      "authors": [
+        "R. Ellahi",
+        "Syed Shahzad Ali",
+        "A. Zeeshan"
+      ]
+    },
+    {
+      "title": "Electroosmotic peristaltic flow of Sutterby hybrid nanoliquid in a vertically oriented ciliated channel with gyrotactic microorganisms and entropy generation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.1108/hff-10-2025-0743",
+      "venue": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Mechanics",
+        "Microscale chemistry",
+        "Microfluidics",
+        "Heat transfer",
+        "Peristalsis",
+        "Peristaltic pump",
+        "Materials science"
+      ],
+      "abstract": "Purpose This study investigates the electroosmotically induced peristaltic transport of Sutterby hybrid nanofluid through a symmetric ciliated channel, with a focus on understanding the influence of gyrotactic microorganisms on bioconvection, fluid mixing and stability. The purpose of this study is to explore the combined effects of electroosmotic forces, peristaltic motion and cilia-induced propulsion to better capture complex physiological and microfluidic transport phenomena, while also assessing thermodynamic irreversibility and system efficiency through entropy generation analysis. Design/methodology/approach The governing equations, formulated as coupled nonlinear differential equations, are numerically solved using the finite element method under appropriate boundary conditions, accounting for electroosmotic effects, ciliary motion, nanoparticle concentration, microorganism motility and geometric symmetry. Findings The results reveal that stronger electroosmotic effects substantially enhance volumetric flow rates, whereas intensified ciliary action and higher nanoparticle concentrations reduce flow trapping and promote uniform particle dispersion. Microorganism motility s...",
+      "authors": [
+        "Junaid Mehboob",
+        "R. Ellahi"
+      ]
+    },
+    {
+      "title": "Numerical analysis of Maxwell fluid flow with quadratic convection under inclined magnetic field employing lie symmetry and Chebyshev spectral techniques",
+      "publication_year": 2026,
+      "publication_date": "2026-01-05",
+      "doi": "https://doi.org/10.1108/hff-09-2025-0682",
+      "venue": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Magnetic field",
+        "Convection",
+        "Symmetry (geometry)",
+        "Physics",
+        "Chebyshev filter",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Numerical analysis"
+      ],
+      "abstract": "Purpose This paper aims to examine the quadratic convection phenomenon in the presence of a uniformly inclined magnetic field using the Maxwell fluid model. The Cattaneo–Christov heat flux and non-Fickian mass flux models are used to analyze the thermal and mass characteristics. The proposed formulation further incorporates the effects of a heat source/sink and chemical reaction parameters. Design/methodology/approach The governing equations are developed using Lie symmetry transformations. The spectral relaxation (SR) technique, combined with the Chebyshev pseudo-spectral approach, is used to solve the nonlinear differential equations governing the flow problem. The present methodology is developed and implemented using MATLAB. Findings The findings are presented through visualizations such as graphs and tables. Additionally, a numerical comparison is provided to verify the accuracy of the current findings and the proposed approach. Originality/value This study presents the concurrent effects of inclined magnetohydrodynamics, quadratic convection modeling and non-Fickian/Cattaneo-Christov transport models on Maxwell fluids. This innovative framework and its Lie-symmetry-based S...",
+      "authors": [
+        "M.M. Bhatti",
+        "Hakan F. Öztop",
+        "R. Ellahi",
+        "Faisal Z. Duraihem"
+      ]
+    },
+    {
+      "title": "Effects of Quadratic Convection and Nonlinear Heat Generation/Absorption on Granular Material Flow Between Vertical Plates",
+      "publication_year": 2026,
+      "publication_date": "2026-01-03",
+      "doi": "https://doi.org/10.1007/s12346-025-01440-6",
+      "venue": "Qualitative Theory of Dynamical Systems",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Granular material",
+        "Quadratic equation",
+        "Nonlinear system",
+        "Heat generation",
+        "Mathematics",
+        "Convection",
+        "Thermal"
+      ],
+      "abstract": "",
+      "authors": [
+        "M. M. Bhatti",
+        "Marín Marín",
+        "R. Ellahi"
+      ]
+    },
+    {
+      "title": "Thermal and sensitivity analysis on regularized curved solar panels using non-Newtonian quaternary hybrid nanofluids: Applications in solar collectors",
+      "publication_year": 2025,
+      "publication_date": "2025-11-19",
+      "doi": "https://doi.org/10.1016/j.jics.2025.102256",
+      "venue": "Journal of the Indian Chemical Society",
+      "type": "article",
+      "cited_by_count": 12,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nanofluid",
+        "Thermal",
+        "Sensitivity (control systems)",
+        "Mechanics",
+        "Ordinary differential equation",
+        "Absorption (acoustics)",
+        "Curvature",
+        "Solar energy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Abdulhakeem Yusuf",
+        "M. M. Bhatti",
+        "R. Ellahi"
+      ]
+    }
+  ]
+}

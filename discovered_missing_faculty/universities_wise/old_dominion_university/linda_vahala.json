@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Linda Vahala",
+  "full_name": "Linda Vahala",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Old Dominion University",
+  "author_id": "A5083104510",
+  "works_count": 306,
+  "cited_by_count": 1389,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Magnetic confinement fusion research",
+      "count": 60
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 54
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Cold Atom Physics and Bose-Einstein Condensates",
+      "count": 42
+    },
+    {
+      "topic": "Ionosphere and magnetosphere dynamics",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Superfluid Turbulence from Quantum Kelvin Wave to Classical Kolmogorov Cascades",
+      "publication_year": 2009,
+      "publication_date": "2009-08-19",
+      "doi": "https://doi.org/10.1103/physrevlett.103.084501",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 92,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/0905.0159",
+      "concepts": [
+        "Quantum turbulence",
+        "Physics",
+        "Kelvin wave",
+        "Turbulence",
+        "Quantum",
+        "Quantum mechanics",
+        "Power law",
+        "Quantum vortex"
+      ],
+      "abstract": "The main topological feature of a superfluid is a quantum vortex with an identifiable inner and outer radius. A novel unitary quantum lattice gas algorithm is used to simulate quantum turbulence of a Bose-Einstein condensate superfluid described by the Gross-Pitaevskii equation on grids up to 5760(3). For the first time, an accurate power-law scaling for the quantum Kelvin wave cascade is determined: k(-3). The incompressible kinetic energy spectrum exhibits very distinct power-law spectra in 3 ranges of k space: a classical Kolmogorov k(-(5/3)) spectrum at scales greater than the outer radius of individual quantum vortex cores and a quantum Kelvin wave cascade spectrum k(-3) on scales smaller than the inner radius of the quantum vortex core. The k(-3) quantum Kelvin wave spectrum due to phonon radiation is robust, while the k(-(5/3)) classical Kolmogorov spectrum becomes robust on large grids.",
+      "authors": [
+        "Jeffrey Yepez",
+        "George Vahala",
+        "Linda Vahala",
+        "Min Soe"
+      ]
+    },
+    {
+      "title": "Entropic lattice Boltzmann representations required to recover Navier-Stokes flows",
+      "publication_year": 2007,
+      "publication_date": "2007-03-29",
+      "doi": "https://doi.org/10.1103/physreve.75.036712",
+      "venue": "Physical Review E",
+      "type": "article",
+      "cited_by_count": 50,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Statistical physics",
+        "HPP model",
+        "Physics",
+        "Stokes number",
+        "Lattice gas automaton",
+        "Lattice (music)",
+        "Mathematics"
+      ],
+      "abstract": "There are two disparate formulations of the entropic lattice Boltzmann scheme: one of these theories revolves around the analog of the discrete Boltzmann H function of standard extensive statistical mechanics, while the other revolves around the nonextensive Tsallis entropy. It is shown here that it is the nonenforcement of the pressure tensor moment constraints that lead to extremizations of entropy resulting in Tsallis-like forms. However, with the imposition of the pressure tensor moment constraint, as is fundamentally necessary for the recovery of the Navier-Stokes equations, it is proved that the entropy function must be of the discrete Boltzmann form. Three-dimensional simulations are performed which illustrate some of the differences between standard lattice Boltzmann and entropic lattice Boltzmann schemes, as well as the role played by the number of phase-space velocities used in the discretization.",
+      "authors": [
+        "Brian Keating",
+        "George Vahala",
+        "Jeffrey Yepez",
+        "Min Soe",
+        "Linda Vahala"
+      ]
+    },
+    {
+      "title": "Quantum lattice gas representation of some classical solitons",
+      "publication_year": 2003,
+      "publication_date": "2003-04-01",
+      "doi": "https://doi.org/10.1016/s0375-9601(03)00334-7",
+      "venue": "Physics Letters A",
+      "type": "article",
+      "cited_by_count": 48,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Korteweg–de Vries equation",
+        "Integrable system",
+        "Soliton",
+        "Lattice (music)",
+        "Quantum",
+        "Mathematical physics",
+        "Representation (politics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "George Vahala",
+        "Jeffrey Yepez",
+        "Linda Vahala"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Quantum Computing Framework for Transient Scattering of Electromagnetic Waves by Dielectric Structures",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.48550/arxiv.2604.21128",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.21128",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Electromagnetic radiation",
+        "Plane wave",
+        "Qubit",
+        "Wave packet",
+        "Quantum mechanics",
+        "Maxwell's equations"
+      ],
+      "abstract": "Quantum computers are ideally set up to solve linear systems which are of a form similar to the Schrodinger/Dirac equation of quantum mechanics. In the framework of linear response theory, the propagation and scattering of electromagnetic waves in a dielectric medium are described by Maxwell equations. The qubit lattice algorithm consists of a series of alternating unitary streaming and entanglement operators acting on qubit amplitudes constructed from the electric and magnetic fields. It is not a direct discretization of Maxwell equations, but recovers the desired equations to second order in lattice grid spacing. The resulting algorithm is implemented on a present-day supercomputer and is the basis of studying scattering of electromagnetic waves by an elliptical dielectric. As opposed to the steady state description of Mie scattering in frequency domain, the temporal evolution provides insights into transient scattering. The QLA simulations, reveal that a spatially localized wave packet propagating past an elliptic dielectric, embedded in vacuum, leads to several reflections generated by wave fields trapped within the dielectric. The physics insight brought forth by these simu...",
+      "authors": [
+        "Min Soe",
+        "A. K. Ram",
+        "Efstratios Koukoutsis",
+        "George Vahala",
+        "Linda Vahala",
+        "Kyriakos Hizanidis"
+      ]
+    },
+    {
+      "title": "Quantum Computing Framework for Transient Scattering of Electromagnetic Waves by Dielectric Structures",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://arxiv.org/abs/2604.21128",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.21128",
+      "concepts": [
+        "Physics",
+        "Scattering",
+        "Electromagnetic radiation",
+        "Plane wave",
+        "Qubit",
+        "Wave packet",
+        "Quantum mechanics",
+        "Maxwell's equations"
+      ],
+      "abstract": "Quantum computers are ideally set up to solve linear systems which are of a form similar to the Schrodinger/Dirac equation of quantum mechanics. In the framework of linear response theory, the propagation and scattering of electromagnetic waves in a dielectric medium are described by Maxwell equations. The qubit lattice algorithm consists of a series of alternating unitary streaming and entanglement operators acting on qubit amplitudes constructed from the electric and magnetic fields. It is not a direct discretization of Maxwell equations, but recovers the desired equations to second order in lattice grid spacing. The resulting algorithm is implemented on a present-day supercomputer and is the basis of studying scattering of electromagnetic waves by an elliptical dielectric. As opposed to the steady state description of Mie scattering in frequency domain, the temporal evolution provides insights into transient scattering. The QLA simulations, reveal that a spatially localized wave packet propagating past an elliptic dielectric, embedded in vacuum, leads to several reflections generated by wave fields trapped within the dielectric. The physics insight brought forth by these simu...",
+      "authors": [
+        "Min Soe",
+        "A. K. Ram",
+        "Efstratios Koukoutsis",
+        "George Vahala",
+        "Linda Vahala",
+        "Kyriakos Hizanidis"
+      ]
+    },
+    {
+      "title": "Qubit lattice algorithm simulations of the scattering of a bounded two dimensional electromagnetic pulse from an infinite planar dielectric interface",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1063/5.0321128",
+      "venue": "AIP Advances",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0321128",
+      "concepts": [
+        "Physics",
+        "Planar",
+        "Bounded function",
+        "Lattice (music)",
+        "Dielectric",
+        "Mathematical analysis",
+        "Scattering",
+        "Boundary value problem"
+      ],
+      "abstract": "Qubit lattice algorithm (QLA) simulations are performed for a two-dimensional spatially bounded pulse propagating onto a plane interface between two dielectric slabs. QLA is an initial value scheme that consists of a sequence of unitary collision and streaming operators, with appropriate potential operators, that recover Maxwell equations in inhomogeneous dielectric media to the second order in the lattice discreteness. For the case of total internal reflection, there is transient energy transfer into the second medium due to the evanescent fields as the Poynting unit vector of the pulse is rotated from its incident to reflected direction. Because of the finite spatial extent of the pulse, a self-consistent Goos–Hanchen-type displacement along the interface is found without imposing any explicit interface boundary conditions on the fields. For normal incidence, the standard Fresnel coefficients are recovered for appropriately averaged QLA fields. Energy is conserved at all times to seven significant figures.",
+      "authors": [
+        "Min Soe",
+        "George Vahala",
+        "Linda Vahala",
+        "Efstratios Koukoutsis",
+        "A. K. Ram",
+        "Kyriakos Hizanidis"
+      ]
+    },
+    {
+      "title": "Transient fields in oblique scattering from an infinite planar dielectric interface -- a qubit lattice simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "https://doi.org/10.48550/arxiv.2601.09135",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.09135",
+      "concepts": [
+        "Physics",
+        "Wavefront",
+        "Planar",
+        "Scattering",
+        "Gaussian",
+        "Lattice (music)",
+        "Envelope (radar)",
+        "Electromagnetic pulse"
+      ],
+      "abstract": "An initial value algorithm is utilized to examine the time dependent evolution of the electromagnetic fields arising from oblique scattering of bounded pulses from an infinite planar dielectric interface. Since the qubit lattice algorithm (QLA) is almost fully unitary, one finds excellent conservation of electromagnetic energy. Various Gaussian envelope pulses are considered in regimes where the incident angle is below that needed for total internal reflection. While the reflected pulse retains its overall Gaussian shape, the transmitted pulse exhibits a combination of a Gaussian envelope along with Huygen-like emitted wave fronts from the collision point of the initial pulse with the infinite dielectric interface. The strength of these Huygen wavefronts depends on the width of the incident pulse.",
+      "authors": [
+        "Min Soe",
+        "George Vahala",
+        "Linda Vahala",
+        "Efstratios Koukoutsis",
+        "Abhay K. Ram",
+        "Kyriakos Hizanidis"
+      ]
+    },
+    {
+      "title": "Transient fields in oblique scattering from an infinite planar dielectric interface -- a qubit lattice simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "http://arxiv.org/abs/2601.09135",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.09135",
+      "concepts": [
+        "Physics",
+        "Wavefront",
+        "Planar",
+        "Scattering",
+        "Gaussian",
+        "Lattice (music)",
+        "Envelope (radar)",
+        "Electromagnetic pulse"
+      ],
+      "abstract": "An initial value algorithm is utilized to examine the time dependent evolution of the electromagnetic fields arising from oblique scattering of bounded pulses from an infinite planar dielectric interface. Since the qubit lattice algorithm (QLA) is almost fully unitary, one finds excellent conservation of electromagnetic energy. Various Gaussian envelope pulses are considered in regimes where the incident angle is below that needed for total internal reflection. While the reflected pulse retains its overall Gaussian shape, the transmitted pulse exhibits a combination of a Gaussian envelope along with Huygen-like emitted wave fronts from the collision point of the initial pulse with the infinite dielectric interface. The strength of these Huygen wavefronts depends on the width of the incident pulse.",
+      "authors": [
+        "Min Soe",
+        "George Vahala",
+        "Linda Vahala",
+        "Efstratios Koukoutsis",
+        "Abhay K. Ram",
+        "Kyriakos Hizanidis"
+      ]
+    }
+  ]
+}

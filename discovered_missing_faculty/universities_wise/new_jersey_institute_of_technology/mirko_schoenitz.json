@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Mirko Schoenitz",
+  "full_name": "Mirko Schoenitz",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "New Jersey Institute of Technology",
+  "author_id": "A5082987853",
+  "works_count": 258,
+  "cited_by_count": 7965,
+  "h_index": 48,
+  "top_topics": [
+    {
+      "topic": "Energetic Materials and Combustion",
+      "count": 148
+    },
+    {
+      "topic": "Thermal and Kinetic Analysis",
+      "count": 121
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 55
+    },
+    {
+      "topic": "Advanced ceramic materials synthesis",
+      "count": 32
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 27
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Effect of polymorphic phase transformations in Al2O3 film on oxidation kinetics of aluminum powders",
+      "publication_year": 2005,
+      "publication_date": "2005-01-07",
+      "doi": "https://doi.org/10.1016/j.combustflame.2004.10.010",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 580,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Amorphous solid",
+        "Oxide",
+        "Aluminium",
+        "Materials science",
+        "Thermogravimetry",
+        "Phase (matter)",
+        "Diffusion",
+        "Particle (ecology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mikhaylo A. Trunov",
+        "Mirko Schoenitz",
+        "Xiaoying Zhu",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Effect of polymorphic phase transformations in alumina layer on ignition of aluminium particles",
+      "publication_year": 2006,
+      "publication_date": "2006-08-01",
+      "doi": "https://doi.org/10.1080/13647830600578506",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 359,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ignition system",
+        "Exothermic reaction",
+        "Aluminium",
+        "Particle (ecology)",
+        "Thermodynamics",
+        "Materials science",
+        "Phase (matter)",
+        "Oxide"
+      ],
+      "abstract": "The mechanism of aluminium oxidation is quantified and a simplified ignition model is developed. The model describes ignition of an aluminium particle inserted in a hot oxygenated gas environment: a scenario similar to the particle ignition in a reflected shock in a shock tube experiment. The model treats heterogeneous oxidation as an exothermic process leading to ignition. The ignition is assumed to occur when the particle's temperature exceeds the alumina melting point. The model analyses processes of simultaneous growth and phase transformations in the oxide scale. Kinetic parameters for both direct oxidative growth and phase transformations are determined from thermal analysis. Additional assumptions about oxidation rates are made to account for discontinuities produced in the oxide scale as a result of increase in its density caused by the polymorphic phase changes. The model predicts that particles of different sizes ignite at different environment temperatures. Generally, finer particles ignite at lower temperatures. The model consistently interprets a wide range of the previously published experimental data describing aluminium ignition.",
+      "authors": [
+        "Mikhaylo A. Trunov",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Ignition of Aluminum Powders Under Different Experimental Conditions",
+      "publication_year": 2005,
+      "publication_date": "2005-02-01",
+      "doi": "https://doi.org/10.1002/prep.200400083",
+      "venue": "Propellants Explosives Pyrotechnics",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ignition system",
+        "Aluminium",
+        "Materials science",
+        "Composite material",
+        "Nuclear engineering",
+        "Engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "This paper presents a brief review of experimental measurements of aluminum ignition temperature. Models used to describe aluminum ignition are also reviewed. It is shown that the current models cannot describe ignition of aluminum powders of different sizes and ignited under various experimental conditions. The paper further discusses properties of and phase changes occurring in the alumina scale existing on the surface of aluminum particles at different temperatures. Results of recent thermal analysis studies of aluminum powder oxidation are presented and it is shown that the stepwise oxidation of aluminum is caused by the sequence of polymorphic phase transitions occurring in the growing oxide film. Finally, the qualitative connection between the processes governing the oxidation of aluminum powders and the ignition of aluminum particles is made and an explanation for the experimentally observed wide range of aluminum ignition temperatures is suggested.",
+      "authors": [
+        "Mikhaylo A. Trunov",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Developing figures of merit for feedstock powders prepared by emulsion-assisted milling",
+      "publication_year": 2026,
+      "publication_date": "2026-04-25",
+      "doi": "https://doi.org/10.1016/j.powtec.2026.122611",
+      "venue": "Powder Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.powtec.2026.122611",
+      "concepts": [
+        "Raw material",
+        "Materials science",
+        "Particle size",
+        "Process (computing)",
+        "Process engineering",
+        "Particle (ecology)",
+        "Scanning electron microscope",
+        "Metallurgy"
+      ],
+      "abstract": "Spherical feedstock powders with controlled particle sizes offer significant advantages for many technologies, including printable inks, enabling higher solids loadings and enhanced resolution in additively manufactured (AM) items. One material-agnostic method to produce such powders is emulsion-assisted milling. The characteristics and quality of the produced powders are affected by the milling process parameters. Understanding these effects is challenging as they are governed by multiple powder descriptors and many process parameters. Here, this challenge is addressed by processing and analyzing large sets of electron microscope images of the powder particles. StarDist, a deep-learning model plugin in FIJI, served to extract diverse shape and size descriptors for individual particles. Three powders of interest to the field of energetic materials: Al·Fe 2 O 3 , Al·PVDF, and elemental boron were produced with variable process parameters. Integrated descriptors of the powder quality (figures of merit) were developed for each case based on the individual descriptors obtained from the image analysis. These figures of merit were correlated with the milling process parameters. The fi...",
+      "authors": [
+        "Simay Ozsoysal",
+        "Jonathan L. McNanna",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Effect of polytetrafluoroethylene on combustion of boron powder prepared by emulsion-assisted milling",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1016/j.fpc.2026.04.006",
+      "venue": "FirePhysChem",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.fpc.2026.04.006",
+      "concepts": [
+        "Materials science",
+        "Combustion",
+        "Polytetrafluoroethylene",
+        "Boron",
+        "Metallurgy",
+        "Composite material",
+        "Boron carbide",
+        "Combustion products"
+      ],
+      "abstract": "Spherical composite powders combining boron and 5 wt% polytetrafluoroethylene (PTFE) with particle sizes around 10 µm were prepared by emulsion-assisted milling (EAM). Powders were milled using either zirconia or steel balls and thus contained either zirconia or iron contaminations, respectively. The oxidation of the prepared powders was studied using thermal analysis. The ignition temperature was determined using an electrically heated filament. Prepared powders were blended with KNO 3 as an oxidizer and ignited using a CO 2 laser beam. The powders were also aerosolized and burned in a closed vessel. The results showed no effect of zirconia contamination on the powder reactivity, while the added iron caused a reduction in the oxidation onset temperature by ∼50°C. The added PTFE did not substantially affect the oxidation onset for zirconia-milled powders but did reduce their ignition temperature. The added PTFE, in the absence of iron contamination, led to a higher combustion temperature and a brighter incandescent plume for the laser-ignited powders blended with KNO 3 . In the aerosol explosion experiments, peak pressures and rates of pressure rise increased respectively by ∼5 ...",
+      "authors": [
+        "Mysha Momtaz",
+        "Jonathan L. McNanna",
+        "Kamila Zuba",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Effect of parameters of emulsion-assisted milling on morphology and reactivity of a spherical thermite powder",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://doi.org/10.6084/m9.figshare.31427374.v1",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31427374.v1",
+      "concepts": [
+        "Thermite",
+        "Materials science",
+        "Reactivity (psychology)",
+        "Morphology (biology)",
+        "Composite number",
+        "Process (computing)",
+        "Stoichiometry",
+        "Chemical engineering"
+      ],
+      "abstract": "Spherical reactive composite powders with narrow size distributions are desired as feedstocks for printable reactive inks. Emulsion-assisted milling (EAM) yields such powders for a range of materials. Earlier work established certain relationships between the EAM process parameters and material properties for one material system. This study aims to expand the applicability of such relations to different materials. A stoichiometric Al·Fe2O3 composite thermite powder was prepared by EAM. When the EAM process parameters are not optimized, the product contains both spherical and irregularly shaped composite particles. Optical microscopy and image analysis served to separate the EAM-produced thermite particles into spherical and irregular classes. Thermal analysis was used to quantify the reactivity of the prepared powders. The morphological characteristics of the powders, their composition (from XRD), and their reactivity descriptors were correlated with both the EAM process parameters and the powders’ quality metrics. At least some of the process-property correlations for EAM apply similarly to different materials. Correlations between the powder morphology and its reactivity are i...",
+      "authors": [
+        "Jonathan L. McNanna",
+        "Khushi Patel",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Effect of parameters of emulsion-assisted milling on morphology and reactivity of a spherical thermite powder",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://doi.org/10.6084/m9.figshare.31427374",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31427374",
+      "concepts": [
+        "Thermite",
+        "Materials science",
+        "Reactivity (psychology)",
+        "Morphology (biology)",
+        "Composite number",
+        "Process (computing)",
+        "Stoichiometry",
+        "Chemical engineering"
+      ],
+      "abstract": "Spherical reactive composite powders with narrow size distributions are desired as feedstocks for printable reactive inks. Emulsion-assisted milling (EAM) yields such powders for a range of materials. Earlier work established certain relationships between the EAM process parameters and material properties for one material system. This study aims to expand the applicability of such relations to different materials. A stoichiometric Al·Fe2O3 composite thermite powder was prepared by EAM. When the EAM process parameters are not optimized, the product contains both spherical and irregularly shaped composite particles. Optical microscopy and image analysis served to separate the EAM-produced thermite particles into spherical and irregular classes. Thermal analysis was used to quantify the reactivity of the prepared powders. The morphological characteristics of the powders, their composition (from XRD), and their reactivity descriptors were correlated with both the EAM process parameters and the powders’ quality metrics. At least some of the process-property correlations for EAM apply similarly to different materials. Correlations between the powder morphology and its reactivity are i...",
+      "authors": [
+        "Jonathan L. McNanna",
+        "Khushi Patel",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    },
+    {
+      "title": "Effect of parameters of emulsion-assisted milling on morphology and reactivity of a spherical thermite powder",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://doi.org/10.1080/07370652.2026.2638151",
+      "venue": "Journal of Energetic Materials",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermite",
+        "Morphology (biology)",
+        "Materials science",
+        "Reactivity (psychology)",
+        "Chemical engineering",
+        "Metallurgy",
+        "Composite material",
+        "Microstructure"
+      ],
+      "abstract": "Spherical reactive composite powders with narrow size distributions are desired as feedstocks for printable reactive inks. Emulsion-assisted milling (EAM) yields such powders for a range of materials. Earlier work established certain relationships between the EAM process parameters and material properties for one material system. This study aims to expand the applicability of such relations to different materials. A stoichiometric Al·Fe2O3 composite thermite powder was prepared by EAM. When the EAM process parameters are not optimized, the product contains both spherical and irregularly shaped composite particles. Optical microscopy and image analysis served to separate the EAM-produced thermite particles into spherical and irregular classes. Thermal analysis was used to quantify the reactivity of the prepared powders. The morphological characteristics of the powders, their composition (from XRD), and their reactivity descriptors were correlated with both the EAM process parameters and the powders’ quality metrics. At least some of the process-property correlations for EAM apply similarly to different materials. Correlations between the powder morphology and its reactivity are i...",
+      "authors": [
+        "Jonathan L. McNanna",
+        "Khushi Patel",
+        "Mirko Schoenitz",
+        "Edward L. Dreizin"
+      ]
+    }
+  ]
+}

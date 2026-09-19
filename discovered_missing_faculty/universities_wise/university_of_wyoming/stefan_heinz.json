@@ -1,0 +1,310 @@
+{
+  "faculty_name": "Stefan Heinz",
+  "full_name": "Stefan Heinz",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Wyoming",
+  "author_id": "A5023046646",
+  "works_count": 305,
+  "cited_by_count": 4211,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 89
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 70
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 36
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 29
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 25
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "MIPLIB 2010",
+      "publication_year": 2011,
+      "publication_date": "2011-06-01",
+      "doi": "https://doi.org/10.1007/s12532-011-0025-9",
+      "venue": "Mathematical Programming Computation",
+      "type": "article",
+      "cited_by_count": 319,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Computer science",
+        "Integer programming",
+        "Theory of computation",
+        "Set (abstract data type)",
+        "Test (biology)",
+        "Integer (computer science)",
+        "Scripting language"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thorsten Koch",
+        "Tobias Achterberg",
+        "Erling Andersen",
+        "Oliver Bastert",
+        "Timo Berthold",
+        "Robert E. Bixby",
+        "Emilie Danna",
+        "Gerald Gamrath",
+        "Ambros Gleixner",
+        "Stefan Heinz",
+        "Andrea Lodi",
+        "Hans D. Mittelmann",
+        "Ted K. Ralphs",
+        "Domenico Salvagnin",
+        "Daniel E. Steffy",
+        "Kati Wolter"
+      ]
+    },
+    {
+      "title": "A review of hybrid RANS-LES methods for turbulent flows: Concepts and applications",
+      "publication_year": 2020,
+      "publication_date": "2020-03-19",
+      "doi": "https://doi.org/10.1016/j.paerosci.2019.100597",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Realizability",
+        "Airfoil",
+        "Turbulence",
+        "Computer science",
+        "Large eddy simulation",
+        "Flow (mathematics)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stefan Heinz"
+      ]
+    },
+    {
+      "title": "Long-term culture and expansion of primary human hepatocytes",
+      "publication_year": 2015,
+      "publication_date": "2015-10-26",
+      "doi": "https://doi.org/10.1038/nbt.3377",
+      "venue": "Nature Biotechnology",
+      "type": "article",
+      "cited_by_count": 153,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Term (time)",
+        "Primary (astronomy)",
+        "Chemistry",
+        "Physics",
+        "Astronomy",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Gahl Levy",
+        "David Bomze",
+        "Stefan Heinz",
+        "Sarada Devi Ramachandran",
+        "Astrid Noerenberg",
+        "Merav Cohen",
+        "Oren Shibolet",
+        "Ella H. Sklan",
+        "Joris Braspenning",
+        "Yaakov Nahmias"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Realizability Constraints for the k−ω Shear-Stress Transport (SST) Model",
+      "publication_year": 2026,
+      "publication_date": "2026-06-27",
+      "doi": "https://doi.org/10.2514/1.j067134",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Realizability",
+        "Mathematics",
+        "Applied mathematics",
+        "Computer science",
+        "Mathematical optimization",
+        "Physics",
+        "Constraint (computer-aided design)",
+        "Algorithm"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stefan Heinz"
+      ]
+    },
+    {
+      "title": "Health service spatial accessibility matrices for Aotearoa New Zealand: Estimated travel time from geospatial unit to every Hospital, Pharmacy, General Practitioner service, and Cancer Treatment facility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://doi.org/10.6084/m9.figshare.32642214.v1",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://figshare.com/articles/dataset/Health_service_spatial_accessibility_matrices_for_Aotearoa_New_Zealand_Estimated_travel_time_from_geospatial_unit_to_every_Hospital_Pharmacy_General_Practitioner_service_and_Cancer_Treatment_facility/32642214",
+      "concepts": [
+        "Geospatial analysis",
+        "Geocoding",
+        "Geography",
+        "Transport engineering",
+        "Computer science",
+        "Unit (ring theory)",
+        "Key (lock)",
+        "Service (business)"
+      ],
+      "abstract": "Aim: A national suite of spatial accessibility matrices designed for non-specialist users in Aotearoa New Zealand was developed with the goal of providing flexible, high resolution, travel time and distance datasets that enable equitable, spatially informed health service planning.Method: Using New Zealand address weighted centroids for Meshblock, SA1, SA2, and Domicile code geographies, shortest path drive times and distances were estimated to GP, pharmacy, hospital, and cancer treatment facilities; and for each SA2 code pairing. Seventeen national travel-time and distance matrices were produced. Validation against 17,000 Google Maps Distance Matrix API samples assessed correlation between estimated and reference travel times and distances.Data: An industry standard road network was used for this analysis. The Precisely (2025) Street Pro Navigation Premium NZ Road Network topologically models the roads, junctions, and traffic directions of the physical road system. Each road segment is associated with a distance and speed impedance. Data on road speeds is derived through aggregate measurement of active vehicles by TomTom. Travel time is derived from the minimum speeds during ei...",
+      "authors": [
+        "Jesse Whitehead",
+        "Marcus Blake",
+        "Sam Quinsey",
+        "Vincent L. Versace",
+        "Rory Miller",
+        "Mitchell Pincham",
+        "Talis Liepins",
+        "Jason Gurney",
+        "Anna Davies",
+        "James Stanley",
+        "Stefan Heinz",
+        "Lynne Chepulis",
+        "Mariana Hudson",
+        "Emily Gill"
+      ]
+    },
+    {
+      "title": "Health service spatial accessibility matrices for Aotearoa New Zealand: Estimated travel time from geospatial unit to every Hospital, Pharmacy, General Practitioner service, and Cancer Treatment facility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://doi.org/10.6084/m9.figshare.32642214",
+      "venue": "Otago University Research Archive (University of Otago)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32642214",
+      "concepts": [
+        "Geospatial analysis",
+        "Geocoding",
+        "Geography",
+        "Transport engineering",
+        "Computer science",
+        "Unit (ring theory)",
+        "Key (lock)",
+        "Service (business)"
+      ],
+      "abstract": "Aim: A national suite of spatial accessibility matrices designed for non-specialist users in Aotearoa New Zealand was developed with the goal of providing flexible, high resolution, travel time and distance datasets that enable equitable, spatially informed health service planning.Method: Using New Zealand address weighted centroids for Meshblock, SA1, SA2, and Domicile code geographies, shortest path drive times and distances were estimated to GP, pharmacy, hospital, and cancer treatment facilities; and for each SA2 code pairing. Seventeen national travel-time and distance matrices were produced. Validation against 17,000 Google Maps Distance Matrix API samples assessed correlation between estimated and reference travel times and distances.Data: An industry standard road network was used for this analysis. The Precisely (2025) Street Pro Navigation Premium NZ Road Network topologically models the roads, junctions, and traffic directions of the physical road system. Each road segment is associated with a distance and speed impedance. Data on road speeds is derived through aggregate measurement of active vehicles by TomTom. Travel time is derived from the minimum speeds during ei...",
+      "authors": [
+        "Jesse Whitehead",
+        "Marcus Blake",
+        "Sam Quinsey",
+        "Vincent L. Versace",
+        "Rory Miller",
+        "Mitchell Pincham",
+        "Talis Liepins",
+        "Jason Gurney",
+        "Anna Davies",
+        "James Stanley",
+        "Stefan Heinz",
+        "Lynne Chepulis",
+        "Mariana Hudson",
+        "Emily Gill"
+      ]
+    },
+    {
+      "title": "Health service spatial accessibility matrices for Aotearoa New Zealand: Estimated travel distance from geospatial unit to every Hospital, Pharmacy, General Practitioner service, and Cancer Treatment facility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://doi.org/10.6084/m9.figshare.32642220",
+      "venue": "Otago University Research Archive (University of Otago)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32642220",
+      "concepts": [
+        "Geospatial analysis",
+        "Geocoding",
+        "Geography",
+        "Transport engineering",
+        "Computer science",
+        "Unit (ring theory)",
+        "Geographic coordinate system",
+        "Key (lock)"
+      ],
+      "abstract": "Aim: A national suite of spatial accessibility matrices designed for non-specialist users in Aotearoa New Zealand was developed with the goal of providing flexible, high resolution, travel time and distance datasets that enable equitable, spatially informed health service planning.Method: Using New Zealand address weighted centroids for Meshblock, SA1, SA2, and Domicile code geographies, shortest path drive times and distances were estimated to GP, pharmacy, hospital, and cancer treatment facilities; and for each SA2 code pairing. Seventeen national travel-time and distance matrices were produced. Validation against 17,000 Google Maps Distance Matrix API samples assessed correlation between estimated and reference travel times and distances.Data: An industry standard road network was used for this analysis. The Precisely (2025) Street Pro Navigation Premium NZ Road Network topologically models the roads, junctions, and traffic directions of the physical road system. Each road segment is associated with a distance and speed impedance. Data on road speeds is derived through aggregate measurement of active vehicles by TomTom. Travel time is derived from the minimum speeds during ei...",
+      "authors": [
+        "Jesse Whitehead",
+        "Sam Quinsey",
+        "Marcus Blake",
+        "Rory Miller",
+        "Vincent L. Versace",
+        "Talis Liepins",
+        "Jason Gurney",
+        "Anna Davies",
+        "James Stanley",
+        "Stefan Heinz",
+        "Lynne Chepulis",
+        "Mariana Hudson",
+        "Emily Gill",
+        "Mitchell Pincham"
+      ]
+    },
+    {
+      "title": "Health service spatial accessibility matrices for Aotearoa New Zealand: Estimated travel distance from geospatial unit to every Hospital, Pharmacy, General Practitioner service, and Cancer Treatment facility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-14",
+      "doi": "https://doi.org/10.6084/m9.figshare.32642220.v1",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://figshare.com/articles/dataset/Health_service_spatial_accessibility_matrices_for_Aotearoa_New_Zealand_Estimated_travel_distance_from_geospatial_unit_to_every_Hospital_Pharmacy_General_Practitioner_service_and_Cancer_Treatment_facility/32642220",
+      "concepts": [
+        "Geospatial analysis",
+        "Geocoding",
+        "Geography",
+        "Transport engineering",
+        "Computer science",
+        "Unit (ring theory)",
+        "Geographic coordinate system",
+        "Key (lock)"
+      ],
+      "abstract": "Aim: A national suite of spatial accessibility matrices designed for non-specialist users in Aotearoa New Zealand was developed with the goal of providing flexible, high resolution, travel time and distance datasets that enable equitable, spatially informed health service planning.Method: Using New Zealand address weighted centroids for Meshblock, SA1, SA2, and Domicile code geographies, shortest path drive times and distances were estimated to GP, pharmacy, hospital, and cancer treatment facilities; and for each SA2 code pairing. Seventeen national travel-time and distance matrices were produced. Validation against 17,000 Google Maps Distance Matrix API samples assessed correlation between estimated and reference travel times and distances.Data: An industry standard road network was used for this analysis. The Precisely (2025) Street Pro Navigation Premium NZ Road Network topologically models the roads, junctions, and traffic directions of the physical road system. Each road segment is associated with a distance and speed impedance. Data on road speeds is derived through aggregate measurement of active vehicles by TomTom. Travel time is derived from the minimum speeds during ei...",
+      "authors": [
+        "Jesse Whitehead",
+        "Sam Quinsey",
+        "Marcus Blake",
+        "Rory Miller",
+        "Vincent L. Versace",
+        "Talis Liepins",
+        "Jason Gurney",
+        "Anna Davies",
+        "James Stanley",
+        "Stefan Heinz",
+        "Lynne Chepulis",
+        "Mariana Hudson",
+        "Emily Gill",
+        "Mitchell Pincham"
+      ]
+    }
+  ]
+}

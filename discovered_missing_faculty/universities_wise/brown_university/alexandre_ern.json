@@ -1,0 +1,240 @@
+{
+  "faculty_name": "Alexandre Ern",
+  "full_name": "Alexandre Ern",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Brown University",
+  "author_id": "A5061539614",
+  "works_count": 478,
+  "cited_by_count": 11808,
+  "h_index": 49,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 283
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 144
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 93
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 86
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 62
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Theory and Practice of Finite Elements",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1007/978-1-4757-4355-5",
+      "venue": "Applied mathematical sciences",
+      "type": "book",
+      "cited_by_count": 2167,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alexandre Ern",
+        "Jean‐Luc Guermond"
+      ]
+    },
+    {
+      "title": "Mathematical Aspects of Discontinuous Galerkin Methods",
+      "publication_year": 2011,
+      "publication_date": "2011-11-02",
+      "doi": "https://doi.org/10.1007/978-3-642-22980-0",
+      "venue": "Mathématiques et applications",
+      "type": "book",
+      "cited_by_count": 1054,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Galerkin method",
+        "Discontinuous Galerkin method",
+        "Applied mathematics",
+        "Mathematics",
+        "Calculus (dental)",
+        "Computer science",
+        "Physics",
+        "Finite element method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniele A. Di Pietro",
+        "Alexandre Ern"
+      ]
+    },
+    {
+      "title": "Multicomponent Transport Algorithms",
+      "publication_year": 1994,
+      "publication_date": "1994-01-01",
+      "doi": "https://doi.org/10.1007/978-3-540-48650-3",
+      "venue": "Lecture notes in physics. M, Monographs",
+      "type": "book",
+      "cited_by_count": 377,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Statistical physics",
+        "Algorithm",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alexandre Ern",
+        "Vincent Giovangigli∥"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Unfitted Hybrid High-Order Methods Stabilized by Polynomial Extension for Elliptic Interface Problems",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.1137/25m1741790",
+      "venue": "SIAM Journal on Numerical Analysis",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1137/25m1741790",
+      "concepts": [
+        "Polynomial",
+        "Extension (predicate logic)",
+        "Mathematics",
+        "Stability (learning theory)",
+        "Consistency (knowledge bases)",
+        "Interface (matter)",
+        "Algorithm",
+        "Applied mathematics"
+      ],
+      "abstract": "Abstract. In this work, we study the design and analysis of a novel hybrid high-order (HHO) method on unfitted meshes. HHO methods rely on a pair of unknowns, combining polynomials attached to the mesh faces and the mesh cells. In the unfitted framework, the interface can cut through the mesh cells in a very general fashion, and the polynomial unknowns are doubled in the cut cells and the cut faces. In order to avoid the ill-conditioning issues caused by the presence of small cut cells, the novel approach introduced herein is to use polynomial extensions in the definition of the gradient reconstruction operator. Stability and consistency results are established, leading to optimally decaying error estimates. The theory is illustrated by numerical experiments.",
+      "authors": [
+        "Erik Burman",
+        "Alexandre Ern",
+        "Romain Mottier"
+      ]
+    },
+    {
+      "title": "Bounded, Commuting, Discrete-trace Preserving Projections",
+      "publication_year": 2026,
+      "publication_date": "2026-04-30",
+      "doi": "https://doi.org/10.48550/arxiv.2604.28103",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-05608667v1/document",
+      "concepts": [
+        "Mathematics",
+        "Piecewise",
+        "Polynomial",
+        "Graph",
+        "TRACE (psycholinguistics)",
+        "Extension (predicate logic)",
+        "Directional derivative",
+        "Norm (philosophy)"
+      ],
+      "abstract": "We construct bounded, commuting projections for the three-dimensional de Rham complex with the additional property that the projections preserve the trace of functions/fields if the latter is a piecewise polynomial in the appropriate trace space. The projections are locally defined and stable in the graph norm. More precisely, the part of the graph norm involving the exterior derivative only involves the oscillation of this derivative in a narrow strip of elements touching the boundary and weighted by the local mesh size. Moreover, the projections are $L^2$-stable locally when acting on functions/fields whose exterior derivative is a piecewise polynomial in the appropriate space. We present two salient applications of the present bounded, commuting, discrete-trace preserving projections: the construction of stable liftings of piecewise polynomial data and an optimality result on the discrete versus continuous extension of piecewise polynomial data.",
+      "authors": [
+        "Alexandre Ern",
+        "Johnny Guzmán",
+        "Pratyush Potu"
+      ]
+    },
+    {
+      "title": "Bounded, Commuting, Discrete-trace Preserving Projections",
+      "publication_year": 2026,
+      "publication_date": "2026-04-30",
+      "doi": "https://arxiv.org/abs/2604.28103",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.28103",
+      "concepts": [
+        "Mathematics",
+        "Piecewise",
+        "Polynomial",
+        "Graph",
+        "TRACE (psycholinguistics)",
+        "Extension (predicate logic)",
+        "Directional derivative",
+        "Norm (philosophy)"
+      ],
+      "abstract": "We construct bounded, commuting projections for the three-dimensional de Rham complex with the additional property that the projections preserve the trace of functions/fields if the latter is a piecewise polynomial in the appropriate trace space. The projections are locally defined and stable in the graph norm. More precisely, the part of the graph norm involving the exterior derivative only involves the oscillation of this derivative in a narrow strip of elements touching the boundary and weighted by the local mesh size. Moreover, the projections are $L^2$-stable locally when acting on functions/fields whose exterior derivative is a piecewise polynomial in the appropriate space. We present two salient applications of the present bounded, commuting, discrete-trace preserving projections: the construction of stable liftings of piecewise polynomial data and an optimality result on the discrete versus continuous extension of piecewise polynomial data.",
+      "authors": [
+        "Alexandre Ern",
+        "Johnny Guzmán",
+        "Pratyush Potu"
+      ]
+    },
+    {
+      "title": "Model-order reduction with optimal morphings for poorly reducible problems with geometric variability",
+      "publication_year": 2025,
+      "publication_date": "2025-12-22",
+      "doi": "https://hal.science/hal-05429296",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-05429296/document",
+      "concepts": [
+        "Morphing",
+        "Reduction (mathematics)",
+        "Mathematical optimization",
+        "Mathematics",
+        "Domain (mathematical analysis)",
+        "Airfoil",
+        "Parametric statistics",
+        "Applied mathematics"
+      ],
+      "abstract": "We propose a new model-order reduction framework for poorly reducible problems arising from parametric partial differential equations with geometric variability. In such problems, standard projection-based model-order reduction techniques based on linear subspace approximations become ineffective. To overcome this difficulty, we introduce an optimal morphing strategy: For each solution sample, we compute a bijective morphing from a reference domain to the sample domain such that, when all the solution fields are pulled back to the reference domain, the reducibility of the corresponding family is improved. We formulate a global optimization problem on the morphings so as to maximize the energy captured by the first few modes of the mapped fields obtained from Proper Orthogonal Decomposition, thus maximizing the reducibility of the dataset. Finally, using a non-intrusive Gaussian Process Regression on the reduced coordinates, we build a fast surrogate model that can accurately predict new solutions. The overall methodology, called O-MMGP (optimal mesh morphing Gaussian process regression) provides a general framework that can be applied to many-query applications with either param...",
+      "authors": [
+        "Abbas Kabalan",
+        "Fabien Casenave",
+        "Felipe Bordeu",
+        "Virginie Ehrlacher",
+        "Alexandre Ern"
+      ]
+    },
+    {
+      "title": "Improved $L^2$-error estimates for the wave equation discretized using hybrid nonconforming methods on simplicial meshes",
+      "publication_year": 2025,
+      "publication_date": "2025-11-17",
+      "doi": "https://doi.org/10.48550/arxiv.2511.13130",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.13130",
+      "concepts": [
+        "Mathematics",
+        "Discretization",
+        "Piecewise",
+        "Applied mathematics",
+        "Interpolation (computer graphics)",
+        "Operator (biology)",
+        "Mathematical analysis",
+        "Variable (mathematics)"
+      ],
+      "abstract": "We present improved $L^2$-error estimates on the time-integrated primal variable for the wave equation in its first-order formulation. The space discretization relies on a hybrid nonconforming method, such as the hybridizable discontinuous Galerkin, the hybrid high-order or the weak Galerkin methods. We consider both equal-order and mixed-order settings on simplices, and include the lowest-order case with piecewise constant unknowns on the faces and in the cells. Our main result is a superclose, resp., optimal bound on the above error in the equal-, resp., mixed-order case. A key result of independent interest to achieve these estimates are novel approximation estimates for an interpolation operator inspired from the hybridizable discontinuous Galerkin literature.",
+      "authors": [
+        "Bernardo Cockburn",
+        "Alexandre Ern",
+        "Rekha Khot"
+      ]
+    }
+  ]
+}

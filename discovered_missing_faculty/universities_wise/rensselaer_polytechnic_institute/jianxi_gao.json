@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Jianxi Gao",
+  "full_name": "Jianxi Gao",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5031928873",
+  "works_count": 307,
+  "cited_by_count": 10344,
+  "h_index": 44,
+  "top_topics": [
+    {
+      "topic": "Complex Network Analysis Techniques",
+      "count": 74
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 38
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 34
+    },
+    {
+      "topic": "Opinion Dynamics and Social Influence",
+      "count": 31
+    },
+    {
+      "topic": "Infrastructure Resilience and Vulnerability Analysis",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Networks formed from interdependent networks",
+      "publication_year": 2011,
+      "publication_date": "2011-12-22",
+      "doi": "https://doi.org/10.1038/nphys2180",
+      "venue": "Nature Physics",
+      "type": "article",
+      "cited_by_count": 1245,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interdependent networks",
+        "Interdependence",
+        "Percolation (cognitive psychology)",
+        "Complex network",
+        "Context (archaeology)",
+        "Limiting",
+        "Field (mathematics)",
+        "Set (abstract data type)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jianxi Gao",
+        "Sergey V. Buldyrev",
+        "H. Eugene Stanley",
+        "Shlomo Havlin"
+      ]
+    },
+    {
+      "title": "Universal resilience patterns in complex networks",
+      "publication_year": 2016,
+      "publication_date": "2016-02-16",
+      "doi": "https://doi.org/10.1038/nature16948",
+      "venue": "Nature",
+      "type": "article",
+      "cited_by_count": 1239,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Resilience (materials science)",
+        "Computer science",
+        "Function (biology)",
+        "Risk analysis (engineering)",
+        "Bridge (graph theory)",
+        "Complex system",
+        "Set (abstract data type)",
+        "Complex network"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jianxi Gao",
+        "Baruch Barzel",
+        "Albert-Ĺaszló Barabási"
+      ]
+    },
+    {
+      "title": "Robustness of a Network of Networks",
+      "publication_year": 2011,
+      "publication_date": "2011-11-04",
+      "doi": "https://doi.org/10.1103/physrevlett.107.195701",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 713,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1010.5829",
+      "concepts": [
+        "Interdependent networks",
+        "Percolation (cognitive psychology)",
+        "Limiting",
+        "Complex network",
+        "Percolation threshold",
+        "Phase transition",
+        "Percolation theory",
+        "Robustness (evolution)"
+      ],
+      "abstract": "Network research has been focused on studying the properties of a single isolated network, which rarely exists. We develop a general analytical framework for studying percolation of $n$ interdependent networks. We illustrate our analytical solutions for three examples: (i) For any tree of $n$ fully dependent Erd\\ifmmode \\mbox{\\H{o}}\\else \\H{o}\\fi{}s-R\\'enyi (ER) networks, each of average degree $\\overline{k}$, we find that the giant component is ${P}_{\\ensuremath{\\infty}}=p[1\\ensuremath{-}\\mathrm{exp}﻿(\\ensuremath{-}\\overline{k}{P}_{\\ensuremath{\\infty}}){]}^{n}$ where $1\\ensuremath{-}p$ is the initial fraction of removed nodes. This general result coincides for $n=1$ with the known second-order phase transition for a single network. For any $n>1$ cascading failures occur and the percolation becomes an abrupt first-order transition. (ii) For a starlike network of $n$ partially interdependent ER networks, ${P}_{\\ensuremath{\\infty}}$ depends also on the topology---in contrast to case (i). (iii) For a looplike network formed by $n$ partially dependent ER networks, ${P}_{\\ensuremath{\\infty}}$ is independent of $n$.",
+      "authors": [
+        "Jianxi Gao",
+        "Sergey V. Buldyrev",
+        "Shlomo Havlin",
+        "H. Eugene Stanley"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Switching exploration modes in human mobility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1098/rsif.2025.0817",
+      "venue": "Journal of The Royal Society Interface",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1098/rsif.2025.0817",
+      "concepts": [
+        "Computer science",
+        "Mobility model",
+        "Trajectory",
+        "Modular design",
+        "Movement (music)",
+        "Dynamics (music)",
+        "Transmission (telecommunications)",
+        "Topology (electrical circuits)"
+      ],
+      "abstract": "Recent advances in human mobility research have revealed consistent pairwise characteristics in movement behaviour, yet existing mobility models often overlook the spatial and topological structure of mobility networks. By analysing millions of devices' anonymized cell phone trajectories, we show that human mobility networks exhibit a pronounced polycentric and modular structure, in which movements within spatial modules differ fundamentally from movements between modules. This finding challenges the common assumption of uniform mobility dynamics across spatial scales. Inspired by switching behaviours in animal movement patterns, we introduce a 'switch mechanism' to distinguish intra-module and inter-module exploration modes. Incorporating this mechanism into a generative mobility model allows us to simultaneously reproduce individual-level mobility statistics and emergent network-level structures, including high modularity, long topological distances and frequent long-range travel. Our results provide a unified mechanistic explanation for the emergence of polycentric human mobility patterns and highlight the importance of scale-dependent movement dynamics, with implications for...",
+      "authors": [
+        "Lu Zhong",
+        "Lei Dong",
+        "Qi Wang",
+        "Chaoming Song",
+        "Jianxi Gao"
+      ]
+    },
+    {
+      "title": "Spatio-temporal graphical counterfactuals: an overview",
+      "publication_year": 2026,
+      "publication_date": "2026-02-06",
+      "doi": "https://doi.org/10.1007/s11432-024-4752-6",
+      "venue": "Science China Information Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2407.01875",
+      "concepts": [
+        "Counterfactual conditional",
+        "Computer science",
+        "Graphical model",
+        "Data science",
+        "Artificial intelligence",
+        "Epistemology",
+        "Counterfactual thinking",
+        "Philosophy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mingyu Kang",
+        "Duxin Chen",
+        "Ziyuan Pu",
+        "Jianxi Gao",
+        "Wenwu Yu"
+      ]
+    },
+    {
+      "title": "Less Is More: Efficient Weight “Farcasting” with 1-Layer Neural Network",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-981-95-3827-0_1",
+      "venue": "Lecture notes in computer science",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.02714",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Process (computing)",
+        "Artificial neural network",
+        "Gradient descent",
+        "Deep learning",
+        "Stochastic gradient descent"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xiao Mang Shou",
+        "Debarun Bhattacharjya",
+        "Yanna Ding",
+        "Chen Zhao",
+        "Rui Li",
+        "Jianxi Gao"
+      ]
+    },
+    {
+      "title": "CRAFT: Training-Free Cascaded Retrieval for Tabular QA",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.18653/v1/2026.acl-long.149",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://aclanthology.org/2026.acl-long.149.pdf",
+      "concepts": [
+        "Computer science",
+        "Question answering",
+        "Table (database)",
+        "Filter (signal processing)",
+        "Artificial intelligence",
+        "Natural language",
+        "Information retrieval",
+        "Retraining"
+      ],
+      "abstract": "Open-Domain Table Question Answering (TQA) involves retrieving relevant tables from a large corpus to answer natural language queries.Traditional dense retrieval models, such as DTR and DPR, not only incur high computational costs for large-scale retrieval tasks but also require retraining or finetuning on new datasets, limiting their adaptability to evolving domains and knowledge.In this work, we propose CRAFT, a zeroshot, cascaded retrieval approach that first uses a sparse retrieval model to filter a subset of candidate tables before applying more computationally expensive dense models as rerankers.To improve retrieval quality, we enrich table representations with descriptive titles and summaries generated by Gemini Flash 1.5, enabling richer semantic matching between queries and tabular structures.Our method outperforms state-of-the-art (SOTA) sparse, dense, and hybrid retrievers on the NQ-Tables dataset.It also demonstrates strong zero-shot performance on the more challenging OTT-QA benchmark, achieving competitive results at higher recall thresholds, where the task requires multi-hop reasoning across both textual passages and relational tables.This work establishes a scala...",
+      "authors": [
+        "Adarsh Singh",
+        "Kushal Raj Bhandari",
+        "Jianxi Gao",
+        "Soham Dan",
+        "Vivek Gupta"
+      ]
+    },
+    {
+      "title": "Understanding emergence in complex systems using abductive AI",
+      "publication_year": 2025,
+      "publication_date": "2025-11-11",
+      "doi": "https://doi.org/10.1038/s42254-025-00895-5",
+      "venue": "Nature Reviews Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Abductive reasoning",
+        "Artificial intelligence",
+        "Complex system",
+        "Computer science",
+        "Expert system",
+        "Cognitive science",
+        "Model-based reasoning",
+        "Non-monotonic logic"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jingtao Ding",
+        "Yu Zheng",
+        "Fengli Xu",
+        "Carlo Vittorio Cannistraci",
+        "Xiaowen Dong",
+        "Paolo Santi",
+        "Guido Caldarelli",
+        "Yizhou Sun",
+        "Qi Wang",
+        "Bolesław K. Szymański",
+        "Carlo Ratti",
+        "Trey Ideker",
+        "Jianxi Gao",
+        "Yong Li",
+        "Deliang Chen"
+      ]
+    }
+  ]
+}

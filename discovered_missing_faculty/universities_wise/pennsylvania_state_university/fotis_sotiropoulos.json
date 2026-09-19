@@ -1,0 +1,114 @@
+{
+  "faculty_name": "Fotis Sotiropoulos",
+  "full_name": "Fotis Sotiropoulos",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Pennsylvania State University",
+  "author_id": "A5014584215",
+  "works_count": 501,
+  "cited_by_count": 15464,
+  "h_index": 72,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 129
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 114
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 112
+    },
+    {
+      "topic": "Hydrology and Sediment Transport Processes",
+      "count": 88
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 75
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A hybrid Cartesian/immersed boundary method for simulating flows with 3D, geometrically complex, moving bodies",
+      "publication_year": 2005,
+      "publication_date": "2005-03-04",
+      "doi": "https://doi.org/10.1016/j.jcp.2005.01.020",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 555,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cartesian coordinate system",
+        "Discretization",
+        "Regular grid",
+        "Immersed boundary method",
+        "Flow (mathematics)",
+        "Geometry",
+        "Mathematics",
+        "Polygon mesh"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anvar Gilmanov",
+        "Fotis Sotiropoulos"
+      ]
+    },
+    {
+      "title": "Numerical investigation of the hydrodynamics of carangiform swimming in the transitional and inertial flow regimes",
+      "publication_year": 2008,
+      "publication_date": "2008-05-04",
+      "doi": "https://doi.org/10.1242/jeb.015644",
+      "venue": "Journal of Experimental Biology",
+      "type": "article",
+      "cited_by_count": 516,
+      "is_oa": true,
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/211/10/1541/1263656/1541.pdf",
+      "concepts": [
+        "Strouhal number",
+        "Fish locomotion",
+        "Drag",
+        "Mechanics",
+        "Inviscid flow",
+        "Physics",
+        "Reynolds number",
+        "Inertial frame of reference"
+      ],
+      "abstract": "We employ numerical simulation to investigate the hydrodynamics of carangiform locomotion as the relative magnitude of viscous and inertial forces, i.e. the Reynolds number (Re), and the tail-beat frequency, i.e. the Strouhal number (St), are systematically varied. The model fish is a three-dimensional (3D) mackerel-like flexible body undulating with prescribed experimental kinematics of carangiform type. Simulations are carried out for three Re spanning the transitional and inertial flow regimes, Re=300 and 4000 (viscous flow), and infinity (inviscid flow). For each Re there is a critical Strouhal number, St*, at which the net mean force becomes zero, making constant-speed self-propulsion possible. St* is a decreasing function of Re and approaches the range of St at which most carangiform swimmers swim in nature (St approximately 0.25) only as Re approaches infinity. The propulsive efficiency at St* is an increasing function of Re while the power required for swimming is decreasing with Re. For all Re, however, the swimming power is shown to be significantly greater than that required to tow the rigid body at the same speed. We also show that the variation of the total drag and...",
+      "authors": [
+        "Iman Borazjani",
+        "Fotis Sotiropoulos"
+      ]
+    },
+    {
+      "title": "Curvilinear immersed boundary method for simulating fluid structure interaction with complex 3D rigid bodies",
+      "publication_year": 2008,
+      "publication_date": "2008-05-08",
+      "doi": "https://doi.org/10.1016/j.jcp.2008.04.028",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 474,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2963478",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Immersed boundary method",
+        "Fluid–structure interaction",
+        "Discretization",
+        "Solver",
+        "Coupling (piping)",
+        "Grid",
+        "Complex geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Iman Borazjani",
+        "Liang Ge",
+        "Fotis Sotiropoulos"
+      ]
+    }
+  ],
+  "recent_works": []
+}

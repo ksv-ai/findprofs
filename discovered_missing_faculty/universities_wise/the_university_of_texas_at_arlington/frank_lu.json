@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Frank Lu",
+  "full_name": "Frank Lu",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "The University of Texas at Arlington",
+  "author_id": "A5077491391",
+  "works_count": 356,
+  "cited_by_count": 5041,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 144
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 92
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 85
+    },
+    {
+      "topic": "Energetic Materials and Combustion",
+      "count": 68
+    },
+    {
+      "topic": "Risk and Safety Analysis",
+      "count": 56
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Rotating Detonation Wave Propulsion: Experimental Challenges, Modeling, and Engine Concepts",
+      "publication_year": 2014,
+      "publication_date": "2014-07-08",
+      "doi": "https://doi.org/10.2514/1.b34802",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 649,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Propulsion",
+        "Aerospace engineering",
+        "Ramjet",
+        "Propellant",
+        "Spacecraft propulsion",
+        "Deflagration to detonation transition",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Frank Lu",
+        "Eric Braun"
+      ]
+    },
+    {
+      "title": "Airbreathing rotating detonation wave engine cycle analysis",
+      "publication_year": 2012,
+      "publication_date": "2012-08-29",
+      "doi": "https://doi.org/10.1016/j.ast.2012.08.010",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 202,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Detonation",
+        "Mach number",
+        "Mechanics",
+        "Isolator",
+        "Nozzle",
+        "Inlet",
+        "Specific impulse"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eric Braun",
+        "Frank Lu",
+        "Donald Wilson",
+        "José Camberos"
+      ]
+    },
+    {
+      "title": "Micro-vortex generators for shock wave/boundary layer interactions",
+      "publication_year": 2014,
+      "publication_date": "2014-12-31",
+      "doi": "https://doi.org/10.1016/j.paerosci.2014.12.006",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 151,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Boundary layer",
+        "Wake",
+        "Physics",
+        "Vortex generator",
+        "Mechanics",
+        "Shock (circulatory)",
+        "Shock wave"
+      ],
+      "abstract": "",
+      "authors": [
+        "Argyris G. Panaras",
+        "Frank Lu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Image Processing of Schlieren Images of a Propagating Shock in a Narrow Shock Tube",
+      "publication_year": 2026,
+      "publication_date": "2026-06-29",
+      "doi": "https://doi.org/10.2514/6.2026-5065",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Schlieren",
+        "Image processing",
+        "Shock (circulatory)",
+        "Optics",
+        "Shock tube",
+        "Materials science",
+        "Schlieren imaging",
+        "Tube (container)"
+      ],
+      "abstract": "Schlieren visualization was carried out in a one inch square cross-section shock tube. The shock tube is approximately 1.4 m long, with the 0.3 m long test section attached to the end of the driven section. The shock tube was instrumented with 7 high frequency response PCB transducers to record wall static pressures during experiments. The optical window in the test section is three inches wide and is of the same cross section as the rest of the shock tube. A 4000 lumen, high intensity white light source was collimated into a six inch diameter light beam, which illuminated the test window. High speed videos of the experiments were captured as a sequence of 128 images at 500,000 frames per second with the exposure time being 200 nanoseconds per frame. The images were then post-processed to remove background artifacts and correct for window orientation. Thereafter, the leading edge of the shock wave was detected using Canny algorithm and the shock velocity was calculated using cross-correlation. Additionally, the experimental shock wave velocity was also calculated using cross-correlation across the pressure traces of subsequent transducers. Finally, the experimental shock velocit...",
+      "authors": [
+        "Ananthkumar Jayamani",
+        "Frank Lu"
+      ]
+    },
+    {
+      "title": "Development of Microfabricated Thin Film Gauges for Short Duration Test Facilities",
+      "publication_year": 2026,
+      "publication_date": "2026-06-29",
+      "doi": "https://doi.org/10.2514/6.2026-5079",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Thin film",
+        "Calibration",
+        "Composite material",
+        "Mechanical engineering",
+        "Acoustics",
+        "Duration (music)",
+        "Optics"
+      ],
+      "abstract": "This paper describes the design, modeling, and fabrication of microfabricated thin-film heat-flux gauges (TFGs) for short-duration hypersonic ground-test environments. A onedimensional, transient thermal model of a thin-film–substrate system is formulated and solved using Laplace-transform methods, providing insight into material selection and thickness requirement for fast-response operation. Thermal property matching and coefficient of thermal expansion compatibility are then used to identify suitable film–substrate pairs and guide the overall sensor design. Based on this, thin-film heat-flux gauges are fabricated in-house using standard microfabrication processes used in the semiconductor industry. Static calibration procedures are carried out to characterize the thermophysical response of the sensors. The gauges are currently being prepared for shock tube testing, whereby their heat-flux performance will be evaluated against analytical predictions. Such an integrated modeling-to-fabrication approach presents a robust pathway for developing reliable, fast-response TFGs for hypersonic testing.",
+      "authors": [
+        "Emirhan Bayir",
+        "Ananthkumar Jayamani",
+        "Frank Lu",
+        "Hyejin Moon"
+      ]
+    },
+    {
+      "title": "Inverse method-of-characteristics algorithms extended to high-speed flows with finite-rate chemistry",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1063/5.0308588",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Flow (mathematics)",
+        "Ordinary differential equation",
+        "Shock (circulatory)",
+        "Subroutine",
+        "Rarefaction (ecology)",
+        "Mechanics",
+        "Inverse"
+      ],
+      "abstract": "The inverse marching method-of-characteristics algorithm was extended to account for flows where finite-rate chemical reactions occur. The governing equations for an unsteady, inviscid, quasi-one-dimensional chemically reacting gas flow were reduced to ordinary differential equations using the method-of-characteristics. Utilizing these simplified ordinary differential equations, two inverse marching type algorithms—commonly known as interior point and outflow algorithms—were developed. The former resolves continuous regions in the flowfield representing rarefaction and weak compression waves. The latter, as the name implies, resolves outflow conditions at the exit of a computational domain. These algorithms incorporated an in-built subroutine to resolve the thermochemical state of the gaseous mixture and to evaluate the species source function while integrating the species continuity equation along pathlines. The reaction rates in the chemical source term were evaluated using a modified Arrhenius type relation, while the thermophysical properties of individual species were modeled using polynomial curvefits commonly used in the literature. The method-of-characteristics algorithm...",
+      "authors": [
+        "Ananthkumar Jayamani",
+        "Frank Lu"
+      ]
+    },
+    {
+      "title": "Special Cases of the Shafarevich Conjecture for Complete Intersections in Abelian Varieties",
+      "publication_year": 2025,
+      "publication_date": "2025-06-17",
+      "doi": "https://doi.org/10.48550/arxiv.2506.14935",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.14935",
+      "concepts": [
+        "Monodromy",
+        "Mathematics",
+        "Conjecture",
+        "Abelian group",
+        "Statement (logic)",
+        "Pure mathematics",
+        "Field (mathematics)",
+        "Euler's formula"
+      ],
+      "abstract": "In this paper, we prove the Shafarevich conjecture for certain complete intersections of hypersurfaces in abelian varieties defined over a number field $K$ using the Lawrence-Venkatesh method. The main new inputs we need are computation of certain Euler characteristics of these complete intersections and a big monodromy statement for the variation of Hodge structure arising from the middle cohomology of a family of such complete intersections. Following \\cite{ls25}, we prove the latter by relating this monodromy statement to a statement about Tannaka groups, which we then convert into a combinatorial statement.",
+      "authors": [
+        "Frank Lu"
+      ]
+    },
+    {
+      "title": "Exploring Early-Stage Research Experiences Among Underrepresented Minority Students in Aerospace Engineering",
+      "publication_year": 2025,
+      "publication_date": "2025-04-29",
+      "doi": "https://doi.org/10.18260/1-2--55051",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/55051.pdf",
+      "concepts": [
+        "Aerospace",
+        "Stage (stratigraphy)",
+        "Underrepresented Minority",
+        "Computer science",
+        "Psychology",
+        "Engineering management",
+        "Engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mengqi Zhan",
+        "Grace Ellen Brannon",
+        "Liwei Zhang",
+        "Frank Lu"
+      ]
+    }
+  ]
+}

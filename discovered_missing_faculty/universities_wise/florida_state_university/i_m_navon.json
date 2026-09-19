@@ -1,0 +1,258 @@
+{
+  "faculty_name": "I. M. Navon",
+  "full_name": "I. M. Navon",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Florida State University",
+  "author_id": "A5029573210",
+  "works_count": 302,
+  "cited_by_count": 11406,
+  "h_index": 61,
+  "top_topics": [
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 106
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 88
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 65
+    },
+    {
+      "topic": "Climate variability and models",
+      "count": 52
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 43
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Long lead-time daily and monthly streamflow forecasting using machine learning methods",
+      "publication_year": 2020,
+      "publication_date": "2020-08-06",
+      "doi": "https://doi.org/10.1016/j.jhydrol.2020.125376",
+      "venue": "Journal of Hydrology",
+      "type": "article",
+      "cited_by_count": 315,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Streamflow",
+        "Lead time",
+        "Computer science",
+        "Artificial neural network",
+        "Flood forecasting",
+        "Forecast period",
+        "Lag",
+        "Time series"
+      ],
+      "abstract": "",
+      "authors": [
+        "Meiling Cheng",
+        "F. Fang",
+        "Tsuyoshi Kinouchi",
+        "I. M. Navon",
+        "Christopher C. Pain"
+      ]
+    },
+    {
+      "title": "Variational Data Assimilation with an Adiabatic Version of the NMC Spectral Model",
+      "publication_year": 1992,
+      "publication_date": "1992-07-01",
+      "doi": "https://doi.org/10.1175/1520-0493(1992)120<1433:vdawaa>2.0.co;2",
+      "venue": "Monthly Weather Review",
+      "type": "article",
+      "cited_by_count": 286,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Data assimilation",
+        "Adiabatic process",
+        "Applied mathematics",
+        "Discretization",
+        "Mathematics",
+        "Minification",
+        "Perturbation (astronomy)",
+        "Variational analysis"
+      ],
+      "abstract": "Variational four-dimensional (4D) data assimilation is performed using an adiabatic version of the National Meteorological Center (NMC) baroclinic spectral primitive equation model with operationally analyzed fields as well as simulated datasets. Two limited-memory quasi-Newton minimization techniques were used to iteratively find the minimum of a cost function, with the NMC forecast as a constraint. The cost function consists of a weighted square sum of the differences between the model forecast and observations over a time interval. In all the experiments described in this paper, observations are available for all degrees of freedom of the model. The derivation of the adjoint of the discretized adiabatic NMC spectral model is presented. The creation of this adjoint model allows the gradient of the cost function with respect to the initial conditions to be computed using a single backward-in-time integration of the adjoint equations. As an initial evaluation of the variational data-assimilation procedure, an assimilation system with a low-resolution version of the NMC spectral model was tested using fields from a Rossby-Haurwitz-wave solution as observations. The results were e...",
+      "authors": [
+        "I. M. Navon",
+        "Xiaolei Zou",
+        "John Derber",
+        "Joseph G. Sela"
+      ]
+    },
+    {
+      "title": "Practical and theoretical aspects of adjoint parameter estimation and identifiability in meteorology and oceanography",
+      "publication_year": 1998,
+      "publication_date": "1998-01-01",
+      "doi": "https://doi.org/10.1016/s0377-0265(97)00032-8",
+      "venue": "Dynamics of Atmospheres and Oceans",
+      "type": "article",
+      "cited_by_count": 272,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Identifiability",
+        "Data assimilation",
+        "Estimation theory",
+        "Context (archaeology)",
+        "Estimation",
+        "Parameter space",
+        "Inverse problem",
+        "Identification (biology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "I. M. Navon"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "D‐DNet: A Dual Deep Neural Network Framework for High‐Efficiency Operational PM2.5 and AOD550 Forecasting With Data Assimilation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1029/2025jh000949",
+      "venue": "Journal of Geophysical Research Machine Learning and Computation",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2025jh000949",
+      "concepts": [
+        "Data assimilation",
+        "Artificial neural network",
+        "Computer science",
+        "Flexibility (engineering)",
+        "Ensemble forecasting",
+        "Artificial intelligence",
+        "Deep learning",
+        "Weather forecasting"
+      ],
+      "abstract": "Abstract Accurate forecasting of PM2.5 (particulate matter with diameter ≤2.5 μm) and AOD550 (aerosol optical depth at 550 nm) is crucial for air quality management, public health, and environmental policy. Traditional physics‐based forecasting systems, though robust, require computationally intensive simulations and data assimilation (DA) schemes that limit their flexibility for real‐time applications. Deep learning (DL) models offer a more efficient alternative but often suffer from error accumulation over extended forecasts. To address these limitations, we propose a dual deep neural network (D‐DNet), a unified closed‐loop framework that tightly couples DL‐based forecasting with DA. By combining a forecasting network with an observation‐driven correction module, D‐DNet assimilates satellite‐derived aerosol data to dynamically adjust forecasts and reduce long‐term drift. Evaluated on global PM2.5 and AOD550 forecasting for the full year of 2019, D‐DNet consistently produced forecasts that closely matched the EAC4 reanalysis. Compared to the physics‐based CAMS 4D‐Var system, D‐DNet achieved comparable or slightly better accuracy while being approximately 70,000 times faster in ...",
+      "authors": [
+        "Shengjuan Cai",
+        "F. Fang",
+        "Vincent‐Henri Peuch",
+        "Mihai Alexe",
+        "I. M. Navon",
+        "Yanghua Wang"
+      ]
+    },
+    {
+      "title": "Reduced-order modelling based on Koopman operator theory",
+      "publication_year": 2024,
+      "publication_date": "2024-09-05",
+      "doi": "https://doi.org/10.48550/arxiv.2409.03549",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2409.03549",
+      "concepts": [
+        "Order (exchange)",
+        "Operator (biology)",
+        "Computer science",
+        "Mathematical economics",
+        "Mathematics",
+        "Economics",
+        "Transcription factor",
+        "Repressor"
+      ],
+      "abstract": "The present study focuses on a subject of significant interest in fluid dynamics: the identification of a model with decreased computational complexity from numerical code output using Koopman operator theory. A reduced-order modelling method that incorporates a novel strategy for identifying the most impactful Koopman modes was used to numerically approximate the Koopman composition operator.",
+      "authors": [
+        "Diana Alina Bistrian",
+        "Gabriel Dimitriu",
+        "I. M. Navon"
+      ]
+    },
+    {
+      "title": "A reduced order model discretisation of the space-angle phase-space dimensions of the Boltzmann transport equation with application to nuclear reactor problems",
+      "publication_year": 2024,
+      "publication_date": "2024-07-10",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.113268",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2024.113268",
+      "concepts": [
+        "Boltzmann equation",
+        "Discretization",
+        "Space (punctuation)",
+        "Phase space",
+        "Order (exchange)",
+        "Physics",
+        "Mathematical analysis",
+        "Applied mathematics"
+      ],
+      "abstract": "This article presents a new reduced order model (ROM) for fast solutions to neutron transport problems. The novelty lies in the construction of optimal basis functions spanning the space-angle phase-space dimensions of the Boltzmann transport equation (BTE). It uses Proper Orthogonal Decomposition and the method of snapshots to form the reduced basis, but here a 2-stage construction is proposed that compresses the angle, then space, dimensions sequentially. The approach alleviates the potentially limiting memory burden for BTE-based ROMs by not processing the full discretised solutions of BTE during the construction stage. The model is both accurate and efficient and is demonstrated here for eigenvalue and fixed source reactor physics problems with assumed uncertainties in material cross-section data. Reductions in problem size and solving times exceeds 5 orders of magnitude in comparison to high fidelity models, and which could potentially improve further for larger scale problems.",
+      "authors": [
+        "A.G. Buchan",
+        "I. M. Navon",
+        "Liang Yang"
+      ]
+    },
+    {
+      "title": "Advancing operational PM2.5 forecasting with dual deep neural networks (D-DNet)",
+      "publication_year": 2024,
+      "publication_date": "2024-06-27",
+      "doi": "https://doi.org/10.48550/arxiv.2406.19154",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2406.19154",
+      "concepts": [
+        "Dual (grammatical number)",
+        "Artificial neural network",
+        "Deep neural networks",
+        "Computer science",
+        "Artificial intelligence",
+        "Art",
+        "Literature"
+      ],
+      "abstract": "PM2.5 forecasting is crucial for public health, air quality management, and policy development. Traditional physics-based models are computationally demanding and slow to adapt to real-time conditions. Deep learning models show potential in efficiency but still suffer from accuracy loss over time due to error accumulation. To address these challenges, we propose a dual deep neural network (D-DNet) prediction and data assimilation system that efficiently integrates real-time observations, ensuring reliable operational forecasting. D-DNet excels in global operational forecasting for PM2.5 and AOD550, maintaining consistent accuracy throughout the entire year of 2019. It demonstrates notably higher efficiency than the Copernicus Atmosphere Monitoring Service (CAMS) 4D-Var operational forecasting system while maintaining comparable accuracy. This efficiency benefits ensemble forecasting, uncertainty analysis, and large-scale tasks.",
+      "authors": [
+        "Shuzhang Cai",
+        "F. Fang",
+        "Vincent‐Henri Peuch",
+        "Mihai Alexe",
+        "I. M. Navon",
+        "Yanghua Wang"
+      ]
+    },
+    {
+      "title": "A Reduced Order Model Discretisation of the Space-Angle Phase-Space Dimensions of the Boltzmann Transport Equation with Application to Nuclear Reactor Problems",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4704678",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4704678",
+      "concepts": [
+        "Boltzmann equation",
+        "Space (punctuation)",
+        "Discretization",
+        "Phase space",
+        "Order (exchange)",
+        "Phase (matter)",
+        "Physics",
+        "Boltzmann constant"
+      ],
+      "abstract": "",
+      "authors": [
+        "A.G. Buchan",
+        "I. M. Navon",
+        "Liang Yang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Dimitri N. Mavris",
+  "full_name": "Dimitri N. Mavris",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Georgia Institute of Technology",
+  "author_id": "A5044421630",
+  "works_count": 1741,
+  "cited_by_count": 14679,
+  "h_index": 46,
+  "top_topics": [
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 398
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 253
+    },
+    {
+      "topic": "Air Traffic Management and Optimization",
+      "count": 195
+    },
+    {
+      "topic": "Technology Assessment and Management",
+      "count": 185
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 161
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Next Generation More-Electric Aircraft: A Potential Application for HTS Superconductors",
+      "publication_year": 2009,
+      "publication_date": "2009-06-01",
+      "doi": "https://doi.org/10.1109/tasc.2009.2019021",
+      "venue": "IEEE Transactions on Applied Superconductivity",
+      "type": "article",
+      "cited_by_count": 316,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Electric power",
+        "Electrically powered spacecraft propulsion",
+        "Computer science",
+        "Aviation",
+        "Aerospace engineering",
+        "Electric motor",
+        "Automotive engineering"
+      ],
+      "abstract": "Sustainability in the aviation industry calls for aircraft that are significantly quieter and more fuel efficient than today's fleet. Achieving this will require revolutionary new concepts, in particular, electric propulsion. Superconducting machines offer the only viable path to achieve the power densities needed in airborne applications. This paper outlines the main issues involved in using superconductors for aeropropulsion. We review our investigation of the feasibility of superconducting electric propulsion, which integrate for the first time, the multiple disciplines and areas of expertise needed to design electric aircraft. It is shown that superconductivity is clearly the enabling technology for the more efficient turbo-electric aircraft of the future.",
+      "authors": [
+        "C.A. Luongo",
+        "Philippe J. Masson",
+        "Taewoo Nam",
+        "Dimitri N. Mavris",
+        "H.D. Kim",
+        "Gerald V. Brown",
+        "Mark Waters",
+        "David K. Hall"
+      ]
+    },
+    {
+      "title": "Development and experimental characterization of a fuel cell powered aircraft",
+      "publication_year": 2007,
+      "publication_date": "2007-07-02",
+      "doi": "https://doi.org/10.1016/j.jpowsour.2007.06.215",
+      "venue": "Journal of Power Sources",
+      "type": "article",
+      "cited_by_count": 211,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aircraft fuel system",
+        "Airframe",
+        "Propulsion",
+        "Airplane",
+        "Compressed hydrogen",
+        "Power station",
+        "Engineering",
+        "Auxiliary power unit"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thomas H. Bradley",
+        "Blake Moffitt",
+        "Dimitri N. Mavris",
+        "David Parekh"
+      ]
+    },
+    {
+      "title": "A deep learning approach to flight delay prediction",
+      "publication_year": 2016,
+      "publication_date": "2016-09-01",
+      "doi": "https://doi.org/10.1109/dasc.2016.7778092",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 181,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Deep learning",
+        "Computer science",
+        "Artificial intelligence",
+        "Recurrent neural network",
+        "Machine learning",
+        "Air traffic control",
+        "Artificial neural network",
+        "Data modeling"
+      ],
+      "abstract": "Deep learning has achieved significant improvement in various machine learning tasks including image recognition, speech recognition, machine translation and etc. Inspired by the huge success of the paradigm, there have been lots of tries to apply deep learning algorithms to data analytics problems with big data including traffic flow prediction. However, there has been no attempt to apply the deep learning algorithms to the analysis of air traffic data. This paper investigates the effectiveness of the deep learning models in the air traffic delay prediction tasks. By combining multiple models based on the deep learning paradigm, an accurate and robust prediction model has been built which enables an elaborate analysis of the patterns in air traffic delays. In particular, Recurrent Neural Networks (RNN) has shown its great accuracy in modeling sequential data. Day-to-day sequences of the departure and arrival flight delays of an individual airport have been modeled by the Long Short-Term Memory RNN architecture. It has been shown that the accuracy of RNN improves with deeper architectures. In this study, four different ways of building deep RNN architecture are also discussed. F...",
+      "authors": [
+        "Young Jin Kim",
+        "Sun Choi",
+        "Simon I. Briceño",
+        "Dimitri N. Mavris"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A machine learning approach for contrail detection and persistence prediction using airborne measurements from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.5194/jecats-2026-11",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/jecats-2026-11",
+      "concepts": [
+        "Environmental science",
+        "Remote sensing",
+        "Meteorology",
+        "Airframe",
+        "Computer science",
+        "Forcing (mathematics)",
+        "On board",
+        "Machine learning"
+      ],
+      "abstract": "Abstract. Contrails or condensation trails are a major contributor to aviation-induced cloudiness, which represents a significant, yet highly uncertain, component of aviation's environmental impact. The reliable detection and characterization of contrails has become increasingly important for quantifying their radiative forcing and developing mitigation strategies. However, contrail detection and prediction remains challenging due to their variable optical properties, lack of accuracy in humidity, temperature and pressure sensor measurements, as well as in weather prediction. This paper investigates the use of machine vision on board aircraft to inform contrail formation and classification in real time. The focus of this work is the comparison of two major airborne measurement campaigns conducted by NASA, industry, and international partners: the 2018 NASA – DLR ECLIF II/ND-MAX and the 2023 NASA – Boeing ecoDemonstrator flight tests. The atmospheric data from the campaigns are used with the Schmidt-Appleman criterion to identify periods of contrail formation. For the ND-MAX dataset classification accuracies of 94.0 %, 87.1 %, and 81.5 % were obtained for contrail absence, short-...",
+      "authors": [
+        "Ariadne Papamichou",
+        "Evanthia Kallou",
+        "Richard H. Moore",
+        "Holger Pfaender",
+        "Dimitri N. Mavris"
+      ]
+    },
+    {
+      "title": "A machine learning approach for contrail detection and persistence prediction using airborne measurements from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns: Dataset and video",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.5281/zenodo.20422913",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20422913",
+      "concepts": [
+        "Remote sensing",
+        "Meteorology",
+        "Artificial intelligence",
+        "Environmental science",
+        "Computer science",
+        "Machine learning",
+        "Persistence (discontinuity)",
+        "Computer vision"
+      ],
+      "abstract": "The dataset consist of atmospheric measurements and onboard camera footage of contrail formation from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns. The data were extracted from publically available NASA archives for use in the linked software. NASA Archives: https://asp-archive.arc.nasa.gov https://science-data.larc.nasa.gov/aero-fp/projects/",
+      "authors": [
+        "Ariadne Papamichou",
+        "Evanthia Kallou",
+        "Richard H. Moore",
+        "Holger Pfaender",
+        "Dimitri N. Mavris"
+      ]
+    },
+    {
+      "title": "A machine learning approach for contrail detection and persistence prediction using airborne measurements from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns: Software",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.5281/zenodo.20485243",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20485243",
+      "concepts": [
+        "Software",
+        "Remote sensing",
+        "Artificial intelligence",
+        "Meteorology",
+        "Computer science",
+        "Persistence (discontinuity)",
+        "Machine learning",
+        "Environmental science"
+      ],
+      "abstract": "Machine vision is used to detect contrails and predict persistence from onboard flight footage. The measurements and camera footage belong to the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns made publically available in NASA archives https://asp-archive.arc.nasa.gov and https://science-data.larc.nasa.gov/aero-fp/projects/.",
+      "authors": [
+        "Ariadne Papamichou",
+        "Evanthia Kallou",
+        "Richard H. Moore",
+        "Holger Pfaender",
+        "Dimitri N. Mavris"
+      ]
+    },
+    {
+      "title": "A machine learning approach for contrail detection and persistence prediction using airborne measurements from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns: Software",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.5281/zenodo.20485244",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20485244",
+      "concepts": [
+        "Software",
+        "Remote sensing",
+        "Artificial intelligence",
+        "Meteorology",
+        "Computer science",
+        "Persistence (discontinuity)",
+        "Machine learning",
+        "Environmental science"
+      ],
+      "abstract": "Machine vision is used to detect contrails and predict persistence from onboard flight footage. The measurements and camera footage belong to the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns made publically available in NASA archives https://asp-archive.arc.nasa.gov and https://science-data.larc.nasa.gov/aero-fp/projects/.",
+      "authors": [
+        "Ariadne Papamichou",
+        "Evanthia Kallou",
+        "Richard H. Moore",
+        "Holger Pfaender",
+        "Dimitri N. Mavris"
+      ]
+    },
+    {
+      "title": "A machine learning approach for contrail detection and persistence prediction using airborne measurements from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns: Dataset and video",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.5281/zenodo.20422912",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20422912",
+      "concepts": [
+        "Remote sensing",
+        "Meteorology",
+        "Artificial intelligence",
+        "Environmental science",
+        "Computer science",
+        "Machine learning",
+        "Persistence (discontinuity)",
+        "Computer vision"
+      ],
+      "abstract": "The dataset consist of atmospheric measurements and onboard camera footage of contrail formation from the ECLIF II/ND-MAX and ecoDemonstrator flight campaigns. The data were extracted from publically available NASA archives for use in the linked software. NASA Archives: https://asp-archive.arc.nasa.gov https://science-data.larc.nasa.gov/aero-fp/projects/",
+      "authors": [
+        "Ariadne Papamichou",
+        "Evanthia Kallou",
+        "Richard H. Moore",
+        "Holger Pfaender",
+        "Dimitri N. Mavris"
+      ]
+    }
+  ]
+}

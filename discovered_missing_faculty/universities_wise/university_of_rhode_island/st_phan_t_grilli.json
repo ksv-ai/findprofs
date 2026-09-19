@@ -1,0 +1,274 @@
+{
+  "faculty_name": "Stéphan T. Grilli",
+  "full_name": "Stéphan T. Grilli",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Rhode Island",
+  "author_id": "A5054860085",
+  "works_count": 298,
+  "cited_by_count": 9708,
+  "h_index": 45,
+  "top_topics": [
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 138
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 95
+    },
+    {
+      "topic": "earthquake and tectonic studies",
+      "count": 89
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 46
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 44
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A fully nonlinear Boussinesq model for surface waves. Part 1. Highly nonlinear unsteady waves",
+      "publication_year": 1995,
+      "publication_date": "1995-07-10",
+      "doi": "https://doi.org/10.1017/s0022112095002813",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 939,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boussinesq approximation (buoyancy)",
+        "Nonlinear system",
+        "Mechanics",
+        "Physics",
+        "Kinematic wave",
+        "Dispersion (optics)",
+        "Wave propagation",
+        "Classical mechanics"
+      ],
+      "abstract": "Fully nonlinear extensions of Boussinesq equations are derived to simulate surface wave propagation in coastal regions. By using the velocity at a certain depth as a dependent variable (Nwogu 1993), the resulting equations have significantly improved linear dispersion properties in intermediate water depths when compared to standard Boussinesq approximations. Since no assumption of small nonlinearity is made, the equations can be applied to simulate strong wave interactions prior to wave breaking. A high-order numerical model based on the equations is developed and applied to the study of two canonical problems: solitary wave shoaling on slopes and undular bore propagation over a horizontal bed. Results of the Boussinesq model with and without strong nonlinearity are compared in detail to those of a boundary element solution of the fully nonlinear potential flow problem developed by Grilli et al. (1989). The fully nonlinear variant of the Boussinesq model is found to predict wave heights, phase speeds and particle kinematics more accurately than the standard approximation.",
+      "authors": [
+        "Ge Wei",
+        "James T. Kirby",
+        "Stéphan T. Grilli",
+        "R. Subramanya"
+      ]
+    },
+    {
+      "title": "A high-order adaptive time-stepping TVD solver for Boussinesq modeling of breaking waves and coastal inundation",
+      "publication_year": 2011,
+      "publication_date": "2011-12-17",
+      "doi": "https://doi.org/10.1016/j.ocemod.2011.12.004",
+      "venue": "Ocean Modelling",
+      "type": "article",
+      "cited_by_count": 656,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/oce_facpubs/147",
+      "concepts": [
+        "Riemann solver",
+        "Solver",
+        "Froude number",
+        "Shallow water equations",
+        "Breaking wave",
+        "Nonlinear system",
+        "Total variation diminishing",
+        "Waves and shallow water"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fengyan Shi",
+        "James T. Kirby",
+        "Jeffrey C. Harris",
+        "Joseph D. Geiman",
+        "Stéphan T. Grilli"
+      ]
+    },
+    {
+      "title": "Modelling of the tsunami from the December 22, 2018 lateral collapse of Anak Krakatau volcano in the Sunda Straits, Indonesia",
+      "publication_year": 2019,
+      "publication_date": "2019-08-16",
+      "doi": "https://doi.org/10.1038/s41598-019-48327-6",
+      "venue": "Scientific Reports",
+      "type": "article",
+      "cited_by_count": 314,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41598-019-48327-6.pdf",
+      "concepts": [
+        "Geology",
+        "Landslide",
+        "Volcano",
+        "Subaerial",
+        "Pyroclastic rock",
+        "Caldera",
+        "Seismology",
+        "Bathymetry"
+      ],
+      "abstract": "Abstract On Dec. 22, 2018, at approximately 20:55–57 local time, Anak Krakatau volcano, located in the Sunda Straits of Indonesia, experienced a major lateral collapse during a period of eruptive activity that began in June. The collapse discharged volcaniclastic material into the 250 m deep caldera southwest of the volcano, which generated a tsunami with runups of up to 13 m on the adjacent coasts of Sumatra and Java. The tsunami caused at least 437 fatalities, the greatest number from a volcanically-induced tsunami since the catastrophic explosive eruption of Krakatau in 1883 and the sector collapse of Ritter Island in 1888. For the first time in over 100 years, the 2018 Anak Krakatau event provides an opportunity to study a major volcanically-generated tsunami that caused widespread loss of life and significant damage. Here, we present numerical simulations of the tsunami, with state-of the-art numerical models, based on a combined landslide-source and bathymetric dataset. We constrain the geometry and magnitude of the landslide source through analyses of pre- and post-event satellite images and aerial photography, which demonstrate that the primary landslide scar bisected th...",
+      "authors": [
+        "Stéphan T. Grilli",
+        "David R. Tappin",
+        "Steven Carey",
+        "Sebastian Watt",
+        "S. N. Ward",
+        "Annette R. Grilli",
+        "Samantha Engwell",
+        "Cheng Zhang",
+        "James T. Kirby",
+        "Lauren Schambach",
+        "Muslim Muin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Investigating lab-scaled offshore wind aerodynamic testing failure and developing solutions for early anomaly detections",
+      "publication_year": 2025,
+      "publication_date": "2025-11-04",
+      "doi": "https://doi.org/10.5194/wes-10-2475-2025",
+      "venue": "Wind energy science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://wes.copernicus.org/articles/10/2475/2025/wes-10-2475-2025.pdf",
+      "concepts": [
+        "Anomaly (physics)",
+        "Anomaly detection",
+        "Rotor (electric)",
+        "Reliability engineering",
+        "Aerodynamics",
+        "Fault (geology)",
+        "Fault detection and isolation",
+        "Scale (ratio)"
+      ],
+      "abstract": "As offshore wind systems become more complex, the risk of human error or equipment malfunction increases during experimental testing. This study investigates a lab-scale incident involving a 1 : 50 scale 5 MW wind turbine, where a generator failure led to rotor overspeed and a blade–tower strike. To improve early fault detection, we propose a data-driven method based on multivariate long short-term memory (LSTM) models. High-frequency measurements are projected onto principal components, and anomalies are identified using reconstruction error and its time derivative. Two models are trained on different healthy datasets and tested using single- and multi-principal component (1PC and MPC) variations. Results show that combining both error and error derivative improves detection accuracy. The 1PC model detects faults faster, has a higher recall rate, and achieves a 43 % improvement in anomaly detection accuracy, while the MPC model yields higher precision. This approach provides a simple and effective tool for early anomaly detection in lab-scale experiments, helping to reduce the risk of future failures during the testing of new technologies.",
+      "authors": [
+        "Yuksel Rudy Alkarem",
+        "Ian Ammerman",
+        "Kimberly Huguenard",
+        "Richard Kimball",
+        "Babak Hejrati",
+        "Amrit Shankar Verma",
+        "Amir R. Nejad",
+        "Reza Hashemi",
+        "Stéphan T. Grilli"
+      ]
+    },
+    {
+      "title": "Uncertainty-Guided Prediction Horizon of Phase-Resolved Ocean Wave Forecasting Under Data Sparsity: Experimental and Numerical Evaluation",
+      "publication_year": 2025,
+      "publication_date": "2025-06-28",
+      "doi": "https://doi.org/10.3390/jmse13071250",
+      "venue": "Journal of Marine Science and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2077-1312/13/7/1250/pdf?version=1751102170",
+      "concepts": [
+        "Horizon",
+        "Meteorology",
+        "Phase (matter)",
+        "Numerical weather prediction",
+        "Data assimilation",
+        "Environmental science",
+        "Climatology",
+        "Geology"
+      ],
+      "abstract": "Accurate short-term wave forecasting is critical for the safe and efficient operation of marine structures that rely on real-time, phase-resolved ocean wave information for control and monitoring purposes (e.g., digital twins). These systems often depend on environmental sensors (e.g., waverider buoys, wave-sensing LIDAR). Challenges arise when upstream sensor data are missing, sparse, or phase-shifted due to drift. This study investigates the performance of two machine learning models, time-series dense encoder (TiDE) and long short-term memory (LSTM), for forecasting phase-resolved ocean surface elevations under varying degrees of data degradation. We introduce the τ-trimming algorithm, which adapts the prediction horizon based on uncertainty thresholds derived from historical forecasts. Numerical wave tank (NWT) and wave basin experiments are used to benchmark model performance under short- and long-term data masking, spatially coarse sensor grids, and upstream phase shifts. Results show under a 50% probability of upstream data loss, the τ-trimmed TiDE model achieves a 46% reduction in error at the most upstream target, compared to 22% for LSTM. Furthermore, phase misalignmen...",
+      "authors": [
+        "Yuksel Rudy Alkarem",
+        "Kimberly Huguenard",
+        "Richard Kimball",
+        "Stéphan T. Grilli"
+      ]
+    },
+    {
+      "title": "Uncertainty-Guided Prediction Limits of Phase-Resolved OceanWave Forecasting under Data Sparsity: Experimental andNumerical Evaluation",
+      "publication_year": 2025,
+      "publication_date": "2025-06-09",
+      "doi": "https://doi.org/10.20944/preprints202506.0641.v1",
+      "venue": "Preprints.org",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.preprints.org/frontend/manuscript/815c4cee0ad391da34eb0b3c38fcbb54/download_pub",
+      "concepts": [
+        "Phase (matter)",
+        "Computer science",
+        "Data mining",
+        "Econometrics",
+        "Mathematics",
+        "Physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "Accurate short-term wave forecasting is critical to floating marine structures' efficient and safe operations as well as their active control using models (e.g., digital twins) that rely on real-time, phase-resolved ocean wave loading. For moored, i.e., quasi-stationary systems informed by environmental sensors (e.g., waverider buoys, wave-sensing LIDAR), challenges arise when upstream sensor data is missing, sparse, or phase-shifted due to drift. This study investigates the resilience and performance of machine learning models—specifically TiDE and LSTM—for forecasting phase-resolved ocean surface elevations under various scenarios of data loss and uncertainty. We introduce $\\tau$-trimmed models, which dynamically adapt the prediction horizon based on uncertainty thresholds derived from historical forecasts. Numerical wave tank (NWT) and wave basin experiments are used to benchmark model performance under short- and long-term data masking, spatially coarse sensor grids, and upstream phase shifts. Results show that $\\tau$-trimmed models consistently reduce forecast errors and uncertainty, particularly under degraded conditions. While LSTM models achieve lower average errors, TiD...",
+      "authors": [
+        "Yuksel Rudy Alkarem",
+        "Kimberly Huguenard",
+        "Richard Kimball",
+        "Stéphan T. Grilli"
+      ]
+    },
+    {
+      "title": "Tsunami hazard assessment along the US East Coast from extreme sources in the North Atlantic Ocean: a limited probabilistic analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-06-04",
+      "doi": "https://doi.org/10.1007/s11069-025-07376-z",
+      "venue": "Natural Hazards",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s11069-025-07376-z",
+      "concepts": [
+        "Natural hazard",
+        "Hazard",
+        "Geology",
+        "Hazard analysis",
+        "Oceanography",
+        "Probabilistic logic",
+        "East coast",
+        "Engineering"
+      ],
+      "abstract": "Abstract Coastal hazard is assessed along the US East Coast (USEC) through model simulation of 14 probable maximum tsunamis (PMTs) from sources located in the North Atlantic Ocean basin, in terms of: (i) standard inundation maps and other hazard products, and (ii) a limited probabilistic tsunami hazard analysis (PTHA) based on these. Tsunami sources are based on historical records or are hypothetical, including extreme seismic events in the Puerto Rico Trench (PRT)/Caribbean Arc area and in the Açores Convergence Zone (ACZ), near-field submarine mass failures (SMF) on or near the continental shelf break, and large scale volcanic flank collapses of the Cumbre Vieja Volcano (CVV), on La Palma in the Canary Archipelago. Various state-of-the-art models are used to simulate tsunami generation from these sources and propagation to the USEC, in a series of nested grids, by one-way coupling. Based on these results, hazard metrics are computed for each PMT and their envelope as: (i) a synoptic representation along the entire USEC (with results interpolated on the 5 m isobath in coarse 450 m grids), and (ii) high-resolution (10–30 m) inundation maps, for about 30% of the USEC to date, pri...",
+      "authors": [
+        "Stéphan T. Grilli",
+        "Lauren Schambach",
+        "Maryam Mohammadpour",
+        "Annette R. Grilli",
+        "James T. Kirby",
+        "Edward S. Fratto",
+        "Fengyan Shi"
+      ]
+    },
+    {
+      "title": "PROBABILISTIC TSUNAMI HAZARD ANALYSIS FROM SUBMARINE MASS FAILURE: A MONTE CARLO APPROACH TO A CASE STUDY IN ITALY",
+      "publication_year": 2025,
+      "publication_date": "2025-05-29",
+      "doi": "https://doi.org/10.9753/icce.v38.management.209",
+      "venue": "Coastal Engineering Proceedings",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.9753/icce.v38.management.209",
+      "concepts": [
+        "Monte Carlo method",
+        "Submarine",
+        "Probabilistic logic",
+        "Hazard",
+        "Seismology",
+        "Environmental science",
+        "Statistics",
+        "Computer science"
+      ],
+      "abstract": "Tsunamis, although of rare occurrence compared to other natural disasters, can have devastating consequences for society’s increasingly populated coastal areas. In order to manage the associated risk, coastal tsunami hazard can be assessed by performing a Probabilistic Tsunami Hazard Analysis (PTHA). Typically, PTHAs have mainly focused on coseismic tsunami sources, however, some probabilistic investigations have been carried out for subaerial or submarine landslide sources (e.g., Grilli et al 2009; Grezio et al 2012). Here, to perform such hazard analyses, we use the efficient model developed by Iorio et al. (2021), based on solving the linear mild-slope equation (MSE) in the frequency domain, with a time-dependent source term representing the seafloor motion caused by the landslide. Away from shore, tsunami waves are of small steepness and, hence, well represented by a linear model. The MSE features full frequency dispersion, which is necessary for an accurate modeling, since landslide tsunamis are typically made of shorter waves than coseismic tsunamis.",
+      "authors": [
+        "Claudia Cecioni",
+        "Giorgio Bellotti",
+        "Stéphan T. Grilli"
+      ]
+    }
+  ]
+}

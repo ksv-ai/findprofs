@@ -1,0 +1,342 @@
+{
+  "faculty_name": "Lorena A. Barba",
+  "full_name": "Lorena A. Barba",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "George Washington University",
+  "author_id": "A5028603986",
+  "works_count": 249,
+  "cited_by_count": 1787,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Scientific Computing and Data Management",
+      "count": 37
+    },
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 30
+    },
+    {
+      "topic": "Research Data Management Practices",
+      "count": 23
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 22
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Sustainable computational science: the ReScience initiative",
+      "publication_year": 2017,
+      "publication_date": "2017-12-18",
+      "doi": "https://doi.org/10.7717/peerj-cs.142",
+      "venue": "PeerJ Computer Science",
+      "type": "article",
+      "cited_by_count": 127,
+      "is_oa": true,
+      "oa_url": "https://peerj.com/articles/cs-142.pdf",
+      "concepts": [
+        "Political science",
+        "Computer science",
+        "Environmental planning",
+        "Environmental science"
+      ],
+      "abstract": "Computer science offers a large set of tools for prototyping, writing, running, testing, validating, sharing and reproducing results; however, computational science lags behind. In the best case, authors may provide their source code as a compressed archive and they may feel confident their research is reproducible. But this is not exactly true. James Buckheit and David Donoho proposed more than two decades ago that an article about computational results is advertising, not scholarship. The actual scholarship is the full software environment, code, and data that produced the result. This implies new workflows, in particular in peer-reviews. Existing journals have been slow to adapt: source codes are rarely requested and are hardly ever actually executed to check that they produce the results advertised in the article. ReScience is a peer-reviewed journal that targets computational research and encourages the explicit replication of already published research, promoting new and open-source implementations in order to ensure that the original research can be replicated from its description. To achieve this goal, the whole publishing chain is radically different from other traditio...",
+      "authors": [
+        "Nicolas P. Rougier",
+        "Konrad Hinsen",
+        "Frédéric Alexandre",
+        "Thomas Arildsen",
+        "Lorena A. Barba",
+        "Fabien Benureau",
+        "C. Titus Brown",
+        "Pierre de Buyl",
+        "Ozan Çağlayan",
+        "Andrew P. Davison",
+        "Marc‐André Delsuc",
+        "Georgios Detorakis",
+        "Alexandra K. Diem",
+        "Damien Drix",
+        "Pierre Enel",
+        "Benoît Girard",
+        "Olivia Guest",
+        "Matt G. Hall",
+        "Rafael Neto Henriques",
+        "Xavier Hinaut",
+        "Kamil S. Jaroň",
+        "Mehdi Khamassi",
+        "Almar Klein",
+        "Tiina Manninen",
+        "Pietro Marchesi",
+        "Daniel J. McGlinn",
+        "Christoph Metzner",
+        "Owen L. Petchey",
+        "Hans Ekkehard Pleßer",
+        "Timothée Poisot",
+        "Karthik Ram",
+        "Yoav Ram",
+        "Etienne B. Roesch",
+        "Cyrille Rossant",
+        "Vahid Rostami",
+        "Aaron R. Shifman",
+        "Jemma Stachelek",
+        "Marcel Stimberg",
+        "Frank Stollmeier",
+        "Federico Vaggi",
+        "Guillaume Viejo",
+        "Julien Vitay",
+        "Anya E. Vostinar",
+        "Roman Yurchak",
+        "Tiziano Zito"
+      ]
+    },
+    {
+      "title": "The Journal of Open Source Software",
+      "publication_year": 2017,
+      "publication_date": "2017-01-01",
+      "doi": "https://doi.org/10.6084/m9.figshare.4688911.v1",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 110,
+      "is_oa": true,
+      "oa_url": "https://figshare.com/articles/poster/The_Journal_of_Open_Source_Software/4688911",
+      "concepts": [
+        "Documentation",
+        "Computer science",
+        "Software",
+        "Citation",
+        "Publication",
+        "Software review",
+        "Software technical review",
+        "Software engineering"
+      ],
+      "abstract": "Poster presented at SIAM CSE17 PP108 Minisymposterium: Software Productivity and Sustainability for CSE and Data Science Abstract:This poster describes the motivation and progress of the Journal of Open Source Software (JOSS), a free, open-access journal designed to publish brief papers about research software. The primary purpose of JOSS is to enable developers of research software to receive citation credit equivalent to typical archival publications. JOSS papers are deliberately extremely short, and are required to include a short abstract describing the purpose and functionality of the software, authors and their affiliations, and key references, as well as link to an archived version of the software (e.g., DOI obtained from Zenodo). Upon acceptance, papers receive a CrossRef DOI. Rather than a review of a lengthy software paper (including, e.g., methodology, validation, sample results), JOSS submissions undergo rigorous peer review of both the abstract and software itself, including documentation, tests, continuous integration, and licensing. The JOSS review process is modeled on the established approach of the rOpenSci collaboration. The entire submission and review proces...",
+      "authors": [
+        "Arfon M. Smith",
+        "Lorena A. Barba",
+        "George Githinji",
+        "Melissa Gymrek",
+        "Kathryn Huff",
+        "Daniel S. Katz",
+        "Christopher R. Madan",
+        "Abigail Cabunoc Mayes",
+        "Kevin M. Moerman",
+        "Kyle E. Niemeyer",
+        "Pjotr Prins",
+        "Karthik Ram",
+        "Ariel Rokem",
+        "Teal Tracy",
+        "Jake Vanderplas"
+      ]
+    },
+    {
+      "title": "Journal of Open Source Software (JOSS): design and first-year review",
+      "publication_year": 2018,
+      "publication_date": "2018-02-12",
+      "doi": "https://doi.org/10.7717/peerj-cs.147",
+      "venue": "PeerJ Computer Science",
+      "type": "article",
+      "cited_by_count": 94,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.7717/peerj-cs.147",
+      "concepts": [
+        "Computer science",
+        "Documentation",
+        "License",
+        "Software",
+        "Software engineering",
+        "World Wide Web",
+        "Scholarship",
+        "Software technical review"
+      ],
+      "abstract": "This article describes the motivation, design, and progress of the Journal of Open Source Software (JOSS). JOSS is a free and open-access journal that publishes articles describing research software. It has the dual goals of improving the quality of the software submitted and providing a mechanism for research software developers to receive credit. While designed to work within the current merit system of science, JOSS addresses the dearth of rewards for key contributions to science made in the form of software. JOSS publishes articles that encapsulate scholarship contained in the software itself, and its rigorous peer review targets the software components: functionality, documentation, tests, continuous integration, and the license. A JOSS article contains an abstract describing the purpose and functionality of the software, references, and a link to the software archive. The article is the entry point of a JOSS submission, which encompasses the full set of software artifacts. Submission and review proceed in the open, on GitHub. Editors, reviewers, and authors work collaboratively and openly. Unlike other journals, JOSS does not reject articles requiring major revision; while...",
+      "authors": [
+        "Arfon M. Smith",
+        "Kyle E. Niemeyer",
+        "Daniel S. Katz",
+        "Lorena A. Barba",
+        "George Githinji",
+        "Melissa Gymrek",
+        "Kathryn Huff",
+        "Christopher R. Madan",
+        "Abigail Cabunoc Mayes",
+        "Kevin M. Moerman",
+        "Pjotr Prins",
+        "Karthik Ram",
+        "Ariel Rokem",
+        "Tracy K. Teal",
+        "Roman Valls Guimerà",
+        "Jacob T. VanderPlas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Definition of an Academic OSPO",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.25455/wgtn.32691375",
+      "venue": "Figshare",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://figshare.com/articles/report/A_Definition_of_an_Academic_OSPO/32691375",
+      "concepts": [
+        "Open source",
+        "Open source software",
+        "Business",
+        "Public relations",
+        "Software",
+        "Computer science",
+        "Knowledge management",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Over the last 20 years, Open Source Program Oﬃces (OSPOs) have become a relatively common feature in major tech companies and other industries. Many businesses rely upon their OSPOs to manage open source software eﬀorts within their organizations. Industry OSPOs also have other functions including developing guidelines and policies on use of open source; contributing to the open source ecosystem; and ensuring alignment with corporate strategy and vision.As open source software continues to grow in importance in academic settings; universities and other academic institutions are looking to enhance their open source capabilities by establishing academic OSPOs. This article provides a short overview of the current findings of a sub-committee of CURIOSS members who are collaborating to develop, refine and expand upon the definition of an academic OSPO.",
+      "authors": [
+        "Jeffrey Young",
+        "Lorena A. Barba",
+        "Sayeed Choudhury",
+        "Ciara Flanagan",
+        "David Lippert",
+        "Richard Littauer"
+      ]
+    },
+    {
+      "title": "The Conversational Exam: A Scalable Assessment Design for the AI Era",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1109/mc.2026.3676461",
+      "venue": "Computer",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.10691",
+      "concepts": [
+        "Computer science",
+        "Scalability",
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "Human–computer interaction",
+        "Key (lock)",
+        "Scale (ratio)",
+        "Natural language processing"
+      ],
+      "abstract": "Traditional assessment methods collapse when students use generative AI to complete work without genuine engagement, creating an illusion of competence where they believe they're learning but aren't. This paper presents the conversational exam -- a scalable oral examination format that restores assessment validity by having students code live while explaining their reasoning. Drawing on human-computer interaction principles, we examined 58 students in small groups across just two days, demonstrating that oral exams can scale to typical class sizes. The format combines authentic practice (students work with documentation and supervised AI access) with inherent validity (real-time performance cannot be faked). We provide detailed implementation guidance to help instructors adapt this approach, offering a practical path forward when many educators feel paralyzed between banning AI entirely or accepting that valid assessment is impossible.",
+      "authors": [
+        "Lorena A. Barba",
+        "Laura Stegner"
+      ]
+    },
+    {
+      "title": "MagneticParticleImaging/MPIFiles.jl: v0.19.2",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.5281/zenodo.19360634",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.19360634",
+      "concepts": [
+        "Commit",
+        "Computer science",
+        "Long-term prediction",
+        "Hash function",
+        "Term (time)",
+        "Artificial intelligence",
+        "Noise (video)",
+        "Identification (biology)"
+      ],
+      "abstract": "MPIFiles v0.19.2 Diff since v0.19.1 Merged pull requests: Pin CI actions commit hashes (#166) (@nHackel) Bump github/codeql-action from 4.31.0 to 4.34.1 (#167) (@dependabot[bot]) Fx precompile error (#168) (@jonschumacher)",
+      "authors": [
+        "Tobias Knopp",
+        "Niklas Hackelberg",
+        "Jonas Schumacher",
+        "Justin",
+        "Martin Möddel",
+        "SzwarP",
+        "FranziW",
+        "Marija Boberg",
+        "hampii",
+        "ngda",
+        "flothieben",
+        "migrosser",
+        "Artyom Tsanda",
+        "Julia TagBot",
+        "Lorena A. Barba"
+      ]
+    },
+    {
+      "title": "Verification and validation for trustworthy scientific machine learning",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.1088/2632-2153/ae59ec",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/2632-2153/ae59ec",
+      "concepts": [
+        "Trustworthiness",
+        "Computer science",
+        "Machine learning",
+        "Artificial intelligence",
+        "Limiting",
+        "Key (lock)",
+        "Predictive modelling",
+        "Data science"
+      ],
+      "abstract": "Abstract Scientific machine learning (SciML) models are transforming many scientific disciplines. However, the development of good modeling practices to increase the trustworthiness of SciML has lagged behind its application, limiting its potential impact. The goal of this paper is to start a discussion on establishing consensus-based good practices for predictive SciML. We identify key challenges in applying existing computational science and engineering guidelines, such as verification and validation protocols, and provide recommendations to address these challenges. Our discussion focuses on predictive SciML, which uses machine learning models to learn, improve, and accelerate numerical simulations of physical systems. While centered on predictive applications, our 16 recommendations aim to help researchers conduct and document their modeling processes rigorously across all SciML domains.",
+      "authors": [
+        "John Jakeman",
+        "Lorena A. Barba",
+        "Joaquim R. Martins",
+        "Thomas O'Leary-Roseberry"
+      ]
+    },
+    {
+      "title": "MagneticParticleImaging/MPIFiles.jl: v0.19.1",
+      "publication_year": 2026,
+      "publication_date": "2026-03-12",
+      "doi": "https://doi.org/10.5281/zenodo.18982669",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18982669",
+      "concepts": [
+        "Position (finance)",
+        "Function (biology)",
+        "Computer science",
+        "Component (thermodynamics)",
+        "Work (physics)",
+        "Term (time)",
+        "Product (mathematics)",
+        "Set (abstract data type)"
+      ],
+      "abstract": "MPIFiles v0.19.1 Diff since v0.19.0 Merged pull requests: Fix position function for multi-patch recos (#165) (@nHackel) Closed issues: Add calibGrid method (#160)",
+      "authors": [
+        "Tobias Knopp",
+        "Niklas Hackelberg",
+        "Jonas Schumacher",
+        "Justin",
+        "Martin Möddel",
+        "SzwarP",
+        "FranziW",
+        "Marija Boberg",
+        "hampii",
+        "ngda",
+        "flothieben",
+        "migrosser",
+        "Artyom Tsanda",
+        "Julia TagBot",
+        "Lorena A. Barba"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Sauro Succi",
+  "full_name": "Sauro Succi",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Cornell University",
+  "author_id": "A5075643472",
+  "works_count": 886,
+  "cited_by_count": 28810,
+  "h_index": 75,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 452
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 269
+    },
+    {
+      "topic": "Aerosol Filtration and Electrostatic Precipitation",
+      "count": 124
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 81
+    },
+    {
+      "topic": "Generative Adversarial Networks and Image Synthesis",
+      "count": 42
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The Lattice Boltzmann Equation for Fluid Dynamics and Beyond",
+      "publication_year": 2001,
+      "publication_date": "2001-06-28",
+      "doi": "https://doi.org/10.1093/oso/9780198503989.001.0001",
+      "venue": "",
+      "type": "book",
+      "cited_by_count": 4178,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Boltzmann equation",
+        "Dynamics (music)",
+        "Statistical physics",
+        "Fidelity",
+        "Boltzmann constant",
+        "Bhatnagar–Gross–Krook operator",
+        "Fluid dynamics"
+      ],
+      "abstract": "Abstract In recent years, certain forms of the Boltzmann equation--now going by the name of \"Lattice Boltzmann equation\" (LBE)--have emerged which relinquish most mathematical complexities of the true Boltzmann equation without sacrificing physical fidelity in the description of complex fluid motion. This book provides the first detailed survey of LBE theory and its major applications to date. Accessible to a broad audience of scientists dealing with complex system dynamics, the book also portrays future developments in allied areas of science where fluid motion plays a distinguished role.",
+      "authors": [
+        "Sauro Succi"
+      ]
+    },
+    {
+      "title": "The lattice Boltzmann equation: theory and applications",
+      "publication_year": 1992,
+      "publication_date": "1992-12-01",
+      "doi": "https://doi.org/10.1016/0370-1573(92)90090-m",
+      "venue": "Physics Reports",
+      "type": "article",
+      "cited_by_count": 2078,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Lattice Boltzmann methods",
+        "HPP model",
+        "Boltzmann equation",
+        "Lattice gas automaton",
+        "Kinetic theory",
+        "Statistical physics",
+        "Bhatnagar–Gross–Krook operator"
+      ],
+      "abstract": "",
+      "authors": [
+        "Roberto Benzi",
+        "Sauro Succi",
+        "Massimo Vergassola"
+      ]
+    },
+    {
+      "title": "Extended self-similarity in turbulent flows",
+      "publication_year": 1993,
+      "publication_date": "1993-07-01",
+      "doi": "https://doi.org/10.1103/physreve.48.r29",
+      "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+      "type": "article",
+      "cited_by_count": 1037,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Self-similarity",
+        "Turbulence",
+        "Similarity (geometry)",
+        "Scaling",
+        "Reynolds number",
+        "Dynamic similarity",
+        "Statistical physics",
+        "Physics"
+      ],
+      "abstract": "We report on the existence of a hitherto undetected form of self-similarity, which we call extended self-similarity (ESS). ESS holds at high as well as at low Reynolds number, and it is characterized by the same scaling exponents of the velocity differences of fully developed turbulence.",
+      "authors": [
+        "Roberto Benzi",
+        "S. Ciliberto",
+        "R. Tripiccione",
+        "C. Baudet",
+        "Federico Massaioli",
+        "Sauro Succi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Variational-adiabatic quantum solver for systems of linear equations with warm starts",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1142/s0129183127501087",
+      "venue": "International Journal of Modern Physics C",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.24285",
+      "concepts": [
+        "Solver",
+        "Hamiltonian (control theory)",
+        "Mathematics",
+        "Adiabatic process",
+        "Quantum",
+        "Adiabatic quantum computation",
+        "Ground state",
+        "Discretization"
+      ],
+      "abstract": "In this paper, we propose a revisited variational quantum solver for linear systems, designed to circumvent the barren plateau phenomenon by combining two key techniques: adiabatic evolution and warm starts. To this end, we define an initial Hamiltonian with a known ground state which is easily implemented on the quantum circuit, and then “adiabatically” evolve the Hamiltonian by tuning a control variable in such a way that the final ground state matches the solution to the given linear system. This evolution is carried out in incremental steps, and the ground state at each step is found by minimizing the energy using the parameter values corresponding to the previous minimum as a warm start to guide the search. As a first test case, the method is applied to several linear systems obtained by discretizing a one-dimensional heat flow equation with different physical assumptions and grid choices. Our method successfully and reliably improves upon the solution to the same problem as obtained by a conventional quantum solver, reaching very close to the global minimum also in the case of very shallow circuit implementations.",
+      "authors": [
+        "Claudio Sanavio",
+        "F. Mascherpa",
+        "Alessia Marruzzo",
+        "A. Amendola",
+        "Sauro Succi"
+      ]
+    },
+    {
+      "title": "Randomness and signal propagation in physics-informed neural networks (PINNs): a neural PDE perspective",
+      "publication_year": 2026,
+      "publication_date": "2026-03-22",
+      "doi": "https://doi.org/10.1140/epjp/s13360-026-07549-0",
+      "venue": "The European Physical Journal Plus",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.18131",
+      "concepts": [
+        "Randomness",
+        "Artificial neural network",
+        "Stability (learning theory)",
+        "SIGNAL (programming language)",
+        "Mathematics",
+        "Algorithm",
+        "Backpropagation",
+        "Inviscid flow"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jean‐Michel Tucny",
+        "Abhisek Ganguly",
+        "Santosh Ansumali",
+        "Sauro Succi"
+      ]
+    },
+    {
+      "title": "A new kind of science",
+      "publication_year": 2026,
+      "publication_date": "2026-01-13",
+      "doi": "https://doi.org/10.3389/fphy.2025.1760758",
+      "venue": "Frontiers in Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/physics/articles/10.3389/fphy.2025.1760758/pdf",
+      "concepts": [
+        "Transformative learning",
+        "Epistemology",
+        "Process (computing)",
+        "Computer science",
+        "Causality (physics)",
+        "Artificial intelligence",
+        "Engineering ethics",
+        "Cognitive science"
+      ],
+      "abstract": "We discuss whether science is in the process of being transformed from a quest for causality to a quest for correlation in light of the recent development in artificial intelligence. We observe that while a blind trust in the most seductive promises of AI is surely to be avoided, a judicious combination of computer simulation based on physical insight and the machine learning ability to explore ultra-dimensional spaces, holds potential for transformative progress in the way science is going to be pursued in the years to come.",
+      "authors": [
+        "Alex Hansen",
+        "Sauro Succi"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence: unpredictable or unprestatable?",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.5281/zenodo.18187447",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18187447",
+      "concepts": [
+        "Computer science",
+        "Generative grammar",
+        "Predictability",
+        "Transformative learning",
+        "Novelty",
+        "Epistemology",
+        "Artificial intelligence",
+        "Context (archaeology)"
+      ],
+      "abstract": "Current AI technologies have demonstrated impressive results, mainly driven by large language models (LLMs). The most diffused applications of LLMs are in the so-called generative AI, which consists in techniques that produce texts, music, pictures or videos--often in a multimodal setting. Challenging the intuition that machines cannot be truly creative, the artefacts produced by LLMs are sometimes considered as surprising, novel and creative. This view is also supported by observing that there are both theoretical and practical limitations on the predictability of AI systems' outcomes.Actual creativity relies on the capability of being transformative and inventive, hence not just unpredictable but unprestatable: true novelty arises within a process whose evolution of the very possibility space cannot be predicted.Prominent examples of unprestatability are the evolution of the biosphere and artistic human productions.In this contribution, we elaborate on the notions of predictability and prestatability in the context of current AI systems. We maintain that these systems are, to some extent, unpredictable but not unprestatable. A consequence of our contention is the definition of...",
+      "authors": [
+        "Andrea Roli",
+        "Sauro Succi",
+        "Stuart Kauffman"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence: unpredictable or unprestatable?",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.5281/zenodo.18187448",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18187448",
+      "concepts": [
+        "Computer science",
+        "Generative grammar",
+        "Predictability",
+        "Transformative learning",
+        "Novelty",
+        "Epistemology",
+        "Artificial intelligence",
+        "Context (archaeology)"
+      ],
+      "abstract": "Current AI technologies have demonstrated impressive results, mainly driven by large language models (LLMs). The most diffused applications of LLMs are in the so-called generative AI, which consists in techniques that produce texts, music, pictures or videos--often in a multimodal setting. Challenging the intuition that machines cannot be truly creative, the artefacts produced by LLMs are sometimes considered as surprising, novel and creative. This view is also supported by observing that there are both theoretical and practical limitations on the predictability of AI systems' outcomes.Actual creativity relies on the capability of being transformative and inventive, hence not just unpredictable but unprestatable: true novelty arises within a process whose evolution of the very possibility space cannot be predicted.Prominent examples of unprestatability are the evolution of the biosphere and artistic human productions.In this contribution, we elaborate on the notions of predictability and prestatability in the context of current AI systems. We maintain that these systems are, to some extent, unpredictable but not unprestatable. A consequence of our contention is the definition of...",
+      "authors": [
+        "Andrea Roli",
+        "Sauro Succi",
+        "Stuart Kauffman"
+      ]
+    }
+  ]
+}

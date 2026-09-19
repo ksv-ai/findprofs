@@ -1,0 +1,276 @@
+{
+  "faculty_name": "Lin Zhao",
+  "full_name": "Lin Zhao",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "New Jersey Institute of Technology",
+  "author_id": "A5036011550",
+  "works_count": 108,
+  "cited_by_count": 2059,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Oil Spill Detection and Mitigation",
+      "count": 52
+    },
+    {
+      "topic": "Atmospheric and Environmental Gas Dynamics",
+      "count": 11
+    },
+    {
+      "topic": "Petroleum Processing and Analysis",
+      "count": 11
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 10
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Review of CO2 injection techniques for enhanced shale gas recovery: Prospect and challenges",
+      "publication_year": 2020,
+      "publication_date": "2020-03-09",
+      "doi": "https://doi.org/10.1016/j.jngse.2020.103240",
+      "venue": "Journal of Natural Gas Science and Engineering",
+      "type": "article",
+      "cited_by_count": 161,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Oil shale",
+        "Petroleum engineering",
+        "Shale gas",
+        "Methane",
+        "Adsorption",
+        "Flow (mathematics)",
+        "Pressure gradient",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Raphael Iddphonce",
+        "Jinjie Wang",
+        "Lin Zhao"
+      ]
+    },
+    {
+      "title": "Evolution of droplets in subsea oil and gas blowouts: Development and validation of the numerical model VDROP-J",
+      "publication_year": 2014,
+      "publication_date": "2014-04-26",
+      "doi": "https://doi.org/10.1016/j.marpolbul.2014.04.020",
+      "venue": "Marine Pollution Bulletin",
+      "type": "article",
+      "cited_by_count": 149,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Subsea",
+        "Body orifice",
+        "Jet (fluid)",
+        "Mechanics",
+        "Volume (thermodynamics)",
+        "Dilution",
+        "Oil droplet",
+        "Mixing (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lin Zhao",
+        "Michel C. Boufadel",
+        "Scott A. Socolofsky",
+        "E. Eric Adams",
+        "Thomas King",
+        "Kenneth Lee"
+      ]
+    },
+    {
+      "title": "VDROP: A comprehensive model for droplet formation of oils and gases in liquids - Incorporation of the interfacial tension and droplet viscosity",
+      "publication_year": 2014,
+      "publication_date": "2014-05-09",
+      "doi": "https://doi.org/10.1016/j.cej.2014.04.082",
+      "venue": "Chemical Engineering Journal",
+      "type": "article",
+      "cited_by_count": 144,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Viscosity",
+        "Surface tension",
+        "Breakage",
+        "Oil droplet",
+        "Turbulence",
+        "Mechanics",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lin Zhao",
+        "Jagadish Torlapati",
+        "Michel C. Boufadel",
+        "Thomas King",
+        "Brian Robinson",
+        "Kenneth Lee"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "MEDQUA: A NISQ-Aware Quantum Adapter for Medical Vision–Language Models",
+      "publication_year": 2026,
+      "publication_date": "2026-04-08",
+      "doi": "https://doi.org/10.1109/isbi61048.2026.11515966",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Quantum",
+        "Physics",
+        "Electronic engineering",
+        "Engineering",
+        "Algorithm",
+        "Computation",
+        "Quantum computer"
+      ],
+      "abstract": "Vision-language models (VLMs) are promising for medical image classification but still face generalization limits from visual encoders and cross-site distribution shift. Fully quantum VLMs could offer richer representations, yet NISQ hardware makes end-to-end quantum training impractical. We introduce MEDQUA, a NISQ-aware quantum adapter that attaches to a pretrained VLM decoder. An entropydriven router sparsely selects tokens for a shallow variational quantum bottleneck, while a lightweight LoRA-based classical path processes all tokens to ensure stability and low cost. On MIMIC-CXR and ChestMNIST, MEDQUA consistently improves accuracy and AUROC over classical VLM baselines (including SFT) with modest overhead, showing that adaptively integrated quantum modules already yield practical gains. As coherence, error rates, and compilation advance, the same adapter can scale to deeper circuits and larger qubit counts without redesigning the classical backbone, providing a pragmatic route to quantum-enhanced medical VLMs.",
+      "authors": [
+        "Yiwei Li",
+        "Yi Pan",
+        "Junhao Chen",
+        "Yifan Zhou",
+        "Hanqi Jiang",
+        "Huaqin Zhao",
+        "Yanjun Lyu",
+        "Zhengliang Liu",
+        "Lin Zhao",
+        "Dajiang Zhu",
+        "Li X",
+        "Tianming Liu"
+      ]
+    },
+    {
+      "title": "Unraveling hiatuses in black shales: Mechanisms and implications from the Lower Silurian Longmaxi Formation, South China",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.1016/j.coal.2025.104869",
+      "venue": "International Journal of Coal Geology",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geology",
+        "Oil shale",
+        "Shale gas",
+        "China",
+        "Paleontology",
+        "Sedimentary rock",
+        "Geochemistry",
+        "Archaeology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yichen Liu",
+        "Benzhong Xian",
+        "Qianran Wu",
+        "Zhiyong Lu",
+        "Haocheng Shi",
+        "Meiling Wu",
+        "Zhiyun Yu",
+        "Lin Zhao",
+        "Junyang Geng",
+        "Haiying Chen"
+      ]
+    },
+    {
+      "title": "Intent-aware knowledge graph-based model for electrical power material recommendation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-31",
+      "doi": "https://doi.org/10.7717/peerj-cs.3023",
+      "venue": "PeerJ Computer Science",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.7717/peerj-cs.3023",
+      "concepts": [
+        "Knowledge graph",
+        "Computer science",
+        "Graph",
+        "Information retrieval",
+        "Theoretical computer science"
+      ],
+      "abstract": "In the field of electrical power material management, it is paramount that users receive accurate recommendations regarding the electrical power materials they require. Recently, a growing number of studies have been dedicated to graph neural network (GNN)-based recommendation systems due to their ability to seamlessly combine node information with topological structure, enhancing the effectiveness of recommendations. However, a notable drawback of current GNN-based recommendation is their inability to explicitly capture users' intent in recommendations, which limits the performance. In fact, users' intent is crucial in determining their actions. One example is when users first form an intent to buy a particular set of items and then choose a specific item from the set based on their preferences. To fill this gap, this article proposes an intent-aware knowledge graph-based model for electrical material recommendation, named IKG-EMR. IKG-EMR models user preferences and intent by leveraging knowledge graph and user behavior sequences, respectively. Specifically, a graph neural network is adopted to generate user intent embedding and item embedding from the tripartite graph of \"Use...",
+      "authors": [
+        "Lin Zhao",
+        "Ning Luan",
+        "Weihua Cheng",
+        "Shuming Feng",
+        "Hui Wang",
+        "Y. Yang",
+        "Guixiang Zhu"
+      ]
+    },
+    {
+      "title": "Exploring a Collaborative Model Using Grounded Theory: A Case Study of a Digital Healthcare Service Platform",
+      "publication_year": 2025,
+      "publication_date": "2025-05-31",
+      "doi": "https://doi.org/10.17576/ebangi.2025.2202.39",
+      "venue": "Jurnal e-Bangi/e-Bangi",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Grounded theory",
+        "Health care",
+        "Healthcare service",
+        "Computer science",
+        "Service model",
+        "Service (business)",
+        "Human–computer interaction",
+        "Sociology"
+      ],
+      "abstract": "Government as a Platform” (GaaP) has been widely accepted. However, a government alone cannot ensure the establishment and smooth operation of digital service platforms. Therefore, this study aims to explore the role of different stakeholders and their collaboration mechanisms concerning the establishment and operation of a digital service platform. Using the “Zhenghaoban” digital service platform on healthcare in Zhengzhou, China, as a case, this study finds four factors that facilitate the collaboration among the government, enterprises, social organizations and health sectors. The four factors are the strong planning and collaborative capability of the government; good integration capability of policy, technology and services of health sectors; strong capability in technology integration, innovation and security protection of enterprises; good facilitating and coordinating capabilities of social organizations. This grounded theory study contributes to the literature on government digital service platforms by proposing a collaborative multi-stakeholder model, offering practical insights for local e-governments seeking to enhance their governance capacity through diverse digita...",
+      "authors": [
+        "Lin Zhao",
+        "Sity Daud",
+        "Mohd Rizal Yaakop"
+      ]
+    },
+    {
+      "title": "“Dependence” or “Critical Thinking”? The Thinking Choices of Education Doctoral Students in Generative AI Environment: Qualitative Research Based on Interview",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icaie64856.2025.11158573",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Generative grammar",
+        "Field (mathematics)",
+        "Critical thinking",
+        "Qualitative research",
+        "Psychology",
+        "Pedagogy",
+        "Generative model",
+        "Literacy"
+      ],
+      "abstract": "Generative artificial intelligence chatbots like Chat-GPT have wide applications and are influential in the field of education. ChatGPT is revolutionizing education by offering personalized learning support and enhancing work productivity. At the same time, recent research increasingly focuses on the side effects arising from over-reliance on generative AI tools. This study explores the thinking choices, “dependence” and “critical thinking,” of international doctoral students using ChatGPT within a generative AI environment. Through semi-structured interviews with eight participants from the Auburn University Education Department, the research examines their experiences using ChatGPT. While ChatGPT enhances efficiency and academic communication, students recognize its limitations and the risks of over-reliance, such as diminished critical thinking and skill development, and increased procrastination. The findings highlight the importance to develop learners' AI literacy and critical thinking ability.",
+      "authors": [
+        "Yuhao He",
+        "Kenan Xiao",
+        "Zhuoran Shi",
+        "Lin Zhao"
+      ]
+    }
+  ]
+}

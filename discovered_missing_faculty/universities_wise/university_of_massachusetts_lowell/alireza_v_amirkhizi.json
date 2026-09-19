@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Alireza V. Amirkhizi",
+  "full_name": "Alireza V. Amirkhizi",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Massachusetts-Lowell",
+  "author_id": "A5033508464",
+  "works_count": 139,
+  "cited_by_count": 2042,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Structural Response to Dynamic Loads",
+      "count": 35
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 32
+    },
+    {
+      "topic": "Metamaterials and Metasurfaces Applications",
+      "count": 23
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 15
+    },
+    {
+      "topic": "Ultrasonics and Acoustic Wave Propagation",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An experimentally-based viscoelastic constitutive model for polyurea, including pressure and temperature effects",
+      "publication_year": 2006,
+      "publication_date": "2006-10-12",
+      "doi": "https://doi.org/10.1080/14786430600833198",
+      "venue": "The Philosophical Magazine A Journal of Theoretical Experimental and Applied Physics",
+      "type": "article",
+      "cited_by_count": 267,
+      "is_oa": true,
+      "oa_url": "https://escholarship.org/content/qt50c9j5vj/qt50c9j5vj.pdf",
+      "concepts": [
+        "Viscoelasticity",
+        "Polyurea",
+        "Split-Hopkinson pressure bar",
+        "Materials science",
+        "Elastomer",
+        "Constitutive equation",
+        "Dissipation",
+        "Composite material"
+      ],
+      "abstract": "Presented here are the results of a systematic study of the viscoelastic properties of polyurea over broad ranges of strain rates and temperatures, including the high-pressure effects on the material response. Based on a set of experiments and a master curve developed by Knauss (W.G. Knauss, Viscoelastic Material Characterization relative to Constitutive and Failure Response of an Elastomer, Interim Report to the Office of Naval Research (GALCIT, Pasadena, CA, 2003.) for time–temperature equivalence, we have produced a model for the large deformation viscoelastic response of this elastomer. Higher strain-rate data are obtained using Hopkinson bar experiments. The data suggest that the response of this class of polymers is strongly pressure dependent. We show that the inclusion of linear pressure sensitivity successfully reproduces the results of the Hopkinson bar experiments. In addition, we also present an equivalent but approximate model that involves only a finite number of internal state variables and is specifically tailored for implementation into explicit finite-element codes. The model incorporates the classical Williams–Landel–Ferry (WLF) time–temperature transformation...",
+      "authors": [
+        "Alireza V. Amirkhizi",
+        "Jon Isaacs",
+        "J.D. McGee",
+        "Sia Nemat‐Nasser"
+      ]
+    },
+    {
+      "title": "Homogenization of periodic elastic composites and locally resonant sonic materials",
+      "publication_year": 2011,
+      "publication_date": "2011-03-18",
+      "doi": "https://doi.org/10.1103/physrevb.83.104103",
+      "venue": "Physical Review B",
+      "type": "article",
+      "cited_by_count": 155,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Homogenization (climate)",
+        "Materials science",
+        "Elasticity (physics)",
+        "Composite number",
+        "Mathematical analysis",
+        "Stiffness",
+        "Dispersion relation",
+        "Floquet theory"
+      ],
+      "abstract": "A method for homogenization of an elastic composite with periodic microstructure is presented, focusing on the Floquet-type elastic waves. The resulting homogenized frequency-dependent elasticity and mass density then automatically satisfy the overall conservation laws and by necessity produce the exact dispersion relations. It is also shown that the dispersion relations and the associated field quantities can be accurately calculated using a mixed variational approach, based on the microstructure of the associated unit cell. The method is used to calculate the dynamic effective parameters for a layered composite by using both the exact solution and the results of the mixed variational formulation. The exact and approximate results are shown to be in close agreement, which makes it possible to use the approximate method for the proposed type of homogenization in cases where an exact solution does not exist. The homogenized frequency-dependent effective parameters give rise to the concept of dynamic Ashby charts that can be used to illustrate the effect of the microstructural architecture on the dynamic properties of a composite. In particular, the charts vividly display how this...",
+      "authors": [
+        "Sia Nemat‐Nasser",
+        "J.R. Willis",
+        "Ankit Srivastava",
+        "Alireza V. Amirkhizi"
+      ]
+    },
+    {
+      "title": "Dynamic mechanical and ultrasonic properties of polyurea",
+      "publication_year": 2011,
+      "publication_date": "2011-07-05",
+      "doi": "https://doi.org/10.1016/j.mechmat.2011.06.012",
+      "venue": "Mechanics of Materials",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polyurea",
+        "Materials science",
+        "Ultrasonic sensor",
+        "Viscoelasticity",
+        "Dynamic mechanical analysis",
+        "Composite material",
+        "Moduli",
+        "Attenuation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jing Qiao",
+        "Alireza V. Amirkhizi",
+        "Kristin Schaaf",
+        "Sia Nemat‐Nasser",
+        "Gaohui Wu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Time domain analysis of locally resonant elastic metamaterials under impact*",
+      "publication_year": 2026,
+      "publication_date": "2026-02-24",
+      "doi": "https://doi.org/10.1080/15376494.2026.2619034",
+      "venue": "Mechanics of Advanced Materials and Structures",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2410.01029",
+      "concepts": [
+        "Metamaterial",
+        "Domain (mathematical analysis)",
+        "Time domain",
+        "Physics",
+        "Acoustics",
+        "Computer science",
+        "Mathematical analysis",
+        "Mathematics"
+      ],
+      "abstract": "Impact mitigation using metamaterials (MM) requires low-frequency stopbands for wave attenuation. Conventional low-frequency MM solutions often rely on complex, heavy, multi-material unit cells. Most MM studies analyze infinite periodic domains through Frequency Domain (FD) simulations, a practice that limits applicability to realistic impact scenarios. The present study employs Time Domain (TD) finite element analysis to investigate the dynamic response of single-material, locally resonant ceramic MMs under impact loading. This design achieves a low-frequency stopband while minimizing the mass and fabrication complexity associated with multi-material systems. TD results are contrasted with FD predictions to highlight the advantages of TD analysis for finite-sized structures subjected to impact, blast, and other boundary conditions. MM slabs are benchmarked against conventional monolithic and alternative microstructured slabs, with performance assessed in terms of stress-wave attenuation, peak-load retardation, energy transfer, and dissipation by material damping. Resonance within the MM amplifies dissipation within the assumed mass-proportional Rayleigh damping model. A graded ...",
+      "authors": [
+        "Erdem Caliskan",
+        "Willoughby Cheney",
+        "Weidi Wang",
+        "Thomas Plaisted",
+        "Alireza V. Amirkhizi",
+        "Reza Abedi"
+      ]
+    },
+    {
+      "title": "Time domain analysis of locally resonant elastic metamaterials under impact*",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.6084/m9.figshare.31399125",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31399125",
+      "concepts": [
+        "Stopband",
+        "Dissipation",
+        "Metamaterial",
+        "Time domain",
+        "Finite element method",
+        "Attenuation",
+        "Slab",
+        "Physics"
+      ],
+      "abstract": "Impact mitigation using metamaterials (MM) requires low-frequency stopbands for wave attenuation. Conventional low-frequency MM solutions often rely on complex, heavy, multi-material unit cells. Most MM studies analyze infinite periodic domains through Frequency Domain (FD) simulations, a practice that limits applicability to realistic impact scenarios. The present study employs Time Domain (TD) finite element analysis to investigate the dynamic response of single-material, locally resonant ceramic MMs under impact loading. This design achieves a low-frequency stopband while minimizing the mass and fabrication complexity associated with multi-material systems. TD results are contrasted with FD predictions to highlight the advantages of TD analysis for finite-sized structures subjected to impact, blast, and other boundary conditions. MM slabs are benchmarked against conventional monolithic and alternative microstructured slabs, with performance assessed in terms of stress-wave attenuation, peak-load retardation, energy transfer, and dissipation by material damping. Resonance within the MM amplifies dissipation within the assumed mass-proportional Rayleigh damping model. A graded ...",
+      "authors": [
+        "Erdem Caliskan",
+        "Willoughby Cheney",
+        "Weidi Wang",
+        "Thomas Plaisted",
+        "Alireza V. Amirkhizi",
+        "Reza Abedi"
+      ]
+    },
+    {
+      "title": "Time domain analysis of locally resonant elastic metamaterials under impact*",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.6084/m9.figshare.31399125.v1",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31399125.v1",
+      "concepts": [
+        "Stopband",
+        "Dissipation",
+        "Metamaterial",
+        "Time domain",
+        "Finite element method",
+        "Attenuation",
+        "Slab",
+        "Physics"
+      ],
+      "abstract": "Impact mitigation using metamaterials (MM) requires low-frequency stopbands for wave attenuation. Conventional low-frequency MM solutions often rely on complex, heavy, multi-material unit cells. Most MM studies analyze infinite periodic domains through Frequency Domain (FD) simulations, a practice that limits applicability to realistic impact scenarios. The present study employs Time Domain (TD) finite element analysis to investigate the dynamic response of single-material, locally resonant ceramic MMs under impact loading. This design achieves a low-frequency stopband while minimizing the mass and fabrication complexity associated with multi-material systems. TD results are contrasted with FD predictions to highlight the advantages of TD analysis for finite-sized structures subjected to impact, blast, and other boundary conditions. MM slabs are benchmarked against conventional monolithic and alternative microstructured slabs, with performance assessed in terms of stress-wave attenuation, peak-load retardation, energy transfer, and dissipation by material damping. Resonance within the MM amplifies dissipation within the assumed mass-proportional Rayleigh damping model. A graded ...",
+      "authors": [
+        "Erdem Caliskan",
+        "Willoughby Cheney",
+        "Weidi Wang",
+        "Thomas Plaisted",
+        "Alireza V. Amirkhizi",
+        "Reza Abedi"
+      ]
+    },
+    {
+      "title": "Controlled Mechanical Anisotropy in 3D‐Printed Thermoplastic Elastomeric Composites",
+      "publication_year": 2025,
+      "publication_date": "2025-10-17",
+      "doi": "https://doi.org/10.1002/mame.202500285",
+      "venue": "Macromolecular Materials and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mame.202500285",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Bending",
+        "Composite number",
+        "Stiffness",
+        "Elastomer",
+        "Anisotropy",
+        "Bending stiffness"
+      ],
+      "abstract": "ABSTRACT The present work explores the use of acrylonitrile butadiene styrene (ABS) + thermoplastic elastomer (TPE) core–shell composite filaments to enable additive manufacturing of soft structures with tunable mechanical response. It investigates the effect of core/shell ratio of the filament, and raster orientation via printing, to control the mechanical anisotropy of 3D‐printed structures. Load frame experiments demonstrate control over a wide range of tensile modulus (50–2200 MPa) and flexural modulus (50–2600 MPa), by varying the number and sequence of 0°, ±45°, and 90° raster orientations (plies) within 16‐layer test coupons. Asymmetric (with respect to the sample mid‐plane) ply stacks are shown to exhibit a bending response that is sensitive to bending direction. Segmented designs, in which print orientation is varied along the length of a test coupon, are fabricated and exhibit localized bending. Analytical composite laminate theory and finite element simulations are shown to capture the broad trends in mechanical response for these 3D printed soft composites, although these models overpredict structural stiffness as ABS volume fraction increases due to strain localizat...",
+      "authors": [
+        "Nikhil A. Patil",
+        "Weidi Wang",
+        "Juhyeong Lee",
+        "Drupad KadiyalaBhavani",
+        "Alireza V. Amirkhizi",
+        "Timothy J. Lawton",
+        "Eric D. Wetzel",
+        "Jay Hoon Park"
+      ]
+    },
+    {
+      "title": "In-plane linear stress waves in layered media: I. Non-Hermitian degeneracies and modal chirality",
+      "publication_year": 2025,
+      "publication_date": "2025-08-05",
+      "doi": "https://doi.org/10.1016/j.wavemoti.2025.103610",
+      "venue": "Wave Motion",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hermitian matrix",
+        "Modal",
+        "Chirality (physics)",
+        "Physics",
+        "Plane (geometry)",
+        "Plane wave",
+        "Classical mechanics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vahidreza Alizadeh",
+        "Alireza V. Amirkhizi"
+      ]
+    }
+  ]
+}

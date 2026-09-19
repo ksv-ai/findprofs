@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Marc Garbey",
+  "full_name": "Marc Garbey",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "George Washington University",
+  "author_id": "A5071548942",
+  "works_count": 246,
+  "cited_by_count": 3085,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 42
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 25
+    },
+    {
+      "topic": "Differential Equations and Numerical Methods",
+      "count": 23
+    },
+    {
+      "topic": "Coronary Interventions and Diagnostics",
+      "count": 22
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Contact-Free Measurement of Cardiac Pulse Based on the Analysis of Thermal Imagery",
+      "publication_year": 2007,
+      "publication_date": "2007-08-01",
+      "doi": "https://doi.org/10.1109/tbme.2007.891930",
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 404,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fast Fourier transform",
+        "SIGNAL (programming language)",
+        "Pulse (music)",
+        "Acoustics",
+        "Materials science",
+        "Pulse repetition frequency",
+        "Optics",
+        "Electronic engineering"
+      ],
+      "abstract": "We have developed a novel method to measure human cardiac pulse at a distance. It is based on the information contained in the thermal signal emitted from major superficial vessels. This signal is acquired through a highly sensitive thermal imaging system. Temperature on the vessel is modulated by pulsative blood flow. To compute the frequency of modulation (pulse), we extract a line-based region along the vessel. Then, we apply fast Fourier transform (FFT) to individual points along this line of interest to capitalize on the pulse's thermal propagation effect. Finally, we use an adaptive estimation function on the average FFT outcome to quantify the pulse. We have carried out experiments on a data set of 34 subjects and compared the pulse computed from our thermal signal analysis method to concomitant ground-truth measurements obtained through a standard contact sensor (piezo-electric transducer). The performance of the new method ranges from 88.52% to 90.33% depending on the clarity of the vessel's thermal imprint. To the best of our knowledge, it is the first time that cardiac pulse has been measured several feet away from a subject with passive means.",
+      "authors": [
+        "Marc Garbey",
+        "Nanfei Sun",
+        "Arcangelo Merla",
+        "Ioannis Pavlidis"
+      ]
+    },
+    {
+      "title": "Measuring Mental Workload with EEG+fNIRS",
+      "publication_year": 2017,
+      "publication_date": "2017-07-14",
+      "doi": "https://doi.org/10.3389/fnhum.2017.00359",
+      "venue": "Frontiers in Human Neuroscience",
+      "type": "article",
+      "cited_by_count": 237,
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2017.00359/pdf",
+      "concepts": [
+        "Electroencephalography",
+        "Functional near-infrared spectroscopy",
+        "Computer science",
+        "Support vector machine",
+        "Pattern recognition (psychology)",
+        "Artificial intelligence",
+        "Workload",
+        "Neuroimaging"
+      ],
+      "abstract": "We studied the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL). We have used electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) as imaging modalities with seventeen healthy subjects performing the letter n-back task, a standard experimental paradigm related to working memory (WM). The level of MWL was parametrically changed by variation of n from 0 to 3. 19 EEG channels were covering the whole-head and 19 fNIRS channels were located on the forehead to cover the most dominant brain region involved in WM. Grand block averaging of recorded signals revealed specific behaviors of oxygenated-hemoglobin level during changes in the level of MWL. A machine learning approach has been utilized for detection of the level of MWL. We extracted different features from EEG, fNIRS, and EEG+fNIRS signals as the biomarkers of MWL and fed them to a linear support vector machine (SVM) as train and test sets. These features were selected based on their sensitivity to the changes in the level of mental workload according to the literature. We introduced a new category of features within fNIRS and EEG+fNIRS systems. In additio...",
+      "authors": [
+        "Haleh Aghajani",
+        "Marc Garbey",
+        "Ahmet Omurtag"
+      ]
+    },
+    {
+      "title": "Interacting with human physiology",
+      "publication_year": 2007,
+      "publication_date": "2007-02-03",
+      "doi": "https://doi.org/10.1016/j.cviu.2006.11.018",
+      "venue": "Computer Vision and Image Understanding",
+      "type": "article",
+      "cited_by_count": 174,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Human–computer interaction",
+        "Vital signs",
+        "Variety (cybernetics)",
+        "Interface (matter)",
+        "Range (aeronautics)",
+        "Pulse rate",
+        "Computer vision"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ioannis Pavlidis",
+        "Jonathan Dowdall",
+        "Nanfei Sun",
+        "Colin Puri",
+        "Jie Deng Fei",
+        "Marc Garbey"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Construction of patient trajectories to model clinical trial outcomes: application to myasthenia gravis",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.3389/fdgth.2026.1755031",
+      "venue": "Frontiers in Digital Health",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1755031/pdf",
+      "concepts": [
+        "Myasthenia gravis",
+        "Predictability",
+        "Confounding",
+        "Cluster analysis",
+        "Clinical trial",
+        "Patient data",
+        "Medicine",
+        "Longitudinal data"
+      ],
+      "abstract": "Introduction: Accurate prediction of patient outcomes in clinical trials is crucial for the timely assessment of treatment efficacy. This study proposes a novel approach to predict patient response using longitudinal clinical data. Methods: We construct temporal trajectories from longitudinal data and extrapolate these trajectories to forecast individual patient outcomes. Additionally, we assess when new patients align with established response patterns. The approach is evaluated using data from the MGTX trial involving patients with myasthenia gravis. Results: Our analysis demonstrates the predictability of patient trajectories and enables automatic clustering of patients based on treatment success. The clustering reveals potential associations with age and smoking status. Discussion: These findings highlight the potential of trajectory-based methods for early prediction of treatment response in clinical trials. We also discuss possible confounding factors that may influence the observed associations and predictive performance.",
+      "authors": [
+        "Marc Garbey",
+        "Quentin Lesport",
+        "Henry J. Kaminski"
+      ]
+    },
+    {
+      "title": "Authors' Response to “Comment on ‘Improving Care for Amyotrophic Lateral Sclerosis with Artificial Intelligence and Affective Computing’”",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.1016/j.jns.2026.125885",
+      "venue": "Journal of the Neurological Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Amyotrophic lateral sclerosis",
+        "Psychology",
+        "Physical medicine and rehabilitation",
+        "Medicine",
+        "Cognitive psychology",
+        "Neuroscience",
+        "Clinical psychology",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Marc Garbey",
+        "Quentin Lesport",
+        "Gülşen Öztosun",
+        "Veda Ghodasara",
+        "Henry J. Kaminski",
+        "Elham Bayat"
+      ]
+    },
+    {
+      "title": "The Human-AGI Assemblage as an Obligate Holobiont",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7460483",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7460483",
+      "concepts": [
+        "Obligate",
+        "Assemblage (archaeology)",
+        "Ecology",
+        "Biology",
+        "Anthropocene",
+        "Computer science",
+        "Obligate parasite",
+        "Biosphere"
+      ],
+      "abstract": "",
+      "authors": [
+        "Marc Garbey"
+      ]
+    },
+    {
+      "title": "Bridging the Heterogeneity of Myasthenia Gravis Scores as a Foundational Step Towards the Construction of a Digital Twin",
+      "publication_year": 2025,
+      "publication_date": "2025-11-28",
+      "doi": "https://doi.org/10.3390/biomedicines13122920",
+      "venue": "Biomedicines",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2227-9059/13/12/2920/pdf?version=1764562468",
+      "concepts": [
+        "Myasthenia gravis",
+        "Comparability",
+        "Clinical trial",
+        "Disease",
+        "Medicine",
+        "Patient-reported outcome",
+        "Bridging (networking)",
+        "Consistency (knowledge bases)"
+      ],
+      "abstract": "Background/Objectives: Myasthenia gravis (MG) is a rare autoimmune neuromuscular disease. Clinical trials with rigorously collected data provide valuable opportunities for mathematical modeling of patient outcomes over time. However, for rare diseases such as MG, combining data across multiple trials presents challenges due to heterogeneity in outcome measures. This study aims to address these challenges by investigating relationships among commonly used MG outcome measures to support the development of a standardized “Myasthenia Gravis Portrait.” Methods: We integrated three primary data types from multiple clinical studies: (i) laboratory and medication data, (ii) Electronic Health Record (EHR) data (e.g., age, sex, years since diagnosis, BMI), and (iii) disease severity scores. We examined the relationships among several MG-specific scoring systems, including Activities of Daily Living (MG-ADL), Quantitative Myasthenia Gravis (QMG), MG Composite (MG-CE), and MG Quality of Life-15 (MGQOL-15), to evaluate consistency and comparability across studies. Results: Preliminary analyses revealed variable correlations among the different scoring systems, indicating that, while some mea...",
+      "authors": [
+        "Marc Garbey",
+        "Quentin Lesport",
+        "Henry J. Kaminski"
+      ]
+    },
+    {
+      "title": "Building a Quantitative Telemedicine Platform for Myasthenia Gravis: Augmenting the Physical Examination",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.1002/mus.70072",
+      "venue": "Muscle & Nerve",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Telemedicine",
+        "Medicine",
+        "Physical examination",
+        "Reliability (semiconductor)",
+        "Myasthenia gravis",
+        "Physical medicine and rehabilitation",
+        "Medical physics",
+        "Computer science"
+      ],
+      "abstract": "Myasthenia gravis (MG), a fluctuating autoimmune neuromuscular disease, presents unique challenges for remote assessment due to its reliance on detailed physical examination. To address this, we developed a quantitative telemedicine platform that augments traditional neurological assessments using computer vision, signal processing, and augmented intelligence. In response to the COVID-19 pandemic that motivated a shift to telemedicine evaluations, the Myasthenia Gravis Core Exam (MGCE) was developed by the rare disease consortium MGNet, to provide guidance in the performance of telemedicine clinical encounters. The MGCE includes eight sentinel tasks such as ptosis assessment, sit-to-stand, and speech-based respiratory measures, all amenable to digital capture. To assess the reproducibility and reliability of the MGCE, videos of 52 MG patients across six centers were performed with each having examinations performed twice. We utilized this unique resource to apply machine learning algorithms to extract clinically relevant features from video and audio data, enabling quantitation of continuous variation, in contrast to the categorical measures (mild, moderate, and severe) used in ...",
+      "authors": [
+        "Marc Garbey",
+        "Quentin Lesport",
+        "Gülşen Öztosun",
+        "Henry J. Kaminski"
+      ]
+    }
+  ]
+}

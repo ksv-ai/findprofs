@@ -1,0 +1,312 @@
+{
+  "faculty_name": "Onkar Sahni",
+  "full_name": "Onkar Sahni",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5047734191",
+  "works_count": 152,
+  "cited_by_count": 1532,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 45
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 41
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 35
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 26
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Efficient anisotropic adaptive discretization of the cardiovascular system",
+      "publication_year": 2006,
+      "publication_date": "2006-01-27",
+      "doi": "https://doi.org/10.1016/j.cma.2005.10.018",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 169,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Computation",
+        "Metric (unit)",
+        "Degrees of freedom (physics and chemistry)",
+        "Solver",
+        "Mathematics",
+        "Algorithm",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Onkar Sahni",
+        "Jens Müller",
+        "Kenneth E. Jansen",
+        "Mark S. Shephard",
+        "Charles A. Taylor"
+      ]
+    },
+    {
+      "title": "CRIMSON: An open-source software framework for cardiovascular integrated modelling and simulation",
+      "publication_year": 2021,
+      "publication_date": "2021-05-10",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1008881",
+      "venue": "PLoS Computational Biology",
+      "type": "article",
+      "cited_by_count": 97,
+      "is_oa": true,
+      "oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008881&type=printable",
+      "concepts": [
+        "Software",
+        "Computer science",
+        "Pipeline (software)",
+        "Leverage (statistics)",
+        "Finite element method",
+        "Computation",
+        "Simulation",
+        "Artificial intelligence"
+      ],
+      "abstract": "In this work, we describe the CRIMSON (CardiovasculaR Integrated Modelling and SimulatiON) software environment. CRIMSON provides a powerful, customizable and user-friendly system for performing three-dimensional and reduced-order computational haemodynamics studies via a pipeline which involves: 1) segmenting vascular structures from medical images; 2) constructing analytic arterial and venous geometric models; 3) performing finite element mesh generation; 4) designing, and 5) applying boundary conditions; 6) running incompressible Navier-Stokes simulations of blood flow with fluid-structure interaction capabilities; and 7) post-processing and visualizing the results, including velocity, pressure and wall shear stress fields. A key aim of CRIMSON is to create a software environment that makes powerful computational haemodynamics tools accessible to a wide audience, including clinicians and students, both within our research laboratories and throughout the community. The overall philosophy is to leverage best-in-class open source standards for medical image processing, parallel flow computation, geometric solid modelling, data assimilation, and mesh generation. It is actively us...",
+      "authors": [
+        "Christopher J. Arthurs",
+        "Rostislav Khlebnikov",
+        "Alex Melville",
+        "Marija Marčan",
+        "Alberto Gómez",
+        "Desmond Dillon-Murphy",
+        "Federica Cuomo",
+        "Miguel Silva Vieira",
+        "Jonas Schollenberger",
+        "Sabrina R. Lynch",
+        "Christopher Tossas-Betancourt",
+        "Kritika Iyer",
+        "Sara Hopper",
+        "Elizabeth Livingston",
+        "Pouya Youssefi",
+        "Alia Noorani",
+        "Sabrina Ben Ahmed",
+        "Foeke J.H. Nauta",
+        "Theodorus M. J. van Bakel",
+        "Yunus Ahmed",
+        "Petrus A. J. van Bakel",
+        "Jonathan P. Mynard",
+        "Paolo Di Achille",
+        "Hamid Gharahi",
+        "Kevin D. Lau",
+        "Vasilina Filonova",
+        "Miquel Aguirre",
+        "Nitesh Nama",
+        "Nan Xiao",
+        "Seungik Baek",
+        "Krishna Garikipati",
+        "Onkar Sahni",
+        "David Nordsletten",
+        "C. Alberto Figueroa"
+      ]
+    },
+    {
+      "title": "Three-dimensional interactions between a finite-span synthetic jet and a crossflow",
+      "publication_year": 2011,
+      "publication_date": "2011-02-09",
+      "doi": "https://doi.org/10.1017/s0022112010005604",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 96,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Turbulence",
+        "Reynolds number",
+        "Mechanics",
+        "Physics",
+        "Particle image velocimetry",
+        "Jet (fluid)",
+        "Streak"
+      ],
+      "abstract": "A complementary experimental and numerical investigation was performed to study the three-dimensional flow structures and interactions of a finite-span synthetic jet in a crossflow at a chord-based Reynolds number of 100,000 and a 0° angle of attack. Six blowing ratios in the range of 0.2–1.2 were considered. Experiments were conducted on a finite wing with a cross-sectional profile of NACA 4421, where particle-image velocimetry data were collected at the centre jet. To complement the experiments, three-dimensional numerical simulations were performed, where the numerical set-up matched not only the physical parameters (e.g. free stream) but also the physical dimensions (e.g. orientation and location of the jet. For the low blowing ratio cases, spatial non-uniformities developed, due to the finite span of the slit, which led to the formation of small and organized secondary structures or a streak-like pattern in the mean flow. On the other hand, for the high blowing ratio range, turbulent vortical structures were dominant, leading to larger spanwise structures, with a larger spanwise wavelength. Moreover, the phase-locked flow fields exhibited a train of counter-rotating coheren...",
+      "authors": [
+        "Onkar Sahni",
+        "J. S. Wood",
+        "Kenneth E. Jansen",
+        "Michael Amitay"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Unstructured Mesh Tools for Fusion Energy System Design",
+      "publication_year": 2026,
+      "publication_date": "2026-06-07",
+      "doi": "https://doi.org/10.48550/arxiv.2606.08822",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.08822",
+      "concepts": [
+        "Workflow",
+        "Fusion",
+        "Leverage (statistics)",
+        "Computer science",
+        "Key (lock)",
+        "Systems engineering",
+        "Coupling (piping)",
+        "Computational science"
+      ],
+      "abstract": "The execution of accurate simulations of fusion energy systems requires the appropriate representation of critical component geometries as well as the coupling of complex fusion physics codes with one another and with engineering analysis tools. This paper examines the challenges of creating simulation workflows that fully leverage existing fusion research codes while integrating them with commercial computer-aided engineering (CAE) software. Key areas addressed include: (a) the construction and meshing of analysis geometries taking full advantage of available geometric modeling and meshing technologies; (b) the effective coupling of fusion physics and engineering analysis codes; and (c) the support for simulation workflows that couple particle and continuum modeling methods.",
+      "authors": [
+        "Mark S. Shephard",
+        "Jacob Merson",
+        "Onkar Sahni",
+        "Cameron A. B. Smith",
+        "Usman Riaz",
+        "Fuad Hasan",
+        "Aditya Y. Joshi",
+        "D. Nath",
+        "A. Paudel"
+      ]
+    },
+    {
+      "title": "Unstructured Mesh Tools for Fusion Energy System Design",
+      "publication_year": 2026,
+      "publication_date": "2026-06-07",
+      "doi": "https://arxiv.org/abs/2606.08822",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.08822",
+      "concepts": [
+        "Workflow",
+        "Fusion",
+        "Leverage (statistics)",
+        "Computer science",
+        "Key (lock)",
+        "Systems engineering",
+        "Coupling (piping)",
+        "Computational science"
+      ],
+      "abstract": "The execution of accurate simulations of fusion energy systems requires the appropriate representation of critical component geometries as well as the coupling of complex fusion physics codes with one another and with engineering analysis tools. This paper examines the challenges of creating simulation workflows that fully leverage existing fusion research codes while integrating them with commercial computer-aided engineering (CAE) software. Key areas addressed include: (a) the construction and meshing of analysis geometries taking full advantage of available geometric modeling and meshing technologies; (b) the effective coupling of fusion physics and engineering analysis codes; and (c) the support for simulation workflows that couple particle and continuum modeling methods.",
+      "authors": [
+        "Mark S. Shephard",
+        "Jacob Merson",
+        "Onkar Sahni",
+        "Cameron W. Smith",
+        "Usman Riaz",
+        "Fuad Hasan",
+        "Aditya Y. Joshi",
+        "D. Nath",
+        "A. Paudel"
+      ]
+    },
+    {
+      "title": "Hex-Dominant Boundary Layer Mesh Adaptation for Accurate Prediction of Surface Heat Flux in Hypersonic Problems",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4025",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat flux",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Surface (topology)",
+        "Mechanics",
+        "Materials science",
+        "Flux (metallurgy)",
+        "Layer (electronics)"
+      ],
+      "abstract": "We present a hex-dominant boundary layer mesh adaptation approach for accurate prediction of surface heat flux in hypersonic problems. We build upon our prior work on an automated workflow for in-memory parallel anisotropic mesh adaptation for hypersonic problems. Our workflow combines three simulation components to target such problems, namely, a hypersonic flow solver; a library for geometry and mesh modification/adaptation; and an adaptation controller. Our approach is component based, in which different simulation components are selected and integrated in a flexible and modular fashion. In this work, a novel hex-dominant boundary layer mesh adaptation approach is investigated, in which surface mesh adaptation is applied with a control on element topology by using hierarchical refinement/de-refinement of the unstructured quad-dominant surface mesh as well as the associated hex-dominant boundary layer elements in the surface-normal direction along the boundary layer thickness. This results in semi-structured hex-dominant boundary layer elements and retains the geometric flexibility due to the use of an unstructured quad-dominant surface mesh. Anisotropic unstructured tetrahedr...",
+      "authors": [
+        "Zachary Gordon",
+        "Cameron Brown",
+        "Saurabh Tendulkar",
+        "Mikiel Gica",
+        "Patrick Keistler",
+        "Giovanni Salazar",
+        "Rocco Nastasia",
+        "Mark Beall",
+        "Onkar Sahni"
+      ]
+    },
+    {
+      "title": "Large-scale turbulent interactions in the separation bubble of a 5:1 rectangular cylinder",
+      "publication_year": 2026,
+      "publication_date": "2026-02-05",
+      "doi": "https://doi.org/10.1016/j.compfluid.2026.106999",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Freestream",
+        "Bubble",
+        "Physics",
+        "Mechanics",
+        "Eddy",
+        "Separation (statistics)",
+        "Cylinder"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jing Zhang",
+        "Chris W. Letchford",
+        "Luca Patruno",
+        "Onkar Sahni",
+        "Daniel Chapman Lander"
+      ]
+    },
+    {
+      "title": "Mesh Adaptation for Accurate Prediction of Surface Heat Flux in Hypersonic Problems",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1541",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Heat flux",
+        "Surface (topology)",
+        "Computer science",
+        "Flux (metallurgy)",
+        "Mechanical engineering",
+        "Shock (circulatory)",
+        "Aerospace engineering"
+      ],
+      "abstract": "In this paper, we present a mesh adaptation approach for accurate prediction of surface heat flux in hypersonic problems. We build upon our prior work on an automated workflow for in-memory parallel anisotropic mesh adaptation for hypersonic problems. Our workflow combines three simulation components to target such problems. Namely, a hypersonic flow solver; a library for geometry and mesh modification/adaptation; and an adaptation controller. Our approach is component based, in which different simulation components are combined and plugged in a flexible and modular fashion. This paper builds upon our previous work and focuses on accurate computation of the surface heat flux. In particular, we focus on three mesh-related aspects: i) mesh topology on walls including triangular and quad-dominant surface meshes, ii) finer mesh near the shock with high anisotropy, and iii) rapid mesh gradation in the upstream region of the shock. The utility of the current approach is shown by accurate prediction of surface heat flux on two hypersonic flow cases: a hemisphere case and a crew exploration vehicle case. We only consider problems with a steady-state solution, while accurate prediction o...",
+      "authors": [
+        "Mikiel Gica",
+        "Zachary Gordon",
+        "Cameron Brown",
+        "Patrick Keistler",
+        "Saurabh Tendulkar",
+        "Rocco Nastasia",
+        "Giovanni Salazar",
+        "Mark W. Beall",
+        "Onkar Sahni"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "faculty_name": "Andrew J. Majda",
+  "full_name": "Andrew J. Majda",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "New York University",
+  "author_id": "A5110096032",
+  "works_count": 665,
+  "cited_by_count": 39220,
+  "h_index": 89,
+  "top_topics": [
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 253
+    },
+    {
+      "topic": "Climate variability and models",
+      "count": 241
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 122
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 102
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 94
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Absorbing boundary conditions for the numerical simulation of waves",
+      "publication_year": 1977,
+      "publication_date": "1977-01-01",
+      "doi": "https://doi.org/10.1090/s0025-5718-1977-0436612-4",
+      "venue": "Mathematics of Computation",
+      "type": "article",
+      "cited_by_count": 2401,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Boundary (topology)",
+        "Computation",
+        "Hierarchy",
+        "Boundary value problem",
+        "Limit (mathematics)",
+        "Mathematical analysis",
+        "Applied mathematics"
+      ],
+      "abstract": "In practical calculations, it is often essential to introduce artificial boundaries to limit the area of computation. Here we develop a systematic method for obtaining a hierarchy of local boundary conditions at these artificial boundaries. These boundary conditions not only guarantee stable difference approximations but also minimize the (unphysical) artificial reflections which occur at the boundaries.",
+      "authors": [
+        "Björn Engquist",
+        "Andrew J. Majda"
+      ]
+    },
+    {
+      "title": "Vorticity and Incompressible Flow",
+      "publication_year": 2001,
+      "publication_date": "2001-11-26",
+      "doi": "https://doi.org/10.1017/cbo9780511613203",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book",
+      "cited_by_count": 1977,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vorticity",
+        "Incompressible flow",
+        "Compressibility",
+        "Flow (mathematics)",
+        "Graduate students",
+        "Vorticity equation",
+        "Vortex",
+        "Mathematical theory"
+      ],
+      "abstract": "This book is a comprehensive introduction to the mathematical theory of vorticity and incompressible flow ranging from elementary introductory material to current research topics. While the contents center on mathematical theory, many parts of the book showcase the interaction between rigorous mathematical theory, numerical, asymptotic, and qualitative simplified modeling, and physical phenomena. The first half forms an introductory graduate course on vorticity and incompressible flow. The second half comprises a modern applied mathematics graduate course on the weak solution theory for incompressible flow.",
+      "authors": [
+        "Andrew J. Majda",
+        "Andrea L. Bertozzi"
+      ]
+    },
+    {
+      "title": "Compressible Fluid Flow and Systems of Conservation Laws in Several Space Variables",
+      "publication_year": 1984,
+      "publication_date": "1984-01-01",
+      "doi": "https://doi.org/10.1007/978-1-4612-1116-7",
+      "venue": "Applied mathematical sciences",
+      "type": "book",
+      "cited_by_count": 1644,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/60438",
+      "concepts": [
+        "Conservation law",
+        "Flow (mathematics)",
+        "Compressibility",
+        "Compressible flow",
+        "Space (punctuation)",
+        "Mechanics",
+        "Mathematics",
+        "Calculus (dental)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andrew J. Majda"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Shallow‐Deep Unified Stochastic Mass Flux Cumulus Parameterization in the Single Column Community Climate Model",
+      "publication_year": 2023,
+      "publication_date": "2023-11-01",
+      "doi": "https://doi.org/10.1029/2022ms003391",
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022MS003391",
+      "concepts": [
+        "Context (archaeology)",
+        "Convection",
+        "Climate model",
+        "Environmental science",
+        "Mass flux",
+        "Diurnal cycle",
+        "Lapse rate",
+        "Meteorology"
+      ],
+      "abstract": "Abstract Cumulus parameterization (CP) in state‐of‐the‐art global climate models is based on the quasi‐equilibrium assumption (QEA), which views convection as the action of an ensemble of cumulus clouds, in a state of equilibrium with respect to a slowly varying atmospheric state. This view is not compatible with the organization and dynamical interactions across multiple scales of cloud systems in the tropics and progress in this research area was slow over decades despite the widely recognized major shortcomings. Novel ideas on how to represent key physical processes of moist convection‐large‐scale interaction to overcome the QEA have surged recently. The stochastic multicloud model (SMCM) CP in particular mimics the dynamical interactions of multiple cloud types that characterize organized tropical convection. Here, the SMCM is used to modify the Zhang‐McFarlane (ZM) CP by changing the way in which the bulk mass flux and bulk entrainment and detrainment rates are calculated. This is done by introducing a stochastic ensemble of plumes characterized by randomly varying detrainment level distributions based on the cloud area fraction of the SMCM. The SMCM is here extended to inc...",
+      "authors": [
+        "Boualem Khouider",
+        "Bidyut Bikash Goswami",
+        "R. Phani",
+        "Andrew J. Majda"
+      ]
+    }
+  ]
+}

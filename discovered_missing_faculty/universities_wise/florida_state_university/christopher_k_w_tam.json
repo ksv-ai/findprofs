@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Christopher K. W. Tam",
+  "full_name": "Christopher K. W. Tam",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Florida State University",
+  "author_id": "A5103121024",
+  "works_count": 349,
+  "cited_by_count": 17482,
+  "h_index": 64,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 268
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 164
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 97
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 77
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 53
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Dispersion-Relation-Preserving Finite Difference Schemes for Computational Acoustics",
+      "publication_year": 1993,
+      "publication_date": "1993-08-01",
+      "doi": "https://doi.org/10.1006/jcph.1993.1142",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 2160,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Finite difference",
+        "Mathematical analysis",
+        "Euler equations",
+        "Wave propagation",
+        "Boundary value problem",
+        "Dispersion relation",
+        "Finite difference method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christopher K. W. Tam",
+        "Jay C. Webb"
+      ]
+    },
+    {
+      "title": "Supersonic Jet Noise",
+      "publication_year": 1995,
+      "publication_date": "1995-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fl.27.010195.000313",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 914,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Jet noise",
+        "Noise (video)",
+        "Computer science",
+        "Scale (ratio)",
+        "Field (mathematics)",
+        "Fluid mechanics"
+      ],
+      "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract ...Read More",
+      "authors": [
+        "Christopher K. W. Tam"
+      ]
+    },
+    {
+      "title": "Computational aeroacoustics - Issues and methods",
+      "publication_year": 1995,
+      "publication_date": "1995-10-01",
+      "doi": "https://doi.org/10.2514/3.12728",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 537,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational aeroacoustics",
+        "Aeroacoustics",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Computer science",
+        "Engineering",
+        "Sound pressure"
+      ],
+      "abstract": "Computational fluid dynamics (CFD) has made tremendous progress especially in aerodynamics and aircraft design over the past 20 years. An obvious question to ask is why not use CFD methods to solve aeroacoustics problems? Most aerodynamics problems are time independent, whereas aeroacoustics problems are, by definition, time dependent. The nature, characteristics, and objectives of aeroacoustics problems are also quite different from the commonly encountered CFD problems. There are computational issues that are unique to aeroacoustics. For these reasons computational aeroacoustics requires somewhat independent thinking and development. The objectives of this paper are twofold. First, issues pertinent to aeroacoustics that may or may not be relevant to computational aerodynamics are discussed. The second objective is to review computational methods developed recently that are designed especially for computational aeroacoustics applications. Some of the computational methods to be reviewed are quite different from traditional CFD methods. They should be of interest to the CFD and fluid dynamics communities.",
+      "authors": [
+        "Christopher K. W. Tam"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Which Similarity-Sensitive Entropy (Sentropy)?",
+      "publication_year": 2025,
+      "publication_date": "2025-11-05",
+      "doi": "https://doi.org/10.48550/arxiv.2511.03849",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.03849",
+      "concepts": [
+        "Entropy (arrow of time)",
+        "Mathematics",
+        "Upper and lower bounds",
+        "Information theory",
+        "Limiting",
+        "Statistical physics",
+        "Complement (music)",
+        "Information diagram"
+      ],
+      "abstract": "Shannon entropy is not the only entropy that is relevant to machine-learning datasets, nor possibly even the most important one. Traditional entropies such as Shannon entropy capture information represented by elements' frequencies but not the richer information encoded by their similarities and differences. Capturing the latter requires similarity-sensitive entropy (``sentropy''). Sentropy can be measured using either the recently developed Leinster-Cobbold-Reeve framework (LCR) or the newer Vendi score (VS). This raises the practical question of which one to use: LCR or VS. Here we address this question theoretically and numerically, using 53 large and well-known imaging and tabular datasets. We find that LCR and VS values can differ by orders of magnitude and are complementary, except in limiting cases. We show that both LCR and VS results depend on how similarities are scaled, and introduce the notion of ``half-distance'' to parameterize this dependence. We prove the VS provides an upper bound on LCR for all non-negative values of the Rényi-Hill order parameter, as well as for negative values in the special case that the similarity matrix is full rank. We conclude that VS is...",
+      "authors": [
+        "Phuc Nguyen",
+        "Josiah Couch",
+        "Rahul Bansal",
+        "Alexandra Morgan",
+        "Christopher K. W. Tam",
+        "Miao Li",
+        "Rima Arnaout",
+        "Ramy Arnaout"
+      ]
+    },
+    {
+      "title": "Computational Fluid Dynamics and Computational Aeroacoustics: What Are Their Differences",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3641",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational aeroacoustics",
+        "Computational fluid dynamics",
+        "Aeroacoustics",
+        "Computer science",
+        "Dynamics (music)",
+        "Aerospace engineering",
+        "Acoustics",
+        "Physics"
+      ],
+      "abstract": "This paper highlights the differences between Computational Fluid Dynamics (CFD) and Computational Aeroacoustics (CAA). The two major differences are in the design of the computational algorithm and the distinct differences between boundary conditions for fluid problem used in CFD and fluid and wave boundary conditions used in CAA problems. In regard to computational algorithm, CFD methods are primarily designed to compute fluid flows. Many CFD time marching algorithms are based on truncated Taylor serous. Whereas CAA methods are designed to compute fluid flows and the waves supported by the flow. The Dispersion-Relation-Preservation (DRP) scheme which is a CAA method uses Fourier-Laplace transforms to form its finite differences in space and time. Boundary conditions are specific to each problem. Here three selected problems are considered to show the richness of CAA boundary conditions. First problem involves outgoing waves. Radiation boundary conditions are required to avoid waves reflecting back into the computational domain and cause numerical pollution of the solution. Second problem has incoming and outgoing waves at the domain boundary. Boundary conditions that generate ...",
+      "authors": [
+        "Christopher K. W. Tam"
+      ]
+    },
+    {
+      "title": "New Noise Component of Supersonic Jets: Laboratory Jets to High-Performance Aircraft",
+      "publication_year": 2025,
+      "publication_date": "2025-04-25",
+      "doi": "https://doi.org/10.2514/1.j064769",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Aerospace engineering",
+        "Component (thermodynamics)",
+        "Noise (video)",
+        "Jet noise",
+        "Aircraft noise",
+        "Jet (fluid)",
+        "Physics"
+      ],
+      "abstract": "High-performance aircraft operate at high jet speed and temperature when the afterburner is on. The jet speed and temperature ratio are significantly higher than most laboratory facilities. At these high-speed and high-temperature conditions, compressibility effects become important. It is, therefore, possible that high-performance aircraft could emit a new noise component that has not been observed before. In the case of laboratory jets, turbulent mixing noise is generated by the shearing motion of the jet flow. The details of the process are discussed in this paper and others. In addition, this paper reports the identification of a new noise component from high-performance aircraft. This new noise component contains a significant fraction of infrasound. Infrasound at high intensity could lead to body cavity resonance. It becomes a health hazard. How this noise component is related to the early experimental observations of Mach wave radiation from shock-tube-generated jets, first reported by Oertel, and subsequent analysis based on the Euler equation by Tam and Hu are examined. The existence of the new noise component, which is the dominant component at an inlet angle larger th...",
+      "authors": [
+        "Christopher K. W. Tam"
+      ]
+    },
+    {
+      "title": "Source function from two-particle correlation function through entropy-regularized Richardson-Lucy deblurring",
+      "publication_year": 2025,
+      "publication_date": "2025-02-13",
+      "doi": "https://doi.org/10.48550/arxiv.2502.09478",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2502.09478",
+      "concepts": [
+        "Deblurring",
+        "Mathematics",
+        "Correlation",
+        "Entropy (arrow of time)",
+        "Statistical physics",
+        "Physics",
+        "Statistics",
+        "Applied mathematics"
+      ],
+      "abstract": "Source functions are obtained from $p$-$p$ and $d$--$α$ correlation functions by applying the Richardson-Lucy (RL) deblurring to the Koonin-Pratt (KP) equation. To prevent fitting of noise in the correlation function, total-variation (TV) regularization is employed that has been effective in ordinary image restoration. TV alone cannot ensure normalization of the source functions. To ensure the latter, we propose a maximum-entropy regularized RL algorithm (MEM-RL). We outline the MEM-RL formalism and optimization strategy for the KP equation, demonstrating its effectiveness on both simulated and experimental data, including the $p$-$p$ and $d$-$α$ correlation functions.",
+      "authors": [
+        "Christopher K. W. Tam",
+        "Z. Chajęcki",
+        "Paweł Danielewicz",
+        "Pierre Nzabahimana"
+      ]
+    },
+    {
+      "title": "On a New Jet Noise Component From High-Performance Aircraft at Afterburner",
+      "publication_year": 2024,
+      "publication_date": "2024-05-30",
+      "doi": "https://doi.org/10.2514/6.2024-3256",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Jet noise",
+        "Component (thermodynamics)",
+        "Jet (fluid)",
+        "Noise (video)",
+        "Jet engine",
+        "Aircraft noise",
+        "Aerospace engineering",
+        "Environmental science"
+      ],
+      "abstract": "High performance aircraft operate at high jet speed and high temperature when the afterburner is on. The jet speed and temperature ratio are significantly higher than those attainable in most laboratory facilities. At these high speed and high temperature conditions, compressibility effects become highly important. It is, therefore, possible that high performance aircraft could emit a new noise component that has not been observed before. In the case of laboratory jets, turbulent mixing noise, the dominant noise component of these jets, is generated by the shearing motion of the jet flow. The objective of this paper is to report the identification of a new noise component from high performance aircraft. Furthermore, this new noise component contains a significant fraction of infrasound. Infrasound at high intensity could lead to body cavity resonance. It becomes a health hazard. How this noise component is related to the early high-speed, high-temperature experimental observations of Mach wave radiation from shock tube generated jets by Oertel, Ref. [1], and the analysis based on the Euler equation by Tam and Hu, Ref. [2], is discussed. The existence of the new noise component, ...",
+      "authors": [
+        "Christopher K. W. Tam"
+      ]
+    }
+  ]
+}

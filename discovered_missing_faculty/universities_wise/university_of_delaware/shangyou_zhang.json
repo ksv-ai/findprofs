@@ -1,0 +1,245 @@
+{
+  "faculty_name": "Shangyou Zhang",
+  "full_name": "Shangyou Zhang",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Delaware",
+  "author_id": "A5040152867",
+  "works_count": 300,
+  "cited_by_count": 5416,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 266
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 149
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 100
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 76
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 41
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Finite element interpolation of nonsmooth functions satisfying boundary conditions",
+      "publication_year": 1990,
+      "publication_date": "1990-01-01",
+      "doi": "https://doi.org/10.1090/s0025-5718-1990-1011446-7",
+      "venue": "Mathematics of Computation",
+      "type": "article",
+      "cited_by_count": 1611,
+      "is_oa": true,
+      "oa_url": "https://www.ams.org/mcom/1990-54-190/S0025-5718-1990-1011446-7/S0025-5718-1990-1011446-7.pdf",
+      "concepts": [
+        "Mathematics",
+        "Interpolation (computer graphics)",
+        "Piecewise",
+        "Projection (relational algebra)",
+        "Lagrange polynomial",
+        "Boundary (topology)",
+        "Sobolev space",
+        "Algorithm"
+      ],
+      "abstract": "In this paper, we propose a modified Lagrange type interpolation operator to approximate functions in Sobolev spaces by continuous piecewise polynomials. In order to define interpolators for \"rough\" functions and to preserve piecewise polynomial boundary conditions, the approximated functions are averaged appropriately either on d - or ( d − 1 ) (d - 1) -simplices to generate nodal values for the interpolation operator. This combination of averaging and interpolation is shown to be a projection, and optimal error estimates are proved for the projection error.",
+      "authors": [
+        "L. Ridgway Scott",
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "A new family of stable mixed finite elements for the 3D Stokes equations",
+      "publication_year": 2004,
+      "publication_date": "2004-08-31",
+      "doi": "https://doi.org/10.1090/s0025-5718-04-01711-9",
+      "venue": "Mathematics of Computation",
+      "type": "article",
+      "cited_by_count": 274,
+      "is_oa": true,
+      "oa_url": "https://www.ams.org/mcom/2005-74-250/S0025-5718-04-01711-9/S0025-5718-04-01711-9.pdf",
+      "concepts": [
+        "Algorithm",
+        "Annotation",
+        "Piecewise",
+        "Type (biology)",
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "A natural mixed-element approach for the Stokes equations in the velocity-pressure formulation would approximate the velocity by continuous piecewise-polynomials and would approximate the pressure by discontinuous piecewise-polynomials of one degree lower. However, many such elements are unstable in 2D and 3D. This paper is devoted to proving that the mixed finite elements of this P k \\mathbf {P}_k - P k − 1 P_{k-1} type when k ≥ 3 k \\ge 3 satisfy the stability condition—the Babuška-Brezzi inequality on macro-tetrahedra meshes where each big tetrahedron is subdivided into four subtetrahedra. This type of mesh simplifies the implementation since it has no restrictions on the initial mesh. The new element also suits the multigrid method.",
+      "authors": [
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "A Weak Galerkin Finite Element Method for the Maxwell Equations",
+      "publication_year": 2014,
+      "publication_date": "2014-12-29",
+      "doi": "https://doi.org/10.1007/s10915-014-9964-4",
+      "venue": "Journal of Scientific Computing",
+      "type": "article",
+      "cited_by_count": 230,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Finite element method",
+        "Discontinuous Galerkin method",
+        "Mathematical analysis",
+        "Weak formulation",
+        "Maxwell's equations",
+        "Galerkin method",
+        "Curl (programming language)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lin Mu",
+        "Junping Wang",
+        "Xiu Ye",
+        "Shangyou Zhang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Order Two Superconvergence of Weak Galerkin Finite Elements for the Poisson Equation on Cuboid Meshes",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.4208/cicp.oa-2024-0190",
+      "venue": "Communications in Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Superconvergence",
+        "Cuboid",
+        "Finite element method",
+        "Polygon mesh",
+        "Discontinuous Galerkin method",
+        "Mathematics",
+        "Space (punctuation)",
+        "Poisson's equation"
+      ],
+      "abstract": "This paper presents stabilizer-free weak Galerkin (WG) methods for solving the Poisson equation on cuboid meshes, along with a local post-processing technique to achieve superconvergent solutions. When adopting $P_k$ discontinuous polynomials, there are two approaches for selecting the finite element space on each face-rectangle of the mesh that may lead to superconvergence: these are the spaces of $P_k$ or $P_{k+1}$ polynomials. Specifically, for the $P_k-P_k$ WG method, the weak gradient operator is approximated either by $[P_{k+1}]^3$ polynomials $(P_k-P_k([P_{k+1}]^3)$ or by enriching $[P_k]^3$ with the order-$(k+1)$ BDFM bubble space $(P_k-P_k([P_k]^3+{\\rm BDFM}_{k+1}))$. It is shown that both approaches achieve two-order superconvergence, and the WG finite element solution can be lifted locally on each cube to a quasi-optimal $P_{k+1}$ solution. A third method is proposed for $P_k-P_{k+1}$ WG method, where the weak gradient space incorporates order-$(k+2)$ BDM bubbles, i.e., $P_k-P_{k+1}([P_{k+1}]^3+{\\rm BDM}_{k+2}).$ While this method similarly achieves two-order superconvergence, it uniquely allows the WG solution to be locally lifted to a quasi-optimal $P_{k+2}$ solutio...",
+      "authors": [
+        "Ruishu Wang",
+        "Xiuli Wang",
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "The Nodal Basis of $C^m$-$P^{(3)}_k$ and $C^m$-$P^{(4)}_k$ Finite Elements on Tetrahedral and 4D Simplicial Grids",
+      "publication_year": 2026,
+      "publication_date": "2026-05-30",
+      "doi": "https://doi.org/10.4208/eajam.2025-110.211025",
+      "venue": "East Asian Journal on Applied Mathematics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2202.05837",
+      "concepts": [
+        "Mathematics",
+        "Tetrahedron",
+        "Combinatorics",
+        "Simplicial complex",
+        "Basis (linear algebra)",
+        "Space (punctuation)",
+        "Degree (music)",
+        "Piecewise"
+      ],
+      "abstract": "Let $C^m$-$P^{(n)}_k$ stand for the space of globally $C^m,$ $m≥1$ and locally piecewise $n$-dimensional polynomials of degree $k$ on $n$-dimensional simplicial grids. We construct bases of $C^m$-$P^{(3)}_k,$ $k≥2^3 m+1$ and $C^m$-$P^{(4)}_k,$ $k≥2^4 m+1$ finite elements on 3D tetrahedral and 4D simplicial grids, respectively, and prove the uni-solvency and the $C^m$ continuity of the finite element spaces $C^m-P^{(3)}_k$ and $C^m$-$P^{(4)}_k.$",
+      "authors": [
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "Rectangular $$C^1$$-$$Q_k$$ Bell Finite Elements in Two and Three Dimensions",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1007/s42967-026-00575-w",
+      "venue": "Communications on Applied Mathematics and Computation",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.23702",
+      "concepts": [
+        "Mathematics",
+        "Finite element method",
+        "Mathematical analysis",
+        "Polynomial",
+        "Boundary value problem",
+        "Boundary (topology)",
+        "Mixed finite element method",
+        "Polygon mesh"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hongling Hu",
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "A Least-Squares Weak Galerkin Finite Element Scheme for Cauchy Problems in Helmholtz",
+      "publication_year": 2026,
+      "publication_date": "2026-05-20",
+      "doi": "https://arxiv.org/abs/2605.21162",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.21162",
+      "concepts": [
+        "Mathematics",
+        "Finite element method",
+        "Galerkin method",
+        "Robustness (evolution)",
+        "Uniqueness",
+        "Discontinuous Galerkin method",
+        "Mathematical analysis",
+        "Laplace operator"
+      ],
+      "abstract": "This paper introduces and rigorously analyzes a least-squares weak Galerkin (LS-WG) finite element method for the severely ill-posed Cauchy problem associated with the Helmholtz equation. By utilizing a weak Laplacian operator defined on a space of discontinuous functions, the proposed framework facilitates the seamless treatment of complex boundary conditions and internal interfaces. We emphasize the geometric flexibility of the LS-WG scheme on general polygonal and polyhedral partitions. Furthermore, we prove the uniqueness of the numerical solution and derive optimal-order error estimates with respect to a specifically designed discrete energy norm. Extensive numerical experiments validate the theoretical convergence rates and demonstrate the algorithm's robustness and efficiency over traditional Galerkin approaches.",
+      "authors": [
+        "Chunmei Wang",
+        "Shangyou Zhang"
+      ]
+    },
+    {
+      "title": "A Least-Squares Weak Galerkin Finite Element Scheme for Cauchy Problems in Convection--Diffusion",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.48550/arxiv.2605.14770",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.14770",
+      "concepts": [
+        "Mathematics",
+        "Robustness (evolution)",
+        "Uniqueness",
+        "Finite element method",
+        "Galerkin method",
+        "Mathematical analysis",
+        "Applied mathematics",
+        "Operator (biology)"
+      ],
+      "abstract": "We introduce and rigorously analyze a least-squares weak Galerkin (LS-WG) finite element method for the severely ill-posed Cauchy problem of convection--diffusion equations. The proposed framework utilizes weak derivatives defined on a class of discontinuous weak functions, enabling the natural treatment of complex boundary conditions and internal interfaces. A key advantage of the least-squares formulation is that it transforms the underlying non-self-adjoint operator into a discrete linear system that is inherently symmetric and positive definite (SPD). We demonstrate the geometric flexibility of the method on arbitrary polygonal and polyhedral partitions. Furthermore, we establish the uniqueness of the numerical solution and derive optimal-order error estimates in a carefully defined discrete energy norm. Extensive numerical tests are presented to confirm the theoretical convergence rates and highlight the algorithm's robustness and efficiency compared to standard Galerkin approaches.",
+      "authors": [
+        "Chunmei Wang",
+        "Shangyou Zhang"
+      ]
+    }
+  ]
+}

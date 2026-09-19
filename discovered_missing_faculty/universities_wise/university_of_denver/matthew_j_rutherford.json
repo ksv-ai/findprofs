@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Matthew J. Rutherford",
+  "full_name": "Matthew J. Rutherford",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of Denver",
+  "author_id": "A5030563924",
+  "works_count": 126,
+  "cited_by_count": 2171,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 24
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 18
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 14
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 14
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A routing scheme for content-based networking",
+      "publication_year": 2005,
+      "publication_date": "2005-02-22",
+      "doi": "https://doi.org/10.1109/infcom.2004.1356979",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 363,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Computer network",
+        "Zone Routing Protocol",
+        "Routing protocol",
+        "Enhanced Interior Gateway Routing Protocol",
+        "Distributed computing",
+        "Dynamic Source Routing",
+        "Policy-based routing"
+      ],
+      "abstract": "This work proposes a routing scheme for content-based networking. A content-based network is a communication network that features a new advanced communication model where messages are not given explicit destination addresses, and where the destinations of a message are determined by matching the content of the message against selection predicates declared by nodes. Routing in a content-based network amounts to propagating predicates and the necessary topological information in order to maintain loop-free and possibly minimal forwarding paths for messages. The routing scheme we propose uses a combination of a traditional broadcast protocol and a content-based routing protocol. We present the combined scheme and its requirements over the broadcast protocol. We then detail the content-based routing protocol, highlighting a set of optimization heuristics. We also present the results of our evaluation, showing that this routing scheme is effective and scalable.",
+      "authors": [
+        "Antonio Carzaniga",
+        "Matthew J. Rutherford",
+        "Alexander L. Wolf"
+      ]
+    },
+    {
+      "title": "A survey of unmanned aerial vehicles (UAVs) for traffic monitoring",
+      "publication_year": 2013,
+      "publication_date": "2013-05-01",
+      "doi": "https://doi.org/10.1109/icuas.2013.6564694",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 326,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Focus (optics)",
+        "Computer science",
+        "Aerial survey",
+        "Sky",
+        "Real-time computing",
+        "Drone",
+        "Remote sensing",
+        "Aeronautics"
+      ],
+      "abstract": "The focus of this paper is on surveying UAV-based systems for traffic monitoring and management. Although there has been voluminous research on the subject, unmanned aerial vehicles (UAVs) are proven to be a viable and less time-consuming alternative to real-time traffic monitoring and management, providing the eye-in-the-sky solution to the problem.",
+      "authors": [
+        "Konstantinos Kanistras",
+        "Gonçalo Martins",
+        "Matthew J. Rutherford",
+        "Kimon P. Valavanis"
+      ]
+    },
+    {
+      "title": "Survey of Unmanned Aerial Vehicles (UAVs) for Traffic Monitoring",
+      "publication_year": 2014,
+      "publication_date": "2014-08-09",
+      "doi": "https://doi.org/10.1007/978-90-481-9707-1_122",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 120,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Focus (optics)",
+        "Aerial survey",
+        "Computer science",
+        "Drone",
+        "Aeronautics",
+        "Real-time computing",
+        "Engineering",
+        "Remote sensing"
+      ],
+      "abstract": "",
+      "authors": [
+        "Konstantinos Kanistras",
+        "Gonçalo Martins",
+        "Matthew J. Rutherford",
+        "Kimon P. Valavanis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Reinforcement Learning-Based PD Controller Gains Prediction for Quadrotor UAVs",
+      "publication_year": 2025,
+      "publication_date": "2025-08-16",
+      "doi": "https://doi.org/10.3390/drones9080581",
+      "venue": "Drones",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2504-446X/9/8/581/pdf?version=1755516176",
+      "concepts": [
+        "Reinforcement learning",
+        "Reinforcement",
+        "Computer science",
+        "Controller (irrigation)",
+        "Artificial intelligence",
+        "Control engineering",
+        "Control theory (sociology)",
+        "Engineering"
+      ],
+      "abstract": "This paper presents a reinforcement learning (RL)-based methodology for the online fine-tuning of PD controller gains, with the goal of bridging the gap between simulation-trained controllers and real-world quadrotor applications. As a first step toward real-world implementation, the proposed approach applies a Deep Deterministic Policy Gradient (DDPG) algorithm—an off-policy actor–critic method—to adjust the gains of a quadrotor attitude PD controller during flight. The RL agent was initially trained offline in a simulated environment, using MATLAB/Simulink 2024a and the UAV Toolbox Support Package for PX4 Autopilots v1.14.0. The trained controller was then validated through both simulation and experimental flight tests. Comparative performance analyses were conducted between the hand-tuned and RL-tuned controllers. Our results demonstrate that the RL-based tuning method successfully adapts the controller gains in real time, leading to improved attitude tracking and reduced steady-state error. This study constitutes the first stage of a broader research effort investigating RL-based PID, LQR, MRAC, and Koopman-integrated RL-based PID controllers for real-time quadrotor control.",
+      "authors": [
+        "Serhat Sönmez",
+        "Luca Montecchio",
+        "Simone Martini",
+        "Matthew J. Rutherford",
+        "Alessandro Rizzo",
+        "Margareta Stefanovic",
+        "Kimon P. Valavanis"
+      ]
+    },
+    {
+      "title": "Koopman-Based Reinforcement Learning for LQ Control Gains Estimation of Quadrotors",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007845",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Control theory (sociology)",
+        "Estimation",
+        "Control (management)",
+        "Computer science",
+        "Reinforcement",
+        "Control engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "In this research, Koopman operator theory is employed to achieve faster training time and improved performance of a reinforcement learning (RL) based linear quadratic controller (LQ). The proposed methodology, called K-RLLQ, is implemented for the trajectory tracking problem of a quadrotor UAV. Using the evolution of analytically derived Koopman generalized eigenfunctions allows for the embedding of quadrotor nonlinear dynamics into a quasi-linear model. Specifically, the resulting Koopman based quadrotor dynamics has linear state matrix and state dependent control matrix. Additionally, the obtained formulation is fully actuated, hence, compared to traditional model based hierarchical control the advantages are twofold: i) the controller can be formulated using linear control strategies in Koopman formulation which will result in a nonlinear control law in the original state space; ii) the trajectory tracking task can be achieved through a single control loop. Using this formulation, an RL agent is trained to estimate the controller parameters of a linear quadratic control law. Notably, it is shown that, using a reward function and observation space based on Koopman generalized ...",
+      "authors": [
+        "Simone Martini",
+        "Serhat Sünmez",
+        "Margareta Stefanovic",
+        "Matthew J. Rutherford",
+        "Kimon P. Valavanis"
+      ]
+    },
+    {
+      "title": "Transformer-Based Physics Informed Proximal Policy Optimization for UAV Autonomous Navigation",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007786",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transformer",
+        "Computer science",
+        "Electrical engineering",
+        "Engineering",
+        "Voltage"
+      ],
+      "abstract": "During the last two decades, Unmanned Aerial Vehicles (UAVs) have been employed for a wide range of civil and public domain applications, as well as in missions to Mars. In complex autonomous exploration scenarios, particularly in GPS-denied environments, the software integrated into the Guidance, Navigation, and Control (GNC) system plays a critical role in ensuring UAV stability and autonomy. To meet these requirements and address the limitations of traditional navigation techniques, the development of Deep Reinforcement Learning (DRL) approaches to support decision-making tasks has gained significant traction in recent years. The goal of the paper is twofold: i) to present a comparison between the traditional Proximal Policy Optimization (PPO) and the augmented PPO with a transformer architecture, ii) to achieve smooth and efficient trajectories by designing a continuous physics informed reward function accounting for the Least Action Principle (LAP). The results demonstrate that PPO achieves significantly improved performance when integrated with the transformer, as well as high efficiency of the trained agent when simulating a specific flight path. This enhancement highligh...",
+      "authors": [
+        "Laura Sopegno",
+        "Giansalvo Cirrincione",
+        "Simone Martini",
+        "Matthew J. Rutherford",
+        "Patrizia Livreri",
+        "Kimon P. Valavanis"
+      ]
+    },
+    {
+      "title": "Koopman-Based Model Predictive Control of Quadrotors",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007936",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Model predictive control",
+        "Computer science",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Control engineering",
+        "Artificial intelligence",
+        "Engineering"
+      ],
+      "abstract": "A novel formulation of model predictive control (MPC) coupled with Koopman operator theory is presented and tested for the trajectory tracking problem of a quadrotor UAV. The analytical derivation of Koopman observables allows for the quadrotor model to be written as a fully-actuated quasi-linear system which enables the control problem to be posed as a linear control problem. In fact, the adopted approach embeds the quadrotor nonlinear dynamics into a quasi-linear form through the evolution of the Koopman op-erator generalized eigenfunctions, a special kind of Koopman observables. Hence, the linear MPC formulation in Koopman coordinates is equivalent to a nonlinear implementation in the original state space. Moreover, in an enhancement from the standard feedback linearization, the Koopman based quadro-tor model does not present underactuation, which drastically simplifies the computational requirement for the solution of the MPC optimization problem. The presented methodology is tested through detailed numerical simulations and results are compared to single-loop nonlinear MPC (NMPC). The satisfactory tracking performance are additionally enhanced by the obtained computational ...",
+      "authors": [
+        "Simone Martini",
+        "Edoardo Todde",
+        "Margareta Stefanovic",
+        "Matthew J. Rutherford",
+        "Alessandro Rizzo",
+        "Kimon P. Valavanis"
+      ]
+    },
+    {
+      "title": "Understanding the Physical Design of Multi-Domain UAV Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007805",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Domain (mathematical analysis)",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "Unmanned multi-domain robotic systems are rapidly advancing, with many innovative platforms designed to operate across multiple environmental domains, typically involving the combination of air and either land, watersurface, or underwater capabilities. These systems are designed to seamlessly transition between and operate effectively in these diverse environments, opening up new possibilities for numerous fields - including military, research, search and rescue, and commercial applications. Categorization of the various forms of technology utilized in each innovative design is challenging due to the varying descriptions and definitions within each source publication. This paper is written to describe the current state of physical design for unmanned multidomain robotic platforms, as well as standardize the definitions and comparatively categorize the design features, propulsion methods, and domain-transition capabilities of many hybrid systems. Descriptions of the terminology used are provided throughout this article as each bi-domain system category is introduced. A complete comparative table of all findings is provided near the end of this manuscript, complete with respective...",
+      "authors": [
+        "Christian Ramos",
+        "Matthew J. Rutherford",
+        "Kimon P. Valavanis"
+      ]
+    }
+  ]
+}

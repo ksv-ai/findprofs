@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Jonathan D. Blotter",
+  "full_name": "Jonathan D. Blotter",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Brigham Young University",
+  "author_id": "A5038508797",
+  "works_count": 172,
+  "cited_by_count": 915,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 94
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 38
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 34
+    },
+    {
+      "topic": "Vehicle Noise and Vibration Control",
+      "count": 34
+    },
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Flow Rate Measurements Using Flow-Induced Pipe Vibration",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.1115/1.1667882",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 137,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Noise (video)",
+        "SIGNAL (programming language)",
+        "Acoustics",
+        "Volumetric flow rate",
+        "Flow (mathematics)",
+        "Flow measurement",
+        "Vibration",
+        "Pipe flow"
+      ],
+      "abstract": "This paper investigates the possibility of developing a nonintrusive, low-cost, flow-rate measurement technique. The technique is based on signal noise from an accelerometer attached to the surface of the pipe. The signal noise is defined as the standard deviation of the frequency-averaged time-series signal. Experimental results are presented that indicate a nearly quadratic relationship over the test region between the signal noise and flow rate in the pipe. It is also shown that the signal noise–flow rate relationship is dependent on the pipe material and diameter.",
+      "authors": [
+        "Robert Evans",
+        "Jonathan D. Blotter",
+        "A.G. Stephens"
+      ]
+    },
+    {
+      "title": "Experimental and numerical investigation of turbulent flow induced pipe vibration in fully developed flow",
+      "publication_year": 2004,
+      "publication_date": "2004-06-23",
+      "doi": "https://doi.org/10.1063/1.1763256",
+      "venue": "Review of Scientific Instruments",
+      "type": "article",
+      "cited_by_count": 76,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Pipe flow",
+        "Mechanics",
+        "Vibration",
+        "Flow (mathematics)",
+        "Reynolds number",
+        "Physics",
+        "Open-channel flow"
+      ],
+      "abstract": "Flow-induced pipe vibration caused by fully developed pipe flow has been observed but not fully investigated when turbulent flow prevails. This article presents experimental results that indicate a strong correlation between the volume flow rate and a measure of the pipe vibration. In this work, the standard deviation of the frequency-averaged time-series signal, measured using an accelerometer attached to the pipe, is used as the measure of pipe vibration. A numerical, fluid-structure interaction (FSI) model used to investigate the relationship between pipe wall vibration and the physical characteristics of turbulent flow is also presented. This numerical FSI approach, unlike commercial FSI software packages, which are based on Reynolds averaged Navier-Stokes flow models, is based on large eddy simulation (LES) flow models that compute the instantaneous pressure fluctuations in turbulent flow. The results from the numerical LES models also indicate a strong correlation between pipe vibration and flow rate. In general, the numerical simulations show that the standard deviation of the pipe wall vibration is proportional to the pressure fluctuations at the wall induced by the flow...",
+      "authors": [
+        "Matthew T. Pittard",
+        "Robert Evans",
+        "R. Daniel Maynes",
+        "Jonathan D. Blotter"
+      ]
+    },
+    {
+      "title": "Cavitation Inception and Head Loss Due to Liquid Flow Through Perforated Plates of Varying Thickness",
+      "publication_year": 2013,
+      "publication_date": "2013-02-22",
+      "doi": "https://doi.org/10.1115/1.4023407",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Materials science",
+        "Perforation",
+        "Diameter ratio",
+        "Supercavitation",
+        "Aspect ratio (aeronautics)",
+        "Flow (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "This paper reports results of an experimental investigation of the loss coefficient and onset of cavitation caused by water flow through perforated plates of varying thickness and flow area to pipe area ratio at high speeds. The overall plate loss coefficient, point of cavitation inception, and point where critical cavitation occurs are functions of perforation hole size, number of holes, and plate thickness. Sixteen total plates were considered in the study with the total perforation hole area to pipe area ratio ranging from 0.11 and 0.6, the plate thickness to perforation hole diameter ranging from 0.25 to 3.3, and the number of perforation holes ranging from 4 to 1800. The plates were mounted in the test section of a closed water flow loop. The results reveal a complex dependency between the plate loss coefficient with total free-area ratio and the plate thickness to perforation hole diameter ratio. In general, the loss coefficient decreases with increasing free-area ratio and increasing thickness-to-hole diameter ratio. A model based on the data is presented that predicts the loss coefficient for multiholed perforated plates with nonrounded holes. Furthermore, the data show ...",
+      "authors": [
+        "Daniel Maynes",
+        "G. J. Holt",
+        "Jonathan D. Blotter"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Comparison of Surface Fitting Basis Functions for Calculating Spatially Continuous Power Flow on Curved Shells",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1155/vib/4169389",
+      "venue": "Shock and Vibration",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1155/vib/4169389",
+      "concepts": [
+        "Basis function",
+        "Morlet wavelet",
+        "Basis (linear algebra)",
+        "Wavelet",
+        "Mathematical analysis",
+        "Fourier series",
+        "Displacement (psychology)",
+        "Wavenumber"
+      ],
+      "abstract": "Power flow is a well‐known quantity used for identifying energy sources and sinks and the paths of energy transmission in vibrating structures. Many experimental methods based on spatially dense measurements of the vibration field have been presented. The main challenge with these methods is computing the shell resultants which requires spatial derivatives of the measured displacement field. Most experimental methods use either wavenumber domain data with two‐dimensional discrete Fourier transforms, finite difference, Gaussian expansion, or surface fits using various basis functions to compute these derivatives. For the surface fit approach, analytical derivatives of the basis functions are used to compute the resultants. Many different basis functions with varying degrees of success have been used. However, a comparison of the various bases, indicating the most accurate and the strengths and weaknesses of each, has not been presented. In this work, we use a finite element (FE) model of a thin curved shell as a reference. We add simulated scanning laser Doppler vibrometer measurement noise to the FE reference model displacement field, compute the power flow using the common base...",
+      "authors": [
+        "Tysum Ruchti",
+        "Jonathan D. Blotter"
+      ]
+    },
+    {
+      "title": "Radiation resistance models for estimating the sound power of thin unbaffled flat plates using the vibration-based sound power method",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.1121/10.0037436",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sound power",
+        "Sound (geography)",
+        "Acoustics",
+        "Vibration",
+        "Power (physics)",
+        "Engineering",
+        "Physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "The Vibration-Based Sound Power (VBSP) measurement method offers distinct advantages over traditional sound-pressure and sound-intensity techniques, particularly in environments with low signal-to-noise ratios or uncontrolled acoustic conditions. This method, based on the elementary radiator model, uses the acoustic radiation resistance matrix along with measured surface velocities to estimate sound power. Previous studies have validated the VBSP approach for various structures, including flat plates, cylindrical and spherical shells, and both simply and arbitrarily curved plates. This work extends the VBSP method to thin unbaffled flat plates by incorporating monopole, dipole, and multipole representations of the radiation resistance. Experimental VBSP measurements on aluminum and steel plates are presented, comparing sound power estimates from each representation and evaluating their agreement with the established ISO 3741 standard. The results demonstrate the high accuracy of the VBSP method in estimating sound power. Key findings show that the sound power of unbaffled plates can be modeled effectively using the equation for two out-of-phase point sources, capturing both mono...",
+      "authors": [
+        "Ian C. Bacon",
+        "Micah R. Shepherd",
+        "Scott D. Sommerfeldt",
+        "Jonathan D. Blotter"
+      ]
+    },
+    {
+      "title": "Power Flow Analysis Methods for Curved Shells",
+      "publication_year": 2024,
+      "publication_date": "2024-05-13",
+      "doi": "https://doi.org/10.1109/ietc61393.2024.10564297",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Power flow",
+        "Flow (mathematics)",
+        "Computer science",
+        "Power (physics)",
+        "Electrical engineering",
+        "Mechanics",
+        "Electric power system",
+        "Physics"
+      ],
+      "abstract": "Curved surfaces present unique challenges in modeling and analyzing vibrations yet are essential for optimizing product designs across various industries. This paper introduces a novel approach to power flow analysis tailored for curved panels, addressing the shortcomings of traditional modeling tools. The study encompasses analytical and numerical methods, including finite element analysis and the use of Chebyshev surfaces to smooth experimental data before computing spatial derivatives. The effectiveness of the methods is demonstrated over different curvatures, loading conditions, and boundary conditions.",
+      "authors": [
+        "Tysum Ruchti",
+        "Jonathan D. Blotter"
+      ]
+    },
+    {
+      "title": "Microphone Placement for Sparse 2D Beamforming Arrays",
+      "publication_year": 2024,
+      "publication_date": "2024-05-13",
+      "doi": "https://doi.org/10.1109/ietc61393.2024.10564435",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Beamforming",
+        "Computer science",
+        "Microphone",
+        "Microphone array",
+        "Noise-canceling microphone",
+        "Telecommunications",
+        "Sound pressure"
+      ],
+      "abstract": "Presented in this paper is a method for determining the optimal microphone positions for a two-dimensional (2D) beamforming array, which will be referred to as the average-gain microphone placement (AMP) method. The AMP method is specifically intended for applications where an undesired sound (noise) is expected to come from a single direction and desired sound is expected to come from a range of directions. The optimum placement determined by the algorithm yields the best average performance over the range of anticipated directions of arrival, rather than the best performance in any single direction. The AMP method notably includes a procedure for reducing the performance characteristics of an array to a single-valued performance metric, which allows for a definitive optimum to be located. A typical application would be for filtering speech with a large noise source in a single direction, such as machinery or HVAC equipment. Both the optimization routine and the method for predicting performance can be applied to 2D microphone arrays of any size. Results that demonstrate the validity of both the optimization and performance predictive methods are shown and discussed.",
+      "authors": [
+        "Curtis Garner",
+        "Jonathan D. Blotter",
+        "Scott D. Sommerfeldt"
+      ]
+    },
+    {
+      "title": "Antihistamine Medication Blunts Localized-Vibration-Induced Increases in Popliteal Blood Flow",
+      "publication_year": 2024,
+      "publication_date": "2024-03-29",
+      "doi": "https://doi.org/10.3390/vibration7020017",
+      "venue": "Vibration",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2571-631X/7/2/17/pdf?version=1711702288",
+      "concepts": [
+        "Antihistamine",
+        "Medicine",
+        "Blunt",
+        "Blood flow",
+        "Anesthesia",
+        "Internal medicine",
+        "Surgery"
+      ],
+      "abstract": "Localized vibration (LV) of the lower leg increases arterial blood flow (BF). However, it is unclear how LV causes this increase. Understanding the mechanisms of this response could lead to the optimized future use of LV as a therapy. One possible mechanism of LV-mediated BF is through histamine release by mechanosensitive mast cells. The purpose of this study was to measure the BF response of 21 recreationally active young adults (11 male, 10 female, mean age 22.1 years) after 47 Hz and 10 min LV to the calf, with and without antihistamine medication (180 mg Fexofenadine). Each participant received both control (no antihistamine) and antihistamine (treatment) conditions separated by at least 24 h. BF ultrasound measurements (mean and peak blood velocity, volume flow, popliteal diameter, and heart rate) were taken before LV therapy and periodically for 19 min post LV. Using a cell means mixed model, we found that LV significantly increased the control mean blood velocity immediately post LV but did not significantly increase the antihistamine mean blood velocity immediately post LV. Therefore, we hypothesize that a primary mechanism of LV increase in BF is histamine release from...",
+      "authors": [
+        "Devin Needs",
+        "Jonathan D. Blotter",
+        "Gilbert W. Fellingham",
+        "Glenn Cruse",
+        "Jayson R. Gifford",
+        "A. Wayne Johnson",
+        "J. Brent Feland"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Datta V. Gaitonde",
+  "full_name": "Datta V. Gaitonde",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "Ohio State University",
+  "author_id": "A5082589597",
+  "works_count": 550,
+  "cited_by_count": 12003,
+  "h_index": 48,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 368
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 341
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 207
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 139
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 68
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "On the Use of Higher-Order Finite-Difference Schemes on Curvilinear and Deforming Meshes",
+      "publication_year": 2002,
+      "publication_date": "2002-09-01",
+      "doi": "https://doi.org/10.1006/jcph.2002.7117",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1027,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Polygon mesh",
+        "Mathematics",
+        "Grid",
+        "Airfoil",
+        "Applied mathematics",
+        "Finite difference",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Miguel R. Visbal",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Progress in shock wave/boundary layer interactions",
+      "publication_year": 2014,
+      "publication_date": "2014-11-17",
+      "doi": "https://doi.org/10.1016/j.paerosci.2014.09.002",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 675,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Scramjet",
+        "Aerospace engineering",
+        "Hypersonic speed",
+        "Flow separation",
+        "Mechanics",
+        "Heat transfer",
+        "Laminar flow"
+      ],
+      "abstract": "",
+      "authors": [
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "High-Order-Accurate Methods for Complex Unsteady Subsonic Flows",
+      "publication_year": 1999,
+      "publication_date": "1999-10-01",
+      "doi": "https://doi.org/10.2514/2.591",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 634,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Scalar (mathematics)",
+        "Mach number",
+        "Polygon mesh",
+        "Curse of dimensionality",
+        "Applied mathematics",
+        "Mathematical optimization",
+        "Mathematics"
+      ],
+      "abstract": "Several issues related to the application of very high-order schemes for the finite difference simulation of the full Navier-Stokes equations are investigated. The schemes utilize an implicit, approximately factored time-integration method coupled with spatial fourth- and sixth-order compact-difference formulations and a filtering strategy of up to tenth order. For this last aspect a consistent optimization approach is developed to treat points near the boundary resulting in minimal degradation of accuracy. The problems investigated exhibit many of the challenging features of practical flows and include several with complications introduced by curvilinear meshes, viscous effects, unsteadiness, and three-dimensionality. The high-order method is observed to be very robust for every problem considered. The algorithm is demonstrated to be highly accurate compared to both second-order and upwind-biased methods. For several cases, particularly very-low-Mach-number flows, filtering is determined to be a superior alternative to scalar damping",
+      "authors": [
+        "Miguel R. Visbal",
+        "Datta V. Gaitonde"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Turbulent shock-wave boundary layer interactions over compliant panels: Insights from one-way analyses",
+      "publication_year": 2026,
+      "publication_date": "2026-04-04",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "concepts": [
+        "Boundary layer",
+        "Shock wave",
+        "Shock (circulatory)",
+        "Turbulence",
+        "Mechanics",
+        "Boundary (topology)",
+        "Aerospace engineering",
+        "Layer (electronics)"
+      ],
+      "abstract": "Panels encountering low-frequency loading due to proximal turbulent shock-wave boundary layer interactions (SWBLI) experience fluid structure interactions (FSI), with adverse and potentially catastrophic effects on high-speed vehicle performance. In certain parameter ranges, the feedback between fluid and structure is muted, and one-way analyses offer computational efficiency for rapid assessments of prescribed fluid load on the structural response (F→S) and vice versa, i.e., prescribed structural motion on fluid response (S→F). Both scenarios are examined here for a Mach 2 SWBLI over a 22.5o ramp, using Large-Eddy Simulations for the fluid and a finite-element model for the structure. Where possible, the literature on experimental observations and coupled simulations validate the appropriateness of the approach. In the F→S framework, the effects of precomputed turbulent surface pressures are examined on different panels; parameters varied include cavity pressure, boundary conditions (pinned/clamped), frequency alignment with structural modes, panel orientation, and location relative to the interaction. When placed near flow separation, panel responses exhibit distinct features ...",
+      "authors": [
+        "Anshul Suri",
+        "Vilas Shinde",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Analysis of an unstarting shock train with a modal method suited for non-stationary phenomena",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1063/5.0319332",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Shock (circulatory)",
+        "Hilbert–Huang transform",
+        "Dynamic mode decomposition",
+        "Turbulence",
+        "Mechanics",
+        "Harmonic",
+        "Supersonic speed"
+      ],
+      "abstract": "Modal analyses of scale-resolved simulations provide significant insights into the physics of statistically stationary turbulent flows. For non-stationary turbulent problems, however, a time-mean steady state is ambiguous, and results from traditional modal techniques obscure the underlying dynamics. This work develops a method to recast the time-resolved non-stationary data in a form that recovers the utility of such decompositions. The problem of interest is a shock train undergoing unstart in an isolator duct, where a spatially distributed sequence of shock/turbulent boundary layer interactions collectively evolves and propagates upstream. The basic procedure uses time-domain information from empirical mode decomposition (EMD) to determine a suitable moving reference frame in which key elements of statistical stationarity are retained. Recorded snapshots, recast (or preconditioned) in the new moving frame of reference, may then be subjected to traditional modal decomposition methods without modification. Since the focus is on physically relevant frequencies, here we employ dynamic mode decomposition to reveal features that are concealed when directly applied to the unconditio...",
+      "authors": [
+        "Jack Sullivan",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Effect of Fins on the Mean Wake of a Generic Supersonic Projectile",
+      "publication_year": 2026,
+      "publication_date": "2026-03-30",
+      "doi": "https://doi.org/10.2514/1.a36607",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Projectile",
+        "Supersonic speed",
+        "Mechanics",
+        "Mach number",
+        "Physics",
+        "Trailing edge",
+        "Angle of attack"
+      ],
+      "abstract": "A numerical study of a generic projectile with a solid base at Mach 2 is used to highlight the impact of fins on the wake across a range of roll and pitch angles from zero to 12 deg. To accommodate this wide range of parameters, with and without fins, the Reynolds-averaged Navier–Stokes equations are solved with a realizable [Formula: see text] turbulence model and validated against available experimental data. The effects of fins on the wake are characterized by a detailed analysis of the emergent shock and vortical structures, as well as the consequent aerodynamic loads. At a zero angle of attack, the fin trailing edge introduces new shocks/expansions that fundamentally alter the shape and strength of the recompression shock. Pitch and roll further modify the shocks and vortices, which can now be distinguished as forebody, wingtip, and trailing-edge components. At certain pitch and roll conditions, wingtip vortices bound and split the recompression shock into multiple sections, changing their inception and subsequent trajectory. Under pitch conditions, fins effectively flip the trailing-edge vortices, which now form on the lower side of the base surface rather than the upper s...",
+      "authors": [
+        "Steven A. Murawski",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Receptivity and evolution of free-stream acoustic disturbances in hypersonic flow over cone–cylinder–flare",
+      "publication_year": 2026,
+      "publication_date": "2026-02-06",
+      "doi": "https://doi.org/10.1017/jfm.2026.11156",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Instability",
+        "Adiabatic process",
+        "Bubble",
+        "Flow (mathematics)",
+        "Isothermal process",
+        "Boundary layer"
+      ],
+      "abstract": "Direct numerical simulations are performed to investigate the receptivity and subsequent evolution of free-stream acoustic disturbances, including the associated instability mechanisms in a Mach 6 flow over a cone–cylinder–flare configuration. The geometry and flow parameters replicate an experimental study at the Purdue BAMQ6T facility (Benitez et al. , AIAA Aviation 2020 Forum , 2020, p. 3072). The results are analysed to reveal new physical insights into boundary-layer separation, instability growth and nonlinear processes. The effects of changing wall thermal conditions from the experimental cold isothermal ( $T_w = 30\\,\\text{K}$ ) to adiabatic (hot) are also examined. The basic state exhibits an attached boundary layer over the cone, followed by the formation of a separation bubble over the cylinder and flare, and reattachment over the aft section of the flare. In the case of a hot wall, the separation bubble size increases significantly compared with the isothermal case, leading to altered shear-layer dynamics and delayed reattachment with steeper gradients. Stability investigation reveals first- and second-mode disturbances as distinct spectral bands. Direct numerical sim...",
+      "authors": [
+        "Chandan Kumar",
+        "S. Unnikrishnan",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Benchmarking Long Roll-outs of Auto-regressive Neural Operators for the Compressible Navier-Stokes Equations with Conserved Quantity Correction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-30",
+      "doi": "https://doi.org/10.48550/arxiv.2601.22541",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.22541",
+      "concepts": [
+        "Stability (learning theory)",
+        "Artificial neural network",
+        "Operator (biology)",
+        "Benchmarking",
+        "Applied mathematics",
+        "Computer science",
+        "Mathematical optimization",
+        "Deep learning"
+      ],
+      "abstract": "Deep learning has been proposed as an efficient alternative for the numerical approximation of PDE solutions, offering fast, iterative simulation of PDEs through the approximation of solution operators. However, deep learning solutions have struggle to perform well over long prediction durations due to the accumulation of auto-regressive error, which is compounded by the inability of models to conserve physical quantities. In this work, we present conserved quantity correction, a model-agnostic technique for incorporation physical conservation criteria within deep learning models. Our results demonstrate consistent improvement in the long-term stability of auto-regressive neural operator models, regardless of the model architecture. Furthermore, we analyze the performance of neural operators from the spectral domain, highlighting significant limitations of present architectures. These results highlight the need for future work to consider architectures that place specific emphasis on high frequency components, which are integral to the understanding and modeling of turbulent flows.",
+      "authors": [
+        "Sean Current",
+        "Chandan Kumar",
+        "Datta V. Gaitonde",
+        "Srinivasan Parthasarathy"
+      ]
+    }
+  ]
+}

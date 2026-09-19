@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Stanley Osher",
+  "full_name": "Stanley Osher",
+  "department": "Mechanical / Aerospace Engineering / Applied Math",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5002037883",
+  "works_count": 761,
+  "cited_by_count": 119148,
+  "h_index": 122,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 123
+    },
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 108
+    },
+    {
+      "topic": "Image and Signal Denoising Methods",
+      "count": 88
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 80
+    },
+    {
+      "topic": "Medical Image Segmentation Techniques",
+      "count": 73
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Nonlinear total variation based noise removal algorithms",
+      "publication_year": 1992,
+      "publication_date": "1992-11-01",
+      "doi": "https://doi.org/10.1016/0167-2789(92)90242-f",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 15915,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Algorithm",
+        "Noise (video)",
+        "Constraint (computer-aided design)",
+        "Image (mathematics)",
+        "Curvature",
+        "Projection (relational algebra)",
+        "Manifold (fluid mechanics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "L. Rudin",
+        "Stanley Osher",
+        "Emad Fatemi"
+      ]
+    },
+    {
+      "title": "Fronts propagating with curvature-dependent speed: Algorithms based on Hamilton-Jacobi formulations",
+      "publication_year": 1988,
+      "publication_date": "1988-11-01",
+      "doi": "https://doi.org/10.1016/0021-9991(88)90002-2",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 14047,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/19880001113/downloads/19880001113.pdf",
+      "concepts": [
+        "Hamilton–Jacobi equation",
+        "Algorithm",
+        "Curvature",
+        "Mathematics",
+        "Mean curvature flow",
+        "Function (biology)",
+        "Conservation law",
+        "Mean curvature"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stanley Osher",
+        "James A. Sethian"
+      ]
+    },
+    {
+      "title": "Level Set Methods and Dynamic Implicit Surfaces",
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "doi": "https://doi.org/10.1007/b98879",
+      "venue": "Applied mathematical sciences",
+      "type": "book",
+      "cited_by_count": 4961,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scope (computer science)",
+        "Set (abstract data type)",
+        "Computer science",
+        "Programming language"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stanley Osher",
+        "Ronald Fedkiw"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Recent Advances in Numerical Solutions for Hamilton-Jacobi PDEs",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.1007/s42967-026-00570-1",
+      "venue": "Communications on Applied Mathematics and Computation",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s42967-026-00570-1",
+      "concepts": [
+        "Computer science",
+        "Partial differential equation",
+        "Applied mathematics",
+        "Function (biology)",
+        "Numerical analysis",
+        "Optimal control",
+        "Mathematical optimization",
+        "Ranging"
+      ],
+      "abstract": "Hamilton-Jacobi partial differential equations (HJ PDEs) play a central role in many applications such as economics, physics, and engineering. These equations describe the evolution of a value function that encodes valuable information about the system, such as action, cost, or level sets of a dynamic process. Their importance lies in their ability to model diverse phenomena, ranging from the propagation of fronts in computational physics to optimal decision-making in control systems. This paper provides a review of some recent advances in numerical methods to address challenges such as high dimensionality, nonlinearity, and computational efficiency. By examining these developments, this paper sheds light on important techniques and emerging directions in the numerical solution of HJ PDEs.",
+      "authors": [
+        "Tingwei Meng",
+        "Siting Liu",
+        "Samy Wu Fung",
+        "Stanley Osher"
+      ]
+    },
+    {
+      "title": "Accelerated Regularized Wasserstein Proximal Sampling Algorithms",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "https://doi.org/10.48550/arxiv.2601.09848",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.09848",
+      "concepts": [
+        "Mathematics",
+        "Estimator",
+        "Gaussian",
+        "Wasserstein metric",
+        "Algorithm",
+        "Acceleration",
+        "Applied mathematics",
+        "Langevin dynamics"
+      ],
+      "abstract": "We consider sampling from a Gibbs distribution by evolving a finite number of particles using a particular score estimator rather than Brownian motion. To accelerate the particles, we consider a second-order score-based ODE, similar to Nesterov acceleration. In contrast to traditional kernel density score estimation, we use the recently proposed regularized Wasserstein proximal method, yielding the Accelerated Regularized Wasserstein Proximal method (ARWP). We provide a detailed analysis of continuous- and discrete-time non-asymptotic and asymptotic mixing rates for Gaussian initial and target distributions, using techniques from Euclidean acceleration and accelerated information gradients. Compared with the kinetic Langevin sampling algorithm, the proposed algorithm exhibits a higher contraction rate in the asymptotic time regime. Numerical experiments are conducted across various low-dimensional experiments, including multi-modal Gaussian mixtures and ill-conditioned Rosenbrock distributions. ARWP exhibits structured and convergent particles, accelerated discrete-time mixing, and faster tail exploration than the non-accelerated regularized Wasserstein proximal method and kinet...",
+      "authors": [
+        "Hong Ye Tan",
+        "Stanley Osher",
+        "Wuchen Li"
+      ]
+    },
+    {
+      "title": "Accelerated Regularized Wasserstein Proximal Sampling Algorithms",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "http://arxiv.org/abs/2601.09848",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.09848",
+      "concepts": [
+        "Mathematics",
+        "Estimator",
+        "Gaussian",
+        "Wasserstein metric",
+        "Algorithm",
+        "Acceleration",
+        "Applied mathematics",
+        "Langevin dynamics"
+      ],
+      "abstract": "We consider sampling from a Gibbs distribution by evolving a finite number of particles using a particular score estimator rather than Brownian motion. To accelerate the particles, we consider a second-order score-based ODE, similar to Nesterov acceleration. In contrast to traditional kernel density score estimation, we use the recently proposed regularized Wasserstein proximal method, yielding the Accelerated Regularized Wasserstein Proximal method (ARWP). We provide a detailed analysis of continuous- and discrete-time non-asymptotic and asymptotic mixing rates for Gaussian initial and target distributions, using techniques from Euclidean acceleration and accelerated information gradients. Compared with the kinetic Langevin sampling algorithm, the proposed algorithm exhibits a higher contraction rate in the asymptotic time regime. Numerical experiments are conducted across various low-dimensional experiments, including multi-modal Gaussian mixtures and ill-conditioned Rosenbrock distributions. ARWP exhibits structured and convergent particles, accelerated discrete-time mixing, and faster tail exploration than the non-accelerated regularized Wasserstein proximal method and kinet...",
+      "authors": [
+        "Hong Ye Tan",
+        "Stanley Osher",
+        "Wuchen Li"
+      ]
+    },
+    {
+      "title": "Neural Implicit Solution Formula for Efficiently Solving Hamilton–Jacobi Equations",
+      "publication_year": 2025,
+      "publication_date": "2025-11-17",
+      "doi": "https://doi.org/10.1137/25m1730193",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Applied mathematics",
+        "Artificial neural network",
+        "Numerical analysis",
+        "Stability (learning theory)",
+        "Algorithm",
+        "Mathematical analysis",
+        "Minification"
+      ],
+      "abstract": "Abstract. This paper presents an implicit solution formula for the Hamilton–Jacobi partial differential equation (HJ PDE). The formula is derived using the method of characteristics and is shown to coincide with the Hopf and Lax formulas in the case where either the Hamiltonian or the initial function is convex. It provides a simple and efficient numerical approach for computing the viscosity solution of HJ PDEs, bypassing the need for the Legendre transform of the Hamiltonian or the initial condition, and the explicit computation of individual characteristic trajectories. A deep learning–based methodology is proposed to learn this implicit solution formula, leveraging the mesh-free nature of deep learning to ensure scalability for high-dimensional problems. Building upon this framework, an algorithm is developed that approximates the characteristic curves piecewise linearly for state-dependent Hamiltonians. Extensive experimental results demonstrate that the proposed method delivers highly accurate solutions, even for nonconvex Hamiltonians, and exhibits remarkable scalability, achieving computational efficiency for problems up to 40 dimensions.",
+      "authors": [
+        "Yesom Park",
+        "Stanley Osher"
+      ]
+    },
+    {
+      "title": "A Multimodal PDE Foundation Model for Prediction and Scientific Text Descriptions",
+      "publication_year": 2025,
+      "publication_date": "2025-11-14",
+      "doi": "https://doi.org/10.4208/jml.250214",
+      "venue": "Journal of Machine Learning",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://global-sci.com/index.php/jml/article/download/23247/36059",
+      "concepts": [
+        "Computer science",
+        "Solver",
+        "Focus (optics)",
+        "Ode",
+        "Theoretical computer science",
+        "Variety (cybernetics)",
+        "Partial differential equation",
+        "Simple (philosophy)"
+      ],
+      "abstract": "Neural networks are one tool for approximating non-linear differential equations used in scientific computing tasks such as surrogate modeling, real-time predictions, and optimal control. PDE foundation models utilize neural networks to train approximations to multiple differential equations simultaneously and are thus a general purpose solver that can be adapted to downstream tasks. Current PDE foundation models focus on either learning general solution operators and/or the governing system of equations, and thus only handle numerical or symbolic modalities. However, real-world applications may require more flexible data modalities, e.g. text analysis or descriptive outputs. To address this gap, we propose a novel multimodal deep learning approach that leverages a transformer-based architecture to approximate solution operators for a wide variety of ODEs and PDEs. Our method integrates numerical inputs, such as equation parameters and initial conditions, with text descriptions of physical processes or system dynamics. This enables our model to handle settings where symbolic representations may be incomplete or unavailable. In addition to providing accurate numerical predictions...",
+      "authors": [
+        "Elisa Negrini",
+        "Yuxuan Liu",
+        "Liu Yang",
+        "Stanley Osher",
+        "Hayden Schaeffer"
+      ]
+    }
+  ]
+}
