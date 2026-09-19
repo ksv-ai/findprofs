@@ -87,11 +87,11 @@ Every input file harvested by the discovery pipeline (e.g. `marcus_herrmann.json
 
 ---
 
-## 3. Streamlined 22-Column Schema Specification (100% JSON-Derived)
+## 3. Streamlined 23-Column Schema Specification (100% JSON-Derived)
 
-Because our dataset is synthesized entirely from offline, rich OpenAlex JSON profiles (eliminating the need to scrape university staff directories for empty office room numbers, fax lines, or broken links), we employ a **streamlined 22-column schema** where **every single cell is 100% populated with authentic research intelligence**.
+Because our dataset is synthesized entirely from offline, rich OpenAlex JSON profiles (eliminating the need to scrape university staff directories for empty office room numbers, fax lines, or broken links), we employ a **streamlined 23-column schema** where **every single cell is 100% populated with authentic research intelligence**, including the complete, unabridged scientific abstracts for **both Flagship Papers**.
 
-### 3.1 The 22-Column Layout
+### 3.1 The 23-Column Layout
 
 | Col # | Column Header | Data Type | Field Role & Description | Source in JSON |
 | :---: | :--- | :---: | :--- | :--- |
@@ -112,18 +112,20 @@ Because our dataset is synthesized entirely from offline, rich OpenAlex JSON pro
 | **15** | `Flagship 1 Title` | String | **Pillar 2A**: Title of recent landmark paper 1 | Post-2020 high-impact paper |
 | **16** | `Flagship 1 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
 | **17** | `Flagship 1 Tripartite Finding` | Text | **Pillar 4A**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 1 abstract |
-| **18** | `Flagship 2 Title` | String | **Pillar 2B**: Title of recent cutting-edge paper 2 | Post-2020 method/application paper |
-| **19** | `Flagship 2 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
-| **20** | `Flagship 2 Tripartite Finding` | Text | **Pillar 4B**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 2 abstract |
-| **21** | `Recent Active Velocity (2024–2026)` | String | Most recent paper title + active recent works count | First item in `recent_works` + 2024-2026 count |
-| **22** | `Flagship 1 Abstract` | Long Text | Complete unabridged scientific abstract | Reconstructed from `abstract_inverted_index` |
+| **18** | `Flagship 1 Abstract` | Long Text | Complete unabridged abstract for Flagship Paper 1 | Reconstructed from `abstract_inverted_index` |
+| **19** | `Flagship 2 Title` | String | **Pillar 2B**: Title of recent cutting-edge paper 2 | Post-2020 method/application paper |
+| **20** | `Flagship 2 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
+| **21** | `Flagship 2 Tripartite Finding` | Text | **Pillar 4B**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 2 abstract |
+| **22** | `Flagship 2 Abstract` | Long Text | Complete unabridged abstract for Flagship Paper 2 | Reconstructed from `abstract_inverted_index` |
+| **23** | `Recent Active Velocity (2024–2026)` | String | Most recent paper title + active recent works count | First item in `recent_works` + 2024-2026 count |
 
-### 3.2 Operational Advantages of the 22-Column Design
+### 3.2 Operational Advantages of the 23-Column Design
 1. **Zero Empty Cells**: Every single cell maps directly to structured fields already preserved in the local JSON cache.
-2. **Contiguous Cold Outreach Action Zone**: Columns 12 through 20 contain all the copy-paste components required to formulate an email: Dual Hooks, Tech Stack, and Dual Flagships with Tripartite Findings.
-3. **Graduate / Co-Author Intelligence (Col 11)**: Mentioning the senior PhD graduate or lead postdoc who authored their latest 2025/2026 study demonstrates active engagement with the lab's personnel.
-4. **Target Venue Alignment (Col 10)**: Framing research ambitions around their preferred journal (*JFM*, *JCP*, *Combustion and Flame*) signals that you understand their publication standards.
-5. **Universal Spreadsheet & Markdown Compatibility**: Uses `=HYPERLINK(...)` formulas and cell styling with frozen headers for Microsoft Excel, Google Sheets, and LibreOffice.
+2. **Dual Unabridged Abstracts (Cols 18 & 22)**: Both Flagship 1 and Flagship 2 have their complete scientific abstracts embedded directly in Excel, allowing you to read the full context, governing equations, and methodology of both papers without opening an external browser.
+3. **Contiguous Cold Outreach Action Zone**: Columns 12 through 22 contain all the copy-paste components required to formulate an email: Dual Hooks, Tech Stack, and Dual Flagships with Tripartite Findings and Full Abstracts.
+4. **Graduate / Co-Author Intelligence (Col 11)**: Mentioning the senior PhD graduate or lead postdoc who authored their latest 2025/2026 study demonstrates active engagement with the lab's personnel.
+5. **Target Venue Alignment (Col 10)**: Framing research ambitions around their preferred journal (*JFM*, *JCP*, *Combustion and Flame*) signals that you understand their publication standards.
+6. **Universal Spreadsheet & Markdown Compatibility**: Uses `=HYPERLINK(...)` formulas and cell styling with frozen headers for Microsoft Excel, Google Sheets, and LibreOffice.
 
 ---
 
