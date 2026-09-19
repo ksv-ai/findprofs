@@ -40,6 +40,13 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
    - Never fabricate data. If a faculty member does not have a lab website or office number, leave the cell empty.
 10. **Automatic GitHub Synchronization**:
    - After code or dataset modifications, commit and push to GitHub repository under user `ksv-ai`.
+11. **Zero Browser Dependency for Paper Abstracts & Publication Intelligence**:
+   - Do **NOT** use headless web browsers, Playwright, or external web browsing to search publisher sites (ScienceDirect, Springer, AIAA, arXiv, etc.) for paper abstracts or bibliographic details.
+   - All article metadata, publication venues, DOIs, and full scientific abstracts MUST be extracted programmatically via the **OpenAlex REST API** using inverted index reconstruction (`abstract_inverted_index`).
+   - All extracted intelligence is preserved offline in local authoritative cache files (`openalex_cache/<slug>.json`) containing `top_cited_works` and `recent_works` with full reconstructed abstracts, eliminating web browser latency, CAPTCHAs, and paywalls.
+12. **Dedicated Dossier Reporting in Separate Markdown Files**:
+   - Every scraped university pipeline must generate a dedicated standalone interactive dossier Markdown document (`<university_slug>_aerospace_mechanical_faculty.md`) alongside the Excel spreadsheet.
+   - This dossier serves as an exhaustive, clickable reference reporting quick-jump ranked indices, visual status badges (🔥 Hiring, 📩 Cold Email, 📄 Paper, 🔬 Lab), exact email application guidelines, and dedicated flagship paper cards with direct publisher DOIs, tripartite physical findings, and full unabridged abstracts.
 
 ---
 
