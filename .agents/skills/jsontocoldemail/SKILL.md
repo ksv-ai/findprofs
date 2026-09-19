@@ -26,14 +26,16 @@ These generic emails are deleted within 3 seconds because they:
 2. Lack technical precision (saying "CFD" instead of specifying their exact numerical scheme, e.g., *Nek5000 spectral-element DNS* or *VF-IBM*).
 3. Do not demonstrate that the applicant read their recent papers.
 
-### 1.3 The Cold Outreach Intelligence Engine
-When an email opens with:
-1. **A tailored Research Hook (Concise or In-Depth)** addressing their active 2023–2026 investigations.
-2. **Their exact modern Tech Stack** (solvers, formulations, and diagnostics).
-3. **Two Recent Flagship Papers (2020–2026)** with direct clickable DOIs.
-4. **Dedicated Tripartite Physical Findings** that cite exact causal flow mechanics and hard quantitative benchmarks (%, dB, St, kHz, $Re_\tau$).
+### 1.4 Strict Materials, Composites, and Non-Aero Exclusion Protocol
+To maintain pure alignment with Aerospace, Fluid Dynamics, CFD, Turbulence, and Propulsion, the pipeline enforces strict exclusion filters:
+- **Eligible Domains**: Direct Numerical Simulation (DNS), Large Eddy Simulation (LES), RANS, turbulence modeling, hypersonics, compressible flows, shock–boundary-layer interaction (SBLI), scramjets, propulsion, combustion, reactive flows, primary atomization, multi-phase flow dynamics, aeroacoustics, vortex dynamics, and computational mathematics for flow PDEs.
+- **Strictly Excluded Domains**:
+  1. **Pure Materials Science & Metallurgy**: Intermetallics, alloy properties, solution combustion synthesis, metallurgy, steel/iron, corrosion science, crystal growth, phase transformation.
+  2. **Composites & Nanomaterials**: Structural polymer nanocomposites, polymer crystallization, block copolymer self-assembly, textiles, carbon fiber manufacturing without fluid/aerodynamic coupling.
+  3. **Chemical & Energy Storage**: Battery electrodes, electrochemical cells, catalysts in material synthesis, drug solubility/delivery.
+  4. **Biomedical & Clinical**: Clinical diagnostics, tissue engineering, in-vivo bone mechanics, cardiovascular stents.
 
-The professor immediately recognizes that the applicant has read and understood their recent work.
+Any faculty profile whose dominant research topics or recent publications belong to these excluded domains is purged immediately from the dataset.
 
 ---
 
