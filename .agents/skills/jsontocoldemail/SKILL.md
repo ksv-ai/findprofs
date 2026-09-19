@@ -85,11 +85,11 @@ Every input file harvested by the discovery pipeline (e.g. `marcus_herrmann.json
 
 ---
 
-## 3. Streamlined 20-Column Schema Specification (100% JSON-Derived)
+## 3. Streamlined 22-Column Schema Specification (100% JSON-Derived)
 
-Because our dataset is synthesized entirely from offline, rich OpenAlex JSON profiles (eliminating the need to scrape university staff directories for empty office room numbers or phone lines), we employ a **streamlined 20-column schema** where **every single cell is 100% populated with authentic research intelligence**.
+Because our dataset is synthesized entirely from offline, rich OpenAlex JSON profiles (eliminating the need to scrape university staff directories for empty office room numbers, fax lines, or broken links), we employ a **streamlined 22-column schema** where **every single cell is 100% populated with authentic research intelligence**.
 
-### 3.1 The 20-Column Layout
+### 3.1 The 22-Column Layout
 
 | Col # | Column Header | Data Type | Field Role & Description | Source in JSON |
 | :---: | :--- | :---: | :--- | :--- |
@@ -98,27 +98,30 @@ Because our dataset is synthesized entirely from offline, rich OpenAlex JSON pro
 | **3** | `Faculty Name` | String | Author full display name | `data["full_name"]` / `data["faculty_name"]` |
 | **4** | `OpenAlex ID` | String | Direct OpenAlex author identifier (e.g. `A5009928604`) | `data["author_id"]` |
 | **5** | `Works Count` | Integer | Total lifetime publications count | `data["works_count"]` |
-| **6** | `Citations` | Integer | Total lifetime citation count | `data["cited_by_count"]` |
+| **6** | `Citations` | Integer | Total lifetime citation count (Primary sorting key) | `data["cited_by_count"]` |
 | **7** | `h-index` | Integer | Author $h$-index | `data["h_index"]` |
 | **8** | `Primary Research Focus` | String | Dominant specialized domain | Highest count topic in `top_topics` |
 | **9** | `Top Research Topics` | String | Top 3 sub-disciplines with paper counts | Pipe-separated `top_topics` |
-| **10** | `Research Hook (Concise / 1-Sentence)` | Text | **Pillar 1A**: 1-sentence punchy mobile hook | Synthesized across 4–5 `recent_works` |
-| **11** | `Research Hook (In-Depth / 2-3 Sent.)` | Text | **Pillar 1B**: 2–3 sentence technical narrative | Synthesized across 4–5 `recent_works` |
-| **12** | `Tech Stack` | String | **Pillar 3**: Exact computational solvers & rigs | Regex matched across recent works |
-| **13** | `Flagship 1 Title` | String | **Pillar 2A**: Title of recent landmark paper 1 | Post-2020 high-impact paper |
-| **14** | `Flagship 1 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
-| **15** | `Flagship 1 Tripartite Finding` | Text | **Pillar 4A**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 1 abstract |
-| **16** | `Flagship 2 Title` | String | **Pillar 2B**: Title of recent cutting-edge paper 2 | Post-2020 method/application paper |
-| **17** | `Flagship 2 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
-| **18** | `Flagship 2 Tripartite Finding` | Text | **Pillar 4B**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 2 abstract |
-| **19** | `Latest Active Paper (2025/2026)` | String | Title & Year of most recent publication | First item in `recent_works` |
-| **20** | `Flagship 1 Abstract` | Long Text | Complete unabridged scientific abstract | Reconstructed from `abstract_inverted_index` |
+| **10** | `Primary Publishing Venue` | String | Top journal preference (e.g. JFM, JCP, AIAA Journal) | Most frequent venue in `recent_works` |
+| **11** | `Lead Recent Co-Author / Grad` | String | First author of latest paper (Lead PhD/postdoc) | First author of `recent_works[0]` |
+| **12** | `Research Hook (Concise / 1-Sentence)` | Text | **Pillar 1A**: 1-sentence punchy mobile hook (~25–30 words) | Synthesized across 4–5 `recent_works` |
+| **13** | `Research Hook (In-Depth / 2-3 Sent.)` | Text | **Pillar 1B**: 2–3 sentence technical narrative (~60–80 words) | Synthesized across 4–5 `recent_works` |
+| **14** | `Tech Stack` | String | **Pillar 3**: Exact computational solvers & diagnostic rigs | Regex matched across recent works |
+| **15** | `Flagship 1 Title` | String | **Pillar 2A**: Title of recent landmark paper 1 | Post-2020 high-impact paper |
+| **16** | `Flagship 1 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
+| **17** | `Flagship 1 Tripartite Finding` | Text | **Pillar 4A**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 1 abstract |
+| **18** | `Flagship 2 Title` | String | **Pillar 2B**: Title of recent cutting-edge paper 2 | Post-2020 method/application paper |
+| **19** | `Flagship 2 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
+| **20** | `Flagship 2 Tripartite Finding` | Text | **Pillar 4B**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 2 abstract |
+| **21** | `Recent Active Velocity (2024–2026)` | String | Most recent paper title + active recent works count | First item in `recent_works` + 2024-2026 count |
+| **22** | `Flagship 1 Abstract` | Long Text | Complete unabridged scientific abstract | Reconstructed from `abstract_inverted_index` |
 
-### 3.2 Operational Advantages of the 20-Column Design
-1. **Zero Empty Cells**: Every column maps directly to existing JSON fields.
-2. **Side-by-Side Hook Selection**: Compare the **Concise Hook** (Col 10) against the **In-Depth Hook** (Col 11) to match your email strategy.
-3. **Instant Copy-Paste**: Everything needed to assemble a cold email (Hook, Flagships, Tech Stack, and Physical Findings) is positioned contiguously across Columns 10 through 18.
-4. **Universal Excel & Google Sheets Compatibility**: Column widths are automatically capped and padded, with frozen top header rows and active clickable hyperlinks.
+### 3.2 Operational Advantages of the 22-Column Design
+1. **Zero Empty Cells**: Every single cell maps directly to structured fields already preserved in the local JSON cache.
+2. **Contiguous Cold Outreach Action Zone**: Columns 12 through 20 contain all the copy-paste components required to formulate an email: Dual Hooks, Tech Stack, and Dual Flagships with Tripartite Findings.
+3. **Graduate / Co-Author Intelligence (Col 11)**: Mentioning the senior PhD graduate or lead postdoc who authored their latest 2025/2026 study demonstrates active engagement with the lab's personnel.
+4. **Target Venue Alignment (Col 10)**: Framing research ambitions around their preferred journal (*JFM*, *JCP*, *Combustion and Flame*) signals that you understand their publication standards.
+5. **Universal Spreadsheet & Markdown Compatibility**: Uses `=HYPERLINK(...)` formulas and cell styling with frozen headers for Microsoft Excel, Google Sheets, and LibreOffice.
 
 ---
 
