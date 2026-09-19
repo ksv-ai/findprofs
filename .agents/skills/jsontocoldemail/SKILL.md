@@ -39,6 +39,24 @@ To maintain pure alignment with Aerospace, Fluid Dynamics, CFD, Turbulence, Prop
 
 Any faculty profile whose dominant research topics or recent publications belong to these excluded domains is purged immediately from the dataset.
 
+### 1.5 Active Distinguished vs. Emeritus / Retired Classification & Isolation Protocol
+
+To ensure cold outreach emails are never mistakenly addressed to retired, inactive, or deceased professors while **preserving active endowed chairs and distinguished luminaries who are actively funding research**, the pipeline employs a multi-signal verification gate:
+
+#### A. Active Distinguished & Endowed Chaired Professors (RETAIN IN MAIN OUTREACH COHORT)
+- **Profile**: Chaired, named, or distinguished university professors (e.g. *Vance D. Coffman Mile High Chair*, *Clark B. Millikan Professor*).
+- **Inclusion Criterion**: Must possess $\ge 1$ authentic peer-reviewed journal article published in **2024–2026** as an active collaborator/advisor with a primary institutional affiliation.
+- **Action**: Included in the primary active outreach database with their latest flagship papers, full abstracts, and active 2024–2026 velocity metrics.
+
+#### B. Emeritus, Emerita, & Retired Faculty (ISOLATE INTO DEDICATED `retired_faculty/` DIRECTORY)
+- **Identification Signals**:
+  1. Profile/title contains explicit designation: `emeritus`, `emerita`, `retired`, `retiree`, `former faculty`.
+  2. Zero original journal articles published between 2024 and 2026 (or only posthumous editorial reprints, forewords, or textbook chapters).
+  3. Deceased luminaries (e.g., Ted Belytschko, Ali Nayfeh) who are cited historically but no longer running active labs.
+- **Action**: Automatically moved out of the active outreach directory into the dedicated folder:
+  `d:\Others\findprofs\jsontocoldemail\retired_faculty\universities_wise\<university_slug>\<professor_slug>.json`
+- **Result**: The main cold outreach cohorts (`original_mechaero_cohort` and `discovered_missing_cohort`) contain **100% active, grant-holding, lab-operating faculty**.
+
 ---
 
 ## 2. Source JSON Schema Input Specification
@@ -335,7 +353,16 @@ d:\Others\findprofs\
 │   │       ├── massachusetts_institute_of_technology/
 │   │       └── ...
 │   │
-│   └── consolidated_nationwide/                     <- Complete merged cohort (3,500+ PIs)
+│   ├── retired_faculty/                             <- Retired, Emeritus, Deceased isolated folder
+│   │   ├── RETIRED_EMERITUS_FACULTY_CATALOG.xlsx
+│   │   └── universities_wise/
+│   │       ├── northwestern_university/
+│   │       │   └── ted_belytschko.json              <- Deceased / Inactive isolated archive
+│   │       ├── virginia_polytechnic_institute/
+│   │       │   └── ali_h_nayfeh.json
+│   │       └── ...
+│   │
+│   └── consolidated_nationwide/                     <- Complete merged active cohort (3,500+ active PIs)
 │       ├── ALL_USA_R1_AERO_FLUIDS_FACULTY_23COL.xlsx
 │       └── ALL_USA_R1_AERO_FLUIDS_FACULTY_DOSSIER.md
 │
@@ -347,5 +374,6 @@ d:\Others\findprofs\
 ### 7.1 Operational Principles of this Workspace Layout
 1. **Raw Cache Preservation**: The raw scraped files in `openalex_mechaero_faculty_json/` and `discovered_missing_faculty/` remain untouched as the raw data cache.
 2. **Enriched Outreach Segregation**: All fully enriched profiles—containing Dual Hooks, Tech Stacks, Dual Flagship Papers with DOIs, Tripartite Physical Findings, and Dual Full Abstracts—are stored exclusively in `jsontocoldemail/`.
-3. **Structured University Hierarchy**: Every faculty member is archived within their specific university folder (`universities_wise/<university_slug>/<professor_slug>.json`), allowing researchers to review or target a single university's lab ecosystem with zero friction.
+3. **Dedicated Retired Faculty Quarantine (`retired_faculty/`)**: Any professor flagged as emeritus, retired, or inactive (0 journal articles in 2024–2026) is routed into `jsontocoldemail/retired_faculty/universities_wise/` rather than active outreach cohorts.
+4. **Structured University Hierarchy**: Every faculty member is archived within their specific university folder (`universities_wise/<university_slug>/<professor_slug>.json`), allowing researchers to review or target a single university's lab ecosystem with zero friction.
 
