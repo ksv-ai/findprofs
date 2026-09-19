@@ -199,6 +199,59 @@
         "Ziyang Huang",
         "Sadegh Dabiri"
       ]
+    },
+    {
+      "title": "An arbitrary Lagrangian discrete least squares meshfree method for discontinuity capturing with application in the Saint–Venant equations",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://dspace.library.uu.nl/handle/1874/476503",
+      "venue": "Utrecht University Repository (Utrecht University)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://dspace.library.uu.nl/handle/1874/476503",
+      "concepts": [
+        "Classification of discontinuities",
+        "Eulerian path",
+        "Spurious relationship",
+        "Mathematics",
+        "Euler–Lagrange equation",
+        "Inverse problem for Lagrangian mechanics",
+        "Lagrangian",
+        "Meshfree methods"
+      ],
+      "abstract": "A discrete least squares meshfree (DLSM) method has been developed to solve the partial differential equations (PDEs) governing physical phenomena, particularly in the field of fluid mechanics. Existing DLSM methods are restricted to the solution of either the fully Eulerian or Lagrangian form of the governing PDEs. Despite its successful implementation for various PDEs, Eulerian DLSM has limitations due to problems with moving boundaries. Considering the mesh-independent flexibility of DLSM, this issue can be addressed with a Lagrangian DLSM. However, fully Lagrangian DLSM may suffer from numerical issues due to extreme nodal clustering or dispersion. Additionally, both existing fully Eulerian and Lagrangian DLSM methods are prone to the spurious oscillations around discontinuities and steep gradients. In this paper, an arbitrary Lagrangian DLSM (AL-DLSM) method is proposed to improve the accuracy of the method by addressing this issue. The Lagrangian governing PDEs are solved followed by a Lagrangian approach for rearranging nodal positions in a deforming domain. In the present approach, an entropy-based arbitrary nodal reconfiguration is proposed to refine nodal distributions...",
+      "authors": [
+        "Saeb Faraji Gargari",
+        "Zehai Huang",
+        "Sadegh Dabiri",
+        "Physical Geography Support"
+      ]
+    },
+    {
+      "title": "Autoinjector optimization through cavitation response and severity minimization",
+      "publication_year": 2024,
+      "publication_date": "2024-10-30",
+      "doi": "https://doi.org/10.1016/j.ijpharm.2024.124888",
+      "venue": "International Journal of Pharmaceutics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Minification",
+        "Medicine",
+        "Computer science",
+        "Mechanics",
+        "Physics",
+        "Programming language"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tyler Kennelly",
+        "Sadegh Dabiri"
+      ]
     }
   ]
 }

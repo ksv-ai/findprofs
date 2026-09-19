@@ -1,0 +1,315 @@
+{
+  "name": "James L. Garrison",
+  "uni": "Purdue University",
+  "author_id": "A5044659164",
+  "author_display_name": "James L. Garrison",
+  "works_count": 245,
+  "cited_by_count": 3521,
+  "2yr_mean_citedness": 2.5,
+  "h_index": 30,
+  "i10_index": 66,
+  "affiliations": [
+    "Portland State University",
+    "Goddard Space Flight Center",
+    "Langley Research Center",
+    "Jet Propulsion Laboratory",
+    "National Sun Yat-sen University"
+  ],
+  "top_topics": [
+    {
+      "topic": "Soil Moisture and Remote Sensing",
+      "count": 107
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 59
+    },
+    {
+      "topic": "GNSS positioning and interference",
+      "count": 58
+    },
+    {
+      "topic": "Precipitation Measurement and Analysis",
+      "count": 34
+    },
+    {
+      "topic": "Geophysics and Gravity Measurements",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "New Ocean Winds Satellite Mission to Probe Hurricanes and Tropical Convection",
+      "publication_year": 2015,
+      "publication_date": "2015-06-26",
+      "doi": "https://doi.org/10.1175/bams-d-14-00218.1",
+      "venue": "Bulletin of the American Meteorological Society",
+      "type": "article",
+      "cited_by_count": 408,
+      "is_oa": true,
+      "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/bams/97/3/bams-d-14-00218.1.pdf",
+      "concepts": [
+        "Tropical cyclone",
+        "Rainband",
+        "Environmental science",
+        "Meteorology",
+        "Satellite",
+        "Storm",
+        "Remote sensing",
+        "Geology"
+      ],
+      "abstract": "Abstract The Cyclone Global Navigation Satellite System (CYGNSS) is a new NASA earth science mission scheduled to be launched in 2016 that focuses on tropical cyclones (TCs) and tropical convection. The mission’s two primary objectives are the measurement of ocean surface wind speed with sufficient temporal resolution to resolve short-time-scale processes such as the rapid intensification phase of TC development and the ability of the surface measurements to penetrate through the extremely high precipitation rates typically encountered in the TC inner core. The mission’s goal is to support significant improvements in our ability to forecast TC track, intensity, and storm surge through better observations and, ultimately, better understanding of inner-core processes. CYGNSS meets its temporal sampling objective by deploying a constellation of eight satellites. Its ability to see through heavy precipitation is enabled by its operation as a bistatic radar using low-frequency GPS signals. The mission will deploy an eight-spacecraft constellation in a low-inclination (35°) circular orbit to maximize coverage and sampling in the tropics. Each CYGNSS spacecraft carries a four-channel r...",
+      "authors": [
+        "Christopher S. Ruf",
+        "Robert Atlas",
+        "Paul Chang",
+        "Maria Paola Clarizia",
+        "James L. Garrison",
+        "Scott Gleason",
+        "Stephen J. Katzberg",
+        "Zorana Jelenak",
+        "Joel T. Johnson",
+        "Sharanya J. Majumdar",
+        "Andrew O’Brien",
+        "Derek J. Posselt",
+        "A. J. Ridley",
+        "Randall Rose",
+        "Valery U. Zavorotny"
+      ]
+    },
+    {
+      "title": "Wind speed measurement using forward scattered GPS signals",
+      "publication_year": 2002,
+      "publication_date": "2002-01-01",
+      "doi": "https://doi.org/10.1109/36.981349",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "type": "article",
+      "cited_by_count": 349,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Waveform",
+        "Global Positioning System",
+        "Remote sensing",
+        "GPS signals",
+        "Altimeter",
+        "Computer science",
+        "SIGNAL (programming language)",
+        "Surface roughness"
+      ],
+      "abstract": "Instrumentation and retrieval algorithms are described which use the forward scattered range-coded signals from the global positioning system (GPS) radio navigation system for the measurement of sea surface roughness. This roughness has long been known to be dependent upon the surface wind speed. Experiments were conducted from aircraft along the TOPEX ground track and over experimental surface truth buoys. These flights used a receiver capable of recording the cross-correlation power in the reflected signal. The shape of this power distribution was then compared against analytical models, which employ a geometric optics approach. Two techniques for matching these functions were studied. The first recognized the most significant information content in the reflected signal is contained in the trailing edge slope of the waveform. The second attempted to match the complete shape of the waveform by approximating it as a series expansion and obtaining the nonlinear least squares estimate. Discussion is also presented on anomalies in the receiver operation and their identification and correction.",
+      "authors": [
+        "James L. Garrison",
+        "A. Komjáthy",
+        "Valery U. Zavorotny",
+        "Stephen J. Katzberg"
+      ]
+    },
+    {
+      "title": "Effect of sea roughness on bistatically scattered range coded signals from the Global Positioning System",
+      "publication_year": 1998,
+      "publication_date": "1998-07-01",
+      "doi": "https://doi.org/10.1029/98gl51615",
+      "venue": "Geophysical Research Letters",
+      "type": "article",
+      "cited_by_count": 237,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Global Positioning System",
+        "GPS signals",
+        "Remote sensing",
+        "Range (aeronautics)",
+        "SIGNAL (programming language)",
+        "Sea state",
+        "Scattering",
+        "Geology"
+      ],
+      "abstract": "A series of aircraft experiments was performed using a specialized GPS receiver and a nadir‐oriented left hand circularly polarized antenna. This apparatus received reflections of the GPS signals from water surfaces under a variety of sea states. The cross‐correlation between the reflected signal and a reference pseudo‐random noise code was recorded as a function of the relative time delay. The shape of this function showed a dependence on the roughness of the reflecting surface. This dependence generally followed that predicted by theory for bistatic scattering of range‐coded signals. Use of this information as a remote sensing technique for the determination of sea state is discussed.",
+      "authors": [
+        "James L. Garrison",
+        "Stephen J. Katzberg",
+        "Michael I. Hill"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Factor Graph Optimization Approach for Orbit Determination",
+      "publication_year": 2024,
+      "publication_date": "2024-05-08",
+      "doi": "https://doi.org/10.33012/2024.19667",
+      "venue": "Proceedings of the ION ... Pacific PNT Meeting/Proceedings of the Institute of Navigation Pacific PNT",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Extended Kalman filter",
+        "Spacecraft",
+        "Factor graph",
+        "Pseudorange",
+        "Kalman filter",
+        "Computer science",
+        "Orbit determination",
+        "Graph"
+      ],
+      "abstract": "This paper examines the application of Factor Graph Optimization (FGO) to the problem of orbit determination (OD) in spacecraft navigation systems, areas traditionally addressed by methods such as the Extended Kalman Filter (EKF) and Nonlinear Least Squares (NLS). We present a factor graph formulation for OD based on GNSS pseudorange measurements, in cohort with the orbit dynamics model that would define a spacecrafts motion. Through simulations and real-world data from the GRACE-FO mission, the capabilities of FGO are assessed and compared with the EKF. The results indicate marginally improved orbital tracking and estimation accuracy over the EKF, and support the potential of FGO as a viable alternative for the problem of spacecraft OD. The presented factor graph formulation demonstrates its flexibility for OD, and its ability to easily incorporate diverse measurement sources for future work in this domain.",
+      "authors": [
+        "Siddharth S. Subramanyam",
+        "James L. Garrison"
+      ]
+    },
+    {
+      "title": "Empirical Covariance Models for Sequential Processing of GNSS-R Delay Doppler Maps",
+      "publication_year": 2024,
+      "publication_date": "2024-05-08",
+      "doi": "https://doi.org/10.33012/2024.19666",
+      "venue": "Proceedings of the ION ... Pacific PNT Meeting/Proceedings of the Institute of Navigation Pacific PNT",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "GNSS applications",
+        "Covariance matrix",
+        "Wind speed",
+        "Remote sensing",
+        "Doppler effect",
+        "Environmental science",
+        "Satellite",
+        "Covariance"
+      ],
+      "abstract": "Delay Doppler Maps (DDMs) generated from spaceborne Global Navigation Satellite System Reflectometry (GNSS-R) contain valuable information on surface characteristics of the Earth that can be exploited for various applications in remote sensing, one of which is the estimation of ocean surface winds. DDMs generated by the Cyclone Global Navigation Satellite System (CYGNSS) contain information on regions of the ocean surface spanning an area over 90 km by 90 km. Techniques developed for processing a time series of DDMs, either through model assimilation or sequential estimation, can take advantage of the information shared between multiple DDMs corresponding to overlapping areas on the ocean surface. Optimal processing of each DDM requires a model for the covariance matrix. We present an empirical covariance model for the DDM incorporating both thermal and speckle noise effects and representing correlation between observations at different Doppler and delay bins (i.e. fast time) and the correlation between sequential DDMs in time (e.g. slow time). The empirical model in fast time is found to depend only on the ocean surface wind speed and the power in each DDM bin. We show that the...",
+      "authors": [
+        "Kevin Shi",
+        "James L. Garrison"
+      ]
+    },
+    {
+      "title": "Atrial fibrillation symptom reduction and improved quality of life following the hybrid convergent procedure: a CONVERGE trial subanalysis",
+      "publication_year": 2024,
+      "publication_date": "2024-03-01",
+      "doi": "https://doi.org/10.21037/acs-2023-afm-15",
+      "venue": "Annals of Cardiothoracic Surgery",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.annalscts.com/article/view/17057/pdf",
+      "concepts": [
+        "Medicine",
+        "Atrial fibrillation",
+        "Internal medicine",
+        "Randomized controlled trial",
+        "Quality of life (healthcare)",
+        "McNemar's test",
+        "Cardiology",
+        "Ablation"
+      ],
+      "abstract": "Background: CONVERGE was a prospective, multicenter, randomized controlled trial that evaluated the safety of Hybrid Atrial Fibrillation Convergent (HC) and compared its effectiveness to endocardial catheter ablation (CA) for the treatment of persistent atrial fibrillation (PersAF) and longstanding PersAF (LSPAF). In 2020, we reported that CONVERGE met its primary safety and effectiveness endpoints. The primary objective of the present study is to report CONVERGE trial results for quality of life (QOL) and Class I/III anti-arrhythmic drug (AAD) utilization following HC. Methods: Eligible patients had drug-refractory symptomatic PersAF or LSPAF and a left atrium diameter ≤6.0 cm. Enrolled patients were randomized 2:1 to receive HC or CA. Atrial Fibrillation Severity Scale (AFSS) and the 36-Item Short Form Health Survey (SF-36) were assessed at baseline and 12 months; statistical comparison was performed using paired t-tests. AAD utilization at baseline through 12 and 18 months post-procedure was evaluated; statistical comparison was performed using McNemar’s tests. Results: A total of 153 patients were treated with either HC (n=102) or CA (n=51). Of the 102 HC patients, 38 had LS...",
+      "authors": [
+        "Jaswinder Gill",
+        "Karl J. Crossen",
+        "Christopher Blauth",
+        "Faraz Kerendi",
+        "Saumil R. Oza",
+        "Anthony R. Magnano",
+        "Mark A. Mostovych",
+        "Michael E. Halkos",
+        "David Tschopp",
+        "José Osorio",
+        "Paul B. Tabereaux",
+        "William M. Boedefeld",
+        "Kenneth C. Civello",
+        "Syed Ahsan",
+        "John Yap",
+        "Sreedhar R. Billakanty",
+        "Steve Duff",
+        "Otto Costantini",
+        "Eric Espinal",
+        "Andy C. Kiser",
+        "Christian Shults",
+        "David R. Pederson",
+        "James L. Garrison",
+        "David Gilligan",
+        "Michael G. Link",
+        "Marcin Kowalski",
+        "Christopher Stees",
+        "Jason S. Sperling",
+        "Israel J. Jacobowitz",
+        "Felix Yang",
+        "Yisachar Greenberg",
+        "David B. De Lurgio"
+      ]
+    },
+    {
+      "title": "Ocean Wave Period Measurements Using S-Band Signals of Opportunity Reflections",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1109/jstars.2024.3383842",
+      "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://ieeexplore.ieee.org/ielx7/4609443/4609444/10487891.pdf",
+      "concepts": [
+        "Period (music)",
+        "Remote sensing",
+        "Geology",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "Ocean wave periods are estimated using measurements of S-band signals-of-opportunity reflections from the sea surface. The measurements were collected on an oil platform and show a time evolving Doppler centroid frequency and spectral width due to the vertical motion of ocean waves within the glistening zone observed. Previous results for estimating the significant wave height are also re-examined using the Doppler spectral width. For the one month dataset considered, the period of oscillations in the Doppler centroid frequency are found highly correlated ($\\mathbf {R \\approx 0.78}$and$\\mathbf {Bias \\approx 1.02 (s)}$) to ocean wave period information from a nearby buoy.",
+      "authors": [
+        "James Gaudreau",
+        "Ethan Raines",
+        "Joel T. Johnson",
+        "James L. Garrison",
+        "Jeffrey D. Ouellette",
+        "Rashmi Shah"
+      ]
+    },
+    {
+      "title": "SNOOPI: Demonstrating Earth remote sensing using P-band signals of opportunity (SoOp) on a CubeSat",
+      "publication_year": 2023,
+      "publication_date": "2023-11-02",
+      "doi": "https://doi.org/10.1016/j.asr.2023.10.050",
+      "venue": "Advances in Space Research",
+      "type": "article",
+      "cited_by_count": 16,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.asr.2023.10.050",
+      "concepts": [
+        "CubeSat",
+        "Remote sensing",
+        "Snow",
+        "Computer science",
+        "Calibration",
+        "Environmental science",
+        "Orbit (dynamics)",
+        "Phase (matter)"
+      ],
+      "abstract": "SigNals Of Opportunity: P-band Investigation (SNOOPI) will be the first in-space demonstration of P-band (240-380 MHz) signals of opportunity (SoOp) remote sensing and validation of a prototype P-band SoOp instrument. This technique has the potential to enable remote sensing of root-zone soil moisture (RZSM) and snow water equivalent (SWE). SNOOPI technology validation goals will be met by targeting observations within 9 km of SMAP calibration/validation sites in the continental United States. A second priority is collection of continuous phase data over snow-covered regions. These goals are evaluated under constraints of a limited data budget and mission lifetime, with a launch expected in early 2024. SNOOPI will capture the autocorrelation of a signal formed by the interference between the direct and reflected signals. The complex surface reflection coefficient (phase and magnitude) can be extracted from this observation. Definition of critical instrument and mission requirements for SNOOPI are described. Analyses and simulations used to justify these requirements are presented, including orbit coverage, uncertainty in the open-loop delay-Doppler prediction, observations error...",
+      "authors": [
+        "James L. Garrison",
+        "Manuel A. Vega",
+        "Rashmi Shah",
+        "Justin R. Mansell",
+        "B. Nold",
+        "Juan C. Raymond",
+        "Roger Banting",
+        "Rajat Bindlish",
+        "Kameron Larsen",
+        "Seho Kim",
+        "Weihang Li",
+        "Mehmet Kurum",
+        "Jeffrey R. Piepmeier",
+        "Hasnaa Khalifi",
+        "Forrest A. Tanner",
+        "Kevin Horgan",
+        "Chase Kielbasa",
+        "Sachidananda Babu"
+      ]
+    }
+  ]
+}

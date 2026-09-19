@@ -1,220 +1,249 @@
 {
   "name": "Jun Chen",
   "uni": "Purdue University",
-  "author_id": "A5100450146",
+  "author_id": "A5101545223",
   "author_display_name": "Jun Chen",
-  "works_count": 1183,
-  "cited_by_count": 120753,
+  "works_count": 65,
+  "cited_by_count": 296,
+  "2yr_mean_citedness": 0.0,
+  "h_index": 0,
+  "i10_index": 0,
+  "affiliations": [
+    "Purdue University"
+  ],
   "top_topics": [
     {
-      "topic": "Advancements in Battery Materials",
-      "count": 575
-    },
-    {
-      "topic": "Advanced Battery Materials and Technologies",
-      "count": 515
-    },
-    {
-      "topic": "Advanced battery technologies research",
-      "count": 249
-    },
-    {
-      "topic": "Supercapacitor Materials and Fabrication",
-      "count": 226
-    },
-    {
-      "topic": "Advanced Battery Technologies Research",
-      "count": 131
+      "topic": "Experimental Fluid Dynamics and PIV",
+      "count": 65
     }
   ],
   "top_cited_works": [
     {
-      "title": "Metal–air batteries: from oxygen reduction electrochemistry to cathode catalysts",
-      "publication_year": 2012,
-      "publication_date": "2012-01-01",
-      "doi": "https://doi.org/10.1039/c1cs15228a",
-      "venue": "Chemical Society Reviews",
-      "type": "review",
-      "cited_by_count": 2678,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Battery (electricity)",
-        "Electrochemistry",
-        "Cathode",
-        "Anode",
-        "Catalysis",
-        "Materials science",
-        "Electrode",
-        "Electrolyte"
-      ],
-      "abstract": "Because of the remarkably high theoretical energy output, metal-air batteries represent one class of promising power sources for applications in next-generation electronics, electrified transportation and energy storage of smart grids. The most prominent feature of a metal-air battery is the combination of a metal anode with high energy density and an air electrode with open structure to draw cathode active materials (i.e., oxygen) from air. In this critical review, we present the fundamentals and recent advances related to the fields of metal-air batteries, with a focus on the electrochemistry and materials chemistry of air electrodes. The battery electrochemistry and catalytic mechanism of oxygen reduction reactions are discussed on the basis of aqueous and organic electrolytes. Four groups of extensively studied catalysts for the cathode oxygen reduction/evolution are selectively surveyed from materials chemistry to electrode properties and battery application: Pt and Pt-based alloys (e.g., PtAu nanoparticles), carbonaceous materials (e.g., graphene nanosheets), transition-metal oxides (e.g., Mn-based spinels and perovskites), and inorganic-organic composites (e.g., metal mac...",
-      "authors": [
-        "Fangyi Cheng",
-        "Jun Chen"
-      ]
-    },
-    {
-      "title": "Cation-Deficient Spinel ZnMn 2 O 4 Cathode in Zn(CF 3 SO 3 ) 2 Electrolyte for Rechargeable Aqueous Zn-Ion Battery",
+      "title": "Experimental and numerical study of airflow distribution in an aircraft cabin mock-up with a gasper on",
       "publication_year": 2016,
-      "publication_date": "2016-09-14",
-      "doi": "https://doi.org/10.1021/jacs.6b05958",
-      "venue": "Journal of the American Chemical Society",
+      "publication_date": "2016-01-13",
+      "doi": "https://doi.org/10.1080/19401493.2015.1126762",
+      "venue": "Journal of Building Performance Simulation",
       "type": "article",
-      "cited_by_count": 1886,
+      "cited_by_count": 62,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Chemistry",
-        "Spinel",
-        "Aqueous solution",
-        "Electrolyte",
-        "Cathode",
-        "Inorganic chemistry",
-        "Ion",
-        "Battery (electricity)"
+        "Airflow",
+        "Particle image velocimetry",
+        "Computational fluid dynamics",
+        "Turbulence",
+        "Simulation",
+        "Engineering",
+        "Mechanics",
+        "Aerospace engineering"
       ],
-      "abstract": "Rechargeable aqueous Zn-ion batteries are attractive cheap, safe and green energy storage technologies but are bottlenecked by limitation in high-capacity cathode and compatible electrolyte to achieve satisfactory cyclability. Here we report the application of nonstoichiometric ZnMn 2 O 4 /carbon composite as a new Zn-insertion cathode material in aqueous Zn(CF 3 SO 3 ) 2 electrolyte. In 3 M Zn(CF 3 SO 3 ) 2 solution that enables ∼100% Zn plating/stripping efficiency with long-term stability and suppresses Mn dissolution, the spinel/carbon hybrid exhibits a reversible capacity of 150 mAh g –1 and a capacity retention of 94% over 500 cycles at a high rate of 500 mA g –1 . The remarkable electrode performance results from the facile charge transfer and Zn insertion in the structurally robust spinel featuring small particle size and abundant cation vacancies, as evidenced by combined electrochemical measurements, XRD, Raman, synchrotron X-ray absorption spectroscopy, FTIR, and NMR analysis. The results would enlighten and promote the use of cation-defective spinel compounds and trifluoromethanesulfonic electrolyte to develop high-performance rechargeable zinc batteries.",
+      "abstract": "Overhead gaspers are prevalently installed in aircraft cabins as a personalized ventilation system. The air distribution in cabins with gaspers on is crucial for creating a thermally comfortable and healthy cabin environment. However, very few studies have investigated the suitable turbulence model to simulation air distribution in cabins with gaspers turned on. This study first conducted experimental measurements of airflow distribution in a mock-up of half of a full-scale, one-row, single-aisle aircraft cabin with a gasper on. Particle image velocimetry was used to measure the complex airflow field above a human simulator. This investigation then used the measured data to evaluate the performance of computational fluid dynamics with the re-normalization group (RNG) k–ε model and the shear stress transport (SST) k–ω model. The results showed that the SST k–ω model was more accurate than the RNG k–ε model for predicting the airflow distribution in gasper-induced jet dominant region in an aircraft cabin.",
       "authors": [
-        "Ning Zhang",
-        "Fangyi Cheng",
-        "Yongchang Liu",
-        "Qing Zhao",
-        "Kaixiang Lei",
-        "Chengcheng Chen",
-        "Xiaosong Liu",
-        "Jun Chen"
+        "Ruoyu You",
+        "Jun Chen",
+        "Zhu Shi",
+        "Wei Liu",
+        "Chao‐Hsin Lin",
+        "Daniel Wei",
+        "Qingyan Chen"
       ]
     },
     {
-      "title": "Rechargeable aqueous zinc-manganese dioxide batteries with high energy and power densities",
-      "publication_year": 2017,
-      "publication_date": "2017-08-28",
-      "doi": "https://doi.org/10.1038/s41467-017-00467-x",
-      "venue": "Nature Communications",
+      "title": "Experimental characterization of granite damage using nonlinear ultrasonic techniques",
+      "publication_year": 2014,
+      "publication_date": "2014-06-26",
+      "doi": "https://doi.org/10.1016/j.ndteint.2014.06.005",
+      "venue": "NDT & E International",
       "type": "article",
-      "cited_by_count": 1795,
-      "is_oa": true,
-      "oa_url": "https://www.nature.com/articles/s41467-017-00467-x.pdf",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Manganese",
-        "Zinc",
-        "Electrolyte",
-        "Alkaline battery",
-        "Trifluoromethanesulfonate",
-        "Battery (electricity)",
-        "Inorganic chemistry",
-        "Cathode"
+        "Nonlinear system",
+        "Exponential function",
+        "Nondestructive testing",
+        "Ultrasonic sensor",
+        "Materials science",
+        "Structural engineering",
+        "Mathematics",
+        "Engineering"
       ],
-      "abstract": "Abstract Although alkaline zinc-manganese dioxide batteries have dominated the primary battery applications, it is challenging to make them rechargeable. Here we report a high-performance rechargeable zinc-manganese dioxide system with an aqueous mild-acidic zinc triflate electrolyte. We demonstrate that the tunnel structured manganese dioxide polymorphs undergo a phase transition to layered zinc-buserite on first discharging, thus allowing subsequent intercalation of zinc cations in the latter structure. Based on this electrode mechanism, we formulate an aqueous zinc/manganese triflate electrolyte that enables the formation of a protective porous manganese oxide layer. The cathode exhibits a high reversible capacity of 225 mAh g −1 and long-term cyclability with 94% capacity retention over 2000 cycles. Remarkably, the pouch zinc-manganese dioxide battery delivers a total energy density of 75.2 Wh kg −1 . As a result of the superior battery performance, the high safety of aqueous electrolyte, the facile cell assembly and the cost benefit of the source materials, this zinc-manganese dioxide system is believed to be promising for large-scale energy storage applications.",
+      "abstract": "",
       "authors": [
-        "Ning Zhang",
-        "Fangyi Cheng",
-        "Junxiang Liu",
-        "Liubin Wang",
-        "Xinghui Long",
-        "Xiaosong Liu",
-        "Fujun Li",
-        "Jun Chen"
+        "Jun Chen",
+        "Zheng Xu",
+        "Yue Yu",
+        "Yangping Yao"
+      ]
+    },
+    {
+      "title": "Permeability Loss of Open-Graded Friction Course Mixtures due to Deformation-Related and Particle-Related Clogging: Understanding from a Laboratory Investigation",
+      "publication_year": 2015,
+      "publication_date": "2015-03-09",
+      "doi": "https://doi.org/10.1061/(asce)mt.1943-5533.0001282",
+      "venue": "Journal of Materials in Civil Engineering",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Clogging",
+        "Permeameter",
+        "Materials science",
+        "Permeability (electromagnetism)",
+        "Composite material",
+        "Geotechnical engineering",
+        "Void (composites)",
+        "Void ratio"
+      ],
+      "abstract": "Open graded friction course (OGFC) is effective in improving the surface function of asphalt pavements. However, it is prone to clogging including deformation-related and particle-related clogging. The aim of the research reported in this paper is to investigate the permeability loss or reduction due to deformation-related clogging and explore the critical size of solid particles attributed to OGFC particle-related clogging. A special falling head permeameter was developed with consideration of both rainwater flowing procedure and the pavement transversal slope. Eight types of OGFC mixtures with different air void contents, gradations, and nominal maximum aggregate sizes were prepared for deformation-related clogging evaluation. Wheel rutting tests were conducted on the OGFC samples with different loading times under two load levels [(1) 700 kPa, and (2) 900 kPa] at 45 and 60°C, and next were permeability tests using the developed permeameter. Permeability loss after different wheel loading times were calculated to explore the effects of the initial air void content, nominal maximum aggregate size, temperature, and loading pressure on deformation-related clogging. Furthermore, s...",
+      "authors": [
+        "Jun Chen",
+        "Hui Li",
+        "Xiaoming Huang",
+        "Jiantao Wu"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "Skin-Like Coating Stabilizes the In Situ Forming Lithium Anode for High-Energy-Density Batteries",
+      "title": "Anisotropy development in isotropic turbulence subjected to off-axis rotation",
       "publication_year": 2026,
-      "publication_date": "2026-08-27",
-      "doi": "https://doi.org/10.1021/acsami.6c12564",
-      "venue": "ACS Applied Materials & Interfaces",
+      "publication_date": "2026-03-27",
+      "doi": "https://doi.org/10.1103/2s9k-9gr3",
+      "venue": "Physical Review Fluids",
       "type": "article",
       "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Faraday efficiency",
-        "Materials science",
-        "Nucleation",
-        "Overpotential",
-        "Anode",
-        "Electrolyte",
-        "Chemical engineering",
-        "Layer (electronics)"
+        "Rotation (mathematics)",
+        "Anisotropy",
+        "Isotropy",
+        "Physics",
+        "Turbulence",
+        "Development (topology)",
+        "Mechanics",
+        "Classical mechanics"
       ],
-      "abstract": "In situ forming lithium metal batteries (IFLMBs) offer higher energy density and improved safety. However, lithiophobic Cu current collectors trigger nonuniform Li nucleation and dendrite growth, causing rapid Li inventory depletion and poor cycling stability. Herein, inspired by the selective transport regulation and barrier protection functions of the skin, a skin-like hydrolyzed collagen (HC) layer derived from biomass is constructed on Cu to stabilize IFLMBs. The ultrathin HC layer tightly covers the Cu surface as a biomolecular \"skin\", physically isolating deposited Li from the electrolyte and suppressing parasitic corrosion. Meanwhile, HC also serves as a durable lithiophilic nucleation scaffold. The abundant amide groups can act as lithiophilic active sites, redistributing Li+ flux and guiding uniform lithium nucleation. Accordingly, HC-coated Cu (HCCu) exhibits an increased Li+ transference number (0.71) and a reduced Li nucleation overpotential (13 mV). At a deposition capacity of 3 mAh cm-2, HCCu enables compact Li deposition with a thickness of 16.2 μm, which approaches the theoretical value of 15 μm. Consequently, Li||HCCu cells deliver a high average coulombic effic...",
+      "abstract": "",
       "authors": [
-        "Chenyu Wang",
-        "Xiaomeng Tian",
-        "Yuan Feng",
-        "Xingwei Sun",
-        "Lin Zhu",
-        "Haixia Li",
-        "Kai Zhang",
+        "Yijie Wang",
         "Jun Chen",
-        "Zhenhua Yan"
+        "Leonardo P. Chamorro"
       ]
     },
     {
-      "title": "Plastic‐Deformation‐Driven Nonepitaxial Deposition of (110)‐Texture Enables Stable Lithium and Sodium Metal Anodes",
-      "publication_year": 2026,
-      "publication_date": "2026-08-26",
-      "doi": "https://doi.org/10.1002/adma.74659",
-      "venue": "Advanced Materials",
+      "title": "Optimization of Planting Concrete Thickness and Grass Species for Roadbed Side Slopes",
+      "publication_year": 2025,
+      "publication_date": "2025-10-13",
+      "doi": "https://doi.org/10.3390/ma18204694",
+      "venue": "Materials",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1996-1944/18/20/4694/pdf?version=1760409601",
+      "concepts": [
+        "Sowing",
+        "Frost (temperature)",
+        "Vegetation (pathology)",
+        "Environmental science",
+        "Compressive strength",
+        "Ultimate tensile strength",
+        "Geotechnical engineering",
+        "Stress (linguistics)"
+      ],
+      "abstract": "Planting concrete is a composite material used for erosion control on roadbed side slopes. However, excessive concrete thickness creates an unfavorable environment that prevents the survival of some grass species. This study aims to optimize the thickness and grass species of planting concrete. The stress scenarios of planting concrete, including pedestrian loads and frost heave stress, were analyzed. The maximum internal stress under pedestrian loads and the frost heave stress during freezing were determined using finite element analysis and frost heave tests, respectively. Nine groups of planting concrete specimens with different porosities and water-cement ratios were prepared and tested. The measured compressive and splitting tensile strengths were compared with the maximum stress of planting concrete to determine the optimal mix proportion. Using the optimal mix, planting concrete specimens with three thicknesses were prepared, and six common grass species were selected for planting experiments. Vegetation coverage, plant height, root length, root number, and root biomass were measured for each grass species at three thicknesses to determine the optimal thickness and grass ...",
+      "authors": [
+        "Yuancheng Zhuang",
+        "Jun Chen",
+        "W.Y. Xu"
+      ]
+    },
+    {
+      "title": "Impact of Variability in Blade Manufacturing on Transonic Compressor Rotor Performance",
+      "publication_year": 2025,
+      "publication_date": "2025-10-03",
+      "doi": "https://doi.org/10.3390/jmse13101907",
+      "venue": "Journal of Marine Science and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2077-1312/13/10/1907/pdf?version=1759500857",
+      "concepts": [
+        "Transonic",
+        "Aerodynamics",
+        "Gas compressor",
+        "Mechanics",
+        "Rotor (electric)",
+        "Airfoil",
+        "Tip clearance",
+        "Mass flow"
+      ],
+      "abstract": "As a core component of large marine engines, the compressor delivers robust and efficient power for propulsion. This study focuses on assessing and quantifying the uncertainty in the aerodynamic performance of a transonic rotor under various operating conditions, with the aim of investigating the impact of blade manufacturing variability on performance. Monte Carlo simulation (MCS) and sensitivity analysis were initially employed to identify parameters that significantly influence airfoil performance. Subsequently, a non-intrusive polynomial chaos (NIPC) uncertainty quantification model was developed to compare the effects of tip clearance deviation and surface geometry deviation on rotor performance. The study then analyzes how the geometric deviation at the different spanwise sections affects aerodynamic performance. The results reveal that geometric deviations have a more profound influence on aerodynamic performance than blade tip clearance. The impact of geometric deviations on average pressure ratio and efficiency of the transonic compressor rotor intensifies as the air mass flow rate approaches the near-stall point, while it decreases near the choking point. Interestingly...",
+      "authors": [
+        "Qing Yang",
+        "Jun Chen",
+        "Wenbo Shao",
+        "Ruijie Zhao"
+      ]
+    },
+    {
+      "title": "Electrically assisted bulging process of Ti-6Al-4V cylinder with small aspect ratio: mechanical properties and microstructure characteristics",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1007/s00170-025-16586-5",
+      "venue": "The International Journal of Advanced Manufacturing Technology",
       "type": "article",
       "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
+        "Equiaxed crystals",
         "Materials science",
-        "Electrochemistry",
-        "Anode",
-        "Metal",
-        "Limiting",
-        "Chemical engineering",
-        "Epitaxy",
-        "Deposition (geology)"
+        "Microstructure",
+        "Cylinder",
+        "Composite material",
+        "Thermal",
+        "Ultimate tensile strength",
+        "Finite element method"
       ],
-      "abstract": "Uncontrolled Li deposition and dendrite growth severely limit the cycle life of Li metal batteries. Realizing (110)-oriented Li deposition is an effective strategy for mitigating these issues. However, current regulation methods generally rely on specific substrates or constrained electrochemical conditions, limiting their universality and overlooking the intrinsic mechanical responses of Li. Here we demonstrate a stress‑driven plastic deformation mechanism that drives a nonepitaxial yet (110)‑preferred growth mode independent of external chemistry or substrate structure. The applied stress drives plastic deformation predominantly via crystallographic slip, which gradually reorients grains and strengthens the (110) texture. It markedly improves electrochemical stability, enabling Li||Li symmetric cells to cycle for over 2000 h and Li||NCM811 full cells for over 500 cycles. Importantly, this strategy relies solely on the intrinsic mechanical properties of Li, requiring neither substrate modification nor interfacial engineering, thus ensuring broad compatibility across various systems. The principle also extends to sodium metal anodes, where analogous stress-driven (110) texture f...",
+      "abstract": "",
       "authors": [
-        "Xingwei Sun",
-        "Chenjun Fu",
-        "Chenyu Wang",
-        "Jiangtao Yu",
-        "Yang Feng",
-        "Xiaomeng Tian",
-        "Kai Zhang",
-        "Zhenhua Yan",
-        "Yong Lu",
+        "Xudong Cao",
+        "Qing Liu",
+        "Yong Yang",
+        "Xifeng Li",
         "Jun Chen"
       ]
     },
     {
-      "title": "Dynamic Solvation Structure Regulation Enables Long-Life Li–Organic Batteries",
-      "publication_year": 2026,
-      "publication_date": "2026-07-13",
-      "doi": "https://doi.org/10.1021/jacs.6c01785",
-      "venue": "Journal of the American Chemical Society",
+      "title": "Individual Fish Broadband Echo Recognition Method and Performance Analysis Oriented to Aquaculture Scenarios",
+      "publication_year": 2025,
+      "publication_date": "2025-08-07",
+      "doi": "https://doi.org/10.3390/fishes10080391",
+      "venue": "Fishes",
       "type": "article",
       "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2410-3888/10/8/391/pdf?version=1754531216",
       "concepts": [
-        "Solvation",
-        "Dissolution",
-        "Chemistry",
-        "Electrolyte",
-        "Electrochemistry",
-        "Chemical physics",
-        "Implicit solvation",
-        "Battery (electricity)"
+        "Aquaculture",
+        "Echo (communications protocol)",
+        "Fish <Actinopterygii>",
+        "Broadband",
+        "Fishery",
+        "Environmental science",
+        "Computer science",
+        "Acoustics"
       ],
-      "abstract": "Li–organic batteries with organic carbonyl electrode materials (OCEMs) have been considered as a sustainable energy storage technology, while suffering from a critical challenge regarding the high dissolution of OCEMs in electrolytes. To address this problem, conventional strategies primarily focus on modulating static solvent–OCEM interactions but often overlook the role of dynamic solvation structure in governing the dissolution behavior of OCEMs. Here, we propose a dynamic solvation structure regulation strategy to address the degradation of OCEMs during dynamic electrochemical processes and thus achieve long-life Li–organic batteries. In traditional electrolytes, the OCEMs could displace anions to participate in solvation during dynamic electrochemical processes, thereby exacerbating the continuous dissolution of OCEMs. A series of solvation structure stabilizers were thus screened to address the dynamic solvation structure disruption issue. Among them, 2 H,3 H -decafluoropentane (DFP) exhibits the weakest interaction with OCEMs while maintaining moderate interactions with key electrolyte components, thereby reinforcing the stability of the solvation structure and effectivel...",
+      "abstract": "Obtaining the echo of individual fish is an important prerequisite for fisheries acoustic applications, such as in situ measurement of fish target strength and assessment of fish abundance using the counting method. It is also the foundation for evaluating the growth status of farmed fish and managing aquaculture risks. The density of farmed fish populations is typically higher, and such high-density aquaculture further increases the difficulty of obtaining individual fish echoes in practical applications. Building upon previous research and considering the behavioral characteristics of fish in aquaculture settings, this study conducted performance simulations, live fish experiments in simulated aquaculture cages, and comparative evaluations of three individual fish broadband echo detection methods based on a broadband signal system: the amplitude pulse width method (APM) based on echo envelopes, the peak detection and time delay estimation method (PDM), and the peak time delay combined with instantaneous frequency method (PDIM). This study assumed a dorsolateral fish orientation, which limits its research scope and applicability. The results showed that the PDIM achieved a dete...",
       "authors": [
-        "Zhuo Yang",
-        "Shuo Xu",
-        "Chunyan Zhu",
-        "Zhenhua Yan",
-        "Kai Zhang",
-        "Yong Lu",
+        "Hang Yang",
+        "Jing Cheng",
+        "Guodong Li",
+        "Shujie Wan",
         "Jun Chen"
       ]
     }

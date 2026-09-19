@@ -211,6 +211,61 @@
         "Maxwell Korang‐Yeboah",
         "Serguei Tchessalov"
       ]
+    },
+    {
+      "title": "Thermal Modeling of FEMTA Micropropulsion System for CubeSat Attitude Control",
+      "publication_year": 2025,
+      "publication_date": "2025-05-15",
+      "doi": "https://doi.org/10.26077/b7e2-qq36",
+      "venue": "Digital Commons - USU (Utah State University)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.26077/b7e2-qq36",
+      "concepts": [
+        "CubeSat",
+        "Propellant",
+        "Propulsion",
+        "Aerospace engineering",
+        "Thrust",
+        "Spacecraft propulsion",
+        "Electrically powered spacecraft propulsion",
+        "Microelectromechanical systems"
+      ],
+      "abstract": "Nano and pico-class satellite platforms such as 1U CubeSats, PocketQubes, and ThinSats introduce unique power and volume constraints on propulsion systems. The Film-Evaporation MEMS Tunable Array(FEMTA) microthruster is one compact, low-power technology that is well suited for these applications. FEMTA thrusters are microfabricated on 1 cm x 1 cm x 1 mm silicon and glass chips. Each chip contains an array of micrometer-scale capillaries which are electrically heated to vaporize the liquid propellant and generate controlled thrust. Sixth generation FEMTA devices have been demonstrated to produce greater than 300 microNewton of thrust per 1 Watt of electrical power at 90 seconds specific impulse. Liquid ultra-pure deionized water is used as a dense, safe, and abundantly available propellant source. A complete FEMTA six degree-of-freedom propulsion system including zero-gravity propellant management is being developed at Purdue University in preparation for a future orbital flight demonstration. It is suspected that the performance and long-term reliability of FEMTA will be sensitive to temperature fluctuations within this propulsion system while in orbit. Specifically, a reduction...",
+      "authors": [
+        "Florian Alexander Hoeft",
+        "Steven Pugia",
+        "Alina Alexeenko"
+      ]
+    },
+    {
+      "title": "Propellant Management of Water-Based Microthruster for Suborbital 0G Testing",
+      "publication_year": 2025,
+      "publication_date": "2025-05-15",
+      "doi": "https://doi.org/10.26077/fp01-0212",
+      "venue": "Digital Commons - USU (Utah State University)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.26077/fp01-0212",
+      "concepts": [
+        "Propellant",
+        "CubeSat",
+        "Cabin pressurization",
+        "Aerospace engineering",
+        "Propulsion",
+        "Volume (thermodynamics)",
+        "Monopropellant",
+        "Liquid oxygen"
+      ],
+      "abstract": "Size and power are primary limitations on nanosat missions, especially for propulsion, attitude control, or formation flight. New micropropulsion systems that are smaller, lighter, and less power expensive are required for versatile nanosats for cislunar and interplanetary missions. The Film-Evaporation MEMS Tunable Array (FEMTA) is water-based microthruster for CubeSat attitude adjustment that has been developed at Purdue University. FEMTA will provide an attitude control system for microsatellites that uses < 1 W of power in < 0.5 U of volume. The nozzles on FEMTA use heaters at the base of micro-capillary channels to induce film-evaporation, creating a highly controllable, low-power thrust. The novel capillary action thruster also requires a novel liquid 0G propellant management system. The FEMTA 0G propellant management system is a vapor pressure driven pump. It is self-regulating, does not rely on gravity, and does not require complex pressurization systems, making it suitable for microsatellite applications. The system uses a low vapor pressure fluid pressurant to apply a passive, constant deforming pressure upon a diaphragm that separates the pressurant from the propellan...",
+      "authors": [
+        "Katherine Fowee Gasaway",
+        "Steven Pugia",
+        "Alina Alexeenko",
+        "Anthony Cofer"
+      ]
     }
   ]
 }

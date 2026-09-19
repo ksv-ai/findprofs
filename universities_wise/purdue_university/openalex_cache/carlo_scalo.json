@@ -1,0 +1,265 @@
+{
+  "name": "Carlo Scalo",
+  "uni": "Purdue University",
+  "author_id": "A5085802971",
+  "author_display_name": "Carlo Scalo",
+  "works_count": 163,
+  "cited_by_count": 877,
+  "2yr_mean_citedness": 3.217391304347826,
+  "h_index": 17,
+  "i10_index": 27,
+  "affiliations": [
+    "Queen's University",
+    "Purdue University West Lafayette",
+    "American Institute of Aeronautics and Astronautics",
+    "Stanford University"
+  ],
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 82
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 41
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 29
+    },
+    {
+      "topic": "Advanced Thermodynamic Systems and Engines",
+      "count": 29
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Compressible turbulent channel flow with impedance boundary conditions",
+      "publication_year": 2015,
+      "publication_date": "2015-03-01",
+      "doi": "https://doi.org/10.1063/1.4914099",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "http://oatao.univ-toulouse.fr/13597/11/Bodart_13597.pdf",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Turbulence",
+        "Mechanics",
+        "Acoustics"
+      ],
+      "abstract": "We have performed large-eddy simulations of isothermal-wall compressible turbulent channel flow with linear acoustic impedance boundary conditions (IBCs) for the wall-normal velocity component and no-slip conditions for the tangential velocity components. Three bulk Mach numbers, Mb = 0.05, 0.2, 0.5, with a fixed bulk Reynolds number, Reb = 6900, have been investigated. For each Mb, nine different combinations of IBC settings were tested, in addition to a reference case with impermeable walls, resulting in a total of 30 simulations. The adopted numerical coupling strategy allows for a spatially and temporally consistent imposition of physically realizable IBCs in a fully explicit compressible Navier-Stokes solver. The IBCs are formulated in the time domain according to Fung and Ju [“Time-domain impedance boundary conditions for computational acoustics and aeroacoustics,” Int. J. Comput. Fluid Dyn. 18(6), 503–511 (2004)]. The impedance adopted is a three-parameter damped Helmholtz oscillator with resonant angular frequency, ωr, tuned to the characteristic time scale of the large energy-containing eddies. The tuning condition, which reads ωr = 2πMb (normalized with the speed of so...",
+      "authors": [
+        "Carlo Scalo",
+        "Julien Bodart",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Pseudophase change effects in turbulent channel flow under transcritical temperature conditions",
+      "publication_year": 2019,
+      "publication_date": "2019-05-17",
+      "doi": "https://doi.org/10.1017/jfm.2019.292",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 55,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Unicode",
+        "Turbulence",
+        "Mechanics",
+        "Open-channel flow",
+        "Physics",
+        "Reynolds number",
+        "Chézy formula",
+        "Compressibility"
+      ],
+      "abstract": "We have performed direct numerical simulations of compressible turbulent channel flow using R-134a as a working fluid in transcritical temperature ranges ( $\\unicode[STIX]{x0394}T=5$ , 10 and 20 K, where $\\unicode[STIX]{x0394}T$ is top-to-bottom temperature difference) at supercritical pressure. At these conditions, a pseudophase change occurs at various wall-normal locations within the turbulent channel from $y_{pb}/h=-0.23$ ( $\\unicode[STIX]{x0394}T=5$ K) to 0.89 ( $\\unicode[STIX]{x0394}T=20$ K), where $h$ is the channel half-height and $y=0$ the centreplane position. Increase in $\\unicode[STIX]{x0394}T$ also results in increasing wall-normal gradients in the semi-local friction Reynolds number. Classical, compressible scaling laws of the mean velocity profile are unable to fully collapse real fluid effects in this flow. The proximity to the pseudotransitioning layer inhibits turbulent velocity fluctuations, while locally enhancing the temperature and density fluctuation intensities. Probability distribution analysis reveals that the sheet of fluid undergoing pseudophase change is characterized by a dramatic reduction in the kurtosis of density fluctuations, hence becoming thi...",
+      "authors": [
+        "Kukjin Kim",
+        "Jean-Pierre Hickey",
+        "Carlo Scalo"
+      ]
+    },
+    {
+      "title": "Numerical Investigation of Second-Mode Attenuation over Carbon/Carbon Porous Surfaces",
+      "publication_year": 2018,
+      "publication_date": "2018-11-19",
+      "doi": "https://doi.org/10.2514/1.a34294",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Mechanics",
+        "Hypersonic speed",
+        "Aeroacoustics",
+        "Attenuation",
+        "Boundary layer",
+        "Acoustics",
+        "Boundary value problem"
+      ],
+      "abstract": "Axisymmetric direct numerical simulations of a spatially developing hypersonic boundary layer over a sharp 7 deg half-angle cone at at Reynolds numbers , , and have been carried out. The streamwise extent of the simulated domain is 0.9 m. The boundary layer is excited with the one-time application of a broadband pulse that is advected downstream over an impermeable wall and a complex impedance boundary condition (IBC) modeling the acoustic response of carbon/carbon (C/C) ultrasonically absorptive porous surfaces. The complex IBCs are derived as an output of a pore-scale aeroacoustic analysis: the inverse Helmholtz solver (IHS) and algebraic low-order models. The IHS estimate of the C/C impedance is compared to other methods for porous acoustic absorbers, revealing uncertainties in the applicability of analytical models for porous absorbers. The introduction of the IBCs in all cases leads to a significant attenuation of the instability waves, up to one order of magnitude reduction in pressure perturbation amplitude for the case.",
+      "authors": [
+        "Victor Sousa",
+        "Danish Patel",
+        "Jean-Baptiste Chapelier",
+        "Viola Wartemann",
+        "Alexander Wagner",
+        "Carlo Scalo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multiscale Hypersonic Boundary Layer Reconstruction via Spectral Binning and Subdomain-wise Conditional Diffusion",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://doi.org/10.48550/arxiv.2606.15023",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.15023",
+      "concepts": [
+        "Hypersonic speed",
+        "Probabilistic logic",
+        "Bounded function",
+        "Boundary (topology)",
+        "Diffusion",
+        "Boundary layer",
+        "Noise (video)",
+        "Compressibility"
+      ],
+      "abstract": "We propose a multiscale probabilistic reconstruction framework for hypersonic Couette flow, where near-wall states are inferred from limited top-wall observations using conditional diffusion model. The boundary layer is divided into overlapping wall-normal subdomains, and a single height- and Mach-conditioned Elucidating Diffusion Model (EDM) is trained jointly for M=6,7,8 to sample velocity, density, pressure, and temperature fields conditioned on a top-wall boundary slice. A soft overlap inpainting strategy assembles subdomain predictions into full-volume reconstructions while maintaining inter-subdomain continuity and small-scale variability. To improve the spectral fidelity of the generated fields, we introduce a novel bounded binned spectral power (BSP) loss that preserves high-wavenumber content while remaining numerically stable across the diffusion noise schedule. Validation against direct numerical simulation data shows that the model recovers instantaneous structures, spectra, statistical profiles, correlations, and wall quantities across all training Mach numbers, while providing spatially structured uncertainty estimates. The reconstructed Mach-conditioned profiles a...",
+      "authors": [
+        "Hojin Kim",
+        "Dibyajyoti Chakraborty",
+        "Takahiko Toki",
+        "Carlo Scalo",
+        "Romit Maulik"
+      ]
+    },
+    {
+      "title": "Multiscale Hypersonic Boundary Layer Reconstruction via Spectral Binning and Subdomain-wise Conditional Diffusion",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://arxiv.org/abs/2606.15023",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.15023",
+      "concepts": [
+        "Hypersonic speed",
+        "Probabilistic logic",
+        "Bounded function",
+        "Boundary (topology)",
+        "Diffusion",
+        "Boundary layer",
+        "Noise (video)",
+        "Compressibility"
+      ],
+      "abstract": "We propose a multiscale probabilistic reconstruction framework for hypersonic Couette flow, where near-wall states are inferred from limited top-wall observations using conditional diffusion model. The boundary layer is divided into overlapping wall-normal subdomains, and a single height- and Mach-conditioned Elucidating Diffusion Model (EDM) is trained jointly for M=6,7,8 to sample velocity, density, pressure, and temperature fields conditioned on a top-wall boundary slice. A soft overlap inpainting strategy assembles subdomain predictions into full-volume reconstructions while maintaining inter-subdomain continuity and small-scale variability. To improve the spectral fidelity of the generated fields, we introduce a novel bounded binned spectral power (BSP) loss that preserves high-wavenumber content while remaining numerically stable across the diffusion noise schedule. Validation against direct numerical simulation data shows that the model recovers instantaneous structures, spectra, statistical profiles, correlations, and wall quantities across all training Mach numbers, while providing spatially structured uncertainty estimates. The reconstructed Mach-conditioned profiles a...",
+      "authors": [
+        "Hojin Kim",
+        "Dibyajyoti Chakraborty",
+        "Takahiko Toki",
+        "Carlo Scalo",
+        "Romit Maulik"
+      ]
+    },
+    {
+      "title": "Hypersonic boundary layer transition control over a 3 $^{\\circ}$ half-angle sharp cone via distributed porosity",
+      "publication_year": 2026,
+      "publication_date": "2026-04-06",
+      "doi": "https://doi.org/10.1017/jfm.2026.11334",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/671305A28CA31975A4BA3BAF8C8F2BA6/S0022112026113342a.pdf/div-class-title-hypersonic-boundary-layer-transition-control-over-a-3-span-class-inlineformula-span-class-alternatives-img-class-inline-graphic-mathjax-alternative-mathjax-alt-graphic-mathjax-off-data-mimesubtype-png-data-type-src-staticdomain-binary-version-id-urn-cambridge-org-id-binary-20260402105045102-0545-s0022112026113342-s0022112026113342-inline1-png-span-class-mathjax-tex-wrapper-data-mathjax-type-texmath-span-class-tex-math-mathjax-tex-math-mathjax-on-circ-span-span-span-span-half-angle-sharp-cone-via-distributed-porosity-div.pdf",
+      "concepts": [
+        "Materials science",
+        "Hypersonic speed",
+        "Overshoot (microwave communication)",
+        "Boundary layer",
+        "Mechanics",
+        "Mach number",
+        "Porosity",
+        "Reynolds number"
+      ],
+      "abstract": "The effectiveness of ultrasonic absorptive coatings (UACs) in achieving delay in turbulent transition on a hypersonic boundary layer over a 3 $^\\circ$ half-angle cone was investigated under flight-like free-stream disturbance conditions. Tests were conducted at the Boeing/AFOSR Mach 6 Quiet Tunnel at Purdue University for four free-stream Reynolds numbers ranging from $9.0\\times 10^6\\,$ to $14.3 \\times 10^6\\,\\rm m^{-1}$ . Silicon-carbide-coated carbon foams with pore densities of 60, 100 and 200 pores per inch (X0.6, X1, X2) were fabricated as three frustums to vary streamwise location and porous section length. Solid–porous configurations were constructed to analyse the effect of foam length and position. Axisymmetric direct numerical simulations (DNS) and linear-stability theory (LST) analysis were performed to support the experimental findings, modelling the porous foams as time-domain impedance boundary conditions. The UACs influence boundary-layer transition primarily by modifying wall impedance and providing acoustic absorption to weaken second-mode resonance. All porous foams exhibited this behaviour, with the X1 foam achieving the most effective transition delay, strongl...",
+      "authors": [
+        "Samantha A. Miller",
+        "Indradip Roy",
+        "Joel J. Redmond",
+        "Karl Jantze",
+        "Carlo Scalo",
+        "Joseph S. Jewell"
+      ]
+    },
+    {
+      "title": "Wall-temperature effects on second-mode kinematics and mechanics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-13",
+      "doi": "https://doi.org/10.1017/jfm.2025.11044",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/98CA52320986020957FE23C48489812B/S0022112025110446a.pdf/div-class-title-wall-temperature-effects-on-second-mode-kinematics-and-mechanics-div.pdf",
+      "concepts": [
+        "Mechanics",
+        "Physics",
+        "Mach number",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Energy flux",
+        "Kinematics",
+        "Classical mechanics"
+      ],
+      "abstract": "The effects of wall temperature on hypersonic boundary layer transition are investigated by analysing the kinematics (acoustic ray trajectories) and mechanics (fluctuation energy production and transport) of second-mode instabilities. The disturbance energy formulation is taken from Roy & Scalo ( J. Fluid Mech. 2025, vol. 1007, A49). Flow conditions are taken from a Mach 6 boundary layer over a $3^\\circ$ cone, with varying degrees of wall-to-adiabatic temperature ratios, $\\varTheta =T_w/T_{\\textit{ad}}=0.25{-}1.75$ . Boundary layer-resolved axisymmetric direct numerical simulations with companion Laguerre polynomials-based linear stability theory provide the supporting numerical datasets. It was found that second-mode instabilities comprise two decks, separated by the pressure node location $(y=y_\\pi )$ . The upper deck ( $y\\gt y_\\pi$ ) is characterised by temperature ( $T^{\\prime}$ ) and density ( $\\rho'$ ) fluctuations working with in-phase wall-normal velocity fluctuations ( $v'$ ) to sustain the total disturbance energy production term, $-(\\rho _0 v'T'\\partial T_0/\\partial y+\\rho ' u_0 v' \\partial u_0/\\partial y$ ), which peaks at the generalised inflection point $y=y_i$ . T...",
+      "authors": [
+        "Indradip Roy",
+        "Carlo Scalo"
+      ]
+    },
+    {
+      "title": "Sub-filter-scale (SFS) compressible turbulence modeling and shock capturing via the Block-Spectral-Stress (BSS) closure",
+      "publication_year": 2025,
+      "publication_date": "2025-12-25",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114611",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Mach number",
+        "Legendre polynomials",
+        "Shock (circulatory)",
+        "Vortex",
+        "Turbulence",
+        "Hypersonic speed",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Matteo Ruggeri",
+        "Victor Sousa",
+        "Carlo Scalo"
+      ]
+    }
+  ]
+}

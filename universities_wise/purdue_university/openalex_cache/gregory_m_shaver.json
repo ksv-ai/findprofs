@@ -5,6 +5,15 @@
   "author_display_name": "Gregory M. Shaver",
   "works_count": 170,
   "cited_by_count": 2780,
+  "2yr_mean_citedness": 1.7586206896551724,
+  "h_index": 30,
+  "i10_index": 78,
+  "affiliations": [
+    "Purdue University West Lafayette",
+    "Herrick Technology Laboratories (United States)",
+    "Alstom (United States)",
+    "Stanford University"
+  ],
   "top_topics": [
     {
       "topic": "Advanced Combustion Engine Technologies",
@@ -211,6 +220,63 @@
         "Gregory M. Shaver",
         "Daniel E. Williams",
         "Shreyas Sundaram"
+      ]
+    },
+    {
+      "title": "Modeling and analysis of unilateral rigid impacts in a universal joint with clearance",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1007/s11071-025-12172-2",
+      "venue": "Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s11071-025-12172-2",
+      "concepts": [
+        "Yoke (aeronautics)",
+        "Contact dynamics",
+        "Joint (building)",
+        "Inertial frame of reference",
+        "Dynamics (music)",
+        "Mechanics",
+        "Control theory (sociology)",
+        "Structural engineering"
+      ],
+      "abstract": "Abstract This study presents the modeling and dynamic analysis of a universal joint (U-Joint) with radial clearance. The main focus is on the modeling of rigid unilateral frictional impacts at the crosspiece and input yoke contact interfaces. Previous literature on the modeling and dynamic analysis of U-Joints, neglect the crosspiece inertial characteristics and friction between yoke and crosspiece contact interface in the presence of mechanical clearances. While in studies without clearance the inertial and frictional dynamics can be neglected, they become essential for accurately capturing and understanding the non-smooth dynamics introduced by radial clearance between yoke and crosspiece. The impacts between yoke and crosspiece contact points are assumed to be rigid and characterized using a set-valued impact law based on Signorini’s condition combined with Stribeck friction law, capturing the complex contact interactions. The numerical simulations demonstrate the influence of small clearance on the dynamic response of U-Joints, revealing phenomena such as symmetrical double walled impact-induced oscillations, quasi-periodic oscillations, grazing bifurcations, and chaos.",
+      "authors": [
+        "J. Ali",
+        "Gregory M. Shaver",
+        "Anil K. Bajaj"
+      ]
+    },
+    {
+      "title": "Real-time detection of linear and nonlinear resonance modes in automatic transmission driveline: A novel algorithm for enhanced reliability",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1007/s12206-025-0701-8",
+      "venue": "Journal of Mechanical Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reliability (semiconductor)",
+        "Nonlinear system",
+        "Transmission (telecommunications)",
+        "Powertrain",
+        "Resonance (particle physics)",
+        "Algorithm",
+        "Computer science",
+        "Control theory (sociology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Evan Parshall",
+        "Junaid Ali",
+        "Shveta Dhamankar",
+        "John Evans",
+        "Anil K. Bajaj",
+        "Gregory M. Shaver"
       ]
     }
   ]

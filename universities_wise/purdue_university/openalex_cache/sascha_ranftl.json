@@ -201,6 +201,61 @@
         "Gerhard A. Holzapfel",
         "Ellen Kuhl"
       ]
+    },
+    {
+      "title": "Uncertainty quantification in mechanics: A unified Bayesian perspective",
+      "publication_year": 2026,
+      "publication_date": "2026-07-21",
+      "doi": "https://arxiv.org/abs/2607.18734",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.18734",
+      "concepts": [
+        "Computer science",
+        "Uncertainty quantification",
+        "Bayesian probability",
+        "Probabilistic logic",
+        "Prior probability",
+        "Inference",
+        "Inverse problem",
+        "Identification (biology)"
+      ],
+      "abstract": "Uncertainty quantification (UQ) is essential to experimental mechanics, but has become particularly relevant in computational mechanics, manifesting in two fundamental problem types: forward and inverse problems. The former addresses how input uncertainties propagate to the quantities of interest, whereas the latter aims to infer unknown parameters from experimental observations or simulations. Since efficient propagation typically requires a prohibitive number of evaluations to compute marginal output distributions, the development of fast, data-driven surrogate models becomes necessary. Thus, we can distinguish between two inverse tasks: (i) the identification and calibration of input uncertainties, and (ii) the construction of surrogates, a methodology collectively referred to as surrogate-based UQ. Building on probabilistic reasoning and the concept of partial belief, we demonstrate that Bayesian probability theory provides a unified theoretical framework for addressing both problem types. We further show that Bayesian inference allows for the seamless incorporation of essential subproblems, including model selection for identifying the most probable model specifications and...",
+      "authors": [
+        "Sascha Ranftl",
+        "Malte Rolf",
+        "Gerhard A. Holzapfel",
+        "Ellen Kuhl"
+      ]
+    },
+    {
+      "title": "Parameter Learning With Physics-Consistent Gaussian Processes",
+      "publication_year": 2026,
+      "publication_date": "2026-05-26",
+      "doi": "https://doi.org/10.5281/zenodo.20392038",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20392038",
+      "concepts": [
+        "Gaussian process",
+        "Computer science",
+        "Uncertainty quantification",
+        "Laplace transform",
+        "Bayesian probability",
+        "Gaussian",
+        "Differential equation",
+        "Function (biology)"
+      ],
+      "abstract": "Hybrid approaches combining differential equations and machine learning, often referred to as physics-informed machine learning, aim to incorporate known physical laws into data-driven models. Gaussian processes (GPs) are particularly attractive in this setting because they provide flexible function models together with principled uncertainty estimates, but their full potential remains underexplored. The key idea is that differential equations can be encoded directly into GPs, allowing the model to respect physical constraints while learning from data. We build on the approach of Lange-Hegermann [1], which constructs such models by parametrizing solutions through the null space of differential operators. With this approach, physical parameters emerge as GP hyperparameters, enabling efficient learning of said parameters directly from data. We extend the framework by incorporating uncertainty quantification for the learned parameters, using optionally Laplace approximations for efficiency or MCMC-based posterior sampling. We compare our results systematically to the more well known “physics-informed learning” approach of Raissi et al. [2] and find notable improvements in the low d...",
+      "authors": [
+        "Johanna Moser",
+        "Christopher Albert",
+        "Sascha Ranftl"
+      ]
     }
   ]
 }

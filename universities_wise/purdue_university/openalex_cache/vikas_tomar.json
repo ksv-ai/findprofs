@@ -212,6 +212,61 @@
         "Dana D. Dlott",
         "Vikas Tomar"
       ]
+    },
+    {
+      "title": "DegradAI: A scalable framework for early battery health diagnosis from limited data",
+      "publication_year": 2025,
+      "publication_date": "2025-08-08",
+      "doi": "https://doi.org/10.1038/s44406-025-00008-2",
+      "venue": "npj Clean Energy",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s44406-025-00008-2.pdf",
+      "concepts": [
+        "Scalability",
+        "Battery (electricity)",
+        "Computer science",
+        "Data science",
+        "Data mining",
+        "Database",
+        "Physics",
+        "Power (physics)"
+      ],
+      "abstract": "DegradAI is a chemistry-aware deep learning framework designed to predict long-term lithium-ion battery capacity fade using limited early-cycle data (~5 h), enabling robust diagnostics across diverse chemistries and real-world operating conditions. Its novelty lies in explicit cathode chemistry identification (LiNiCoAlO 2 , LiNiMnCoO 2 , LiFePO 4 , and LiCoO 2 ) integrated with a dynamically adaptive architecture. Comprehensive validation across varied temperatures, discharge rates (0.5–3 C), and dynamic cycling profiles demonstrates scalability and transferability. High accuracy is achieved across most chemistries, with a noted variation for LiNiCoAlO 2 due to complex degradation mechanisms. DegradAI can also generate high-fidelity synthetic data; augmenting training sets with an 80:20 synthetic-to-real data mix significantly reduced experimental data needs, improving relative prediction accuracy by up to ~22% while incurring a quantifiable trade-off (~7% increase) in absolute error metrics. This scalable framework is a valuable tool for battery health management in applications like electric vehicles, consumer electronics, and grid storage, adaptable to emerging chemistries.",
+      "authors": [
+        "Meghana Sudarshan",
+        "Jaya Vikeswara Rao Vajja",
+        "Vikas Tomar"
+      ]
+    },
+    {
+      "title": "Low Data Machine Learning Framework for Accelerated Lithium-Ion Battery Degradation Prediction",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.1149/ma2025-018828mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Degradation (telecommunications)",
+        "Battery (electricity)",
+        "Lithium (medication)",
+        "Computer science",
+        "Lithium-ion battery",
+        "Machine learning",
+        "Reliability engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "Lithium-ion batteries (LIBs) experience degradation influenced by various operational and environmental factors, including temperature, depth of discharge (DoD), state of charge (SoC), and current rates. Among these, temperature is a critical driver, as elevated temperatures accelerate chemical reactions, induce thermal stress, and promote side reactions such as lithium plating. These mechanisms degrade battery components, reducing capacity and performance over time. Understanding and predicting capacity fade under such conditions is essential for improving LIB safety, efficiency, and longevity. Traditional physics-based models have been widely used for degradation prediction but face challenges in operational settings due to limited and non-standardized input data. Recent advancements in machine learning (ML), particularly low-data ML models, offer promising alternatives for accelerated degradation prediction under such constraints. This study presents a novel framework integrating two advanced low-data ML models—a cycle-based autoencoder (CD-Net) and a time-based mixture of experts (MoE) model—to address the challenges of predicting LIB degradation while accounting for thermal...",
+      "authors": [
+        "Meghana Sudarshan",
+        "Jaya Vikeswara Rao Vajja",
+        "Mahavir Singh",
+        "Vikas Tomar"
+      ]
     }
   ]
 }

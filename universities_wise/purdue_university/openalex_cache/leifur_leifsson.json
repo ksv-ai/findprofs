@@ -193,6 +193,58 @@
         "Abhijnan Dikshit",
         "Leifur Leifsson"
       ]
+    },
+    {
+      "title": "Aerodynamic Uncertainty Analysis of the Common Research Model Wing Using Autoencoders",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1208",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Robustness (evolution)",
+        "Transonic",
+        "Monte Carlo method",
+        "Computer science",
+        "Solver",
+        "Mach number",
+        "Uncertainty quantification"
+      ],
+      "abstract": "Uncertainties in the operations and design of aircraft wings are unavoidable, making it necessary to analyze uncertainties in both surface pressure distributions and aerodynamic coefficients to ensure robustness and reliability in wing design. However, uncertainty analysis through Monte Carlo simulations is prohibitive due to the computational expense of numerical simulations required to evaluate a wing design. Surrogate models can be used to alleviate the expense, but current models typically do not offer predictions of both surface pressure distributions and aerodynamic coefficients for highly nonlinear flow regimes to analyze uncertainties in both simultaneously. As such, this paper proposes UQAeroNet, a neural network architecture that can simultaneously provide a prediction of the surface pressure distribution and the aerodynamic coefficients for the uncertainty analysis of both types of quantities. The proposed approach is characterized by using the NASA Common Research Model wing in transonic viscous flow at a Mach number of 0.80 and Reynolds number of 5.18 million. Quasi-Monte Carlo simulations are utilized to propagate uncertainties in twist angles and operating conditi...",
+      "authors": [
+        "Abhijnan Dikshit",
+        "Leifur Leifsson"
+      ]
+    },
+    {
+      "title": "Efficient Design Under Uncertainty of Spacecraft and Trajectory Systems Using Gaussian Process Surrogates",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1790",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Propulsion",
+        "Trajectory",
+        "Computer science",
+        "Trajectory optimization",
+        "Fuel efficiency",
+        "Reliability (semiconductor)",
+        "Monte Carlo method"
+      ],
+      "abstract": "Design under uncertainty for coupled spacecraft propulsion and interplanetary trajectory systems is prohibitive due to the large number of high-fidelity multidisciplinary analysis (MDA) evaluations required for Monte Carlo-based reliability assessment. This paper presents a surrogate-enabled design under uncertainty framework for a coupled spacecraft and trajectory Earth--Mars transfer problem inspired by MAVEN, using both reliability-based design optimization (RBDO) and robust design optimization (RDO). The high-fidelity MDA integrates the Rocket Propulsion Analysis (RPA) tool and NASA’s General Mission Analysis Tool (GMAT) within OpenMDAO to model a single-stage chemical propulsion spacecraft executing a trajectory correction maneuver (TCM) and Mars orbit insertion (MOI). Gaussian process (GP) surrogates, trained on MDA-generated samples and used with Monte Carlo simulation (MCS), provide low-cost predictions of time of flight and burn-wise fuel consumption. These surrogates enable large-scale MCS evaluations within a differential evolution optimizer, where RBDO enforces a reserve fuel reliability constraint requiring at least 200 kg remaining with reliability of 0.99%, and RD...",
+      "authors": [
+        "Siddhesh A. Naidu",
+        "Leifur Leifsson"
+      ]
     }
   ]
 }

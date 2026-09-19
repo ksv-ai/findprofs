@@ -209,6 +209,58 @@
         "Jiahao Zhang",
         "Guang Lin"
       ]
+    },
+    {
+      "title": "Machine Learning Inverse Design Reveals a Double Narrow-Band Absorption Approach for Effective Colored Radiative Cooling Paints",
+      "publication_year": 2026,
+      "publication_date": "2026-06-22",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c01941",
+      "venue": "Nano Letters",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Monte Carlo method",
+        "Inverse",
+        "Radiative cooling",
+        "Radiative transfer",
+        "Subtractive color",
+        "Colored",
+        "Absorption (acoustics)",
+        "Computer science"
+      ],
+      "abstract": "Colored radiative cooling paints offer immense potential for aesthetic thermal management. However, previous studies have been limited to either intuition-driven forward designs that are too expensive to yield non-intuitive optimal designs or to optimizations only at the level of idealized optical spectra. We present a machine-learning-enabled inverse design framework for generating paint formulations with optimal cooling performance and desired color. By integration of photon Monte Carlo simulations with surrogate modeling, this approach bridges the gap between theoretical spectra and physical realization. Our approach uncovers a non-intuitive “double narrow-band absorption” strategy that reduces solar heating power by up to 193 and 37 W/m 2 compared to conventional additive and single-band subtractive strategies, respectively. A systematic exploration of the HSL color space reveals that 24% of colors can achieve daytime subambient cooling when realistic material limitations are considered. This automated pipeline provides practical guidelines for designing high-performance, aesthetically tailored radiative cooling coatings.",
+      "authors": [
+        "Ziqi Guo",
+        "Dudong Feng",
+        "Daniel Carne",
+        "Guang Lin",
+        "Xiulin Ruan"
+      ]
+    },
+    {
+      "title": "Conformalized-KANs: uncertainty quantification with coverage guarantees for Kolmogorov–Arnold Networks (KANs) in scientific machine learning",
+      "publication_year": 2026,
+      "publication_date": "2026-05-28",
+      "doi": "https://doi.org/10.1088/2632-2153/ae7495",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/2632-2153/ae7495",
+      "concepts": [
+        "Sociology"
+      ],
+      "abstract": "Abstract This paper explores uncertainty quantification (UQ) methods in the context of Kolmogorov–Arnold Networks (KANs). We apply an ensemble approach to KANs to obtain a heuristic measure of UQ, enhancing interpretability and robustness in modeling complex functions. However, particularly in data-limited and complex scientific settings, ensemble-based uncertainty estimates, as is the case for many UQ methods, are sensitive to implicit distributional assumptions and do not provide formal coverage guarantees. Building on this, we develop conformalized-KANs, a conformal UQ framework for KANs that combines ensemble-based uncertainty estimates with split conformal prediction to generate calibrated prediction intervals with formal coverage guarantees. Numerical experiments are conducted to evaluate the effectiveness of these methods, focusing particularly on the robustness and accuracy of the prediction intervals under various hyperparameter settings. We further show that this framework extends naturally to recent KAN variants, including finite basis KANs and multi-fidelity KANs. The results demonstrate the potential of our approaches to improve the reliability and applicability of ...",
+      "authors": [
+        "Amirhossein Mollaali",
+        "Christian Moya",
+        "Amanda A. Howard",
+        "Alexander Heinlein",
+        "Panos Stinis",
+        "Guang Lin"
+      ]
     }
   ]
 }

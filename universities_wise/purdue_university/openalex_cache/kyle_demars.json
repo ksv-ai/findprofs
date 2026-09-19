@@ -1,35 +1,135 @@
 {
   "name": "Kyle DeMars",
   "uni": "Purdue University",
-  "author_id": "A5139940268",
+  "author_id": "A5081140091",
   "author_display_name": "Kyle J. DeMars",
-  "works_count": 1,
-  "cited_by_count": 0,
+  "works_count": 113,
+  "cited_by_count": 1153,
+  "2yr_mean_citedness": 1.05,
+  "h_index": 15,
+  "i10_index": 19,
+  "affiliations": [
+    "United States Air Force Research Laboratory",
+    "Texas A&M University System",
+    "Missouri University of Science and Technology",
+    "Kirtland Air Force Base",
+    "Mitchell Institute"
+  ],
   "top_topics": [
     {
       "topic": "Target Tracking and Data Fusion in Sensor Networks",
-      "count": 1
+      "count": 73
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 49
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 17
     },
     {
       "topic": "Spacecraft Dynamics and Control",
-      "count": 1
+      "count": 13
     },
     {
       "topic": "Space Satellite Systems and Control",
-      "count": 1
+      "count": 13
     }
   ],
   "top_cited_works": [
     {
+      "title": "Probabilistic Initial Orbit Determination Using Gaussian Mixture Models",
+      "publication_year": 2013,
+      "publication_date": "2013-07-30",
+      "doi": "https://doi.org/10.2514/1.59844",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Probabilistic logic",
+        "Probability density function",
+        "Gaussian",
+        "Orbit (dynamics)",
+        "Range (aeronautics)",
+        "Algorithm",
+        "Computer science",
+        "Orbit determination"
+      ],
+      "abstract": "The most complete description of the state of a system at any time is given by knowledge of the probability density function, which describes the locus of possible states conditioned on any available measurement information. When employing optical data, the concept of the admissible region provides a physics-based region of the range/range-rate space that produces Earth-bound orbit solutions. This work develops a method that employs a probabilistic interpretation of the admissible region and approximates the admissible region by a Gaussian mixture to formulate an initial orbit determination solution. The Gaussian mixture representation of the probability density function is then forecast and updated with subsequent data to iteratively refine the region of uncertainty. Simulation results are presented using synthetic data over a range of orbits, in which it is shown that the new method is consistently able to initialize a probabilistic orbit solution and provide iterative refinement via follow-on tracking.",
+      "authors": [
+        "Kyle J. DeMars",
+        "Moriba Jah"
+      ]
+    },
+    {
+      "title": "Entropy-Based Approach for Uncertainty Propagation of Nonlinear Dynamical Systems",
+      "publication_year": 2013,
+      "publication_date": "2013-05-13",
+      "doi": "https://doi.org/10.2514/1.58987",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Gaussian",
+        "Probability density function",
+        "Gaussian process",
+        "Gaussian filter",
+        "Entropy (arrow of time)",
+        "Nonlinear system",
+        "Propagation of uncertainty",
+        "Mathematics"
+      ],
+      "abstract": "Uncertainty propagation of dynamical systems is a common need across many domains and disciplines. In nonlinear settings, the extended Kalman filter is the de facto standard propagation tool. Recently, a new class of propagation methods called sigma-point Kalman filters was introduced, which eliminated the need for explicit computation of tangent linear matrices. It has been shown in numerous cases that the actual uncertainty of a dynamical system cannot be accurately described by a Gaussian probability density function. This has motivated work in applying the Gaussian mixture model approach to better approximate the non-Gaussian probability density function. A limitation to existing approaches is that the number of Gaussian components of the Gaussian mixture model is fixed throughout the propagation of uncertainty. This limitation has made previous work ill-suited for nonstationary probability density functions either due to inaccurate representation of the probability density function or computational burden given a large number of Gaussian components that may not be needed. This work examines an improved method implementing a Gaussian mixture model that is adapted online via ...",
+      "authors": [
+        "Kyle J. DeMars",
+        "Robert H. Bishop",
+        "Moriba Jah"
+      ]
+    },
+    {
+      "title": "Initial Orbit Determination using Short-Arc Angle and Angle Rate Data",
+      "publication_year": 2012,
+      "publication_date": "2012-07-01",
+      "doi": "https://doi.org/10.1109/taes.2012.6237613",
+      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+      "type": "article",
+      "cited_by_count": 143,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "A priori and a posteriori",
+        "Computer science",
+        "Orbit (dynamics)",
+        "Algorithm",
+        "Orbit determination",
+        "Population",
+        "Set (abstract data type)"
+      ],
+      "abstract": "The population of space objects (SOs) is tracked with sparse resources and thus tracking data are only collected on these objects for a relatively small fraction of their orbit revolution (i.e., a short arc). This contributes to commonly mistagged or uncorrelated SOs and their associated trajectory uncertainties (covariances) to be less physically meaningful. The case of simply updating a catalogued SO is not treated here, but rather, the problem of reducing a set of collected short-arc data on an arbitrary deep space object without a priori information, and from the observations alone, determining its orbit to an acceptable level of accuracy. Fundamentally, this is a problem of data association and track correlation. The work presented here takes the concept of admissible regions and attributable vectors along with a multiple hypothesis filtering approach to determine how well these SO orbits can be recovered for short-arc data in near realtime and autonomously. While the methods presented here are explored with synthetic data, the basis for the simulations resides in actual data that has yet to be reduced, but whose characteristics are replicated as well as possible to yield r...",
+      "authors": [
+        "Kyle J. DeMars",
+        "Moriba Jah",
+        "Paul W. Schumacher"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
       "title": "Cislunar State and Uncertainty Propagation via the Modified Generalized Equinoctial Orbital Elements",
       "publication_year": 2026,
       "publication_date": "2026-03-20",
-      "doi": "http://arxiv.org/abs/2603.20110",
+      "doi": "https://doi.org/10.48550/arxiv.2603.20110",
       "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "cited_by_count": 0,
       "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2603.20110",
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.20110",
       "concepts": [
         "Spacecraft",
         "Range (aeronautics)",
@@ -45,32 +145,112 @@
         "Maaninee Gupta",
         "Kyle J. DeMars"
       ]
-    }
-  ],
-  "recent_works": [
+    },
     {
-      "title": "Cislunar State and Uncertainty Propagation via the Modified Generalized Equinoctial Orbital Elements",
-      "publication_year": 2026,
-      "publication_date": "2026-03-20",
-      "doi": "http://arxiv.org/abs/2603.20110",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
+      "title": "A framework for batch processing tracklets in the GM-PHD filter",
+      "publication_year": 2025,
+      "publication_date": "2025-12-04",
+      "doi": "https://doi.org/10.1016/j.asr.2025.11.124",
+      "venue": "Advances in Space Research",
+      "type": "article",
       "cited_by_count": 0,
       "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2603.20110",
+      "oa_url": "https://doi.org/10.1016/j.asr.2025.11.124",
       "concepts": [
-        "Spacecraft",
-        "Range (aeronautics)",
-        "Gaussian",
-        "Mathematics",
+        "Filter (signal processing)",
+        "Computer science",
+        "Algorithm",
+        "Signal processing",
         "Physics",
-        "Work (physics)",
-        "State (computer science)",
-        "Computer science"
+        "Remote sensing",
+        "Data processing",
+        "Matched filter"
       ],
-      "abstract": "The complex cislunar dynamical environment poses challenges for spacecraft navigation and Space Domain Awareness (SDA) operations, where the knowledge of current and future spacecraft states is essential. Conventional Gaussian-based approaches for SDA degrade under the nonlinearities that manifest in this regime. To accurately model the underlying dynamics and characterize uncertainty, this work explores the Modified Generalized Equinoctial Orbital Elements under high-fidelity propagation for cislunar applications. The Henze-Zirkler test for multivariate normality is leveraged to evaluate uncertainty evolution across a range of orbits, demonstrating improved preservation of Gaussian behavior in cislunar space.",
+      "abstract": "The objective of this article is to propose a framework for which tracklet data can be batch processed and used within the update step of the Gaussian Mixture Probability Hypothesis Density (GM-PHD) filter. A tracklet represents a sequence of sensor measurements that are associated with the same target over a limited time interval, where if there is high confidence that a tracklet is associated with a true target, it can serve as valuable a priori information, helping to reduce the impact of clutter and improve multi-target filtering (MTF) performance. However, traditionally, the GM-PHD filter is not outfitted to handle tracklets within its update step and can only incorporate sensor measurements individually. Therefore, instead of updating recursively with individual sensor measurements, the proposed approach updates the GM-PHD filter’s posterior intensity function using tracklets. This article achieves this by pre-processing tracklets into a batch solution of the state space, where the batch solution is then treated as a noisy measurement of the multi-target state. This article uses two different methods for batch processing: Least Squares (LS) for mildly nonlinear and non-Gau...",
       "authors": [
+        "Dalton Durant",
+        "Andrey A. Popov",
+        "Kyle J. DeMars",
+        "Renato Zanetti"
+      ]
+    },
+    {
+      "title": "Bifidelity Uncertainty Propagation with Directional Splitting for Space Domain Awareness",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.1109/mfi67357.2025.11259242",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propagation of uncertainty",
+        "Domain (mathematical analysis)",
+        "Gaussian",
+        "Space (punctuation)",
+        "Computer science",
+        "State space",
+        "Key (lock)",
+        "Frequency domain"
+      ],
+      "abstract": "Accurate uncertainty propagation is key for effective space domain awareness, especially for sparse data problems where longer periods of uncertainty propagation are required. When the dynamical system is nonlinear, guarantees of Gaussianity cannot be made, leading to non-Gaussian uncertainties. This work develops a bifidelity approach to uncertainty propagation in which Gaussian mixture representations of uncertainty are adapted online using directional splitting. Fullfidelity models are used for state propagation, and reducedfidelity models are used for error propagation. It is found that the proposed combination of directional splitting and bifidelity dynamics is successful in propagating the uncertainty in a cislunar test case.",
+      "authors": [
+        "Kyle J. DeMars",
         "Maaninee Gupta",
+        "Renato Zanetti",
+        "Kristen Michaelson"
+      ]
+    },
+    {
+      "title": "Evaluating Homotopic Bayesian Conditioning for Collision Avoidance Path Planning",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.1109/mfi67357.2025.11259404",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Rendezvous",
+        "Trajectory",
+        "Discretization",
+        "Mathematical optimization",
+        "Control theory (sociology)",
+        "Collision avoidance",
+        "Mathematics"
+      ],
+      "abstract": "Generating dynamically feasible trajectories that avoid obstacles is a major challenge in path planning. As an alternative to traditional optimization methods, one may consider conditioning a collection of trajectories-represented as a probability density function-on a likelihood function that encodes a collision avoidance objective. This framework, developed previously, offers both a natural representation of uncertainty for robustness and does not require a dense discretization of the trajectory history near obstacles. Differing from the original implementation, this work develops a homotopic Bayesian solution to the same problem to avoid reliance on algorithmic convergence. The method is applied to a planar, spacecraft rendezvous scenario and shown to provide collision avoidant trajectories while retaining the smooth dynamical flow of the prior.",
+      "authors": [
+        "William N. Fife",
+        "Kyle J. DeMars"
+      ]
+    },
+    {
+      "title": "Counter-Adversarial Estimation and the Square Root Reproducing Kernel Hilbert Space Extended Kalman Filter",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.1109/mfi67357.2025.11259150",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Square root",
+        "Extended Kalman filter",
+        "Kalman filter",
+        "Nonlinear system",
+        "Reproducing kernel Hilbert space",
+        "Mathematics",
+        "Kernel (algebra)",
+        "Hilbert space"
+      ],
+      "abstract": "Estimating states could become uniquely challenging due to nonlinear and uncertain dynamics, limited or unreliable observations, and the presence of external disturbances, such as signal interference and spoofing. This paper introduces the square root reproducing kernel Hilbert space extended Kalman filter (SRREKF) as a novel approach for robust and adaptive state estimation. By leveraging an online expectationmaximization algorithm together with square root factors, the SRREKF not only learns unknown system parameters and approximates nonlinear dynamics and measurements, through kernel-based function representations, but also contributes to preventing the covariance matrices to lose their positivedefiniteness. This framework enables accurate and stable threat detection and active sensing, offering a promising approach for resilient spacecraft navigation under uncertain conditions. Simulation results demonstrate that the proposed SRREKF with online EM significantly outperforms the standard EKF in terms of estimation accuracy, particularly under nonlinear and noisy measurement conditions.",
+      "authors": [
+        "Alberto Zamora",
         "Kyle J. DeMars"
       ]
     }

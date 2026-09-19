@@ -1,0 +1,258 @@
+{
+  "name": "Ivan C. Christov",
+  "uni": "Purdue University",
+  "author_id": "A5084650919",
+  "author_display_name": "Ivan C. Christov",
+  "works_count": 206,
+  "cited_by_count": 1927,
+  "2yr_mean_citedness": 1.6,
+  "h_index": 26,
+  "i10_index": 52,
+  "affiliations": [
+    "Northwestern University",
+    "Los Alamos National Laboratory",
+    "Indian Institute of Technology Kharagpur",
+    "University of Nicosia",
+    "Princeton University"
+  ],
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 40
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 37
+    },
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 23
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 22
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kink-Kink and Kink-Antikink Interactions with Long-Range Tails",
+      "publication_year": 2019,
+      "publication_date": "2019-05-03",
+      "doi": "https://doi.org/10.1103/physrevlett.122.171601",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 108,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.122.171601",
+      "concepts": [
+        "Physics",
+        "Range (aeronautics)",
+        "Field (mathematics)",
+        "Mathematical physics",
+        "Field theory (psychology)",
+        "Statistical physics",
+        "Classical mechanics",
+        "Theoretical physics"
+      ],
+      "abstract": "In this Letter, we address the long-range interaction between kinks and antikinks, as well as kinks and kinks, in φ^{2n+4} field theories for n>1. The kink-antikink interaction is generically attractive, while the kink-kink interaction is generically repulsive. We find that the force of interaction decays with the 2n/(n-1)th power of their separation, and we identify the general prefactor for arbitrary n. Importantly, we test the resulting mathematical prediction with detailed numerical simulations of the dynamic field equation, and obtain good agreement between theory and numerics for the cases of n=2 (φ^{8} model), n=3 (φ^{10} model), and n=4 (φ^{12} model).",
+      "authors": [
+        "Ivan C. Christov",
+        "Robert J. Decker",
+        "Aslihan Demirkaya",
+        "Vakhid A. Gani",
+        "P. G. Kevrekidis",
+        "Avinash Khare",
+        "Avadh Saxena"
+      ]
+    },
+    {
+      "title": "Long-range interactions of kinks",
+      "publication_year": 2019,
+      "publication_date": "2019-01-08",
+      "doi": "https://doi.org/10.1103/physrevd.99.016010",
+      "venue": "Physical review. D/Physical review. D.",
+      "type": "article",
+      "cited_by_count": 95,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevD.99.016010",
+      "concepts": [
+        "Range (aeronautics)",
+        "Materials science",
+        "Composite material"
+      ],
+      "abstract": "We present a computational analysis of the long-range interactions of solitary waves in higher-order field theories. Our vehicle of choice is the ${\\ensuremath{\\varphi}}^{8}$ field theory, although we explore similar issues in example ${\\ensuremath{\\varphi}}^{10}$ and ${\\ensuremath{\\varphi}}^{12}$ models. In particular, we discuss the fundamental differences between the latter higher-order models and the standard ${\\ensuremath{\\varphi}}^{4}$ model. Upon establishing the power-law asymptotics of the model's solutions' approach towards one of the steady states, we make the case that such asymptotics require particular care in setting up multisoliton initial conditions. A naive implementation of additive or multiplicative ans\\\"atze gives rise to highly pronounced radiation effects and eventually leads to the illusion of a repulsive interaction between a kink and an antikink in such higher-order field theories. We propose and compare several methods for how to ``distill'' the initial data into suitable ans\\\"atze, and we show how these approaches capture the attractive nature of interactions between the topological solitons in the presence of power-law tails (long-range interactions)...",
+      "authors": [
+        "Ivan C. Christov",
+        "Robert J. Decker",
+        "Aslihan Demirkaya",
+        "Vakhid A. Gani",
+        "P. G. Kevrekidis",
+        "R V Radomskiy"
+      ]
+    },
+    {
+      "title": "Successive phase transitions and kink solutions in ϕ8 , ϕ10 , and ϕ12 field theories",
+      "publication_year": 2014,
+      "publication_date": "2014-08-27",
+      "doi": "https://doi.org/10.1103/physreve.90.023208",
+      "venue": "Physical Review E",
+      "type": "article",
+      "cited_by_count": 77,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1402.6766",
+      "concepts": [
+        "Phase transition",
+        "Degenerate energy levels",
+        "Order (exchange)",
+        "Physics",
+        "Field (mathematics)",
+        "Mathematical physics",
+        "Maxima and minima",
+        "Phase (matter)"
+      ],
+      "abstract": "We obtain exact solutions for kinks in ϕ(8), ϕ(10), and ϕ(12) field theories with degenerate minima, which can describe a second-order phase transition followed by a first-order one, a succession of two first-order phase transitions and a second-order phase transition followed by two first-order phase transitions, respectively. Such phase transitions are known to occur in ferroelastic and ferroelectric crystals and in meson physics. In particular, we find that the higher-order field theories have kink solutions with algebraically decaying tails and also asymmetric cases with mixed exponential-algebraic tail decay, unlike the lower-order ϕ(4) and ϕ(6) theories. Additionally, we construct distinct kinks with equal energies in all three field theories considered, and we show the coexistence of up to three distinct kinks (for a ϕ(12) potential with six degenerate minima). We also summarize phonon dispersion relations for these systems, showing that the higher-order field theories have specific cases in which only nonlinear phonons are allowed. For the ϕ(10) field theory, which is a quasiexactly solvable model akin to ϕ(6), we are also able to obtain three analytical solutions for th...",
+      "authors": [
+        "Avinash Khare",
+        "Ivan C. Christov",
+        "Avadh Saxena"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Variational Acoustics",
+      "publication_year": 2026,
+      "publication_date": "2026-08-26",
+      "doi": "https://doi.org/10.48550/arxiv.2608.26340",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2608.26340",
+      "concepts": [
+        "Variational principle",
+        "Nonlinear system",
+        "Nonlinear acoustics",
+        "Calculus of variations",
+        "Mathematics",
+        "Classical mechanics",
+        "Euler–Lagrange equation",
+        "Lagrangian"
+      ],
+      "abstract": "Many variational principles for acoustics have appeared in the literature, often introduced in an \\textit{ad hoc} manner by picking and choosing terms in a Lagrangian density to yield a desired governing partial differential equation. In this chapter, we show that such guesswork is unnecessary, as the governing equations of acoustics can be derived systematically from the primitive Lagrangians of classical continuum mechanics. Furthermore, we note that using Eulerian coordinates is not the only way to derive variational principles in acoustics. To this end, we review the construction of an action in the Lagrangian frame for compressible nondissipative fluids. We explore the consequences of material relabeling symmetry and the associated pseudomomentum balance, together with the boundary and jump conditions it implies. Via perturbation expansions, we show how to recover the equations of linear acoustics from each variational principle, the material frame yielding in addition the second-order acoustic energy balance. We show how weakly nonlinear approximations with variational structure emerge in each frame, in both cases for a general barotropic fluid, with the nonlinearity carri...",
+      "authors": [
+        "Md Reshad Ur Rahman",
+        "Ivan C. Christov"
+      ]
+    },
+    {
+      "title": "Codes for \"Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis\"",
+      "publication_year": 2026,
+      "publication_date": "2026-07-20",
+      "doi": "https://doi.org/10.4231/nj7b-5n87",
+      "venue": "Purdue University Research Repository",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.4231/nj7b-5n87",
+      "concepts": [
+        "Discretization",
+        "Partial differential equation",
+        "Finite element method",
+        "Rotational symmetry",
+        "Python (programming language)",
+        "Ordinary differential equation",
+        "Mechanics",
+        "Nonlinear system"
+      ],
+      "abstract": "Flows in the perivascular space have emerged as a major topic in biofluid mechanics. In particular, the elasticity of brain tissue has been especially challenging to capture mathematically. Our timely contribution, building on recent work, reduces a complex fluid–structure interaction problem—incorporating porous drag, wall compliance, and non-axisymmetric cross-sectional geometry—to a single partial differential equation (PDE). A closed-form analytical approximation for the net pumping rate cleanly elucidates the competing roles of eccentricity, Darcy number, and compliance in a manner not achieved by previous studies, providing a definitive new result. Our analytical pumping-rate formula, which was inaccessible to prior rigid-wall lubrication models and axisymmetric computational studies, demonstrates that compliance monotonically suppresses net pumping, a finding with broad implications for both biological and engineered peristaltic systems. Our analytical work was supported by numerical calculations and simulations, which can be reproduced using the codes provided in this dataset. Specifically, a two-dimensional Helmholtz-like equation for the axial velocity profile in a non...",
+      "authors": [
+        "Nishanth Surianarayanan",
+        "Ivan C. Christov"
+      ]
+    },
+    {
+      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
+      "publication_year": 2026,
+      "publication_date": "2026-07-16",
+      "doi": "https://doi.org/10.48550/arxiv.2607.15239",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2607.15239",
+      "concepts": [
+        "Mechanics",
+        "Drag",
+        "Context (archaeology)",
+        "Flow (mathematics)",
+        "Electrical conduit",
+        "Porous medium",
+        "Displacement (psychology)",
+        "Peristalsis"
+      ],
+      "abstract": "Coenen \\textit{et al.}\\ (\\textit{J. Fluid Mech.}, vol.~921, 2021, p.~R2) developed a reduced-order model of peristaltic pumping in non-axisymmetric annular conduits with rigid walls, in the context of periarterial space (PAS) flows. \\textit{In vivo} studies show that the PAS's outer wall undergoes significant displacement due to flow within and that the penetrating PASs form a porous pathway. To account for these biomechanical aspects, we revisit the problem of flow in an eccentric annular conduit and incorporate porous drag and two-way-coupled fluid--structure interaction between the compliant outer wall and the cerebrospinal fluid flow within. A Darcy--Brinkman term in the axial momentum equation accounts for drag due to the porous medium. We account for changes in hydraulic resistance due to peristalsis and compliant-wall displacements perturbatively, thereby reducing the problem to a single nonlinear partial differential equation for the axial pressure. This reduced-order model allows us to build a mechanistic understanding of flow through a porous penetrating PAS and enables parametric studies. For small-amplitude peristaltic waves, analytical solutions are possible.",
+      "authors": [
+        "Nishanth Surianarayanan",
+        "Ivan C. Christov"
+      ]
+    },
+    {
+      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
+      "publication_year": 2026,
+      "publication_date": "2026-07-16",
+      "doi": "https://arxiv.org/abs/2607.15239",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.15239",
+      "concepts": [
+        "Mechanics",
+        "Drag",
+        "Context (archaeology)",
+        "Flow (mathematics)",
+        "Electrical conduit",
+        "Porous medium",
+        "Displacement (psychology)",
+        "Peristalsis"
+      ],
+      "abstract": "Coenen \\textit{et al.}\\ (\\textit{J. Fluid Mech.}, vol.~921, 2021, p.~R2) developed a reduced-order model of peristaltic pumping in non-axisymmetric annular conduits with rigid walls, in the context of periarterial space (PAS) flows. \\textit{In vivo} studies show that the PAS's outer wall undergoes significant displacement due to flow within and that the penetrating PASs form a porous pathway. To account for these biomechanical aspects, we revisit the problem of flow in an eccentric annular conduit and incorporate porous drag and two-way-coupled fluid--structure interaction between the compliant outer wall and the cerebrospinal fluid flow within. A Darcy--Brinkman term in the axial momentum equation accounts for drag due to the porous medium. We account for changes in hydraulic resistance due to peristalsis and compliant-wall displacements perturbatively, thereby reducing the problem to a single nonlinear partial differential equation for the axial pressure. This reduced-order model allows us to build a mechanistic understanding of flow through a porous penetrating PAS and enables parametric studies. For small-amplitude peristaltic waves, analytical solutions are possible.",
+      "authors": [
+        "Nishanth Surianarayanan",
+        "Ivan C. Christov"
+      ]
+    },
+    {
+      "title": "Theory and simulation of elastoinertial rectification of oscillatory flows in two-dimensional deformable rectangular channels",
+      "publication_year": 2026,
+      "publication_date": "2026-07-07",
+      "doi": "https://doi.org/10.1103/zk9v-13sn",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.22799",
+      "concepts": [
+        "Mechanics",
+        "Compressibility",
+        "Dimensionless quantity",
+        "Nonlinear system",
+        "Deformation (meteorology)",
+        "Inertia",
+        "Physics",
+        "Rectification"
+      ],
+      "abstract": "Oscillatory flows in compliant confinements underpin processes ranging from physiological transport in blood vessels and airways to flow control and pumping in soft microfluidic devices. To understand the fundamental physics behind such processes, we study how hydrodynamic forces induce deformation at the fluid--solid interface in a slender two-dimensional (2D) channel bounded below by a rigid bottom surface and above by a slender elastic layer. The nonlinear coupling between flow and deformation, along with the attendant geometric asymmetry caused by flow-induced deformation, produces a streaming effect (a nonzero cycle-average despite time-periodic forcing). Surprisingly, flow inertia provides another nonlinear coupling, tightly connected to deformation, that enhances streaming, termed \"elastoinertial rectification\" by Zhang and Rallabandi [J. Fluid Mech. 996, A16 (2024)]. We adapt the latter theory of how two-way coupled fluid--structure interaction (FSI) produces streaming to a 2D rectangular configuration, specifically taking care to capture the deformations of the nearly incompressible slender elastic layer via the combined foundation model of Chandler and Vella [Proc. R. ...",
+      "authors": [
+        "Uday M. Rade",
+        "Shrihari D. Pande",
+        "Ivan C. Christov"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "name": "Christopher S. Goldenstein",
+  "uni": "Purdue University",
+  "author_id": "A5018590061",
+  "author_display_name": "Christopher S. Goldenstein",
+  "works_count": 139,
+  "cited_by_count": 3922,
+  "2yr_mean_citedness": 1.7407407407407407,
+  "h_index": 32,
+  "i10_index": 52,
+  "affiliations": [
+    "Palo Alto University",
+    "Purdue University West Lafayette",
+    "Temper (United States)",
+    "Stanford University"
+  ],
+  "top_topics": [
+    {
+      "topic": "Spectroscopy and Laser Applications",
+      "count": 94
+    },
+    {
+      "topic": "Laser Design and Applications",
+      "count": 46
+    },
+    {
+      "topic": "Atmospheric Ozone and Climate",
+      "count": 30
+    },
+    {
+      "topic": "Atmospheric and Environmental Gas Dynamics",
+      "count": 29
+    },
+    {
+      "topic": "Laser-induced spectroscopy and plasma",
+      "count": 27
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Infrared laser-absorption sensing for combustion gases",
+      "publication_year": 2017,
+      "publication_date": "2017-03-05",
+      "doi": "https://doi.org/10.1016/j.pecs.2016.12.002",
+      "venue": "Progress in Energy and Combustion Science",
+      "type": "article",
+      "cited_by_count": 700,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.pecs.2016.12.002",
+      "concepts": [
+        "Supercontinuum",
+        "Laser",
+        "Tunable diode laser absorption spectroscopy",
+        "Quantum cascade laser",
+        "Infrared",
+        "Combustion",
+        "Tunable laser",
+        "Absorption (acoustics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christopher S. Goldenstein",
+        "R. Mitchell Spearrin",
+        "Jay B. Jeffries",
+        "Ronald K. Hanson"
+      ]
+    },
+    {
+      "title": "Spectroscopy and Optical Diagnostics for Gases",
+      "publication_year": 2015,
+      "publication_date": "2015-10-26",
+      "doi": "https://doi.org/10.1007/978-3-319-23252-2",
+      "venue": "",
+      "type": "book",
+      "cited_by_count": 437,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Exploit",
+        "Gas phase",
+        "Spectroscopy",
+        "Physics",
+        "Computer science",
+        "Astronomy",
+        "Computer security",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ronald K. Hanson",
+        "R. Mitchell Spearrin",
+        "Christopher S. Goldenstein"
+      ]
+    },
+    {
+      "title": "Fitting of calibration-free scanned-wavelength-modulation spectroscopy spectra for determination of gas properties and absorption lineshapes",
+      "publication_year": 2014,
+      "publication_date": "2014-01-13",
+      "doi": "https://doi.org/10.1364/ao.53.000356",
+      "venue": "Applied Optics",
+      "type": "article",
+      "cited_by_count": 269,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optics",
+        "Materials science",
+        "Tunable diode laser absorption spectroscopy",
+        "Wavelength",
+        "Laser",
+        "Absorption (acoustics)",
+        "Calibration",
+        "Spectroscopy"
+      ],
+      "abstract": "The development and initial demonstration of a scanned-wavelength, first-harmonic-normalized, wavelength-modulation spectroscopy with nf detection (scanned-WMS-nf/1f) strategy for calibration-free measurements of gas conditions are presented. In this technique, the nominal wavelength of a modulated tunable diode laser (TDL) is scanned over an absorption transition to measure the corresponding scanned-WMS-nf/1f spectrum. Gas conditions are then inferred from least-squares fitting the simulated scanned-WMS-nf/1f spectrum to the measured scanned-WMS-nf/1f spectrum, in a manner that is analogous to widely used scanned-wavelength direct-absorption techniques. This scanned-WMS-nf/1f technique does not require prior knowledge of the transition linewidth for determination of gas properties. Furthermore, this technique can be used with any higher harmonic (i.e., n>1), modulation depth, and optical depth. Selection of the laser modulation index to maximize both signal strength and sensitivity to spectroscopic parameters (i.e., gas conditions), while mitigating distortion, is described. Last, this technique is demonstrated with two-color measurements in a well-characterized supersonic flow...",
+      "authors": [
+        "Christopher S. Goldenstein",
+        "Christopher L. Strand",
+        "Ian A. Schultz",
+        "Kai Sun",
+        "Jay B. Jeffries",
+        "Ronald K. Hanson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "In-Situ Laser Absorption Spectroscopy Gas Measurements in Li-Ion Pouch Cells with Lithium- and Manganese-Rich (LMR) Layered Oxide Cathodes",
+      "publication_year": 2026,
+      "publication_date": "2026-07-07",
+      "doi": "https://doi.org/10.1149/ma2026-013250mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cathode",
+        "Analytical Chemistry (journal)",
+        "Anode",
+        "Materials science",
+        "Electrode",
+        "Oxide",
+        "Electrochemistry",
+        "Oxygen"
+      ],
+      "abstract": "Lithium and manganese rich cathode materials (LMR) have been a topic of strong interest over the past decade as they offer theoretical capacities up to 300 mAhg -1 compared to 180 mAhg -1 when using traditional NMC cathodes. However, unlike NMC cathodes, LMR cathodes require an activation step to achieve high capacities, during which lattice oxygen in Li 2 MnO 3 -like domains is removed, subsequently enabling activation of an Mn 4+ /Mn 3+ redox cycle on discharge. A portion of this removed lattice oxygen is ultimately evolved as gaseous O 2 , CO 2 , and CO. Therefore, tracking and comparing gas generation to charge process parameters such as current and voltage can reveal much about the activation process. In this study we used a mid-infrared laser absorption spectroscopy (LAS) diagnostic to measure CO, CO 2 , C 2 H 4 , CH 4 , and C 2 H 6 at single hertz rates in a custom LMR pouch cell battery with optical access. Compared to existing methods based on mass spectrometry, LAS has two primary advantages: 1) There is minimized dependence on bulk gas transport since measurements are made adjacent to the electrode stack, and 2) LAS can probe minute gas volumes (nL scale) without phys...",
+      "authors": [
+        "Raghav G. Poddar",
+        "Nathan J. Kempema",
+        "David Bilby",
+        "Andrew “Bean” Getsoian",
+        "Christopher S. Goldenstein"
+      ]
+    },
+    {
+      "title": "Non-Invasive Measurements of CO 2 Evolution During Wetting of Lithium-Ion Pouch Cell Batteries",
+      "publication_year": 2026,
+      "publication_date": "2026-07-07",
+      "doi": "https://doi.org/10.1149/ma2026-013327mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cathode",
+        "Materials science",
+        "Wetting",
+        "Electrode",
+        "Electrolyte",
+        "Analytical Chemistry (journal)",
+        "Outgassing",
+        "Electrochemistry"
+      ],
+      "abstract": "The role of Li 2 CO 3 in the evolution of CO 2 in lithium-ion batteries has been a topic of strong interest over the past decade. Several studies have used isotopic labeling to determine the source of CO 2 during cycling, which was found to be a mix of oxidation of organic electrolyte at the cathode and decomposition of Li 2 CO 3 . Some proposed mechanisms for Li 2 CO 3 decomposition are electrochemical as they were found to be functions of cell potential [1,2] while other pathways are chemical in nature [3]. In this work, we non-invasively measured microliters of CO 2 evolution (and changes on the order of nanoliters) during cell wetting of 1Ah pouch cells, which resulted from chemical decomposition of residual Li 2 CO 3 on the cathode active material. To make these measurements we developed a mid-infrared laser absorption spectroscopy (LAS) diagnostic to probe CO 2 gas generation within pouch cell batteries. Custom optical adapters fitted with sapphire windows were integrated into the pouch cell gas bag to enable mid-IR transmission measurements. Experiments were conducted over several days while varying test conditions such as electrode stack temperature, applied voltage, pre...",
+      "authors": [
+        "Raghav G. Poddar",
+        "Nathan J. Kempema",
+        "David Bilby",
+        "Andrew “Bean” Getsoian",
+        "Christopher S. Goldenstein"
+      ]
+    },
+    {
+      "title": "Laser absorption measurements of temperature, pressure, CO, and CO2 at near-MHz rates in post-detonation fireballs with comparison to synthetic measurements",
+      "publication_year": 2026,
+      "publication_date": "2026-02-17",
+      "doi": "https://doi.org/10.1063/5.0312755",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0312755",
+      "concepts": [
+        "Pentaerythritol tetranitrate",
+        "Detonation",
+        "Laser",
+        "Materials science",
+        "Absorption (acoustics)",
+        "Optics",
+        "Analytical Chemistry (journal)",
+        "Schlieren"
+      ],
+      "abstract": "A laser absorption spectroscopy (LAS) diagnostic was used to obtain measurements of temperature, pressure, CO, and CO2 at 500 kHz or 1 MHz in post-detonation fireballs produced by hemispherical samples of pentaerythritol tetranitrate (PETN). A quantum-cascade laser was scanned over multiple CO absorption transitions near 2008.5 cm−1 at 1 MHz, while an interband-cascade laser was scanned over a CO2 absorption transition near 2394.8 cm−1 at 500 kHz. Light from each laser was combined onto a single path and passed through a detonation chamber approximately 83 mm above the 12-mm diameter hemispherical PETN charge. The CO and CO2 absorption signals were post-processed to obtain time histories of temperature, pressure, species column pressures (PCOL, PCO2L), and species column mole fractions (XCOL, XCO2L). Additionally, schlieren imaging was performed simultaneously at 500 kHz to aid interpretation of the LAS measurements. Experimental and synthetic (i.e., CFD based) LAS measurements were compared to evaluate the accuracy of the CFD model and its ability to model the turbulent afterburning of the detonation products in air. In general, the experimental measurements exhibit reasonable ...",
+      "authors": [
+        "Charles J. Schwartz",
+        "Rebekah Travis",
+        "Cohen T. Nunes",
+        "Steven F. Son",
+        "Daniel R. Guildenbecher",
+        "Anthony Egeln",
+        "Ryan Houim",
+        "Christopher S. Goldenstein"
+      ]
+    },
+    {
+      "title": "Simultaneous Emission and Laser Absorption Spectroscopy Measurements in Post-Detonation Fireballs of Aluminized PETN Hemispheres",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1887",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Absorbance",
+        "Analytical Chemistry (journal)",
+        "Spectroscopy",
+        "Laser-induced breakdown spectroscopy",
+        "Emission spectrum",
+        "Aluminium",
+        "Absorption spectroscopy"
+      ],
+      "abstract": "Laser absorption spectroscopy (LAS) and optical emission spectroscopy (OES) were used to characterize post-detonation fireballs of 12 mm hemispheres of pentaerythritol tetranitrate (PETN) with and without an aluminum shell. LAS was used to measure the temperature, pressure, and concentration of gaseous CO and CO2 at 0.5 or 1 MHz while OES was used to provide single-shot measurements of the temperatures of gaseous AlO and the condensed particulates as well as the ratio of Al and AlO concentrations. A quantum-cascade laser (QCL) emitting near 2008.5 cm^-1 was used to measure absorbance spectra of CO at 1 MHz, while an interband-cascade laser (ICL) emitting near 2394.75 cm^−1 was used to measure absorbance spectra of CO2 at 500 kHz. A broadband spectrometer was used to obtain measurements of emission spectra between 200 - 1100 nm with an integration time of 30 ����. The aluminum shell led to a significant (≈300-500 K) increase in the temperature of CO and the temperatures of AlO, and the particulates responsible for continuum emission were approximately 1000 K higher than that of CO, thereby indicating that the aluminum particles burned through diffusion flames. The measurements pr...",
+      "authors": [
+        "Rebekah Travis",
+        "Charles J. Schwartz",
+        "Cohen T. Nunes",
+        "R. Ramı́rez",
+        "Jennifer L. Vera",
+        "Daniel R. Guildenbecher",
+        "Steven Son",
+        "Christopher S. Goldenstein"
+      ]
+    },
+    {
+      "title": "Laser Absorption Spectroscopy Measurements of Air Mass Flow Rate in a Model Scramjet Isolator via Ambient CO 2",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0677",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scramjet",
+        "Isolator",
+        "Materials science",
+        "Laser",
+        "Plenum space",
+        "Absorption (acoustics)",
+        "Optics",
+        "Combustion"
+      ],
+      "abstract": "This manuscript describes the application of a two-color mid-infrared laser absorption spectroscopy (LAS) diagnostic providing measurements of air temperature, pressure, velocity, and mass flow rate at 300 kHz via ambient CO2. The diagnostic was applied in the isolator of a model scramjet within the University of Virginia Supersonic Combustion Facility (UVASCF). The measurements were achieved by scanning the wavelength of two interband cascade lasers (ICLs) across multiple absorption lines ofCO2 near 2375 and 2384 cm−1. The use of mid-infrared wavelengths provides large absorption signals in air despite the relatively small concentration of CO2. The mass flow rate measurements in the UVASCF isolator agree reasonably well with theoretical predictions over a range of plenum temperatures and pressures, and demonstrate the characterization of internal scramjet flows via flight-capable optical hardware. This is notable compared to our prior measurements acquired behind incident shock waves in a shock tube due to the presence of relatively thick boundary layers (≈1/3 of path length) in the scramjet isolator.",
+      "authors": [
+        "Dan J. Londrico",
+        "Jonathan J Gilvey",
+        "Christopher S. Goldenstein",
+        "Max Chern",
+        "Robert D. Rockwell",
+        "Chloe E. Dedic",
+        "Christopher P. Goyne"
+      ]
+    }
+  ]
+}

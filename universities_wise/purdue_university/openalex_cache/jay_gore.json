@@ -1,0 +1,273 @@
+{
+  "name": "Jay Gore",
+  "uni": "Purdue University",
+  "author_id": "A5069426068",
+  "author_display_name": "Jay P. Gore",
+  "works_count": 245,
+  "cited_by_count": 4359,
+  "2yr_mean_citedness": 1.3333333333333333,
+  "h_index": 34,
+  "i10_index": 117,
+  "affiliations": [
+    "Purdue University Northwest",
+    "Rain Forest Research Institute",
+    "The University of Sydney",
+    "University of Indianapolis",
+    "Shanghai Jiao Tong University"
+  ],
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 147
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 72
+    },
+    {
+      "topic": "Radiative Heat Transfer Studies",
+      "count": 67
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 31
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kinetics of Ru-catalyzed sodium borohydride hydrolysis",
+      "publication_year": 2006,
+      "publication_date": "2006-12-13",
+      "doi": "https://doi.org/10.1016/j.jpowsour.2006.11.002",
+      "venue": "Journal of Power Sources",
+      "type": "article",
+      "cited_by_count": 206,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sodium borohydride",
+        "Chemistry",
+        "Catalysis",
+        "Reactions on surfaces",
+        "Arrhenius equation",
+        "Arrhenius plot",
+        "Activation energy",
+        "Inorganic chemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "J.S. Zhang",
+        "W. Nicholas Delgass",
+        "Timothy S. Fisher",
+        "Jay P. Gore"
+      ]
+    },
+    {
+      "title": "A Review of Heat Transfer Issues in Hydrogen Storage Technologies",
+      "publication_year": 2005,
+      "publication_date": "2005-08-25",
+      "doi": "https://doi.org/10.1115/1.2098875",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 206,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hydrogen storage",
+        "Heat transfer",
+        "Thermal energy storage",
+        "Materials science",
+        "Work (physics)",
+        "Hydride",
+        "Energy storage",
+        "Compressed hydrogen"
+      ],
+      "abstract": "Significant heat transfer issues associated with four alternative hydrogen storage methods are identified and discussed, with particular emphasis on technologies for vehicle applications. For compressed hydrogen storage, efficient heat transfer during compression and intercooling decreases compression work. In addition, enhanced heat transfer inside the tank during the fueling process can minimize additional compression work. For liquid hydrogen storage, improved thermal insulation of cryogenic tanks can significantly reduce energy loss caused by liquid boil-off. For storage systems using metal hydrides, enhanced heat transfer is essential because of the low effective thermal conductivity of particle beds. Enhanced heat transfer is also necessary to ensure that both hydriding and dehydriding processes achieve completion and to prevent hydride bed meltdown. For hydrogen storage in the form of chemical hydrides, innovative vehicle cooling design will be needed to enable their acceptance.",
+      "authors": [
+        "Jinsong Zhang",
+        "Timothy S. Fisher",
+        "P. Veeraraghavan Ramachandran",
+        "Jay P. Gore",
+        "Issam Mudawar"
+      ]
+    },
+    {
+      "title": "Chemical kinetics of Ru-catalyzed ammonia borane hydrolysis",
+      "publication_year": 2008,
+      "publication_date": "2008-12-02",
+      "doi": "https://doi.org/10.1016/j.jpowsour.2008.11.085",
+      "venue": "Journal of Power Sources",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ammonia borane",
+        "Chemistry",
+        "Catalysis",
+        "Ruthenium",
+        "Hydrolysis",
+        "Sodium borohydride",
+        "Inorganic chemistry",
+        "Hydrogen production"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sumit Basu",
+        "Alan Brockman",
+        "Pravin D. Gagare",
+        "Yanfei Zheng",
+        "P. Veeraraghavan Ramachandran",
+        "W. Nicholas Delgass",
+        "Jay P. Gore"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "RDE Combustor with Tesla Valve Injectors for Suppression of Back Pressure Oscillations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0595",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Injector",
+        "Detonation",
+        "Combustor",
+        "Mechanics",
+        "Work (physics)",
+        "Inlet",
+        "Transient (computer programming)",
+        "Combustion"
+      ],
+      "abstract": "This study presents a computational investigation of a Rotating Detonation Engine (RDE) integrated with Tesla valve-based injectors to mitigate backpressure-induced by the detonation wave. The RDE configuration includes an inlet, a plenum, and a deflagration-to-detonation combustion chamber, with and without Tesla valves to compare the regulation of the inlet flow. The base RDE suffers from reverse flow of high-temperature gases, posing flashback risks and unstable operation. A two-dimensional unwrapped RDE model is simulated using the transient Navier–Stokes equations coupled with energy and species transport equations, a detailed chemical kinetics model, and the ideal gas equation of state. Results reveal that the inclusion of Tesla valves effectively suppresses reverse flow, stabilizes inlet conditions, and maintains robust detonation wave propagation. Compared to the base case, the Tesla valve-enhanced RDE exhibits reduced pressure fluctuations, narrowed from 2.8–6.4 atm to 3.2–5.5 atm. These findings highlight the potential of Tesla valve configurations for improving operational stability in RDEs. Future work will focus on geometric optimization and experimental validation.",
+      "authors": [
+        "Prasanth P. Nair",
+        "Vinod Narayanan",
+        "Jay P. Gore"
+      ]
+    },
+    {
+      "title": "A Numerical Study of Tesla Valve Integration Into Rotating Detonation Engines",
+      "publication_year": 2025,
+      "publication_date": "2025-11-16",
+      "doi": "https://doi.org/10.1115/imece2025-159171",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Mechanics",
+        "Mixing (physics)",
+        "Deflagration",
+        "Ramjet",
+        "Shock wave",
+        "Work (physics)",
+        "Combustion"
+      ],
+      "abstract": "Abstract Rotating Detonation Engines (RDEs) represent a promising propulsion technology characterized by continuous detonation waves traveling supersonically within an annular combustion chamber. RDEs achieve higher thermodynamic efficiency compared to conventional deflagration-based systems. However, critical challenges in RDE operation involve sustenance of stable detonation with consistent fuel-air mixing and avoidance of reverse flow. A series of Tesla valves, known for their unidirectional flow, are designed within the inlet of an RDE to passively avoid reverse flows. The performance of the novel RDE is compared with that of a baseline design with numerical computations of deflagration to detonation transition in identically premixed hydrogen air mixtures admitted through a plenum. The computational domains include the plenum, the injectors without and with the Tesla valves, and an annular combustion chamber. A two-dimensional unwrapped RDE configuration is considered. The transient Navier-Stokes equations are solved with a multistep hydrogen-air mechanism. The key computational results are that the Tesla valve’s unique geometry effectively minimizes the backpressure in the...",
+      "authors": [
+        "Prasanth P. Nair",
+        "Vinod Narayanan",
+        "Jay P. Gore"
+      ]
+    },
+    {
+      "title": "Evaluation of machine learning models for optimization of internal combustion engines: A comparative study",
+      "publication_year": 2025,
+      "publication_date": "2025-10-14",
+      "doi": "https://doi.org/10.1177/14680874251377140",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Support vector machine",
+        "Kriging",
+        "Machine learning",
+        "Polynomial regression",
+        "Mean effective pressure",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Gaussian process"
+      ],
+      "abstract": "The high costs associated with Computational Fluid Dynamics (CFD) predictions limits the execution of some optimization processes of internal combustion engines. The use of machine learning algorithms instead of CFD during optimization of a spark ignition engine fueled with a biomass-derived syngas is proposed. Polynomial regression, support vector regression, Gaussian process regression, artificial neural networks, and random forest are the artificial intelligence methods considered. A general methodology for building, tuning, evaluating, and comparing machine learning models is presented. The fuel injection pressure data are utilized to estimate fuel consumption, equivalence ratio, nitrogen oxides emissions, and indicated mean effective pressure of the engine operating at 2500 and 4500 rpm. Results from previous CFD-based optimization studies are utilized to train, validate, and evaluate the models. All methods are K -fold cross-validated to determine their hyperparameters. Then, the models are evaluated by comparing their predictions accuracies for each output on a test data set. The results show that polynomial regression is the most accurate model to estimate fuel consumpti...",
+      "authors": [
+        "David Sebastián",
+        "César Augusto Solano-Corzo",
+        "Sebastian Camilo Tovar-Pedraza",
+        "Juan Miguel Mantilla-González",
+        "Jay P. Gore"
+      ]
+    },
+    {
+      "title": "Technoeconomic Assessment of Ammonia Production from Biomass with Nuclear Microreactors",
+      "publication_year": 2025,
+      "publication_date": "2025-06-10",
+      "doi": "https://doi.org/10.1080/00295450.2025.2491849",
+      "venue": "Nuclear Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ammonia production",
+        "Microreactor",
+        "Radiochemistry",
+        "Production (economics)",
+        "Ammonia",
+        "Environmental science",
+        "Biomass (ecology)",
+        "Nuclear engineering"
+      ],
+      "abstract": "There is rising global interest in ammonia production due to its significant role as a hydrogen carrier and as a critical component in fertilizers. However, the conventional Haber-Bosch (H-B) method, which utilizes fossil fuels, is associated with high energy demand and carbon dioxide emissions. Conversely, the thermochemical conversion of biomass to hydrogen in the ammonia synthesis process is seen as a more sustainable alternative. Innovative nuclear technologies, like microreactors, hold promise as distributed low-carbon energy sources, offering both electricity and process heat. For this process, the energy needs for the thermochemical conversion of biomass to ammonia are evaluated.This paper presents a detailed economic analysis of ammonia production, with a focus on integrating thermal-chemical biomass gasification with a 5-MW(electric) nuclear microreactor as the energy source within the H-B process. It evaluates the technical and economic viability of using three different types of biomass feedstocks: corn stover, wheat straw, and wood. The analysis reveals that the estimation of the levelized cost of ammonia is highly sensitive to parameters such as capital cost and lea...",
+      "authors": [
+        "Ketan Ajay",
+        "Jay P. Gore",
+        "Suneet Singh",
+        "Hitesh Bindra"
+      ]
+    },
+    {
+      "title": "Effect of operational parameters and petroleum coke blending on the recycling of CO2 during fixed-bed gasification of bamboo char",
+      "publication_year": 2025,
+      "publication_date": "2025-05-09",
+      "doi": "https://doi.org/10.1016/j.biombioe.2025.107966",
+      "venue": "Biomass and Bioenergy",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Char",
+        "Bamboo",
+        "Petroleum coke",
+        "Waste management",
+        "Coke",
+        "Environmental science",
+        "Pulp and paper industry",
+        "Coal"
+      ],
+      "abstract": "",
+      "authors": [
+        "Adity Bora",
+        "Rathziel Roncancio",
+        "Zackery Sherrow",
+        "Jackson Bitterolf",
+        "Jay P. Gore",
+        "Sadhan Mahapatra"
+      ]
+    }
+  ]
+}

@@ -191,6 +191,65 @@
         "Gregory A. Blaisdell",
         "Sally P. Bane"
       ]
+    },
+    {
+      "title": "Machine Learning for Practical Real-Time Test Campaign Design",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3729",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Test (biology)",
+        "Reliability engineering",
+        "Engineering",
+        "Biology",
+        "Paleontology"
+      ],
+      "abstract": "Efficient test campaign design is essential for rapidly validating and verifying aerospace systems. This paper proposes an approach utilizing Support Vector Machines (SVMs) to optimize the design of hypersonic test campaigns in real time. SVMs are employed to predict the utility of candidate test configurations based on datasets acquired a priori. The proposed methodology aims to enhance the efficiency of test campaign design by identifying configurations most likely to yield informative data, which has the potential to reduce resource expenditure and accelerate the pace at which a researcher can acquire valuable experimental and computational data. This paper presents the formulation of SVM-based predictive models tailored to the unique requirements of the Boeing/AFOSR Mach-6 Quiet Tunnel (BAM6QT), detailing the feature selection process and model training. Heat transfer over a finite-span compression ramp on a sliced 7 degree half-angle cone is used as a configuration of investigation for SVM training. The adaptive sampling architecture defines meaningful and consistent categories for heat transfer data. SVMs, as well as other sampling techniques, are evaluated on a distributi...",
+      "authors": [
+        "Zachary A. McDaniel",
+        "Adelbert A. Francis",
+        "Francis A. Centlivre",
+        "Gregory A. Blaisdell",
+        "Jonathan Poggie",
+        "Joseph S. Jewell",
+        "Timothy Walsh",
+        "Kyle Williams",
+        "Steven J. Beresh"
+      ]
+    },
+    {
+      "title": "Background-oriented-schlieren-based optical velocimetry of low-convective-Mach-number turbulent shear layers",
+      "publication_year": 2025,
+      "publication_date": "2025-06-01",
+      "doi": "https://doi.org/10.1007/s00348-025-04031-y",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00348-025-04031-y.pdf",
+      "concepts": [
+        "Mach number",
+        "Schlieren",
+        "Velocimetry",
+        "Turbulence",
+        "Mechanics",
+        "Optics",
+        "Materials science",
+        "Particle image velocimetry"
+      ],
+      "abstract": "Abstract Background-oriented schlieren (BOS)-based velocimetry is a potential method for achieving simultaneous measurements of density and velocity in a flow with density gradients. Similar to schlieren velocimetry, BOS velocimetry relies on (1) refraction of light due to density gradients and (2) the presence of turbulent eddies or contrast by high-/low-density fluid parcels to serve as seeding particles. Previous attempts at BOS velocimetry suffered from compounded noise, error propagation, and significant loss of spatial resolution due to the requirement for an additional round of interrogation. Kymography-based BOS velocimetry has been shown to produce accurate velocity measurements but at the expense of spatiotemporally averaging the flow field. The optical flow displacement estimation method was shown to be ineffective to yield useful velocity information for schlieren velocimetry, due to the large displacements of turbulent eddies between adjacent time instances. In the current work, a novel approach for BOS velocimetry is proposed that uses deformable image registration (DIR) in each of the two interrogation steps to obtain accurate, spatiotemporally resolved velocity f...",
+      "authors": [
+        "Tanbo Zhou",
+        "Sai Lakshminarayanan Balakrishnan",
+        "Gregory A. Blaisdell",
+        "Sally P. Bane"
+      ]
     }
   ]
 }

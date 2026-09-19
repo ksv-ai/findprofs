@@ -1,0 +1,266 @@
+{
+  "name": "Hector Gomez",
+  "uni": "Purdue University",
+  "author_id": "A5050535603",
+  "author_display_name": "Héctor Gómez",
+  "works_count": 255,
+  "cited_by_count": 6801,
+  "2yr_mean_citedness": 2.492957746478873,
+  "h_index": 41,
+  "i10_index": 96,
+  "affiliations": [
+    "Universidade da Coruña",
+    "Industrial University of Santander",
+    "Loughborough University",
+    "University of California, Merced",
+    "Weatherford (Switzerland)"
+  ],
+  "top_topics": [
+    {
+      "topic": "Mathematical Biology Tumor Growth",
+      "count": 67
+    },
+    {
+      "topic": "Advanced Numerical Analysis Techniques",
+      "count": 40
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 31
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 20
+    },
+    {
+      "topic": "Solidification and crystal growth phenomena",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A physics-informed deep learning framework for inversion and surrogate modeling in solid mechanics",
+      "publication_year": 2021,
+      "publication_date": "2021-03-12",
+      "doi": "https://doi.org/10.1016/j.cma.2021.113741",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1309,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "von Mises yield criterion",
+        "Finite element method",
+        "Robustness (evolution)",
+        "Computer science",
+        "Nonlinear system",
+        "Isogeometric analysis",
+        "Surrogate model"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ehsan Haghighat",
+        "Maziar Raissi",
+        "Adrian Moure",
+        "Héctor Gómez",
+        "Rubén Juanes"
+      ]
+    },
+    {
+      "title": "Isogeometric analysis of the Cahn–Hilliard phase-field model",
+      "publication_year": 2008,
+      "publication_date": "2008-05-14",
+      "doi": "https://doi.org/10.1016/j.cma.2008.05.003",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 601,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Isogeometric analysis",
+        "Finite element method",
+        "Cahn–Hilliard equation",
+        "Mathematics",
+        "Polygon mesh",
+        "Basis function",
+        "Robustness (evolution)",
+        "Piecewise"
+      ],
+      "abstract": "",
+      "authors": [
+        "Héctor Gómez",
+        "Victor M. Calo",
+        "Yuri Bazilevs",
+        "Thomas J.R. Hughes"
+      ]
+    },
+    {
+      "title": "Provably unconditionally stable, second-order time-accurate, mixed variational methods for phase-field models",
+      "publication_year": 2011,
+      "publication_date": "2011-04-14",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.03.033",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 280,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Robustness (evolution)",
+        "Phase field models",
+        "Applied mathematics",
+        "Nonlinear system",
+        "Cahn–Hilliard equation",
+        "Finite element method",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Héctor Gómez",
+        "Thomas J.R. Hughes"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Computational Modeling Unveils the Impact of Tissue Growth and Vascular Remodeling on the Distribution of Interstitial Chemical Species",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1007/s10439-026-04214-6",
+      "venue": "Annals of Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10439-026-04214-6.pdf",
+      "concepts": [
+        "Quail",
+        "Vascular endothelial growth factor",
+        "Cell biology",
+        "Vascular tissue",
+        "VEGF receptors",
+        "Tissue remodeling",
+        "Embryo",
+        "Biology"
+      ],
+      "abstract": "Vascular remodeling, the adaptive reshaping of the vascular network in response to changing demands of the tissue, plays a critical role in embryo development and various pathologies. Biochemical signals present in the extravascular region, such as vascular endothelial growth factor (VEGF), are key regulators in the vascular remodeling process. Although the role of these signals has been well studied in vitro, in vivo quantification of VEGF transport during vascular remodeling remains challenging since it requires computing VEGF transport on a growing, topologically changing geometry. In this work, we propose a computational method to compute the VEGF concentration inside the extraembryonic tissue of a growing quail embryo during early vascular development. The evolving vascular geometry is obtained from time-lapse images of a growing quail embryo and represented implicitly via a phase field formulation, which tracks complex topological changes without mesh regeneration, enabling accurate simulation of VEGF transport in the growing extraembryonic tissue. Our simulations demonstrate that tissue growth can significantly influence VEGF distribution, which in turn affects the spatia...",
+      "authors": [
+        "Adithya Srinivasan",
+        "Mario de Lucio",
+        "Siavash Ghaffari",
+        "Elizabeth A. V. Jones",
+        "Héctor Gómez"
+      ]
+    },
+    {
+      "title": "Mechanistic multiphysics modeling reveals how blood pulsation drives CSF flow, pressure, and brain deformation under physiological and injection conditions",
+      "publication_year": 2026,
+      "publication_date": "2026-04-16",
+      "doi": "https://doi.org/10.1186/s12987-026-00804-7",
+      "venue": "Fluids and Barriers of the CNS",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1186/s12987-026-00804-7.pdf",
+      "concepts": [
+        "Multiphysics",
+        "Cerebrospinal fluid",
+        "Poromechanics",
+        "Fluid dynamics",
+        "Blood flow",
+        "Subarachnoid space",
+        "Flow (mathematics)",
+        "Fluid–structure interaction"
+      ],
+      "abstract": "Intrathecal (IT) injection is an effective way to deliver drugs to the brain bypassing the blood-brain barrier (BBB). To evaluate and optimize IT drug delivery, it is necessary to understand the cerebrospinal fluid (CSF) dynamics in the central nervous system (CNS). In combination with experimental measurements, computational modeling plays an important role in reconstructing CSF flow in the CNS. Existing models have provided valuable insights into the CSF dynamics; however, most neglect the effects of tissue mechanics, focus on partial geometries, or rely on measured CSF flow rates under specific conditions, leaving full-CNS CSF flow field predictions across different physiological states underexplored. Here, we propose a comprehensive multiphysics computational model of the CNS with three key features: (1) it is implemented on a fully closed geometry of CNS; (2) it includes the interaction between CSF and poroelastic tissue as well as the compliant spinal dura mater; (3) it has potential for predictive simulations because it only needs data on cardiac blood pulsation into the brain. Our simulations under physiological conditions demonstrate that our model reproduces key featur...",
+      "authors": [
+        "Zhuoyue Li",
+        "Keyu Feng",
+        "Héctor Gómez"
+      ]
+    },
+    {
+      "title": "Simulating surfactant effects in phase-transforming fluids",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1063/5.0321558",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.09140",
+      "concepts": [
+        "Marangoni effect",
+        "Bubble",
+        "Pulmonary surfactant",
+        "Coalescence (physics)",
+        "Work (physics)",
+        "Thermodynamics",
+        "Mechanics",
+        "Materials science"
+      ],
+      "abstract": "Surfactants are critical in natural processes and engineering, but measuring their concentrations in non-equilibrium conditions and in the presence of flow is difficult. Therefore, computational methods are key tools for improving our understanding. Predicting the effect of surfactants on liquid–vapor transformations is particularly challenging due to (1) simultaneous mass transfer, non-equilibrium thermodynamics, and Marangoni stresses, and (2) the phenomenological assumptions underlying many liquid–vapor phase-change models. Starting from the Navier–Stokes–Korteweg equations, a first-principles approach to liquid–vapor phase transformations, we developed a model of liquid–vapor flows with surfactants. We performed simulations of bubbles under equilibrium and of liquid–vapor interface oscillations to demonstrate that the model successfully reproduces surfactant-mediated reductions in surface tension. We also investigated the mechanisms whereby surfactant affects bubble coalescence and condensation. Overall, this work provides a new framework for studying the effect of surfactants on liquid–vapor transformations and suggests multiple areas for future research, including the impa...",
+      "authors": [
+        "Keyu Feng",
+        "Saikat Mukherjee",
+        "Tianyi Hu",
+        "Héctor Gómez"
+      ]
+    },
+    {
+      "title": "Droplet mobilization in actuated deformable tubes",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "https://doi.org/10.1103/rbhz-c4mr",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.22007",
+      "concepts": [
+        "Mechanics",
+        "Materials science",
+        "Actuator",
+        "Tube (container)",
+        "Amplitude",
+        "Current (fluid)",
+        "Traction (geology)",
+        "Vibration"
+      ],
+      "abstract": "We study the mobilization of an oil droplet in a deformable, actuated constricted tube subjected to two different actuation mechanisms: hydrodynamic actuation (oscillatory body force in the fluid) and dynamic wall actuation (oscillatory traction on the tube walls). Using high-resolution fluid-structure interaction simulations, we analyze the effects of actuation frequency and amplitude on droplet transport through the constriction. Our simulations show that hydrodynamic actuation leads to a monotonic increase in the droplet's mobilization time with increasing actuation frequency, and a decrease with increasing actuation amplitude. In contrast, dynamic wall actuation exhibits a resonance effect-the mobilization time reaches a minimum at a frequency near the tube's resonant frequency. Our study highlights the potential of actuation mechanisms in deformable tubes for precise control of droplet transport in bio-microfluidic applications.",
+      "authors": [
+        "Sthavishtha R. Bhopalam",
+        "Rubén Juanes",
+        "Héctor Gómez"
+      ]
+    },
+    {
+      "title": "Phase-field/discontinuity capturing operator for direct van der waals simulation (DVS)",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114742",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "van der Waals force",
+        "Discontinuity (linguistics)",
+        "Dissipation",
+        "Operator (biology)",
+        "Physics",
+        "Statistical physics",
+        "Classical mechanics",
+        "Theorem of corresponding states"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tianyi Hu",
+        "Thomas Hughes",
+        "Guglielmo Scovazzi",
+        "Héctor Gómez"
+      ]
+    }
+  ]
+}

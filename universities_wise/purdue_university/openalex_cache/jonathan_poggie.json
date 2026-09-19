@@ -158,6 +158,59 @@
       "authors": [
         "Jonathan Poggie"
       ]
+    },
+    {
+      "title": "Large-Eddy Simulation of an Axisymmetric Shock-Wave/Boundary-Layer Interaction at Mach 2.5",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2519",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Boundary layer",
+        "Rotational symmetry",
+        "Physics",
+        "Reynolds number"
+      ],
+      "abstract": "Implicit large-eddy simulation (ILES) of a turbulent, axisymmetric, shock-wave/boundary- layer interaction was performed at Mach 2.5. The simulation was performed to compare to recent experimental work completed at NASA Glenn Research Center (GRC) under the Turbulent Computational Fluid Dynamics Validation Experiment (TCFDVE). The circular test section of the TCFDVE allows shock-wave/boundary-layer interactions to be studied without corner effects. The ILES was completed using a low-dissipation, hybrid advection scheme available in VULCAN-CFD which blends a fourth-order symmetric reconstruction with a third-order upwind-biased MUSCL scheme. The method of recycling/rescaling was used to generate a scale-resolved turbulent boundary layer. To save on computational cost, a Reynolds-averaged Navier-Stokes (RANS) solution was imposed at some boundary conditions. Comparison to experimental data showed promising results. PIV, Pitot, wall static pressure taps, and hot-wire data were used for comparison. With significant computational resource allocation, the current two billion point ILES simulation was run at an experimental Reynolds number for approximately 102 cycles of the dominant l...",
+      "authors": [
+        "Layton W. Howerton",
+        "Gregory A. Blaisdell",
+        "Jonathan Poggie"
+      ]
+    },
+    {
+      "title": "Hardware-Agnostic Compact Difference Schemes in C++/Kokkos for High-Order CFD",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2518",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Speedup",
+        "Computer science",
+        "Parallel computing",
+        "Solver",
+        "Computational science",
+        "Fortran",
+        "Interpolation (computer graphics)",
+        "Porting"
+      ],
+      "abstract": "A hardware-agnostic implementation of compact finite difference schemes is presented using the Kokkos programming model, targeting both CPUs (OpenMP) and GPUs (CUDA, HIP) without code duplication. The parallel cyclic reduction (PCR) algorithm achieves significant speedup over the sequential Thomas algorithm on GPUs for large three dimensional grids. For time dependent problems, naive plane by plane execution incurs substantial kernel launch and memory initialization overhead. This is mitigated through a fully batched execution that solves transverse tridiagonal systems simultaneously, yielding up to two orders of magnitude speedup in GPU execution time. The results highlight the necessity of algorithm level redesign when porting legacy Fortran solvers to accelerator architectures. Cross platform numerical solutions agree within machine precision across all CPU and GPU backends, indicating deterministic solver behavior. Comprehensive validation through method of manufactured solutions confirms design order spatial convergence (rates approaching 6.0 for sixth order schemes) and fourth order temporal accuracy with RK4 integration across heat equation, Burgers equation, and isentrop...",
+      "authors": [
+        "Sana Nazir",
+        "Jonathan Poggie"
+      ]
     }
   ]
 }

@@ -197,6 +197,62 @@
         "Lucas A. Sasso",
         "Sally P. Bane"
       ]
+    },
+    {
+      "title": "Time Resolved BOS Velocimetry of Synthetic Raytraced Images of a Low Speed Mixing Flow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2293",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Velocimetry",
+        "Particle image velocimetry",
+        "Schlieren",
+        "Measure (data warehouse)",
+        "Optics",
+        "Mixing (physics)",
+        "Laser Doppler velocimetry",
+        "Particle tracking velocimetry"
+      ],
+      "abstract": "Background oriented schlieren (BOS) based time-resolved velocimetry is proposed as a non-intrusive experimental method to simultaneously measure span-averaged velocity and density. Although past work has successfully shown BOS velocimetry to estimate temporally averaged profiles, the potential of spatio-temporally resolved BOS velocimetry remains relatively unexplored. To evaluate the feasibility of BOS velocimetry, synthetic images were generated from an LES data set of a low-convective-Mach-number (",
+      "authors": [
+        "Chandler J. Moy",
+        "Sai Lakshminarayanan Balakrishnan",
+        "Gregory A. Blaisdell",
+        "Sally P. Bane"
+      ]
+    },
+    {
+      "title": "Background-oriented-schlieren-based optical velocimetry of low-convective-Mach-number turbulent shear layers",
+      "publication_year": 2025,
+      "publication_date": "2025-06-01",
+      "doi": "https://doi.org/10.1007/s00348-025-04031-y",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00348-025-04031-y.pdf",
+      "concepts": [
+        "Mach number",
+        "Schlieren",
+        "Velocimetry",
+        "Turbulence",
+        "Mechanics",
+        "Optics",
+        "Materials science",
+        "Particle image velocimetry"
+      ],
+      "abstract": "Abstract Background-oriented schlieren (BOS)-based velocimetry is a potential method for achieving simultaneous measurements of density and velocity in a flow with density gradients. Similar to schlieren velocimetry, BOS velocimetry relies on (1) refraction of light due to density gradients and (2) the presence of turbulent eddies or contrast by high-/low-density fluid parcels to serve as seeding particles. Previous attempts at BOS velocimetry suffered from compounded noise, error propagation, and significant loss of spatial resolution due to the requirement for an additional round of interrogation. Kymography-based BOS velocimetry has been shown to produce accurate velocity measurements but at the expense of spatiotemporally averaging the flow field. The optical flow displacement estimation method was shown to be ineffective to yield useful velocity information for schlieren velocimetry, due to the large displacements of turbulent eddies between adjacent time instances. In the current work, a novel approach for BOS velocimetry is proposed that uses deformable image registration (DIR) in each of the two interrogation steps to obtain accurate, spatiotemporally resolved velocity f...",
+      "authors": [
+        "Tanbo Zhou",
+        "Sai Lakshminarayanan Balakrishnan",
+        "Gregory A. Blaisdell",
+        "Sally P. Bane"
+      ]
     }
   ]
 }
