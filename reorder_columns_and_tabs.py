@@ -34,13 +34,13 @@ COLUMN_RENAMES = {
 DESIRED_COLUMN_ORDER = [
     "Name",
     "University",
+    "Verified Research Focus & Technical Expertise",
+    "Primary Target Category",
     "OpenAlex ID",
     "Academic Department",
-    "Primary Target Category",
     "Verified Email Address",
     "Official Profile URL",
     "Google Scholar URL",
-    "Verified Research Focus & Technical Expertise",
 ]
 
 # ── 3. Desired Worksheet Tab Ordering ─────────────────────────────────────────
@@ -49,6 +49,7 @@ DESIRED_SHEET_ORDER = [
     "Aerospace Engineering",
     "Mathematics & Comp Math",
     "Mechanical Engineering",
+    "Others University Faculties",
     "Target Category Breakdown",
 ]
 
@@ -58,6 +59,7 @@ FACULTY_TABS = [
     "Aerospace Engineering",
     "Mathematics & Comp Math",
     "Mechanical Engineering",
+    "Others University Faculties",
 ]
 
 
