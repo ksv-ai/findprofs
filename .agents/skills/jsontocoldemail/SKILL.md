@@ -85,23 +85,40 @@ Every input file harvested by the discovery pipeline (e.g. `marcus_herrmann.json
 
 ---
 
-## 3. The Cold Outreach Intelligence Columns (Excel & Markdown)
+## 3. Streamlined 20-Column Schema Specification (100% JSON-Derived)
 
-The synthesis pipeline extracts and populates these dedicated columns:
+Because our dataset is synthesized entirely from offline, rich OpenAlex JSON profiles (eliminating the need to scrape university staff directories for empty office room numbers or phone lines), we employ a **streamlined 20-column schema** where **every single cell is 100% populated with authentic research intelligence**.
 
-| Col # | Output Header | Intelligence Role | Formula / Grammar |
-| :---: | :--- | :--- | :--- |
-| **13** | `Research Hook (Concise)` | 1-Sentence punchy hook (mobile-optimized) | `[Primary Method] + [Flow Regime] + [Target Outcome]` |
-| **14** | `Research Hook (In-Depth)` | 2–3 sentence technical narrative | `[Open Bottleneck] + [Lab Method / Scheme] + [Engineering Target]` |
-| **15** | `Tech Stack` | Active tools & solvers in use | `3–4 items: [Solvers] + [Formulations] + [Diagnostics]` |
-| **16** | `Flagship 1 Title` | Landmark recent paper 1 (2020–2026) | Highest-impact core aero/fluids journal paper |
-| **17** | `Flagship 1 DOI` | Clickable publisher link | Authentic resolving URL (`https://doi.org/...`) |
-| **18** | `Flagship 1 Tripartite Finding` | Distilled physical causal result | `[Engine] ➔ [Arena] ➔ [Payoff with Number]` |
-| **19** | `Flagship 1 Abstract` | Complete publisher abstract | Full linear text reconstructed from inverted index |
-| **20** | `Flagship 2 Title` | Landmark recent paper 2 (2020–2026) | Cutting-edge method/application paper |
-| **21** | `Flagship 2 DOI` | Clickable publisher link | Authentic resolving URL (`https://doi.org/...`) |
-| **22** | `Flagship 2 Tripartite Finding` | Distilled physical causal result | `[Engine] ➔ [Arena] ➔ [Payoff with Number]` |
-| **23** | `Flagship 2 Abstract` | Complete publisher abstract | Full linear text reconstructed from inverted index |
+### 3.1 The 20-Column Layout
+
+| Col # | Column Header | Data Type | Field Role & Description | Source in JSON |
+| :---: | :--- | :---: | :--- | :--- |
+| **1** | `S.N.` | Integer | Sequential serial number | Row index |
+| **2** | `University` | String | Institution name | `data["university"]` |
+| **3** | `Faculty Name` | String | Author full display name | `data["full_name"]` / `data["faculty_name"]` |
+| **4** | `OpenAlex ID` | String | Direct OpenAlex author identifier (e.g. `A5009928604`) | `data["author_id"]` |
+| **5** | `Works Count` | Integer | Total lifetime publications count | `data["works_count"]` |
+| **6** | `Citations` | Integer | Total lifetime citation count | `data["cited_by_count"]` |
+| **7** | `h-index` | Integer | Author $h$-index | `data["h_index"]` |
+| **8** | `Primary Research Focus` | String | Dominant specialized domain | Highest count topic in `top_topics` |
+| **9** | `Top Research Topics` | String | Top 3 sub-disciplines with paper counts | Pipe-separated `top_topics` |
+| **10** | `Research Hook (Concise / 1-Sentence)` | Text | **Pillar 1A**: 1-sentence punchy mobile hook | Synthesized across 4–5 `recent_works` |
+| **11** | `Research Hook (In-Depth / 2-3 Sent.)` | Text | **Pillar 1B**: 2–3 sentence technical narrative | Synthesized across 4–5 `recent_works` |
+| **12** | `Tech Stack` | String | **Pillar 3**: Exact computational solvers & rigs | Regex matched across recent works |
+| **13** | `Flagship 1 Title` | String | **Pillar 2A**: Title of recent landmark paper 1 | Post-2020 high-impact paper |
+| **14** | `Flagship 1 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
+| **15** | `Flagship 1 Tripartite Finding` | Text | **Pillar 4A**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 1 abstract |
+| **16** | `Flagship 2 Title` | String | **Pillar 2B**: Title of recent cutting-edge paper 2 | Post-2020 method/application paper |
+| **17** | `Flagship 2 DOI` | Hyperlink | Direct clickable DOI link (`https://doi.org/...`) | Verified authentic DOI |
+| **18** | `Flagship 2 Tripartite Finding` | Text | **Pillar 4B**: Engine ➔ Arena ➔ Payoff | Parsed from Flagship 2 abstract |
+| **19** | `Latest Active Paper (2025/2026)` | String | Title & Year of most recent publication | First item in `recent_works` |
+| **20** | `Flagship 1 Abstract` | Long Text | Complete unabridged scientific abstract | Reconstructed from `abstract_inverted_index` |
+
+### 3.2 Operational Advantages of the 20-Column Design
+1. **Zero Empty Cells**: Every column maps directly to existing JSON fields.
+2. **Side-by-Side Hook Selection**: Compare the **Concise Hook** (Col 10) against the **In-Depth Hook** (Col 11) to match your email strategy.
+3. **Instant Copy-Paste**: Everything needed to assemble a cold email (Hook, Flagships, Tech Stack, and Physical Findings) is positioned contiguously across Columns 10 through 18.
+4. **Universal Excel & Google Sheets Compatibility**: Column widths are automatically capped and padded, with frozen top header rows and active clickable hyperlinks.
 
 ---
 
