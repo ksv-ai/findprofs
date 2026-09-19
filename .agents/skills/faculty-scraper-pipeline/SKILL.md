@@ -19,7 +19,7 @@ This skill defines the standardized protocol for extracting, filtering, ranking,
    - Do **NOT** scrape or retain faculty outside Tiers 1 and 2 (e.g., pure robotics, pure manufacturing, pure civil, biomedical, or structural mechanics not coupled to aero/fluids/thermal).
    - **Cross-Departmental Computational Mathematics**: Actively include faculty in Mathematics, Applied Mathematics, or Scientific Computing whose research focuses on computational fluid dynamics (CFD), high-order PDE solvers, turbulence modeling, finite element/spectral methods, or numerical flow physics.
 3. **5 Recent Papers & Dual Recent Flagship Papers (Aero/CFD/Fluids Focused)**:
-   - Extract **~5 recent papers** (2024–2026 / latest available) rather than only 3.
+   - Extract **~5 recent papers** (2023–2026 / latest available) rather than only 3.
    - Select **2 Flagship Papers** strictly from among recent, high-impact publications (2020–2026) that are closely tied to core aero / fluids / CFD physics.
    - Both flagship papers must have valid, clickable direct DOIs and abstracts.
 4. **Recent-Paper-Driven Research Hook & Tech Stack**:
@@ -80,7 +80,7 @@ Every university extraction pipeline outputs an Excel workbook with clean sheets
 | 24 | `Flagship Paper DOI` | Composite clickable DOIs |
 | 25 | `Physical Finding` | Primary tripartite finding |
 | 26 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
-| 27 | `Recent Papers (2024-2026)` | ~5 recent papers with journal, year & clickable DOIs |
+| 27 | `Recent Papers (2023-2026)` | ~5 recent papers with journal, year & clickable DOIs |
 | 28 | `Top Cited Papers` | Landmark papers with journal, year, cites & clickable DOIs |
 | 29 | `Courses Taught` | Filtered lecture courses taught |
 | 30 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
@@ -352,10 +352,10 @@ Follow this standardized 7-step replication protocol for any new institution (e.
    - `author_id`, `author_display_name`, `works_count`, `cited_by_count`.
    - Top Research Topics (with publication counts).
    - Top 3 Cited Papers (`top_cited_works`) (with journal, year, cites, DOI, full reconstructed abstract, concepts, and authors).
-   - **5 Recent Papers 2024–2026** (`recent_works`) (with journal, year, DOI, full reconstructed abstract, concepts, and authors).
+   - **5 Recent Papers 2023–2026** (`recent_works`) (with journal, year, DOI, full reconstructed abstract, concepts, and authors).
    - **2 Flagship Papers (2020–2026)**: High-impact recent papers in core aero/fluids/CFD with clickable DOIs and abstracts.
    - **Tech Stack & Research Hook**: Synthesized across the body of the 4–5 recent papers.
-   - **Tripartite Physical Finding**: Formulated from the recent flagship papers.
+   - **Tripartite Physical Finding**: Formulated individually for both recent flagship papers.
 
 ### Step 6: Multi-Sheet Excel & Markdown Generation (Tier 1 & Tier 2 Only)
 1. Build Excel workbook (`<slug>_aerospace_mechanical_faculty.xlsx`):
@@ -365,8 +365,8 @@ Follow this standardized 7-step replication protocol for any new institution (e.
    - Sheet 3: `All Faculty` (complete qualifying Tier 1 and Tier 2 cohort audit log).
 2. Build Markdown directory (`<slug>_aerospace_mechanical_faculty.md`):
    - Quick jump index, visual indicator badges (🔥 Hiring, 📩 Cold Email, 📄 Paper, 🔬 Lab).
-   - Dual recent flagship papers (2020–2026) with direct clickable DOIs and abstracts.
-   - 5 recent papers (2024–2026) with clickable DOIs.
+   - Dual recent flagship papers (2020–2026) with direct clickable DOIs, dedicated tripartite findings, and full abstracts.
+   - 5 recent papers (2023–2026) with clickable DOIs.
 
 ### Step 7: Automatic GitHub Synchronization
 - Commit all updated code, workbooks, markdown files, and curated cache to GitHub repository under user `ksv-ai`.

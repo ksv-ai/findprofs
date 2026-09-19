@@ -65,7 +65,7 @@
 
 The Research Hook is the **opening sentence** of the cold email. It appears right after "Dear Prof. [Name]," and its job is to:
 
-1. Show you have read and understood the professor's **recent research trajectory (across 4–5 recent papers, 2024–2026)**.
+1. Show you have read and understood the professor's **recent research trajectory (across 4–5 recent papers, 2023–2026)**.
 2. Create an immediate **intellectual connection** — it should feel like a fellow scientist wrote it, not a template bot.
 3. Be formulated using the standard tripartite engineering synthesis:
    $$\text{Research Hook} = \mathbf{[Primary\ Method\ /\ Numerical\ Scheme]} + \mathbf{[Flow\ Regime\ /\ Physics]} + \mathbf{[Target\ Engineering\ Outcome]}$$
