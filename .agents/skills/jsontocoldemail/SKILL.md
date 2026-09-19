@@ -302,3 +302,48 @@ Sincerely,
 ```
 
 This skill provides the comprehensive specification for synthesizing cold outreach intelligence from local OpenAlex JSON profiles.
+
+---
+
+## 7. Dedicated `jsontocoldemail/` Workspace Directory Topology
+
+To maintain total data integrity, prevent accidental overwrites, and provide a dedicated production environment for enriched cold outreach files, all output intelligence is organized within a dedicated root folder: `d:\Others\findprofs\jsontocoldemail\`.
+
+```text
+d:\Others\findprofs\
+│
+├── jsontocoldemail/                                 <- Dedicated outreach intelligence root
+│   ├── README.md                                    <- Operational manual and copy-paste guidelines
+│   │
+│   ├── original_mechaero_cohort/                    <- The 748 verified live faculty
+│   │   ├── MASTER_COLD_EMAIL_AERO_FACULTY_23COL.xlsx
+│   │   └── universities_wise/
+│   │       ├── arizona_state_university/
+│   │       │   ├── marcus_herrmann.json             <- Fully enriched 23-column JSON
+│   │       │   └── mohamed_houssem_kasbaoui.json
+│   │       ├── purdue_university/
+│   │       └── ...
+│   │
+│   ├── discovered_missing_cohort/                   <- The 2,800+ newly discovered missing faculty
+│   │   ├── DISCOVERED_COLD_EMAIL_AERO_FACULTY_23COL.xlsx
+│   │   └── universities_wise/
+│   │       ├── purdue_university/
+│   │       │   ├── steven_p_schneider.json          <- Fully enriched 23-column JSON
+│   │       │   └── carson_d_slabaugh.json
+│   │       ├── massachusetts_institute_of_technology/
+│   │       └── ...
+│   │
+│   └── consolidated_nationwide/                     <- Complete merged cohort (3,500+ PIs)
+│       ├── ALL_USA_R1_AERO_FLUIDS_FACULTY_23COL.xlsx
+│       └── ALL_USA_R1_AERO_FLUIDS_FACULTY_DOSSIER.md
+│
+├── openalex_mechaero_faculty_json/                  <- Unmodified raw JSON repository (787 PIs)
+├── discovered_missing_faculty/                      <- Raw discovered JSON harvest (2,800+ PIs)
+└── OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx    <- Original master Excel workbook
+```
+
+### 7.1 Operational Principles of this Workspace Layout
+1. **Raw Cache Preservation**: The raw scraped files in `openalex_mechaero_faculty_json/` and `discovered_missing_faculty/` remain untouched as the raw data cache.
+2. **Enriched Outreach Segregation**: All fully enriched profiles—containing Dual Hooks, Tech Stacks, Dual Flagship Papers with DOIs, Tripartite Physical Findings, and Dual Full Abstracts—are stored exclusively in `jsontocoldemail/`.
+3. **Structured University Hierarchy**: Every faculty member is archived within their specific university folder (`universities_wise/<university_slug>/<professor_slug>.json`), allowing researchers to review or target a single university's lab ecosystem with zero friction.
+
