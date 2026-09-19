@@ -114,7 +114,7 @@ HYPERLINK_RULES = {
         val
     ) if str(val).strip() else None,
     "Flagship Paper DOI": lambda val, row: (
-        val if str(val).startswith("http") else f"https://doi.org/{val}",
+        val.split(" | ")[0].strip() if str(val.split(" | ")[0]).startswith("http") else f"https://doi.org/{val.split(' | ')[0].strip()}",
         val
     ) if str(val).strip() else None,
     "Lab / Personal Website": lambda val, row: (val, val) if str(val).startswith("http") else None,
@@ -827,6 +827,10 @@ def export_to_excel(faculty_list: List[Dict], output_path: str, columns: List[st
                     clean_display = str(display_text).replace('"', '""')
                     cell.value = f'=HYPERLINK("{clean_url}", "{clean_display}")'
                     cell.font = link_font
+                    try:
+                        cell.hyperlink = target_url
+                    except Exception:
+                        pass
                 else:
                     cell.value = val
                     cell.font = Font(name="Calibri", size=11)

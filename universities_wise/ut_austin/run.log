@@ -1,81 +1,81 @@
-2026-09-19 11:16:10,918 - INFO - Harvesting University of Texas at Austin (ASE + ME + Mathematics)...
-2026-09-19 11:16:11,938 - INFO - UT Austin ASE: found 49 active faculty
-2026-09-19 11:16:14,136 - INFO - UT Austin ME: found 82 active faculty
-2026-09-19 11:16:15,544 - INFO - UT Austin Math: found 45 active faculty
-2026-09-19 11:16:15,705 - INFO - Total active UT Austin faculty harvested: 176
-2026-09-19 11:16:15,706 - INFO - Enriching 26 Tier 1 Core Aero / CFD / Fluids / Comp Math faculty...
-2026-09-19 11:16:27,022 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.xlsx
-2026-09-19 11:16:27,036 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.md
-2026-09-19 11:16:27,041 - INFO - 
+2026-09-19 11:41:09,086 - INFO - Harvesting University of Texas at Austin (ASE + ME + Mathematics)...
+2026-09-19 11:41:10,042 - INFO - UT Austin ASE: found 49 active faculty
+2026-09-19 11:41:11,970 - INFO - UT Austin ME: found 82 active faculty
+2026-09-19 11:41:13,534 - INFO - UT Austin Math: found 45 active faculty
+2026-09-19 11:41:13,848 - INFO - Total active UT Austin faculty harvested: 176
+2026-09-19 11:41:13,848 - INFO - Enriching 26 Tier 1 Core Aero / CFD / Fluids / Comp Math faculty...
+2026-09-19 11:41:22,956 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.xlsx
+2026-09-19 11:41:22,965 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.md
+2026-09-19 11:41:22,971 - INFO - 
 ===============================================================================================
-2026-09-19 11:16:27,041 - INFO - THE UNIVERSITY OF TEXAS AT AUSTIN (ASE + ME + MATHEMATICS) PIPELINE AUDIT REPORT
-2026-09-19 11:16:27,042 - INFO - ===============================================================================================
-2026-09-19 11:16:27,042 - INFO - Total Active Faculty Extracted: 176
-2026-09-19 11:16:27,042 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion / Comp Math: 26 (Exclusively populates 'Aero Focus' Tab)
-2026-09-19 11:16:27,042 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     11
-2026-09-19 11:16:27,042 - INFO -   - [Tier 3] Structures / Materials / Mfg:         40
-2026-09-19 11:16:27,042 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       99
-2026-09-19 11:16:27,042 - INFO - Field-Matched Faculty Candidates: 101 / 176 (57.4%)
-2026-09-19 11:16:27,042 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 11:16:27,042 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
-2026-09-19 11:16:27,043 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
-2026-09-19 11:16:27,043 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 11:16:27,043 - INFO - 1   | Name                                   | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,043 - INFO - 2   | University                             | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,043 - INFO - 3   | Profile URL                            | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,043 - INFO - 4   | Google Scholar URL                     | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,043 - INFO - 5   | Job Title                              | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 6   | Department                             | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 7   | Scholar ID                             | 17       | 159        |   9.7% | 🟡 Selective
-2026-09-19 11:16:27,044 - INFO - 8   | Email                                  | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 9   | Research Tier                          | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 10  | Research Category                      | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 11  | Matched Count                          | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,044 - INFO - 12  | Matched Fields                         | 101      | 75         |  57.4% | 🔵 Strong
-2026-09-19 11:16:27,044 - INFO - 13  | Research Hook                          | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
-2026-09-19 11:16:27,044 - INFO - 14  | Tech Stack                             | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
-2026-09-19 11:16:27,045 - INFO - 15  | Flagship 1 Title                       | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,045 - INFO - 16  | Flagship 1 DOI                         | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,045 - INFO - 17  | Flagship 1 Tripartite Finding          | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,045 - INFO - 18  | Flagship 1 Abstract                    | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,046 - INFO - 19  | Flagship 2 Title                       | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,046 - INFO - 20  | Flagship 2 DOI                         | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,046 - INFO - 21  | Flagship 2 Tripartite Finding          | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,046 - INFO - 22  | Flagship 2 Abstract                    | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,046 - INFO - 23  | Flagship Paper Hook                    | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
-2026-09-19 11:16:27,046 - INFO - 24  | Flagship Paper DOI                     | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
-2026-09-19 11:16:27,046 - INFO - 25  | Physical Finding                       | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
-2026-09-19 11:16:27,047 - INFO - 26  | Latest Paper / Publication             | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,047 - INFO - 27  | Recent Papers (2023-2026)              | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,047 - INFO - 28  | Top Cited Papers                       | 23       | 153        |  13.1% | 🟡 Selective
-2026-09-19 11:16:27,076 - INFO - 29  | Courses Taught                         | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,076 - INFO - 30  | Recent Awards / Honors                 | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,076 - INFO - 31  | Cold Email / Application Instructions  | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,076 - INFO - 32  | OpenAlex Research Topics               | 25       | 151        |  14.2% | 🟡 Selective
-2026-09-19 11:16:27,076 - INFO - 33  | Google Scholar Tags                    | 25       | 151        |  14.2% | 🟡 Selective
-2026-09-19 11:16:27,076 - INFO - 34  | Research Interests                     | 175      | 1          |  99.4% | 🔵 Strong
-2026-09-19 11:16:27,076 - INFO - 35  | Expertise Areas                        | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,076 - INFO - 36  | Research / Bio Summary                 | 175      | 1          |  99.4% | 🔵 Strong
-2026-09-19 11:16:27,077 - INFO - 37  | Education / Degrees                    | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 38  | Lab / Research Group Name              | 17       | 159        |   9.7% | 🟡 Selective
-2026-09-19 11:16:27,077 - INFO - 39  | Lab / Personal Website                 | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 40  | Actively Hiring / Openings             | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 41  | Target Skills / Prerequisites          | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 42  | Lab Facilities & Equipment             | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 43  | Funding Sponsors                       | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 44  | Software / Code Repo                   | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 45  | Latest Project / Highlight             | 0        | 176        |   0.0% | ⚪ None
-2026-09-19 11:16:27,077 - INFO - 46  | Office Location                        | 170      | 6          |  96.6% | 🔵 Strong
-2026-09-19 11:16:27,078 - INFO - 47  | Is Field Match                         | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,078 - INFO - 48  | Directory URL                          | 176      | 0          | 100.0% | ✅ Complete
-2026-09-19 11:16:27,078 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 11:16:27,078 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
-2026-09-19 11:16:27,078 - INFO -   [OK] Active Faculty Discovery: REST API harvest of Cockrell ASE, ME, and Natural Sciences Math.
-2026-09-19 11:16:27,078 - INFO -   [OK] Zero Browser Dependency: All paper metadata and abstracts pulled via OpenAlex API & inverted indexes.
-2026-09-19 11:16:27,078 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Papers, Clickable DOIs, Tech Stack, & Tripartite Finding.
-2026-09-19 11:16:27,078 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and publisher abstracts.
-2026-09-19 11:16:27,079 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
-2026-09-19 11:16:27,079 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.xlsx
-2026-09-19 11:16:27,079 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.md
-2026-09-19 11:16:27,079 - INFO - Run Log File: D:\Others\findprofs\universities_wise\ut_austin\run.log
-2026-09-19 11:16:27,079 - INFO - ===============================================================================================
+2026-09-19 11:41:22,971 - INFO - THE UNIVERSITY OF TEXAS AT AUSTIN (ASE + ME + MATHEMATICS) PIPELINE AUDIT REPORT
+2026-09-19 11:41:22,971 - INFO - ===============================================================================================
+2026-09-19 11:41:22,971 - INFO - Total Active Faculty Extracted: 176
+2026-09-19 11:41:22,971 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion / Comp Math: 26 (Exclusively populates 'Aero Focus' Tab)
+2026-09-19 11:41:22,972 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     11
+2026-09-19 11:41:22,972 - INFO -   - [Tier 3] Structures / Materials / Mfg:         40
+2026-09-19 11:41:22,972 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       99
+2026-09-19 11:41:22,972 - INFO - Field-Matched Faculty Candidates: 101 / 176 (57.4%)
+2026-09-19 11:41:22,972 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 11:41:22,972 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
+2026-09-19 11:41:22,972 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
+2026-09-19 11:41:22,973 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 11:41:22,973 - INFO - 1   | Name                                   | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 2   | University                             | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 3   | Profile URL                            | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 4   | Google Scholar URL                     | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 5   | Job Title                              | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 6   | Department                             | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,973 - INFO - 7   | Scholar ID                             | 17       | 159        |   9.7% | 🟡 Selective
+2026-09-19 11:41:22,974 - INFO - 8   | Email                                  | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,974 - INFO - 9   | Research Tier                          | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,974 - INFO - 10  | Research Category                      | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,974 - INFO - 11  | Matched Count                          | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,974 - INFO - 12  | Matched Fields                         | 101      | 75         |  57.4% | 🔵 Strong
+2026-09-19 11:41:22,975 - INFO - 13  | Research Hook                          | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
+2026-09-19 11:41:22,975 - INFO - 14  | Tech Stack                             | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
+2026-09-19 11:41:22,975 - INFO - 15  | Flagship 1 Title                       | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,975 - INFO - 16  | Flagship 1 DOI                         | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,975 - INFO - 17  | Flagship 1 Tripartite Finding          | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,975 - INFO - 18  | Flagship 1 Abstract                    | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,976 - INFO - 19  | Flagship 2 Title                       | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,976 - INFO - 20  | Flagship 2 DOI                         | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,976 - INFO - 21  | Flagship 2 Tripartite Finding          | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,976 - INFO - 22  | Flagship 2 Abstract                    | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,976 - INFO - 23  | Flagship Paper Hook                    | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
+2026-09-19 11:41:22,976 - INFO - 24  | Flagship Paper DOI                     | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
+2026-09-19 11:41:22,976 - INFO - 25  | Physical Finding                       | 23       | 153        |  13.1% | 🟡 Selective (Tier 1 Core Aero: 23/26)
+2026-09-19 11:41:22,976 - INFO - 26  | Latest Paper / Publication             | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,976 - INFO - 27  | Recent Papers (2023-2026)              | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,977 - INFO - 28  | Top Cited Papers                       | 23       | 153        |  13.1% | 🟡 Selective
+2026-09-19 11:41:22,977 - INFO - 29  | Courses Taught                         | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,977 - INFO - 30  | Recent Awards / Honors                 | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,977 - INFO - 31  | Cold Email / Application Instructions  | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,977 - INFO - 32  | OpenAlex Research Topics               | 25       | 151        |  14.2% | 🟡 Selective
+2026-09-19 11:41:22,977 - INFO - 33  | Google Scholar Tags                    | 25       | 151        |  14.2% | 🟡 Selective
+2026-09-19 11:41:22,977 - INFO - 34  | Research Interests                     | 175      | 1          |  99.4% | 🔵 Strong
+2026-09-19 11:41:22,979 - INFO - 35  | Expertise Areas                        | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,980 - INFO - 36  | Research / Bio Summary                 | 175      | 1          |  99.4% | 🔵 Strong
+2026-09-19 11:41:22,980 - INFO - 37  | Education / Degrees                    | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,980 - INFO - 38  | Lab / Research Group Name              | 17       | 159        |   9.7% | 🟡 Selective
+2026-09-19 11:41:22,980 - INFO - 39  | Lab / Personal Website                 | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,980 - INFO - 40  | Actively Hiring / Openings             | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,980 - INFO - 41  | Target Skills / Prerequisites          | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,980 - INFO - 42  | Lab Facilities & Equipment             | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,981 - INFO - 43  | Funding Sponsors                       | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,981 - INFO - 44  | Software / Code Repo                   | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,981 - INFO - 45  | Latest Project / Highlight             | 0        | 176        |   0.0% | ⚪ None
+2026-09-19 11:41:22,981 - INFO - 46  | Office Location                        | 170      | 6          |  96.6% | 🔵 Strong
+2026-09-19 11:41:22,981 - INFO - 47  | Is Field Match                         | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,981 - INFO - 48  | Directory URL                          | 176      | 0          | 100.0% | ✅ Complete
+2026-09-19 11:41:22,981 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 11:41:22,982 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
+2026-09-19 11:41:22,982 - INFO -   [OK] Active Faculty Discovery: REST API harvest of Cockrell ASE, ME, and Natural Sciences Math.
+2026-09-19 11:41:22,982 - INFO -   [OK] Zero Browser Dependency: All paper metadata and abstracts pulled via OpenAlex API & inverted indexes.
+2026-09-19 11:41:22,982 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Papers, Clickable DOIs, Tech Stack, & Tripartite Finding.
+2026-09-19 11:41:22,982 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and publisher abstracts.
+2026-09-19 11:41:22,983 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
+2026-09-19 11:41:22,983 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.xlsx
+2026-09-19 11:41:22,983 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\ut_austin\ut_austin_aerospace_mechanical_faculty.md
+2026-09-19 11:41:22,983 - INFO - Run Log File: D:\Others\findprofs\universities_wise\ut_austin\run.log
+2026-09-19 11:41:22,983 - INFO - ===============================================================================================
