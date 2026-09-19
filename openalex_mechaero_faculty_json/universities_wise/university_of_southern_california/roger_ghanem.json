@@ -1,240 +1,273 @@
 {
   "faculty_name": "Roger Ghanem",
-  "full_name": "Roger Ghanem",
+  "full_name": "Habib N. Najm",
   "department": "Department of Aerospace and Mechanical Engineering / Sonny Astani Department of Civil and Environmental Engineering",
   "university": "University of Southern California",
-  "author_id": "A5006138292",
-  "works_count": 408,
-  "cited_by_count": 20493,
-  "h_index": 63,
+  "author_id": "A5075501406",
+  "works_count": 456,
+  "cited_by_count": 10472,
+  "h_index": 46,
   "top_topics": [
     {
       "topic": "Probabilistic and Robust Engineering Design",
-      "count": 219
+      "count": 96
     },
     {
-      "topic": "Structural Health Monitoring Techniques",
-      "count": 83
+      "topic": "Combustion and flame dynamics",
+      "count": 82
     },
     {
-      "topic": "Wind and Air Flow Studies",
-      "count": 49
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 63
     },
     {
-      "topic": "Model Reduction and Neural Networks",
-      "count": 44
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 42
     },
     {
-      "topic": "Advanced Multi-Objective Optimization Algorithms",
-      "count": 33
+      "topic": "Machine Learning in Materials Science",
+      "count": 28
     }
   ],
   "top_cited_works": [
     {
-      "title": "Stochastic Finite Elements: A Spectral Approach",
-      "publication_year": 1991,
-      "publication_date": "1991-01-01",
-      "doi": "https://doi.org/10.1007/978-1-4612-3094-6",
-      "venue": "",
-      "type": "book",
-      "cited_by_count": 5823,
+      "title": "Uncertainty Quantification and Polynomial Chaos Techniques in Computational Fluid Dynamics",
+      "publication_year": 2008,
+      "publication_date": "2008-12-19",
+      "doi": "https://doi.org/10.1146/annurev.fluid.010908.165248",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 781,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Computer science"
-      ],
-      "abstract": "",
-      "authors": [
-        "Roger Ghanem",
-        "Pol D. Spanos"
-      ]
-    },
-    {
-      "title": "Physical Systems with Random Uncertainties: Chaos Representations with Arbitrary Probability Measure",
-      "publication_year": 2004,
-      "publication_date": "2004-01-01",
-      "doi": "https://doi.org/10.1137/s1064827503424505",
-      "venue": "SIAM Journal on Scientific Computing",
-      "type": "article",
-      "cited_by_count": 601,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Measure (data warehouse)",
-        "Mathematics",
-        "Random element",
-        "Probability measure",
-        "Convergence of random variables",
         "Polynomial chaos",
-        "Space (punctuation)",
-        "Random variable"
+        "Uncertainty quantification",
+        "Computational fluid dynamics",
+        "Probabilistic logic",
+        "Computer science",
+        "Compressibility",
+        "Representation (politics)",
+        "Propagation of uncertainty"
       ],
-      "abstract": "The basic random variables on which random uncertainties can in a given model depend can be viewed as defining a measure space with respect to which the solution to the mathematical problem can be defined. This measure space is defined on a product measure associated with the collection of basic random variables. This paper clarifies the mathematical structure of this space and its relationship to the underlying spaces associated with each of the random variables. Cases of both dependent and independent basic random variables are addressed. Bases on the product space are developed that can be viewed as generalizations of the standard polynomial chaos approximation. Moreover, two numerical constructions of approximations in this space are presented along with the associated convergence analysis.",
+      "abstract": "The quantification of uncertainty in computational fluid dynamics (CFD) predictions is both a significant challenge and an important goal. Probabilistic uncertainty quantification (UQ) methods have been used to propagate uncertainty from model inputs to outputs when input uncertainties are large and have been characterized probabilistically. Polynomial chaos (PC) methods have found increased use in probabilistic UQ over the past decade. This review describes the use of PC expansions for the representation of random variables/fields and discusses their utility for the propagation of uncertainty in computational models, focusing on CFD models. Many CFD applications are considered, including flow in porous media, incompressible and compressible flows, and thermofluid and reacting flows. The review examines each application area, focusing on the demonstrated use of PC UQ and the associated challenges. Cross-cutting challenges with time unsteadiness and long time horizons are also discussed.",
       "authors": [
-        "Christian Soize",
-        "Roger Ghanem"
+        "Habib N. Najm"
       ]
     },
     {
-      "title": "Handbook of Uncertainty Quantification",
-      "publication_year": 2016,
-      "publication_date": "2016-01-01",
-      "doi": "https://doi.org/10.1007/978-3-319-11259-6",
-      "venue": "",
-      "type": "book",
-      "cited_by_count": 598,
+      "title": "On the Adequacy of Certain Experimental Observables as Measurements of Flame Burning Rate",
+      "publication_year": 1998,
+      "publication_date": "1998-05-01",
+      "doi": "https://doi.org/10.1016/s0010-2180(97)00209-5",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 537,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Uncertainty quantification",
-        "Computer science",
-        "Machine learning"
+        "Curvature",
+        "Flame structure",
+        "Chemistry",
+        "Mole fraction",
+        "Premixed flame",
+        "Analytical Chemistry (journal)",
+        "Planar laser-induced fluorescence",
+        "Thermodynamics"
       ],
       "abstract": "",
       "authors": [
+        "Habib N. Najm",
+        "Phillip H. Paul",
+        "Charles J. Mueller",
+        "Peter Wyckoff"
+      ]
+    },
+    {
+      "title": "A Stochastic Projection Method for Fluid Flow",
+      "publication_year": 2002,
+      "publication_date": "2002-09-01",
+      "doi": "https://doi.org/10.1006/jcph.2002.7104",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 497,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Uncertainty quantification",
+        "Monte Carlo method",
+        "Solver",
+        "Applied mathematics",
+        "Galerkin method",
+        "Projection (relational algebra)",
+        "Representation (politics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Olivier Le Maı̂tre",
+        "Matthew T. Reagan",
+        "Habib N. Najm",
         "Roger Ghanem",
-        "David Higdon",
-        "Houman Owhadi"
+        "Omar M. Knio"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "Generative Learning of Densities on Manifolds",
-      "publication_year": 2025,
-      "publication_date": "2025-03-05",
-      "doi": "https://doi.org/10.48550/arxiv.2503.03963",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2503.03963",
+      "title": "KinCat : Kinetic Monte Carlo Parallel Computations of Surface Kinetics in Heterogeneous Catalysis",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.1021/acs.jctc.5c01657",
+      "venue": "Journal of Chemical Theory and Computation",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Diffusion map",
-        "A priori and a posteriori",
-        "Generative model",
-        "Sampling (signal processing)",
-        "Focus (optics)",
-        "Mathematics",
-        "Artificial intelligence",
-        "Manifold (fluid mechanics)"
+        "Kinetic Monte Carlo",
+        "Monte Carlo method",
+        "Dynamic Monte Carlo method",
+        "Scaling",
+        "Statistical physics",
+        "Kinetics",
+        "Computation",
+        "Kinetic energy"
       ],
-      "abstract": "A generative modeling framework is proposed that combines diffusion models and manifold learning to efficiently sample data densities on manifolds. The approach utilizes Diffusion Maps to uncover possible low-dimensional underlying (latent) spaces in the high-dimensional data (ambient) space. Two approaches for sampling from the latent data density are described. The first is a score-based diffusion model, which is trained to map a standard normal distribution to the latent data distribution using a neural network. The second one involves solving an Itô stochastic differential equation in the latent space. Additional realizations of the data are generated by lifting the samples back to the ambient space using Double Diffusion Maps, a recently introduced technique typically employed in studying dynamical system reduction; here the focus lies in sampling densities rather than system dynamics. The proposed approaches enable sampling high dimensional data densities restricted to low-dimensional, a priori unknown manifolds. The efficacy of the proposed framework is demonstrated through a benchmark problem and a material with multiscale structure.",
+      "abstract": "Kinetic Monte Carlo (KMC) simulations are broadly used to investigate chemical and materials systems where a balance between atomic detail and diffusion or reaction time scales is needed. Here we present KinCat, an open-source 2D KMC package designed for use in lattice-KMC studies of surface kinetics in heterogeneous catalytic systems. It is written in C++ and uses Kokkos to facilitate use on a variety of shared-memory CPU/GPU/accelerator systems. We demonstrate the performance scaling of KinCat on GPU and CPU architectures, using CO oxidation on RuO 2 as a model system. KinCat efficiently manages large lattice KMC simulations using a parallel domain-decomposition algorithm.",
       "authors": [
-        "Dimitris G. Giovanis",
-        "Ellis Crabtree",
-        "Roger Ghanem",
-        "I.G. Kevrekidis"
+        "Craig Daniels",
+        "Nathan V. Roberts",
+        "Kyungjoo Kim",
+        "Habib N. Najm"
       ]
     },
     {
-      "title": "Transfer Learning for Multiscale Analysis: Delamination of Carbon-Reinforced Composite Material Exploration",
+      "title": "Bayesian Calibration of Fission Gas Diffusivity in Nuclear Fuels Using Multilevel Delayed Acceptance MCMC",
       "publication_year": 2026,
       "publication_date": "2026-01-01",
-      "doi": "https://doi.org/10.1007/978-3-032-05208-7_8",
-      "venue": "",
+      "doi": "https://doi.org/10.1007/978-3-032-10590-5_17",
+      "venue": "Springer proceedings in mathematics & statistics",
       "type": "conference-paper",
       "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Microscale chemistry",
-        "Delamination (geology)",
-        "Mesoscale meteorology",
-        "Stiffness",
-        "Materials science",
-        "Bending",
-        "Bending stiffness",
-        "Stress (linguistics)"
+        "Calibration",
+        "Bayesian probability",
+        "Environmental science",
+        "Markov chain Monte Carlo",
+        "Nuclear engineering",
+        "Thermal diffusivity",
+        "Bayesian inference",
+        "Monte Carlo method"
       ],
       "abstract": "",
       "authors": [
-        "ZHENGTAO YAO",
-        "Philippe Hawi",
-        "Venkat Aitharaju",
-        "JAY MAHISHI",
-        "Roger Ghanem"
+        "Pieterjan Robbe",
+        "Tiernan Casey",
+        "M. Cooper",
+        "Christopher Matthews",
+        "Khachik Sargsyan",
+        "David A. Andersson",
+        "Habib N. Najm"
       ]
     },
     {
-      "title": "STATISTICAL ANALYSIS OF A COMPLEX PLASMA SYSTEM FROM A SMALL NUMBER OF SIMULATIONS",
-      "publication_year": 2026,
-      "publication_date": "2026-01-01",
-      "doi": "https://doi.org/10.1615/int.j.uncertaintyquantification.2025060143",
-      "venue": "International Journal for Uncertainty Quantification",
+      "title": "A comparison of surrogate constitutive models for viscoplastic creep simulation of HT-9 steel",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.1016/j.commatsci.2025.114367",
+      "venue": "Computational Materials Science",
       "type": "article",
-      "cited_by_count": 0,
+      "cited_by_count": 3,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Statistical physics",
-        "Statistical analysis",
-        "Plasma",
-        "Computer science",
-        "Uncertainty quantification",
-        "Complex system",
-        "Monte Carlo method",
-        "Statistical model"
-      ],
-      "abstract": "This work aims to enhance the small amount of data obtained from simulations using statistical methods, in order to improve the analysis of the underlying physical properties of plasma behavior, particularly electron density and electron temperature in the boundary region of the tokamak. Electron density and electron temperature are important observables for characterizing plasma behavior in the boundary region of the tokamak, as they influence transport properties and confinement regimes. While the simulations used in this work are fully deterministic, we aim to extract statistical information by interpreting numerical simulations as samples from underlying random fields. This approach allows for the construction of marginal and joint probability density functions (PDFs) that provide physical insight beyond standard deterministic interpretation and capture key structural features of the plasma behavior in the boundary region of the tokamak, including the role of triangularity, the impact of the diffusion coefficient, and the implications for plasma behavior. Numerical simulations are performed with the Gkeyll gyrokinetic code. Despite their resolution, the computational cost li...",
-      "authors": [
-        "Gabriele La Valle",
-        "T. N. Bernard",
-        "Roger Ghanem"
-      ]
-    },
-    {
-      "title": "Physics Extraction Pods: A Framework for Localized Physical Discovery",
-      "publication_year": 2026,
-      "publication_date": "2026-01-01",
-      "doi": "https://doi.org/10.2139/ssrn.7094930",
-      "venue": "SSRN Electronic Journal",
-      "type": "preprint",
-      "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.2139/ssrn.7094930",
-      "concepts": [
-        "Interpretability",
-        "Inference",
-        "Computer science",
-        "Field (mathematics)",
-        "Closure (psychology)",
-        "Data mining",
-        "Uncertainty quantification",
-        "Machine learning"
+        "Viscoplasticity",
+        "Creep",
+        "Constitutive equation",
+        "Piecewise",
+        "Surrogate model",
+        "Deformation (meteorology)",
+        "Finite element method",
+        "Uncertainty quantification"
       ],
       "abstract": "",
       "authors": [
-        "Zheming Gou",
-        "Xiaoli Zeng",
-        "Hai Wang",
-        "Jackson Crane",
-        "Roger Ghanem"
+        "Pieterjan Robbe",
+        "Andre Ruybalid",
+        "Arun Hegde",
+        "Christophe Bonneville",
+        "Habib N. Najm",
+        "Laurent Capolungo",
+        "Cosmin Safta"
       ]
     },
     {
-      "title": "Beyond the Loss Function: Physical Knowledge Injection for Transformer-Based Learning",
-      "publication_year": 2026,
-      "publication_date": "2026-01-01",
-      "doi": "https://doi.org/10.5281/zenodo.21445958",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "article",
+      "title": "Extrapolating Phase-Field Simulations in Space and Time with Purely Convolutional Architectures",
+      "publication_year": 2025,
+      "publication_date": "2025-09-25",
+      "doi": "https://doi.org/10.48550/arxiv.2509.20770",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
       "cited_by_count": 0,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.5281/zenodo.21445958",
+      "oa_url": "https://arxiv.org/pdf/2509.20770",
       "concepts": [
-        "Transformer",
+        "Extrapolation",
+        "Computation",
         "Computer science",
-        "Identification (biology)",
-        "Engineering",
-        "Physical system",
-        "Artificial intelligence",
-        "Domain knowledge",
-        "Machine learning"
+        "Algorithm",
+        "Variable (mathematics)",
+        "Space (punctuation)",
+        "Key (lock)",
+        "Parameter space"
       ],
-      "abstract": "Transformer architectures are increasingly used throughout the physical sciences, yet there remains no generally accepted framework for incorporating established physical knowledge into their representations and objectives. We investigate how physical knowledge can be embedded into a transformer at multiple points in the learning pipeline, using hyperspectral mineral identification from NASA's Earth Surface Mineral Dust Source Investigation (EMIT) mission as a testbed.",
+      "abstract": "Phase-field models of liquid metal dealloying (LMD) can resolve rich microstructural dynamics but become intractable for large domains or long time horizons. We present a conditionally parameterized, fully convolutional U-Net surrogate that generalizes far beyond its training window in both space and time. The design integrates convolutional self-attention and physics-aware padding, while parameter conditioning enables variable time-step skipping and adaptation to diverse alloy systems. Although trained only on short, small-scale simulations, the surrogate exploits the translational invariance of convolutions to extend predictions to much longer horizons than traditional solvers. It accurately reproduces key LMD physics, with relative errors typically under 5% within the training regime and below 10% when extrapolating to larger domains and later times. The method accelerates computations by up to 16,000 times, cutting weeks of simulation down to seconds, and marks an early step toward scalable, high-fidelity extrapolation of LMD phase-field models.",
       "authors": [
-        "Roger Ghanem"
+        "Christophe Bonneville",
+        "Nathan Bieberdorf",
+        "Pieterjan Robbe",
+        "Mark Asta",
+        "Habib N. Najm",
+        "Laurent Capolungo",
+        "Cosmin Safta"
+      ]
+    },
+    {
+      "title": "Bayesian Calibration of UO 2 Creep Rates as a Tool for Accelerated Fuel Qualification",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1080/00295450.2025.2505813",
+      "venue": "Nuclear Technology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Nuclear engineering",
+        "Creep",
+        "Materials science",
+        "Bayesian probability",
+        "Environmental science",
+        "Nuclear fuel",
+        "Research reactor"
+      ],
+      "abstract": "Mechanistic models informed by lower-length-scale simulations have a role to play in accelerating fuel qualification by enabling the use of separate effects tests to reduce uncertainty on model parameters that impact the predictions of in-reactor performance. For this to succeed, statistical analysis techniques (e.g. Bayesian inference) must be exercised on the mechanistic models to determine parameter uncertainties that are based on evidence (experiments).Here, we employ Bayesian inference on an atomic-scale-informed model for UO2 creep using literature experimental data. Pellet creep plays a significant role in pellet-cladding mechanical interactions, which affect fuel performance. The objective is to infer probability distributions on the atomic-scale parameters used in the model, while accounting for experimental uncertainties and unknowns. The approach requires many evaluations of the model, which becomes computationally insurmountable; therefore, a neural network model is trained to data obtained by sampling the full model over the most important parameters. This machine-learning model is then used in the Bayesian inference approach to determine probability distributions i...",
+      "authors": [
+        "Conor Galvin",
+        "Anton Schneider",
+        "P. Robbe",
+        "M. Cooper",
+        "William D. Neilson",
+        "Antoine Claisse",
+        "Christopher R. Matthews",
+        "Tiernan Casey",
+        "Khachik Sargsyan",
+        "Habib N. Najm",
+        "David A. Andersson"
       ]
     }
   ]

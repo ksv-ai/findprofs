@@ -3,285 +3,194 @@
   "full_name": "Xiaowei He",
   "department": "Department of Mechanical Engineering",
   "university": "University of Utah",
-  "author_id": "A5060690411",
-  "works_count": 322,
-  "cited_by_count": 6862,
-  "h_index": 43,
+  "author_id": "A5035637848",
+  "works_count": 21,
+  "cited_by_count": 127,
+  "h_index": 8,
   "top_topics": [
     {
-      "topic": "Optical Imaging and Spectroscopy Techniques",
-      "count": 116
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 15
     },
     {
-      "topic": "Photoacoustic and Ultrasonic Imaging",
-      "count": 99
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 11
     },
     {
-      "topic": "Spectroscopy Techniques in Biomedical and Chemical Research",
-      "count": 30
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 6
     },
     {
-      "topic": "Food composition and properties",
-      "count": 28
+      "topic": "Wind and Air Flow Studies",
+      "count": 6
     },
     {
-      "topic": "Medical Imaging Techniques and Applications",
-      "count": 28
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 6
     }
   ],
   "top_cited_works": [
     {
-      "title": "Phosphorylation of Serine 256 by Protein Kinase B Disrupts Transactivation by FKHR and Mediates Effects of Insulin on Insulin-like Growth Factor-binding Protein-1 Promoter Activity through a Conserved Insulin Response Sequence",
-      "publication_year": 1999,
-      "publication_date": "1999-06-01",
-      "doi": "https://doi.org/10.1074/jbc.274.24.17184",
-      "venue": "Journal of Biological Chemistry",
-      "type": "article",
-      "cited_by_count": 544,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.1074/jbc.274.24.17184",
-      "concepts": [
-        "Transactivation",
-        "Biology",
-        "Protein kinase B",
-        "Insulin",
-        "Insulin receptor",
-        "Transcription factor",
-        "GRB10",
-        "Promoter"
-      ],
-      "abstract": "Insulin inhibits the expression of multiple genes in the liver containing an insulin response sequence (IRS) (CAAAA(C/T)AA), and we have reported that protein kinase B (PKB) mediates this effect of insulin. Genetic studies in Caenorhabditis elegans indicate that daf-16, a forkhead/winged-helix transcription factor, is a major target of the insulin receptor-PKB signaling pathway. FKHR, a human homologue of daf-16, contains three PKB sites and is expressed in the liver. Reporter gene studies in HepG2 hepatoma cells show that FKHR stimulates insulin-like growth factor-binding protein-1 promoter activity through an IRS, and introduction of IRSs confers this effect on a heterologous promoter. Insulin disrupts IRS-dependent transactivation by FKHR, and phosphorylation of Ser-256 by PKB is necessary and sufficient to mediate this effect. Antisense studies indicate that FKHR contributes to basal promoter function and is required to mediate effects of insulin and PKB on promoter activity via an IRS. To our knowledge, these results provide the first report that FKHR stimulates promoter activity through an IRS and that phosphorylation of FKHR by PKB mediates effects of insulin on gene expr...",
-      "authors": [
-        "Shaodong Guo",
-        "Graham Rena",
-        "Stephen B. Cichy",
-        "Xiaowei He",
-        "Philip Cohen",
-        "Terry G. Unterman"
-      ]
-    },
-    {
-      "title": "In vitro colonic fermentation of dietary fibers: Fermentation rate, short-chain fatty acid production and changes in microbiota",
+      "title": "Dynamic Behavior and Gust Simulation in an Unsteady Flow Wind Tunnel",
       "publication_year": 2019,
-      "publication_date": "2019-03-12",
-      "doi": "https://doi.org/10.1016/j.tifs.2019.03.005",
-      "venue": "Trends in Food Science & Technology",
+      "publication_date": "2019-01-29",
+      "doi": "https://doi.org/10.2514/1.j057186",
+      "venue": "AIAA Journal",
       "type": "article",
-      "cited_by_count": 520,
+      "cited_by_count": 22,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Fermentation",
-        "Propionate",
-        "Butyrate",
-        "Food science",
-        "Gut flora",
-        "Butyric acid",
-        "Fatty acid",
-        "Short-chain fatty acid"
+        "Wind tunnel",
+        "Hypersonic wind tunnel",
+        "Louver",
+        "Supersonic wind tunnel",
+        "Wind speed",
+        "Subsonic and transonic wind tunnel",
+        "Flow (mathematics)",
+        "Mechanics"
       ],
-      "abstract": "",
+      "abstract": "Rapid oscillations of test-section flow velocity can be generated in a wind tunnel using flow-control louvers installed in the wind-tunnel circuit; however, control of the test-section velocity must still account for the dynamic behavior of the wind tunnel itself. In this paper, the dynamic behavior of a low-speed closed-circuit wind tunnel in response to dynamic louver excitation is examined using an experimentally validated method-of-characteristics modeling approach. The model is used to develop and test a method of controlling the louver motions to simulate longitudinal gusts with a von Kármán gust spectrum for length scales from 0.1 to 10 m. Results showing improvement of the wind-tunnel dynamic behavior using a Helmholtz resonator are also presented.",
       "authors": [
-        "Miaomiao Wang",
-        "Santad Wichienchot",
-        "Xiaowei He",
-        "Xiong Fu",
-        "Qiang Huang",
-        "Bin Zhang"
+        "R. Mark Rennie",
+        "Brian Catron",
+        "Muhammad Zubair Feroz",
+        "David R. Williams",
+        "Xiaowei He"
       ]
     },
     {
-      "title": "Phosphorylation of Serine 256 Suppresses Transactivation by FKHR (FOXO1) by Multiple Mechanisms",
-      "publication_year": 2002,
-      "publication_date": "2002-11-01",
-      "doi": "https://doi.org/10.1074/jbc.m208063200",
-      "venue": "Journal of Biological Chemistry",
+      "title": "Spectral feedback control of turbulent spectra in a wind tunnel",
+      "publication_year": 2020,
+      "publication_date": "2020-07-17",
+      "doi": "https://doi.org/10.1007/s00348-020-03003-8",
+      "venue": "Experiments in Fluids",
       "type": "article",
-      "cited_by_count": 295,
-      "is_oa": true,
-      "oa_url": "http://www.jbc.org/article/S0021925819716329/pdf",
+      "cited_by_count": 15,
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Phosphorylation",
-        "Transactivation",
-        "Transcription factor",
-        "FOXO1",
-        "Biology",
-        "Phosphorylation cascade",
-        "Proto-Oncogene Proteins c-akt",
-        "Serine"
+        "Wind tunnel",
+        "Turbulence",
+        "Spectral line",
+        "Feedback control",
+        "Meteorology",
+        "Environmental science",
+        "Mechanics",
+        "Aerospace engineering"
       ],
-      "abstract": "FKHR is a member of the FOXO subfamily of Forkhead transcription factors, which are important targets for insulin and growth factor signaling. FKHR contains three predicted protein kinase B phosphorylation sites (Thr-24, Ser-256, and Ser-319) that are conserved in other FOXO proteins. We have reported that phosphorylation of Ser-256 is critical for the ability of insulin and insulin-like growth factors to suppress transactivation by FKHR (Guo, S., Rena, G., Cichy, S., He, X., Cohen, P., and Unterman, T. (1999) J. Biol. Chem. 274, 17184-17192) and for its exclusion from the nucleus (Rena, G., Prescott, A. R., Guo, S., Cohen, P., and Unterman, T. G. (2001) Biochem. J. 354, 605-612). Ser-256 is located in a basic region of the FKHR DNA binding domain where phosphorylation may have direct effects on DNA binding and/or nuclear targeting. Phosphorylation of Ser-256 may also be required for the phosphorylation of Thr-24 and Ser-319. Here, we provide the first direct evidence that basic residues in the FKHR DNA binding domain are critical for DNA binding and that Ser-256 phosphorylation alters binding activity. Ser-256 phosphorylation also is critical for regulating nuclear/cytoplasmic ...",
+      "abstract": "",
       "authors": [
-        "Xiaohui Zhang",
-        "Lixia Gan",
-        "Haiyun Pan",
-        "Shaodong Guo",
         "Xiaowei He",
-        "Steven T. Olson",
-        "Andrew D. Mesecar",
-        "Stephen A. Adam",
-        "Terry G. Unterman"
+        "David R. Williams"
+      ]
+    },
+    {
+      "title": "Real-time Roll and Pitching Moment Identification with Distributed Surface Pressure Sensors on a UCAS Wing",
+      "publication_year": 2018,
+      "publication_date": "2018-01-07",
+      "doi": "https://doi.org/10.2514/6.2018-0326",
+      "venue": "2018  AIAA Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 15,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Moment (physics)",
+        "Identification (biology)",
+        "Pressure sensor",
+        "Pressure measurement",
+        "Computer science",
+        "Aerospace engineering",
+        "Acoustics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mathieu Le Provost",
+        "Xiaowei He",
+        "David R. Williams"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "CS-YOLO:A small object detection model based on YOLO for UAV aerial photography",
+      "title": "Maneuvering of an Underwater Vehicle Using Bio-Inspired Pectoral Fins",
+      "publication_year": 2026,
+      "publication_date": "2026-06-26",
+      "doi": "https://doi.org/10.3390/biomimetics11070447",
+      "venue": "Biomimetics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2313-7673/11/7/447/pdf?version=1782459776",
+      "concepts": [
+        "Strouhal number",
+        "Flapping",
+        "Physics",
+        "Mechanics",
+        "Underwater",
+        "Thrust",
+        "Marine engineering",
+        "Water tunnel"
+      ],
+      "abstract": "A cyber-physical underwater vehicle is equipped with bio-inspired flapping fins positioned on the sides of the vehicle's main body. The proposed control surfaces are inspired by fish pectoral fins, generating forces and moments that can potentially be harnessed for maneuvering, hovering and station keeping. The streamwise and cross-stream forces produced by the fins are characterized for a range of reduced frequencies and Strouhal numbers. The streamwise forces are shown to be predominantly a function of the fin's projected frontal area, while the lateral forces also depend on the Strouhal number. When operated simultaneously, different flapping synchronizations can be employed for specific goals; a symmetric motion suppresses the lateral forces, while an anti-symmetric motion decreases the peaks of the streamwise force produced. The cyber-physical vehicle demonstrates how the pair of fins can successfully maneuver the vehicle in the lateral direction.",
+      "authors": [
+        "Pedro C. Ormonde",
+        "Xiaowei He",
+        "Kenneth Breuer"
+      ]
+    },
+    {
+      "title": "Loads and Pressure Characteristics on a Wing in Transverse Traveling-Wave Gusts",
       "publication_year": 2025,
-      "publication_date": "2025-12-24",
-      "doi": "https://doi.org/10.1016/j.image.2025.117460",
-      "venue": "Signal Processing Image Communication",
+      "publication_date": "2025-04-15",
+      "doi": "https://doi.org/10.2514/1.j064786",
+      "venue": "AIAA Journal",
       "type": "article",
-      "cited_by_count": 7,
+      "cited_by_count": 1,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Artificial intelligence",
-        "Computer vision",
-        "Computer science",
-        "Aerial image",
-        "Object detection",
-        "Feature (linguistics)",
-        "Interpolation (computer graphics)",
-        "Focus (optics)"
+        "Transverse plane",
+        "Wing",
+        "Mechanics",
+        "Traveling wave",
+        "Physics",
+        "Geology",
+        "Aerospace engineering",
+        "Acoustics"
       ],
-      "abstract": "",
+      "abstract": "A finite-span NACA0009 wing is tested in the Andrew Fejer Unsteady Wind Tunnel to study the aerodynamic loads and surface pressure features during transverse gust encounters. Under traveling-wave perturbations, the lift and pitching moment responses of the wing demonstrate a dependency on the effective angular rate and the suction distributions affected by flow separation. Sparse surface pressure measurements are used to develop reduced-order models based on a proper orthogonal decomposition (POD) approach. The spatial integrals connect the POD modes to the unsteady aerodynamic loads with a physical interpretation. The lift and pitching moment estimations made by the modes show reasonable correlations with experimental measurements. An improvement of this approach is pre-examined with simulation data, suggesting that the POD spatial integrals can achieve higher performance with pressure data available on both the suction and pressure sides of the wing.",
       "authors": [
-        "Rui Fan",
-        "Renhao Jiao",
-        "Weigui Nan",
-        "Haitao Meng",
-        "Abin Jiang",
-        "Xiaojia Yang",
-        "Zhiqiang Zhao",
-        "Jin Dang",
-        "Zhixue Wang",
-        "Yanshan Tian",
-        "Baiying Dong",
         "Xiaowei He",
-        "Xiaoli Luo"
+        "David R. Williams"
       ]
     },
     {
-      "title": "Synthetic microbial communities reveal the mechanisms of fungus–bacterium metabolic interactions regulating exopolysaccharide production in Viili",
-      "publication_year": 2026,
-      "publication_date": "2026-06-24",
-      "doi": "https://doi.org/10.1016/j.ijfoodmicro.2026.111922",
-      "venue": "International Journal of Food Microbiology",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Biology",
-        "Bacteria",
-        "Chemistry",
-        "Biochemistry",
-        "Production (economics)",
-        "Food science",
-        "Metabolic pathway",
-        "Microbial metabolism"
-      ],
-      "abstract": "",
-      "authors": [
-        "Xiaoran Hu",
-        "Kemin Mao",
-        "Xiaowei He",
-        "Xiaoxuan Cao",
-        "J Zhang",
-        "Jie Gao",
-        "Bimal Chitrakar",
-        "Yaxin Sang"
-      ]
-    },
-    {
-      "title": "HLMIS : A high resolution large field microscopic imaging system",
-      "publication_year": 2026,
-      "publication_date": "2026-06-16",
-      "doi": "https://doi.org/10.1016/j.optlaseng.2026.109950",
-      "venue": "Optics and Lasers in Engineering",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Image stitching",
-        "Computer science",
-        "Computer vision",
-        "Microscopy",
-        "Artificial intelligence",
-        "Matching (statistics)",
-        "Resolution (logic)",
-        "High resolution"
-      ],
-      "abstract": "",
-      "authors": [
-        "Xuan Liu",
-        "Yutian Ma",
-        "Pengwei Han",
-        "Yuxuan Lu",
-        "Xiaowei He",
-        "Sheng Tang"
-      ]
-    },
-    {
-      "title": "Fuzzy Membership-Enhanced Uncertainty-Aware Fusion for Multi-View Classification",
-      "publication_year": 2026,
-      "publication_date": "2026-04-21",
-      "doi": "https://doi.org/10.1109/icassp55912.2026.11462206",
+      "title": "Transverse gust generation in a wind tunnel: a suction-driven approach, Determining surface pressure from skin friction",
+      "publication_year": 2023,
+      "publication_date": "2023-01-10",
+      "doi": "https://doi.org/10.52843/cassyni.y09zsm",
       "venue": "",
-      "type": "conference-paper",
+      "type": "other",
       "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Artificial intelligence",
-        "Computer science",
-        "Fuzzy logic",
-        "Pattern recognition (psychology)",
-        "Sensor fusion",
-        "Algorithm",
-        "Fusion",
-        "Data mining"
+        "Mechanics",
+        "Wind tunnel",
+        "Parasitic drag",
+        "Suction",
+        "Turbulence",
+        "Transverse plane",
+        "Duct (anatomy)",
+        "Physics"
       ],
-      "abstract": "",
+      "abstract": "Transverse gust generation in a wind tunnel: a suction-driven approach The Andrew Fejer Unsteady Wind Tunnel was modified to add a suction duct on top of the test section to generate a vertical velocity component (cross flow). The suction produced on the top was distributed by the individually controlled louvers at the inlet of the suction duct so that the velocity components in the test section vary both temporally and spatially. Steady and traveling-wave transverse flows were generated in the test section. We present theoretical models for the unsteady flow field generated by this configuration and validate these models with experimental measurements. The results indicated that the transverse gusts generated in the test section were essentially irrotational, and a potential flow model makes relatively accurate predictions of the flow field. The suction-driven approach greatly reduced the turbulence level in the flow field relative to jet-driven cross flow approaches, and demonstrated high levels of repeatability. Traveling waves in 1−cos form were generated and showed evident influence on the flow angle of attack. Determining surface pressure from skin friction This paper pres...",
       "authors": [
-        "Zijian Tang",
-        "Yuqing Hou",
-        "Xuelei He",
         "Xiaowei He",
-        "Fengjun Zhao"
-      ]
-    },
-    {
-      "title": "Dynamic fluorescence molecular tomography via attention-incorporated spatio-temporal graph convolutional neural network",
-      "publication_year": 2026,
-      "publication_date": "2026-02-16",
-      "doi": "https://doi.org/10.1016/j.bspc.2026.109925",
-      "venue": "Biomedical Signal Processing and Control",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Computer science",
-        "Convolutional neural network",
-        "Artificial intelligence",
-        "Convolution (computer science)",
-        "Graph",
-        "Pattern recognition (psychology)",
-        "Adjacency list",
-        "Feature (linguistics)"
-      ],
-      "abstract": "",
-      "authors": [
-        "Liuyuan Zhang",
-        "Xin Zhao",
-        "Chunyu Qiu",
-        "Jia Li",
-        "Xiaowei He",
-        "Xiaowei He",
-        "Hongbo Guo"
+        "Tianshu Liu"
       ]
     }
   ]

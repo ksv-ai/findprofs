@@ -1,243 +1,273 @@
 {
   "faculty_name": "Youssef M. Marzouk",
-  "full_name": "Youssef Marzouk",
+  "full_name": "Habib N. Najm",
   "department": "Department of Aeronautics and Astronautics / CCSE",
   "university": "Massachusetts Institute of Technology",
-  "author_id": "A5071702167",
-  "works_count": 335,
-  "cited_by_count": 6194,
-  "h_index": 38,
+  "author_id": "A5075501406",
+  "works_count": 456,
+  "cited_by_count": 10472,
+  "h_index": 46,
   "top_topics": [
     {
-      "topic": "Gaussian Processes and Bayesian Inference",
-      "count": 78
-    },
-    {
-      "topic": "Markov Chains and Monte Carlo Methods",
-      "count": 74
-    },
-    {
       "topic": "Probabilistic and Robust Engineering Design",
-      "count": 67
+      "count": 96
     },
     {
-      "topic": "Statistical Methods and Inference",
+      "topic": "Combustion and flame dynamics",
+      "count": 82
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 63
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
       "count": 42
     },
     {
-      "topic": "Model Reduction and Neural Networks",
-      "count": 31
+      "topic": "Machine Learning in Materials Science",
+      "count": 28
     }
   ],
   "top_cited_works": [
     {
-      "title": "Stochastic spectral methods for efficient Bayesian solution of inverse problems",
-      "publication_year": 2006,
-      "publication_date": "2006-11-28",
-      "doi": "https://doi.org/10.1016/j.jcp.2006.10.010",
-      "venue": "Journal of Computational Physics",
-      "type": "article",
-      "cited_by_count": 469,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Polynomial chaos",
-        "Bayesian probability",
-        "Monte Carlo method",
-        "Applied mathematics",
-        "Inverse problem",
-        "Mathematics",
-        "Bayesian inference",
-        "Mathematical optimization"
-      ],
-      "abstract": "",
-      "authors": [
-        "Youssef Marzouk",
-        "Habib N. Najm",
-        "Larry A. Rahn"
-      ]
-    },
-    {
-      "title": "Simulation-based optimal Bayesian experimental design for nonlinear systems",
-      "publication_year": 2012,
-      "publication_date": "2012-09-04",
-      "doi": "https://doi.org/10.1016/j.jcp.2012.08.013",
-      "venue": "Journal of Computational Physics",
-      "type": "article",
-      "cited_by_count": 464,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/1108.4146",
-      "concepts": [
-        "Mathematical optimization",
-        "Computer science",
-        "Nonlinear system",
-        "Bayesian inference",
-        "Inference",
-        "Monte Carlo method",
-        "Polynomial chaos",
-        "Bayesian probability"
-      ],
-      "abstract": "",
-      "authors": [
-        "Xun Huan",
-        "Youssef Marzouk"
-      ]
-    },
-    {
-      "title": "Dimensionality reduction and polynomial chaos acceleration of Bayesian inference in inverse problems",
+      "title": "Uncertainty Quantification and Polynomial Chaos Techniques in Computational Fluid Dynamics",
       "publication_year": 2008,
-      "publication_date": "2008-12-09",
-      "doi": "https://doi.org/10.1016/j.jcp.2008.11.024",
-      "venue": "Journal of Computational Physics",
-      "type": "article",
-      "cited_by_count": 430,
+      "publication_date": "2008-12-19",
+      "doi": "https://doi.org/10.1146/annurev.fluid.010908.165248",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 781,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
         "Polynomial chaos",
-        "Applied mathematics",
-        "Dimensionality reduction",
-        "Mathematics",
-        "Curse of dimensionality",
-        "Inverse problem",
-        "Bayesian probability",
-        "Context (archaeology)"
+        "Uncertainty quantification",
+        "Computational fluid dynamics",
+        "Probabilistic logic",
+        "Computer science",
+        "Compressibility",
+        "Representation (politics)",
+        "Propagation of uncertainty"
+      ],
+      "abstract": "The quantification of uncertainty in computational fluid dynamics (CFD) predictions is both a significant challenge and an important goal. Probabilistic uncertainty quantification (UQ) methods have been used to propagate uncertainty from model inputs to outputs when input uncertainties are large and have been characterized probabilistically. Polynomial chaos (PC) methods have found increased use in probabilistic UQ over the past decade. This review describes the use of PC expansions for the representation of random variables/fields and discusses their utility for the propagation of uncertainty in computational models, focusing on CFD models. Many CFD applications are considered, including flow in porous media, incompressible and compressible flows, and thermofluid and reacting flows. The review examines each application area, focusing on the demonstrated use of PC UQ and the associated challenges. Cross-cutting challenges with time unsteadiness and long time horizons are also discussed.",
+      "authors": [
+        "Habib N. Najm"
+      ]
+    },
+    {
+      "title": "On the Adequacy of Certain Experimental Observables as Measurements of Flame Burning Rate",
+      "publication_year": 1998,
+      "publication_date": "1998-05-01",
+      "doi": "https://doi.org/10.1016/s0010-2180(97)00209-5",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 537,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvature",
+        "Flame structure",
+        "Chemistry",
+        "Mole fraction",
+        "Premixed flame",
+        "Analytical Chemistry (journal)",
+        "Planar laser-induced fluorescence",
+        "Thermodynamics"
       ],
       "abstract": "",
       "authors": [
-        "Youssef Marzouk",
-        "Habib N. Najm"
+        "Habib N. Najm",
+        "Phillip H. Paul",
+        "Charles J. Mueller",
+        "Peter Wyckoff"
+      ]
+    },
+    {
+      "title": "A Stochastic Projection Method for Fluid Flow",
+      "publication_year": 2002,
+      "publication_date": "2002-09-01",
+      "doi": "https://doi.org/10.1006/jcph.2002.7104",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 497,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Uncertainty quantification",
+        "Monte Carlo method",
+        "Solver",
+        "Applied mathematics",
+        "Galerkin method",
+        "Projection (relational algebra)",
+        "Representation (politics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Olivier Le Maı̂tre",
+        "Matthew T. Reagan",
+        "Habib N. Najm",
+        "Roger Ghanem",
+        "Omar M. Knio"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "Preserving linear invariants in ensemble filtering methods",
+      "title": "KinCat : Kinetic Monte Carlo Parallel Computations of Surface Kinetics in Heterogeneous Catalysis",
       "publication_year": 2026,
-      "publication_date": "2026-05-21",
-      "doi": "https://doi.org/10.1016/j.jcp.2026.115048",
-      "venue": "Journal of Computational Physics",
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.1021/acs.jctc.5c01657",
+      "venue": "Journal of Chemical Theory and Computation",
       "type": "article",
-      "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.1016/j.jcp.2026.115048",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Computer science",
-        "Mathematics",
-        "Artificial intelligence"
+        "Kinetic Monte Carlo",
+        "Monte Carlo method",
+        "Dynamic Monte Carlo method",
+        "Scaling",
+        "Statistical physics",
+        "Kinetics",
+        "Computation",
+        "Kinetic energy"
       ],
-      "abstract": "Data assimilation combines dynamical models with observations to improve state estimates. Ensemble filters sequentially assimilate observations by updating a set of samples over time, alternating between a forecast and an analysis step. Accurate and robust predictions often require preserving critical invariants such as mass, stoichiometric balance of chemical species, and electrical charge. While modern numerical solvers maintain these invariants, existing invariant-preserving analysis steps are limited to Gaussian settings. Furthermore, they can be incompatible with regularization techniques such as inflation and covariance tapering. In this work, we focus on preserving linear invariants in non-Gaussian filtering problems. Leveraging tools from measure transport theory, we introduce a novel class of nonlinear ensemble filters that preserve any desired linear invariants. Notably, we recover a constrained formulation of the Kalman filter for the special case of the Gaussian setting. We also demonstrate how to combine preserving invariants with regularization techniques in the ensemble Kalman filter. Numerical experiments illustrate the benefits of preserving linear invariants in...",
+      "abstract": "Kinetic Monte Carlo (KMC) simulations are broadly used to investigate chemical and materials systems where a balance between atomic detail and diffusion or reaction time scales is needed. Here we present KinCat, an open-source 2D KMC package designed for use in lattice-KMC studies of surface kinetics in heterogeneous catalytic systems. It is written in C++ and uses Kokkos to facilitate use on a variety of shared-memory CPU/GPU/accelerator systems. We demonstrate the performance scaling of KinCat on GPU and CPU architectures, using CO oxidation on RuO 2 as a model system. KinCat efficiently manages large lattice KMC simulations using a parallel domain-decomposition algorithm.",
       "authors": [
-        "Mathieu Le Provost",
-        "Jan Glaubitz",
-        "Youssef Marzouk"
+        "Craig Daniels",
+        "Nathan V. Roberts",
+        "Kyungjoo Kim",
+        "Habib N. Najm"
       ]
     },
     {
-      "title": "To discretize continually: Mean shift interacting particle systems for Bayesian inference",
+      "title": "Bayesian Calibration of Fission Gas Diffusivity in Nuclear Fuels Using Multilevel Delayed Acceptance MCMC",
       "publication_year": 2026,
-      "publication_date": "2026-05-13",
-      "doi": "https://doi.org/10.48550/arxiv.2605.14142",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-10590-5_17",
+      "venue": "Springer proceedings in mathematics & statistics",
+      "type": "conference-paper",
       "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.48550/arxiv.2605.14142",
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Mathematics",
-        "Discretization",
+        "Calibration",
         "Bayesian probability",
-        "Particle filter",
+        "Environmental science",
+        "Markov chain Monte Carlo",
+        "Nuclear engineering",
+        "Thermal diffusivity",
         "Bayesian inference",
-        "Algorithm",
-        "Applied mathematics",
-        "Inference"
+        "Monte Carlo method"
       ],
-      "abstract": "Integration against a probability distribution given its unnormalized density is a central task in Bayesian inference and other fields. We introduce new methods for approximating such expectations with a small set of weighted samples -- i.e., a quadrature rule -- constructed via an interacting particle system that minimizes maximum mean discrepancy (MMD) to the target distribution. These methods extend the classical mean shift algorithm, as well as recent algorithms for optimal quantization of empirical distributions, to the case of continuous distributions. Crucially, our approach creates dynamics for MMD minimization that are invariant to the unknown normalizing constant; they also admit both gradient-free and gradient-informed implementations. The resulting mean shift interacting particle systems converge quickly, capture anisotropy and multi-modality, avoid mode collapse, and scale to high dimensions. We demonstrate their performance on a wide range of benchmark sampling problems, including multi-modal mixtures, Bayesian hierarchical models, PDE-constrained inverse problems, and beyond.",
+      "abstract": "",
       "authors": [
-        "Ayoub Belhadji",
-        "Daniel Sharp",
-        "Youssef Marzouk"
+        "Pieterjan Robbe",
+        "Tiernan Casey",
+        "M. Cooper",
+        "Christopher Matthews",
+        "Khachik Sargsyan",
+        "David A. Andersson",
+        "Habib N. Najm"
       ]
     },
     {
-      "title": "To discretize continually: Mean shift interacting particle systems for Bayesian inference",
-      "publication_year": 2026,
-      "publication_date": "2026-05-13",
-      "doi": "https://arxiv.org/abs/2605.14142",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2605.14142",
-      "concepts": [
-        "Mathematics",
-        "Discretization",
-        "Bayesian probability",
-        "Particle filter",
-        "Bayesian inference",
-        "Algorithm",
-        "Applied mathematics",
-        "Inference"
-      ],
-      "abstract": "Integration against a probability distribution given its unnormalized density is a central task in Bayesian inference and other fields. We introduce new methods for approximating such expectations with a small set of weighted samples -- i.e., a quadrature rule -- constructed via an interacting particle system that minimizes maximum mean discrepancy (MMD) to the target distribution. These methods extend the classical mean shift algorithm, as well as recent algorithms for optimal quantization of empirical distributions, to the case of continuous distributions. Crucially, our approach creates dynamics for MMD minimization that are invariant to the unknown normalizing constant; they also admit both gradient-free and gradient-informed implementations. The resulting mean shift interacting particle systems converge quickly, capture anisotropy and multi-modality, avoid mode collapse, and scale to high dimensions. We demonstrate their performance on a wide range of benchmark sampling problems, including multi-modal mixtures, Bayesian hierarchical models, PDE-constrained inverse problems, and beyond.",
-      "authors": [
-        "Ayoub Belhadji",
-        "Daniel Sharp",
-        "Youssef Marzouk"
-      ]
-    },
-    {
-      "title": "Data Curation for Machine Learning Interatomic Potentials by Determinantal Point Processes",
-      "publication_year": 2026,
-      "publication_date": "2026-03-23",
-      "doi": "http://arxiv.org/abs/2603.22160",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2603.22160",
-      "concepts": [
-        "Bottleneck",
-        "Computer science",
-        "Artificial intelligence",
-        "Machine learning",
-        "Robustness (evolution)",
-        "Training set",
-        "Data point",
-        "Task (project management)"
-      ],
-      "abstract": "The development of machine learning interatomic potentials faces a critical computational bottleneck with the generation and labeling of useful training datasets. We present a novel application of determinantal point processes (DPPs) to the task of selecting informative subsets of atomic configurations to label with reference energies and forces from costly quantum mechanical methods. Through experiments with hafnium oxide data, we show that DPPs are competitive with existing approaches to constructing compact but diverse training sets by utilizing kernels of molecular descriptors, leading to improved accuracy and robustness in machine learning representations of molecular systems. Our work identifies promising directions to employ DPPs for unsupervised training data curation with heterogeneous or multimodal data, or in online active learning schemes for iterative data augmentation during molecular dynamics simulation.",
-      "authors": [
-        "Joanna Zou",
-        "Youssef Marzouk"
-      ]
-    },
-    {
-      "title": "Learning Paths for Dynamic Measure Transport: A Control Perspective",
+      "title": "A comparison of surrogate constitutive models for viscoplastic creep simulation of HT-9 steel",
       "publication_year": 2025,
-      "publication_date": "2025-11-05",
-      "doi": "https://doi.org/10.48550/arxiv.2511.03797",
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.1016/j.commatsci.2025.114367",
+      "venue": "Computational Materials Science",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Viscoplasticity",
+        "Creep",
+        "Constitutive equation",
+        "Piecewise",
+        "Surrogate model",
+        "Deformation (meteorology)",
+        "Finite element method",
+        "Uncertainty quantification"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pieterjan Robbe",
+        "Andre Ruybalid",
+        "Arun Hegde",
+        "Christophe Bonneville",
+        "Habib N. Najm",
+        "Laurent Capolungo",
+        "Cosmin Safta"
+      ]
+    },
+    {
+      "title": "Extrapolating Phase-Field Simulations in Space and Time with Purely Convolutional Architectures",
+      "publication_year": 2025,
+      "publication_date": "2025-09-25",
+      "doi": "https://doi.org/10.48550/arxiv.2509.20770",
       "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "cited_by_count": 0,
       "is_oa": true,
-      "oa_url": "https://arxiv.org/pdf/2511.03797",
+      "oa_url": "https://arxiv.org/pdf/2509.20770",
       "concepts": [
-        "Measure (data warehouse)",
-        "Perspective (graphical)",
-        "Smoothness",
-        "Process (computing)",
-        "Control (management)",
-        "Gaussian process",
+        "Extrapolation",
+        "Computation",
         "Computer science",
-        "Mathematical optimization"
+        "Algorithm",
+        "Variable (mathematics)",
+        "Space (punctuation)",
+        "Key (lock)",
+        "Parameter space"
       ],
-      "abstract": "We bring a control perspective to the problem of identifying paths of measures for sampling via dynamic measure transport (DMT). We highlight the fact that commonly used paths may be poor choices for DMT and connect existing methods for learning alternate paths to mean-field games. Based on these connections we pose a flexible family of optimization problems for identifying tilted paths of measures for DMT and advocate for the use of objective terms which encourage smoothness of the corresponding velocities. We present a numerical algorithm for solving these problems based on recent Gaussian process methods for solution of partial differential equations and demonstrate the ability of our method to recover more efficient and smooth transport models compared to those which use an untilted reference path.",
+      "abstract": "Phase-field models of liquid metal dealloying (LMD) can resolve rich microstructural dynamics but become intractable for large domains or long time horizons. We present a conditionally parameterized, fully convolutional U-Net surrogate that generalizes far beyond its training window in both space and time. The design integrates convolutional self-attention and physics-aware padding, while parameter conditioning enables variable time-step skipping and adaptation to diverse alloy systems. Although trained only on short, small-scale simulations, the surrogate exploits the translational invariance of convolutions to extend predictions to much longer horizons than traditional solvers. It accurately reproduces key LMD physics, with relative errors typically under 5% within the training regime and below 10% when extrapolating to larger domains and later times. The method accelerates computations by up to 16,000 times, cutting weeks of simulation down to seconds, and marks an early step toward scalable, high-fidelity extrapolation of LMD phase-field models.",
       "authors": [
-        "Aimee Maurais",
-        "Bamdad Hosseini",
-        "Youssef Marzouk"
+        "Christophe Bonneville",
+        "Nathan Bieberdorf",
+        "Pieterjan Robbe",
+        "Mark Asta",
+        "Habib N. Najm",
+        "Laurent Capolungo",
+        "Cosmin Safta"
+      ]
+    },
+    {
+      "title": "Bayesian Calibration of UO 2 Creep Rates as a Tool for Accelerated Fuel Qualification",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1080/00295450.2025.2505813",
+      "venue": "Nuclear Technology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Nuclear engineering",
+        "Creep",
+        "Materials science",
+        "Bayesian probability",
+        "Environmental science",
+        "Nuclear fuel",
+        "Research reactor"
+      ],
+      "abstract": "Mechanistic models informed by lower-length-scale simulations have a role to play in accelerating fuel qualification by enabling the use of separate effects tests to reduce uncertainty on model parameters that impact the predictions of in-reactor performance. For this to succeed, statistical analysis techniques (e.g. Bayesian inference) must be exercised on the mechanistic models to determine parameter uncertainties that are based on evidence (experiments).Here, we employ Bayesian inference on an atomic-scale-informed model for UO2 creep using literature experimental data. Pellet creep plays a significant role in pellet-cladding mechanical interactions, which affect fuel performance. The objective is to infer probability distributions on the atomic-scale parameters used in the model, while accounting for experimental uncertainties and unknowns. The approach requires many evaluations of the model, which becomes computationally insurmountable; therefore, a neural network model is trained to data obtained by sampling the full model over the most important parameters. This machine-learning model is then used in the Bayesian inference approach to determine probability distributions i...",
+      "authors": [
+        "Conor Galvin",
+        "Anton Schneider",
+        "P. Robbe",
+        "M. Cooper",
+        "William D. Neilson",
+        "Antoine Claisse",
+        "Christopher R. Matthews",
+        "Tiernan Casey",
+        "Khachik Sargsyan",
+        "Habib N. Najm",
+        "David A. Andersson"
       ]
     }
   ]

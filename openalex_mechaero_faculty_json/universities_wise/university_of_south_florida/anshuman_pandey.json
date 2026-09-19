@@ -3,74 +3,195 @@
   "full_name": "Anshuman Pandey",
   "department": "Department of Mechanical Engineering",
   "university": "University of South Florida",
-  "author_id": "A5137449393",
-  "works_count": 1,
+  "author_id": "A5124099907",
+  "works_count": 3,
   "cited_by_count": 0,
   "h_index": 0,
-  "top_topics": [],
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 2
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 2
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 1
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 1
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 1
+    }
+  ],
   "top_cited_works": [
     {
-      "title": "Velocimetry of Expansion-Compression Geometries in High-Speed Flows",
-      "publication_year": 2025,
-      "publication_date": "2025-06-01",
-      "doi": "https://doi.org/10.2172/3365815",
+      "title": "High-Speed Schlieren and Pressure-Sensitive Paint Visualization of an Impinging Jet",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0878",
       "venue": "",
-      "type": "report",
+      "type": "conference-paper",
       "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://www.osti.gov/servlets/purl/3365815",
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
+        "Jet (fluid)",
+        "Nozzle",
+        "Conical surface",
+        "Supersonic speed",
+        "Schlieren",
+        "Rotational symmetry",
+        "Mechanics",
+        "Mach number"
+      ],
+      "abstract": "This study experimentally investigated the transition from asymmetric to axisymmetric unsteadiness in a supersonic impinging jet using high-frequency surface pressure measurements, schlieren, and pressure-sensitive paint (PSP). The experiment utilized a flat-lip, conical nozzle (5 mm exit diameter, Mach 2 design) and an impingement plate positioned six exit diameters away. The Nozzle Pressure Ratio (NPR) was varied between 3.7 and 4.3. While the jet primarily operated in an asymmetric mode across this NPR range, an axisymmetric resonance was identified near NPR 4.1 which generated the strongest pressure fluctuations on the impingement plate. The transition between these two modes of jet unsteadiness was analyzed using the three measurement techniques.",
+      "authors": [
+        "Torin Hulshof",
+        "Duncan Windisch",
+        "Anshuman Pandey"
+      ]
+    },
+    {
+      "title": "Pressure Fluctuations and Reattachment Streaks on a Cone-Slice-Ramp Geometry at Mach 5",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1521",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Geometry",
+        "Coherence (philosophical gambling strategy)",
+        "Spectral density",
         "Mechanics",
         "Physics",
-        "Flow (mathematics)",
-        "Particle image velocimetry",
-        "Geology",
-        "Velocimetry",
-        "Optics",
-        "Field (mathematics)"
+        "Work (physics)",
+        "Flow (mathematics)"
       ],
-      "abstract": "",
+      "abstract": "This study investigates the shock-wave boundary-layer interaction (SBLI) on a slender cone-slice-ramp geometry at Mach 5 using surface pressure sensors and pressure-sensitive paint. Laminar/early transitional cases are studied where the flow separates at the cone-slice juntion and reattaches in the middle of the ramp. Several instabilities have been identified in the previous studies and in this work coherence and cross power spectral density from sensor data have been used to explore the phase relationships in frequencies of interest.",
       "authors": [
-        "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
-        "Steven Beresh",
-        "Defense Programs",
-        "William Swain",
-        "John Pehrson",
+        "Anshuman Pandey"
+      ]
+    },
+    {
+      "title": "Comparisons of Quantitative Heat Flux on a Hypersonic Expansion-Compression Geometry",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1962",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Heat flux",
+        "Mach number",
+        "Stagnation point",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Thermography",
+        "Turbulence"
+      ],
+      "abstract": "Infrared thermography (IRT) derived-heat flux maps have been obtained on a 7° cone-slice-ramp (CSR) model in the Sandia Hypersonic Wind Tunnel at Mach 5 and 8 to capture the three-dimensional shock boundary-layer interaction region. The IRT technique and heat flux derivation were validated using Mach 8 stagnation point heating on a PEEK hemisphere model to within 5% of the Fay and Riddell theoretical prediction. Simultaneous flow visualization of the CSR flow field was acquired using high-speed schlieren imaging to estimate the slice boundary layer separation and resultant shear layer reattachment on the ramp, which were compared to surface oil flow visualization and the IRT. The results were quantitatively compared to Reynolds averaged Navier Stokes (RANS) computational fluid dynamic (CFD) simulations to understand the effect of different turbulence models on the predicted separation size and peak heat flux levels. It was found that both models struggled to predict peak heating at reattachment and accurate separation locations, though the Spalart-Allmaras (SA-neg) model demonstrated superior overall quantitative agreement while the Shear Stress Transport (SST-V) model was able ...",
+      "authors": [
+        "Gyu Sub Lee",
+        "John C. Pehrson",
+        "Cyrus Jordan",
         "Anshuman Pandey",
-        "Douglas Carter"
+        "Katya M. Casper"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "Velocimetry of Expansion-Compression Geometries in High-Speed Flows",
-      "publication_year": 2025,
-      "publication_date": "2025-06-01",
-      "doi": "https://doi.org/10.2172/3365815",
+      "title": "High-Speed Schlieren and Pressure-Sensitive Paint Visualization of an Impinging Jet",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0878",
       "venue": "",
-      "type": "report",
+      "type": "conference-paper",
       "cited_by_count": 0,
-      "is_oa": true,
-      "oa_url": "https://www.osti.gov/servlets/purl/3365815",
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
+        "Jet (fluid)",
+        "Nozzle",
+        "Conical surface",
+        "Supersonic speed",
+        "Schlieren",
+        "Rotational symmetry",
+        "Mechanics",
+        "Mach number"
+      ],
+      "abstract": "This study experimentally investigated the transition from asymmetric to axisymmetric unsteadiness in a supersonic impinging jet using high-frequency surface pressure measurements, schlieren, and pressure-sensitive paint (PSP). The experiment utilized a flat-lip, conical nozzle (5 mm exit diameter, Mach 2 design) and an impingement plate positioned six exit diameters away. The Nozzle Pressure Ratio (NPR) was varied between 3.7 and 4.3. While the jet primarily operated in an asymmetric mode across this NPR range, an axisymmetric resonance was identified near NPR 4.1 which generated the strongest pressure fluctuations on the impingement plate. The transition between these two modes of jet unsteadiness was analyzed using the three measurement techniques.",
+      "authors": [
+        "Torin Hulshof",
+        "Duncan Windisch",
+        "Anshuman Pandey"
+      ]
+    },
+    {
+      "title": "Pressure Fluctuations and Reattachment Streaks on a Cone-Slice-Ramp Geometry at Mach 5",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1521",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Geometry",
+        "Coherence (philosophical gambling strategy)",
+        "Spectral density",
         "Mechanics",
         "Physics",
-        "Flow (mathematics)",
-        "Particle image velocimetry",
-        "Geology",
-        "Velocimetry",
-        "Optics",
-        "Field (mathematics)"
+        "Work (physics)",
+        "Flow (mathematics)"
       ],
-      "abstract": "",
+      "abstract": "This study investigates the shock-wave boundary-layer interaction (SBLI) on a slender cone-slice-ramp geometry at Mach 5 using surface pressure sensors and pressure-sensitive paint. Laminar/early transitional cases are studied where the flow separates at the cone-slice juntion and reattaches in the middle of the ramp. Several instabilities have been identified in the previous studies and in this work coherence and cross power spectral density from sensor data have been used to explore the phase relationships in frequencies of interest.",
       "authors": [
-        "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)",
-        "Steven Beresh",
-        "Defense Programs",
-        "William Swain",
-        "John Pehrson",
+        "Anshuman Pandey"
+      ]
+    },
+    {
+      "title": "Comparisons of Quantitative Heat Flux on a Hypersonic Expansion-Compression Geometry",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1962",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Heat flux",
+        "Mach number",
+        "Stagnation point",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Thermography",
+        "Turbulence"
+      ],
+      "abstract": "Infrared thermography (IRT) derived-heat flux maps have been obtained on a 7° cone-slice-ramp (CSR) model in the Sandia Hypersonic Wind Tunnel at Mach 5 and 8 to capture the three-dimensional shock boundary-layer interaction region. The IRT technique and heat flux derivation were validated using Mach 8 stagnation point heating on a PEEK hemisphere model to within 5% of the Fay and Riddell theoretical prediction. Simultaneous flow visualization of the CSR flow field was acquired using high-speed schlieren imaging to estimate the slice boundary layer separation and resultant shear layer reattachment on the ramp, which were compared to surface oil flow visualization and the IRT. The results were quantitatively compared to Reynolds averaged Navier Stokes (RANS) computational fluid dynamic (CFD) simulations to understand the effect of different turbulence models on the predicted separation size and peak heat flux levels. It was found that both models struggled to predict peak heating at reattachment and accurate separation locations, though the Spalart-Allmaras (SA-neg) model demonstrated superior overall quantitative agreement while the Shear Stress Transport (SST-V) model was able ...",
+      "authors": [
+        "Gyu Sub Lee",
+        "John C. Pehrson",
+        "Cyrus Jordan",
         "Anshuman Pandey",
-        "Douglas Carter"
+        "Katya M. Casper"
       ]
     }
   ]

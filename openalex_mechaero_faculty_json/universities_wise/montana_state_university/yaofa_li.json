@@ -1,259 +1,89 @@
 {
   "faculty_name": "Yaofa Li",
-  "full_name": "Yaofa Li",
+  "full_name": "Y. Li",
   "department": "Department of Mechanical & Industrial Engineering",
   "university": "Montana State University",
-  "author_id": "A5051282109",
-  "works_count": 80,
-  "cited_by_count": 1870,
-  "h_index": 22,
+  "author_id": "A5050056461",
+  "works_count": 2,
+  "cited_by_count": 0,
+  "h_index": 0,
   "top_topics": [
     {
-      "topic": "Enhanced Oil Recovery Techniques",
-      "count": 15
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 1
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 1
+    },
+    {
+      "topic": "Groundwater flow and contamination studies",
+      "count": 1
     },
     {
       "topic": "Lattice Boltzmann Simulation Studies",
-      "count": 15
+      "count": 1
     },
     {
-      "topic": "Heat and Mass Transfer in Porous Media",
-      "count": 10
-    },
-    {
-      "topic": "Wireless Communication Networks Research",
-      "count": 8
-    },
-    {
-      "topic": "CO2 Sequestration and Geologic Interactions",
-      "count": 8
+      "topic": "Reservoir Engineering and Simulation Methods",
+      "count": 1
     }
   ],
   "top_cited_works": [
     {
-      "title": "BEARING CONDITION DIAGNOSTICS VIA VIBRATION AND ACOUSTIC EMISSION MEASUREMENTS",
-      "publication_year": 1997,
-      "publication_date": "1997-09-01",
-      "doi": "https://doi.org/10.1006/mssp.1997.0113",
-      "venue": "Mechanical Systems and Signal Processing",
-      "type": "article",
-      "cited_by_count": 259,
-      "is_oa": false,
-      "oa_url": "",
+      "title": "Intermittency effects in single- and multi-phase flow and anomalous transport in heterogeneous porous media",
+      "publication_year": 2021,
+      "publication_date": "2021-08-01",
+      "doi": "https://doi.org/10.18409/ispiv.v1i1.172",
+      "venue": "14th International Symposium on Particle Image Velocimetry",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://ispiv21.library.iit.edu/index.php/ISPIV/article/download/172/175",
       "concepts": [
-        "Acoustic emission",
-        "Acoustics",
-        "Accelerometer",
-        "Bearing (navigation)",
-        "Vibration",
-        "Signal processing",
-        "Transducer",
-        "Signature (topology)"
+        "Intermittency",
+        "Flow (mathematics)",
+        "Statistical physics",
+        "Mechanics",
+        "Lattice Boltzmann methods",
+        "Porous medium",
+        "Two-phase flow",
+        "Scale (ratio)"
       ],
-      "abstract": "",
+      "abstract": "Multi-phase flow and transport in porous media is prevalent in a wide range of challenging fluid mechanics problems related to sustainability, energy, and the environment. Accurate prediction of the displacement and interaction of such flows is vital in addressing these problems. In particular it is critical to understand the small- or pore-scale flow and its spatial and temporal evolution, which can impact behaviors at system scales in a nontrivial manner. Intermittency is a phenomenon currently observed in numerical and experimental studies of single-phase flow (Anna et al., n.d.; Morales et al., n.d.), but the case of multi-phase flow has yet to receive much study due to challenges faced in both simulations and experiments. The underlying physics of spreading, mixing, and interfacial processes must be understood for accurate predictions of transport in multi-phase flow systems. Therefore, a comprehensive understanding of multi-phase flow at these very small scales is necessary in the development of accurate system-scale prediction models. We present results from a coordinated numerical and experimental study of intermittency effects over a range of viscous and inertial flow r...",
       "authors": [
-        "J. Shiroishi",
-        "Yaofa Li",
-        "Steven Y. Liang",
-        "Thomas R. Kurfess",
-        "S. Danyluk"
+        "Zoë Penko",
+        "Y. Li",
+        "Diogo Bolster",
+        "Kenneth T. Christensen"
       ]
     },
     {
-      "title": "Adaptive prognostics for rolling element bearing condition",
-      "publication_year": 1999,
-      "publication_date": "1999-01-01",
-      "doi": "https://doi.org/10.1006/mssp.1998.0183",
-      "venue": "Mechanical Systems and Signal Processing",
-      "type": "article",
-      "cited_by_count": 248,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Prognostics",
-        "Bearing (navigation)",
-        "Vibration",
-        "Rolling-element bearing",
-        "Engineering",
-        "Control theory (sociology)",
-        "Computer science",
-        "Structural engineering"
-      ],
-      "abstract": "",
-      "authors": [
-        "Yaofa Li",
-        "Scott Alexander Billington",
-        "C. Zhang",
-        "Thomas R. Kurfess",
-        "S. Danyluk",
-        "Steven Y. Liang"
-      ]
-    },
-    {
-      "title": "Max-utility wireless resource management for best-effort traffic",
+      "title": "On the origin of non-Gaussian statistics in hydrodynamic turbulence",
       "publication_year": 2005,
-      "publication_date": "2005-01-01",
-      "doi": "https://doi.org/10.1109/twc.2004.840210",
-      "venue": "IEEE Transactions on Wireless Communications",
-      "type": "article",
-      "cited_by_count": 165,
-      "is_oa": false,
-      "oa_url": "",
+      "publication_date": "2005-08-29",
+      "doi": "https://doi.org/10.48550/arxiv.physics/0508211",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/physics/0508211",
       "concepts": [
-        "Computer science",
-        "Wireless network",
-        "Wireless",
-        "Queueing theory",
-        "Computer network",
-        "Scheduling (production processes)",
-        "Wireline",
-        "Fair queuing"
+        "Intermittency",
+        "Turbulence",
+        "Physics",
+        "Gaussian",
+        "Statistical physics",
+        "Vorticity",
+        "Nonlinear system",
+        "Transverse plane"
       ],
-      "abstract": "Due to the characteristics of wireless channels, utility-based resource management in wireless networks requires a set of mechanisms that are different from those for wireline networks. This paper explores in detail why and how the requirements are different. In particular, we analyze the wireless network performance to find out the scheduling algorithm that maximizes total utility of the system. Unlike previous studies, this paper focuses on scenarios in which wireless networks are not fully loaded and all of the users are best-effort data users, i.e., there is no streaming user. Our first key conclusion is that Kleinrock's Conservation Law provides a valuable means to accurately capture the perceived rates of best-effort users in such systems. The queueing analysis further indicates that, within periods during which channel conditions are stable for each user, albeit differ from user to user, the max-utility scheduling algorithm can be derived using queueing theorem and can be readily implemented in actual systems for utility functions that are of exponential or log format. When further taking into account the time-variant nature of wireless channel conditions, our simulation ...",
+      "abstract": "Turbulent flows are notoriously difficult to describe and understand based on first principles. One reason is that turbulence contains highly intermittent bursts of vorticity and strain-rate with highly non-Gaussian statistics. Quantitatively, intermittency is manifested in highly elongated tails in the probability density functions of the velocity increments between pairs of points. A long-standing open issue has been to predict the origins of intermittency and non-Gaussian statistics from the Navier-Stokes equations. Here we derive, from the Navier-Stokes equations, a simple nonlinear dynamical system for the Lagrangian evolution of longitudinal and transverse velocity increments. From this system we are able to show that the ubiquitous non-Gaussian tails in turbulence have their origin in the inherent self-amplification of longitudinal velocity increments, and cross amplification of the transverse velocity increments.",
       "authors": [
-        "Zhisen Jiang",
-        "Yong Ge",
-        "Yaofa Li"
+        "Meneveau, C.",
+        "Y. Li"
       ]
     }
   ],
-  "recent_works": [
-    {
-      "title": "Effect of Heat Treatment on the Properties of Triply Periodic Minimal Surfaces Materials",
-      "publication_year": 2025,
-      "publication_date": "2025-10-28",
-      "doi": "https://doi.org/10.1007/s11665-025-12534-2",
-      "venue": "Journal of Materials Engineering and Performance",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Materials science",
-        "Composite material",
-        "Porosity",
-        "Annealing (glass)",
-        "Ultimate tensile strength",
-        "Plasticity",
-        "Microstructure",
-        "Cancellous bone"
-      ],
-      "abstract": "",
-      "authors": [
-        "Jianguo Zhang",
-        "Yaofa Li",
-        "Guan Wang",
-        "Xiaoying Zhang",
-        "Fengling Hu"
-      ]
-    },
-    {
-      "title": "Fast Response Implementation of Electroosmotic Stress Control Method in Microfluidic Chip",
-      "publication_year": 2025,
-      "publication_date": "2025-09-29",
-      "doi": "https://doi.org/10.1134/s0015462825600361",
-      "venue": "Fluid Dynamics",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Materials science",
-        "Polydimethylsiloxane",
-        "Microfluidics",
-        "Resistive touchscreen",
-        "Hysteresis",
-        "Stress (linguistics)",
-        "Sensitivity (control systems)",
-        "Voltage"
-      ],
-      "abstract": "Abstract Stress response hysteresis behavior exists in the stress controlling by the electroosmotic effect. In this study, the response of microfluidic chip is investigated by modeling a three-dimensional resistive network, and the evolution of a number of randomly distributed viscous particles in the Polydimethylsiloxane (PDMS) matrix is calculated demonstrating that the change in the conductance of the microfluidic chip is determined by the amount of tunneled particles of solution in the reservoir. Besides, when the interval of agglomerated particles is below the cutoff distance of 150.58 nm, it has a wide range of the relative resistance rate of change. Therefore, the high sensitivity of the microfluidic chip is effectively obtained by adding PDMS matrix material particles to the conductive liquid to fully fill the spacing of the agglomerated particles. Moreover, by comparing the sensitivity and hysteresis of conductive liquids containing different proportions of KCl, it is proved that the conductive liquid containing 2 mol % KCl has the higher sensitivity and the lower hysteresis. On this basis, the corresponding stress control process is analyzed. It is proved that the stre...",
-      "authors": [
-        "Yaofa Li",
-        "Mengmeng Jin",
-        "Xiaonan Tang",
-        "Kongying Xie"
-      ]
-    },
-    {
-      "title": "Research on Energy Balancing of Sodium-Ion Batteries Based on Adaptive Active–Passive Balancing Circuit and Segmented Balancing Strategy",
-      "publication_year": 2025,
-      "publication_date": "2025-09-19",
-      "doi": "https://doi.org/10.1109/aicit65974.2025.11282758",
-      "venue": "",
-      "type": "conference-paper",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Load balancing (electrical power)",
-        "Computer science",
-        "Network topology",
-        "Key (lock)",
-        "Topology (electrical circuits)",
-        "State of charge",
-        "Synchronization (alternating current)",
-        "Distributed computing"
-      ],
-      "abstract": "To address the issues of slow balancing speed and low energy transfer efficiency in series-connected sodium-ion battery packs during the balancing process, this paper proposes an adaptive hierarchical active–passive hybrid balancing topology. The proposed structure employs the state of charge (SOC) and terminal voltage of individual cells as balancing variables, and adopts a segmented balancing control strategy to achieve rapid synchronization among cells. First, the overall architecture, operating principle, and derivation of key parameters of the proposed topology are elaborated in detail. Then, a hierarchical balancing control strategy is designed based on the topology. Finally, simulation models of various topologies are constructed on the Matlab/Simulink platform to perform comparative verification of balancing performance. Simulation results demonstrate that, in an eight-cell series-connected battery pack, the proposed adaptive active–passive hybrid topology improves balancing speed by 84.19% and energy transfer efficiency by 4.1% compared with conventional single-layer topologies. Furthermore, with the introduction of the segmented balancing strategy, the balancing speed ...",
-      "authors": [
-        "Yi Yang",
-        "Shiping Zhao",
-        "Quan Ran",
-        "Yuxuan Yao",
-        "Yaofa Li",
-        "Haoran Zhang"
-      ]
-    },
-    {
-      "title": "Influence of TiO 2 and Al 2 O 3 on the structure and sulphide capacity of the CaO–SiO 2 –MgO– x Al 2 O 3 – y TiO 2 slag system",
-      "publication_year": 2025,
-      "publication_date": "2025-07-24",
-      "doi": "https://doi.org/10.1177/03019233251356040",
-      "venue": "Ironmaking & Steelmaking Processes Products and Applications",
-      "type": "article",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Materials science",
-        "Crystallography",
-        "Mineralogy",
-        "Chemistry"
-      ],
-      "abstract": "This work employed the slag–iron equilibrium method to study the effect of TiO 2 and Al 2 O 3 content on the sulphur capacity of the CaO–SiO 2 –MgO– x Al 2 O 3 – y TiO 2 slag system at 1500 °C. Using X-ray photoelectron spectroscopy (XPS) and molecular dynamics simulations, different types of oxygen in the slag and changes in the aluminate structure were analysed. The results indicated that as the TiO 2 content in the slag increased from 0 to 10 wt-%, the sulphur capacity decreased. It is known that an increase in TiO 2 content can reduce the polymerisation of the slag and improve ion transport efficiency within the slag, which is beneficial for enhancing the desulphurisation capability. However, the increase in TiO 2 content also resulted in a decrease in CaO content in the slag. At the same time, the complex aluminate structures depolymerised, consuming Ca 2+ in the slag due to charge compensation requirements. This reduction in Ca 2+ content available for desulphurisation in the slag further decreased its sulphur capacity. Additionally, when the Al 2 O 3 content increased from 14 wt-% to 22 wt-%, the sulphur capacity of the slag also decreased. This is primarily because Al 2 ...",
-      "authors": [
-        "Bo Yang",
-        "Kaixuan Zhang",
-        "Yaofa Li",
-        "Jian Hou",
-        "Mao Chen",
-        "Xueming Lv",
-        "Meilong Hu"
-      ]
-    },
-    {
-      "title": "Author response for \"A Review of Microfluidic Approaches for Carbon Capture and Storage Research\"",
-      "publication_year": 2025,
-      "publication_date": "2025-04-22",
-      "doi": "https://doi.org/10.1039/d5lc00208g/v2/response1",
-      "venue": "",
-      "type": "peer-review",
-      "cited_by_count": 0,
-      "is_oa": false,
-      "oa_url": "",
-      "concepts": [
-        "Computer science",
-        "Nanotechnology",
-        "Data science",
-        "Materials science"
-      ],
-      "abstract": "",
-      "authors": [
-        "Abhishek Ratanpara",
-        "Yaofa Li",
-        "Myeongsub Mike Kim"
-      ]
-    }
-  ]
+  "recent_works": []
 }

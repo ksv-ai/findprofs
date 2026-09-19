@@ -3,279 +3,267 @@
   "full_name": "Qiqi Wang",
   "department": "Department of Aeronautics and Astronautics",
   "university": "Massachusetts Institute of Technology",
-  "author_id": "A5101519071",
-  "works_count": 147,
-  "cited_by_count": 4518,
-  "h_index": 24,
+  "author_id": "A5101519068",
+  "works_count": 215,
+  "cited_by_count": 2976,
+  "h_index": 29,
   "top_topics": [
     {
-      "topic": "Soil Carbon and Nitrogen Dynamics",
-      "count": 12
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 49
     },
     {
-      "topic": "Molecular Sensors and Ion Detection",
-      "count": 8
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 47
     },
     {
-      "topic": "Supramolecular Chemistry and Complexes",
-      "count": 7
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 33
     },
     {
-      "topic": "Soil and Water Nutrient Dynamics",
-      "count": 7
+      "topic": "Model Reduction and Neural Networks",
+      "count": 33
     },
     {
-      "topic": "Plant Stress Responses and Tolerance",
-      "count": 6
+      "topic": "Quantum chaos and dynamical systems",
+      "count": 23
     }
   ],
   "top_cited_works": [
     {
-      "title": "Analysis of therapeutic targets for SARS-CoV-2 and discovery of potential drugs by computational methods",
-      "publication_year": 2020,
-      "publication_date": "2020-02-27",
-      "doi": "https://doi.org/10.1016/j.apsb.2020.02.008",
-      "venue": "Acta Pharmaceutica Sinica B",
-      "type": "article",
-      "cited_by_count": 2480,
+      "title": "Active Subspace Methods in Theory and Practice: Applications to Kriging Surfaces",
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "doi": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.770.667",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 290,
       "is_oa": true,
-      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2211383520302999/pdf",
+      "oa_url": "http://hdl.handle.net/1721.1/92546",
       "concepts": [
-        "Drug discovery",
-        "Computational biology",
-        "Virtual screening",
-        "Drug",
-        "Drug repositioning",
-        "Protease",
-        "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
-        "Coronavirus"
+        "Subspace topology",
+        "Kriging",
+        "Parameterized complexity",
+        "Mathematics",
+        "Sensitivity (control systems)",
+        "Gaussian",
+        "Dimension (graph theory)",
+        "Applied mathematics"
       ],
-      "abstract": "SARS-CoV-2 has caused tens of thousands of infections and more than one thousand deaths. There are currently no registered therapies for treating coronavirus infections. Because of time consuming process of new drug development, drug repositioning may be the only solution to the epidemic of sudden infectious diseases. We systematically analyzed all the proteins encoded by SARS-CoV-2 genes, compared them with proteins from other coronaviruses, predicted their structures, and built 19 structures that could be done by homology modeling. By performing target-based virtual ligand screening, a total of 21 targets (including two human targets) were screened against compound libraries including ZINC drug database and our own database of natural products. Structure and screening results of important targets such as 3-chymotrypsin-like protease (3CLpro), Spike, RNA-dependent RNA polymerase (RdRp), and papain like protease (PLpro) were discussed in detail. In addition, a database of 78 commonly used anti-viral drugs including those currently on the market and undergoing clinical trials for SARS-CoV-2 was constructed. Possible targets of these compounds and potential drugs acting on a certa...",
+      "abstract": "Abstract. Many multivariate functions in engineering models vary primarily along a few direc-tions in the space of input parameters. When these directions correspond to coordinate directions, one may apply global sensitivity measures to determine the most influential parameters. However, these methods perform poorly when the directions of variability are not aligned with the natural coordinates of the input space. We present a method to first detect the directions of the strongest variability using evaluations of the gradient and subsequently exploit these directions to construct a response surface on a low-dimensional subspace—i.e., the active subspace—of the inputs. We develop a theoretical framework with error bounds, and we link the theoretical quantities to the parameters of a kriging response surface on the active subspace. We apply the method to an elliptic PDE model with coefficients parameterized by 100 Gaussian random variables and compare it with a local sensitivity analysis method for dimension reduction.",
       "authors": [
-        "Canrong Wu",
-        "Yang Liu",
-        "Yueying Yang",
-        "Peng Zhang",
-        "Wu Zhong",
-        "Yali Wang",
-        "Qiqi Wang",
-        "Yang Xu",
-        "Mingxue Li",
-        "Xingzhou Li",
-        "Mengzhu Zheng",
-        "Lixia Chen",
-        "Hua Li"
+        "Paul G. Constantine",
+        "Eric Dow",
+        "Qiqi Wang"
       ]
     },
     {
-      "title": "Response of soil physicochemical properties and enzyme activities to long-term reclamation of coastal saline soil, Eastern China",
-      "publication_year": 2017,
-      "publication_date": "2017-07-27",
-      "doi": "https://doi.org/10.1016/j.scitotenv.2017.05.185",
-      "venue": "The Science of The Total Environment",
+      "title": "Least Squares Shadowing sensitivity analysis of chaotic limit cycle oscillations",
+      "publication_year": 2014,
+      "publication_date": "2014-03-16",
+      "doi": "https://doi.org/10.1016/j.jcp.2014.03.002",
+      "venue": "Journal of Computational Physics",
       "type": "article",
-      "cited_by_count": 258,
-      "is_oa": false,
-      "oa_url": "",
+      "cited_by_count": 171,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1204.0159",
       "concepts": [
-        "Land reclamation",
-        "Urease",
-        "Acid phosphatase",
-        "Chemistry",
-        "Rapeseed",
-        "Alkaline phosphatase",
-        "Phosphorus",
-        "Agronomy"
+        "Sensitivity (control systems)",
+        "Chaotic",
+        "Mathematics",
+        "Limit (mathematics)",
+        "Derivative (finance)",
+        "Limit cycle",
+        "Applied mathematics",
+        "Initial value problem"
       ],
       "abstract": "",
       "authors": [
-        "Xuefeng Xie",
-        "Lijie Pu",
         "Qiqi Wang",
-        "Ming Zhu",
-        "Yan Xu",
-        "Meng Zhang"
+        "Rui Hu",
+        "Patrick Blonigan"
       ]
     },
     {
-      "title": "Age–period–cohort analysis of pulmonary tuberculosis reported incidence, China, 2006–2020",
-      "publication_year": 2022,
-      "publication_date": "2022-07-28",
-      "doi": "https://doi.org/10.1186/s40249-022-01009-4",
-      "venue": "Infectious Diseases of Poverty",
+      "title": "Nanophotonic media for artificial neural inference",
+      "publication_year": 2019,
+      "publication_date": "2019-07-08",
+      "doi": "https://doi.org/10.1364/prj.7.000823",
+      "venue": "Photonics Research",
       "type": "article",
-      "cited_by_count": 138,
-      "is_oa": true,
-      "oa_url": "https://idpjournal.biomedcentral.com/counter/pdf/10.1186/s40249-022-01009-4",
+      "cited_by_count": 162,
+      "is_oa": false,
+      "oa_url": "",
       "concepts": [
-        "Medicine",
-        "Demography",
-        "Tuberculosis",
-        "Incidence (geometry)",
-        "Cohort",
-        "Relative risk",
-        "Cohort study",
-        "Public health"
+        "Nanophotonics",
+        "Computer science",
+        "Wavefront",
+        "Artificial neural network",
+        "Optical computing",
+        "Optics",
+        "Artificial intelligence",
+        "Physics"
       ],
-      "abstract": "BACKGROUND: Tuberculosis (TB) poses a severe public health challenge in China and worldwide. This study evaluated the effects of age, period, and birth cohort on reported incidence trends of TB based on population and refined the characteristics of high-risk groups. METHODS: Aggregate data that reported pulmonary tuberculosis (PTB) cases from China Tuberculosis Management Information System (TBIMS) from 2006 to 2020 were used to analyze effect coefficients through the age-period-cohort (APC) model based on intrinsic estimator (IE) method, and converted them into relative risk (RR) to estimate trends. RESULTS: A total of 14.82 million cases of PTB were reported in China from 2006 to 2020, showing a continuous downward trend. The reporting rate increased with age by age group, with 70-74 years old being 2-3 times higher than that in 20-24 years old. APC analysis model showed that age effects were bimodal in 20-24 years old [RR = 2.29, 95% confidence interval (CI): 1.73-3.03] and 70-74 years old (RR = 1.95, 95% CI: 1.67-2.27), and lower than the overall average in the groups under 15 years old. Stratified results showed that the risk was higher for women under age 40 than men and h...",
+      "abstract": "We show optical waves passing through a nanophotonic medium can perform artificial neural computing. Complex information is encoded in the wavefront of an input light. The medium transforms the wavefront to realize sophisticated computing tasks such as image recognition. At the output, the optical energy is concentrated in well-defined locations, which, for example, can be interpreted as the identity of the object in the image. These computing media can be as small as tens of wavelengths and offer ultra-high computing density. They exploit subwavelength scatterers to realize complex input/output mapping beyond the capabilities of traditional nanophotonic devices.",
       "authors": [
-        "Zhe Dong",
+        "Erfan Khoram",
+        "Ang Chen",
+        "Dianjing Liu",
+        "Lei Ying",
         "Qiqi Wang",
-        "Shicheng Yu",
-        "Fei Huang",
-        "Jianjun Liu",
-        "Hongyan Yao",
-        "Yanlin Zhao"
+        "Ming Yuan",
+        "Zongfu Yu"
       ]
     }
   ],
   "recent_works": [
     {
-      "title": "Endovascular management of a fractured dialysis catheter: a case report and review of retrieval techniques",
-      "publication_year": 2025,
-      "publication_date": "2025-11-12",
-      "doi": "https://doi.org/10.3389/fsurg.2025.1700677",
-      "venue": "Frontiers in Surgery",
+      "title": "Single-wavelength continual learning diffractive deep neural networks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-25",
+      "doi": "https://doi.org/10.1364/ao.597691",
+      "venue": "Applied Optics",
       "type": "article",
-      "cited_by_count": 2,
-      "is_oa": true,
-      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2025.1700677/pdf",
-      "concepts": [
-        "Medicine",
-        "Percutaneous",
-        "Surgery",
-        "Dialysis",
-        "Dialysis catheter",
-        "Intensive care medicine",
-        "MEDLINE",
-        "Catheter"
-      ],
-      "abstract": "Background: With the advancements in endovascular techniques, reports of rare vascular complications have increased. This case describes the accidental fracture of a non-cuffed hemodialysis catheter and its subsequent endovascular management, offering valuable insights for the treatment of similar intravascular foreign bodies (IFBs). Case report: An 83-year-old male with a non-cuffed catheter presented after a catheter fracture. Radiographic imaging confirmed migration of the fragment to the right atrium. After a multispecialistic collaboration assessment, endovascular retrieval was performed via right femoral access using a filter retrieval device under fluoroscopic guidance. The catheter fragment was successfully captured and removed without procedural complications. The patient recovered uneventfully and remained well at follow-up evaluations. Conclusion: This case highlights the efficacy and safety of percutaneous endovascular retrieval for managing IFBs, providing a minimally invasive alternative to surgery with high success rates. Meticulous catheter handling and regular integrity assessments are critical to prevent and promptly manage such events.",
-      "authors": [
-        "Tianjun Lin",
-        "Qiqi Wang",
-        "Wei Huang",
-        "Yang Liu",
-        "Chunshui He"
-      ]
-    },
-    {
-      "title": "Platform-based fintech and bank loan maturity structure: Evidence from Chinese commercial banks",
-      "publication_year": 2025,
-      "publication_date": "2025-10-12",
-      "doi": "https://doi.org/10.1016/j.frl.2025.108667",
-      "venue": "Finance research letters",
-      "type": "article",
-      "cited_by_count": 1,
+      "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Collateral",
-        "Maturity (psychological)",
-        "Business",
-        "Loan",
-        "Market liquidity",
-        "Financial system",
-        "Investment (military)",
-        "Constraint (computer-aided design)"
+        "Optics",
+        "Computer science",
+        "Artificial neural network",
+        "Wavelength",
+        "Artificial intelligence",
+        "Diffraction",
+        "Physics",
+        "Ptychography"
       ],
-      "abstract": "",
+      "abstract": "Electronic deep neural networks suffer from “catastrophic forgetting,” which means they forget previously learned tasks rapidly after being trained with a new task. Recently, optical neural networks like diffractive deep neural networks (D2NNs) have emerged as a potential solution to replace electronic neural networks. D2NN was proposed in 2018, and it shows great potential in many fields such as saliency detection and high-precision object classification. Although D2NNs have a lot of advantages such as light speed signal processing and low power consumption, they have the same issue of “catastrophic forgetting.” In this work, we propose a single-wavelength continual learning diffractive deep neural network (CL-D2NN). As a result, the test accuracy of the MNIST dataset remains 90.05% after switching to the Fashion MNIST dataset, while the test accuracy of the Fashion MNIST dataset is 85.73%. The proposed network can handle over five tasks and has demonstrated its continual learning capability.",
       "authors": [
+        "Jiaxin Yan",
         "Qiqi Wang",
-        "Yun-Xin He"
+        "Junhe Zhou"
       ]
     },
     {
-      "title": "Comparative phylogeographic patterns and processes of the incipient brown seaweeds Sargassum polycystum and S. plagiophyllum around the Thai-Malay Peninsula",
-      "publication_year": 2025,
-      "publication_date": "2025-09-17",
-      "doi": "https://doi.org/10.3389/fpls.2025.1673650",
-      "venue": "Frontiers in Plant Science",
-      "type": "article",
-      "cited_by_count": 1,
-      "is_oa": true,
-      "oa_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1673650/pdf",
-      "concepts": [
-        "Phylogeography",
-        "Biology",
-        "Population",
-        "Genetic diversity",
-        "Ecology",
-        "Evolutionary biology",
-        "Gene flow",
-        "Peninsula"
-      ],
-      "abstract": "Incipient (recently-evolved) species are morphologically distinct and have a relatively short evolutionary history from a common ancestor, yet comparative phylogeographic patterns of incipient seaweed species have seldom been explored. Here, we created 339 mitochondrial cox1, 339 cox3, 339 cox1+cox3 and 286 nuclear ITS2 sequences for Sargassum plagiophyllum (10 populations) and 326 cox1, 336 cox3, 310 cox1+cox3 and 341 ITS2 sequences for S. polycystum (14 populations) around the Thai-Malay Peninsula (TMP), with the aim to explore potential drivers in shaping population genetic structuring and diversity over space, including a phylogeographic signature of incipient speciation. Comparative analysis showed that the two Sargassum species around the TMP diverged from their most recent common ancestor at c. 0.17 Mya, followed by a demographic expansion at c. 0.015–0.060 Mya. Oceanic currents drove contemporary continuous south-to-north gene flow in the Malacca Strait, leading to most genetic variation partitioned within populations and among populations within groups. Interestingly, the incipient S. polycystum and S. plagiophyllum shared their most common haplotypes/ribotypes, and mit...",
-      "authors": [
-        "Tong-Yun Zhang",
-        "Qiqi Wang",
-        "Zhongmin Sun",
-        "Stefano G. A. Draisma",
-        "Zi‐Min Hu"
-      ]
-    },
-    {
-      "title": "Investigation of co-existing bacteria in platelets by employing long-term culturomics and metagenomics",
-      "publication_year": 2025,
-      "publication_date": "2025-09-10",
-      "doi": "https://doi.org/10.3389/fcimb.2025.1607554",
-      "venue": "Frontiers in Cellular and Infection Microbiology",
+      "title": "Optimal Phase Principle for All-Optical Diffractive Symbol Classification",
+      "publication_year": 2026,
+      "publication_date": "2026-06-10",
+      "doi": "https://doi.org/10.1109/jphot.2026.3701893",
+      "venue": "IEEE photonics journal",
       "type": "article",
       "cited_by_count": 0,
       "is_oa": true,
-      "oa_url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2025.1607554/pdf",
+      "oa_url": "https://doi.org/10.1109/jphot.2026.3701893",
       "concepts": [
-        "Bacteria",
-        "Metagenomics",
-        "Platelet",
-        "Microbiology",
-        "Identification (biology)",
-        "Biology",
-        "Chemistry",
-        "Pathogenic bacteria"
+        "Computer science",
+        "Phase (matter)",
+        "Symbol (formal)",
+        "Algorithm",
+        "Phase modulation",
+        "Physics",
+        "Phase retrieval",
+        "Signal processing"
       ],
-      "abstract": "Introduction: Bacterial contamination of platelets presents a substantial risk in transfusion medicine. Conventional detection approaches have limitations in sensitivity and bacterial coverage. In this study we employed culturomics and metagenomics to investigate co-existent bacteria in platelets, aiming to enhance transfusion safety and explore healthy bacteremia. Methods: Platelet from 6 healthy donors underwent a 30-days extensive cultivation and isolation procedure using in-house culturomics. Results: 16S rRNA sequencing identified 90 bacterial strains across 3 phyla, 5 classes, 5orders, 7 families, 9 genera, and 23 species. Metagenomics sequencing revealed greater microbial diversity, detecting an average of 3018 microbial species per sample. The bacteria concurrently detected by both culturomics and metagenomics included species from Firmicutes, Actinobacteria, and Proteobacteria. Discussion: This combined approach validates the presence of bacteria in platelets, likely originating from the skin, gut, oral cavity, environment, or bloodstream, providing a comprehensive strategy for bacterial identification in transfusion products.",
+      "abstract": "All optical symbol classification based on diffractive optics has recently emerged as a promising technique. To enable classification of different symbols, the phase on single or multiple planes should be trained by data set with the target to maximize the field intensity within a few specific size-limited areas. While the trained optical network gives promising classification accuracy, its physical insight for the phase distribution is not clear, which makes it uncertain whether the performance can be further improved. In this work, the physical principle for optimal phase distribution on a single layer optical symbol classifier is revealed. The optical intensity within a specific area on the output plane is used as the optimization target, and the related orthonormal modes with respect to the output target can be found. The field on the tunable phase plane may be decomposed into multiple orthonormal modes and the optimal phase distribution is found by a simple iterative algorithm with the weighted summation of the orthonormal modes. The method is applicable when there are multiple input fields and multiple target areas. Numerical simulations as well as experimental validations...",
       "authors": [
-        "Qiqi Wang",
-        "Mengyi Zhao",
-        "Anqing Liu",
-        "Yuwei Zhao",
-        "Zhenxin Fan",
-        "Yang Huang",
-        "Zhan Gao",
-        "Miao He"
+        "Junhe Zhou",
+        "Qiqi Wang"
       ]
     },
     {
-      "title": "Natural products targeting NLRP3 inflammasome for metabolic dysfunction-associated fatty liver disease: the known unknowns",
-      "publication_year": 2025,
-      "publication_date": "2025-09-01",
-      "doi": "https://doi.org/10.1016/s1875-5364(25)60970-8",
-      "venue": "Chinese Journal of Natural Medicines",
+      "title": "In situ embedding of carbon dots into monodisperse silica nanospheres to achieve aqueous-phase long lifetime room-temperature phosphorescence for anti-counterfeiting applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-06",
+      "doi": "https://doi.org/10.1016/j.jlumin.2026.122010",
+      "venue": "Journal of Luminescence",
       "type": "article",
-      "cited_by_count": 4,
+      "cited_by_count": 0,
       "is_oa": false,
       "oa_url": "",
       "concepts": [
-        "Inflammasome",
-        "Pyrin domain",
-        "Fatty liver",
-        "Disease",
-        "Steatosis",
-        "Pharmacology",
-        "Medicine",
-        "Chemistry"
+        "Phosphorescence",
+        "Aqueous solution",
+        "Materials science",
+        "Dispersity",
+        "Luminescence",
+        "Photoluminescence",
+        "Nanoparticle",
+        "Carbon fibers"
       ],
       "abstract": "",
       "authors": [
-        "Jiahui Meng",
+        "Jingtian Xue",
+        "Zengsheng Guo",
+        "Yue Wang",
         "Qiqi Wang",
-        "Haopeng Wang",
-        "Xuange Shen",
-        "Tingting Qin",
-        "Wen Zhao",
-        "Haixia Li",
-        "Ziqiao Yuan"
+        "Yiqiang Sun",
+        "Cuncheng Li"
+      ]
+    },
+    {
+      "title": "Words at Play: Benchmarking Audio Pun Understanding in Large Audio-Language Models",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.48550/arxiv.2603.18678",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.18678",
+      "concepts": [
+        "Pun",
+        "Polysemy",
+        "Computer science",
+        "Ambiguity",
+        "Meaning (existential)",
+        "Benchmark (surveying)",
+        "Benchmarking",
+        "Natural language processing"
+      ],
+      "abstract": "Puns represent a typical linguistic phenomenon that exploits polysemy and phonetic ambiguity to generate humour, posing unique challenges for natural language understanding. Within pun research, audio plays a central role in human communication except text and images, while datasets and systematic resources for spoken puns remain scarce, leaving this crucial modality largely underexplored. In this paper, we present APUN-Bench, the first benchmark dedicated to evaluating large audio language models (LALMs) on audio pun understanding. Our benchmark contains 4,434 audio samples annotated across three stages: pun recognition, pun word location and pun meaning inference. We conduct a deep analysis of APUN-Bench by systematically evaluating 10 state-of-the-art LALMs, uncovering substantial performance gaps in recognizing, localizing, and interpreting audio puns. This analysis reveals key challenges, such as positional biases in audio pun location and error cases in meaning inference, offering actionable insights for advancing humour-aware audio intelligence.",
+      "authors": [
+        "Yuchen Su",
+        "Shaoxin Zhong",
+        "Yonghua Zhu",
+        "Ruofan Wang",
+        "Zijian Huang",
+        "Qiqi Wang",
+        "Na Zhao",
+        "Diana Benavides-Prado",
+        "Michael Witbrock"
+      ]
+    },
+    {
+      "title": "Words at Play: Benchmarking Audio Pun Understanding in Large Audio-Language Models",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "http://arxiv.org/abs/2603.18678",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.18678",
+      "concepts": [
+        "Pun",
+        "Polysemy",
+        "Computer science",
+        "Ambiguity",
+        "Meaning (existential)",
+        "Benchmark (surveying)",
+        "Benchmarking",
+        "Natural language processing"
+      ],
+      "abstract": "Puns represent a typical linguistic phenomenon that exploits polysemy and phonetic ambiguity to generate humour, posing unique challenges for natural language understanding. Within pun research, audio plays a central role in human communication except text and images, while datasets and systematic resources for spoken puns remain scarce, leaving this crucial modality largely underexplored. In this paper, we present APUN-Bench, the first benchmark dedicated to evaluating large audio language models (LALMs) on audio pun understanding. Our benchmark contains 4,434 audio samples annotated across three stages: pun recognition, pun word location and pun meaning inference. We conduct a deep analysis of APUN-Bench by systematically evaluating 10 state-of-the-art LALMs, uncovering substantial performance gaps in recognizing, localizing, and interpreting audio puns. This analysis reveals key challenges, such as positional biases in audio pun location and error cases in meaning inference, offering actionable insights for advancing humour-aware audio intelligence.",
+      "authors": [
+        "Yuchen Su",
+        "Shaoxin Zhong",
+        "Yonghua Zhu",
+        "Ruofan Wang",
+        "Zijian Huang",
+        "Qiqi Wang",
+        "Na Zhao",
+        "Diana Benavides-Prado",
+        "Michael Witbrock"
       ]
     }
   ]
