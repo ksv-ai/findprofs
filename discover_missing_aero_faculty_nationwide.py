@@ -86,10 +86,15 @@ AERO_TOPIC_IDS = [
     "T12567",  # Heat transfer and supercritical fluids
     "T12776",  # Electrohydrodynamics and Fluid Dynamics
     "T13951",  # Fluid dynamics and aerodynamics studies
+    # UAV, UAS, and Autonomous Flight Aerodynamics Topic IDs
+    "T11133",  # UAV Applications and Optimization
+    "T12125",  # Aerospace and Aviation Technology
+    "T13855",  # Aerospace Engineering and Control Systems
+    "T13954",  # Aerospace Engineering and Applications
 ]
 TOPIC_FILTER_STR = "|".join(AERO_TOPIC_IDS)
 
-# Aero / Fluids / Propulsion Domain Regex
+# Aero / Fluids / Propulsion / UAV Domain Regex
 AERO_FLUIDS_TERMS = [
     r"\bcfd\b", r"\bcomputational fluid\b", r"\bfluid dynamic\w*", r"\bfluid mechanic\w*",
     r"\bturbulen\w*", r"\baerodynamic\w*", r"\baeroacoustic\w*", r"\baeroelastic\w*",
@@ -102,7 +107,11 @@ AERO_FLUIDS_TERMS = [
     r"\bwake\b", r"\bshear flow\b", r"\bmultiphase\b", r"\batomization\b", r"\bdroplet\b",
     r"\bcavitation\b", r"\bparticle[- ]laden\b", r"\bairfoil\b", r"\bwing\b", r"\bpiv\b",
     r"\bparticle image velocimetry\b", r"\bschlieren\b", r"\bwind tunnel\b", r"\bturbomachiner\w*",
-    r"\bspacecraft\b", r"\bflight\b"
+    r"\bspacecraft\b", r"\bflight\b",
+    # UAV / UAS / Drones / Flight Dynamics / Autonomous Flight
+    r"\buav\b", r"\buavs\b", r"\buas\b", r"\bunmanned aerial\b", r"\bunmanned aircraft\b",
+    r"\bdrones?\b", r"\bquadrotor\b", r"\bquadcopter\b", r"\bautonomous flight\b",
+    r"\bmicro air vehicle\w*", r"\bmav\b", r"\bevtol\b", r"\bvtol\b", r"\brotorcraft\b"
 ]
 COMPILED_AERO = [re.compile(p, re.IGNORECASE) for p in AERO_FLUIDS_TERMS]
 

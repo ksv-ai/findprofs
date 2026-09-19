@@ -26,9 +26,11 @@ These generic emails are deleted within 3 seconds because they:
 2. Lack technical precision (saying "CFD" instead of specifying their exact numerical scheme, e.g., *Nek5000 spectral-element DNS* or *VF-IBM*).
 3. Do not demonstrate that the applicant read their recent papers.
 
-### 1.4 Strict Materials, Composites, and Non-Aero Exclusion Protocol
-To maintain pure alignment with Aerospace, Fluid Dynamics, CFD, Turbulence, and Propulsion, the pipeline enforces strict exclusion filters:
-- **Eligible Domains**: Direct Numerical Simulation (DNS), Large Eddy Simulation (LES), RANS, turbulence modeling, hypersonics, compressible flows, shock–boundary-layer interaction (SBLI), scramjets, propulsion, combustion, reactive flows, primary atomization, multi-phase flow dynamics, aeroacoustics, vortex dynamics, and computational mathematics for flow PDEs.
+### 1.4 Eligible Domains & Non-Aero Exclusion Protocol
+To maintain pure alignment with Aerospace, Fluid Dynamics, CFD, Turbulence, Propulsion, and Autonomous Flight, the pipeline enforces strict scope filters:
+- **Eligible Domains**:
+  1. **Core Aero / Fluids / CFD**: Direct Numerical Simulation (DNS), Large Eddy Simulation (LES), RANS, turbulence modeling, hypersonics, compressible flows, shock–boundary-layer interaction (SBLI), scramjets, propulsion, combustion, reactive flows, primary atomization, multi-phase flow dynamics, aeroacoustics, vortex dynamics, and computational mathematics for flow PDEs.
+  2. **UAV / UAS & Flight Dynamics**: Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), drones, quadrotors, autonomous flight control, micro air vehicles (MAVs), eVTOL/VTOL aerodynamics, rotorcraft dynamics, gust response, and aeroelastic flight dynamics.
 - **Strictly Excluded Domains**:
   1. **Pure Materials Science & Metallurgy**: Intermetallics, alloy properties, solution combustion synthesis, metallurgy, steel/iron, corrosion science, crystal growth, phase transformation.
   2. **Composites & Nanomaterials**: Structural polymer nanocomposites, polymer crystallization, block copolymer self-assembly, textiles, carbon fiber manufacturing without fluid/aerodynamic coupling.
