@@ -377,3 +377,43 @@ d:\Others\findprofs\
 3. **Dedicated Retired Faculty Quarantine (`retired_faculty/`)**: Any professor flagged as emeritus, retired, or inactive (0 journal articles in 2024–2026) is routed into `jsontocoldemail/retired_faculty/universities_wise/` rather than active outreach cohorts.
 4. **Structured University Hierarchy**: Every faculty member is archived within their specific university folder (`universities_wise/<university_slug>/<professor_slug>.json`), allowing researchers to review or target a single university's lab ecosystem with zero friction.
 
+---
+
+## 8. Post-Scanning Operational Roadmap (Execution Protocol)
+
+Immediately upon completion of the nationwide 159-university deep discovery scan (`task-577`), the automated processing pipeline executes the following 6 sequential phases:
+
+### Phase 1: Multi-Filter Quality Audit & Topical Scope Sanitization
+1. **Purge Non-Aero Interlopers**: Run strict regex checks against all profiles to eliminate residual pure materials science, structural metallurgy, alloy phase transformations, ceramics, battery electrodes, and clinical biomedical mechanics.
+2. **Topical Scope Validation**: Verify that every retained profile has dominant topical alignment with core Aero, Fluids, CFD, Turbulence, Hypersonics, Propulsion, Combustion, Multiphase Flows, or UAV / UAS / Flight Dynamics.
+
+### Phase 2: Author De-duplication & Dual-Affiliation Resolution
+1. **Unique Key Indexing**: Index every harvested profile across both cohorts (`openalex_mechaero_faculty_json` and `discovered_missing_faculty`) by unique OpenAlex author identifier (`author_id`).
+2. **Latest Primary Affiliation Assignment**: For professors holding joint appointments or who recently moved institutions, parse their latest 2025/2026 peer-reviewed publications. Assign the professor to the primary institution declared on their most recent paper, while preserving secondary affiliations in JSON metadata. This eliminates duplicate rows across workbooks.
+
+### Phase 3: Retired, Emeritus, & Inactive Luminaries Quarantine
+1. **The Active Liveness Gate**: Require $\ge 1$ authentic peer-reviewed journal article in **2024–2026**.
+2. **Active Distinguished & Chaired Professors**: Chaired, endowed, and distinguished professors with active 2024–2026 papers remain in the primary active outreach cohorts.
+3. **Quarantine of Emeriti & Deceased Luminaries**: Faculty marked as `emeritus`, `emerita`, `retired`, or having zero original journal articles since 2023 (e.g. Ted Belytschko, Ali Nayfeh) are isolated into `jsontocoldemail/retired_faculty/universities_wise/`.
+4. **Retired Catalog Workbook**: Compile `RETIRED_EMERITUS_FACULTY_CATALOG.xlsx` to document quarantined professors with their lifetime stats and last active publication.
+
+### Phase 4: Automated 4-Pillar Cold Outreach Synthesis (`generate_cold_email_pillars.py`)
+Process all qualified active faculty profiles to compute:
+1. **Pillar 1A**: 1-Sentence Concise Mobile Research Hook (~25–30 words).
+2. **Pillar 1B**: 2–3 Sentence In-Depth Technical Research Hook (~60–80 words: Physical Bottleneck + Lab Method + Target Flow Regime).
+3. **Pillar 2**: Dual Flagship Papers (Flagship 1: highest-cited post-2020 landmark; Flagship 2: cutting-edge 2023–2026 solver/diagnostic study) with direct clickable DOIs.
+4. **Pillar 3**: Lab Tech Stack (exact solvers, numerical schemes, and diagnostics matched from 60+ patterns).
+5. **Pillar 4**: Dedicated Tripartite Physical Findings for both flagships (Engine ➔ Arena ➔ Payoff).
+6. **Full Abstracts**: Linear unabridged reconstructed abstracts for Flagship 1 and Flagship 2 (Cols 18 & 22).
+7. **Lab Personnel & Publishing Venue**: Extract first author of latest 2025/2026 paper (Lead PhD/postdoc) and primary publishing venue.
+
+### Phase 5: Production 23-Column Excel Workbooks & Markdown Dossiers
+Compile three publication-grade deliverables using `openpyxl`:
+1. `d:\Others\findprofs\jsontocoldemail\discovered_missing_cohort\DISCOVERED_COLD_EMAIL_AERO_FACULTY_23COL.xlsx`
+2. `d:\Others\findprofs\jsontocoldemail\original_mechaero_cohort\MASTER_COLD_EMAIL_AERO_FACULTY_23COL.xlsx`
+3. `d:\Others\findprofs\jsontocoldemail\consolidated_nationwide\ALL_USA_R1_AERO_FLUIDS_FACULTY_23COL.xlsx`
+4. Markdown summary dossiers with quick-search tables and direct copy-paste templates.
+
+### Phase 6: Version Control & GitHub Push
+Commit all enriched JSONs, Python synthesis scripts, and Excel workbooks to git and push upstream to GitHub under username `ksv-ai` (`master` branch).
+
