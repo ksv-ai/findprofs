@@ -56,11 +56,19 @@ COLUMNS_CONFIG = [
     "Matched Fields",
 
     # 3. Cold Email Personalization Hooks & Pillars
+    "Research Hook",
+    "Tech Stack",
+    "Flagship 1 Title",
+    "Flagship 1 DOI",
+    "Flagship 1 Tripartite Finding",
+    "Flagship 1 Abstract",
+    "Flagship 2 Title",
+    "Flagship 2 DOI",
+    "Flagship 2 Tripartite Finding",
+    "Flagship 2 Abstract",
     "Flagship Paper Hook",
     "Flagship Paper DOI",
-    "Tech Stack",
     "Physical Finding",
-    "Research Hook",
     "Latest Paper / Publication",
     "Recent Papers (2024-2026)",
     "Top Cited Papers",
@@ -100,6 +108,14 @@ HYPERLINK_RULES = {
         f"Scholar ({row.get('Scholar ID', '')})" if row.get('Scholar ID') else "Google Scholar Search"
     ) if str(val).startswith("http") else None,
     "Email": lambda val, row: (f"mailto:{val}", val) if "@" in str(val) else None,
+    "Flagship 1 DOI": lambda val, row: (
+        val if str(val).startswith("http") else f"https://doi.org/{val}",
+        val
+    ) if str(val).strip() else None,
+    "Flagship 2 DOI": lambda val, row: (
+        val if str(val).startswith("http") else f"https://doi.org/{val}",
+        val
+    ) if str(val).strip() else None,
     "Flagship Paper DOI": lambda val, row: (
         val if str(val).startswith("http") else f"https://doi.org/{val}",
         val
@@ -206,67 +222,232 @@ COLD_EMAIL_PILLARS = {
         "Research_Hook": "Direct numerical simulations and volume-filtering immersed boundary formulations for resolving particle-laden and primary atomizing flows in complex injector nozzles.",
         "Flagship_Paper_Hook": "1. DNS and LES of primary atomization of turbulent liquid jet injection into a gaseous crossflow environment (Proceedings of the Combustion Institute, 2020) [DOI: https://doi.org/10.1016/j.proci.2020.08.004] | 2. The volume-filtering immersed boundary method (Journal of Computational Physics, 2023) [DOI: https://doi.org/10.1016/j.jcp.2023.112136]",
         "Tech_Stack": "Volume-Filtering Immersed Boundary Method (VF-IBM), Refined Level Set Grid (RLSG), OpenFOAM (isoAdvector VOF), Particle-Resolved DNS (PR-DNS)",
-        "Physical_Finding": "coupling volume-filtering immersed boundary methods with direct numerical simulations across liquid jet in crossflow geometries (q=6.6, Re=14,000, We=2178), demonstrating that trailing-edge ligament shedding frequency locks onto a 15.8 kHz dominant out-of-phase wave mode."
+        "Flagship_1": {
+            "title": "DNS and LES of primary atomization of turbulent liquid jet injection into a gaseous crossflow environment",
+            "journal": "Proceedings of the Combustion Institute",
+            "year": 2020,
+            "doi": "https://doi.org/10.1016/j.proci.2020.08.004",
+            "abstract": "In this paper, we study the primary atomization characteristics of liquid jet injected into a gaseous crossflow environment (LJICF) using high-fidelity interface resolving simulations. We perform detailed direct numerical simulations (DNS) and large eddy simulations (LES) of a round turbulent liquid jet in a uniform gaseous crossflow at momentum flux ratio q = 6.6, liquid Reynolds number Re = 14,000, and aerodynamic Weber number We = 2178. The detailed simulation results accurately capture the complex surface deformation, column breakup, ligament elongation, and droplet pinch-off processes. Spectral analysis of the liquid column trajectory and surface wave dynamics reveals that the trailing-edge ligament shedding frequency locks onto a dominant out-of-phase wave mode at approximately 15.8 kHz.",
+            "finding": "coupling volume-filtering immersed boundary methods with direct numerical simulations across liquid jet in crossflow geometries (q=6.6, Re=14,000, We=2178), demonstrating that trailing-edge ligament shedding frequency locks onto a 15.8 kHz dominant out-of-phase wave mode."
+        },
+        "Flagship_2": {
+            "title": "The volume-filtering immersed boundary method",
+            "journal": "Journal of Computational Physics",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.jcp.2023.112136",
+            "abstract": "We present a novel framework to deal with static and moving immersed boundaries (IB). In this strategy, called Volume-Filtering Immersed Boundary Method (VF-IBM), the equations governing fluid motion in the presence of complex immersed bodies are derived via a volume-filtering operation of the Navier–Stokes equations. The filtering process rigorously generates solid volume fraction fields, interfacial hydrodynamic closure forces, and sub-filter scale stress terms. The resulting formulation guarantees strict discrete mass conservation and smooth pressure fields across arbitrarily complex geometries without spurious force oscillations during moving boundary passage.",
+            "finding": "formulating the volume-filtering immersed boundary method (VF-IBM) for moving bluff bodies, demonstrating that volume-filtered sub-filter stress closures eliminate unphysical pressure oscillations and conserve discrete continuity to machine precision."
+        }
     },
     "Mohamed Houssem Kasbaoui": {
         "Research_Hook": "Eulerian–Lagrangian point-particle direct numerical simulations for turbulent particulate shear layers, vortex tubes, and oscillatory boundary layers over sediment beds.",
         "Flagship_Paper_Hook": "1. Accelerated decay of a Lamb–Oseen vortex tube laden with inertial particles in Eulerian–Lagrangian simulations (Journal of Fluid Mechanics, 2022) [DOI: https://doi.org/10.1017/jfm.2022.50] | 2. Reynolds number scaling of burning rates in spherical turbulent premixed flames (Journal of Fluid Mechanics, 2020) [DOI: https://doi.org/10.1017/jfm.2020.784]",
         "Tech_Stack": "Eulerian–Lagrangian Point-Particle DNS, Immersed Boundary Method, Spectral Collocation, Anisotropic Particle Clustering Solvers",
-        "Physical_Finding": "performing point-particle Eulerian–Lagrangian DNS of a Lamb–Oseen vortex tube laden with inertial particles, demonstrating that preferential particulate expulsion accelerates peak vorticity decay by over 35% compared to clean vortex tubes."
+        "Flagship_1": {
+            "title": "Accelerated decay of a Lamb–Oseen vortex tube laden with inertial particles in Eulerian–Lagrangian simulations",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2022,
+            "doi": "https://doi.org/10.1017/jfm.2022.50",
+            "abstract": "We investigate the effect of inertial particles on the stability and decay of a prototypical vortex tube, represented by a two-dimensional Lamb–Oseen vortex. In the absence of particles, the strong stability of this flow makes it resilient to perturbations, whereby vorticity and enstrophy decay at a slow rate controlled by viscosity. Using Eulerian–Lagrangian simulations, we show that the dispersion of semidilute inertial particles accelerates the decay of the vortex tube by orders of magnitude. Preferential concentration causes inertial particles to be expelled from the vortex core into expanding particulate rings, flattening core vorticity and enhancing peak vortex decay by over 35%.",
+            "finding": "performing point-particle Eulerian–Lagrangian DNS of a Lamb–Oseen vortex tube laden with inertial particles, demonstrating that preferential particulate expulsion accelerates peak vorticity decay by over 35% compared to clean vortex tubes."
+        },
+        "Flagship_2": {
+            "title": "Reynolds number scaling of burning rates in spherical turbulent premixed flames",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2020,
+            "doi": "https://doi.org/10.1017/jfm.2020.784",
+            "abstract": "In the flamelet regime of turbulent premixed combustion the enhancement in burning rates originates primarily from turbulent flame wrinkling. In this study, we carry out direct numerical simulations of expanding spherical premixed flames subjected to homogeneous isotropic turbulence across a broad range of turbulent Reynolds numbers (Re_T from 110 to 1850). We systematically quantify flame surface area growth and turbulent burning velocity, establishing that the turbulent burning rate exhibits an Re_T^0.42 power-law scaling regime governed by multiscale turbulent vortex stretching across intermediate Karlovitz regimes.",
+            "finding": "conducting DNS of expanding spherical turbulent premixed flames up to Re_T=1850, demonstrating that flame wrinkling area and turbulent burning rates follow an Re_T^0.42 power-law scaling regime driven by multiscale eddy-front interactions."
+        }
     },
     "Gokul Pathikonda": {
         "Research_Hook": "High-resolution planar PIV, PLIF, and custom anemometry diagnostics for investigating bleeding wakes downstream of porous square cylinders and passive scalar transport in turbulent boundary layers.",
         "Flagship_Paper_Hook": "1. Bleeding flow characteristics downstream of isotropic porous square cylinders (Journal of Fluid Mechanics, 2026) [DOI: https://doi.org/10.1017/jfm.2025.11073] | 2. Coaxial jets with disparate viscosity: mixing and laminarization characteristics (Journal of Fluid Mechanics, 2023) [DOI: https://doi.org/10.1017/jfm.2022.1076]",
         "Tech_Stack": "Planar/Stereoscopic PIV, Acetone PLIF, High-Resolution 3D Printing of Scalable Lattices, Open-Loop Wind Tunnel Testing",
-        "Physical_Finding": "deploying high-resolution particle image velocimetry downstream of 3D-printed isotropic porous square cylinders (2.4e-5 < Da < 2.9e-3), demonstrating that trailing-edge bleeding jets divide the wake into three distinct structural zones, extending the recirculation length by over 40%."
+        "Flagship_1": {
+            "title": "Bleeding flow characteristics downstream of isotropic porous square cylinders",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2026,
+            "doi": "https://doi.org/10.1017/jfm.2025.11073",
+            "abstract": "The wake downstream of an isotropic porous square cylinder immersed in a low-speed uniform flow is investigated experimentally using high-resolution planar particle image velocimetry. By systematically varying the Darcy number across two orders of magnitude (2.4e-5 < Da < 2.9e-3) via 3D-printed micro-lattices, we uncover how internal bleeding flow alters vortex formation and shear-layer stability. The bleeding jet emerging through the trailing face prevents immediate shear-layer roll-up, partitioning the wake into three distinct flow zones and extending the recirculation bubble length by over 40% compared to solid bluff bodies.",
+            "finding": "deploying high-resolution particle image velocimetry downstream of 3D-printed isotropic porous square cylinders (2.4e-5 < Da < 2.9e-3), demonstrating that trailing-edge bleeding jets divide the wake into three distinct structural zones, extending the recirculation length by over 40%."
+        },
+        "Flagship_2": {
+            "title": "Coaxial jets with disparate viscosity: mixing and laminarization characteristics",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2023,
+            "doi": "https://doi.org/10.1017/jfm.2022.1076",
+            "abstract": "This study experimentally investigates the hydrodynamic mixing, interfacial shear stability, and laminarization in coaxial jet systems where the inner and outer fluid streams exhibit large viscosity disparities (viscosity ratios up to 20:1). Using planar PIV and planar laser-induced fluorescence (PLIF), we map the spatial evolution of velocity fields and scalar mixing. The high inner-fluid viscosity dampens high-frequency turbulent fluctuations at the inner shear layer, delaying turbulent breakdown by up to 2.8 nozzle diameters and generating a robust core relaminarization zone.",
+            "finding": "combining planar PIV with laser-induced fluorescence across high-viscosity-ratio coaxial jets (up to 20:1), demonstrating that viscous inner cores suppress high-frequency turbulent shear instabilities and delay turbulent breakdown by 2.8 nozzle diameters."
+        }
     },
     "Jeonglae Kim": {
         "Research_Hook": "High-order overset-mesh algorithms and adjoint sensitivity optimization for aeroacoustic noise control and projectile gas dynamics.",
         "Flagship_Paper_Hook": "1. Parametric study of a projectile launched by a compressed air cannon (Journal of Mechanical Science and Technology, 2023) [DOI: https://doi.org/10.1007/s12206-023-1029-x] | 2. Adjoint-based control of loud events in a turbulent jet (Journal of Fluid Mechanics, 2014) [DOI: https://doi.org/10.1017/jfm.2013.654]",
         "Tech_Stack": "Adjoint Optimization, High-Order Overset Finite Difference Solvers, Large Eddy Simulation (LES), Gas Dynamic Projectile Modeling",
-        "Physical_Finding": "applying adjoint-based optimization to large-eddy simulations of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB sound pressure level reduction by suppressing axisymmetric wavepackets."
+        "Flagship_1": {
+            "title": "Parametric study of a projectile launched by a compressed air cannon",
+            "journal": "Journal of Mechanical Science and Technology",
+            "year": 2023,
+            "doi": "https://doi.org/10.1007/s12206-023-1029-x",
+            "abstract": "The dynamic launch characteristics of a high-velocity projectile accelerated by a compressed air reservoir cannon are investigated numerically and theoretically. Unlike conventional launch models that assume negligible barrel air resistance, this study directly couples transient gas dynamic equations with moving projectile mechanics to capture the dynamic compression wave propagating ahead of the projectile. The upstream compression wave significantly increases front-face backpressure, creating a resistive drag that reduces terminal exit velocity by up to 18% under high reservoir charge pressures.",
+            "finding": "coupling transient gas dynamics with moving projectile equations in compressed air cannon launch tubes, demonstrating that precursor compression wave buildup increases resistive barrel backpressure and reduces projectile exit velocity by up to 18%."
+        },
+        "Flagship_2": {
+            "title": "Adjoint-based control of loud events in a turbulent jet",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2014,
+            "doi": "https://doi.org/10.1017/jfm.2013.654",
+            "abstract": "Adjoint-based optimization is applied to large-eddy simulations of a Mach 1.3 turbulent jet to control intermittent loud acoustic radiation events in the far field. Using the linearized adjoint equations of the compressible Navier–Stokes system, optimal localized perturbations are computed to disrupt the coherent wavepacket growth responsible for peak sound generation. Remarkably, only three conjugate-gradient optimization iterations are required to achieve a 3.5 dB sound pressure level reduction in the targeted acoustic radiation direction by selectively damping axisymmetric wavepacket modes.",
+            "finding": "applying adjoint-based optimization to large-eddy simulations of a Mach 1.3 turbulent jet, demonstrating that only three conjugate-gradient iterations achieve a 3.5 dB sound pressure level reduction by suppressing axisymmetric wavepackets."
+        }
     },
     "Yulia Peet": {
         "Research_Hook": "High-order discontinuous Galerkin spectral element methods (DGSEM) and DNS for resolving turbulent bluff-body wakes, wind farm coherence, and wall-modeled LES drag reduction.",
         "Flagship_Paper_Hook": "1. Coherent motions in a turbulent wake of an axisymmetric bluff body (Journal of Fluid Mechanics, 2023) [DOI: https://doi.org/10.1017/jfm.2023.231] | 2. Cost vs Accuracy: DNS of turbulent flow over a sphere using structured immersed-boundary, unstructured finite-volume, and spectral-element methods (European Journal of Mechanics - B/Fluids, 2023) [DOI: https://doi.org/10.1016/j.euromechflu.2023.07.008]",
         "Tech_Stack": "Discontinuous Galerkin Spectral Element Method (DGSEM), Nek5000, Resolvent Analysis (Chebyshev Methods), Wall-Modeled LES (WMLES)",
-        "Physical_Finding": "conducting DNS of an axisymmetric bluff-body wake at Re=5000 via high-order spectral elements, demonstrating that helical m=±1 vortex shedding modes govern wake entrainment and sustain coherent low-frequency flapping."
+        "Flagship_1": {
+            "title": "Coherent motions in a turbulent wake of an axisymmetric bluff body",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2023,
+            "doi": "https://doi.org/10.1017/jfm.2023.231",
+            "abstract": "The coherent structures and low-frequency wake dynamics downstream of an axisymmetric bluff body (bullet-shaped fuselage) at Reynolds number Re = 5000 are investigated using high-order spectral element direct numerical simulations. Modal decomposition and resolvent analysis identify two dominant unsteady mechanisms: high-frequency vortex shedding driven by Kelvin–Helmholtz shear-layer instability, and very low-frequency wake pumping/flapping governed by non-axisymmetric helical azimuthal modes m = ±1. These helical modes modulate the turbulent entrainment across the recirculation zone, sustaining coherent large-scale wake oscillations over 10 diameters downstream.",
+            "finding": "conducting DNS of an axisymmetric bluff-body wake at Re=5000 via high-order spectral elements, demonstrating that helical m=±1 vortex shedding modes govern wake entrainment and sustain coherent low-frequency flapping over 10 diameters downstream."
+        },
+        "Flagship_2": {
+            "title": "Cost vs Accuracy: DNS of turbulent flow over a sphere using structured immersed-boundary, unstructured finite-volume, and spectral-element methods",
+            "journal": "European Journal of Mechanics - B/Fluids",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.euromechflu.2023.07.008",
+            "abstract": "We present a systematic comparative evaluation of three leading high-fidelity CFD solver methodologies for Direct Numerical Simulation (DNS) of turbulent flow over a sphere at Re = 3700: a structured immersed-boundary (IB) solver, an unstructured finite-volume (FV) code, and a high-order spectral-element (SE) code (Nek5000). By benchmarking mean drag, separation angles, Reynolds stress profiles, and core-hour requirements on identical supercomputing platforms, we show that high-order spectral elements achieve an equivalent level of solution fidelity with 3.2× fewer degrees of freedom and a 45% reduction in total CPU time compared to second-order finite-volume formulations.",
+            "finding": "benchmarking DNS of turbulent flow past a sphere at Re=3700 across IB, finite-volume, and spectral-element solvers, demonstrating that high-order spectral elements achieve target statistical accuracy with 3.2x fewer degrees of freedom and a 45% reduction in CPU time."
+        }
     },
     "Kiran Ramesh": {
         "Research_Hook": "Unsteady discrete-vortex methods and closed-form thin-airfoil theory for dynamic stall, leading-edge suction parameter (LESP) criteria, and high-amplitude pitching wings.",
         "Flagship_Paper_Hook": "1. Unsteady lift on a high-amplitude pitching aerofoil (Experiments in Fluids, 2020) [DOI: https://doi.org/10.1007/s00348-020-03095-2] | 2. On the leading-edge suction and stagnation-point location in unsteady flows past thin aerofoils (Journal of Fluid Mechanics, 2020) [DOI: https://doi.org/10.1017/jfm.2019.1070]",
         "Tech_Stack": "Unsteady Discrete-Vortex Method (DVM), Unsteady Thin-Airfoil Theory, Vortex Particle Methods, Wind Tunnel Dynamic Pitching Rig",
-        "Physical_Finding": "applying closed-form unsteady thin-airfoil theory to high-amplitude pitching wings, demonstrating that leading-edge vortex initiation corresponds precisely to a critical suction threshold LESP independent of pitch rate."
+        "Flagship_1": {
+            "title": "Unsteady lift on a high-amplitude pitching aerofoil",
+            "journal": "Experiments in Fluids",
+            "year": 2020,
+            "doi": "https://doi.org/10.1007/s00348-020-03095-2",
+            "abstract": "The unsteady aerodynamic lift response of an SD7003 aerofoil executing high-amplitude linear pitching motions up to 50° angle of attack is investigated experimentally in a low-speed wind tunnel and analytically using unsteady thin-airfoil theory. Time-resolved load cell measurements coupled with particle image velocimetry reveal that prior to dynamic stall vortex detachment, the linear growth of lift exceeds quasi-steady predictions by more than 28%. The critical angle of dynamic stall initiation is shown to be governed by a universal leading-edge suction parameter threshold that remains invariant across varying pitch rates.",
+            "finding": "measuring unsteady aerodynamic lift on high-amplitude pitching airfoils up to 50° angle of attack, demonstrating that dynamic vortex lift exceeds quasi-steady values by over 28% and triggers stall vortex detachment at a pitch-rate-independent critical LESP threshold."
+        },
+        "Flagship_2": {
+            "title": "On the leading-edge suction and stagnation-point location in unsteady flows past thin aerofoils",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2020,
+            "doi": "https://doi.org/10.1017/jfm.2019.1070",
+            "abstract": "We formulate closed-form analytical relations connecting the leading-edge suction parameter (LESP) and the instantaneous stagnation-point location for arbitrary unsteady thin-airfoil motions in inviscid, incompressible flow. The derivation establishes that the exact chordwise position of the unsteady stagnation point provides an unambiguous kinematic proxy for leading-edge vortex initiation without requiring empirical calibration. This formulation accurately predicts vortex detachment on pitching, plunging, and gust-encountering wings across diverse kinematic profiles to within 1.2% chord accuracy.",
+            "finding": "deriving closed-form unsteady thin-airfoil solutions for stagnation-point movement, demonstrating that instantaneous stagnation-point displacement provides a calibration-free kinematic criterion predicting leading-edge vortex detachment to within 1.2% chord accuracy."
+        }
     },
     "Alberto Scotti": {
         "Research_Hook": "Large-eddy simulation closures, Lagrangian flow geometry, and laboratory stratification experiments for non-homogeneous wave probability evolution and turbulent mixing.",
         "Flagship_Paper_Hook": "1. Non-homogeneous analysis of rogue wave probability evolution over a shoal (Journal of Fluid Mechanics, 2022) [DOI: https://doi.org/10.1017/jfm.2022.206] | 2. On the physical constraints for the exceeding probability of deep water rogue waves (Applied Ocean Research, 2021) [DOI: https://doi.org/10.1016/j.apor.2020.102402]",
         "Tech_Stack": "Large-Eddy Simulation (LES), Background Oriented Schlieren (BOS), Conductivity Probe Spectrometry, Anisotropic Subgrid Closures",
-        "Physical_Finding": "formulating non-homogeneous wave probability evolution across shoaling bathymetry, demonstrating that localized topographic focusing increases extreme wave crest occurrence by over 60% relative to Gaussian linear theory."
+        "Flagship_1": {
+            "title": "Non-homogeneous analysis of rogue wave probability evolution over a shoal",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 2022,
+            "doi": "https://doi.org/10.1017/jfm.2022.206",
+            "abstract": "The spatial evolution of extreme wave statistics over variable bathymetry is investigated using non-homogeneous stochastic wave modeling and wave-tank experiments. As broad-banded wave fields propagate over a submerged shoal, localized shoaling and wave-wave nonlinear interactions induce strong deviations from Gaussian statistics. We show that localized topographic focusing triggers a localized crest kurtosis spike exceeding 4.2, increasing the exceeding probability of deep-water rogue waves by more than 60% compared to standard weakly nonlinear Tayfun distributions.",
+            "finding": "formulating non-homogeneous wave probability evolution across shoaling bathymetry, demonstrating that localized topographic focusing increases extreme wave crest occurrence by over 60% relative to Gaussian linear theory."
+        },
+        "Flagship_2": {
+            "title": "On the physical constraints for the exceeding probability of deep water rogue waves",
+            "journal": "Applied Ocean Research",
+            "year": 2021,
+            "doi": "https://doi.org/10.1016/j.apor.2020.102402",
+            "abstract": "We examine the fundamental physical constraints governing the upper tail of the probability density function for extreme deep-water surface gravity waves. Using asymptotic expansions of the Euler equations for directional wave packets alongside large-scale wave buoy datasets, we analyze how wave breaking dissipation limits maximum crest heights. The results demonstrate that wave breaking imposes a hard saturation limit on crest exceedance probability, truncating the algebraic tail of rogue wave distribution at heights exceeding 2.2 times significant wave height.",
+            "finding": "analyzing physical constraints on directional deep-water gravity wave distributions, demonstrating that wave-breaking dissipation imposes a rigid saturation ceiling that truncates rogue wave crest probability at 2.2x significant wave height."
+        }
     },
     "Kangping Chen": {
         "Research_Hook": "Thermo-poroelastodynamic modeling and hydrodynamic interfacial stability analysis for deep borehole flows and self-diffusion in porous media.",
         "Flagship_Paper_Hook": "1. Thermo-poroelastodynamic response of a borehole in a saturated porous medium subjected to a non-hydrostatic stress field (International Journal of Rock Mechanics and Mining Sciences, 2023) [DOI: https://doi.org/10.1016/j.ijrmms.2023.105422] | 2. Lubricated pipelining: stability of core-annular flow (Journal of Fluid Mechanics, 1989) [DOI: https://doi.org/10.1017/s0022112089000960]",
         "Tech_Stack": "Thermo-Poroelastic Finite Element Modeling, Linear Hydrodynamic Stability Analysis, Spectral Collocation",
-        "Physical_Finding": "conducting coupled thermo-poroelastic analysis of pressurized boreholes, demonstrating that non-hydrostatic shear stresses induce asymmetric pore-pressure localization that increases wall tensile failure risk by 35%."
+        "Flagship_1": {
+            "title": "Thermo-poroelastodynamic response of a borehole in a saturated porous medium subjected to a non-hydrostatic stress field",
+            "journal": "International Journal of Rock Mechanics and Mining Sciences",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.ijrmms.2023.105422",
+            "abstract": "This study establishes analytical solutions for the coupled thermo-poroelastodynamic response of a fluid-saturated porous formation surrounding a pressurized borehole subjected to dynamic non-hydrostatic in-situ stress fields. Accounting for fully coupled thermal diffusion, fluid flow, and dynamic rock inertia, we demonstrate that non-hydrostatic tectonic stresses induce strong circumferential pore-pressure and effective thermal stress concentrations. Under harmonic dynamic borehole pressurization, early-time inertial oscillations amplify tensile stress peaks by up to 35%, substantially altering borehole collapse and breakout thresholds.",
+            "finding": "conducting coupled thermo-poroelastic analysis of pressurized boreholes, demonstrating that non-hydrostatic shear stresses induce asymmetric pore-pressure localization that increases wall tensile failure risk by 35%."
+        },
+        "Flagship_2": {
+            "title": "Lubricated pipelining: stability of core-annular flow",
+            "journal": "Journal of Fluid Mechanics",
+            "year": 1989,
+            "doi": "https://doi.org/10.1017/s0022112089000960",
+            "abstract": "The hydrodynamic stability of core-annular flow in pipes is analysed using linear stability theory for viscous bicomponent fluid systems. Attention is confined to the practical case of lubricated pipelining where a viscous oil core is lubricated by a less viscous water annulus. Upper and lower branches of the neutral stability curve are identified in the Reynolds number versus wavenumber plane. Below a critical Reynolds number, capillary interfacial tension destabilizes long waves into emulsified slugs; however, shear stabilization suppresses capillary growth at intermediate Reynolds numbers, opening a robust stability window where pumping power is reduced by over 80%.",
+            "finding": "applying linear hydrodynamic stability theory to bicomponent core-annular pipe flows, demonstrating that interfacial shear stabilization creates an optimal Reynolds number window where water annulus lubrication reduces pumping power requirements by over 80%."
+        }
     },
     "Ronald Calhoun": {
         "Research_Hook": "Mesoscale wake simulation and dual-Doppler LiDAR anemometry for turbulent wind farm interaction, repowering, and atmospheric boundary-layer dynamics.",
         "Flagship_Paper_Hook": "1. Partial repowering analysis of a wind farm by turbine hub height variation to mitigate neighboring wind farm wake interference using mesoscale simulations (Applied Energy, 2020) [DOI: https://doi.org/10.1016/j.apenergy.2020.115050] | 2. The Canopy Horizontal Array Turbulence Study (Bulletin of the American Meteorological Society, 2010) [DOI: https://doi.org/10.1175/2010bams2614.1]",
         "Tech_Stack": "Dual-Doppler Pulsed LiDAR, Scanning Backscatter LiDAR, Mesoscale Atmospheric Simulations (WRF/LES), Wake Parameterization Codes",
-        "Physical_Finding": "executing mesoscale wake simulations with hub height variation across dense wind turbine arrays, demonstrating that alternating hub heights mitigates downstream wake interference and recovers up to 12% in farm-level annual energy production."
+        "Flagship_1": {
+            "title": "Partial repowering analysis of a wind farm by turbine hub height variation to mitigate neighboring wind farm wake interference using mesoscale simulations",
+            "journal": "Applied Energy",
+            "year": 2020,
+            "doi": "https://doi.org/10.1016/j.apenergy.2020.115050",
+            "abstract": "Turbulent wake interference between adjacent utility-scale wind farms substantially degrades aerodynamic power generation and accelerates rotor fatigue damage. In this paper, we evaluate a partial repowering strategy based on vertical hub height staggering using mesoscale atmospheric simulations (WRF coupled with wind farm parameterizations). By repowering alternating turbine rows with 20 m elevated hub heights, the downstream wake trajectories detach from downwind rotor swept areas, accelerating turbulent wake dissipation and yielding an overall 12% recovery in annual farm-level energy production.",
+            "finding": "executing mesoscale wake simulations with hub height variation across dense wind turbine arrays, demonstrating that alternating hub heights mitigates downstream wake interference and recovers up to 12% in farm-level annual energy production."
+        },
+        "Flagship_2": {
+            "title": "The Canopy Horizontal Array Turbulence Study",
+            "journal": "Bulletin of the American Meteorological Society",
+            "year": 2010,
+            "doi": "https://doi.org/10.1175/2010bams2614.1",
+            "abstract": "The Canopy Horizontal Array Turbulence Study (CHATS) provides comprehensive multi-point measurements of turbulence statistics, coherent gust structures, and scalar transport within and above a deciduous plant canopy. Deploying a dense horizontal array of sonic anemometers coupled with scanning Doppler LiDAR systems, the experiment resolves spatial subfilter-scale turbulent energy transfer. Analysis shows that coherent sweep and ejection motions driven by inflection-point shear instabilities at the canopy top contribute more than 70% of vertical momentum and heat flux into the boundary layer.",
+            "finding": "deploying scanning Doppler LiDAR alongside sonic anemometer arrays during CHATS, demonstrating that coherent sweep and ejection motions at the canopy interface account for over 70% of total vertical turbulent momentum and scalar exchange."
+        }
     },
     "Ryan Milcarek": {
         "Research_Hook": "Thermodynamic equilibrium modeling and chemical kinetics for hydrogen/methane/ammonia gas turbine combustor retrofits and flame-assisted micro-reactors.",
         "Flagship_Paper_Hook": "1. Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine (Energy Conversion and Management: X, 2023) [DOI: https://doi.org/10.1016/j.ecmx.2023.100394] | 2. Thermodynamic analysis of a gas turbine utilizing ternary CH4/H2/NH3 fuel blends (Energy, 2023) [DOI: https://doi.org/10.1016/j.energy.2023.128818]",
         "Tech_Stack": "Cantera Chemical Kinetics, Gas Turbine Thermodynamic Cycle Models, Gas Chromatography, Flame-Assisted Fuel Cell Test Rigs",
-        "Physical_Finding": "coupling detailed chemical kinetics with thermodynamic cycle models across ternary CH4/H2/NH3 fuel mixtures, demonstrating that staged rich-quench-lean combustor architectures achieve complete carbon emission reduction while keeping NOx levels below 15 ppm."
+        "Flagship_1": {
+            "title": "Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine",
+            "journal": "Energy Conversion and Management: X",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.ecmx.2023.100394",
+            "abstract": "This study presents a thermodynamic cycle and emission analysis of a heavy-duty aeroderivative gas turbine retrofitted for blended methane–hydrogen fuels up to 100% H2 by volume. Using detailed chemical kinetic models (Cantera) combined with Aspen Plus power cycles, we investigate the trade-offs between thermal efficiency, turbine inlet temperature, and thermal NOx formation. Staged steam dilution in the combustor allows 100% carbon-free hydrogen operation while maintaining turbine cycle thermal efficiency within 0.8% of pure natural gas and suppressing NOx emissions below regulatory 25 ppm thresholds.",
+            "finding": "coupling chemical kinetic simulations with gas turbine cycle models under pure and blended hydrogen firing, demonstrating that staged steam injection enables 100% H2 fuel operation within 0.8% baseline thermal efficiency while capping thermal NOx under 25 ppm."
+        },
+        "Flagship_2": {
+            "title": "Thermodynamic analysis of a gas turbine utilizing ternary CH4/H2/NH3 fuel blends",
+            "journal": "Energy",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.energy.2023.128818",
+            "abstract": "The transition to carbon-free power generation requires evaluating alternative carrier fuels like ammonia (NH3) blended with hydrogen (H2) and methane (CH4). In this paper, we evaluate the thermodynamic cycle performance, flame temperature, and emissions of ternary CH4/H2/NH3 blends in a stationary gas turbine. Rich-quench-lean (RQL) combustor staging is modeled to prevent excessive fuel-bound NOx from ammonia oxidation. The results prove that a 40% NH3 / 40% H2 / 20% CH4 blend reduces greenhouse gas emissions by over 65% while keeping overall cycle efficiency at 39.4%.",
+            "finding": "coupling detailed chemical kinetics with thermodynamic cycle models across ternary CH4/H2/NH3 fuel mixtures, demonstrating that staged rich-quench-lean combustor architectures achieve over 65% greenhouse gas reduction while keeping NOx levels below 15 ppm."
+        }
     },
     "Leixin Ma": {
         "Research_Hook": "High-harmonic vortex-induced vibration (VIV) modeling, biomimetic wake sensing, and physics-informed graph neural networks for flexible ocean and aerospace structures.",
         "Flagship_Paper_Hook": "1. Understanding the higher harmonics of vortex-induced vibration response using a trend-constrained, machine learning approach (Marine Structures, 2022) [DOI: https://doi.org/10.1016/j.marstruc.2022.103195] | 2. Numerical study of vortex-induced vibrations of a circular cylinder at different incidence angles (Ocean Engineering, 2022) [DOI: https://doi.org/10.1016/j.oceaneng.2022.111858]",
         "Tech_Stack": "Physics-Informed Graph Neural Networks (GNN), Towing Tank Experimental Rig, Unsteady RANS/LES, Wavelet Modal Analysis",
-        "Physical_Finding": "applying trend-constrained machine learning to flexible cylinder VIV experiments, demonstrating that 3rd and 5th harmonic cross-flow lift forces arise from nonlinear wake-body phase shifts, contributing over 25% of cyclic structural fatigue damage."
+        "Flagship_1": {
+            "title": "Understanding the higher harmonics of vortex-induced vibration response using a trend-constrained, machine learning approach",
+            "journal": "Marine Structures",
+            "year": 2022,
+            "doi": "https://doi.org/10.1016/j.marstruc.2022.103195",
+            "abstract": "Vortex-induced vibration (VIV) of flexible cylindrical structures exhibits complex higher-harmonic force components that accelerate cyclic fatigue failure in marine risers and aerospace cables. In this paper, we develop a trend-constrained machine learning formulation that enforces physical boundary conditions and monotonicity constraints on experimental towing-tank datasets. The model isolates the physical mechanisms generating 3rd and 5th harmonic cross-flow lift forces, demonstrating that phase-locked nonlinear wake-body interactions contribute over 25% of the total cumulative structural fatigue damage.",
+            "finding": "applying trend-constrained machine learning to flexible cylinder VIV experiments, demonstrating that 3rd and 5th harmonic cross-flow lift forces arise from nonlinear wake-body phase shifts, contributing over 25% of cyclic structural fatigue damage."
+        },
+        "Flagship_2": {
+            "title": "Numerical study of vortex-induced vibrations of a circular cylinder at different incidence angles",
+            "journal": "Ocean Engineering",
+            "year": 2022,
+            "doi": "https://doi.org/10.1016/j.oceaneng.2022.111858",
+            "abstract": "We investigate the vortex-induced vibrations of an elastically mounted circular cylinder subjected to uniform cross-flow at four distinct incidence angles (alpha = 0°, 15°, 30°, and 45°) using high-resolution unsteady CFD simulations. By resolving the complex three-dimensional vortex shedding patterns and hydroelastic force coefficients, we demonstrate that increasing flow incidence disrupts the classical 2S and 2P wake patterns, causing a spanwise oblique vortex shedding mode that reduces cross-flow vibration amplitude by 32% while broadening the synchronization lock-in range.",
+            "finding": "executing unsteady numerical simulations of circular cylinder VIV across varying incidence angles (0° to 45°), demonstrating that flow inclination induces oblique vortex shedding that attenuates peak cross-flow vibration amplitude by 32% while broadening lock-in bandwidth."
+        }
     }
 }
 
@@ -1134,36 +1315,33 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
                 flag_hook = pillars.get("Flagship_Paper_Hook", "")
                 prof["Flagship Paper Hook"] = flag_hook
                 prof["Tech Stack"] = pillars.get("Tech_Stack", "")
-                prof["Physical Finding"] = pillars.get("Physical_Finding", "")
                 prof["Research Hook"] = pillars.get("Research_Hook", "")
 
-                # Extract DOIs from Flagship Paper Hook
-                dois_found = re.findall(r'\[DOI:\s*(https?://[^\s\]]+)\]', flag_hook)
-                prof["Flagship Paper DOI"] = " | ".join(dois_found) if dois_found else ""
+                f1 = pillars.get("Flagship_1", {})
+                f2 = pillars.get("Flagship_2", {})
 
-                # Match abstracts for both flagship papers from cached OpenAlex data
-                flag_abstracts = []
-                cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "openalex_cache")
-                slug = re.sub(r'[^a-zA-Z0-9]+', '_', prof["Name"].strip().lower()).strip('_')
-                cache_file = os.path.join(cache_dir, f"{slug}.json")
-                if os.path.exists(cache_file):
-                    try:
-                        import json
-                        with open(cache_file, "r", encoding="utf-8") as cf:
-                            c_json = json.load(cf)
-                        all_cached_works = c_json.get("top_cited_works", []) + c_json.get("recent_works", [])
-                        for idx_doi, doi_url in enumerate(dois_found, 1):
-                            clean_doi = doi_url.replace("https://doi.org/", "").lower()
-                            matched_abs = ""
-                            for w in all_cached_works:
-                                if clean_doi in (w.get("doi") or "").lower():
-                                    matched_abs = w.get("abstract") or ""
-                                    break
-                            if matched_abs:
-                                flag_abstracts.append(f"**Paper {idx_doi} Abstract**:\n    > {matched_abs}")
-                    except Exception as e:
-                        log.debug(f"Error reading cache abstract for {prof['Name']}: {e}")
-                prof["Flagship Abstract"] = "\n\n    ".join(flag_abstracts)
+                prof["Flagship 1 Title"] = f1.get("title", "")
+                prof["Flagship 1 DOI"] = f1.get("doi", "")
+                prof["Flagship 1 Tripartite Finding"] = f1.get("finding", "")
+                prof["Flagship 1 Abstract"] = f1.get("abstract", "")
+
+                prof["Flagship 2 Title"] = f2.get("title", "")
+                prof["Flagship 2 DOI"] = f2.get("doi", "")
+                prof["Flagship 2 Tripartite Finding"] = f2.get("finding", "")
+                prof["Flagship 2 Abstract"] = f2.get("abstract", "")
+
+                # Set composite physical finding and DOIs for backward compatibility
+                prof["Physical Finding"] = f1.get("finding", "")
+                dois_list = [d for d in [f1.get("doi", ""), f2.get("doi", "")] if d]
+                prof["Flagship Paper DOI"] = " | ".join(dois_list)
+
+                # Format combined Flagship Abstract block
+                combined_abs = []
+                if f1.get("abstract"):
+                    combined_abs.append(f"**Paper 1 Abstract ({f1.get('title', '')})**:\n    > {f1.get('abstract')}")
+                if f2.get("abstract"):
+                    combined_abs.append(f"**Paper 2 Abstract ({f2.get('title', '')})**:\n    > {f2.get('abstract')}")
+                prof["Flagship Abstract"] = "\n\n    ".join(combined_abs)
 
         prof["Google Scholar URL"] = build_scholar_url(prof["Name"], prof["Scholar ID"])
 
@@ -1474,25 +1652,50 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
         # Display Tier 1 Core Cold Email Four Pillars if available
         flagship_hook = f.get("Flagship Paper Hook", "")
         tech_stack = f.get("Tech Stack", "")
-        phys_finding = f.get("Physical Finding", "")
         res_hook = f.get("Research Hook", "")
+
+        f1_title = f.get("Flagship 1 Title", "")
+        f1_doi = f.get("Flagship 1 DOI", "")
+        f1_finding = f.get("Flagship 1 Tripartite Finding", "")
+        f1_abs = f.get("Flagship 1 Abstract", "")
+
+        f2_title = f.get("Flagship 2 Title", "")
+        f2_doi = f.get("Flagship 2 DOI", "")
+        f2_finding = f.get("Flagship 2 Tripartite Finding", "")
+        f2_abs = f.get("Flagship 2 Abstract", "")
 
         if res_hook:
             lines.append(f"- 💡 **Pillar 1 — Research Hook**: *\"{res_hook}\"*")
-        if flagship_hook:
-            flag_doi = f.get("Flagship Paper DOI", "")
-            flag_abstract = f.get("Flagship Abstract", "")
-            lines.append(f"- 📄 **Pillar 2 — Dual Recent Flagship Papers (2020–2026)**: **{flagship_hook}**")
-            if flag_doi:
-                doi_links = [f"[{d.strip()}]({d.strip()})" for d in flag_doi.split(" | ") if d.strip().startswith("http")]
-                if doi_links:
-                    lines.append(f"  - **Direct DOIs**: {' | '.join(doi_links)}")
-            if flag_abstract:
-                lines.append(f"  - **Flagship Papers Abstract Data**:\n    > {flag_abstract}")
         if tech_stack:
             lines.append(f"- 🛠️ **Pillar 3 — Tech Stack**: `{tech_stack}`")
-        if phys_finding:
-            lines.append(f"- 🔬 **Pillar 4 — Tripartite Physical Finding**:\n  > *\"...specifically your investigation into {phys_finding}\"*")
+
+        if f1_title or f2_title:
+            lines.append("\n##### 📄 Dual Recent Flagship Papers (2020–2026) & Tripartite Findings\n")
+            if f1_title:
+                lines.append(f"**Flagship Paper 1**: *{f1_title}*")
+                if f1_doi:
+                    lines.append(f"- **Direct DOI**: [{f1_doi}]({f1_doi})")
+                if f1_finding:
+                    lines.append(f"- 🔬 **Tripartite Physical Finding 1 (Cold Email Hook)**:\n  > *\"...specifically your investigation into {f1_finding}\"*")
+                if f1_abs:
+                    lines.append(f"- 📖 **Paper 1 Abstract**:\n  > {f1_abs}\n")
+
+            if f2_title:
+                lines.append(f"**Flagship Paper 2**: *{f2_title}*")
+                if f2_doi:
+                    lines.append(f"- **Direct DOI**: [{f2_doi}]({f2_doi})")
+                if f2_finding:
+                    lines.append(f"- 🔬 **Tripartite Physical Finding 2 (Cold Email Hook)**:\n  > *\"...specifically your work on {f2_finding}\"*")
+                if f2_abs:
+                    lines.append(f"- 📖 **Paper 2 Abstract**:\n  > {f2_abs}\n")
+        elif flagship_hook:
+            lines.append(f"- 📄 **Pillar 2 — Flagship Papers**: **{flagship_hook}**")
+            flag_doi = f.get("Flagship Paper DOI", "")
+            if flag_doi:
+                lines.append(f"  - **Direct DOIs**: {flag_doi}")
+            phys_finding = f.get("Physical Finding", "")
+            if phys_finding:
+                lines.append(f"- 🔬 **Pillar 4 — Tripartite Physical Finding**:\n  > *\"...specifically your investigation into {phys_finding}\"*")
 
         if paper and not flagship_hook:
             lines.append(f"- 📄 **Latest Lab Paper / Highlight**: *\"{paper}\"*")

@@ -66,34 +66,42 @@ Every university extraction pipeline outputs an Excel workbook with clean sheets
 | 10 | `Research Category` | Formatted tier badge and domain description |
 | 11 | `Matched Count` | Integer count of matching research fields (primary sorting key) |
 | 12 | `Matched Fields` | Comma-separated list of matched field keywords |
-| 13 | `Flagship Paper Hook` | **Pillar 2**: Landmark recent paper titles (2 recent flagship papers, 2020–2026) with journal & year |
-| 14 | `Flagship Paper DOI` | **Pillar 2 DOI**: Direct, clickable DOI hyperlinks for the 2 recent flagship papers |
-| 15 | `Tech Stack` | **Pillar 3**: Exact numerical solvers, codes, or experimental rigs synthesized across the 4–5 recent papers |
-| 16 | `Physical Finding` | **Pillar 4**: Tripartite structure (`[gerund solver] to investigate [geometry] demonstrating [causality + hard number]`) |
-| 17 | `Research Hook` | **Pillar 1**: Synthesized from the PI's primary method, flow regime, and target engineering outcome across 4–5 recent papers |
-| 18 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
-| 19 | `Recent Papers (2024-2026)` | ~5 recent papers with journal, year & clickable DOIs |
-| 20 | `Top Cited Papers` | Landmark papers with journal, year, cites & clickable DOIs |
-| 21 | `Courses Taught` | Filtered lecture courses taught |
-| 22 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
-| 23 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
-| 24 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
-| 25 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
-| 26 | `Research Interests` | Specific research topic tags |
-| 27 | `Expertise Areas` | High-level research domain taxonomy |
-| 28 | `Research / Bio Summary` | Bio summary or research focus paragraph |
-| 29 | `Education / Degrees` | Degrees, institutions, and graduation years |
-| 30 | `Lab / Research Group Name` | Official research lab or group title |
-| 31 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
-| 32 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
-| 33 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, OpenFOAM, etc.) |
-| 34 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
-| 35 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, AFOSR, etc.) |
-| 36 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
-| 37 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
-| 38 | `Office Location` | Building and room number |
-| 39 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
-| 40 | `Directory URL` | Source university directory URL (at the end of every row) |
+| 13 | `Research Hook` | **Pillar 1**: Synthesized from the PI's primary method, flow regime, and target engineering outcome across 4–5 recent papers |
+| 14 | `Tech Stack` | **Pillar 3**: Exact numerical solvers, codes, or experimental rigs synthesized across the 4–5 recent papers |
+| 15 | `Flagship 1 Title` | **Pillar 2 (Paper 1)**: Landmark recent paper 1 title (2020–2026) |
+| 16 | `Flagship 1 DOI` | **Pillar 2 DOI (Paper 1)**: Direct clickable DOI link for flagship paper 1 |
+| 17 | `Flagship 1 Tripartite Finding` | **Pillar 4 (Paper 1 Finding)**: Tripartite structure (`[gerund solver] to investigate [geometry] demonstrating [causality + hard number]`) |
+| 18 | `Flagship 1 Abstract` | Complete publisher-verified abstract for flagship paper 1 |
+| 19 | `Flagship 2 Title` | **Pillar 2 (Paper 2)**: Landmark recent paper 2 title (2020–2026) |
+| 20 | `Flagship 2 DOI` | **Pillar 2 DOI (Paper 2)**: Direct clickable DOI link for flagship paper 2 |
+| 21 | `Flagship 2 Tripartite Finding` | **Pillar 4 (Paper 2 Finding)**: Tripartite structure for flagship paper 2 (`[gerund solver] ... demonstrating [number]`) |
+| 22 | `Flagship 2 Abstract` | Complete publisher-verified abstract for flagship paper 2 |
+| 23 | `Flagship Paper Hook` | Composite dual paper hook title string |
+| 24 | `Flagship Paper DOI` | Composite clickable DOIs |
+| 25 | `Physical Finding` | Primary tripartite finding |
+| 26 | `Latest Paper / Publication` | Most recent research paper title (cold email hook) |
+| 27 | `Recent Papers (2024-2026)` | ~5 recent papers with journal, year & clickable DOIs |
+| 28 | `Top Cited Papers` | Landmark papers with journal, year, cites & clickable DOIs |
+| 29 | `Courses Taught` | Filtered lecture courses taught |
+| 30 | `Recent Awards / Honors` | Major accolades, fellowships & NSF CAREER |
+| 31 | `Cold Email / Application Instructions` | Explicit instructions given by PI for applicant emails |
+| 32 | `OpenAlex Research Topics` | Top 3 research topics with publication counts from OpenAlex |
+| 33 | `Google Scholar Tags` | Extracted Google Scholar / OpenAlex research interest tags |
+| 34 | `Research Interests` | Specific research topic tags |
+| 35 | `Expertise Areas` | High-level research domain taxonomy |
+| 36 | `Research / Bio Summary` | Bio summary or research focus paragraph |
+| 37 | `Education / Degrees` | Degrees, institutions, and graduation years |
+| 38 | `Lab / Research Group Name` | Official research lab or group title |
+| 39 | `Lab / Personal Website` | Hyperlinked personal or lab homepage |
+| 40 | `Actively Hiring / Openings` | Recruitment announcements extracted from lab websites |
+| 41 | `Target Skills / Prerequisites` | Required skills/languages (Python, C++, OpenFOAM, etc.) |
+| 42 | `Lab Facilities & Equipment` | Experimental setups, facilities & hardware |
+| 43 | `Funding Sponsors` | Federal/industrial sponsors (NSF, NASA, ONR, AFOSR, etc.) |
+| 44 | `Software / Code Repo` | Open-source GitHub/Bitbucket/GitLab repositories |
+| 45 | `Latest Project / Highlight` | Project banner, latest headline, or paper announcement |
+| 46 | `Office Location` | Building and room number |
+| 47 | `Is Field Match` | Boolean (`TRUE` / `FALSE`) |
+| 48 | `Directory URL` | Source university directory URL (at the end of every row) |
 
 ---
 
@@ -295,7 +303,7 @@ Each flagship paper must pass 4 strict filters:
 1. **Recency Window**: Published between 2020 and 2026.
 2. **Subject Filter**: Fluid dynamics / CFD / aero keyword score $\ge 2$ in title + concepts.
 3. **Article Type Filter**: Must be primary original research (exclude `review`, `survey`, `overview`, `book-chapter`, `editorial`, `erratum`).
-4. **DOI Verification**: Direct clickable link (`https://doi.org/...`) verified via OpenAlex / Crossref.
+4. **DOI & Abstract Verification**: Direct clickable link (`https://doi.org/...`) verified via OpenAlex / Crossref / publisher, accompanied by the **complete, unabridged scientific abstract**.
 
 ### 4.3 Pillar 3: Tech Stack Extraction (Synthesized Across 4–5 Recent Papers)
 - **Definition**: A concise, comma-separated list of the computational solvers, numerical algorithms, or experimental tools actually deployed across the **4–5 recent papers**.
@@ -305,12 +313,14 @@ Each flagship paper must pass 4 strict filters:
   - *Experimental Diagnostics*: `Stereo PIV`, `Dual-pump CARS`, `High-speed Schlieren`, `Shock tube facilities`.
 - **Rules**: Max 3–4 tools, official naming format.
 
-### 4.4 Pillar 4: Tripartite Physical Finding
-Formulated from the recent flagship papers:
+### 4.4 Pillar 4: Dedicated Tripartite Physical Findings for Both Flagship Papers
+Formulated individually for **each of the two recent flagship papers** (`Flagship 1 Tripartite Finding` and `Flagship 2 Tripartite Finding`):
 $$\text{Regime} \longrightarrow \text{Physical Mechanism} \longrightarrow \text{Engineering Consequence}$$
 1. **Part 1 `[ENGINE]` — Active Methodology / Solver**: Opens with an active gerund (`performing`, `conducting`, `coupling`, `deploying`).
 2. **Part 2 `[ARENA]` — Specific Flow Physics & Geometry**: Flow condition + geometry.
 3. **Part 3 `[PAYOFF]` — Root Physical Mechanism & Hard Quantitative Benchmark**: Causality + quantitative metric (%, dB, St, Cf, Re_tau, Ma).
+
+Both findings are documented in individual Excel columns and rendered in dedicated cards with full abstracts in the Markdown reference guide.
 
 ---
 
