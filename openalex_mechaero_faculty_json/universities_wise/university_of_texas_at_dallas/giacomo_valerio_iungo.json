@@ -1,0 +1,283 @@
+{
+  "faculty_name": "Giacomo Valerio Iungo",
+  "full_name": "Giacomo Valerio Iungo",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Texas at Dallas",
+  "author_id": "A5079765625",
+  "works_count": 151,
+  "cited_by_count": 2374,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 102
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 84
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 36
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 27
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Towards reduced order modelling for predicting the dynamics of coherent vorticity structures within wind turbine wakes",
+      "publication_year": 2017,
+      "publication_date": "2017-03-06",
+      "doi": "https://doi.org/10.1098/rsta.2016.0108",
+      "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "type": "article",
+      "cited_by_count": 68,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Wake",
+        "Vorticity",
+        "Turbine",
+        "Vortex",
+        "Planetary boundary layer",
+        "Boundary layer",
+        "Aerodynamics"
+      ],
+      "abstract": "The dynamics of the velocity field resulting from the interaction between the atmospheric boundary layer and a wind turbine array can affect significantly the performance of a wind power plant and the durability of wind turbines. In this work, dynamics in wind turbine wakes and instabilities of helicoidal tip vortices are detected and characterized through modal decomposition techniques. The dataset under examination consists of snapshots of the velocity field obtained from large-eddy simulations (LES) of an isolated wind turbine, for which aerodynamic forcing exerted by the turbine blades on the atmospheric boundary layer is mimicked through the actuator line model. Particular attention is paid to the interaction between the downstream evolution of the helicoidal tip vortices and the alternate vortex shedding from the turbine tower. The LES dataset is interrogated through different modal decomposition techniques, such as proper orthogonal decomposition and dynamic mode decomposition. The dominant wake dynamics are selected for the formulation of a reduced order model, which consists in a linear time-marching algorithm where temporal evolution of flow dynamics is obtained from t...",
+      "authors": [
+        "Mithu Debnath",
+        "Christian Santoni",
+        "Stefano Leonardi",
+        "Giacomo Valerio Iungo"
+      ]
+    },
+    {
+      "title": "Linear stability analysis of wind turbine wakes performed on wind tunnel measurements",
+      "publication_year": 2013,
+      "publication_date": "2013-11-27",
+      "doi": "https://doi.org/10.1017/jfm.2013.569",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 144,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/195445",
+      "concepts": [
+        "Wake",
+        "Physics",
+        "Turbine",
+        "Wind tunnel",
+        "Vortex",
+        "Vorticity",
+        "Vortex shedding",
+        "Mechanics"
+      ],
+      "abstract": "Abstract Wind tunnel measurements were performed for the wake produced by a three-bladed wind turbine immersed in uniform flow. These tests show the presence of a vorticity structure in the near-wake region mainly oriented along the streamwise direction, which is denoted as the hub vortex. The hub vortex is characterized by oscillations with frequencies lower than that connected to the rotational velocity of the rotor, which previous works have ascribed to wake meandering. This phenomenon consists of transversal oscillations of the wind turbine wake, which might be excited by the vortex shedding from the rotor disc acting as a bluff body. In this work, temporal and spatial linear stability analyses of a wind turbine wake are performed on a base flow obtained with time-averaged wind tunnel velocity measurements. This study shows that the low-frequency spectral component detected experimentally matches the most amplified frequency of the counter-winding single-helix mode downstream of the wind turbine. Then, simultaneous hot-wire measurements confirm the presence of a helicoidal unstable mode of the hub vortex with a streamwise wavenumber roughly equal to that predicted from the l...",
+      "authors": [
+        "Giacomo Valerio Iungo",
+        "Francesco Viola",
+        "Simone Camarri",
+        "Fernando Porté‐Agel",
+        "François Gallaire"
+      ]
+    },
+    {
+      "title": "Prediction of the hub vortex instability in a wind turbine wake: stability analysis with eddy-viscosity models calibrated on wind tunnel data",
+      "publication_year": 2014,
+      "publication_date": "2014-05-30",
+      "doi": "https://doi.org/10.1017/jfm.2014.263",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 128,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/203709",
+      "concepts": [
+        "Instability",
+        "Wake",
+        "Vortex",
+        "Mechanics",
+        "Turbulence",
+        "Physics",
+        "Wind tunnel",
+        "Turbulence modeling"
+      ],
+      "abstract": "Abstract The instability of the hub vortex observed in wind turbine wakes has recently been studied by Iungo et al. (J. Fluid Mech., vol. 737, 2013, pp. 499–526) via local stability analysis of the mean velocity field measured through wind tunnel experiments. This analysis was carried out by neglecting the effect of turbulent fluctuations on the development of the coherent perturbations. In the present paper, we perform a stability analysis taking into account the Reynolds stresses modelled by eddy-viscosity models, which are calibrated on the wind tunnel data. This new formulation for the stability analysis leads to the identification of one clear dominant mode associated with the hub vortex instability, which is the one with the largest overall downstream amplification. Moreover, this analysis also predicts accurately the frequency of the hub vortex instability observed experimentally. The proposed formulation is of general interest for the stability analysis of swirling turbulent flows.",
+      "authors": [
+        "Francesco Viola",
+        "Giacomo Valerio Iungo",
+        "Simone Camarri",
+        "Fernando Porté‐Agel",
+        "François Gallaire"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Impact of wind farms on the occurrence and characteristics of low-level jets",
+      "publication_year": 2026,
+      "publication_date": "2026-06-17",
+      "doi": "https://doi.org/10.5194/wes-2026-98",
+      "venue": "Wind Energy Science Discussions",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://wes.copernicus.org/preprints/wes-2026-98/wes-2026-98.pdf",
+      "concepts": [
+        "Environmental science",
+        "Wind power",
+        "Wind speed",
+        "Meteorology",
+        "Wind shear",
+        "Maximum sustained wind",
+        "Wind profile power law",
+        "Atmospheric sciences"
+      ],
+      "abstract": "Abstract. The low-level jet (LLJ) is an occurrence of super-geostrophic wind speeds in the lower regions of the atmosphere, typically below 1 km. LLJs are highly relevant for wind energy as they can substantially modulate power production, wake recovery, and loads of wind turbines and wind farms. However, it is not clear how the presence of wind farms affects the occurrence rate and characteristics of LLJs, with some simulations suggesting that the presence of farms leads to fewer LLJs and to LLJs occurring at higher elevations. In this work, we develop methods to take advantage of unique long-term wind profile measurements to experimentally assess the impact of wind farms on the occurrence rates and morphologies of LLJs. We use more than 27 years of profiling radar wind measurements collected for the period August 1998–April 2026 at the Atmospheric Radiation Measurement Southern Great Plains site in Lamont, Oklahoma, with over ten large wind farms (each comprising up to 100 turbines) installed near the measurement site at ranges from 17 km to 67 km, with the closest (and largest) installations just to the east, west, and south. We apply both traditional LLJ detection methods (i...",
+      "authors": [
+        "Coleman Moss",
+        "Rupert Storey",
+        "Tanmoy Chatterjee",
+        "Giacomo Valerio Iungo"
+      ]
+    },
+    {
+      "title": "Editorial for the collection “Preparatory Work for the American Wake Experiment (AWAKEN)”",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1063/5.0297416",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "editorial",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Work (physics)",
+        "Wake",
+        "Engineering",
+        "Aeronautics",
+        "Architectural engineering",
+        "Computer science",
+        "Power (physics)",
+        "Data collection"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nicholas Hamilton",
+        "Giacomo Valerio Iungo",
+        "Julie K. Lundquist",
+        "Patrick Moriarty"
+      ]
+    },
+    {
+      "title": "Editorial for the collection “Wind tunnel research for renewable energies”",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1063/5.0301420",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "editorial",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/jrse/article-pdf/doi/10.1063/5.0301420/20709032/050402_1_5.0301420.pdf",
+      "concepts": [
+        "Renewable energy",
+        "Engineering",
+        "Environmental science",
+        "Construction engineering",
+        "Waste management",
+        "Systems engineering",
+        "Production (economics)",
+        "Renewable resource"
+      ],
+      "abstract": "",
+      "authors": [
+        "Giacomo Valerio Iungo",
+        "Marco Belloli",
+        "Michael Hölling",
+        "Paolo Schito"
+      ]
+    },
+    {
+      "title": "Riblets and scales on 3D-printed wind turbine blades: Influence of surface micro-patterning properties on enhancing aerodynamic performance",
+      "publication_year": 2025,
+      "publication_date": "2025-08-06",
+      "doi": "https://doi.org/10.1016/j.jweia.2025.106188",
+      "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jweia.2025.106188",
+      "concepts": [
+        "Aerodynamics",
+        "Turbine",
+        "3d printed",
+        "Surface (topology)",
+        "Turbine blade",
+        "Marine engineering",
+        "Materials science",
+        "Mechanical engineering"
+      ],
+      "abstract": "Surface textures that can be observed on certain natural elements, such as rice leaves, butterfly wings, shark skins, or fish scales, have inspired manufacturing of 3D-printed wind turbine blades by embedding riblets and scales to enhance the aerodynamic performance. In this study, the characteristics of the blade surface are varied by changing the 3D printing parameters (e.g., precision, layer height, and printing direction) to quantify their effects on the power and thrust coefficients of the wind turbine rotor through wind tunnel experiments. Interestingly, the change in the 3D printing parameters significantly affects the aerodynamic performance of the wind turbine rotor. Specifically, all blade models with riblets show enhanced stall performance compared to the baseline case, with greater improvements by decreasing the layer height. However, for low-precision 3D printing systems, small layer heights can result in the generation of random roughness rather than riblet or scale patterns, thus leading to significant degradation in the aerodynamic performance. The fish scale-like surfaces exhibited the highest energy efficiency with an increase of up to 78% in the power coeffici...",
+      "authors": [
+        "Amr Khedr",
+        "Keshav Panthi",
+        "Wasi Uddin Ahmed",
+        "Francesco Castellani",
+        "Giacomo Valerio Iungo"
+      ]
+    },
+    {
+      "title": "Round-Robin test II – wake measurements of porous discs under clearly defined boundary conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3016/1/012013",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3016/1/012013",
+      "concepts": [
+        "Wake",
+        "Porosity",
+        "Mechanics",
+        "Boundary (topology)",
+        "Geology",
+        "Materials science",
+        "Physics",
+        "Geotechnical engineering"
+      ],
+      "abstract": "Abstract Ten international teams participated in a second round-robin test with wake measurements behind two different types of actuator discs focusing on comparability of the experimental boundary conditions. Results show that even for such simple experiments small differences in the set-ups and inflow can lead to variations in the measurements. Nevertheless, a clear reduction in the deviations in maximum velocity deficit could be achieved for one disc compared to the first round-robin test from 2018.",
+      "authors": [
+        "Michael Hölling",
+        "Michael Wagner",
+        "E. Bocarov",
+        "Claudio Mannini",
+        "Tommaso Massai",
+        "Niccolò Barni",
+        "Wasi Uddin Ahmed",
+        "Masoud Sabaghi",
+        "Giacomo Valerio Iungo",
+        "I. Neunaber",
+        "Girish K. Jankee",
+        "R. Jason Hearst",
+        "Konstantinos Kellaris",
+        "Μαρίνος Μανωλέσος",
+        "Nicolas Coudou",
+        "Arzu Ulu",
+        "Oğuz Uzol",
+        "Mustafa Perçin",
+        "Alessandro Croce",
+        "Maurizio Catania",
+        "Alberto Zasso",
+        "R. Foster",
+        "Marco Placidi",
+        "Norio Kubo"
+      ]
+    }
+  ]
+}

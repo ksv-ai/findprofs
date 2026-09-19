@@ -1,0 +1,291 @@
+{
+  "faculty_name": "Emily Arnold",
+  "full_name": "Emily Arnold",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Kansas",
+  "author_id": "A5000544440",
+  "works_count": 74,
+  "cited_by_count": 994,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Cryospheric studies and observations",
+      "count": 44
+    },
+    {
+      "topic": "Arctic and Antarctic ice dynamics",
+      "count": 30
+    },
+    {
+      "topic": "Climate change and permafrost",
+      "count": 12
+    },
+    {
+      "topic": "Antenna Design and Optimization",
+      "count": 12
+    },
+    {
+      "topic": "Icing and De-icing Technologies",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Advanced Multifrequency Radar Instrumentation for Polar Research",
+      "publication_year": 2013,
+      "publication_date": "2013-07-10",
+      "doi": "https://doi.org/10.1109/tgrs.2013.2266415",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "type": "article",
+      "cited_by_count": 277,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Remote sensing",
+        "Radar",
+        "Snow",
+        "Ice sheet",
+        "Depth sounding",
+        "Geology",
+        "Instrumentation (computer programming)",
+        "Multispectral image"
+      ],
+      "abstract": "This paper presents a radar sensor package specifically developed for wide-coverage sounding and imaging of polar ice sheets from a variety of aircraft. Our instruments address the need for a reliable remote sensing solution well-suited for extensive surveys at low and high altitudes and capable of making measurements with fine spatial and temporal resolution. The sensor package that we are presenting consists of four primary instruments and ancillary systems with all the associated antennas integrated into the aircraft to maintain aerodynamic performance. The instruments operate simultaneously over different frequency bands within the 160 MHz-18 GHz range. The sensor package has allowed us to sound the most challenging areas of the polar ice sheets, ice sheet margins, and outlet glaciers; to map near-surface internal layers with fine resolution; and to detect the snow-air and snow-ice interfaces of snow cover over sea ice to generate estimates of snow thickness. In this paper, we provide a succinct description of each radar and associated antenna structures and present sample results to document their performance. We also give a brief overview of our field measurement programs ...",
+      "authors": [
+        "Fernando Rodríguez‐Morales",
+        "S. Gogineni",
+        "C. Leuschen",
+        "John Paden",
+        "Jilu Li",
+        "Cameron Lewis",
+        "B. Panzer",
+        "Daniel Gomez-Garcia Alvestegui",
+        "Aqsa Patel",
+        "Kyle J. Byers",
+        "Reid Crowe",
+        "Kevin Player",
+        "Richard D. Hale",
+        "Emily Arnold",
+        "L. Smith",
+        "Christopher M. Gifford",
+        "D. Braaten",
+        "Christian Panton"
+      ]
+    },
+    {
+      "title": "Identifying and Compensating for Phase Center Errors in Wing-Mounted Phased Arrays for Ice Sheet Sounding",
+      "publication_year": 2014,
+      "publication_date": "2014-03-31",
+      "doi": "https://doi.org/10.1109/tap.2014.2314455",
+      "venue": "IEEE Transactions on Antennas and Propagation",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Clutter",
+        "Phase center",
+        "Directivity",
+        "Acoustics",
+        "Antenna (radio)",
+        "Phase (matter)",
+        "Phased array",
+        "Optics"
+      ],
+      "abstract": "Highly crevassed ice surfaces at ice-sheet margins and fast-flowing glaciers significantly scatter radar signals. The scattered signals, often known as surface clutter, mask weak echoes from the ice-bed interface. Large wing-mounted antenna arrays are essential to synthesizing low-sidelobe patterns to reduce surface clutter. However, wing-mounted arrays are susceptible to structural flexure, which causes amplitude and phase errors that result in shifting and filling of desired array pattern nulls. In this communication, we characterize the effects of wing flexure on array beamformation using a scaled array model, and we present a compensation method to mitigate phase center errors caused by wing flexure. The compensation greatly improves clutter suppression through improved null formation. Experimental results show that we obtain an average of 7.5 dB improvement in the signal-to-interference noise ratio.",
+      "authors": [
+        "Emily Arnold",
+        "Jie‐Bang Yan",
+        "Richard D. Hale",
+        "Fernando Rodríguez‐Morales",
+        "Prasad Gogineni"
+      ]
+    },
+    {
+      "title": "A Modified Wideband Dipole Antenna for an Airborne VHF Ice-Penetrating Radar",
+      "publication_year": 2012,
+      "publication_date": "2012-02-07",
+      "doi": "https://doi.org/10.1109/tim.2011.2181780",
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dipole antenna",
+        "Antenna measurement",
+        "Acoustics",
+        "Wideband",
+        "Antenna (radio)",
+        "Bandwidth (computing)",
+        "Coaxial antenna",
+        "Engineering"
+      ],
+      "abstract": "A 15-element wideband dipole antenna array was developed for operation with the Multichannel Coherent Radar Depth Sounder/Imager on board the National Aeronautics and Space Administration P-3B aircraft. The array, aligned in the cross-track direction, was designed for applying digital beam forming and direction of arrival estimation algorithms to improve clutter suppression and for 3-D imaging of ice sheets. The antenna array is embedded inside an aerodynamic fairing structure designed for airborne operation. While the fairing meets all the structural and aircraft requirements, initial measurements performed on the original prototype array revealed the adverse impact of the fairing structure on antenna performance. The materials used for the construction of the fairing produced electrical loading effects on the radiating structure, which adversely impacted the bandwidth and return loss characteristics of individual antenna elements. This paper describes a set of modifications to the original antenna design based on computer simulations and laboratory measurements, aimed at optimizing antenna return loss and bandwidth while reducing mutual coupling. The final antenna and fairing ...",
+      "authors": [
+        "Kyle J. Byers",
+        "A. R. Harish",
+        "Sarah A. Seguin",
+        "C. Leuschen",
+        "Fernando Rodríguez‐Morales",
+        "John Paden",
+        "Emily Arnold",
+        "Richard D. Hale"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Reconfigurable Radar for Ice and Snow Measurements Onboard Ultra-Long Endurance UAS: Development and Flight Tests",
+      "publication_year": 2025,
+      "publication_date": "2025-08-03",
+      "doi": "https://doi.org/10.1109/igarss55030.2025.11242436",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Snow",
+        "Radar",
+        "Remote sensing",
+        "3D radar",
+        "Radar lock-on",
+        "Radar systems",
+        "Radar configurations and types",
+        "Environmental science"
+      ],
+      "abstract": "In this paper we present the design of a reconfigurable radar flight tested on an ultra-long endurance UAS (Unmanned Aerial System). The radar consists of a common digital backend and swappable RF (radio frequency) front ends. Given this development was designed to support ice and snow measurements in polar regions, two RF modules were fabricated and integrated into the system for testing. A low-Very High Frequency (VHF) RF subsystem operating from 60-80 MHz was developed for ice sounding, while a 2-8 GHz subsystem is to support snow thickness and near-surface ice measurements. This paper provides a brief overview of the various radar subsystems, laboratory test results, aircraft integration, and flight-test results.",
+      "authors": [
+        "Emily Arnold",
+        "C. Leuschen",
+        "Daniel Gómez-García",
+        "Sam Ross",
+        "Jilu Li",
+        "Matthew Turner",
+        "John Paden",
+        "John Papapolymerou",
+        "Cory Hilton",
+        "Shravan Kaundinya",
+        "Fernando Rodríguez‐Morales"
+      ]
+    },
+    {
+      "title": "Development and Flight Tests of Wing-Mounted T/R Modules for a UAS-borne Multichannel VHF Ice Penetrating Radar",
+      "publication_year": 2025,
+      "publication_date": "2025-04-08",
+      "doi": "https://doi.org/10.1109/wmcs63512.2025.11104877",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radar",
+        "Remote sensing",
+        "Wing",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Radar detection",
+        "Computer science",
+        "Geology"
+      ],
+      "abstract": "We developed a set of compact transmit/receive (T/R) modules as a part of a multi-channel ice penetrating radar system for operation onboard an ultra-long endurance unmanned aerial system (UAS). Notably, the design, construction and laboratory testing of the circuitry involved several undergraduate and first-term graduate students. The modules operate in the 60–80 MHz band and include a pulsed driver and high-power amplifier capable of ~200-W peak output with up to 10% duty cycle; a fast T/R switch; a low-noise amplifier; and DC-bias circuitry to operate from a single 28 VDC power source. Each module weighs ~0.6 kg and consumes a maximum of ~43 WDC, which made it possible to integrate them next to the antenna elements to minimize feed cable losses. In this paper, we present an overview of the T/R module design, construction and laboratory tests. We briefly discuss the integration of the modules onto a Vanilla UAS and show initial results from a flight test conducted over water in the continental US to verify functionality.",
+      "authors": [
+        "John H. Barnhill",
+        "William A. Fischer",
+        "Christopher A. Lindsey",
+        "S. McMillan",
+        "BADEA Diana Mura",
+        "B. Peek",
+        "Mohammed Mahbubur Rahman",
+        "Amrita Sethi",
+        "Emily Arnold",
+        "Daniel Gómez-García",
+        "Shravan Kaundinya",
+        "C. Leuschen",
+        "J. Li",
+        "Fernando Rodríguez‐Morales"
+      ]
+    },
+    {
+      "title": "In-Flight Vibrations and Their Effects on Wing Mounted VHF Antennas",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2508",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Directional antenna",
+        "Acoustics",
+        "Aerospace engineering",
+        "Vibration",
+        "Very high frequency",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "Airborne ice-sounding radars typically operate in the low-to mid-VHF spectrum. Most ice sounding missions require large cross-track arrays to reduce clutter from rough surfaces, necessitating antennas to be mounted on aircraft wings. The mechanical response of the airframe can affect the radar system performance due to the displacement and vibrations of both the wing and the antennas. This paper investigates the vibrational response of wing-mounted 70 MHz antennas developed by the Center for Remote Sensing and Integrated Systems (CReSIS) at the University of Kansas. A finite element model validated with experimental measurements is used to predict the antenna response in flight. From an analysis of the radar data from a recent flight test, it is apparent the airframe vibrations due to the engine are observed in the signal. Future study is recommended to further characterize this effect including impacts on beam forming and means to mitigating the response.",
+      "authors": [
+        "Matthew Turner",
+        "Emily Arnold"
+      ]
+    },
+    {
+      "title": "Swappable Multifunctional Wings for use on a Small UAS",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-2462",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aeronautics",
+        "Engineering"
+      ],
+      "abstract": "With the miniaturization of electronic hardware, it has become possible to operate radar systems onboard small UAS, for which there can be numerous uses in different fields. However, as an antenna’s operational frequency is inherently tied to its respective geometric characteristics, the antenna size and weight has become the limiting factor in mounting these systems onto smaller aircraft. With multifunctional structures, primary structures such as the spar can simultaneously be used as antennas, saving weight and reducing necessary payload space. Using two different hybrid CFRP and GFRP spars with coax feeds in their centers, this concept was tested as an alternative wing design for the Skyhunter UAS while radiating at 200 MHz and 75 MHz. It was discovered that the antenna’s gain and resonance frequency can be significantly affected by the placement of wiring nearby, and that the routing of these cables can be manipulated to improve or change these metrics. A proposed in-flight measurement system utilizing miniaturized electronic hardware is also presented. This system is intended to capture the effect of in-flight deformation of the radiating structure and wire routing on ante...",
+      "authors": [
+        "Samuel A. Ross",
+        "Emily Arnold",
+        "Alex Ottinger"
+      ]
+    },
+    {
+      "title": "Enhanced mass balance of Antarctica from RINGS airborne grounding line survey",
+      "publication_year": 2026,
+      "publication_date": "2026-03-14",
+      "doi": "https://doi.org/10.5194/egusphere-egu26-18216",
+      "venue": "",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/egusphere-egu26-18216",
+      "concepts": [
+        "Geology",
+        "Remote sensing",
+        "Glacier",
+        "Snow",
+        "Satellite",
+        "Depth sounding",
+        "Ice stream",
+        "Cryosphere"
+      ],
+      "abstract": "Determining the mass balance of Antarctica by satellite gravimetry, altimetry and input-output methods is still suffering from large discrepancies between methods, especially for East Antarctica. Error sources for the different estimation methods include GIA for GRACE/GRACE-FO, firm compaction for satellite altimetry, and poorly known interior snow fall and grounding line mass flux for outlet glaciers in the input-output method. To narrow down uncertainties for the latter, an international SCAR project “RINGS” was initiated in 2023, aiming as a primary goal to cover all major unmapped outlet glaciers with new radar ice thickness data in the coming years. A unique multi-disciplinary airborne remote sensing RINGS campaign was carried out as part of a first circumnavigation of Antarctica 2024/25, using a Twin-Otter as dedicated science aircraft. The airborne campaign instruments included a 30 GHz deep ice sounding radar, a 5 GHz broadband snow radar, along with scanning lidar, nadir and side-looking imagery, and gravimetry, as well as atmosphere monitoring sensors for chemistry and aerosols. In the presentation we outline the results of the RINGS airborne campaign, the impact on th...",
+      "authors": [
+        "René Forsberg",
+        "Carl Leuschen",
+        "Andreas Stokholm",
+        "Jilu Li",
+        "Tim Jensen",
+        "Emily Arnold",
+        "Fernando Rodriguez-Morales"
+      ]
+    }
+  ]
+}

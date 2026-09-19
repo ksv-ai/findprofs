@@ -1,0 +1,228 @@
+{
+  "faculty_name": "Henry Pernicka",
+  "full_name": "Henry J. Pernicka",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Missouri University of Science and Technology",
+  "author_id": "A5091110335",
+  "works_count": 82,
+  "cited_by_count": 850,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 40
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 35
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 31
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 18
+    },
+    {
+      "topic": "Spacecraft Design and Technology",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical determination of Lissajous trajectories in the restricted three-body problem",
+      "publication_year": 1987,
+      "publication_date": "1987-03-01",
+      "doi": "https://doi.org/10.1007/bf01238756",
+      "venue": "Celestial Mechanics and Dynamical Astronomy",
+      "type": "article",
+      "cited_by_count": 242,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lissajous curve",
+        "Classification of discontinuities",
+        "Trajectory",
+        "Mathematics",
+        "Path (computing)",
+        "Range (aeronautics)",
+        "Mathematical analysis",
+        "Geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kathleen C. Howell",
+        "Henry J. Pernicka"
+      ]
+    },
+    {
+      "title": "Station-keeping method for libration point trajectories",
+      "publication_year": 1993,
+      "publication_date": "1993-01-01",
+      "doi": "https://doi.org/10.2514/3.11440",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 151,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Libration (molecule)",
+        "Lagrangian point",
+        "Point (geometry)",
+        "Computer science",
+        "Halo orbit",
+        "Aerospace engineering",
+        "Control theory (sociology)",
+        "Trajectory"
+      ],
+      "abstract": "Three-dimensional orbits in the vicinity of the interior libration point (Li) of the Sun-Earth/Moon barycenter system are currently being considered for use with a number of missions planned for the 1990s. Since such libration point trajectories are, in general, unstable, spacecraft moving on these paths must use some form of trajectory control to remain close to their nominal orbit. The primary goal of this effort is the development of a Stationkeeping strategy applicable to such trajectories. A method is presented that uses maneuvers executed (impulsively) at discrete time intervals. The analysis includes some investigation of a number of the problem parameters that affect the overall maneuver costs. Simulations are designed to provide representative station- keeping costs for a spacecraft moving in a libration point trajectory, and preliminary results are summarized. RAJECTORY planning for a number of scientific mis- sions scheduled for launch in the 1990s includes the possi- ble use of three-dimensi onal halo or Lissajous orbits in the vicinity of the interior L! libration point of the Sun-Earth/ Moon barycenter system.1 This effort is directed toward the development of a St...",
+      "authors": [
+        "Kathleen C. Howell",
+        "Henry J. Pernicka"
+      ]
+    },
+    {
+      "title": "Magnetometer-Only Attitude Determination Using Novel Two-Step Kalman Filter Approach",
+      "publication_year": 2012,
+      "publication_date": "2012-10-25",
+      "doi": "https://doi.org/10.2514/1.57344",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 51,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Magnetometer",
+        "Spacecraft",
+        "Kalman filter",
+        "Orbit determination",
+        "Control theory (sociology)",
+        "Computer science",
+        "Orbit (dynamics)",
+        "Filter (signal processing)"
+      ],
+      "abstract": "Determining spacecraft attitude in real time using only magnetometer data presents a challenging filtering problem. A flexible and computationally efficient method for solving the spacecraft attitude using only an inexpensive and reliablemagnetometerwould be a useful option for satellitemissions, particularly thosewithmodest budgets. The primary challenge is that magnetometers only instantaneously resolve two axes of the spacecraft attitude. Typically, magnetometers are used in conjunction with other sensors to resolve all three axes. However, by using a filter over an adequately long orbit arc, the magnetometer data can yield full attitude, and in real time. The methodpresented solves the problemusing a two-step extendedKalmanfilter. In thefirst step, themagneticfield data are filtered to obtain the magnetic field derivative vector, which is combined with the magnetic field vector in the second step to fully resolve the attitude. A baseline scenario is developed, and a parametric study is conducted using the parameters of interest.",
+      "authors": [
+        "Jason Searcy",
+        "Henry J. Pernicka"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "NEBP Continuation Project: Radiation Measurement after Coronal Mass Ejection Arrival",
+      "publication_year": 2025,
+      "publication_date": "2025-06-26",
+      "doi": "https://doi.org/10.31274/ahac.20108",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.iastatedigitalpress.com/ahac/article/id/20108/download/pdf/",
+      "concepts": [
+        "Continuation",
+        "Radiation",
+        "Coronal plane",
+        "Computer science",
+        "Physics",
+        "Environmental science",
+        "Optics",
+        "Medicine"
+      ],
+      "abstract": "In April 2025, we conducted three launches to measure radiation versus altitude and study the effect of a coronal mass ejection impacting earth during this period. Two baseline launches were scheduled during periods of low solar activity, and one launch took place on April 16th, shortly after a coronal mass ejection arrival. A GMC-500+ Geiger counter and a Radiacode 102 radiation sensor were included in the same orientation on all three launches. An iridium tracking unit and a Stratotrack APRS transmitter were used to collect lattitude, longitude, and altitude values, and the radiation sensor values were correlated with location and altitude via the real-time clocks on the devices. This poster will discuss our payload design, summarize the results from our three flights, and detail the lessons learned throughout this semester-long project.",
+      "authors": [
+        "Mohanad Alameer",
+        "Charly Euceda",
+        "Ryan Liley",
+        "Aarya Siwakoti",
+        "Aditya Yadav",
+        "Yezad Anklesaria",
+        "Donna Jennings",
+        "Henry J. Pernicka",
+        "Jillian Schmidt"
+      ]
+    },
+    {
+      "title": "Preliminary Thermal Analysis of the DEXSTR CubeSat",
+      "publication_year": 2024,
+      "publication_date": "2024-07-21",
+      "doi": "https://doi.org/10.32865/2346/98904",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://ttu-ir.tdl.org/bitstreams/431bba83-6259-43f3-9d0d-0945d39e3da1/download",
+      "concepts": [
+        "Payload (computing)",
+        "CubeSat",
+        "Aerospace engineering",
+        "Thermal",
+        "Software",
+        "Computer science",
+        "Orbit (dynamics)",
+        "Temperature control"
+      ],
+      "abstract": "The Doppler Experiment for Search, Tracking, and Rescue (DEXSTR) is a 3U CubeSat being developed by the Missouri University of Science and Technology (Missouri S&T) and NASA's Goddard Space Flight Center. The low Earth orbit mission uses the Doppler shift of a ground-based beacon signal to geolocate the beacon. This technology has applications in the lunar domain, providing positioning support of assets on the surface of the Moon. The performance of the payload is highly dependent on maintaining its chip-scale atomic clock (CSAC) at a consistent temperature, as the CSAC is needed to accurately determine the Doppler shift. This poses a challenge for DEXSTR and other CubeSats due to their high power densities and limited thermal control capabilities. This study presents a preliminary thermal analysis of DEXSTR as the team progresses toward increasing the model fidelity of the payload and CSAC. Mission constraints and payload requirements are used to create hot and cold cases that account for currently undetermined mission elements such as DEXSTR's specific orbit. A thermal model is built in Thermal Desktop, utilizing the symbolic capabilities of the software to easily adjust model...",
+      "authors": [
+        "Collin M. Gentry",
+        "Henry J. Pernicka"
+      ]
+    },
+    {
+      "title": "High Altitude Ballooning in a Required Spacecraft Design Course",
+      "publication_year": 2024,
+      "publication_date": "2024-05-31",
+      "doi": "https://doi.org/10.31274/ahac.17931",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "http://dx.doi.org/10.31274/ahac.17931",
+      "concepts": [
+        "Ballooning",
+        "Spacecraft",
+        "Course (navigation)",
+        "Altitude (triangle)",
+        "Aerospace engineering",
+        "Computer science",
+        "Spacecraft design",
+        "Aeronautics"
+      ],
+      "abstract": "Introduction to Spacecraft Design is a required, sophomore-level design course taken by approximately 100 students per year in our Aerospace Engineering program. In order to prepare students to take on more challenging spacecraft design concepts as juniors and seniors, this course challenges students to design a simple 1U cubesat for launch on a high altitude balloon. By utilizing light-weight materials and a compact design, we are able to launch experiments from over 100 students on a single balloon each spring. The course lectures cover spacecraft subsystems, the space environment, and other considerations in designing for space applications. In the laboratory portion of the course, students work in teams of four to build their BalloonSAT, learning the basics of soldering, Arduino programming, CAD, and data analysis. This course provides students with a solid foundation for the senior-level spacecraft design course and is the starting point for many students wishing to join our satellite research team or our more advanced ballooning activities. A special section of this course was used to train our eclipse ballooning students, and in the future, we hope to continue to use this...",
+      "authors": [
+        "Jililan Schmidt",
+        "Donna Jennings",
+        "Yezad Anklesaria",
+        "Henry J. Pernicka"
+      ]
+    },
+    {
+      "title": "LIBRATION POINT SPACECRAFT FORMATION TRAJECTORY DESIGN USING GENETIC ALGORITHMS",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1007/978-3-031-51928-4_6",
+      "venue": "Advances in the astronautical sciences",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Trajectory",
+        "Libration (molecule)",
+        "Aerospace engineering",
+        "Point (geometry)",
+        "Computer science",
+        "Genetic algorithm",
+        "Astrobiology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Donna Jennings",
+        "Neil Bruhn",
+        "Henry J. Pernicka"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "faculty_name": "Andrea Da Ronch",
+  "full_name": "Andrea Da Ronch",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5044501073",
+  "works_count": 178,
+  "cited_by_count": 2671,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 88
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 50
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 37
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A review of modelling and analysis of morphing wings",
+      "publication_year": 2018,
+      "publication_date": "2018-06-01",
+      "doi": "https://doi.org/10.1016/j.paerosci.2018.06.002",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 397,
+      "is_oa": true,
+      "oa_url": "https://elib.dlr.de/115485/1/2017-09-30-adaronch%201.pdf",
+      "concepts": [
+        "Morphing",
+        "Computer science",
+        "Wing",
+        "Aerodynamics",
+        "Process (computing)",
+        "Proof of concept",
+        "Aeronautics",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daochun Li",
+        "Shiwei Zhao",
+        "Andrea Da Ronch",
+        "Jinwu Xiang",
+        "Jernej Drofelnik",
+        "Yongchao Li",
+        "Lu Zhang",
+        "Yining Wu",
+        "Markus Kintscher",
+        "Hans Peter Monner",
+        "Anton Rudenko",
+        "Shijun Guo",
+        "Weilong Yin",
+        "Johannes Kirn",
+        "Stefan Storm",
+        "Roeland De Breuker"
+      ]
+    },
+    {
+      "title": "Energy harvesting by means of flow-induced vibrations on aerospace vehicles",
+      "publication_year": 2016,
+      "publication_date": "2016-09-02",
+      "doi": "https://doi.org/10.1016/j.paerosci.2016.08.001",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": true,
+      "oa_url": "https://eprints.soton.ac.uk/404545/1/Energy_20harvesting_20by_20means_20of_20flow-induced_20vibrations_20on_20aerospace_20vehicles.pdf",
+      "concepts": [
+        "Energy harvesting",
+        "Vibration",
+        "Vortex-induced vibration",
+        "Energy (signal processing)",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Nonlinear system",
+        "Aerospace"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daochun Li",
+        "Yining Wu",
+        "Andrea Da Ronch",
+        "Jinwu Xiang"
+      ]
+    },
+    {
+      "title": "Evaluation of Dynamic Derivatives Using Computational Fluid Dynamics",
+      "publication_year": 2012,
+      "publication_date": "2012-02-01",
+      "doi": "https://doi.org/10.2514/1.j051304",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 129,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Computer science",
+        "Fluid dynamics",
+        "Aerospace engineering",
+        "Mechanics",
+        "Mathematical optimization",
+        "Mathematics",
+        "Physics"
+      ],
+      "abstract": "This paper focuses on the evaluation of the dynamic stability derivative formulation. The derivatives are calculated using the Euler and Reynolds-averaged Navier–Stokes equations, and a time-domain solver was used for the computation of aerodynamic loads for forced periodic motions. To validate the predictions, two test cases are used. For the standard dynamic model geometry, a database of dynamic simulations illustrates the effects of the systematic variation of motion and fluid parameters involved. A satisfactory agreement was observed with available experimental data, and the dependency of dynamic derivatives on a number of parameters, such as Mach number, mean angle of attack, frequency, and amplitude, was assessed. For the transonic cruiser wind-tunnel geometry, static and unsteady aerodynamic characteristics were validated against experimental measurements. The ability of models based on the dynamic derivatives to predict large-amplitude motion forces and moments was assessed. It was demonstrated that the dynamic derivative model does not represent all of the important effects due to aerodynamics.",
+      "authors": [
+        "Andrea Da Ronch",
+        "David Vallespin",
+        "Mehdi Ghoreyshi",
+        "K. J. Badcock"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "High Angle Working Group Analyses in Support of the Third Aeroelastic Prediction Workshop: Flutter Predictions",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.2514/1.c038407",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://digitalcollection.zhaw.ch/handle/11475/36794",
+      "concepts": [
+        "Aeroelasticity",
+        "Flutter",
+        "Transonic",
+        "Stall (fluid mechanics)",
+        "Mach number",
+        "Aerodynamics",
+        "Structural engineering",
+        "Airfoil"
+      ],
+      "abstract": "This paper presents a summary of the computational flutter results associated with the AIAA Third Aeroelastic Prediction Workshop, High Angle Working Group. The computational results are compared against the experimental data collected during the Pitch and Plunge Apparatus Benchmark Supercritical Wing test campaign conducted in the Transonic Dynamics Tunnel at NASA Langley Research Center in 1993. During that test, several flutter points were identified at transonic conditions. One of these points, specifically near Mach 0.8 and a 5 deg angle of attack, became a focal point of the computational challenge within the working group. Various-fidelity time-domain, reduced-order model, and linearized frequency-domain methods were used by seven participating teams, and a description of each team’s software and methods is included. While there are encouraging trends in the computational results, the range of the predicted flutter dynamic pressure is still quite large due to the stall flutter mechanism. Comparisons are also complicated by the potential existence of a strong limit-cycle oscillation: the strength of the aeroelastic damping may depend strongly upon the size and character of...",
+      "authors": [
+        "Pawel Chwalowski",
+        "Bret K. Stanford",
+        "Kevin Jacobson",
+        "Lior Poplingher",
+        "Daniella E. Raveh",
+        "Adam Jirásek",
+        "Jürgen Seidel",
+        "Giampaolo Pagliuca",
+        "Jose N. Berberoff-Naval",
+        "Matt Forster",
+        "Marcello Righi",
+        "Gabriele Immordino",
+        "Andrea Da Ronch",
+        "Steven E. Lamberson",
+        "Daniel Prosser",
+        "Ettore Fadiga",
+        "Stefano Oliani",
+        "Francesco Rondina",
+        "Luigi Capone"
+      ]
+    },
+    {
+      "title": "Uncertainty Quantification and Reduction for the AIAA Aerodynamics Challenge Using Sensitivity-Based and Diffusion Model Updating",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0295",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Uncertainty reduction theory",
+        "Aerodynamics",
+        "Reduction (mathematics)",
+        "Computer science",
+        "Surrogate model",
+        "Moment (physics)",
+        "Inverse problem"
+      ],
+      "abstract": "This paper presents the principles and techniques employed to address the AIAA Second Uncertainty Quantification Challenge Problem for Aerodynamics. Two distinct model updating strategies for uncertainty quantification and reduction are investigated, a sensitivity-based approach and a data-driven diffusion model-based approach. Both methods aim to infer the posterior distributions of key aerodynamic input parameters, which are subsequently propagated through either a surrogate model or XFOIL to obtain posterior-predictive lift, drag, and moment coefficients. The diffusion model shows consistent posterior-predictive responses across both the surrogate and XFOIL, whereas the sensitivity-based approach produces sharply concentrated parameter posteriors that may represent a more limited uncertainty range. Across multiple operating configurations, the two approaches produce coherent predictive aerodynamic responses despite their differing parameter posterior structures. The findings underscore that, in UQ challenges of this type, it is not only essential to characterise multiple sources of uncertainty, but equally, if not more, critical to employ an appropriate inverse uncertainty-re...",
+      "authors": [
+        "Tairan Wang",
+        "Imre Gal",
+        "Geng Qiao",
+        "Sifeng Bi",
+        "Sebastiano Fichera",
+        "Andrea Da Ronch",
+        "John E. Mottershead"
+      ]
+    },
+    {
+      "title": "Aeroelastic Uncertainty Quantification of Flexible Wing Nonlinear Dynamics Using Reduced Order Models",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1246",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Flutter",
+        "Uncertainty quantification",
+        "Nonlinear system",
+        "Flight envelope",
+        "Control theory (sociology)",
+        "Wing",
+        "Aerodynamics"
+      ],
+      "abstract": "Uncertainty quantification of aeroelastic wing limit cycle oscillations (LCOs) is enabled using dynamically nonlinear reduced order models (ROMs). The ROM forms are generated by source–transformation automatic differentiation of the full order model (FOM) source code, and are data–free, not requiring the costly FOM dynamic response. The 288 degree of freedom (DOF) FOM, consisting of a geometrically exact nonlinear beam and 2D strip theory unsteady aerodynamics, is reduced to a 13 DOF nonlinear ROM form. The 13 DOF ROM accurately predicts LCO dynamics in wing root bending moment, and wing root torsion, with computational cost being over 700 times faster than the FOM. A ROM generation cost is incurred, which is on the order of magnitude of one representative FOM dynamic response, however this cost is incurred just once, in the offline phase. The resultant generated ROM code is valid for any wing geometry and flight condition input without requiring regeneration. The ROM form is used for the rapid training of surrogate models to predict LCO amplitudes over an envelope of supercritical flight speed and a varying intrinsic wing structural parameter. A statistical analysis is performe...",
+      "authors": [
+        "Declan Clifford",
+        "Giuseppe Morichetti",
+        "Andrea Da Ronch"
+      ]
+    },
+    {
+      "title": "Geometric Deep Learning for Loads Prediction of Maneuvering Aircraft",
+      "publication_year": 2025,
+      "publication_date": "2025-07-17",
+      "doi": "https://doi.org/10.2514/1.c038235",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computer science",
+        "Robustness (evolution)",
+        "Grid",
+        "Control theory (sociology)",
+        "Angle of attack",
+        "Simulation",
+        "Artificial intelligence"
+      ],
+      "abstract": "A framework based on deep learning is developed for the rapid prediction of unsteady aerodynamic loads and flowfield distributions around a full-scale, maneuvering vehicle. The framework is demonstrated for the Future Fighter Demonstrator configuration, studied within the NATO Science & Technology Organisation Research Task Group 351, performing static and forced-motion maneuvers in pitch up to high angles of attack. The complexity of the problem is characterized by the dynamics of a set of vortices that form and grow in size and intensity until they break down, strongly dependent on the three-dimensional planform shape. For applicability to both structured and unstructured grids, we leverage geometric deep learning. For deployment on a large number of surface grid points, in the order of millions, we developed a multimesh scheme to operate at coarser levels of refinement. For robustness when predicting unsteady flow features, we proposed two schemes to limit the well-known pitfall of long-term error accumulation, namely a quasi-steady and a recurrent scheme. For efficiency in generating the model, training is limited to one single signal that provides sufficient coverage of the...",
+      "authors": [
+        "David Massegur Sampietro",
+        "Andrea Da Ronch"
+      ]
+    },
+    {
+      "title": "Parametric Reduced Models for Limit-Cycle Oscillation Prediction",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3769",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Limit (mathematics)",
+        "Parametric statistics",
+        "Oscillation (cell signaling)",
+        "Limit cycle",
+        "Computer science",
+        "Control theory (sociology)",
+        "Mathematics",
+        "Statistics"
+      ],
+      "abstract": "Predicting the limit–cycle oscillations of large–scale aeroelastic systems comes at significant cost. This high cost prohibits use of traditional limit–cycle analysis methods in parametric searches, for example, for multidisciplinary design optimisation, or for design search exploration. This work proposes use of a parametric nonlinear reduced order model to enable rapid envelope exploration of limit–cycle oscillation amplitudes. Source–transformation automatic differentiation is used to compute parametric nonlinear reduced model codes of the full order model code. The method exploits information readily available from a flutter search, and does not require the generation of new data or a new reduced basis. The resultant reduced models are used to define a flight envelope of non–destructive limit–cycle oscillations. Reduced model predictions are consistently conservative and the defined envelope has errors that are at most 5%, and all computed at a fraction of the cost of the full model.",
+      "authors": [
+        "D. W. Clifford",
+        "Andrea Da Ronch"
+      ]
+    }
+  ]
+}

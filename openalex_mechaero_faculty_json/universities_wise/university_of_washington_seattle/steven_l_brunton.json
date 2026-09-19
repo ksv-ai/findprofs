@@ -1,0 +1,310 @@
+{
+  "faculty_name": "Steven L. Brunton",
+  "full_name": "Steven L. Brunton",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Washington-Seattle",
+  "author_id": "A5062653961",
+  "works_count": 578,
+  "cited_by_count": 31430,
+  "h_index": 70,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 259
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 109
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 65
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 61
+    },
+    {
+      "topic": "Neural Networks and Applications",
+      "count": 36
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Modal Analysis of Fluid Flows: Applications and Outlook",
+      "publication_year": 2019,
+      "publication_date": "2019-10-15",
+      "doi": "https://doi.org/10.2514/1.j058462",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 643,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Geology",
+        "Finite element method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Maziar S. Hemati",
+        "Steven L. Brunton",
+        "Yiyang Sun",
+        "Karthik Duraisamy",
+        "Shervin Bagheri",
+        "Scott T. M. Dawson",
+        "C. Yeh"
+      ]
+    },
+    {
+      "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+      "publication_year": 2016,
+      "publication_date": "2016-03-28",
+      "doi": "https://doi.org/10.1073/pnas.1517384113",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 4826,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1509.03580",
+      "concepts": [
+        "Identification (biology)",
+        "Nonlinear system",
+        "Dynamical systems theory",
+        "Applied mathematics",
+        "Nonlinear dynamical systems",
+        "System identification",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "Extracting governing equations from data is a central challenge in many diverse areas of science and engineering. Data are abundant whereas models often remain elusive, as in climate science, neuroscience, ecology, finance, and epidemiology, to name only a few examples. In this work, we combine sparsity-promoting techniques and machine learning with nonlinear dynamical systems to discover governing equations from noisy measurement data. The only assumption about the structure of the model is that there are only a few important terms that govern the dynamics, so that the equations are sparse in the space of possible functions; this assumption holds for many physical systems in an appropriate basis. In particular, we use sparse regression to determine the fewest terms in the dynamic governing equations required to accurately represent the data. This results in parsimonious models that balance accuracy with model complexity to avoid overfitting. We demonstrate the algorithm on a wide range of problems, from simple canonical systems, including linear and nonlinear oscillators and the chaotic Lorenz system, to the fluid vortex shedding behind an obstacle. The fluid example illustrate...",
+      "authors": [
+        "Steven L. Brunton",
+        "Joshua L. Proctor",
+        "J. Nathan Kutz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "HydroGym: A Multi-Solver Reinforcement Learning Platform for Fluid Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-30",
+      "doi": "https://doi.org/10.5281/zenodo.21062221",
+      "venue": "",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://github.com/dynamicslab/hydrogym",
+      "concepts": [
+        "Solver",
+        "Computer science",
+        "Reinforcement learning",
+        "Abstraction",
+        "Software",
+        "Documentation",
+        "Computational fluid dynamics",
+        "Reinforcement"
+      ],
+      "abstract": "HydroGym is a multi-solver reinforcement learning platform for data-driven modeling and control of fluid dynamics. This release (v1.0.1) extends HydroGym from a single-solver backend to a native multi-solver reinforcement learning framework for flow control, with environments spanning six CFD solver backends: Firedrake (finite element), MAIA LBM (lattice Boltzmann), MAIA structured FV (finite volume), NEK5000 (spectral element), JAX, and JAX-Fluids (differentiable). It provides 61 pre-configured, Gymnasium-compatible environments ranging from canonical 2D benchmarks to 3D turbulent flows at Reynolds numbers up to 400,000, compatible with standard RL libraries (Stable-Baselines3, RLlib, etc.). This release introduces a data manager abstraction that handles environment data natively and uniformly across solver backends. Accompanying environment checkpoints are hosted in the companion HuggingFace dataset repository (https://huggingface.co/datasets/dynamicslab/HydroGym-environments) and are auto-accessed at runtime. Documentation is available at https://dynamicslab.github.io/hydrogym. This archive corresponds to the software accompanying the associated Nature publication.",
+      "authors": [
+        "Christian Lagemann",
+        "Sajeda Mokbel",
+        "Miro Gondrum",
+        "Mario Rüttgers",
+        "Yuning Wang",
+        "Pol Suárez",
+        "Ludger Paehler",
+        "Deniz A. Bezgin",
+        "Aaron B. Buhendwa",
+        "Jared Callaham",
+        "Samuel Ahnert",
+        "Nicholas Zolman",
+        "Xingchen Shao",
+        "Jean-Christophe Loiseau",
+        "Nikolaus A. Adams",
+        "Matthias Meinke",
+        "Wolfgang Schröder",
+        "Kai Lagemann",
+        "Esther Lagemann",
+        "Ricardo Vinuesa",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "HydroGym: A Multi-Solver Reinforcement Learning Platform for Fluid Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-30",
+      "doi": "https://doi.org/10.5281/zenodo.21062222",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "other",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.21062222",
+      "concepts": [
+        "Solver",
+        "Computer science",
+        "Reinforcement learning",
+        "Abstraction",
+        "Software",
+        "Documentation",
+        "Computational fluid dynamics",
+        "Reinforcement"
+      ],
+      "abstract": "HydroGym is a multi-solver reinforcement learning platform for data-driven modeling and control of fluid dynamics. This release (v1.0.1) extends HydroGym from a single-solver backend to a native multi-solver reinforcement learning framework for flow control, with environments spanning six CFD solver backends: Firedrake (finite element), MAIA LBM (lattice Boltzmann), MAIA structured FV (finite volume), NEK5000 (spectral element), JAX, and JAX-Fluids (differentiable). It provides 61 pre-configured, Gymnasium-compatible environments ranging from canonical 2D benchmarks to 3D turbulent flows at Reynolds numbers up to 400,000, compatible with standard RL libraries (Stable-Baselines3, RLlib, etc.). This release introduces a data manager abstraction that handles environment data natively and uniformly across solver backends. Accompanying environment checkpoints are hosted in the companion HuggingFace dataset repository (https://huggingface.co/datasets/dynamicslab/HydroGym-environments) and are auto-accessed at runtime. Documentation is available at https://dynamicslab.github.io/hydrogym. This archive corresponds to the software accompanying the associated Nature publication.",
+      "authors": [
+        "Christian Lagemann",
+        "Sajeda Mokbel",
+        "Miro Gondrum",
+        "Mario Rüttgers",
+        "Yuning Wang",
+        "Pol Suárez",
+        "Ludger Paehler",
+        "Deniz A. Bezgin",
+        "Aaron B. Buhendwa",
+        "Jared Callaham",
+        "Samuel Ahnert",
+        "Nicholas Zolman",
+        "Xingchen Shao",
+        "Jean-Christophe Loiseau",
+        "Nikolaus A. Adams",
+        "Matthias Meinke",
+        "Wolfgang Schröder",
+        "Kai Lagemann",
+        "Esther Lagemann",
+        "Ricardo Vinuesa",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "A data-driven approach for predicting the cetane number of renewable and unconventional fuels",
+      "publication_year": 2025,
+      "publication_date": "2025-12-29",
+      "doi": "https://doi.org/10.1016/j.enconman.2025.120940",
+      "venue": "Energy Conversion and Management",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.enconman.2025.120940",
+      "concepts": [
+        "Cetane number",
+        "Ignition system",
+        "Combustion",
+        "Diesel fuel",
+        "Homogeneous charge compression ignition",
+        "Autoignition temperature",
+        "Renewable energy",
+        "Process engineering"
+      ],
+      "abstract": "Recent research on engine combustion has focused on new less carbon-intensive alternatives that meet current standards and can serve as drop-in fuels. However, developing surrogate fuels is challenging due to the difficulty of predicting key properties such as derived cetane number, which quantifies the ignition quality in compression ignition engines. Higher values indicate highly reactive fuels whereas lower values indicates longer ignition times that will lead to misfiring and increased emissions in diesel engines. The measurement of this property entails the test of the candidate fuels under specific conditions, making it costly and time-consuming. This work explores the use of data-driven models to predict the derived cetane number of both single-component fuels and blends. NREL’s compendium is used as reference, while the ignition quality tester is replaced by a 1D spray model coupled with detailed chemical kinetics. The models are trained on fuel composition, basic thermophysical properties, and simulated ignition delay. Additionally, symbolic regression is employed to derive an explicit equation linking derived cetane number to key fuel descriptors. The resulting express...",
+      "authors": [
+        "Ana Sofia Larranaga",
+        "James R. MacDonald",
+        "Steven L. Brunton",
+        "Jacobo Porteiro",
+        "Darío López Pintor"
+      ]
+    },
+    {
+      "title": "SINDy-RL for interpretable and efficient model-based reinforcement learning",
+      "publication_year": 2025,
+      "publication_date": "2025-11-28",
+      "doi": "https://doi.org/10.1038/s41467-025-65738-4",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41467-025-65738-4.pdf",
+      "concepts": [
+        "Reinforcement learning",
+        "Computer science",
+        "Benchmark (surveying)",
+        "Artificial intelligence",
+        "Machine learning",
+        "Deep learning",
+        "Control (management)",
+        "Deep neural networks"
+      ],
+      "abstract": "Deep reinforcement learning (DRL) has shown significant promise for uncovering sophisticated control policies that interact in complex environments, such as stabilizing a tokamak fusion reactor or minimizing the drag force on an object in a fluid flow. However, DRL requires an abundance of training examples and may become prohibitively expensive for many applications. In addition, the reliance on deep neural networks often results in an uninterpretable, black-box policy that may be too computationally expensive to use with certain embedded systems. Recent advances in sparse dictionary learning, such as the sparse identification of nonlinear dynamics (SINDy), have shown promise for creating efficient and interpretable data-driven models in the low-data regime. In this work, we introduce SINDy-RL, a unifying framework for combining SINDy and DRL to create efficient, interpretable, and trustworthy representations of the dynamics model, reward function, and control policy. We demonstrate the effectiveness of our approaches on benchmark control environments and flow control problems, including gust mitigation on a 3D NACA 0012 airfoil at Re = 1000. SINDy-RL achieves comparable perfor...",
+      "authors": [
+        "Nicholas Zolman",
+        "Christian Lagemann",
+        "Urban Fasel",
+        "J. Nathan Kutz",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "Data-driven modeling of nonlinear events for an oscillating surge WEC using Sparse Identification of Nonlinear Dynamics (SINDy)",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.36688/ewtec-2025-790",
+      "venue": "Proceedings of the ... European Wave and Tidal Energy Conference",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Control theory (sociology)",
+        "Computer science",
+        "Computational fluid dynamics",
+        "System identification",
+        "Identification (biology)",
+        "Residual",
+        "Dissipative system"
+      ],
+      "abstract": "Accurate and computationally efficient models for wave energy converters (WECs) are critical for design and control development. Often, these models are based in linear potential flow theory, which has low computational cost, but may require restrictive assumptions that cannot account for complicated hydrodynamics. High fidelity tools, such as computational fluid dynamics (CFD), do not face such limitations, but their computational cost can be too high for real-time control or design iteration. These issues are magnified in energetic seas, where nonlinear hydrodynamics, such as overtopping and slamming, can drive design loads. Data-driven algorithms are attractive to bridge this gap by replacing the full solution to the Navier-Stokes equation with reduced-order models. One option is Sparse Identification of Nonlinear Dynamics (SINDy) - an equation-free, data-driven algorithm that identifies dominant nonlinear functions present in system state dynamics from time series data. SINDy is parsimonious, meaning it uses a sparsity-promoting hyperparameter with the goal of including the minimum number of terms to capture dominant dynamics, resulting in interpretable and generalizable res...",
+      "authors": [
+        "Brittany Lydon",
+        "Steven L. Brunton",
+        "Ama R. Hartman",
+        "Greg Talpey",
+        "Corey Crisp",
+        "Gemma Calandra",
+        "Charles Candon",
+        "Rebecca Fao",
+        "Brian Polagye"
+      ]
+    }
+  ]
+}

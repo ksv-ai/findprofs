@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Jonathan B. Freund",
+  "full_name": "Jonathan B. Freund",
+  "department": "Department of Aerospace Engineering / Department of Mechanical Science and Engineering",
+  "university": "University of Illinois Urbana-Champaign",
+  "author_id": "A5027423603",
+  "works_count": 365,
+  "cited_by_count": 7280,
+  "h_index": 46,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 103
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 102
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 59
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 48
+    },
+    {
+      "topic": "Blood properties and coagulation",
+      "count": 32
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A noise-controlled free shear flow",
+      "publication_year": 2005,
+      "publication_date": "2005-12-21",
+      "doi": "https://doi.org/10.1017/s0022112005007093",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 174,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Boundary layer",
+        "Inflow",
+        "Mach number",
+        "Physics",
+        "Mean flow",
+        "Turbulence",
+        "Reynolds number"
+      ],
+      "abstract": "The adjoint of the perturbed and linearized compressible viscous flow equations is formulated in such a way that its solution can be used to optimize control actuation in order to reduce flow-generated sound. We apply it to a direct numerical simulation of a randomly excited two-dimensional mixing layer, with inflow vorticity-thickness Reynolds number 500 and free-stream Mach numbers 0.9 and 0.2. The control actuation is implemented as general source terms in the flow equations (body forces, mass sources, and internal energy sources) with compact support near the inflow boundary. The noise to be reduced is defined by a space-time integral of the mean-square pressure fluctuations on a line parallel to the mixing layer in the acoustic field of the low-speed stream. Both the adjoint and flow equations are solved numerically and without modelling approximations. The objective is to study the mechanics of the noise generation and its control. All controls reduce targeted noise with very little required input power, with the most effective (the internal energy control) reducing the noise intensity by 11 dB. Numerical tests confirm that the control is not by any simple acoustic cancell...",
+      "authors": [
+        "Mingjun Wei",
+        "Jonathan B. Freund"
+      ]
+    },
+    {
+      "title": "COMPUTATIONAL PREDICTION OF FLOW-GENERATED SOUND",
+      "publication_year": 2005,
+      "publication_date": "2005-12-17",
+      "doi": "https://doi.org/10.1146/annurev.fluid.38.050304.092036",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 453,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational aeroacoustics",
+        "Computer science",
+        "Noise (video)",
+        "Aeroacoustics",
+        "Flow (mathematics)",
+        "Computational model",
+        "Computational fluid dynamics",
+        "Noise control"
+      ],
+      "abstract": "This article provides a critical review of computational techniques for flow-noise prediction and the underlying theories. Hybrid approaches, in which the turbulent noise source field is computed and/or modeled separately from the far-field calculation, are afforded particular attention. Numerical methods and modern flow simulation techniques are discussed in terms of their suitability and accuracy for flow-noise calculations. Other topics highlighted include some important formulation and computational issues in the application of aeroacoustic theories, generalized acoustic analogies with better accounts of flow-sound interaction, and recent computational investigations of noise-control strategies. The review ends with an analysis of major challenges and key areas for improvement in order to advance the state of the art of computational aeroacoustics.",
+      "authors": [
+        "Meng Wang",
+        "Jonathan B. Freund",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Numerical Simulation of a Mach 1.92 Turbulent Jet and Its Sound Field",
+      "publication_year": 2000,
+      "publication_date": "2000-11-01",
+      "doi": "https://doi.org/10.2514/2.889",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 160,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Jet (fluid)",
+        "Turbulence",
+        "Mechanics",
+        "Sound (geography)",
+        "Physics",
+        "Mach reflection",
+        "Computer simulation"
+      ],
+      "abstract": "A perfectly expanded turbulent Mach 1.92 jet is simulated by direct numerical solution of the compressible Navier-Stokes equations in a computational domain that includes the near acoustic field. In place of a nozzle, turbulent inflow data were generated in a separate streamwise periodic jet simulation. Reynolds stresses, two-point correlations, and turbulent energy spectra are computed and discussed. The sound field is highly directional and dominated by Mach waves as are commonly observed experimentally. Analysis of the sound using weak-shock theory shows that nonlinear effects are significant away from the jet but that linear theory is sufficient to estimate near-field sound pressure levels. Although no attempt was made to match any particular experiment in detail, sound pressure levels are compared with experimental data at similar flow conditions and are found to agree in general with jets at similar convective Mach numbers.",
+      "authors": [
+        "Jonathan B. Freund",
+        "Sanjiva K. Lele",
+        "Parviz Moin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Conceptual Design and Optimization of a Scramjet with Ablative Thermal Protection",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3684",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ablative case",
+        "Scramjet",
+        "Thermal protection",
+        "Space Shuttle thermal protection system",
+        "Conceptual design",
+        "Nuclear engineering",
+        "Computer science",
+        "Materials science"
+      ],
+      "abstract": "The design of supersonic-combustion ramjet (scramjet) engines requires approaches that account for both the system performance and the complex interactions of the engine components. At the system level, the propulsor must meet the inherent performance needs such as specific-impulse (I_sp) or propulsion efficiency (\\eta_p) for a given vehicle geometry and flight trajectory. Simultaneously, each subsystem--including the inlet, combustor, and nozzle--must operate efficiently to contribute to the system-level behavior while each adhering to its own physical and operational constraints. Thermal management is a critical aspect of the engine, that we particularly address by introducing novel ablative materials used as thermal protection systems (TPS), capable of withstanding the extreme heat loads typical of supersonic combustion. This work presents the development and coupling of reduced models that balance fidelity with computational efficiency for early-stage design and eventual multidisciplinary design optimization (MDO) of scramjets. The proposed models predict critical failure modes such as unstart and thermal overload. In particular, we implement quasi-one-dimensional models to ...",
+      "authors": [
+        "Darío Rodríguez",
+        "Túlio Rodarte Ricciardi",
+        "James T. Allison",
+        "Jonathan B. Freund"
+      ]
+    },
+    {
+      "title": "Pyrometheus: Symbolic abstractions for XPU and automatically differentiated computation of combustion kinetics and thermodynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-03-31",
+      "doi": "https://doi.org/10.48550/arxiv.2503.24286",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2503.24286",
+      "concepts": [
+        "Computer science",
+        "Representation (politics)",
+        "Computation",
+        "Semantics (computer science)",
+        "Solver",
+        "Symbolic computation",
+        "Programming language",
+        "Automatic differentiation"
+      ],
+      "abstract": "The cost of combustion simulations is often dominated by the evaluation of net production rates of chemical species and mixture thermodynamics (thermochemistry). Execution on computing accelerators (XPUs) like graphic processing units (GPUs) can greatly reduce this cost. However, established thermochemistry software is not readily portable to such devices or sacrifices valuable analytical forms that enable differentiation for sensitivity analysis and implicit time integration. Symbolic abstractions are developed with corresponding transformations that enable computation on accelerators and automatic differentiation by avoiding premature specification of detail. The software package Pyrometheus is introduced as an implementation of these abstractions and their transformations for combustion thermochemistry. The formulation facilitates code generation from the symbolic representation of a specific thermochemical mechanism in multiple target languages, including Python, C++, and Fortran. Computational concerns are separated: the generated code processes array-valued expressions but does not specify their semantics. These semantics are provided by compatible array libraries, such as...",
+      "authors": [
+        "Esteban Cisneros–Garibay",
+        "Henry Le Berre",
+        "Adam, Dimitrios",
+        "Spencer H. Bryngelson",
+        "Jonathan B. Freund"
+      ]
+    },
+    {
+      "title": "Corrigendum to “A TVD neural network closure and application to turbulent combustion” [Journal of Computational Physics 523 (2025)/113638]",
+      "publication_year": 2025,
+      "publication_date": "2025-02-06",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.113800",
+      "venue": "Journal of Computational Physics",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2025.113800",
+      "concepts": [
+        "Closure (psychology)",
+        "Turbulence",
+        "Combustion",
+        "Artificial neural network",
+        "Statistical physics",
+        "Computational fluid dynamics",
+        "Applied mathematics",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Seung Won Suh",
+        "Jonathan F. MacArt",
+        "Luke N. Olson",
+        "Jonathan B. Freund"
+      ]
+    },
+    {
+      "title": "A TVD neural network closure and application to turbulent combustion",
+      "publication_year": 2024,
+      "publication_date": "2024-12-02",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.113638",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2024.113638",
+      "concepts": [
+        "Closure (psychology)",
+        "Turbulence",
+        "Artificial neural network",
+        "Combustion",
+        "Mechanics",
+        "Applied mathematics",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Seung Won Suh",
+        "Jonathan F. MacArt",
+        "Luke N. Olson",
+        "Jonathan B. Freund"
+      ]
+    },
+    {
+      "title": "A TVD neural network closure and application to turbulent combustion",
+      "publication_year": 2024,
+      "publication_date": "2024-08-06",
+      "doi": "https://doi.org/10.48550/arxiv.2408.03413",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2408.03413",
+      "concepts": [
+        "Closure (psychology)",
+        "Turbulence",
+        "Combustion",
+        "Artificial neural network",
+        "Environmental science",
+        "Geology",
+        "Computer science",
+        "Mechanics"
+      ],
+      "abstract": "Trained neural networks (NN) have attractive features for closing governing equations. There are many methods that are showing promise, but all can fail in cases when small errors consequentially violate physical reality, such as a solution boundedness condition. A NN formulation is introduced to preclude spurious oscillations that violate solution boundedness or positivity. It is embedded in the discretized equations as a machine learning closure and strictly constrained, inspired by total variation diminishing (TVD) methods for hyperbolic conservation laws. The constraint is exactly enforced during gradient-descent training by rescaling the NN parameters, which maps them onto an explicit feasible set. Demonstrations show that the constrained NN closure model usefully recovers linear and nonlinear hyperbolic phenomena and anti-diffusion while enforcing the non-oscillatory property. Finally, the model is applied to subgrid-scale (SGS) modeling of a turbulent reacting flow, for which it suppresses spurious oscillations in scalar fields that otherwise violate the solution boundedness. It outperforms a simple penalization of oscillations in the loss function.",
+      "authors": [
+        "Seung-Won Suh",
+        "Jonathan F. MacArt",
+        "Luke N. Olson",
+        "Jonathan B. Freund"
+      ]
+    }
+  ]
+}

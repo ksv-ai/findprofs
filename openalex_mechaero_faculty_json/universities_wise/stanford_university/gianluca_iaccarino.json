@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Gianluca Iaccarino",
+  "full_name": "Gianluca Iaccarino",
+  "department": "Department of Mechanical Engineering / ICME",
+  "university": "Stanford University",
+  "author_id": "A5047377841",
+  "works_count": 531,
+  "cited_by_count": 14680,
+  "h_index": 51,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 181
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 163
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 107
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 97
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 60
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "IMMERSED BOUNDARY METHODS",
+      "publication_year": 2005,
+      "publication_date": "2005-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fluid.37.061903.175743",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 3479,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Field (mathematics)",
+        "Fluid mechanics",
+        "Scale (ratio)",
+        "Boundary (topology)",
+        "Statistical physics",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract ...Read More",
+      "authors": [
+        "Rajat Mittal",
+        "Gianluca Iaccarino"
+      ]
+    },
+    {
+      "title": "Turbulence Modeling in the Age of Data",
+      "publication_year": 2018,
+      "publication_date": "2018-09-19",
+      "doi": "https://doi.org/10.1146/annurev-fluid-010518-040547",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 1518,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1804.00183",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Computer science",
+        "Turbulence modeling",
+        "Reynolds stress equation model",
+        "Bounding overwatch",
+        "Perspective (graphical)",
+        "K-epsilon turbulence model"
+      ],
+      "abstract": "Data from experiments and direct simulations of turbulence have historically been used to calibrate simple engineering models such as those based on the Reynolds-averaged Navier–Stokes (RANS) equations. In the past few years, with the availability of large and diverse data sets, researchers have begun to explore methods to systematically inform turbulence models with data, with the goal of quantifying and reducing model uncertainties. This review surveys recent developments in bounding uncertainties in RANS models via physical constraints, in adopting statistical inference to characterize model coefficients and estimate discrepancy, and in using machine learning to improve turbulence models. Key principles, achievements, and challenges are discussed. A central perspective advocated in this review is that by exploiting foundational knowledge in turbulence modeling and physical constraints, researchers can use data-driven approaches to yield useful predictive models.",
+      "authors": [
+        "Karthik Duraisamy",
+        "Gianluca Iaccarino",
+        "Heng Xiao"
+      ]
+    },
+    {
+      "title": "Near-wall behavior of RANS turbulence models and implications for wall functions",
+      "publication_year": 2004,
+      "publication_date": "2004-12-06",
+      "doi": "https://doi.org/10.1016/j.jcp.2004.10.018",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 439,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Turbulence modeling",
+        "Boundary layer",
+        "Mechanics",
+        "Pressure gradient",
+        "K-epsilon turbulence model",
+        "K-omega turbulence model"
+      ],
+      "abstract": "",
+      "authors": [
+        "Georgi Kalitzin",
+        "Gorazd Medic",
+        "Gianluca Iaccarino",
+        "Paul A. Durbin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "High-speed reactive flow simulations on exascale systems : applications to rocket combustors",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.25740/zh973gh1997",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/zh973gh1997",
+      "concepts": [
+        "Rocket (weapon)",
+        "Flow (mathematics)",
+        "Environmental science",
+        "Aerospace engineering",
+        "Nuclear engineering",
+        "Work (physics)",
+        "Engineering",
+        "Combustion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alboreno Voci",
+        "Gianluca Iaccarino",
+        "Lele, Sanjiva K. (Sanjiva Keshava), 1958-",
+        "Alonso, Juan José, 1968-",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Aeronautics and Astronautics."
+      ]
+    },
+    {
+      "title": "Understanding contributors to the deformation and erosion of subglacial tills using numerical methods",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.25740/gg003dn5227",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/gg003dn5227",
+      "concepts": [
+        "Geology",
+        "Erosion",
+        "Deformation (meteorology)",
+        "Numerical models",
+        "Numerical analysis",
+        "Geomorphology",
+        "Geotechnical engineering",
+        "Numerical modeling"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ian Madden",
+        "Jenny Suckale",
+        "Gianluca Iaccarino",
+        "Ching‐Yao Lai",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Computational and Mathematical Engineering."
+      ]
+    },
+    {
+      "title": "An LES model with finite-rate phase change and subgrid spray based on a thermodynamically consistent four-equation multiphase model",
+      "publication_year": 2026,
+      "publication_date": "2026-04-26",
+      "doi": "https://doi.org/10.48550/arxiv.2604.23846",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.23846",
+      "concepts": [
+        "Multiphase flow",
+        "Combustion",
+        "Thermodynamics",
+        "Mechanics",
+        "Phase (matter)",
+        "Eulerian path",
+        "Bounded function",
+        "Phase change"
+      ],
+      "abstract": "In this work, an LES model with finite-rate phase change and subgrid spray based on a high-resolution numerical scheme for multiphase multi-component simulations which satisfies interface equilibrium and phase immiscibility conditions is proposed. The multiphase model is based on a robust implementation of the four-equation multiphase model which assumes a strict subgrid equilibrium of pressure, temperature, and velocity. Critically, the equilibrium assumptions of the four-equation model provide large computational savings compared to modeling the full non-equilibrium multiphase system. To obtain predictive capabilities with these restrictive equilibrium assumptions, a new phase-confined form of the Eulerian $Σ$ spray model is proposed to predict subgrid interfacial surface area while avoiding unphysical leakage across interfaces. Additionally, an improved finite rate phase change model which is thermodynamically bounded by the equilibration of the Gibbs-free energy is coupled with the $Σ$ equation to model complex phase change regimes. The full modeling framework is validated using the Engine Combustion Network (ECN) Spray A case in non-evaporating and evaporating conditions an...",
+      "authors": [
+        "Henry Collis",
+        "Shahab Mirjalili",
+        "Makrand Khanwale",
+        "Ali Mani",
+        "Gianluca Iaccarino"
+      ]
+    },
+    {
+      "title": "An LES model with finite-rate phase change and subgrid spray based on a thermodynamically consistent four-equation multiphase model",
+      "publication_year": 2026,
+      "publication_date": "2026-04-26",
+      "doi": "https://arxiv.org/abs/2604.23846",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.23846",
+      "concepts": [
+        "Multiphase flow",
+        "Combustion",
+        "Thermodynamics",
+        "Mechanics",
+        "Phase (matter)",
+        "Eulerian path",
+        "Bounded function",
+        "Phase change"
+      ],
+      "abstract": "In this work, an LES model with finite-rate phase change and subgrid spray based on a high-resolution numerical scheme for multiphase multi-component simulations which satisfies interface equilibrium and phase immiscibility conditions is proposed. The multiphase model is based on a robust implementation of the four-equation multiphase model which assumes a strict subgrid equilibrium of pressure, temperature, and velocity. Critically, the equilibrium assumptions of the four-equation model provide large computational savings compared to modeling the full non-equilibrium multiphase system. To obtain predictive capabilities with these restrictive equilibrium assumptions, a new phase-confined form of the Eulerian $Σ$ spray model is proposed to predict subgrid interfacial surface area while avoiding unphysical leakage across interfaces. Additionally, an improved finite rate phase change model which is thermodynamically bounded by the equilibration of the Gibbs-free energy is coupled with the $Σ$ equation to model complex phase change regimes. The full modeling framework is validated using the Engine Combustion Network (ECN) Spray A case in non-evaporating and evaporating conditions an...",
+      "authors": [
+        "Henry Collis",
+        "Shahab Mirjalili",
+        "Makrand Khanwale",
+        "Ali Mani",
+        "Gianluca Iaccarino"
+      ]
+    },
+    {
+      "title": "Generative prediction of laser-induced rocket ignition with dynamic latent space representations",
+      "publication_year": 2026,
+      "publication_date": "2026-03-08",
+      "doi": "https://doi.org/10.48550/arxiv.2603.07525",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.07525",
+      "concepts": [
+        "Surrogate model",
+        "Rocket (weapon)",
+        "Computer science",
+        "Ignition system",
+        "Artificial intelligence",
+        "Field (mathematics)",
+        "Rocket engine",
+        "Uncertainty quantification"
+      ],
+      "abstract": "Accurate and predictive scale-resolving simulations of laser-ignited rocket engines are highly time-consuming because the problem includes turbulent fuel-oxidizer mixing dynamics, laser-induced energy deposition, and high-speed flame growth. This is conflated with the large design space primarily corresponding to the laser operating conditions and target location. To enable rapid exploration and uncertainty quantification, we propose a data-driven surrogate modeling approach that combines convolutional autoencoders (cAEs) with neural ordinary differential equations (neural ODEs). The present target application of an ML-based surrogate model to leading-edge multi-physics turbulence simulation is part of a paradigm shift in the deployment of surrogate models towards increasing real-world complexity. Sequentially, the cAE spatially compresses high-dimensional flow fields into a low-dimensional latent space, wherein the system's temporal dynamics are learned via neural ODEs. Once trained, the model generates fast spatiotemporal predictions from initial conditions and specified operating inputs. By learning a surrogate to replace the entirety of the time-evolving simulation, the cost...",
+      "authors": [
+        "Tony Zahtila",
+        "Ettore Saetta",
+        "Murray Cutforth",
+        "Davy Brouzet",
+        "Diego Rossinelli",
+        "Gianluca Iaccarino"
+      ]
+    }
+  ]
+}

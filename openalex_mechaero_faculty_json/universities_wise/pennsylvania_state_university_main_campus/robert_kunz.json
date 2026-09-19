@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Robert Kunz",
+  "full_name": "Robert F. Kunz",
+  "department": "Department of Mechanical Engineering",
+  "university": "Pennsylvania State University-Main Campus",
+  "author_id": "A5023802568",
+  "works_count": 200,
+  "cited_by_count": 3408,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 68
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 33
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 30
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 21
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A preconditioned Navier–Stokes method for two-phase flows with application to cavitation prediction",
+      "publication_year": 2000,
+      "publication_date": "2000-08-01",
+      "doi": "https://doi.org/10.1016/s0045-7930(99)00039-0",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 879,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Eigenvalues and eigenvectors",
+        "Applied mathematics",
+        "Mathematics",
+        "Momentum (technical analysis)",
+        "Computation",
+        "Block (permutation group theory)",
+        "Computational fluid dynamics",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Robert F. Kunz",
+        "David A. Boger",
+        "David R. Stinebring",
+        "Thomas S. Chyczewski",
+        "Jules W. Lindau",
+        "H. J. Gibeling",
+        "Venkateswaran Sankaran",
+        "T. R. Govindan"
+      ]
+    },
+    {
+      "title": "Performance Analysis of Cavitating Flow in Centrifugal Pumps Using Multiphase CFD",
+      "publication_year": 2002,
+      "publication_date": "2002-05-28",
+      "doi": "https://doi.org/10.1115/1.1457453",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Mechanics",
+        "Centrifugal pump",
+        "Computational fluid dynamics",
+        "Flow (mathematics)",
+        "Reynolds number",
+        "Materials science",
+        "Drop (telecommunication)"
+      ],
+      "abstract": "A multi-phase CFD method is used to analyze centrifugal pump performance under developed cavitating conditions. The differential model employed is the homogeneous two-phase Reynolds-Averaged-Navier-Stokes equations, wherein mixture momentum and volume continuity equations are solved along with vapor volume fraction continuity. Mass transfer modeling is provided for the phase change associated with sheet cavitation. Using quasi-3D (Q3D) analysis, steady and time-dependent analyses were performed across a wide range of flow coefficients and cavitation numbers. Characteristic performance trends associated with off-design flow and blade cavitation are observed. The rapid drop in head coefficient at low cavitation numbers (breakdown) is captured for all flow coefficients. Local flow field solution plots elucidate the principal physical mechanisms associated with the onset of breakdown.",
+      "authors": [
+        "Richard B. Medvitz",
+        "Robert F. Kunz",
+        "David A. Boger",
+        "Jules W. Lindau",
+        "A. M. Yocum",
+        "Laura L. Pauley"
+      ]
+    },
+    {
+      "title": "Multi-phase CFD analysis of natural and ventilated cavitation about submerged bodies",
+      "publication_year": 1999,
+      "publication_date": "1999-12-01",
+      "doi": "http://scripts.cac.psu.edu/users/r/f/rfk102/PROF/ASMESUM99paper/ASMEsummer99.pdf",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 148,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Buoyancy",
+        "Cavitation",
+        "Computational fluid dynamics",
+        "Turbulence",
+        "Bubble",
+        "Momentum (technical analysis)",
+        "Drag"
+      ],
+      "abstract": "A multi-phase CFD method has been developed and is applied here to model the flow about submerged bodies subject to natural and ventilated cavitation. The method employs an implicit, dual-time, pre-conditioned, multi-phase Navier-Stokes algorithm and is three-dimensional, multi-block and parallel. It incorporates mixture volume and constituent volume fraction transport/generation for liquid, condensable vapor and non-condensable gas fields. Mixture momentum and turbulence scalar equations are also solved. Mass transfer modeling provides exchange between liquid and vapor phases. The model accounts for buoyancy effects and the presence/interaction of condensable and non-condensable fields. In this paper, the theoretical formulation of the method is summarized. Results are presented for steady-state and transient axisymmetric flows with natural and ventilated cavitation about several bodies. Comparisons are made with available measurements of surface pressure distribution, cavitation bubble geometry and drag coefficient. Three-dimensional results are presented for a submerged body running at several angles of attack. The underlying three-species formulation and the specific models ...",
+      "authors": [
+        "Robert F. Kunz",
+        "David R. Stinebring",
+        "Thomas S. Chyczewski",
+        "David A. Boger",
+        "H. J. Gibeling",
+        "T. R. Govindan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The role of the law of the wall in cross-scenario generalisation of data-driven models",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.1017/jfm.2026.11647",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FDC7A3ED68AC6C5E2927186410A52CBC/S0022112026116474a.pdf/div-class-title-the-role-of-the-law-of-the-wall-in-cross-scenario-generalisation-of-data-driven-models-div.pdf",
+      "concepts": [
+        "Extrapolation",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Logarithm",
+        "Computer science",
+        "Galilean",
+        "Training (meteorology)",
+        "Applied mathematics"
+      ],
+      "abstract": "An objective of turbulence model calibration or recalibration is to train a model on one flow and achieve improved performance across a broad class of flows that share similar underlying physics. Such cross-scenario generalisation remains a major challenge in data-driven turbulence modelling. Existing considerations – such as model-consistent training and Galilean invariance – have enabled only scenario-specific generalisation to cases resembling the training dataset. In this work, we demonstrate that preserving the law of the wall (LoW) enables the expected transfer of the learned physics from the training flow to a target flow that shares relevant physics with the training flow. We adopt the field inversion and machine learning (FIML) framework, using the one-equation Spalart–Allmaras (SA) model as the baseline. Two strategies are examined: a conventional, unconstrained FIML approach, and a constrained FIML framework. Both strategies use the full flow field without shielding; the constrained version deploys the learned coefficient on a LoW-preserving manifold. Training is limited to periodic-hill flows, while extrapolation tests include channel flow, periodic hills of differen...",
+      "authors": [
+        "Jiaqi Li",
+        "Robert F. Kunz",
+        "George Huang",
+        "Xiang I.A. Yang"
+      ]
+    },
+    {
+      "title": "Integral-analysis-based diagnostics of turbulence model errors in skin friction",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1017/jfm.2026.11599",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9D808D97588B71441B2639EC655AA218/S0022112026115997a.pdf/div-class-title-integral-analysis-based-diagnostics-of-turbulence-model-errors-in-skin-friction-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Mechanics",
+        "Turbulence modeling",
+        "Flow (mathematics)",
+        "Statistical physics",
+        "Angular momentum",
+        "K-epsilon turbulence model"
+      ],
+      "abstract": "Error diagnostics for turbulence models have traditionally focused on engineering quantities of interest, such as the skin-friction coefficient $C_{\\!f}$ , most often by comparing the predicted $C_{\\!f}$ against reference data. In wall-bounded turbulent boundary layers, however, $C_{\\!f}$ results from several physical mechanisms – viscous effects, turbulence, pressure gradients and mean-flow development – whose relative importance depends on the flow conditions. Modelling errors in these mechanisms vary across turbulence closures, and identifying them offers valuable physical insight for model evaluation and improvement. We propose a diagnostics framework that systematically isolates and quantifies such errors using the angular momentum integral formulation. The method is applied to five transport-type Reynolds-averaged Navier–Stokes models in two test cases: a canonical zero-pressure-gradient flat-plate boundary layer, and flow over a three-dimensional hill. For the flat-plate case, comparison with direct numerical simulations data shows that all models reproduce $C_{\\!f}$ reasonably well, but often through strong error cancellation, particularly between the turbulent torque an...",
+      "authors": [
+        "Shyam Nair",
+        "Vishal Wadhai",
+        "Robert F. Kunz",
+        "Xiang I.A. Yang"
+      ]
+    },
+    {
+      "title": "Physical meaning of k in the logarithmic layer for Reynolds-averaged Navier-Stokes models",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.1103/wk3c-xrdn",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Meaning (existential)",
+        "Layer (electronics)",
+        "Social psychology",
+        "Psychology",
+        "Epistemology",
+        "Mathematics",
+        "Interpretation (philosophy)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xiang I. A. Yang",
+        "Ruifeng Hu",
+        "Rahul Deshpande",
+        "Robert F. Kunz",
+        "George Huang"
+      ]
+    },
+    {
+      "title": "Integral analysis based diagnostics of turbulence model errors in skin friction",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "https://doi.org/10.48550/arxiv.2603.11334",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.11334",
+      "concepts": [
+        "Turbulence",
+        "Boundary layer",
+        "Physics",
+        "Flow (mathematics)",
+        "Torque",
+        "Mechanics",
+        "Turbulence modeling",
+        "Angular momentum"
+      ],
+      "abstract": "Error diagnostics for turbulence models have traditionally focused on engineering quantities of interest, such as the skin-friction coefficient, $C_f$, most often by comparing the predicted $C_f$ against reference data. In wall-bounded turbulent boundary layers, however, $C_f$ results from several physical mechanisms -- viscous effects, turbulence, pressure gradients, and mean-flow development -- whose relative importance depends on the flow conditions. Modeling errors in these mechanisms vary across turbulence closures, and identifying them offers valuable physical insight for model evaluation and improvement. We propose a diagnostics framework that systematically isolates and quantifies such errors using the angular momentum integral (AMI) formulation. The method is applied to five transport-type Reynolds-averaged Navier-Stokes (RANS) models in two test cases: a canonical zero-pressure-gradient flat-plate boundary layer and flow over a three-dimensional hill. For the flat-plate case, comparison with direct numerical simulation (DNS) data shows that all models reproduce $C_f$ reasonably well, but often through strong error cancellation, particularly between the turbulent torque...",
+      "authors": [
+        "Shyam S. Nair",
+        "Vishal A. Wadhai",
+        "Robert F. Kunz",
+        "Xiang I. A. Yang"
+      ]
+    },
+    {
+      "title": "Integral analysis based diagnostics of turbulence model errors in skin friction",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "http://arxiv.org/abs/2603.11334",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.11334",
+      "concepts": [
+        "Turbulence",
+        "Boundary layer",
+        "Physics",
+        "Flow (mathematics)",
+        "Torque",
+        "Mechanics",
+        "Turbulence modeling",
+        "Angular momentum"
+      ],
+      "abstract": "Error diagnostics for turbulence models have traditionally focused on engineering quantities of interest, such as the skin-friction coefficient, $C_f$, most often by comparing the predicted $C_f$ against reference data. In wall-bounded turbulent boundary layers, however, $C_f$ results from several physical mechanisms -- viscous effects, turbulence, pressure gradients, and mean-flow development -- whose relative importance depends on the flow conditions. Modeling errors in these mechanisms vary across turbulence closures, and identifying them offers valuable physical insight for model evaluation and improvement. We propose a diagnostics framework that systematically isolates and quantifies such errors using the angular momentum integral (AMI) formulation. The method is applied to five transport-type Reynolds-averaged Navier-Stokes (RANS) models in two test cases: a canonical zero-pressure-gradient flat-plate boundary layer and flow over a three-dimensional hill. For the flat-plate case, comparison with direct numerical simulation (DNS) data shows that all models reproduce $C_f$ reasonably well, but often through strong error cancellation, particularly between the turbulent torque...",
+      "authors": [
+        "Shyam S. Nair",
+        "Vishal A. Wadhai",
+        "Robert F. Kunz",
+        "Xiang I. A. Yang"
+      ]
+    }
+  ]
+}

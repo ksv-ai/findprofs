@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Igor Mezic",
+  "full_name": "Igor Mezić",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of California-Santa Barbara",
+  "author_id": "A5014334832",
+  "works_count": 429,
+  "cited_by_count": 19210,
+  "h_index": 51,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 118
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 92
+    },
+    {
+      "topic": "Quantum chaos and dynamical systems",
+      "count": 61
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 50
+    },
+    {
+      "topic": "Nonlinear Dynamics and Pattern Formation",
+      "count": 40
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analysis of Fluid Flows via Spectral Properties of the Koopman Operator",
+      "publication_year": 2012,
+      "publication_date": "2012-10-05",
+      "doi": "https://doi.org/10.1146/annurev-fluid-011212-140652",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 1008,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Observable",
+        "Attractor",
+        "Operator (biology)",
+        "Dissipative system",
+        "Spectrum (functional analysis)",
+        "Context (archaeology)",
+        "Representation (politics)"
+      ],
+      "abstract": "This article reviews theory and applications of Koopman modes in fluid mechanics. Koopman mode decomposition is based on the surprising fact, discovered in Mezić (2005) , that normal modes of linear oscillations have their natural analogs—Koopman modes—in the context of nonlinear dynamics. To pursue this analogy, one must change the representation of the system from the state-space representation to the dynamics governed by the linear Koopman operator on an infinite-dimensional space of observables. Whereas Koopman in his original paper dealt only with measure-preserving transformations, the discussion here is predominantly on dissipative systems arising from Navier-Stokes evolution. The analysis is based on spectral properties of the Koopman operator. Aspects of point and continuous parts of the spectrum are discussed. The point spectrum corresponds to isolated frequencies of oscillation present in the fluid flow, and also to growth rates of stable and unstable modes. The continuous part of the spectrum corresponds to chaotic motion on the attractor. A method of computation of the spectrum and the associated Koopman modes is discussed in terms of generalized Laplace analysis. W...",
+      "authors": [
+        "Igor Mezić"
+      ]
+    },
+    {
+      "title": "Frontiers of chaotic advection",
+      "publication_year": 2017,
+      "publication_date": "2017-06-14",
+      "doi": "https://doi.org/10.1103/revmodphys.89.025007",
+      "venue": "Reviews of Modern Physics",
+      "type": "article",
+      "cited_by_count": 247,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/RevModPhys.89.025007",
+      "concepts": [
+        "Physics",
+        "Advection",
+        "Chaotic",
+        "Chaotic mixing",
+        "Statistical physics",
+        "Classical mechanics",
+        "Quantum mechanics",
+        "Artificial intelligence"
+      ],
+      "abstract": "The physics of chaotic advection is a field that emerged at the intersection of nonlinear dynamics and fluid mechanics. An older term for the field is Langrangian turbulence. This review deals with mathematical physics descriptions and perspectives of chaotic features in transport and mixing in fluid systems of sizes ranging from micrometers to hundreds of kilometers.",
+      "authors": [
+        "Hassan Aref",
+        "John Blake",
+        "Marko Budišić",
+        "Silvana S. S. Cardoso",
+        "Julyan H. E. Cartwright",
+        "H. J. H. Clercx",
+        "Kamal El Omari",
+        "Ulrike Feudel",
+        "Ramin Golestanian",
+        "Emmanuelle Gouillart",
+        "GertJan F. van Heijst",
+        "Tatyana S. Krasnopolskaya",
+        "Yves Le Guer",
+        "Robert S. MacKay",
+        "Vyacheslav V. Meleshko",
+        "Guy Metcalfe",
+        "Igor Mezić",
+        "Alessandro P. S. de Moura",
+        "Oreste Piro",
+        "Michel Speetjens",
+        "Rob Sturman",
+        "Jean‐Luc Thiffeault",
+        "Idán Tuval"
+      ]
+    },
+    {
+      "title": "Chaotic Mixer for Microchannels",
+      "publication_year": 2002,
+      "publication_date": "2002-01-25",
+      "doi": "https://doi.org/10.1126/science.1066238",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 3419,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Mechanics",
+        "Laminar flow",
+        "Mixing (physics)",
+        "Turbulence",
+        "Channel (broadcasting)",
+        "Micromixing",
+        "Planar"
+      ],
+      "abstract": "It is difficult to mix solutions in microchannels. Under typical operating conditions, flows in these channels are laminar-the spontaneous fluctuations of velocity that tend to homogenize fluids in turbulent flows are absent, and molecular diffusion across the channels is slow. We present a passive method for mixing streams of steady pressure-driven flows in microchannels at low Reynolds number. Using this method, the length of the channel required for mixing grows only logarithmically with the Péclet number, and hydrodynamic dispersion along the channel is reduced relative to that in a simple, smooth channel. This method uses bas-relief structures on the floor of the channel that are easily fabricated with commonly used methods of planar lithography.",
+      "authors": [
+        "Abraham D. Stroock",
+        "Stephan K. W. Dertinger",
+        "Armand Ajdari",
+        "Igor Mezić",
+        "Howard A. Stone",
+        "George M. Whitesides"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Trajectory Estimation in Unknown Nonlinear Manifold Using Koopman Operator Theory",
+      "publication_year": 2023,
+      "publication_date": "2023-12-09",
+      "doi": "https://doi.org/10.48550/arxiv.2312.05428",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2312.05428",
+      "concepts": [
+        "Trajectory",
+        "Nonlinear system",
+        "Manifold (fluid mechanics)",
+        "Robotics",
+        "Operator (biology)",
+        "Dynamic mode decomposition",
+        "Control theory (sociology)",
+        "Robot"
+      ],
+      "abstract": "Formation coordination is a critical aspect of swarm robotics, which involves coordinating the motion and behavior of a group of robots to achieve a specific objective. In formation coordination, the robots must maintain a specific spatial arrangement while in motion. In this paper, we present a leader-follower column formation coordination problem in an unknown, two-dimensional nonlinear manifold, where we redefining it as a trajectory estimation problem. Leveraging Koopman operator theory and Extended Dynamic Mode Decomposition, we estimate the measurement vectors for the follower agent and guide its nonlinear trajectories.",
+      "authors": [
+        "Yanran Wang",
+        "Michael J. Banks",
+        "Igor Mezić",
+        "Takashi Hikihara"
+      ]
+    },
+    {
+      "title": "A Data Driven Koopman–Schur Decomposition for Computational Analysis of Nonlinear Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.1137/24m1672584",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2312.15837",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Eigenvalues and eigenvectors",
+        "Linear subspace",
+        "Orthonormal basis",
+        "Schur decomposition",
+        "Mathematics",
+        "QR decomposition",
+        "Nonlinear system"
+      ],
+      "abstract": "Abstract. This paper introduces a new theoretical and computational framework for a data driven Koopman mode analysis of nonlinear dynamics. We introduce the Schur form for Koopman operators defined on a class of functional spaces. For a large class of Koopman operators admitting the Schur form, we prove spectral inclusivity of the finite section method. On the numerical algorithm side, to alleviate the potential problem of ill-conditioned eigenvectors in the existing implementations of the dynamic mode decomposition (DMD) and the extended DMD, the new method introduces a Koopman–Schur decomposition that is entirely based on unitary transformations. The analysis in terms of the eigenvectors as modes of a Koopman operator compression is replaced with a modal decomposition in terms of a flag of approximate invariant subspaces that correspond to selected eigenvalues. The main computational tool from the numerical linear algebra is the partial ordered Schur decomposition that provides convenient orthonormal bases for these subspaces. In the case of real data, a real Schur form is used and the computation is based on real orthogonal transformations. The new computational scheme is pr...",
+      "authors": [
+        "Zlatko Drmač",
+        "Igor Mezić"
+      ]
+    },
+    {
+      "title": "Analytic Extended Dynamic Mode Decomposition",
+      "publication_year": 2026,
+      "publication_date": "2026-06-02",
+      "doi": "https://doi.org/10.1137/25m1791962",
+      "venue": "SIAM Journal on Applied Dynamical Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2405.15945",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Decomposition",
+        "Mode (computer interface)",
+        "Applied mathematics",
+        "Mathematics",
+        "Mathematical economics",
+        "Econometrics",
+        "Computer science"
+      ],
+      "abstract": "Abstract. We develop a novel extended dynamic mode decomposition (EDMD)-type algorithm that captures the spectrum of the Koopman operator defined on a reproducing kernel Hilbert space of analytic functions. This method, which we call analytic EDMD, relies on an orthogonal projection on polynomial subspaces, which is equivalent to a data-driven Taylor approximation. In the case of dynamics with a hyperbolic equilibrium, analytic EDMD demonstrates excellent performance to capture the lattice-structured Koopman spectrum based on the eigenvalues of the linearized system at the equilibrium. Moreover, it yields the Taylor approximation of associated principal eigenfunctions. Since the method preserves the triangular structure of the operator, it does not suffer from spectral pollution, and, moreover, arbitrary accuracy on the spectrum can be reached with a fixed finite dimension of the approximation and with a (possibly nonuniform) sampling over an arbitrary set of nonzero measure. The performance of analytic EDMD is illustrated with numerical examples and is assessed through a comparative study with related methods. Finally, the method is complemented with theoretical results, provin...",
+      "authors": [
+        "Alexandre Mauroy",
+        "Igor Mezić"
+      ]
+    },
+    {
+      "title": "An overview of Koopman-based control: From error bounds to closed-loop guarantees",
+      "publication_year": 2025,
+      "publication_date": "2025-11-12",
+      "doi": "https://doi.org/10.1016/j.arcontrol.2025.101035",
+      "venue": "Annual Reviews in Control",
+      "type": "article",
+      "cited_by_count": 21,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.arcontrol.2025.101035",
+      "concepts": [
+        "Computer science",
+        "Nonlinear system",
+        "Range (aeronautics)",
+        "Bilinear interpolation",
+        "Stability (learning theory)",
+        "Controller (irrigation)",
+        "Control theory (sociology)",
+        "Operator (biology)"
+      ],
+      "abstract": "Controlling nonlinear dynamical systems remains a central challenge in a wide range of applications, particularly when accurate first-principle models are unavailable. Data-driven approaches offer a promising alternative by designing controllers directly from observed trajectories. A wide range of data-driven methods relies on the Koopman-operator framework that enables linear representations of nonlinear dynamics via lifting into higher-dimensional observable spaces. Finite-dimensional approximations, such as extended dynamic mode decomposition (EDMD) and its controlled variants, make prediction and feedback control tractable but introduce approximation errors that must be accounted for to provide rigorous closed-loop guarantees. This survey provides a systematic overview of Koopman-based control, emphasizing the connection between data-driven surrogate models, approximation errors, controller design, and closed-loop guarantees. We review theoretical foundations, error bounds, and both linear and bilinear EDMD-based control schemes, highlighting robust strategies that ensure stability and performance. Finally, we discuss open challenges and future directions at the interface of...",
+      "authors": [
+        "Robin Strässer",
+        "Karl Worthmann",
+        "Igor Mezić",
+        "Julian Berberich",
+        "Manuel Schaller",
+        "Frank Allgöwer"
+      ]
+    },
+    {
+      "title": "Two Roads to Koopman Operator Theory for Control: Infinite Input Sequences and Operator Families",
+      "publication_year": 2025,
+      "publication_date": "2025-10-16",
+      "doi": "https://doi.org/10.48550/arxiv.2510.15166",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.15166",
+      "concepts": [
+        "Constructive",
+        "Mathematics",
+        "Operator (biology)",
+        "Equivalence (formal languages)",
+        "Function (biology)",
+        "Hilbert space",
+        "Operator theory",
+        "Perspective (graphical)"
+      ],
+      "abstract": "The Koopman operator, originally defined for dynamical systems without input, has inspired many applications in control. Yet, the theoretical foundations underpinning this progress in control remain underdeveloped. This paper investigates the theoretical structure and connections between two extensions of Koopman theory to control: (i) Koopman operator via infinite input sequences and (ii) the Koopman control family. Although these frameworks encode system information in fundamentally different ways, we show that under certain conditions on the function spaces they operate on, they are equivalent. The equivalence is both in terms of the actions of the Koopman-based formulations in each framework as well as the function values on the system trajectories. Our analysis provides constructive tools to translate between the frameworks, offering a unified perspective for Koopman methods in control.",
+      "authors": [
+        "Masih Haseli",
+        "Igor Mezić",
+        "Jorge Cortés"
+      ]
+    }
+  ]
+}

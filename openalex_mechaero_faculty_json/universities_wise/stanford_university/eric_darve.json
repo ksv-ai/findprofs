@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Eric Darve",
+  "full_name": "Eric Darve",
+  "department": "Department of Mechanical Engineering / ICME",
+  "university": "Stanford University",
+  "author_id": "A5061822097",
+  "works_count": 318,
+  "cited_by_count": 8249,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 75
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 57
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 38
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 34
+    },
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Calculating free energies using average force",
+      "publication_year": 2001,
+      "publication_date": "2001-11-22",
+      "doi": "https://doi.org/10.1063/1.1410978",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 1119,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20010090348/downloads/20010090348.pdf",
+      "concepts": [
+        "Curvilinear coordinates",
+        "Coordinate system",
+        "Reaction coordinate",
+        "Elliptic coordinate system",
+        "Rotation (mathematics)",
+        "Potential energy",
+        "Function (biology)",
+        "Physics"
+      ],
+      "abstract": "A new, general formula that connects the derivatives of the free energy along the selected, generalized coordinates of the system with the instantaneous force acting on these coordinates is derived. The instantaneous force is defined as the force acting on the coordinate of interest so that when it is subtracted from the equations of motion the acceleration along this coordinate is zero. The formula applies to simulations in which the selected coordinates are either unconstrained or constrained to fixed values. It is shown that in the latter case the formula reduces to the expression previously derived by den Otter and Briels [Mol. Phys. 98, 773 (2000)]. If simulations are carried out without constraining the coordinates of interest, the formula leads to a new method for calculating the free energy changes along these coordinates. This method is tested in two examples — rotation around the C–C bond of 1,2-dichloroethane immersed in water and transfer of fluoromethane across the water-hexane interface. The calculated free energies are compared with those obtained by two commonly used methods. One of them relies on determining the probability density function of finding the system...",
+      "authors": [
+        "Eric Darve",
+        "Andrew Pohorille"
+      ]
+    },
+    {
+      "title": "Adaptive biasing force method for scalar and vector free energy calculations",
+      "publication_year": 2008,
+      "publication_date": "2008-04-11",
+      "doi": "https://doi.org/10.1063/1.2829861",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cartesian coordinate system",
+        "Scalar (mathematics)",
+        "Dihedral angle",
+        "Applied mathematics",
+        "Thermodynamic integration",
+        "Computer science",
+        "Energy (signal processing)",
+        "Mathematics"
+      ],
+      "abstract": "In free energy calculations based on thermodynamic integration, it is necessary to compute the derivatives of the free energy as a function of one (scalar case) or several (vector case) order parameters. We derive in a compact way a general formulation for evaluating these derivatives as the average of a mean force acting on the order parameters, which involves first derivatives with respect to both Cartesian coordinates and time. This is in contrast with the previously derived formulas, which require first and second derivatives of the order parameter with respect to Cartesian coordinates. As illustrated in a concrete example, the main advantage of this new formulation is the simplicity of its use, especially for complicated order parameters. It is also straightforward to implement in a molecular dynamics code, as can be seen from the pseudocode given at the end. We further discuss how the approach based on time derivatives can be combined with the adaptive biasing force method, an enhanced sampling technique that rapidly yields uniform sampling of the order parameters, and by doing so greatly improves the efficiency of free energy calculations. Using the backbone dihedral angl...",
+      "authors": [
+        "Eric Darve",
+        "David Rodríguez‐Gómez",
+        "Andrew Pohorille"
+      ]
+    },
+    {
+      "title": "The Fast Multipole Method: Numerical Implementation",
+      "publication_year": 2000,
+      "publication_date": "2000-05-01",
+      "doi": "https://doi.org/10.1006/jcph.2000.6451",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 377,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0021999100964519",
+      "concepts": [
+        "Fast multipole method",
+        "Interpolation (computer graphics)",
+        "Matrix (chemical analysis)",
+        "Reduction (mathematics)",
+        "Multipole expansion",
+        "Range (aeronautics)",
+        "Iterative method",
+        "Constant (computer programming)"
+      ],
+      "abstract": "We study integral methods applied to the resolution of the Maxwell equations where the linear system is solved using an iterative method which requires only matrix–vector products. The fast multipole method (FMM) is one of the most efficient methods used to perform matrix–vector products and accelerate the resolution of the linear system. A problem involving N degrees of freedom may be solved in CN iter N log N floating operations, where C is a constant depending on the implementation of the method. In this article several techniques allowing one to reduce the constant C are analyzed. This reduction implies a lower total CPU time and a larger range of application of the FMM. In particular, new interpolation and anterpolation schemes are proposed which greatly improve on previous algorithms. Several numerical tests are also described. These confirm the efficiency and the theoretical complexity of the FMM.",
+      "authors": [
+        "Eric Darve"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Domain-Filtered Knowledge Graphs from Sparse Autoencoder Features",
+      "publication_year": 2026,
+      "publication_date": "2026-04-26",
+      "doi": "https://doi.org/10.48550/arxiv.2604.23829",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.23829",
+      "concepts": [
+        "Interpretability",
+        "Computer science",
+        "Artificial intelligence",
+        "Autoencoder",
+        "Knowledge graph",
+        "Graph",
+        "Domain knowledge",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Sparse autoencoders (SAEs) extract millions of interpretable features from a language model, but flat feature inventories aren't very useful on their own. Domain concepts get mixed with generic and weakly grounded features, while related ideas are scattered across many units, and there's no way to understand relationships between features. We address this by first constructing a strict domain-specific concept universe from a large SAE inventory using contrastive activations and a multi-stage filtering process. Next, we build two aligned graph views on the filtered set: a co-occurrence graph for corpus-level conceptual structure, organized at multiple levels of granularity, and a transcoder-based mechanism graph that links source-layer and target-layer features through sparse latent pathways. Automated edge labeling then turns these graph views into readable knowledge graphs rather than unlabeled layouts. In a case study on a biology textbook, these graphs recover coherent chapter and subchapter-level structure, reveal concepts that bridge neighboring topics, and transform messy sentence-level activity containing thousands of features into compact, readable views that illustrate ...",
+      "authors": [
+        "John Winnicki",
+        "Abeynaya Gnanasekaran",
+        "Eric Darve"
+      ]
+    },
+    {
+      "title": "Domain-Filtered Knowledge Graphs from Sparse Autoencoder Features",
+      "publication_year": 2026,
+      "publication_date": "2026-04-26",
+      "doi": "https://arxiv.org/abs/2604.23829",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.23829",
+      "concepts": [
+        "Interpretability",
+        "Computer science",
+        "Artificial intelligence",
+        "Autoencoder",
+        "Knowledge graph",
+        "Graph",
+        "Domain knowledge",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Sparse autoencoders (SAEs) extract millions of interpretable features from a language model, but flat feature inventories aren't very useful on their own. Domain concepts get mixed with generic and weakly grounded features, while related ideas are scattered across many units, and there's no way to understand relationships between features. We address this by first constructing a strict domain-specific concept universe from a large SAE inventory using contrastive activations and a multi-stage filtering process. Next, we build two aligned graph views on the filtered set: a co-occurrence graph for corpus-level conceptual structure, organized at multiple levels of granularity, and a transcoder-based mechanism graph that links source-layer and target-layer features through sparse latent pathways. Automated edge labeling then turns these graph views into readable knowledge graphs rather than unlabeled layouts. In a case study on a biology textbook, these graphs recover coherent chapter and subchapter-level structure, reveal concepts that bridge neighboring topics, and transform messy sentence-level activity containing thousands of features into compact, readable views that illustrate ...",
+      "authors": [
+        "John Winnicki",
+        "Abeynaya Gnanasekaran",
+        "Eric Darve"
+      ]
+    },
+    {
+      "title": "Accelerated Patient-Specific Hemodynamic Simulations with Hybrid Physics-Based Neural Surrogates",
+      "publication_year": 2026,
+      "publication_date": "2026-04-02",
+      "doi": "https://doi.org/10.48550/arxiv.2604.01549",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.01549",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Bifurcation",
+        "Convergence (economics)",
+        "Control theory (sociology)",
+        "Algorithm",
+        "Quadratic equation",
+        "Stability (learning theory)"
+      ],
+      "abstract": "Physics-based 0D reduced-order models provide computationally lightweight predictions of cardiovascular flows, resolving bulk hemodynamics in fractions of a second that would take days to solve using traditional 3D finite-element techniques. However, the accuracy of 0D models is limited as a result of the dramatic simplifications made in their derivations. In this work, we use 0D parameters learned from high-fidelity 3D data to improve 0D model accuracy without sacrificing its low computational cost or interpretability. We use the resistor-quadratic resistor-inductor (RRI) model to predict pressure drops over 0D vessels and bifurcations, where the resistances and inductance (0D parameters) are predicted from the bifurcation or vessel geometry using neural networks trained on high-fidelity 3D simulations. We validate the hybrid physics-based data-driven framework in three types of patient-specific vasculature - aortic, aortofemoral, and pulmonary anatomies. Use of learned 0D parameters reduces error by at least 50% compared to baseline 0D parameters across all anatomical cohorts. The improvements are especially marked for the more complex pulmonary anatomies, where 0D models with...",
+      "authors": [
+        "Natalia L. Rubio",
+        "Eric Darve",
+        "Alison L. Marsden"
+      ]
+    },
+    {
+      "title": "Interpolative Bayesian Formulation to Improve Transfer Learning for Anomaly Detection in Rotating Machinery",
+      "publication_year": 2026,
+      "publication_date": "2026-03-22",
+      "doi": "https://doi.org/10.36001/ijphm.2026.v17i1.4626",
+      "venue": "International Journal of Prognostics and Health Management",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://papers.phmsociety.org/index.php/ijphm/article/download/4626/2818",
+      "concepts": [
+        "Anomaly detection",
+        "Computer science",
+        "Robustness (evolution)",
+        "Key (lock)",
+        "Benchmark (surveying)",
+        "Heuristic",
+        "Data mining",
+        "Domain (mathematical analysis)"
+      ],
+      "abstract": "Anomaly detection in rotating machinery is vital for maintaining industrial reliability, safety, and operational efficiency. However, developing accurate anomaly detection systems remains a significant challenge, particularly in scenarios where labeled anomalous data are limited or entirely absent during training. To address this issue, prior work introduced a transfer learning framework that estimates a key order---a weight vector over features that prioritizes certain dimensions in the anomaly scoring process---from a source domain and applies it to a target domain lacking any anomalous labels. In this study, we extend that framework to more complex and realistic scenarios where the target domain contains a limited number of known anomalous samples. Our enhanced approach estimates the key order within the target domain and integrates it with the source domain’s key order through both Bayesian-based and heuristic methods. We demonstrate that in scenarios with very limited anomalous data in the target, Bayesian-based methods for combining source and target key orders are prone to inaccuracies in estimating the variance of the target key order, leading to suboptimal performance. ...",
+      "authors": [
+        "Jia Liang",
+        "Rajesh Gupta",
+        "Huanyi Shui",
+        "Devesh Upadhyay",
+        "Eric Darve"
+      ]
+    },
+    {
+      "title": "SpectraQuery: A Hybrid Retrieval-Augmented Conversational Assistant for Battery Science",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "https://doi.org/10.48550/arxiv.2601.09036",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.09036",
+      "concepts": [
+        "Computer science",
+        "SQL",
+        "Bridging (networking)",
+        "Information retrieval",
+        "Workflow",
+        "Query language",
+        "Parsing",
+        "Relational database"
+      ],
+      "abstract": "Scientific reasoning increasingly requires linking structured experimental data with the unstructured literature that explains it, yet most large language model (LLM) assistants cannot reason jointly across these modalities. We introduce SpectraQuery, a hybrid natural-language query framework that integrates a relational Raman spectroscopy database with a vector-indexed scientific literature corpus using a Structured and Unstructured Query Language (SUQL)-inspired design. By combining semantic parsing with retrieval-augmented generation, SpectraQuery translates open-ended questions into coordinated SQL and literature retrieval operations, producing cited answers that unify numerical evidence with mechanistic explanation. Across SQL correctness, answer groundedness, retrieval effectiveness, and expert evaluation, SpectraQuery demonstrates strong performance: approximately 80 percent of generated SQL queries are fully correct, synthesized answers reach 93-97 percent groundedness with 10-15 retrieved passages, and battery scientists rate responses highly across accuracy, relevance, grounding, and clarity (4.1-4.6/5). These results show that hybrid retrieval architectures can meanin...",
+      "authors": [
+        "Sreya Vangara",
+        "J.S. Sharma Nanda",
+        "Yan‐Kai Tzeng",
+        "Eric Darve"
+      ]
+    }
+  ]
+}

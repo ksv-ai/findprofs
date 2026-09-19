@@ -1,0 +1,268 @@
+{
+  "faculty_name": "Jifu Tan",
+  "full_name": "Jifu Tan",
+  "department": "Department of Mechanical Engineering",
+  "university": "Binghamton University",
+  "author_id": "A5091228489",
+  "works_count": 68,
+  "cited_by_count": 1764,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 22
+    },
+    {
+      "topic": "Blood properties and coagulation",
+      "count": 19
+    },
+    {
+      "topic": "Nanoparticle-Based Drug Delivery",
+      "count": 8
+    },
+    {
+      "topic": "Microfluidic and Bio-sensing Technologies",
+      "count": 8
+    },
+    {
+      "topic": "Microfluidic and Capillary Electrophoresis Applications",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The Shape of Things to Come: Importance of Design in Nanotechnology for Drug Delivery",
+      "publication_year": 2012,
+      "publication_date": "2012-02-01",
+      "doi": "https://doi.org/10.4155/tde.11.156",
+      "venue": "Therapeutic Delivery",
+      "type": "article",
+      "cited_by_count": 297,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3408634",
+      "concepts": [
+        "Nanomedicine",
+        "Nanotechnology",
+        "Drug delivery",
+        "Nanoparticle",
+        "Internalization",
+        "Materials science",
+        "Drug",
+        "Chemistry"
+      ],
+      "abstract": "The design of nanoparticle (NP) size, shape and surface chemistry has a significant impact on their performance. While the influences of the particle size and surface chemistry on drug delivery have been studied extensively, little is known about the effect of particle shapes on nanomedicine. In this perspective article, we discuss recent progress on the design and fabrication of NPs of various shapes and their unique delivery properties. The shapes of these drug carriers play an important role in therapeutic delivery processes, such as particle adhesion, distribution and cell internalization. We envision that stimuli-responsive NPs, which actively change their shapes and other properties, might pave way to the next generation of nanomedicine.",
+      "authors": [
+        "Yaling Liu",
+        "Jifu Tan",
+        "Antony Thomas",
+        "Daniel Ou-Yang",
+        "Vladimir R. Muzykantov"
+      ]
+    },
+    {
+      "title": "Influence of red blood cells on nanoparticle targeted delivery in microcirculation",
+      "publication_year": 2011,
+      "publication_date": "2011-12-23",
+      "doi": "https://doi.org/10.1039/c2sm06391c",
+      "venue": "Soft Matter",
+      "type": "article",
+      "cited_by_count": 202,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3286618",
+      "concepts": [
+        "Dispersion (optics)",
+        "Nanomedicine",
+        "Biophysics",
+        "Microcirculation",
+        "Particle (ecology)",
+        "Nanotechnology",
+        "Chemistry",
+        "Shear rate"
+      ],
+      "abstract": "Multifunctional nanomedicine holds considerable promise as the next generation of medicine that allows for targeted therapy with minimal toxicity. Most current studies on Nanoparticle (NP) drug delivery consider a Newtonian fluid with suspending NPs. However, blood is a complex biological fluid composed of deformable cells, proteins, platelets, and plasma. For blood flow in capillaries, arterioles and venules, the particulate nature of the blood needs to be considered in the delivery process. The existence of the cell-free-layer and NP-cell interaction will largely influence both the dispersion and binding rates, thus impact targeted delivery efficacy. In this paper, a particle-cell hybrid model is developed to model NP transport, dispersion, and binding dynamics in blood suspension. The motion and deformation of red blood cells is captured through the Immersed Finite Element Method. The motion and adhesion of individual NPs are tracked through Brownian adhesion dynamics. A mapping algorithm and an interaction potential function are introduced to consider the cell-particle collision. NP dispersion and binding rates are derived from the developed model under various rheology cond...",
+      "authors": [
+        "Jifu Tan",
+        "Antony Thomas",
+        "Yaling Liu"
+      ]
+    },
+    {
+      "title": "The influence of size, shape and vessel geometry on nanoparticle distribution",
+      "publication_year": 2012,
+      "publication_date": "2012-07-11",
+      "doi": "https://doi.org/10.1007/s10404-012-1024-5",
+      "venue": "Microfluidics and Nanofluidics",
+      "type": "article",
+      "cited_by_count": 198,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3611883",
+      "concepts": [
+        "Nanoparticle",
+        "Biodistribution",
+        "Drag",
+        "Geometry",
+        "Brownian dynamics",
+        "Materials science",
+        "Mechanics",
+        "Distribution (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jifu Tan",
+        "Samar Shah",
+        "Antony Thomas",
+        "H. Daniel Ou‐Yang",
+        "Yaling Liu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An Efficient Multidirect Forcing Scheme of Immersed Boundary–Lattice Boltzmann Method",
+      "publication_year": 2026,
+      "publication_date": "2026-04-04",
+      "doi": "https://doi.org/10.1115/1.4071588",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Scheme (mathematics)",
+        "Coupling (piping)",
+        "Mathematics",
+        "Applied mathematics",
+        "Boundary (topology)",
+        "Control theory (sociology)",
+        "Boltzmann constant"
+      ],
+      "abstract": "Abstract The current high-accuracy fluid–solid coupling algorithms based on immersed boundary method with a multidirect forcing scheme are not efficient due to the absence of a criterion to properly stop the cycles of the multidirect forcing scheme with acceptable precision to avoid redundant calculations. Therefore, a criterion based on the immersed forces on different cycles is proposed to end the unnecessary calculations after satisfactory results are obtained during the simulation. The numerical tests are based on immersed boundary–lattice Boltzmann method (IB–LBM) with a case of an oscillating sphere. The results have shown that the criterion proposed is more efficient than the fixed-number multidirect forcing scheme to achieve the same accuracy, and the time consumed by the multidirect forcing scheme with the criterion is significantly less. To extend this approach to other simulations, the threshold of error can be determined by the case configurations.",
+      "authors": [
+        "Dehong Fang",
+        "Jifu Tan"
+      ]
+    },
+    {
+      "title": "Intuitive Computational Steering Using Ascent and Trame",
+      "publication_year": 2025,
+      "publication_date": "2025-09-15",
+      "doi": "https://doi.org/10.1109/escience65000.2025.00011",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Visualization",
+        "Computer science",
+        "Domain (mathematical analysis)",
+        "Bridge (graph theory)",
+        "Simulation",
+        "Control (management)",
+        "Work (physics)",
+        "Data visualization"
+      ],
+      "abstract": "Large-scale scientific simulations that run on high-performance computing resources are typically executed in batch mode, where jobs are queued and run once sufficient resources become available. Visualization and analysis of simulation data can be performed post hoc or in situ, but in both cases, scientists typically do not gain insights until after the simulation has completed. Recently, bidirectional steering capabilities integrated into in situ libraries have enabled scientists to investigate and control simulations during runtime. In this paper, we present our work on developing a bridge between Ascent (a flyweight in situ processing and visualization library) and Trame (a web-based framework for developing interactive visualizations) to create a means for domain users to intuitively steer large-scale simulations. We demonstrate the effectiveness of web-based, user-friendly, customizable steering through three real-world use cases involving large-scale production simulations.",
+      "authors": [
+        "Thomas Marrinan",
+        "Andres Sewell",
+        "Victor A. Mateevitsi",
+        "Steve Petruzza",
+        "Jifu Tan",
+        "Dimitrios K. Fytanidis",
+        "Michael E. Papka"
+      ]
+    },
+    {
+      "title": "Real-time Scientific Visualization and Interactive Steering for High-Performance Computing Simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-07-18",
+      "doi": "https://doi.org/10.1145/3708035.3736031",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Visualization",
+        "Computer science",
+        "Data visualization",
+        "Scientific visualization",
+        "Human–computer interaction",
+        "Interactive visualization",
+        "Computer graphics (images)",
+        "Computational science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thomas Marrinan",
+        "Andres Sewell",
+        "Victor A. Mateevitsi",
+        "Steve Petruzza",
+        "Jifu Tan",
+        "Dimitrios K. Fytanidis",
+        "Michael E. Papka"
+      ]
+    },
+    {
+      "title": "Comparison of dynamic mode decomposition with other data-driven models for lung cancer incidence rate prediction",
+      "publication_year": 2025,
+      "publication_date": "2025-04-25",
+      "doi": "https://doi.org/10.3389/fpubh.2025.1472398",
+      "venue": "Frontiers in Public Health",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1472398/pdf",
+      "concepts": [
+        "Lung cancer",
+        "Computer science",
+        "Incidence (geometry)",
+        "Cancer",
+        "Decomposition",
+        "Dynamic mode decomposition",
+        "Data mining",
+        "Medicine"
+      ],
+      "abstract": "Introduction: Public health data analysis is critical to understanding disease trends. Existing analysis methods struggle with the complexity of public health data, which includes both location and time factors. Machine learning offers powerful tools but can be computationally expensive and require specialized knowledge. Dynamic mode decomposition (DMD) is an alternative that offers efficient analysis with fewer resources. This study explores applying DMD in public health using lung cancer data and compares it with other machine learning models. Methods: We analyzed lung cancer incidence data (2000-2021) from 1,013 US counties. Machine learning models (random forest, gradient boosting machine, support vector machine) were trained and optimized on the training data. We also employed time series, a linear regression model, and DMD for comparison. All models were evaluated based on their ability to predict 2021 lung cancer incidence rates. Results: The time series model achieved the lowest root mean squared error, followed by random forest. Meanwhile, DMD had an RMSE similar to that of Random Forest. Nearly all counties in Kentucky had higher lung cancer incidence rates, while stat...",
+      "authors": [
+        "Lei Guo",
+        "Jifu Tan",
+        "M. Courtney Hughes"
+      ]
+    },
+    {
+      "title": "Spatio-temporal analysis of shear traction dynamics on fish body surface",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.1063/5.0264427",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Shear (geology)",
+        "Mechanics",
+        "Dynamics (music)",
+        "Classical mechanics",
+        "Acoustics",
+        "Geology",
+        "Petrology"
+      ],
+      "abstract": "Fish swimming is a prominent research focus in biomimetic hydrodynamics, and studying the surface stress dynamic of fish contributes to the shape and structural design of robotic fish as well as the energy-efficient control of schooling robotic fish. Traditional research primarily relies on conventional numerical simulations that involve mesh generation and testing. However, the deformation of a swimming fish significantly impacts local grids, and the uncertainties in mesh structure reduce simulation accuracy. To address these challenges, this study employs the open-source computational fluid dynamics solver Palabos, which is based on the lattice Boltzmann method (LBM), to investigate the stress dynamics on fish surfaces. The immersed boundary method algorithm is coupled with LBM and enhanced with a multi-direct forcing scheme to improve precision and effectively handle fluid–solid interactions. Simulations reveal the spatial variations of shear traction on the fish surface. Furthermore, dynamic mode decomposition is applied to analyze the temporal and spatial evolution of shear traction distribution. The results indicate that under steady undulation, high-speed regions and area...",
+      "authors": [
+        "Zhengxian Chen",
+        "Peng Ni",
+        "Dehong Fang",
+        "Jifu Tan",
+        "Yikun Liu",
+        "Y. Wang",
+        "Yuhao Liu",
+        "Ceyi Wang"
+      ]
+    }
+  ]
+}

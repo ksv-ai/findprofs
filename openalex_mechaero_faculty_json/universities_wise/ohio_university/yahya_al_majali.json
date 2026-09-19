@@ -1,0 +1,292 @@
+{
+  "faculty_name": "Yahya Al-Majali",
+  "full_name": "Yahya Al-Majali",
+  "department": "Department of Mechanical Engineering",
+  "university": "Ohio University",
+  "author_id": "A5081633426",
+  "works_count": 28,
+  "cited_by_count": 170,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Fiber-reinforced polymer composites",
+      "count": 6
+    },
+    {
+      "topic": "Advancements in Battery Materials",
+      "count": 5
+    },
+    {
+      "topic": "Graphene research and applications",
+      "count": 5
+    },
+    {
+      "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 5
+    },
+    {
+      "topic": "Carbon Nanotubes in Composites",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Formation of Amorphous Carbon Multi‐Walled Nanotubes from Random Initial Configurations",
+      "publication_year": 2022,
+      "publication_date": "2022-12-30",
+      "doi": "https://doi.org/10.1002/pssb.202200527",
+      "venue": "physica status solidi (b)",
+      "type": "article",
+      "cited_by_count": 21,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pssb.202200527",
+      "concepts": [
+        "Materials science",
+        "Carbon nanotube",
+        "Delocalized electron",
+        "Amorphous solid",
+        "Gaussian",
+        "Density of states",
+        "Subspace topology",
+        "Condensed matter physics"
+      ],
+      "abstract": "Amorphous carbon nanotubes (a‐CNT) with up to four walls and sizes ranging from 200 to 3200 atoms have been simulated, starting from initial random configurations and using the Gaussian Approximation Potential. The important variables (like density, height, and diameter) required to successfully simulate a‐CNTs were predicted with the machine learning random forest technique. The width of the a‐CNT models ranged between 0.55–2 nm with an average inter‐wall spacing of 0.31 nm. The topological defects in a‐CNTs were analyzed and new defect configurations were observed. The electronic density of states and localization in these phases were discussed and delocalized electrons in theπsubspace were identified as an important factor for inter‐layer cohesion. Spatial projection of the electronic conductivity favors axial transport along connecting hexagons, while non‐hexagonal parts of the network either hinder or bifurcate the electronic transport. A vibrational density of states was calculated and is potentially an experimentally comparable fingerprint of the material. The appearance of a low‐frequency radial breathing mode was discussed and the thermal conductivity at 300 K was estim...",
+      "authors": [
+        "Chinonso Ugwumadu",
+        "Rajendra Thapa",
+        "Yahya Al-Majali",
+        "Jason Trembly",
+        "D. A. Drabold"
+      ]
+    },
+    {
+      "title": "Simulation of multi-shell fullerenes using Machine-Learning Gaussian Approximation Potential",
+      "publication_year": 2022,
+      "publication_date": "2022-12-13",
+      "doi": "https://doi.org/10.1016/j.cartre.2022.100239",
+      "venue": "Carbon Trends",
+      "type": "article",
+      "cited_by_count": 18,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cartre.2022.100239",
+      "concepts": [
+        "Delocalized electron",
+        "Density functional theory",
+        "Fullerene",
+        "Gaussian",
+        "Shell (structure)",
+        "Valence electron",
+        "Cluster analysis",
+        "Atom (system on chip)"
+      ],
+      "abstract": "Multi-shell fullerenes ”buckyonions” were simulated, starting from initially random configurations, using a density-functional-theory (DFT)-trained machine-learning carbon potential within the Gaussian Approximation Potential (GAP) Framework [Volker L. Deringer and Gábor Csányi, Phys. Rev. B 95, 094203 (2017)]. Fullerenes formed from seven different system sizes, ranging from 60 ∼ 3774 atoms, were considered. The buckyonions are formed by clustering and layering starting from the outermost shell and proceeding inward. Inter-shell cohesion is partly due to interaction between delocalized π electrons protruding into the gallery. The energies of the models were validated ex post facto using density functional codes, VASP and SIESTA, revealing an energy difference within the range of 0.02 - 0.08 eV/atom after conjugate gradient energy convergence of the models was achieved with both methods.",
+      "authors": [
+        "Chinonso Ugwumadu",
+        "K. Nepal",
+        "Rajendra Thapa",
+        "Yoon Gyu Lee",
+        "Yahya Al-Majali",
+        "Jason Trembly",
+        "D. A. Drabold"
+      ]
+    },
+    {
+      "title": "Application of the Multi-Species, Multi-Reaction Model to Coal-Derived Graphite for Lithium-Ion Batteries",
+      "publication_year": 2024,
+      "publication_date": "2024-01-19",
+      "doi": "https://doi.org/10.1149/1945-7111/ad2061",
+      "venue": "Journal of The Electrochemical Society",
+      "type": "article",
+      "cited_by_count": 17,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1149/1945-7111/ad2061/pdf",
+      "concepts": [
+        "Graphite",
+        "Lithium (medication)",
+        "Ion",
+        "Coal",
+        "Materials science",
+        "Chemistry",
+        "Chemical engineering",
+        "Organic chemistry"
+      ],
+      "abstract": "Graphite is a critical material used as the negative electrode in lithium-ion batteries. Both natural and synthetic graphites are utilized, with the latter obtained from a range of carbon raw materials. In this paper, efforts to synthesize graphite from coal as a domestic feedstock for synthetic graphite are reported. Domestic coal-derived graphite could address national security and energy issues by standing up domestic supply chains for battery critical materials. The performance in lithium-ion coin cells of this coal derived graphite is compared to a commercial battery-grade graphite. For the first time, a multi-species, multi-reaction (MSMR) modeling technique is applied to synthetic graphite derived from coal. Key thermodynamic, transport, and kinetic parameters are obtained for the coal derived graphite and compared to the same parameters for commercial battery-grade graphite. Modeling of synthetic graphites will allow for virtual evaluation of these materials toward production of domestically sourced graphite.",
+      "authors": [
+        "Abigail Paul",
+        "Regan Magee",
+        "Warren Wilczewski",
+        "Nathan Wichert",
+        "Caleb Gula",
+        "Rudolph Olson",
+        "Eric Shereda",
+        "Yahya Al-Majali",
+        "Jason Trembly",
+        "Kody D Wolfe",
+        "John A. Staser",
+        "Taylor R. Garrick"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Hot-extruded ultra-conductive carbon aluminum composites for efficient power transmission",
+      "publication_year": 2025,
+      "publication_date": "2025-12-16",
+      "doi": "https://doi.org/10.1016/j.jmrt.2025.12.156",
+      "venue": "Journal of Materials Research and Technology",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jmrt.2025.12.156",
+      "concepts": [
+        "Materials science",
+        "Graphene",
+        "Electrical resistivity and conductivity",
+        "Carbon nanotube",
+        "Composite material",
+        "Conductivity",
+        "Electrical conductor",
+        "Graphite"
+      ],
+      "abstract": "The rising demand for efficient energy transmission, driven by the electrification of buildings and transportation, highlights the need for lightweight, cost-effective conductors with improved electrical performance and reduced environmental impact. Aluminum, widely adopted in power transmission applications for its low density, favorable specific conductivity (i.e., conductivity per unit weight), and cost advantages, remains limited by its lower bulk electrical conductivity relative to copper. While prior studies have demonstrated improvements in aluminum conductivity using high-cost carbon nanomaterials such as CVD graphene, their scalability remains a critical barrier to commercial viability. This study explores the potential of coal-derived graphite and graphene as low-cost, scalable additives to enhance the bulk electrical conductivity of aluminum. Carbon-aluminum composite (CAC) 12 AWG wires with varying carbon content and carbon type were fabricated using a commercially mature solid-phase hot extrusion process. The wires were characterized by their microstructure, electrical, and mechanical properties. The best-performing CAC wire, containing 0.05 wt% coal-derived graphen...",
+      "authors": [
+        "Obieda R. Altarawneh",
+        "Jakia Sharmin Mim",
+        "Omar Movil",
+        "Paweł Kazanowski",
+        "A. M. U. Din",
+        "Lucas Eddy",
+        "James M. Tour",
+        "Rudolph Olson",
+        "Frank F. Kraft",
+        "Yahya Al-Majali"
+      ]
+    },
+    {
+      "title": "Modeling the effect of 3D-printed induced defects on mechanical performance of natural carbon-enhanced polymer composite",
+      "publication_year": 2025,
+      "publication_date": "2025-11-23",
+      "doi": "https://doi.org/10.1177/08927057251401101",
+      "venue": "Journal of Thermoplastic Composite Materials",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/08927057251401101?download=true",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Porosity",
+        "Finite element method",
+        "Ultimate tensile strength",
+        "Fused deposition modeling",
+        "Flexural strength",
+        "Composite number"
+      ],
+      "abstract": "3D-printing induced defects are intrinsic to the layer-by-layer deposition process, which results in reduced performance of materials fabricated using extrusion-based additive manufacturing (AM) techniques. In this study, the effect of porosity introduced by fused deposition modeling (FDM) AM technique on the mechanical performance of natural carbon-enhanced polymer composite (NCPC) materials was evaluated experimentally and through finite element analysis (FEA). Computed Tomography (CT) scans of 3D-printed and traditionally fabricated specimens were used to evaluate porosity and generate the mesh for the FEA model. The FEA results showed that a porosity level of 5.6% led to a reduction in ultimate tensile strength (UTS) and flexural strength (FS) by approximately 6%, compared to a non-porous FEA model. However, the experimental 3D-printed samples showed a 7% lower UTS and 39% lower FS compared to the FEA porous model. As expected, the injection-molded NCPC materials outperformed the compression-molded and 3D-printed samples for both experimental and FEA results.",
+      "authors": [
+        "W. Downs",
+        "Grace S. Baranack",
+        "Neshat Sayah",
+        "Muhammad Ali",
+        "Jason Trembly",
+        "Yahya Al-Majali"
+      ]
+    },
+    {
+      "title": "Electronic conduction in copper–graphene composites with functional impurities",
+      "publication_year": 2025,
+      "publication_date": "2025-09-22",
+      "doi": "https://doi.org/10.1063/5.0287596",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Graphene",
+        "Materials science",
+        "Density functional theory",
+        "Anisotropy",
+        "Fermi level",
+        "Condensed matter physics",
+        "Electronic structure",
+        "Impurity"
+      ],
+      "abstract": "Coal-derived graphene-like material and its addition to FCC copper are investigated using ab initio plane wave density functional theory (DFT). We explore ring disorder in the sp2 carbon and functional impurities such as oxides (-O) and hydroxides (-OH) that are common in coal-derived graphene. The electronic density of states analysis revealed localized states near the Fermi level, with functional groups contributing predominantly to states below the Fermi level, while carbon atoms in non-hexagonal rings contributed mainly to states above it. The functionalization of graphene induces charge localization, while ring disorder disrupts the continuous flow of electrons. By projecting the electronic conductivity along specific spatial directions, we find that both the crystal orientation and the graphene purity significantly influence the anisotropy and magnitude of electronic transport in the composites. This study implicitly highlights the importance of structural stress to obtain improved electrical conductivity in such composites.",
+      "authors": [
+        "K. Nepal",
+        "Rami Hussein",
+        "Yahya Al-Majali",
+        "D. A. Drabold"
+      ]
+    },
+    {
+      "title": "Fused Deposition Modeling Additive Manufacturing of Carbonized Structures via Waste-Enhanced Filaments",
+      "publication_year": 2025,
+      "publication_date": "2025-08-12",
+      "doi": "https://doi.org/10.2172/2575657",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/2575657",
+      "concepts": [
+        "Materials science",
+        "Composite number",
+        "Turbine blade",
+        "Fused deposition modeling",
+        "Composite material",
+        "Turbine",
+        "Deposition (geology)",
+        "Carbonization"
+      ],
+      "abstract": "This report details the development, characterization, and use of coal-enhanced composite materials in additive manufacturing applications. High coal loading formulations—containing up to 70 wt.% coal—were successfully extruded and processed using commercially available 3D printers. Extensive experimental testing was conducted to assess the mechanical, thermal, and microstructural properties of the composites. In parallel, multi-scale computational modeling was employed to elucidate atomistic interactions and evaluate the effects of printing-induced defects on structural performance. Large-scale printability trials demonstrated the feasibility of fabricating complex components for tooling and construction applications, including wind turbine blade molds and modular wall sections. Techno-economic analyses demonstrated the cost-effectiveness and scalability of coal-enhanced composites for large-scale additive manufacturing applications such as wind turbine blade tooling.",
+      "authors": [
+        "USDOE Office of Fossil Energy and Carbon Management (FECM)",
+        "Logan Veley",
+        "Ohio Univ., Athens, OH (United States)",
+        "Grace S. Baranack",
+        "Chinonso Ugwumadu",
+        "Natasha L. Smith",
+        "Rudolph Olson",
+        "Eric Shereda",
+        "Zac DiVencenzo",
+        "R.M. Statnick",
+        "D. A. Drabold",
+        "Jason Trembly",
+        "Yahya Al-Majali"
+      ]
+    },
+    {
+      "title": "Effect of pyrolysis on the properties of continuously extruded carbon foam from carbon ore",
+      "publication_year": 2025,
+      "publication_date": "2025-05-22",
+      "doi": "https://doi.org/10.1016/j.jaap.2025.107181",
+      "venue": "Journal of Analytical and Applied Pyrolysis",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jaap.2025.107181",
+      "concepts": [
+        "Pyrolysis",
+        "Carbon fibers",
+        "Carbon nanofoam",
+        "Materials science",
+        "Waste management",
+        "Chemical engineering",
+        "Composite material",
+        "Porosity"
+      ],
+      "abstract": "",
+      "authors": [
+        "Caleb Gula",
+        "Kody D Wolfe",
+        "Jason Trembly",
+        "John A. Staser",
+        "Rudolph Olson",
+        "Eric Shereda",
+        "Yahya Al-Majali"
+      ]
+    }
+  ]
+}

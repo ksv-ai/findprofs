@@ -1,0 +1,266 @@
+{
+  "faculty_name": "Matthias Ihme",
+  "full_name": "Matthias Ihme",
+  "department": "Department of Mechanical Engineering",
+  "university": "Stanford University",
+  "author_id": "A5057929380",
+  "works_count": 519,
+  "cited_by_count": 9476,
+  "h_index": 53,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 281
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 152
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 82
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 66
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 58
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling of radiation and nitric oxide formation in turbulent nonpremixed flames using a flamelet/progress variable formulation",
+      "publication_year": 2008,
+      "publication_date": "2008-05-01",
+      "doi": "https://doi.org/10.1063/1.2911047",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 295,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radiative transfer",
+        "Physics",
+        "Combustion",
+        "Turbulence",
+        "Mechanics",
+        "Large eddy simulation",
+        "Thermodynamics",
+        "Radiative cooling"
+      ],
+      "abstract": "A model for the prediction of the nitric oxide (NO) formation in turbulent nonpremixed flames is proposed. Since the NO formation has a strong temperature sensitivity, the accurate prediction of the flame temperature under the consideration of radiative heat losses is required. The first part of the paper addresses the extension of a flamelet-based combustion model to account for radiative heat loss effects by introducing enthalpy as an additional parameter. A transport equation for enthalpy is solved, and the radiative sink term in this equation is obtained from unsteady flamelet solutions. The model is applied to a large-eddy simulation (LES) of Sandia flame D, and the importance of the interaction between turbulence and radiation on temperature and mixture fraction is investigated. Based on the radiative flamelet formulation, a consistent model for the prediction of NO formation is developed in the second part of the paper. In this model, an additional transport equation for the NO mass fraction is solved, and the chemical source term is obtained from a flamelet library. Since the consumption rate is dependent on the NO mass fraction, this term requires modeling, which is dis...",
+      "authors": [
+        "Matthias Ihme",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "Combustion machine learning: Principles, progress and prospects",
+      "publication_year": 2022,
+      "publication_date": "2022-04-28",
+      "doi": "https://doi.org/10.1016/j.pecs.2022.101010",
+      "venue": "Progress in Energy and Combustion Science",
+      "type": "article",
+      "cited_by_count": 271,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.pecs.2022.101010",
+      "concepts": [
+        "Combustion",
+        "Interpretability",
+        "Computer science",
+        "Data science",
+        "Robustness (evolution)",
+        "Machine learning",
+        "Benchmark (surveying)",
+        "Consistency (knowledge bases)"
+      ],
+      "abstract": "Progress in combustion science and engineering has led to the generation of large amounts of data from large-scale simulations, high-resolution experiments, and sensors. This corpus of data offers enormous opportunities for extracting new knowledge and insights—if harnessed effectively. Machine learning (ML) techniques have demonstrated remarkable success in data analytics, thus offering a new paradigm for data-intense analyses and scientific investigations through combustion machine learning (CombML). While data-driven methods are utilized in various combustion areas, recent advances in algorithmic developments, the accessibility of open-source software libraries, the availability of computational resources, and the abundance of data have together rendered ML techniques ubiquitous in scientific analysis and engineering. This article examines ML techniques for applications in combustion science and engineering. Starting with a review of sources of data, data-driven techniques, and concepts, we examine supervised, unsupervised, and semi-supervised ML methods. Various combustion examples are considered to illustrate and to evaluate these methods. Next, we review past and recent ap...",
+      "authors": [
+        "Matthias Ihme",
+        "Wai Tong Chung",
+        "Aashwin Mishra"
+      ]
+    },
+    {
+      "title": "Prediction of local extinction and re-ignition effects in non-premixed turbulent combustion using a flamelet/progress variable approach",
+      "publication_year": 2005,
+      "publication_date": "2005-01-01",
+      "doi": "https://doi.org/10.1016/j.proci.2004.08.260",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 264,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Probability density function",
+        "Extinction (optical mineralogy)",
+        "Conditional probability distribution",
+        "Context (archaeology)",
+        "Statistical physics",
+        "Joint probability distribution",
+        "Turbulence",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Matthias Ihme",
+        "Chong M. Cha",
+        "Heinz Pitsch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modeling multi-jet plume physics for supersonic retropropulsion",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.25740/fs298sf2042",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/fs298sf2042",
+      "concepts": [
+        "Supersonic speed",
+        "Physics",
+        "Plume",
+        "Mechanics",
+        "Sonic boom",
+        "Choked flow",
+        "Meteorology",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "David Dailin Wu",
+        "Matthias Ihme",
+        "Kochenderfer, Mykel J., 1980-",
+        "Alonso, Juan José, 1968-",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Aeronautics and Astronautics."
+      ]
+    },
+    {
+      "title": "Confinement-induced shift of thermodynamic response and energetic heterogeneities in supercritical fluids",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://doi.org/10.1016/j.energy.2026.141596",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supercritical fluid",
+        "Thermodynamics",
+        "Materials science",
+        "Chemistry",
+        "Energetic material",
+        "Work (physics)",
+        "Energy (signal processing)",
+        "Thermodynamic equilibrium"
+      ],
+      "abstract": "",
+      "authors": [
+        "JingCun Fan",
+        "Matthias Ihme"
+      ]
+    },
+    {
+      "title": "Study of ultrafast dynamics in supercritical fluids using coherent X-ray scattering and atomistic simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-10",
+      "doi": "https://doi.org/10.25740/vd945rq6537",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/vd945rq6537",
+      "concepts": [
+        "Supercritical fluid",
+        "Dynamics (music)",
+        "Ultrashort pulse",
+        "Scattering",
+        "Materials science",
+        "Physics",
+        "Statistical physics",
+        "Dispersion (optics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Arijit Majumdar",
+        "Matthias Ihme",
+        "Cai, Wei, 1977-",
+        "Hastings, Jerome, 1948-",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Mechanical Engineering."
+      ]
+    },
+    {
+      "title": "Third-body stabilization of supercritical CO2 in CO oxidation: development and application of a ReaxFF force field for the CO/O/CO2 system",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1016/j.fuel.2026.139582",
+      "venue": "Fuel",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "ReaxFF",
+        "Supercritical fluid",
+        "Materials science",
+        "Force field (fiction)",
+        "Field (mathematics)",
+        "Thermodynamics",
+        "Chemical engineering",
+        "Supercritical carbon dioxide"
+      ],
+      "abstract": "",
+      "authors": [
+        "Emdadul Haque Chowdhury",
+        "Masoud Aryanpour",
+        "Yun Kyung Shin",
+        "Bladimir Ramos-Alvarado",
+        "Matthias Ihme",
+        "Adri C.T. van Duin"
+      ]
+    },
+    {
+      "title": "CloudBench Statistics Dataset",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "https://doi.org/10.22002/hgpq9-a1861",
+      "venue": "CaltechDATA",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.22002/hgpq9-a1861",
+      "concepts": [
+        "Computer science",
+        "General Circulation Model",
+        "GCM transcription factors",
+        "Data mining",
+        "Documentation",
+        "Climate model",
+        "Tensor (intrinsic definition)",
+        "Ensemble forecasting"
+      ],
+      "abstract": "CloudBench Dataset This dataset contains the post-processed statistical output from 10,000 Large-Eddy Simulations (LES) driven by a General Circulation Model (GCM), as part of the CloudBench dataset produced by Google Research. The data was generated by performing an ensemble of high-resolution large-eddy simulations (LES) covering diverse meteorological conditions across the tropical Pacific. The LES are forced with the large-scale conditions derived from a single GCM model (the GFDL CM4) for 500 locations, 4 representative months (January, April, July, and October), and 5 different climate scenarios. The simulations were conducted in Swirl-LM, a computational fluid dynamics (CFD) simulation framework that is accelerated by the Tensor Processing Unit (TPU). Refer to the documentation in Swirl-LM for information about installation, required hardware, and instructions on how to run large simulations on TPU nodes in Google Cloud.Further details on the dataset are available in the README file.",
+      "authors": [
+        "Sheide Chammas",
+        "Qing Wang",
+        "Tapio Schneider",
+        "Rob Carver",
+        "Zhaoyi Shen",
+        "Jeffrey Parker",
+        "Cenk Gazen",
+        "Matthias Ihme",
+        "Yi-fan Chen",
+        "John C. Anderson"
+      ]
+    }
+  ]
+}

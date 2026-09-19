@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Jason N. Gross",
+  "full_name": "Jason N. Gross",
+  "department": "Department of Mechanical, Materials and Aerospace Engineering",
+  "university": "West Virginia University",
+  "author_id": "A5015236603",
+  "works_count": 119,
+  "cited_by_count": 2423,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 34
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 31
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 26
+    },
+    {
+      "topic": "GNSS positioning and interference",
+      "count": 23
+    },
+    {
+      "topic": "Indoor and Outdoor Localization Technologies",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Wind Sensing and Estimation Using Small Fixed-Wing Unmanned Aerial Vehicles: A Survey",
+      "publication_year": 2021,
+      "publication_date": "2021-02-01",
+      "doi": "https://doi.org/10.2514/1.i010885",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixed wing",
+        "Lidar",
+        "Wind tunnel",
+        "Aeronautics",
+        "Engineering",
+        "Aerospace engineering",
+        "Wing",
+        "Remote sensing"
+      ],
+      "abstract": "The general problem of wind sensing and estimation using small UAVs can be divided into two subproblems, such as wind sensing and estimation along the UAV flight trajectory at specific time and locations and wind field estimation by considering the spatio-temporal characteristics of wind. The classical wind sensing and estimation problem along the aircraft flight trajectory can be tackled by solving the wind triangulation. The most straightforward way for UAV-based wind sensing is to directly measure all the related states in the equation and perform direct calculations. Given measured or estimated wind information along the UAV trajectory, the spatio-temporal variations of the wind field can be further derived. This requires accurate wind measurements or estimates at specific time and locations, as well as appropriate models for accurate wind field interpolation, extrapolation, or reconstruction. The simplest approach is to assume that the wind field is frozen, or the wind field does not change in a relatively short time period.",
+      "authors": [
+        "Pengzhi Tian",
+        "Haiyang Chao",
+        "Matthew B. Rhudy",
+        "Jason N. Gross",
+        "Huixuan Wu"
+      ]
+    },
+    {
+      "title": "Robust UAV Relative Navigation With DGPS, INS, and Peer-to-Peer Radio Ranging",
+      "publication_year": 2015,
+      "publication_date": "2015-01-20",
+      "doi": "https://doi.org/10.1109/tase.2014.2383357",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "type": "article",
+      "cited_by_count": 117,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ranging",
+        "Global Positioning System",
+        "Robustness (evolution)",
+        "Computer science",
+        "GNSS applications",
+        "Real-time computing",
+        "Sensor fusion",
+        "Inertial navigation system"
+      ],
+      "abstract": "This paper considers the fusion of carrier-phase differential GPS (CP-DGPS), peer-to-peer ranging radios, and low-cost inertial navigation systems (INS) for the application of relative navigation of small unmanned aerial vehicles (UAVs) in close formation-flight. A novel sensor fusion algorithm is presented that incorporates locally processed tightly coupled GPS/INS-based absolute navigation solutions from each UAV in a relative navigation filter that estimates the baseline separation using integer-fixed relative CP-DGPS and a set of peer-to-peer ranging radios. The robustness of the dynamic baseline estimation performance under conditions that are typically challenging for CP-DGPS alone, such as a high occurrence of phase breaks, poor satellite visibility/geometry due to extreme UAV attitude, and heightened multipath intensity, amongst others, is evaluated using Monte Carlo simulation trials. The simulation environment developed for this work combines a UAV formation flight control simulator with a GPS constellation simulator, stochastic models of the inertial measurement unit (IMU) sensor errors, and measurement noise of the ranging radios. The sensor fusion is shown to offer ...",
+      "authors": [
+        "Jason N. Gross",
+        "Yu Gu",
+        "Matthew B. Rhudy"
+      ]
+    },
+    {
+      "title": "Evaluation of Matrix Square Root Operations for UKF within a UAV GPS/INS Sensor Fusion Application",
+      "publication_year": 2011,
+      "publication_date": "2011-01-04",
+      "doi": "https://doi.org/10.1155/2011/416828",
+      "venue": "International Journal of Navigation and Observation",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://downloads.hindawi.com/archive/2011/416828.pdf",
+      "concepts": [
+        "Cholesky decomposition",
+        "GPS/INS",
+        "Kalman filter",
+        "Sensor fusion",
+        "Square root",
+        "Gyroscope",
+        "Control theory (sociology)",
+        "Inertial navigation system"
+      ],
+      "abstract": "Using an Unscented Kalman Filter (UKF) as the nonlinear estimator within a Global Positioning System/Inertial Navigation System (GPS/INS) sensor fusion algorithm for attitude estimation, various methods of calculating the matrix square root were discussed and compared. Specifically, the diagonalization method, Schur method, Cholesky method, and five different iterative methods were compared. Additionally, a different method of handling the matrix square root requirement, the square-root UKF (SR-UKF), was evaluated. The different matrix square root calculations were compared based on computational requirements and the sensor fusion attitude estimation performance, which was evaluated using flight data from an Unmanned Aerial Vehicle (UAV). The roll and pitch angle estimates were compared with independently measured values from a high quality mechanical vertical gyroscope. This manuscript represents the first comprehensive analysis of the matrix square root calculations in the context of UKF. From this analysis, it was determined that the best overall matrix square root calculation for UKF applications in terms of performance and execution time is the Cholesky method.",
+      "authors": [
+        "Matthew B. Rhudy",
+        "Yu Gu",
+        "Jason N. Gross",
+        "Marcello R. Napolitano"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Development of an Autonomous UAV for Multi-Modal Mapping of Underground Mines",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.3390/robotics15030063",
+      "venue": "Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/robotics15030063",
+      "concepts": [
+        "Software deployment",
+        "Coal mining",
+        "Point cloud",
+        "Key (lock)",
+        "Underground mining (soft rock)",
+        "Computer science",
+        "Resource (disambiguation)",
+        "State (computer science)"
+      ],
+      "abstract": "Underground mine inspection is a critical operation for safety and resource management. It presents unique challenges, including confined spaces, harsh environments, and the lack of reliable positioning systems. This paper presents the design, development, and evaluation of an Unmanned Aerial Vehicle (UAV) specifically engineered for supervised autonomous inspection in subterranean scenarios. Key technical contributions include mechanical adaptations for collision tolerance, an optimized sensor-actuator selection for navigation, and the deployment of a mission-governing state machine for seamless autonomous acquisition. Furthermore, we detail the data treatment workflow, employing a multi-modal point cloud registration technique that successfully integrates high-resolution visual-depth scans of critical mine pillars into a comprehensive, globally referenced map derived from Light Detection and Ranging (LiDAR) data of the entire workspace. We show experiments that illustrate and validate our approach in two real-world scenarios, a simulated coal mine used to train mine rescue teams and an operating Limestone mine.",
+      "authors": [
+        "Luis Escobar",
+        "David Akhihiero",
+        "Jason N. Gross",
+        "Guilherme A. S. Pereira"
+      ]
+    },
+    {
+      "title": "Preliminary Indoor Coefficient of Friction Estimation Using Wheeled Robot",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1109/case58245.2025.11164138",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Torque",
+        "Slip (aerodynamics)",
+        "Mobile robot",
+        "Friction coefficient",
+        "Computer science",
+        "Automotive engineering",
+        "Simulation"
+      ],
+      "abstract": "Slips, Trips, and Falls (STFs) are a leading cause of injury, often resulting from inadequate walking surface friction. This paper presents a method for estimating the coefficient of friction (CoF) of indoor surfaces using a wheeled skid-steer mobile robot and explores how robotic CoF estimates can enhance environmental safety assessments. Relative differences in CoF are estimated using wheel slip and torque measurements across different surfaces through the force-slip relationship. The proposed method utilizes onboard motor current sensing, and robot velocity measurements to derive relative CoF estimates during braking maneuvers on indoor surfaces. Results demonstrate the viability of employing a robot in the home and retail spaces for STF mitigation through CoF estimation as an auxiliary task.",
+      "authors": [
+        "Nathaniel M. Pearson",
+        "Xiangrui Wang",
+        "Kulbhushan Komarraju",
+        "Jason N. Gross",
+        "Yu Gu"
+      ]
+    },
+    {
+      "title": "Experimental Analysis of Quadcopter Drone Hover Constraints for Localization Improvements",
+      "publication_year": 2025,
+      "publication_date": "2025-04-28",
+      "doi": "https://doi.org/10.1109/plans61210.2025.11028471",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quadcopter",
+        "Drone",
+        "Computer science",
+        "Aerodynamics",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Engineering",
+        "Genetics"
+      ],
+      "abstract": "In this work, we evaluate the use of aerial drone hover constraints in a multisensor fusion of ground robot and drone data to improve the localization performance of a drone. In particular, we build upon our prior work on cooperative localization between an aerial drone and ground robot that fuses data from LiDAR, inertial navigation, peer-to-peer ranging, altimeter, and stereo-vision and evaluate the incorporation knowledge from the autopilot regarding when the drone is hovering. This control command data is leveraged to add constraints on the velocity state. Hover constraints can be considered important dynamic model information, such as the exploitation of zero-velocity updates in pedestrian navigation. We analyze the benefits of these constraints using an incremental factor graph optimization. Experimental data collected in a motion capture faculty is used to provide performance insights and assess the benefits of hover constraints.",
+      "authors": [
+        "Uthman Olawoye",
+        "David Akhihiero",
+        "Jason N. Gross"
+      ]
+    },
+    {
+      "title": "Robust Flower Cluster Matching Using The Unscented Transform",
+      "publication_year": 2025,
+      "publication_date": "2025-03-26",
+      "doi": "https://doi.org/10.48550/arxiv.2503.20631",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2503.20631",
+      "concepts": [
+        "Matching (statistics)",
+        "Cluster (spacecraft)",
+        "Computer science",
+        "Algorithm",
+        "Mathematics",
+        "Statistics",
+        "Computer network"
+      ],
+      "abstract": "Monitoring flowers over time is essential for precision robotic pollination in agriculture. To accomplish this, a continuous spatial-temporal observation of plant growth can be done using stationary RGB-D cameras. However, image registration becomes a serious challenge due to changes in the visual appearance of the plant caused by the pollination process and occlusions from growth and camera angles. Plants flower in a manner that produces distinct clusters on branches. This paper presents a method for matching flower clusters using descriptors generated from RGB-D data and considers allowing for spatial uncertainty within the cluster. The proposed approach leverages the Unscented Transform to efficiently estimate plant descriptor uncertainty tolerances, enabling a robust image-registration process despite temporal changes. The Unscented Transform is used to handle the nonlinear transformations by propagating the uncertainty of flower positions to determine the variations in the descriptor domain. A Monte Carlo simulation is used to validate the Unscented Transform results, confirming our method's effectiveness for flower cluster matching. Therefore, it can facilitate improved ro...",
+      "authors": [
+        "Andy Chu",
+        "Rashik Shrestha",
+        "Yu Gu",
+        "Jason N. Gross"
+      ]
+    },
+    {
+      "title": "Impact of Retail Collaborative Robots on Surrounding Human Neuromuscular Responses: An EMG Analysis",
+      "publication_year": 2026,
+      "publication_date": "2026-03-17",
+      "doi": "https://doi.org/10.1109/thms.2026.3668974",
+      "venue": "IEEE Transactions on Human-Machine Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Computer science",
+        "Human–robot interaction",
+        "Artificial intelligence",
+        "Engineering",
+        "Robotics",
+        "Human–computer interaction",
+        "Simulation"
+      ],
+      "abstract": "Retail robots have increasingly become popular in retail stores, serving as collaborative assistants by completing tedious and repetitive tasks. As key participants in a retail environment, understanding how these robots influence the movements and behaviors of nearby customers can provide valuable insights to improve robot ergonomics. This article examined neuromuscular information changes with and without the presence of a retail robot. Sixteen participants were recruited to perform item picking and sorting tasks in a high-fidelity retail setting. Surface electromyography (EMG) signals were collected from four muscles—biceps brachii, brachioradialis, upper trapezius and erector spinae (ES), to measure muscle activity and EMG-EMG coherence. A global decrease in power spectral density (PSD) was observed across all monitored muscles with the robot's presence, indicating a reduction in overall muscular energy expenditure. The introduction of the retail robot also led to a significant reduction in the peak values and waveform length of the ES muscle. These findings not only highlight the potential of retail robots to enhance the overall shopping experience but also provide crucial ...",
+      "authors": [
+        "Xiangrui Wang",
+        "Yue Luo",
+        "Yu Gu",
+        "Jason N. Gross",
+        "Chizhao Yang",
+        "Boyi Hu"
+      ]
+    }
+  ]
+}

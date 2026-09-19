@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Darrell S. Crowe",
+  "full_name": "Darrell S. Crowe",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Dayton",
+  "author_id": "A5025812364",
+  "works_count": 29,
+  "cited_by_count": 119,
+  "h_index": 5,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 14
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 9
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 7
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 7
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling Fuel Film Cooling on a Flat Plate",
+      "publication_year": 2017,
+      "publication_date": "2017-12-22",
+      "doi": "https://doi.org/10.2514/1.t5257",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Nozzle",
+        "Heat transfer",
+        "Mechanics",
+        "Freestream",
+        "Liquid fuel",
+        "Combustion",
+        "Liquid-propellant rocket"
+      ],
+      "abstract": "Cooling of liquid rocket engine combustion chambers and nozzles is a critical component to liquid rocket engine design. A common method of cooling is liquid-fuel film cooling. Liquid fuel is injected along the surface of the wall to act as a barrier against the core combustion gases. A numerical model is developed for simulating a physical experimental test setup meant to study liquid-fuel film cooling over a flat plate using a hydrocarbon fuel. The model incorporates turbulent multiphase flow with species transport within a commercial computational fluid dynamics software package. Conjugate heat transfer is simulated through walls containing embedded cooling channels. A novel user-defined function is written to incorporate reactions between the liquid fuel and the freestream gases. Comparisons are made between simulations with and without the phase interactions, as well as with simplifications to the cooling channel geometry. It was found necessary to model the cooling channel geometry in order to avoid artificially reducing cooling performance.",
+      "authors": [
+        "Jacob D. Bills",
+        "Darrell S. Crowe",
+        "James L. Rutledge",
+        "Edward Coy"
+      ]
+    },
+    {
+      "title": "Assessment of Multiphysics Computations of Flow over a Film-Cooled Plate",
+      "publication_year": 2025,
+      "publication_date": "2025-03-19",
+      "doi": "https://doi.org/10.2514/1.t7062",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multiphysics",
+        "Computation",
+        "Materials science",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Thermodynamics"
+      ],
+      "abstract": "This paper summarizes findings from a collection of multiphysics analyses of a heated exhaust passing over a film-cooled plate obtained for the fifth AIAA Propulsion Aerodynamics Workshop. The experimental configuration examined was a subsonic convergent nozzle with a square exit blowing a heated exhaust over a plate with three film-cooling sections. Computational fluid dynamics solutions were obtained and compared to experimental measurements of flow velocities and temperatures, as well as plate surface temperatures. The heated nozzle operated with a Mach 0.3 exit flow at a static temperature ratio of 2.7. Cooling air blowing ratios of 0, 1, and 2 were considered. Computational meshes for the flow domain were provided for participants. Workshop participants from eight separate organizations represented government, industry, and academia. A variety of flow solutions were obtained: Most of the flow solutions employed a Reynolds-averaged Navier–Stokes (RANS) approach, but scale-resolving simulations were used in some cases, including wall-modeled large-eddy simulation (LES) and hybrid RANS-LES approaches. One lattice Boltzmann solver was employed. For heat transfer to the test art...",
+      "authors": [
+        "Nicholas J. Georgiadis",
+        "Mark P. Wernet",
+        "Darrell S. Crowe",
+        "Carolyn Woeber",
+        "Kristen C. Karaman-Shoemake",
+        "Chad Winkler"
+      ]
+    },
+    {
+      "title": "Hot Streak Characterization of High-Performance Double-Serpentine Exhaust Nozzles at Design Conditions",
+      "publication_year": 2019,
+      "publication_date": "2019-01-29",
+      "doi": "https://doi.org/10.2514/1.b37235",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 22,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nozzle",
+        "Streak",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Materials science",
+        "Mechanical engineering"
+      ],
+      "abstract": "The characterization and mitigation of hot streak phenomena in double-serpentine exhaust nozzles have strategic, operational, and tactical implications for future airborne weapon systems. However, airframe integration increases the risk for material failure due to exposure of downstream components to high-temperature gases from the high-performance convergent-divergent nozzle. The formation of hot streaks must be understood if mitigation strategies are to be developed. To that end, this paper establishes a set of novel characterization parameters based on the temperature distribution and flow conditions at the nozzle exit. Hot streak phenomena observed for a set of serpentine exhaust nozzles with varying geometries are compared using a modified Dean number (called the White number) that accounts for arbitrary cross-sectional area and streamline curvature changes. Using these parameters and computational fluid dynamics, quantifiable differences are observed in the distribution and intensity of hot flow at the nozzle exit. The results show that hot steak phenomena are most prominent for nozzles with a lower White number. The results also provide insight into flow physics acting as...",
+      "authors": [
+        "Darrell S. Crowe",
+        "Christopher L. Martin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Assessment of Methods to Compute Distortion in Non-Circular Ducts",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3544",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Distortion (music)",
+        "Computer science",
+        "Telecommunications",
+        "Bandwidth (computing)",
+        "Amplifier"
+      ],
+      "abstract": "This paper assesses several conformal mapping techniques for computing distortion metrics in non-circular ducts. In order to preserve the industry standard of using a 40-probe rake to measure distortion, data taken at a non-circular aerodynamic interface plane (AIP) is mathematically mapped to a circle. Various proportional stretching transformations are used as mapping functions. The techniques are applied to computational fluid dynamics (CFD) solutions at the non-circular exit of serpentine exhaust nozzles to assess the impact of using the mapping techniques to compute thermal distortion. The results indicate that mapping calculations can be more efficient than using bespoke probe positions for each different exit shape, while providing a common point of comparison between designs. Additionally, increasing the total number of probes beyond the traditional 40 significantly altered distortion metrics, which required orders of magnitude more probes to reach a constant value. It is also shown that the same mapping technique used to map the field data onto a circle should be used to distribute the probes on the unmapped field data when computing distortion in order to preserve tren...",
+      "authors": [
+        "Darrell S. Crowe",
+        "Nathaniel Peck"
+      ]
+    },
+    {
+      "title": "Assessing the Effects of Internal Blockage on Cavity Aeroacoustics",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3853",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroacoustics",
+        "Computational aeroacoustics",
+        "Acoustics",
+        "Computer science",
+        "Physics",
+        "Sound pressure"
+      ],
+      "abstract": "Cavity flow is well-studied for empty geometries, but the effects of adding internal blockage is largely unknown. This study uses computational fluid dynamics to simulate a rectangular cavity, increasing the volume blockage ratio from empty (0%) to four spherocylinders (20.7%) at Mach 0.95. Grid independence studies are performed for the spherocylinder and cavity grids. Results confirm Rossiter’s equation accurately predicts full-scale cavity modal frequencies. Increasing volume blockage ratio generally reduces sound pressure level and overall sound pressure level. However, there is one configuration that increases sound pressure level and overall sound pressure level, the two spherocylinders horizontal configuration. This configuration amplifies the dominant Rossiter mode, and has a significant increase in overall sound pressure level compared to the baseline empty cavity. This highlights that spatial configuration, not just volume-blockage-ratio, affects acoustic behavior.",
+      "authors": [
+        "Jackson A. Spexarth",
+        "Darrell S. Crowe"
+      ]
+    },
+    {
+      "title": "Computational Investigation of Flow in a Triangular Cavity",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3852",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flow (mathematics)",
+        "Computer science",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "Computational fluid dynamics simulations were conducted on a triangular prism cavity with L/D = 4.5 in M∞ = 2.9 flow to investigate the frequency content and flow features. Compu- tational solutions were obtained using the Kestrel solver with improved delayed detached eddy simulation and Menter shear stress transport model for turbulence. This work found that the triangular prism cavity seems to dampen sound pressure level significantly when compared to similar rectangular cavity data. Additionally, the triangular prism cavity shares some flow features with rectangular cavities including a turbulent shear layer, which impacts the back wall causing a large recirculation vortex in the cavity, as well as streamwise vortex shedding from the sides of the cavity. But in contrast, the triangular cavity does not have apparent front and rear corner vortices, but a large, weak recirculation region in the front of the cavity, which rotates in the opposite direction of the primary recirculation vortex.",
+      "authors": [
+        "John Sreenan",
+        "Darrell S. Crowe"
+      ]
+    },
+    {
+      "title": "Direct Collocation Methods for Boost–Glide Vehicle Trajectory Optimization with Newtonian Aerodynamic Model",
+      "publication_year": 2025,
+      "publication_date": "2025-07-10",
+      "doi": "https://doi.org/10.2514/1.c038065",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Collocation (remote sensing)",
+        "Trajectory optimization",
+        "Trajectory",
+        "Collocation method",
+        "Aerospace engineering",
+        "Computer science",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Direct orthogonal collocation has been applied to generate optimal hypersonic trajectories, but often previous research has struggled to capture the effects of vehicle orientation. In this work, an aerodynamic model was developed for an elliptic cone glide geometry at a variety of angles of attack using Newtonian approximations, while polynomial approximations were used to define the functional relationship between an input angle of attack and the vehicle lift and drag coefficient. This allowed for variability of the aerodynamic parameters during flight, with angle of attack serving as a control input. This model was implemented into a direct orthogonal collocation framework, and a series of boost–glide trajectories were successfully simulated, with objectives of minimum distance to target, minimum time to target, and maximum velocity at final time for a single target. The optimal control problem was then expanded into a reachability study, where a wide range of cost functions, constraints, and mission scenarios were simulated, along with studies on maximum range for the vehicle model. Results demonstrated a robust framework for the creation of hypersonic trajectories and the ab...",
+      "authors": [
+        "Andrew T. Bonavita",
+        "Michael D. Zollars",
+        "Robert B. MacDermott",
+        "Darrell S. Crowe"
+      ]
+    },
+    {
+      "title": "Assessment of Multiphysics Computations of Flow over a Film-Cooled Plate",
+      "publication_year": 2025,
+      "publication_date": "2025-03-19",
+      "doi": "https://doi.org/10.2514/1.t7062",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multiphysics",
+        "Computation",
+        "Materials science",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Thermodynamics"
+      ],
+      "abstract": "This paper summarizes findings from a collection of multiphysics analyses of a heated exhaust passing over a film-cooled plate obtained for the fifth AIAA Propulsion Aerodynamics Workshop. The experimental configuration examined was a subsonic convergent nozzle with a square exit blowing a heated exhaust over a plate with three film-cooling sections. Computational fluid dynamics solutions were obtained and compared to experimental measurements of flow velocities and temperatures, as well as plate surface temperatures. The heated nozzle operated with a Mach 0.3 exit flow at a static temperature ratio of 2.7. Cooling air blowing ratios of 0, 1, and 2 were considered. Computational meshes for the flow domain were provided for participants. Workshop participants from eight separate organizations represented government, industry, and academia. A variety of flow solutions were obtained: Most of the flow solutions employed a Reynolds-averaged Navier–Stokes (RANS) approach, but scale-resolving simulations were used in some cases, including wall-modeled large-eddy simulation (LES) and hybrid RANS-LES approaches. One lattice Boltzmann solver was employed. For heat transfer to the test art...",
+      "authors": [
+        "Nicholas J. Georgiadis",
+        "Mark P. Wernet",
+        "Darrell S. Crowe",
+        "Carolyn Woeber",
+        "Kristen C. Karaman-Shoemake",
+        "Chad Winkler"
+      ]
+    }
+  ]
+}

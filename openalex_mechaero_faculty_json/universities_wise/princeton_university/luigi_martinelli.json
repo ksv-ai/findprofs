@@ -1,0 +1,316 @@
+{
+  "faculty_name": "Luigi Martinelli",
+  "full_name": "Luigi Martinelli",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Princeton University",
+  "author_id": "A5043716841",
+  "works_count": 150,
+  "cited_by_count": 3765,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 77
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 45
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 35
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 20
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic shape optimization of complex aircraft configurations via an adjoint formulation",
+      "publication_year": 1996,
+      "publication_date": "1996-01-15",
+      "doi": "https://doi.org/10.2514/6.1996-94",
+      "venue": "34th Aerospace Sciences Meeting and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 269,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/19970010770/downloads/19970010770.pdf",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Computer science",
+        "Mathematical optimization",
+        "Control theory (sociology)",
+        "Engineering",
+        "Mathematics",
+        "Artificial intelligence"
+      ],
+      "abstract": "This work describes the implementation of optimization techniques based on control theory for complex aircraft configurations. Here control theory is employed to derive the adjoint differential equations, the solution of which allows for a drastic reduction in computational costs over previous design methods (13, 12, 43, 38). In our earlier studies (19, 20, 22, 23, 39, 25, 40, 41, 42) it was shown that this method could be used to devise effective optimization procedures for airfoils, wings and wing-bodies subject to either analytic or arbitrary meshes. Design formulations for both potential flows and flows governed by the Euler equations have been demonstrated, showing that such methods can be devised for various governing equations (39, 25). In our most recent works (40, 42) the method was extended to treat wing-body configurations with a large number of mesh points, verifying that significant computational savings can be gained for practical design problems. In this paper the method is extended for the Euler equations to treat complete aircraft configurations via a new multiblock implementation. New elements include a multiblock-multigrid flow solver, a multiblock-multigrid a...",
+      "authors": [
+        "Josephine Reuther",
+        "A. Jameson",
+        "James Farmer",
+        "Luigi Martinelli",
+        "David Saunders"
+      ]
+    },
+    {
+      "title": "Validation of a multigrid method for the Reynolds averaged equations",
+      "publication_year": 1988,
+      "publication_date": "1988-01-11",
+      "doi": "https://doi.org/10.2514/6.1988-414",
+      "venue": "26th Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 205,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multigrid method",
+        "Reynolds number",
+        "Computer science",
+        "Applied mathematics",
+        "Mathematics",
+        "Mechanics",
+        "Physics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Luigi Martinelli",
+        "Antony Jameson"
+      ]
+    },
+    {
+      "title": "Calculations of viscous flows with a multigrid method",
+      "publication_year": 1987,
+      "publication_date": "1987-01-01",
+      "doi": "http://ui.adsabs.harvard.edu/abs/1987PhDT........45M/abstract",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 197,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multigrid method",
+        "Geology",
+        "Mathematics",
+        "Calculus (dental)",
+        "Applied mathematics",
+        "Computer science",
+        "Mechanics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Luigi Martinelli"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Use of long-acting muscarinic antagonists for severe asthma: insights from clinicians in the SHARP network",
+      "publication_year": 2025,
+      "publication_date": "2025-11-04",
+      "doi": "https://doi.org/10.1186/s12931-025-03378-4",
+      "venue": "Respiratory Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://respiratory-research.biomedcentral.com/counter/pdf/10.1186/s12931-025-03378-4",
+      "concepts": [
+        "Lama",
+        "Medicine",
+        "Asthma",
+        "Intensive care medicine",
+        "Medical prescription",
+        "Muscarinic acetylcholine receptor",
+        "Pharmacology",
+        "Airway hyperresponsiveness"
+      ],
+      "abstract": "There is limited real-world evidence on the use and positioning of inhaled long-acting muscarinic antagonists (LAMAs) for treating severe asthma. We aimed to assess the differences in clinicians’ perspectives on prescribing LAMA for severe asthma across Europe. Within the Severe Heterogeneous Asthma Research collaboration, Patient-centred (SHARP) network, we conducted a multi-country survey of 470 respiratory clinicians in 2023-24. Most participants were pneumonologists (83%). 68% reported using specific criteria for prescribing LAMA for severe asthma, primarily fixed bronchial obstruction (68%), frequent asthma exacerbations (65%), and a history of smoking (53%). Improved quality of life, lung function improvement, and reduction of asthma exacerbations were the three expected outcomes of LAMA treatment that showed the largest agreement across clinicians (85–95%). As compared to non-severe asthma specialists (about 50% of the sample), severe asthma specialists were more likely to report always prescribing LAMA before biologics (54 vs. 41%) and before oral corticosteroids (OCS) (51 vs. 40%). Approximately 90% of participants prioritised tapering or discontinuing OCS before stoppi...",
+      "authors": [
+        "Alessandro Marcon",
+        "Luigi Martinelli",
+        "Aruna T. Bansal",
+        "Emmanuelle Berret",
+        "Apostolos Bossios",
+        "Pierpaolo Marchetti",
+        "Celeste Porsbjerg",
+        "Stefania Principe",
+        "Florence Schleich",
+        "Svetlana Sergejeva",
+        "Jacob K. Sont",
+        "Marco Caminati"
+      ]
+    },
+    {
+      "title": "Long-acting muscarinic antagonists for severe asthma: the perspective of SHARP clinicians",
+      "publication_year": 2025,
+      "publication_date": "2025-09-27",
+      "doi": "https://doi.org/10.1183/13993003.congress-2025.pa4631",
+      "venue": "",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lama",
+        "Medicine",
+        "Asthma",
+        "Medical prescription",
+        "Muscarinic antagonist",
+        "Lung function",
+        "Bronchodilator Agents",
+        "Bronchodilator"
+      ],
+      "abstract": "Background: Tiotropium is a long-acting muscarinic antagonist (LAMA) approved for severe asthma (SA). Aims: We aimed at describing clinicians’ views on LAMA prescription for severe asthma patients. Methods: Within the Severe Heterogeneous Asthma Research collaboration, Patient-centred (SHARP) network, we surveyed 470 respiratory clinicians in 2023-24. Results: Most participants were pneumologists (83%), and half of them self-qualified as SA specialists. In general, the clinicians in Northern (n=73) and Western Europe (n=71) were less confident in the benefits of LAMA treatment compared to those from Eastern (n=88) and Southern Europe (n=238). Many clinicians from Latvia (91%) and Lithuania (67%) reported that LAMA are not reimbursed for SA in their countries. Most clinicians (71%) report using specific criteria for prescribing LAMA, primarily fixed bronchial obstruction (67%), frequent asthma exacerbations (65%), and a history of smoking (54%). Improved quality of life, lung function improvement, and reduction of asthma exacerbations were the three expected outcomes of LAMA treatment showing the largest agreement (85-95%). As compared to non-SA specialists, SA specialists were m...",
+      "authors": [
+        "Alessandro Marcon",
+        "Luigi Martinelli",
+        "Aruna T. Bansal",
+        "Emmanuelle Berret",
+        "Apostolos Bossios",
+        "Ineta Grisle",
+        "Pierpaolo Marchetti",
+        "Celeste Porsbjerg",
+        "Stefania Principe",
+        "Florence Schleich",
+        "Svetlana Sergejeva",
+        "Jacob K. Sont",
+        "Marco Caminati"
+      ]
+    },
+    {
+      "title": "Direct numerical simulations of the supersonic Taylor--Green vortex via the Boltzmann equation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-09",
+      "doi": "https://doi.org/10.48550/arxiv.2507.07213",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.07213",
+      "concepts": [
+        "Mach number",
+        "Reynolds number",
+        "Physics",
+        "Dissipation",
+        "Vorticity",
+        "Statistical physics",
+        "Classical mechanics",
+        "Vortex"
+      ],
+      "abstract": "We explore the dynamics of the three-dimensional compressible Taylor--Green vortex from the perspective of kinetic theory by directly solving the six-dimensional Boltzmann equation. This work studies the connections between molecular-scale information encoded in the high-dimensional distribution function (e.g., molecular entropy measures) and macroscopic turbulent flow characteristics. We present high-order direct numerical simulations at Mach numbers of $0.5$ to $1.25$ and Reynolds numbers of $400$ to $1600$ performed using up to $137{\\times}10^{9}$ degrees of freedom. The results indicate that the Kullback--Leibler divergence of the distribution function $f$ and its local equilibrium state $M[f]$ (i.e., the relative entropy functional $\\langle f \\log (f/M[f]) \\rangle$) is strongly related to the macroscopic viscous dissipation rate, with the relative entropy value matching the sum of the solenoidal and dilatational dissipation rates very closely across a range of Mach and Reynolds numbers. Furthermore, we present the behavior of subgrid-scale quantities under spatial averaging/filtering operations performed directly on the particle distribution function, which shows notable si...",
+      "authors": [
+        "Tarik Dzanic",
+        "Will Trojak",
+        "Luigi Martinelli"
+      ]
+    },
+    {
+      "title": "First Case of Infective Endocarditis Caused by Vibrio metschnikovii: Clinico-Diagnostic Complexities and a Systematic Literature Review",
+      "publication_year": 2025,
+      "publication_date": "2025-06-25",
+      "doi": "https://doi.org/10.3390/clinpract15070118",
+      "venue": "Clinics and Practice",
+      "type": "review",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2039-7283/15/7/118/pdf?version=1750843870",
+      "concepts": [
+        "Medicine",
+        "Endocarditis",
+        "Infective endocarditis",
+        "Sepsis",
+        "Pneumonia",
+        "Surgery",
+        "Internal medicine",
+        "Pediatrics"
+      ],
+      "abstract": "Background: Non-cholera Vibrio species are rare waterborne pathogens that can cause severe infections. Among these, few cases of Vibrio metschnikovii infections have been reported, especially in the gastrointestinal tract, with no cardiac tissue involvement as a result. Following the PRISMA checklist, we conducted a literature review, and thirteen articles for twenty-two cases overall were included: seven cases of sepsis (in three cases, the echocardiographic results were negative), seven cases of pneumonia, two skin infections, eleven cases of diarrhoea, and a gastroenteritis outbreak. This report documents the expanding clinical spectrum and the role played by V. metschnikovii in infective endocarditis. Case report: A 28-year-old male patient was referred to the cardiac surgery unit for urgent mitral valve replacement due to suspicion of infective endocarditis. Microbiological tests yielded negative results. Following recovery and discharge with antimicrobial therapy for 6 weeks, the patient experienced prosthesis detachment, necessitating re-hospitalisation for an emergency valve replacement. Vibrio metschnikovii was identified on the prosthesis valve through PCR and successf...",
+      "authors": [
+        "Alessandro Carrozzo",
+        "Vittorio Bolcato",
+        "Luigi Martinelli",
+        "Ferdinando Dodi",
+        "Antonella Vulcano",
+        "Giuseppe Basile",
+        "L Tronconi"
+      ]
+    },
+    {
+      "title": "Role of body anthropometry in severe asthmatic patients: Evidences from the Severe Asthma Network in Italy (SANI) registry",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.1016/j.waojou.2025.101056",
+      "venue": "World Allergy Organization Journal",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.worldallergyorganizationjournal.org/article/S1939-4551(25)00031-6/pdf",
+      "concepts": [
+        "Medicine",
+        "Asthma",
+        "Anthropometry",
+        "Pediatrics",
+        "Emergency medicine",
+        "Physical therapy",
+        "Internal medicine"
+      ],
+      "abstract": "Asthma and obesity are both chronic diseases. Obesity is a common comorbidity and a risk factor of severe asthma, associated with increased asthma exacerbation risk, poorer asthma control and reduced quality of life. However, the responsible mechanisms are poorly understood. The aim of this study was to detect parameters associated with obesity in patients with severe asthma in order to check different pattern of inflammation in obese asthmatics. Baseline data from the Severe Asthma Network in Italy (SANI) registry were analysed in 1922 patients with severe asthma. Demographic, clinical and functional features were compared, according to body mass index (BMI). The prevalence of overweight and obesity among severe asthma patients was 34,8 and 20,3, respectively. Females were more prevalent in the obese cluster (p < 0.001). Asthma onset age in overweight and obese patients was higher than in normal population (p < 0.001). Obese subjects reported less frequently chronic rhinosinusitis with nasal polyposis (CRSwNP) and more frequently impaired sleep quality, cardiovascular disease, and type-2 diabetes (p < 0.001). Severe asthma patients with obesity had lower predicted FVC values (8...",
+      "authors": [
+        "Erminia Ridolo",
+        "Martina Ottoni",
+        "Francesca Nicoletta",
+        "Francesca Locatelli",
+        "Luigi Martinelli",
+        "Matteo Maule",
+        "Naila Arif Cheema",
+        "Francesco Blasi",
+        "Pierluigi Paggiaro",
+        "Enrico Heffler",
+        "Luisa Brussino",
+        "Giorgio Walter Canonica",
+        "Gianenrico Senna",
+        "Marco Caminati",
+        "Diego Bagnasco",
+        "Cecilia Calabrese",
+        "Gianna Camiciottoli",
+        "Giovanna Elisiana Carpagnano",
+        "Cristiano Caruso",
+        "Angelo Guido Corsico",
+        "Maria Teresa Costantino",
+        "Claudia Crimi",
+        "Alice D'Adda",
+        "Simona D’Alò",
+        "Maria D'Amato",
+        "Corrado D'Andria",
+        "Stefano Del Giacco",
+        "Fabiano Di Marco",
+        "Nicola Cosimo Facciolongo",
+        "Alessandro Farsi",
+        "Manuela Latorre",
+        "Manlio Milanese",
+        "Michele Mondoni",
+        "Eustachio Nettis",
+        "Girolamo Pelaia",
+        "Laura Pini",
+        "Luisa Ricciardi",
+        "Fabio Luigi Massimo Ricciardolo",
+        "Luca Richeldi",
+        "Pierachille Santus",
+        "Nicola Scichilone",
+        "Giulia Scioscia",
+        "Giuseppe Spadaro",
+        "Antonio Spanevello",
+        "Paolo Tarsia",
+        "Mona Rita Yacoub"
+      ]
+    }
+  ]
+}

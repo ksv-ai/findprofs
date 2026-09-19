@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Savio Poovathingal",
+  "full_name": "Savio J. Poovathingal",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Kentucky",
+  "author_id": "A5062170265",
+  "works_count": 102,
+  "cited_by_count": 705,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 61
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 18
+    },
+    {
+      "topic": "Diamond and Carbon-based Materials Research",
+      "count": 12
+    },
+    {
+      "topic": "Radiative Heat Transfer Studies",
+      "count": 11
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Finite-Rate Oxidation Model for Carbon Surfaces from Molecular Beam Experiments",
+      "publication_year": 2017,
+      "publication_date": "2017-01-30",
+      "doi": "https://doi.org/10.2514/1.j055371",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 89,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Molecular beam",
+        "Carbon monoxide",
+        "Molecular dynamics",
+        "Carbon fibers",
+        "Materials science",
+        "Reaction rate",
+        "Reaction mechanism",
+        "Chemical physics"
+      ],
+      "abstract": "An oxidation model for carbon surfaces has been developed where the gas–surface reaction mechanisms and corresponding rate parameters are based solely on observations from recent molecular beam experiments. In the experiments, a high-energy molecular beam containing atomic and molecular oxygen (93% atoms and 7% molecules) was directed at a high-temperature carbon surface. The measurements revealed that carbon monoxide (CO) is the dominant reaction product and that its formation required a high surface coverage of oxygen atoms. As the temperature of the carbon sample was increased during the experiment, the surface coverage reduced and the production of CO was diminished. Most importantly, the measured time-of-flight distributions of surface reaction products indicated that CO and carbon dioxide are predominately formed through thermal reaction mechanisms as opposed to direct abstraction mechanisms. These observations have enabled the formulation of a finite-rate oxidation model that includes surface-coverage dependence, similar to existing finite-rate models used in computational fluid dynamics simulations. However, each reaction mechanism and all rate parameters of the new mode...",
+      "authors": [
+        "Savio J. Poovathingal",
+        "Thomas E. Schwartzentruber",
+        "Vanessa J. Murray",
+        "Timothy K. Minton",
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "Molecular Simulation of Carbon Ablation Using Beam Experiments and Resolved Microstructure",
+      "publication_year": 2016,
+      "publication_date": "2016-01-06",
+      "doi": "https://doi.org/10.2514/1.j054562",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 59,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Carbon fibers",
+        "Monte Carlo method",
+        "Direct simulation Monte Carlo",
+        "Combustion",
+        "Chemical physics",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "Molecular simulations with a resolved surface microstructure were performed for high-temperature dissociated oxygen reacting with a carbon–carbon composite material. The direct simulation Monte Carlo method was used to simulate the convection and diffusion of reactants toward the microstructure and the transport of surface reaction products away from the microstructure. Simulations were performed with and without gas-phase chemical reactions to determine the relative importance of gas–surface reactions compared to gas-phase reactions next to the material surface. The simulations incorporated reaction probabilities for individual gas–surface collisions based on new reactive scattering data obtained from molecular beam experiments. The experiments provide detailed dynamical data on the scattering of O, , CO, and from a representative material sample, made of vitreous carbon. These experiments indicate that a majority of surface reaction products were produced through thermal mechanisms. For a gas–surface temperature of 800 K, it was found that despite CO being the dominant surface reaction product, a gas-phase reaction forms significant within the microstructure region. The amount...",
+      "authors": [
+        "Savio J. Poovathingal",
+        "Thomas E. Schwartzentruber",
+        "Vanessa J. Murray",
+        "Timothy K. Minton"
+      ]
+    },
+    {
+      "title": "Development and validation of a finite-rate model for carbon oxidation by atomic oxygen",
+      "publication_year": 2018,
+      "publication_date": "2018-05-02",
+      "doi": "https://doi.org/10.1016/j.carbon.2018.04.088",
+      "venue": "Carbon",
+      "type": "article",
+      "cited_by_count": 62,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Carbon fibers",
+        "Oxygen",
+        "Scattering",
+        "Adsorption",
+        "Desorption",
+        "Monte Carlo method",
+        "Carbon monoxide",
+        "Chemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krishnan Swaminathan Gopalan",
+        "Arnaud Borner",
+        "Vanessa J. Murray",
+        "Savio J. Poovathingal",
+        "Timothy K. Minton",
+        "Nagi N. Mansour",
+        "Kelly A. Stephani"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Consistent Interface Reconstruction and Coupling Method for Multiphysics Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-03-08",
+      "doi": "https://doi.org/10.48550/arxiv.2603.07396",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.07396",
+      "concepts": [
+        "Multiphysics",
+        "Discretization",
+        "Interpolation (computer graphics)",
+        "Coupling (piping)",
+        "Range (aeronautics)",
+        "Computer science",
+        "Interface (matter)",
+        "Surface (topology)"
+      ],
+      "abstract": "Accurate representation of interfaces and flux exchange is vital for coupled multiphysics simulations across a broad range of applications. Currently, coupling approaches are limited by the underlying discretization or to specific physical problems, restricting their generality. To remove these constraints, a consistent interface reconstruction and coupling method has been developed to bridge multiphysical computational domains. The proposed numerical framework contains two complementary steps. The first step reconstructs a continuous bounding surface from discretized spatial data using a weighted interpolation and marching-grid approach that preserves geometric fidelity across a wide range of resolutions. The second step consists of a conservative flux mapping algorithm that projects surface quantities such as aerodynamic loads, heat fluxes, or mass transfer onto nearby discrete elements while maintaining global conservation of flux quantities. This new numerical formulation allows for integration of the various partitioned domains and ensures consistent data transfer between them. The framework is tested on various geometries, and surface containment errors below 2.5% and flux...",
+      "authors": [
+        "Ethan H. Huff",
+        "Savio J. Poovathingal"
+      ]
+    },
+    {
+      "title": "A Consistent Interface Reconstruction and Coupling Method for Multiphysics Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-03-08",
+      "doi": "http://arxiv.org/abs/2603.07396",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.07396",
+      "concepts": [
+        "Multiphysics",
+        "Discretization",
+        "Interpolation (computer graphics)",
+        "Coupling (piping)",
+        "Range (aeronautics)",
+        "Computer science",
+        "Interface (matter)",
+        "Surface (topology)"
+      ],
+      "abstract": "Accurate representation of interfaces and flux exchange is vital for coupled multiphysics simulations across a broad range of applications. Currently, coupling approaches are limited by the underlying discretization or to specific physical problems, restricting their generality. To remove these constraints, a consistent interface reconstruction and coupling method has been developed to bridge multiphysical computational domains. The proposed numerical framework contains two complementary steps. The first step reconstructs a continuous bounding surface from discretized spatial data using a weighted interpolation and marching-grid approach that preserves geometric fidelity across a wide range of resolutions. The second step consists of a conservative flux mapping algorithm that projects surface quantities such as aerodynamic loads, heat fluxes, or mass transfer onto nearby discrete elements while maintaining global conservation of flux quantities. This new numerical formulation allows for integration of the various partitioned domains and ensures consistent data transfer between them. The framework is tested on various geometries, and surface containment errors below 2.5% and flux...",
+      "authors": [
+        "Ethan H. Huff",
+        "Savio J. Poovathingal"
+      ]
+    },
+    {
+      "title": "Phase Change of Atmospheric Ice Particles in Hypersonic Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0948",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Direct simulation Monte Carlo",
+        "Mechanics",
+        "Lattice Boltzmann methods",
+        "Hypersonic speed",
+        "Thermal",
+        "Physics",
+        "Stagnation enthalpy"
+      ],
+      "abstract": "One characteristic of the post-shock flow field surrounding a hypersonic vehicle is its high enthalpy, generated by compression as shock waves form. When an atmospheric ice particle is exposed to this environment, phase change processes can cause surface recession and partial mass loss. The short time scale thermal response and the irregular shapes of the ice particles require novel simulation approaches. An in-house solver has been developed based on the total enthalpy lattice Boltzmann method to quantify the melting process of ice particles.The thermal solver is verified by comparing numerical results with analytical solutions for three cases. The numerically obtained temperature profile for a sphere is compared with the analytical solution for multiple timestamps. The estimated total time to melt a sphere of ice is also investigated. The last case is the two-phase slab melting with an imposed high temperature at one face, where the different thermophysical properties for the two phases are considered. With the total enthalpy lattice Boltzmann solver verified, a milestone has been reached in the development of a fully coupled framework, in which the direct simulation Monte Car...",
+      "authors": [
+        "Carlos E. Americo",
+        "Ethan H. Huff",
+        "Ahmed H. Yassin",
+        "Savio J. Poovathingal"
+      ]
+    },
+    {
+      "title": "Modeling the Ablation of Carbon-Based Materials Through Continuous-Wave Lasers",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0232",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laser",
+        "Aerodynamics",
+        "Materials science",
+        "Laser ablation",
+        "Monte Carlo method",
+        "Ablation",
+        "Heat shield",
+        "Aerodynamic heating"
+      ],
+      "abstract": "Laser heating presents a valuable method for testing thermal protection system materials for hypersonic vehicles. Laser-based heating method eliminates the need for gaseous species for ablation, enabling experiments to be performed in low-pressure environments. In a low-pressure environment, ablation can be reduced to purely sublimation, allowing this phenomenon to be studied in isolation and decoupled from oxidative processes. A campaign was conducted at the Aerospace Laboratory for Lasers, Electromagnetics, and Optics (ALLEMO) at Texas A\\&M University, which used a continuous-wave IPG laser to heat material samples inside a vacuum chamber. This work presents the modeling of eight main experiments conducted across three conditions from the campaign. The experiments are modeled using a multidimensional material response solver, the material response module of the Kentucky aerodynamics and thermal-response solver (KATS-MR). KATS-MR is coupled with an in-house reverse Monte Carlo ray-tracing solver to more accurately compute reradiation heat flux in simulations. The temperature and recession of the material response simulations are compared to experimental data. KATS-MR shows good...",
+      "authors": [
+        "Bruno D. Tacchi",
+        "Fred Shireman",
+        "Ahmed H. Yassin",
+        "Kate B. Rhoads",
+        "Alexandre Martin",
+        "Savio J. Poovathingal",
+        "Boris S. Leonov",
+        "Tyler Haag",
+        "Richard B. Miles"
+      ]
+    },
+    {
+      "title": "Predicting Fracture of Atmospheric Ice in Hypersonic Shock Layers",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1737",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Atmospheric entry",
+        "Shock (circulatory)",
+        "Mach number",
+        "Shock wave",
+        "Materials science",
+        "Particle (ecology)",
+        "Aerodynamics"
+      ],
+      "abstract": "Ice clouds permeate the atmosphere of Earth at widely varying altitudes, posing a risk of impact and erosion to hypersonic vehicles. Before vehicle impact, atmospheric ice must traverse a shock layer, encountering aerodynamic loads, drag forces, and heat transfer. These interactions can affect both the location and energy of the particle impact. The pre-impact interaction of ice particles with the high-pressure shock layer in front of the vehicle is considered in this work. A two-way coupled fluid-structure interaction framework is utilized to investigate the interaction of an ice agglomerate with the normal part of a bow shock produced by a vehicle traveling at Mach 3. The fluid-structure interaction framework is a partitioned system, where the flow is simulated by the direct simulation Monte Carlo technique, and structures are simulated by the lattice particle method. These two simulation domains are coupled through the marching windows method, a surface interfacing technique based on the marching cubes procedure. A loose coupling scheme is applied to simulate the structural interaction of the normal shock wave with the ice structure at a high altitude. The effect of ice mater...",
+      "authors": [
+        "Ethan H. Huff",
+        "H. H. Chen",
+        "Savio J. Poovathingal"
+      ]
+    }
+  ]
+}

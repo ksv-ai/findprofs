@@ -1,0 +1,238 @@
+{
+  "faculty_name": "Jonathan Komperda",
+  "full_name": "Jonathan Komperda",
+  "department": "Department of Mechanical and Industrial Engineering",
+  "university": "University of Illinois Chicago",
+  "author_id": "A5037889170",
+  "works_count": 29,
+  "cited_by_count": 332,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 14
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 14
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 9
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 8
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modal explicit filtering for large eddy simulation in discontinuous spectral element method",
+      "publication_year": 2019,
+      "publication_date": "2019-05-30",
+      "doi": "https://doi.org/10.1016/j.jcpx.2019.100024",
+      "venue": "Journal of Computational Physics X",
+      "type": "article",
+      "cited_by_count": 14,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcpx.2019.100024",
+      "concepts": [
+        "Modal",
+        "Spectral element method",
+        "Large eddy simulation",
+        "Element (criminal law)",
+        "Finite element method",
+        "Computer science",
+        "Acoustics",
+        "Structural engineering"
+      ],
+      "abstract": "Developing a turbulence model that is computationally inexpensive and compatible with the nature of the numerical scheme is a crucial step in expanding the application of spectral element methods for large eddy simulation (LES) in complex geometries. In this paper, an element-level modal low-pass explicit filtering procedure, which operates in the spectral space, is implemented in a discontinuous spectral element method (DSEM). The application of the modal filter is studied for LES without a subgrid-scale (SGS) model. The method is tested for a configuration featuring isotropic turbulence, and its performance is compared with a previously used method—a spectral interpolation-based nodal filter. The modal filter shows superior performance over the nodal filter. The filtering procedure is then applied to a turbulent channel flow at a friction Reynolds number of Reτ=544, and the results are compared with a previous direct numerical simulation (DNS). It is also shown that the filter strength that provides the best comparison with DNS depends only on the polynomial order and is not a function of the grid resolution. An anisotropic version of the modal filter, which damps high-frequen...",
+      "authors": [
+        "Zia Ghiasi",
+        "Jonathan Komperda",
+        "Dongru Li",
+        "Ahmad Peyvan",
+        "David P. Nicholls",
+        "F. Mashayek"
+      ]
+    },
+    {
+      "title": "A hybrid discontinuous spectral element method and filtered mass density function solver for turbulent reacting flows",
+      "publication_year": 2020,
+      "publication_date": "2020-04-17",
+      "doi": "https://doi.org/10.1080/10407790.2020.1746608",
+      "venue": "Numerical Heat Transfer Part B Fundamentals",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Spectral method",
+        "Polynomial",
+        "Basis function",
+        "Applied mathematics",
+        "Large eddy simulation",
+        "Spectral element method",
+        "Mathematics"
+      ],
+      "abstract": "We present a novel hybrid scheme for the large eddy simulation (LES) of turbulent reacting flows. The scheme couples the discontinuous spectral element method (DSEM) solver for the unsteady compressible Navier-Stokes equations with a Monte Carlo particle filtered mass density function (FMDF) solver for the transport of reacting species. The method is capable of high-order simulations on unstructured grids. Mean particle estimate construction mimics the DSEM numerical procedure and utilizes variable basis functions. The scheme is tested on non-reacting and reacting Taylor-Green vortex flows. Studies of varying polynomial order, different basis functions for constructing particle estimates, and varying particle quantities are conducted. We demonstrate that a tent kernel, in conjunction with high polynomial order, produces the most accurate results. The chemically reacting simulations validate the hybrid scheme and demonstrate its applicability across a range of reaction regimes. The hybrid scheme's computational cost is 2.1 times the DSEM-LES solver.",
+      "authors": [
+        "Jonathan Komperda",
+        "Zia Ghiasi",
+        "Dongru Li",
+        "Ahmad Peyvan",
+        "Farhad Jaberi",
+        "Farzad Mashayek"
+      ]
+    },
+    {
+      "title": "Details-First, Show Context, Overview Last: Supporting Exploration of Viscous Fingers in Large-Scale Ensemble Simulations",
+      "publication_year": 2018,
+      "publication_date": "2018-08-20",
+      "doi": "https://doi.org/10.1109/tvcg.2018.2864849",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": true,
+      "oa_url": "https://ieeexplore.ieee.org/ielx7/2945/8547224/08440850.pdf",
+      "concepts": [
+        "Computer science",
+        "Automatic summarization",
+        "Visualization",
+        "Context (archaeology)",
+        "Data science",
+        "Filter (signal processing)",
+        "Zoom",
+        "Domain (mathematical analysis)"
+      ],
+      "abstract": "Visualization research often seeks designs that first establish an overview of the data, in accordance to the information seeking mantra: \"Overview first, zoom and filter, then details on demand\". However, in computational fluid dynamics (CFD), as well as in other domains, there are many situations where such a spatial overview is not relevant or practical for users, for example when the experts already have a good mental overview of the data, or when an analysis of a large overall structure may not be related to the specific, information-driven tasks of users. Using scientific workflow theory and, as a vehicle, the problem of viscous finger evolution, we advocate an alternative model that allows domain experts to explore features of interest first, then explore the context around those features, and finally move to a potentially unfamiliar summarization overview. In a model instantiation, we show how a computational back-end can identify and track over time low-level, small features, then be used to filter the context of those features while controlling the complexity of the visualization, and finally to summarize and compare simulations. We demonstrate the effectiveness of thi...",
+      "authors": [
+        "Timothy Luciani",
+        "Andrew Burks",
+        "Cassiano Sugiyama",
+        "Jonathan Komperda",
+        "G. Elisabeta Marai"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modal analysis of turbulent flows simulated with spectral element method",
+      "publication_year": 2024,
+      "publication_date": "2024-12-01",
+      "doi": "https://doi.org/10.1063/5.0234014",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Mechanics",
+        "Modal",
+        "Finite element method",
+        "Modal analysis",
+        "Classical mechanics",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Leveraging the high-order nature of spectral element methods, this work introduces a methodology that enables instantaneous, local analysis of turbulent flows through a transformation to a modal space. It also introduces a dynamic explicit modal filter (DEMF) for removing the excess energy in large-eddy simulation of turbulent flows. The transformation is achieved through the application of the discrete Chebyshev transform to nodal solution values, and the resulting modes are employed to characterize and distinguish different turbulent flow properties. Implementing direct numerical simulation (DNS), a qualitative explanation of how modes can assess flow directionality and turbulence properties is provided by considering the modal representation at different locations for different turbulent flows. Additionally, reducing the resolution from DNS, it is shown how modes can qualitatively assess local flow resolvedness. A quantitative assessment of local flow resolvedness is conducted by calculating sequential energy levels from the modes and then comparing them between DNS and under-resolved cases. These energy levels correspond to different scales of motion and their behavior chang...",
+      "authors": [
+        "Mohammadmahdi Ranjbar",
+        "Ali Mostafavi",
+        "Prasanna T. Rajendran",
+        "Jonathan Komperda",
+        "Farzad Mashayek"
+      ]
+    },
+    {
+      "title": "Dynamic Explicit Modal Filtering for Large-Eddy Simulation of Turbulent Flows with Spectral Element Method",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0295",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spectral element method",
+        "Modal",
+        "Turbulence",
+        "Large eddy simulation",
+        "Computer science",
+        "Element (criminal law)",
+        "Finite element method",
+        "Modal analysis"
+      ],
+      "abstract": "Large-eddy simulations of turbulent flows require the proper modeling of small-scale motions to obtain accurate results. As uniform behavior is absent in turbulent flows, applying uniform filtering throughout the whole domain to drain out the accumulated undissipated energy yields inaccurate results. This paper introduces a dynamic explicit modal filtering method for large-eddy simulation of turbulent flows. The criterion for distinguishing different regions of the flow relies on the ratio of the calculated Kolmogorov length scale at different domain locations to the average grid spacing. Regions with a Kolmogorov length scale smaller than the average grid spacing undergo filtering. The accumulated energy in these selected regions is removed through the selective removal of energy in higher modes. The modes are efficiently obtained by utilizing the discrete Chebyshev transform to alternate between the nodal and modal spaces. The proposed filtering method, based on the specified criterion, is evaluated on two turbulent flows, the Taylor-Green vortex, and the decaying isotropic turbulence and it's effectiveness is demonstrated.",
+      "authors": [
+        "Mohammadmahdi Ranjbar",
+        "Jonathan Komperda",
+        "Farzad Mashayek"
+      ]
+    },
+    {
+      "title": "Evaluation of upper airway characteristics in patients with and without sleep apnea using cone‐beam computed tomography and computational fluid dynamics",
+      "publication_year": 2023,
+      "publication_date": "2023-11-27",
+      "doi": "https://doi.org/10.1111/ocr.12728",
+      "venue": "Orthodontics and Craniofacial Research",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ocr.12728",
+      "concepts": [
+        "Exhalation",
+        "Cone beam computed tomography",
+        "Airway",
+        "Obstructive sleep apnea",
+        "Medicine",
+        "Computational fluid dynamics",
+        "Expiration",
+        "Nuclear medicine"
+      ],
+      "abstract": "OBJECTIVE: To determine if upper airway characteristics and airway pressure change significantly between low risk, healthy non-OSA subjects, and OSA subjects during respiration using cone-beam computed tomography (CBCT) imaging and steady-state k-ω model computational fluid dynamics (CFD) fluid flow simulations, respectively. MATERIALS AND METHODS: CBCT scans were collected at both end-inhalation and end-exhalation for 16 low-risk non-OSA subjects and compared to existing CBCT data from 7 OSA subjects. The CBCT images were imported into Dolphin Imaging and the upper airway was segmented into stereolithography (STL) files for area and volumetric measurements. Subject models that met pre-processing criteria underwent CFD simulations using ANSYS Fluent Meshing (Canonsburg, PA) in which unstructured mesh models were generated to solve the standard dual equation turbulence model (k-ω). Objective and supplemental descriptive measures were obtained and statistical analyses were performed with both parametric and non-parametric tests to evaluate statistical significance at P < .05. RESULTS: Regarding area and volumetric assessments, there were statistically significant mean differences ...",
+      "authors": [
+        "Raj Desai",
+        "Jonathan Komperda",
+        "Mohammed H. Elnagar",
+        "Grace Viana",
+        "Maria Therese Galang‐Boquiren"
+      ]
+    },
+    {
+      "title": "Application of Modal Representation for Instantaneous Statistical Analysis of Flows Simulated with Spectral Element Method",
+      "publication_year": 2023,
+      "publication_date": "2023-06-08",
+      "doi": "https://doi.org/10.2514/6.2023-3688",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal",
+        "Representation (politics)",
+        "Flow (mathematics)",
+        "Turbulence",
+        "Spectral method",
+        "Spectral element method",
+        "Chebyshev filter",
+        "Benchmark (surveying)"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-3688.vid A methodology is introduced in spectral element methods to convert the nodal solution values into the modal values using the discrete Chebyshev transform. A novel representation of different flows can be generated in the modal space and can facilitate distinguishing different regions of complex flows. This representation also provides insight into the uniformity of the flow variables and how they change directionally. In this work, the modal approach is used for the determination of the average values and the relative fluctuations in turbulent flows. Typically, it would be computationally costly, potentially on the order of thousands or millions of core-hours, to obtain these flow statistics, whereas the proposed approach enables fast estimations of the average and the relative fluctuations with reasonable accuracy at any instant during the simulations. Three benchmark flows, namely, decaying isotropic turbulence, Taylor-Green vortex, and the periodic channel flow are analyzed by the proposed modal approach, and the corresponding modal representations are provided. The modal approach’s capability of flow statistics...",
+      "authors": [
+        "Mohammadmahdi Ranjbar",
+        "Daniel A. Belknap Fernandez",
+        "Farzad Mashayek",
+        "Jonathan Komperda"
+      ]
+    }
+  ]
+}

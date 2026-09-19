@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Shreyas Narsipur",
+  "full_name": "Shreyas Narsipur",
+  "department": "Department of Aerospace Engineering",
+  "university": "Mississippi State University",
+  "author_id": "A5065549631",
+  "works_count": 50,
+  "cited_by_count": 309,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 25
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 17
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 13
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 12
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Variation of leading-edge suction during stall for unsteady aerofoil motions",
+      "publication_year": 2020,
+      "publication_date": "2020-08-11",
+      "doi": "https://doi.org/10.1017/jfm.2020.467",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 58,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stall (fluid mechanics)",
+        "Airfoil",
+        "Leading edge",
+        "Mechanics",
+        "Variation (astronomy)",
+        "Suction",
+        "Trailing edge",
+        "Physics"
+      ],
+      "abstract": "Abstract",
+      "authors": [
+        "Shreyas Narsipur",
+        "Pranav Hosangadi",
+        "Ashok Gopalarathnam",
+        "Jack R. Edwards"
+      ]
+    },
+    {
+      "title": "Low-Order Model for Prediction of Trailing-Edge Separation in Unsteady Flow",
+      "publication_year": 2018,
+      "publication_date": "2018-11-12",
+      "doi": "https://doi.org/10.2514/1.j057132",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 43,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Airfoil",
+        "Stall (fluid mechanics)",
+        "Mechanics",
+        "Leading edge",
+        "Trailing edge",
+        "Aerodynamics",
+        "Boundary layer"
+      ],
+      "abstract": "Computational and experimental results for pitching and plunging airfoils were used to study the time lag associated with boundary-layer convection and to develop a model that can be used to augment inviscid theoretical methods for unsteady airfoil flows to include the effects of trailing-edge separation and unsteady stall. Computations using an unsteady Reynolds-averaged Navier–Stokes code were used to obtain results for airfoils in steady flow and for several pitch and plunge motions. The motions were selected such that stall occurred only due to trailing-edge separation without leading-edge vortex formation. Viscous corrections to inviscid airfoil theory are first calculated in steady flow by implementing a nonlinear decambering flap to model the effect of the separated boundary layer. A leading-edge suction parameter, from earlier research, is used to connect the aerodynamic state in unsteady motion with a steady-state condition. Computational results showed that the differences in aerodynamic loads between steady and unsteady flows can be attributed to the boundary-layer convection lag, which can be modeled by choosing an appropriate value of a time-lag parameter . To provi...",
+      "authors": [
+        "Shreyas Narsipur",
+        "Ashok Gopalarathnam",
+        "Jack R. Edwards"
+      ]
+    },
+    {
+      "title": "CFD Analysis of Multielement Airfoils for Wind Turbines",
+      "publication_year": 2012,
+      "publication_date": "2012-06-25",
+      "doi": "https://doi.org/10.2514/6.2012-2781",
+      "venue": "30th AIAA Applied Aerodynamics Conference",
+      "type": "conference-paper",
+      "cited_by_count": 34,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Computational fluid dynamics",
+        "Wind power",
+        "Marine engineering",
+        "Computer science",
+        "Environmental science",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "Multielement airfoil configurations have shown promise in improving the aerodynamic characteristics of the inboard section of megawatt-scale wind turbine blades by increasing the lift-to-drag ratios, lift coefficients, and structural efficiency. Steady-state, twodimensional CFD calculations were carried out for a closely-coupled multielement airfoil system with one main element and two flaps at a Reynolds number of 1,000,000. Five configurations of the multielement airfoil system were simulated with varying flap deflection, gap, and overhang. Simulations were performed with ANSYS FLUENT, which is a hybridgrid Navier-Stokes solver. Computational results were obtained using the four-equation Langtry-Menter Shear Stress Transport (SST) Transition turbulence model. Grid convergence studies were carried out by examining three grids with progressively higher grid resolutions and quantifying their effects on lift and drag coefficients. Computed solutions were obtained for angles of attack ranging from 9 to 20 deg. Lift and drag coefficients were computed to understand the effect of gap, overhang, and flap deflection on the multielement airfoil system performance. Wake bursting, a multi...",
+      "authors": [
+        "Shreyas Narsipur",
+        "Brent W. Pomeroy",
+        "Michael S. Selig"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "AeroBRIDGE: A Wind-Tunnel-to-Flight Testing Translation Program for Fixed-Wing Advanced Air Mobility Aircraft",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4034",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Translation (biology)",
+        "Engineering",
+        "Automation",
+        "Key (lock)",
+        "System testing",
+        "Simulation",
+        "Noise (video)"
+      ],
+      "abstract": "Distributed electric propulsion (DEP) has emerged as a key enabling technology for fixed-wing Advanced Air Mobility (AAM) aircraft because of its potential to improve aerodynamic efficiency, low-speed performance, and operational flexibility through favorable aero-propulsive interactions. Although wind-tunnel testing provides a controlled environment for evaluating these interactions, a significant challenge remains in translating ground-based aerodynamic measurements into practical flight-test configurations and aircraft-level validation. This paper presents AeroBRIDGE, a wind-tunnel-to-flight testing translation program developed to establish a systematic methodology for transitioning DEP configurations from controlled wind-tunnel experiments to flight testing on a fixed-wing unmanned aircraft system platform. The AeroBRIDGE methodology combines parametric wind-tunnel configuration screening, aerodynamic and integration-based down-selection, staged aircraft modification, and incremental ground, taxi, and flight testing within a unified ground-to-flight evaluation framework. The program uses a modular DEP wind-tunnel model to evaluate candidate aero-propulsive configurations, i...",
+      "authors": [
+        "Sulav J. Thapa",
+        "Reagan Ducote",
+        "Shreyas Narsipur",
+        "Matthew Widjaja",
+        "Jace Lemp",
+        "Or D. Dantsker"
+      ]
+    },
+    {
+      "title": "Effect of Forced Boundary Layer Transition on Hovering Rotor Aerodynamics and Aeroacoustics",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.4050/f-0082-2026-0209",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Aerodynamics",
+        "Airfoil",
+        "Turbulence",
+        "Noise (video)",
+        "Vortex shedding",
+        "Physics",
+        "Rotor (electric)"
+      ],
+      "abstract": "This study experimentally examines the effect of forced boundary layer (BL) transition on the aerodynamic and aero-acoustic performance of a low Reynolds number rotor in hover. An APC 15×4E two-bladed rotor was tested in three configurations: clean, upper-surface trip (U.S.T.), and combined upper- and lower-surface trip (U.S.T./L.S.T.). Surface oil flow visualization was used to characterize the BL structure. A hover test rig was used to measure the static thrust and torque. Acoustic measurements were conducted in an anechoic chamber, with tonal and broadband noise components separated during post-processing. Results show that surface trips effectively force BL transition, increasing turbulent attachment over the blade. Tripped configurations reduced thrust and increased torque but mitigated Reynolds-number sensitivity. Forced transition reduced the tonal noise for all but one case. For the broadband noise, the forced transition increased the noise in the frequency range where turbulent boundary layer-trailing edge (TBLTE) mechanisms dominate, while decreasing the noise in the frequency range where laminar boundary layer vortex shedding (LBL-VS) occurs.",
+      "authors": [
+        "Joseph Harris",
+        "Shreyas Narsipur",
+        "Robert Deters",
+        "Akhilesh Sriram"
+      ]
+    },
+    {
+      "title": "Scale Characterization of Jet Formation of Arrays of Multi-Source Wind Generators With Measurements and Large-Eddy Simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1152",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Turbulence",
+        "Modular design",
+        "Scaling",
+        "Aerospace engineering",
+        "Planetary boundary layer",
+        "Scale (ratio)",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Small unmanned and autonomous aerial vehicles are often required to operate within the turbulent atmospheric boundary layer and other degraded environments, where local turbulent behavior can strongly influence stability, control, and navigational performance. Despite the operational importance of these degraded environments, systematic studies of the associated aerodynamic challenges remain limited. One reason is the lack of suitable laboratory settings for repeatable and robust testing of atmospheric like wind conditions. This experimental and computational work characterizes baseline conditions of a modular multi-source wind-generation system that can be used to simulate flight relevant atmospheric conditions. Through complimentary large-eddy simulations and experimental measurements, the jet-formation mechanisms and scaling behavior of the fan array wind generation system are quantified. Important non-dimensional scaling behavior of fan arrays, are quantified, enabling estimation of test regions. The study further investigates how array configuration and the effect of resisting elements influence downwind flow development, offering guidance for the design and optimization of...",
+      "authors": [
+        "Md. Rafi Ur Rahman",
+        "Christopher Dougherty",
+        "Devon Robinson",
+        "Shreyas Narsipur",
+        "Chris White",
+        "Daniel Foti",
+        "Eddie L. Jacobs"
+      ]
+    },
+    {
+      "title": "Exploration of ULTEM 9085 as a Candidate Material for Aerospace Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1668",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerospace",
+        "Materials science",
+        "Structural engineering",
+        "Ultimate tensile strength",
+        "Tension (geology)",
+        "Compressive strength",
+        "Composite material",
+        "Compression (physics)"
+      ],
+      "abstract": "High-temperature fused deposition modeling (FDM) with ULTEM 9085 enables rapid fabrication of aeroelastic test articles and secondary aerospace structures, but reliable design use requires process-specific mechanical and fatigue allowables rather than bulk datasheet values. This study experimentally characterizes ULTEM 9085 printed on a custom high-temperature FDM system through quasi-static tension and fully compressive fatigue testing, and then demonstrates how those measured properties manifest at the component level in a geometry-controlled wind-tunnel comparison. ASTM D638 Type IV coupons were printed with 0° and 45° raster orientations and tested in tension on an Instron 5882. The 0° group exhibited E = 961 ± 150 MPa, UTS = 46.1 ± 6.4 MPa, and εb = 0.057 ± 0.016 mm/mm, while the 45° group exhibited E = 396 ± 94 MPa, UTS = 35.3 ± 8.9 MPa, and εb = 0.103 ± 0.033 mm/mm, with failures dominated by gauge-section fracture and raster-interface delamination. Fully compressive fatigue tests on ASTM D7791-based cylinders (3 Hz, σmax = 30–40 MPa) produced lives from ~5×10^3 to ~1.3×10^5 cycles and were captured over the tested range by a Basquin relation σmax = 85.96 Nf^(-0.090) MPa ...",
+      "authors": [
+        "Evan C. Garrison",
+        "Luke Salisbury",
+        "Griffin Bowers",
+        "Charlotte Thompson",
+        "Shreyas Narsipur",
+        "Matthew W. Priddy"
+      ]
+    },
+    {
+      "title": "Experimental and Computational Aerodynamic Analysis of Low-Re Wings in Translation and Rotation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2841",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Acceleration",
+        "Rotation (mathematics)",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Wing",
+        "Mechanics",
+        "Kinematics",
+        "Lift (data mining)"
+      ],
+      "abstract": "Experimental validation of computational fluid dynamics (CFD) is critical to ensuring accurate results, especially for complex flow regimes. The current study investigates transition, a standard approach for Vertical Take-Off and Landing (VTOL) aircraft, in which lifting surfaces switch from forward flight to hover, and vice versa. Experimentally, a hybrid reverse wind tunnel system (HRWTS) is employed to simulate the acceleration and rotation of a wing model. This system is used in tandem with CFD efforts to characterize uncoupled acceleration at discrete angles of attack, rotation at constant inflow velocities, and coupled transition, wherein both acceleration and rotational kinematics are combined. Results indicate a strong correlation in the load predictions between the computations and the experiments. CFD results over-predict the loads after stalling. The acceleration rate has a significant effect on the accelerating and rotating wing compared to the wing that is only accelerating. The pitch rate has minimal effects on the rotating and accelerating-rotating wing.",
+      "authors": [
+        "Matthew White",
+        "Seshendra Palakurthy",
+        "Tulasi Ram Vechalapu",
+        "Anup Zope",
+        "Shreyas Narsipur",
+        "Shanti Bhushan"
+      ]
+    }
+  ]
+}

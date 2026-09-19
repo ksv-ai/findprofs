@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Denis Aslangil",
+  "full_name": "Denis Aslangil",
+  "department": "Department of Mechanical Engineering",
+  "university": "Colorado School of Mines",
+  "author_id": "A5048996845",
+  "works_count": 43,
+  "cited_by_count": 138,
+  "h_index": 7,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 26
+    },
+    {
+      "topic": "Laser-Plasma Interactions and Diagnostics",
+      "count": 12
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 11
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 6
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical investigation of initial condition effects on Rayleigh-Taylor instability with acceleration reversals",
+      "publication_year": 2016,
+      "publication_date": "2016-11-18",
+      "doi": "https://doi.org/10.1103/physreve.94.053114",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1418618",
+      "concepts": [
+        "Baroclinity",
+        "Mechanics",
+        "Instability",
+        "Acceleration",
+        "Rayleigh–Taylor instability",
+        "Turbulence",
+        "Compressibility",
+        "Rayleigh scattering"
+      ],
+      "abstract": "The influence of initial conditions on miscible incompressible baroclinically driven Rayleigh-Taylor instability undergoing nonuniform acceleration is explored computationally using an implicit large eddy simulation (ILES) technique. We consider the particular case of evolution during multiple reversals of acceleration direction, where the flow is alternately statically stable or unstable. In the unstable phase, the flow is driven by the baroclinic release of potential energy, whereas in the stable phase, work is done against the density stratification with the energy exchange taking place by wavelike mechanisms. These dynamics are fundamentally different; here, we track the evolution of volume-averaged turbulent statistics that are most sensitive to changes in the distribution of spectral power and bandwidth of the initial conditions as the flow alternates between dynamical regimes due to acceleration reversal.",
+      "authors": [
+        "Denis Aslangil",
+        "Arindam Banerjee",
+        "Andrew Lawrie"
+      ]
+    },
+    {
+      "title": "Variable-density buoyancy-driven turbulence with asymmetric initial density distribution",
+      "publication_year": 2020,
+      "publication_date": "2020-02-29",
+      "doi": "https://doi.org/10.1016/j.physd.2020.132444",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 27,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.physd.2020.132444",
+      "concepts": [
+        "Turbulence",
+        "Buoyancy",
+        "Physics",
+        "Mechanics",
+        "Mixing (physics)",
+        "Flow (mathematics)",
+        "Statistical physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Denis Aslangil",
+        "Daniel Livescu",
+        "Arindam Banerjee"
+      ]
+    },
+    {
+      "title": "Challenges for quantum computation of nonlinear dynamical systems using linear representations",
+      "publication_year": 2022,
+      "publication_date": "2022-02-04",
+      "doi": "https://doi.org/10.48550/arxiv.2202.02188",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 16,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2202.02188",
+      "concepts": [
+        "Von Neumann architecture",
+        "Representation (politics)",
+        "Nonlinear system",
+        "Hilbert space",
+        "Dynamical systems theory",
+        "Perspective (graphical)",
+        "Computer science",
+        "Projection (relational algebra)"
+      ],
+      "abstract": "A number of recent studies have proposed that linear representations are appropriate for solving nonlinear dynamical systems with quantum computers, which fundamentally act linearly on a wave function in a Hilbert space. Linear representations, such as the Koopman representation and Koopman von Neumann mechanics, have regained attention from the dynamical-systems research community. Here, we aim to present a unified theoretical framework, currently missing in the literature, with which one can compare and relate existing methods, their conceptual basis, and their representations. We also aim to show that, despite the fact that quantum simulation of nonlinear classical systems may be possible with such linear representations, a necessary projection into a feasible finite-dimensional space will in practice eventually induce numerical artifacts which can be hard to eliminate or even control. As a result, a practical, reliable and accurate way to use quantum computation for solving general nonlinear dynamical systems is still an open problem.",
+      "authors": [
+        "Yen Ting Lin",
+        "Robert B. Lowrie",
+        "Denis Aslangil",
+        "Yiğit Subaşı",
+        "Andrew Sornborger"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Interference-Induced Shock Formation Between Two Cylinders at Various Spacings in a Subsonic Viscous Free-Stream",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4413",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Shock (circulatory)",
+        "Physics",
+        "Shock wave",
+        "Materials science",
+        "Work (physics)",
+        "Cylinder",
+        "Shock absorber"
+      ],
+      "abstract": "Compressible flow over identical side-by-side circular cylinders is investigated using wall- and flow-resolved simulations of the fully compressible Navier–Stokes equations to examine interference-induced compressibility structures and aerodynamic characteristics. Simulations are performed at a fixed Reynolds number of 150 and a free-stream Mach number of 0.70, both defined based on the free-stream quantities and cylinder diameter, for an isolated single cylinder reference case and finite-spacing cases with normalized center-to-center spacings of S*=9.0, 5.0, and 3.0. Although side-by-side cylinders have been widely studied in incompressible and low-speed regimes, their interference-induced compressibility structures under high-subsonic free-stream conditions remain less characterized. In this study, the near-body and gap-flow structures are analyzed through local Mach number and density-gradient magnitude fields and one-dimensional centerline distributions. For S*=9.0, the interference remains weak, and the locally supersonic regions are localized mainly near the shoulder regions without forming a shock structure in the gap as in the isolated single cylinder case. As the spacin...",
+      "authors": [
+        "Ahmet F. Kula",
+        "Ryan Nguyen",
+        "Denis Aslangil"
+      ]
+    },
+    {
+      "title": "Effects of compressibility and Atwood number on the instability growth of two-dimensional buoyancy-driven shear layers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-04",
+      "doi": "https://doi.org/10.1080/14685248.2026.2638812",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Compressibility",
+        "Shear (geology)",
+        "Instability",
+        "Materials science",
+        "Mechanics",
+        "Turbulence",
+        "Shear flow",
+        "Reynolds number"
+      ],
+      "abstract": "Direct numerical simulations are used to investigate the impact of compressibility and compositional variable-density (VD) effects on the growth of instability in buoyancy-driven shear layers (BSL), which exhibit features common to both Rayleigh–Taylor (RTI) and Kelvin–Helmholtz (KHI) instabilities. The two-dimensional simulations are performed in a periodic domain with alternating high- and low-density fluid columns under neutral background stratification. This study expands on previous work by Gat et al. [Incompressible variable-density turbulence in an external acceleration field. J Fluid Mech. 2017;827:506–535. doi: 10.1017/jfm.2017.490] conducted in the incompressible regime. The Atwood number, A, and the isothermal Mach number, Ma, are varied to isolate VD and compressibility effects. Two flow regimes are identified. At early times, shear dominates and the evolution resembles KHI with minimal sensitivity to A or Ma. Later, buoyancy becomes dominant and the flow exhibits RTI-like behaviour; increasing A accelerates this transition. Compressibility suppresses the growth of the mixing-layer, reduces bubble and spike penetration, and amplifies the VD-induced mixing asymmetry. ...",
+      "authors": [
+        "Hutson Staggs",
+        "Ahmet Kula",
+        "Denis Aslangil"
+      ]
+    },
+    {
+      "title": "Three-Dimensional Multiphase Numerical Modeling of Gas Injection in the Anode Furnace for Copper Refining",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.13140/rg.2.2.32786.72641",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.13140/rg.2.2.32786.72641",
+      "concepts": [
+        "Refining (metallurgy)",
+        "Metallurgy",
+        "Materials science",
+        "Copper",
+        "Anode",
+        "Numerical modeling",
+        "Multiphase flow",
+        "Gas metal arc welding"
+      ],
+      "abstract": "",
+      "authors": [
+        "Luis Aguayo-Torrez",
+        "Corby Anderson",
+        "Denis Aslangil"
+      ]
+    },
+    {
+      "title": "Compressible and viscous flow over a heated cylinder with varying thermal effects: Aerodynamics and heat transfer",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1063/5.0291475",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Nusselt number",
+        "Aerodynamics",
+        "Cylinder",
+        "Heat transfer",
+        "Compressible flow",
+        "Mach number"
+      ],
+      "abstract": "This study numerically investigates the effects of the surface-to-free-stream temperature ratio on aerodynamics and heat transfer in compressible flow over a two-dimensional heated circular cylinder. Wall-resolved simulations with fully compressible Navier–Stokes equations are performed at Reynolds number, Re, ranging from 20 to 150 and free-stream Mach number, M∞, of 0.2 and 0.4, which are both defined based on the free-stream values and cylinder diameter. The effects of temperature ratio, TR, between the cylinder surface and free-stream are investigated at neutral (1.0), low (1.1), moderate (1.5), and high (3.0) TR that cover the Boussinesq (neutral and low TR) and non-Boussinesq (moderate and high TR) regimes. The rigid cylinder is represented using a second-order robust ghost cell immersed boundary method. This study extends previous literature by exploring higher TR effects on steady and unsteady aerodynamics, vortex shedding, flow separation, and heat transfer. An increase in TR stabilizes the flow and can completely suppress vortex shedding. Although at low TR, the time-averaged local Nusselt number distribution at the cylinder surface is sensitive to M∞ due to the aerody...",
+      "authors": [
+        "A. Kula",
+        "Denis Aslangil",
+        "Man Long Wong"
+      ]
+    },
+    {
+      "title": "Compressibility Effects in Subsonic to Supersonic Viscous Flow Over an Adiabatic Sphere at a Reynolds Number of 100",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3533",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Supersonic speed",
+        "Mechanics",
+        "Adiabatic process",
+        "Adiabatic wall",
+        "Compressibility",
+        "Choked flow",
+        "Mach number"
+      ],
+      "abstract": "This study numerically investigates the aerodynamics and shock formation associated with compressible viscous flow over a spatially fixed and adiabatic sphere using the fully compressible Navier—Stokes equations with a temperature-dependent fluid transport coefficient model. The governing equations are discretized conservatively using second-order accurate finite difference methods, hybridized with a fifth-order accurate shock-capturing scheme, which is only applied in regions with shocks. The sphere geometry is represented in the flow domain by a second-order accurate ghost-cell immersed boundary method. Wall-resolved three-dimensional adaptive mesh refinement simulations are performed at a Reynolds number of 100 with parametric variation of free-stream Mach number from 0.70 (subsonic) to 1.40 (supersonic), where the two non-dimensional numbers are defined using free-stream values and the diameter of the sphere. This work presents and discusses sphere aerodynamics, including surface pressure distributions, the onset of shock formation at the chosen low Reynolds number, and the shock structures upon shock formation. Our results suggest that the drag coefficient rapidly increases...",
+      "authors": [
+        "Ahmet F. Kula",
+        "Denis Aslangil",
+        "Man Long Wong"
+      ]
+    }
+  ]
+}

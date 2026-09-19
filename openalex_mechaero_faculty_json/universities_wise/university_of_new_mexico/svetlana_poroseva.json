@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Svetlana Poroseva",
+  "full_name": "Svetlana Poroseva",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of New Mexico",
+  "author_id": "A5062691610",
+  "works_count": 129,
+  "cited_by_count": 903,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 25
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 21
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 16
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "On the accuracy of RANS simulations with DNS data",
+      "publication_year": 2016,
+      "publication_date": "2016-11-01",
+      "doi": "https://doi.org/10.1063/1.4966639",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 70,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6161363",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Physics",
+        "Direct numerical simulation",
+        "Turbulence",
+        "Reynolds number",
+        "Mechanics",
+        "Boundary layer",
+        "Statistical physics"
+      ],
+      "abstract": "Simulation results conducted for incompressible planar wall-bounded turbulent flows with the Reynolds-Averaged Navier-Stokes (RANS) equations with no modeling involved are presented. Instead, all terms but the molecular diffusion are represented by the data from direct numerical simulation (DNS). In simulations, the transport equations for velocity moments through the second order (and the fourth order where the data are available) are solved in a zero-pressure gradient boundary layer over a flat plate and in a fully-developed channel flow in a wide range of Reynolds numbers using DNS data from Sillero et al. (2013), Lee & Moser (2015), and Jeyapaul et al. (2015). The results obtained demonstrate that DNS data are the significant and dominant source of uncertainty in such simulations (hereafter, RANS-DNS simulations). Effects of the Reynolds number, flow geometry, and the velocity moment order as well as an uncertainty quantification technique used to collect the DNS data on the results of RANS-DNS simulations are analyzed. New criteria for uncertainty quantification in statistical data collected from DNS are proposed to guarantee the data accuracy sufficient for their use in RA...",
+      "authors": [
+        "Svetlana Poroseva",
+        "Juan D. Colmenares F.",
+        "Scott M. Murman"
+      ]
+    },
+    {
+      "title": "Numerical investigation of aerosol transport in a classroom with relevance to COVID-19",
+      "publication_year": 2020,
+      "publication_date": "2020-10-01",
+      "doi": "https://doi.org/10.1063/5.0029118",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 260,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7583363",
+      "concepts": [
+        "Aerosol",
+        "Particle (ecology)",
+        "Deposition (geology)",
+        "Physics",
+        "Meteorology",
+        "Atmospheric sciences",
+        "Mechanics",
+        "Biology"
+      ],
+      "abstract": "The present study investigates aerosol transport and surface deposition in a realistic classroom environment using computational fluid-particle dynamics simulations. Effects of particle size, aerosol source location, glass barriers, and windows are explored. While aerosol transport in air exhibits some stochasticity, it is found that a significant fraction (24%–50%) of particles smaller than 15 µm exit the system within 15 min through the air conditioning system. Particles larger than 20 µm almost entirely deposit on the ground, desks, and nearby surfaces in the room. Source location strongly influences the trajectory and deposition distribution of the exhaled aerosol particles and affects the effectiveness of mitigation measures such as glass barriers. Glass barriers are found to reduce the aerosol transmission of 1 µm particles from the source individual to others separated by at least 2.4 m by ∼92%. By opening windows, the particle exit fraction can be increased by ∼38% compared to the case with closed windows and reduces aerosol deposition on people in the room. On average, ∼69% of 1 µm particles exit the system when the windows are open.",
+      "authors": [
+        "Mohamed Abuhegazy",
+        "Khaled Talaat",
+        "O. Anderoglu",
+        "Svetlana Poroseva"
+      ]
+    },
+    {
+      "title": "Simulation of aerosol transmission on a Boeing 737 airplane with intervention measures for COVID-19 mitigation",
+      "publication_year": 2021,
+      "publication_date": "2021-03-01",
+      "doi": "https://doi.org/10.1063/5.0044720",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 105,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0044720/19766879/033312_1_online.pdf",
+      "concepts": [
+        "Physics",
+        "Airplane",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Aerospace engineering",
+        "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "2019-20 coronavirus outbreak",
+        "Meteorology",
+        "Aeronautics"
+      ],
+      "abstract": "Identifying economically viable intervention measures to reduce COVID-19 transmission on aircraft is of critical importance especially as new SARS-CoV2 variants emerge. Computational fluid-particle dynamic simulations are employed to investigate aerosol transmission and intervention measures on a Boeing 737 cabin zone. The present study compares aerosol transmission in three models: (a) a model at full passenger capacity (60 passengers), (b) a model at reduced capacity (40 passengers), and (c) a model at full capacity with sneeze guards/shields between passengers. Lagrangian simulations are used to model aerosol transport using particle sizes in the 1–50 μm range, which spans aerosols emitted during breathing, speech, and coughing. Sneeze shields placed between passengers redirect the local air flow and transfer part of the lateral momentum of the air to longitudinal momentum. This mechanism is exploited to direct more particles to the back of the seats in front of the index patient (aerosol source) and reduce lateral transfer of aerosol particles to other passengers. It is demonstrated that using sneeze shields on full capacity flights can reduce aerosol transmission to levels ...",
+      "authors": [
+        "Khaled Talaat",
+        "Mohamed Abuhegazy",
+        "Omar Ahmed Mahfoze",
+        "O. Anderoglu",
+        "Svetlana Poroseva"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Aerodynamic Performance of a Hovering Quadcopter Using the Unsteady Vortex Lattice Method",
+      "publication_year": 2025,
+      "publication_date": "2025-02-07",
+      "doi": "https://doi.org/10.2514/1.c038145",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quadcopter",
+        "Aerodynamics",
+        "Vortex",
+        "Aerospace engineering",
+        "Mechanics",
+        "Physics",
+        "Control theory (sociology)",
+        "Computer science"
+      ],
+      "abstract": "Quadcopters are one of the most used configurations to develop unmanned aerial vehicles for civil and military applications. The flow dynamics developed by the four rotors of a quadcopter is complex due to the interaction between the rotor wakes and the quadcopter fuselage. In the present study, the flow simulations of three cases were conducted: a single operating rotor, four operating rotors (no fuselage), and a simplified quadcopter operating at hover, in order to better understand the flow dynamics and to estimate the quadcopter aerodynamic performance. The simulations were based on the unsteady vortex lattice method (UVLM) with a viscous correction. In particular, the simulation of the simplified quadcopter and rotor tip phasing showed an asymmetrical pressure coefficient distribution on the rotor blades. With this configuration, the [Formula: see text] distribution depends on the blade position with respect to the fuselage. Computational results of the quadcopter aerodynamics performance were compared with experimental measurements from the bench (single rotor) and flight tests (complete quadcopter). A good agreement was observed between the numerical and experimental resu...",
+      "authors": [
+        "Andres M. Pérez Gordillo",
+        "Jaime A. Escobar",
+        "Svetlana Poroseva",
+        "Omar López"
+      ]
+    },
+    {
+      "title": "Advances in the description of a spatially developing incompressible turbulent mixing layer and its self-similarity",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1615/thmt-25.260",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mixing (physics)",
+        "Mechanics",
+        "Compressibility",
+        "Layer (electronics)",
+        "Physics",
+        "Turbulence",
+        "Boundary layer",
+        "Incompressible flow"
+      ],
+      "abstract": "",
+      "authors": [
+        "Svetlana Poroseva"
+      ]
+    },
+    {
+      "title": "Implications of Under-Resolved DNS Data in the Buffer Zone of Wall-Bounded Turbulent Flows for Turbulence Modeling",
+      "publication_year": 2024,
+      "publication_date": "2024-12-02",
+      "doi": "https://doi.org/10.1007/978-3-031-69035-8_4",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Bounded function",
+        "Physics",
+        "Statistical physics",
+        "Geology",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Svetlana Poroseva"
+      ]
+    },
+    {
+      "title": "Characterization of the mixing layer self-similarity with multiple parameters",
+      "publication_year": 2024,
+      "publication_date": "2024-02-01",
+      "doi": "https://doi.org/10.1063/5.0187723",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Splitter plate",
+        "Physics",
+        "Boundary layer",
+        "Laminar flow",
+        "Reynolds number",
+        "Mechanics",
+        "Turbulence",
+        "Transverse plane"
+      ],
+      "abstract": "In the paper, results from direct numerical simulation of a planar incompressible mixing layer spatially developing incompressible between two co-flowing laminar boundary layers are used to analyze a possibility for multiple flow parameters to achieve self-similarity within the same flow region. The Reynolds numbers for the boundary layers are 3930 and 2412 based on the free-stream velocities far above and below the splitter plate and the boundary layer thicknesses at the splitter plate trailing edge. The three-dimensional computational domain is sufficiently large for the mixing layer transition to fully turbulent far upstream the domain exit. The mixing layer growth is characterized using various definitions of the mixing layer thickness. It is shown that the proposed mixing layer thickness based on the gradient of the streamwise mean velocity in the transverse direction defines more accurately the area of turbulent mixing. Three regions of the flow linear growth are discovered using a rigorous approach, with only one of them being located within the fully turbulent mixing layer. Other parameters included in the flow self-similarity analysis are the streamwise and transverse m...",
+      "authors": [
+        "Mohamed Abuhegazy",
+        "Svetlana Poroseva",
+        "Juan D. Colmenares F.",
+        "Scott M. Murman"
+      ]
+    },
+    {
+      "title": "Characterization of a Spatially Developing Incompressible Turbulent Mixing Layer using DNS Data",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-1578",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mixing (physics)",
+        "Turbulence",
+        "Characterization (materials science)",
+        "Layer (electronics)",
+        "Compressibility",
+        "Mechanics",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "In the present paper, results of direct numerical simulation (DNS) of an incompressible turbulent mixing layer spatially developing between two co-flowing laminar boundary layers at different speeds are presented including rarely available statistics such as mean velocity component in the transverse direction and higher-order velocity moments (up to the fifth order). In the simulation, the boundary layers were formed on two sides of a sharp-ended splitter plate of a finite thickness with Re_δ = 3930 and 2412 on the high- and low-speed sides of the splitter plate, respectively. No artificial perturbations were introduced to trigger the mixing layer transition to turbulence. The computational domain was large enough to ensure the mixing layer development to fully turbulent with self-similar features. DNS was conducted using the spectral-element code Nek5000. The data convergence requirements for statistical velocity moments of various orders are discussed.",
+      "authors": [
+        "Mohamed Abuhegazy",
+        "Svetlana Poroseva",
+        "Juan D. Colmenares",
+        "Scott M. Murman"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "faculty_name": "Christoph Brehm",
+  "full_name": "Christoph Brehm",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Maryland-College Park",
+  "author_id": "A5021458652",
+  "works_count": 240,
+  "cited_by_count": 2656,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 93
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 91
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 52
+    },
+    {
+      "topic": "Mechanical Circulatory Support Devices",
+      "count": 50
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Gradient Calculation Methods on Arbitrary Polyhedral Unstructured Meshes for Cell-Centered CFD Solvers",
+      "publication_year": 2014,
+      "publication_date": "2014-01-10",
+      "doi": "https://doi.org/10.2514/6.2014-1440",
+      "venue": "52nd Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 90,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20140011550/downloads/20140011550.pdf",
+      "concepts": [
+        "Polygon mesh",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Computational science",
+        "Parallel computing",
+        "Computer graphics (images)",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "A survey of gradient reconstruction methods for cell-centered data on unstructured meshes is conducted within the scope of accuracy assessment. Formal order of accuracy, as well as error magnitudes for each of the studied methods, are evaluated on a complex mesh of various cell types through consecutive local scaling of an analytical test function. The tests highlighted several gradient operator choices that can consistently achieve 1st order accuracy regardless of cell type and shape. The tests further offered error comparisons for given cell types, leading to the observation that the \"ideal\" gradient operator choice is not universal. Practical implications of the results are explored via CFD solutions of a 2D inviscid standing vortex, portraying the discretization error properties. A relatively naive, yet largely unexplored, approach of local curvilinear stencil transformation exhibited surprisingly favorable properties",
+      "authors": [
+        "Emre Sozer",
+        "Christoph Brehm",
+        "Cetin C. Kiris"
+      ]
+    },
+    {
+      "title": "Computational framework for Launch, Ascent, and Vehicle Aerodynamics (LAVA)",
+      "publication_year": 2016,
+      "publication_date": "2016-05-27",
+      "doi": "https://doi.org/10.1016/j.ast.2016.05.008",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 123,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Computational fluid dynamics",
+        "Unstructured grid",
+        "Grid",
+        "Computer science",
+        "Curvilinear coordinates",
+        "Cartesian coordinate system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Cetin C. Kiris",
+        "Jeffrey A. Housman",
+        "Michael F. Barad",
+        "Christoph Brehm",
+        "Emre Sozer",
+        "Shayan Moini-Yekta"
+      ]
+    },
+    {
+      "title": "Noise generation mechanisms for a supersonic jet impinging on an inclined plate",
+      "publication_year": 2016,
+      "publication_date": "2016-05-25",
+      "doi": "https://doi.org/10.1017/jfm.2016.244",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 69,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Strouhal number",
+        "Physics",
+        "Supersonic speed",
+        "Mechanics",
+        "Mach number",
+        "Jet noise",
+        "Jet (fluid)",
+        "Vortex"
+      ],
+      "abstract": "Noise generation mechanisms for a perfectly expanded supersonic Mach number $M=1.8$ turbulent jet impinging on a $45^{\\circ }$ inclined plate are investigated for a Reynolds number of $1.6\\times 10^{6}$ employing a large-eddy simulation. Excellent comparisons with experimental acoustic far-field measurements and pressure measurements on the impingement plate are obtained. Two local maxima are identified in the far-field overall sound pressure levels in the $75^{\\circ }$ and $120^{\\circ }$ observer directions, which are associated with different noise generation mechanisms. The peak frequencies in the spectra with Strouhal numbers of $St=0.2$ for $75^{\\circ }$ and $St=0.5$ for $120^{\\circ }$ match the experimental measurements. The jet-impingement region generates pressure waves that propagate predominantly in the $120^{\\circ }$ observer direction. The noise generation in this region is attributed to vortex stretching and tearing during shear-layer impingement, and shock oscillations that are induced by the motion of downstream convected vortical flow structures. The second peak in the overall sound pressure distribution at $75^{\\circ }$ is associated with noise sources located i...",
+      "authors": [
+        "Christoph Brehm",
+        "Jeffrey A. Housman",
+        "Cetin C. Kiris"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Leading-Edge Treatments for Wall-Modeled Large-Eddy Simulation of an Airfoil",
+      "publication_year": 2026,
+      "publication_date": "2026-01-05",
+      "doi": "https://doi.org/10.2514/1.j066266",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Laminar flow",
+        "Boundary layer",
+        "Mechanics",
+        "Turbulence",
+        "Angle of attack",
+        "Reynolds number",
+        "Mach number"
+      ],
+      "abstract": "Wall-modeled large-eddy simulations (WMLES) of the Aerospatiale A-airfoil flow at Reynolds number of [Formula: see text], angle of attack of 13.3 deg, and Mach number of 0.15 are used as a test bed for exploring how to handle the thin laminar boundary layer and how it transitions to turbulence in a WMLES context. It is shown that application of the wall model everywhere with an unsuitable exchange location can lead to excessive boundary-layer growth and up to 10% underprediction of the lift coefficient. Several numerical approaches are examined to handle the laminar region of the airfoil flow within the WMLES framework. A transition sensor is implemented to locally detect where the boundary layer is laminar or turbulent and then used to dynamically activating or deactivating the wall model. The sensitivity of the predictions to the mesh resolution and the exchange location is explored.",
+      "authors": [
+        "Md. Daluar Hussain",
+        "Aniruddh Deepak Deshpande",
+        "Christoph Brehm",
+        "Johan Larsson"
+      ]
+    },
+    {
+      "title": "Correction: Exploration of Phononic Subsurfaces for Hypersonic Boundary Layer Disturbance Reduction",
+      "publication_year": 2025,
+      "publication_date": "2025-07-29",
+      "doi": "https://doi.org/10.2514/6.2025-3455.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-3455.c1",
+      "concepts": [
+        "Disturbance (geology)",
+        "Hypersonic speed",
+        "Reduction (mathematics)",
+        "Layer (electronics)",
+        "Boundary layer",
+        "Boundary (topology)",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Connor W. Klauss",
+        "Vincenzo Russo",
+        "Mahmoud I. Hussein",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Correction: Exploration of Phononic Subsurfaces for Hypersonic Boundary Layer Disturbance Reduction",
+      "publication_year": 2025,
+      "publication_date": "2025-07-29",
+      "doi": "https://doi.org/10.2514/6.2025-3455.c2",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-3455.c2",
+      "concepts": [
+        "Hypersonic speed",
+        "Disturbance (geology)",
+        "Reduction (mathematics)",
+        "Layer (electronics)",
+        "Boundary layer",
+        "Boundary (topology)",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Connor W. Klauss",
+        "Vincenzo Russo",
+        "Mahmoud I. Hussein",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Assessment of Wall-Modeled Large-Eddy Simulation for Hypersonic Transitional Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3532",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Hypersonic flow",
+        "Large eddy simulation",
+        "Aerospace engineering",
+        "Boundary (topology)",
+        "Mechanics",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "Wall-modeled large-eddy simulations (WMLES) enable turbulence-resolving simulations at high Reynolds numbers by modeling the turbulence in the innermost part of the boundary layer. The WMLES approach relies theoretically on the idea that near-wall turbulence behaves in a somewhat universal manner, but this is not necessarily true for laminar/transitional flows. The topic of modeling transitional boundary layers in the context of WMLES has been largely unexplored. The present work aims at understanding what is possible and what is not when applying the WMLES technique to transitional flows, and what the grid resolution requirements are. To this end, simulations of a Mach 6 transitional boundary layer are conducted.",
+      "authors": [
+        "James P. Marbaix",
+        "Joshua Batstone",
+        "Johan Larsson",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Stability Investigation of High-Speed Boundary Layer Flows with Transpiration Cooling Through Porous Media",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3721",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transpiration",
+        "Porous medium",
+        "Boundary layer",
+        "Stability (learning theory)",
+        "Porosity",
+        "Materials science",
+        "Layer (electronics)",
+        "Environmental science"
+      ],
+      "abstract": "Hypersonic vehicles operating within the atmosphere are subjected to extreme thermal loads, which can be mitigated using transpiration cooling - a technique that injects coolant gas or liquid through the vehicle surface. While this heat mitigation strategy can be effective in reducing surface temperatures, it can also alter boundary layer stability and potentially trigger an earlier transition to turbulence. Since the surface temperature and blowing characteristics of a transpiring coolant depend on both the external flow field and the properties of the porous material, this study investigates, for the first time, the effects of gas injection through a realistic porous structure on high-speed boundary layer stability. The gas transport within the material and the thermal response are resolved using a high-fidelity coupled CHAMPS-KATS fluid–material interaction solver. The resulting surface blowing velocity and temperature distributions are then used as boundary conditions for a separate linear stability analysis. Air injection is evaluated at multiple mass flux levels under both ground-based wind tunnel and stratospheric flight conditions over a moderately blunt cone geometry. L...",
+      "authors": [
+        "Vincenzo Russo",
+        "Fouad Omrane",
+        "Aleksander L. Zibitsker",
+        "Joel A. McQuaid",
+        "Alexandre Martin",
+        "Christoph Brehm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Rob Stoll",
+  "full_name": "Rob Stoll",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Utah",
+  "author_id": "A5087703276",
+  "works_count": 90,
+  "cited_by_count": 1778,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 44
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 27
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 22
+    },
+    {
+      "topic": "Plant Water Relations and Carbon Dynamics",
+      "count": 16
+    },
+    {
+      "topic": "Aeolian processes and effects",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Dynamic subgrid‐scale models for momentum and scalar fluxes in large‐eddy simulations of neutrally stratified atmospheric boundary layers over heterogeneous terrain",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1029/2005wr003989",
+      "venue": "Water Resources Research",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/146712",
+      "concepts": [
+        "Large eddy simulation",
+        "Turbulent Prandtl number",
+        "Turbulence",
+        "Eddy diffusion",
+        "Mechanics",
+        "Prandtl number",
+        "Planetary boundary layer",
+        "Schmidt number"
+      ],
+      "abstract": "The accuracy of large‐eddy simulations (LESs) of the atmospheric boundary layer (ABL) over complex terrain relies on the ability of the subgrid‐scale (SGS) models to capture the effect of subgrid turbulent fluxes on the resolved fields of velocity and scalars (e.g., heat, water vapor, and pollutants). A common approach consists of parameterizing the SGS stresses and fluxes using eddy viscosity and eddy diffusivity models, respectively. These models require the specification of two parameters: the Smagorinsky coefficient in the eddy viscosity model and, in addition, the SGS Schmidt/Prandtl number in the eddy diffusivity model. This is complicated by the dependence of the coefficients on local conditions such as distance to the ground, mean shear, and atmospheric stability. In this study, scale‐dependent dynamic SGS models are used in conjunction with Lagrangian averaging to compute both the Smagorinsky coefficient and the SGS Schmidt (or Prandtl) number dynamically as the flow evolves in both space and time based on the local dynamics of the resolved scales. These tuning‐free models are implemented in LES of both homogeneous and heterogeneous neutral atmospheric boundary layers w...",
+      "authors": [
+        "Rob Stoll",
+        "Fernando Porté‐Agel"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of the Stable Atmospheric Boundary Layer using Dynamic Models with Different Averaging Schemes",
+      "publication_year": 2007,
+      "publication_date": "2007-07-12",
+      "doi": "https://doi.org/10.1007/s10546-007-9207-4",
+      "venue": "Boundary-Layer Meteorology",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/146705",
+      "concepts": [
+        "Large eddy simulation",
+        "Boundary layer",
+        "Turbulence",
+        "Statistical physics",
+        "Dynamic similarity",
+        "Flow (mathematics)",
+        "Planetary boundary layer",
+        "Direct numerical simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rob Stoll",
+        "Fernando Porté‐Agel"
+      ]
+    },
+    {
+      "title": "Effect of Roughness on Surface Boundary Conditions for Large-Eddy Simulation",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1007/s10546-005-4735-2",
+      "venue": "Boundary-Layer Meteorology",
+      "type": "article",
+      "cited_by_count": 78,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/146715",
+      "concepts": [
+        "Boundary layer",
+        "Planetary boundary layer",
+        "Large eddy simulation",
+        "Surface roughness",
+        "Mechanics",
+        "Roughness length",
+        "Surface finish",
+        "Aerodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rob Stoll",
+        "Fernando Porté‐Agel"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Role of flow topology in wind-driven wildfire propagation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-01",
+      "doi": "https://doi.org/10.1063/5.0268416",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Topology (electrical circuits)",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Statistical physics",
+        "Meteorology",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "Wildfires propagate through interactions between wind, fuel, and terrain, resulting in complex behaviors that challenge accurate predictions. This study investigates the interaction between wind velocity topology and wildfire dynamics, aiming to enhance our understanding of wildfire spread patterns through a simplified nonlinear convection–diffusion–reaction wildfire model, adopting a fundamental reactive flow dynamics perspective. We revisited the non-dimensionalizion of the governing combustion model by incorporating three distinct time scales. This approach revealed two new non-dimensional numbers, contrasting with the conventional non-dimensionalization that considers only a single time scale. Through scaling analysis, we analytically identified the critical determinants of transient wildfire behavior and established a state-neutral curve, indicating where initial wildfires extinguish for specific combinations of the identified non-dimensional numbers. Subsequently, a wildfire transport solver was developed, integrating upwind compact schemes and implicit–explicit Runge–Kutta methods. We explored the influence of stable and unstable manifolds in wind topology on the transpor...",
+      "authors": [
+        "Siva Viknesh S.",
+        "Ali Tohidi",
+        "Fatemeh Afghah",
+        "Rob Stoll",
+        "Amirhossein Arzani"
+      ]
+    },
+    {
+      "title": "Role of flow topology in wind-driven wildfire propagation",
+      "publication_year": 2024,
+      "publication_date": "2024-11-06",
+      "doi": "https://doi.org/10.48550/arxiv.2411.04007",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2411.04007",
+      "concepts": [
+        "Flow (mathematics)",
+        "Topology (electrical circuits)",
+        "Environmental science",
+        "Atmospheric sciences",
+        "Computer science",
+        "Mechanics",
+        "Physics",
+        "Engineering"
+      ],
+      "abstract": "Wildfires propagate through intricate interactions between wind, fuel, and terrain, resulting in complex behaviors that pose challenges for accurate predictions. This study investigates the interaction between wind velocity topology and wildfire spread dynamics, aiming to enhance our understanding of wildfire spread patterns. We revisited the non-dimensionalizion of the governing combustion model by incorporating three distinct time scales. This approach revealed two new non-dimensional numbers, contrasting with the conventional non-dimensionalization that considers only a single time scale. Through scaling analysis, we analytically identified the critical determinants of transient wildfire behavior and established a state-neutral curve, indicating where initial wildfires extinguish for specific combinations of the identified non-dimensional numbers. Subsequently, a wildfire transport solver was developed using a finite difference method, integrating compact schemes and implicit-explicit Runge-Kutta methods. We explored the influence of stable and unstable manifolds in wind velocity on wildfire transport under steady wind conditions defined using a saddle-type fixed point flow, ...",
+      "authors": [
+        "Siva Viknesh",
+        "Ali Tohidi",
+        "Fatemeh Afghah",
+        "Rob Stoll",
+        "Amirhossein Arzani"
+      ]
+    },
+    {
+      "title": "Improving the performance of a reduced-order mass-consistent model for urban environments and complex terrain with a higher-order geometrical representation",
+      "publication_year": 2024,
+      "publication_date": "2024-06-10",
+      "doi": "https://doi.org/10.22541/essoar.171805526.61540003/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Terrain",
+        "Turbulence",
+        "Surface (topology)",
+        "Sensitivity (control systems)",
+        "Flow (mathematics)",
+        "Representation (politics)",
+        "Scalar (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "Solid structures (buildings and topography) act as obstacles and significantly influence the wind flow around them. Because of their importance, faithfully representing the geometry of structures in numerical predictions is critical to modeling accurate wind fields. A higher-order geometry representation called the cut-cell method is incorporated in the mass-consistent wind model, QES-Winds. To represent the differences between a stair-step and the cut-cell method, an urban case study (the Oklahoma City JU2003 experiments) and a complex terrain case (from the MATERHORN campaign) are modeled in QES-Winds. Comparison between the simulation results with the stair-step and cut-cell methods and the measured data for sensors close to walls and buildings showed that the sensitivity of the cut-cell method to changes in resolution is less than the stair-step method. Another way to improve the effects of solid geometries on the flow is to correct the velocity gradient near the surface. QES-Winds solves for the mass-consistent flow field and does not include the momentum effects. This means that QES-Winds overestimates velocity gradients near the surface which can lead to higher rates of s...",
+      "authors": [
+        "Behnam Bozorgmehr",
+        "Peter Willemsen",
+        "Jeremy A. Gibbs",
+        "Rob Stoll",
+        "Jae‐Jin Kim",
+        "Zachary Patterson",
+        "Eric R. Pardyjak"
+      ]
+    },
+    {
+      "title": "A fast-response model of turbulence and passive scalar transport in row-organized canopies",
+      "publication_year": 2024,
+      "publication_date": "2024-02-28",
+      "doi": "https://doi.org/10.1016/j.agrformet.2024.109919",
+      "venue": "Agricultural and Forest Meteorology",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.agrformet.2024.109919",
+      "concepts": [
+        "Turbulence",
+        "Scalar (mathematics)",
+        "Physics",
+        "Environmental science",
+        "Meteorology",
+        "K-epsilon turbulence model",
+        "Atmospheric sciences",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lucas Ulmer",
+        "Fabien Margairaz",
+        "Walter F. Mahaffee",
+        "Rob Stoll"
+      ]
+    },
+    {
+      "title": "QES-Plume v1.0: a Lagrangian dispersion model",
+      "publication_year": 2023,
+      "publication_date": "2023-10-17",
+      "doi": "https://doi.org/10.5194/gmd-16-5729-2023",
+      "venue": "Geoscientific model development",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://gmd.copernicus.org/articles/16/5729/2023/gmd-16-5729-2023.pdf",
+      "concepts": [
+        "Plume",
+        "Turbulence",
+        "Physics",
+        "Boundary layer",
+        "Gaussian",
+        "Flow (mathematics)",
+        "Scaling",
+        "Dispersion (optics)"
+      ],
+      "abstract": "Low-cost simulations providing accurate predictions of transport of airborne material in urban areas, vegetative canopies, and complex terrain are demanding because of the small-scale heterogeneity of the features influencing the mean flow and turbulence fields. Common models used to predict turbulent transport of passive scalars are based on the Lagrangian stochastic dispersion model. The Quick Environmental Simulation (QES) tool is a low-computational-cost framework developed to provide high-resolution wind and concentration fields in a variety of complex atmospheric-boundary-layer environments. Part of the framework, QES-Plume, is a Lagrangian dispersion code that uses a time-implicit integration scheme to solve the generalized Langevin equations which require mean flow and turbulence fields. Here, QES-Plume is driven by QES-Winds, a 3D fast-response model that computes mass-consistent wind fields around buildings, vegetation, and hills using empirical parameterizations, and QES-Turb, a local-mixing-length turbulence model. In this paper, the particle dispersion model is presented and validated against analytical solutions to examine QES-Plume’s performance under idealized co...",
+      "authors": [
+        "Fabien Margairaz",
+        "Balwinder Singh",
+        "Jeremy A. Gibbs",
+        "Loren Atwood",
+        "Eric R. Pardyjak",
+        "Rob Stoll"
+      ]
+    }
+  ]
+}

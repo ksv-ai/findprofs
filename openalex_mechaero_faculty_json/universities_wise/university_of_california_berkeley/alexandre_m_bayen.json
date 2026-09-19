@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Alexandre M. Bayen",
+  "full_name": "Alexandre M. Bayen",
+  "department": "Department of Electrical Engineering and Computer Sciences / Department of Civil and Environmental Engineering / Aerospace Engineering Program",
+  "university": "University of California-Berkeley",
+  "author_id": "A5021116704",
+  "works_count": 502,
+  "cited_by_count": 15154,
+  "h_index": 58,
+  "top_topics": [
+    {
+      "topic": "Traffic control and management",
+      "count": 195
+    },
+    {
+      "topic": "Transportation Planning and Optimization",
+      "count": 126
+    },
+    {
+      "topic": "Traffic Prediction and Management Techniques",
+      "count": 110
+    },
+    {
+      "topic": "Autonomous Vehicle Technology and Safety",
+      "count": 53
+    },
+    {
+      "topic": "Transportation and Mobility Innovations",
+      "count": 29
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A time-dependent Hamilton-Jacobi formulation of reachable sets for continuous dynamic games",
+      "publication_year": 2005,
+      "publication_date": "2005-07-01",
+      "doi": "https://doi.org/10.1109/tac.2005.851439",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 1184,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Correctness",
+        "Set (abstract data type)",
+        "Viscosity solution",
+        "State space",
+        "Differential game",
+        "Mathematics",
+        "State (computer science)",
+        "Trajectory"
+      ],
+      "abstract": "We describe and implement an algorithm for computing the set of reachable states of a continuous dynamic game. The algorithm is based on a proof that the reachable set is the zero sublevel set of the viscosity solution of a particular time-dependent Hamilton-Jacobi-Isaacs partial differential equation. While alternative techniques for computing the reachable set have been proposed, the differential game formulation allows treatment of nonlinear systems with inputs and uncertain parameters. Because the time-dependent equation's solution is continuous and defined throughout the state space, methods from the level set literature can be used to generate more accurate approximations than are possible for formulations with potentially discontinuous solutions. A numerical implementation of our formulation is described and has been released on the web. Its correctness is verified through a two vehicle, three dimensional collision avoidance example for which an analytic solution is available.",
+      "authors": [
+        "Ian M. Mitchell",
+        "Alexandre M. Bayen",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "Evaluation of traffic data obtained via GPS-enabled mobile phones: The Mobile Century field experiment",
+      "publication_year": 2009,
+      "publication_date": "2009-12-29",
+      "doi": "https://doi.org/10.1016/j.trc.2009.10.006",
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "type": "article",
+      "cited_by_count": 925,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Handset",
+        "Global Positioning System",
+        "Computer science",
+        "Real-time computing",
+        "Cellular network",
+        "Mobile device",
+        "Mobile phone",
+        "Software deployment"
+      ],
+      "abstract": "",
+      "authors": [
+        "Juan Carlos Herrera",
+        "Daniel B. Work",
+        "Ryan Herring",
+        "Xuegang Ban",
+        "Quinn Jacobson",
+        "Alexandre M. Bayen"
+      ]
+    },
+    {
+      "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+      "publication_year": 2021,
+      "publication_date": "2021-03-02",
+      "doi": "https://doi.org/10.48550/arxiv.2103.01955",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 600,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2103.01955",
+      "concepts": [
+        "Reinforcement learning",
+        "Computer science",
+        "Hyperparameter",
+        "Domain (mathematical analysis)",
+        "Code (set theory)",
+        "Sample (material)",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "abstract": "Proximal Policy Optimization (PPO) is a ubiquitous on-policy reinforcement learning algorithm but is significantly less utilized than off-policy learning algorithms in multi-agent settings. This is often due to the belief that PPO is significantly less sample efficient than off-policy methods in multi-agent systems. In this work, we carefully study the performance of PPO in cooperative multi-agent settings. We show that PPO-based multi-agent algorithms achieve surprisingly strong performance in four popular multi-agent testbeds: the particle-world environments, the StarCraft multi-agent challenge, Google Research Football, and the Hanabi challenge, with minimal hyperparameter tuning and without any domain-specific algorithmic modifications or architectures. Importantly, compared to competitive off-policy methods, PPO often achieves competitive or superior results in both final returns and sample efficiency. Finally, through ablation studies, we analyze implementation and hyperparameter factors that are critical to PPO's empirical performance, and give concrete practical suggestions regarding these factors. Our results show that when using these practices, simple PPO-based method...",
+      "authors": [
+        "Chao Yu",
+        "Akash Velu",
+        "Eugene Vinitsky",
+        "Gao, Jiaxuan",
+        "Yu Wang",
+        "Alexandre M. Bayen",
+        "Yi Wu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Operational Air Taxi Flight Routes in a Metropolitan Region",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3240",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Metropolitan area",
+        "Aeronautics",
+        "Computer science",
+        "Transport engineering",
+        "Air traffic control",
+        "Aerospace engineering",
+        "Engineering",
+        "Geography"
+      ],
+      "abstract": "Aviation technology advances in Urban Air Mobility (UAM) will bring new aircraft to the National Airspace System (NAS) and with it near-term operational barriers: traffic density, Class B/C overlap, and pilot-controller workload. This article presents the design and evaluation of four operational air taxi flight routes for manned flight of electric vertical takeoff and landing (eVTOL) aircraft in the San Francisco Bay Area network (SF network). In the SF network, where many complex, congested, and controlled airspaces restrict flight, pilot-selected operational flight routes utilizing legacy General Aviation (GA) flyways and transition routes would allow these aircraft to operate near-term. This article also presents direction-specific flight mission profiles between vertiports located at the Richmond Field Station (RFS) at the University of California, Berkeley, and the Berkeley Space Center at NASA Ames Research Center. Lastly, using Automatic Dependent Surveillance-Broadcast (ADS-B) flight data, a feasibility study on congestion of the routes is presented from aircraft in the SF network. This feasibility study observes flight density, dwell time duration, and number of unique...",
+      "authors": [
+        "Jordan Kam",
+        "Matthias Cassanova",
+        "Vishwanath Bulusu",
+        "Alexandre M. Bayen",
+        "Raja Sengupta"
+      ]
+    },
+    {
+      "title": "Unsupervised Anomaly Detection in Multi-Agent Trajectory Prediction via Transformer-Based Models",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1109/iv66570.2026.11624104",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Artificial intelligence",
+        "Computer science",
+        "Anomaly detection",
+        "Pattern recognition (psychology)",
+        "Algorithm",
+        "Noise (video)",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qing Lyu",
+        "Zhe Fu",
+        "Alexandre M. Bayen"
+      ]
+    },
+    {
+      "title": "Average Unfairness in Routing Games",
+      "publication_year": 2026,
+      "publication_date": "2026-05-24",
+      "doi": "https://doi.org/10.65109/hakf7947",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Latency (audio)",
+        "Upper and lower bounds",
+        "Mathematical optimization",
+        "Nash equilibrium",
+        "Computer science",
+        "Mathematics",
+        "Measure (data warehouse)",
+        "Constraint (computer-aided design)"
+      ],
+      "abstract": "We propose average unfairness as a new measure of fairness in routing games, defined as the ratio between the average latency and the minimum latency experienced by users. This measure is a natural complement to two existing unfairness notions: loaded unfairness, which compares maximum and minimum latencies of routes with positive flow, and user equilibrium (UE) unfairness, which compares maximum latency with the latency of a Nash equilibrium. We show that the worst-case values of all three unfairness measures coincide and are characterized by a steepness parameter intrinsic to the latency function class. We show that average unfairness is always no greater than loaded unfairness, and the two measures are equal only when the flow is fully fair. Besides that, we offer a complete comparison of the three unfairness measures, which, to the best of our knowledge, is the first theoretical analysis in this direction. Finally, we study the constrained system optimum (CSO) problem, where one seeks to minimize total latency subject to an upper bound on unfairness. We prove that, for the same tolerance level, the optimal flow under an average unfairness constraint achieves lower total late...",
+      "authors": [
+        "Pan-Yang Su",
+        "Arwa Alanqary",
+        "Bryce L. Ferguson",
+        "Manxi Wu",
+        "Alexandre M. Bayen",
+        "Shankar Sastry"
+      ]
+    },
+    {
+      "title": "Supervised and Unsupervised Neural Network Solver for First Order Hyperbolic Nonlinear PDEs",
+      "publication_year": 2026,
+      "publication_date": "2026-01-10",
+      "doi": "https://doi.org/10.48550/arxiv.2601.06388",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.06388",
+      "concepts": [
+        "Artificial neural network",
+        "Nonlinear system",
+        "Computer science",
+        "Solver",
+        "Partial differential equation",
+        "Algorithm",
+        "Scalar (mathematics)",
+        "Field (mathematics)"
+      ],
+      "abstract": "We present a neural network-based method for learning scalar hyperbolic conservation laws. Our method replaces the traditional numerical flux in finite volume schemes with a trainable neural network while preserving the conservative structure of the scheme. The model can be trained both in a supervised setting with efficiently generated synthetic data or in an unsupervised manner, leveraging the weak formulation of the partial differential equation. We provide theoretical results that our model can perform arbitrarily well, and provide associated upper bounds on neural network size. Extensive experiments demonstrate that our method often outperforms efficient schemes such as Godunov's scheme, WENO, and Discontinuous Galerkin for comparable computational budgets. Finally, we demonstrate the effectiveness of our method on a traffic prediction task, leveraging field experimental highway data from the Berkeley DeepDrive drone dataset.",
+      "authors": [
+        "Zakaria Baba",
+        "Alexandre M. Bayen",
+        "Alexi Canesse",
+        "Maria Laura Delle Monache",
+        "Martin Drieux",
+        "Zhe Fu",
+        "Nathan Lichtlé",
+        "Zihe Liu",
+        "Hossein Nick Zinat Matin",
+        "Benedetto Piccoli"
+      ]
+    },
+    {
+      "title": "Supervised and Unsupervised Neural Network Solver for First Order Hyperbolic Nonlinear PDEs",
+      "publication_year": 2026,
+      "publication_date": "2026-01-10",
+      "doi": "http://arxiv.org/abs/2601.06388",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.06388",
+      "concepts": [
+        "Artificial neural network",
+        "Nonlinear system",
+        "Computer science",
+        "Solver",
+        "Partial differential equation",
+        "Algorithm",
+        "Scalar (mathematics)",
+        "Field (mathematics)"
+      ],
+      "abstract": "We present a neural network-based method for learning scalar hyperbolic conservation laws. Our method replaces the traditional numerical flux in finite volume schemes with a trainable neural network while preserving the conservative structure of the scheme. The model can be trained both in a supervised setting with efficiently generated synthetic data or in an unsupervised manner, leveraging the weak formulation of the partial differential equation. We provide theoretical results that our model can perform arbitrarily well, and provide associated upper bounds on neural network size. Extensive experiments demonstrate that our method often outperforms efficient schemes such as Godunov's scheme, WENO, and Discontinuous Galerkin for comparable computational budgets. Finally, we demonstrate the effectiveness of our method on a traffic prediction task, leveraging field experimental highway data from the Berkeley DeepDrive drone dataset.",
+      "authors": [
+        "Zakaria Baba",
+        "Alexandre M. Bayen",
+        "Alexi Canesse",
+        "Maria Laura Delle Monache",
+        "Martin Drieux",
+        "Zhe Fu",
+        "Nathan Lichtlé",
+        "Zihe Liu",
+        "Hossein Nick Zinat Matin",
+        "Benedetto Piccoli"
+      ]
+    }
+  ]
+}

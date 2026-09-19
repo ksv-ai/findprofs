@@ -1,0 +1,240 @@
+{
+  "faculty_name": "Nadia Kianvashrad",
+  "full_name": "Nadia Kianvashrad",
+  "department": "Department of Aerospace Engineering",
+  "university": "Wichita State University",
+  "author_id": "A5063734092",
+  "works_count": 45,
+  "cited_by_count": 211,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 33
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 25
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 24
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 16
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Large Eddy Simulation of Hypersonic Cold Wall Flat Plate",
+      "publication_year": 2021,
+      "publication_date": "2021-07-28",
+      "doi": "https://doi.org/10.2514/6.2021-2882",
+      "venue": "AIAA AVIATION 2021 FORUM",
+      "type": "conference-paper",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Boundary layer",
+        "Mechanics",
+        "Shock (circulatory)",
+        "Detached eddy simulation",
+        "Large eddy simulation",
+        "Inflow"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2021-2882.vid There is a recent reinterest in hypersonic flight with special attention on the capability of numerical simulations. Reynolds-Averaged Navier-Stokes (RANS) calculations showed that RANS is incapable of predicting complicated hypersonic flows such as shock wave boundary layer interaction accurately. In this paper, we use Large Eddy Simulation (LES) for the prediction of a cold wall hypersonic turbulent flow over a flat plate. The sensitivity of the model relative to the inflow wall temperature, recycling method, and the number of cells in the boundary layer will be presented. This is a preparation step for using LES to predict aerothermodynamic loading for more complicated hypersonic turbulent flows.",
+      "authors": [
+        "Nadia Kianvashrad",
+        "Doyle Knight"
+      ]
+    },
+    {
+      "title": "Large Eddy Simulation of Hypersonic Turbulent Boundary Layers",
+      "publication_year": 2021,
+      "publication_date": "2021-12-11",
+      "doi": "https://doi.org/10.3390/fluids6120449",
+      "venue": "Fluids",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2311-5521/6/12/449/pdf?version=1639389021",
+      "concepts": [
+        "Hypersonic speed",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Boundary layer",
+        "Turbulence",
+        "Mechanics",
+        "Prandtl number",
+        "Turbulent Prandtl number",
+        "Large eddy simulation"
+      ],
+      "abstract": "The recent revival of interest in developing new hypersonic vehicles brings attention to the need for accurate prediction of hypersonic flows by computational methods. One of the challenges is prediction of aerothermodynamic loading over the surface of the vehicles. Reynolds Average Navier-Stokes (RANS) methods have not shown consistent accuracy in prediction of such flows. Therefore, new methods including Large Eddy Simulations (LES) should be investigated. In this paper, the LES method is used for prediction of the boundary layer over a flat plate. A new recycling-rescaling method is tested. The method uses total enthalpy and static pressure along with the velocity components to produce the best results for the Law of the Wall, turbulent statistics and turbulent Prandtl number.",
+      "authors": [
+        "Nadia Kianvashrad",
+        "Doyle Knight"
+      ]
+    },
+    {
+      "title": "Nonequilibrium Effects on Prediction of Aerothermodynamic Loading for a Double Cone",
+      "publication_year": 2019,
+      "publication_date": "2019-04-22",
+      "doi": "https://doi.org/10.2514/1.j057883",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 36,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Freestream",
+        "Hypersonic speed",
+        "Thermochemistry",
+        "Heat transfer",
+        "Non-equilibrium thermodynamics",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Hypersonic flight"
+      ],
+      "abstract": "There is a recent re-interest in hypersonic flight with special attention on the capability of numerical simulations. A recent set of experiments with equilibrium freestream conditions was performed at the Calspan—University at Buffalo Research Center and is a bench test for assessment of computational fluid dynamics capabilities. Previous calculations showed significant discrepancies between the numerical and experimental peak surface heat transfers and pressures. In this paper, the effect of the Park I thermochemistry model and vibrational–translational energy transfer on the prediction of the surface heat transfer and surface pressure is examined. The effects of both models on the predicted peak values are negligible. However, the calculations with no thermochemistry and vibrational–translational energy transfer show the best prediction of the separation region size.",
+      "authors": [
+        "Nadia Kianvashrad",
+        "Doyle Knight"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Frequency and Heated Region Shape Effects on the Physics of Mach 2 Flow Over a Hemisphere Cylinder",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0082",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Strouhal number",
+        "Mach number",
+        "Physics",
+        "Drag",
+        "Mechanics",
+        "Vortex",
+        "Cylinder",
+        "Vortex shedding"
+      ],
+      "abstract": "The interaction of a heated region with a hemisphere cylinder in Mach 2 flow is numerically investigated. Energy deposition is applied at frequencies of 4148.86 Hz and 8297.72 Hz (i.e. Strouhal number of 0.2 and 0.4 respectively) for two heated region shapes, a spherical heated region and a truncated cone heated region. Details of how the flow physics changes and its effect on drag reduction are included. Changing the heated region shape, alters blast wave shape and vortex formation processes. For single impulse energy deposition, the truncated cone accounts for more drag reduction compared to the spherical heated region. Pulsed energy deposition results in an increase in the drag reduction obtained.",
+      "authors": [
+        "Kiora Joseph",
+        "Nadia Kianvashrad"
+      ]
+    },
+    {
+      "title": "Large Eddy Simulation of a 45-Degree Expansion-Compression Corner at Mach 3",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1153",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Large eddy simulation",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Geology",
+        "Section (typography)",
+        "Reynolds number",
+        "Geometry"
+      ],
+      "abstract": "This paper will examine the capability of Implicit Large Eddy Simulation (ILES) in predicting a 45-degree expansion-compression corner at Mach 3. The separation region size in this problem is large, covering the entire inclined section of the geometry (i.e., the whole section between the expansion corner and the compression corner). This large separation region will result in flow structures that are hard to predict with Reynolds Averaged Navier-Stokes (RANS) simulations. The predicted surface pressure agrees with experimental data.",
+      "authors": [
+        "Nadia Kianvashrad"
+      ]
+    },
+    {
+      "title": "Supersonic Turbulent Flow Over an Expansion-Compression Corner Using Large Eddy Simulation",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2746",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Turbulence",
+        "Large eddy simulation",
+        "Mechanics",
+        "Choked flow",
+        "Compression (physics)",
+        "Flow (mathematics)",
+        "Detached eddy simulation"
+      ],
+      "abstract": "This paper will examine the capability of Large Eddy Simulation with the newly introduced recycling-rescaling method named Ht&p in predicting the flowfield over an expansion compression corner at Mach 3 and 4 and expansion angles of 8, 25, and 45 degrees. A separate Large Eddy Simulation over a flat plate was performed to calculate the dynamic turbulent inflow conditions. The generated turbulent flow at the averaging station matches the experimental data before the flow reaches the expansion corner and the displacement and momentum thicknesses are accurately predicted. The calculated averaged surface pressure at the centerline of the expansion-compression corner and the static pressure profiles at several locations in the flowfield are in agreement with the experimental data.",
+      "authors": [
+        "Nadia Kianvashrad"
+      ]
+    },
+    {
+      "title": "Correction: Effect of Wall Temperature on Large Eddy Simulation of Hypersonic Flows Over a Flat Plate",
+      "publication_year": 2024,
+      "publication_date": "2024-07-29",
+      "doi": "https://doi.org/10.2514/6.2024-4441.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic flow",
+        "Hypersonic speed",
+        "Large eddy simulation",
+        "Mechanics",
+        "Aerospace engineering",
+        "Materials science",
+        "Physics",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nadia Kianvashrad"
+      ]
+    },
+    {
+      "title": "Effect of Wall Temperature on Large Eddy Simulation of Hypersonic Flows Over a Flat Plate",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4441",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Hypersonic flow",
+        "Eddy current",
+        "Large eddy simulation",
+        "Materials science",
+        "Aerospace engineering",
+        "Mechanics",
+        "Hypersonic flight"
+      ],
+      "abstract": "This paper examines the effect of wall temperature on the Large Eddy Simulation of hypersonic flow over a flat plate at Mach 8. The newly introduced H_t&p method is used as the recycling-rescaling method. The resulting velocity profiles are in close agreement with the Law of the Wall theory. The Reynolds Analogy Factor is in the range of the experimental data in the literature. The Morkovin, Huang, extended Strong Reynolds Analogies and turbulent Prandtl number are not constant in the boundary layer but are close to the expected values from theory.",
+      "authors": [
+        "Nadia Kianvashrad"
+      ]
+    }
+  ]
+}

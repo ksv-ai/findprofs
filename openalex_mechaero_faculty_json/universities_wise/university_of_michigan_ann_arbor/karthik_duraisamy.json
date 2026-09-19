@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Karthik Duraisamy",
+  "full_name": "Karthik Duraisamy",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Michigan-Ann Arbor",
+  "author_id": "A5035881605",
+  "works_count": 229,
+  "cited_by_count": 5744,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 91
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 77
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 55
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 32
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Flow physics and RANS modelling of oblique shock/turbulent boundary layer interaction",
+      "publication_year": 2013,
+      "publication_date": "2013-07-19",
+      "doi": "https://doi.org/10.1017/jfm.2013.301",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 127,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Mechanics",
+        "Reynolds number",
+        "Reynolds stress equation model",
+        "Physics",
+        "Boundary layer",
+        "Large eddy simulation"
+      ],
+      "abstract": "Abstract Large-eddy simulation (LES) is utilized to investigate flow physics and lower-fidelity modelling assumptions in the simulation of an oblique shock impinging on a supersonic turbulent boundary layer (OSTBLI). A database of LES solutions is presented, covering a range of shock strengths and Reynolds numbers, that is utilized as a surrogate-truth model to explore three topics. First, detailed conservation budgets are extracted within the framework of parametric investigation to identify trends that might be used to mitigate statistical (aleatory) uncertainties in inflow conditions. It is found, for instance, that an increase in Reynolds number does not significantly affect length of separation. Additionally, it is found that variation in the shock-generating wedge angle has the effect of increasing the intensity of low-frequency oscillations and moving these motions towards longer time scales, even when scaled by interaction length. Next, utilizing the LES database, a detailed analysis is performed of several existing models describing the low-frequency unsteady motion of the OSTBLI system. Most significantly, it is observed that the length scale of streamwise coherent str...",
+      "authors": [
+        "Brandon Morgan",
+        "Karthik Duraisamy",
+        "Ngoc Cuong Nguyen",
+        "Shigetaka Kawai",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Using field inversion to quantify functional errors in turbulence closures",
+      "publication_year": 2016,
+      "publication_date": "2016-04-01",
+      "doi": "https://doi.org/10.1063/1.4947045",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inversion (geology)",
+        "Algorithm",
+        "Physics",
+        "Curvature",
+        "Turbulence",
+        "Inverse problem",
+        "Statistical physics",
+        "Applied mathematics"
+      ],
+      "abstract": "A data–informed approach is presented with the objective of quantifying errors and uncertainties in the functional forms of turbulence closure models. The approach creates modeling information from higher-fidelity simulations and experimental data. Specifically, a Bayesian formalism is adopted to infer discrepancies in the source terms of transport equations. A key enabling idea is the transformation of the functional inversion procedure (which is inherently infinite-dimensional) into a finite-dimensional problem in which the distribution of the unknown function is estimated at discrete mesh locations in the computational domain. This allows for the use of an efficient adjoint-driven inversion procedure. The output of the inversion is a full-field of discrepancy that provides hitherto inaccessible modeling information. The utility of the approach is demonstrated by applying it to a number of problems including channel flow, shock-boundary layer interactions, and flows with curvature and separation. In all these cases, the posterior model correlates well with the data. Furthermore, it is shown that even if limited data (such as surface pressures) are used, the accuracy of the inf...",
+      "authors": [
+        "Anand Pratap Singh",
+        "Karthik Duraisamy"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulations of a Normal Shock Train in a Constant-Area Isolator",
+      "publication_year": 2014,
+      "publication_date": "2014-01-31",
+      "doi": "https://doi.org/10.2514/1.j052348",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 121,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Isolator",
+        "Mechanics",
+        "Shock (circulatory)",
+        "Large eddy simulation",
+        "Detached eddy simulation",
+        "Boundary layer",
+        "Turbulence",
+        "Physics"
+      ],
+      "abstract": "Large-eddy simulation of a normal shock train in a constant-area isolator model (, ) is carried out to investigate solution sensitivity with respect to a variety of physical modeling assumptions. Simulations with spanwise periodic boundary conditions are first performed, the results of which are compared with experiment and validated with a three-level grid refinement study. Due to the computational cost associated with resolving near-wall structures, the large-eddy simulation is run at a Reynolds number lower than that in the comparison experiment; thus, the confinement effect of the turbulent boundary layers is not exactly duplicated. Although this discrepancy is found to affect the location of the first normal shock, the overall structure of the shock train and its interaction with the boundary layers matches the experiment quite closely. Observations of pertinent physical phenomena in the experiment, such as a lack of reversed flow in the mean and the development of secondary shear layers, are confirmed by the simulation. Next, three-dimensional effects due to the side walls of the isolator are investigated by performing large-eddy simulation of the same shock train interact...",
+      "authors": [
+        "Brandon Morgan",
+        "Karthik Duraisamy",
+        "Sanjiva K. Lele"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "CFD Vision 2030 Roadmap: Progress and Projections in 2026",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4020",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Engineering",
+        "Computer science",
+        "Engineering drawing",
+        "Mechanical engineering",
+        "Artificial intelligence",
+        "Systems engineering",
+        "Remote sensing"
+      ],
+      "abstract": "The AIAA CFD Vision 2030 Integration Committee was established to promote and track developments in Computational Fluid Dynamics (CFD), following recommendations from the 2014 CFD Vision 2030 report. The report proposed a series of developments in aerospace CFD by 2030 that included several challenge problems. It included a Roadmap that was intended to track progress in reaching the goals. This paper discusses progress towards the Roadmap plans over the past five years in topics such as HPC, Physical Mod�eling, Algorithms, Geometry & Meshing, Knowledge Extraction, and Multi-Disciplinary Design & Optimization. The impact of emerging technologies like Artificial Intelligence and Quantum Computing, which were not initially envisioned in the 2014 report, are also discussed.",
+      "authors": [
+        "Andrew M. Wissink",
+        "Andrew Cary",
+        "Nicholas J. Georgiadis",
+        "Brian Smith",
+        "Nicholas J. Wyman",
+        "Z. J. Wang",
+        "Nathan A. Wukie",
+        "Bill Gropp",
+        "Karthik Duraisamy"
+      ]
+    },
+    {
+      "title": "History-aware adaptive reduced-order models via incremental singular value decomposition",
+      "publication_year": 2026,
+      "publication_date": "2026-05-27",
+      "doi": "https://arxiv.org/abs/2605.28684",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.28684",
+      "concepts": [
+        "Singular value decomposition",
+        "Basis (linear algebra)",
+        "Nonlinear system",
+        "Computer science",
+        "Applied mathematics",
+        "Basis function",
+        "Online model",
+        "Operator (biology)"
+      ],
+      "abstract": "Reduced-order models (ROMs) can accelerate high-dimensional dynamical simulations, but their accuracy often deteriorates when online dynamics leave the regime represented by offline training data. We develop a projection-based adaptive ROM framework based on incremental singular value decomposition (iSVD), in which occasional full-order operator evaluations provide correction snapshots for online basis updates. The intrusive ROMs considered here are fully parameterized by the basis, so each update naturally propagates to reduced operators and hyper-reduction machinery. Through its evolving singular structure, iSVD retains an encoded history of the observed dynamics and is history-aware in this sense. We study the method on three nonlinear problems of increasing complexity: the one-dimensional viscous Burgers equation, the Sod shock tube, and a stiff one-dimensional ten-species rotating detonation engine (RDE). The Burgers problem is used to analyze the method and compare iSVD with alternative basis adaptation rules, showing that history-aware updates outperform instantaneous updates and that iSVD gives the strongest overall performance. The Sod and RDE cases demonstrate that the...",
+      "authors": [
+        "Amirpasha Hedayat",
+        "Ali Mohaghegh",
+        "Laura Balzano",
+        "Cheng Huang",
+        "Karthik Duraisamy"
+      ]
+    },
+    {
+      "title": "Fully Discrete Active Flux Method based on Transported Acoustic Increments for the Compressible Euler Equations",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.48550/arxiv.2605.12915",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.12915",
+      "concepts": [
+        "Compressibility",
+        "Physics",
+        "Mathematical analysis",
+        "Mathematics",
+        "Nonlinear system",
+        "Vortex",
+        "Euler equations",
+        "Classical mechanics"
+      ],
+      "abstract": "A fully discrete Active Flux method is proposed for the two-dimensional compressible Euler equations. The method builds on the evolution-operator formulation of multidimensional Active Flux proposed by Roe in which conservative cell averages are updated by unsplit flux quadrature while primitive point values are evolved by acoustic and advective subsolvers. This has recently been extended to the Euler equations by Barsukow, who developed an efficient approach by adding acoustic increments at the Eulerian target point. The proposed method reconstructs the acoustic increment as a cellwise Q2 field, using vertex, edg--midpoint, and cell-center acoustic increments, and evaluates this field at the convective foot of the target point. For constant frozen coefficients, the resulting point update reduces to the transported composition, eliminating the additive split defect and yielding the exact unsplit frozen evolution when the acoustic and advective generators commute. The resulting method preserves the exact locally linearized acoustic evolution operator of Barsukow, the compact stencil, and the conservative one-stage average update. Numerical experiments probe several facets of the ...",
+      "authors": [
+        "Karthik Duraisamy"
+      ]
+    },
+    {
+      "title": "Fully Discrete Active Flux Method based on Transported Acoustic Increments for the Compressible Euler Equations",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://arxiv.org/abs/2605.12915",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.12915",
+      "concepts": [
+        "Compressibility",
+        "Physics",
+        "Mathematical analysis",
+        "Mathematics",
+        "Nonlinear system",
+        "Vortex",
+        "Euler equations",
+        "Classical mechanics"
+      ],
+      "abstract": "A fully discrete Active Flux method is proposed for the two-dimensional compressible Euler equations. The method builds on the evolution-operator formulation of multidimensional Active Flux proposed by Roe in which conservative cell averages are updated by unsplit flux quadrature while primitive point values are evolved by acoustic and advective subsolvers. This has recently been extended to the Euler equations by Barsukow, who developed an efficient approach by adding acoustic increments at the Eulerian target point. The proposed method reconstructs the acoustic increment as a cellwise Q2 field, using vertex, edg--midpoint, and cell-center acoustic increments, and evaluates this field at the convective foot of the target point. For constant frozen coefficients, the resulting point update reduces to the transported composition, eliminating the additive split defect and yielding the exact unsplit frozen evolution when the acoustic and advective generators commute. The resulting method preserves the exact locally linearized acoustic evolution operator of Barsukow, the compact stencil, and the conservative one-stage average update. Numerical experiments probe several facets of the ...",
+      "authors": [
+        "Karthik Duraisamy"
+      ]
+    },
+    {
+      "title": "Two-point turbulence closures in physical space",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.1017/jfm.2026.11485",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0915FE39D94204A0642C7320D171A586/S0022112026114852a.pdf/div-class-title-two-point-turbulence-closures-in-physical-space-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Statistical physics",
+        "Homogeneous isotropic turbulence",
+        "Mathematics",
+        "Closure problem",
+        "Closure (psychology)",
+        "Nonlinear system",
+        "Compressibility"
+      ],
+      "abstract": "This work presents a predictive two-point statistical closure framework for turbulence formulated in physical space. A closure model for ensemble-averaged, incompressible homogeneous isotropic turbulence (HIT) is developed as a starting point to demonstrate the viability of the approach in more general flows. The evolution equation for the longitudinal correlation function is derived in a discrete form, circumventing the need for a Fourier transformation. The formulation preserves the near-exact representation of the linear terms, a defining feature of rapid distortion theory. The closure of the nonlinear higher-order moments follows the phenomenological principles of the eddy-damped quasi-normal Markovian (EDQNM) model of Orszag ( J. Fluid Mech. , vol. 41, 1970, pp. 363–386). Several key differences emerge from the physical-space treatment, including the need to evaluate a matrix exponential in the evolution equation and the appearance of triple integrals arising from the non-local nature of the pressure–Poisson equation. This framework naturally incorporates non-local length-scale information into the evolution of turbulence statistics. Verification of the physical-space two-p...",
+      "authors": [
+        "Noah Zambrano",
+        "Karthik Duraisamy"
+      ]
+    }
+  ]
+}

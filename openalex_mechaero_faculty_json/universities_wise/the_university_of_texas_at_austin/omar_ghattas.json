@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Omar Ghattas",
+  "full_name": "Omar Ghattas",
+  "department": "Walker Department of Mechanical Engineering / Oden Institute",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5049331711",
+  "works_count": 246,
+  "cited_by_count": 8455,
+  "h_index": 48,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 50
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 46
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 40
+    },
+    {
+      "topic": "Seismic Imaging and Inversion Techniques",
+      "count": 38
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Stochastic Newton MCMC Method for Large-Scale Statistical Inverse Problems with Application to Seismic Inversion",
+      "publication_year": 2012,
+      "publication_date": "2012-01-01",
+      "doi": "https://doi.org/10.1137/110845598",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 454,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hessian matrix",
+        "Markov chain Monte Carlo",
+        "Mathematics",
+        "Inverse problem",
+        "Posterior probability",
+        "Applied mathematics",
+        "Mathematical optimization",
+        "Discretization"
+      ],
+      "abstract": "We address the solution of large-scale statistical inverse problems in the framework of Bayesian inference. The Markov chain Monte Carlo (MCMC) method is the most popular approach for sampling the posterior probability distribution that describes the solution of the statistical inverse problem. MCMC methods face two central difficulties when applied to large-scale inverse problems: first, the forward models (typically in the form of partial differential equations) that map uncertain parameters to observable quantities make the evaluation of the probability density at any point in parameter space very expensive; and second, the high-dimensional parameter spaces that arise upon discretization of infinite-dimensional parameter fields make the exploration of the probability density function prohibitive. The challenge for MCMC methods is to construct proposal functions that simultaneously provide a good approximation of the target density while being inexpensive to manipulate. Here we present a so-called Stochastic Newton method in which MCMC is accelerated by constructing and sampling from a proposal density that builds a local Gaussian approximation based on local gradient and Hess...",
+      "authors": [
+        "James L. Martin",
+        "Lucas C. Wilcox",
+        "Carsten Burstedde",
+        "Omar Ghattas"
+      ]
+    },
+    {
+      "title": "A Computational Framework for Infinite-Dimensional Bayesian Inverse Problems Part I: The Linearized Case, with Application to Global Seismic Inversion",
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "doi": "https://doi.org/10.1137/12089586x",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 380,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inverse problem",
+        "Posterior probability",
+        "Uncertainty quantification",
+        "Discretization",
+        "Mathematics",
+        "Applied mathematics",
+        "Covariance",
+        "Mathematical optimization"
+      ],
+      "abstract": "We present a computational framework for estimating the uncertainty in the numerical solution of linearized infinite-dimensional statistical inverse problems. We adopt the Bayesian inference formulation: given observational data and their uncertainty, the governing forward problem and its uncertainty, and a prior probability distribution describing uncertainty in the parameter field, find the posterior probability distribution over the parameter field. The prior must be chosen appropriately in order to guarantee well-posedness of the infinite-dimensional inverse problem and facilitate computation of the posterior. Furthermore, straightforward discretizations may not lead to convergent approximations of the infinite-dimensional problem. And finally, solution of the discretized inverse problem via explicit construction of the covariance matrix is prohibitive due to the need to solve the forward problem as many times as there are parameters. Our computational framework builds on the infinite-dimensional formulation proposed by Stuart [Acta Numer., 19 (2010), pp. 451--559] and incorporates a number of components aimed at ensuring a convergent discretization of the underlying infinit...",
+      "authors": [
+        "Tan Bui–Thanh",
+        "Omar Ghattas",
+        "James L. Martin",
+        "Georg Stadler"
+      ]
+    },
+    {
+      "title": "The Dynamics of Plate Tectonics and Mantle Flow: From Local to Global Scales",
+      "publication_year": 2010,
+      "publication_date": "2010-08-26",
+      "doi": "https://doi.org/10.1126/science.1191223",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 377,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mantle (geology)",
+        "Geology",
+        "Lithosphere",
+        "Mantle convection",
+        "Plate tectonics",
+        "Slab",
+        "Geophysics",
+        "Slab window"
+      ],
+      "abstract": "Plate tectonics is regulated by driving and resisting forces concentrated at plate boundaries, but observationally constrained high-resolution models of global mantle flow remain a computational challenge. We capitalized on advances in adaptive mesh refinement algorithms on parallel computers to simulate global mantle flow by incorporating plate motions, with individual plate margins resolved down to a scale of 1 kilometer. Back-arc extension and slab rollback are emergent consequences of slab descent in the upper mantle. Cold thermal anomalies within the lower mantle couple into oceanic plates through narrow high-viscosity slabs, altering the velocity of oceanic plates. Viscous dissipation within the bending lithosphere at trenches amounts to approximately 5 to 20% of the total dissipation through the entire lithosphere and mantle.",
+      "authors": [
+        "Georg Stadler",
+        "Michael Gurnis",
+        "Carsten Burstedde",
+        "Lucas C. Wilcox",
+        "L. Alisic",
+        "Omar Ghattas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Advancing aquifer characterization through the integration of satellite geodesy, geomechanics, and Bayesian inference",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.22541/essoar.15001295/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.15001295/v1",
+      "concepts": [
+        "Remote sensing",
+        "Satellite",
+        "Bayesian probability",
+        "Bayesian inference",
+        "Geology",
+        "Aquifer",
+        "Inference",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Amal Alghamdi",
+        "Marc A. Hesse",
+        "Jingyi Chen",
+        "Omar Ghattas"
+      ]
+    },
+    {
+      "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "https://doi.org/10.48550/arxiv.2603.03211",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.03211",
+      "concepts": [
+        "Operator (biology)",
+        "Mathematical optimization",
+        "A priori and a posteriori",
+        "Shape optimization",
+        "Computer science",
+        "Mathematics",
+        "Optimization problem",
+        "Algorithm"
+      ],
+      "abstract": "Shape optimization under uncertainty (OUU) is computationally intensive for classical PDE-based methods due to the high cost of repeated sampling-based risk evaluation across many uncertainty realizations and varying geometries, while standard neural surrogates often fail to provide accurate and efficient sensitivities for optimization. We introduce Shape-DINO, a derivative-informed neural operator framework for learning PDE solution operators on families of varying geometries, with a particular focus on accelerating PDE-constrained shape OUU. Shape-DINOs encode geometric variability through diffeomorphic mappings to a fixed reference domain and employ a derivative-informed operator learning objective that jointly learns the PDE solution and its Fréchet derivatives with respect to design variables and uncertain parameters, enabling accurate state predictions and reliable gradients for large-scale OUU. We establish a priori error bounds linking surrogate accuracy to optimization error and prove universal approximation results for multi-input reduced basis neural operators in suitable $C^1$ norms. We demonstrate efficiency and scalability on three representative shape OUU problems...",
+      "authors": [
+        "Xindi Gong",
+        "Dingcheng Luo",
+        "Thomas O’Leary-Roseberry",
+        "Ruanui Nicholson",
+        "Omar Ghattas"
+      ]
+    },
+    {
+      "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "http://arxiv.org/abs/2603.03211",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.03211",
+      "concepts": [
+        "Operator (biology)",
+        "Mathematical optimization",
+        "A priori and a posteriori",
+        "Shape optimization",
+        "Computer science",
+        "Mathematics",
+        "Optimization problem",
+        "Algorithm"
+      ],
+      "abstract": "Shape optimization under uncertainty (OUU) is computationally intensive for classical PDE-based methods due to the high cost of repeated sampling-based risk evaluation across many uncertainty realizations and varying geometries, while standard neural surrogates often fail to provide accurate and efficient sensitivities for optimization. We introduce Shape-DINO, a derivative-informed neural operator framework for learning PDE solution operators on families of varying geometries, with a particular focus on accelerating PDE-constrained shape OUU. Shape-DINOs encode geometric variability through diffeomorphic mappings to a fixed reference domain and employ a derivative-informed operator learning objective that jointly learns the PDE solution and its Fréchet derivatives with respect to design variables and uncertain parameters, enabling accurate state predictions and reliable gradients for large-scale OUU. We establish a priori error bounds linking surrogate accuracy to optimization error and prove universal approximation results for multi-input reduced basis neural operators in suitable $C^1$ norms. We demonstrate efficiency and scalability on three representative shape OUU problems...",
+      "authors": [
+        "Xindi Gong",
+        "Dingcheng Luo",
+        "Thomas O’Leary-Roseberry",
+        "Ruanui Nicholson",
+        "Omar Ghattas"
+      ]
+    },
+    {
+      "title": "Goal-oriented real-time Bayesian inference for linear autonomous dynamical systems with application to digital twins for tsunami early warning",
+      "publication_year": 2026,
+      "publication_date": "2026-01-14",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114682",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2501.14911",
+      "concepts": [
+        "Inference",
+        "Warning system",
+        "Bayesian probability",
+        "Computer science",
+        "Bayesian inference",
+        "Linear dynamical system",
+        "Real-time computing",
+        "Dynamical systems theory"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stefan Henneking",
+        "Sreeram Venkat",
+        "Omar Ghattas"
+      ]
+    },
+    {
+      "title": "Neural Operator-Enabled Aerodynamic Load Estimation for Hypersonics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1210",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Nonlinear system",
+        "Inverse problem",
+        "Operator (biology)",
+        "Aerodynamic heating",
+        "Control theory (sociology)",
+        "Computation",
+        "Applied mathematics"
+      ],
+      "abstract": "This work expands on a strain-based aerodynamic sensing strategy for hypersonics to account for nonlinear temperature effects in real time. The sensing strategy uses sparse strain observations to infer the aerodynamic pressure loads, which is mathematically posed as a partial differential equation (PDE)-constrained inverse problem. In previous work, this inverse problem was shown to have a closed-form solution, where offline computation of the operations requiring the PDE solution was exploited to enable real-time evaluation speeds. In this work, the temperature effects preclude the offline pre-computation acceleration because the PDE operator is nonlinearly temperature dependent. To address this challenge, the recently developed neural matrix operator (NEMO) approach is employed to account for the temperature dependence. The NEMO method explicitly incorporates the physics structure of the governing equations, and thus preserves the availability of a closed-form inverse solution that can be computed rapidly onboard the vehicle. This work further considers the tasks of estimating the temperature field from sparse temperature measurements, and compensation for the thermal strain. ...",
+      "authors": [
+        "Julie Pham",
+        "Patrick J. Blonigan",
+        "Thomas O'Leary Roseberry",
+        "Omar Ghattas",
+        "Karen Willcox"
+      ]
+    }
+  ]
+}

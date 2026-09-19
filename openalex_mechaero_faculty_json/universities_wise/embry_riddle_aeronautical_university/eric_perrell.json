@@ -1,0 +1,149 @@
+{
+  "faculty_name": "Eric Perrell",
+  "full_name": "Eric Perrell",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5083648165",
+  "works_count": 23,
+  "cited_by_count": 80,
+  "h_index": 4,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 10
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 9
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 5
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 5
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical simulation of nonequilibrium condensation in a hypersonic wind tunnel",
+      "publication_year": 1996,
+      "publication_date": "1996-04-01",
+      "doi": "https://doi.org/10.2514/3.784",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nozzle",
+        "Hypersonic wind tunnel",
+        "Condensation",
+        "Non-equilibrium thermodynamics",
+        "Wind tunnel",
+        "Hypersonic speed",
+        "Evaporation",
+        "Mechanics"
+      ],
+      "abstract": "A computational method for calculating supersonic two-dimensional nozzle flows with nonequilibrium phase change is developed. The code uses a fully implicit, finite volume formulation with Steger-Warming flux vector splitting and Jacobi point relaxation. Source terms for finite rate condensation and evaporation are constructed from the classical theories of nucleation and droplet growth. Calculations of the NASA Langley Research Center 8-ft High Temperature Tunnel nozzle are performed and compared with previously reported quasi-one-dimensional calculations and experimental data.",
+      "authors": [
+        "Eric Perrell",
+        "W. D. Erickson",
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "Lateral jet aerodynamic interaction simulations for dynamic pressure loads",
+      "publication_year": 2000,
+      "publication_date": "2000-06-12",
+      "doi": "https://doi.org/10.2514/6.2000-2036",
+      "venue": "6th Aeroacoustics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Jet (fluid)",
+        "Dynamic pressure",
+        "Mechanics",
+        "Aerospace engineering",
+        "Computer science",
+        "Structural engineering",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sukanta Dash",
+        "Eric Perrell",
+        "Srinivasan Arunajatesan",
+        "C. Kannepalli"
+      ]
+    },
+    {
+      "title": "Turbulent effects on missile lateral control/divert jet interactions",
+      "publication_year": 1999,
+      "publication_date": "1999-01-11",
+      "doi": "https://doi.org/10.2514/6.1999-809",
+      "venue": "37th Aerospace Sciences Meeting and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Missile",
+        "Turbulence",
+        "Aerospace engineering",
+        "Jet (fluid)",
+        "Physics",
+        "Mechanics",
+        "Engineering"
+      ],
+      "abstract": "The detailed simulation of lateral jet interactions is addressed with an emphasis on turbulence effects. Thrust amplification predictions are keyed to the ability to predict jet induced separation correctly. The sensitivity of such predictions to turbulence modeling details (compressibility and nonlinear effects) is examined using fundamental laboratory data. The start-up process can induce large dynamic loads which may sustain at steady-state, resulting in quasi-periodic unsteadiness of the separation zone. Basic studies are described to support an understanding of this behavior. Issues related to particulate effects and thcnnochemistry are also addressed. thrust amplification as shown by the comparisons of Figure 1. At mid-altitudes (35-55 km), turbulent/chemistry interactions within the separation zone can control whcthcr afterburning will occur.",
+      "authors": [
+        "Sukanta Dash",
+        "Eric Perrell",
+        "Donald Kenzakowski",
+        "N. Chidambaram"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Characterization of a Throttleable N2O-HTPB Hybrid Rocket Engine",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1921",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Characterization (materials science)",
+        "Rocket (weapon)",
+        "Rocket engine",
+        "Materials science",
+        "Computer science",
+        "Aerospace engineering",
+        "Engineering",
+        "Nanotechnology"
+      ],
+      "abstract": "Hybrid rocket engines (HREs) have seen a resurgence in application in the field of hobby and commercial rocketry. This resurgence calls for improved understanding of HREs under non-steady state operation for greater application in various environments similar to liquid bi-propellant rocket engines. An N2O-HTPB HRE was designed and tested to examine the response time of the engine during a transient event. The transient event for this test was the depletion of liquid N2O during the test fire. The HRE showed higher than anticipated response time with a thrust drop-off within 810 milliseconds of depletion. Throttling with HREs was shown to be attainable and practical, giving the ability to hobbyist and commercial launch providers to increase their confidence with development of HREs.",
+      "authors": [
+        "Cameron M. Sexsmith",
+        "Alex Q. Clay",
+        "Martin D. Kovachev",
+        "Adam K. Duke",
+        "Paul Bartolemea",
+        "Eric Perrell",
+        "Ilteris Demirkiran"
+      ]
+    }
+  ]
+}

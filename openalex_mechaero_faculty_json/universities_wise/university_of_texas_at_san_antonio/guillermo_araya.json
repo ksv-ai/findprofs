@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Guillermo Araya",
+  "full_name": "Guillermo Araya",
+  "department": "Department of Mechanical, Aerospace, and Industrial Engineering",
+  "university": "University of Texas at San Antonio",
+  "author_id": "A5049645384",
+  "works_count": 146,
+  "cited_by_count": 811,
+  "h_index": 15,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 98
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 45
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 28
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 23
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "DNS of a turbulent boundary layer with surface roughness",
+      "publication_year": 2013,
+      "publication_date": "2013-07-24",
+      "doi": "https://doi.org/10.1017/jfm.2013.326",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 61,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Reynolds number",
+        "Turbulence",
+        "Surface roughness",
+        "Boundary layer thickness",
+        "Mechanics",
+        "Reynolds stress",
+        "Physics"
+      ],
+      "abstract": "Abstract A pioneer direct numerical simulation (DNS) of a turbulent boundary layer at $R{e}_{\\theta } = 2077{{\\unicode{x2013}}}2439$ , was performed, on a rough surface and with a zero pressure gradient (ZPG). The boundary layer was subjected to transitional, 24-grit sandpaper surface roughness, with a roughness parameter of ${k}^{+ } \\simeq 11$ . The computational method involves a synergy of the dynamic multi-scale approach devised by Araya et al. (2011) for prescribing inlet turbulent boundary conditions and a new methodology for mapping high-resolution topographical surface data into a computational fluid dynamics (CFD) environment. It is shown here that the dynamic multi-scale approach can be successfully extended to simulations which incorporate surface roughness. The DNS results demonstrate good agreement with the laser Doppler anemometry (LDA) measurements performed by Brzek et al. (2008) and Schultz & Flack (2003) under similar conditions in terms of mean velocity profiles, Reynolds stresses and flow parameters, such as the skin friction coefficient, boundary and momentum thicknesses. Further, it is demonstrated that the effects of the surface roughness on the Reynolds ...",
+      "authors": [
+        "James Cardillo",
+        "Chen Yi",
+        "Guillermo Araya",
+        "Jensen Newman",
+        "Kenneth E. Jansen",
+        "Luciano Castillo"
+      ]
+    },
+    {
+      "title": "Temperature Scalings and Profiles in Forced Convection Turbulent Boundary Layers",
+      "publication_year": 2008,
+      "publication_date": "2008-02-01",
+      "doi": "https://doi.org/10.1115/1.2813781",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Stanton number",
+        "Pressure gradient",
+        "Turbulence",
+        "Temperature gradient",
+        "Momentum (technical analysis)",
+        "Heat transfer",
+        "Similarity solution"
+      ],
+      "abstract": "Based on the theory of similarity analysis and the analogy between momentum and energy transport equations, the temperature scalings have been derived for forced convection turbulent boundary layers. These scalings are shown to be able to remove the effects of Reynolds number and the pressure gradient on the temperature profile. Furthermore, using the near-asymptotic method and the scalings from the similarity analysis, a power law solution is obtained for the temperature profile in the overlap region. Subsequently, a composite temperature profile is found by further introducing the functions in the wake region and in the near-the-wall region. The proposed composite temperature profile can describe the entire boundary layer from the wall all the way to the outer edge of the turbulent boundary layer at finite Re number. The experimental data and direct numerical simulation (DNS) data with zero pressure gradient and adverse pressure gradient are used to confirm the accuracy of the scalings and the proposed composite temperature profiles. Comparison with the theoretical profiles by Kader (1981, “Temperature and Concentration Profiles in Fully Turbulent Boundary Layers,” Int. J. Hea...",
+      "authors": [
+        "Xia Wang",
+        "Luciano Castillo",
+        "Guillermo Araya"
+      ]
+    },
+    {
+      "title": "Effect of small roughness elements on thermal statistics of a turbulent boundary layer at moderate Reynolds number",
+      "publication_year": 2015,
+      "publication_date": "2015-12-08",
+      "doi": "https://doi.org/10.1017/jfm.2015.676",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 22,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Prandtl number",
+        "Turbulent Prandtl number",
+        "Boundary layer",
+        "Physics",
+        "Turbulence",
+        "Laminar flow",
+        "Mechanics"
+      ],
+      "abstract": "A zero-pressure-gradient turbulent boundary layer flowing over a transitionally rough surface (24-grit sandpaper) with $k^{+}\\approx 11$ and a momentum-thickness Reynolds number of approximately 2400 is studied using direct numerical simulation (DNS). Heat transfer between the isothermal rough surface and the turbulent flow with molecular Prandtl number $Pr=0.71$ is simulated. The dynamic multiscale approach developed by Arayaet al.(J. Fluid Mech., vol. 670, 2011, pp. 581–605) is employed to prescribe realistic time-dependent thermal inflow boundary conditions. In general, the rough surface reduces mean and fluctuating temperature profiles with respect to the smooth surface flow when normalized by Wang & Castillo (J. Turbul., vol. 4, 2003, 006) inner/outer scaling. It is shown that the Reynolds analogy does not hold for $y^{+}<9$ . In this region the value of the turbulent Prandtl number departs substantially from unity. Above this region the Reynolds analogy is only approximately valid, with the turbulent Prandtl number decreasing from 1 to 0.7 across the boundary layer for rough and smooth walls. In comparison with the smooth-wall case, the turbulent transport of heat per unit...",
+      "authors": [
+        "Ali Doosttalab",
+        "Guillermo Araya",
+        "Jensen Newman",
+        "Ronald J. Adrian",
+        "Kenneth E. Jansen",
+        "Luciano Castillo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Effects of Momentum-FluxRatio on POD and SPOD Modes in High-Speed Crossflow Jets",
+      "publication_year": 2026,
+      "publication_date": "2026-01-30",
+      "doi": "https://doi.org/10.3390/app16031424",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/app16031424",
+      "concepts": [
+        "Strouhal number",
+        "Turbulence",
+        "Physics",
+        "Mechanics",
+        "Reynolds number",
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Dynamic mode decomposition"
+      ],
+      "abstract": "High-speed jet-in-crossflow (JICF) configurations are central to several aerospace applications, including turbine-blade film cooling, thrust vectoring, and fuel or hydrogen injection in combusting or reacting flows. This study employs high-fidelity direct numerical simulations (DNS) to investigate the dynamics of a supersonic jet (Mach 3.73) interacting with a subsonic crossflow (Mach 0.8) at low Reynolds numbers. Three momentum-flux ratios (J = 2.8, 5.6, and 10.2) are considered, capturing a broad range of jet–crossflow interaction regimes. Turbulent inflow conditions are generated using the Dynamic Multiscale Approach (DMA), ensuring physically consistent boundary-layer turbulence and accurate representation of jet–crossflow interactions. Modal decomposition via proper orthogonal decomposition (POD) and spectral POD (SPOD) is used to identify the dominant spatial and spectral features of the flow. Across the three configurations, near-wall mean shear enhances small-scale turbulence, while increasing J intensifies jet penetration and vortex dynamics, producing broadband spectral gains. Downstream of the jet injection, the spectra broadly preserve the expected standard pressure...",
+      "authors": [
+        "Subhajit Roy",
+        "Guillermo Araya"
+      ]
+    },
+    {
+      "title": "Poster: Unraveling Coherent Structures in Subsonic Crossflow-Supersonic Jet Interactions",
+      "publication_year": 2025,
+      "publication_date": "2025-11-23",
+      "doi": "https://doi.org/10.1103/aps.dfd.2025.gfm.p028",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/aps.dfd.2025.gfm.p028",
+      "concepts": [
+        "Physics",
+        "Jet (fluid)",
+        "Mechanics",
+        "Classical mechanics",
+        "Work (physics)",
+        "Context (archaeology)",
+        "Term (time)",
+        "Supersonic speed"
+      ],
+      "abstract": "",
+      "authors": [
+        "Abinayaa Dhanagopal",
+        "Subhajit Roy",
+        "Guillermo Araya"
+      ]
+    },
+    {
+      "title": "Remote Visualization and Optimization of Fluid Dynamics Using Mixed Reality",
+      "publication_year": 2025,
+      "publication_date": "2025-08-15",
+      "doi": "https://doi.org/10.3390/app15169017",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/app15169017",
+      "concepts": [
+        "Computer science",
+        "Visualization",
+        "Artificial intelligence"
+      ],
+      "abstract": "This study presents an innovative pipeline for processing, compressing, and remotely visualizing large-scale numerical simulations of fluid dynamics in a virtual wind tunnel (VWT), leveraging virtual and augmented reality (VR/AR) for enhanced analysis and high-end visualization. The workflow addresses the challenges of handling massive databases generated using Direct Numerical Simulation (DNS) while maintaining visual fidelity and ensuring efficient rendering for user interaction. Fully immersive visualization of supersonic (Mach number 2.86) spatially developing turbulent boundary layers (SDTBLs) over strong concave and convex curvatures was achieved. The comprehensive DNS data provides insights on the transport phenomena inside turbulent boundary layers under strong deceleration or an Adverse Pressure Gradient (APG) caused by concave walls as well as strong acceleration or a Favorable Pressure Gradient (FPG) caused by convex walls under different wall thermal conditions (i.e., Cold, Adiabatic, and Hot walls). The process begins with a .vts file input from a DNS, which is visualized using ParaView software. These visualizations, representing different fluid behaviors based on ...",
+      "authors": [
+        "Sakshi Sandeep More",
+        "Brandon Antron",
+        "David Paeres",
+        "Guillermo Araya"
+      ]
+    },
+    {
+      "title": "Adaptive slip boundary conditions for near-continuum supersonic and hypersonic flows",
+      "publication_year": 2025,
+      "publication_date": "2025-08-06",
+      "doi": "https://doi.org/10.1016/j.ast.2025.110723",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ast.2025.110723",
+      "concepts": [
+        "Supersonic speed",
+        "Hypersonic speed",
+        "Slip (aerodynamics)",
+        "Aerospace engineering",
+        "Mechanics",
+        "Boundary value problem",
+        "Physics",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christian Lagares",
+        "Guillermo Araya"
+      ]
+    },
+    {
+      "title": "Remote Visualization and Optimization in Fluid Dynamics via Mixed Reality",
+      "publication_year": 2025,
+      "publication_date": "2025-05-28",
+      "doi": "https://doi.org/10.20944/preprints202505.2232.v1",
+      "venue": "Preprints.org",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.20944/preprints202505.2232.v1",
+      "concepts": [
+        "Visualization",
+        "Dynamics (music)",
+        "Computer science",
+        "Physics",
+        "Artificial intelligence",
+        "Acoustics"
+      ],
+      "abstract": "The study presents an innovative pipeline for processing, compressing, and remotely visualizing large-scale numerical simulations of fluid dynamics in a virtual wind tunnel (VWT), leveraging Virtual and Augmented Reality (VR/AR) for enhanced analysis and high-end visualization. The workflow addresses the challenges of handling massive databases obtained via Direct Numerical Simulation (DNS) while maintaining visual fidelity, promoting full immersion, and ensuring efficient rendering for user interaction. We are performing fully immersive visualization of high-fidelity numerical results of supersonic spatially-developing turbulent boundary layers (SDTBL) under strong concave/convex curvatures at a freestream Mach number of 2.86 (i.e., supersonic flow). The selected numerical tool is Direct Numerical Simulation (DNS) with high spatial/temporal resolution. The comprehensive DNS information sheds important light on the transport phenomena inside turbulent boundary layers subject to strong deceleration or Adverse Pressure Gradient (APG) caused by concave walls as well as to strong acceleration or Favorable Pressure Gradient (FPG) caused by convex walls at different wall thermal condi...",
+      "authors": [
+        "Sakshi Sandeep More",
+        "Brandon Antron",
+        "David Paeres",
+        "Guillermo Araya"
+      ]
+    }
+  ]
+}

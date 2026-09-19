@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Sanjiva K. Lele",
+  "full_name": "Sanjiva K. Lele",
+  "department": "Department of Aeronautics and Astronautics / Mechanical Engineering",
+  "university": "Stanford University",
+  "author_id": "A5077177539",
+  "works_count": 566,
+  "cited_by_count": 24412,
+  "h_index": 69,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 372
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 239
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 221
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 90
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 60
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Compact finite difference schemes with spectral-like resolution",
+      "publication_year": 1992,
+      "publication_date": "1992-11-01",
+      "doi": "https://doi.org/10.1016/0021-9991(92)90324-r",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 6156,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite difference",
+        "Finite difference method",
+        "Mathematics",
+        "Resolution (logic)",
+        "Compact finite difference",
+        "Physics",
+        "Mathematical analysis",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Computational aeroacoustics: progress on nonlinear problems of sound generation",
+      "publication_year": 2004,
+      "publication_date": "2004-08-01",
+      "doi": "https://doi.org/10.1016/j.paerosci.2004.09.001",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 543,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational aeroacoustics",
+        "Aeroacoustics",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Discretization",
+        "Turbulence",
+        "Physics",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tim Colonius",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Motion of particles with inertia in a compressible free shear layer",
+      "publication_year": 1991,
+      "publication_date": "1991-08-01",
+      "doi": "https://doi.org/10.1063/1.857921",
+      "venue": "Physics of Fluids A Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 503,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Compressibility",
+        "Stokes number",
+        "Mach number",
+        "Shear flow",
+        "Compressible flow",
+        "Particle (ecology)"
+      ],
+      "abstract": "The effects of inertia of a particle on its flow tracking accuracy and particle dispersion are studied using direct numerical simulations of two-dimensional compressible free shear layers in convective Mach number (Mc) range of 0.2 to 0.6. The results show that particle response is well characterized by τ, the ratio of particle response time to the flow time scale (Stokes’ number). The slip between particle and fluid imposes a fundamental limit on the accuracy of optical measurements such as LDV and PIV. The error is found to grow like τ up to τ=1 and taper off at higher τ. For τ=0.2 the error is about 2%. In the flow visualizations based on Mie scattering, particles with τ>0.05 are found to grossly misrepresent the flow features. These errors are quantified by calculating the dispersion of particles relative to the fluid. The trend in lateral dispersion of particles is similar to that of incompressible flows reported by previous investigators. Overall, the effect of compressibility does not seem to be significant on the motion of particles in the range of Mc considered here.",
+      "authors": [
+        "Mo Samimy",
+        "Sanjiva K. Lele"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Subgrid Stress Modeling for Complex Geometry Using a Graph Attention Neural Network",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4772",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Graph",
+        "Artificial intelligence",
+        "Complex system",
+        "Complex geometry",
+        "Complex network",
+        "Algorithm"
+      ],
+      "abstract": "In flows of engineering interest, Large Eddy Simulation (LES) subgrid stress modeling directly impacts the integrated quantities of interest such as coefficient of lift and drag. A novel graph neural network (GNN) architecture is further explored for complex geometry simulations of an airfoil and cylinder. A priori, the neural network is trained on four different canonical flows, forced homogeneous isotropic turbulence (HIT), channel flow, zero pressure gradient boundary layer, and adverse pressure gradient boundary layer. The graph neural network model does not suffer performance degradation when trained on all four canonical flows as compared to just one canonical flow, and can extend to non-cartesian meshes even though the training set only consists of cartesian meshes. A posteriori results show that the neural network model is able to extrapolate to a cylinder flow. In addition, the training dataset is augmented with a converging-diverging channel and cylinder flow configurations. A GNN model trained on this augmented training dataset is also evaluated on a NACA 4412 airfoil, where it predicts the coefficient of lift more accurately than traditional models.",
+      "authors": [
+        "Andy Wu",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "A Graph Attention Neural Network for Subgrid Stress Modeling",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1739",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Grid",
+        "Polygon mesh",
+        "Extrapolation",
+        "Graph",
+        "Artificial intelligence",
+        "Regular grid"
+      ],
+      "abstract": "Large Eddy Simulation (LES) subgrid stress modeling directly impacts the quality of the LES solution, and should be improved to help advance the accuracy of higher Reynolds number simulations of engineering interest. A novel graph neural network architecture is introduced that can scale to complex simulations, and is able to outperform existing neural network models and traditional models. A priori, the newly proposed graph neural network model is also able to extrapolate to various grid sizes not in the training set, and to non-cartesian meshes even though the training set only consists of cartesian meshes. A posteriori, the graph neural network architecture outperforms existing neural network and traditional subgrid stress models when evaluated on flows and grid resolutions in the training set, while avoiding catastrophic failure during extrapolation to grid resolutions coarser than the training set. Furthermore, the graph neural network is evaluated on flow over a cylinder, even though it is never trained on curvilinear meshes or a cylinder flow, and provides surface pressure measurements and coefficient of drag predictions that match experimental studies.",
+      "authors": [
+        "Andy Wu",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Multi-fidelity Data Ensembles of Liquid Phase Rocket Ignition: Ignition Limit States and Reliability",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2759",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ignition system",
+        "Reliability (semiconductor)",
+        "Rocket (weapon)",
+        "Limit (mathematics)",
+        "Mechanics",
+        "Experimental data",
+        "Nuclear engineering",
+        "Statistical physics"
+      ],
+      "abstract": "To understand the reliability of successful ignition through use of laser energy deposition for a liquid-oxygen gaseous-methane rocket combustor, we conduct large-eddy simulations (LESs). We first ensure that pre-ignition flow statistics accurately reproduce companion experimental measurements conducted at Purdue University. With satisfactory agreement observed in pre-ignition, we vary physical input parameters to construct an ensemble of LES ignition trials. The majority of the computations are coarse LES but a small set of enhanced refinement calculations with an order of magnitude more grid points verify that the ignition mechanism is the same across fidelities. Subsequently, alignment between experiments and simulations is enabled by a parameter estimation framework, whereby unmeasurable quantities associated with the laser operation are inferred by the uncertainty in underlying successful ignition likelihoods that arises from a limited number of experimental trials. With confidence established in the LES, we subsequently report the ignition pathways contrasting the critical instances that lead to ignition failure or success.",
+      "authors": [
+        "Alboreno Voci",
+        "Henry Collis",
+        "Tony Zahtila",
+        "Davy Brouzet",
+        "Diego Rossinelli",
+        "Ali R. Mani",
+        "Sanjiva K. Lele",
+        "Gianluca Iaccarino"
+      ]
+    },
+    {
+      "title": "Addressing A Posteriori Performance Degradation in Neural Network Subgrid Stress Models",
+      "publication_year": 2025,
+      "publication_date": "2025-11-21",
+      "doi": "https://doi.org/10.48550/arxiv.2511.17475",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.17475",
+      "concepts": [
+        "A priori and a posteriori",
+        "Artificial neural network",
+        "Computer science",
+        "Artificial intelligence",
+        "Training set",
+        "Set (abstract data type)",
+        "Machine learning",
+        "Data set"
+      ],
+      "abstract": "Neural network subgrid stress models often have a priori performance that is far better than the a posteriori performance, leading to neural network models that look very promising a priori completely failing in a posteriori Large Eddy Simulations (LES). This performance gap can be decreased by combining two different methods, training data augmentation and reducing input complexity to the neural network. Augmenting the training data with two different filters before training the neural networks has no performance degradation a priori as compared to a neural network trained with one filter. A posteriori, neural networks trained with two different filters are far more robust across two different LES codes with different numerical schemes. In addition, by ablating away the higher order terms input into the neural network, the a priori versus a posteriori performance changes become less apparent. When combined, neural networks that use both training data augmentation and a less complex set of inputs have a posteriori performance far more reflective of their a priori evaluation.",
+      "authors": [
+        "Andy Wu",
+        "Sanjiva K. Lele"
+      ]
+    },
+    {
+      "title": "Exploration of Supersonic Jet Noise Mitigation for a Rectangular Jet Using Fluidic Injection",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3286",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Jet noise",
+        "Fluidics",
+        "Acoustics",
+        "Noise (video)",
+        "Aerospace engineering",
+        "Materials science"
+      ],
+      "abstract": "Supersonic jet noise is known to cause negative health effects on personnel and on aircraft structures. Experiment results have demonstrated that fluidic injection is effective at mitigating supersonic jet noise, but the mechanism for noise mitigation for rectangular jet is not well established. This paper presents the initial steps towards determining the mechanism. We explored the grid sensitivity of the acoustic prediction by comparing two baseline Large Eddy Simulation (LES) case. We find that it is critical to fully resolved relevant turbulence scale in order to get an accurate prediction for far-field acoustics. We further explored how the fluidic injection modifies the supersonic jet flow with a port injection configuration. It is found that the fluidic injection reduces the shock cell strength in potential core, most likely caused by the weakening of the shocks emanating from the nozzle lip and the increased level of turbulence in the initial shear layers near the nozzle outlet. Further iterations on the simulations for both baseline and fluidic injection will be conducted to further establish the mechanisms involved and allow more detailed comparison with the experiments.",
+      "authors": [
+        "Steven Dai",
+        "Kaurab Gautam",
+        "Jun Yamasaki",
+        "Mohammed Arshad",
+        "Olivia G. Martin",
+        "James Cramer",
+        "Sanjiva K. Lele",
+        "Ephraim Gutmark"
+      ]
+    }
+  ]
+}

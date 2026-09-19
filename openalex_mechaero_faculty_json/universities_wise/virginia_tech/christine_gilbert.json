@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Christine Gilbert",
+  "full_name": "Christine Gilbert",
+  "department": "Kevin T. Crofton Department of Aerospace and Ocean Engineering",
+  "university": "Virginia Tech",
+  "author_id": "A5012268169",
+  "works_count": 24,
+  "cited_by_count": 108,
+  "h_index": 6,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 15
+    },
+    {
+      "topic": "Ship Hydrodynamics and Maneuverability",
+      "count": 9
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 5
+    },
+    {
+      "topic": "High-Velocity Impact and Material Behavior",
+      "count": 3
+    },
+    {
+      "topic": "Soft Robotics and Applications",
+      "count": 2
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical simulation data of bubble-structure interactions in near-field underwater explosion",
+      "publication_year": 2022,
+      "publication_date": "2022-06-01",
+      "doi": "https://doi.org/10.1016/j.dib.2022.108337",
+      "venue": "Data in Brief",
+      "type": "data-paper",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S235234092200539X/pdf",
+      "concepts": [
+        "Bubble",
+        "Underwater explosion",
+        "Cylinder",
+        "Mechanics",
+        "Wake",
+        "Solver",
+        "Underwater",
+        "Cavitation"
+      ],
+      "abstract": "The simulation data presented in this paper describes the interaction between a thin-walled aluminum cylinder and a gas bubble in a near-field underwater explosion. The simulation is performed using the AERO-F/S solvers. The finite element AERO-S solver is used to simulate the structural dynamics of the cylinder, including its yielding and collapse. The AERO-F solver is used to simulate the fluid dynamics of the explosion bubble, the surrounding liquid water, and the air inside the cylinder. The two solvers are coupled using an embedded boundary method and the FInite Volume method with Exact two-material Riemann problems (FIVER). The data presented in this paper corresponds to a representative case with initial pressure p0=12.5MPa inside the bubble (cf. [1]). Simulation data include structural stress and deformation, fluid velocity, pressure and bubble dynamics. The input files and the workflow to perform this simulation are also provided. With the information provided in this paper, researchers can repeat this simulation, and use it as a starting point to study related problems involving cavitation bubbles, underwater explosion, and fluid-structure interaction in general.",
+      "authors": [
+        "Wentao Ma",
+        "Xuning Zhao",
+        "Christine Gilbert",
+        "Kevin G. Wang"
+      ]
+    },
+    {
+      "title": "Flow Visualization, Hydrodynamics, and Structural Response of a Flexible Wedge in Water Entry Experiments",
+      "publication_year": 2022,
+      "publication_date": "2022-04-08",
+      "doi": "https://doi.org/10.5957/josr.12200060",
+      "venue": "Journal of Ship Research",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Slamming",
+        "Hull",
+        "Wedge (geometry)",
+        "Marine engineering",
+        "Wake",
+        "Flow visualization",
+        "Impact pressure",
+        "Geology"
+      ],
+      "abstract": "_ In this article, a free-falling flexible wedge into calm water is experimentally studied to understand the relationship between the spray root, peak pressure, and structural response. High-speed cameras are employed to record the spray root propagation, whereas hydrodynamic loading is measured with an array of pressure transducers. Stereoscopic-Digital Image Correlation (S-DIC) is used to measure deflection on the bottom of the wedge during the impact. Experiments are conducted from different drop heights to study the effect of impact velocity. Results are interpreted in light of an experimental data set of a rigid wedge of comparable dimensions. The comparison between the rigid and flexible wedges shows that due to fluid-structure interaction, the evolution of the spray root on a flexible wedge is slightly delayed compared to the rigid one. Introduction Nowadays, high-speed planing craft are widely used in commercial, recreational, and naval applications. As the growth in utilization of these vessels is observed, naval architects strive to improve the overall performance while the safety metrics are adequately maintained. One of the major concerns that challenges both the per...",
+      "authors": [
+        "M. Javad Javaherian",
+        "Zhongshu Ren",
+        "Christine Gilbert"
+      ]
+    },
+    {
+      "title": "Computational analysis of bubble–structure interactions in near-field underwater explosion",
+      "publication_year": 2022,
+      "publication_date": "2022-02-26",
+      "doi": "https://doi.org/10.1016/j.ijsolstr.2022.111527",
+      "venue": "International Journal of Solids and Structures",
+      "type": "article",
+      "cited_by_count": 35,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijsolstr.2022.111527",
+      "concepts": [
+        "Underwater explosion",
+        "Bubble",
+        "Underwater",
+        "Field (mathematics)",
+        "Marine engineering",
+        "Mechanics",
+        "Aerospace engineering",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Wentao Ma",
+        "Xuning Zhao",
+        "Christine Gilbert",
+        "Kevin G. Wang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Shape Change of a Flapping Plate using Fluidic Flexible Matrix Composite through Modeling and Experiments",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0909",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flapping",
+        "Composite number",
+        "Fluidics",
+        "Materials science",
+        "Matrix (chemical analysis)",
+        "Mechanical engineering",
+        "Composite material",
+        "Acoustics"
+      ],
+      "abstract": "The purpose of this paper is to explore shape change of a plate undergoing oscillatory heave motions. The shape change will be achieved using a panel embedded with Fluidic Flexible Matrix Composite (F2MC) tubes for actuation. The active control of the plate is bio-inspired and is analyzed for propulsive characteristics. Classical Plate Theory and First-Order Shear Deformation Plate Theory will be used with a concentrated tip moment at the free edge to provide a means of modeling. The plate panel was constructed with Dragon Skin Silicone and embedded with two rows of five F2MC tubes which provide the means of shape actuation. Experimental results from actuating the panel in static conditions showed that F2MC tubes are an effective means of prescribing a repeatable shape change to a silicone panel. In comparing the static experimental results to the numerical models, it was found that the deflected plate shape could be most accurately predicted at lower pressures for upward deflection and higher pressures for downward deflections. This indicates a need for further comprehensive experimental analysis on the physics of the F2MC panel to obtain accurate results for larger deflections...",
+      "authors": [
+        "Oscar Johansson",
+        "Michael Philen",
+        "Christine Gilbert"
+      ]
+    },
+    {
+      "title": "Effect of amplitudes and frequencies on Virtual Planar Motion Mechanism of AUVs: Part II 3DOF implementation, comparison with RANSE and field trials",
+      "publication_year": 2023,
+      "publication_date": "2023-11-05",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2023.116242",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.oceaneng.2023.116242",
+      "concepts": [
+        "Amplitude",
+        "Underwater",
+        "Planar",
+        "Trajectory",
+        "Mechanism (biology)",
+        "Vertical plane",
+        "Process (computing)",
+        "Marine engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lakshmi Miller",
+        "Stephen Krauss",
+        "Stefano Brizzolara",
+        "Christine Gilbert",
+        "Daniel J. Stilwell"
+      ]
+    },
+    {
+      "title": "Water entry of a flexible wedge: How flexural rigidity influences spray root and pressure wave propagation",
+      "publication_year": 2023,
+      "publication_date": "2023-09-20",
+      "doi": "https://doi.org/10.1103/physrevfluids.8.090502",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 12,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Slamming",
+        "Flexural rigidity",
+        "Wedge (geometry)",
+        "Deflection (physics)",
+        "Flexural strength",
+        "Structural engineering",
+        "Mechanics",
+        "Geology"
+      ],
+      "abstract": "Wedge water entry serves as a key model to understand phenomena like high-speed craft slamming, seaplane landings, and diving aquatic birds. In this paper, wedge water entry experiments and simulations are used to examine how hydrodynamic loads, structural deflection, water contact lines, and rigid body motions are influenced by changes in the flexural rigidity of the wedge's bottom panels. Preliminary findings indicate that the nondimensionalized spray root position and velocity versus time collapse despite significant variations in the panel's flexural rigidity values (see figure for velocity curves). The study provides insights for future research and model improvements in water entry dynamics.",
+      "authors": [
+        "Christine Gilbert",
+        "John Gilbert",
+        "M. Javad Javaherian"
+      ]
+    },
+    {
+      "title": "Virginia tech advanced towing carriage",
+      "publication_year": 2023,
+      "publication_date": "2023-04-13",
+      "doi": "https://doi.org/10.1177/14750902231166958",
+      "venue": "Proceedings of the Institution of Mechanical Engineers Part M Journal of Engineering for the Maritime Environment",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Towing",
+        "Marine engineering",
+        "Carriage",
+        "Engineering",
+        "Mechanism (biology)",
+        "Actuator",
+        "Virginia tech",
+        "Aerospace engineering"
+      ],
+      "abstract": "Virginia Tech has recently acquired a new towing carriage and vertical planar motion mechanism. The new towing carriage replaces the original carriage that was installed in the 1960s. The original carriage had a maximum speed of roughly 3 m/s, and the new carriage has a maximum speed of 7 m/s with the current wavemaker installation. The towing tank facility is used for both teaching and research activities in ocean engineering. The vertical planar motion mechanism includes two linear actuators to change the pitching and heaving behavior of a surface or subsurface test article to model different phenomena such as slamming or porpoising of surface vessels and vertical plane maneuvers for subsurface vessels. The focus of this paper is on the determination of the specifications for the towing tank to meet both teaching and research needs and the early resistance experiments that have been conducted during initial shake-down of the new facility. The authors will discuss how preliminary resistance experiments compare to the USNA towing tank facility.",
+      "authors": [
+        "Christine Gilbert",
+        "M. Javad Javaherian",
+        "Craig A. Woolsey",
+        "Mark Shepheard"
+      ]
+    },
+    {
+      "title": "Control of a Flapping Plate Shape with Fluidic Flexible Matrix Composites",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-0828",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Timoshenko beam theory",
+        "Beam (structure)",
+        "Mechanical engineering",
+        "Submarine",
+        "Engineering",
+        "Moment (physics)",
+        "Fluidics",
+        "Aerospace"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-0828.vid The subject of this paper is part of a larger project where plates subjected to oscillatory heave motion will undergo active reconfiguration, or controlled shape change, to better understand complex fluid structure interactions. The plates will be placed in water near a free surface interface. In this paper, Fluidic Flexible Matrix Composites (F2MC) are explored as an option for active reconfiguration. To assist in designing future panels, both Euler-Bernoulli beam and Timoshenko beam models were used to estimate the plate deflections due to shape change actuation. The F2MC loads were modeled as both a concentrated tip moment and a distributed moment for the Euler-Bernoulli model and as a distributed moment in the Timoshenko model. A plate panel was then constructed with Dragon Skin Silicone with embedded F2MC tubes to validate the models. It was found that the Euler-Bernoulli beam model better predicted the experimental results when the F2MC forces were modeled as concentrated tip moments in both air and under water. Oscar Johansson is a senior undergraduate student studying Ocean Engineering in the Kevin T. Croft...",
+      "authors": [
+        "Christine Gilbert",
+        "Blake Armstrong",
+        "Oscar Johansson",
+        "Carson Squibb",
+        "Michael Philen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "faculty_name": "Zhi-Gang Feng",
+  "full_name": "Zhi‐Gang Feng",
+  "department": "Department of Mechanical, Aerospace, and Industrial Engineering",
+  "university": "University of Texas at San Antonio",
+  "author_id": "A5101114106",
+  "works_count": 26,
+  "cited_by_count": 1891,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 10
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 9
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 6
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 5
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The immersed boundary-lattice Boltzmann method for solving fluid–particles interaction problems",
+      "publication_year": 2003,
+      "publication_date": "2003-12-09",
+      "doi": "https://doi.org/10.1016/j.jcp.2003.10.013",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1043,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Immersed boundary method",
+        "Boundary value problem",
+        "Mechanics",
+        "Fluid dynamics",
+        "Physics",
+        "Classical mechanics",
+        "Eulerian path"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zhi‐Gang Feng",
+        "Efstathios E. Michaelides"
+      ]
+    },
+    {
+      "title": "Heat transfer from a rigid sphere in a nonuniform flow and temperature field",
+      "publication_year": 1994,
+      "publication_date": "1994-09-01",
+      "doi": "https://doi.org/10.1016/0017-9310(94)90308-5",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 98,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat transfer",
+        "Mechanics",
+        "Churchill–Bernstein equation",
+        "Physics",
+        "Laplace transform",
+        "Classical mechanics",
+        "Convective heat transfer",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Efstathios E. Michaelides",
+        "Zhi‐Gang Feng"
+      ]
+    },
+    {
+      "title": "Interparticle forces and lift on a particle attached to a solid boundary in suspension flow",
+      "publication_year": 2002,
+      "publication_date": "2002-01-01",
+      "doi": "https://doi.org/10.1063/1.1426389",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 65,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Drag",
+        "Mechanics",
+        "Lattice Boltzmann methods",
+        "Lift (data mining)",
+        "Shear flow",
+        "Classical mechanics",
+        "Particle (ecology)"
+      ],
+      "abstract": "The lattice Boltzmann method is used to simulate the shear flow field around a stationary particle attached to a solid boundary. One or more freely flowing (suspended) particles are introduced in the flow and are allowed to move, subject to the gravity force and the induced hydrodynamic force. Periodic conditions on the side boundaries assure that the same number of particles always remains in the computational domain. The total force exerted on the stationary particle is computed during the whole simulation process and resolved as the drag and lift components. By comparing these components of the hydrodynamic force before and after the freely flowing particles are introduced in the flow field, we determine the effect of suspended particles on a stationary particle. The results show that, even in the absence of particle collisions, the hydrodynamic force developed on the stationary particle is significant enough to induce the resuspension process if this particle were free to move.",
+      "authors": [
+        "Zhi‐Gang Feng",
+        "Efstathios E. Michaelides"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Review—Drag Coefficients of Non-Spherical and Irregularly Shaped Particles",
+      "publication_year": 2023,
+      "publication_date": "2023-02-27",
+      "doi": "https://doi.org/10.1115/1.4057019",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 63,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drag",
+        "Closure (psychology)",
+        "Drag coefficient",
+        "Mechanics",
+        "Physics",
+        "Classical mechanics",
+        "Simple (philosophy)",
+        "Momentum (technical analysis)"
+      ],
+      "abstract": "Abstract The knowledge of simple and relatively accurate closure equations for the drag coefficients of nonspherical particles is very important for Eulerian multiphase numerical codes that require such inputs for the solution of the momentum equation. However, the existing correlations for the drag coefficients are laden with high uncertainty, which propagates in the numerical results. This review paper examines critically the state of our knowledge of the drag coefficients of nonspherical particles starting with our understanding of the “size” and “shape” of particles. Lengthscales and other parameters that have been used to characterize sizes of nonspherical particles are presented. Shape factors and shape descriptors that have been used in past correlations are also presented together with an appraisal of their applicability. Several correlations that have been developed for the determination of the drag coefficients of nonspherical particles with regular and irregular shapes are also presented together with available information on their accuracy and applicability. Based on the review of the available correlations general recommendations are offered on the use of the correl...",
+      "authors": [
+        "Efstathios E. Michaelides",
+        "Zhi‐Gang Feng"
+      ]
+    }
+  ]
+}

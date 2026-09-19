@@ -1,0 +1,84 @@
+{
+  "faculty_name": "Andrea D'Ambrosio",
+  "full_name": "Andrea D’Ambrosio",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of South Florida",
+  "author_id": "A5128427065",
+  "works_count": 1,
+  "cited_by_count": 1,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 1
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 1
+    },
+    {
+      "topic": "Adaptive Dynamic Programming Control",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Pontryagin Neural Networks for High-Fidelity Cislunar Orbital Transfers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.2514/1.g009693",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optimal control",
+        "Mathematics",
+        "Boundary (topology)",
+        "Artificial neural network",
+        "Control theory (sociology)",
+        "Computer science",
+        "Trajectory optimization",
+        "Transversality"
+      ],
+      "abstract": "This paper leverages Pontryagin Neural Networks (PoNNs) to solve minimum-time low-energy low-thrust cislunar optimal transfers in a high-fidelity ephemeris model. PoNNs are neural networks tailored for solving two-point boundary value problems derived from the application of the Pontryagin Minimum Principle to optimal control problems (OCPs). Within PoNNs, the authors employ the Extreme Theory of Functional Connections to approximate state and costate using the constrained expressions to analytically satisfy the boundary conditions. The problems investigated regard a small spacecraft initially on a ballistic lunar transfer (BLT) directed to an elliptic lunar polar orbit, and a high elliptic earth orbit, transferred then to a series of BLTs reaching the Lunar Gateway. To solve these OCPs, the authors blend the PoNN classical framework with the particle swarm optimization, the penalty method, and some algebraic manipulations to analytically solve the transversality conditions arising from the variability of the departure orbit. As a result, the authors demonstrate that the PoNNs employed can effectively learn the underlying dynamics of the problem by approximating the positions an...",
+      "authors": [
+        "Michela Conti",
+        "Andrea D’Ambrosio",
+        "Christian Circi",
+        "Roberto Furfaro"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Pontryagin Neural Networks for High-Fidelity Cislunar Orbital Transfers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.2514/1.g009693",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optimal control",
+        "Mathematics",
+        "Boundary (topology)",
+        "Artificial neural network",
+        "Control theory (sociology)",
+        "Computer science",
+        "Trajectory optimization",
+        "Transversality"
+      ],
+      "abstract": "This paper leverages Pontryagin Neural Networks (PoNNs) to solve minimum-time low-energy low-thrust cislunar optimal transfers in a high-fidelity ephemeris model. PoNNs are neural networks tailored for solving two-point boundary value problems derived from the application of the Pontryagin Minimum Principle to optimal control problems (OCPs). Within PoNNs, the authors employ the Extreme Theory of Functional Connections to approximate state and costate using the constrained expressions to analytically satisfy the boundary conditions. The problems investigated regard a small spacecraft initially on a ballistic lunar transfer (BLT) directed to an elliptic lunar polar orbit, and a high elliptic earth orbit, transferred then to a series of BLTs reaching the Lunar Gateway. To solve these OCPs, the authors blend the PoNN classical framework with the particle swarm optimization, the penalty method, and some algebraic manipulations to analytically solve the transversality conditions arising from the variability of the departure orbit. As a result, the authors demonstrate that the PoNNs employed can effectively learn the underlying dynamics of the problem by approximating the positions an...",
+      "authors": [
+        "Michela Conti",
+        "Andrea D’Ambrosio",
+        "Christian Circi",
+        "Roberto Furfaro"
+      ]
+    }
+  ]
+}

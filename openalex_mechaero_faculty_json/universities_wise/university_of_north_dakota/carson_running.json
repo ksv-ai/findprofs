@@ -1,0 +1,268 @@
+{
+  "faculty_name": "Carson Running",
+  "full_name": "Carson L. Running",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of North Dakota",
+  "author_id": "A5055826110",
+  "works_count": 31,
+  "cited_by_count": 324,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 15
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 12
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 12
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 5
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Quantitative focused laser differential interferometry with hypersonic turbulent boundary layers",
+      "publication_year": 2022,
+      "publication_date": "2022-10-03",
+      "doi": "https://doi.org/10.1364/ao.465714",
+      "venue": "Applied Optics",
+      "type": "article",
+      "cited_by_count": 28,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Freestream",
+        "Boundary layer",
+        "Optics",
+        "Turbulence",
+        "Wind tunnel",
+        "Physics",
+        "Interferometry",
+        "Root mean square"
+      ],
+      "abstract": "The effect of turbulent wind-tunnel-wall boundary layers on density change measurements obtained with focused laser differential interferometry (FLDI) was studied using a detailed direct numerical simulation (DNS) of the wall from the Boeing/AFOSR Mach-6 Quiet Tunnel run in its noisy configuration. The DNS was probed with an FLDI model that is capable of reading in three-dimensional time-varying density fields and computing the FLDI response. Simulated FLDI measurements smooth the boundary-layer root-mean-square (RMS) profile relative to true values obtained by directly extracting the data from the DNS. The peak of the density change RMS measured by the FLDI falls within 20% of the true density change RMS. A relationship between local spatial density change and temporal density fluctuations was determined and successfully used to estimate density fluctuations from the FLDI measurements. FLDI measurements of the freestream fluctuations are found to be dominated by the off-axis tunnel-wall boundary layers for lower frequencies despite spatial suppression provided by the technique. However, low-amplitude (0.05%-5% of the mean density) target signals placed along the tunnel centerli...",
+      "authors": [
+        "Elizabeth K. Benitez",
+        "Matthew P. Borg",
+        "Jonathan L. Hill",
+        "Matthew T. Aultman",
+        "Lian Duan",
+        "Carson L. Running",
+        "Joseph S. Jewell"
+      ]
+    },
+    {
+      "title": "Global measurements of hypersonic shock-wave/boundary-layer interactions with pressure-sensitive paint",
+      "publication_year": 2021,
+      "publication_date": "2021-04-10",
+      "doi": "https://doi.org/10.1007/s00348-021-03194-8",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 27,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary layer",
+        "Shock wave",
+        "Shock (circulatory)",
+        "Mechanics",
+        "Materials science",
+        "Angle of attack",
+        "Pressure measurement"
+      ],
+      "abstract": "",
+      "authors": [
+        "Carson L. Running",
+        "Thomas J. Juliano"
+      ]
+    },
+    {
+      "title": "Implementation of Self-Aligned Focusing Schlieren for Hypersonic Boundary Layer Measurements",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-2438",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 22,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Schlieren",
+        "Hypersonic speed",
+        "Boundary layer",
+        "Schlieren photography",
+        "Optics",
+        "Planar",
+        "Mach number",
+        "Aerospace engineering"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-2438.vid A self-aligned focusing schlieren (SAFS) apparatus based on a recently published design is implemented for the purpose of making near-planar density gradient measurements of hypersonic boundary layers. At a working distance of one meter, the current SAFS setup is shown to be capable of depths of focus on the order of 1-10 mm while also achieving framerates in the 100 kHz to 1+ MHz range at exposures as short as 20 ns. These qualities are achieved while remaining resistant to tunnel vibrations due to the nature of the retroreflected beam path. The design space of the apparatus is also investigated and reveals the influence of key components/parameters on the overall system performance and capabilities. The design is found to be extensible to a variety of scales that may prove applicable to a wide range of research facilities. Finally, a series of experiments were executed in the Air Force Research Laboratory Mach-6 Ludwieg Tube over a variety of axisymmetric and non-axisymmetric geometries using the SAFS setup to capture images of the developing boundary layer and passing flow disturbances. Comparisons between SAFS ...",
+      "authors": [
+        "Jonathan L. Hill",
+        "Matthew P. Borg",
+        "Elizabeth K. Benitez",
+        "Carson L. Running",
+        "Mark F. Reeder"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "V-22 Osprey Proprotor",
+      "publication_year": 2026,
+      "publication_date": "2026-01-26",
+      "doi": "https://commons.und.edu/me-stu/14",
+      "venue": "UND Scholarly Commons (University of North Dakota)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://commons.und.edu/context/me-stu/article/1011/viewcontent/Derek_Krieger_Final_Project_v2.pdf",
+      "concepts": [
+        "Nacelle",
+        "Airfoil",
+        "Aerodynamics",
+        "Lift (data mining)",
+        "Lift coefficient",
+        "Thrust",
+        "Structural engineering",
+        "Wing"
+      ],
+      "abstract": "This paper covers an aerodynamic analysis of the Boeing Bell V-22 Osprey proprotor blade by utilizing thin-airfoil theory (TAT) and lifting-line theory (LLT). The primary focus is how the coefficient of lift and induced drag respond to changes in the angle of attack of the proprotor blades. The proprotor blade is modeled as a finite wing based on the NACA 63-212 airfoil. The wing has a geometric twist of -35 degrees from root to tip. The theories used to evaluate the blade design are limited by the assumption of incompressible, inviscid flow. The results of the analysis indicate that lift coefficients are maximized at high collective blade pitch of approximately 50 degrees to overcome the geometric twist necessary to evenly distribute lift over the span. Additionally, rotating the nacelle drastically reduces the coefficient of thrust from 0.09 to 0.02 as the fixed wings of the aircraft take over lift generation and the proprotor blades produce propulsion in airplane mode.",
+      "authors": [
+        "D. Krieger",
+        "Carson L. Running"
+      ]
+    },
+    {
+      "title": "Aerodynamic Forces in Water and Air with Changing Wing Geometry",
+      "publication_year": 2026,
+      "publication_date": "2026-01-26",
+      "doi": "https://commons.und.edu/me-stu/13",
+      "venue": "UND Scholarly Commons (University of North Dakota)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://commons.und.edu/cgi/viewcontent.cgi?article=1012&context=me-stu",
+      "concepts": [
+        "Airfoil",
+        "Lift-to-drag ratio",
+        "Drag",
+        "Lift (data mining)",
+        "Lift-induced drag",
+        "Wing",
+        "Aerodynamics",
+        "Angle of attack"
+      ],
+      "abstract": "This paper is an exploration of how the effects of wing geometry on the lift and drag in both air and water. The purpose of these findings is to understand if there exists a foil geometry that would offer the best lift-drag ratio in both fluids. To find the answer, chamber, chord, span, and aspect ratio were adjusted in an attempt to maximize lift and drag. The calculations were done through Matlab and the results are shown through Matlab figures. The Matlab code created shows that symmetric airfoils have the greatest lift to drag ratios due to their lower drag and relatively high lift. Cambered foils create higher lift at the cost of higher drag, reducing the lift-drag ratio. It is further found that aspect ratio has the greatest effect over lift-drag ratios. To maximize lift and minimize drag, aspect ratio should be as high as possible.",
+      "authors": [
+        "Michael Anthony",
+        "Carson L. Running"
+      ]
+    },
+    {
+      "title": "Aerodynamic Analysis of the Constrained NACA 8412 Airfoil for Formula SAE Application using Thin-Airfoil and Lifting-Line Theories",
+      "publication_year": 2026,
+      "publication_date": "2026-01-26",
+      "doi": "https://commons.und.edu/me-stu/12",
+      "venue": "UND Scholarly Commons (University of North Dakota)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Lift-induced drag",
+        "Drag",
+        "Lift-to-drag ratio",
+        "Lift (data mining)",
+        "NACA airfoil",
+        "Aerodynamics",
+        "Wing"
+      ],
+      "abstract": "This project applies Thin-Airfoil Theory (TAT) and Lifting-Line Theory (LLT) to evaluate the aerodynamic characteristics of the inverted NACA 8412 airfoil as a single-element rear wing for Formula SAE. The 2D analysis was validated against XFOIL (Re = 480,000), confirming a zero- lift angle of αL=0 = -8.326° and establishing a viscous limit of cl,max ≈ 1.90 at αstall ≈ 13.0°. The 3D LLT model quantified the induced drag (CD,i), demonstrating that the wing's low aspect ratio and rectangular planform reduce efficiency compared to elliptic loading, with the induced drag being the dominant total drag component at high angles of attack. Parametric analysis demonstrated that increasing the Aspect Ratio (up to AR = 4.0) minimized the induced drag for a given lift coefficient, while dimensional downforce scaled quadratically with velocity, giving high structural loads at the 18 m/s operational limit. These results provide important data for balancing efficiency and downforce targets in the final FSAE wing design.",
+      "authors": [
+        "Trevor Fried",
+        "Carson L. Running"
+      ]
+    },
+    {
+      "title": "Application of Self-Aligned Focusing Schlieren for Flowfield Characterization in a Transonic Diffuser Flow Path",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0009",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Shadowgraph",
+        "Schlieren",
+        "Aerospace engineering",
+        "Diffuser (optics)",
+        "Acoustics",
+        "Shock wave",
+        "Physics",
+        "Freestream"
+      ],
+      "abstract": "A commercially-available, self-aligned focusing schlieren (SAFS) system from RH Technologies LLC (RHT) has been used to take flowfield measurements within the Air Force Research Laboratory (AFRL) Research Cell 21 (RC-21) diffuser. The RC-21 facility is a transonic diffuser flow path that enables the study of complex internal flows relevant to aerospace propulsion systems. The unsteady lambda-shock structure in the diffuser was measured and characterized at multiple SAFS planes of focus across the span of the facility, and the results are compared to shadowgraph data collected under the same conditions. The SAFS measurements were able to successfully identify three-dimensional features of the shock structure at local spanwise locations that the comparative shadowgraph could not due to its inherent line-of-sight path integration. The features extracted from the SAFS measurements that were not clearly observed in the shadowgraph measurements include: (1) precise shock location, thickness, and angle, (2) freestream acoustic noise, (3) separated shear-layer structures from the lambda-shock-foot/boundary-layer separation, and (4) clean slip lines emanating from the two triple points. ...",
+      "authors": [
+        "Carson L. Running",
+        "Adebayo Alabi",
+        "Stuart I. Benton",
+        "Roman Anthis",
+        "Ben Keller",
+        "Ryan Miller",
+        "J. Luke Hill"
+      ]
+    },
+    {
+      "title": "Separation and Transition on the ROTEX-T Cone–Flare",
+      "publication_year": 2025,
+      "publication_date": "2025-07-17",
+      "doi": "https://doi.org/10.2514/1.j064190",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Mechanics",
+        "Wind tunnel",
+        "Computational fluid dynamics",
+        "Boundary layer",
+        "Optics",
+        "Physics",
+        "Flow separation"
+      ],
+      "abstract": "Coordinated experimental and computational studies were conducted on the ROTEX-T, a cone–flare geometry used in a successful flight-test experiment, with the objectives of explaining the origins of the largest differences between computational and experimental results, assessing code-to-code, facility-to-facility, and ground-to-flight differences, and further illuminating the flight-test results. Background-oriented schlieren, infrared thermography, high-speed self-aligned focusing schlieren, and focused laser differential interferometry measurements were made in two wind tunnels. The surface heat flux and Stanton number distributions were calculated. Separation and reattachment locations, as well as flow state at each, were determined. Computational results were obtained using the VULCAN-CFD and SU2 codes in steady-state mode, and direct numerical simulation (DNS). The nominally steady axisymmetric flow was found to be globally unstable to stationary three-dimensional disturbances concentrated in the reattachment region. Without adding external noise, the disturbance amplitudes computed by DNS were found to be high in the separation bubble, and thus the flow was transitional. T...",
+      "authors": [
+        "Jonathan Davami",
+        "Thomas J. Juliano",
+        "Anton Scholten",
+        "Pedro Paredes",
+        "Elizabeth K. Benitez",
+        "Carson L. Running",
+        "Nolan Little",
+        "Lian Duan",
+        "Kamil Dylewicz",
+        "Vojtech Pezlar",
+        "Vassilios Theofilis",
+        "Thomas Thiele",
+        "Sebastian Willems"
+      ]
+    }
+  ]
+}

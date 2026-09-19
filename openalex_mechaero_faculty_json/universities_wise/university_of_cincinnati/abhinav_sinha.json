@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Abhinav Sinha",
+  "full_name": "Abhinav Sinha",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics",
+  "university": "University of Cincinnati",
+  "author_id": "A5022385451",
+  "works_count": 127,
+  "cited_by_count": 1043,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 77
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 29
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 27
+    },
+    {
+      "topic": "Military Defense Systems Analysis",
+      "count": 27
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Cooperative integrated guidance and control design for simultaneous interception",
+      "publication_year": 2021,
+      "publication_date": "2021-12-02",
+      "doi": "https://doi.org/10.1016/j.ast.2021.107262",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interception",
+        "Aerodynamics",
+        "Nonlinear system",
+        "Scheme (mathematics)",
+        "Actuator",
+        "Flight control surfaces",
+        "Control theory (sociology)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Abhinav Sinha",
+        "Shashi Ranjan Kumar",
+        "Dwaipayan Mukherjee"
+      ]
+    },
+    {
+      "title": "Three-Dimensional Guidance with Terminal Time Constraints for Wide Launch Envelops",
+      "publication_year": 2020,
+      "publication_date": "2020-12-01",
+      "doi": "https://doi.org/10.2514/1.g005180",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Interception",
+        "Heading (navigation)",
+        "Terminal guidance",
+        "Computer science",
+        "Decoupling (probability)",
+        "Nonlinear system",
+        "Aerodynamics"
+      ],
+      "abstract": "This paper proposes a three-dimensional, nonlinear guidance strategy for terminal-time-constrained interception of a nonmaneuvering target. The restrictive assumption of decoupling the three-dimensional interceptor–target engagement into two separate mutually orthogonal planes is relaxed. The guidance commands are derived using sliding mode control, with a time-to-go estimate that accounts for interceptor’s heading angle errors. It is shown that even for arbitrarily wide launch envelops, interception is guaranteed at a prespecified desired impact time. Further, a weighted control allocation technique is presented to allocate suitable lateral accelerations along the pitch and the yaw directions. Finally, numerical simulations, including extensive Monte Carlo assessments, are carried out with constant speed as well as two different realistic interceptor models that consider time-varying speed owing to aerodynamic parameter variations. Guidance strategy is shown to be effective in the presence of noisy measurements, uncertainties, and system lag. The performance of the proposed strategy is shown to be superior compared with an existing one.",
+      "authors": [
+        "Abhinav Sinha",
+        "Shashi Ranjan Kumar",
+        "Dwaipayan Mukherjee"
+      ]
+    },
+    {
+      "title": "Relational Maneuvering of Leader-Follower Unmanned Aerial Vehicles for Flexible Formation",
+      "publication_year": 2024,
+      "publication_date": "2024-08-13",
+      "doi": "https://doi.org/10.1109/tcyb.2024.3435029",
+      "venue": "IEEE Transactions on Cybernetics",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Control (management)",
+        "Orientation (vector space)",
+        "Computer science",
+        "Scheme (mathematics)",
+        "Set (abstract data type)",
+        "Position (finance)",
+        "Simulation"
+      ],
+      "abstract": "In this article, we propose a new formation scheme for a leader-follower unmanned aerial vehicle (UAV) system inspired by a human pilot's behavior wherein the formation geometry does not necessarily remain fixed as the vehicles maneuver. In other words, the position and the orientation of the follower with respect to the leader are subject to change as they maneuver while satisfying some constraints. Our strategy ensures that the follower UAV maintains a desired fixed relative distance with respect to the leader UAV, whereas its orientation with respect to the leader UAV may change to reduce its control effort and provide it with a tactical advantage. We call this new relational maneuvering scheme flexible since the set of feasible positions for the follower UAV is not fixed, as is common in close proximity two-ship formations in air-to-air combat. By assigning the follower UAV's linear and angular velocities as its control inputs, our approach tries to emulate a human pilot's behavior in UAVs by taking anticipatory maneuvers when the leader UAV makes aggressive turns. The proposed flexible-geometry formation scheme is robust to the leader's maneuver changes since the follower U...",
+      "authors": [
+        "Praveen Kumar Ranjan",
+        "Abhinav Sinha",
+        "Yongcan Cao",
+        "David W. Casbeer",
+        "Isaac E. Weintraub"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nonlinear Path Following Guidance With Bounded Control",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1947",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Bounded function",
+        "Path (computing)",
+        "Convergence (economics)",
+        "Actuator",
+        "Nonlinear system",
+        "Trajectory",
+        "Computer science"
+      ],
+      "abstract": "This paper addresses the planar path-following guidance problem for autonomous aerial vehicles under bounded control inputs. To account for actuator limitations, the vehicle dynamics are augmented with a saturation model, ensuring that the guidance commands remain within a predefined safe set. The proposed design remains applicable to any generic smooth path and does not require switching or redesigning the guidance strategy when the path comprises multiple segments. The proposed guidance strategy guarantees finite-time convergence of the UAV to the desired path, irrespective of its initial engagement geometry. The effectiveness of the proposed approach is demonstrated through numerical simulations.",
+      "authors": [
+        "Saurabh Kumar",
+        "Shashi Ranjan Kumar",
+        "Abhinav Sinha"
+      ]
+    },
+    {
+      "title": "WITHDRAWN: Deep Reinforcement Learning for Target Enclosing Under Limited Sensing and Autopilot Lag",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1396",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Autopilot",
+        "Reinforcement learning",
+        "Stability (learning theory)",
+        "Generalization",
+        "Acceleration",
+        "Computer science",
+        "Control theory (sociology)",
+        "Function (biology)"
+      ],
+      "abstract": "This paper proposes a deep reinforcement learning (RL) based solution for the target enclosing problem for a non-holonomic unmanned aerial vehicle (UAV) operating under limited sensing and system lag. Our approach enables an end-to-end learning-based agent to autonomously interact with the environment and develop enclosing strategies that ensure safety and containment around a stationary target. To better account for temporal dependencies arising from vehicle dynamics and autopilot lag, we propose a history-augmented policy architecture based on Proximal Policy Optimization (HA-PPO) that incorporates observation history into the policy input. A carefully designed reward function guides the learning agent by combining three reward components: a quadratic distance-based reward penalizing deviation from the desired enclosing radius, a state-dependent velocity reward that promotes stability during radial transitions, and an acceleration penalty to enforce a smooth trajectory. Thus, the agent learns to trade off between maintaining the desired enclosing geometry and mitigating aggressive control responses, especially in the presence of autopilot lag. Our results demonstrate that the ...",
+      "authors": [
+        "Umer Siddique",
+        "Praveen Kumar Ranjan",
+        "Yongcan Cao",
+        "Abhinav Sinha"
+      ]
+    },
+    {
+      "title": "Predefined-time One-Shot Cooperative Estimation, Guidance, and Control for Simultaneous Target Interception",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.48550/arxiv.2601.07744",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.07744",
+      "concepts": [
+        "Autopilot",
+        "Interception",
+        "Control theory (sociology)",
+        "Observer (physics)",
+        "Computer science",
+        "Convergence (economics)",
+        "Trajectory",
+        "Nonlinear system"
+      ],
+      "abstract": "This work develops a unified nonlinear estimation-guidance-control framework for cooperative simultaneous interception of a stationary target under a heterogeneous sensing topology, where sensing capabilities are non-uniform across interceptors. Specifically, only a subset of agents is instrumented with onboard seekers (informed/seeker-equipped agents), whereas the rest of them (seeker-less agents) acquire the information about the target indirectly via the informed agents and execute a distributed cooperative guidance for simultaneous target interception. To address the resulting partial observability, a predefined-time distributed observer is leveraged, guaranteeing convergence of the target state estimates for seeker-less agents through information exchange with seeker-equipped neighbors over a directed communication graph. Thereafter, an improved time-to-go estimate accounting for wide launch envelopes is utilized to design the distributed cooperative guidance commands. This estimate is coupled with a predefined-time consensus protocol, ensuring consensus in the agents' time-to-go values. The temporal upper bounds within which both observer error and time-to-go consensus err...",
+      "authors": [
+        "Lohitvel Gopikannan",
+        "Shashi Ranjan Kumar",
+        "Abhinav Sinha"
+      ]
+    },
+    {
+      "title": "Predefined-time One-Shot Cooperative Estimation, Guidance, and Control for Simultaneous Target Interception",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "http://arxiv.org/abs/2601.07744",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.07744",
+      "concepts": [
+        "Autopilot",
+        "Interception",
+        "Control theory (sociology)",
+        "Observer (physics)",
+        "Computer science",
+        "Convergence (economics)",
+        "Trajectory",
+        "Nonlinear system"
+      ],
+      "abstract": "This work develops a unified nonlinear estimation-guidance-control framework for cooperative simultaneous interception of a stationary target under a heterogeneous sensing topology, where sensing capabilities are non-uniform across interceptors. Specifically, only a subset of agents is instrumented with onboard seekers (informed/seeker-equipped agents), whereas the rest of them (seeker-less agents) acquire the information about the target indirectly via the informed agents and execute a distributed cooperative guidance for simultaneous target interception. To address the resulting partial observability, a predefined-time distributed observer is leveraged, guaranteeing convergence of the target state estimates for seeker-less agents through information exchange with seeker-equipped neighbors over a directed communication graph. Thereafter, an improved time-to-go estimate accounting for wide launch envelopes is utilized to design the distributed cooperative guidance commands. This estimate is coupled with a predefined-time consensus protocol, ensuring consensus in the agents' time-to-go values. The temporal upper bounds within which both observer error and time-to-go consensus err...",
+      "authors": [
+        "Lohitvel Gopikannan",
+        "Shashi Ranjan Kumar",
+        "Abhinav Sinha"
+      ]
+    },
+    {
+      "title": "WITHDRAWAL: Control of a Fully-Actuated Dual-axis Tilt Quadrotor",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-1393.c1",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tilt (camera)",
+        "Computer science",
+        "Control (management)",
+        "Control theory (sociology)",
+        "Control system",
+        "Noise (video)",
+        "Tracking (education)",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rohit V. Nanavati",
+        "Abhinav Sinha",
+        "Shashi Ranjan Kumar"
+      ]
+    }
+  ]
+}

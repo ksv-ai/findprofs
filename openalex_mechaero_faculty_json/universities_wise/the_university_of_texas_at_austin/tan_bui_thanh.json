@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Tan Bui-Thanh",
+  "full_name": "Tan Bui–Thanh",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics / Oden Institute",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5008274019",
+  "works_count": 126,
+  "cited_by_count": 3269,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 36
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 29
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 23
+    },
+    {
+      "topic": "Numerical methods in inverse problems",
+      "count": 19
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic Data Reconstruction and Inverse Design Using Proper Orthogonal Decomposition",
+      "publication_year": 2004,
+      "publication_date": "2004-08-01",
+      "doi": "https://doi.org/10.2514/1.2159",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 547,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamics",
+        "Transonic",
+        "Inverse problem",
+        "Computer science",
+        "Inverse",
+        "Compressible flow",
+        "Flow (mathematics)"
+      ],
+      "abstract": "The application of proper orthogonal decomposition for incomplete (gappy) data for compressible external aerodynamic problems has been demonstrated successfully in this paper for the first time. Using this approach, it is possible to construct entire aerodynamic flowfields from the knowledge of computed aerodynamic flow data or measured flow data specified on the aerodynamic surface, thereby demonstrating a means to effectively combine experimental and computational data. The sensitivity of flow reconstruction results to available measurements and to experimental error is analyzed. Another new extension of this approach allows one to cast the problem of inverse airfoil design as a gappy data problem. The gappy methodology demonstrates a great simplification for the inverse airfoil design problem and is found to work well on a range of examples, including both subsonic and transonic cases.",
+      "authors": [
+        "Tan Bui–Thanh",
+        "M. Damodaran",
+        "Karen Willcox"
+      ]
+    },
+    {
+      "title": "A Computational Framework for Infinite-Dimensional Bayesian Inverse Problems Part I: The Linearized Case, with Application to Global Seismic Inversion",
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "doi": "https://doi.org/10.1137/12089586x",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 380,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inverse problem",
+        "Posterior probability",
+        "Uncertainty quantification",
+        "Discretization",
+        "Mathematics",
+        "Applied mathematics",
+        "Covariance",
+        "Mathematical optimization"
+      ],
+      "abstract": "We present a computational framework for estimating the uncertainty in the numerical solution of linearized infinite-dimensional statistical inverse problems. We adopt the Bayesian inference formulation: given observational data and their uncertainty, the governing forward problem and its uncertainty, and a prior probability distribution describing uncertainty in the parameter field, find the posterior probability distribution over the parameter field. The prior must be chosen appropriately in order to guarantee well-posedness of the infinite-dimensional inverse problem and facilitate computation of the posterior. Furthermore, straightforward discretizations may not lead to convergent approximations of the infinite-dimensional problem. And finally, solution of the discretized inverse problem via explicit construction of the covariance matrix is prohibitive due to the need to solve the forward problem as many times as there are parameters. Our computational framework builds on the infinite-dimensional formulation proposed by Stuart [Acta Numer., 19 (2010), pp. 451--559] and incorporates a number of components aimed at ensuring a convergent discretization of the underlying infinit...",
+      "authors": [
+        "Tan Bui–Thanh",
+        "Omar Ghattas",
+        "James L. Martin",
+        "Georg Stadler"
+      ]
+    },
+    {
+      "title": "Model Reduction for Large-Scale Systems with High-Dimensional Parametric Input Space",
+      "publication_year": 2008,
+      "publication_date": "2008-01-01",
+      "doi": "https://doi.org/10.1137/070694855",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 366,
+      "is_oa": true,
+      "oa_url": "http://hdl.handle.net/1721.1/57591",
+      "concepts": [
+        "Parametric statistics",
+        "Reduction (mathematics)",
+        "Dimension (graph theory)",
+        "Sampling (signal processing)",
+        "Mathematics",
+        "Mathematical optimization",
+        "Computation",
+        "Algorithm"
+      ],
+      "abstract": "A model-constrained adaptive sampling methodology is proposed for the reduction of large-scale systems with high-dimensional parametric input spaces. Our model reduction method uses a reduced basis approach, which requires the computation of high-fidelity solutions at a number of sample points throughout the parametric input space. A key challenge that must be addressed in the optimization, control, and probabilistic settings is the need for the reduced models to capture variation over this parametric input space, which, for many applications, will be of high dimension. We pose the task of determining appropriate sample points as a PDE-constrained optimization problem, which is implemented using an efficient adaptive algorithm that scales well to systems with a large number of parameters. The methodology is demonstrated using examples with parametric input spaces of dimension 11 and 21, which describe thermal analysis and design of a heat conduction fin, and compared with statistically based sampling methods. For these examples, the model-constrained adaptive sampling leads to reduced models that, for a given basis size, have error several orders of magnitude smaller than that o...",
+      "authors": [
+        "Tan Bui–Thanh",
+        "Karen Willcox",
+        "Omar Ghattas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Variance-Reduced Diffusion Sampling via Target Score Identity",
+      "publication_year": 2026,
+      "publication_date": "2026-01-04",
+      "doi": "https://doi.org/10.48550/arxiv.2601.01594",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.01594",
+      "concepts": [
+        "Mathematics",
+        "Estimator",
+        "Statistics",
+        "Bayesian probability",
+        "Sampling (signal processing)",
+        "Quality Score",
+        "Artificial intelligence",
+        "Nonparametric statistics"
+      ],
+      "abstract": "We study variance reduction for score estimation and diffusion-based sampling in settings where the clean (target) score is available or can be approximated. Starting from the Target Score Identity (TSI), which expresses the noisy marginal score as a conditional expectation of the target score under the forward diffusion, we develop: (i) a plug-and-play nonparametric self-normalized importance sampling estimator compatible with standard reverse-time solvers, (ii) a variance-minimizing \\emph{state- and time-dependent} blending rule between Tweedie-type and TSI estimators together with an anti-correlation analysis, (iii) a data-only extension based on locally fitted proxy scores, and (iv) a likelihood-tilting extension to Bayesian inverse problems. We also propose a \\emph{Critic--Gate} distillation scheme that amortizes the state-dependent blending coefficient into a neural gate. Experiments on synthetic targets and PDE-governed inverse problems demonstrate improved sample quality for a fixed simulation budget.",
+      "authors": [
+        "Alois Duston",
+        "Tan Bui–Thanh"
+      ]
+    },
+    {
+      "title": "Variance-Reduced Diffusion Sampling via Target Score Identity",
+      "publication_year": 2026,
+      "publication_date": "2026-01-04",
+      "doi": "http://arxiv.org/abs/2601.01594",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.01594",
+      "concepts": [
+        "Mathematics",
+        "Estimator",
+        "Statistics",
+        "Bayesian probability",
+        "Sampling (signal processing)",
+        "Quality Score",
+        "Artificial intelligence",
+        "Nonparametric statistics"
+      ],
+      "abstract": "We study variance reduction for score estimation and diffusion-based sampling in settings where the clean (target) score is available or can be approximated. Starting from the Target Score Identity (TSI), which expresses the noisy marginal score as a conditional expectation of the target score under the forward diffusion, we develop: (i) a plug-and-play nonparametric self-normalized importance sampling estimator compatible with standard reverse-time solvers, (ii) a variance-minimizing \\emph{state- and time-dependent} blending rule between Tweedie-type and TSI estimators together with an anti-correlation analysis, (iii) a data-only extension based on locally fitted proxy scores, and (iv) a likelihood-tilting extension to Bayesian inverse problems. We also propose a \\emph{Critic--Gate} distillation scheme that amortizes the state-dependent blending coefficient into a neural gate. Experiments on synthetic targets and PDE-governed inverse problems demonstrate improved sample quality for a fixed simulation budget.",
+      "authors": [
+        "Alois Duston",
+        "Tan Bui–Thanh"
+      ]
+    },
+    {
+      "title": "The AI Research Assistant: Promise, Peril, and a Proof of Concept",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/mcse.2026.3683758",
+      "venue": "Computing in Science & Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Proof of concept",
+        "Calculus (dental)",
+        "Epistemology",
+        "Simple (philosophy)",
+        "Feature (linguistics)",
+        "Proof theory"
+      ],
+      "abstract": "Can artificial intelligence truly contribute to creative mathematical research, or does it merely automate routine calculations while introducing risks of error? We provide empirical evidence through a detailed case study: the discovery of novel error representations and bounds for Hermite quadrature rules via systematic human-AI collaboration.Working with multiple AI assistants, we extended results beyond what manual work achieved, formulating and proving several theorems with AI assistance. The collaboration revealed both remarkable capabilities and critical limitations. AI excelled at algebraic manipulation, systematic proof exploration, literature synthesis, and LaTeX preparation. However, every step required rigorous human verification, mathematical intuition for problem formulation, and strategic direction. We document the complete research workflow with unusual transparency, revealing patterns in successful human-AI mathematical collaboration and identifying failure modes researchers must anticipate. Our experience suggests that, when used with appropriate skepticism and verification protocols, AI tools can meaningfully accelerate mathematical discovery while demanding ca...",
+      "authors": [
+        "Tan Bui–Thanh"
+      ]
+    },
+    {
+      "title": "Improvements on uncertainty quantification with variational autoencoders",
+      "publication_year": 2025,
+      "publication_date": "2025-09-14",
+      "doi": "https://doi.org/10.48550/arxiv.2509.11174",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.11174",
+      "concepts": [
+        "Inverse problem",
+        "Uncertainty quantification",
+        "Context (archaeology)",
+        "Covariance",
+        "Mathematics",
+        "Posterior probability",
+        "Artificial neural network",
+        "Inverse"
+      ],
+      "abstract": "Inverse problems aim to determine model parameters of a mathematical problem from given observational data. Neural networks can provide an efficient tool to solve these problems. In the context of Bayesian inverse problems, Uncertainty Quantification Variational AutoEncoders (UQ-VAE), a class of neural networks, approximate the posterior distribution mean and covariance of model parameters. This allows for both the estimation of the parameters and their uncertainty in relation to the observational data. In this work, we propose a novel loss function for training UQ-VAEs, which includes, among other modifications, the removal of a sample mean term from an already existing one. This modification improves the accuracy of UQ-VAEs, as the original theoretical result relies on the convergence of the sample mean to the expected value (a condition that, in high dimensional parameter spaces, requires a prohibitively large number of samples due to the curse of dimensionality). Avoiding the computation of the sample mean significantly reduces the training time in high dimensional parameter spaces compared to previous literature results. Under this new formulation, we establish a new theore...",
+      "authors": [
+        "Andrea Tonini",
+        "Tan Bui–Thanh",
+        "Francesco Regazzoni",
+        "Luca Dede’",
+        "Alfio Quarteroni"
+      ]
+    },
+    {
+      "title": "TAEN: a model-constrained Tikhonov autoencoder network for forward and inverse problems",
+      "publication_year": 2025,
+      "publication_date": "2025-07-31",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118245",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2025.118245",
+      "concepts": [
+        "Tikhonov regularization",
+        "Autoencoder",
+        "Inverse problem",
+        "Applied mathematics",
+        "Inverse",
+        "Mathematics",
+        "Generalized inverse",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hai V. Nguyen",
+        "Tan Bui–Thanh",
+        "Clint Dawson"
+      ]
+    }
+  ]
+}

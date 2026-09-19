@@ -1,0 +1,227 @@
+{
+  "faculty_name": "Kenneth C. Hall",
+  "full_name": "Kenneth C. Hall",
+  "department": "Thomas Lord Department of Mechanical Engineering and Materials Science",
+  "university": "Duke University",
+  "author_id": "A5050653630",
+  "works_count": 218,
+  "cited_by_count": 8314,
+  "h_index": 46,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 107
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 88
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 72
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 33
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 29
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Computation of Unsteady Nonlinear Flows in Cascades Using a Harmonic Balance Technique",
+      "publication_year": 2002,
+      "publication_date": "2002-05-01",
+      "doi": "https://doi.org/10.2514/2.1754",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 725,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbomachinery",
+        "Harmonic balance",
+        "Computational fluid dynamics",
+        "Nonlinear system",
+        "Fourier series",
+        "Transonic",
+        "Euler equations",
+        "Multigrid method"
+      ],
+      "abstract": "A harmonic balance technique for modeling unsteady nonlinear e ows in turbomachinery is presented. The analysis exploits the fact that many unsteady e ows of interest in turbomachinery are periodic in time. Thus, the unsteady e ow conservation variables may be represented by a Fourier series in time with spatially varying coefe cients. This assumption leads to a harmonic balance form of the Euler or Navier ‐Stokes equations, which, in turn, can be solved efe ciently as a steady problem using conventional computational e uid dynamic (CFD) methods, including pseudotime time marching with local time stepping and multigrid acceleration. Thus, the method is computationally efe cient, at least one to two orders of magnitude faster than conventional nonlinear time-domain CFD simulations. Computational results for unsteady, transonic, viscous e ow in the front stage rotor of a high-pressure compressor demonstrate that even strongly nonlinear e ows can be modeled to engineering accuracy with a small number of terms retained in the Fourier series representation of the e ow. Furthermore, in some cases, e uid nonlinearities are found to be important for surprisingly small blade vibrations.",
+      "authors": [
+        "Kenneth C. Hall",
+        "Jeffrey Thomas",
+        "W. Scott Clark"
+      ]
+    },
+    {
+      "title": "A Modern Course in Aeroelasticity",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1007/1-4020-2106-2",
+      "venue": "Solid mechanics and its applications",
+      "type": "book",
+      "cited_by_count": 676,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Course (navigation)",
+        "Computer science",
+        "Engineering",
+        "Aerospace engineering",
+        "Aerodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Robert Clark",
+        "D. E. Cox",
+        "H. C. Curtiss",
+        "John W. Edwards",
+        "Kenneth C. Hall",
+        "David A. Peters",
+        "Robert H. Scanlan",
+        "Emil Simiu",
+        "F. Sisto",
+        "Thomas Strganac"
+      ]
+    },
+    {
+      "title": "M ODELING OF F LUID -S TRUCTURE I NTERACTION",
+      "publication_year": 2001,
+      "publication_date": "2001-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fluid.33.1.445",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 664,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Context (archaeology)",
+        "Linearization",
+        "Nonlinear system",
+        "Computer science",
+        "Aerospace",
+        "Physics",
+        "Engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "▪ Abstract The interaction of a flexible structure with a flowing fluid in which it is submersed or by which it is surrounded gives rise to a rich variety of physical phenomena with applications in many fields of engineering, for example, the stability and response of aircraft wings, the flow of blood through arteries, the response of bridges and tall buildings to winds, the vibration of turbine and compressor blades, and the oscillation of heat exchangers. To understand these phenomena we need to model both the structure and the fluid. However, in keeping with the overall theme of this volume, the emphasis here is on the fluid models. Also, the applications are largely drawn from aerospace engineering although the methods and fundamental physical phenomena have much wider applications. In the present article, we emphasize recent developments and future challenges. To provide a context for these, the article begins with a description of the various physical models for a fluid undergoing time-dependent motion, then moves to a discussion of the distinction between linear and nonlinear models, time-linearized models and their solution in either the time or frequency domains, and va...",
+      "authors": [
+        "Earl H. Dowell",
+        "Kenneth C. Hall"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Aeromechanics",
+      "publication_year": 2025,
+      "publication_date": "2025-08-05",
+      "doi": "https://doi.org/10.2514/5.9781624107221.0895.0974",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Business"
+      ],
+      "abstract": "",
+      "authors": [
+        "Matthew Montgomery",
+        "Kenneth C. Hall",
+        "Robert E. Kielb"
+      ]
+    },
+    {
+      "title": "Identification of the Aeromechanical Parameters of a Compressor Rotor from Blade Tip Timing Data",
+      "publication_year": 2024,
+      "publication_date": "2024-02-20",
+      "doi": "https://doi.org/10.1115/1.4064816",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Blade (archaeology)",
+        "Rotor (electric)",
+        "Gas compressor",
+        "Identification (biology)",
+        "Structural engineering",
+        "Acoustics",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "Abstract This article presents a maximum likelihood approach to identifying the mistuning, aerodynamic forcing functions, and aerodynamic influence coefficients of compressor rotor blades from noisy experimental measurements of blade deflection. The maximum likelihood estimation approach leads naturally to a nonlinear least squares optimization problem that can be solved using numerical optimization techniques such as quasi-Newton methods. An eigenmode decomposition approach is presented that permits the optimization objective function and gradient to be efficiently calculated so that the optimization is computationally feasible, even for experiments involving very large data sets. Simulation results show that the method has the potential to accurately identify the mistuning and aerodynamic nodal diameter forcing functions, but obtaining accurate results for influence coefficients may not be possible if there is significant disk flexibility. We demonstrate the method using both simulated and experimental blade vibration data from rotor 2 of the Purdue University three-stage axial compressor research facility collected using a light probe tip timing system as the rotor is slowly ...",
+      "authors": [
+        "Kenneth C. Hall",
+        "Steven R. Hall"
+      ]
+    },
+    {
+      "title": "Building upstream supplier capabilities for downstream customization: The role of collaboration capital",
+      "publication_year": 2023,
+      "publication_date": "2023-12-11",
+      "doi": "https://doi.org/10.1111/jbl.12369",
+      "venue": "Journal of Business Logistics",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jbl.12369",
+      "concepts": [
+        "Upstream (networking)",
+        "Downstream (manufacturing)",
+        "Personalization",
+        "Business",
+        "Industrial organization",
+        "Order (exchange)",
+        "Flexibility (engineering)",
+        "Upstream and downstream (DNA)"
+      ],
+      "abstract": "Abstract Offering highly customized products and services is an attractive strategic option for firms in business‐to‐business (B2B) markets. However, as effective customization for downstream customers requires significant reliance on upstream suppliers, capabilities of upstream suppliers become central to firm strategies to produce customized offerings. Despite the importance of upstream supplier capabilities for downstream customization, there is a scarcity of research on how firms build their suppliers' capabilities for effective customization. Building on the foundations of research streams on customization, capabilities, and collaboration, this research tests a model which illustrates that (i) upstream supplier capabilities can result in positive customization outcomes for downstream markets and (ii) a firm's collaboration capital can build upstream supplier capabilities directly and also indirectly through supplier communication. Analyses of data collected from 189 organizations that extensively engage in downstream customization reveal the role of collaboration capital—conceptualized as a higher order factor with collaboration orientation, collaborative flexibility, and c...",
+      "authors": [
+        "Sreedhar Madhavaram",
+        "Kenneth C. Hall",
+        "Amit K. Ghosh",
+        "Vishag Badrinarayanan"
+      ]
+    },
+    {
+      "title": "Designing transmit optical amplifiers for the current roll out of optical communication constellations",
+      "publication_year": 2023,
+      "publication_date": "2023-07-12",
+      "doi": "https://doi.org/10.1117/12.2690524",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optical amplifier",
+        "Constellation",
+        "Current (fluid)",
+        "Amplifier",
+        "Computer science",
+        "Optical communication",
+        "Optical performance monitoring",
+        "Electronic engineering"
+      ],
+      "abstract": "There are a number of parametric challenges in designing transmit optical amplifiers for the current deployment of optical communication constellations.Constellations are often aligned to channel wavelengths defined by the Space Development Agency (SDA) Tranche 1 Optical Communications Terminal Standard, which requires duplex operation at 1536.61 and 1553.33nm.We present an experimental characterisation supported by numerical modelling, of duplex operation up to 10W at both channel wavelengths and discuss performance limits.The characterisation includes power, out-of-channel amplified spontaneous emission (ASE) content and in-channel ASE content / noise figure determined from time-domain extinction measurements.For an output power of 10W, stimulated Brillouin scattering (SBS) can readily limit the delivery of optical power over relatively short fiber lengths.We also present the growth of a Stokes wave as a function of output power, delivery fiber length and fiber type experimentally.These results showing good agreement with theory, and set design limits on peak power transmission.These peak power considerations being of particular interest for pulse position modulation (PPM) enc...",
+      "authors": [
+        "James Edmunds",
+        "Naresh Kumar Thipparapu",
+        "Marios Kechagias",
+        "Kenneth C. Hall",
+        "André Donnot",
+        "P.N. Kean",
+        "E. Kehayas",
+        "Matthew Welch"
+      ]
+    }
+  ]
+}

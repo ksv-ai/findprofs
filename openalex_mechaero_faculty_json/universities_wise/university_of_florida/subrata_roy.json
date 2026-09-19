@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Subrata Roy",
+  "full_name": "Subrata Roy",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Florida",
+  "author_id": "A5065161171",
+  "works_count": 267,
+  "cited_by_count": 4749,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 98
+    },
+    {
+      "topic": "Plasma Applications and Diagnostics",
+      "count": 66
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 59
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 57
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Control of Transitional and Turbulent Flows Using Plasma-Based Actuators",
+      "publication_year": 2006,
+      "publication_date": "2006-06-05",
+      "doi": "https://doi.org/10.2514/6.2006-3230",
+      "venue": "36th AIAA Fluid Dynamics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 143,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma actuator",
+        "Actuator",
+        "Turbulence",
+        "Plasma",
+        "Computer science",
+        "Control (management)",
+        "Control theory (sociology)",
+        "Mechanics"
+      ],
+      "abstract": "Abstract : An exploratory numerical study of the control of transitional and turbulent separated flows by means of asymmetric dielectric-barrier-discharge (DBD) actuators is presented. The flow fields are simulated employing an extensively validated high-fidelity Navier-Stokes solver which is augmented with both phenomenological and first-principles models representing the plasma-induced body forces imparted by the actuator on the fluid. Several applications are considered, including suppression of wing stall, control of boundary layer transition on a plate, control of laminar separation over a ramp, and turbulent separation over a wall-mounted hump. Effective suppression of stall over a NACA 0015 airfoil at moderate Reynolds numbers is demonstrated using either co-flow or counter-flow pulsed actuators with sufficiently high frequency. By contrast, continuous actuation (simulated by a steady body force in the phenomenological model) is found to provide little control of separation. For continuous actuator operation, the first-principles approach is needed in order to reproduce the benefits of the inherently unsteady force induced by the plasma actuator. The pulsed-modulated unst...",
+      "authors": [
+        "Miguel R. Visbal",
+        "Datta V. Gaitonde",
+        "Subrata Roy"
+      ]
+    },
+    {
+      "title": "Modeling gas flow through microchannels and nanopores",
+      "publication_year": 2003,
+      "publication_date": "2003-04-03",
+      "doi": "https://doi.org/10.1063/1.1559936",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 624,
+      "is_oa": true,
+      "oa_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/69830/2/JAPIAU-93-8-4870-1.pdf",
+      "concepts": [
+        "Microchannel",
+        "Knudsen number",
+        "Microscale chemistry",
+        "Nanofluidics",
+        "Drag",
+        "Mechanics",
+        "Fluid dynamics",
+        "Hagen–Poiseuille equation"
+      ],
+      "abstract": "Microchannel based systems have emerged as a critical design trend in development of precise control and maneuvering of small devices. In microelectronics, space propulsion and biomedical areas, these systems are especially useful. Nanoscale pores are recently becoming of great interest due to their beneficial drag and heat transfer properties. However it is difficult to predict the flow performance of these microsystems and nanosystems numerically since the standard assumptions of using Navier–Stokes equations break down at micrometer scales, while the computational times of applicable molecular-dynamics codes become exorbitant. A two-dimensional finite-element based microscale flow model is developed to efficiently predict the overall flow characteristics up to the transition regime for reasonably high Knudsen number flow inside microchannels and nanopores. Presented two-dimensional numerical results for Poiseuille flow of a simple fluid through the microchannel are comparable to the numerical and experimental data published in the literature. The nanopore solutions are also validated with presented experimental data.",
+      "authors": [
+        "Subrata Roy",
+        "Reni Raju",
+        "Helen F. Chuang",
+        "Brett A. Cruden",
+        "M. Meyyappan"
+      ]
+    },
+    {
+      "title": "Control of Flow Past a Wing Section with Plasma-based Body Forces",
+      "publication_year": 2005,
+      "publication_date": "2005-06-06",
+      "doi": "https://doi.org/10.2514/6.2005-5302",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 103,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Section (typography)",
+        "Flow control (data)",
+        "Plasma",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "Abstract : The response of the flow past a stalled NACA 0015 airfoil at 15 deg angle of attack and Reynolds number of 45, 000 to body forces originating from radio-frequency asymmetric dielectric-barrier-discharge actuators is described via direct numerical simulations. The theoretical model couples a phenomenologically derived averaged body force with a high-order 3-D compressible Navier-Stokes solver. The body force distribution is assumed to vary linearly, diminishing away from the surface until the critical electric field limit is reached. Various magnitudes and orientations of the force field are explored, ranging from vertically upwards (away from the body) to vertically downwards (towards the body). The imposed body forces couple to the non-linear inertial terms and the pressure gradients to engender a complex sequence of events. A significant streamwise component assures the reduction or elimination of stall with the formation of a stable wall-jet. When the only component of the force vector is pointed normal to and away from the surface, no control effect is achieved. On the other hand, when the force vector is directed towards the surface, a shallower separation region...",
+      "authors": [
+        "Datta V. Gaitonde",
+        "Miguel R. Visbal",
+        "Subrata Roy"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the multi-solitons interaction, shock waves, and hybrid solutions to the variable coefficients perturbed damped modified Korteweg-de Vries-Zakharov-Kuznetsov equation arising in plasma and fluids",
+      "publication_year": 2025,
+      "publication_date": "2025-11-10",
+      "doi": "https://doi.org/10.59277/romrepphys.2025.77.122",
+      "venue": "Romanian Reports in Physics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.59277/romrepphys.2025.77.122",
+      "concepts": [
+        "Physics",
+        "Bilinear interpolation",
+        "Plasma",
+        "Variable (mathematics)",
+        "Work (physics)",
+        "Soliton",
+        "Nonlinear system",
+        "Classical mechanics"
+      ],
+      "abstract": "This work demonstrates the characteristic of integrability through Painlev´e analysis, Auto-B¨acklund transformation, soliton interaction, shocks, positons, and hybrid solutions to the (3+1)-dimensional variable coefficients damped perturbed modified Korteweg-de Vries-Zakharov-Kuznetsov (vcdp-mKdV-ZK) equation. As mentioned earlier, the equation is given a bilinear form using Hirota’s method. First, Hirota’s bilinear form is employed to generate multi-soliton solutions. The breathers are then investigated analytically from the multi-soliton solutions by selecting the appropriate vectors in the solution space. Additionally, parabolic and cubic solitons, smooth positon, parabolic and periodic shocks, and soliton interactions are illustrated. To exhibit the evolving features of the derived solutions, certain numerical graphics are drawn by selecting appropriate time-dependent coefficients. The results reveal that time-dependent coefficients can produce various dynamic behaviors, suggesting that the vcdp-mKdV-ZK equation may be significant for modeling various nonlinear phenomena in plasma physics and many fields of physics and engineering. Thus, the present study can assist numerou...",
+      "authors": [
+        "Weaam Alhejaili",
+        "Subrata Roy",
+        "Santanu Raut",
+        "Amnah S. Al‐Johani",
+        "S. A. El-Tantawy"
+      ]
+    },
+    {
+      "title": "Data-driven spatiotemporal analysis of linear and serpentine actuation for transition to turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-06-01",
+      "doi": "https://doi.org/10.1063/5.0263872",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Statistical physics",
+        "Mechanics",
+        "Classical mechanics"
+      ],
+      "abstract": "The spatiotemporal Koopman decomposition (STKD) is a data-driven modal decomposition technique that provides a means to represent a flow-field as a sum of standing and traveling waves with temporal and spatial growth rates. The method involves repeated application of dynamic mode decomposition (DMD) or higher-order DMD (HODMD). In this paper, HODMD and STKD are shown to be useful in analyzing coherent structures in a flow-field perturbed by surface plasma actuation. The decomposition methods were applied to implicit large eddy simulations run with our in-house Multiscale Ionized Gas flow code which modeled a straight-edged linear and a square-serpentine shaped plasma actuators and their influence on a Mach 0.5 flow over a flat plate. The HODMD and STKD were used to compute the associated frequencies and spatiotemporal growth of the generated flow structures by decomposing snapshots of the relevant wall shear stresses. These methods were able to successfully reconstruct the variation in wall shear stress for these actuated flows with a limited number of intensifying traveling waves for both cases. For the length of the plate studied, this analysis provided more insight into the o...",
+      "authors": [
+        "Arman C. Ghannadian",
+        "Lucas Z. Michels",
+        "Ryan Gosse",
+        "Subrata Roy"
+      ]
+    },
+    {
+      "title": "Discontinuous Galerkin Simulation for Aero-Thermo-Acoustic Relationship in Compressible ZPG Turbulent Flows With Varying Wall Temperatures",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2412",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Compressibility",
+        "Turbulence",
+        "Mechanics",
+        "Discontinuous Galerkin method",
+        "Acoustics",
+        "Compressible flow",
+        "Physics",
+        "Thermodynamics"
+      ],
+      "abstract": "Laganelli’s correlation describes a relationship between pressure fluctuations and wall temperature for a given compressible zero pressure gradient turbulent boundary layer. Empirical validation becomes difficult due to the inability of pressure sensors to capture the high-frequency content. Previous work on acoustic loading of transitional and turbulent hypersonic boundary layers gave some insight into the fit of this correlation using DNS and ILES data on adiabatic wall temperatures. The current work used Multiscale Ionized Gas (MIG), discontinuous Galerkin code, to verify and validate the code’s capabilities for aero-thermo-acoustics, and to explore Laganelli’s correlation fit for varying wall temperature regimes. A reasonable fit was found for the cases discussed in this work. Additionally, the effects of probe sampling frequency and the sensitivity to inflow conditions were discussed.",
+      "authors": [
+        "Lucas Z. Michels",
+        "Arman C. Ghannadian",
+        "Ryan Gosse",
+        "Subrata Roy"
+      ]
+    },
+    {
+      "title": "Spatiotemporal Koopman Decomposition of Plasma Forcing With a Serpentine Plasma Actuator",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2202",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma",
+        "Forcing (mathematics)",
+        "Plasma actuator",
+        "Actuator",
+        "Decomposition",
+        "Control theory (sociology)",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "The spatiotemporal Koopman decomposition (STKD) is a data-driven modal decomposition technique that provides a means to represent a flow-field as a sum of standing and traveling waves with temporal and spatial growth rates. The method involves repeated application of dynamic mode decomposition (DMD) or higher-order DMD (HODMD). In this paper, HODMD and STKD are shown to be useful in analyzing coherent structures in a flow-field perturbed by a square serpentine plasma actuator. The methods are applied to an implicit large eddy simulation (ILES) run with our in-house CFD code Multiscale Ionized Gas (MIG) which modeled a square-serpentine plasma actuator on a flat plate at Mach 0.5 to cause transition. Previous work performed a proper orthogonal decomposition (POD) for this type of actuation to analyze the relative energy content of various modes. The STKD allows for tracking the spatiotemporal growth of the generated flow structures before transition, providing more detail about the process leading up to transition.",
+      "authors": [
+        "Arman C. Ghannadian",
+        "Ryan Gosse",
+        "Subrata Roy"
+      ]
+    },
+    {
+      "title": "Spatiotemporal Koopman decomposition of second mode instability from a hypersonic schlieren video",
+      "publication_year": 2024,
+      "publication_date": "2024-09-01",
+      "doi": "https://doi.org/10.1063/5.0226443",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Hypersonic speed",
+        "Instability",
+        "Schlieren",
+        "Mode (computer interface)",
+        "Dynamic mode decomposition",
+        "Aerospace engineering",
+        "Mechanics"
+      ],
+      "abstract": "Data-driven modal analysis methods provide a powerful way to decompose data into a sum of modes. The spatiotemporal Koopman decomposition (STKD) enables the computation of modes defined by global frequencies and growth rates in various spatial dimensions and time. The method is an extension of the dynamic mode decomposition (DMD) and higher-order dynamic mode decomposition (HODMD) that represents the data as a sum of standing and traveling, possibly growing or decaying, waves. In this paper, the STKD with HODMD is applied to schlieren video highlighting second mode instability waves traveling down the length of a 3-degree half-angle cone and a 7-degree half-angle cone, both at a freestream Mach number of 6. The HODMD is able to compute dominant modes and frequencies that align with those from associated experimental measurements of unsteady pressure fluctuations, and whose mode shapes clearly show the intensifying wavepacket structure of the waves. The STKD algorithm is used to compute streamwise wavenumbers, spatial growth rates, and wave speeds. The spatial growth rates from the STKD and the magnitudes of the HODMD mode shapes are used to compute the N-factor for waves of seve...",
+      "authors": [
+        "Arman C. Ghannadian",
+        "Ryan Gosse",
+        "Subrata Roy",
+        "Zachary D. Lawless",
+        "Samantha A. Miller",
+        "Joseph S. Jewell"
+      ]
+    }
+  ]
+}

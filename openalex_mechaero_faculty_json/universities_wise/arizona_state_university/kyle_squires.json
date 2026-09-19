@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Kyle Squires",
+  "full_name": "Kyle D. Squires",
+  "department": "School for Engineering of Matter, Transport and Energy",
+  "university": "Arizona State University",
+  "author_id": "A5014517076",
+  "works_count": 208,
+  "cited_by_count": 13732,
+  "h_index": 42,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 152
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 64
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 46
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 43
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 32
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A New Version of Detached-eddy Simulation, Resistant to Ambiguous Grid Densities",
+      "publication_year": 2006,
+      "publication_date": "2006-05-29",
+      "doi": "https://doi.org/10.1007/s00162-006-0015-0",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 2548,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Large eddy simulation",
+        "Mechanics",
+        "Detached eddy simulation",
+        "Reynolds number",
+        "Boundary layer",
+        "Turbulence modeling"
+      ],
+      "abstract": "",
+      "authors": [
+        "Philippe R. Spalart",
+        "Sébastien Deck",
+        "M. L. Shur",
+        "Kyle D. Squires",
+        "М. Х. Стрелец",
+        "А. В. Травин"
+      ]
+    },
+    {
+      "title": "A dynamic subgrid-scale model for compressible turbulence and scalar transport",
+      "publication_year": 1991,
+      "publication_date": "1991-11-01",
+      "doi": "https://doi.org/10.1063/1.858164",
+      "venue": "Physics of Fluids A Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 1561,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulent Prandtl number",
+        "Turbulence",
+        "Prandtl number",
+        "Direct numerical simulation",
+        "Large eddy simulation",
+        "Magnetic Prandtl number",
+        "Scalar (mathematics)"
+      ],
+      "abstract": "The dynamic subgrid-scale (SGS) model of Germano et al. [Phys. Fluids A 3, 1760 (1991)] is generalized for the large eddy simulation (LES) of compressible flows and transport of a scalar. The model was applied to the LES of decaying isotropic turbulence, and the results are in excellent agreement with experimental data and direct numerical simulations. The expression for the SGS turbulent Prandtl number was evaluated using direct numerical simulation (DNS) data in isotropic turbulence, homogeneous shear flow, and turbulent channel flow. The qualitative behavior of the model for turbulent Prandtl number and its dependence on molecular Prandtl number, direction of scalar gradient, and distance from the wall are in accordance with the total turbulent Prandtl number from the DNS data.",
+      "authors": [
+        "Parviz Moin",
+        "Kyle D. Squires",
+        "W. Cabot",
+        "S. Lee"
+      ]
+    },
+    {
+      "title": "Generation of Turbulent Inflow Data for Spatially-Developing Boundary Layer Simulations",
+      "publication_year": 1998,
+      "publication_date": "1998-03-01",
+      "doi": "https://doi.org/10.1006/jcph.1998.5882",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1525,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1006/jcph.1998.5882",
+      "concepts": [
+        "Inflow",
+        "Mechanics",
+        "Boundary layer",
+        "Outflow",
+        "Turbulence",
+        "Large eddy simulation",
+        "Boundary (topology)",
+        "Boundary layer thickness"
+      ],
+      "abstract": "A method for generating three-dimensional, time-dependent turbulent inflow data for simulations of complex spatially developing boundary layers is described. The approach is to extract instantaneous planes of velocity data from an auxiliary simulation of a zero pressure gradient boundary layer. The auxiliary simulation is also spatially developing, but generates its own inflow conditions through a sequence of operations where the velocity field at a downstream station is rescaled and re-introduced at the inlet. This procedure is essentially a variant of the Spalart method, optimized so that an existing inflow–outflow code can be converted to an inflow-generation device through the addition of one simple subroutine. The proposed method is shown to produce a realistic turbulent boundary layer which yields statistics that are in good agreement with both experimental data and results from direct simulations. The method is used to provide inflow conditions for a large eddy simulation (LES) of a spatially evolving boundary layer spanning a momentum thickness Reynolds number interval of 1530–2150. The results from the LES calculation are compared with those from other simulations that ...",
+      "authors": [
+        "Thomas Lund",
+        "Xiaohua Wu",
+        "Kyle D. Squires"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The Mechanics of Drag Reduction of Tessellated Spheres",
+      "publication_year": 2025,
+      "publication_date": "2025-08-04",
+      "doi": "https://doi.org/10.1007/s10494-025-00684-1",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drag",
+        "SPHERES",
+        "Reduction (mathematics)",
+        "Mechanics",
+        "Fluid mechanics",
+        "Classical mechanics",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nikolaos Beratlis",
+        "Elias Balaras",
+        "Kyle D. Squires"
+      ]
+    },
+    {
+      "title": "Pressure boundary conditions for immersed-boundary methods",
+      "publication_year": 2024,
+      "publication_date": "2024-05-06",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.113057",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 15,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2024.113057",
+      "concepts": [
+        "Immersed boundary method",
+        "Boundary (topology)",
+        "Boundary conditions in CFD",
+        "Boundary value problem",
+        "Mathematics",
+        "Mathematical analysis",
+        "Mechanics",
+        "Robin boundary condition"
+      ],
+      "abstract": "",
+      "authors": [
+        "İbrahim Yıldıran",
+        "Nikolaos Beratlis",
+        "Francesco Capuano",
+        "Yue‐Hin Loke",
+        "Kyle D. Squires",
+        "Elias Balaras"
+      ]
+    },
+    {
+      "title": "Online delivery of an undergraduate engineering program",
+      "publication_year": 2024,
+      "publication_date": "2024-02-08",
+      "doi": "https://doi.org/10.18260/1-2--27405",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/27405.pdf",
+      "concepts": [
+        "Computer science",
+        "Engineering management",
+        "Software engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Stephen Phillips",
+        "Kyle D. Squires",
+        "Marco Saraniti"
+      ]
+    },
+    {
+      "title": "Cost vs Accuracy: DNS of turbulent flow over a sphere using structured immersed-boundary, unstructured finite-volume, and spectral-element methods",
+      "publication_year": 2023,
+      "publication_date": "2023-08-06",
+      "doi": "https://doi.org/10.1016/j.euromechflu.2023.07.008",
+      "venue": "European Journal of Mechanics - B/Fluids",
+      "type": "article",
+      "cited_by_count": 15,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.euromechflu.2023.07.008",
+      "concepts": [
+        "Solver",
+        "Finite volume method",
+        "Immersed boundary method",
+        "Turbulence",
+        "Computer science",
+        "Computational science",
+        "Flow (mathematics)",
+        "Finite element method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Francesco Capuano",
+        "Nikolaos Beratlis",
+        "Fengrui Zhang",
+        "Yulia Peet",
+        "Kyle D. Squires",
+        "Elias Balaras"
+      ]
+    },
+    {
+      "title": "Cost vs Accuracy: Dns of Turbulent Flow Over a Sphere Using Structured Immersed-Boundary, Unstructured Finite-Volume, and Spectral-Element Methods",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4379431",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4379431",
+      "concepts": [
+        "Turbulence",
+        "Boundary (topology)",
+        "Finite element method",
+        "Immersed boundary method",
+        "Mechanics",
+        "Finite volume method",
+        "Volume (thermodynamics)",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Francesco Capuano",
+        "Nikolaos Beratlis",
+        "Fengrui Zhang",
+        "Yulia Peet",
+        "Kyle D. Squires",
+        "Elias Balaras"
+      ]
+    }
+  ]
+}

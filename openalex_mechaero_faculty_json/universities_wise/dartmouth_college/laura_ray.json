@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Laura Ray",
+  "full_name": "Laura Ray",
+  "department": "Thayer School of Engineering",
+  "university": "Dartmouth College",
+  "author_id": "A5000034078",
+  "works_count": 133,
+  "cited_by_count": 2474,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 14
+    },
+    {
+      "topic": "Vehicle Dynamics and Control Systems",
+      "count": 14
+    },
+    {
+      "topic": "Speech and Audio Processing",
+      "count": 12
+    },
+    {
+      "topic": "Hydraulic and Pneumatic Systems",
+      "count": 11
+    },
+    {
+      "topic": "Soil Mechanics and Vehicle Dynamics",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Nonlinear Tire Force Estimation and Road Friction Identification: Simulation and Experiments ,",
+      "publication_year": 1997,
+      "publication_date": "1997-10-01",
+      "doi": "https://doi.org/10.1016/s0005-1098(97)00093-9",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 492,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0005109897000939/pdf",
+      "concepts": [
+        "Slip angle",
+        "Nonlinear system",
+        "Kalman filter",
+        "Robustness (evolution)",
+        "Slip (aerodynamics)",
+        "Control theory (sociology)",
+        "Vehicle dynamics",
+        "Engineering"
+      ],
+      "abstract": "This paper applies extended Kalman-Bucy filtering (EKBF) and Bayesian hypothesis selection to estimate motion, tire forces, and road coefficient of friction (μ) of vehicles on asphalt surfaces. The EKBF estimates the state and tire forces of an eight-degree-of-freedom vehicle from vehicle-mounted sensors. The filter requires no a priori knowledge of μ and does not require a tire force model. Resulting force, slip, and slip angle estimates are compared statistically with those that result from a nominal analytic tire model to select the most likely μ from a set of hypothesized values. The methods have application to both off-line construction of tire models and development of vehicle control systems that require μ. Both simulation results and results of applying estimation methods to field test data are presented. Simulation results show excellent convergence and accuracy of μ estimates, and results of processing field test data demonstrate the ability to construct useful tire models. Computation and sensor requirements, and robustness of the μ identification algorithm are considered. © 1997 Elsevier Science Ltd.",
+      "authors": [
+        "Laura Ray"
+      ]
+    },
+    {
+      "title": "Nonlinear state and tire force estimation for advanced vehicle control",
+      "publication_year": 1995,
+      "publication_date": "1995-03-01",
+      "doi": "https://doi.org/10.1109/87.370717",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 325,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Estimator",
+        "Kalman filter",
+        "Slip (aerodynamics)",
+        "Nonlinear system",
+        "Vehicle dynamics",
+        "Extended Kalman filter",
+        "Slip angle"
+      ],
+      "abstract": "Vehicle motion and tire force histories are estimated from an incomplete, noise-corrupted measurement set using an extended Kalman filter. A nine degree-of-freedom vehicle model and an analytic tire force model are used to simulate true vehicle motion, and a five degree-of-freedom vehicle model is used in the estimator. The filtered histories of forces and motion can be used to construct tire force models through off-line analysis, and both tire force estimates and state estimates are available for real time control. No prior knowledge of tire force characteristics or external factors that affect vehicle motion is required for the nonlinear estimation procedure. Simulation of a simple slip control braking system using slip and slip angle estimates for feedback demonstrates the effectiveness of the extended Kalman filter in providing adequate state estimates for advanced control of ground vehicles.>",
+      "authors": [
+        "Laura Ray"
+      ]
+    },
+    {
+      "title": "A monte carlo approach to the analysis of control system robustness",
+      "publication_year": 1993,
+      "publication_date": "1993-01-01",
+      "doi": "https://doi.org/10.1016/0005-1098(93)90187-x",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 230,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Control theory (sociology)",
+        "Robust control",
+        "Computer science",
+        "Monte Carlo method",
+        "Linear-quadratic-Gaussian control",
+        "Control system",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Laura Ray",
+        "Robert F. Stengel"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "BOARD # 294: Reinforcing curricular interventions in data science through an experiential learning internship program (NSF IUSE [GRANT NUMBER])",
+      "publication_year": 2025,
+      "publication_date": "2025-08-21",
+      "doi": "https://doi.org/10.18260/1-2--55659",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Internship",
+        "Experiential learning",
+        "Psychological intervention",
+        "Medical education",
+        "Computer science",
+        "Mathematics education",
+        "Psychology",
+        "Medicine"
+      ],
+      "abstract": "",
+      "authors": [
+        "Petra Bonfert-Taylor",
+        "Laura Ray",
+        "Scott D. Pauls"
+      ]
+    },
+    {
+      "title": "Accelerating Change of Practice Through Targeted Professional Development in Data Science",
+      "publication_year": 2025,
+      "publication_date": "2025-03-20",
+      "doi": "https://doi.org/10.1080/26939169.2025.2479012",
+      "venue": "Journal of Statistics and Data Science Education",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1080/26939169.2025.2479012",
+      "concepts": [
+        "Professional development",
+        "Engineering ethics",
+        "Data science",
+        "Psychology",
+        "Medical education",
+        "Computer science",
+        "Medicine",
+        "Engineering"
+      ],
+      "abstract": "DIFUSE is a National Science Foundation-funded project at Dartmouth College that develops flexible and reusable data science modules. To disseminate our work, we organized a workshop where faculty participants explored modules and the design process. We identify factors that led participants to join the workshop, their goals for incorporating data science in their courses, and their impacts on their practice. We report and interpret quantitative and qualitative outcomes through participants’ surveys and interviews, finding that the workshop was very successful in increasing participants’ resources and experience levels and promoting change of practices. Further, participants who engaged in continued collaboration, adapting or creating modules for their own courses, reaped deeper changes in practice.",
+      "authors": [
+        "Merve N. Kursav",
+        "Scott D. Pauls",
+        "Petra Bonfert-Taylor",
+        "Lorie Loeb",
+        "Laura Ray"
+      ]
+    },
+    {
+      "title": "Infusing Data Science into the Undergraduate STEM Curriculum",
+      "publication_year": 2024,
+      "publication_date": "2024-02-06",
+      "doi": "https://doi.org/10.18260/1-2--41919",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/41919.pdf",
+      "concepts": [
+        "Experiential learning",
+        "Process (computing)",
+        "Curriculum",
+        "Computer science",
+        "Component (thermodynamics)",
+        "Mathematics education",
+        "Pedagogy",
+        "Psychology"
+      ],
+      "abstract": "Petra has published extensively and lectured widely to national and international audiences",
+      "authors": [
+        "Petra Bonfert-Taylor",
+        "Laura Ray",
+        "Scott D. Pauls",
+        "Lorie Loeb",
+        "Logan Sankey",
+        "James F. Busch",
+        "Taylor Hickey"
+      ]
+    },
+    {
+      "title": "Wheeled Autonomous Rover Design and Control for Snow-Covered Terrain",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4916841",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "http://dx.doi.org/10.2139/ssrn.4916841",
+      "concepts": [
+        "Terrain",
+        "Snow",
+        "Geology",
+        "Geomorphology",
+        "Geography",
+        "Cartography"
+      ],
+      "abstract": "",
+      "authors": [
+        "Laura Ray",
+        "Adam Gronewold",
+        "Joshua Elliot",
+        "Christopher Lyke",
+        "Austin P. Lines",
+        "Marguerite Généreux",
+        "Andrew Skow",
+        "Philip Mulford",
+        "Grace D. Player"
+      ]
+    },
+    {
+      "title": "Towards Minimal Energy Sensor Deployment in Exo-Atmospheric Environments",
+      "publication_year": 2023,
+      "publication_date": "2023-03-04",
+      "doi": "https://doi.org/10.1109/aero55745.2023.10115838",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Regolith",
+        "Penetrometer",
+        "Aerospace engineering",
+        "Prospecting",
+        "Projectile",
+        "Payload (computing)",
+        "Kinetic energy",
+        "Celestial sphere"
+      ],
+      "abstract": "We propose BOLAS, or Break-Off and Landing Sensing, as a prospecting mobility solution concept capable of deploying individual instruments, such as a miniature spectrometer or a freefall penetrometer, to the base of a Permanently Shadowed Region (PSR) of the Lunar South Pole. Our overall approach to prospecting mobility is to use a projectile launcher from the rim of a PSR to launch BOLAS which comprises two spheres connected by an elastic tether. One sphere contains a sensor payload to be deployed (the “science sphere”) and the second counter sphere serves as a “sacrificial” mass. The sequential launching of each sphere with individual target velocities sets up a rotation when the tether is in tension. The landing velocity of the science sphere in a vacuum is controlled by detaching the sacrificial sphere such that the kinetic energy of the science sphere is sufficiently low to survive impact. In this way, a controlled landing is implemented passively, without external actuators, such as a solid rocket. Our mission scenario and mobility concept focus on acquiring data to answer questions about PSRs, such as: Does the regolith support mobility? What is the distribution of volati...",
+      "authors": [
+        "Philip Mulford",
+        "Mike Kokko",
+        "Laura Ray"
+      ]
+    }
+  ]
+}

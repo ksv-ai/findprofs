@@ -1,0 +1,273 @@
+{
+  "faculty_name": "M. Khalid Jawed",
+  "full_name": "Mohammad Khalid Jawed",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5055368146",
+  "works_count": 208,
+  "cited_by_count": 3006,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 40
+    },
+    {
+      "topic": "Advanced Materials and Mechanics",
+      "count": 38
+    },
+    {
+      "topic": "Soft Robotics and Applications",
+      "count": 32
+    },
+    {
+      "topic": "Modular Robots and Swarm Intelligence",
+      "count": 24
+    },
+    {
+      "topic": "Wastewater Treatment and Nitrogen Removal",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Highly Dynamic Shape Memory Alloy Actuator for Fast Moving Soft Robots",
+      "publication_year": 2019,
+      "publication_date": "2019-01-07",
+      "doi": "https://doi.org/10.1002/admt.201800540",
+      "venue": "Advanced Materials Technologies",
+      "type": "article",
+      "cited_by_count": 209,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Actuator",
+        "Shape-memory alloy",
+        "SMA*",
+        "Materials science",
+        "Elastomer",
+        "Artificial muscle",
+        "Bending",
+        "Robot"
+      ],
+      "abstract": "Abstract Shape memory alloys (SMAs) are popular as actuators for soft bioinspired robots because they are naturally compliant, have high work density, and can be operated using miniaturized on‐board electronics for power and control. However, SMA actuators typically exhibit limited bandwidth due to the long duration of time required for the alloy to cool down and return to its natural shape and compliance following electrical actuation. This challenge is addressed by constructing SMA‐based actuators out of thermally conductive elastomers and examining the influence of electrical current and actuation frequency on blocking force, bending amplitude, and operating temperature. The actuator is composed of a U‐shape SMA wire that is sandwiched between layers of stretched and unstretched thermal elastomer. Based on the studies, the ability is demonstrated to create a highly dynamic soft actuator that weighs 3.7 g, generates a force of ≈0.2 N, bends with curvature change of ≈60 m −1 in 0.15 s, and can be activated with a frequency above 0.3 Hz with a pair of miniature 3.7 V lithium–polymer batteries. Together, these properties allow the actuator to be used as an “artificial muscle” for...",
+      "authors": [
+        "Xiaonan Huang",
+        "Kitty Kumar",
+        "Mohammad Khalid Jawed",
+        "Amir Mohammadi Nasab",
+        "Zisheng Ye",
+        "Wanliang Shan",
+        "Carmel Majidi"
+      ]
+    },
+    {
+      "title": "Chasing biomimetic locomotion speeds: Creating untethered soft robots with shape memory alloy actuators",
+      "publication_year": 2018,
+      "publication_date": "2018-12-19",
+      "doi": "https://doi.org/10.1126/scirobotics.aau7557",
+      "venue": "Science Robotics",
+      "type": "article",
+      "cited_by_count": 191,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Actuator",
+        "Robot",
+        "Shape-memory alloy",
+        "Robot locomotion",
+        "Computer science",
+        "Biomimetics",
+        "Soft robotics",
+        "Engineering"
+      ],
+      "abstract": "By using compliant lightweight actuators with shape memory alloy, we created untethered soft robots that are capable of dynamic locomotion at biologically relevant speeds.",
+      "authors": [
+        "Xiaonan Huang",
+        "Kitty Kumar",
+        "Mohammad Khalid Jawed",
+        "Amir Mohammadi Nasab",
+        "Zisheng Ye",
+        "Wanliang Shan",
+        "Carmel Majidi"
+      ]
+    },
+    {
+      "title": "Sunlight-powered self-excited oscillators for sustainable autonomous soft robotics",
+      "publication_year": 2023,
+      "publication_date": "2023-04-19",
+      "doi": "https://doi.org/10.1126/scirobotics.adf4753",
+      "venue": "Science Robotics",
+      "type": "article",
+      "cited_by_count": 160,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soft robotics",
+        "Robot",
+        "Oscillation (cell signaling)",
+        "Robotics",
+        "Mechanical energy",
+        "Computer science",
+        "Energy harvesting",
+        "Power (physics)"
+      ],
+      "abstract": "As the field of soft robotics advances, full autonomy becomes highly sought after, especially if robot motion can be powered by environmental energy. This would present a self-sustained approach in terms of both energy supply and motion control. Now, autonomous movement can be realized by leveraging out-of-equilibrium oscillatory motion of stimuli-responsive polymers under a constant light source. It would be more advantageous if environmental energy could be scavenged to power robots. However, generating oscillation becomes challenging under the limited power density of available environmental energy sources. Here, we developed fully autonomous soft robots with self-sustainability based on self-excited oscillation. Aided by modeling, we have successfully reduced the required input power density to around one-Sun level through a liquid crystal elastomer (LCE)-based bilayer structure. The autonomous motion of the low-intensity LCE/elastomer bilayer oscillator \"LiLBot\" under low energy supply was achieved by high photothermal conversion, low modulus, and high material responsiveness simultaneously. The LiLBot features tunable peak-to-peak amplitudes from 4 to 72 degrees and freque...",
+      "authors": [
+        "Yusen Zhao",
+        "Qiaofeng Li",
+        "Zixiao Liu",
+        "Yousif Alsaid",
+        "Pengju Shi",
+        "Mohammad Khalid Jawed",
+        "Ximin He"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "MAT-DiSMech: A Discrete Differential Geometry-Based Computational Tool for Simulation of Rods, Shells, and Soft Robots",
+      "publication_year": 2026,
+      "publication_date": "2026-04-30",
+      "doi": "https://doi.org/10.1177/21695172261426875",
+      "venue": "Soft Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2504.17186",
+      "concepts": [
+        "Modular design",
+        "Computer science",
+        "Robot",
+        "Control engineering",
+        "Physical system",
+        "Visualization",
+        "Simulation",
+        "Implementation"
+      ],
+      "abstract": "Accurate and efficient simulation tools are essential in robotics, enabling the visualization of system dynamics and the validation of control laws before committing resources to physical experimentation. Developing physically accurate simulation tools is particularly challenging in soft robotics, largely due to the prevalence of geometrically nonlinear deformation. A variety of robot simulators tackle this challenge by using simplified modeling techniques-such as lumped mass models-which lead to physical inaccuracies in real-world applications. In contrast, high-fidelity simulation methods for soft structures, such as finite element analysis, offer increased accuracy but lead to higher computational costs. In light of this, we present a discrete differential geometry-based simulator that provides a balance between physical accuracy and computational efficiency. Building on an extensive body of research on rod and shell-based representations of soft robots, our tool provides a pathway to accurately model soft robots in a computationally tractable manner. Our open-source MATLAB-based framework is capable of simulating the deformations of rods, shells, and their combinations, prim...",
+      "authors": [
+        "Radha Lahoti",
+        "Mohammad Khalid Jawed"
+      ]
+    },
+    {
+      "title": "Directed Shape Morphing Using Kirigami‐Enhanced Thermoplastics",
+      "publication_year": 2026,
+      "publication_date": "2026-04-14",
+      "doi": "https://doi.org/10.1002/adem.202502378",
+      "venue": "Advanced Engineering Materials",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.22572",
+      "concepts": [
+        "Morphing",
+        "Finite element method",
+        "Mechanical engineering",
+        "Computer science",
+        "Engineering drawing",
+        "Decoupling (probability)",
+        "Materials science",
+        "Process (computing)"
+      ],
+      "abstract": "Programming 3D structures from flat sheets often requires specialized materials, complex fabrication processes, or precisely controlled stimuli. We present a simple, accessible method for autonomously transforming flat plastic sheets into intricate 3D structures using only uniform heating and common tools such as an oven and scissors. Our approach combines heat‐shrinkable thermoplastics with Kirigami patterns tailored to the target 3D shape, creating bilayer composites that morph into a wide range of complex structures, e.g., bowls, pyramids, and even custom ergonomic surfaces like mouse covers. Critically, the transformation is driven by a low‐information stimulus (uniform heat) yet produces highly intricate shapes through programmed geometric design. The morphing behavior, confirmed by finite element simulations, arises from strain mismatch between the contracting thermoplastic layer and the constraining Kirigami layer. By decoupling material composition from mechanical response, this method avoids detailed process control and enables a broad class of self‐morphing structures, offering a versatile platform for adaptive design and scalable manufacturing.",
+      "authors": [
+        "Mrunmayi Mungekar",
+        "Sanjith Menon",
+        "M. Ravi Shankar",
+        "Mohammad Khalid Jawed"
+      ]
+    },
+    {
+      "title": "Emergent Morphogenesis via Planar Fabrication Enabled by a Reduced Model of Composites",
+      "publication_year": 2026,
+      "publication_date": "2026-03-17",
+      "doi": "https://doi.org/10.1002/admt.202501835",
+      "venue": "Advanced Materials Technologies",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Fabrication",
+        "Planar",
+        "Bilayer",
+        "Isotropy",
+        "Layer (electronics)",
+        "3D printing",
+        "Composite material"
+      ],
+      "abstract": "ABSTRACT The ability to engineer complex 3D shapes from planar sheets with precise, programmable control underpins emerging technologies in soft robotics, reconfigurable devices, and functional materials. Here, we present a reduced‐order numerical and experimental framework for a bilayer system consisting of a stimuli‐responsive thermoplastic sheet (Shrinky Dink) bonded to a kirigami‐patterned, inert plastic layer. Upon uniform heating, the active layer contracts while the patterned layer constrains in‐plane stretch but allows out‐of‐plane bending, yielding programmable 3D morphologies from simple planar precursors. Our approach enables efficient computational design and scalable manufacturing of 3D forms with a single‐layer reduced model that captures the coupled mechanics of stretching and bending. Unlike traditional bilayer modeling, our framework models the multilayer composite into a single layer of nodes and elements, reducing the degrees of freedom and enabling simulation on a 2D geometry. This is achieved by introducing a novel energy formulation that captures the coupling between in‐plane stretch mismatch and out‐of‐plane bending–extending beyond simple isotropic linear...",
+      "authors": [
+        "Yupeng Zhang",
+        "Adam Alon",
+        "Mohammad Khalid Jawed"
+      ]
+    },
+    {
+      "title": "Vision-Guided Targeted Grasping and Vibration for Robotic Pollination in Controlled Environments",
+      "publication_year": 2025,
+      "publication_date": "2025-10-07",
+      "doi": "https://doi.org/10.48550/arxiv.2510.06146",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.06146",
+      "concepts": [
+        "Grippers",
+        "GRASP",
+        "Vibration",
+        "Robot",
+        "Computer science",
+        "Artificial intelligence",
+        "Control engineering",
+        "Pollination"
+      ],
+      "abstract": "Robotic pollination offers a promising alternative to manual labor and bumblebee-assisted methods in controlled agriculture, where wind-driven pollination is absent and regulatory restrictions limit the use of commercial pollinators. In this work, we present and validate a vision-guided robotic framework that uses data from an end-effector mounted RGB-D sensor and combines 3D plant reconstruction, targeted grasp planning, and physics-based vibration modeling to enable precise pollination. First, the plant is reconstructed in 3D and registered to the robot coordinate frame to identify obstacle-free grasp poses along the main stem. Second, a discrete elastic rod model predicts the relationship between actuation parameters and flower dynamics, guiding the selection of optimal pollination strategies. Finally, a manipulator with soft grippers grasps the stem and applies controlled vibrations to induce pollen release. End-to-end experiments demonstrate a 92.5\\% main-stem grasping success rate, and simulation-guided optimization of vibration parameters further validates the feasibility of our approach, ensuring that the robot can safely and effectively perform pollination without damag...",
+      "authors": [
+        "Jae‐Hwan Jeong",
+        "Tuan-Anh Vu",
+        "Radha Lahoti",
+        "Jiawen Wang",
+        "Vivek Alumootil",
+        "Sangpil Kim",
+        "Mohammad Khalid Jawed"
+      ]
+    },
+    {
+      "title": "AgriCruiser: An Open Source Agriculture Robot for Over-the-row Navigation",
+      "publication_year": 2025,
+      "publication_date": "2025-09-29",
+      "doi": "https://doi.org/10.48550/arxiv.2509.25056",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.25056",
+      "concepts": [
+        "Chassis",
+        "Robot",
+        "Tractor",
+        "Precision agriculture",
+        "Agricultural machinery",
+        "Weed",
+        "Computer science",
+        "Agricultural engineering"
+      ],
+      "abstract": "We present the AgriCruiser, an open-source over-the-row agricultural robot developed for low-cost deployment and rapid adaptation across diverse crops and row layouts. The chassis provides an adjustable track width of 1.42 m to 1.57 m, along with a ground clearance of 0.94 m. The AgriCruiser achieves compact pivot turns with radii of 0.71 m to 0.79 m, enabling efficient headland maneuvers. The platform is designed for the integration of the other subsystems, and in this study, a precision spraying system was implemented to assess its effectiveness in weed management. In twelve flax plots, a single robotic spray pass reduced total weed populations (pigweed and Venice mallow) by 24- to 42-fold compared to manual weeding in four flax plots, while also causing less crop damage. Mobility experiments conducted on concrete, asphalt, gravel, grass, and both wet and dry soil confirmed reliable traversal consistent with torque sizing. The complete chassis can be constructed from commodity T-slot extrusion with minimal machining, resulting in a bill of materials costing approximately $5,000 - $6,000, which enables replication and customization. The mentioned results demonstrate that low-co...",
+      "authors": [
+        "Truong, Kenny",
+        "Yong-Kyu Lee",
+        "Jason Irie",
+        "Shivam Kumar Panda",
+        "Mohammad Jony",
+        "Sk Akhtar Ahmad",
+        "Md. Mukhlesur Rahman",
+        "Mohammad Khalid Jawed"
+      ]
+    }
+  ]
+}

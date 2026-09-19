@@ -1,0 +1,245 @@
+{
+  "faculty_name": "Sharath Girimaji",
+  "full_name": "Sharath S. Girimaji",
+  "department": "Department of Aerospace Engineering",
+  "university": "Texas A&M University-College Station",
+  "author_id": "A5029911175",
+  "works_count": 345,
+  "cited_by_count": 7168,
+  "h_index": 42,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 236
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 92
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 78
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 49
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 43
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Partially-Averaged Navier-Stokes Model for Turbulence: A Reynolds-Averaged Navier-Stokes to Direct Numerical Simulation Bridging Method",
+      "publication_year": 2005,
+      "publication_date": "2005-11-08",
+      "doi": "https://doi.org/10.1115/1.2151207",
+      "venue": "Journal of Applied Mechanics",
+      "type": "article",
+      "cited_by_count": 526,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Navier–Stokes equations",
+        "Reynolds number",
+        "Mathematics",
+        "Direct numerical simulation",
+        "Turbulence kinetic energy",
+        "Filter (signal processing)"
+      ],
+      "abstract": "A turbulence bridging method purported for any filter-width or scale resolution—fully averaged to completely resolved—is developed. The method is given the name partially averaged Navier-Stokes (PANS) method. In PANS, the model filter width (extent of partial averaging) is controlled through two parameters: the unresolved-to-total ratios of kinetic energy (fk) and dissipation (fε). The PANS closure model is derived formally from the Reynolds-averaged Navier-Stokes (RANS) model equations by addressing the following question: if RANS represents the closure for fully averaged statistics, what is the corresponding closure for partially averaged statistics? The PANS equations vary smoothly from RANS equations to Navier-Stokes (direct numerical simulation) equations, depending on the values of the filter-width control parameters. Preliminary results are very encouraging.",
+      "authors": [
+        "Sharath S. Girimaji"
+      ]
+    },
+    {
+      "title": "Lattice Boltzmann Method: Fundamentals and Engineering Applications with Computer Codes",
+      "publication_year": 2012,
+      "publication_date": "2012-12-07",
+      "doi": "https://doi.org/10.2514/1.j051744",
+      "venue": "AIAA Journal",
+      "type": "book-review",
+      "cited_by_count": 324,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Statistical physics",
+        "Computational science",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Physics",
+        "Aerospace engineering",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sharath S. Girimaji"
+      ]
+    },
+    {
+      "title": "DNS and LES of decaying isotropic turbulence with and without frame rotation using lattice Boltzmann method",
+      "publication_year": 2005,
+      "publication_date": "2005-05-25",
+      "doi": "https://doi.org/10.1016/j.jcp.2005.03.022",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 277,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Lattice Boltzmann methods",
+        "Homogeneous isotropic turbulence",
+        "Kinetic energy",
+        "Dissipation",
+        "Direct numerical simulation",
+        "Turbulence kinetic energy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Huidan Yu",
+        "Sharath S. Girimaji",
+        "Li‐Shi Luo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A framework for energy-balance audits in laboratory OWC experiments",
+      "publication_year": 2026,
+      "publication_date": "2026-01-29",
+      "doi": "https://doi.org/10.1016/j.apor.2026.104949",
+      "venue": "Applied Ocean Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apor.2026.104949",
+      "concepts": [
+        "Oscillating Water Column",
+        "Credibility",
+        "Audit",
+        "Calibration",
+        "Range (aeronautics)",
+        "Engineering",
+        "Systems engineering",
+        "Renewable energy"
+      ],
+      "abstract": "Wave energy conversion (WEC) systems have long promised a sustainable source of renewable energy. However, their progress remains constrained by persistently low conversion efficiencies and the absence of standardized practices for comparing system performance across studies and devices. Energy auditing is a critical element of experimental methodology for establishing confidence and credibility in laboratory investigations and the subsequent design of wave-energy systems. Its implementation is challenging: the energy input (decomposition of incident and reflected wave power), the useful output (device absorption), and especially losses (leakage, pneumatic, viscous, and radiative) are difficult to quantify. Recognizing these challenges, this paper presents an energy-balance framework for oscillating water column (OWC) laboratory studies and reports preliminary experimental results. The measurements integrate a four-probe incident/reflected decomposition and synchronized chamber-power measurements with a baseline loss model to evaluate overall energy closure. Two analysis windows—pre-rebound (Region 1) and post-rebound (Region 2)—are used to examine the influence of wave re-encou...",
+      "authors": [
+        "Ashley N. Chong",
+        "Paul Mario Koola",
+        "Sharath S. Girimaji"
+      ]
+    },
+    {
+      "title": "Experimental Investigation of Wave Energy Converters: Pneumatic Power Absorption in Oscillatory Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-12-22",
+      "doi": "https://doi.org/10.1109/joe.2025.3627464",
+      "venue": "IEEE Journal of Oceanic Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/joe.2025.3627464",
+      "concepts": [
+        "Body orifice",
+        "Piston (optics)",
+        "Mechanics",
+        "Mechanical engineering",
+        "Turbine",
+        "Wave power",
+        "Power (physics)",
+        "Energy transformation"
+      ],
+      "abstract": "Oscillating water columns (OWC) offer a robust option for ocean wave energy conversion due to their minimal underwater moving parts. The OWC devices harness wave energy by trapping air in a chamber, which converts ocean wave motion into a pulsating airflow that drives an air turbine coupled to an electrical generator. Efficient energy extraction necessitates a clear understanding of the complex interactions among hydrodynamic, pneumatic, turbine, and electrical subsystems. The power takeoff (PTO) mechanism is particularly critical, as it governs the entire energy conversion chain from hydraulic to electrical power. Given the analytical challenges, experimental studies are essential for model validation, with small-scale experiments offering a cost-effective approach before full-scale prototype deployment. This study decouples the hydrodynamic and pneumatic subsystems for efficient testing. A piston rig, constructed from 6-in cylindrical pipes and driven by a reciprocating actuator, generates controlled oscillatory pneumatic flow. The downstream end of the cylindrical pipe is fitted with the power generation device or its proxy—miniature Wells turbine, orifice plate or porous plu...",
+      "authors": [
+        "Julia Gionet-Gonzales",
+        "Paul Mario Koola",
+        "Sharath S. Girimaji"
+      ]
+    },
+    {
+      "title": "Wave breaking over submerged obstacles in gravity-driven dam-break flows: A classification framework",
+      "publication_year": 2025,
+      "publication_date": "2025-12-01",
+      "doi": "https://doi.org/10.1063/5.0298764",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Slamming",
+        "Physics",
+        "Breaking wave",
+        "Hydraulics",
+        "Trajectory",
+        "Obstacle",
+        "Dimensionless quantity",
+        "Mechanics"
+      ],
+      "abstract": "This study presents a systematic classification of wave-breaking regimes induced by gravity-driven dam-break flows interacting with submerged obstacles. High-fidelity large-eddy simulations are employed to resolve the transient, nonlinear, and viscous dynamics of the flow. A series of two- and three-dimensional simulations is conducted across a range of initial water depths and aspect ratios. These simulations reveal distinct wave-breaking behaviors—ranging from spilling and surging to collapsing and plunging breakers. We propose a classification framework based on dimensionless parameters related to particle acceleration, velocity, and trajectory slope. These descriptors are more appropriate than conventional wave steepness metrics, particularly when wavelength is neither well-defined nor unique. The study further quantifies potential–kinetic energy exchange, energy dissipation, and slamming forces exerted on the downstream wall. Although idealized, the submerged obstacle configuration captures essential physical processes relevant to both natural and engineered coastal systems. Overall, this work offers a unified framework linking dam-break hydraulics to coastal wave-breaking ...",
+      "authors": [
+        "Haneesha Iphineni",
+        "Sharath S. Girimaji"
+      ]
+    },
+    {
+      "title": "Turbulence through the lens of a visionary: A tribute to K. R. Sreenivasan and an introduction to the special issue",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1063/5.0288593",
+      "venue": "Physics of Fluids",
+      "type": "editorial",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0288593/20766095/100401_1_5.0288593.pdf",
+      "concepts": [
+        "Admiration",
+        "Tribute",
+        "Privilege (computing)",
+        "Physics",
+        "Turbulence",
+        "Lens (geology)",
+        "Through-the-lens metering",
+        "Art history"
+      ],
+      "abstract": "This special issue of Physics of Fluids celebrates the 75th birthday of Professor Katepalli Raju Sreenivasan, popularly known as Sreeni, a distinguished figure whose intellectual influence extends broadly across fluid dynamics, statistical physics, applied mathematics, and beyond. It is a privilege to introduce this collection of papers, contributed by colleagues, former students, and researchers deeply influenced by his work, reflecting the profound respect and admiration he commands within the scientific community.",
+      "authors": [
+        "Sharath S. Girimaji",
+        "Diego A. Donzis"
+      ]
+    },
+    {
+      "title": "Turbulence closure modeling of wave-driven free-surface flows",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1063/5.0278589",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "K-omega turbulence model",
+        "K-epsilon turbulence model",
+        "Turbulence modeling",
+        "Breaking wave",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Mechanics"
+      ],
+      "abstract": "This study investigates turbulence modeling in free-surface flows, with a focus on wave-driven turbulence and wave–structure interactions (WSI). The work examines the interplay between high-shear turbulence during breaking waves and low-turbulence regions under non-breaking waves. Using direct numerical simulation (DNS) data and Reynolds-averaged Navier–Stokes (RANS) calculations, the study explores the closure physics of different length scale model formulations and constitutive relations, with respect to the accurate computation of wave amplitude and various turbulence features. Constitutive relations that uphold realizability constraints are shown to be critical for preserving wave amplitude, especially in high-shear environments. This is due to the fact that, in such regions, turbulence behaves more like an elastic medium rather than a viscous one. It is also demonstrated that the length scale model must exhibit reasonable behavior across both high-shear and low-turbulence regions. Model combinations that employ low-turbulence corrections in conjunction with realizable constitutive relations are most effective in capturing wave dynamics and maintaining wave energy in non-bre...",
+      "authors": [
+        "Lubna Margha",
+        "Sharath S. Girimaji"
+      ]
+    }
+  ]
+}

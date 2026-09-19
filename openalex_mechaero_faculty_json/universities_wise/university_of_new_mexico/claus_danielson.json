@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Claus Danielson",
+  "full_name": "Claus Danielson",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of New Mexico",
+  "author_id": "A5072891938",
+  "works_count": 104,
+  "cited_by_count": 933,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 49
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 18
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 17
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 15
+    },
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Autonomous Multi-Robot Servicing for Spacecraft Operation Extension",
+      "publication_year": 2023,
+      "publication_date": "2023-10-01",
+      "doi": "https://doi.org/10.1109/iros55552.2023.10341875",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 54,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Component (thermodynamics)",
+        "Spacecraft",
+        "Robot",
+        "Computer science",
+        "Satellite",
+        "Control engineering",
+        "Controller (irrigation)",
+        "Stiffness"
+      ],
+      "abstract": "This paper considers the robotic on-orbit servicing of a client satellite. We present an adaptive robotic system to perform two on-orbit tasks: client manipulation and jammed component dislodging (e.g., a solar panel). We use adaptive control due to the uncertainty of the client dynamics and the stiffness of the jammed component. We present two methods for dislodging: a decentralized approach with multiple free-fiying collaborating agents and then transferring the same decentralized approach to a multi-robot arms system. We present simulation studies for these on-orbit servicing tasks. These studies validate the effectiveness of the presented controller despite uncertainty and unmodeled dynamics, such as nonlinear friction.",
+      "authors": [
+        "Longsen Gao",
+        "Giovanni Cordova",
+        "Claus Danielson",
+        "Rafael Fierro"
+      ]
+    },
+    {
+      "title": "Motion planning with invariant set trees",
+      "publication_year": 2017,
+      "publication_date": "2017-08-01",
+      "doi": "https://doi.org/10.1109/ccta.2017.8062689",
+      "venue": "2017 IEEE Conference on Control Technology and Applications (CCTA)",
+      "type": "conference-paper",
+      "cited_by_count": 31,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Motion planning",
+        "Rendezvous",
+        "Invariant (physics)",
+        "Traverse",
+        "Mathematical optimization",
+        "Mathematics",
+        "Reachability"
+      ],
+      "abstract": "This paper introduces the planning algorithm Sa-feRRT, which extends the rapidly-exploring random tree (RRT) algorithm by using feedback control and positively invariant sets to guarantee collision-free closed-loop path tracking. The SafeRRT algorithm steers the output of a system from a feasible initial value to a desired goal, while satisfying input constraints and non-convex output constraints. The algorithm constructs a tree of local state-feedback controllers, each with a randomly sampled reference equilibrium and corresponding positively invariant set. The positively invariant sets indicate when it is possible to safely transition from one local controller to another without violating constraints. The tree is expanded from the desired goal until it contains the initial condition, at which point traversing the tree yields a dynamically feasible and safe closed-loop trajectory. We demonstrate SafeRRT on a spacecraft rendezvous example.",
+      "authors": [
+        "Avishai Weiss",
+        "Claus Danielson",
+        "Karl Berntorp",
+        "Ilya Kolmanovsky",
+        "Stefano Di Cairano"
+      ]
+    },
+    {
+      "title": "Performance evaluation of battery balancing hardware",
+      "publication_year": 2013,
+      "publication_date": "2013-07-01",
+      "doi": "https://doi.org/10.23919/ecc.2013.6669307",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 49,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Network topology",
+        "Computer science",
+        "Battery (electricity)",
+        "Computer hardware",
+        "Battery pack",
+        "Load balancing (electrical power)",
+        "Topology (electrical circuits)",
+        "Electrical engineering"
+      ],
+      "abstract": "In this paper we evaluate the performance of seven proposed hardware topologies for balancing the cells in a battery pack. We consider four classes of battery balancing hardware; shunting, cell-to-stack, storage element, and dissipative hardware. We present models of these hardware topologies that capture the steady-state behavior of the balancing hardware dynamics. We evaluate the hardware topologies based on time required to balance the cells and energy dissipated during balancing. A linear programming based method for calculating the worst-case time to balance and energy dissipated during balance is provided. The number of linear programs required to compute both metrics grows exponentially with the number of cells. We show how to use symmetries to efficiently compute both metrics. Our approach scales well for large-scale battery packs and provides non intuitive solutions.",
+      "authors": [
+        "Matthias Preindl",
+        "Claus Danielson",
+        "Francesco Borrelli"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Safe On-Orbit Dislodging of Deployable Structures via Robust Adaptive MPC",
+      "publication_year": 2026,
+      "publication_date": "2026-05-12",
+      "doi": "https://doi.org/10.1109/tcst.2026.3686441",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2503.16849",
+      "concepts": [
+        "Control theory (sociology)",
+        "Spacecraft",
+        "Adaptive control",
+        "Robust control",
+        "Controller (irrigation)",
+        "Model predictive control",
+        "Control engineering",
+        "Computer science"
+      ],
+      "abstract": "This article proposes a novel robust adaptive model predictive controller for on-orbit dislodging. We study orbit dislodging where a servicing spacecraft uses a robotic arm to free a jammed and unactuated solar panel mounted on a hybrid hinge that acts as a time-varying client on a space station. Our method couples online set-membership identification with a robust adaptive model predictive control (MPC) to enforce safety under bounded disturbances. The controller explicitly balances exploration to excite the system and shrink uncertainty and exploitation to improve control performance through a dual-mode cost. The feasibility of the developed robust adaptive MPC method is also examined through dislodging simulations and hardware experiments in freefall and terrestrial laboratory environments, respectively. In addition, the advantages of our method are shown through comparison experiments with several state-of-the-art control schemes for both accuracy of parameter estimation and control performance.",
+      "authors": [
+        "Longsen Gao",
+        "Claus Danielson",
+        "Andrew Kwas",
+        "Rafael Fierro"
+      ]
+    },
+    {
+      "title": "Attitude Motion Planning with Moving Keep-out Cones via Invariant Sets",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.23919/acc63710.2025.11107495",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Invariant (physics)",
+        "Motion planning",
+        "Computer science",
+        "Computer vision",
+        "Artificial intelligence",
+        "Mathematics",
+        "Robot",
+        "Mathematical physics"
+      ],
+      "abstract": "This paper adapts the invariant-set motion planner (ISMP) for spacecraft attitude motion planning to avoid moving keep-out zones. The ISMP is a motion-planning algorithm that uses constraint admissible positive invariant (CAPI) sets of the closed-loop dynamics to find paths to a desired orientation that avoids obstacles. We construct a multi-stage reachability-graph that incorporates time to model moving obstacles. This allows the ISMP to plan safe paths around moving keep-out zones. We present three key contributions that enable the construction of the multi-stage reachable-graph. First, we establish time bounds for maneuvers using the exponential stability of the nonlinear closed-loop dynamics. Second, we construct a single-stage reachability-graph using the one-step backward reachable sets of the CAPI sets. Finally, we expand this single-stage reachability-graph into a multi-stage reachability-graph over a planning horizon, which enables us to certify the safety of nodes during time-intervals. We provide simulation results to demonstrate safe attitude motion planning and control in the presence of moving obstacles.",
+      "authors": [
+        "Trazon Jimerson",
+        "Claus Danielson"
+      ]
+    },
+    {
+      "title": "Solving for Blameless and Optimal Control Under Prioritized Safety Constraints",
+      "publication_year": 2026,
+      "publication_date": "2026-02-18",
+      "doi": "https://doi.org/10.1002/oca.70085",
+      "venue": "Optimal Control Applications and Methods",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/oca.70085",
+      "concepts": [
+        "Optimal control",
+        "Mathematical optimization",
+        "Sequence (biology)",
+        "Control (management)",
+        "Computer science",
+        "Regular polygon",
+        "Convex optimization",
+        "Action (physics)"
+      ],
+      "abstract": "ABSTRACT In many safety‐critical optimal control problems, users may request multiple safety constraints that are jointly infeasible due to external factors such as subsystem failures, unexpected disturbances, or fuel limitations. In this manuscript, we employ the concept of blameless optimality to characterize control actions that (a) satisfy the highest priority safety constraints that are feasible, and (b) remain optimal with respect to a mission objective. For a general optimal control problem with jointly infeasible safety constraints, we prove that there may not be a single optimization problem that solves for a blamelessly optimal controller. Instead, finding blamelessly optimal control actions requires sequentially solving at least two optimal control problems: one to determine the highest priority level of constraints that is feasible and another to determine the optimal control action with respect to these constraints. We show how to formulate two optimal control problems such that the resulting control sequence is guaranteed to be blamelessly optimal. We show that given convex, strictly nested safety constraints, blamelessly optimal control can be found by solving two...",
+      "authors": [
+        "Natalia Pavlasek",
+        "Acikmese Behcet",
+        "Meeko K. M. Oishi",
+        "Claus Danielson"
+      ]
+    },
+    {
+      "title": "A Multi-Robot Experimental Platform for Emulating Autonomous On-Orbit Servicing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2373",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Testbed",
+        "Payload (computing)",
+        "Modular design",
+        "Stiction",
+        "Software",
+        "Engineering",
+        "Control engineering",
+        "Torque"
+      ],
+      "abstract": "This paper presents a novel multi-robot testbed designed to emulate critical phases of on-orbit servicing, enabling safe, repeatable, and cost-effective validation of autonomous guidance and control strategies. The testbed features a dual-gantry system providing a prismatic axis and is equipped with two 6-DOF industrial robotic arms, forming a seven-axis platform capable of applying controlled forces and torques in arbitrary directions within 3D space. To replicate real-world mechanical anomalies commonly encountered in space servicing missions, the system includes a modular hybrid-hinge payload that generates multi-stable stiction profiles, representative of jammed solar panels and stuck antenna booms. The paper first introduces the mechanical and software architecture of the testbed, then presents results from advanced control strategies addressing (i) safe and interactive dislodging of a solar panel using a probabilistic approach to stiction compensation, validated in both high-fidelity simulation and hardware experiments, and (ii) contact-based detumbling of a client satellite via a repeated-impact dual-arm strategy evaluated in planar MuJoCo simulations to expose key constr...",
+      "authors": [
+        "Bennett Russell",
+        "Nathan Wolfe",
+        "Geordan Gutow",
+        "Luis Rodolfo García Carrillo",
+        "Claus Danielson",
+        "Rafael Fierro"
+      ]
+    },
+    {
+      "title": "Optimal Control of Network Routing Under Blameless Constraints: A Convex Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/ojcsys.2026.3675413",
+      "venue": "IEEE Open Journal of Control Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/ojcsys.2026.3675413",
+      "concepts": [
+        "Routing (electronic design automation)",
+        "Mathematical optimization",
+        "Computer science",
+        "Flow network",
+        "Terminal (telecommunication)",
+        "Set (abstract data type)",
+        "Regular polygon",
+        "Function (biology)"
+      ],
+      "abstract": "In disaster scenarios, rescue plans must optimally allocate limited resources to maximize the number of feasible rescues. Full evacuation is often infeasible due to constraints such as limited fuel, time, or transportation capacity, making it crucial that allocations respect pre-established ethical priorities. These priorities are enforced through lexicographically ordered terminal sets. In this paper, we introduce the notion ofblamelessnessto network routing, which ensures routing plans yield terminal solutions in the highest feasible priority set. We model disaster response as a network routing problem, minimizing fuel usage while satisfying given ethical and physical constraints. First, we derive conditions on the cost function of a linear program (LP) to produce blameless but sub-optimal plans. Next, we formulate a two-stage LP that minimizes network routing cost subject to terminal priority set constraints. Finally, we show that a convex combination of blameless and optimal routing objectives always exists, allowing use of a single convex LP to produce plans that are resource-optimal subject to being blameless. Disaster rescue simulations are used to empirically study the s...",
+      "authors": [
+        "Trazon Jimerson",
+        "Claus Danielson",
+        "Daniel Calderone",
+        "Meeko Oishi"
+      ]
+    }
+  ]
+}

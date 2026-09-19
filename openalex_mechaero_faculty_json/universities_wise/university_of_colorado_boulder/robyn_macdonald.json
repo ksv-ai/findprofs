@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Robyn Macdonald",
+  "full_name": "Robyn L. Macdonald",
+  "department": "Ann and H.J. Smead Department of Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5017038842",
+  "works_count": 38,
+  "cited_by_count": 588,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 27
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 12
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 9
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 5
+    },
+    {
+      "topic": "Quantum, superfluid, helium dynamics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Applying compressible transformations to wall modeled LES of cold wall flat plate boundary layers",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-2635",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Compressibility",
+        "Mechanics",
+        "Compressible flow",
+        "Viscosity",
+        "Turbulence modeling",
+        "Boundary layer",
+        "Classical mechanics",
+        "Law of the wall"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-2635.vid Existing near-wall turbulence models for WMLES are usually extended to cold wall, compressible flows with heat transfer by using empirical modifications to the algebraically defined eddy viscosity. This work seeks to define an alternative, rational modification supported by canonical compressible boundary layer scaling laws. Recently developed compressible velocity transformations have been shown to collapse data to the incompressible law of the wall. These transformations also imply a form for the compressible eddy viscosity. We propose to modify the eddy viscosity used by the wall model in accordance with the implied eddy viscosity of the compressible transformation.",
+      "authors": [
+        "Tyler R. Hendrickson",
+        "Pramod K. Subbareddy",
+        "Graham V. Candler",
+        "Robyn L. Macdonald"
+      ]
+    },
+    {
+      "title": "Nonequilibrium radiation and dissociation of CO molecules in shock-heated flows",
+      "publication_year": 2016,
+      "publication_date": "2016-08-01",
+      "doi": "https://doi.org/10.1103/physrevfluids.1.043401",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 35,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal radiation",
+        "Dissociation (chemistry)",
+        "Non-equilibrium thermodynamics",
+        "Radiative transfer",
+        "Mars Exploration Program",
+        "Excited state",
+        "Radiation",
+        "Planet"
+      ],
+      "abstract": "Vehicles descending onto a planet's atmosphere create shocks and radiative heat transfer. A theoretical study on the behavior of the excited electronic states of CO molecules sheds light on the determination of the radiative heat loads generated while attempting to land on Mars.",
+      "authors": [
+        "Robyn L. Macdonald",
+        "Alessandro Munafò",
+        "Christopher O. Johnston",
+        "Marco Panesi"
+      ]
+    },
+    {
+      "title": "State-to-state study of non-equilibrium recombination of oxygen and nitrogen molecules",
+      "publication_year": 2024,
+      "publication_date": "2024-04-03",
+      "doi": "https://doi.org/10.1063/5.0195238",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotational–vibrational spectroscopy",
+        "Dissociation (chemistry)",
+        "Atomic physics",
+        "Hypersonic speed",
+        "Recombination",
+        "Thermodynamics",
+        "Chemistry",
+        "Physics"
+      ],
+      "abstract": "Rapidly cooled mixtures are of interest for several applications, including hypersonic flows due to the presence of strong cooling temperature gradients in regions such as hypersonic boundary layers and expanding nozzles. There have been very few studies of rapidly cooled mixtures using the high-fidelity rovibrational databases afforded by ab initio potential energy surfaces. This work makes use of existing rovibrational state-specific databases to study rapidly cooled mixtures. In particular, we seek to understand the importance of thermal non-equilibrium in recombining mixtures using both rovibrational and vibrational state-to-state methods for oxygen and nitrogen molecules. We find that although there is significant non-equilibrium during recombination, it is well captured by the vibrational state-specific approach. Finally, we compare the global recombination rate computed based on the state-specific recombination rate coefficients and the global recombination rate computed based on the time local dissociation rate coefficient, which is reversed using the principle of detailed balance. The local dissociation rate coefficient is computed by weighting the state-specific dissoc...",
+      "authors": [
+        "Robyn L. Macdonald"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Distributed Roughness-Induced Transition on a Blunt Body at Mach 6: a Numerical Investigation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "https://doi.org/10.48550/arxiv.2602.03617",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.03617",
+      "concepts": [
+        "Mechanics",
+        "Mach number",
+        "Physics",
+        "Cylinder",
+        "Instability",
+        "Streak",
+        "Surface roughness",
+        "Surface finish"
+      ],
+      "abstract": "Surface roughness significantly impacts transition to turbulence, especially over high-speed, blunt geometries where surface ablation is necessary to mitigate heat loads during atmospheric entry. Inspired by sand-grain roughness experiments performed by Hollis (2017), we perform the first direct numerical simulation (DNS) of a blunt cylinder in Mach 6 cross-flow with roughness elements distributed along the entire surface. Such simulations aimed to uncover the precise means by which laminar-turbulent transition occurs given the limited measurements attainable from experiments and non-existent high-fidelity simulations. Element heights were held fixed at approximately 35% boundary layer thickness, while the relative phasing between streamwise rows was varied. All configurations exhibited convective instabilities driving the transition process, with the mode type being set by the roughness configuration. A fundamental sinuous streak mode dominated the aligned roughness element case, whereas both the staggered and randomly phased cases saw 2D T-S waves dominating. These instability waves, when grown to sufficient amplitude, triggered the steady streaks seeded by the underlying roug...",
+      "authors": [
+        "Sean D. Dungan",
+        "Mateus Braga",
+        "Robyn L. Macdonald",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Distributed Roughness-Induced Transition on a Blunt Body at Mach 6: a Numerical Investigation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "http://arxiv.org/abs/2602.03617",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.03617",
+      "concepts": [
+        "Mechanics",
+        "Mach number",
+        "Physics",
+        "Cylinder",
+        "Instability",
+        "Streak",
+        "Surface roughness",
+        "Surface finish"
+      ],
+      "abstract": "Surface roughness significantly impacts transition to turbulence, especially over high-speed, blunt geometries where surface ablation is necessary to mitigate heat loads during atmospheric entry. Inspired by sand-grain roughness experiments performed by Hollis (2017), we perform the first direct numerical simulation (DNS) of a blunt cylinder in Mach 6 cross-flow with roughness elements distributed along the entire surface. Such simulations aimed to uncover the precise means by which laminar-turbulent transition occurs given the limited measurements attainable from experiments and non-existent high-fidelity simulations. Element heights were held fixed at approximately 35% boundary layer thickness, while the relative phasing between streamwise rows was varied. All configurations exhibited convective instabilities driving the transition process, with the mode type being set by the roughness configuration. A fundamental sinuous streak mode dominated the aligned roughness element case, whereas both the staggered and randomly phased cases saw 2D T-S waves dominating. These instability waves, when grown to sufficient amplitude, triggered the steady streaks seeded by the underlying roug...",
+      "authors": [
+        "Sean D. Dungan",
+        "Mateus Braga",
+        "Robyn L. Macdonald",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Compressible Laminar Locally Self-Similar Boundary Layers in Thermochemical Nonequilibrium",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2061",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Non-equilibrium thermodynamics",
+        "Prandtl number",
+        "Laminar flow",
+        "Boundary (topology)",
+        "Thermochemistry",
+        "Boundary value problem",
+        "Lewis number",
+        "Thermodynamics"
+      ],
+      "abstract": "Computational Fluid Dynamics (CFD) simulations have played an important role in the analysis of boundary layers in thermochemical nonequilibrium, as these simulation provide abundant information on flow over complex geometries. However, sometimes it may be desirable to obtain the important trends within boundary layers. We employ a locally self-similar approximation to reduce a complicated two-dimensional problem involving partial differential equations, to one involving nonlinear ordinary differential equations (ODEs) which are solved using appropriate numerical techniques. Solutions are presented for chemically reacting boundary layers in thermal equilibrium and nonequilibrium. We observe that the addition of nonequilibrium thermochemistry results in lower chemical activity and marginally higher wall heating, compared to cases with equilibrium thermochemistry. Prandtl and Lewis numbers remain largely constant within the boundary layer, but are defined differently for trans-rotational and vibro-electronic energy diffusion processes. Finally, using a Damköhler number study, we show that NO molecules are key drivers of both vibrational and chemical nonequilibrium. The solver is p...",
+      "authors": [
+        "Shrihari Ravichandran",
+        "Robyn L. Macdonald"
+      ]
+    },
+    {
+      "title": "Assessment of QCT–Master Equation Informed Chemical Kinetic Parameters for the O 2 +N interaction in a Two-Temperature Mode",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2803",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Arrhenius equation",
+        "Thermodynamics",
+        "Non-equilibrium thermodynamics",
+        "Kinetic energy",
+        "Vibrational energy relaxation",
+        "Relaxation (psychology)",
+        "Blackout",
+        "Hypersonic speed"
+      ],
+      "abstract": "Accurate modeling of thermochemical nonequilibrium is essential for predicting plasma formation and radio communication blackout in hypersonic flows. This work develops a new QCT-informed kinetic model for the NO2 system—focusing on the O2+N reactions—and evaluates its impact on electron and NO predictions at several trajectory points of the RAM-C II and BSUV-2 flight tests. State-resolved QCT data are processed with master-equation calculations to obtain thermal and QSS rate coefficients, vibrational relaxation times, and vibrational energy removal, which are then fitted to Arrhenius and modified Marrone–Treanor (MMT) forms for two-temperature CFD. Zero-dimensional analysis shows that Park’s commonly used O2+N dissociation rate overpredicts QCT-based values by up to a factor of four and that Millikan–White relaxation significantly misrepresents O2+N vibrational relaxation at high temperatures. CFD simulations reveal that, at the 5.1~km/s BSUV-2 condition, the choice of chemistry model produces a factor of two to three difference in electron number density, while the new QCT-based rates modify electron and NO concentrations by 15–20%. At the higher-velocity RAM-C II trajectory p...",
+      "authors": [
+        "Luis F. Rodriguez",
+        "Robyn L. Macdonald",
+        "Timothy T. Aiken",
+        "Iain Boyd"
+      ]
+    },
+    {
+      "title": "State-to-State Oxygen and Nitrogen Recombination Rates Computed Using Selectively Sampled Quasiclassical Trajectories",
+      "publication_year": 2025,
+      "publication_date": "2025-11-25",
+      "doi": "https://doi.org/10.2514/1.t7216",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotational–vibrational spectroscopy",
+        "Monte Carlo method",
+        "Isothermal process",
+        "Kinetic energy",
+        "Dissociation (chemistry)",
+        "Materials science",
+        "Dissociative recombination",
+        "Hypersonic speed"
+      ],
+      "abstract": "Gas-phase recombination is observed in several hypersonic flow environments involving rapid cooling and acceleration through expansion. However, high-fidelity kinetic databases for these conditions are often unavailable due to the difficulty in resolving reaction rate coefficients using Monte Carlo methods at relatively low temperatures. In this work, we demonstrate the application of a selective sampling methodology to calculate highly accurate rovibrational state-specific dissociation rate coefficients between temperatures 1000 and 5000 K and the calculation of recombination rate coefficients using microscopic reversibility. Selective sampling results in statistically better resolved dissociation rate coefficients at much lower computational costs. The calculated rate coefficients for the [Formula: see text] and [Formula: see text] systems exhibit excellent agreement with literature over a wide range of temperatures and comprise two of the few high-fidelity databases that contain rate coefficients at temperatures of below 2500 K. Isothermal heat bath simulations are used to verify the accuracy of the databases obtained using selective sampling. The existing and updated [Formul...",
+      "authors": [
+        "Shrihari Ravichandran",
+        "Robyn L. Macdonald"
+      ]
+    }
+  ]
+}

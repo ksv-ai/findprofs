@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Bogdan I. Epureanu",
+  "full_name": "Bogdan I. Epureanu",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Michigan-Ann Arbor",
+  "author_id": "A5068549665",
+  "works_count": 380,
+  "cited_by_count": 5706,
+  "h_index": 38,
+  "top_topics": [
+    {
+      "topic": "Bladed Disk Vibration Dynamics",
+      "count": 123
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 87
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 48
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 36
+    },
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Flutter and post-flutter constraints in aircraft design optimization",
+      "publication_year": 2019,
+      "publication_date": "2019-05-31",
+      "doi": "https://doi.org/10.1016/j.paerosci.2019.04.001",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 176,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flutter",
+        "Aeroelasticity",
+        "Transonic",
+        "Aerodynamics",
+        "Engineering",
+        "Aerodynamic force",
+        "Computer science",
+        "Control theory (sociology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eiríkur Jónsson",
+        "Cristina Riso",
+        "Christopher A. Lupp",
+        "Carlos E. S. Cesnik",
+        "Joaquim R. R. A. Martins",
+        "Bogdan I. Epureanu"
+      ]
+    },
+    {
+      "title": "Reduced-Order Modeling Approach for Blisks with Large Mass, Stiffness, and Geometric Mistuning",
+      "publication_year": 2012,
+      "publication_date": "2012-02-01",
+      "doi": "https://doi.org/10.2514/1.j051140",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 86,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mistuning",
+        "Modal",
+        "Model order reduction",
+        "Modal analysis",
+        "Stiffness",
+        "Turbomachinery",
+        "Computer science",
+        "Structural engineering"
+      ],
+      "abstract": "Deviations to the cyclic symmetry of turbomachinery blisks are common due to manufacturing, general wear, or foreign object damage. These deviations, called mistuning, can lead to dramatically increased forced responses of a few of the blades. The high computational cost associated with predictions for mistuned blisks has led to the development of various reduced-order modeling techniques. This paper introduces a new reduced-order modeling approach for both large and small mistuning. This approach makes use of a pristine-rogue-interface modal expansion (PRIME). The PRIME basis is a new basis composed of modes computed only from cyclic symmetry analyses.Bystrategicallyprojectinga finiteelementmodelfromthephysicalspaceontothenewbasis,itispossibleto accurately and efficiently model large mistuning. In addition, the new method can account for both large and small mistuning simultaneously, using an extension of the component mode mistuning approach. The methodology requires only sector-level calculations and therefore can be applied to highly refined, realistic models of industrial size.",
+      "authors": [
+        "Andrew S. Elwood Madden",
+        "Bogdan I. Epureanu",
+        "Sergio Filippi"
+      ]
+    },
+    {
+      "title": "Reduced order models in unsteady aerodynamics",
+      "publication_year": 1999,
+      "publication_date": "1999-04-12",
+      "doi": "https://doi.org/10.2514/6.1999-1261",
+      "venue": "40th Structures, Structural Dynamics, and Materials Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 83,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computer science",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Earl H. Dowell",
+        "Kenneth C. Hall",
+        "Jeffrey Thomas",
+        "Răzvan Florea",
+        "Bogdan I. Epureanu",
+        "Jennifer Heeg"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physics-Informed Neural Networks for Reduced-Order Modeling of Turbomachinery Blisks With Small and Large Mistuning",
+      "publication_year": 2026,
+      "publication_date": "2026-03-05",
+      "doi": "https://doi.org/10.1115/1.4071326",
+      "venue": "Journal of Engineering for Gas Turbines and Power",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mistuning",
+        "Turbomachinery",
+        "Transfer function",
+        "Vibration",
+        "Artificial neural network",
+        "Computer science",
+        "Finite element method",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Abstract Comprehensively predicting the structural dynamics of turbomachinery blisks is of critical importance to the gas turbine industry. Located in the compressor and turbine stages, vibrations of these structures are amplified by their inherent small or sometimes large mistuning. Hence, it is paramount for the safe operation of gas turbines to predict mistuned blisk vibration responses. However, this requires significantly higher computational effort compared to computing cyclic system (i.e., tuned) responses. To address this issue, physics-based and data-driven reduced-order models (ROMs) have been developed. While many physics-based ROMs have been developed for predicting blisk responses with small and large mistuning, they require large finite element (FE) models to characterize the system dynamics, and they cannot be enhanced using experimental data. Thus, this paper proposes a novel physics-informed data-driven approach to compute blisk responses with both large and small mistuning. Similar to classical physics-based approaches (i.e., PRIME), this paper utilizes two physics-informed neural networks to compute the transfer function matrices of two systems: (1) a cyclic p...",
+      "authors": [
+        "Mihai Cimpuieru",
+        "Sean T. Kelly",
+        "Bogdan I. Epureanu"
+      ]
+    },
+    {
+      "title": "Autonomous inspection method for insulator strings using an unmanned aerial vehicle",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1016/j.cacaie.2026.100034",
+      "venue": "Computer-Aided Civil and Infrastructure Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cacaie.2026.100034",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Computer vision",
+        "Drone",
+        "Artificial intelligence",
+        "Acoustics",
+        "Automotive engineering",
+        "Remote sensing"
+      ],
+      "abstract": "This study proposes a novel autonomous inspection framework for insulator strings in transmission facilities with an unmanned aerial vehicle (UAV). The proposed framework aims to overcome practical limitations of current inspection using the UAV for transmission facilities. Current inspection relies on manual piloting, which makes it difficult in consistent acquisition of inspection data under structural and environmental variability in transmission facilities. Reliable anomaly detection also remains challenging in real deployments because of scarce abnormal samples and diverse site conditions. To address these challenges, the proposed framework hybridizes an adaptive flight strategy with a novel deep neural network to autonomously inspect insulator strings without manual intervention. The proposed framework features three key characteristics. First, the adaptive flight strategy determines the position and orientation of the UAV to acquire high-quality images of insulator strings by analyzing the structural features of transmission facilities with multimodal information. Second, a novel deep neural network, titled hybrid anomaly detection via multi-scale variational autoencoder ...",
+      "authors": [
+        "Munsu Jeon",
+        "Junhyeok Moon",
+        "Seungmin Joo",
+        "Junsoo Kim",
+        "Joon-Young Park",
+        "Bogdan I. Epureanu",
+        "Ki-Yong Oh"
+      ]
+    },
+    {
+      "title": "Impact-Enhanced Resonant Vibration Absorber for Turbomachinery Blisks",
+      "publication_year": 2025,
+      "publication_date": "2025-11-25",
+      "doi": "https://doi.org/10.1115/1.4070457",
+      "venue": "Journal of Engineering for Gas Turbines and Power",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Damper",
+        "Vibration",
+        "Turbomachinery",
+        "Dissipation",
+        "Finite element method",
+        "Structural engineering",
+        "Dynamic Vibration Absorber",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Abstract The study of blisks is essential to the development of safe and efficient turbomachines. Blisks are geometrically complex structures exposed to high temperatures and pressures that operate at high rotational speeds, and thus are susceptible to fatigue. Therefore, reducing vibration amplitudes in blisks is paramount to avoid failure of these systems. This paper extends previous studies of blisk dampers based on tuned vibration absorbers by analyzing the effects of including energy dissipation through impacts. In this work, the absorber has a ring architecture that also allows impacts. A finite element model of an as-manufactured blisk with 22 blades is used throughout the analysis, and the damper is tuned for experimental operating conditions. Impacts are modeled microscopically, using a novel impact-contact characterization. Results show that impacts significantly enhance the blade response reduction through energy dissipation. Furthermore, impacts slightly increase shift resonant frequencies and are effective for specific combinations of contact surface geometry and material properties.",
+      "authors": [
+        "Mihai Cimpuieru",
+        "Alexander D. Kripfgans",
+        "Sean T. Kelly",
+        "Bogdan I. Epureanu"
+      ]
+    },
+    {
+      "title": "Experimental parametric study of a flap-NES passive absorber for post-flutter control",
+      "publication_year": 2025,
+      "publication_date": "2025-08-24",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2025.104405",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flutter",
+        "Parametric statistics",
+        "Structural engineering",
+        "Aeroelasticity",
+        "Engineering",
+        "Materials science",
+        "Control theory (sociology)",
+        "Control (management)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jesús García Pérez",
+        "Leonardo Sanches",
+        "Amin Ghadami",
+        "Bogdan I. Epureanu",
+        "Guilhem Michon"
+      ]
+    },
+    {
+      "title": "Physics-Informed Neural Networks for Reduced-Order Modeling of Turbomachinery Blisks With Small and Large Mistuning",
+      "publication_year": 2025,
+      "publication_date": "2025-06-16",
+      "doi": "https://doi.org/10.1115/gt2025-152603",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mistuning",
+        "Turbomachinery",
+        "Vibration",
+        "Physics",
+        "Turbine blade",
+        "Gas compressor",
+        "Mode (computer interface)",
+        "Turbine"
+      ],
+      "abstract": "Abstract Comprehensively understanding the structural dynamics of turbomachinery blisks is of critical importance to the gas turbine industry. Located in the compressor and turbine stages, vibrations of these structures are amplified by their inherent mistuning present in blisks. Mistuning can be small or large. Small mistuning is defined as inherent deviations from nominal sector properties and geometry that does not significantly change blade-alone mode shapes or frequencies. Large mistuning is described as significant blade variations like those resulting from damage during operation and/or after repairs, such as geometric changes due to foreign object ingestion or blends. Large mistuning significantly changes the blade-alone mode shapes and frequencies, resulting in rogue blades. Mistuning breaks the nominal cyclicity of the system, resulting in shifts in frequency responses and large vibration amplifications. Hence, it is paramount for the safe operation of gas turbines to predict vibration responses of blisks with both small mistuning and rogue blades. Predicting mistuned blisk responses requires a significantly higher computational effort compared to cyclic systems. To ad...",
+      "authors": [
+        "Mihai Cimpuieru",
+        "Sean T. Kelly",
+        "Bogdan I. Epureanu"
+      ]
+    }
+  ]
+}

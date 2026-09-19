@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Mahbub Islam",
+  "full_name": "Md Mahbubul Islam",
+  "department": "Department of Mechanical Engineering",
+  "university": "Wayne State University",
+  "author_id": "A5046600331",
+  "works_count": 124,
+  "cited_by_count": 5199,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Advanced Battery Materials and Technologies",
+      "count": 24
+    },
+    {
+      "topic": "Advancements in Battery Materials",
+      "count": 22
+    },
+    {
+      "topic": "Graphene research and applications",
+      "count": 16
+    },
+    {
+      "topic": "Advanced battery technologies research",
+      "count": 15
+    },
+    {
+      "topic": "MXene and MAX Phase Materials",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The ReaxFF reactive force-field: development, applications and future directions",
+      "publication_year": 2016,
+      "publication_date": "2016-03-04",
+      "doi": "https://doi.org/10.1038/npjcompumats.2015.11",
+      "venue": "npj Computational Materials",
+      "type": "article",
+      "cited_by_count": 2368,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/npjcompumats201511.pdf",
+      "concepts": [
+        "ReaxFF",
+        "Force field (fiction)",
+        "Molecular dynamics",
+        "Computer science",
+        "Formalism (music)",
+        "Statistical physics",
+        "Nanotechnology",
+        "Interatomic potential"
+      ],
+      "abstract": "Abstract The reactive force-field (ReaxFF) interatomic potential is a powerful computational tool for exploring, developing and optimizing material properties. Methods based on the principles of quantum mechanics (QM), while offering valuable theoretical guidance at the electronic level, are often too computationally intense for simulations that consider the full dynamic evolution of a system. Alternatively, empirical interatomic potentials that are based on classical principles require significantly fewer computational resources, which enables simulations to better describe dynamic processes over longer timeframes and on larger scales. Such methods, however, typically require a predefined connectivity between atoms, precluding simulations that involve reactive events. The ReaxFF method was developed to help bridge this gap. Approaching the gap from the classical side, ReaxFF casts the empirical interatomic potential within a bond-order formalism, thus implicitly describing chemical bonding without expensive QM calculations. This article provides an overview of the development, application, and future directions of the ReaxFF method.",
+      "authors": [
+        "Thomas P. Senftle",
+        "Sungwook Hong",
+        "Md Mahbubul Islam",
+        "Sudhir B. Kylasa",
+        "Yuanxia Zheng",
+        "Yun Kyung Shin",
+        "Chad E. Junkermeier",
+        "Roman Engel‐Herbert",
+        "Michael J. Janik",
+        "Hasan Metin Aktulga",
+        "Toon Verstraelen",
+        "Ananth Grama",
+        "Adri C. T. van Duin"
+      ]
+    },
+    {
+      "title": "ReaxFF molecular dynamics simulations on lithiated sulfur cathode materials",
+      "publication_year": 2014,
+      "publication_date": "2014-12-16",
+      "doi": "https://doi.org/10.1039/c4cp04532g",
+      "venue": "Physical Chemistry Chemical Physics",
+      "type": "article",
+      "cited_by_count": 168,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "ReaxFF",
+        "Cathode",
+        "Sulfur",
+        "Molecular dynamics",
+        "Materials science",
+        "Electrochemistry",
+        "Chemistry",
+        "Thermodynamics"
+      ],
+      "abstract": "Sulfur is a very promising cathode material for rechargeable energy storage devices. However, sulfur cathodes undergo a noticeable volume variation upon cycling, which induces mechanical stress. In spite of intensive investigation of the electrochemical behavior of the lithiated sulfur compounds, their mechanical properties are not very well understood. In order to fill this gap, we developed a ReaxFF interatomic potential to describe Li-S interactions and performed molecular dynamics (MD) simulations to study the structural, mechanical, and kinetic behavior of the amorphous lithiated sulfur (a-LixS) compounds. We examined the effect of lithiation on material properties such as ultimate strength, yield strength, and Young's modulus. Our results suggest that with increasing lithium content, the strength of lithiated sulfur compounds improves, although this increment is not linear with lithiation. The diffusion coefficients of both lithium and sulfur were computed for the a-LixS system at various stages of Li-loading. A grand canonical Monte Carlo (GCMC) scheme was used to calculate the open circuit voltage profile during cell discharge. The Li-S binary phase diagram was construct...",
+      "authors": [
+        "Md Mahbubul Islam",
+        "Alireza Ostadhossein",
+        "Oleg Borodin",
+        "Alan T. Yeates",
+        "William W. Tipton",
+        "Richard G. Hennig",
+        "Nitin Kumar",
+        "Adri C. T. van Duin"
+      ]
+    },
+    {
+      "title": "ReaxFF Reactive Force Field Simulations on the Influence of Teflon on Electrolyte Decomposition during Li/SWCNT Anode Discharge in Lithium-Sulfur Batteries",
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "doi": "https://doi.org/10.1149/2.005408jes",
+      "venue": "Journal of The Electrochemical Society",
+      "type": "article",
+      "cited_by_count": 131,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1149/2.005408jes/pdf",
+      "concepts": [
+        "Electrolyte",
+        "ReaxFF",
+        "Anode",
+        "Chemical engineering",
+        "Lithium (medication)",
+        "Materials science",
+        "Chemistry",
+        "Inorganic chemistry"
+      ],
+      "abstract": "Lithium-sulfur batteries are amongst the most appealing choices for the next generation large-scale energy storage applications. However, these batteries still suffer several formidable performance degradation issues that impede its commercialization. The lithium negative electrode yields high anodic capacity, but it causes dendrite formation and raises safety concerns. Furthermore, the high reactivity of lithium is accountable for electrolyte decomposition. To investigate these issues and possible countermeasures, we used ReaxFF reactive molecular dynamics simulations to elucidate anode-electrolyte interfacial chemistry and utilized an ex-situ anode surface treatment with Teflon coating. In this study, we employed Li/SWCNT (single-wall carbon nanotube) composite anode instead of lithium metal and tetra(ethylene glycol) dimethyl ether (TEGDME) as electrolyte. We find that at lithium rich environment at the anode-electrolyte interface, electrolyte dissociates and generates ethylene gas as a major reaction product, while utilization of Teflon layer suppresses the lithium reactivity and reduces electrolyte decomposition. Lithium discharge from the negative electrode is an exothermi...",
+      "authors": [
+        "Md Mahbubul Islam",
+        "Vyacheslav S. Bryantsev",
+        "Adri C. T. van Duin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Enhancing nonaqueous Mg–CO2 battery performance via single-atom catalysts on nitride MXenes",
+      "publication_year": 2026,
+      "publication_date": "2026-06-22",
+      "doi": "https://doi.org/10.1016/j.apsusc.2026.167620",
+      "venue": "Applied Surface Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "MXenes",
+        "Catalysis",
+        "Materials science",
+        "Nitride",
+        "Chemical engineering",
+        "Battery (electricity)",
+        "Inorganic chemistry",
+        "Nanotechnology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Satheesh Mani",
+        "Md Mahbubul Islam"
+      ]
+    },
+    {
+      "title": "Democratizing AI: A Comparative Study in Deep Learning Efficiency and Future Trends in Computational Processing",
+      "publication_year": 2026,
+      "publication_date": "2026-03-21",
+      "doi": "http://arxiv.org/abs/2603.20920",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.20920",
+      "concepts": [
+        "Computer science",
+        "Deep learning",
+        "Xeon",
+        "Inference",
+        "Artificial intelligence",
+        "Parallel computing",
+        "Ranging",
+        "FLOPS"
+      ],
+      "abstract": "The exponential growth in data has intensified the demand for computational power to train large-scale deep learning models. However, the rapid growth in model size and complexity raises concerns about equal and fair access to computational resources, particularly under increasing energy and infrastructure constraints. GPUs have emerged as essential for accelerating such workloads. This study benchmarks four deep learning models (Conv6, VGG16, ResNet18, CycleGAN) using TensorFlow and PyTorch on Intel Xeon CPUs and NVIDIA Tesla T4 GPUs. Our experiments demonstrate that, on average, GPU training achieves speedups ranging from 11x to 246x depending on model complexity, with lightweight models (Conv6) showing the highest acceleration (246x), mid-sized models (VGG16, ResNet18) achieving 51-116x speedups, and complex generative models (CycleGAN) reaching 11x improvements compared to CPU training. Additionally, in our PyTorch vs. TensorFlow comparison, we observed that TensorFlow's kernel-fusion optimizations reduce inference latency by approximately 15%. We also analyze GPU memory usage trends and projecting requirements through 2025 using polynomial regression. Our findings highlight...",
+      "authors": [
+        "Al Amin",
+        "Md Ismail Hossain",
+        "Rupak Kumar Das",
+        "Md Mahbubul Islam",
+        "Abdulaziz Tabbakh"
+      ]
+    },
+    {
+      "title": "Enhancing Nonaqueous Mg–CO2 Battery Performance via Single-Atom Catalysts on Nitride MXenes",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6749151",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6749151",
+      "concepts": [
+        "MXenes",
+        "Catalysis",
+        "Gibbs free energy",
+        "Materials science",
+        "Density functional theory",
+        "Exothermic reaction",
+        "Chemical engineering",
+        "Electrochemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Satheesh Mani",
+        "Md Mahbubul Islam"
+      ]
+    },
+    {
+      "title": "Development of a ReaxFF force field for Na–S chemistry and its application to chemo-mechanical evolution of sodiated sulfur",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1039/d6nr01543c",
+      "venue": "Nanoscale",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1039/d6nr01543c",
+      "concepts": [
+        "ReaxFF",
+        "Sulfur",
+        "Chemistry",
+        "Force field (fiction)",
+        "Field (mathematics)",
+        "Work (physics)",
+        "Molecular dynamics",
+        "Computational chemistry"
+      ],
+      "abstract": "S phases. These findings provide fundamental insight into the interplay between chemistry and mechanics in Na-S cathodes. Overall, this work offers a critical atomistic understanding of the sodiation-induced mechanical evolution necessary to develop mechanically resilient sulfur cathodes for next-generation Na-S batteries.",
+      "authors": [
+        "Rafiuzzaman Pritom",
+        "Md Mahbubul Islam"
+      ]
+    },
+    {
+      "title": "Rational Design of Dual-Atom Electrocatalysts for Ammonia Synthesis with Improved Selectivity",
+      "publication_year": 2025,
+      "publication_date": "2025-11-24",
+      "doi": "https://doi.org/10.1149/ma2025-02542605mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rational design",
+        "Catalysis",
+        "Electrocatalyst",
+        "Chemistry",
+        "Density functional theory",
+        "Hydrogen",
+        "Adsorption",
+        "Graphene"
+      ],
+      "abstract": "The electrocatalytic nitrogen reduction reaction (NRR) holds significant promise for sustainable ammonia production; however, it remains limited by challenges in efficient N₂ activation and selective NH₃ formation. Designing an optimal electrocatalyst is essential to address these limitations—it must effectively promote N₂ adsorption, activation, and hydrogenation while simultaneously suppressing the competing hydrogen evolution reaction (HER). In this study, we hypothesize that strategic engineering of dual-atom catalysts (DACs), where one metal center is optimized for N₂ anchoring and the other for hydrogen adsorption, can enhance both NRR activity and selectivity. We investigate a series of DACs supported on a graphene substrate, systematically screening 3d and 4d transition metal pairs (46 combinations in total). The adsorption free energies of key intermediates involved in ammonia formation are computed to evaluate catalytic performance. Among the candidates, Mn–Fe, Co–Mn, and Co–Fe pairs emerge as particularly promising, with one metal preferentially binding H* and the other favoring N₂ adsorption. Our analysis identifies NNH* formation as the potential-determining step in...",
+      "authors": [
+        "Satheesh Mani",
+        "Md Mahbubul Islam"
+      ]
+    }
+  ]
+}

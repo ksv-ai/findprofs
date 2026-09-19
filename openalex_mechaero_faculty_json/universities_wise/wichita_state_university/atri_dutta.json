@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Atri Dutta",
+  "full_name": "Atri Dutta",
+  "department": "Department of Aerospace Engineering",
+  "university": "Wichita State University",
+  "author_id": "A5068592979",
+  "works_count": 80,
+  "cited_by_count": 630,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 40
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 28
+    },
+    {
+      "topic": "Spacecraft Design and Technology",
+      "count": 19
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 18
+    },
+    {
+      "topic": "Aerospace Engineering and Control Systems",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An Overview of Cube-Satellite Propulsion Technologies and Trends",
+      "publication_year": 2017,
+      "publication_date": "2017-12-09",
+      "doi": "https://doi.org/10.3390/aerospace4040058",
+      "venue": "Aerospace",
+      "type": "article",
+      "cited_by_count": 158,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2226-4310/4/4/58/pdf?version=1512975754",
+      "concepts": [
+        "CubeSat",
+        "Propulsion",
+        "In-space propulsion technologies",
+        "Specific impulse",
+        "Spacecraft",
+        "Aerospace engineering",
+        "Electrically powered spacecraft propulsion",
+        "Spacecraft propulsion"
+      ],
+      "abstract": "CubeSats provide a cost effective means to perform scientific and technological studies in space. Due to their affordability, CubeSat technologies have been diversely studied and developed by educational institutions, companies and space organizations all over the world. The CubeSat technology that is surveyed in this paper is the propulsion system. A propulsion system is the primary mobility device of a spacecraft and helps with orbit modifications and attitude control. This paper provides an overview of micro-propulsion technologies that have been developed or are currently being developed for CubeSats. Some of the micro-propulsion technologies listed have also flown as secondary propulsion systems on larger spacecraft. Operating principles and key design considerations for each class of propulsion system are outlined. Finally, the performance factors of micro-propulsion systems have been summarized in terms of: first, a comparison of thrust and specific impulse for all propulsion systems; second, a comparison of power and specific impulse, as also thrust-to-power ratio and specific impulse for electric propulsion systems.",
+      "authors": [
+        "Akshay Reddy Tummala",
+        "Atri Dutta"
+      ]
+    },
+    {
+      "title": "Peer-to-Peer Refueling Strategy Using Low-Thrust Propulsion",
+      "publication_year": 2012,
+      "publication_date": "2012-09-01",
+      "doi": "https://doi.org/10.2514/1.a32106",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 33,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Aerospace engineering",
+        "Spacecraft",
+        "In-space propulsion technologies",
+        "Thrust",
+        "Space (punctuation)",
+        "Spacecraft design",
+        "Missile"
+      ],
+      "abstract": "Covers advancements in spacecraft and tactical and strategic missile systems, including subsystem design and application, mission design and analysis, materials and structures, developments in space sciences, space processing and manufacturing, space operations, and applications of space technologies to other fields.",
+      "authors": [
+        "Atri Dutta",
+        "Nitin Arora",
+        "Ryan P. Russell"
+      ]
+    },
+    {
+      "title": "Egalitarian Peer-to-Peer Satellite Refueling Strategy",
+      "publication_year": 2008,
+      "publication_date": "2008-05-01",
+      "doi": "https://doi.org/10.2514/1.31299",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Aerospace engineering",
+        "Satellite",
+        "Spacecraft design",
+        "Missile",
+        "Systems engineering",
+        "Space (punctuation)",
+        "Space technology"
+      ],
+      "abstract": "Covers advancements in spacecraft and tactical and strategic missile systems, including subsystem design and application, mission design and analysis, materials and structures, developments in space sciences, space processing and manufacturing, space operations, and applications of space technologies to other fields.",
+      "authors": [
+        "Atri Dutta",
+        "Panagiotis Tsiotras"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Low Thrust Minimum Time Transfer: Reinforcement Learning of Optimal Co-State Time Dependance",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2782",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Acceleration",
+        "Convergence (economics)",
+        "Computer science",
+        "Dependency (UML)",
+        "Control theory (sociology)",
+        "Thrust",
+        "Geosynchronous orbit"
+      ],
+      "abstract": "This paper proposes a deep reinforcement learning framework for computing minimum-time low-thrust orbit-raising trajectories. Spacecraft dynamics is modeled using h-e elements, and includes J2 perturbations, acceleration due to the Sun and the Moon, as well as the effect of Earth shadow. Machine learning was used to adapt a parameterization of the optimal control co-state. To reduce a tendency to wander and oscillate during co-state learning and exploration, we replace our previous co-state dependency and learning mechanism, which we used in a prior paper, with a method here to adapt a co-state function that depends on time. Our methodology is demonstrated through numerical simulations of orbit-raising scenarios to the geosynchronous equatorial orbit. The simulations indicate better convergence when compared to parameterization of co-state dependency on the current state.",
+      "authors": [
+        "James E. Steck",
+        "Atri Dutta",
+        "Adrian Arustei"
+      ]
+    },
+    {
+      "title": "Single-Agent Attention Actor–Critic: A Deep Reinforcement Learning-Based Solution for Low-Thrust Spacecraft Trajectory Optimization",
+      "publication_year": 2025,
+      "publication_date": "2025-05-13",
+      "doi": "https://doi.org/10.1109/taes.2025.3569615",
+      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Trajectory",
+        "Reinforcement learning",
+        "Thrust",
+        "Trajectory optimization",
+        "Computer science",
+        "Aerospace engineering",
+        "Reinforcement"
+      ],
+      "abstract": "This paper introduces a deep reinforcement learning (DRL) based approach for autonomous planning of low-thrust spacecraft trajectories, while addressing the intricate challenges of orbital dynamics and mission design. We propose a single-agent attention actor-critic (SA3C) algorithm, which integrates an attention mechanism to significantly enhance sample efficiency and decision-making capabilities in complex trajectory optimization tasks. Our research extends the application of DRL beyond traditional geocentric transfers, incorporating cislunar mission scenarios where strong third-body gravitational influences play a critical role. The SA3C algorithm provides better results compared to existing automated approaches, demonstrating its effectiveness in optimizing transfers to GEO and near-rectilinear halo orbit (NRHO). We offer a comprehensive comparison of three algorithmic frameworks—sequential, DRL-based, and optimization-based—in terms of optimality and potential for autonomy in spacecraft trajectory planning. Through rigorous evaluation, we demonstrate that attention-based modifications in RL enhance the adaptability and efficiency of low-thrust spacecraft trajectory planning...",
+      "authors": [
+        "Syed Muhammad Talha Zaidi",
+        "Adrian Arustei",
+        "Arslan Munir",
+        "Atri Dutta"
+      ]
+    },
+    {
+      "title": "Automated Trajectory Planning: A Cascaded Deep Reinforcement Learning Approach for Low-Thrust Spacecraft Orbit-Raising",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1109/maes.2025.3556795",
+      "venue": "IEEE Aerospace and Electronic Systems Magazine",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Trajectory",
+        "Aerospace engineering",
+        "Reinforcement learning",
+        "Raising (metalworking)",
+        "Orbit (dynamics)",
+        "Thrust",
+        "Computer science"
+      ],
+      "abstract": "Efficient computation of orbit-raising trajectories for low-thrust propulsion spacecraft, especially within multi-body regimes of spaceflight, pose significant challenges due to complex dynamical environment, prolonged transfer times and reliance on initial expert solutions. To address these challenges, we propose a novel cascaded deep reinforcement learning approach to optimize the planning of low-thrust spacecraft trajectories. Focusing on transfers from launch-injection orbits, such as geostationary transfer orbit (GTO) and super-GTO, towards targets such as geosynchronous equatorial orbit (GEO) and near-rectilinear halo orbit (NRHO), our methodology, guided by a gradientaided reward function, outperforms existing automated methods in achieving time-efficient spacecraft orbit-raising. The results demonstrate that our approach is effective and time-efficient, achieving optimal or near-optimal solutions.",
+      "authors": [
+        "Syed Muhammad Talha Zaidi",
+        "Adrian Arustei",
+        "Arslan Munir",
+        "Atri Dutta"
+      ]
+    },
+    {
+      "title": "Neuro-adaptive Model Reference Tracking Controller for Cislunar Missions",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0509",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Tracking (education)",
+        "Artificial intelligence",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Computer vision",
+        "Control engineering",
+        "Engineering"
+      ],
+      "abstract": "A neuro-adaptive observer, Modified State Observer (MSO), is combined with a Non-Linear Dynamic Inversion (NDI) controller to provide correction thrusts for a low-thrust spacecraft in cislunar space. The MSO helps capture the system modeling error and non-linear uncertainties of the environment while the NDI controller provides a control law that is control affine. A target reference trajectory ending at a lunar Near-Linear Rectilinear Halo Orbit (NRHO) insertion point with continuous thrust is used to study the effectiveness of the controller. A high-fidelity model is created incorporating the lunar ephemeris to represent the true three-body spacecraft model. The effectiveness of the control law in providing reference tracking in this problem is studied. Moreover, the tests are extended to a case where the true dynamics are available, but a Missed Thrust Event causes the thrust along a direction to cut off.",
+      "authors": [
+        "Yrithu Thulaseedharan Pillay",
+        "M. A. Chace",
+        "James E. Steck",
+        "John Watkins",
+        "Atri Dutta"
+      ]
+    },
+    {
+      "title": "Comparison of Hall-Effect Thrusters vs Electrostatic Ion Thrusters",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://hdl.handle.net/10057/27774",
+      "venue": "Holmes Museum Of Anthropology (Wichita State University)",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Physics",
+        "Ion",
+        "Propulsion",
+        "Ion thruster",
+        "Mechanics",
+        "Electrically powered spacecraft propulsion",
+        "Aerospace engineering"
+      ],
+      "abstract": "Poster and abstract presented at the FYRE in STEM Showcase, 2024.",
+      "authors": [
+        "Matthew Neelagandan",
+        "Atri Dutta"
+      ]
+    }
+  ]
+}

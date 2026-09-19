@@ -1,0 +1,299 @@
+{
+  "faculty_name": "Hao Lin",
+  "full_name": "Hao Lin",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Rutgers University-New Brunswick",
+  "author_id": "A5041539298",
+  "works_count": 396,
+  "cited_by_count": 20539,
+  "h_index": 81,
+  "top_topics": [
+    {
+      "topic": "Machine Learning in Bioinformatics",
+      "count": 169
+    },
+    {
+      "topic": "RNA and protein synthesis mechanisms",
+      "count": 126
+    },
+    {
+      "topic": "Genomics and Phylogenetic Studies",
+      "count": 96
+    },
+    {
+      "topic": "Computational Drug Discovery Methods",
+      "count": 25
+    },
+    {
+      "topic": "RNA modifications and cancer",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "iRSpot-PseDNC: identify recombination spots with pseudo dinucleotide composition",
+      "publication_year": 2013,
+      "publication_date": "2013-01-08",
+      "doi": "https://doi.org/10.1093/nar/gks1450",
+      "venue": "Nucleic Acids Research",
+      "type": "article",
+      "cited_by_count": 621,
+      "is_oa": true,
+      "oa_url": "https://academic.oup.com/nar/article-pdf/41/6/e68/25340431/gks1450.pdf",
+      "concepts": [
+        "Biology",
+        "Recombination",
+        "Spots",
+        "Dinucleotide Repeat",
+        "Genetics",
+        "Composition (language)",
+        "Gene mapping",
+        "Gene"
+      ],
+      "abstract": "Meiotic recombination is an important biological process. As a main driving force of evolution, recombination provides natural new combinations of genetic variations. Rather than randomly occurring across a genome, meiotic recombination takes place in some genomic regions (the so-called 'hotspots') with higher frequencies, and in the other regions (the so-called 'coldspots') with lower frequencies. Therefore, the information of the hotspots and coldspots would provide useful insights for in-depth studying of the mechanism of recombination and the genome evolution process as well. So far, the recombination regions have been mainly determined by experiments, which are both expensive and time-consuming. With the avalanche of genome sequences generated in the postgenomic age, it is highly desired to develop automated methods for rapidly and effectively identifying the recombination regions. In this study, a predictor, called 'iRSpot-PseDNC', was developed for identifying the recombination hotspots and coldspots. In the new predictor, the samples of DNA sequences are formulated by a novel feature vector, the so-called 'pseudo dinucleotide composition' (PseDNC), into which six local D...",
+      "authors": [
+        "Wei Chen",
+        "Pengmian Feng",
+        "Hao Lin",
+        "Kuo‐Chen Chou"
+      ]
+    },
+    {
+      "title": "iPro54-PseKNC: a sequence-based predictor for identifying sigma-54 promoters in prokaryote with pseudo k-tuple nucleotide composition",
+      "publication_year": 2014,
+      "publication_date": "2014-10-31",
+      "doi": "https://doi.org/10.1093/nar/gku1019",
+      "venue": "Nucleic Acids Research",
+      "type": "article",
+      "cited_by_count": 513,
+      "is_oa": true,
+      "oa_url": "https://academic.oup.com/nar/article-pdf/42/21/12961/14121933/gku1019.pdf",
+      "concepts": [
+        "Biology",
+        "Promoter",
+        "Computational biology",
+        "Genome",
+        "Web server",
+        "Jackknife resampling",
+        "Genetics",
+        "Indel"
+      ],
+      "abstract": "The σ(54) promoters are unique in prokaryotic genome and responsible for transcripting carbon and nitrogen-related genes. With the avalanche of genome sequences generated in the postgenomic age, it is highly desired to develop automated methods for rapidly and effectively identifying the σ(54) promoters. Here, a predictor called 'iPro54-PseKNC' was developed. In the predictor, the samples of DNA sequences were formulated by a novel feature vector called 'pseudo k-tuple nucleotide composition', which was further optimized by the incremental feature selection procedure. The performance of iPro54-PseKNC was examined by the rigorous jackknife cross-validation tests on a stringent benchmark data set. As a user-friendly web-server, iPro54-PseKNC is freely accessible at http://lin.uestc.edu.cn/server/iPro54-PseKNC. For the convenience of the vast majority of experimental scientists, a step-by-step protocol guide was provided on how to use the web-server to get the desired results without the need to follow the complicated mathematics that were presented in this paper just for its integrity. Meanwhile, we also discovered through an in-depth statistical analysis that the distribution of ...",
+      "authors": [
+        "Hao Lin",
+        "En-Ze Deng",
+        "Hui Ding",
+        "Wei Chen",
+        "Kuo‐Chen Chou"
+      ]
+    },
+    {
+      "title": "iACP: a sequence-based tool for identifying anticancer peptides",
+      "publication_year": 2016,
+      "publication_date": "2016-03-01",
+      "doi": "https://doi.org/10.18632/oncotarget.7815",
+      "venue": "Oncotarget",
+      "type": "article",
+      "cited_by_count": 439,
+      "is_oa": true,
+      "oa_url": "https://www.oncotarget.com/article/7815/pdf/",
+      "concepts": [
+        "Medicine",
+        "Sequence (biology)",
+        "Computational biology",
+        "Bioinformatics",
+        "Cancer research",
+        "Pharmacology",
+        "Biology",
+        "Genetics"
+      ],
+      "abstract": "// Wei Chen 1, 4 , Hui Ding 2 , Pengmian Feng 3 , Hao Lin 2, 4 , Kuo-Chen Chou 4, 5 1 Department of Physics, School of Sciences, Center for Genomics and Computational Biology, North China University of Science and Technology, Tangshan, China 2 Key Laboratory for Neuro-Information of Ministry of Education, Center of Bioinformatics, School of Life Science and Technology, University of Electronic Science and Technology of China, Chengdu, China 3 School of Public Health, North China University of Science and Technology, Tangshan, China 4 Gordon Life Science Institute, Belmont, Massachusetts, United States of America 5 Center of Excellence in Genomic Medicine Research (CEGMR), King Abdulaziz University, Jeddah, Saudi Arabia Correspondence to: Wei Chen, e-mail: wchen@gordonlifescience.org , chenweiimu@gmail.com Hao Lin, e-mail: hlin@uestc.edu.cn Kuo-Chen Chou, e-mail: kcchou@gordonlifescience.org Keywords: anticancer peptides, PseAAC, g-gap dipeptide mode, incremental feature selection, iACP webserver Received: January 06, 2016 Accepted: February 11, 2016 Published: March 01, 2016 ABSTRACT Cancer remains a major killer worldwide. Traditional methods of cancer treatment are expensive a...",
+      "authors": [
+        "Wei Chen",
+        "Hui Ding",
+        "Pengmian Feng",
+        "Hao Lin",
+        "Kuo‐Chen Chou"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "EssTFNet: integration of adaptive time–frequency and DNA language models for interpretable human essential gene prediction",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.1093/bib/bbag349",
+      "venue": "Briefings in Bioinformatics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1093/bib/bbag349",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Deep learning",
+        "Source code",
+        "Benchmark (surveying)",
+        "Function (biology)",
+        "Machine learning",
+        "Code (set theory)"
+      ],
+      "abstract": "Essential genes are defined as indispensable for an organism's survival. The loss of function of these genes results in cell death or an inability to complete the normal life cycle. Research on essential genes is pivotal in elucidating the origin and evolution of life, as well as in identifying potential therapeutic targets. Therefore, predicting essential genes is of great scientific importance and has many applications in basic research and the biomedical field. In this study, we propose EssTFNet, a novel, interpretable deep learning framework that combines adaptive time-frequency analysis with a DNA language model to achieve accurate prediction of human essential genes while enabling mechanistic biological interpretation. EssTFNet leverages the architecture of ATFNet, which maps DNA and protein sequences into equivalent time-series signals to extract periodic and nonstationary features, enhancing the model's capacity to capture complex sequence patterns. Through feature selection and architectural optimization, EssTFNet achieves a favorable balance among prediction accuracy, model interpretability, and cross-tissue generalization. On the S1 benchmark task, EssTFNet outperform...",
+      "authors": [
+        "Dong-Xin Ye",
+        "Shi-Shi Yuan",
+        "Wei Su",
+        "Hongqi Zhang",
+        "Rui Li",
+        "Ye-Chen Qi",
+        "Hao Lin",
+        "Nanqing Dong",
+        "Yan-Ting Jin"
+      ]
+    },
+    {
+      "title": "Charting the computational landscape of single-cell genetic perturbation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1016/j.jare.2026.06.012",
+      "venue": "Journal of Advanced Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jare.2026.06.012",
+      "concepts": [
+        "Computer science",
+        "Perturbation (astronomy)",
+        "Genetic algorithm",
+        "Statistical physics",
+        "Theoretical computer science",
+        "Mathematical optimization",
+        "Algorithm",
+        "Perturbation theory (quantum mechanics)"
+      ],
+      "abstract": "BACKGROUND: Single-cell genetic perturbation screens are increasingly used to study gene function at single-cell resolution. However, their analysis remains difficult because available computational methods differ in assumptions, input requirements, and output definitions, which can complicate cross-study comparison and consistent tool selection. AIM OF REVIEW: We summarize current methods by organizing single-cell genetic perturbation analysis into a five-step computational workflow: basic data preprocessing, data refinement and correction, perturbation-specific quality control and filtering, effect quantification and network inference, and functional annotation and visualization. KEY SCIENTIFIC CONCEPTS OF REVIEW: Within this structure, we group current algorithms by modeling principle, including regression and testing methods, latent-state and assignment-error models, matrix or manifold-based methods, and latent-variable or generative models. We compare their assumptions, limitations, and use cases to inform method selection. We also summarize strategies for multimodal perturbation analysis, in which transcriptomic, proteomic, epigenomic, spatial, and kinetic readouts affect ...",
+      "authors": [
+        "Yaozhi Zhang",
+        "Junyang Huang",
+        "Y Li",
+        "Tianyuan Liu",
+        "Liping Ren",
+        "Jian Huang",
+        "Hao Lin",
+        "Juan Feng",
+        "Yang Zhang"
+      ]
+    },
+    {
+      "title": "Age-dependent peripheral dissemination of α-synuclein seeds: mechanistic basis for blood-based early detection of Parkinson’s disease",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.1186/s40478-026-02322-x",
+      "venue": "Acta Neuropathologica Communications",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1186/s40478-026-02322-x",
+      "concepts": [
+        "Neurodegeneration",
+        "Microglia",
+        "Disease",
+        "Medicine",
+        "Peripheral",
+        "Neuroscience",
+        "Biomarker",
+        "Neurology"
+      ],
+      "abstract": "Early diagnosis of Parkinson's disease (PD) before extensive neurodegeneration is a critical unmet need, largely due to the absence of sensitive, minimally or non-invasive biomarkers for the prodromal stage. Here, we primarily use α-synuclein (α-Syn) preformed fibril (PFF)-induced mouse models to investigate the mechanistic basis of peripheral α-Syn dissemination, and additionally perform a small exploratory analysis of a serum-based α-Syn seed amplification assay (SAA) in a prodromal human cohort as proof-of-concept. In the PFF model, misfolded α-Syn propagated broadly throughout the CNS and the periphery well before motor symptom onset, with middle-aged mice exhibiting exacerbated pathology, reflecting age-related vulnerability. Proteomic profiling linked α-Syn-induced neurodegeneration to neuroinflammatory signaling, while microglia depletion significantly reduced both central α-Syn accumulation and peripheral spread, implicating activated microglia as key contributors to disease progression. As an exploratory translational step, we applied serum α-Syn SAA to a small cross-sectional cohort of isolated REM sleep behavior disorder (iRBD; n = 25) individuals and matched healthy ...",
+      "authors": [
+        "Yaoyun Kuang",
+        "Hengxu Mao",
+        "Hao Lin",
+        "Wei Dai",
+        "Zhongqiang Su",
+        "Yi Luo",
+        "Wen-Quan Zou",
+        "Xinling Yang",
+        "Ping-Yi Xu"
+      ]
+    },
+    {
+      "title": "Clinically grounded multi-agent artificial intelligence for preventive health management",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "https://doi.org/10.21203/rs.3.rs-9150301/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.21203/rs.3.rs-9150301/v1",
+      "concepts": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Medicine",
+        "Rank (graph theory)",
+        "Computer science",
+        "MEDLINE",
+        "Scalability",
+        "Risk assessment"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hao Lin",
+        "Yu Shrike Zhang",
+        "Dongdong Ye",
+        "Sicheng He",
+        "Zhaowu Du",
+        "Yang Yu",
+        "Xiao Yu",
+        "Liping Ren",
+        "Nanqing Dong",
+        "Fang Hu",
+        "Jinsong Su",
+        "George Zhang",
+        "Yun Tan",
+        "Li Zhao"
+      ]
+    },
+    {
+      "title": "Sex-specific effects of guanosine monophosphate synthase and steroid receptor coactivator gene polymorphisms on cashmere fineness and production traits in Liaoning Cashmere goats",
+      "publication_year": 2026,
+      "publication_date": "2026-03-15",
+      "doi": "https://doi.org/10.14202/vetworld.2026.992-1009",
+      "venue": "Veterinary World",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://veterinaryworld.org/Vol.19/March-2026/8.pdf",
+      "concepts": [
+        "Biology",
+        "Breed",
+        "Locus (genetics)",
+        "Genetics",
+        "Genotype",
+        "Corriedale",
+        "Gene",
+        "Cashmere goat"
+      ],
+      "abstract": "Background and Aim: The Liaoning Cashmere goat (LCG) is a dual-purpose breed of major economic importance in China, valued for its high cashmere yield and meat quality. Cashmere fineness (CF) remains a primary target for genetic improvement because fiber diameter directly determines textile value and market price. This study examined the sex-specific effects of single-nucleotide polymorphisms in the guanosine monophosphate synthase (GMPS) and steroid receptor coactivator (SRC) genes on CF and a broad spectrum of production traits to identify functional markers for marker-assisted selection. Materials and Methods: A total of 1,160 healthy LCGs (89 bucks and 1,071 does, 2–4 years of age) from the same nucleus herd were included. The C31799T locus in GMPS and the C34197G locus in SRC were genotyped by polymerase chain reaction (PCR) amplification followed by bidirectional Sanger sequencing. Genotype–trait associations were tested using general linear mixed models, with genotype, sex, and age as fixed effects, and pedigree information incorporated to control for relatedness. Haplotype phases were inferred separately for each sex with the SHEsis platform. Phenotypes recorded comprise...",
+      "authors": [
+        "Qingyu Yuan",
+        "Qiying Zhan",
+        "Ran Duan",
+        "Yichao Zhao",
+        "Hao Lin",
+        "Shuaitong Li",
+        "Weihang Hong",
+        "Hua Ma",
+        "Lingchao Kong",
+        "Wangshu Li",
+        "Haoran Wang",
+        "Xiaochen Kou",
+        "Dakun LYU",
+        "Yunlong Guo",
+        "Jiamei Liang",
+        "Zeying Wang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Mesbah Uddin",
+  "full_name": "Mesbah Uddin",
+  "department": "Department of Mechanical Engineering & Engineering Science",
+  "university": "University of North Carolina at Charlotte",
+  "author_id": "A5027492067",
+  "works_count": 105,
+  "cited_by_count": 1102,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 51
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 33
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 33
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 14
+    },
+    {
+      "topic": "Vehicle emissions and performance",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turbulence Modeling Effects on the CFD Predictions of Flow over a Detailed Full-Scale Sedan Vehicle",
+      "publication_year": 2019,
+      "publication_date": "2019-08-01",
+      "doi": "https://doi.org/10.3390/fluids4030148",
+      "venue": "Fluids",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2311-5521/4/3/148/pdf?version=1565001216",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Turbulence",
+        "Large eddy simulation",
+        "Aerospace engineering",
+        "Computer science",
+        "Turbulence modeling"
+      ],
+      "abstract": "In today’s road vehicle design processes, Computational Fluid Dynamics (CFD) has emerged as one of the major investigative tools for aerodynamics analyses. The age-old CFD methodology based on the Reynolds Averaged Navier–Stokes (RANS) approach is still considered as the most popular turbulence modeling approach in automotive industries due to its acceptable accuracy and affordable computational cost for predicting flows involving complex geometries. This popular use of RANS still persists in spite of the well-known fact that, for automotive flows, RANS turbulence models often fail to characterize the associated flow-field properly. It is even true that more often, the RANS approach fails to predict correct integral aerodynamic quantities like lift, drag, or moment coefficients, and as such, they are used to assess the relative magnitude and direction of a trend. Moreover, even for such purposes, notable disagreements generally exist between results predicted by different RANS models. Thanks to fast advances in computer technology, increasing popularity has been seen in the use of the hybrid Detached Eddy Simulation (DES), which blends the RANS approach with Large Eddy Simulatio...",
+      "authors": [
+        "Chunhui Zhang",
+        "Charles Patrick Bounds",
+        "Lee Foster",
+        "Mesbah Uddin"
+      ]
+    },
+    {
+      "title": "Turbulence modeling effects on the CFD predictions of flow over a NASCAR Gen 6 racecar",
+      "publication_year": 2018,
+      "publication_date": "2018-03-27",
+      "doi": "https://doi.org/10.1016/j.jweia.2018.03.016",
+      "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "type": "article",
+      "cited_by_count": 51,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Wake",
+        "Drag",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Wind tunnel",
+        "Turbulence modeling",
+        "Reynolds-averaged Navier–Stokes equations"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fu Chen",
+        "Mesbah Uddin",
+        "Austin Clay Robinson"
+      ]
+    },
+    {
+      "title": "Turbulence Models and Model Closure Coefficients Sensitivity of NASCAR Racecar RANS CFD Aerodynamic Predictions",
+      "publication_year": 2017,
+      "publication_date": "2017-03-28",
+      "doi": "https://doi.org/10.4271/2017-01-1547",
+      "venue": "SAE International Journal of Passenger Cars - Mechanical Systems",
+      "type": "article",
+      "cited_by_count": 28,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Closure (psychology)",
+        "Turbulence",
+        "Sensitivity (control systems)",
+        "Environmental science",
+        "Mechanics"
+      ],
+      "abstract": "Cost benefit and teraflop restrictions imposed by racing sanctioning bodies make steady-state RANS CFD simulation a widely accepted first approximation tool for aerodynamics evaluations in motorsports, in spite of its limitations. Research involving generic and simplified vehicle bodies has shown that the veracity of aerodynamic CFD predictions strongly depends on the turbulence model being used. Also, the ability of a turbulence model to accurately predict aerodynamic characteristics can be vehicle shape dependent as well. Modifications to the turbulence model coefficients in some of the models have the potential to improve the predictive capability for a particular vehicle shape. This paper presents a systematic study of turbulence modeling effects on the prediction of aerodynamic characteristics of a NASCAR Gen-6 Cup racecar. Steady-state RANS simulations are completed using a commercial CFD package, STAR-CCM+, from CD-Adapco. Three turbulence models are included in this study: the realizable and AKN variants of the k − ε model, and the SST k − ω model. The a1 coefficient for the SST k − ω model is slightly modified in order to investigate the sensitivity of this modeling con...",
+      "authors": [
+        "Fu Chen",
+        "Mesbah Uddin",
+        "C.M.E. Robinson",
+        "Arturo Guzman",
+        "David Bailey"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modal Analyses of Flow and Aerodynamic Characteristics of an Idealized Ground Vehicle Using Dynamic Mode Decomposition",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.3390/vehicles7020047",
+      "venue": "Vehicles",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2624-8921/7/2/47/pdf?version=1747664495",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Aerodynamics",
+        "Modal",
+        "Mode (computer interface)",
+        "Flow (mathematics)",
+        "Modal analysis",
+        "Decomposition",
+        "Acoustics"
+      ],
+      "abstract": "This study investigates the connection between coherent structures in the flow around a vehicle and the aerodynamic forces acting on its body. Dynamic Mode Decomposition (DMD) was applied to analyze the flow field of a squareback Ahmed body at ReH=7.7×105. DMD enabled the identification of coherent structures in the near and far wake by isolating their individual oscillation frequencies and spatial energy distributions. These structures were classified into three regimes based on their underlying mechanisms: symmetry breaking, bubble pumping, and large-scale vortex shedding in range of St≤0.2. The energy contributions of these flow regimes were quantified across different regions of the flow field and compared to the aerodynamic forces on the body. Additionally, the linear correlation between pressure and velocity components was examined using Pearson correlation coefficients of DMD spectral amplitudes. The locations of maximum and minimum correlation values, as well as their relationship to energy contributions, were identified and analyzed in detail.",
+      "authors": [
+        "Hamed Ahani",
+        "Mesbah Uddin"
+      ]
+    },
+    {
+      "title": "Impact of Key DMD Parameters on Modal Analysis of High-Reynolds-Number Flow Around an Idealized Ground Vehicle",
+      "publication_year": 2025,
+      "publication_date": "2025-01-13",
+      "doi": "https://doi.org/10.3390/app15020713",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2076-3417/15/2/713/pdf?version=1736758249",
+      "concepts": [
+        "Reynolds number",
+        "Mechanics",
+        "Drag",
+        "Dynamic mode decomposition",
+        "Computational fluid dynamics",
+        "Mathematics",
+        "Physics",
+        "Turbulence"
+      ],
+      "abstract": "This study provides a detailed analysis of the convergence criteria for dynamic mode decomposition (DMD) parameters, with a focus on sampling frequency and period in high-Reynolds-number flows. The analysis is based on flow over an idealized road vehicle, the Ahmed body (Re=7.7×105), using computational fluid dynamics (CFD) data from improved delayed detached eddy simulation (IDDES). The pressure and velocity spectrum analysis validated IDDES’s ability to capture system dynamics, consistent with existing studies. For a comprehensive understanding of the contributions of different components of the circle, the Ahmed body was divided into three regions: (a) front; (b) side, lower, and upper surfaces; and (c) rear fascia. Both pressure and skin-friction drag were analyzed in terms of frequency spectra and cumulative energy. Key findings show that a 90% contribution to the pressure drag comes from modes with a frequency of less than 26 Hz (St = 0.187), while the friction drag requires 84 Hz (St = 0.604) for similar energy capture. This study highlights the significance of accounting for intermittency and non-stationary behavior in turbulent flows for DMD convergence. A minimum of 30...",
+      "authors": [
+        "Hamed Ahani",
+        "Mesbah Uddin"
+      ]
+    },
+    {
+      "title": "Mapping Urban Wind Fields via Gaussian Processes Regression Models That Consider Building Morphology",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2282",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Morphology (biology)",
+        "Gaussian process",
+        "Kriging",
+        "Urban morphology",
+        "Regression",
+        "Computer science",
+        "Gaussian",
+        "Statistical physics"
+      ],
+      "abstract": "This paper presents a framework for training a Gaussian process (GP) to estimate a steady urban wind field from a sparse set of wind measurements by leveraging training data collected from computational fluid dynamics (CFD) simulations. Gaussian process models for spatial estimation often use measurement locations as the input space with proximity-based covariance functions. This work investigates including building morphology features into the GP model that are defined by the signed distance field (SDF) and its gradient evaluated at a pattern of points around each sample location. Augmenting the measurement locations with different subsets of building morphology features leads to unique feature spaces. Several different GP models are trained using various feature spaces and covariance functions, including with a coregion covariance function that allows simultaneous training over multiple CFD datasets for different urban geometries. A framework is developed to generate CFD wind field data for a set of randomized geometries, build various feature spaces, and perform the estimation with the proposed GP models. The framework is evaluated with a simple environment that consists of t...",
+      "authors": [
+        "Nicholas Kakavitsas",
+        "Mesbah Uddin",
+        "Artur Wolek"
+      ]
+    },
+    {
+      "title": "Transport and Reignition of Unburnt n-Dodecane Fuel Droplets in a Transverse Jet in Supersonic Crossflow",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1968",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Transverse plane",
+        "Jet fuel",
+        "Physics",
+        "Mechanics",
+        "Materials science",
+        "Aerospace engineering"
+      ],
+      "abstract": "The canonical \"jet in a crossflow\" (JICF) problem is of significant recent interest in divert thrusters (used in hypersonic missiles, interceptors, and re-entry vehicles), as well as in scramjets and detonation engines. This study presents detailed 3D numerical simulations of a jet comprising gaseous burnt products and unburnt fuel particles in a supersonic crossflow using an Euler-Lagrange algorithm. Our objective is to explore droplet breakup and evaporation characteristics, and the possibility of evaporated fuel reignition. The jet comprises a preheated carrier gas of burnt products, laden with mono-dispersed 20μm, n-Dodecane droplets, representative of partially burnt exhaust from an engine/thruster carrying unburnt (residual) liquid fuel. As the high-pressure jet enters the crossflow, it expands and forms a diamond shock structure, while the droplets reach a local Weber number of ~300, initiating breakup. Observations indicate that greater than ~ 90% of the droplets break up into child droplets with diameters < 3 μm within a downstream distance of 6 jet diameters. The child droplets achieve a velocity close to the gas flow velocity, with a Weber number below the critical We...",
+      "authors": [
+        "C A Ramm",
+        "Prashant Tarey",
+        "John Boles",
+        "Tanner Nielsen",
+        "Matthew Goodson",
+        "Jacob McFarland",
+        "Mesbah Uddin",
+        "Praveen Ramaprabhu"
+      ]
+    },
+    {
+      "title": "Characterizing Vortex Ring State During UAV Landing on a Ground Vehicle Using CFD",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1686",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerospace engineering",
+        "Computational fluid dynamics",
+        "Vortex",
+        "Vortex ring",
+        "Ring (chemistry)",
+        "Aeronautics",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "The aerodynamic characteristics of unmanned aerial vehicles (UAVs) have become a major research focus for both civilian and military applications. Significant data has been collected on UAV system and control mechanisms, particularly regarding autonomous takeoff and landing maneuvers involving ground vehicles (GVs). Despite robust UAV systems and control frameworks designed for successful maneuvering, challenges remain due to the complex aerodynamic interactions during a UAV's landing on a GV. Specifically, vortex ring structures (VRS) form from the interaction of spinning rotors, main body downwash, and the UAV's descent rate, creating large vortices that can lead to uncontrolled turbulence and instability during landing. Existing literature on VRS does not adequately address how VRS interactions with GVs cause instability during landing. To better understand the characteristics of VRS, five UAV simulations at various descent speeds are conducted, focusing on UAV landings on a GV. This study aims to capture the aerodynamic characteristics of VRS during UAV landings on a GV at various speeds, providing insights to improve precision and safety in UAV maneuvers.",
+      "authors": [
+        "Cortney J. Hahn",
+        "Artur Wolek",
+        "Adit Misar",
+        "Mesbah Uddin"
+      ]
+    }
+  ]
+}

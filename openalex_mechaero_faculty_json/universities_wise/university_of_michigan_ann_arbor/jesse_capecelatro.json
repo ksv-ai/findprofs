@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Jesse Capecelatro",
+  "full_name": "Jesse Capecelatro",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Michigan-Ann Arbor",
+  "author_id": "A5027745718",
+  "works_count": 186,
+  "cited_by_count": 2601,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 113
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 60
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Cyclone Separators and Fluid Dynamics",
+      "count": 19
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Gas–Particle Dynamics in High-Speed Flows",
+      "publication_year": 2023,
+      "publication_date": "2023-10-03",
+      "doi": "https://doi.org/10.1146/annurev-fluid-121021-015818",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 88,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1146/annurev-fluid-121021-015818",
+      "concepts": [
+        "Drag",
+        "Mach number",
+        "Mechanics",
+        "Compressibility",
+        "Turbulence",
+        "Physics",
+        "Magnetosphere particle motion",
+        "Compressible flow"
+      ],
+      "abstract": "High-speed disperse multiphase flows are present in numerous environmental and engineering applications with complex interactions between turbulence, shock waves, and particles. Compared with its incompressible counterpart, compressible two-phase flows introduce new scales of motion that challenge simulations and experiments. This review focuses on gas–particle interactions spanning subsonic to supersonic flow conditions. An overview of existing Mach-number-dependent drag laws is presented, with origins from eighteenth-century cannon firings and new insights from particle-resolved numerical simulations. The equations of motion and phenomenology for a single particle are first reviewed. Multiparticle systems spanning dusty gases to dense suspensions are then discussed from numerical and experimental perspectives.",
+      "authors": [
+        "Jesse Capecelatro",
+        "Justin L. Wagner"
+      ]
+    },
+    {
+      "title": "Numerical study of collisional particle dynamics in cluster-induced turbulence",
+      "publication_year": 2014,
+      "publication_date": "2014-04-23",
+      "doi": "https://doi.org/10.1017/jfm.2014.194",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mesoscopic physics",
+        "Particle (ecology)",
+        "Turbulence",
+        "Stokes number",
+        "Mechanics",
+        "Particle velocity",
+        "Cluster (spacecraft)"
+      ],
+      "abstract": "Abstract We present a computational study of cluster-induced turbulence (CIT), where the production of fluid-phase kinetic energy results entirely from momentum coupling with finite-size inertial particles. A separation of length scales must be established when evaluating the particle dynamics in order to distinguish between the continuous mesoscopic velocity field and the uncorrelated particle motion. To accomplish this, an adaptive spatial filter is employed on the Lagrangian data with an averaging volume that varies with the local particle-phase volume fraction. This filtering approach ensures sufficient particle sample sizes in order to obtain meaningful statistics while remaining small enough to avoid capturing variations in the mesoscopic particle field. Two-point spatial correlations are computed to assess the validity of the filter in extracting meaningful statistics. The method is used to investigate, for the first time, the properties of a statistically stationary gravity-driven particle-laden flow, where particle–particle and fluid–particle interactions control the multiphase dynamics. Results from fully developed CIT show a strong correlation between the local volume...",
+      "authors": [
+        "Jesse Capecelatro",
+        "Olivier Desjardins",
+        "Rodney O. Fox"
+      ]
+    },
+    {
+      "title": "On fluid–particle dynamics in fully developed cluster-induced turbulence",
+      "publication_year": 2015,
+      "publication_date": "2015-09-07",
+      "doi": "https://doi.org/10.1017/jfm.2015.459",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 166,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Reynolds number",
+        "Mechanics",
+        "Momentum (technical analysis)",
+        "Eulerian path",
+        "Particle-laden flows",
+        "Coupling (piping)"
+      ],
+      "abstract": "At sufficient mass loading and in the presence of a mean body force (e.g. gravity), an initially random distribution of particles may organize into dense clusters as a result of momentum coupling with the carrier phase. In statistically stationary flows, fluctuations in particle concentration can generate and sustain fluid-phase turbulence, which we refer to as cluster-induced turbulence (CIT). This work aims to explore such flows in order to better understand the fundamental modelling aspects related to multiphase turbulence, including the mechanisms responsible for generating volume-fraction fluctuations, how energy is transferred between the phases, and how the cluster size distribution scales with various flow parameters. To this end, a complete description of the two-phase flow is presented in terms of the exact Reynolds-average (RA) equations, and the relevant unclosed terms that are retained in the context of homogeneous gravity-driven flows are investigated numerically. An Eulerian–Lagrangian computational strategy is used to simulate fully developed CIT for a range of Reynolds numbers, where the production of fluid-phase kinetic energy results entirely from momentum cou...",
+      "authors": [
+        "Jesse Capecelatro",
+        "Olivier Desjardins",
+        "Rodney O. Fox"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The Influence of Turbulence and Adhesion on Spatially Heterogeneous Particle Deposition and Wear",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2696",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Particle (ecology)",
+        "Deposition (geology)",
+        "Mechanics",
+        "Materials science",
+        "Particle deposition",
+        "Adhesion",
+        "Brownian motion"
+      ],
+      "abstract": "Dust and sand ingestion in gas turbine engines leads to particle deposition and wear, degrading performance and increasing maintenance costs. In this work, we use direct numerical simulation of turbulent channel flow to investigate the role of near-wall turbulence in shaping particle deposition patterns. Particle dynamics are resolved via a one-way coupled Euler–Lagrange framework incorporating drag, lift, Brownian dynamics, and a soft-sphere collision model with adhesive contact. Thermal effects are approximated by varying the particle adhesion number. We find that lower adhesion numbers produce more heterogeneous deposits by allowing particles to move along the wall, forming streak-like patterns that align with near-wall turbulence structures. Spanwise radial distribution functions and spatial velocity correlations reveal a direct coupling between turbulence scales and particle clustering. These results highlight the importance of accurate models for particle-turbulence and particle-wall interactions in predicting deposition morphology in high-temperature turbulent flows.",
+      "authors": [
+        "M. Herzog",
+        "Jesse Capecelatro"
+      ]
+    },
+    {
+      "title": "Data-driven Framework to Characterize Crater Dynamics During Plume-Surface Interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2153",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Impact crater",
+        "Regolith",
+        "Geology",
+        "Ejecta",
+        "Nozzle",
+        "Erosion",
+        "Lift (data mining)",
+        "Debris"
+      ],
+      "abstract": "During propulsive landings on the Moon, Mars, or other terrestrial bodies, high-speed thruster plumes erode the regolith surface, generating ejecta that lift off and pose hazards to the vehicle and surroundings. The volume and shape of craters formed during plume-surface interactions (PSI) depend on thruster characteristics, ambient conditions, and regolith properties. We review existing analytical, empirical, and data-driven models of plume-induced granular erosion, highlighting the need for models that accurately capture PSI across a broader range of conditions. In this work, low-pressure, high-speed data from NASA’s Physics-Focused Ground Test (PFGT) campaign were used to characterize crater evolution and morphology across varying nozzle mass flow rates, nozzle heights, background pressures, and regolith simulants. Half-space experiments employed a splitter plate aligned with the nozzle axis, enabling high-speed recordings of crater formation. Crater profiles were extracted using an in-house image processing tool, augmented with an open-source machine learning algorithm. Sensitivity analysis of crater dynamics was conducted to classify cratering behavior based on nozzle, ambi...",
+      "authors": [
+        "Meet Patel",
+        "Lorenzo Bruni",
+        "Niranjan Nanjappa",
+        "Fabien Evrard",
+        "Jesse Capecelatro",
+        "Laura Villafañe Roca"
+      ]
+    },
+    {
+      "title": "Effect of nozzle geometry on combustion efficiency and blowout in non-assist flares",
+      "publication_year": 2025,
+      "publication_date": "2025-12-15",
+      "doi": "https://doi.org/10.1016/j.fuel.2025.137970",
+      "venue": "Fuel",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.fuel.2025.137970",
+      "concepts": [
+        "Nozzle",
+        "Combustion",
+        "Crosswind",
+        "Mechanics",
+        "Materials science",
+        "Homogenization (climate)",
+        "Square (algebra)",
+        "Mixing (physics)"
+      ],
+      "abstract": "Large-eddy simulations are performed to quantify the influence of nozzle geometry on combustion efficiency, local mixing, and blowout resistance in non-assist methane flares. Five canonical nozzle shapes are evaluated under relevant industrial flare conditions, including a circle, low-aspect-ratio ellipse, high-aspect-ratio ellipse, diamond, and square. Cornered geometries are shown to enhance near-field recirculation, promote mixing, and sustain flame attachment, resulting in up to a 5 % improvement in combustion efficiency compared with streamlined nozzles. Square nozzles perform best, irrespective of wind direction, and maintain combustion efficiency above 96.5 % even at the highest tested crosswind velocities, while streamlined designs exhibit early flame lift-off, reduced recirculation, and efficiency losses. Sharp-edged nozzles also accelerate scalar homogenization and buffer flames against crosswind-induced strain, significantly improving blowout resistance. Despite the widespread use of circular nozzles in industry, these results highlight a passive geometric modification as a practical route to enhanced flare performance. • Nozzle corners enhance recirculation and incre...",
+      "authors": [
+        "Ashray Mohit",
+        "Jenna Stolzman",
+        "Margaret S. Wooldridge",
+        "Jesse Capecelatro"
+      ]
+    },
+    {
+      "title": "Impact of Turbulence on Combustion Performance in Non-Assist Waste Gas Flares",
+      "publication_year": 2025,
+      "publication_date": "2025-11-25",
+      "doi": "https://doi.org/10.1007/s10494-025-00714-y",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10494-025-00714-y.pdf",
+      "concepts": [
+        "Turbulence",
+        "Combustion",
+        "Crosswind",
+        "Environmental science",
+        "Turbulence kinetic energy",
+        "Mechanics",
+        "Mixing (physics)",
+        "Intensity (physics)"
+      ],
+      "abstract": "Abstract Waste gas flares frequently encounter turbulent crosswinds, which pose significant challenges to maintaining the EPA-mandated 96.5% combustion efficiency for non-assist flares. Strong crosswinds can distort flame shapes, disrupt mixing, challenge emissions measurements due to variable speeds and directions, and ultimately degrade flare efficiency. This study quantifies the impact of crosswind turbulence intensity on non-assist flare combustion efficiency using large-eddy simulations coupled with a flamelet progress variable approach. Results show that while jet-induced turbulence enhances mixing and improves combustion efficiency, turbulence from crossflows increases local strain rates and consistently reduces efficiency. Combustion efficiency drops by up to 10% at turbulence intensities approaching 20%. A new correlation for combustion efficiency, obtained using symbolic regression, captures both experimental and simulation data well across natural gas flare flow rates of 2–4 m/s and wind speeds of 0–10 m/s. Incorporating a power-law dependence on turbulence intensity significantly reduces data scatter.",
+      "authors": [
+        "Ashray Mohit",
+        "Jenna Stolzman",
+        "Margaret S. Wooldridge",
+        "Jesse Capecelatro"
+      ]
+    },
+    {
+      "title": "Turbulence transport in moderately dense gas–particle compressible flows",
+      "publication_year": 2025,
+      "publication_date": "2025-11-24",
+      "doi": "https://doi.org/10.1017/jfm.2025.10831",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7D17D1200EB813E9869007366B28C7A0/S0022112025108318a.pdf/div-class-title-turbulence-transport-in-moderately-dense-gas-particle-compressible-flows-div.pdf",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Turbulence",
+        "Mach number",
+        "Reynolds stress",
+        "Kinetic energy",
+        "Momentum (technical analysis)",
+        "Classical mechanics"
+      ],
+      "abstract": "This study employs three-dimensional particle-resolved simulations of planar shocks passing through a suspension of stationary solid particles to study wake-induced gas-phase velocity fluctuations, termed pseudo-turbulence. Strong coupling through interphase momentum and energy exchange generates unsteady wakes and shocklets in the interstitial space between particles. A Helmholtz decomposition of the velocity field shows that the majority of pseudo-turbulence is contained in the solenoidal component from particle wakes, whereas the dilatational component corresponds to the downstream edge of the particle curtain where the flow chokes. One-dimensional phase-averaged statistics of pseudo-turbulent kinetic energy (PTKE) are quantified at various stages of flow development. Reduction in PTKE is observed with increasing shock Mach number due to decreased production, consistent with single-phase compressible turbulence. The anisotropy in Reynolds stresses is found to be relatively constant through the curtain and consistent over all the conditions simulated. Analysis of the budget of PTKE shows that the majority of turbulence is produced through drag and balanced by viscous dissipati...",
+      "authors": [
+        "A. Sridhar",
+        "Rodney O. Fox",
+        "Jesse Capecelatro"
+      ]
+    }
+  ]
+}

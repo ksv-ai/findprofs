@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Mario Perhinschi",
+  "full_name": "Mario Perhinschi",
+  "department": "Department of Mechanical, Materials and Aerospace Engineering",
+  "university": "West Virginia University",
+  "author_id": "A5112635295",
+  "works_count": 172,
+  "cited_by_count": 1997,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Artificial Immune Systems Applications",
+      "count": 56
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 45
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 34
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 27
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Artificial-Immune-System-Based Aircraft Failure Evaluation over Extended Flight Envelope",
+      "publication_year": 2011,
+      "publication_date": "2011-07-01",
+      "doi": "https://doi.org/10.2514/1.52748",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 44,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flight envelope",
+        "Aerospace engineering",
+        "Envelope (radar)",
+        "Aeronautics",
+        "Computer science",
+        "Flight simulator",
+        "Engineering",
+        "Aerodynamics"
+      ],
+      "abstract": "This paper describes the design, development, and flight-simulation testing of an artificial-immune-system-based approach for the evaluation of different aircraft subsystem failures/damages. The evaluation consists of the estimation of the magnitude/severity of the failure and the prediction of the achievable states, leading to an overall assessment of the effects of the failure on reducing the flight envelope. A supersonic fighter model is used, which includes model-following adaptive control laws based on nonlinear dynamic inversion and artificial neural network augmentation. Data collected from a motion-based flight simulator were used to define the self for a wide area of the flight envelope and to test and validate the proposed approach. Example results are presented for failure-magnitude evaluation and flight-envelope-reduction prediction for abnormal conditions affecting sensors, actuators, engine, and wing structure. Successful failure detection and identification are assumed before evaluation. The results show the capabilities of the artificial-immune-system-based scheme to evaluate the severity of the failure and to predict the reduction of the flight envelope in a gen...",
+      "authors": [
+        "Hever Moncayo",
+        "Mario Perhinschi",
+        "Jennifer Davis"
+      ]
+    },
+    {
+      "title": "Aircraft Failure Detection and Identification Using an Immunological Hierarchical Multiself Strategy",
+      "publication_year": 2010,
+      "publication_date": "2010-07-01",
+      "doi": "https://doi.org/10.2514/1.47445",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Identification (biology)",
+        "Computer science",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering",
+        "Botany",
+        "Biology"
+      ],
+      "abstract": "This paper presents the development and application of an integrated artificial-immune-system-based scheme for the detection and identification of a variety of aircraft sensor, actuator, propulsion, and structural failures/damages. The proposed approach is based on a hierarchical multiself strategy in which different self configurations are selected for detection and identification of specific abnormal conditions. Data collected using a motion-based flight simulator were used to define the self for a subregion of the flight envelope. The aircraft model represents a supersonic fighter, including model-following adaptive control laws based on nonlinear dynamic inversion and artificial neural network augmentation. The proposed detection scheme achieves low false alarm rates and high detection and identification rates for all four categories of failures considered.",
+      "authors": [
+        "Hever Moncayo",
+        "Mario Perhinschi",
+        "Jennifer Davis"
+      ]
+    },
+    {
+      "title": "Autonomous Aerial Refueling for UAVs Using a Combined GPS-Machine Vision Guidance",
+      "publication_year": 2004,
+      "publication_date": "2004-06-22",
+      "doi": "https://doi.org/10.2514/6.2004-5350",
+      "venue": "AIAA Guidance, Navigation, and Control Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 61,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Global Positioning System",
+        "Computer science",
+        "Machine vision",
+        "Computer vision",
+        "Artificial intelligence",
+        "Telecommunications"
+      ],
+      "abstract": "The most important factors affecting the performance of a control scheme for Autonomous Aerial Refueling (AAR) for UAVs are the magnitude of the wake effects from the Tanker and the accuracy of the measurements of the UAV-Tanker distance and attitude leading to the docking. The main objective of the effort described in this paper is the implementation of a detailed modeling and simulation environment for evaluating the AAR problem. In particular, a specific control scheme based on a sensor fusion between GPS- based and Machine Vision-based measurements is proposed. Furthermore, the iterative algorithm used for estimating the position of the optical markers has been modified to be robust to a loss of visibility by one or more optical markers during the docking sequence. The paper presents the results of a detailed analysis of the AAR under different scenarios.",
+      "authors": [
+        "Giampiero Campa",
+        "Mario Luca Fravolini",
+        "A. Ficola",
+        "Marcello Napolitano",
+        "Brad Seanor",
+        "Mario Perhinschi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Development of a Simulation Environment for Separating Air Vehicles",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2213",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Payload (computing)",
+        "Component (thermodynamics)",
+        "Missile",
+        "Radar",
+        "Engineering",
+        "Systems engineering",
+        "Moment (physics)",
+        "Aerospace engineering"
+      ],
+      "abstract": "This paper presents the implementation in MATLAB® and Simulink® of a comprehensive computational framework for the modeling and simulation of a general flying vehicle with major components separating during flight. An initially combined aerial vehicle system will divide at some prescribed moment into a separating component or aerial vehicle, as well as a payload component or aerial vehicle. All three vehicles are considered to perform specific tasks. Simulation results are presented considering the combined vehicle to be a controlled generic missile, the separating component to consist of a large mass structure discarded to crash at a safe location, and the payload vehicle to represent a missile seeking to hit a ground target. The simulation environment is envisioned as an effective tool for the design and analysis of the vehicles and all subsystems involved as well as the main parameters of the missions. To illustrate the functionality and capabilities of the simulation environment, the effects of several mission related parameters with respect to mission success are investigated. The mission parameters include initial conditions, target conditions, and environmental atmospheri...",
+      "authors": [
+        "Ryan McLaughlin",
+        "Jacob L. Yancosek",
+        "Mario Perhinschi"
+      ]
+    },
+    {
+      "title": "Correction: Simulation of In-Flight Vehicle Separation Event",
+      "publication_year": 2025,
+      "publication_date": "2025-01-06",
+      "doi": "https://doi.org/10.2514/6.2025-0365.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-0365.c1",
+      "concepts": [
+        "Separation (statistics)",
+        "Computer science",
+        "Event (particle physics)",
+        "Aeronautics",
+        "Engineering",
+        "Machine learning",
+        "Physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jacob L. Yancosek",
+        "Ryan McLaughlin",
+        "Mario Perhinschi"
+      ]
+    },
+    {
+      "title": "Integration of Missile Radar Cross Section Assessment Within a Simulation Environment",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1157",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radar cross-section",
+        "Missile",
+        "Computer science",
+        "Radar",
+        "Radar lock-on",
+        "Section (typography)",
+        "Remote sensing",
+        "Aeronautics"
+      ],
+      "abstract": "This paper presents a comprehensive approach for the integration of missile radar cross section (RCS) analysis into a simulation environment. This integration is performed to facilitate the analysis of the RCS of an aerial body and the effect on output data quality, simulation run time, and difficulty of pre-processing data based on selection of different RCS algorithms. This type of analysis is desired due to the importance of the RCS to successful completion of flight missions, whether the goal is a high RCS for a civilian application or a low RCS for stealth missions. The proposed approach is implemented in MATLAB® and Simulink® with a physical optics approximation based approach either running in real time or through lookup tables to explore the effects of modifying the RCS algorithm on simulation performance. Output data from cases modifying radar characteristics, flight scenario, or RCS estimation source will be presented, including RCS time histories and angular cuts, which will be compared to demonstrate the capability of the proposed approach to analyze the effects of RCS algorithm modification.",
+      "authors": [
+        "Ryan McLaughlin",
+        "Mario Perhinschi",
+        "Jacob L. Yancosek",
+        "Warren J. Boord"
+      ]
+    },
+    {
+      "title": "Simulation of In-Flight Vehicle Separation Event",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0365",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Separation (statistics)",
+        "Computer science",
+        "Event (particle physics)",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Engineering",
+        "Physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "This paper presents the modeling of a significant separation event between two aerial bodies. They start as a combined vehicle, then separate into two aerial vehicles. This model seeks to capture the dynamics of each vehicle, as well as the separation event, in order to accurately determine if each vehicle will successfully complete its prescribed mission. Mid-flight separations may cause unintended consequences on the trajectories of each vehicle involved, which may adversely affect the ability of the vehicle to complete its mission. The proposed model is implemented in MATLAB® and Simulink® with nonlinear 6 six-degrees-of-freedom equations of motion. To demonstrate the functionality of the model, cases varying the magnitude of the separation force, the location at which the force is applied, and the time at which separation occurs are presented and discussed to evaluate the impact on each vehicle.",
+      "authors": [
+        "Jacob L. Yancosek",
+        "Ryan McLaughlin",
+        "Mario Perhinschi"
+      ]
+    },
+    {
+      "title": "Generalized Simulation Environment Framework for Separating Flying Vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0364",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aerospace engineering",
+        "Human–computer interaction",
+        "Aeronautics",
+        "Simulation",
+        "Engineering"
+      ],
+      "abstract": "In this paper, the formulation and design of a comprehensive computational framework for the modeling and simulation of a general flying vehicle with components which separate during flight is presented. The purpose of this tool is to facilitate the evaluation and analysis of critical issues which may affect a general separating vehicle in the context of military, commercial, and civilian applications. This includes both vehicles where components deliberately separate, such as delivery operations and airborne launching of additional vehicles, and situations where the vehicle is damaged and components are lost in an unexpected way. The proposed framework is then implemented in MATLAB® and Simulink® for a specific type of separating vehicle. Preliminary results are highlighted to show the efficacy of the framework as well as to demonstrate the application of the framework for the creation of the comprehensive simulation environment.",
+      "authors": [
+        "Ryan McLaughlin",
+        "Mario Perhinschi",
+        "Jacob L. Yancosek"
+      ]
+    }
+  ]
+}

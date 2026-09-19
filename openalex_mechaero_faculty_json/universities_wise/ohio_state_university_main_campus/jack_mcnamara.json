@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Jack McNamara",
+  "full_name": "Jack J. McNamara",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Ohio State University-Main Campus",
+  "author_id": "A5036529817",
+  "works_count": 185,
+  "cited_by_count": 3728,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 109
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 76
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 38
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 31
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 29
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aeroelastic and Aerothermoelastic Analysis in Hypersonic Flow: Past, Present, and Future",
+      "publication_year": 2011,
+      "publication_date": "2011-05-11",
+      "doi": "https://doi.org/10.2514/1.j050882",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 365,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Hypersonic speed",
+        "Hypersonic flow",
+        "Hypersonic flight",
+        "Aerospace engineering",
+        "Aerodynamics",
+        "Flow (mathematics)",
+        "Aeronautics"
+      ],
+      "abstract": "H YPERSONIC flight began in February 1949 when a WACCorporal rocket was ignited from a U.S.-captured V-2 rocket [1]. In the six decades since this milestone, there have been significant investments in the development of hypersonic vehicle technologies. The NASA X-15 rocket plane in the early 1960s",
+      "authors": [
+        "Jack J. McNamara",
+        "Peretz P. Friedmann"
+      ]
+    },
+    {
+      "title": "Studies on Fluid-Thermal-Structural Coupling for Aerothermoelasticity in Hypersonic Flow",
+      "publication_year": 2010,
+      "publication_date": "2010-08-01",
+      "doi": "https://doi.org/10.2514/1.j050193",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 250,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Mechanics",
+        "Hypersonic flow",
+        "Flow (mathematics)",
+        "Materials science",
+        "Coupling (piping)",
+        "Aerospace engineering",
+        "Thermal"
+      ],
+      "abstract": "The field of aerothermoelasticity plays an important role in the analysis and optimization of airbreathing hypersonic vehicles, impacting the design of the aerodynamic, structural, control, and propulsion systems at both the component and multi-disciplinary levels. This study aims to expand the fundamental understanding of hypersonic aerothermoelasticity by performing systematic investigations into fluid-thermal-structural coupling, and also to develop frameworks, using innovative modeling strategies, for reducing the computational effort associated with aerothermoelastic analysis. Due to the fundamental nature of this work, the analysis is limited to cylindrical bending of a simply-supported, von K arm an panel. Multiple important effects are included in the analysis, namely: 1) arbitrary, nonuniform, in-plane and through-thickness temperature distributions, 2) material property degradation at elevated temperature, and 3) the effect of elastic deformation on aerodynamic heating. It is found that including elastic deformations in the aerodynamic heating computations results in non-uniform heat flux, which produces non-uniform temperature distributions and non-uniform material pr...",
+      "authors": [
+        "Adam J. Culler",
+        "Jack J. McNamara"
+      ]
+    },
+    {
+      "title": "Impact of Fluid-Thermal-Structural Coupling on Response Prediction of Hypersonic Skin Panels",
+      "publication_year": 2011,
+      "publication_date": "2011-11-01",
+      "doi": "https://doi.org/10.2514/1.j050617",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 146,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Hypersonic flight",
+        "Materials science",
+        "Coupling (piping)",
+        "Thermal",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Space Shuttle thermal protection system"
+      ],
+      "abstract": "DOI: 10.2514/1.J050617 The goal of the United States Air Force to field durable platforms capable of sustained hypersonic flight and responsive access to space depends on the ability to predict the response and the life of structures under combined aerothermal andaeropressure loading. However,current predictive capabilities are limitedfor these conditions due in part to the inability to seamlessly address fluid-thermal-structural interactions. This study aims to quantify the significance of a frequently neglected interaction, namely: the mutual coupling of structural deformation and aerodynamic heating, on response prediction. The quasi-static response of a carbon–carbon skin panel is investigated. It is found that the significance of this coupling depends largely on the in-plane boundary conditions, since increasing resistance to thermal expansion results in buckling and increasing deflections into the flow. Including these deformations in aerodynamic heating results in O10% increase in peak temperature and O100% increase in surface ply failure index for deflections O1% of panel length. In these cases, the locations of peaktemperaturesandstressesaresignificantlyaltered.Finally,...",
+      "authors": [
+        "Adam J. Culler",
+        "Jack J. McNamara"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Turbulent shock-wave boundary layer interactions over compliant panels: Insights from one-way analyses",
+      "publication_year": 2026,
+      "publication_date": "2026-04-04",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "concepts": [
+        "Boundary layer",
+        "Shock wave",
+        "Shock (circulatory)",
+        "Turbulence",
+        "Mechanics",
+        "Boundary (topology)",
+        "Aerospace engineering",
+        "Layer (electronics)"
+      ],
+      "abstract": "Panels encountering low-frequency loading due to proximal turbulent shock-wave boundary layer interactions (SWBLI) experience fluid structure interactions (FSI), with adverse and potentially catastrophic effects on high-speed vehicle performance. In certain parameter ranges, the feedback between fluid and structure is muted, and one-way analyses offer computational efficiency for rapid assessments of prescribed fluid load on the structural response (F→S) and vice versa, i.e., prescribed structural motion on fluid response (S→F). Both scenarios are examined here for a Mach 2 SWBLI over a 22.5o ramp, using Large-Eddy Simulations for the fluid and a finite-element model for the structure. Where possible, the literature on experimental observations and coupled simulations validate the appropriateness of the approach. In the F→S framework, the effects of precomputed turbulent surface pressures are examined on different panels; parameters varied include cavity pressure, boundary conditions (pinned/clamped), frequency alignment with structural modes, panel orientation, and location relative to the interaction. When placed near flow separation, panel responses exhibit distinct features ...",
+      "authors": [
+        "Anshul Suri",
+        "Vilas Shinde",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Temporal convergence analysis of the generalized finite element method for multi-scale heat transfer",
+      "publication_year": 2026,
+      "publication_date": "2026-02-13",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118808",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2026.118808",
+      "concepts": [
+        "Finite element method",
+        "Convergence (economics)",
+        "Mathematics",
+        "Heat transfer",
+        "Applied mathematics",
+        "Mathematical analysis",
+        "Mixed finite element method",
+        "Numerical analysis"
+      ],
+      "abstract": "The temporal accuracy, convergence, and efficiency of the generalized finite element method (GFEM) with time-dependent enrichment functions are investigated for applications to multi-scale, transient heat transfer problems involving localized, non-stationary thermal loads. The GFEM enables the construction of solution-tailored enrichments from either analytical or numerical considerations, enabling the simultaneous resolution of spatial and temporal scales on coarse, fixed FEM meshes. The global-local GFEM (GFEM gl ) is used to build numerical enrichments. The temporal behavior of the GFEM is investigated using the generalized trapezoidal method as the time integrator to assess the viability of time-stepping within this framework. Numerical experiments performed on problems exhibiting sharp temporal and highly localized spatial gradients show that the GFEM gl only obtains robust convergence when employing transient local problems, representing an advancement over previous studies. Performance analyses demonstrate that the GFEM with time-dependent shape functions efficiently delivers high-fidelity solutions compared to standard FEM formulations. The results demonstrate strong pot...",
+      "authors": [
+        "T.J. Miller",
+        "Patrick  J. O’Hara",
+        "Jack J. McNamara"
+      ]
+    },
+    {
+      "title": "Modeling Fluid–Thermal Coupling in Gap Regions of High-Speed Control Surfaces",
+      "publication_year": 2026,
+      "publication_date": "2026-01-27",
+      "doi": "https://doi.org/10.2514/1.j065100",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Heat flux",
+        "Heat transfer",
+        "Aerodynamics",
+        "Boundary value problem",
+        "Solver",
+        "Computational fluid dynamics",
+        "Coupling (piping)"
+      ],
+      "abstract": "The gap region of all-movable control surfaces on high-speed vehicles involves complex flow conditions and extreme aerodynamic heating. This study models fluid–thermal coupling in such problems. A global–local decomposition procedure is implemented to manage disparate length scales in the gap region. The fluid–thermal coupling uses boundary condition exchange between a finite volume computational fluid dynamics solver and a finite element thermal solver. Two standard boundary conditions are considered: 1) direct heat flux from the fluid solver and 2) a film boundary condition that incorporates the heat transfer coefficient and adiabatic wall temperature. Results demonstrate that the common heat flux boundary condition can lead to unstable transient thermal solutions and degraded time accuracy if naively implemented with an implicit time integrator. Conversely, the film boundary condition maintains unconditional stability. Additionally, the impact of exchange frequency between fluid and thermal solvers is assessed in terms of computational expense and accuracy. Results highlight the coupled fluid–thermal response in the gap region, with peak surface heating rates up to 50 times b...",
+      "authors": [
+        "Jon A. Willems",
+        "Jack J. McNamara",
+        "Daniel A. Reasor",
+        "Thomas A. Mason"
+      ]
+    },
+    {
+      "title": "Interplay between shock-induced panel flutter and the Kelvin-Helmholtz instability in laminar flow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-13",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2025.104497",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Laminar flow",
+        "Mechanics",
+        "Flutter",
+        "Instability",
+        "Boundary layer",
+        "Cascade",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "James L. Fields",
+        "Anshul Suri",
+        "Caleb J. Barnes",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Modeling High-Reynolds Number Flows Using Transformers and Multi-Scale Latent Spaces",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1729",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Extrapolation",
+        "Computational fluid dynamics",
+        "Reynolds number",
+        "Transformer",
+        "Fluid dynamics",
+        "Computer science",
+        "Turbulence",
+        "Reynolds stress"
+      ],
+      "abstract": "Machine learning-based models in fluid dynamics offer promise for predicting complex fluid flows at a reduced computational cost. However, existing approaches have not sufficiently demonstrated the capability to scale to problems of practical interest. This work is motivated by this gap and explores the combined application of a transformer architecture with a novel multi-scaling technique for constructing a latent space of turbulent flows. Potential towards application to problems of practical interest is assessed by first considering a two-dimensional lid-driven cavity at Reynolds numbers of 15,000 to 30,000. Despite the two-dimensional aspects of the flow, this target problem is noteworthy due to consideration of Reynolds numbers of O(10^4); providing important insights into capabilities for sufficiently predicting highly nonlinear, multi-scale fluid dynamics. Performance is benchmarked against three different models: 1) Direct Numerical Simulation, 2) a transformer architecture with a latent space constructed using Proper Orthogonal Decomposition, and 3) a simple frequency-based extrapolation of the flow field dynamics. The multi-scale transformer architecture is found to re...",
+      "authors": [
+        "C. Morton",
+        "Jack J. McNamara",
+        "Rohit Deshmukh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "faculty_name": "Stanislav Gordeyev",
+  "full_name": "Stanislav Gordeyev",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Notre Dame",
+  "author_id": "A5040998021",
+  "works_count": 240,
+  "cited_by_count": 5597,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 166
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 71
+    },
+    {
+      "topic": "Adaptive optics and wavefront sensing",
+      "count": 71
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 47
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 45
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Physics and Measurement of Aero-Optical Effects: Past and Present",
+      "publication_year": 2016,
+      "publication_date": "2016-08-30",
+      "doi": "https://doi.org/10.1146/annurev-fluid-010816-060315",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 164,
+      "is_oa": true,
+      "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-fluid-010816-060315",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Optics",
+        "Laser",
+        "Collimated light",
+        "Instrumentation (computer programming)",
+        "Aerospace engineering",
+        "Laser beams"
+      ],
+      "abstract": "The field of aero-optics is devoted to the study of the effects of turbulent flow fields on laser beams projected from airborne laser systems. This article reviews the early and present periods of research in aero-optics. Both periods generated impressive amounts of research activity; however, the types and amount of data differ greatly in accuracy, quality, and type owing to the development of new types of instrumentation available to collect and analyze the aberrated wave fronts of otherwise collimated laser beams projected through turbulent compressible flow fields of the type that form over beam directors. This review traces the activities and developments associated with both periods but particularly focuses on the development of modern high-bandwidth wave-front sensors used in the present research period. We describe how these modern wave-front data are collected and analyzed and the fluid mechanic information that can be gleaned from them; the use of these data in the fundamental study of turbulence is emphasized.",
+      "authors": [
+        "Eric Jumper",
+        "Stanislav Gordeyev"
+      ]
+    },
+    {
+      "title": "Airborne Aero-Optics Laboratory",
+      "publication_year": 2013,
+      "publication_date": "2013-02-28",
+      "doi": "https://doi.org/10.1117/1.oe.52.7.071408",
+      "venue": "Optical Engineering",
+      "type": "article",
+      "cited_by_count": 84,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optics",
+        "Adaptive optics",
+        "Wavefront",
+        "Turret",
+        "Optical engineering",
+        "Transonic",
+        "Laser",
+        "Aerospace engineering"
+      ],
+      "abstract": "We provide a background into aero-optics, which is the effect that turbulent flow over and around an aircraft has on a laser projected or received by an optical system. We also discuss the magnitude of detrimental effects which aero-optics has on optical system performance, and the need to measure these effects in flight. The Airborne Aero-Optics Laboratory (AAOL), fulfills this need by providing an airborne laboratory that can capture wavefronts imposed on a laser beam from a morphable optical turret; the aircraft has a Mach number range up to low transonic speeds. We present the AAOL concept as well as a description of its optical components and sensing capabilities and uses.",
+      "authors": [
+        "Eric Jumper",
+        "Michael A. Zenk",
+        "Stanislav Gordeyev",
+        "David Cavalieri",
+        "Matthew R. Whiteley"
+      ]
+    },
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Optimizing branch-point detection using machine learning",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1117/12.3063685",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Leverage (statistics)",
+        "Artificial intelligence",
+        "Convolutional neural network",
+        "Machine learning",
+        "Identification (biology)",
+        "Artificial neural network",
+        "Point cloud"
+      ],
+      "abstract": "In this paper, we leverage wave-optics simulations to explore a machine learning approach for identifying the locations of branch points in Shack–Hartmann wavefront sensor (SHWFS) data. We train a convolutional neural network to receive a single SHWFS sub-aperture irradiance pattern image and estimate whether the pupil of that area of interest (AOI) contains at least one branch point. We test the model alongside a branch-point detection approach that relies on the beam spread (D4σ) of individual SHWFS irradiance patterns to determine whether or not a branch point is present within the AOI. We explore the performance of both the machine-learning- based and D4σ-based branch-point identification approaches across a wide range of optical turbulence conditions, quantified by Rytov numbers (R) ranging from 0 - 2, as well as in the presence of additive noise. To quantify our performance, we use various metrics commonly used for binary classifiers, including the F1 score and the Receiver Operating Curve (ROC). By and large, we find that the machine learning model outperformed the D4σ approach. Implementing machine learning of this caliber into branch-point identification provides the ba...",
+      "authors": [
+        "Thomas E. DeFoor",
+        "Matthew Kalensky",
+        "Stanislav Gordeyev"
+      ]
+    },
+    {
+      "title": "Experimental measurements and compensation of optical phase discontinuities",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1117/12.3063681",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Adaptive optics",
+        "Classification of discontinuities",
+        "Deformable mirror",
+        "Wavefront sensor",
+        "Physics",
+        "Phase (matter)"
+      ],
+      "abstract": "In this paper, we evaluate the effectiveness of adaptive optics (AO) compensation for optical phase discontinuities, akin to the spatial phase functions resulting from laser propagation through a shock wave encountered in free flight. In high subsonic to supersonic flow regimes, shock waves may form local to the beam director of aircraftmounted laser propagation systems. The discontinuous nature of the spatial phase functions imposed by shock waves may provide challenges in wavefront sensing and hardware correction. To experimentally evaluate the performance of conventional AO solutions, we utilized a benchtop turbulence generator and AO system. Here, we apply simulated phase sheets with optical phase discontinuities to a laser beam using a spatial light modulator; after which, we compensate for them in our AO system using a deformable mirror (DM). In this paper, we demonstrate AO correction informed by both a Digital Holographic wavefront sensor (DHWFS) and a Shack– Hartmann wavefront sensor (SHWFS). Testing of zero-thickness, step-like phase discontinuities shows that the SHWFS is unable to reconstruct the wavefront accurately, leading to poor AO compensation and as a result, ...",
+      "authors": [
+        "Thomas E. DeFoor",
+        "Timothy J. Bukowski",
+        "Matthew Kalensky",
+        "Stanislav Gordeyev"
+      ]
+    },
+    {
+      "title": "Density field studies of a supersonic shear layer using non-intrusive optical methods",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1117/12.3064668",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Mach number",
+        "Mechanics",
+        "Schlieren",
+        "Transonic",
+        "Shear (geology)",
+        "Materials science",
+        "Density gradient"
+      ],
+      "abstract": "The performance of aircraft which use optical systems is dependent on analysis and modeling of the aero-optical distortions produced by the flow features surrounding these vehicles, particularly shear layers. Prior experimentally produced and simulated shear layer data indicate the presence of sharp density gradients in the flow which were previously not observed, and, according to some modeling arguments, assumed to be nonexistent. Further study of shear layer density fields is needed in order to properly develop physics-based models of their aero-optical effects, and to achieve better agreement between simulated and experimental results. Here, results are presented from Planar Laser-Induced Fluorescence (PLIF) and Self-Aligned Focusing Schlieren (SAFS) measurements, which serve to quantitatively and qualitatively describe the density field and/or the gradient of density along a wall-normal plane. These measurement techniques were applied to a shear layer with one side having a transonic velocity with a Mach number of 0.95, and the other having a supersonic velocity with a Mach number of 2. Both sides consisted of air, with matching stagnation temperatures of approximately 300K.",
+      "authors": [
+        "Aaron Fassler",
+        "Philip Lax",
+        "Sergey B. Leonov",
+        "Stanislav Gordeyev"
+      ]
+    },
+    {
+      "title": "Simultaneous Shack-Hartmann and digital holography measurements of the optical effect of a subsonic compressible shear layer",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1117/12.3063229",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Classification of discontinuities",
+        "Holography",
+        "Shear (geology)",
+        "Digital holography",
+        "Compressibility",
+        "Physics"
+      ],
+      "abstract": "The compressible shear layer is an important fundamental flow for the determination of aero-optical effects on airborne beam directors. Past research has shown disagreement in regards to the magnitude of thermodynamic gradients between the predictions of computational fluid dynamics (CFD) simulations and experimental data for the aero-optical effect of the shear layer. One reason these density-related discontinuities were not observed experimentally is that Shack Hartmann wavefront sensors (SHWFS), used to study shear layers optically, cannot resolve the sharp wavefront gradients in the flow using standard algorithms. One way to resolve this issue is to employ a digital holographic (DH) measurement approach which directly measures the phase of the optical aberration. In this paper, a comparison is presented of simultaneous SHWFS and DH measurements of the optical wavefront on a laser beam propagating in the cross-stream direction through a subsonic shear layer. In addition to processed wavefronts, a comparison of the analysis methods employed, as well as pros and cons for each technique is presented. The findings have general application to the measurement of optical wavefronts ...",
+      "authors": [
+        "Carson M. Kipp",
+        "Timothy J. Bukowski",
+        "Mark R. Rennie",
+        "Stanislav Gordeyev"
+      ]
+    },
+    {
+      "title": "Design and applications of dual-wavelength digital holography wavefront sensor",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1117/12.3063911",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wavefront",
+        "Optics",
+        "Holography",
+        "Physics",
+        "Digital holography",
+        "Adaptive optics",
+        "Holographic interferometry",
+        "Freestream"
+      ],
+      "abstract": "The design and validation of a dual-wavelength digital holography wavefront sensor for quantitative simultaneous measurements of aero-optical wavefronts in subsonic compressible flow over two apertures is presented. The optical setup and processing methodology for reconstructing independently-reconstructed optical path difference (OPD) fields from interference patterns generated by two laser beams separated spatially along the streamwise axis are described in detail. The agreement and accuracy of the reconstructed wavefronts in a turbulent boundary layer flow are assessed, and the error between the OPD fields reconstructed from each beam is quantified using a normalized L2-norm relative error metric. In addition, a time-delayed cross-correlation between the separated beams was computed to estimate the convective speed of aero-optical distortions in the boundary-layer-dominated flow. We demonstrate the consistent agreement between the two OPD fields, with errors being largely independent of flow speed, and convective speeds that scale predictably with freestream flow speed. These results validate dual-wavelength digital holography as a reliable method of high-resolution wavefront...",
+      "authors": [
+        "James Mitchell",
+        "Stanislav Gordeyev"
+      ]
+    }
+  ]
+}

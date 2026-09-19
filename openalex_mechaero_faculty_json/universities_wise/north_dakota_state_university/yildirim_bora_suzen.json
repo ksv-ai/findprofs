@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Yildirim Bora Suzen",
+  "full_name": "Yildirim Suzen",
+  "department": "Department of Mechanical Engineering",
+  "university": "North Dakota State University",
+  "author_id": "A5012657014",
+  "works_count": 66,
+  "cited_by_count": 3836,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 42
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 27
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 24
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 16
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Correlation-Based Transition Model Using Local Variables—Part I: Model Formulation",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.1115/1.2184352",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 1484,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Turbomachinery",
+        "Aerodynamics",
+        "Turbulence",
+        "Intermittency",
+        "Statistical physics",
+        "Reynolds number",
+        "Computer science"
+      ],
+      "abstract": "Abstract A new correlation-based transition model has been developed, which is based strictly on local variables. As a result, the transition model is compatible with modern computational fluid dynamics (CFD) approaches, such as unstructured grids and massive parallel execution. The model is based on two transport equations, one for intermittency and one for the transition onset criteria in terms of momentum thickness Reynolds number. The proposed transport equations do not attempt to model the physics of the transition process (unlike, e.g., turbulence models) but form a framework for the implementation of correlation-based models into general-purpose CFD methods. Part I (this part) of this paper gives a detailed description of the mathematical formulation of the model and some of the basic test cases used for model validation, including a two-dimensional turbine blade. Part II (Langtry, R. B., Menter, F. R., Likki, S. R., Suzen, Y. B., Huang, P. G., and Völker, S., 2006, ASME J. Turbomach., 128(3), pp. 423–434) of the paper details a significant number of test cases that have been used to validate the transition model for turbomachinery and aerodynamic applications. The author...",
+      "authors": [
+        "Florian Menter",
+        "Robin Langtry",
+        "S. R. Likki",
+        "Yildirim Suzen",
+        "P. G. Huang",
+        "Stefan Völker"
+      ]
+    },
+    {
+      "title": "A Correlation-Based Transition Model Using Local Variables—Part II: Test Cases and Industrial Applications",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.1115/1.2184353",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 531,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbomachinery",
+        "Cascade",
+        "Turbulence",
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Turbine",
+        "Airfoil"
+      ],
+      "abstract": "Abstract A new correlation-based transition model has been developed, which is built strictly on local variables. As a result, the transition model is compatible with modern computational fluid dynamics (CFD) methods using unstructured grids and massive parallel execution. The model is based on two transport equations, one for the intermittency and one for the transition onset criteria in terms of momentum thickness Reynolds number. The proposed transport equations do not attempt to model the physics of the transition process (unlike, e.g., turbulence models), but form a framework for the implementation of correlation-based models into general-purpose CFD methods. Part I of this paper (Menter, F. R., Langtry, R. B., Likki, S. R., Suzen, Y. B., Huang, P. G., and Völker, S., 2006, ASME J. Turbomach., 128(3), pp. 413–422) gives a detailed description of the mathematical formulation of the model and some of the basic test cases used for model validation. Part II (this part) details a significant number of test cases that have been used to validate the transition model for turbomachinery and aerodynamic applications, including the drag crisis of a cylinder, separation-induced transit...",
+      "authors": [
+        "Robin Langtry",
+        "Florian Menter",
+        "S. R. Likki",
+        "Yildirim Suzen",
+        "P. G. Huang",
+        "Stefan Völker"
+      ]
+    },
+    {
+      "title": "Numerical Simulations of Plasma Based Flow Control Applications",
+      "publication_year": 2005,
+      "publication_date": "2005-06-06",
+      "doi": "https://doi.org/10.2514/6.2005-4633",
+      "venue": "35th AIAA Fluid Dynamics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 272,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20080022313/downloads/20080022313.pdf",
+      "concepts": [
+        "Plasma",
+        "Computer science",
+        "Flow control (data)",
+        "Numerical models",
+        "Mechanics",
+        "Computer simulation",
+        "Physics",
+        "Simulation"
+      ],
+      "abstract": "A mathematical model was developed to simulate flow control applications using plasma actuators. The effects of the plasma actuators on the external flow are incorporated into Navier Stokes computations as a body force vector. In order to compute this body force vector, the model solves two additional equations: one for the electric field due to the applied AC voltage at the electrodes and the other for the charge density representing the ionized air. The model is calibrated against an experiment having plasma-driven flow in a quiescent environment and is then applied to simulate a low pressure turbine flow with large flow separation. The effects of the plasma actuator on control of flow separation are demonstrated numerically. Cp = pressure coefficient Cx = axial chord for Pak-B blade e E = elementary charge, C � = electric field, N/C ε = permittivity, ε = ε rε o ε r = relative permittivity Nomenclature ε o = permittivity of free space, 8.854x10-12 C 2 /Nm 2 fB � = body force vector, N/m 3 FSTI = freestream turbulence intensity, % Φ = total electric potential, Volt, Φ = φ + ϕ φ = electric potential due to external electric field, Volt ϕ = electric potential due to net charge de...",
+      "authors": [
+        "Yildirim Suzen",
+        "George Huang",
+        "Jamey Jacob",
+        "David E. Ashpis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Deep Learning-Driven Optimization of Dynamic Morphing in VR-12 Airfoil During Pitching Motion",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3025",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Morphing",
+        "Airfoil",
+        "Computer science",
+        "Motion (physics)",
+        "Computer graphics (images)",
+        "Artificial intelligence",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "This study presents a surrogate-assisted multi-objective optimization framework for enhancing the aerodynamic performance of the Boeing VR-12 airfoil during pitching motion incorporating leading and trailing edge morphing at a Reynolds number of 250,000. Both the pitching and morphing motions are sinusoidal, with the pitching motion held constant throughout the optimization process. Morphing motion limits and frequencies are varied in an attempt to optimize the combination of pitching and morphing parameters for optimum aerodynamic performance. A deep neural network (DNN) surrogate model is developed and trained using a dataset generated from computational fluid dynamics (CFD) simulations, with sampling points selected via Latin Hypercube Sampling (LHS). The trained surrogate model enables rapid and accurate prediction of aerodynamic responses, significantly reducing computational costs compared to direct CFD evaluations. The NSGA-II algorithm is then employed to explore the design space and simultaneously optimize leading morphing parameters, specifically focusing on leading edge morphing frequency and phase lag. The results indicate that synchronized morphing—where the morphin...",
+      "authors": [
+        "Omid Nazempour",
+        "William Refling",
+        "Jordi Estevadeordal",
+        "Yildirim Suzen"
+      ]
+    },
+    {
+      "title": "Study of Airfoil Deflections for Unsteady Aerodynamics Optimization in Pitching Airfoils",
+      "publication_year": 2025,
+      "publication_date": "2025-02-25",
+      "doi": "https://doi.org/10.3390/app15052455",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/app15052455",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Computer science",
+        "Geology",
+        "Mechanics",
+        "Structural engineering",
+        "Physics"
+      ],
+      "abstract": "Camber deflection concepts for a VR-12 rotorcraft airfoil were studied for the optimization of unsteady aerodynamics, including dynamic stall conditions and wing–wing interactions during pitching. The designs are based on deflections of the leading edge and trailing edge sections of the airfoil. The deflection parameters were initially established using Computational Fluid Dynamics (CFD). Results from CFD and Particle Image Velocimetry (PIV) were generated for various leading and trailing edge deflection combinations for comparison of their performances. The conditions of this study are for a Reynolds number of 250,000 and pitching reduced frequency of 0.04, representing a medium regime of rotorcraft operations. Linear tandem tests were performed to simulate unsteady wing–wing interactions. The effects of the deflections are discussed and compared to the baseline. Significant benefits are observed, notably dynamic stall mitigation from the leading edge (LE) deflected wing for certain angles of attack and decrease in the separation regions. Overall, from the numerical simulations and the experimental data fields, the LE deflection provides about 10% improvement, followed by the c...",
+      "authors": [
+        "William Refling",
+        "Charles Fabijanic",
+        "Thomas Sprengeler",
+        "Yildirim Suzen",
+        "Jordi Estevadeordal"
+      ]
+    },
+    {
+      "title": "Computational Study of the BeVERLI Hill Experiments",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4334",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science"
+      ],
+      "abstract": "This paper reports the computations for VT-NASA CFD Turbulence Model Validation Challenge (BeVERLI Hill experiments) that are performed using ANSYS Fluent software. Spalart-Allmaras (SA) one equation and Menter’s k-ω Shear Stress Transport (SST) two equation turbulence models are employed in the simulations. The computed results are provided to the experimental team for blind comparisons with the experimental data. Computations include height-based Reynolds numbers of 250k to 650k for subsonic flow corresponding to the “as-built” experimental conditions. As per the requirement of the Challenge, simulations are performed with SA and SST turbulence models for the 2D Zero Pressure Gradient Flat Plate Verification Case and 2D Bump-in-channel Verification Case from the Turbulence Modeling Resource web page. Results of the verification cases and results for BeVERLI Hill Re=250k and 650k cases are included. Computations indicated that SST and SA model predictions differ in terms of the separation, and recirculation regions with SST model predicting a larger separated flow region.",
+      "authors": [
+        "Omid Nazempour",
+        "Yildirim Suzen"
+      ]
+    },
+    {
+      "title": "Experimental Investigation of the Effects of Acoustical Vibration at the Leading Edge of a VR-12 Airfoil",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-3669",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Vibration",
+        "Acoustics",
+        "Enhanced Data Rates for GSM Evolution",
+        "Leading edge",
+        "Computer science",
+        "Materials science",
+        "Engineering"
+      ],
+      "abstract": "An experimental investigation of the effect of acoustical wave actuation on the separation and aerodynamics stall conditions in a Boeing-Vertol VR-12 airfoil is reported. The investigation was performed to characterize and validate the novel flow control strategy based on active flow control design using acoustic actuator. The active control strategy makes use of smart material alloy’s (SMA) located on the leading-edge (LE) region of a VR-12 airfoil used in rotorcraft wings. The SMA used were macro fiber composites (MFC) piezo-electric actuator. These actuators were located at the 25% of the chord length. The sound waves were produced through a novel application of the MFC along the LE in the interior side of the wing. The tests reported are mainly for static condition where the airfoil is held stationary as a freestream velocity is applied to the airfoil. Preliminary testing with a dynamic motion of the airfoil simulating a sinusoidal pitching motion was also investigated. Tests were performed in the open loop wind tunnel located in the advanced flow diagnostics lab of NDSU. The details of the wings design, manufacturing, actuation, programing, control, driving frequencies, and...",
+      "authors": [
+        "William Refling",
+        "Yildirim Suzen",
+        "Jordi Estevadeordal"
+      ]
+    },
+    {
+      "title": "Experimental Investigation of Active Morphing Effects on Pitching VR-12 Airfoils",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-3668",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Morphing",
+        "Airfoil",
+        "Computer science",
+        "Aerospace engineering",
+        "Computer graphics (images)",
+        "Engineering"
+      ],
+      "abstract": "An experimental investigation on a VR-12 morphing airfoil was performed for optimization of unsteady aerodynamics including dynamic stall conditions. The active morphing deflections were produced to effectively optimize performance under varying flow conditions. Details of the design and geometry for morphing is described and Particle Image Velocimetry (PIV) was the primary experimental method used to gather data. Results were generated for static and active deflections of various leading and trailing edge (LE and TE) combinations. Once the morphing wing was designed, manufactured, and calibrated the testing campaigns gathered data for comparison with the performances of the baseline (no morphing), LE only deflection, TE only deflection, and combined LE/TE deflections for static (not moving wing profile) and dynamic (pitching and morphing) cases. The campaign is suited to follow numerical simulations for wing shape optimization and turbulence model validations.",
+      "authors": [
+        "William Refling",
+        "Omid Nazempour",
+        "Charles Fabijanic",
+        "Yildirim Suzen",
+        "Jordi Estevadeordal"
+      ]
+    }
+  ]
+}

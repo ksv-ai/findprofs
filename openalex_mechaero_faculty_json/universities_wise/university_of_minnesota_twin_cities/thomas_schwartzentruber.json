@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Thomas Schwartzentruber",
+  "full_name": "Thomas E. Schwartzentruber",
+  "department": "Department of Aerospace Engineering and Mechanics",
+  "university": "University of Minnesota-Twin Cities",
+  "author_id": "A5002942865",
+  "works_count": 259,
+  "cited_by_count": 4555,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 194
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 53
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 47
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 43
+    },
+    {
+      "topic": "Catalytic Processes in Materials Science",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct Molecular Simulation of Nonequilibrium Dilute Gases",
+      "publication_year": 2017,
+      "publication_date": "2017-10-26",
+      "doi": "https://doi.org/10.2514/1.t5188",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Molecular dynamics",
+        "Non-equilibrium thermodynamics",
+        "Direct simulation Monte Carlo",
+        "Monte Carlo method",
+        "Shock wave",
+        "Hypersonic speed",
+        "Statistical physics",
+        "Direct numerical simulation"
+      ],
+      "abstract": "This paper summarizes research performed over the past decade on the direct molecular simulation of dilute gas flows. Similar to the molecular dynamics method, a potential energy surface is the sole model input to a direct molecular simulation calculation. However, instead of simulating the motion of all atoms in the system deterministically, the direct molecular simulation method uses stochastic techniques and assumptions, adopted from the well-established direct simulation Monte Carlo method, which are accurate for dilute gases. Using the same potential energy surface as input, the direct molecular simulation method is verified to exactly reproduce pure molecular dynamics results for shock-wave flows. The direct molecular simulation method is then used to investigate nonequilibrium flows such as strong shock waves and dissociating nitrogen systems involving rotation–vibration coupling and coupling between internal energy and dissociation. Direct molecular simulation algorithms are detailed, and a number of new results relevant to hypersonic flows are presented along with a summary of other recent results in the literature.",
+      "authors": [
+        "Thomas E. Schwartzentruber",
+        "Maninder S. Grover",
+        "Paolo Valentini"
+      ]
+    },
+    {
+      "title": "Nonequilibrium Gas Dynamics and Molecular Simulation",
+      "publication_year": 2017,
+      "publication_date": "2017-01-01",
+      "doi": "https://doi.org/10.1017/9781139683494",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book",
+      "cited_by_count": 224,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Direct simulation Monte Carlo",
+        "Non-equilibrium thermodynamics",
+        "Statistical physics",
+        "Aerospace",
+        "Hypersonic speed",
+        "Relaxation (psychology)",
+        "Monte Carlo method",
+        "Computer science"
+      ],
+      "abstract": "This current and comprehensive book provides an updated treatment of molecular gas dynamics topics for aerospace engineers, or anyone researching high-temperature gas flows for hypersonic vehicles and propulsion systems. It demonstrates how the areas of quantum mechanics, kinetic theory, and statistical mechanics can combine in order to facilitate the study of nonequilibrium processes of internal energy relaxation and chemistry. All of these theoretical ideas are used to explain the direct simulation Monte Carlo (DSMC) method, a numerical technique based on molecular simulation. Because this text provides comprehensive coverage of the physical models available for use in the DSMC method, in addition to the equations and algorithms required to implement the DSMC numerical method, readers will learn to solve nonequilibrium flow problems and perform computer simulations, and obtain a more complete understanding of various physical modeling options for DSMC than is available in other texts.",
+      "authors": [
+        "Iain D. Boyd",
+        "Thomas E. Schwartzentruber"
+      ]
+    },
+    {
+      "title": "A hybrid particle-continuum method applied to shock waves",
+      "publication_year": 2005,
+      "publication_date": "2005-12-08",
+      "doi": "https://doi.org/10.1016/j.jcp.2005.10.023",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 196,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Direct simulation Monte Carlo",
+        "Knudsen number",
+        "Physics",
+        "Boundary value problem",
+        "Hypersonic speed",
+        "Shock wave",
+        "Mechanics",
+        "Statistical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Thomas E. Schwartzentruber",
+        "Iain D. Boyd"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modified Marrone–Treanor Dissociation Model: Formulation and Benchmarking for Diatom–Atom Mixtures",
+      "publication_year": 2026,
+      "publication_date": "2026-05-25",
+      "doi": "https://doi.org/10.2514/1.j065837",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.06236",
+      "concepts": [
+        "Dissociation (chemistry)",
+        "Adiabatic process",
+        "Diatomic molecule",
+        "Isothermal process",
+        "Thermodynamics",
+        "Ab initio",
+        "Chemistry",
+        "Molecular dynamics"
+      ],
+      "abstract": "We present a modified Marrone–Treanor model for dissociation with rate parameters derived exclusively from quasi-classical trajectory calculations on ab initio potential energy surfaces. Analysis of the trajectory dataset for reactant [Formula: see text] and [Formula: see text] diatoms sampled from Boltzmann internal energy distributions over a wide [Formula: see text] range indicates that a modified version of the classical Marrone–Treanor two-temperature model captures the most relevant physics of shock-heated, dissociating diatomic species very well. We find that simple correction factors account for non-Boltzmann depletion effects observed in direct molecular simulations employing the same potentials. The concentration-dependent functional form proposed for these correction factors ensures that depletion effects vanish at chemical equilibrium. Based on comparisons in isothermal and adiabatic heat baths, we verify that the resulting two-temperature dissociation model accurately reproduces all major features observed in the direct molecular simulations, while remaining computationally inexpensive enough for large-scale computational fluid dynamics simulations.",
+      "authors": [
+        "Ross S. Chaudhry",
+        "Erik Torres",
+        "Thomas E. Schwartzentruber",
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "Modified Marrone–Treanor Model: Parameterization and Benchmarking for Five-Species Air",
+      "publication_year": 2026,
+      "publication_date": "2026-05-25",
+      "doi": "https://doi.org/10.2514/1.j065838",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.20521",
+      "concepts": [
+        "Non-equilibrium thermodynamics",
+        "Dissociation (chemistry)",
+        "Thermodynamics",
+        "Molecular dynamics",
+        "Vibrational energy relaxation",
+        "Chemistry",
+        "Dissociation rate",
+        "Detailed balance"
+      ],
+      "abstract": "We present updated parameters for five-species air ([Formula: see text], [Formula: see text], NO, N, and O) reactions to be used with the modified Marrone–Treanor two-temperature model. The vibrational relaxation and chemical reaction rates are derived from quasi-classical trajectory calculations and direct molecular simulations using ab initio potential energy surfaces. The resulting model enables efficient computational fluid dynamics simulations of nonequilibrium air chemistry in hypersonic flows. We show that the model reproduces direct molecular simulation benchmark solutions with high accuracy in zero-dimensional heat baths representative of strong nonequilibrium postshock conditions. The model’s analytical expressions for dissociation rate coefficients and vibrational energy change per reaction ensure that the correct amount of energy is transferred between vibrational and trans-rotational modes. Detailed balance is imposed for three-body recombination reactions, and our simulations exhibit quasi-steady-state dissociation rates and a proper approach to thermochemical equilibrium. In direct comparison with the Park [Formula: see text] model, the modified Marrone–Treanor mo...",
+      "authors": [
+        "Erik Torres",
+        "Thomas Gross",
+        "Graham V. Candler",
+        "Thomas E. Schwartzentruber"
+      ]
+    },
+    {
+      "title": "Modified Marrone–Treanor Model: Parameterization and Benchmarking for Five-Species Air",
+      "publication_year": 2026,
+      "publication_date": "2026-05-25",
+      "doi": "https://doi.org/10.2514/1.j065838",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Non-equilibrium thermodynamics",
+        "Dissociation (chemistry)",
+        "Thermodynamics",
+        "Molecular dynamics",
+        "Vibrational energy relaxation",
+        "Statistical physics",
+        "Detailed balance",
+        "Reaction rate"
+      ],
+      "abstract": "We present updated parameters for five-species air ([Formula: see text], [Formula: see text], NO, N, and O) reactions to be used with the modified Marrone–Treanor two-temperature model. The vibrational relaxation and chemical reaction rates are derived from quasi-classical trajectory calculations and direct molecular simulations using ab initio potential energy surfaces. The resulting model enables efficient computational fluid dynamics simulations of nonequilibrium air chemistry in hypersonic flows. We show that the model reproduces direct molecular simulation benchmark solutions with high accuracy in zero-dimensional heat baths representative of strong nonequilibrium postshock conditions. The model’s analytical expressions for dissociation rate coefficients and vibrational energy change per reaction ensure that the correct amount of energy is transferred between vibrational and trans-rotational modes. Detailed balance is imposed for three-body recombination reactions, and our simulations exhibit quasi-steady-state dissociation rates and a proper approach to thermochemical equilibrium. In direct comparison with the Park [Formula: see text] model, the modified Marrone–Treanor mo...",
+      "authors": [
+        "Erik Torres",
+        "Thomas Gross",
+        "Graham V. Candler",
+        "Thomas E. Schwartzentruber"
+      ]
+    },
+    {
+      "title": "Comparison of Multicomponent Diffusion and Thermochemical Nonequilibrium Modeling Effects in CFD and DSMC",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1471",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Non-equilibrium thermodynamics",
+        "Computational fluid dynamics",
+        "Direct simulation Monte Carlo",
+        "Knudsen number",
+        "Mechanics",
+        "Diffusion",
+        "Monte Carlo method",
+        "Statistical physics"
+      ],
+      "abstract": "Computational fluid dynamics (CFD) simulations of hypersonic flow over a 10 cm cylinder at altitudes ranging from 40 to 85 km are presented. Simulations are run with multicomponent species diffusion governed by the Stefan-Maxwell equations as well as with the recently updated Modified Marrone-Treanor thermochemical nonequilibrium model for five species air. Results are compared against the current state of the practice for diffusion and thermochemical nonequilibrium modeling. At each altitude the local gradient length Knudsen number is used to identify regions of the flow that are continuum, near continuum, and rarefied. Altitudes that are representative of these regimes are then simulated with the direct simulation Monte Carlo (DSMC) method and compared to the CFD results.",
+      "authors": [
+        "Sean Cranford",
+        "Michael D. Kroells",
+        "Thomas J. Gross",
+        "Thomas E. Schwartzentruber"
+      ]
+    },
+    {
+      "title": "Operational Prediction of Arcjet Model Preheating Within Expansion Tube Facility",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0459",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Arcjet rocket",
+        "Mechanics",
+        "Solver",
+        "Shock (circulatory)",
+        "Flow (mathematics)",
+        "Materials science",
+        "Work (physics)",
+        "Tube (container)"
+      ],
+      "abstract": "Effective integration between the expansion tube and arcjet plasma generator relies on a carefully sequenced interaction between each component of the system to simulate ablating models exposed to hypervelocity flow. Owing to the unique operational characteristics of each stage, it is essential to understand how these differences are reflected in the testing procedures and the analysis of results from an integrated testing apparatus. This study explores a numerical reproduction of the Arcjet Preheating within Expansion tube (APEx) facility at the University of Oxford. The OPG2 arcjet operation is simulated using a KATS-FD flow solver to match the measured heat flux and pressures, which serves as inflow conditions for simulating the ablation process using the KATS-MR solver before the model traverses to the CXT expansion tube. The expansion tube flow is initially modelled using L1d4 program, with gas fill conditions specified in the driver, shock tube, and acceleration tube. These conditions are later used to account for shock deceleration and nonequilibrium phenomena with LASTA 2.0 program. The transient flow around the test model in the expansion tube is modelled by KATS-FD flo...",
+      "authors": [
+        "Eric Won Keun Chang",
+        "Hilmi Berk Gur",
+        "Omar Valeinis",
+        "Joseph Steer",
+        "Matthew McGilvray",
+        "Tobias Hermann",
+        "Thomas E. Schwartzentruber",
+        "Rui Fu",
+        "Alexandre Martin"
+      ]
+    }
+  ]
+}

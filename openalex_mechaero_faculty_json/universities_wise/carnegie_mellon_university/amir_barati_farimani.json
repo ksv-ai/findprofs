@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Amir Barati Farimani",
+  "full_name": "Amir Barati Farimani",
+  "department": "Department of Mechanical Engineering",
+  "university": "Carnegie Mellon University",
+  "author_id": "A5008745801",
+  "works_count": 330,
+  "cited_by_count": 9440,
+  "h_index": 50,
+  "top_topics": [
+    {
+      "topic": "Machine Learning in Materials Science",
+      "count": 52
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 49
+    },
+    {
+      "topic": "Computational Drug Discovery Methods",
+      "count": 33
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 31
+    },
+    {
+      "topic": "Additive Manufacturing Materials and Processes",
+      "count": 27
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Molecular contrastive learning of representations via graph neural networks",
+      "publication_year": 2022,
+      "publication_date": "2022-03-03",
+      "doi": "https://doi.org/10.1038/s42256-022-00447-x",
+      "venue": "Nature Machine Intelligence",
+      "type": "article",
+      "cited_by_count": 884,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2102.10056",
+      "concepts": [
+        "Molecular graph",
+        "Computer science",
+        "Chemical space",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Graph",
+        "Differentiable function",
+        "Machine learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yuyang Wang",
+        "Jianren Wang",
+        "Zhonglin Cao",
+        "Amir Barati Farimani"
+      ]
+    },
+    {
+      "title": "Water desalination with a single-layer MoS2 nanopore",
+      "publication_year": 2015,
+      "publication_date": "2015-10-14",
+      "doi": "https://doi.org/10.1038/ncomms9616",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 778,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/ncomms9616.pdf",
+      "concepts": [
+        "Nanopore",
+        "Desalination",
+        "Membrane",
+        "Nanoporous",
+        "Molybdenum disulfide",
+        "Materials science",
+        "Water desalination",
+        "Graphene"
+      ],
+      "abstract": "Efficient desalination of water continues to be a problem facing the society. Advances in nanotechnology have led to the development of a variety of nanoporous membranes for water purification. Here we show, by performing molecular dynamics simulations, that a nanopore in a single-layer molybdenum disulfide can effectively reject ions and allow transport of water at a high rate. More than 88% of ions are rejected by membranes having pore areas ranging from 20 to 60 Å(2). Water flux is found to be two to five orders of magnitude greater than that of other known nanoporous membranes. Pore chemistry is shown to play a significant role in modulating the water flux. Pores with only molybdenum atoms on their edges lead to higher fluxes, which are ∼ 70% greater than that of graphene nanopores. These observations are explained by permeation coefficients, energy barriers, water density and velocity distributions in the pores.",
+      "authors": [
+        "Mohammad Heiranian",
+        "Amir Barati Farimani",
+        "N. R. Aluru"
+      ]
+    },
+    {
+      "title": "A Review on Challenges and Successes in Atomic-Scale Design of Catalysts for Electrochemical Synthesis of Hydrogen Peroxide",
+      "publication_year": 2020,
+      "publication_date": "2020-06-10",
+      "doi": "https://doi.org/10.1021/acscatal.0c01641",
+      "venue": "ACS Catalysis",
+      "type": "article",
+      "cited_by_count": 510,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1766499",
+      "concepts": [
+        "Hydrogen peroxide",
+        "Oxidizing agent",
+        "Catalysis",
+        "Electrochemistry",
+        "Chemistry",
+        "Combinatorial chemistry",
+        "Redox",
+        "Nanotechnology"
+      ],
+      "abstract": "Hydrogen peroxide is a valuable chemical oxidant with a wide range of applications in a variety of industrial processes, especially in water sanitization. Electrochemical synthesis of hydrogen peroxide (H 2 O 2 ) through a two-electron oxygen reduction reaction (2e-ORR) or a two-electron water oxidation reaction (2e-WOR) has emerged as an appealing process for onsite production of this chemically valuable oxidant. On-site produced H 2 O 2 can be applied for wastewater treatment in remote locations or any applications where H 2 O 2 is needed as an oxidizing agent. This Review studies the theoretical efforts in understanding the challenges in catalysis for electrochemical synthesis of H 2 O 2 as well as providing design principles for more efficient catalyst materials.",
+      "authors": [
+        "Samira Siahrostami",
+        "Santiago Jimenez-Villegas",
+        "Amir Hassan Bagherzadeh Mostaghimi",
+        "Seoin Back",
+        "Amir Barati Farimani",
+        "Haotian Wang",
+        "Kristin A. Persson",
+        "Joseph H. Montoya"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Generative latent neural PDE solver using flow matching",
+      "publication_year": 2026,
+      "publication_date": "2026-04-24",
+      "doi": "https://doi.org/10.1088/2632-2153/ae64aa",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae64aa/pdf",
+      "concepts": [
+        "Computer science",
+        "Algorithm",
+        "Solver",
+        "Noise (video)",
+        "Artificial intelligence",
+        "Discretization",
+        "Autoregressive model",
+        "Probabilistic logic"
+      ],
+      "abstract": "Abstract Autoregressive next-step prediction models have become standard for building data-driven neural solvers to predict time-dependent partial differential equations (PDEs). The use of diffusion models has been shown to enhance the temporal stability of neural solvers, while its stochastic inference mechanism enables ensemble predictions and uncertainty quantification. However, a key drawback of diffusion models is the need to sample a series of discretized timesteps during both training and inference, which increases computational overhead. In addition, most diffusion models operate on structured, uniform grids, limiting their adaptability to irregular domains. To address these shortcomings, we propose a latent flow matching (FM) model for PDE simulation that embeds the PDE state in a lower-dimensional latent space, which reduces computational costs. In addition, we design an autoencoder to map different meshes onto a unified, structured latent grid, which allows predictions on complex geometries. Furthermore, we show that FM can result in faster and more accurate predictions than diffusion-based models, even with a coarser noise schedule. Numerical experiments show that th...",
+      "authors": [
+        "Zijie Li",
+        "Anthony Zhou",
+        "Amir Barati Farimani"
+      ]
+    },
+    {
+      "title": "PLATO: Planning with LLMs and Affordances for Tool Manipulation",
+      "publication_year": 2026,
+      "publication_date": "2026-04-11",
+      "doi": "https://doi.org/10.1007/s10846-026-02392-y",
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s10846-026-02392-y",
+      "concepts": [
+        "Affordance",
+        "Computer science",
+        "Political science",
+        "Human–computer interaction"
+      ],
+      "abstract": "Abstract As robotic systems become increasingly integrated into complex real-world environments, there is a growing need for approaches that enable robots to understand and act on natural language instructions without extensive pre-programmed knowledge. This paper presents PLATO, a system that addresses this challenge by leveraging specialized large language model agents to process language inputs, understand the environment, predict tool affordances, and generate executable actions. Unlike traditional systems that depend on hard-coded environmental information, PLATO employs a modular agent-based architecture that operates without any initial knowledge of the environment. These agents identify objects and their locations, generate a high-level plan, translate it into low-level actions, and verify successful execution. The system is tested particularly on challenging tool-use tasks, which involve handling diverse objects and require long-horizon planning. PLATO’s design allows it to adapt to dynamic and unstructured settings, enhancing its flexibility and robustness. By evaluating the system across various complex scenarios, we demonstrate its capability to tackle a diverse rang...",
+      "authors": [
+        "Arvind Car",
+        "Sai Sravan Yarlagadda",
+        "Alison Bartsch",
+        "Abraham George",
+        "Amir Barati Farimani"
+      ]
+    },
+    {
+      "title": "Data from: Recapitulating apicobasal tissue polarity in extracellular matrix-incorporated airway organoids",
+      "publication_year": 2026,
+      "publication_date": "2026-02-18",
+      "doi": "https://doi.org/10.5061/dryad.5tb2rbpgq",
+      "venue": "DRYAD",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5061/dryad.5tb2rbpgq",
+      "concepts": [
+        "Organoid",
+        "Decellularization",
+        "Cell biology",
+        "Extracellular matrix",
+        "Cilium",
+        "Respiratory epithelium",
+        "Chemistry",
+        "Extracellular"
+      ],
+      "abstract": "The airway epithelium is a dynamic barrier that interfaces with the external environment and internal matrix niche along its apicobasal axis. To recapitulate this tissue arrangement in an organoid format, we present the decellularized ExtraCellular Matrix-incorporated Apical-out Airway Organoid (dECM-AoAO) that integrates native matrix cues, through incorporation of human lung-derived dECM microparticles, without compromising the apical-out polarity. Incorporation of dECM effectively diversifies lineage distribution that better recapitulates native epithelial composition compared to ECM-free AoAO. Harnessing the dECM-AoAO locomotion powered by outward-facing ciliary beating, we developed an experimental and computational pipeline for swarm analysis of organoid group motility as a functional readout of ciliary function. Lastly, dECM-AoAO withstood cryopreservation and reviving with sustained viability, lineage distribution, and ciliary function, enabling future scalability and broad distribution. Together, this work establishes dECM-AoAO as a physiologically relevant and versatile model system for investigating epithelial-ECM interaction during airway homeostasis, disease pathoge...",
+      "authors": [
+        "Zhuowei Gong",
+        "Dhruv Bhattaram",
+        "Laura Porritt",
+        "Kian Golestan",
+        "Amir Barati Farimani",
+        "Amy Ryan",
+        "Daniel Weiss",
+        "Xi Ren"
+      ]
+    },
+    {
+      "title": "Large Language Model Agent for Modular Task Execution in Drug Discovery",
+      "publication_year": 2026,
+      "publication_date": "2026-02-09",
+      "doi": "https://doi.org/10.1021/acs.jcim.5c02454",
+      "venue": "Journal of Chemical Information and Modeling",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.5c02454?ref=article_openPDF",
+      "concepts": [
+        "Computer science",
+        "Modular design",
+        "Scalability",
+        "Drug discovery",
+        "Key (lock)",
+        "Task (project management)",
+        "Virtual screening",
+        "Filter (signal processing)"
+      ],
+      "abstract": "We present a modular framework powered by large language models (LLMs) that automates and streamlines key tasks across the early stage computational drug discovery pipeline. By combining LLM reasoning with domain-specific tools, the framework performs biomedical data retrieval, literature-grounded question answering via retrieval-augmented generation, molecular generation, multiproperty prediction, property-aware molecular refinement, and 3D protein-ligand structure generation. The agent autonomously retrieves relevant biomolecular information, including FASTA sequences, SMILES representations, and literature, and answers mechanistic questions with improved contextual accuracy compared to standard LLMs. It then generates chemically diverse seed molecules and predicted 75 properties, including ADMET-related and general physicochemical descriptors, which guids iterative molecular refinement. Across two refinement rounds, the number of molecules with QED >0.6 increased from 34 to 55. The number of molecules satisfying empirical drug-likeness filters also rose; for example, compliance with the Ghose filter increased from 32 to 55 within a pool of 100 molecules. The framework also em...",
+      "authors": [
+        "Janghoon Ock",
+        "Radheesh Sharma Meda",
+        "Srivathsan Badrinarayanan",
+        "Neha S. Aluru",
+        "Achuth Chandrasekhar",
+        "Amir Barati Farimani"
+      ]
+    },
+    {
+      "title": "Coupled Diffusion-Encoder Models for Reconstruction of Flow Fields",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.48550/arxiv.2601.07946",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.07946",
+      "concepts": [
+        "Autoencoder",
+        "Pointwise",
+        "Algorithm",
+        "Computer science",
+        "Flow (mathematics)",
+        "Probabilistic logic",
+        "Generative model",
+        "Prior probability"
+      ],
+      "abstract": "Data-driven flow-field reconstruction typically relies on autoencoder architectures that compress high-dimensional states into low-dimensional latent representations. However, classical approaches such as variational autoencoders (VAEs) often struggle to preserve the higher-order statistical structure of fluid flows when subjected to strong compression. We propose DiffCoder, a coupled framework that integrates a probabilistic diffusion model with a conventional convolutional ResNet encoder and trains both components end-to-end. The encoder compresses the flow field into a latent representation, while the diffusion model learns a generative prior over reconstructions conditioned on the compressed state. This design allows DiffCoder to recover distributional and spectral properties that are not strictly required for minimizing pointwise reconstruction loss but are critical for faithfully representing statistical properties of the flow field. We evaluate DiffCoder and VAE baselines across multiple model sizes and compression ratios on a challenging dataset of Kolmogorov flow fields. Under aggressive compression, DiffCoder significantly improves the spectral accuracy while VAEs exhi...",
+      "authors": [
+        "AmirPouya Hemmasian",
+        "Amir Barati Farimani"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "faculty_name": "William Semke",
+  "full_name": "William Semke",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of North Dakota",
+  "author_id": "A5083202857",
+  "works_count": 95,
+  "cited_by_count": 632,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Air Traffic Management and Optimization",
+      "count": 22
+    },
+    {
+      "topic": "Advanced Measurement and Detection Methods",
+      "count": 13
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 12
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 9
+    },
+    {
+      "topic": "Advanced Control and Stabilization in Aerospace Systems",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analysis of Radar and ADS-B Influences on Aircraft Detect and Avoid (DAA) Systems",
+      "publication_year": 2017,
+      "publication_date": "2017-09-18",
+      "doi": "https://doi.org/10.3390/aerospace4030049",
+      "venue": "Aerospace",
+      "type": "article",
+      "cited_by_count": 28,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2226-4310/4/3/49/pdf?version=1505731213",
+      "concepts": [
+        "Radar",
+        "Communications system",
+        "Duration (music)",
+        "Computer science",
+        "Radar systems",
+        "Secondary surveillance radar",
+        "Communication link",
+        "Automatic dependent surveillance-broadcast"
+      ],
+      "abstract": "Detect and Avoid (DAA) systems are complex communication and locational technologies comprising multiple independent components. DAA technologies support communications between ground-based and space-based operations with aircraft. Both manned and unmanned aircraft systems (UAS) rely on DAA communication and location technologies for safe flight operations. We examined the occurrence and duration of communication losses between radar and automatic dependent surveillance–broadcast (ADS-B) systems with aircraft operating in proximate airspace using data collected during actual flight operations. Our objectives were to identify the number and duration of communication losses for both radar and ADS-B systems that occurred within a discrete time period. We also investigated whether other unique communication behavior and anomalies were occurring, such as reported elevation deviations. We found that loss of communication with both radar and ADS-B systems does occur, with variation in the length of communication losses. We also discovered that other unexpected behaviors were occurring with communications. Although our data were gathered from manned aircraft, there are also implications...",
+      "authors": [
+        "William Semke",
+        "Nicholas Allen",
+        "Asma Tabassum",
+        "Matthew McCrink",
+        "Mohammad Moallemi",
+        "Kyle Snyder",
+        "Evan Arnold",
+        "Dawson Stott",
+        "Michael G. Wing"
+      ]
+    },
+    {
+      "title": "Dynamic Separation Thresholds for a Small Airborne Sense and Avoid System",
+      "publication_year": 2013,
+      "publication_date": "2013-08-15",
+      "doi": "https://doi.org/10.2514/6.2013-5148",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 25,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Separation (statistics)",
+        "Computer science",
+        "Sense (electronics)",
+        "Engineering",
+        "Electrical engineering",
+        "Machine learning"
+      ],
+      "abstract": "The replacement of distance-based thresholds with time-based thresholds that account for intruder performance is a necessary step in developing a useful sense-and-avoid system to be integrated into the national airspace system. The current conservative distance-based thresholds used in many sense-and-avoid systems on board UAS aircraft will either not adequately account for reduced maneuvering time when encountering high-speed aircraft or require such large thresholds to accommodate them that mission capability will be compromised. Using certain worst case assumptions regarding an intruder, the University of North Dakota’s Unmanned Aircraft Systems Engineering team (UASE) used turning flight geometry to implement a computationally inexpensive solution to the time-based question. The methodology and software in the loop results are presented illustrating the effectiveness of the time based avoidance threshold proposed.",
+      "authors": [
+        "Michael Mullins",
+        "Michael W. Holman",
+        "Kyle Foerster",
+        "Naima Kaabouch",
+        "William Semke"
+      ]
+    },
+    {
+      "title": "UAT ADS-B Data Anomalies and the Effect of Flight Parameters on Dropout Occurrences",
+      "publication_year": 2018,
+      "publication_date": "2018-06-08",
+      "doi": "https://doi.org/10.3390/data3020019",
+      "venue": "Data",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2306-5729/3/2/19/pdf?version=1528442273",
+      "concepts": [
+        "Payload (computing)",
+        "Situation awareness",
+        "Air traffic control",
+        "Dropout (neural networks)",
+        "Aviation",
+        "Aeronautics",
+        "Computer science",
+        "Automatic dependent surveillance-broadcast"
+      ],
+      "abstract": "An analysis of the performance of automatic dependent surveillance-broadcast (ADS-B) data received from the Grand Forks, North Dakota International Airport was carried out in this study. The purpose was to understand the vulnerabilities of the universal access transceiver (UAT) ADS-B system and recognize the effects on present and future air traffic control (ATC) operation. The Federal Aviation Administration (FAA) mandated all the general aviation aircraft to be equipped with ADS-B. The aircraft flying within United States and below the transition altitude (18,000 feet) are more likely to install a UAT ADS-B. At present, unmanned aircraft systems (UAS) and autonomous air traffic control (ATC) towers are being integrated into the aviation industry and UAT ADS-B is a basic sensor for both class 1 and class 2 detect-and-avoid (DAA) systems. As a fundamental component of future surveillance systems, the anomalies and vulnerabilities of the ADS-B system need to be identified to enable a fully-utilized airspace with enhanced situational awareness. The data received was archived in GDL-90 format, which was parsed into readable data. The anomaly detection of ADS-B messages was based on...",
+      "authors": [
+        "Asma Tabassum",
+        "William Semke"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A High Frequency Stabilization System for UAS Imaging Payloads",
+      "publication_year": 2025,
+      "publication_date": "2025-08-07",
+      "doi": "https://doi.org/10.1007/978-1-4419-9834-7-122",
+      "venue": "River Publishers eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerospace engineering",
+        "Remote sensing",
+        "Environmental science",
+        "Astrobiology",
+        "Computer science",
+        "Aeronautics",
+        "Physics",
+        "Geology"
+      ],
+      "abstract": "A high frequency stabilization mount to compensate for small attitude fluctuations is developed for enhanced imaging and pointing systems on Unmanned Aircraft Systems (UAS). This system consists of a custom camera mount, piezoelectric actuators, and a digital controller to actively control flight vibrations. Payload designs that acquire views of the Earth surface and stationary or moving targets require stable cameras for precision viewing. Placing cameras onboard these small aircraft are vital to the Intelligence, Surveillance, and Reconnaissance (ISR) mission of many payload designs. It is necessary to have real time precision viewing imaging systems while in flight, but it is increasingly difficult as the small planes reach higher altitudes. A slight change in the camera angle at high altitudes results in a large shift from the designated target. This project focuses on high frequency analysis for small oscillations rather than large attitude changes that are accomplished with a gimbal. The two systems work together to handle both the high frequency oscillations due to engine vibration and turbulence as well as large low frequency attitude changes. Results will include labora...",
+      "authors": [
+        "Katie J. Stuckel",
+        "William Semke",
+        "Nicolai Baer",
+        "Richard R. Schultz"
+      ]
+    },
+    {
+      "title": "Structural Analysis of the Effects of Wing Payload Pods on Small UAS",
+      "publication_year": 2025,
+      "publication_date": "2025-08-07",
+      "doi": "https://doi.org/10.1007/978-1-4614-2419-2-53",
+      "venue": "River Publishers eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Payload (computing)",
+        "Wing",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Computer science",
+        "Engineering",
+        "Computer security",
+        "Network packet"
+      ],
+      "abstract": "A detailed modal analysis of the effects of wing pods on the structural dynamic behavior of a small Unmanned Aerial Vehicle (UAV) is presented. Full structural analyses in both loaded and unloaded configurations are compared to identify how wing pods change the potential flight characteristics. The airframe, the BTE Super Hauler, is a small UAV used by the Unmanned Aircraft Systems Engineering (UASE) Laboratory at the University of North Dakota as a test platform for flight testing multiple payloads. An antenna payload was developed that required wing pods to be added to the current airframe. Experimental analyses were performed on the aircraft with and without the pods and the results were compared to assess flight worthiness and the effect the pods have on the aircraft and payloads. The response due to an impulse excitation of the aircraft was measured using accelerometers strategically placed on the aircraft using contemporary sensor placement methods. The output data was then used to determine the natural frequencies and mode shapes of the aircraft.",
+      "authors": [
+        "Kaci J. Lemler",
+        "William Semke"
+      ]
+    },
+    {
+      "title": "Navigational Dropouts in Small Unmanned Aerial Systems (sUAS) – A Short Review",
+      "publication_year": 2024,
+      "publication_date": "2024-10-28",
+      "doi": "https://doi.org/10.1109/cars61786.2024.10778788",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aeronautics",
+        "Remotely operated underwater vehicle",
+        "Remote sensing",
+        "Geography",
+        "Artificial intelligence",
+        "Engineering",
+        "Mobile robot"
+      ],
+      "abstract": "Navigational anomalies (i.e., dropouts) affect the stable operation of unmanned aerial systems (UAS) by disrupting the reliable reception of Global Positioning System (GPS) and Automatic Dependent Surveillance-Broadcast (ADS-B) data. Dropouts may result in fly away beyond radio control, flight into controlled airspace, or crashes into infrastructure. We classify dropouts under three categories - system, environment, and cyber. It is identified that dropouts affect a broad range of UAS types (e.g., low/high altitudes) and airliners. Methods to mitigate the effects of dropout are highly subjective, and should be chosen after considering based on multiple factors (e.g., cost, complexity) and alternative navigational aids (e.g., dead reckoning, visual odometry).",
+      "authors": [
+        "Niroop Sugunaraj",
+        "Zakaria El Mrabet",
+        "Prakash Ranganathan",
+        "William Semke"
+      ]
+    },
+    {
+      "title": "Imputing ADS-B/GPS Dropouts using Machine Learning Models",
+      "publication_year": 2024,
+      "publication_date": "2024-01-08",
+      "doi": "https://doi.org/10.1109/ccwc60891.2024.10427858",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mean squared error",
+        "Random forest",
+        "AdaBoost",
+        "Missing data",
+        "Global Positioning System",
+        "Artificial intelligence",
+        "Imputation (statistics)",
+        "Computer science"
+      ],
+      "abstract": "Missing Data or Dropouts in ADS-B/GPS can affect flight safety and navigational accuracy. Data from six aircrafts in the Opensky Network were studied and injected with missing data for machine learning model evaluation. Specifically, regression models such as Bayesian Ridge (BR), Random Forest (RF), AdaBoost (AB), Extra Tree (ET), and the k-NN models were investigated at random missing rates (10%-30%). The performance of the data imputation methods was assessed using the Root Mean Square Error (RMSE) and the Mean Absolute Error (MAE) metrics. Experimental results show that k-NN machine learning models performed better than others. The top three models with the lowest MAE values for each parameter are as follows: latitude - 0.0845 (k-NN), 0.7441 (ET), 1.018 (AB); longitude – 0.203 (k-NN), 0.310 (AB), 0.385 (ET); geoaltitude – 25.911 (k-NN), 121.75 (ET), 188.6610 (AB).",
+      "authors": [
+        "Barathwaja Subash Chandar",
+        "Prakash Ranganathan",
+        "William Semke"
+      ]
+    },
+    {
+      "title": "Flight Worthiness Evaluation of Small Unmanned Aircraft Using Acoustic Testing",
+      "publication_year": 2023,
+      "publication_date": "2023-11-21",
+      "doi": "https://doi.org/10.1007/978-3-031-34938-6_15",
+      "venue": "Conference proceedings of the Society for Experimental Mechanics",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airframe",
+        "Propeller",
+        "Computer science",
+        "Aerospace engineering",
+        "Engineering",
+        "Noise (video)",
+        "Simulation",
+        "Aeronautics"
+      ],
+      "abstract": "",
+      "authors": [
+        "William Semke",
+        "Djedje-Kossu Zahui"
+      ]
+    }
+  ]
+}

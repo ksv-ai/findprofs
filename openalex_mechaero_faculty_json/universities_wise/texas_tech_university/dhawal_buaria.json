@@ -1,0 +1,245 @@
+{
+  "faculty_name": "Dhawal Buaria",
+  "full_name": "Dhawal Buaria",
+  "department": "Department of Mechanical Engineering",
+  "university": "Texas Tech University",
+  "author_id": "A5027581862",
+  "works_count": 53,
+  "cited_by_count": 325,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 43
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 19
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 11
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 11
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Forecasting small-scale dynamics of fluid turbulence using deep neural networks",
+      "publication_year": 2023,
+      "publication_date": "2023-07-19",
+      "doi": "https://doi.org/10.1073/pnas.2305765120",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.2305765120",
+      "concepts": [
+        "Reynolds number",
+        "Turbulence",
+        "Intermittency",
+        "Reynolds stress equation model",
+        "Statistical physics",
+        "Reynolds decomposition",
+        "Universality (dynamical systems)",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Turbulence in fluid flows is characterized by a wide range of interacting scales. Since the scale range increases as some power of the flow Reynolds number, a faithful simulation of the entire scale range is prohibitively expensive at high Reynolds numbers. The most expensive aspect concerns the small-scale motions; thus, major emphasis is placed on understanding and modeling them, taking advantage of their putative universality. In this work, using physics-informed deep learning methods, we present a modeling framework to capture and predict the small-scale dynamics of turbulence, via the velocity gradient tensor. The model is based on obtaining functional closures for the pressure Hessian and viscous Laplacian contributions as functions of velocity gradient tensor. This task is accomplished using deep neural networks that are consistent with physical constraints and explicitly incorporate Reynolds number dependence to account for small-scale intermittency. We then utilize a massive direct numerical simulation database, spanning two orders of magnitude in the large-scale Reynolds number, for training and validation. The model learns from low to moderate Reynolds numbers and suc...",
+      "authors": [
+        "Dhawal Buaria",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "Small-Scale Isotropy and Ramp-Cliff Structures in Scalar Turbulence",
+      "publication_year": 2021,
+      "publication_date": "2021-01-22",
+      "doi": "https://doi.org/10.1103/physrevlett.126.034504",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 38,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2005.08124",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Scalar (mathematics)",
+        "Isotropy",
+        "Anomaly (physics)",
+        "Reynolds number",
+        "Classical mechanics",
+        "Homogeneous isotropic turbulence"
+      ],
+      "abstract": "Passive scalars advected by three-dimensional Navier-Stokes turbulence exhibit a fundamental anomaly in odd-order moments because of the characteristic ramp-cliff structures, violating small-scale isotropy. We use data from direct numerical simulations with grid resolution of up to 8192^{3} at high Péclet numbers to understand this anomaly as the scalar diffusivity, D, diminishes, or as the Schmidt number, Sc=ν/D, increases; here ν is the kinematic viscosity of the fluid. The microscale Reynolds number varies from 140 to 650 and Sc varies from 1 to 512. A simple model for the ramp-cliff structures is developed and shown to characterize the scalar derivative statistics very well. It accurately captures how the small-scale isotropy is restored in the large-Sc limit, and additionally suggests a possible correction to the Batchelor length scale as the relevant smallest scale in the scalar field.",
+      "authors": [
+        "Dhawal Buaria",
+        "Matthew P. Clay",
+        "Katepalli R. Sreenivasan",
+        "P. K. Yeung"
+      ]
+    },
+    {
+      "title": "A Lagrangian study of turbulent mixing: forward and backward dispersion of molecular trajectories in isotropic turbulence",
+      "publication_year": 2016,
+      "publication_date": "2016-06-23",
+      "doi": "https://doi.org/10.1017/jfm.2016.359",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 38,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Reynolds number",
+        "Turbulence",
+        "Scaling",
+        "Scalar (mathematics)",
+        "Isotropy",
+        "Statistical physics",
+        "Schmidt number"
+      ],
+      "abstract": "Statistics of the trajectories of molecules diffusing via Brownian motion in a turbulent flow are extracted from simulations of stationary isotropic turbulence, using a postprocessing approach applicable in both forward and backward reference frames. Detailed results are obtained for Schmidt numbers ( $Sc$ ) from 0.001 to 1000 at Taylor-scale Reynolds numbers up to 1000. The statistics of displacements of single molecules compare well with the earlier theoretical work of Saffman (J. Fluid Mech. vol. 8, 1960, pp. 273–283) except for the scaling of the integral time scale of the fluid velocity following the molecular trajectories. For molecular pairs we extend Saffman’s theory to include pairs of small but finite initial separation, which is in excellent agreement with numerical results provided that data are collected at sufficiently small times. At intermediate times the separation statistics of molecular pairs exhibit a more robust Richardson scaling behaviour than for the fluid particles. The forward scaling constant is very close to 0.55, whereas the backward constant is approximately 1.53–1.57, with a weak Schmidt number dependence, although no scaling exists if $Sc\\ll 1$ at...",
+      "authors": [
+        "Dhawal Buaria",
+        "P. K. Yeung",
+        "B. L. Sawford"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Scalar dissipation anomaly and scalar-gradient scaling in turbulence: A joint velocity-scalar multifractal view",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://doi.org/10.48550/arxiv.2606.14696",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.14696",
+      "concepts": [
+        "Dissipation",
+        "Scalar (mathematics)",
+        "Multifractal system",
+        "Scaling",
+        "Statistical physics",
+        "Physics",
+        "Schmidt number",
+        "Turbulence"
+      ],
+      "abstract": "We revisit the problem of scalar dissipation anomaly and scaling of scalar gradients in passive scalar turbulence using theory and data from well-resolved direct numerical simulations (DNS) on grid sizes of up to $8192^3$, spanning Taylor-scale Reynolds numbers $Re_λ=140-1000$ and Schmidt numbers $Sc = 1-512$. The theory is based on a joint multifractal description of longitudinal velocity increments and scalar increments, constrained by Yaglom's law and extended to gradients via a fluctuating Batchelor cutoff scale. The DNS data show that the normalized mean scalar dissipation approaches a single asymptotic value as both $Re_λ$ and $Sc$ increase, although larger $Sc$ requires larger $Re_λ$ to reach this state. In the multifractal framework, this corresponds to an effective scalar Hölder exponent tending to zero, associated with sharp cliff-like scalar fronts, and saturation of inertial-range scaling scalar structure-function exponents. The joint velocity-scalar fractal dimension of the dissipative structures is inferred to approach $7/3$, indicating a non-space-filling support. The framework further predicts that for fixed $Re_λ$, higher-order central moments of scalar gradient...",
+      "authors": [
+        "Dhawal Buaria"
+      ]
+    },
+    {
+      "title": "Scalar dissipation anomaly and scalar-gradient scaling in turbulence: A joint velocity-scalar multifractal view",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://arxiv.org/abs/2606.14696",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.14696",
+      "concepts": [
+        "Dissipation",
+        "Scalar (mathematics)",
+        "Multifractal system",
+        "Scaling",
+        "Statistical physics",
+        "Physics",
+        "Schmidt number",
+        "Turbulence"
+      ],
+      "abstract": "We revisit the problem of scalar dissipation anomaly and scaling of scalar gradients in passive scalar turbulence using theory and data from well-resolved direct numerical simulations (DNS) on grid sizes of up to $8192^3$, spanning Taylor-scale Reynolds numbers $Re_λ=140-1000$ and Schmidt numbers $Sc = 1-512$. The theory is based on a joint multifractal description of longitudinal velocity increments and scalar increments, constrained by Yaglom's law and extended to gradients via a fluctuating Batchelor cutoff scale. The DNS data show that the normalized mean scalar dissipation approaches a single asymptotic value as both $Re_λ$ and $Sc$ increase, although larger $Sc$ requires larger $Re_λ$ to reach this state. In the multifractal framework, this corresponds to an effective scalar Hölder exponent tending to zero, associated with sharp cliff-like scalar fronts, and saturation of inertial-range scaling scalar structure-function exponents. The joint velocity-scalar fractal dimension of the dissipative structures is inferred to approach $7/3$, indicating a non-space-filling support. The framework further predicts that for fixed $Re_λ$, higher-order central moments of scalar gradient...",
+      "authors": [
+        "Dhawal Buaria"
+      ]
+    },
+    {
+      "title": "Scalar gradient structure and dynamics in turbulent mixing at high Reynolds and Schmidt numbers",
+      "publication_year": 2026,
+      "publication_date": "2026-06-05",
+      "doi": "https://doi.org/10.48550/arxiv.2606.07858",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.07858",
+      "concepts": [
+        "Scalar (mathematics)",
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Dissipation",
+        "Scalar field",
+        "Classical mechanics",
+        "Anisotropy"
+      ],
+      "abstract": "How well turbulence mixes a scalar $θ$ is governed by the scalar dissipation rate $χ= 2D |\\nablaθ|^2$, making scalar gradients central to turbulent mixing. We study the structure and amplification of these gradients for passive scalars driven by a uniform mean-gradient in isotropic turbulence, using DNS at grid resolutions up to $8192^3$. The $Re_λ$ spans $140-1000$, and $Sc\\equivν/D$ spans $1-512$. We analyze joint statistical correlations of velocity and scalar gradients that underlie scalar-gradient amplification. Unconditional statistics reaffirm earlier observations that production of $χ$ is dominated by nonlinear amplification of scalar gradients by strain-rate. Scalar gradients preferentially align with the most compressive strain eigenvector and remain orthogonal to vorticity, with both trends virtually independent of $Re_λ$ and $Sc$. Conditional statistics reveal that this organization becomes dramatically enhanced in regions of intense scalar dissipation: scalar gradient becomes near-perfectly aligned with the most compressive eigendirection and orthogonal to other eigendirections and vorticity. This and visualizations suggest that intense scalar dissipation is organiz...",
+      "authors": [
+        "Ruqaiya Islam Mishi",
+        "Dhawal Buaria"
+      ]
+    },
+    {
+      "title": "Scalar gradient structure and dynamics in turbulent mixing at high Reynolds and Schmidt numbers",
+      "publication_year": 2026,
+      "publication_date": "2026-06-05",
+      "doi": "https://arxiv.org/abs/2606.07858",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.07858",
+      "concepts": [
+        "Scalar (mathematics)",
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Dissipation",
+        "Scalar field",
+        "Classical mechanics",
+        "Anisotropy"
+      ],
+      "abstract": "How well turbulence mixes a scalar $θ$ is governed by the scalar dissipation rate $χ= 2D |\\nablaθ|^2$, making scalar gradients central to turbulent mixing. We study the structure and amplification of these gradients for passive scalars driven by a uniform mean-gradient in isotropic turbulence, using DNS at grid resolutions up to $8192^3$. The $Re_λ$ spans $140-1000$, and $Sc\\equivν/D$ spans $1-512$. We analyze joint statistical correlations of velocity and scalar gradients that underlie scalar-gradient amplification. Unconditional statistics reaffirm earlier observations that production of $χ$ is dominated by nonlinear amplification of scalar gradients by strain-rate. Scalar gradients preferentially align with the most compressive strain eigenvector and remain orthogonal to vorticity, with both trends virtually independent of $Re_λ$ and $Sc$. Conditional statistics reveal that this organization becomes dramatically enhanced in regions of intense scalar dissipation: scalar gradient becomes near-perfectly aligned with the most compressive eigendirection and orthogonal to other eigendirections and vorticity. This and visualizations suggest that intense scalar dissipation is organiz...",
+      "authors": [
+        "Ruqaiya Islam Mishi",
+        "Dhawal Buaria"
+      ]
+    },
+    {
+      "title": "Turbulence intermittency and velocity gradients",
+      "publication_year": 2026,
+      "publication_date": "2026-05-07",
+      "doi": "https://doi.org/10.1017/jfm.2026.11494",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/83110A5131F55CF9B890415703AA7770/S0022112026114943a.pdf/div-class-title-turbulence-intermittency-and-velocity-gradients-div.pdf",
+      "concepts": [
+        "Intermittency",
+        "Turbulence",
+        "Vorticity",
+        "Physics",
+        "Statistical physics",
+        "Scaling",
+        "Reynolds number",
+        "Classical mechanics"
+      ],
+      "abstract": "A central problem in turbulence is understanding small-scale intermittency, which refers to the sporadic generation of intense fluctuations in velocity gradients and increments. These extreme events, strongly non-Gaussian in nature, govern dissipation, mixing and transport processes in virtually all turbulent flows. Yet, despite decades of study, a faithful and predictive characterisation of small scales remains elusive owing to the inherent mathematical intractability of the Navier–Stokes equations and the difficulty in resolving them in both simulations and experiments at high Reynolds numbers. Recent advances in high-resolution simulations and experiments have significantly reshaped this picture, particularly by providing precise data at high Reynolds numbers to probe the full tensorial structure and dynamics at small scales. In this article, we synthesise the current understanding of small-scale intermittency and universality, drawing on modern data from well-resolved simulations and experiments that resolve the full velocity-gradient tensor. The results show that, while prevailing intermittency theories capture several key trends, they fail to describe or account for observ...",
+      "authors": [
+        "Dhawal Buaria",
+        "Alain Pumir"
+      ]
+    }
+  ]
+}

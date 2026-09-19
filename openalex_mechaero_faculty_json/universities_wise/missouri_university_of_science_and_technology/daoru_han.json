@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Daoru Han",
+  "full_name": "Daoru Han",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Missouri University of Science and Technology",
+  "author_id": "A5007740434",
+  "works_count": 82,
+  "cited_by_count": 563,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 30
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 23
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 20
+    },
+    {
+      "topic": "Ionosphere and magnetosphere dynamics",
+      "count": 17
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A 3D immersed finite element method with non-homogeneous interface flux jump for applications in particle-in-cell simulations of plasma–lunar surface interactions",
+      "publication_year": 2016,
+      "publication_date": "2016-06-02",
+      "doi": "https://doi.org/10.1016/j.jcp.2016.05.057",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2016.05.057",
+      "concepts": [
+        "Electric field",
+        "Particle-in-cell",
+        "Finite element method",
+        "Boundary element method",
+        "Boundary value problem",
+        "Jump",
+        "Polygon mesh",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daoru Han",
+        "Pu Wang",
+        "Xiaoming He",
+        "Tao Lin",
+        "Joseph Wang"
+      ]
+    },
+    {
+      "title": "A Review of Dielectric Barrier Discharge Cold Atmospheric Plasma for Surface Sterilization and Decontamination",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.1109/trpms.2024.3349571",
+      "venue": "IEEE Transactions on Radiation and Plasma Medical Sciences",
+      "type": "article",
+      "cited_by_count": 66,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dielectric barrier discharge",
+        "Human decontamination",
+        "Sterilization (economics)",
+        "Atmospheric pressure",
+        "Atmospheric-pressure plasma",
+        "Nonthermal plasma",
+        "Plasma cleaning",
+        "Plasma"
+      ],
+      "abstract": "Numerous investigations have shown that nonequilibrium discharges at atmospheric pressure, also known as “cold atmospheric plasma” (CAP), are efficient to remove biological contaminants from surfaces of a variety of materials. Recently, CAP has quickly advanced as a technique for microbial cleaning, wound healing, and cancer therapy due to the chemical and biologically active radicals it produces, known collectively as reactive oxygen and nitrogen species (RONS). This article reviews studies pertaining to one of the atmospheric plasma sources known as dielectric barrier discharge (DBD) which has been widely used to treat materials with microbes for sterilization, disinfection, and decontamination purposes. To advance research in CAP applications, this review discusses various types and configurations of barrier discharge, the role played by reactive species and other DBD-CAP agents leading to its antimicrobial efficacy, a few collection of DBD-CAP past studies specifically on surface, and emerging applications of DBD-CAP technology. Our review showed that nonthermal/equilibrium plasma generated from DBD could sterilize or disinfect surface of materials without causing any therma...",
+      "authors": [
+        "Kolawole E. Adesina",
+        "Ta-Chun Lin",
+        "Yue‐Wern Huang",
+        "Marek Locmelis",
+        "Daoru Han"
+      ]
+    },
+    {
+      "title": "A Nonhomogeneous Immersed-Finite-Element Particle-in-Cell Method for Modeling Dielectric Surface Charging in Plasmas",
+      "publication_year": 2016,
+      "publication_date": "2016-07-07",
+      "doi": "https://doi.org/10.1109/tps.2016.2580698",
+      "venue": "IEEE Transactions on Plasma Science",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle-in-cell",
+        "Solver",
+        "Plasma",
+        "Finite element method",
+        "Dielectric",
+        "Surface (topology)",
+        "Computational physics",
+        "Interface (matter)"
+      ],
+      "abstract": "We present a particle-in-cell (PIC) method using a nonhomogeneous immersed-finite-element (IFE) field solver for modeling dielectric surface charging of complex-shaped objects in plasmas. The IFE solver allows PIC codes using a Cartesian mesh applied to simulations involving arbitrarily shaped objects with a similar accuracy as that using a body-fitting mesh. The object surface is treated as an interface. Surface charging is calculated directly from charge deposition at the interface, and the electrostatic fields on both sides of the interface are resolved self-consistently. The capability of the nonhomogeneous IFE-PIC method is demonstrated by a simulation study of the charging of an irregular-shaped asteroid in the solar wind.",
+      "authors": [
+        "Daoru Han",
+        "Joseph Wang",
+        "Xiaoming He"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Applying direct numerical simulations to investigate wave forcing against a vertical wall",
+      "publication_year": 2026,
+      "publication_date": "2026-02-19",
+      "doi": "https://doi.org/10.1016/j.apor.2026.104985",
+      "venue": "Applied Ocean Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apor.2026.104985",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Mechanics",
+        "Physics",
+        "Computer simulation",
+        "Geology",
+        "Numerical models",
+        "Wave propagation",
+        "Direct numerical simulation"
+      ],
+      "abstract": "Current engineering standards lack the ability to predict the peak impact forces of breaking waves impinging directly upon coastal structures. In this study solitary waves impacting vertical and tapered walls are investigated. To capture the detailed physics of the wave profile that impacts the wall, two-dimensional direct numerical simulations are applied to model the wave traveling over a simplified bathymetry consisting of an initially uniform depth, followed by a uniform beach ramp and then terminating in a uniform depth inshore region and vertical wall. Such an approach can simulate wave runup on land and then the impact with the vertical or tapered walls. The wall location in the bathymetry was varied to simulate different types of wave impacts, including non-breaking, plunging, and bores. The resulting wave characteristics and wall impact pressures were compared across these varying regimes. The associated wave impact force was extracted and compared to various standards used in coastal engineering, and severe underestimation has been found for plunging and weak plunging type impacts. To address this, in this study, a dimensionless distance parameter has been proposed to ...",
+      "authors": [
+        "Hunter Boswell",
+        "Daoru Han",
+        "Gaurav Savant",
+        "Guirong Yan",
+        "Wouter Mostert"
+      ]
+    },
+    {
+      "title": "A large thermal vacuum (TVAC) facility to simulate cryogenic space environments",
+      "publication_year": 2025,
+      "publication_date": "2025-10-11",
+      "doi": "https://doi.org/10.1016/j.vacuum.2025.114807",
+      "venue": "Vacuum",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.vacuum.2025.114807",
+      "concepts": [
+        "Shroud",
+        "Aerospace engineering",
+        "Spacecraft",
+        "Mars Exploration Program",
+        "Thermal",
+        "Emissivity",
+        "Coolant",
+        "Nuclear engineering"
+      ],
+      "abstract": "This work reports the upgrade of a 10-ft (3.0 m) long × 6-ft (1.8 m) diameter vacuum facility as part of ongoing efforts to address some of the technology gaps in NASA’s Moon to Mars mission architecture, which include systems to survive and operate through extended periods in extreme environments. Consequently, a removable thermal shroud has been fabricated and installed to facilitate the simulation of extreme cryogenic conditions. The cooling rates of the shroud and a surrogate test article, using liquid nitrogen as the coolant are analyzed and documented under varying vacuum environments during cryogenic testing. The attainable vacuum level of the TVAC system is equivalent to an altitude range of 100 to 150 km. The measured shroud temperatures are comparable to Low Earth Orbit, lunar surface, and Martian surface extremes. The fully assembled shroud can be reliably cooled to -187 °C (86 K) with the central region achieving an internal temperature of -161 °C (112 K) at a cooling rate ranging from -3 to -5 K/min. The attainable temperature of a surrogate test article further satisfies the cooling criteria outlined in ISO 19683 for spacecraft design qualification and acceptance t...",
+      "authors": [
+        "Emmanuel Kofi Asuako Wie-Addo",
+        "Lucas Scott",
+        "Daoru Han"
+      ]
+    },
+    {
+      "title": "Energetics analysis of solitary waves using a multi-layer model",
+      "publication_year": 2025,
+      "publication_date": "2025-08-30",
+      "doi": "https://doi.org/10.1016/j.coastaleng.2025.104868",
+      "venue": "Coastal Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.coastaleng.2025.104868",
+      "concepts": [
+        "Energetics",
+        "Layer (electronics)",
+        "Geology",
+        "Mechanics",
+        "Physics",
+        "Materials science",
+        "Thermodynamics",
+        "Composite material"
+      ],
+      "abstract": "This study investigates the performance of a vertically-Lagrangian multi-layer model on numerically simulating shoaling and breaking two-dimensional solitary waves during both the breaking and post-breaking processes. The energy dissipation of the breaking event for the multi-layer waves is analyzed and compared to prior direct numerical simulation work with the same bathymetric and wave cases. It shows very similar data collapse to shallow-water inertial theory. For post-breaking behavior, bore characteristics are compared to an experimental study of bores formed from breaking solitary waves and similar results are found. While the multi-layer method was not found to behave sufficiently well for direct force measurement at a vertical wall, the resulting bore characteristic behavior is found to be sufficient for use in theoretical estimations of the impact force on the wall. These findings in this study suggest that vertically-Lagrangian multilayer models resolve propagating bores sufficiently well when trying to estimate dynamic loads on vertical seawalls with minimal model tuning.",
+      "authors": [
+        "Hunter Boswell",
+        "Daoru Han",
+        "Guirong Yan",
+        "Wouter Mostert"
+      ]
+    },
+    {
+      "title": "Cold Atmospheric Plasma Induced Degradation of Organophosphate Pesticides on Kevlar Swatches",
+      "publication_year": 2025,
+      "publication_date": "2025-08-12",
+      "doi": "https://doi.org/10.1002/ppap.70070",
+      "venue": "Plasma Processes and Polymers",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kevlar",
+        "Organophosphate",
+        "Degradation (telecommunications)",
+        "Pesticide",
+        "Environmental chemistry",
+        "Plasma",
+        "Atmospheric-pressure plasma",
+        "Materials science"
+      ],
+      "abstract": "ABSTRACT Cold atmospheric plasma (CAP) was evaluated for degrading organophosphate pesticide (OP) residues (acephate, malathion, and dimethoate) from Kevlar fabrics. Fourier transform‐Infrared (FTIR) spectroscopy, Scanning electron microscope (SEM) imaging and tensile strength testing confirmed that CAP treatment preserved Kevlar's structural integrity and mechanical properties. Results show degradation efficiency increased with higher power, shorter discharge gaps, and longer exposure duration. Hyperspectral imaging supported the detection of plasma‐induced spectral changes, reinforcing the presence of reactive species. The strong oxidative potential of CAP facilitated the rapid breakdown of OPs into nontoxic byproducts. These findings demonstrate the potential of CAP as a portable, energy‐efficient solution for dry surface decontamination, particularly in environments where conventional chemical or water‐based methods may be unavailable.",
+      "authors": [
+        "Ta‐Chun Lin",
+        "Victor Somtochukwu Mbanugo",
+        "Boluwatife Stephen Ojo",
+        "Yue‐Wern Huang",
+        "Marek Locmelis",
+        "Daoru Han"
+      ]
+    },
+    {
+      "title": "Extraction of Aluminum from Lunar Regolith through Molten Salt Electrolysis",
+      "publication_year": 2025,
+      "publication_date": "2025-05-22",
+      "doi": "https://doi.org/10.1016/j.actaastro.2025.04.064",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.actaastro.2025.04.064",
+      "concepts": [
+        "Regolith",
+        "Molten salt",
+        "Astrobiology",
+        "Aluminium",
+        "Electrolysis",
+        "Extraction (chemistry)",
+        "Salt (chemistry)",
+        "Spacecraft"
+      ],
+      "abstract": "This paper presents the methodology, development, and results of an end-to-end regolith-to-metal concept for producing aluminum in-situ on the lunar surface, namely, the Lunar In-Situ Aluminum Production through Molten Salt Electrolysis (LISAP-MSE) method. Using electrolytic reduction, aluminum oxide (i.e., alumina) can be reduced into aluminum and oxygen via electrolysis in a molten salt bath. A steady supply of hydrogen chloride could allow this in-situ resource utilization (ISRU) method to supply several necessary materials consumed in the electrolytic reduction step of the process to produce bulk aluminum metal, oxygen, water, and silica from anorthite abundant in lunar highland regions. In this paper, we present experimental steps and results of thermally and chemically reducing anorthite, an aluminum-rich mineral commonly found in the lunar highlands, and testing of an electrolytic cell that was produced “in house”. The results show that the end-to-end process yielded bulk metallic spheroids with > 85% aluminum by mass.",
+      "authors": [
+        "Jacob Ortega",
+        "Todd Sander",
+        "Jeffrey D. Smith",
+        "Fateme Rezaei",
+        "David J. Bayless",
+        "William Schonberg",
+        "Daniel S. Stutts",
+        "Daoru Han"
+      ]
+    }
+  ]
+}

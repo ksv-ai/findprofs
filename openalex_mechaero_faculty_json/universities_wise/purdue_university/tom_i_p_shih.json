@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Tom I-P. Shih",
+  "full_name": "Tom I-P. Shih",
+  "department": "School of Aeronautics and Astronautics",
+  "university": "Purdue University",
+  "author_id": "A5110445139",
+  "works_count": 117,
+  "cited_by_count": 1497,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 45
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 33
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 31
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Mechanics of Fluids",
+      "publication_year": 2012,
+      "publication_date": "2012-01-01",
+      "doi": "http://ci.nii.ac.jp/ncid/BA12971383",
+      "venue": "Medical Entomology and Zoology",
+      "type": "book",
+      "cited_by_count": 189,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fluid mechanics",
+        "Analytical mechanics",
+        "Calculus (dental)",
+        "Computer science",
+        "Mechanics",
+        "Mathematics education",
+        "Mathematics",
+        "Physics"
+      ],
+      "abstract": "MECHANICS OF FLUIDS presents fluid mechanics so that students gain an understanding of and an ability to analyze the important phenomena encountered by practicing engineers. The authors succeed in this through the use of several pedagogical tools (Margin Notes, Chapter Outlines, Summaries, and a nomenclature list) that help students visualize the many difficult-to-understand phenomena of fluid mechanics. Potter and Wiggert base their explanations on basic physical concepts and mathematics which are accessible to undergraduate engineering students, such as differential equations and vector algebra.",
+      "authors": [
+        "Merle C. Potter",
+        "D. C. Wiggert",
+        "Bassem H. Ramadan",
+        "Tom I-P. Shih"
+      ]
+    },
+    {
+      "title": "Single-phase and Two-phase Flow and Heat Transfer in Microchannel Heat Sink with Various Manifold Arrangements",
+      "publication_year": 2021,
+      "publication_date": "2021-02-24",
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.121118",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 162,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.121118",
+      "concepts": [
+        "Heat sink",
+        "Pressure drop",
+        "Microchannel",
+        "Heat transfer",
+        "Materials science",
+        "Mechanics",
+        "Thermal resistance",
+        "Manifold (fluid mechanics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yuhao Lin",
+        "Yang Luo",
+        "Wei Li",
+        "Yanlong Cao",
+        "Zhi Tao",
+        "Tom I-P. Shih"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulations of Turbulent Flows in an Axisymmetric Dump Combustor",
+      "publication_year": 2008,
+      "publication_date": "2008-06-11",
+      "doi": "https://doi.org/10.2514/1.25467",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 58,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotational symmetry",
+        "Turbulence",
+        "Combustor",
+        "Large eddy simulation",
+        "Mechanics",
+        "Aerospace engineering",
+        "Environmental science",
+        "Physics"
+      ],
+      "abstract": "A hybrid Eulerian-Lagrangian, mathematical/computational methodology is developed and evaluated for large-eddy simulations of turbulent combustion in complex geometries. The formulation for turbulence is based on the standard subgrid-scale stress models. The formulation for subgrid-scale combustion is based on the filtered mass density function and its equivalent stochastic Lagrangian equations. An algorithm based on high-order compact differencing on generalized multiblock grids is developed for numerical solution of the coupled Eulerian-Lagrangian equations. The results obtained by large-eddy simulations/filtered mass density function show the computational method to be more efficient than existing methods for similar hybrid systems. The consistency, convergence, and accuracy of the filtered mass density function and its Lagrangian-Monte Carlo solver is established for both reacting and nonreacting flows in a dump combustor. The results show that the finite difference and the Monte Carlo numerical methods employed are both accurate and consistent The results for a reacting premixed dump combustor also agree well with available experimental data. Additionally, the results obtai...",
+      "authors": [
+        "Asghar Afshari",
+        "Farhad Jaberi",
+        "Tom I-P. Shih"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Outflow Boundary Conditions for Turbine-Integrated Rotating Detonation Combustors",
+      "publication_year": 2025,
+      "publication_date": "2025-11-10",
+      "doi": "https://doi.org/10.3390/app152211922",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2076-3417/15/22/11922/pdf?version=1762755345",
+      "concepts": [
+        "Mechanics",
+        "Duct (anatomy)",
+        "Outflow",
+        "Mach number",
+        "Shock wave",
+        "Supersonic speed",
+        "Physics",
+        "Detonation"
+      ],
+      "abstract": "This study examines outflow boundary conditions (BCs) in computational fluid dynamics (CFD) simulations of a transition duct with and without guide vanes that converts supersonic flow exiting a rotating detonation combustor (RDC) to subsonic flow to drive a turbine. Since the flow exiting the transition duct has swirling shock waves with significant spatial and temporal variations in pressure, temperature, and Mach number, imposing proper BCs poses a challenge. To ensure all swirling shock waves exit the transition duct without creating non-physical reflected waves at its outlet, this study examined three outflow BCs: (1) the average pressure imposed at the duct’s outlet, (2) a nonreflecting BC (NRBC) with a specified average pressure imposed at the duct’s outlet, (3) the average pressure imposed at the outlet of an extension duct made up of a buffer layer and a sponge layer. This study is based on the three-dimensional, unsteady density-weighted-ensemble-averaged continuity, Navier–Stokes, and energy equations for a thermally perfect gas closed by the realizable k–ε model and “enhanced” wall functions. The results obtained show that imposing an average pressure at the transitio...",
+      "authors": [
+        "T. HSIEH",
+        "Kenneth M. Bryden",
+        "Richard P. Dalton",
+        "John Crane",
+        "Tom I-P. Shih"
+      ]
+    },
+    {
+      "title": "Revisiting Dimensionless Parameters Quantifying Film Cooling",
+      "publication_year": 2025,
+      "publication_date": "2025-02-13",
+      "doi": "https://doi.org/10.1115/1.4067931",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/2530375",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Dimensionless quantity",
+        "Mechanics",
+        "Heat flux",
+        "Cooling flow",
+        "Mass flux",
+        "Adiabatic process",
+        "Materials science"
+      ],
+      "abstract": "Abstract The adiabatic effectiveness of film cooling (η) has been characterized by the density (DRh) and blowing (BRh) ratios. In this study, dimensional analysis and computations based on Reynolds-averaged Navier–Stokes (RANS) were performed to identify and examine parameters needed to quantify η, where film cooling is crossflow-fed instead of plenum-fed. The test problem studied is film cooling of a flat plate, where the cooling air, issuing through 30-deg inclined circular holes, is fed from a cooling channel whose flow direction is perpendicular to the direction of the hot-gas flow. For this test problem, dimensional analysis shows an additional blowing ratio is needed, denoted as BRc, to quantify η, where BRc is the ratio of the mass flux through the film-cooling hole to the mass flux in the cooling channel upstream of the film-cooling hole. RANS results with and without conjugate heat transfer obtained by varying the mass flowrate in the cooling channel, while keeping DRh and BRh constant (DRh = 1.9 and BRh was either 0.75 or 1.0), show reducing mass flowrate in the cooling channel by one-half, which doubles BRc (from 2.6 to 5.2) to slightly affect the discharge coefficien...",
+      "authors": [
+        "Chien-Shing Lee",
+        "Tom I-P. Shih",
+        "Douglas Straub",
+        "Justin Weber"
+      ]
+    },
+    {
+      "title": "Flow and Heat Transfer in a Ribbed Converging-Diverging U-Duct Under Rotating and Non-Rotating Conditions",
+      "publication_year": 2024,
+      "publication_date": "2024-09-18",
+      "doi": "https://doi.org/10.1115/1.4066567",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Heat transfer",
+        "Duct (anatomy)",
+        "Materials science",
+        "Flow (mathematics)",
+        "Physics",
+        "Anatomy",
+        "Medicine"
+      ],
+      "abstract": "Abstract A numerical study based on steady Reynolds-averaged-Navier–Stokes (RANS) with the shear stress transport (SST) turbulence model was performed to investigate the flow and heat transfer in a ribbed U-duct with a rectangular cross section that converges linearly in the radially outward direction and diverges linearly in the radially inward direction under rotating and nonrotating conditions. Parameters examined include rotation number (Roi = 0, 0.0219, 0.0336, 0.0731), Reynolds number (Rei = 46,000, 100,000, and 154,000), and the duct's taper angle (α = 0 deg and 1.41 deg) under conditions relevant to gas turbines used for electric power generation. Results obtained show that increasing the taper angle from 0 deg to 1.41 deg, which appears negligibly small, significantly increases both the friction coefficient and the Nusselt number whether there is rotation or not. With rotation at Roi = 0.0336 and Rei = 100,000, the maximum increase in the average friction coefficient and Nusselt number was found to be 41.7% and 36.6%, respectively. Without rotation at Rei = 46,000, those are 11.5% and 14.7%, respectively.",
+      "authors": [
+        "Wanjae Kim",
+        "Tom I-P. Shih",
+        "Richard Dalton",
+        "Kenneth M. Bryden",
+        "Sung Yong Chang",
+        "Gyu Sang Park"
+      ]
+    },
+    {
+      "title": "Introduction to Advancement in Thermal Power Generation and Propulsion with Low/Zero CO 2 Emission Virtual Collection",
+      "publication_year": 2024,
+      "publication_date": "2024-07-01",
+      "doi": "https://doi.org/10.2514/1.j063542",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/1.J063542",
+      "concepts": [
+        "Zero emission",
+        "Propulsion",
+        "Zero (linguistics)",
+        "Thermal",
+        "Aerospace engineering",
+        "Power (physics)",
+        "Nuclear engineering",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Dan Zhao",
+        "Tom I-P. Shih"
+      ]
+    },
+    {
+      "title": "Large-Eddy vs. Reynolds-Averaged Navier–Stokes Simulations of Flow and Heat Transfer in a U-Duct with Unsteady Flow Separation",
+      "publication_year": 2024,
+      "publication_date": "2024-05-17",
+      "doi": "https://doi.org/10.3390/en17102414",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/en17102414",
+      "concepts": [
+        "Reynolds number",
+        "Mechanics",
+        "Heat transfer",
+        "Duct (anatomy)",
+        "Large eddy simulation",
+        "Flow (mathematics)",
+        "Physics",
+        "Turbulence"
+      ],
+      "abstract": "Large-eddy simulation (LES) and Reynolds-Averaged Navier–Stokes (RANS) equations were used to study incompressible flow and heat transfer in a U-duct with a high-aspect-ratio trapezoidal cross section. For the LES, the WALE subgrid-scale model was employed, and its inflow boundary condition was provided by a concurrent LES of incompressible fully-developed flow in a straight duct with the same cross section and flow conditions as the U-duct. LES results are presented for turbulent kinetic energy, Reynolds stresses, pressure–strain rate, turbulent diffusion, turbulent transport, and velocity–temperature correlations, with a focus on how they are affected by the U-turn region of the U-duct. The LES results were also used to assess three commonly used RANS models: the realizable k-ε with the two-layer model in the near-wall region, the two-equation shear-stress transport model, and the seven-equation stress-omega Reynolds stress model. Results obtained show steady and unsteady RANS to incorrectly predict the effects of unsteady flow separation. The results obtained also identified the terms in the RANS models that need to be modified and suggested how turbulent diffusion should be ...",
+      "authors": [
+        "Kenny S.-Y. Hu",
+        "Tom I-P. Shih"
+      ]
+    }
+  ]
+}

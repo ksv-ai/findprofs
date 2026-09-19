@@ -1,0 +1,271 @@
+{
+  "faculty_name": "Philip Dames",
+  "full_name": "Philip Dames",
+  "department": "Department of Mechanical Engineering",
+  "university": "Temple University",
+  "author_id": "A5070031738",
+  "works_count": 71,
+  "cited_by_count": 1846,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 26
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 20
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 18
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 17
+    },
+    {
+      "topic": "Distributed Sensor Networks and Detection Algorithms",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Survey on Aerial Swarm Robotics",
+      "publication_year": 2018,
+      "publication_date": "2018-08-01",
+      "doi": "https://doi.org/10.1109/tro.2018.2857475",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 677,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Swarm behaviour",
+        "Swarm robotics",
+        "Robotics",
+        "Artificial intelligence",
+        "Computer science",
+        "Swarm intelligence",
+        "Key (lock)",
+        "Field (mathematics)"
+      ],
+      "abstract": "The use of aerial swarms to solve real-world problems has been increasing steadily, accompanied by falling prices and improving performance of communication, sensing, and processing hardware. The commoditization of hardware has reduced unit costs, thereby lowering the barriers to entry to the field of aerial swarm robotics. A key enabling technology for swarms is the family of algorithms that allow the individual members of the swarm to communicate and allocate tasks amongst themselves, plan their trajectories, and coordinate their flight in such a way that the overall objectives of the swarm are achieved efficiently. These algorithms, often organized in a hierarchical fashion, endow the swarm with autonomy at every level, and the role of a human operator can be reduced, in principle, to interactions at a higher level without direct intervention. This technology depends on the clever and innovative application of theoretical tools from control and estimation. This paper reviews the state of the art of these theoretical tools, specifically focusing on how they have been developed for, and applied to, aerial swarms. Aerial swarms differ from swarms of ground-based vehicles in two ...",
+      "authors": [
+        "Soon‐Jo Chung",
+        "Aditya A. Paranjape",
+        "Philip Dames",
+        "Shaojie Shen",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles",
+      "publication_year": 2023,
+      "publication_date": "2023-03-30",
+      "doi": "https://doi.org/10.1109/tro.2023.3257549",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 152,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision",
+        "Robot",
+        "Human–computer interaction"
+      ],
+      "abstract": "This article proposes a novel learning-based control policy with strong generalizability to new environments that enables a mobile robot to navigate autonomously through spaces filled with both static obstacles and dense crowds of pedestrians. The policy uses a unique combination of input data to generate the desired steering angle and forward velocity: a short history of lidar data, kinematic data about nearby pedestrians, and a subgoal point. The policy is trained in a reinforcement learning setting using a reward function that contains a novel term based on velocity obstacles to guide the robot to actively avoid pedestrians and move toward the goal. Through a series of 3-D simulated experiments with up to 55 pedestrians, this control policy is able to achieve a better balance between collision avoidance and speed (i.e., higher success rate and faster average speed) than state-of-the-art model-based and learning-based policies, and it also generalizes better to different crowd sizes and unseen environments. An extensive series of hardware experiments demonstrate the ability of this policy to directly work in different real-world environments with different crowd sizes with zer...",
+      "authors": [
+        "Zhanteng Xie",
+        "Philip Dames"
+      ]
+    },
+    {
+      "title": "A Multi-robot Control Policy for Information Gathering in the Presence of Unknown Hazards",
+      "publication_year": 2016,
+      "publication_date": "2016-08-25",
+      "doi": "https://doi.org/10.1007/978-3-319-29363-9_26",
+      "venue": "Springer tracts in advanced robotics",
+      "type": "book-chapter",
+      "cited_by_count": 102,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Computer science",
+        "Probabilistic logic",
+        "Mutual information",
+        "Control (management)",
+        "Hazardous waste",
+        "Artificial intelligence",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mac Schwager",
+        "Philip Dames",
+        "Daniela Rus",
+        "Vijay Kumar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Navigation in GNSS-Denied Environments Using MEMS-Grade Sensors and Geophysical Anomalies: A UKF Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-02-24",
+      "doi": "https://doi.org/10.33012/2026.20508",
+      "venue": "Proceedings of the Institute of Navigation ... International Technical Meeting/Proceedings of the ... International Technical Meeting of The Institute of Navigation",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Remote sensing",
+        "Geology",
+        "Computer science",
+        "Field (mathematics)",
+        "Artificial intelligence",
+        "Tracking (education)",
+        "Trajectory",
+        "Global Positioning System"
+      ],
+      "abstract": "",
+      "authors": [
+        "James A. Brodovsky",
+        "Philip Dames"
+      ]
+    },
+    {
+      "title": "Semantic2D: Enabling Semantic Scene Understanding with 2D Lidar Alone: Dataset",
+      "publication_year": 2026,
+      "publication_date": "2026-01-24",
+      "doi": "https://doi.org/10.5281/zenodo.18350696",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18350696",
+      "concepts": [
+        "Lidar",
+        "Segmentation",
+        "Computer science",
+        "Artificial intelligence",
+        "Object (grammar)",
+        "Computer vision",
+        "Semantics (computer science)",
+        "Preprint"
+      ],
+      "abstract": "# Semantic2D Dataset A 2D lidar semantic segmentation dataset for mobile robotics applications. This is the first publicly available 2D lidar semantic segmentation dataset, featuring point-wise annotations for nine indoor object categories across twelve distinct environments. **Associated Paper:** *Semantic2D: Enabling Semantic Scene Understanding with 2D Lidar Alone***Authors:** Zhanteng Xie, Yipeng Pan, Yinqiang Zhang, Jia Pan, Philip Dames**Institutions:** The University of Hong Kong, Temple University **Video:** https://youtu.be/P1Hsvj6WUSY**GitHub:** https://github.com/TempleRAIL/semantic2d --- ## Citation ```bibtex@article{xie2026semantic2d, title={Semantic2D: Enabling Semantic Scene Understanding with 2D Lidar Alone}, author={Xie, Zhanteng and Pan, Yipeng and Zhang, Yinqiang and Pan, Jia and Dames, Philip}, journal={arXiv preprint arXiv:2409.09899}, year={2026}}``` ## Contact - Zhanteng Xie: zhanteng@hku.hk",
+      "authors": [
+        "Zhanteng Xie",
+        "Yipeng PAN",
+        "Yinqiang Zhang",
+        "Jia PAN",
+        "Philip Dames"
+      ]
+    },
+    {
+      "title": "Robotic Video World Models: A Survey of Applications, Research Challenges, Future Directions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.48550/arxiv.2601.07823",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.07823",
+      "concepts": [
+        "Computer science",
+        "Bottleneck",
+        "Human–computer interaction",
+        "Artificial intelligence",
+        "Action (physics)",
+        "Robotics",
+        "Imitation",
+        "Inference"
+      ],
+      "abstract": "Video world models have emerged as promising candidates for high-fidelity world models, offering the potential to synthesize high-quality videos capturing fine-grained interactions between agents and their environments conditioned on multi-modal user inputs. Their impressive capabilities address many of the long-standing challenges faced by physics-based simulators, driving broad adoption in many problem domains, e.g., robotics. For example, video models can generate photorealistic, physically consistent deformable-body simulation without making prohibitive simplifying assumptions, which is a major bottleneck in physics-based simulation. Moreover, video models can serve as foundation world models that capture the dynamics of the world in a fine-grained and expressive way. They thus overcome the limited expressiveness of language-only abstractions in describing intricate physical interactions. However, despite their potential, video models still generate physics-violating future predictions, often manifesting as hallucinations. In this survey, we provide a review of video models and their applications as embodied world models in robotics, including efficient data generation and p...",
+      "authors": [
+        "Zhiting Mei",
+        "Tenny Yin",
+        "Ola Shorinwa",
+        "Apurva Badithela",
+        "Zhonghe Zheng",
+        "Joseph Bruno",
+        "Madison Bland",
+        "Lihan Zha",
+        "Asher J. Hancock",
+        "Jaime Fernández Fisac",
+        "Philip Dames",
+        "Anirudha Majumdar"
+      ]
+    },
+    {
+      "title": "Video Generation Models in Robotics -- Applications, Research Challenges, Future Directions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "http://arxiv.org/abs/2601.07823",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.07823",
+      "concepts": [
+        "Computer science",
+        "Bottleneck",
+        "Human–computer interaction",
+        "Artificial intelligence",
+        "Action (physics)",
+        "Robotics",
+        "Imitation",
+        "Inference"
+      ],
+      "abstract": "Video generation models have emerged as high-fidelity models of the physical world, capable of synthesizing high-quality videos capturing fine-grained interactions between agents and their environments conditioned on multi-modal user inputs. Their impressive capabilities address many of the long-standing challenges faced by physics-based simulators, driving broad adoption in many problem domains, e.g., robotics. For example, video models enable photorealistic, physically consistent deformable-body simulation without making prohibitive simplifying assumptions, which is a major bottleneck in physics-based simulation. Moreover, video models can serve as foundation world models that capture the dynamics of the world in a fine-grained and expressive way. They thus overcome the limited expressiveness of language-only abstractions in describing intricate physical interactions. In this survey, we provide a review of video models and their applications as embodied world models in robotics, encompassing cost-effective data generation and action prediction in imitation learning, dynamics and rewards modeling in reinforcement learning, visual planning, and policy evaluation. Further, we hig...",
+      "authors": [
+        "Zhiting Mei",
+        "Tenny Yin",
+        "Ola Shorinwa",
+        "Apurva Badithela",
+        "Zhonghe Zheng",
+        "Joseph Bruno",
+        "Madison Bland",
+        "Lihan Zha",
+        "Asher Hancock",
+        "Jaime Fernández Fisac",
+        "Philip Dames",
+        "Anirudha Majumdar"
+      ]
+    },
+    {
+      "title": "DELIVER: A System for LLM-Guided Coordinated Multi-Robot Pickup and Delivery using Voronoi-Based Relay Planning",
+      "publication_year": 2026,
+      "publication_date": "2026-01-11",
+      "doi": "https://doi.org/10.1109/sii64115.2026.11404461",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scalability",
+        "Computer science",
+        "Modular design",
+        "Relay",
+        "Pickup",
+        "Emulation",
+        "Workload",
+        "Robot"
+      ],
+      "abstract": "We present DELIVER (Directed Execution of Language-instructed Item Via Engineered Relay), a fully integrated framework for cooperative multi-robot pickup and delivery driven by natural language commands. DELIVER unifies natural language understanding, spatial decomposition, relay planning, and motion execution to enable scalable, collision-free coordination in real-world settings. Given a spoken or written instruction, a lightweight instance of LLaMA3 interprets the command to extract pickup and delivery locations. The environment is partitioned using a Voronoi tessellation to define robot-specific operating regions. Robots then compute optimal relay points along shared boundaries and coordinate handoffs. A finite-state machine governs each robot’s behavior, enabling robust execution. We implement DELIVER on the MultiTRAIL simulation platform and validate it in both ROS2-based Gazebo simulations and real-world hardware using TurtleBot3 robots. Empirical results show that DELIVER maintains consistent mission cost across varying team sizes while reducing per-agent workload by up to 55% compared to a single-agent system. Moreover, the number of active relay agents remains low even ...",
+      "authors": [
+        "Alkesh K. Srivastava",
+        "Jared Michael Levin",
+        "Alexander Derrico",
+        "Philip Dames"
+      ]
+    }
+  ]
+}

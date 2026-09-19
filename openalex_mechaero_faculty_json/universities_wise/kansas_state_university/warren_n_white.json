@@ -1,0 +1,118 @@
+{
+  "faculty_name": "Warren N. White",
+  "full_name": "Warren N. White",
+  "department": "Alan Levin Department of Mechanical and Nuclear Engineering",
+  "university": "Kansas State University",
+  "author_id": "A5110272170",
+  "works_count": 55,
+  "cited_by_count": 477,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 9
+    },
+    {
+      "topic": "Wind Turbine Control Systems",
+      "count": 8
+    },
+    {
+      "topic": "Control and Stability of Dynamical Systems",
+      "count": 8
+    },
+    {
+      "topic": "Hydraulic and Pneumatic Systems",
+      "count": 7
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Torsional Vibrations Mitigation in the Drivetrain of DFIG-Based Grid-Connected Wind Turbine",
+      "publication_year": 2017,
+      "publication_date": "2017-07-20",
+      "doi": "https://doi.org/10.1109/tia.2017.2730159",
+      "venue": "IEEE Transactions on Industry Applications",
+      "type": "article",
+      "cited_by_count": 68,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drivetrain",
+        "Torsional vibration",
+        "Aerodynamics",
+        "Wind power",
+        "Turbine",
+        "Stator",
+        "Rotor (electric)",
+        "Vibration"
+      ],
+      "abstract": "This paper presents a nonlinear technique based on the sliding mode control theory for mitigation of torsional vibrations in grid-connected doubly fed induction generator (DFIG) based wind turbines. The presented method increases the lifespan of wind turbines by reducing torsional vibrations caused by mechanical or electrical disturbances. The effectiveness of the proposed technique is demonstrated on torsional vibrations caused by a voltage dip and a wind gust. In this paper, dynamics of the generator, multiinertia drivetrain, rotor- and grid-side converters, and transmission line are developed upon the 750-kW fatigue, aerodynamics, structures, and turbulence (FAST) simulator wind turbine model comprising wind turbine aerodynamics.",
+      "authors": [
+        "Fariba Fateh",
+        "Warren N. White",
+        "Don Gruenbacher"
+      ]
+    },
+    {
+      "title": "Epidemic Threshold of an SIS Model in Dynamic Switching Networks",
+      "publication_year": 2015,
+      "publication_date": "2015-07-17",
+      "doi": "https://doi.org/10.1109/tsmc.2015.2448061",
+      "venue": "IEEE Transactions on Systems Man and Cybernetics Systems",
+      "type": "article",
+      "cited_by_count": 61,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1501.02472",
+      "concepts": [
+        "Epidemic model",
+        "Computer science",
+        "Threshold model",
+        "Probabilistic logic",
+        "Network topology",
+        "Independence (probability theory)",
+        "Set (abstract data type)",
+        "Complex network"
+      ],
+      "abstract": "In this paper, we analyze dynamic switching networks, wherein the networks switch arbitrarily among a set of topologies. For this class of dynamic networks, we derive an epidemic threshold, considering the susceptible-infected-susceptible epidemic model. First, an epidemic probabilistic model is developed assuming independence between states of nodes. We identify the conditions under which the epidemic dies out by linearizing the underlying dynamical system and analyzing its asymptotic stability around the origin. The concept of joint spectral radius is then used to derive the epidemic threshold, which is later validated using several networks (Watts-Strogatz, Barabasi-Albert, MIT reality mining graphs, Regular, and Gilbert). A simplified version of the epidemic threshold is proposed for undirected networks. Moreover, in the case of static networks, the derived epidemic threshold is shown to match conventional analytical results. Then, analytical results for the epidemic threshold of dynamic networks are proved to be applicable to periodic networks. For dynamic regular networks, we demonstrate that the epidemic threshold is identical to the epidemic threshold for static regular ...",
+      "authors": [
+        "Mohammad Reza Sanatkar",
+        "Warren N. White",
+        "Balasubramaniam Natarajan",
+        "Caterina Scoglio",
+        "Karen A. Garrett"
+      ]
+    },
+    {
+      "title": "A Maximum Power Tracking Technique for Grid-Connected DFIG-Based Wind Turbines",
+      "publication_year": 2015,
+      "publication_date": "2015-06-23",
+      "doi": "https://doi.org/10.1109/jestpe.2015.2448633",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Wind power",
+        "Turbine",
+        "Power optimizer",
+        "Maximum power point tracking",
+        "Robustness (evolution)",
+        "Maximum power principle",
+        "Torque"
+      ],
+      "abstract": "In this paper, a maximum power tracking technique is presented for doubly fed induction generator-based wind turbines. The presented technique is a novel version of the conventional method, i.e., the electrical torque is proportional to the square of the rotor speed, in which the proportional coefficient is adaptively adjusted in real-time through three control laws. The first control law calculates the desired electrical torque using feedback linearization, assuming that the power capture coefficient and the desired rotor speed are instantaneously identified. The second control law estimates the real-time values of the power capture coefficient from a Lyapunov-based analysis, and the third control law provides the desired rotor speed. These control laws cause the turbine to adaptively adjust the rotor speed toward a desired speed in which the operating point moves in the direction of increasing the power capture coefficient. The proposed maximum power tracking method differs distinctly from the perturb-and-observe scheme by eliminating a need for adding a dither or perturbation signal, and robustly tracks the trajectory of maximum power points even in the event of a sudden wind...",
+      "authors": [
+        "Fariba Fateh",
+        "Warren N. White",
+        "Don Gruenbacher"
+      ]
+    }
+  ],
+  "recent_works": []
+}

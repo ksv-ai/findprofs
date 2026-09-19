@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Jose Baca",
+  "full_name": "José Baca",
+  "department": "Department of Engineering",
+  "university": "Texas A&M University-Corpus Christi",
+  "author_id": "A5068841661",
+  "works_count": 74,
+  "cited_by_count": 375,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Modular Robots and Swarm Intelligence",
+      "count": 34
+    },
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 15
+    },
+    {
+      "topic": "Optimization and Search Problems",
+      "count": 13
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 12
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "ModRED: Hardware design and reconfiguration planning for a high dexterity modular self-reconfigurable robot for extra-terrestrial exploration",
+      "publication_year": 2013,
+      "publication_date": "2013-08-30",
+      "doi": "https://doi.org/10.1016/j.robot.2013.08.008",
+      "venue": "Robotics and Autonomous Systems",
+      "type": "article",
+      "cited_by_count": 76,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control reconfiguration",
+        "Modular design",
+        "Self-reconfiguring modular robot",
+        "Computer science",
+        "Robot",
+        "Overhead (engineering)",
+        "Simulation",
+        "Robot locomotion"
+      ],
+      "abstract": "",
+      "authors": [
+        "José Baca",
+        "Shakhawat Hossain",
+        "Prithviraj Dasgupta",
+        "Carl A. Nelson",
+        "Ayan Dutta"
+      ]
+    },
+    {
+      "title": "A heterogeneous modular robotic design for fast response to a diversity of tasks",
+      "publication_year": 2011,
+      "publication_date": "2011-12-10",
+      "doi": "https://doi.org/10.1016/j.robot.2011.11.013",
+      "venue": "Robotics and Autonomous Systems",
+      "type": "article",
+      "cited_by_count": 36,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Modular design",
+        "Robot",
+        "Self-reconfiguring modular robot",
+        "Task (project management)",
+        "Inverse kinematics",
+        "Control engineering",
+        "Simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "José Baca",
+        "Manuel Ferré",
+        "Rafaél Aracil"
+      ]
+    },
+    {
+      "title": "Configuration discovery of modular self-reconfigurable robots: Real-time, distributed, IR+XBee communication method",
+      "publication_year": 2017,
+      "publication_date": "2017-02-05",
+      "doi": "https://doi.org/10.1016/j.robot.2017.01.012",
+      "venue": "Robotics and Autonomous Systems",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Modular design",
+        "Robot",
+        "Graph",
+        "Self-reconfiguring modular robot",
+        "Robustness (evolution)",
+        "Adjacency matrix",
+        "A priori and a posteriori"
+      ],
+      "abstract": "",
+      "authors": [
+        "José Baca",
+        "Bradley Woosley",
+        "Prithviraj Dasgupta",
+        "Carl A. Nelson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "NanoBench: A Multi-Task Benchmark Dataset for Nano-Quadrotor System Identification, Control, and State Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-10",
+      "doi": "https://doi.org/10.48550/arxiv.2603.09908",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.09908",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Computer science",
+        "Trajectory",
+        "Controller (irrigation)",
+        "Estimator",
+        "Extended Kalman filter",
+        "Kalman filter",
+        "Inertial measurement unit"
+      ],
+      "abstract": "Existing aerial-robotics benchmarks target vehicles from hundreds of grams to several kilograms and typically expose only high-level state data. They omit the actuator-level signals required to study nano-scale quadrotors, where low-Reynoldsnumber aerodynamics, coreless DC motor nonlinearities, and severe computational constraints invalidate models and controllers developed for larger vehicles. We introduce NanoBench, an open-source multi-task benchmark collected on the commercially available Crazyflie 2.1 nano-quadrotor (takeoff weight 27 g) in a Vicon motion capture arena. The dataset comprises 172 flight recordings spanning multi-frequency excitation, geometric trajectory tracking at three speed regimes, and long-duration battery-drain hover. Each recording provides synchronized Vicon ground truth, raw IMU data, onboard extended Kalman filter (EKF) estimates, PID controller internals, and motor PWM commands at 100 Hz, alongside battery telemetry at 10 Hz, crossaligned by gyroscope-based correlation on a 1 ms search grid. NanoBench defines standardized evaluation protocols, train/test splits, and open-source baselines for three tasks: nonlinear system identification, closed-lo...",
+      "authors": [
+        "Syed Izzat Ullah",
+        "José Baca"
+      ]
+    },
+    {
+      "title": "NanoBench: A Multi-Task Benchmark Dataset for Nano-Quadrotor System Identification, Control, and State Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-10",
+      "doi": "https://arxiv.org/abs/2603.09908",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.09908",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Computer science",
+        "Trajectory",
+        "Controller (irrigation)",
+        "Estimator",
+        "Extended Kalman filter",
+        "Kalman filter",
+        "Inertial measurement unit"
+      ],
+      "abstract": "Existing aerial-robotics benchmarks target vehicles from hundreds of grams to several kilograms and typically expose only high-level state data. They omit the actuator-level signals required to study nano-scale quadrotors, where low-Reynoldsnumber aerodynamics, coreless DC motor nonlinearities, and severe computational constraints invalidate models and controllers developed for larger vehicles. We introduce NanoBench, an open-source multi-task benchmark collected on the commercially available Crazyflie 2.1 nano-quadrotor (takeoff weight 27 g) in a Vicon motion capture arena. The dataset comprises 172 flight recordings spanning multi-frequency excitation, geometric trajectory tracking at three speed regimes, and long-duration battery-drain hover. Each recording provides synchronized Vicon ground truth, raw IMU data, onboard extended Kalman filter (EKF) estimates, PID controller internals, and motor PWM commands at 100 Hz, alongside battery telemetry at 10 Hz, crossaligned by gyroscope-based correlation on a 1 ms search grid. NanoBench defines standardized evaluation protocols, train/test splits, and open-source baselines for three tasks: nonlinear system identification, closed-lo...",
+      "authors": [
+        "Syed Izzat Ullah",
+        "José Baca"
+      ]
+    },
+    {
+      "title": "Reconnaissance and Exploration with Multiple Autonomous Systems: Challenges and Opportunities Across Robot Coordination and Cybersecurity Strategies",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-18982-0_12",
+      "venue": "Lecture notes in networks and systems",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Computer science",
+        "Computer security",
+        "Key (lock)",
+        "Field (mathematics)",
+        "Engineering",
+        "Robotics",
+        "Automation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mariah Nicole Roberts",
+        "José Baca"
+      ]
+    },
+    {
+      "title": "Modular Reconfigurable Lighting System for Spacecraft Habitats Beyond Low Earth Orbit",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-18982-0_33",
+      "venue": "Lecture notes in networks and systems",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Low earth orbit",
+        "Spacecraft",
+        "Modular design",
+        "Orbit (dynamics)",
+        "Aerospace engineering",
+        "Remote sensing",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kimberly Lopez",
+        "Maria Rodriguez",
+        "Randall Sanchez",
+        "Dalton Gibbons",
+        "Cesar Vasquez",
+        "Miranda Sanchez",
+        "José Baca"
+      ]
+    },
+    {
+      "title": "M-DASTA: Modular Decoupled Architecture for Hybrid UAV Swarm Testing and Autonomy",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-18982-0_23",
+      "venue": "Lecture notes in networks and systems",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modular design",
+        "Computer science",
+        "Architecture",
+        "Control engineering",
+        "Engineering",
+        "Control (management)",
+        "Key (lock)",
+        "Swarm behaviour"
+      ],
+      "abstract": "",
+      "authors": [
+        "Josh Boyd",
+        "José Baca"
+      ]
+    }
+  ]
+}

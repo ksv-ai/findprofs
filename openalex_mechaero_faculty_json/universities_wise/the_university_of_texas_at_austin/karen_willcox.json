@@ -1,0 +1,271 @@
+{
+  "faculty_name": "Karen Willcox",
+  "full_name": "Karen Willcox",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics / Oden Institute",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5017431306",
+  "works_count": 364,
+  "cited_by_count": 22786,
+  "h_index": 60,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 164
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 153
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 78
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 39
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kinetics and Kinematics for Translational Motions in Microgravity During Parabolic Flight",
+      "publication_year": 2009,
+      "publication_date": "2009-06-01",
+      "doi": "https://doi.org/10.3357/asem.2356.2009",
+      "venue": "Aviation Space and Environmental Medicine",
+      "type": "article",
+      "cited_by_count": 5266,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kinematics",
+        "Weightlessness",
+        "Aerospace engineering",
+        "Kinetic energy",
+        "Physics",
+        "Control theory (sociology)",
+        "Simulation",
+        "Computer science"
+      ],
+      "abstract": "INTRODUCTION: Astronauts soaring through space modules with the grace of birds seems counterintuitive. How do they adapt to the weightless environment? Previous spaceflights have shown that astronauts in orbit adapt their motor strategies to each change in their gravitational environment. During adaptation, performance is degraded and can lead to mission-threatening injuries. If adaptation can occur before a mission, productivity during the mission might improve, minimizing risk. The goal is to combine kinetic and kinematic data to examine translational motions during microgravity adaptations. METHODS: Experiments were performed during parabolic flights aboard NASA's C-9. Five subjects used their legs to push off from a sensor, landing on a target 3.96 m (13 ft) away. The sensor quantified the kinetics during contact, while four cameras recorded kinematics during push-off. Joint torques were calculated for a subset of traverses (N = 50) using the forces, moments, and joint angles. RESULTS: During the 149 traverses, the average peak force exerted onto the sensor was 224.6 +/- 74.6 N, with peak values ranging between 65.8-461.9 N. Two types of force profiles were observed, some ha...",
+      "authors": [
+        "Leia Stirling",
+        "Karen Willcox",
+        "Philip Ferguson",
+        "Dava Newman"
+      ]
+    },
+    {
+      "title": "A Survey of Projection-Based Model Reduction Methods for Parametric Dynamical Systems",
+      "publication_year": 2015,
+      "publication_date": "2015-01-01",
+      "doi": "https://doi.org/10.1137/130932715",
+      "venue": "SIAM Review",
+      "type": "article",
+      "cited_by_count": 1941,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Parameterized complexity",
+        "Parametric statistics",
+        "Reduction (mathematics)",
+        "Computer science",
+        "Dynamical systems theory",
+        "Projection (relational algebra)",
+        "Nonparametric statistics",
+        "Parametric model"
+      ],
+      "abstract": "Numerical simulation of large-scale dynamical systems plays a fundamental role in studying a wide range of complex physical phenomena; however, the inherent large-scale nature of the models often leads to unmanageable demands on computational resources. Model reduction aims to reduce this computational burden by generating reduced models that are faster and cheaper to simulate, yet accurately represent the original large-scale system behavior. Model reduction of linear, nonparametric dynamical systems has reached a considerable level of maturity, as reflected by several survey papers and books. However, parametric model reduction has emerged only more recently as an important and vibrant research area, with several recent advances making a survey paper timely. Thus, this paper aims to provide a resource that draws together recent contributions in different communities to survey the state of the art in parametric model reduction methods. Parametric model reduction targets the broad class of problems for which the equations governing the system behavior depend on a set of parameters. Examples include parameterized partial differential equations and large-scale systems of parameter...",
+      "authors": [
+        "Peter Benner",
+        "Serkan Gugercin",
+        "Karen Willcox"
+      ]
+    },
+    {
+      "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+      "publication_year": 2018,
+      "publication_date": "2018-01-01",
+      "doi": "https://doi.org/10.1137/16m1082469",
+      "venue": "SIAM Review",
+      "type": "article",
+      "cited_by_count": 1072,
+      "is_oa": true,
+      "oa_url": "https://epubs.siam.org/doi/pdf/10.1137/16M1082469",
+      "concepts": [
+        "Inference",
+        "Computer science",
+        "Fidelity",
+        "Surrogate model",
+        "Speedup",
+        "Propagation of uncertainty",
+        "Uncertainty quantification",
+        "Mathematical optimization"
+      ],
+      "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity ...",
+      "authors": [
+        "Benjamin Peherstorfer",
+        "Karen Willcox",
+        "Max Gunzburger"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nested operator inference for adaptive data-driven learning of reduced-order models",
+      "publication_year": 2026,
+      "publication_date": "2026-06-25",
+      "doi": "https://doi.org/10.1007/s10444-026-10322-7",
+      "venue": "Advances in Computational Mathematics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10444-026-10322-7.pdf",
+      "concepts": [
+        "Parameterized complexity",
+        "Computer science",
+        "Inference",
+        "Algorithm",
+        "Snapshot (computer storage)",
+        "Theoretical computer science",
+        "Operator (biology)",
+        "Nested set model"
+      ],
+      "abstract": "This paper presents a data-driven, nested Operator Inference (OpInf) approach for learning physics-informed reduced-order models (ROMs) from snapshot data of high-dimensional dynamical systems. The approach exploits the inherent hierarchy within the reduced space to iteratively construct initial guesses for the OpInf learning problem that prioritize the interactions of the dominant modes. The initial guess computed for any target reduced dimension corresponds to a ROM with provably smaller or equal snapshot reconstruction error than with standard OpInf. Moreover, our nested OpInf algorithm can be warm-started from previously learned models, enabling versatile application scenarios involving dynamic basis and model form updates. We demonstrate the performance of our algorithm on a cubic heat conduction problem, with nested OpInf achieving a four times smaller error than standard OpInf at a comparable offline time. Further, we apply nested OpInf to a large-scale, parameterized model of the Greenland ice sheet where, despite model form approximation errors, it learns a ROM with, on average, 3 % error and computational speed-up factor above 19,000.",
+      "authors": [
+        "Nicole Aretz",
+        "Karen Willcox"
+      ]
+    },
+    {
+      "title": "TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.1186/s12911-026-03520-2",
+      "venue": "BMC Medical Informatics and Decision Making",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1186/s12911-026-03520-2",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Oncology",
+        "Medicine",
+        "Internal medicine",
+        "Medical physics",
+        "Programming language"
+      ],
+      "abstract": "BACKGROUND: Advances in the theory and methods of computational oncology have enabled accurate characterization and prediction of tumor growth and treatment response on a patient-specific basis. This capability can be integrated into a digital twin framework in which bi-directional data-flow between the physical tumor and the digital tumor facilitate dynamic model re-calibration, uncertainty quantification, and clinical decision-support via recommendation of optimal therapeutic interventions. However, many digital twin frameworks rely on bespoke implementations tailored to each disease site, modeling choice, and algorithmic implementation. FINDINGS: We present TumorTwin, a modular software framework for initializing, updating, and leveraging patient-specific cancer tumor digital twins. TumorTwin is publicly available as a Python package, with associated documentation, datasets, and tutorials. Novel contributions include the development of a patient-data structure adaptable to different disease sites, a modular architecture to enable the composition of different data, model, solver, and optimization objects, and CPU- or GPU-parallelized implementations of forward model solves and...",
+      "authors": [
+        "Michael G. Kapteyn",
+        "Anirban Chaudhuri",
+        "Ernesto A. B. F. Lima",
+        "Graham Pash",
+        "Rafael Bravo",
+        "Karen Willcox",
+        "Thomas E. Yankeelov",
+        "David A. Hormuth"
+      ]
+    },
+    {
+      "title": "Additional file 2 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887831",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32887831",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Programming language",
+        "Software",
+        "Software engineering",
+        "Medicine",
+        "Computer graphics (images)",
+        "File format"
+      ],
+      "abstract": "Supplementary Material 2",
+      "authors": [
+        "Michael G. Kapteyn",
+        "Anirban Chaudhuri",
+        "E. A. Lima",
+        "Graham Pash",
+        "Rafael Bravo",
+        "Karen Willcox",
+        "Thomas E. Yankeelov",
+        "David A. Hormuth II"
+      ]
+    },
+    {
+      "title": "Additional file 2 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887831.v1",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32887831.v1",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Programming language",
+        "Software",
+        "Software engineering",
+        "Medicine",
+        "Computer graphics (images)",
+        "File format"
+      ],
+      "abstract": "Supplementary Material 2",
+      "authors": [
+        "Michael G. Kapteyn",
+        "Anirban Chaudhuri",
+        "E. A. Lima",
+        "Graham Pash",
+        "Rafael Bravo",
+        "Karen Willcox",
+        "Thomas E. Yankeelov",
+        "David A. Hormuth II"
+      ]
+    },
+    {
+      "title": "Additional file 3 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887834",
+      "venue": "Figshare",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32887834",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Programming language",
+        "Software",
+        "Software engineering",
+        "Medicine",
+        "Computer graphics (images)",
+        "File format"
+      ],
+      "abstract": "Supplementary Material 3",
+      "authors": [
+        "Michael G. Kapteyn",
+        "Anirban Chaudhuri",
+        "E. A. Lima",
+        "Graham Pash",
+        "Rafael Bravo",
+        "Karen Willcox",
+        "Thomas E. Yankeelov",
+        "David A. Hormuth II"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Joaquim R. R. A. Martins",
+  "full_name": "Joaquim R. R. A. Martins",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Michigan-Ann Arbor",
+  "author_id": "A5002602051",
+  "works_count": 485,
+  "cited_by_count": 22018,
+  "h_index": 78,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 187
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 177
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 95
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 81
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 64
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Multipoint High-Fidelity Aerostructural Optimization of a Transport Aircraft Configuration",
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "doi": "https://doi.org/10.2514/1.c032150",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 382,
+      "is_oa": true,
+      "oa_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/140504/1/1.c032150.pdf",
+      "concepts": [
+        "Takeoff",
+        "Airfoil",
+        "Reduction (mathematics)",
+        "Aerodynamics",
+        "Shape optimization",
+        "Finite element method",
+        "Engineering",
+        "Control theory (sociology)"
+      ],
+      "abstract": "This paper presents multipoint high-fidelity aerostructural optimizations of a long-range wide-body transonic transport aircraft configuration. The aerostructural analysis employs Euler computational fluid dynamics with a 2-million-cell mesh and a structural finite-element model with 300,000 degrees of freedom. The coupled adjoint sensitivity method is used to efficiently compute gradients, enabling the use of gradient-based optimization with respect to hundreds of aerodynamic shape and structural sizing variables. The NASA Common Research Model is used as the baseline configuration, together with a wing box structure that was designed for this study. Two design optimization problems are solved: one where takeoff gross weight is minimized, and another where fuel burn is minimized. Each optimization uses a multipoint formulation with five cruise conditions and two maneuver conditions. Each of the optimization problems have 476 design variables, including wing planform, airfoil shape, and structural thickness variables. Optimized results are obtained within 36 h of wall time using 435 processors. The resulting optimal configurations are discussed and analyzed for the aerostructura...",
+      "authors": [
+        "Gaetan K. Kenway",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "Electric, hybrid, and turboelectric fixed-wing aircraft: A review of concepts, models, and design approaches",
+      "publication_year": 2018,
+      "publication_date": "2018-08-17",
+      "doi": "https://doi.org/10.1016/j.paerosci.2018.06.004",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 631,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Electrically powered spacecraft propulsion",
+        "Fixed wing",
+        "Systems engineering",
+        "Multidisciplinary approach",
+        "Multidisciplinary design optimization",
+        "Engineering",
+        "Electric power"
+      ],
+      "abstract": "",
+      "authors": [
+        "Benjamin J. Brelje",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "OpenMDAO: an open-source framework for multidisciplinary design, analysis, and optimization",
+      "publication_year": 2019,
+      "publication_date": "2019-03-01",
+      "doi": "https://doi.org/10.1007/s00158-019-02211-z",
+      "venue": "Structural and Multidisciplinary Optimization",
+      "type": "article",
+      "cited_by_count": 637,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00158-019-02211-z.pdf",
+      "concepts": [
+        "Multidisciplinary design optimization",
+        "Multidisciplinary approach",
+        "Engineering design process",
+        "Computer science",
+        "Open source",
+        "Systems engineering",
+        "Management science",
+        "Industrial engineering"
+      ],
+      "abstract": "Multidisciplinary design optimization (MDO) is concerned with solving design problems involving coupled numerical models of complex engineering systems. While various MDO software frameworks exist, none of them take full advantage of state-of-the-art algorithms to solve coupled models efficiently. Furthermore, there is a need to facilitate the computation of the derivatives of these coupled models for use with gradient-based optimization algorithms to enable design with respect to large numbers of variables. In this paper, we present the theory and architecture of OpenMDAO, an open-source MDO framework that uses Newton-type algorithms to solve coupled systems and exploits problem structure through new hierarchical strategies to achieve high computational efficiency. OpenMDAO also provides a framework for computing coupled derivatives efficiently and in a way that exploits problem sparsity. We demonstrate the framework’s efficiency by benchmarking scalable test problems. We also summarize a number of OpenMDAO applications previously reported in the literature, which include trajectory optimization, wing design, and structural topology optimization, demonstrating that the framewor...",
+      "authors": [
+        "Justin S. Gray",
+        "John T. Hwang",
+        "Joaquim R. R. A. Martins",
+        "Kenneth Moore",
+        "Bret A. Naylor"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multipoint Aerostructural Optimization of Wind Turbine Rotors Using a Coupled Blade‐Resolved Aerostructural Solver",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.1002/we.70135",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/we.70135",
+      "concepts": [
+        "Turbine",
+        "Aerodynamics",
+        "Wind power",
+        "Rotor (electric)",
+        "Thrust",
+        "Airfoil",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "ABSTRACT Physics‐based design optimization workflows thread the needle between computational cost limitations and simulation complexity, often compromising between modeling detail and the range of operating design conditions. Multipoint aerostructural optimization of wind turbine rotors has so far been confined to low‐fidelity analyses or to high‐fidelity studies with simplified structural models, leaving the most complex design trade‐offs unexplored. We close this gap by performing the first tightly coupled gradient‐based multipoint aerostructural rotor optimization using 3D aerodynamic and structural solvers with discrete coupled adjoints. The optimizer simultaneously varies blade planform, airfoil shapes, and structural thickness through more than 270 design variables, minimizing a weighted combination of rotor mass and power across multiple wind speeds. Applied to a modified DTU 10‐MW benchmark under conservative structural and aerodynamic constraints, our multipoint optimization reduces rotor mass by up to 36% and increases power by 12%–15% across the main operating conditions; biasing the objective toward power yields power gains up to 18% and a 17% mass reduction. For a n...",
+      "authors": [
+        "Marco Mangano",
+        "Eiríkur Jónsson",
+        "Yingqian Liao",
+        "Denis-Gabriel Caprace",
+        "Andrew Ning",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "Accelerating Bayesian Inference via Multifidelity Transport Map Coupling",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://doi.org/10.2514/1.j066460",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.17946",
+      "concepts": [
+        "Uncertainty quantification",
+        "Robustness (evolution)",
+        "Computer science",
+        "Markov chain Monte Carlo",
+        "Monte Carlo method",
+        "Bayesian inference",
+        "Bayesian probability",
+        "Estimator"
+      ],
+      "abstract": "Mathematical models in computational physics involve uncertain parameters that impact prediction accuracy. In turbulence modeling, this challenge is especially significant: Reynolds-averaged Navier–Stokes models, such as the Spalart–Allmaras model, are widely used for their speed and robustness but often suffer from inaccuracies and associated uncertainties due to imperfect model parameters. Reliable quantification of these uncertainties is becoming increasingly important in aircraft certification by analysis, where predictive credibility is critical. Bayesian inference provides a framework to estimate these parameters and quantify output uncertainty, but traditional methods are prohibitively expensive, especially when relying on high-fidelity simulations. We address the challenge of expensive Bayesian parameter estimation by developing a multifidelity framework that combines Markov chain Monte Carlo methods with multilevel Monte Carlo (MLMC) estimators to efficiently solve inverse problems. The MLMC approach requires correlated samples across different fidelity levels, achieved through a novel transport-map-based coupling algorithm. We demonstrate a 50% reduction in inference c...",
+      "authors": [
+        "Sanjan C. Muchandimath",
+        "Joaquim R. R. A. Martins",
+        "Alex Gorodetsky"
+      ]
+    },
+    {
+      "title": "Buffet Alleviation via Linear Stability Adjoint",
+      "publication_year": 2026,
+      "publication_date": "2026-05-06",
+      "doi": "https://doi.org/10.48550/arxiv.2605.04884",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.04884",
+      "concepts": [
+        "Mathematics",
+        "Transonic",
+        "Airfoil",
+        "Applied mathematics",
+        "Control theory (sociology)",
+        "Mathematical optimization",
+        "Stability (learning theory)",
+        "Eigenvalues and eigenvectors"
+      ],
+      "abstract": "Transonic buffet, self--sustained shock and shear--layer oscillations, imposes hard limits on the cruise envelope of modern transport aircraft, and avoiding it is a primary design driver. State-of-the-art buffet-onset criteria used in design, such as the $Δα= 0.1^\\circ$ criterion and separation--sensor methods, are empirical surrogates rather than first--principle predictors, and can yield either overly conservative or unsafe designs. Linear stability analysis (LST) predicts buffet onset directly from the spectrum of the linearized operator about the steady base flow, but using it as an aerodynamic shape optimization constraint has been bottlenecked by the cost of differentiating an eigenvalue with respect to many design variables. In this paper, we develop a coupled adjoint method that efficiently computes the sensitivity of the dominant LST eigenvalue with respect to a large number of shape design variables, by reusing the steady CFD adjoint within a top and bottom level decomposition of the eigenproblem. We verify the eigensolver and adjoint against the canonical cylinder vortex--shedding benchmark, then verify the LST predictions on the OAT15A supercritical airfoil at $M=0.7...",
+      "authors": [
+        "Rohit Sunil Kanchi",
+        "Sicheng He",
+        "Eiríkur Jónsson",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "Buffet Alleviation via Linear Stability Adjoint",
+      "publication_year": 2026,
+      "publication_date": "2026-05-06",
+      "doi": "https://arxiv.org/abs/2605.04884",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.04884",
+      "concepts": [
+        "Mathematics",
+        "Transonic",
+        "Airfoil",
+        "Applied mathematics",
+        "Control theory (sociology)",
+        "Mathematical optimization",
+        "Stability (learning theory)",
+        "Eigenvalues and eigenvectors"
+      ],
+      "abstract": "Transonic buffet, self--sustained shock and shear--layer oscillations, imposes hard limits on the cruise envelope of modern transport aircraft, and avoiding it is a primary design driver. State-of-the-art buffet-onset criteria used in design, such as the $Δα= 0.1^\\circ$ criterion and separation--sensor methods, are empirical surrogates rather than first--principle predictors, and can yield either overly conservative or unsafe designs. Linear stability analysis (LST) predicts buffet onset directly from the spectrum of the linearized operator about the steady base flow, but using it as an aerodynamic shape optimization constraint has been bottlenecked by the cost of differentiating an eigenvalue with respect to many design variables. In this paper, we develop a coupled adjoint method that efficiently computes the sensitivity of the dominant LST eigenvalue with respect to a large number of shape design variables, by reusing the steady CFD adjoint within a top and bottom level decomposition of the eigenproblem. We verify the eigensolver and adjoint against the canonical cylinder vortex--shedding benchmark, then verify the LST predictions on the OAT15A supercritical airfoil at $M=0.7...",
+      "authors": [
+        "Rohit Sunil Kanchi",
+        "Sicheng He",
+        "Eiríkur Jónsson",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "Inverse Mapping for Airfoil Optimization Using Multifidelity Reduced-Order Neural Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.2514/1.c038635",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Surrogate model",
+        "Robustness (evolution)",
+        "Computer science",
+        "Mathematical optimization",
+        "Aerodynamics",
+        "Space mapping",
+        "Algorithm"
+      ],
+      "abstract": "Aerodynamic design optimization improves aircraft performance and reduces emissions, but conventional approaches iterate on high-fidelity simulations, creating a computational bottleneck. Surrogate-based design optimization can address this bottleneck, but training surrogate models is costly and surrogate-based design requires optimization iterations, which can be prohibitive for resource-limited applications. To eliminate the need for online optimization, we propose a new aerodynamic design architecture—inverse mapping. This architecture uses a surrogate to directly predict optimal airfoil shapes from design requirements, including constraints and flight conditions. The inverse mapping poses two challenges: high complexity and the cost of generating training samples through simulation-based optimizations. We address these challenges by exploiting a low-rank space via singular value decomposition to reduce the mapping complexity and by using multifidelity surrogate modeling to reduce the computational cost. We demonstrate the inverse-mapping architecture on airfoil design in transonic viscous flows with fixed constraints setup. A single-fidelity surrogate trained on the full set...",
+      "authors": [
+        "Xiaosong Du",
+        "Joaquim R. R. A. Martins",
+        "Thomas O’Leary-Roseberry"
+      ]
+    }
+  ]
+}

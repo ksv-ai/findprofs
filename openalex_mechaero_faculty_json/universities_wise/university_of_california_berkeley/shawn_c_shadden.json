@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Shawn C. Shadden",
+  "full_name": "Shawn C. Shadden",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of California-Berkeley",
+  "author_id": "A5045646606",
+  "works_count": 191,
+  "cited_by_count": 7599,
+  "h_index": 47,
+  "top_topics": [
+    {
+      "topic": "Cardiovascular Function and Risk Factors",
+      "count": 28
+    },
+    {
+      "topic": "Coronary Interventions and Diagnostics",
+      "count": 21
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 20
+    },
+    {
+      "topic": "Elasticity and Material Modeling",
+      "count": 20
+    },
+    {
+      "topic": "Cardiovascular Health and Disease Prevention",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Definition and properties of Lagrangian coherent structures from finite-time Lyapunov exponents in two-dimensional aperiodic flows",
+      "publication_year": 2005,
+      "publication_date": "2005-11-29",
+      "doi": "https://doi.org/10.1016/j.physd.2005.10.007",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 1356,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lyapunov exponent",
+        "Dynamical systems theory",
+        "Flow (mathematics)",
+        "Vector field",
+        "Mathematics",
+        "Computation",
+        "Mathematical analysis",
+        "Aperiodic graph"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shawn C. Shadden",
+        "François Lekien",
+        "Jerrold E. Marsden"
+      ]
+    },
+    {
+      "title": "SimVascular: An Open Source Pipeline for Cardiovascular Simulation",
+      "publication_year": 2016,
+      "publication_date": "2016-12-08",
+      "doi": "https://doi.org/10.1007/s10439-016-1762-8",
+      "venue": "Annals of Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 681,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6546171",
+      "concepts": [
+        "Pipeline (software)",
+        "Standardization",
+        "Usability",
+        "Computer science",
+        "Software engineering",
+        "Open source",
+        "Software",
+        "Source code"
+      ],
+      "abstract": "",
+      "authors": [
+        "Adam Updegrove",
+        "Nathan M. Wilson",
+        "Jameson Merkow",
+        "Hongzhi Lan",
+        "Alison L. Marsden",
+        "Shawn C. Shadden"
+      ]
+    },
+    {
+      "title": "Quantification of Hemodynamics in Abdominal Aortic Aneurysms During Rest and Exercise Using Magnetic Resonance Imaging and Computational Fluid Dynamics",
+      "publication_year": 2010,
+      "publication_date": "2010-02-08",
+      "doi": "https://doi.org/10.1007/s10439-010-9949-x",
+      "venue": "Annals of Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 322,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6203348",
+      "concepts": [
+        "Hemodynamics",
+        "Shear stress",
+        "Cardiology",
+        "Internal medicine",
+        "Magnetic resonance imaging",
+        "Abdominal aortic aneurysm",
+        "Medicine",
+        "Turbulence kinetic energy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andrea S. Les",
+        "Shawn C. Shadden",
+        "C. Alberto Figueroa",
+        "Jinha Park",
+        "Maureen M. Tedesco",
+        "Robert J. Herfkens",
+        "Ronald L. Dalman",
+        "Charles A. Taylor"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Automated Centerline Extraction From Meshed Vascular Models",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1002/cnm.70183",
+      "venue": "International Journal for Numerical Methods in Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/cnm.70183",
+      "concepts": [
+        "Polygon mesh",
+        "Eikonal equation",
+        "Segmentation",
+        "Computer science",
+        "Point (geometry)",
+        "Computer vision",
+        "Surface (topology)",
+        "Finite element method"
+      ],
+      "abstract": "Centerlines of vascular structures are essential for the analysis of vascular anatomy as well as the development of computational models for simulating biomechanics. In this paper, we present a centerline extraction framework for vascular geometries implemented on piece-wise linear surface meshes, from which tetrahedral volumetric meshes are generated. Our approach involves solving the Eikonal equation using the finite element method to describe wave propagation for automatic endpoint identification and centerline tracing. We evaluated the framework on 19 vascular meshes with varying anatomies and construction methods, comparing our results to those obtained using the widely used Vascular Modeling Toolkit (VMTK) as a benchmark. The proposed method produces well-centered centerlines within a reasonable time frame without the need for tedious outlet labeling required by VMTK. Furthermore, it considerably outperforms VMTK when extracting centerlines from less smooth surface meshes, such as those generated using machine learning-based segmentation techniques.",
+      "authors": [
+        "Gala Sanchez van Moer",
+        "Shawn C. Shadden"
+      ]
+    },
+    {
+      "title": "MeshGrow: Integrated framework for simulation-ready cardiac and vascular mesh construction from medical imaging",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1177/20480040261455944",
+      "venue": "JRSM Cardiovascular Disease",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1177/20480040261455944",
+      "concepts": [
+        "Benchmark (surveying)",
+        "Metric (unit)",
+        "Computer science",
+        "Process (computing)",
+        "Medical imaging",
+        "Cardiac imaging",
+        "Artificial intelligence",
+        "Data mining"
+      ],
+      "abstract": "Patient-specific cardiovascular simulations are an integral part of cardiovascular research and are increasingly finding use in clinical practice. A primary factor hindering large cohort studies and clinical utilization of cardiovascular simulations is the time-consuming process of constructing simulation-suitable computer models from medical image data. Methods have been proposed to automate the model construction process, but are tailored to either vascular or cardiac models. We herein propose a framework, MeshGrow, that is capable of combining automated modeling of cardiac and extended vascular territories. Namely, we demonstrate that this method can be used to reconstruct the main cardiac chambers along with the aorta and its main sub-branches, and returns a simulation-suitable mesh with a defined aortic valve surface and other surfaces needed for boundary condition specification. MeshGrow combines two different machine learning based techniques to address the specific challenges involved with cardiac and vascular model construction. This results in a two-stage approach; (a) meshing the cardiac structures and (b) growing the vasculature out from it. We present results of our...",
+      "authors": [
+        "Numi Sveinsson Cepero",
+        "Arjun Narayanan",
+        "Fanwei Kong",
+        "Shawn C. Shadden"
+      ]
+    },
+    {
+      "title": "Characterization of coherent flow structures in brain ventricles",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.48550/arxiv.2603.18849",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.18849",
+      "concepts": [
+        "Flow (mathematics)",
+        "Mechanics",
+        "Displacement (psychology)",
+        "Physics",
+        "Hele-Shaw flow",
+        "Fluid dynamics",
+        "Finite element method",
+        "Pulsatile flow"
+      ],
+      "abstract": "The dynamic flow of cerebrospinal fluid (CSF) in brain ventricles exhibits flow features on several scales, both spatially and temporally. Most analysis of this complex flow and the accompanying transport has used instantaneous (Eulerian) flow variables. Such analysis makes understanding of unsteady transport challenging. Here, we analyze brain ventricular CSF flow both in a Eulerian sense and from the Lagrangian perspective -- a time-integrated view of the flow. With geometries generated from imaging data, we model CSF flow in adult human and embryonic zebrafish brain ventricles. In the human brain we model flow governed by cardiovascular pulsations, CSF secretion and motile cilia. The flow driven by cardiovascular pulsations is derived from a damped linear elastic model of brain ventricle deformations, as a result of applying displacement boundary conditions derived from experimental data. In the zebrafish brain we consider flow driven solely by motile cilia. The tissue and flow models are implemented and solved with finite element methods. We use the resulting velocity fields to compute finite-time Lyapunov exponent (FTLE) fields and use these fields to characterize Lagrangia...",
+      "authors": [
+        "Halvor Herlyng",
+        "Shawn C. Shadden"
+      ]
+    },
+    {
+      "title": "Characterization of coherent flow structures in brain ventricles",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "http://arxiv.org/abs/2603.18849",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.18849",
+      "concepts": [
+        "Flow (mathematics)",
+        "Mechanics",
+        "Displacement (psychology)",
+        "Physics",
+        "Hele-Shaw flow",
+        "Fluid dynamics",
+        "Finite element method",
+        "Pulsatile flow"
+      ],
+      "abstract": "The dynamic flow of cerebrospinal fluid (CSF) in brain ventricles exhibits flow features on several scales, both spatially and temporally. Most analysis of this complex flow and the accompanying transport has used instantaneous (Eulerian) flow variables. Such analysis makes understanding of unsteady transport challenging. Here, we analyze brain ventricular CSF flow both in a Eulerian sense and from the Lagrangian perspective -- a time-integrated view of the flow. With geometries generated from imaging data, we model CSF flow in adult human and embryonic zebrafish brain ventricles. In the human brain we model flow governed by cardiovascular pulsations, CSF secretion and motile cilia. The flow driven by cardiovascular pulsations is derived from a damped linear elastic model of brain ventricle deformations, as a result of applying displacement boundary conditions derived from experimental data. In the zebrafish brain we consider flow driven solely by motile cilia. The tissue and flow models are implemented and solved with finite element methods. We use the resulting velocity fields to compute finite-time Lyapunov exponent (FTLE) fields and use these fields to characterize Lagrangia...",
+      "authors": [
+        "Halvor Herlyng",
+        "Shawn C. Shadden"
+      ]
+    },
+    {
+      "title": "Software and data for \"Characterization of coherent flow structures in brain ventricles\"",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.5281/zenodo.18929147",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18929147",
+      "concepts": [
+        "Software",
+        "Computer science",
+        "Computation",
+        "Flow (mathematics)",
+        "Code (set theory)",
+        "Finite element method",
+        "Engineering drawing",
+        "Data flow diagram"
+      ],
+      "abstract": "This repository contains the code, geometries and data used in the paper Characterization of coherent flow structures in brain ventricles by Halvor Herlyng (Simula Research Laboratory) and Shawn C. Shadden (University of California, Berkeley). The FEM software `lagrangian-csf-ventricles` is licensed under an MIT License. The FTLE computation code `flowVC` is Copyright 2013 Shadden Research Group, all rights reserved.",
+      "authors": [
+        "Halvor Herlyng",
+        "Shawn C. Shadden"
+      ]
+    }
+  ]
+}

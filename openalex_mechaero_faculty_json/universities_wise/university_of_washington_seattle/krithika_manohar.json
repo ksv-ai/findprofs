@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Krithika Manohar",
+  "full_name": "Krithika Manohar",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Washington-Seattle",
+  "author_id": "A5060988111",
+  "works_count": 50,
+  "cited_by_count": 563,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 15
+    },
+    {
+      "topic": "Neural Networks and Reservoir Computing",
+      "count": 6
+    },
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 4
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 4
+    },
+    {
+      "topic": "Neural Networks and Applications",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Environment identification in flight using sparse approximation of wing strain",
+      "publication_year": 2017,
+      "publication_date": "2017-02-08",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2017.01.008",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1606.00034",
+      "concepts": [
+        "Aerodynamics",
+        "Wing",
+        "Computer science",
+        "Artificial intelligence",
+        "Noise (video)",
+        "Pattern recognition (psychology)",
+        "Dimensionality reduction",
+        "Identification (biology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krithika Manohar",
+        "Steven L. Brunton",
+        "J. Nathan Kutz"
+      ]
+    },
+    {
+      "title": "Predicting shim gaps in aircraft assembly with machine learning and sparse sensing",
+      "publication_year": 2018,
+      "publication_date": "2018-03-27",
+      "doi": "https://doi.org/10.1016/j.jmsy.2018.01.011",
+      "venue": "Journal of Manufacturing Systems",
+      "type": "article",
+      "cited_by_count": 79,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jmsy.2018.01.011",
+      "concepts": [
+        "Airframe",
+        "Outlier",
+        "Shim (computing)",
+        "Robust principal component analysis",
+        "Computer science",
+        "Metrology",
+        "Principal component analysis",
+        "Engineering"
+      ],
+      "abstract": "A modern aircraft may require on the order of thousands of custom shims to fill gaps between structural components in the airframe that arise due to manufacturing tolerances adding up across large structures. These shims, whether liquid or solid, are necessary to eliminate gaps, maintain structural performance, and minimize pull-down forces required to bring the aircraft into engineering nominal configuration for peak aerodynamic efficiency. Currently, gap filling is a time-consuming process, involving either expensive by-hand inspection or computations on vast quantities of measurement data from increasingly sophisticated metrology equipment. In either case, this amounts to significant delays in production, with much of the time being spent in the critical path of the aircraft assembly. In this work, we present an alternative strategy for predictive shimming, based on machine learning and sparse sensing to first learn gap distributions from historical data, and then design optimized sparse sensing strategies to streamline the collection and processing of data. This new approach is based on the assumption that patterns exist in shim distributions across aircraft, and that these ...",
+      "authors": [
+        "Krithika Manohar",
+        "Thomas A. Hogan",
+        "Jim Buttrick",
+        "Ashis G. Banerjee",
+        "J. Nathan Kutz",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "Sparse Principal Component Analysis via Variable Projection",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "doi": "https://doi.org/10.1137/18m1211350",
+      "venue": "SIAM Journal on Applied Mathematics",
+      "type": "article",
+      "cited_by_count": 161,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1804.00341",
+      "concepts": [
+        "Robust principal component analysis",
+        "Leverage (statistics)",
+        "Principal component analysis",
+        "Sparse PCA",
+        "Scalability",
+        "Computer science",
+        "Random projection",
+        "Big data"
+      ],
+      "abstract": "Sparse principal component analysis (SPCA) has emerged as a powerful technique for modern data analysis, providing improved interpretation of low-rank structures by identifying localized spatial structures in the data and disambiguating between distinct time scales. We demonstrate a robust and scalable SPCA algorithm by formulating it as a value-function optimization problem. This viewpoint leads to a flexible and computationally efficient algorithm. The approach can further leverage randomized methods from linear algebra to extend SPCA to the large-scale (big data) setting. Our proposed innovation also allows for a robust SPCA formulation which obtains meaningful sparse principal components in spite of grossly corrupted input data. The proposed algorithms are demonstrated using both synthetic and real world data, and show exceptional computational efficiency and diagnostic performance.",
+      "authors": [
+        "N. Benjamin Erichson",
+        "Peng Zheng",
+        "Krithika Manohar",
+        "Steven L. Brunton",
+        "J. Nathan Kutz",
+        "Aleksandr Y. Aravkin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Machine Learning‐Assisted Inverse Design of Soft and Multifunctional Hybrid Liquid Metal Composites",
+      "publication_year": 2026,
+      "publication_date": "2026-05-11",
+      "doi": "https://doi.org/10.1002/adfm.75719",
+      "venue": "Advanced Functional Materials",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.75719",
+      "concepts": [
+        "Materials science",
+        "Electronics",
+        "Bayesian optimization",
+        "Inverse",
+        "Homogenization (climate)",
+        "Composite number",
+        "Mechanical engineering",
+        "Thermal conductivity"
+      ],
+      "abstract": "ABSTRACT Soft functional materials are essential for wearables and stretchable electronics to meet multiple performance demands. Hybrid filler composites (HFCs) with liquid and solid inclusions offer tailored properties. However, identifying optimal compositions through conventional trial‐and‐error is costly, inefficient, and generates substantial material waste. We present an inverse design framework for hybrid liquid metal composites that combines data generation from a physics‐based homogenization model with machine learning (ML) algorithms and Bayesian optimization to enable intelligent design of experiments. This framework explores ∼690 000 composite formulations across diverse polymers and solid fillers, revealing key composition–property relationships while achieving targeted optimization of thermal conductivity, elasticity, and density with minimal material use. Comparative studies between Random Forest regression and a generative model provide practical strategies for identifying synthesizable composites. An inversely designed HFC achieves a thermal conductivity of ∼2.4 W/(m·K), 1.6 × that of the liquid‐metal composite and 12 × that of the polymer, while maintaining low...",
+      "authors": [
+        "Lijun Zhou",
+        "Yunsik Ohm",
+        "Ren‐Mian Chin",
+        "Olivia Kerr",
+        "Krithika Manohar",
+        "Mohammad H. Malakooti"
+      ]
+    },
+    {
+      "title": "Reservoir computing for system identification and model predictive control",
+      "publication_year": 2026,
+      "publication_date": "2026-05-09",
+      "doi": "https://doi.org/10.1016/j.neunet.2026.109031",
+      "venue": "Neural Networks",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.neunet.2026.109031",
+      "concepts": [
+        "Model predictive control",
+        "Computer science",
+        "Reservoir computing",
+        "System identification",
+        "Identification (biology)",
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Control system"
+      ],
+      "abstract": "Model predictive control (MPC), widely used for real-time control of complex dynamical systems, operates by repeatedly solving an optimization problem over a receding time horizon. Its success hinges on dynamical models that are accurate yet efficient enough for rapid online computation. Frequently, the governing models of complex systems are either unknown or computationally inefficient, forcing MPC to rely on data-driven surrogate models. Echo state networks (ESNs), a class of recurrent neural networks trained through computationally efficient ridge regression, are well-suited for this role and have demonstrated strong forecasting capabilities in chaotic dynamical systems. Their architecture naturally supports rapid training and flexible adaptation to varying control inputs. In this work, we demonstrate that ESNs serve as effective data-driven surrogates for system dynamics under diverse control scenarios, outperforming competing architectures such as long short-term memory (LSTM) networks. On challenging control benchmarks, including the Lorenz system with control and fluid flow past a cylinder, MPC with ESN surrogates consistently achieves the control objective, whereas the ...",
+      "authors": [
+        "Jan P. Williams",
+        "J. Nathan Kutz",
+        "Krithika Manohar"
+      ]
+    },
+    {
+      "title": "OpenReservoirComputing: GPU-Accelerated Reservoir Computing in JAX",
+      "publication_year": 2026,
+      "publication_date": "2026-03-16",
+      "doi": "https://doi.org/10.48550/arxiv.2603.14802",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.14802",
+      "concepts": [
+        "Modular design",
+        "Python (programming language)",
+        "Computer science",
+        "Reservoir computing",
+        "Modelica",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Control engineering"
+      ],
+      "abstract": "OpenReservoirComputing (ORC) is a Python library for reservoir computing (RC) written in JAX (Bradbury et al. 2018) and Equinox (Kidger and Garcia 2021). JAX is a Python library for high-performance numerical computing that enables automatic differentiation, just-in-time (JIT) compilation, and GPU/TPU acceleration, while Equinox is a neural network framework for JAX. RC is a form of machine learning that functions by lifting a low-dimensional sequence or signal into a high-dimensional dynamical system and training a simple, linear readout layer from the high-dimensional dynamics back to a lower-dimensional quantity of interest. The most common application of RC is time-series forecasting, where the goal is to predict a signal's future evolution. RC has achieved state-of-the-art performance on this task, particularly when applied to chaotic dynamical systems. In addition, RC approaches can be adapted to perform classification and control tasks. ORC provides both modular components for building custom RC models and built-in models for forecasting, classification, and control. By building on JAX and Equinox, ORC offers GPU acceleration, JIT compilation, and automatic vectorization....",
+      "authors": [
+        "Jan Williams",
+        "Dima Tretiak",
+        "Steven L. Brunton",
+        "J. Nathan Kutz",
+        "Krithika Manohar"
+      ]
+    },
+    {
+      "title": "OpenReservoirComputing: GPU-Accelerated Reservoir Computing in JAX",
+      "publication_year": 2026,
+      "publication_date": "2026-03-16",
+      "doi": "http://arxiv.org/abs/2603.14802",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.14802",
+      "concepts": [
+        "Modular design",
+        "Python (programming language)",
+        "Computer science",
+        "Reservoir computing",
+        "Modelica",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Control engineering"
+      ],
+      "abstract": "OpenReservoirComputing (ORC) is a Python library for reservoir computing (RC) written in JAX (Bradbury et al. 2018) and Equinox (Kidger and Garcia 2021). JAX is a Python library for high-performance numerical computing that enables automatic differentiation, just-in-time (JIT) compilation, and GPU/TPU acceleration, while Equinox is a neural network framework for JAX. RC is a form of machine learning that functions by lifting a low-dimensional sequence or signal into a high-dimensional dynamical system and training a simple, linear readout layer from the high-dimensional dynamics back to a lower-dimensional quantity of interest. The most common application of RC is time-series forecasting, where the goal is to predict a signal's future evolution. RC has achieved state-of-the-art performance on this task, particularly when applied to chaotic dynamical systems. In addition, RC approaches can be adapted to perform classification and control tasks. ORC provides both modular components for building custom RC models and built-in models for forecasting, classification, and control. By building on JAX and Equinox, ORC offers GPU acceleration, JIT compilation, and automatic vectorization....",
+      "authors": [
+        "Jan Williams",
+        "Dima Tretiak",
+        "Steven L. Brunton",
+        "J. Nathan Kutz",
+        "Krithika Manohar"
+      ]
+    },
+    {
+      "title": "Online Kernel Dynamic Mode Decomposition for Streaming Time Series Forecasting with Adaptive Windowing",
+      "publication_year": 2025,
+      "publication_date": "2025-10-17",
+      "doi": "https://doi.org/10.48550/arxiv.2510.15404",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.15404",
+      "concepts": [
+        "Computer science",
+        "Dynamic mode decomposition",
+        "Benchmark (surveying)",
+        "Streaming data",
+        "Kernel (algebra)",
+        "Mode (computer interface)",
+        "Online algorithm",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Real-time forecasting from streaming data poses critical challenges: handling non-stationary dynamics, operating under strict computational limits, and adapting rapidly without catastrophic forgetting. However, many existing approaches face trade-offs between accuracy, adaptability, and efficiency, particularly when deployed in constrained computing environments. We introduce WORK-DMD (Windowed Online Random Kernel Dynamic Mode Decomposition), a method that combines Random Fourier Features with online Dynamic Mode Decomposition to capture nonlinear dynamics through explicit feature mapping, while preserving fixed computational cost and competitive predictive accuracy across evolving data. WORK-DMD employs Sherman-Morrison updates within rolling windows, enabling continuous adaptation to evolving dynamics from only current data, eliminating the need for lengthy training or large storage requirements for historical data. Experiments on benchmark datasets across several domains show that WORK-DMD achieves higher accuracy than several state-of-the-art online forecasting methods, while requiring only a single pass through the data and demonstrating particularly strong performance in ...",
+      "authors": [
+        "Christopher Salazar",
+        "Krithika Manohar",
+        "Ashis G. Banerjee"
+      ]
+    }
+  ]
+}

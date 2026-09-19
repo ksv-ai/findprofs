@@ -1,0 +1,260 @@
+{
+  "faculty_name": "David Salac",
+  "full_name": "David Salač",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University at Buffalo (SUNY Buffalo)",
+  "author_id": "A5087950364",
+  "works_count": 82,
+  "cited_by_count": 443,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 15
+    },
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 13
+    },
+    {
+      "topic": "Solidification and crystal growth phenomena",
+      "count": 9
+    },
+    {
+      "topic": "nanoparticles nucleation surface interactions",
+      "count": 9
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A level set projection model of lipid vesicles in general flows",
+      "publication_year": 2011,
+      "publication_date": "2011-07-29",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.07.019",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 77,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Projection (relational algebra)",
+        "Regular grid",
+        "Convergence (economics)",
+        "Vesicle",
+        "Cartesian coordinate system",
+        "Projection method",
+        "Mathematics",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "David Salač",
+        "Michael J. Miksis"
+      ]
+    },
+    {
+      "title": "Reynolds number effects on lipid vesicles",
+      "publication_year": 2012,
+      "publication_date": "2012-08-31",
+      "doi": "https://doi.org/10.1017/jfm.2012.380",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Vesicle",
+        "Mechanics",
+        "Physics",
+        "Shear flow",
+        "Stokes flow",
+        "Classical mechanics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Abstract Vesicles exposed to the human circulatory system experience a wide range of flows and Reynolds numbers. Previous investigations of vesicles in fluid flow have focused on the Stokes flow regime. In this work the influence of inertia on the dynamics of a vesicle in a shearing flow is investigated using a novel level-set computational method in two dimensions. A detailed analysis of the behaviour of a single vesicle at finite Reynolds number is presented. At low Reynolds numbers the results recover vesicle behaviour previously observed for Stokes flow. At moderate Reynolds numbers the classical tumbling behaviour of highly viscous vesicles is no longer observed. Instead, the vesicle is observed to tank-tread, with an equilibrium angle dependent on the Reynolds number and the reduced area of the vesicle. It is shown that a vesicle with an inner/outer fluid viscosity ratio as high as 200 will not tumble if the Reynolds number is as low as 10. A new damped tank-treading behaviour, where the vesicle will briefly oscillate about the equilibrium inclination angle, is also observed. This behaviour is explained by an investigation on the torque acting on a vesicle in shear flow. S...",
+      "authors": [
+        "David Salač",
+        "Michael J. Miksis"
+      ]
+    },
+    {
+      "title": "Patterning Multilayers of Molecules via Self-Organization",
+      "publication_year": 2005,
+      "publication_date": "2005-04-13",
+      "doi": "https://doi.org/10.1103/physrevlett.94.146103",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 35,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Self-organization",
+        "Dipole",
+        "Electric field",
+        "Self-assembly",
+        "Scaling",
+        "Chemical physics",
+        "Nanotechnology"
+      ],
+      "abstract": "The electric dipole interaction among adsorbate molecules may cause them to form regular nanopatterns. In a multilayer system, the self-organization of each layer is also influenced by the underlying layers. This Letter develops a phase field model to simulate the molecular patterning process. The study reveals self-alignment, scaling down of size, and the effect of guided self-assembly with embedded electrodes.",
+      "authors": [
+        "Wei Lü",
+        "David Salač"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Damage Prediction of Sintered α-SiC Using Thermo-mechanical Coupled Fracture Model",
+      "publication_year": 2026,
+      "publication_date": "2026-03-05",
+      "doi": "https://doi.org/10.48550/arxiv.2603.04753",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.04753",
+      "concepts": [
+        "Fracture toughness",
+        "Materials science",
+        "Flexural strength",
+        "Fracture (geology)",
+        "Brittleness",
+        "Composite material",
+        "Tension (geology)",
+        "Toughness"
+      ],
+      "abstract": "A three-way coupled thermo-mechanical fracture model is presented to predict the damage of brittle ceramics, in particular α-SiC, over a wide range of temperatures (20-1400 C). Predicting damage over such a range of temperatures is crucial for thermal protection systems for many systems such as spacecraft. The model, which has been implemented in MOOSE, is divided into three modules: elasticity, damage phase field, and heat conduction. Analytical approaches for determining crack length scales are presented for both simple tension and simple shear. Validation tests are conducted for both flexural strength and fracture toughness over the specified range of temperatures. Flexural strength simulation results fall within the uncertainty region of the experimental data, and mode I fracture toughness simulation results are also in agreement with the experimental data. Mode II and mixed mode fracture toughness simulations results are presented with the modified G-criterion. Finally, the parallel computing capabilities of the model is considered in various scalability tests.",
+      "authors": [
+        "Jason Sun",
+        "Yu Chen",
+        "Joseph J. Marziale",
+        "Eric A. Walker",
+        "David Salač",
+        "James Chen"
+      ]
+    },
+    {
+      "title": "The effect of chemical vapor infiltration process parameters on flexural strength of porous α-SiC: A numerical model",
+      "publication_year": 2026,
+      "publication_date": "2026-03-04",
+      "doi": "https://doi.org/10.48550/arxiv.2603.04287",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.04287",
+      "concepts": [
+        "Chemical vapor infiltration",
+        "Flexural strength",
+        "Materials science",
+        "Porosity",
+        "Composite material",
+        "Infiltration (HVAC)",
+        "Nonlinear system",
+        "Bending"
+      ],
+      "abstract": "The flexural strength variability of α-SiC based ceramics at elevated temperatures creates the need for an Integrated Computational Materials Engineering (ICME) framework that relates the strength of a specimen directly to its manufacturing process. To create this ICME framework a model must first be developed which establishes a relationship between the chemical vapor infiltration (CVI) process and parameters, the resulting mesoscale pores, and the overall macroscale flexural strength. Here a nonlinear single pore model of CVI is developed used in conjunction with a four-way coupled themo-mechanical damage model. The individual components of the model are tested and a sample system under a four-point bending test is explored. Results indicate that specimens with an initial porosity greater than 30% require temperatures below 1273 K to maintain structural integrity, while those with initial porosities less than 30% are temperature-independent, allowing for optimization of the CVI processing time without compromising strength.",
+      "authors": [
+        "Joseph J. Marziale",
+        "Jason Sun",
+        "Eric A. Walker",
+        "Yu Helen Chen",
+        "David Salač",
+        "James Chen"
+      ]
+    },
+    {
+      "title": "Grid-agnostic volume of fluid approach with interface sharpening and surface tension for compressible multiphase flows",
+      "publication_year": 2025,
+      "publication_date": "2025-08-25",
+      "doi": "https://doi.org/10.1016/j.compfluid.2025.106794",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.04270",
+      "concepts": [
+        "Surface tension",
+        "Sharpening",
+        "Volume of fluid method",
+        "Compressibility",
+        "Mechanics",
+        "Volume (thermodynamics)",
+        "Grid",
+        "Multiphase flow"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joseph J. Marziale",
+        "Jason Sun",
+        "David Salač",
+        "James Chen"
+      ]
+    },
+    {
+      "title": "Stochastic deep learning surrogate models for uncertainty propagation in microstructure–properties of ceramic aerogels",
+      "publication_year": 2025,
+      "publication_date": "2025-06-25",
+      "doi": "https://doi.org/10.1016/j.commatsci.2025.114035",
+      "venue": "Computational Materials Science",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microstructure",
+        "Ceramic",
+        "Materials science",
+        "Surrogate model",
+        "Composite material",
+        "Statistical physics",
+        "Computer science",
+        "Machine learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Md. Azharul Islam",
+        "Dwyer Deighan",
+        "Shayan Bhattacharjee",
+        "Daniel Tantalo",
+        "Pratyush Singh",
+        "David Salač",
+        "Danial Faghihi"
+      ]
+    },
+    {
+      "title": "Stencil Composition for Finite Difference Approximations of Partial Differential Equations",
+      "publication_year": 2025,
+      "publication_date": "2025-03-04",
+      "doi": "https://doi.org/10.1137/23m1596478",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stencil",
+        "Mathematics",
+        "Finite difference",
+        "Finite difference method",
+        "Partial differential equation",
+        "Approximations of π",
+        "Applied mathematics",
+        "Composition (language)"
+      ],
+      "abstract": "Abstract. Stencil composition uses the idea of function composition, wherein two stencils with arbitrary orders of derivative are composed to obtain a stencil with a derivative order equal to the sum of the orders of the composing stencils. In this paper, we show how stencil composition can be applied to form finite difference stencils in order to numerically solve partial differential equations (PDEs). We present various properties of stencil composition and investigate the relationship between the order of accuracy of the composed stencil and that of the composing stencils. We also present comparisons between the stability restrictions of composed higher-order PDEs to their compact versions and numerical experiments wherein we verify the order of accuracy by convergence tests. To demonstrate an application to PDEs, a boundary value problem involving the two-dimensional biharmonic equation is numerically solved using stencil composition and the order of accuracy is verified by performing a convergence test. The method is then applied to the Cahn–Hilliard phase-field model. In addition to sample results in two and three dimensions for this benchmark problem, the stability, spect...",
+      "authors": [
+        "Abhishek Mishra",
+        "David Salač",
+        "Matthew G. Knepley"
+      ]
+    }
+  ]
+}

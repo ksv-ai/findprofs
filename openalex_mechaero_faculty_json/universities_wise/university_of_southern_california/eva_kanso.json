@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Eva Kanso",
+  "full_name": "Eva Kanso",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5033815477",
+  "works_count": 256,
+  "cited_by_count": 3558,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 80
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 56
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 21
+    },
+    {
+      "topic": "Fish Ecology and Management Studies",
+      "count": 19
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Classifying vortex wakes using neural networks",
+      "publication_year": 2018,
+      "publication_date": "2018-01-15",
+      "doi": "https://doi.org/10.1088/1748-3190/aaa787",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 93,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1748-3190/aaa787/pdf",
+      "concepts": [
+        "Wake",
+        "Airfoil",
+        "Salient",
+        "Vortex",
+        "Artificial neural network",
+        "Vorticity",
+        "Flow (mathematics)",
+        "Computer science"
+      ],
+      "abstract": "Unsteady flows contain information about the objects creating them. Aquatic organisms offer intriguing paradigms for extracting flow information using local sensory measurements. In contrast, classical methods for flow analysis require global knowledge of the flow field. Here, we train neural networks to classify flow patterns using local vorticity measurements. Specifically, we consider vortex wakes behind an oscillating airfoil and we evaluate the accuracy of the network in distinguishing between three wake types, 2S, 2P + 2S and 2P + 4S. The network uncovers the salient features of each wake type.",
+      "authors": [
+        "Brendan Colvert",
+        "Mohamad Alsalman",
+        "Eva Kanso"
+      ]
+    },
+    {
+      "title": "Locomotion of Articulated Bodies in a Perfect Fluid",
+      "publication_year": 2005,
+      "publication_date": "2005-08-01",
+      "doi": "https://doi.org/10.1007/s00332-004-0650-9",
+      "venue": "Journal of Nonlinear Science",
+      "type": "article",
+      "cited_by_count": 238,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Perfect fluid",
+        "Classical mechanics",
+        "Reduction (mathematics)",
+        "Symmetry (geometry)",
+        "Momentum (technical analysis)",
+        "Mathematics",
+        "Fluid dynamics",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eva Kanso",
+        "Jerrold E. Marsden",
+        "Clarence W. Rowley",
+        "Juan Melli-Huber"
+      ]
+    },
+    {
+      "title": "Stable, circulation-preserving, simplicial fluids",
+      "publication_year": 2007,
+      "publication_date": "2007-01-01",
+      "doi": "https://doi.org/10.1145/1189762.1189766",
+      "venue": "ACM Transactions on Graphics",
+      "type": "article",
+      "cited_by_count": 194,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Polygon mesh",
+        "Animation",
+        "Vorticity",
+        "Numerical diffusion",
+        "Flow (mathematics)",
+        "Conservation law",
+        "Computation"
+      ],
+      "abstract": "Visual quality, low computational cost, and numerical stability are foremost goals in computer animation. An important ingredient in achieving these goals is the conservation of fundamental motion invariants. For example, rigid and deformable body simulation benefits greatly from the conservation of linear and angular momenta. In the case of fluids, however, none of the current techniques focuses on conserving invariants, and consequently, often introduce a visually disturbing numerical diffusion of vorticity . Just as important visually is the resolution of complex simulation domains. Doing so with regular (even if adaptive) grid techniques can be computationally delicate. In this article, we propose a novel technique for the simulation of fluid flows. It is designed to respect the defining differential properties, that is, the conservation of circulation along arbitrary loops as they are transported by the flow. Consequently, our method offers several new and desirable properties: Arbitrary simplicial meshes (triangles in 2D, tetrahedra in 3D) can be used to define the fluid domain; the computations involved in the update procedure are efficient due to discrete operators with ...",
+      "authors": [
+        "Sharif Elcott",
+        "Yiying Tong",
+        "Eva Kanso",
+        "Peter Schröder",
+        "Mathieu Desbrun"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Traveling waves in a continuum model of schooling swimmers",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1073/pnas.2521850123",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.2521850123",
+      "concepts": [
+        "Physics",
+        "Classical mechanics",
+        "Vortex",
+        "Traveling wave",
+        "Stability (learning theory)",
+        "Kinematics",
+        "Kinematic wave",
+        "Mechanics"
+      ],
+      "abstract": "The complex formations exhibited by schooling fish have long been the object of fascination for biologists and physicists. However, the physical and sensory mechanisms leading to organized collective behavior remain elusive. On the physical side in particular, it is unknown how the flows generated by individual fish influence the collective patterns that emerge in large schools. To address this question, we here present a continuum theory for a school of swimmers in an inline formation. The swimmers are modeled as flapping wings that interact through temporally nonlocal hydrodynamic forces, as arise when one swimmer moves through the lingering vortex wakes shed by the others, leading to a system of time-delay-differential equations. Through coarse-graining, we derive a system of partial differential equations for the evolution of swimmer density and collective vorticity-induced hydrodynamic force. Linear stability analysis of the governing equations shows that there is a range of swimmer densities for which the uniform (constant-density) state is unstable to perturbations. Numerical simulations in periodic domains reveal families of stable traveling wave solutions, where a unifo...",
+      "authors": [
+        "Anand U. Oza",
+        "Eva Kanso",
+        "Michael Shelley"
+      ]
+    },
+    {
+      "title": "Hierarchical equivariant graph neural networks for forecasting collective motion in vortex clusters and microswimmers",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.1038/s42005-025-02417-2",
+      "venue": "Communications Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s42005-025-02417-2_reference.pdf",
+      "concepts": [
+        "Collective motion",
+        "Flocking (texture)",
+        "Equivariant map",
+        "Collective behavior",
+        "Computer science",
+        "Vortex",
+        "Graph",
+        "Artificial neural network"
+      ],
+      "abstract": "Abstract Data-driven modeling of collective dynamics is a challenging problem because emergent phenomena in multi-agent systems are often shaped by short- and long-range interactions among individuals. For example, in bird flocks and fish schools, flow coupling plays a crucial role in emergent collective behavior. Such collective motion can be modeled using graph neural networks (GNNs), but GNNs struggle when graphs become large and often fail to capture long-range interactions. Here, we construct hierarchical and equivariant GNNs, and show that these GNNs accurately predict local and global behavior in systems with collective motion. As representative examples, we apply this approach to simulations of clusters of point vortices and populations of microswimmers. In these systems, our approach is more accurate and faster than a fully-connected GNN. Specifically, only our approach conserves the Hamiltonian for the point vortices and only our approach predicts the transition from aggregation to swirling for the microswimmers.",
+      "authors": [
+        "Alec J. Linot",
+        "Haotian Hang",
+        "Eva Kanso",
+        "Kunihiko Taira"
+      ]
+    },
+    {
+      "title": "Hierarchical equivariant graph neural networks for forecasting collective motion in vortex clusters and microswimmers",
+      "publication_year": 2024,
+      "publication_date": "2024-12-31",
+      "doi": "https://doi.org/10.48550/arxiv.2501.00626",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2501.00626",
+      "concepts": [
+        "Equivariant map",
+        "Vortex",
+        "Collective motion",
+        "Motion (physics)",
+        "Graph",
+        "Artificial neural network",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "Data-driven modeling of collective dynamics is a challenging problem because emergent phenomena in multi-agent systems are often shaped by long-range interactions among individuals. For example, in bird flocks and fish schools, long-range vision and flow coupling drive individual behaviors across the collective. Such collective motion can be modeled using graph neural networks (GNNs), but GNNs struggle when graphs become large and often fail to capture long-range interactions. Here, we construct hierarchical and equivariant GNNs, and show that these GNNs accurately predict local and global behavior in systems with collective motion. As representative examples, we apply this approach to simulations of clusters of point vortices and populations of microswimmers. For the point vortices, we define a local graph of vortices within a cluster and a global graph of interactions between clusters. For the microswimmers, we define a local graph around each microswimmer and a global graph that groups long-range interactions. We then combine this hierarchy of graphs with an approach that enforces equivariance to rotations and translations. This combination results in a significant improvemen...",
+      "authors": [
+        "Alec J. Linot",
+        "Haotian Hang",
+        "Eva Kanso",
+        "Kunihiko Taira"
+      ]
+    },
+    {
+      "title": "Mapping spatial patterns to energetic benefits in groups of flow-coupled swimmers",
+      "publication_year": 2024,
+      "publication_date": "2024-12-19",
+      "doi": "https://doi.org/10.7554/elife.96129.3",
+      "venue": "eLife",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.7554/elife.96129.3",
+      "concepts": [
+        "Flapping",
+        "Reciprocal",
+        "Wake",
+        "Coupling (piping)",
+        "Flow (mathematics)",
+        "Pairwise comparison",
+        "Computer science",
+        "Mechanics"
+      ],
+      "abstract": "The coordinated motion of animal groups through fluids is thought to reduce the cost of locomotion to individuals in the group. However, the connection between the spatial patterns observed in collectively moving animals and the energetic benefits at each position within the group remains unclear. To address this knowledge gap, we study the spontaneous emergence of cohesive formations in groups of fish, modeled as flapping foils, all heading in the same direction. We show in pairwise formations and with increasing group size that (1) in side-by-side arrangements, the reciprocal nature of flow coupling results in an equal distribution of energy requirements among all members, with reduction in cost of locomotion for swimmers flapping inphase but an increase in cost for swimmers flapping antiphase, and (2) in inline arrangements, flow coupling is non-reciprocal for all flapping phase, with energetic savings in favor of trailing swimmers, but only up to a finite number of swimmers, beyond which school cohesion and energetic benefits are lost at once. We explain these findings mechanistically and we provide efficient diagnostic tools for identifying locations in the wake of single a...",
+      "authors": [
+        "Sina Heydari",
+        "Haotian Hang",
+        "Eva Kanso"
+      ]
+    },
+    {
+      "title": "Nutrient transport in concentration gradients",
+      "publication_year": 2025,
+      "publication_date": "2025-08-15",
+      "doi": "https://doi.org/10.1103/7znc-3wzp",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [],
+      "abstract": "",
+      "authors": [
+        "Jingyi Liu",
+        "Yi Man",
+        "Eva Kanso"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Ankit Srivastava",
+  "full_name": "Ankit Srivastava",
+  "department": "Department of Mechanical, Materials, and Aerospace Engineering",
+  "university": "Illinois Institute of Technology",
+  "author_id": "A5049187891",
+  "works_count": 94,
+  "cited_by_count": 1995,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 49
+    },
+    {
+      "topic": "Ultrasonics and Acoustic Wave Propagation",
+      "count": 26
+    },
+    {
+      "topic": "Composite Material Mechanics",
+      "count": 18
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 11
+    },
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Exact imposition of boundary conditions with distance functions in physics-informed deep neural networks",
+      "publication_year": 2021,
+      "publication_date": "2021-04-17",
+      "doi": "https://doi.org/10.1016/j.cma.2021.114333",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 426,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2104.08426",
+      "concepts": [
+        "Mathematics",
+        "Biharmonic equation",
+        "Boundary value problem",
+        "Dirichlet boundary condition",
+        "Mathematical analysis",
+        "Partial differential equation",
+        "Pointwise",
+        "Dirichlet problem"
+      ],
+      "abstract": "In this paper, we introduce a new approach based on distance fields to exactly impose boundary conditions in physics-informed deep neural networks. The challenges in satisfying Dirichlet boundary conditions in meshfree and particle methods are well-known. This issue is also pertinent in the development of physics informed neural networks (PINN) for the solution of partial differential equations. We introduce geometry-aware trial functions in artifical neural networks to improve the training in deep learning for partial differential equations. To this end, we use concepts from constructive solid geometry (R-functions) and generalized barycentric coordinates (mean value potential fields) to construct $\\phi$, an approximate distance function to the boundary of a domain. To exactly impose homogeneous Dirichlet boundary conditions, the trial function is taken as $\\phi$ multiplied by the PINN approximation, and its generalization via transfinite interpolation is used to a priori satisfy inhomogeneous Dirichlet (essential), Neumann (natural), and Robin boundary conditions on complex geometries. In doing so, we eliminate modeling error associated with the satisfaction of boundary condit...",
+      "authors": [
+        "N. Sukumar",
+        "Ankit Srivastava"
+      ]
+    },
+    {
+      "title": "Homogenization of periodic elastic composites and locally resonant sonic materials",
+      "publication_year": 2011,
+      "publication_date": "2011-03-18",
+      "doi": "https://doi.org/10.1103/physrevb.83.104103",
+      "venue": "Physical Review B",
+      "type": "article",
+      "cited_by_count": 155,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Homogenization (climate)",
+        "Materials science",
+        "Elasticity (physics)",
+        "Composite number",
+        "Mathematical analysis",
+        "Stiffness",
+        "Dispersion relation",
+        "Floquet theory"
+      ],
+      "abstract": "A method for homogenization of an elastic composite with periodic microstructure is presented, focusing on the Floquet-type elastic waves. The resulting homogenized frequency-dependent elasticity and mass density then automatically satisfy the overall conservation laws and by necessity produce the exact dispersion relations. It is also shown that the dispersion relations and the associated field quantities can be accurately calculated using a mixed variational approach, based on the microstructure of the associated unit cell. The method is used to calculate the dynamic effective parameters for a layered composite by using both the exact solution and the results of the mixed variational formulation. The exact and approximate results are shown to be in close agreement, which makes it possible to use the approximate method for the proposed type of homogenization in cases where an exact solution does not exist. The homogenized frequency-dependent effective parameters give rise to the concept of dynamic Ashby charts that can be used to illustrate the effect of the microstructural architecture on the dynamic properties of a composite. In particular, the charts vividly display how this...",
+      "authors": [
+        "Sia Nemat‐Nasser",
+        "J.R. Willis",
+        "Ankit Srivastava",
+        "Alireza V. Amirkhizi"
+      ]
+    },
+    {
+      "title": "Elastic metamaterials and dynamic homogenization: a review",
+      "publication_year": 2015,
+      "publication_date": "2015-01-02",
+      "doi": "https://doi.org/10.1080/19475411.2015.1017779",
+      "venue": "International Journal of Smart and Nano Materials",
+      "type": "article",
+      "cited_by_count": 149,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1080/19475411.2015.1017779",
+      "concepts": [
+        "Metamaterial",
+        "Homogenization (climate)",
+        "Transformation optics",
+        "Physics",
+        "Classical mechanics",
+        "Transformation (genetics)",
+        "Theoretical physics",
+        "Optics"
+      ],
+      "abstract": "In this paper, we review the recent advances which have taken place in the understanding and applications of acoustic/elastic metamaterials. Metamaterials are artificially created composite materials which exhibit unusual properties that are not found in nature. We begin with presenting arguments from discrete systems which support the case for the existence of unusual material properties such as tensorial and/or negative density. The arguments are then extended to elastic continuums through coherent averaging principles. The resulting coupled and nonlocal homogenized relations, called the Willis relations, are presented as the natural description of inhomogeneous elastodynamics. They are specialized to Bloch waves propagating in periodic composites and we show that the Willis properties display the unusual behavior which is often required in metamaterial applications such as the Veselago lens. We finally present the recent advances in the area of transformation elastodynamics, charting its inspirations from transformation optics, clarifying its particular challenges, and identifying its connection with the constitutive relations of the Willis and the Cosserat types.",
+      "authors": [
+        "Ankit Srivastava"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nonlinear extensions and coordinate selection for operator-based causality analysis, with application to chaotic wake flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3230/1/012014",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3230/1/012014",
+      "concepts": [
+        "Nonlinear system",
+        "Interpretability",
+        "Causality (physics)",
+        "Curse of dimensionality",
+        "Mathematics",
+        "Quadratic equation",
+        "Chaotic",
+        "Applied mathematics"
+      ],
+      "abstract": "Abstract Causality analysis in fluid dynamics remains challenging due to the high dimensionality and nonlinearity of the underlying dynamics. Data-driven techniques, such as transfer entropy can often require large datasets for converged results, and produce outputs sensitive to variable choice, limiting interpretability and accuracy. Here, we seek to exploit the knowledge and structure of the governing equations to develop more robust causality analysis tools. We first discuss Linear Operator-based Causality Analysis (LOCA), where causal interactions can be inferred from the linearized governing equations. Building on this foundation, we next introduce a nonlinear extension to this methodology that incorporates quadratic interactions, allowing us to isolate and quantify the individual causal contributions of both linear and nonlinear terms. We apply this method upon the chaotic wake behind a pair of bluff bodies to demonstrate and compare its performance with nonlinear extensions to Granger causality analysis. In doing so, we assess the use of different variants of proper orthogonal decomposition (POD) for selecting variables for causality analysis, where we find that Hilbert a...",
+      "authors": [
+        "Victor Jimenez",
+        "Soledad Le Clainche",
+        "Ankit Srivastava",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Real-Time Grasp Quality in Boundary-Constrained Granular Swarm Robots",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.1109/icra55743.2025.11128071",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "GRASP",
+        "Robot",
+        "Computer science",
+        "Swarm behaviour",
+        "Boundary (topology)",
+        "Quality (philosophy)",
+        "Swarm robotics",
+        "Artificial intelligence"
+      ],
+      "abstract": "Soft robotic grippers offer advantages over rigid end effectors but are typically coupled to a rigid robot for locomotion. In contrast, this paper details a soft robot for both locomotion and grasping. The system is a type of boundaryconstrained granular swarm robot, which is composed of a closed-loop series of active (capable of locomotion) sub-robots. Prior work has shown how this type of robot is capable of locomotion and grasping. For this paper, we propose a new grasping strategy and demonstrate real-time grasp quality evaluation using pressure sensors and the Ferrari-Canny grasp metric. The grasping strategy leverages gradient-based control via distance functions and dynamic system planning to achieve desired robot geometries for effective grasping. Previous research primarily used pull tests to evaluate grasping efficacy, which lacked realtime feedback on grasp quality. Simulated and experimental results confirm the effectiveness of this method.",
+      "authors": [
+        "Declan Mulroy",
+        "David Cañones Bonham",
+        "Matthew Spenko",
+        "Ankit Srivastava"
+      ]
+    },
+    {
+      "title": "Perspective on non-Hermitian elastodynamics",
+      "publication_year": 2024,
+      "publication_date": "2024-12-02",
+      "doi": "https://doi.org/10.1063/5.0224250",
+      "venue": "Applied Physics Letters",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0224250",
+      "concepts": [
+        "Perspective (graphical)",
+        "Hermitian matrix",
+        "Physics",
+        "Mathematics",
+        "Quantum mechanics",
+        "Geometry"
+      ],
+      "abstract": "The manipulation of mechanical waves is a long-standing challenge for scientists and engineers, as numerous devices require their control. The current forefront of research in the control of classical waves has emerged from a seemingly unrelated field, namely, non-Hermitian quantum mechanics. By drawing analogies between this theory and those of classical systems, researchers have discovered phenomena that defy conventional intuition and have exploited them to control light, sound, and elastic waves. Here, we provide a brief perspective on recent developments, challenges, and intricacies that distinguish non-Hermitian elastodynamics from optics and acoustics. We close this perspective with an outlook on potential directions such as topological phases in non-Hermitian elastodynamics and broken Hermitian symmetry in materials with electromomentum couplings.",
+      "authors": [
+        "Johan Christensen",
+        "Michael R. Haberman",
+        "Ankit Srivastava",
+        "Guoliang Huang",
+        "Gal Shmuel"
+      ]
+    },
+    {
+      "title": "The Atomistic Green’s Function method for acoustic and elastic wave-scattering problems",
+      "publication_year": 2024,
+      "publication_date": "2024-04-04",
+      "doi": "https://doi.org/10.1016/j.ijmecsci.2024.109263",
+      "venue": "International Journal of Mechanical Sciences",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijmecsci.2024.109263",
+      "concepts": [
+        "Green's function",
+        "Acoustics",
+        "Scattering",
+        "Function (biology)",
+        "Materials science",
+        "Physics",
+        "Optics",
+        "Evolutionary biology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hossein Khodavirdi",
+        "Zhun‐Yong Ong",
+        "Ankit Srivastava"
+      ]
+    },
+    {
+      "title": "Linear and nonlinear Granger causality analysis of turbulent duct flows",
+      "publication_year": 2024,
+      "publication_date": "2024-01-11",
+      "doi": "https://doi.org/10.48550/arxiv.2401.06295",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2401.06295",
+      "concepts": [
+        "Granger causality",
+        "Nonlinear system",
+        "Turbulence",
+        "Causality (physics)",
+        "Duct (anatomy)",
+        "Statistical physics",
+        "Mathematics",
+        "Physics"
+      ],
+      "abstract": "This research focuses on the identification and causality analysis of coherent structures that arise in turbulent flows in square and rectangular ducts. Coherent structures are first identified from direct numerical simulation data via proper orthogonal decomposition (POD), both by using all velocity components, and after separating the streamwise and secondary components of the flow. The causal relations between the mode coefficients are analysed using pairwise-conditional Granger causality analysis. We also formulate a nonlinear Granger causality analysis that can account for nonlinear interactions between modes. Focusing on streamwise-constant structures within a duct of short streamwise extent, we show that the causal relationships are highly sensitive to whether the mode coefficients or their squared values are considered, whether nonlinear effects are explicitly accounted for, and whether streamwise and secondary flow structures are separated prior to causality analyses. We leverage these sensitivities to determine that linear mechanisms underpin causal relationships between modes that share the same symmetry or anti-symmetry properties about the corner bisector, while non...",
+      "authors": [
+        "Barbara Lopez-Doriga",
+        "Marco Atzori",
+        "Ricardo Vinuesa",
+        "H. Jane Bae",
+        "Ankit Srivastava",
+        "Scott T. M. Dawson"
+      ]
+    }
+  ]
+}

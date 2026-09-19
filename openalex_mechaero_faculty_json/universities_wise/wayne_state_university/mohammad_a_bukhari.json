@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Mohammad A. Bukhari",
+  "full_name": "Mohammad Bukhari",
+  "department": "Department of Mechanical Engineering",
+  "university": "Wayne State University",
+  "author_id": "A5041466042",
+  "works_count": 48,
+  "cited_by_count": 381,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 24
+    },
+    {
+      "topic": "Metamaterials and Metasurfaces Applications",
+      "count": 11
+    },
+    {
+      "topic": "Innovative Energy Harvesting Technologies",
+      "count": 11
+    },
+    {
+      "topic": "Railway Engineering and Dynamics",
+      "count": 9
+    },
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Exact Nonlinear Dynamic Analysis of a Beam With a Nonlinear Vibration Absorber and With Various Boundary Conditions",
+      "publication_year": 2019,
+      "publication_date": "2019-10-26",
+      "doi": "https://doi.org/10.1115/1.4045287",
+      "venue": "Journal of Computational and Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Vibration",
+        "Beam (structure)",
+        "Boundary value problem",
+        "Bifurcation",
+        "Parametric statistics",
+        "Normal mode",
+        "Equations of motion"
+      ],
+      "abstract": "Abstract We study the nonlinear vibration of a beam with an attached grounded and ungrounded nonlinear vibration absorber (NVA) using the exact natural frequencies and mode shapes of the loaded beam. The nonlinearity in the beam is due to midplane stretching and that in the NVA is of cubic stiffness nonlinearity. We consider various boundary conditions and derive their closed-form characteristic equations and mode shapes. The method of multiple scales (MMS) is directly applied to the nonlinear partial differential equations of motion to obtain explicit expressions of the nonlinear frequency, modulation, and loci of the saddle-node bifurcation equations. Our analytical approach is validated using direct numerical simulation. Parametric studies demonstrate that the performance of the NVA does not only depend on its key design variables and location, but also on the boundary conditions, midplane stretching of the beam, and type of configuration (i.e., grounded NVA versus ungrounded NVA). Our analysis also indicates that the use of common approach such as employing approximate modes in estimating the nonlinear response of a loaded beam produces significant error (i.e., up to 1200% i...",
+      "authors": [
+        "Mohammad Bukhari",
+        "Oumar Barry"
+      ]
+    },
+    {
+      "title": "A combined CPV/T and ORC solar power generation system integrated with geothermal cooling and electrolyser/fuel cell storage unit",
+      "publication_year": 2017,
+      "publication_date": "2017-05-23",
+      "doi": "https://doi.org/10.1016/j.energy.2017.05.142",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 91,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Energy storage",
+        "Nuclear engineering",
+        "Organic Rankine cycle",
+        "Condenser (optics)",
+        "Process engineering",
+        "Photovoltaic system",
+        "Proton exchange membrane fuel cell",
+        "Thermal energy storage"
+      ],
+      "abstract": "",
+      "authors": [
+        "Moh’d A. Al-Nimr",
+        "Mohammad Bukhari",
+        "Mansour Mansour"
+      ]
+    },
+    {
+      "title": "Spectro-spatial analyses of a nonlinear metamaterial with multiple nonlinear local resonators",
+      "publication_year": 2019,
+      "publication_date": "2019-11-26",
+      "doi": "https://doi.org/10.1007/s11071-019-05373-z",
+      "venue": "Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 74,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Resonator",
+        "Acoustics",
+        "Metamaterial",
+        "Physics",
+        "Optics",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohammad Bukhari",
+        "Oumar Barry"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Hybrid Resnet-Unetr for Semi-Supervised Fetal Cardiac Segmentation and CHD Classification",
+      "publication_year": 2026,
+      "publication_date": "2026-04-08",
+      "doi": "https://doi.org/10.1109/isbi61048.2026.11515323",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Segmentation",
+        "Medicine",
+        "Artificial intelligence",
+        "Computer science",
+        "Pattern recognition (psychology)",
+        "Feature (linguistics)",
+        "Fetus",
+        "Internal medicine"
+      ],
+      "abstract": "We present a multi-task framework for simultaneous fetal cardiac structure segmentation (14 classes, 4 views) and congenital heart disease (CHD) classification (7 pathologies) from prenatal ultrasound, developed for the FETUS 2026 Challenge at ISBI. Our approach introduces a hybrid architecture combining a fully trainable ResNet-50 encoder with a UNETR-style decoder enhanced by deep supervision at four levels and a boundary detection head that fuses contour features into the decoding path. Classification is performed through a multi-scale attention pooling and a morphological feature head. We demonstrated that a two-phase trainable general-purpose framework can outperform a domain specific foundation model under label scarcity obtaining segmentation metrics of Dice = 73.32 and NSD = 48.76, while for classification Macro F1 = 32.64, with a score of 52.16/80., achieving first place in the challenge.",
+      "authors": [
+        "Rodrigo Medellin-Robles",
+        "Flavio Alfonso Juárez-Castro",
+        "Mohammad Bukhari"
+      ]
+    },
+    {
+      "title": "Singular topological states for compact subwavelength analog mechanical computers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.1063/5.0314944",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0314944",
+      "concepts": [
+        "Topology (electrical circuits)",
+        "Metamaterial",
+        "Robustness (evolution)",
+        "Photonics",
+        "Resonator",
+        "Physics",
+        "Computer science",
+        "Solver"
+      ],
+      "abstract": "As digital computers (DCs) approach their performance limits, further advancement in artificial intelligence (AI) demands a paradigm shift toward more powerful computing architectures. Recent developments in metamaterials have positioned wave-based analog mechanical computers (AMCs) as a promising alternative, offering rapid operation, low power consumption, and the ability to perform complex tasks. However, AMCs still face critical challenges, most notably, their high sensitivity to imperfections and noise, and their limited ability to operate at low frequencies in a compact footprint. In this work, we address these limitations by introducing a new family of topological states referred to as singular topological states which emerge from tailored spatial modulations in locally resonant metamaterials (LRMMs). This approach leverages the ability of LRMMs to achieve subwavelength functionalities in compact structures. We begin by analyzing a one-dimensional (1D) LRMM chain with embedded local resonators and demonstrate the existence of edge state modes (ESMs). To verify that these modes exhibit the same topological protection observed in conventional Bragg-based metamaterials, we e...",
+      "authors": [
+        "Ahmad K. Aljabali",
+        "Mohammad Bukhari"
+      ]
+    },
+    {
+      "title": "Bandgap Formation Mechanisms in Locally Resonant Metamaterials With Spatial Modulation",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1115/detc2025-168891",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quasiperiodic function",
+        "Resonator",
+        "Metamaterial",
+        "Band gap",
+        "Physics",
+        "Eigenvalues and eigenvectors",
+        "Dispersion relation",
+        "Modulation (music)"
+      ],
+      "abstract": "Abstract Metamaterials that make use of either topological patterning or local resonators have been vastly studied for their robust edge states, energy harvesting capabilities, and reconfigurability. However, these two metamaterials apply different bandgap formation mechanisms, and their joint dynamic interactions are not well defined. This work seeks to understand the formation of bandgaps in structures with spatially modulated resonators. Analysis is performed on a 1D spring-mass chain consisting of two cases of quasiperiodic modulation. In the first case, the main cell stiffness is modulated spatially, and in the second case, the resonator stiffness is modulated spatially. For both cases, the dispersion relation of the infinite chain is determined analytically, and confirmed by numerically calculating the eigenvalues of a finite chain. For both cases, an analytical dispersion relation is obtained for an infinite chain and validated numerically through eigenvalue analysis. By using the inverse method, the mechanisms behind bandgap formation are determined through the imaginary wavenumber components. The integrated density of states function is used to approximate the Chern num...",
+      "authors": [
+        "Joshua LeGrande",
+        "Mohammad Bukhari",
+        "Arun Malla",
+        "Oumar Barry"
+      ]
+    },
+    {
+      "title": "Interband targeted energy transfer, wave arrest, and redirection in phononic lattices with strongly nonlinear local resonators",
+      "publication_year": 2025,
+      "publication_date": "2025-04-17",
+      "doi": "https://doi.org/10.1103/physreve.111.044213",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Resonator",
+        "Energy transfer",
+        "Acoustic metamaterials",
+        "Nonlinear system",
+        "Materials science",
+        "Energy (signal processing)",
+        "Condensed matter physics",
+        "Physics"
+      ],
+      "abstract": "Intentionally introducing nonlinearity into phononic metamaterials has facilitated the development of novel passive elastoacoustic devices (e.g., diodes and nonlinear waveguides). The performance of these devices is primarily governed by the capability of the metamaterial to achieve intermodal targeted energy transfer. In this study, we explore phononic metamaterials with strongly nonlinear local resonators that are capable of significant interband targeted energy transfer (IBTET), that is, of nonlinear energy scattering from a primary, high-energetic pass band containing the energy of external excitation to higher- or lower-frequency secondary bands. The nonlinearity arises from pronounced geometric effects, specifically from the inclusion of local (internal) resonators with inclined linear stiffnesses. This geometric arrangement can exhibit characteristics such as softening-hardening nonlinearity and bistability, contingent upon the initial angle of inclination where the local resonator is at equilibrium. We conducted numerical simulations on a one-dimensional (1D) semi-infinite phononic lattice (modeled as a 1D lattice composed of a large number of coupled oscillators, posses...",
+      "authors": [
+        "Mohammad Bukhari",
+        "Alexander F. Vakakis"
+      ]
+    },
+    {
+      "title": "Super-slow nonlinear hysteresis loop “tracking” for managing energy intake in the forced Duffing oscillator",
+      "publication_year": 2024,
+      "publication_date": "2024-12-05",
+      "doi": "https://doi.org/10.1016/j.ijnonlinmec.2024.104982",
+      "venue": "International Journal of Non-Linear Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Duffing equation",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Hysteresis",
+        "Loop (graph theory)",
+        "Tracking (education)",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Oleg Gendelman",
+        "Mohammad Bukhari",
+        "Alexander F. Vakakis"
+      ]
+    }
+  ]
+}

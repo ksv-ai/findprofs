@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Ramin Bostanabad",
+  "full_name": "Ramin Bostanabad",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Irvine",
+  "author_id": "A5062806994",
+  "works_count": 98,
+  "cited_by_count": 3033,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 36
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 22
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 21
+    },
+    {
+      "topic": "Machine Learning in Materials Science",
+      "count": 16
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Deep learning predicts boiling heat transfer",
+      "publication_year": 2021,
+      "publication_date": "2021-03-10",
+      "doi": "https://doi.org/10.1038/s41598-021-85150-4",
+      "venue": "Scientific Reports",
+      "type": "article",
+      "cited_by_count": 106,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41598-021-85150-4.pdf",
+      "concepts": [
+        "Boiling",
+        "Bubble",
+        "Nucleate boiling",
+        "Computer science",
+        "Heat transfer",
+        "Convolutional neural network",
+        "Artificial intelligence",
+        "Transfer of learning"
+      ],
+      "abstract": "Boiling is arguably Nature's most effective thermal management mechanism that cools submersed matter through bubble-induced advective transport. Central to the boiling process is the development of bubbles. Connecting boiling physics with bubble dynamics is an important, yet daunting challenge because of the intrinsically complex and high dimensional of bubble dynamics. Here, we introduce a data-driven learning framework that correlates high-quality imaging on dynamic bubbles with associated boiling curves. The framework leverages cutting-edge deep learning models including convolutional neural networks and object detection algorithms to automatically extract both hierarchical and physics-based features. By training on these features, our model learns physical boiling laws that statistically describe the manner in which bubbles nucleate, coalesce, and depart under boiling conditions, enabling in situ boiling curve prediction with a mean error of 6%. Our framework offers an automated, learning-based, alternative to conventional boiling heat transfer metrology.",
+      "authors": [
+        "Youngjoon Suh",
+        "Ramin Bostanabad",
+        "Yoonjin Won"
+      ]
+    },
+    {
+      "title": "Deep learning predicts path-dependent plasticity",
+      "publication_year": 2019,
+      "publication_date": "2019-12-16",
+      "doi": "https://doi.org/10.1073/pnas.1911815116",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 644,
+      "is_oa": true,
+      "oa_url": "https://www.pnas.org/doi/full/10.1073/pnas.1911815116",
+      "concepts": [
+        "Yield surface",
+        "Plasticity",
+        "Stress path",
+        "Context (archaeology)",
+        "Equivalence (formal languages)",
+        "Computer science",
+        "Work hardening",
+        "Statistical physics"
+      ],
+      "abstract": "Plasticity theory aims at describing the yield loci and work hardening of a material under general deformation states. Most of its complexity arises from the nontrivial dependence of the yield loci on the complete strain history of a material and its microstructure. This motivated 3 ingenious simplifications that underpinned a century of developments in this field: 1) yield criteria describing yield loci location; 2) associative or nonassociative flow rules defining the direction of plastic flow; and 3) effective stress-strain laws consistent with the plastic work equivalence principle. However, 2 key complications arise from these simplifications. First, finding equations that describe these 3 assumptions for materials with complex microstructures is not trivial. Second, yield surface evolution needs to be traced iteratively, i.e., through a return mapping algorithm. Here, we show that these assumptions are not needed in the context of sequence learning when using recurrent neural networks, diverting the above-mentioned complications. This work offers an alternative to currently established plasticity formulations by providing the foundations for finding history- and microstruc...",
+      "authors": [
+        "Mojtaba Mozaffar",
+        "Ramin Bostanabad",
+        "W. Chen",
+        "Kornel F. Ehmann",
+        "Jian Cao",
+        "Miguel A. Bessa"
+      ]
+    },
+    {
+      "title": "A framework for data-driven analysis of materials under uncertainty: Countering the curse of dimensionality",
+      "publication_year": 2017,
+      "publication_date": "2017-04-01",
+      "doi": "https://doi.org/10.1016/j.cma.2017.03.037",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 574,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2017.03.037",
+      "concepts": [
+        "Curse of dimensionality",
+        "Computer science",
+        "Cluster analysis",
+        "Big data",
+        "Finite element method",
+        "Industrial engineering",
+        "Data mining",
+        "Machine learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Miguel A. Bessa",
+        "Ramin Bostanabad",
+        "Zeliang Liu",
+        "Anqi Hu",
+        "Daniel W. Apley",
+        "Cate Brinson",
+        "Wei-Hao Chen",
+        "Wing Kam Liu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multi-material multi-physics topology optimization with physics-informed Gaussian process priors",
+      "publication_year": 2026,
+      "publication_date": "2026-06-18",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119163",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Leverage (statistics)",
+        "Benchmark (surveying)",
+        "Mathematical optimization",
+        "Computer science",
+        "Network topology",
+        "Topology optimization",
+        "Prior probability",
+        "Gaussian process"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xiangyu Sun",
+        "Shirin Hosseinmardi",
+        "Amin Yousefpour",
+        "Ramin Bostanabad"
+      ]
+    },
+    {
+      "title": "Geometry-Aware Post-Hoc Uncertainty Quantification in Operator Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.48550/arxiv.2606.17513",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.17513",
+      "concepts": [
+        "Uncertainty quantification",
+        "Operator (biology)",
+        "Artificial intelligence",
+        "Computer science",
+        "Artificial neural network",
+        "Feature (linguistics)",
+        "Scalability",
+        "Kernel (algebra)"
+      ],
+      "abstract": "Neural operators provide fast surrogates for PDEs but their deterministic predictions limit their use in tasks requiring uncertainty quantification (UQ), especially under geometric variability. Existing approaches primarily model uncertainty in network parameters, largely overlooking the geometry-aware representations learned by the operator itself. We propose REEF-GP (Residual on Embedded Features Gaussian Process), a post-hoc UQ framework that fits a GP to the residuals of a frozen neural operator whose internal embeddings define the kernel feature space. Rather than learning a separate feature map, REEF-GP adapts the operator's intrinsic coordinate-feature representations to construct geometry-aware uncertainties. To ensure stability and scalability on unstructured domains, REEF-GP incorporates spectral-normalized projections, heteroscedastic geometry-aware noise, and efficient subset-based training that avoids restrictive low-rank approximations. Across five PDE benchmarks with varying geometries, REEF-GP preserves predictive accuracy while achieving calibrated uncertainty estimates competitive with deep ensembles but at a fraction of their cost. Our approach remains robust ...",
+      "authors": [
+        "Oriol Vendrell-Gallart",
+        "Nima Negarandeh",
+        "Ramin Bostanabad"
+      ]
+    },
+    {
+      "title": "Geometry-Aware Post-Hoc Uncertainty Quantification in Operator Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://arxiv.org/abs/2606.17513",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.17513",
+      "concepts": [
+        "Uncertainty quantification",
+        "Operator (biology)",
+        "Artificial intelligence",
+        "Computer science",
+        "Artificial neural network",
+        "Feature (linguistics)",
+        "Scalability",
+        "Kernel (algebra)"
+      ],
+      "abstract": "Neural operators provide fast surrogates for PDEs but their deterministic predictions limit their use in tasks requiring uncertainty quantification (UQ), especially under geometric variability. Existing approaches primarily model uncertainty in network parameters, largely overlooking the geometry-aware representations learned by the operator itself. We propose REEF-GP (Residual on Embedded Features Gaussian Process), a post-hoc UQ framework that fits a GP to the residuals of a frozen neural operator whose internal embeddings define the kernel feature space. Rather than learning a separate feature map, REEF-GP adapts the operator's intrinsic coordinate-feature representations to construct geometry-aware uncertainties. To ensure stability and scalability on unstructured domains, REEF-GP incorporates spectral-normalized projections, heteroscedastic geometry-aware noise, and efficient subset-based training that avoids restrictive low-rank approximations. Across five PDE benchmarks with varying geometries, REEF-GP preserves predictive accuracy while achieving calibrated uncertainty estimates competitive with deep ensembles but at a fraction of their cost. Our approach remains robust ...",
+      "authors": [
+        "Oriol Vendrell-Gallart",
+        "Nima Negarandeh",
+        "Ramin Bostanabad"
+      ]
+    },
+    {
+      "title": "On the Uncertainty Quantification Ability of Tabular Foundation Models",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://doi.org/10.48550/arxiv.2606.01427",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.01427",
+      "concepts": [
+        "Uncertainty quantification",
+        "Computer science",
+        "Machine learning",
+        "Gaussian process",
+        "Regression",
+        "Kernel (algebra)",
+        "Data mining",
+        "Artificial intelligence"
+      ],
+      "abstract": "Foundation models (FMs) have achieved substantial success in generalizing across tasks without problemspecific training or fine-tuning. However, many critical applications in mechanics and computational science require not only accurate predictions but also reliable uncertainty quantification (UQ). Herein we investigate the UQ capabilities of tabular FMs in regression tasks through a comprehensive empirical study comparing Tabular Prior-Data Fitted Networks (TabPFN) against Gaussian processes (GPs). We systematically evaluate these two methods across a host of regression problems with varying complexity, dataset sizes, and input dimensionalities. We use a default setting to build all the GPs and for a fair comparison against TabPFN v2.5. Our findings highlight an important trade-off between explicit and learned priors: while TabPFN achieves highly competitive performance for complex, high-dimensional problems with sufficient data, GPs often provide superior predictive accuracy and UQ in data-scarce settings. Moreover, when the chosen kernel constitutes a good prior for the underlying function, GP performance can substantially exceed that of TabPFN. Our results can be reproduced ...",
+      "authors": [
+        "Tyler R. Johnson",
+        "Kian Ben-Jacob",
+        "Nima Negarandeh",
+        "Oriol Vendrell-Gallart",
+        "Ramin Bostanabad"
+      ]
+    },
+    {
+      "title": "On the Uncertainty Quantification Ability of Tabular Foundation Models",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://arxiv.org/abs/2606.01427",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.01427",
+      "concepts": [
+        "Uncertainty quantification",
+        "Computer science",
+        "Machine learning",
+        "Gaussian process",
+        "Regression",
+        "Kernel (algebra)",
+        "Data mining",
+        "Artificial intelligence"
+      ],
+      "abstract": "Foundation models (FMs) have achieved substantial success in generalizing across tasks without problemspecific training or fine-tuning. However, many critical applications in mechanics and computational science require not only accurate predictions but also reliable uncertainty quantification (UQ). Herein we investigate the UQ capabilities of tabular FMs in regression tasks through a comprehensive empirical study comparing Tabular Prior-Data Fitted Networks (TabPFN) against Gaussian processes (GPs). We systematically evaluate these two methods across a host of regression problems with varying complexity, dataset sizes, and input dimensionalities. We use a default setting to build all the GPs and for a fair comparison against TabPFN v2.5. Our findings highlight an important trade-off between explicit and learned priors: while TabPFN achieves highly competitive performance for complex, high-dimensional problems with sufficient data, GPs often provide superior predictive accuracy and UQ in data-scarce settings. Moreover, when the chosen kernel constitutes a good prior for the underlying function, GP performance can substantially exceed that of TabPFN. Our results can be reproduced ...",
+      "authors": [
+        "Tyler R. Johnson",
+        "Kian Ben-Jacob",
+        "Nima Negarandeh",
+        "Oriol Vendrell-Gallart",
+        "Ramin Bostanabad"
+      ]
+    }
+  ]
+}

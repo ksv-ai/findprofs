@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Kenneth Brentner",
+  "full_name": "Kenneth S. Brentner",
+  "department": "Department of Aerospace Engineering",
+  "university": "Pennsylvania State University-Main Campus",
+  "author_id": "A5079268809",
+  "works_count": 184,
+  "cited_by_count": 3977,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 143
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 108
+    },
+    {
+      "topic": "Vehicle Noise and Vibration Control",
+      "count": 55
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 25
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analytical Comparison of the Acoustic Analogy and Kirchhoff Formulation for Moving Surfaces",
+      "publication_year": 1998,
+      "publication_date": "1998-08-01",
+      "doi": "https://doi.org/10.2514/2.558",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 558,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Analogy",
+        "Classical mechanics",
+        "Physics",
+        "Mathematics",
+        "Mathematical analysis",
+        "Mechanics",
+        "Geometry",
+        "Philosophy"
+      ],
+      "abstract": "The Lighthill acoustic analogy, as embodied in the Ffowcs Williams-Hawkings (FW-H) equation, is compared with the Kirchhoff formulation for moving surfaces. A comparison of the two governing equations reveals that the primary advantage of the Kirchhoff formulation (namely, that nonlinear flow effects are included in the surface integration) is also available to the FW-H method if the integration surface used in the FW-H equation is not assumed to be impenetrable. The FW-H equation is analytically superior for aeroacoustics because it is based on the conservation laws of fluid mechanics rather than on the wave equation. Thus, the FW-H equation is valid even if the integration surface is in the nonlinear region. This advantage is demonstrated numerically. With the Kirchhoff approach, substantial errors can result if the integration surface is not positioned in the linear region, and these errors may be hard to identify. Finally, new metrics, based on the Sobolev norm, are introduced that may be used to compare input data for both quadrupole noise calculations and Kirchhoff noise predictions.",
+      "authors": [
+        "Kenneth S. Brentner",
+        "F. Farassat"
+      ]
+    },
+    {
+      "title": "Modeling aerodynamically generated sound of helicopter rotors",
+      "publication_year": 2003,
+      "publication_date": "2003-02-01",
+      "doi": "https://doi.org/10.1016/s0376-0421(02)00068-4",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 539,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sound (geography)",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Acoustics",
+        "Engineering",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kenneth S. Brentner",
+        "F. Farassat"
+      ]
+    },
+    {
+      "title": "Computational Aeroacoustic Analysis of Slat Trailing-Edge Flow",
+      "publication_year": 2000,
+      "publication_date": "2000-09-01",
+      "doi": "https://doi.org/10.2514/2.1177",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 158,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trailing edge",
+        "Vortex shedding",
+        "Reynolds number",
+        "Acoustics",
+        "Lift (data mining)",
+        "Mechanics",
+        "Vortex",
+        "Physics"
+      ],
+      "abstract": "An acoustic analysis based on the Ffowcs Williams and Hawkings equation was performed for a high-lift system. As input, the acoustic analysis used un- steady flow data obtained from a highly resolved, time-dependent, Reynolds-averaged Navier-Stokes calculation. The analysis strongly suggests that vor- tex shedding from the trailing edge of the slat results in a high-amplitude, high-frequency acoustic signal, similar to that which was observed in a correspond- ing experimental study of the high-lift system.",
+      "authors": [
+        "Bart A. Singer",
+        "David P. Lockard",
+        "Kenneth S. Brentner"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Noise Control via Synchrophasing for a Fixed-Wing Distributed Electric Propulsion Aircraft in Free Flight",
+      "publication_year": 2026,
+      "publication_date": "2026-05-20",
+      "doi": "https://doi.org/10.2514/6.2026-3346",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Noise (video)",
+        "Fixed wing",
+        "Wing",
+        "Control theory (sociology)",
+        "Aerospace engineering",
+        "Airframe",
+        "Electrically powered spacecraft propulsion"
+      ],
+      "abstract": "Tonal noise is often a dominant component of multirotor and distributed electric propulsion (DEP) aircraft noise, with discrete tones occurring at the harmonics of the blade-passing frequency. Synchrophasing offers a potential noise-control strategy by prescribing relative blade azimuth positions among rotors to produce constructive or destructive acoustic interference at selected observer regions. This paper investigates synchrophasing for a fixed-wing DEP aircraft with eight wing-mounted propellers. Phase combinations are computed from isolated-rotor acoustic pressure histories predicted using the Penn State Noise Prediction System (PSU-NPS) and optimized to minimize or maximize noise levels over the target observer regions. Predicted loading distributions show weak rotor-rotor aerodynamic interaction, supporting the use of similar acoustic pulse shapes among rotors. A far-field assessment confirms that the planned 100 ft flight-test altitude exceeds the estimated far-field onset for all cases. Predicted sound exposure level footprints and lower-hemisphere overall sound pressure level projections show that synchrophasing redistributes acoustic energy, reducing noise by up to 1...",
+      "authors": [
+        "Rupak Chaudhary",
+        "Vítor Tumelero Valente",
+        "Eric Greenwood",
+        "Eric Johnson",
+        "Kenneth S. Brentner"
+      ]
+    },
+    {
+      "title": "Validation and Analysis of a Rotorcraft Noise Prediction System for Noise Abatement",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.4050/jahs.72.012003",
+      "venue": "Journal of the American Helicopter Society",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Noise (video)",
+        "Transient (computer programming)",
+        "Rotor (electric)",
+        "Noise measurement",
+        "Descent (aeronautics)",
+        "Thrust",
+        "Acoustics",
+        "Computer science"
+      ],
+      "abstract": "This paper describes a rotorcraft noise prediction system and its development to incorporate time-dependent information including trajectory, attitude, blade loads, and rotor thrust for predicting noise generated during a complex maneuver. The main contribution from the current work is the enhancement of the system to analyze general maneuvering flight in the interest of understanding the noise source generation mechanisms and aiding development of noise abatement procedures. Key enhancements include the incorporation of wall reflection for broadband noise, a quasi-periodic blade loading model, and refined source motion modeling. The noise prediction system was validated through correlations with acoustic flight-test data for five commercial helicopters. The validation process was carried out by comparing the predicted noise levels (SELdBA, OASPL, and A-weighted SPL) with processed flight-test data. Overall, the predicted noise levels matched the trends and levels within 2–4 dB of measured flight-test data. Results are presented for the steady 6° descent and descending turn maneuvers; time histories are studied in detail to illustrate the influence of flight events—steady flight...",
+      "authors": [
+        "Mrunali Botre",
+        "Kenneth S. Brentner",
+        "Daniel Wachspress"
+      ]
+    },
+    {
+      "title": "Noncompactness corrections to the Brooks, Pope, and Marcolini self-noise model for small rotor noise prediction",
+      "publication_year": 2025,
+      "publication_date": "2025-12-01",
+      "doi": "https://doi.org/10.1121/10.0041854",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Microphone",
+        "Noise (video)",
+        "Acoustics",
+        "Rotor (electric)",
+        "Broadband",
+        "Turbine",
+        "Directivity"
+      ],
+      "abstract": "Accurate prediction of high-frequency broadband noise is essential for assessing the environmental impact of small uncrewed aerial systems (sUAS). The widely adopted Brooks, Pope, and Marcolini (BPM) airfoil self-noise model has been validated for rotorcraft and wind turbine applications but shows limitations for sUAS-scale rotors, partly due to its assumption of acoustic compactness (chord smaller than the wavelength of sound). This paper introduces a modification to the BPM model to account for noncompactness by incorporating an alternative directivity function and an exact numerical formulation based on Amiet's aeroacoustic transfer function (non-dimensional radiation integral). The modified models were applied to predict the noise from a hexacopter hovering at 20 and 40 feet and compared with outdoor measurements from a ground microphone grid. For all ground microphones, the median A-weighted SPL prediction error with the original BPM model was reduced from 8.7 dBA to 1.0 dBA at 20 feet and from 2.7 dBA to 1.8 dBA at 40 feet using the modified formulation. The modified models also showed substantially improved one-third octave spectral agreement, demonstrating the importance...",
+      "authors": [
+        "Bhaskar Mukherjee",
+        "Nitya Singh",
+        "Joel Sundar Rachaprolu",
+        "Vítor Valente",
+        "Kenneth S. Brentner",
+        "Eric Greenwood"
+      ]
+    },
+    {
+      "title": "Beats of rotor broadband noise modulation in unmanned aerial vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1121/10.0041261",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Frequency modulation",
+        "Acoustics",
+        "Broadband",
+        "Modulation (music)",
+        "Noise (video)",
+        "Amplitude modulation",
+        "Physics",
+        "Computer science"
+      ],
+      "abstract": "Rotor broadband noise modulation with the blade passage frequency (BPF) is known to be significant for human perception of wind turbine and helicopter noise. Psychoacoustic studies of unmanned aerial vehicles (UAVs) in the literature have found the sound quality metric of fluctuation strength to be potentially important, despite this metric capturing perception of modulation frequencies much lower than typical UAV BPFs. This presentation shows that a possible cause for this low frequency modulation is beats of amplitude modulated (AM) broadband noise (BBN) created by small BPF differences between rotors, similar to tonal beats. Beats of AM BBN were observed in measurements of two small UAV rotors set to the same BPF, resulting in BPF differences between 0.8–1.8 Hz, < 0.3% of the BPF setpoint. These BPF differences lie in the modulation frequency range relevant for fluctuation strength. Although beats of AM BBN can be heard, the beat frequency is not a modulation frequency of the sound pressure level time history, but its envelope. Therefore, noise analysis should consider beats of broadband noise modulation by computing this envelope.",
+      "authors": [
+        "Ze Feng Gan",
+        "Vítor Tumelero Valente",
+        "Kenneth S. Brentner",
+        "Eric Greenwood"
+      ]
+    },
+    {
+      "title": "Parallelization of Rotor Noise Prediction",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3643",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Rotor (electric)",
+        "Noise (video)",
+        "Parallel computing",
+        "Electrical engineering",
+        "Artificial intelligence",
+        "Engineering",
+        "Image (mathematics)"
+      ],
+      "abstract": "Accurate and efficient rotor noise prediction is critical for the design and operation of electric Vertical Takeoff and Landing (eVTOL) aircraft within Advanced Air Mobility (AAM) frameworks. These multi-rotor vehicles introduce complex aerodynamic interactions and increased computational demands for acoustic analysis, especially across full flight trajectories and multiple observer locations. A parallel computing approach to Farassat’s Formulation 1A of the Ffowcs Williams-Hawkings (FW-H) equation is developed. The algorithm exploits the linearity of the FW-H equation to parallelize calculations across observers, time, and source surfaces using the Message Passing Interface (MPI). Performance results show significant reductions in runtime without compromising accuracy, enabling scalable noise prediction for modern eVTOL configurations and flight path planning.",
+      "authors": [
+        "Nitya Singh",
+        "Kenneth S. Brentner"
+      ]
+    }
+  ]
+}

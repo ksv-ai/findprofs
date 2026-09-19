@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Eva-Marie Nosal",
+  "full_name": "Eva‐Marie Nosal",
+  "department": "Department of Ocean and Resources Engineering",
+  "university": "University of Hawaii at Manoa",
+  "author_id": "A5025019523",
+  "works_count": 100,
+  "cited_by_count": 1175,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Underwater Acoustics Research",
+      "count": 75
+    },
+    {
+      "topic": "Marine animal studies overview",
+      "count": 65
+    },
+    {
+      "topic": "Underwater Vehicles and Communication Systems",
+      "count": 45
+    },
+    {
+      "topic": "Animal Vocal Communication and Behavior",
+      "count": 19
+    },
+    {
+      "topic": "Speech and Audio Processing",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Deep neural networks for automated detection of marine mammal species",
+      "publication_year": 2020,
+      "publication_date": "2020-01-17",
+      "doi": "https://doi.org/10.1038/s41598-020-57549-y",
+      "venue": "Scientific Reports",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41598-020-57549-y.pdf",
+      "concepts": [
+        "False positive paradox",
+        "Deep learning",
+        "Computer science",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Deep neural networks",
+        "Identification (biology)",
+        "Machine learning"
+      ],
+      "abstract": "Deep neural networks have advanced the field of detection and classification and allowed for effective identification of signals in challenging data sets. Numerous time-critical conservation needs may benefit from these methods. We developed and empirically studied a variety of deep neural networks to detect the vocalizations of endangered North Atlantic right whales (Eubalaena glacialis). We compared the performance of these deep architectures to that of traditional detection algorithms for the primary vocalization produced by this species, the upcall. We show that deep-learning architectures are capable of producing false-positive rates that are orders of magnitude lower than alternative algorithms while substantially increasing the ability to detect calls. We demonstrate that a deep neural network trained with recordings from a single geographic region recorded over a span of days is capable of generalizing well to data from multiple years and across the species' range, and that the low false positives make the output of the algorithm amenable to quality control for verification. The deep neural networks we developed are relatively easy to implement with existing software, an...",
+      "authors": [
+        "Yu Shiu",
+        "Kaitlin Palmer",
+        "Marie A. Roch",
+        "Erica Fleishman",
+        "Xiaobai Liu",
+        "Eva‐Marie Nosal",
+        "Tyler A. Helble",
+        "Danielle Cholewiak",
+        "Douglas Gillespie",
+        "Holger Klinck"
+      ]
+    },
+    {
+      "title": "Effect of noise and occupancy on optimal reverberation times for speech intelligibility in classrooms",
+      "publication_year": 2002,
+      "publication_date": "2002-02-01",
+      "doi": "https://doi.org/10.1121/1.1428264",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reverberation",
+        "Acoustics",
+        "Intelligibility (philosophy)",
+        "Noise (video)",
+        "Background noise",
+        "Computer science",
+        "Architectural acoustics",
+        "Speech recognition"
+      ],
+      "abstract": "The question of what is the optimal reverberation time for speech intelligibility in an occupied classroom has been studied recently in two different ways, with contradictory results. Experiments have been performed under various conditions of speech-signal to background-noise level difference and reverberation time, finding an optimal reverberation time of zero. Theoretical predictions of appropriate speech-intelligibility metrics, based on diffuse-field theory, found nonzero optimal reverberation times. These two contradictory results are explained by the different ways in which the two methods account for background noise, both of which are unrealistic. To obtain more realistic and accurate predictions, noise sources inside the classroom are considered. A more realistic treatment of noise is incorporated into diffuse-field theory by considering both speech and noise sources and the effects of reverberation on their steady-state levels. The model shows that the optimal reverberation time is zero when the speech source is closer to the listener than the noise source, and nonzero when the noise source is closer than the speech source. Diffuse-field theory is used to determine op...",
+      "authors": [
+        "Murray Hodgson",
+        "Eva‐Marie Nosal"
+      ]
+    },
+    {
+      "title": "Track of a sperm whale from delays between direct and surface-reflected clicks",
+      "publication_year": 2006,
+      "publication_date": "2006-07-25",
+      "doi": "https://doi.org/10.1016/j.apacoust.2006.05.005",
+      "venue": "Applied Acoustics",
+      "type": "article",
+      "cited_by_count": 71,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sperm whale",
+        "Track (disk drive)",
+        "Whale",
+        "Geology",
+        "Acoustics",
+        "Geodesy",
+        "Computer science",
+        "Fishery"
+      ],
+      "abstract": "",
+      "authors": [
+        "Eva‐Marie Nosal",
+        "L. Neil Frazer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "KB-2-ACO: Investigating Kauaʻi Beacon receptions recorded at the ALOHA Cabled Observatory",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1121/10.0040878",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Observatory",
+        "Aloha",
+        "Shore",
+        "Context (archaeology)",
+        "Hydrophone",
+        "Geology",
+        "Oceanography",
+        "Meteorology"
+      ],
+      "abstract": "Activation of the Kauai Beacon (KB) in 2023 opened the door to long-range acoustics applications (navigation and tomography). KB is seafloor-mounted (∼810 m depth) off the north shore of Kaua‘i. Recent studies demonstrated successful long-range reception of the signal at sites including Wake Island and Monterey Bay, with distances exceeding 4,000 km at the Ocean Observatories Initiative (OOI) sensor network. Prior work has shown that long-range propagation, particularly for bottom-mounted sources, is impacted by near-field interactions between the acoustic signal and the seafloor. To help improve long-range acoustic applications, we are working to betterunderstand the near-field of KB by analyzing KB signals recorded at the ALOHA Cabled Observatory (ACO). ACO is seafloor-mounted (∼4728 m depth), located 166 km downslope and east of KB, and is relatively “near-field” in the context of KB’s basin-scale propagation range. The hydrophone operates continuously; we present data from March 2023 to October 2025. This presentation will discuss our methods and preliminary findings, including observations of seasonal effects on the received signal. Evidence of 3D effects will be discussed,...",
+      "authors": [
+        "Elizabeth Taylor",
+        "Eva‐Marie Nosal",
+        "Bruce M. Howe",
+        "Nicholas C. Durofchalk",
+        "Kay L. Gemba"
+      ]
+    },
+    {
+      "title": "Erratum: A framework for passive acoustic localization and tracking using a wide-baseline array demonstrated with Rice's whales ( Balaenoptera ricei ) [J. Acoust. Soc. Am. 159 (1), 802–815 (2026)]",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1121/10.0043070",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tracking (education)",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision",
+        "Acoustics",
+        "Tracking system",
+        "Noise (video)",
+        "Sonar"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ludovic Tenorio-Hallé",
+        "Kaitlin E. Frasier",
+        "Héloïse Frouin-Mouy",
+        "Lance P. Garrison",
+        "Pina Gruden",
+        "John A. Hildebrand",
+        "Eva‐Marie Nosal",
+        "Melissa S. Soldevilla"
+      ]
+    },
+    {
+      "title": "A framework for passive acoustic localization and tracking using a wide-baseline array demonstrated with Rice's whales ( Balaenoptera ricei )",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1121/10.0042189",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multilateration",
+        "Tracking (education)",
+        "Whale",
+        "Set (abstract data type)",
+        "Computer science",
+        "Interval (graph theory)",
+        "Acoustics",
+        "Bioacoustics"
+      ],
+      "abstract": "Passive acoustic localization and tracking provide valuable information for characterizing the behavior of marine mammals. When using time-difference-of-arrival (TDOA) localization on a wide-baseline array, certain factors such as stereotyped vocalizations from multiple callers and sparse array configuration, can make the call association problem challenging. A \"track-before-detect\" localization and tracking framework is presented in which this challenge is addressed by taking a hard-association approach and performing the tracking in the TDOA domain. The framework is demonstrated on low-frequency stereotyped calls produced by Rice's whales (Balaenoptera ricei) recorded along the shelf break offshore of northwest Florida. Using the framework, a total of 398 whale tracks were extracted between May and August 2021. A median inter-call interval of 5.8 min was estimated from the calls identified in each set of TDOA tracks. Analysis of 1731 h from 368 two-dimensional tracks showed that whales primarily swam along, rather than across, the continental shelf break, with a mean horizontal swim speed of 0.9 m/s (standard deviation ± 0.6 m/s). By providing quantitative estimates of Rice's ...",
+      "authors": [
+        "Ludovic Tenorio-Hallé",
+        "Kaitlin E. Frasier",
+        "Héloïse Frouin‐Mouy",
+        "Lance P. Garrison",
+        "Pina Gruden",
+        "John A. Hildebrand",
+        "Eva‐Marie Nosal",
+        "Melissa S. Soldevilla"
+      ]
+    },
+    {
+      "title": "Single hydrophone passive acoustic ranging in deep water",
+      "publication_year": 2025,
+      "publication_date": "2025-12-01",
+      "doi": "https://doi.org/10.1121/10.0039930",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ranging",
+        "Hydrophone",
+        "Underwater",
+        "Acoustics",
+        "Geology",
+        "Range (aeronautics)",
+        "Noise (video)",
+        "Remote sensing"
+      ],
+      "abstract": "Single hydrophone passive acoustic ranging is the practice of estimating the range to an underwater sound source using acoustic recordings from a single receiver. We present a multi-path arrival-based approach to estimate the horizontal range between a submerged source:receiver pair in a deep ocean environment (in which multi-path arrivals can be resolved and modal dispersion is minimal). A cost function and optimization approach are presented that are automated and robust to some significant sources of noise (including multiple sources) and environmental uncertainty. While several multi-path ranging methods have been presented in past literature, an important contribution of our approach is that it can be fully automated, it relaxes the requirement that arrivals are labeled/identified a priori, and it can function in multiple-source scenarios. Underwater acoustic data recorded by the ALOHA Cabled Observatory (ACO) are processed using our single hydrophone ranging approach. The horizontal range to 296 airgun shots, recorded by ACO on October 5-6, 2018, is compared against the true range for each shot. Good agreement between the true and estimated ranges demonstrates the performa...",
+      "authors": [
+        "B. Rideout",
+        "Eva‐Marie Nosal"
+      ]
+    },
+    {
+      "title": "Passive acoustic tracking of sperm whales in 3-D with integrated ray tracing",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1121/10.0041009",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multipath propagation",
+        "Hydrophone",
+        "Sperm whale",
+        "Computer science",
+        "Acoustics",
+        "Leverage (statistics)",
+        "Tracking (education)",
+        "Bioacoustics"
+      ],
+      "abstract": "Passive acoustic monitoring is an essential technique for studying marine mammal populations, especially in remote or visually obstructed marine environments. Wide-baseline hydrophone arrays can cover large areas of the ocean and enable spatial localization. While these configurations offer much insight, they present unique signal processing challenges due to complex propagation effects and multipath arrivals. In this work, we introduce a multi-sensor tracking algorithm that employs a probabilistic framework based on factor graphs to leverage multipath propagation for localizing and tracking vocalizing sperm whales. Our approach incorporates the time-differences-of-arrival of direct and surface-reflected paths received by a single receiver and pairs of receivers. The likelihood function within the factor graph integrates the acoustic ray-tracing engine Bellhop that accounts for variable sound speed profiles to model multipath arrival times. The proposed method inherently addresses data association ambiguities and measurement uncertainties, efficiently combining information from multiple hydrophones and hydrophone pairs to probabilistically estimate whale trajectories. We demonst...",
+      "authors": [
+        "Luisa Watkins",
+        "Pina Gruden",
+        "Erik Leitinger",
+        "Eva‐Marie Nosal",
+        "Florian Meyer"
+      ]
+    }
+  ]
+}

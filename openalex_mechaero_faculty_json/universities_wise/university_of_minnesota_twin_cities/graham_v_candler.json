@@ -1,0 +1,134 @@
+{
+  "faculty_name": "Graham V. Candler",
+  "full_name": "Graham V. Candler",
+  "department": "Department of Aerospace Engineering and Mechanics",
+  "university": "University of Minnesota-Twin Cities",
+  "author_id": "A5124069005",
+  "works_count": 2,
+  "cited_by_count": 2,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 2
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 2
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 1
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analysis of the CUBRC Hypersonic Large Cone-Flare Dataset",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0305",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Laminar flow",
+        "Heat flux",
+        "Hypersonic speed",
+        "Computational fluid dynamics",
+        "Meteorology",
+        "Mechanics"
+      ],
+      "abstract": "The CUBRC hypersonic high-Reynolds number Large-Cone Flare dataset provides unique data for code validation and turbulence model assessment. It was the subject of a blind code validation study in 2014, and there have been numerous papers comparing RANS CFD with the LCF data. A recent NATO AVT working group produced a comprehensive study of this problem, with eleven different institutions contributing results. For most test conditions, the heat flux predictions on the forebody cone bracketed the data, but with a +/– 10% variation between the codes, even for nominally the same turbulence models. In this paper, we seek to understand the source of this variation through comparisons of turbulence models, grid resolution, numerical methods, and levels of numerical dissipation. We also use inverse Bayesian inference to analyze Run 14, where the predicted and measured heat fluxes differ markedly from those obtained using the nominal free-stream conditions. CFD predictions of the laminar heat flux and surface pressure are utilized to infer the most likely free-stream conditions, yielding a substantial improvement in the predicted laminar and turbulent heat flux.",
+      "authors": [
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "DNS of Hypersonic Boundary Layer Transition in the BOLT II Side A Descent Trajectory",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0083",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary layer",
+        "Freestream",
+        "Mechanics",
+        "Physics",
+        "Turbulence",
+        "Dissipation",
+        "Isotropy"
+      ],
+      "abstract": "The BOLT II flight experiment has provided a wealth of data on boundary layer transition on a complex geometry, and offers a unique opportunity to validate direct numerical simulation (DNS) predictions against flight test data. This work investigates boundary layer transition on the BOLT II side A geometry using low-dissipation DNS in the US3D solver. A case at Re_L=6×10^6 is selected for analysis, as it represents the beginning of centerline transition on BOLT II. Freestream isotropic atmospheric turbulence with dissipation rates based on HYFLITS ballooning data is used to excite the flowfield, and turbulent wall heat fluxes are compared against flight data. It is confirmed that extremely low dissipation numerical simulations allow for the preservation and evolution of small-amplitude noise which is otherwise dissipated out in a standard DNS. We show that grid singularities generate noise, which can initiate boundary layer transition in an unforced DNS. By moving grid singularities away from the upstream of transition regions, we are able to mitigate numerically induced boundary layer transition. We obtain a laminar, low-dissipation, unforced baseflow which will enable us to st...",
+      "authors": [
+        "Carter Vu",
+        "Graham V. Candler"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Analysis of the CUBRC Hypersonic Large Cone-Flare Dataset",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0305",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Laminar flow",
+        "Heat flux",
+        "Hypersonic speed",
+        "Computational fluid dynamics",
+        "Meteorology",
+        "Mechanics"
+      ],
+      "abstract": "The CUBRC hypersonic high-Reynolds number Large-Cone Flare dataset provides unique data for code validation and turbulence model assessment. It was the subject of a blind code validation study in 2014, and there have been numerous papers comparing RANS CFD with the LCF data. A recent NATO AVT working group produced a comprehensive study of this problem, with eleven different institutions contributing results. For most test conditions, the heat flux predictions on the forebody cone bracketed the data, but with a +/– 10% variation between the codes, even for nominally the same turbulence models. In this paper, we seek to understand the source of this variation through comparisons of turbulence models, grid resolution, numerical methods, and levels of numerical dissipation. We also use inverse Bayesian inference to analyze Run 14, where the predicted and measured heat fluxes differ markedly from those obtained using the nominal free-stream conditions. CFD predictions of the laminar heat flux and surface pressure are utilized to infer the most likely free-stream conditions, yielding a substantial improvement in the predicted laminar and turbulent heat flux.",
+      "authors": [
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "DNS of Hypersonic Boundary Layer Transition in the BOLT II Side A Descent Trajectory",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0083",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary layer",
+        "Freestream",
+        "Mechanics",
+        "Physics",
+        "Turbulence",
+        "Dissipation",
+        "Isotropy"
+      ],
+      "abstract": "The BOLT II flight experiment has provided a wealth of data on boundary layer transition on a complex geometry, and offers a unique opportunity to validate direct numerical simulation (DNS) predictions against flight test data. This work investigates boundary layer transition on the BOLT II side A geometry using low-dissipation DNS in the US3D solver. A case at Re_L=6×10^6 is selected for analysis, as it represents the beginning of centerline transition on BOLT II. Freestream isotropic atmospheric turbulence with dissipation rates based on HYFLITS ballooning data is used to excite the flowfield, and turbulent wall heat fluxes are compared against flight data. It is confirmed that extremely low dissipation numerical simulations allow for the preservation and evolution of small-amplitude noise which is otherwise dissipated out in a standard DNS. We show that grid singularities generate noise, which can initiate boundary layer transition in an unforced DNS. By moving grid singularities away from the upstream of transition regions, we are able to mitigate numerically induced boundary layer transition. We obtain a laminar, low-dissipation, unforced baseflow which will enable us to st...",
+      "authors": [
+        "Carter Vu",
+        "Graham V. Candler"
+      ]
+    }
+  ]
+}

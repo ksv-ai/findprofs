@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Koen Groot",
+  "full_name": "Koen J. Groot",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Wyoming",
+  "author_id": "A5061255496",
+  "works_count": 41,
+  "cited_by_count": 445,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 30
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 9
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 7
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Transitional Flow Dynamics Behind a Micro-Ramp",
+      "publication_year": 2019,
+      "publication_date": "2019-12-19",
+      "doi": "https://doi.org/10.1007/s10494-019-00085-1",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 14,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10494-019-00085-1.pdf",
+      "concepts": [
+        "Laminar flow",
+        "Vortex",
+        "Reynolds number",
+        "Particle image velocimetry",
+        "Boundary layer",
+        "Mechanics",
+        "Physics",
+        "Flow separation"
+      ],
+      "abstract": "Abstract Micro-ramps are popular passive flow control devices which can delay flow separation by re-energising the lower portion of the boundary layer. We compute the laminar base flow, the instantaneous transitional flow, and the mean flow around a micro-ramp immersed in a quasi-incompressible boundary layer at supercritical roughness Reynolds number. Results of our Direct Numerical Simulations (DNS) are compared with results of BiLocal stability analysis on the DNS base flow and independent tomographic Particle Image Velocimetry (tomo-PIV) experiments. We analyse relevant flow structures developing in the micro-ramp wake and assess their role in the micro-ramp functionality, i.e., in increasing the near-wall momentum. The main flow feature of the base flow is a pair of streamwise counter-rotating vortices induced by the micro-ramp, the so-called primary vortex pair. In the instantaneous transitional flow, the primary vortex pair breaks up into large-scale hairpin vortices, which arise due to linear varicose instability of the base flow, and unsteady secondary vortices develop. Instantaneous vortical structures obtained by DNS and experiments are in good agreement. Matching lin...",
+      "authors": [
+        "Jordi Casacuberta",
+        "Koen J. Groot",
+        "Q. Ye",
+        "Stefan Hickel"
+      ]
+    },
+    {
+      "title": "Secondary crossflow instability through global analysis of measured base flows",
+      "publication_year": 2018,
+      "publication_date": "2018-05-09",
+      "doi": "https://doi.org/10.1017/jfm.2018.253",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 33,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B67B7933E16533F737ACE5113B640A1A/S0022112018002537a.pdf/div-class-title-secondary-crossflow-instability-through-global-analysis-of-measured-base-flows-div.pdf",
+      "concepts": [
+        "Mechanics",
+        "Reynolds number",
+        "Laminar flow",
+        "Instability",
+        "Particle image velocimetry",
+        "Physics",
+        "Vortex",
+        "Turbulence"
+      ],
+      "abstract": "A combined experimental and numerical approach to the analysis of the secondary stability of realistic swept-wing boundary layers is presented. Global linear stability theory is applied to experimentally measured base flows. These base flows are three-dimensional laminar boundary layers subject to spanwise distortion due to the presence of primary stationary crossflow vortices. A full three-dimensional description of these flows is accessed through the use of tomographic particle image velocimetry (PIV). The stability analysis solves for the secondary high-frequency modes of type I and type II, ultimately responsible for turbulent breakdown. Several pertinent parameters arising from the application of the proposed methodology are investigated, including the mean flow ensemble size and the measurement domain extent. Extensive use is made of the decomposition of the eigensolutions into the terms of the Reynolds–Orr equation, allowing insight into the production and/or destruction of perturbations from various base flow features. Stability results demonstrate satisfactory convergence with respect to the mean flow ensemble size and are independent of the handling of the exterior of ...",
+      "authors": [
+        "Koen J. Groot",
+        "Jacopo Serpieri",
+        "Fabio Pinna",
+        "Marios Kotsonis"
+      ]
+    },
+    {
+      "title": "Derivation of and Simulations with BiGlobal Stability Equations",
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "doi": "https://doi.org/10.13140/rg.2.1.1027.3527",
+      "venue": "Research Repository (Delft University of Technology)",
+      "type": "dissertation",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.13140/rg.2.1.1027.3527",
+      "concepts": [
+        "Stability (learning theory)",
+        "Linearization",
+        "Linear stability",
+        "Laminar flow",
+        "Computer science",
+        "Mathematics",
+        "Applied mathematics",
+        "Instability"
+      ],
+      "abstract": "Laminar to turbulent transition has an important role in the aerospace domain in view of its impact on aerodynamic drag and, regarding the high velocity regime, heat transfer. State of the art computational methods, like DNS, LES and RANS are found to be too expensive or rely on case dependent turbulence models to be used for obtaining information regarding the transition phenomenon. Transition is typically initiated by the onset of instability of the laminar flow. Linear stability theory describes the eigenmode growth mechanism. Although this yields a restriction, because additional mechanisms play a role too, the eigenmode growth phase establishes an important base in many practical situations. However, the linearization provides a considerable step in the simplification of the analysis, while the stability theory can be adapted according to the structure of the given mean flow. At the Von Karman Institute (VKI), the VKI Extensible Stability and Transition Analysis (VESTA) toolkit has been developed, which mainly involves methods based on the linear stability theory. In the current project, the main goal was to extend the already present tools to incorporate the BiGlobal stabi...",
+      "authors": [
+        "Koen J. Groot"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Design of a Hypersonic Swept-Wing Experiment for the Study of Crossflow-Vortex/Step-Excrescense Interaction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1728",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Inviscid flow",
+        "Airfoil",
+        "Swept wing",
+        "Supersonic speed",
+        "Angle of attack",
+        "Transonic",
+        "Chord (peer-to-peer)"
+      ],
+      "abstract": "Theoretical guidance is provided for the design of a swept-wing experiment in the University of Arizona's Mach 5 Ludwieg Tube aimed at studying crossflow-vortex/step-excrescence interaction. The success of this campaign relies on producing spanwise uniform flow, so that crossflow vortices are amplified as uniformly as possible. We propose to use a full-span, bi-convex infinite-swept wing. In this article, we fixed the chord length to 5.75 in (146 mm) and model the edge effects by tracking Mach waves from the intersection of the wing with the wind-tunnel walls: we suppose that operating in the supersonic flow in-between these Mach waves allows for the best spanwise uniformity. Furthermore, we consider an infinitely sharp nose, so that the inviscid flow can be determined with the Rankine-Hugoniot and Prandtl-Meyer equations. We use the code DEKAF to solve the boundary-layer equations and Linear Stability Theory (LST) to determine stationary-crossflow-disturbance amplification. Large amplification is found to be supported over a large chordwise portion of the wing in the considered range of sweep angles (60 to 75 degrees) and airfoil thicknesses (1 to 25 percent leading-edge-perpen...",
+      "authors": [
+        "Koen J. Groot",
+        "Hanna L. Detmer",
+        "Alexa Mazur",
+        "Austin J. Garcia",
+        "Stuart A. Craig"
+      ]
+    },
+    {
+      "title": "Streaky perturbations in swept-wing flow over forward-facing step",
+      "publication_year": 2025,
+      "publication_date": "2025-02-14",
+      "doi": "https://doi.org/10.1103/physrevfluids.10.023902",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Swept wing",
+        "Flow (mathematics)",
+        "Physics",
+        "Mechanics",
+        "Aerospace engineering",
+        "Geology",
+        "Computer science"
+      ],
+      "abstract": "Stationary velocity-perturbation streaks are found to be inherent to laminar swept-wing boundary layers interacting with a forward-facing step, often promoting premature laminar-turbulent transition. Using Direct Numerical Simulations, this study reveals that these streaks emerge as a linear response of the step flow to incoming three-dimensional (3D) perturbations via the lift-up effect, further amplified by base-flow deceleration, i.e., a streamwise analogous ``push-forward effect.'' By elucidating steak formation and stability, this work contributes to the predictive understanding of the transition of 3D boundary layers with surface features, with implications for aerodynamic design.",
+      "authors": [
+        "Jordi Casacuberta",
+        "Sven Westerbeek",
+        "Juan Alberto Franco Sumariva",
+        "Koen J. Groot",
+        "Stefan Hickel",
+        "Stefan Hein",
+        "Marios Kotsonis"
+      ]
+    },
+    {
+      "title": "Unsteady Disturbance Amplification on a Wedge at Mach 6",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0306",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wedge (geometry)",
+        "Disturbance (geology)",
+        "Mach number",
+        "Geology",
+        "Computer science",
+        "Mechanics",
+        "Physics",
+        "Optics"
+      ],
+      "abstract": "The Mach 6 flow over a blunt wedge is analyzed, with the aim to uncover the origin of a hot streak that forms on top of the wedge. Vortex identification criteria link the hot streak to a streamwise vortex, that produces a downwash at the location of the hot streak. Therefore, the hot streak is the likely consequence of the thus-enhanced frictional heating. One of the vortex identification criteria indicates that the shock is involved in the creation of the streamwise vortex, another considered criterion does not, however. A more advanced vortex analysis approach should be used to unequivocally determine the role the shock plays in the formation of the streamwise vortex on top of the wedge. Besides the shock, a strong spanwise pressure gradient along the surface of the wedge may be responsible for the creation of the streamwise vortex. In fact, an `inboard' and `outboard' streamwise vortex are identified, dwelling on opposite sides of the pressure minimum in the spanwise direction.",
+      "authors": [
+        "Koen J. Groot",
+        "Bryan J. Morreale",
+        "Jacob Smotzer",
+        "Bret Van Poppel",
+        "Ivett Leyva"
+      ]
+    },
+    {
+      "title": "Boundary-layer instability on a highly swept fin on a cone at Mach 6",
+      "publication_year": 2024,
+      "publication_date": "2024-05-16",
+      "doi": "https://doi.org/10.1017/jfm.2024.299",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1017/jfm.2024.299",
+      "concepts": [
+        "Mach number",
+        "Boundary layer",
+        "Cone (formal languages)",
+        "Instability",
+        "Mechanics",
+        "Fin",
+        "Wake",
+        "Physics"
+      ],
+      "abstract": "The growth and characteristics of linear, oblique instabilities on a highly swept fin on a straight cone in Mach 6 flow are examined. Large streamwise pressure gradients cause doubly inflected cross-flow profiles and reversed flow near the wall, which necessitates using the harmonic linearized Navier–Stokes equations. The cross-flow instability is responsible for the most-amplified disturbances, however, not all disturbances show typical cross-flow characteristics. Distinct differences in perturbation structure are shown between small ( $\\sim$ 3–5 mm) and large ( $\\sim$ 10 mm) wavelength disturbances at the unit Reynolds number $Re' = 11 \\times 10^6$ m $^{-1}$ . As a result, amplification measurements based solely on wall quantities bias a most-amplified disturbance assessment towards larger wavelengths and lower frequencies than would otherwise be determined by an off-wall total-energy approach. A spatial-amplification energy-budget analysis demonstrates (i) that wall-normal Reynolds-flux terms dictate the local growth rate, despite other terms having a locally larger magnitude and (ii) that the Reynolds-stress terms are responsible for large-wavelength disturbances propagating...",
+      "authors": [
+        "Madeline M. Peck",
+        "Koen J. Groot",
+        "Helen L. Reed"
+      ]
+    },
+    {
+      "title": "Convective instabilities in a laminar shock-wave/boundary-layer interaction",
+      "publication_year": 2023,
+      "publication_date": "2023-02-01",
+      "doi": "https://doi.org/10.1063/5.0135590",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": true,
+      "oa_url": "https://aip.scitation.org/doi/pdf/10.1063/5.0135590",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Laminar flow",
+        "Boundary layer",
+        "Wavenumber",
+        "Shock wave",
+        "Mach number",
+        "Classical mechanics"
+      ],
+      "abstract": "Linear stability analyses are performed to study the dynamics of linear convective instability mechanisms in a laminar shock-wave/boundary-layer interaction at Mach 1.7. In order to account for all two-dimensional gradients elliptically, we introduce perturbations into an initial-value problem that are found as solutions to an eigenvalue problem formulated in a moving frame of reference. We demonstrate that this methodology provides results that are independent of the numerical setup, frame speed, and type of eigensolutions used as initial conditions. The obtained time-integrated wave packets are then Fourier-transformed to recover individual-frequency amplification curves. This allows us to determine the dominant spanwise wavenumber and frequency yielding the largest amplification of perturbations in the shock-induced recirculation bubble. By decomposing the temporal wave-packet growth rate into the physical energy-production processes, we provide an in-depth characterization of the convective instability mechanisms in the shock-wave/boundary-layer interaction. For the particular case studied, the largest growth rate is achieved in the near-vicinity of the bubble apex due to th...",
+      "authors": [
+        "Sébastien Niessen",
+        "Koen J. Groot",
+        "Stefan Hickel",
+        "Vincent Terrapon"
+      ]
+    }
+  ]
+}

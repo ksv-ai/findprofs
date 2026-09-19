@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Christian Hubicki",
+  "full_name": "Christian Hubicki",
+  "department": "Department of Mechanical Engineering",
+  "university": "Florida State University",
+  "author_id": "A5033990176",
+  "works_count": 65,
+  "cited_by_count": 1518,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Robotic Locomotion and Control",
+      "count": 46
+    },
+    {
+      "topic": "Prosthetics and Rehabilitation Robotics",
+      "count": 22
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 12
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 8
+    },
+    {
+      "topic": "Modular Robots and Swarm Intelligence",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "ATRIAS: Design and validation of a tether-free 3D-capable spring-mass bipedal robot",
+      "publication_year": 2016,
+      "publication_date": "2016-06-11",
+      "doi": "https://doi.org/10.1177/0278364916648388",
+      "venue": "The International Journal of Robotics Research",
+      "type": "article",
+      "cited_by_count": 230,
+      "is_oa": true,
+      "oa_url": "http://mediatum.ub.tum.de/node?id=1369353",
+      "concepts": [
+        "Robot",
+        "Spring (device)",
+        "Simulation",
+        "Work (physics)",
+        "Bar (unit)",
+        "Computer science",
+        "Control theory (sociology)",
+        "Engineering"
+      ],
+      "abstract": "ATRIAS is a human-scale 3D-capable bipedal robot designed to mechanically embody the spring-mass model for dynamic walking and running. To help bring the extensive work on this theoretical model further into practice, we present the design and validation of a spring-mass robot that can operate in real-world settings (i.e. off-tether and without planarizing restraints). We outline the mechanisms and design choices necessary to meet these specifications, particularly ATRIAS’ four-bar series-elastic leg design. We experimentally demonstrate the following robot capabilities, which are characteristics of the target model. 1) We present the robot’s physical capability for both grounded and aerial gaits, including planar walking and sustained hopping, while being more efficient than similarly gait-versatile bipeds. 2) The robot can be controlled by enforcing quantities derived from the simpler spring-mass model, such as leg angles and leg forces. 3) ATRIAS replicates the center-of-mass dynamics of human hopping and (novelly) walking, a key spring-mass model feature. Lastly, we present dynamically stable stepping in 3D without external support, demonstrating that this theoretical model ...",
+      "authors": [
+        "Christian Hubicki",
+        "Jesse A. Grimes",
+        "Mikhail Jones",
+        "Daniel Renjewski",
+        "Alexander Badri–Spröwitz",
+        "Andy Abate",
+        "Jonathan Hurst"
+      ]
+    },
+    {
+      "title": "3D dynamic walking with underactuated humanoid robots: A direct collocation framework for optimizing hybrid zero dynamics",
+      "publication_year": 2016,
+      "publication_date": "2016-05-01",
+      "doi": "https://doi.org/10.1109/icra.2016.7487279",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 209,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Humanoid robot",
+        "Underactuation",
+        "Computer science",
+        "Context (archaeology)",
+        "Trajectory",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Gait"
+      ],
+      "abstract": "Hybrid zero dynamics (HZD) has emerged as a popular framework for dynamic and underactuated bipedal walking, but has significant implementation difficulties when applied to the high degrees of freedom present in humanoid robots. The primary impediment is the process of gait design-it is difficult for optimizers to converge on a viable set of virtual constraints defining a gait. This paper presents a methodology that allows for the fast and reliable generation of efficient multi-contact robotic walking gaits through the framework of HZD, even in the presence of underactuation. To achieve this goal, we unify methods from trajectory optimization with the control framework of multi-domain hybrid zero dynamics. By formulating a novel optimization problem in the context of direct collocation and generating analytic Jacobians for the constraints, solving the resulting nonlinear program becomes tractable for large-scale nonlinear programming solvers, even for systems as high-dimensional as humanoid robots. We experimentally validated our methodology on the spring-legged prototype humanoid, DURUS, showing that the optimization approach yields dynamic and stable 3D walking gaits.",
+      "authors": [
+        "Ayonga Hereid",
+        "Eric Cousineau",
+        "Christian Hubicki",
+        "Aaron D. Ames"
+      ]
+    },
+    {
+      "title": "Don't break a leg: running birds from quail to ostrich prioritise leg safety and economy on uneven terrain",
+      "publication_year": 2014,
+      "publication_date": "2014-10-29",
+      "doi": "https://doi.org/10.1242/jeb.102640",
+      "venue": "Journal of Experimental Biology",
+      "type": "article",
+      "cited_by_count": 131,
+      "is_oa": true,
+      "oa_url": "https://jeb.biologists.org/content/jexbio/217/21/3786.full.pdf",
+      "concepts": [
+        "Cursorial",
+        "Obstacle",
+        "Terrain",
+        "Ground reaction force",
+        "Gait",
+        "Body weight",
+        "Control theory (sociology)",
+        "Physical medicine and rehabilitation"
+      ],
+      "abstract": "Cursorial ground birds are paragons of bipedal running that span a 500-fold mass range from quail to ostrich. Here we investigate the task-level control priorities of cursorial birds by analysing how they negotiate single-step obstacles that create a conflict between body stability (attenuating deviations in body motion) and consistent leg force-length dynamics (for economy and leg safety). We also test the hypothesis that control priorities shift between body stability and leg safety with increasing body size, reflecting use of active control to overcome size-related challenges. Weight-support demands lead to a shift towards straighter legs and stiffer steady gait with increasing body size, but it remains unknown whether non-steady locomotor priorities diverge with size. We found that all measured species used a consistent obstacle negotiation strategy, involving unsteady body dynamics to minimise fluctuations in leg posture and loading across multiple steps, not directly prioritising body stability. Peak leg forces remained remarkably consistent across obstacle terrain, within 0.35 body weights of level running for obstacle heights from 0.1 to 0.5 times leg length. All species...",
+      "authors": [
+        "Aleksandra V. Birn‐Jeffery",
+        "Christian Hubicki",
+        "Yvonne Blum",
+        "Daniel Renjewski",
+        "Jonathan Hurst",
+        "Monica A. Daley"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Parameter-Regression MPC (PaReMPC): Experiments and Extensions of a Broadly Adaptive Approach for SISO Robotic Applications",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1109/case58245.2025.11163779",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Benchmark (surveying)",
+        "Model predictive control",
+        "Range (aeronautics)",
+        "Computer science",
+        "Noise (video)",
+        "Adaptive control",
+        "Tree (set theory)"
+      ],
+      "abstract": "Model learning combined with model predictive control (MPC) can be an effective control approach for adapting to a wide range of unknown system dynamics or changes thereof. Specifically, we take a parameter regression approach to maximize the adaptation rate during control operation. Here we present this approach as Parameter Regression MPC (PaReMPC) with an N-integrator plant model and demonstrate the approach in two hardware experiments. First, in a loaded motor experiment, PaReMPC achieved high-fidelity tracking within 0.5 seconds, and second, stabilized a ball-balancing robot—both with poor initial parameters. However, this learn-as-you-go approach is inherently greedy and creates an unstable feedback loop with the controller, particularly when nonminimum phase zeros are present. In numerical experiments, we benchmark the ability of PaReMPC to adapt to a range of SISO LTI systems against scenario tree dual control methods (i.e., ST-SMPC) which infer probabilities of candidate modes. In addition, we combine PaReMPC with scenario trees to create a novel ST-PaReMPC approach. Our numerical simulations found that PaReMPC attains the lowest-cost performance in cases of low-noise o...",
+      "authors": [
+        "Vivek Annem",
+        "Christian Hubicki"
+      ]
+    },
+    {
+      "title": "2D Balancing Controller for a Unicycling Biped via Legged Locomotion",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1109/case58245.2025.11164072",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Torque",
+        "Robot",
+        "Controller (irrigation)",
+        "Pendulum",
+        "Computer science",
+        "Inverted pendulum",
+        "Humanoid robot"
+      ],
+      "abstract": "Legged humanoid robots are growing in popularity in the commercial space, so determining how to control legs to achieve dynamic balancing is critical. Previous work has been done on creating robots that can unicycle, but these robots directly actuate the wheel or do not have fully actuated legs. The controller proposed in this work uses a multi-body model consisting of three branched pendulums connected to a wheel. Double pendulums are used to represent the legs while a single pendulum represents the body of the biped joined to the unicycling stand. The model uses anthropometric data to ensure human-like proportions of the leg segments. A linear-quadratic regulator (LQR) was implemented to drive the robotic hip and knee joints such that they would actuate the pedal mechanism of the unicycle. In simulation, we were able to drive the system to balance while pedaling two rotations of the wheel in under 5 seconds. When disturbance torques were applied to oppose the motion, the system was able to recover from a maximum torque of 1.3 Nm applied during its most robust configuration and 0.5 Nm during its least robust configuration, both within 10 seconds of the angular impulse.",
+      "authors": [
+        "Dailiang Ma",
+        "Christian Hubicki",
+        "Taylor M. Higgins"
+      ]
+    },
+    {
+      "title": "Single-Stage Optimization of Open-Loop Stable Limit Cycles with Smooth, Symbolic Derivatives",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.1109/icra55743.2025.11128720",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Limit (mathematics)",
+        "Stage (stratigraphy)",
+        "Loop (graph theory)",
+        "Computer science",
+        "Control theory (sociology)",
+        "Mathematical optimization",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "Open-loop stable limit cycles are foundational to legged robotics, providing inherent self-stabilization that minimizes the need for computationally intensive feedback-based gait correction. While previous methods have primarily targeted specific robotic models, this paper introduces a general framework for rapidly generating limit cycles across various dynamical systems, with the flexibility to impose arbitrarily tight stability bounds. We formulate the problem as a single-stage constrained optimization problem and use Direct Collocation to transcribe it into a nonlinear program with closed-form expressions for constraints, objectives, and their gradients. Our method supports multiple stability formulations. In particular, we tested two popular formulations for limit cycle stability in robotics: (1) based on the spectral radius of a discrete return map, and (2) based on the spectral radius of the monodromy matrix, and tested five different constraintsatisfaction formulations of the eigenvalue problem to bound the spectral radius. We compare the performance and solution quality of the various formulations on a robotic swing-leg model, highlighting the Schur decomposition of the ...",
+      "authors": [
+        "Muhammad Saud Ul Hassan",
+        "Christian Hubicki"
+      ]
+    },
+    {
+      "title": "WaLTER: A Wheel and Leg Tumbling Expedition Robot",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.1109/icra55743.2025.11128221",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Mobile robot",
+        "Computer science",
+        "Aeronautics",
+        "Artificial intelligence",
+        "Engineering"
+      ],
+      "abstract": "For effective operation in challenging outdoor environments, mobile unmanned robots face stiff and competing demands including payload capacity, driving speed, range, as well as the ability to traverse rough terrain. To address these issues we introduce the hybrid wheel-leg quadrupedal robot WaLTER. WaLTER utilizes a unique combination of continuously rotating distal leg joints, actuated wheels, and a roll body DOF to efficiently drive on flat ground and effectively tumble over stairs and difficult, broken terrain. We developed an intuitive teleoperation scheme and employed deep reinforcement learning as proof of concept control techniques for the novel morphology. To test its capabilities, we constructed a multi-body simulation in MuJoCo and a 2.1 kg physical prototype for experimentation on traversability and energy economy. Our testing demonstrated the ability to traverse rougher terrain relative to larger-wheeled counterparts and reliable stair-climbing while maintaining a 4 km range on a 24.4 Wh battery (COT: 1.21).",
+      "authors": [
+        "David Jay",
+        "Jacob Hackett",
+        "Paul Bosscher",
+        "Christian Hubicki",
+        "Jonathan E. Clark"
+      ]
+    },
+    {
+      "title": "Dynamic Bipedal MPC with Foot-Level Obstacle Avoidance and Adjustable Step Timing",
+      "publication_year": 2025,
+      "publication_date": "2025-05-19",
+      "doi": "https://doi.org/10.1109/icra55743.2025.11128284",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Obstacle avoidance",
+        "Bipedalism",
+        "Computer science",
+        "Obstacle",
+        "Control theory (sociology)",
+        "Collision avoidance",
+        "Foot (prosody)",
+        "Robot"
+      ],
+      "abstract": "Collision-free planning is essential for bipedal robots operating within unstructured environments. This paper presents a real-time Model Predictive Control (MPC) frame-work that addresses both body and foot avoidance for dynamic bipedal robots. Our contribution is two-fold: we introduce (1) a novel formulation for adjusting step timing to facilitate faster body avoidance and (2) a novel 3D foot-avoidance formulation that implicitly selects swing trajectories and footholds that either steps over or navigate around obstacles with awareness of Center of Mass (COM) dynamics. We achieve body avoidance by applying a half-space relaxation of the safe region but introduce a switching heuristic based on tracking error to detect a need to change foot-timing schedules. To enable foot avoidance and viable landing footholds on all sides of foot-level obstacles, we decompose the non-convex safe region on the ground into several convex polygons and use Mixed-Integer Quadratic Programming to determine the optimal candidate. We found that introducing a soft minimum-travel-distance constraint is effective in preventing the MPC from being trapped in local minima that can stall half-space relaxati...",
+      "authors": [
+        "Tianze Wang",
+        "Christian Hubicki"
+      ]
+    }
+  ]
+}

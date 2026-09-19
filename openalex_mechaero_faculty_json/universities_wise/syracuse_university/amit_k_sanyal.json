@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Amit K. Sanyal",
+  "full_name": "Amit K. Sanyal",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Syracuse University",
+  "author_id": "A5079524565",
+  "works_count": 200,
+  "cited_by_count": 3649,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 108
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 63
+    },
+    {
+      "topic": "Control and Dynamics of Mobile Robots",
+      "count": 59
+    },
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 33
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Rigid-Body Attitude Control",
+      "publication_year": 2011,
+      "publication_date": "2011-05-13",
+      "doi": "https://doi.org/10.1109/mcs.2011.940459",
+      "venue": "IEEE Control Systems",
+      "type": "article",
+      "cited_by_count": 720,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Attitude control",
+        "Rigid body",
+        "Set (abstract data type)",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Euclidean space",
+        "Motion (physics)",
+        "Computer science"
+      ],
+      "abstract": "Rigid-body attitude control is motivated by aerospace applications that involve attitude maneuvers or attitude stabilization. The set of attitudes of a rigid body is the set of 3 X 3 orthogonal matrices whose determinant is one. This set is the configuration space of rigid-body attitude motion; however, this configuration space is not Euclidean. Since the set of attitudes is not a Euclidean space, attitude control is typically studied using various attitude parameterizations. Motivated by the desire to represent attitude both globally and uniquely in the analysis of rigid-body rotational motion, this article uses orthogonal matrices exclusively to represent attitude and to develop results on rigid-body attitude control. An advantage of using orthogonal matrices is that these control results, which include open-loop attitude control maneuvers and stabilization using continuous feedback control, do not require reinterpretation on the set of attitudes viewed as orthogonal matrices. The main objec tive of this article is to demonstrate how to characterize properties of attitude control systems for arbitrary attitude maneuvers without using attitude parameterizations.",
+      "authors": [
+        "Nalin A. Chaturvedi",
+        "Amit K. Sanyal",
+        "N. Harris McClamroch"
+      ]
+    },
+    {
+      "title": "Inertia-Free Spacecraft Attitude Tracking with Disturbance Rejection and Almost Global Stabilization",
+      "publication_year": 2009,
+      "publication_date": "2009-06-17",
+      "doi": "https://doi.org/10.2514/1.41565",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 197,
+      "is_oa": true,
+      "oa_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/76737/1/AIAA-41565-705.pdf",
+      "concepts": [
+        "Control theory (sociology)",
+        "Setpoint",
+        "Lyapunov function",
+        "Controller (irrigation)",
+        "Nonlinear system",
+        "Quaternion",
+        "Spacecraft",
+        "Attitude control"
+      ],
+      "abstract": "Peer Reviewed",
+      "authors": [
+        "Amit K. Sanyal",
+        "Adam Fosbury",
+        "Nalin A. Chaturvedi",
+        "Dennis S. Bernstein"
+      ]
+    },
+    {
+      "title": "Asymptotic Tracking Control for Spacecraft Formation Flying with Decentralized Collision Avoidance",
+      "publication_year": 2014,
+      "publication_date": "2014-05-27",
+      "doi": "https://doi.org/10.2514/1.g000101",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 162,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Collision avoidance",
+        "Trajectory",
+        "Lyapunov function",
+        "Computer science",
+        "Collision",
+        "Engineering"
+      ],
+      "abstract": "This paper presents a tracking control scheme for spacecraft formation flying with a decentralized collision-avoidance scheme, using a virtual leader state trajectory. The configuration space for a spacecraft is the Lie group , which is the set of positions and orientations in three-dimensional Euclidean space. A virtual leader trajectory, in the form of attitude and orbital motion of a virtual satellite, is generated offline. Each spacecraft tracks a desired relative configuration with respect to the virtual leader in an autonomous manner, to achieve the desired formation. The relative configuration between a spacecraft and the virtual leader is described in terms of exponential coordinates on . A continuous-time feedback tracking control scheme is designed using these exponential coordinates and the relative velocities. A Lyapunov analysis guarantees that the spacecraft asymptotically converge to their desired state trajectories. This tracking control scheme is combined with a decentralized collision-avoidance control scheme generated from artificial potentials for each spacecraft, which includes information of relative positions of other spacecraft within communications range...",
+      "authors": [
+        "Daero Lee",
+        "Amit K. Sanyal",
+        "Eric A. Butcher"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Finite-time Stable Pose Estimation on TSE(3) using Point Cloud and Velocity Sensors",
+      "publication_year": 2026,
+      "publication_date": "2026-02-10",
+      "doi": "https://doi.org/10.48550/arxiv.2602.09414",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.09414",
+      "concepts": [
+        "Rigid body",
+        "Observer (physics)",
+        "Angular velocity",
+        "Mathematics",
+        "Robustness (evolution)",
+        "Pose",
+        "Computer vision",
+        "Point cloud"
+      ],
+      "abstract": "This work presents a finite-time stable pose estimator (FTS-PE) for rigid bodies undergoing rotational and translational motion in three dimensions, using measurements from onboard sensors that provide position vectors to inertially-fixed points and body velocities. The FTS-PE is a full-state observer for the pose (position and orientation) and velocities and is obtained through a Lyapunov analysis that shows its stability in finite time and its robustness to bounded measurement noise. Further, this observer is designed directly on the state space, the tangent bundle of the Lie group of rigid body motions, SE(3), without using local coordinates or (dual) quaternion representations. Therefore, it can estimate arbitrary rigid body motions without encountering singularities or the unwinding phenomenon and be readily applied to autonomous vehicles. A version of this observer that does not need translational velocity measurements and uses only point clouds and angular velocity measurements from rate gyros, is also obtained. It is discretized using the framework of geometric mechanics for numerical and experimental implementations. The numerical simulations compare the FTS-PE with a d...",
+      "authors": [
+        "Nazanin Safaei Hashkavaei",
+        "Abhijit Dongare",
+        "Neon Srinivasu",
+        "Amit K. Sanyal"
+      ]
+    },
+    {
+      "title": "Finite-time Stable Pose Estimation on TSE(3) using Point Cloud and Velocity Sensors",
+      "publication_year": 2026,
+      "publication_date": "2026-02-10",
+      "doi": "http://arxiv.org/abs/2602.09414",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.09414",
+      "concepts": [
+        "Rigid body",
+        "Observer (physics)",
+        "Angular velocity",
+        "Mathematics",
+        "Robustness (evolution)",
+        "Pose",
+        "Computer vision",
+        "Point cloud"
+      ],
+      "abstract": "This work presents a finite-time stable pose estimator (FTS-PE) for rigid bodies undergoing rotational and translational motion in three dimensions, using measurements from onboard sensors that provide position vectors to inertially-fixed points and body velocities. The FTS-PE is a full-state observer for the pose (position and orientation) and velocities and is obtained through a Lyapunov analysis that shows its stability in finite time and its robustness to bounded measurement noise. Further, this observer is designed directly on the state space, the tangent bundle of the Lie group of rigid body motions, SE(3), without using local coordinates or (dual) quaternion representations. Therefore, it can estimate arbitrary rigid body motions without encountering singularities or the unwinding phenomenon and be readily applied to autonomous vehicles. A version of this observer that does not need translational velocity measurements and uses only point clouds and angular velocity measurements from rate gyros, is also obtained. It is discretized using the framework of geometric mechanics for numerical and experimental implementations. The numerical simulations compare the FTS-PE with a d...",
+      "authors": [
+        "Nazanin Safaei Hashkavaei",
+        "Abhijit Dongare",
+        "Neon Srinivasu",
+        "Amit K. Sanyal"
+      ]
+    },
+    {
+      "title": "Breaking Topological Obstructions in Rigid Body Attitude Control using Time-varying Localized Feedback Perturbations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6628933",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6628933",
+      "concepts": [
+        "Control theory (sociology)",
+        "Mathematics",
+        "Angular velocity",
+        "Morse code",
+        "Perturbation (astronomy)",
+        "Nonlinear system",
+        "Convergence (economics)",
+        "Morse theory"
+      ],
+      "abstract": "",
+      "authors": [
+        "Amit K. Sanyal",
+        "Neon Srinivasu"
+      ]
+    },
+    {
+      "title": "Rigid Body Attitude Control with a Time-Varying Morse Function",
+      "publication_year": 2025,
+      "publication_date": "2025-12-18",
+      "doi": "https://doi.org/10.1109/icc69100.2025.11372322",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Lyapunov function",
+        "Mathematics",
+        "Morse code",
+        "Parametric statistics",
+        "Rigid body",
+        "Convergence (economics)",
+        "Nonlinear system"
+      ],
+      "abstract": "The use of Morse functions on the Lie group SO(3) of rigid body rotations as Lyapunov functions for rigid body attitude control leads to almost globally asymptotically stable (AGAS) control laws. A Morse function on SO(3) has four critical points. When used as a Lyapunov function, it leads to a globally continuous state-dependent feedback control scheme with the minimum as the AGAS equilibrium of the feedback system. It is known that Morse functions give the largest possible domain of convergence with state-dependent and globally continuous feedback control laws. In this work, we explore the use of time-varying Morse functions for rigid body attitude control. This strategy can be used to parametrically stabilize desired equilibria or destabilize undesired equilibria of the feedback system. The positive gains of this Morse function are each the sum of a constant and a sinusoidal function of time. Linearization of the dynamics around the equilibria of the feedback system leads to decoupled Mathieu oscillators. Careful selection of these control gains can give parametric stability of the equilibria while varying these gains can lead to interesting behavior like period-doubling bifu...",
+      "authors": [
+        "Neon Srinivasu",
+        "Amit K. Sanyal",
+        "Eric A. Butcher"
+      ]
+    },
+    {
+      "title": "A Decentralized Variational Estimation Scheme for Relative Rotational Motion in a Multi-Agent Network of Rigid Body Vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-12-09",
+      "doi": "https://doi.org/10.1109/cdc57313.2025.11312501",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Angular velocity",
+        "Observer (physics)",
+        "Rigid body",
+        "Bounded function",
+        "Control theory (sociology)",
+        "Mathematics",
+        "Variational integrator",
+        "Discretization"
+      ],
+      "abstract": "In this article, a decentralized relative attitude state observer using rotation matrices is designed for a multivehicle system. This system is modeled as a multi-agent rigid body system (MARBS). Several challenges arise in the analysis of multi-vehicle systems modeled as MARBS: one of these challenges is estimating the relative rotational motions of vehicles in such systems. Here, a relative attitude and relative angular velocity estimation scheme based on the Lagranged’Alembert principle of variational mechanics, is designed. Estimates of absolute attitudes and angular velocities of agents (vehicles) in the system are shared with other vehicles they are communicating with. These estimates are used to design a Lagrangian, obtained as the difference between a kinetic energy-like term and a potential energy-like function. Thereafter, a decentralized variational estimation scheme is designed to estimate the relative attitude motion states and its stability is shown analytically. This estimation scheme is then discretized in the form of a Lie group variational integrator (LGVI) for numerical simulations, by applying the discrete Lagrange-d’Alembert principle. Finally, numerical sim...",
+      "authors": [
+        "Amit K. Sanyal",
+        "Nazanin Safaei Hashkavaei",
+        "Neon Srinivasu",
+        "Srikant Sukumar"
+      ]
+    }
+  ]
+}

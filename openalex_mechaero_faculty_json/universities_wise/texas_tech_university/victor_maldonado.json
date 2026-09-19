@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Victor Maldonado",
+  "full_name": "Víctor Maldonado",
+  "department": "Department of Mechanical Engineering",
+  "university": "Texas Tech University",
+  "author_id": "A5102729317",
+  "works_count": 82,
+  "cited_by_count": 455,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 27
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 20
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 19
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 12
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Active control of flow separation and structural vibrations of wind turbine blades",
+      "publication_year": 2009,
+      "publication_date": "2009-05-05",
+      "doi": "https://doi.org/10.1002/we.336",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 73,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Synthetic jet",
+        "Particle image velocimetry",
+        "Wind tunnel",
+        "Turbine blade",
+        "Actuator",
+        "Vibration",
+        "Flow separation",
+        "Mechanics"
+      ],
+      "abstract": "Abstract The feasibility of using synthetic jet actuators to enhance the performance of wind turbine blades was explored in wind tunnel experiments on a small scale model blade. Using this technique, the global flow field over the blade was altered such that flow separation was mitigated. Consequently, this resulted in a significant decrease in the vibration of the blade. Global flow measurements were conducted, where the moments and forces on the blade were measured using a six component wall‐mounted load cell. The effect of the actuation was also examined on the surface static pressure at two spanwise locations; near the blade's root and near its tip. In addition, Particle Image Velocimetry (PIV) technique was used to quantify the flow field over the blade. Using synthetic jets, the flow over the blade was either fully or partially reattached, depending on the angle of attack, and the Reynolds number. Furthermore, the changes induced on the moments and forces, as well as on the blade vibrations were found to be proportionally controllable by either changing the momentum coefficient, the number of synthetic jets used, or by the driving waveform. Finally, a proof‐of‐concept clos...",
+      "authors": [
+        "Víctor Maldonado",
+        "John Farnsworth",
+        "William Gressick",
+        "Michael Amitay"
+      ]
+    },
+    {
+      "title": "The role of free stream turbulence with large integral scale on the aerodynamic performance of an experimental low Reynolds number S809 wind turbine blade",
+      "publication_year": 2015,
+      "publication_date": "2015-05-15",
+      "doi": "https://doi.org/10.1016/j.jweia.2015.03.010",
+      "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Turbulence",
+        "Wind tunnel",
+        "Mechanics",
+        "Turbine blade",
+        "Aerodynamics",
+        "Reynolds number",
+        "Chord (peer-to-peer)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Víctor Maldonado",
+        "Luciano Castillo",
+        "Adrien Thormann",
+        "Charles Meneveau"
+      ]
+    },
+    {
+      "title": "Active Vibration Control of a Wind Turbine Blade Using Synthetic Jets",
+      "publication_year": 2009,
+      "publication_date": "2009-12-01",
+      "doi": "https://doi.org/10.1260/1756-8250.1.4.227",
+      "venue": "International Journal of Flow Control",
+      "type": "article",
+      "cited_by_count": 32,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Blade (archaeology)",
+        "Turbine blade",
+        "Vibration",
+        "Turbine",
+        "Marine engineering",
+        "Materials science",
+        "Engineering",
+        "Environmental science"
+      ],
+      "abstract": "Active vibration control via an array of synthetic jet actuators was investigated experimentally in a wind tunnel. Using synthetic jets the flow over a small scale S809 finite wind turbine blade was controlled, resulting in reduction of the blade's structural vibrations. The effectiveness of the synthetic jets was explored for a range of post-stall angles of attack at Reynolds numbers between 7.1 × 104 and 2.38 × 105. The blade vibrations were measured and quantified using a pair of strain gauges mounted at the root of the model. Using flow control, significant vibration reduction was observed for some post-stall angles of attack. A correlation between vibration reduction and the degree of flow reattachment, measured using Particle Image Velocimetry, was found.",
+      "authors": [
+        "Víctor Maldonado",
+        "Matthew Boucher",
+        "Rebecca Ostman",
+        "Michael Amitay"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The Open Trade Project: Modeling Value and Uncertainty in NFL Draft Trades",
+      "publication_year": 2026,
+      "publication_date": "2026-03-17",
+      "doi": "https://doi.org/10.20944/preprints202603.1149.v1",
+      "venue": "Preprints.org",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.preprints.org/frontend/manuscript/bccfd3c17065ccc8fc1eb6ec1dd8564a/download_pub",
+      "concepts": [
+        "Econometrics",
+        "Chart",
+        "Point estimation",
+        "Confidence interval",
+        "Probabilistic logic",
+        "Statistics",
+        "Value (mathematics)",
+        "Calibration"
+      ],
+      "abstract": "Draft pick value charts are widely used by NFL teams to evaluate trade proposals during the draft. Traditional charts provide point estimates for the relative value of each selection but do not quantify the uncertainty associated with those values. This paper introduces a statistical framework for estimating the uncertainty in draft pick values using historical trade data.Starting from the Rich Hill draft chart as a prior mean valuation, deviations between observed trade outcomes and chart values are analyzed to estimate the variability associated with each pick. Because individual picks have limited observations, a correlation structure between neighboring selections is introduced through a custom kernel function. Kernel regression is then applied to produce smooth estimates of the standard deviation associated with each pick.The resulting model generates probabilistic confidence intervals for draft pick values and allows trades to be evaluated in terms of statistical percentiles. Using historical trade data, the Rich Hill chart is shown to provide a better baseline representation of observed trade behavior than the traditional Jimmy Johnson chart. Model calibration using norma...",
+      "authors": [
+        "Guilherme Dufflis Fernandes",
+        "Víctor Maldonado"
+      ]
+    },
+    {
+      "title": "Validation of a Vortex-Panel Method Software for Full-Scale Flying Wing Aerodynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1109",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Solver",
+        "Wing",
+        "Airfoil",
+        "Computer science",
+        "Stall (fluid mechanics)",
+        "Computational fluid dynamics",
+        "Software"
+      ],
+      "abstract": "This study presents the validation of FlightStream, a vortex-panel method solver, for the aerodynamic analysis of a flying wing model at full-scale Reynolds number. The validation is conducted using experimental data from NACA Technical Note 1212 (1947), which investigated the influence of a reflex-cambered mean line on the aerodynamic characteristics of a highly tapered, moderately swept-back wing at M = 0.13 and Re = 4.8 million. In this work, the geometry and flow conditions described in the technical report are reconstructed and simulated using different settings for the solver. The validation step is preceded by a grid convergence study, an essential verification step to ensure mesh-independent results while preserving fast simulation times. The features of the flow over the flying wing in the original report (unsteady and highly separated) required the exploration of different solver settings to achieve accurate results. Comparison of lift, drag coefficients resulted in an accuracy of 5% at low and moderate angles of attack. At stall conditions, the solver accuracy is reduced significantly. However, the validation results clearly highlight the adequacy of FlightStream for ...",
+      "authors": [
+        "Guilherme Fernandes",
+        "Anaissa Rodriguez",
+        "Nazir Laureano Gandur",
+        "Víctor Maldonado"
+      ]
+    },
+    {
+      "title": "Computational Analysis of Bio-Inspired Transformations on Symmetrical Airfoils",
+      "publication_year": 2025,
+      "publication_date": "2025-11-24",
+      "doi": "https://doi.org/10.31224/5862",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://engrxiv.org/preprint/download/5862/9750/8163",
+      "concepts": [
+        "Airfoil",
+        "NACA airfoil",
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Mathematics",
+        "Turbulence",
+        "Reynolds number",
+        "Computer science"
+      ],
+      "abstract": "This computational study delves into the potential of the Fibonacci Sequence and the Golden Ratio in enhancing the aerodynamic efficiency of symmetrical airfoils. The NACA 0012 airfoil—a well-known symmetrical profile—is used as the baseline for creating two novel airfoil geometries; one for each mathematical transformation. These transformations were scripted in Python andANSYS Workbench with SPEOS is used for performing 2D CFD simulations on the baseline and modified airfoils. The k − ω SST (Shear Stress Transport) turbulence model is used in ANSYS to achieve airflow simulation at a Reynolds number of 7.4 million. The lift-to-drag ratio values of these airfoils are calculated at angles of attack ranging from 0 to 15 degrees and compared to determine efficiency improvements. The results showed efficiency improvement of both modified airfoils at certain angles of attack.",
+      "authors": [
+        "Tejas Waghode",
+        "Víctor Maldonado"
+      ]
+    },
+    {
+      "title": "Aeroelastic performance of a vertical lift rotor coated with sharkskin-inspired micropillars in laminar and transitional flow",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1063/5.0273951",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Laminar flow",
+        "Mechanics",
+        "Lift (data mining)",
+        "Aeroelasticity",
+        "Flow visualization",
+        "Flow separation",
+        "Flow (mathematics)"
+      ],
+      "abstract": "A stationary vertical lift rotor was coated with a sharkskin-inspired micropillar coating on the suction side of the blades and tested under normal operating speeds, Ω between 400 and 1400 revolutions per minute (rpm), and collective pitch angles, θc, of 2°, 5°, and 8°. The novel micropillars contain a diverging tip with increasing surface area and contain hydrophobic characteristics. The micropillars are applied as a thin-film flexible coating where the pillar heights h were 70 and 140 μm tall. The two-bladed carbon fiber rotor contains a diameter of 1.58 m with a symmetric 10% thick airfoil and zero twist distribution. When operating at the test speeds, the rotor produces Reynolds numbers based on local freestream velocity and chord in the range of 4.02 × 104 ≤ Re∞ ≤ 4.22 × 105 between three radial points, r/R = 0.32, 0.64, and 0.96. The near-wall flow and blade bending displacement were measured using laser Doppler velocimetry and laser triangulation techniques. Rotor thrust and power were measured using an electronic load cell and a high-capacity power supply. The main contributions of the work are the findings to explain why micropillars have a distinct role when operating ...",
+      "authors": [
+        "Víctor Maldonado",
+        "Guilherme Fernandes",
+        "Aaron Mallory"
+      ]
+    },
+    {
+      "title": "1353 Resonant Acoustic Mixing (RAM) Technology Application for the Direct Compression of Ibuprofen Tablets",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1016/j.japh.2025.102810",
+      "venue": "Journal of the American Pharmacists Association",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Medicine",
+        "Ibuprofen",
+        "Compression (physics)",
+        "Mixing (physics)",
+        "Composite material",
+        "Biomedical engineering",
+        "Acoustics",
+        "Materials testing"
+      ],
+      "abstract": "",
+      "authors": [
+        "E. Centeno Nieves",
+        "A.F. de Toledo",
+        "S. Cruz",
+        "Víctor Maldonado"
+      ]
+    }
+  ]
+}

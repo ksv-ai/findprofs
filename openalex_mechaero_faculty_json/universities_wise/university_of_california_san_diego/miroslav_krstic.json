@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Miroslav Krstic",
+  "full_name": "Miroslav Krstić",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-San Diego",
+  "author_id": "A5018293076",
+  "works_count": 1443,
+  "cited_by_count": 65558,
+  "h_index": 113,
+  "top_topics": [
+    {
+      "topic": "Stability and Controllability of Differential Equations",
+      "count": 583
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 301
+    },
+    {
+      "topic": "Extremum Seeking Control Systems",
+      "count": 291
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 238
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 215
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Real-time optimization by extremum-seeking control",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.5860/choice.41-4064",
+      "venue": "Choice Reviews Online",
+      "type": "book-review",
+      "cited_by_count": 834,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control (management)",
+        "Control theory (sociology)",
+        "Computer science",
+        "Mathematical optimization",
+        "Mathematics",
+        "Artificial intelligence"
+      ],
+      "abstract": "Publisher's description: Extremum seeking is a method of adaptive control outside the classical paradigm or model reference and related schemes. The unique feature of extremum seeking as an optimization tool is that is is an on-line methodology, performed by feedback, and with the ability to achieve rapid convergence. A second distinction between classical adaptive control and extremum seeking is that the latter is not model based. Its non-model based character explains the remarkable popularity of extremum seeking in the last half decade: the recent applications in fluid flow combustion, and biomedical systems are all characterized by complex, unreliable models. Written by authorities in the field and pioneers in adaptive nonlinear control systems, this book presents both significant theoretic value and important practical potential.",
+      "authors": [
+        "Kartik B. Ariyur",
+        "Miroslav Krstić"
+      ]
+    },
+    {
+      "title": "Nonlinear and adaptive control design",
+      "publication_year": 1995,
+      "publication_date": "1995-01-01",
+      "doi": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=007087225&amp;sequence=000001&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 10449,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Backstepping",
+        "Nonlinear system",
+        "Mathematical proof",
+        "Adaptive control",
+        "Strict-feedback form",
+        "Computer science",
+        "Focus (optics)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "From the Publisher:\r\nUsing a pedagogical style along with detailed proofs and illustrative examples, this book opens a view to the largely unexplored area of nonlinear systems with uncertainties. The focus is on adaptive nonlinear control results introduced with the new recursive design methodology--adaptive backstepping. Describes basic tools for nonadaptive backstepping design with state and output feedbacks.",
+      "authors": [
+        "Miroslav Krstić",
+        "P.V. Kokotović",
+        "I. Kanellakopoulos"
+      ]
+    },
+    {
+      "title": "Stability of extremum seeking feedback for general nonlinear dynamic systems",
+      "publication_year": 2000,
+      "publication_date": "2000-04-01",
+      "doi": "https://doi.org/10.1016/s0005-1098(99)00183-1",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 1389,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Mathematics",
+        "Perturbation (astronomy)",
+        "Nonlinear control",
+        "Affine transformation",
+        "Adaptive control",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Miroslav Krstić",
+        "Hsin-Hsiung Wang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Safety Critical Control Using Fully Nonlinear Equations of Relative Motion for Formation Flying in Cislunar Space",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1452",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Spacecraft",
+        "Nonlinear system",
+        "Acceleration",
+        "Ephemeris",
+        "Computer science",
+        "Controller (irrigation)",
+        "Filter (signal processing)"
+      ],
+      "abstract": "With the rapid growth of missions in cislunar space, spacecraft must operate safely and autonomously in a strongly nonlinear gravitational environment where traditional linearized relative-motion models are insufficient. This paper develops a safety critical control framework that directly uses the fully nonlinear relative dynamics for both the Circular Restricted Three-Body Problem (CR3BP) and a high fidelity ephemeris model. A minimally intrusive Control Barrier Function (CBF)-based quadratic program (QP) enforces a Euclidean distance safety constraint between spacecraft, with the high relative degree of positional constraints addressed through CBF backstepping. After validating the safety filter under CR3BP dynamics, we extend it to the ephemeris model by incorporating SPICE-derived Earth–Moon states, a time varying rotating frame, and realistic angular rate and acceleration computations. For formation flying, we design a Lyapunov-based nominal controller that achieves a constant-radius orbit around the chief by steering the out-of-plane component to zero, driving the relative motion into a user-defined invariant circle set, and maintain a constant orbit. Simulations for Eart...",
+      "authors": [
+        "Evelia Zapien Ramos",
+        "Kwang Hak Kim",
+        "Miroslav Krstić",
+        "Aaron J. Rosengren"
+      ]
+    },
+    {
+      "title": "DADS under unknown input coefficients",
+      "publication_year": 2026,
+      "publication_date": "2026-06-23",
+      "doi": "https://doi.org/10.1080/00207179.2026.2680193",
+      "venue": "International Journal of Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.04117",
+      "concepts": [
+        "Control theory (sociology)",
+        "Mathematics",
+        "Disturbance (geology)",
+        "State (computer science)",
+        "Adaptive control",
+        "Stability (learning theory)",
+        "Attenuation",
+        "Matching (statistics)"
+      ],
+      "abstract": "This short note shows that the Deadzone-Adapted Disturbance Suppression (DADS) adaptive control scheme is applicable to systems with unknown input coefficients. We study time-invariant, control-affine systems that satisfy the matching condition for which no bounds for the disturbance and the unknown parameters are known. The input coefficients can be time-varying as well as the unknown parameters. The only thing assumed for the input coefficients is their sign. The adaptive control design is Lyapunov-based and can be accomplished for every system for which a smooth globally stabilising feedback exists when the disturbances are absent and all unknown parameters are known. The design is given by simple, explicit formulas. The proposed controllers guarantee an attenuation of the plant state to an assignable small level, despite unknown bounds on the parameters and disturbance, without a drift of the gain, state, and input.",
+      "authors": [
+        "Iasson Karafyllis",
+        "Miroslav Krstić"
+      ]
+    },
+    {
+      "title": "The age-structured chemostat with substrate dynamics as a control system",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.1007/s00498-026-00449-9",
+      "venue": "Mathematics of Control Signals and Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00498-026-00449-9.pdf",
+      "concepts": [
+        "Chemostat",
+        "Mathematics",
+        "Ordinary differential equation",
+        "Mathematical analysis",
+        "Uniqueness",
+        "Boundary value problem",
+        "Control theory (sociology)",
+        "Differential equation"
+      ],
+      "abstract": "Abstract In this work, we study an age-structured chemostat model with a renewal boundary condition and a coupled substrate equation. The model is nonlinear and consists of a hyperbolic partial differential equation and an ordinary differential equation with nonlinear, nonlocal terms appearing both in the ordinary differential equation and the boundary condition. Both differential equations contain a non-negative control input, while the states of the model are required to be positive. Under an appropriate weak solution framework, we determine the state space and the input space for this model. We prove global existence and uniqueness of solutions for all admissible initial conditions and all allowable control inputs. To this purpose, we employ a combination of Banach’s fixed-point theorem with implicit solution formulas and useful solution estimates. Finally, we show that the age-structured chemostat model gives a well-defined control system on a metric space.",
+      "authors": [
+        "Iasson Karafyllis",
+        "Dionysis Theodosis",
+        "Miroslav Krstić"
+      ]
+    },
+    {
+      "title": "Optimal adaptive nonholonomic stabilisation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-09",
+      "doi": "https://doi.org/10.1080/00207721.2026.2628322",
+      "venue": "International Journal of Systems Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00207721.2026.2628322?needAccess=true",
+      "concepts": [
+        "Nonholonomic system",
+        "Control theory (sociology)",
+        "Trajectory",
+        "Optimal control",
+        "Parametric statistics",
+        "Lyapunov function",
+        "Nonlinear system",
+        "Adaptive control"
+      ],
+      "abstract": "One of Zhong-Ping Jiang's early-career seminal results have been on the trajectory tracking feedback design for chained systems, and for the nonholonomic unicycle in particular. However, for equilibrium stabilisation (parking), globally stabilising feedback laws are exceedingly rare. Just as rare are closed-form optimal controllers for nonlinear systems, which avoid the need to solve – and store the solutions of – Hamilton-Jacobi-Bellman PDEs. In fact, until our very recent work, for the unicycle stabilisation problem, closed-form optimal controllers, even of the inverse optimal kind, have been nonexistent. Another subject in which Zhong-Ping has made pioneering contributions, over the last decade and a half, is adaptive optimal control, also referred to by the moniker reinforcement learning. An interest from my early career has commuted adjectives – optimal adaptive control, where optimality holds over the entire infinite time horizon, rather than just as the time approaches infinity. In this short paper I celebrate Zhong-Ping with a result that pulls together his various interests in nonholonomic, adaptive, and optimal control with my interests in these subjects, spanning thre...",
+      "authors": [
+        "Miroslav Krstić"
+      ]
+    },
+    {
+      "title": "Correction: Safety Critical Control Using Fully Nonlinear Equations of Relative Motion for Formation Flying in Cislunar Space",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-1452.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2026-1452.c1",
+      "concepts": [
+        "Control theory (sociology)",
+        "Space (punctuation)",
+        "Nonlinear system",
+        "Motion (physics)",
+        "Physics",
+        "Relative motion",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Evelia Zapien Ramos",
+        "Kwang Hak Kim",
+        "Miroslav Krstić",
+        "Aaron J. Rosengren"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Animesh Chakravarthy",
+  "full_name": "Animesh Chakravarthy",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Texas at Arlington",
+  "author_id": "A5080258275",
+  "works_count": 142,
+  "cited_by_count": 1664,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 39
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 35
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 22
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 22
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Time-Varying Dynamics of a Micro Air Vehicle with Variable-Sweep Morphing",
+      "publication_year": 2012,
+      "publication_date": "2012-04-19",
+      "doi": "https://doi.org/10.2514/1.55078",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 77,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Morphing",
+        "Computer science",
+        "Variable (mathematics)",
+        "Dynamics (music)",
+        "Vehicle dynamics",
+        "Control theory (sociology)",
+        "Flight dynamics",
+        "Aerospace engineering"
+      ],
+      "abstract": "In this paper, the longitudinal dynamics of a fast-morphing, variable-wing-sweep micro air vehicle are investigated from a flight dynamics perspective. The time scales over which the morphing occurs are of the same order as the flight dynamics of the micro air vehicle, due to which the time-varying aspects of the dynamics must be carefully evaluated. The time-varying characteristic equation (which represents a generalization of the standard linear time-invariant characteristic equation) for this micro air vehicle is presented in analytic form, and this enables a characterization of the influence of different morphing trajectories on the flight dynamics. The concept of a time-varying pole is subsequently adopted and the flight dynamic properties of the time-varying modes are determined. A tool to properly evaluate the sensitivity of the time-varying modes to different morphing trajectories is demonstrated.",
+      "authors": [
+        "Animesh Chakravarthy",
+        "Daniel Grant",
+        "Rick Lind"
+      ]
+    },
+    {
+      "title": "Dynamics and Performance of Tailless Micro Aerial Vehicle with Flexible Articulated Wings",
+      "publication_year": 2012,
+      "publication_date": "2012-04-17",
+      "doi": "https://doi.org/10.2514/1.j051447",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Dihedral angle",
+        "Control theory (sociology)",
+        "Aileron",
+        "Tension (geology)",
+        "Yaw",
+        "Angle of attack",
+        "Context (archaeology)"
+      ],
+      "abstract": "The purpose of this paper is to analyze and discuss the performance and stability of a tailless micro aerial vehicle \\nwith flexible articulated wings. The dihedral angles can be varied symmetrically on both wings to control the aircraft \\nspeed independently of the angle of attack and flight-path angle, while an asymmetric dihedral setting can be used to \\ncontrol yaw in the absence of a vertical tail.Anonlinear aero-elastic model is derived, and it is used to study the steady-state performance and flight stability of the micro aerial vehicle. The concept of the effective dihedral is introduced, which allows for a unified treatment of rigid and flexible wing aircraft. It also identifies the amount of elasticity that is necessary to obtain tangible performance benefits over a rigid wing. The feasibility of using axial tension to stiffen the wing is discussed, and, at least in the context of a linear model, it is shown that adding axial tension is effective but undesirable. The turning performance of an micro aerial vehicle with flexible wings is compared to an otherwise identical micro aerial vehicle with rigid wings. The wing dihedral alone can be varied asymmetrically to perfo...",
+      "authors": [
+        "Aditya A. Paranjape",
+        "Soon‐Jo Chung",
+        "Harry H. Hilton",
+        "Animesh Chakravarthy"
+      ]
+    },
+    {
+      "title": "Analysis of Automotive Cyber-Attacks on Highways Using Partial Differential Equation Models",
+      "publication_year": 2017,
+      "publication_date": "2017-10-09",
+      "doi": "https://doi.org/10.1109/tcns.2017.2760865",
+      "venue": "IEEE Transactions on Control of Network Systems",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Imperfect",
+        "Partial differential equation",
+        "Differential (mechanical device)",
+        "Computer science",
+        "Property (philosophy)",
+        "Perfect information",
+        "Shock (circulatory)",
+        "Differential equation"
+      ],
+      "abstract": "This paper considers scenarios wherein a group of malicious vehicles on a highway perform a cooperative attack with the motive of creating undesirable wave effects among other vehicles on the highway. The two species of vehicles-malicious vehicles and normal vehicles, and their associated interaction effects-are modeled using partial differential equations. The malicious vehicles, which may be arbitrarily distributed on the highway, perform a sequence of velocity changes with the objective of making the density/velocity profile on the highway, track a reference profile. This reference profile (chosen by the malicious vehicles) has the property that once generated, it spontaneously evolves into a shock wave that propagates along the highway. Analytical expressions governing the velocity inputs of the malicious vehicles with which they can generate such waves are determined, for perfect as well as imperfect information scenarios. Simulation results are presented to validate the theory.",
+      "authors": [
+        "Meysam Ghanavati",
+        "Animesh Chakravarthy",
+        "Prathyush P. Menon"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Trajectory Optimization of a UAV Following Moving Targets in Wireless Communication Network",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1985",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Trajectory optimization",
+        "Trajectory",
+        "Wireless",
+        "Base station",
+        "Optimal control",
+        "Wireless network",
+        "Optimization problem"
+      ],
+      "abstract": "In this paper, we study the problem of determining the optimal flight trajectory of an Unmanned Aerial Vehicle (UAV) serving as a mobile base station to provide wireless coverage to moving aerial targets in a cellular network. The investigation of this problem is motivated by the need to improve UAV-assisted wireless communication for dynamic aerial targets, in contrast to the focus on primarily static targets in current literature. Our goal is to achieve the desired Signal-to-Noise Ratio (SNR) level for these targets with predefined priorities through UAV-assisted wireless connectivity during the mission. We consider three different cases, wherein the broadcasting UAV may have an (a) isotropic antenna, (b) omnidirectional antenna, and (c) a directional antenna. For each of these cases, we formulate the SNR optimization problem as a nonlinear optimal control problem leading to the Hamilton-Jacobi-Bellman (HJB) equation. We explore the problem from a guidance aspect, and apply the Successive Galerkin Approximation method to solve the HJB equation and derive the optimal guidance law. Simulation results are presented.",
+      "authors": [
+        "Ahmet Tolcu",
+        "Animesh Chakravarthy"
+      ]
+    },
+    {
+      "title": "Modeling and Control of a Flexible-Wing UAV Performing Soaring",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2572",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rudder",
+        "Wing",
+        "Elevator",
+        "Control theory (sociology)",
+        "Aileron",
+        "Engineering",
+        "Lift (data mining)",
+        "Twist"
+      ],
+      "abstract": "In this paper, we consider the control design for a flexible-wing UAV, encountering orographic and thermal updrafts. The flexible wings of the UAV are assumed to have a wing twist capability, and this wing twist is employed to modify the local angle of attack distribution over the wing, when it encounters the updrafts. This in turn leads to a modified lift distribution over the wings. It is assumed that this elastic wing twist is employed in conjunction with deflection of the conventional aileron, elevator and rudder control surfaces. The control system is designed using a dynamic inversion methodology. Simulations of the closed loop system, for scenarios when the UAV encounters an orographic and thermal updraft, respectively, are presented.",
+      "authors": [
+        "Sadegh Eskandarian",
+        "Animesh Chakravarthy"
+      ]
+    },
+    {
+      "title": "Macroscopic-Model-Based Learning for Detection of Cyber-Attacks in UAV Swarms",
+      "publication_year": 2025,
+      "publication_date": "2025-06-10",
+      "doi": "https://doi.org/10.2514/1.i011509",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Real-time computing",
+        "Computer security",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering"
+      ],
+      "abstract": "This paper considers a class of cyber-attacks aimed at a swarm of unmanned aerial vehicles (UAVs). Our focus is on scenarios wherein an attacker may hack into a subset of vehicles in the swarm and subtly modify their flight parameters. These hacked vehicles (referred to as malicious vehicles) are subsequently able to modify the behavior of the overall swarm. The swarm comprising the mix of malicious and normal vehicles is modeled using a system of coupled partial differential equations (PDEs) in a two-dimensional Lighthill–Whitham–Richards model. We develop a methodology that combines Gaussian processes with wave propagation analysis of this two-species PDE model and use this method for detecting the presence of malicious vehicles in the swarm. Simulation results demonstrate that this methodology performs successful detection of the malicious vehicles and also identifies their mode of attack on the UAV swarm.",
+      "authors": [
+        "Abhishek Kashyap",
+        "Animesh Chakravarthy",
+        "Kamesh Subbarao",
+        "David W. Casbeer",
+        "Isaac E. Weintraub",
+        "Brandon Hencey"
+      ]
+    },
+    {
+      "title": "Inspection of Moving Structures by UAVs Using a Robust Approach Cone Strategy",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007813",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Cone (formal languages)",
+        "Computer vision",
+        "Artificial intelligence",
+        "Algorithm"
+      ],
+      "abstract": "In this paper, we consider the problem of inspecting a moving structure, which could be a train or a convoy, using a UAV. The moving structure is assumed to have gaps on its side to allow the UAV to enter or fly through it. Unlike earlier work in this area, since the structure is moving, the gap also moves along with it. The problem then reduces to one of a UAV trying to enter a moving window. We use the relative velocity framework to define a safe approach cone for the UAV so that its velocity vector, if directed inside this cone, will allow the UAV to pass through the window. We show that several parameters, such as the speeds of the window and the UAV, play an important part in deciding the angular span of the safe approach cone and thus have a bearing on the robustness of the guidance strategy. We establish a few theoretical results and illustrate them via simulations.",
+      "authors": [
+        "Animesh Chakravarthy",
+        "Debasish Ghose"
+      ]
+    },
+    {
+      "title": "Gaussian Processes for Flight Delay Prediction: Learning a Stochastic Process",
+      "publication_year": 2025,
+      "publication_date": "2025-04-07",
+      "doi": "https://doi.org/10.2514/1.i011539",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Gaussian process",
+        "Computer science",
+        "Process (computing)",
+        "Gaussian",
+        "Artificial intelligence",
+        "Physics",
+        "Operating system",
+        "Quantum mechanics"
+      ],
+      "abstract": "This paper presents a machine-learning approach to predict flight delays. Whereas neural networks are extensively studied for predictive capabilities, they involve nonintuitive design and extensive analysis, particularly in training and optimization processes. Instead, the proposed framework employs Gaussian processes as a supervised learning technique for flight delay prediction. This data-driven approach trains the model using prior information, specifically the mean and covariance tied to existing data. The proposed Gaussian process regression model employs the day of flight as a pivotal feature for delay forecasting. We analyze flights from various routes and gauge the accuracy of the presented learning technique by comparing the predicted delays with the actual ones. Given the inherent challenges in precisely forecasting delays, we predict the delays with a 95% confidence interval. Also, an error propagation analysis in the prediction horizon is carried out to determine the optimal time frame for prediction. The proposed method for flight delay prediction is important as airlines can strategize flight operations and issue timely advisories.",
+      "authors": [
+        "Aakarshan Khanal",
+        "Rajnish Bhusal",
+        "Kamesh Subbarao",
+        "Animesh Chakravarthy",
+        "Wendy Okolo"
+      ]
+    }
+  ]
+}

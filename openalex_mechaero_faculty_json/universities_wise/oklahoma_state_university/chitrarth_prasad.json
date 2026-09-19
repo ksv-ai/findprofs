@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Chitrarth Prasad",
+  "full_name": "Chitrarth Prasad",
+  "department": "School of Mechanical and Aerospace Engineering",
+  "university": "Oklahoma State University",
+  "author_id": "A5077897402",
+  "works_count": 48,
+  "cited_by_count": 258,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 34
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 34
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 29
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 7
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A study of noise reduction mechanisms of jets with fluid inserts",
+      "publication_year": 2020,
+      "publication_date": "2020-03-16",
+      "doi": "https://doi.org/10.1016/j.jsv.2020.115331",
+      "venue": "Journal of Sound and Vibration",
+      "type": "article",
+      "cited_by_count": 44,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jsv.2020.115331",
+      "concepts": [
+        "Jet noise",
+        "Noise reduction",
+        "Supersonic speed",
+        "Mach number",
+        "Jet (fluid)",
+        "Noise (video)",
+        "Reduction (mathematics)",
+        "Nozzle"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chitrarth Prasad",
+        "Philip J. Morris"
+      ]
+    },
+    {
+      "title": "Effect of fluid injection on turbulence and noise reduction of a supersonic jet",
+      "publication_year": 2019,
+      "publication_date": "2019-10-14",
+      "doi": "https://doi.org/10.1098/rsta.2019.0082",
+      "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6801390",
+      "concepts": [
+        "Supersonic speed",
+        "Noise reduction",
+        "Jet (fluid)",
+        "Turbulence",
+        "Noise (video)",
+        "Jet noise",
+        "Aeroacoustics",
+        "Physics"
+      ],
+      "abstract": "Supersonic jets, such as the ones used in high-performance military aircraft, have both downstream and upstream noise components due to the large-scale turbulent structures and the presence of shock cells in the jet plume. The fluid insert technology is a noise reduction method that has been shown to effectively reduce both these noise components. This paper analyses the unsteady flow changes associated with different fluid insert configurations with a goal of helping to understand the detailed noise reduction mechanisms. Using direct cross-correlations of the near-field data with the far-field microphone signals, it is found that even the use of a single injector as a fluid insert helps break up the large-scale structures of the flow. However, a more azimuthally distributed blowing is required to reduce the upstream broadband shock-associated noise (BBSAN). Addition of upstream injectors at each azimuthal location further enhances the BBSAN reduction. Decomposition of the jet flow-field into hydrodynamic and acoustic modes shows that fluid insert nozzles reduce the amplitude and convection speed of the coherent acoustic mode in the plane of highest noise reduction. This article...",
+      "authors": [
+        "Chitrarth Prasad",
+        "Philip J. Morris"
+      ]
+    },
+    {
+      "title": "Steady active control of noise radiation from highly heated supersonic jets",
+      "publication_year": 2021,
+      "publication_date": "2021-02-01",
+      "doi": "https://doi.org/10.1121/10.0003570",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Jet noise",
+        "Mach number",
+        "Jet (fluid)",
+        "Jet engine",
+        "Nozzle",
+        "Mechanics",
+        "Directivity",
+        "Supersonic speed"
+      ],
+      "abstract": "The goal of the present investigation is to study the effect of using fluid inserts for noise control at high exhaust temperatures by performing a sequence of large eddy simulations on a typical military-style nozzle, both with and without fluid inserts, at jet inlet total temperature ratios of 2.5, 5, and 7. An exact physics-based splitting of the jet flow-field into its hydrodynamic, acoustic, and thermal components reveals clear evidence of a reduction in the radiation efficiency of Mach waves from the controlled jet. This effect is far more pronounced at afterburner conditions, where the location of the maximum noise reduction is observed to shift upstream with increase in jet temperature, thus matching the maximum location of the jet OASPL directivity. Moreover, the maximum noise reduction achieved at afterburner conditions exceeds that obtained at lower exhaust temperatures. This is encouraging and shows that the effectiveness of the fluid inserts improves with an increase in jet exhaust temperature. Furthermore, by accounting for the effect of bleeding off bypass air for the fluid inserts in the LES simulation, this noise reduction is predicted to be achieved at a conserv...",
+      "authors": [
+        "Chitrarth Prasad",
+        "Philip J. Morris"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Forward-Facing Cavity Effects on Supersonic Blunt-Body Wakes",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4303",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Physics",
+        "Materials science",
+        "Mechanics",
+        "Optics",
+        "Sonic boom",
+        "Choked flow",
+        "Supersonic wind tunnel"
+      ],
+      "abstract": "We investigate forward-facing cavities (FFCs) on a supersonic sphere from a passive-flow-control perspective. Although FFCs have traditionally been studied as passive aerothermal-protection devices, their self-excited bow-shock/cavity dynamics can also provide organized forcing to the surrounding external flow. Large-eddy simulations are performed for a Mach 2.7 flow over a sphere with two FFC geometries. Both FFC configurations have the same cavity length-to-diameter ratio, L_C/D_C=2, but different cavity-to-sphere diameter ratios, D_C/D_S=5/16 and 5/32. The results show that matching L_C/D_C is not sufficient to produce dynamically similar behavior. The larger-cavity case exhibits persistent unsteadiness: the pressure signal initially contains a strong nearly periodic oscillation, but the dominant oscillatory content shifts toward a second organized frequency component as the flow evolves. In contrast, the smaller-cavity case initially supports a coherent bow-shock/cavity oscillation whose amplitude decays toward an asymptotic value. This decay is accompanied by a rise in pressure drag; the smaller-cavity case exhibits a temporary low-drag state during the initial oscillatory ...",
+      "authors": [
+        "Chitrarth Prasad",
+        "Tyler Zeringue",
+        "Andrew Strawn",
+        "Colin Moran",
+        "Laura Paquin"
+      ]
+    },
+    {
+      "title": "CFD-based Characterization of a WxUAS Sensor Housing for In-situ Atmospheric Sampling",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1255",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Environmental science",
+        "Meteorology",
+        "Remote sensing",
+        "Precipitation",
+        "Sampling (signal processing)",
+        "Computer science",
+        "Airflow",
+        "Characterization (materials science)"
+      ],
+      "abstract": "Accurate information within the atmosphere’s first 1.5 km, where several relevant weather phenomena occur, remains limited even though observations are collected by a variety of systems. Unmanned Aerial Weather Measurement Systems (WxUAS) have been used as a complementary tool to collect meteorological observations and address this low-altitude data gap. However, driven by diverse research objectives, their unstructured development has resulted in poor measurement standardization. These inconsistencies have been documented and explored in the literature, reflecting an ongoing community interest in identifying WxUAS design features that support more representative and intercomparable observations. A relevant example of a design incorporating several WxUAS-community-identified desirable features, such as an aspiration fan, multi-layer shielding and intake overhangs, is the sensor housing developed by Azevedo et al. Because this design was developed for winter-weather precipitation observations, it was optimized to protect the sensing elements from contaminants present in that environment. As a result, it was not evaluated under conditions where other sources of measurement bias, s...",
+      "authors": [
+        "Eduardo Michel",
+        "Gustavo Britto Hupsel de Azevedo",
+        "Chitrarth Prasad",
+        "Aaron Alexander",
+        "Jamey Jacob"
+      ]
+    },
+    {
+      "title": "Compressibility-Induced Intermittency in Airfoil Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3775",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Intermittency",
+        "Airfoil",
+        "Compressibility",
+        "Mechanics",
+        "Aerospace engineering",
+        "Physics",
+        "Environmental science",
+        "Turbulence"
+      ],
+      "abstract": "The present study focuses on the cycle-to-cycle variation in aerodynamic loads induced by compressibility effects at low-to-moderate Reynolds numbers (Re). To this end, we perform two-dimensional direct numerical simulations (DNS) of flow over a NACA0012 airfoil at an angle of attack of 5º and Re = 50,000 under both incompressible and compressible (Mach 0.4) conditions. Both test cases exhibit qualitatively similar flow features characterized by a closed laminar separation bubble (LSB) with an unstable shear layer that leads to vortex shedding. However, the unsteady behavior of lift (CL) and drag (CD) coefficients differs significantly between the two cases. While the variation in CL and CD for the incompressible case is sinusoidal with a constant amplitude, the compressible case shows a more broadband behavior with intermittent excursions in load coefficients. An ensemble analysis of extreme drag events using Conditional Proper Orthogonal Decomposition (CPOD) reveals that these intermittent spikes are associated with the amplification of closely packed perturbations generated in the LSB, which ultimately trigger vortex merging near the trailing edge on the suction side of the a...",
+      "authors": [
+        "Shishir Gautam",
+        "Chitrarth Prasad"
+      ]
+    },
+    {
+      "title": "Noise Source Characteristics of Supersonic Plug Nozzles",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3007",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Spark plug",
+        "Nozzle",
+        "Noise (video)",
+        "Acoustics",
+        "Computer science",
+        "Aerospace engineering",
+        "Physics"
+      ],
+      "abstract": "Plug nozzles have emerged as a promising alternative to traditional converging-diverging configurations for future commercial supersonic aircraft. However, the presence of an external plug can lead to new noise generation mechanisms that are not yet fully understood. In this study, we investigate the near-field acoustics of Mach 1.5 plug nozzles using high-fidelity large eddy simulations (LES). We employ two plug configurations consisting of 10-degree (P10) and 16-degree (P16) half-angle cones to support recent NASA experiments. The LES data is decomposed into its hydrodynamic and acoustic components using Doak’s momentum potential theory (MPT). Spectral proper orthogonal decomposition applied to the MPT-derived hydrodynamic and acoustic components reveals that the Kelvin–Helmholtz (K–H) instability in the jet shear layer is modulated by out-of-phase hydrodynamic structures arising from shock-induced flow separation on the plug surface. As a result, the amplitude of near-field acoustic wavepackets deviates from the traditional Gaussian envelope typically observed in turbulent compressible jets. These findings provide insight into the noise source characteristics of supersonic pl...",
+      "authors": [
+        "Lena James",
+        "Chitrarth Prasad"
+      ]
+    },
+    {
+      "title": "Effects of Edge Rounding on the Unsteadiness of a Simulated Transport Aircraft Wake",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2580",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Rounding",
+        "Enhanced Data Rates for GSM Evolution",
+        "Computer science",
+        "Aerospace engineering",
+        "Wake turbulence",
+        "Aeronautics",
+        "Engineering"
+      ],
+      "abstract": "The aft fuselage of military cargo aircraft, characterized by large, flat, upswept surfaces, generates a turbulent wake dominated by unsteady, counter-rotating streamwise vortices. These vortices pose significant operational and performance challenges, including risks during paratrooper drops, cargo deployment inaccuracies, tail strikes, and increased drag. These wake dynamics have been extensively explored using a canonical geometry consisting of a streamwise oriented cylinder truncated at an appropriate upsweep angle. However, the sharp edge between the cylinder and truncation plane fixes the separation location and may inhibit some of the mechanisms that may contribute to wake unsteadiness. This study employs high-fidelity Large Eddy Simulations (LES) to assess the aerodynamic effects of introducing edge rounding to the fuselage geometry. Spectral Proper Orthogonal Decomposition (SPOD) of the azimuthal wall shear stress reveals that the edge curvature enables dynamic movement of the separation line at ������ = 0.13. However, the overall features of the dominant modes in the downstream region remain similar between the sharp and rounded cases. In the baseline wake, unsteadines...",
+      "authors": [
+        "Jacob T. Biesinger",
+        "Chitrarth Prasad",
+        "Datta V. Gaitonde"
+      ]
+    }
+  ]
+}

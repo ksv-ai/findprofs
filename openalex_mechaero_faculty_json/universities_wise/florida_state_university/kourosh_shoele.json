@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Kourosh Shoele",
+  "full_name": "Kourosh Shoele",
+  "department": "Department of Mechanical Engineering",
+  "university": "Florida State University",
+  "author_id": "A5030795163",
+  "works_count": 144,
+  "cited_by_count": 1647,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 36
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 28
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 24
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 18
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Harvesting ambient wind energy with an inverted piezoelectric flag",
+      "publication_year": 2017,
+      "publication_date": "2017-03-19",
+      "doi": "https://doi.org/10.1016/j.apenergy.2017.03.016",
+      "venue": "Applied Energy",
+      "type": "article",
+      "cited_by_count": 440,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind power",
+        "Wind speed",
+        "Flutter",
+        "Flag (linear algebra)",
+        "Energy harvesting",
+        "Acoustics",
+        "Power (physics)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Santiago Orrego",
+        "Kourosh Shoele",
+        "Andre Ruas",
+        "Kyle Doran",
+        "Brett Caggiano",
+        "Rajat Mittal",
+        "Sung Hoon Kang"
+      ]
+    },
+    {
+      "title": "Energy harvesting by flow-induced flutter in a simple model of an inverted piezoelectric flag",
+      "publication_year": 2016,
+      "publication_date": "2016-02-10",
+      "doi": "https://doi.org/10.1017/jfm.2016.40",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 136,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flutter",
+        "Vortex-induced vibration",
+        "Mechanics",
+        "Physics",
+        "Vibration",
+        "Inertia",
+        "Reynolds number",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Two-dimensional numerical simulations are used to study the coupled fluid–structure–electric interaction of a simple model of an inverted piezoelectric flag, and to investigate the dynamics of the flow–structure interaction of this configuration as well as its energy harvesting performance. In particular, the dynamic response of the inverted flag as well as the associated flow patterns are examined for a range of inertia, bending stiffness and Reynolds numbers, and categorized into distinct vibrational states based on the symmetry of the motion as well as the amplitude. Simulations indicate that large-amplitude vibrations can be achieved over a large range of parameters and there is also evidence of lock-on between the flag flutter and the intrinsic wake shedding phenomenon. The initial inclination of the flag to the prevailing flow is found to significantly affect the flutter performance for inclination angles exceeding $15^{\\circ }$ . The state with large symmetric flutter is identified as being most promising for energy harvesting, and the effect of piezoelectric material parameters on the energy harvesting performance of this flutter state is examined in detail. The maximum ...",
+      "authors": [
+        "Kourosh Shoele",
+        "Rajat Mittal"
+      ]
+    },
+    {
+      "title": "Computational study of flow-induced vibration of a reed in a channel and effect on convective heat transfer",
+      "publication_year": 2014,
+      "publication_date": "2014-12-01",
+      "doi": "https://doi.org/10.1063/1.4903793",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 112,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Physics",
+        "Heat transfer",
+        "Convective heat transfer",
+        "Inertia",
+        "Reynolds number",
+        "Thermal",
+        "Heat flux"
+      ],
+      "abstract": "The flow-induced fluttering motion of a flexible reed inside a heated channel is modeled numerically and used to investigate the relationship between the aeroelastic vibration of the reed and heat-transfer enhancement. An immersed boundary method is developed to solve the coupled flow-structure-thermal problem, and the simulations show that the vibrating reed significantly increases the mean heat flux through the channel, as well as the thermal performance, quantified in terms of the thermal enhancement factor. The effect of reed material properties on vibratory dynamics and heat transfer is studied. Changes in material properties produce a rich variety of vibratory behavior, and the thermal performance is found to depend more strongly on the reed inertia than its bending stiffness. The effects of both the Reynolds number and channel confinement are examined and it is found that the thermal performance is maximized when the reed creates large modulations in the boundary layer of the channel, while at the same time avoiding the creation of strong vortices.",
+      "authors": [
+        "Kourosh Shoele",
+        "Rajat Mittal"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Model-based Optimization of Anguilliform Swimming Gaits for Soft Robotic Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://doi.org/10.48550/arxiv.2606.11278",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.11278",
+      "concepts": [
+        "Fish locomotion",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Inertial frame of reference",
+        "Robot",
+        "Climbing",
+        "Computer science",
+        "Control engineering"
+      ],
+      "abstract": "In this paper, we introduce the Soft Lamprey-Inspired Dual Environment Robot (SLIDER) and a proper modeling and optimization procedure employed to design the robot. We represent the primary fluid environment actions - inertial effects, vortex forces, and viscous dissipation - using Lighthill's theory for large-amplitude elongated bodies. For structural design parameters such as internal pressure, tail size, and body stiffness, a fast, geometrically and materially nonlinear model is developed and validated. The fluid-structure interaction equations are solved implicitly with an efficient second-order box method. A pneumatic manifold robotic system is employed to actuate SLIDER in a quiescent water tank environment, allowing cross-comparison of computational and experimental results. We find that low-frequency swimming is dominated by resistant environmental forces, whereas higher-frequency swimming is primarily affected by inertial fluid forces. Using our efficient model alongside a genetic algorithm, we co-optimize a swimming control pattern and caudal fin design (subject to SLIDER's climbing morphology) to achieve a tethered swimming speed of 21.7 +/- 0.4 cm/s (0.59 Bl/s). Furt...",
+      "authors": [
+        "Brian Van Stratum",
+        "James Gallentine",
+        "D. Caleb Rucker",
+        "Eric Barth",
+        "Jonathan E. Clark",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Model-based Optimization of Anguilliform Swimming Gaits for Soft Robotic Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://arxiv.org/abs/2606.11278",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.11278",
+      "concepts": [
+        "Fish locomotion",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Inertial frame of reference",
+        "Robot",
+        "Climbing",
+        "Computer science",
+        "Control engineering"
+      ],
+      "abstract": "In this paper, we introduce the Soft Lamprey-Inspired Dual Environment Robot (SLIDER) and a proper modeling and optimization procedure employed to design the robot. We represent the primary fluid environment actions - inertial effects, vortex forces, and viscous dissipation - using Lighthill's theory for large-amplitude elongated bodies. For structural design parameters such as internal pressure, tail size, and body stiffness, a fast, geometrically and materially nonlinear model is developed and validated. The fluid-structure interaction equations are solved implicitly with an efficient second-order box method. A pneumatic manifold robotic system is employed to actuate SLIDER in a quiescent water tank environment, allowing cross-comparison of computational and experimental results. We find that low-frequency swimming is dominated by resistant environmental forces, whereas higher-frequency swimming is primarily affected by inertial fluid forces. Using our efficient model alongside a genetic algorithm, we co-optimize a swimming control pattern and caudal fin design (subject to SLIDER's climbing morphology) to achieve a tethered swimming speed of 21.7 +/- 0.4 cm/s (0.59 Bl/s). Furt...",
+      "authors": [
+        "Brian Van Stratum",
+        "James Gallentine",
+        "Caleb Rucker",
+        "Eric Barth",
+        "Jonathan E. Clark",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Dynamics of Drop Deformation and Breakup Under High-Speed Shock-Wave Interaction",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4410",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Dynamics (music)",
+        "Drop (telecommunication)",
+        "Mechanics",
+        "Deformation (meteorology)",
+        "Materials science",
+        "Physics",
+        "Classical mechanics"
+      ],
+      "abstract": "Understanding droplet interaction with high speed shock is important for predicting aerodynamic and thermal effects in realistic atmospheric conditions and in many energy systems. We numerically investigate the interaction of a liquid droplet with a shock wave generated by a supersonic conical body. The shock is modeled as a transient ballistic N-wave profile, capturing both expansion and re-compression phases associated with vehicle motion. The droplet experiences rapid pressure and temperature variations during the interaction, leading to strong deformation and eventual breakup driven by high-inertia gas flow. The influence of the Weber number on breakup dynamics is examined to identify relevant deformation and fragmentation regimes. In addition, the effect of varying Mach numbers on the shock–droplet interaction is analyzed. The results provide insights into the mechanisms of droplet breakup in high-speed compressible flows.",
+      "authors": [
+        "Ashwani K. Pal",
+        "Mark Sussman",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Multi-Fidelity Fluid-Thermal-Structural Assessment of Heat-Pipe-Cooled Hypersonic Leading Edges",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4661",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Materials science",
+        "Geology",
+        "Engineering",
+        "Hypersonic flight",
+        "Environmental science",
+        "Noise (video)",
+        "Work (physics)"
+      ],
+      "abstract": "Hypersonic leading edges are exposed to severe localized aeroheating that induces large thermal gradients, elevated thermomechanical stresses, and potential loss of structural integrity. Assessing heat pipe cooling for these configurations remains challenging because the external hypersonic flow, the internal two-phase heat transport, and the structural response are strongly coupled across physical scales and model fidelity. To address this challenge, we present a unified fluid-thermal-structural methodology for evaluating heat-pipe-cooled hypersonic leading-edge concepts. An analytical one-dimensional wedge heat pipe model is first used to screen feasible combinations of geometry and wall/wick/working-fluid properties across Mach number and altitude. Selected configurations are then assessed within a partitioned interaction framework that couples a higher-order compressible immersed-boundary flow solver, a finite-element thermoelastic solver, and a Proper Orthogonal Decomposition (POD)-based reduced-order heat-pipe closure. Results show that heat pipe integration suppresses leading-edge temperature peaks by approximately 160 K, raises downstream wall temperature by about 20 K a...",
+      "authors": [
+        "Nishchal Poudel",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Drag and Yielding of Rotating Bodies in Yield-Stress Fluids",
+      "publication_year": 2026,
+      "publication_date": "2026-06-03",
+      "doi": "https://doi.org/10.48550/arxiv.2606.04861",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.04861",
+      "concepts": [
+        "Mechanics",
+        "Drag",
+        "Drag coefficient",
+        "Parasitic drag",
+        "Viscoplasticity",
+        "Stagnation point",
+        "Classical mechanics",
+        "Rotation (mathematics)"
+      ],
+      "abstract": "We investigate the settling dynamics of rotating objects in a yield stress fluid by combining controlled experiments with numerical simulations. Experiments were conducted using cylinders and spheres of varying surface roughness, rotated within a Helmholtz coil and immersed in a Carbopol based yield stress fluid. Complementary numerical simulations employed a viscoplastic Herschel Bulkley model to capture the coupled effects of sedimentation and rotation. To parameterize the problem, we define rotation rate to characterize rotation and the Bi to characterize sedimentation. Measurements of the drag coefficient show a strong dependence on both surface roughness and rotation rate. Flow visualization reveals that enhanced rotation generates a plastic deformation zone in the orthogonal plane and promotes wall slip, while at a stagnation point flow develops in the wake, gradually weakening and disappearing as rotation increases. In addition, the plastic drag coefficient decreases with increasing Bi and approaches an asymptotic plateau at high Bi. Numerical simulations reproduce the general scaling of drag with and but consistently underpredict experimental values, likely due to wall s...",
+      "authors": [
+        "Farshad Nazari",
+        "Akash Mittal",
+        "Kourosh Shoele",
+        "Hadi Mohammadigoushki"
+      ]
+    }
+  ]
+}

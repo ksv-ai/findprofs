@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Chin-An Tan",
+  "full_name": "Chin An Tan",
+  "department": "Department of Mechanical Engineering",
+  "university": "Wayne State University",
+  "author_id": "A5005024712",
+  "works_count": 85,
+  "cited_by_count": 1185,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 42
+    },
+    {
+      "topic": "Railway Engineering and Dynamics",
+      "count": 21
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 15
+    },
+    {
+      "topic": "Vibration Control and Rheological Fluids",
+      "count": 15
+    },
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Transfer Functions of One-Dimensional Distributed Parameter Systems",
+      "publication_year": 1992,
+      "publication_date": "1992-12-01",
+      "doi": "https://doi.org/10.1115/1.2894015",
+      "venue": "Journal of Applied Mechanics",
+      "type": "article",
+      "cited_by_count": 178,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Distributed parameter system",
+        "Transfer function",
+        "Laplace transform",
+        "Transfer matrix",
+        "Boundary value problem",
+        "Computer science",
+        "Mathematical analysis",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Distributed parameter systems describe many important physical processes. The transfer function of a distributed parameter system contains all information required to predict the system spectrum, the system response under any initial and external disturbances, and the stability of the system response. This paper presents a new method for evaluating transfer functions for a class of one-dimensional distributed parameter systems. The system equations are cast into a matrix form in the Laplace transform domain. Through determination of a fundamental matrix, the system transfer function is precisely evaluated in closed form. The method proposed is valid for both self-adjoint and non-self-adjoint systems, and is extremely convenient in computer coding. The method is applied to a damped, axially moving beam with different boundary conditions.",
+      "authors": [
+        "B. Yang",
+        "Chin An Tan"
+      ]
+    },
+    {
+      "title": "Free vibration analysis of planar curved beams by wave propagation",
+      "publication_year": 2003,
+      "publication_date": "2003-01-21",
+      "doi": "https://doi.org/10.1016/s0022-460x(02)00898-2",
+      "venue": "Journal of Sound and Vibration",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vibration",
+        "Rotary inertia",
+        "Planar",
+        "Curvature",
+        "Classification of discontinuities",
+        "Beam (structure)",
+        "Reflection (computer programming)",
+        "Boundary value problem"
+      ],
+      "abstract": "",
+      "authors": [
+        "B. Kang",
+        "Chris Riedel",
+        "Chin An Tan"
+      ]
+    },
+    {
+      "title": "Geometrically nonlinear mechanical properties of auxetic double-V microstructures with negative Poisson's ratio",
+      "publication_year": 2019,
+      "publication_date": "2019-12-17",
+      "doi": "https://doi.org/10.1016/j.euromechsol.2019.103933",
+      "venue": "European Journal of Mechanics - A/Solids",
+      "type": "article",
+      "cited_by_count": 73,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Auxetics",
+        "Materials science",
+        "Poisson's ratio",
+        "Nonlinear system",
+        "Composite material",
+        "Microstructure",
+        "Poisson distribution",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qiang Gao",
+        "Chin An Tan",
+        "G. Hulbert",
+        "Liangmo Wang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "PSO-LQR Control of ISD Suspension for Vehicle Coupled with Bridge Considering General Boundary Conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-10-10",
+      "doi": "https://doi.org/10.3390/machines13100935",
+      "venue": "Machines",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2075-1702/13/10/935/pdf?version=1760162260",
+      "concepts": [
+        "Suspension (topology)",
+        "Linear-quadratic regulator",
+        "Control theory (sociology)",
+        "Particle swarm optimization",
+        "Controller (irrigation)",
+        "Acceleration",
+        "Computer science",
+        "Convergence (economics)"
+      ],
+      "abstract": "With the rapid development of transportation infrastructure, bridges increasingly face prominent issues of dynamic response and fatigue damage induced by vehicle–bridge interaction (VBI). To effectively suppress the coupled vibrations and enhance both vehicle ride comfort and bridge service life, this paper proposes an active inerter-spring-damper (ISD) suspension system based on Particle Swarm Optimization (PSO) algorithm and Linear Quadratic Regulator (LQR) control. By establishing a VBI model considering general boundary conditions and employing the modal superposition method to solve the system response, an LQR controller is designed for multi-objective optimization targeting the vehicle body acceleration, suspension dynamic travel, and tire dynamic load. To further improve control performance, the PSO algorithm is utilized to globally optimize the LQR weighting matrices. Numerical simulation results demonstrate that, compared to passive suspension and unoptimized LQR active suspension, the PSO-LQR control strategy significantly reduces vertical body acceleration and tire dynamic load, while also improving the convergence and stability of the suspension dynamic travel. This ...",
+      "authors": [
+        "Buyun Zhang",
+        "Shipeng Dai",
+        "Yunshun Zhang",
+        "Chin An Tan"
+      ]
+    },
+    {
+      "title": "Traveling waves in tensioned Euler-Bernoulli beams with viscoelastic boundary conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-04-08",
+      "doi": "https://doi.org/10.1016/j.ijmecsci.2025.110248",
+      "venue": "International Journal of Mechanical Sciences",
+      "type": "article",
+      "cited_by_count": 12,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Viscoelasticity",
+        "Bernoulli's principle",
+        "Boundary value problem",
+        "Euler's formula",
+        "Boundary (topology)",
+        "Mechanics",
+        "Traveling wave",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xiangle Cheng",
+        "D. Michael McFarland",
+        "Xia Hua",
+        "Huancai Lu",
+        "Chin An Tan"
+      ]
+    },
+    {
+      "title": "Optimal Tuning of Inerter–Spring–Damper Vehicle Suspension for Mitigation of Bridge Response",
+      "publication_year": 2024,
+      "publication_date": "2024-08-16",
+      "doi": "https://doi.org/10.1142/s0219455425502396",
+      "venue": "International Journal of Structural Stability and Dynamics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Damper",
+        "Suspension (topology)",
+        "Spring (device)",
+        "Bridge (graph theory)",
+        "Structural engineering",
+        "Control theory (sociology)",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "The coupled, dynamic loads from vehicles travelling on a bridge can cause excessive vibration of the bridge and limit its service life. The coupled vehicle–bridge interaction (VBI) is strongly determined by the properties of the vehicle suspension, the vehicle speed, and the bridge flexibility. A bridge-friendly vehicle is designed to minimize the contact force between the tires and the bridge, enhancing the vehicle’s performance and protecting the bridge from damage by optimizing the vehicle suspension system. In this paper, we investigate the concept of bridge-friendly vehicle by optimally tuning the parameters of the vehicle suspension to mitigate the bridge vibration. The vehicle is modeled with an inerter–spring–damper (ISD) suspension. A time-frozen technique is applied to obtain the time-varying displacement transmissibility functions of the coupled system, and effects of the suspension inerter on the time–frequency characteristics of the transmissibility are discussed. The fixed-point principle is applied to derive the optimal values of the ISD, which are shown to depend only on a priori known structural parameters of the bridge and vehicle parameters. Numerical simulati...",
+      "authors": [
+        "Buyun Zhang",
+        "Yang Xu",
+        "Chin An Tan"
+      ]
+    },
+    {
+      "title": "Fourier-Based Function Generation of Four-Bar Linkages With an Improved Sampling Points Adjustment and Sylvester's Dialytic Elimination Method",
+      "publication_year": 2024,
+      "publication_date": "2024-07-10",
+      "doi": "https://doi.org/10.1115/1.4065913",
+      "venue": "Journal of Mechanical Design",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bar (unit)",
+        "Function (biology)",
+        "Sampling (signal processing)",
+        "Fourier transform",
+        "Computer science",
+        "Applied mathematics",
+        "Control theory (sociology)",
+        "Mathematical analysis"
+      ],
+      "abstract": "Abstract Four-bar linkages are critical fundamental elements of many mechanical systems, and their design synthesis is often mathematically complicated with iterative numerical solutions. Analytical methods based on Fourier coefficients can circumvent these difficulties but have difficulties with sampling points adjustment and solutions of the design equations in previous studies. In this paper, an improved Fourier-based analytical synthesis method is presented, which transforms the function generation synthesis of planar four-bar linkages into a problem of solving design equations. Calculation of the Fourier coefficients is discussed, including the discretization of the prescribed function and an improved sampling points adjustment method. It is shown that the Fourier coefficients can be computed efficiently and accurately by discretizing the prescribed function with a small number of sampling points. The proposed sampling adjustment method overcomes the difficulty of easily resulting in non-Grashof solutions by considering the complete period of the prescribed function. An improved Sylvester's dialytic elimination method is presented to solve design equations. The method reduc...",
+      "authors": [
+        "Yahui Qian",
+        "Hong Zhong",
+        "Chin An Tan",
+        "Liangmo Wang"
+      ]
+    },
+    {
+      "title": "Ride comfort and energy harvesting of inflatable hydraulic-electric regenerative suspension system for heavy-duty vehicles",
+      "publication_year": 2024,
+      "publication_date": "2024-05-01",
+      "doi": "https://doi.org/10.1007/s12206-024-0409-1",
+      "venue": "Journal of Mechanical Science and Technology",
+      "type": "article",
+      "cited_by_count": 12,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inflatable",
+        "Heavy duty",
+        "Suspension (topology)",
+        "Automotive engineering",
+        "Energy harvesting",
+        "Engineering",
+        "Regenerative brake",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Buyun Zhang",
+        "Minglu Luo",
+        "Chin An Tan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Kianoosh Yousefi",
+  "full_name": "Kianoosh Yousefi",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Texas at Dallas",
+  "author_id": "A5005875380",
+  "works_count": 34,
+  "cited_by_count": 644,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 16
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 7
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 6
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 5
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Determination of the Critical Reynolds Number for Flow over Symmetric NACA Airfoils",
+      "publication_year": 2018,
+      "publication_date": "2018-01-07",
+      "doi": "https://doi.org/10.2514/6.2018-0818",
+      "venue": "2018  AIAA Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 35,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Reynolds number",
+        "NACA airfoil",
+        "Flow (mathematics)",
+        "Computer science",
+        "Mechanics",
+        "Physics",
+        "Turbulence"
+      ],
+      "abstract": "The determination of the critical Reynolds number is of practical importance in many engineering applications, particularly in determining the aerodynamic characteristics of air vehicles. In this study, we numerically investigated the laminar-turbulent transition location over NACA 0012, 0015, and 0018 airfoil profiles in order to determine their lower critical Reynolds number. To this end, a CFD FORTRAN code was developed based on the hybrid viscous-inviscid interaction method with an incorporated eN transition method to model the boundary layer flow around airfoil profiles. The results, in general, indicated that the laminar-turbulent transition location over an airfoil is strongly dependent on the Reynolds number and moves toward the downstream as the Reynolds number decreases. The lower critical Reynolds number was then defined as the velocity at which the flow becomes laminar over the airfoil, which corresponds to the conditions that the transition point located at the trailing edge of the airfoil. The lower critical Reynolds number for flow over NACA 0012, 0015, and 0018 airfoils were, therefore, determined to be 1 × 105, 5 × 104, and 3.5 × 104, respectively. Moreover, the...",
+      "authors": [
+        "Kianoosh Yousefi",
+        "Alireza Razeghi"
+      ]
+    },
+    {
+      "title": "Momentum flux measurements in the airflow over wind-generated surface waves",
+      "publication_year": 2020,
+      "publication_date": "2020-05-19",
+      "doi": "https://doi.org/10.1017/jfm.2020.276",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 55,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F06CE15D819F8C12DFF7583B646D94D9/S0022112020002761a.pdf/div-class-title-momentum-flux-measurements-in-the-airflow-over-wind-generated-surface-waves-div.pdf",
+      "concepts": [
+        "Airflow",
+        "Mechanics",
+        "Flux (metallurgy)",
+        "Momentum (technical analysis)",
+        "Physics",
+        "Wind wave",
+        "Meteorology",
+        "Atmospheric sciences"
+      ],
+      "abstract": "The air–sea momentum exchanges in the presence of surface waves play an integral role in coupling the atmosphere and the ocean. In the current study, we present a detailed laboratory investigation of the momentum fluxes over wind-generated waves. Experiments were performed in the large wind-wave facility at the Air–Sea Interaction Laboratory of the University of Delaware. Airflow velocity measurements were acquired above wind waves using a combination of particle image velocimetry and laser-induced fluorescence techniques. The momentum budget is examined using a wave-following orthogonal curvilinear coordinate system. In the wave boundary layer, the phase-averaged turbulent stress is intense (weak) and positive downwind (upwind) of the crests. The wave-induced stress is also positive on the windward and leeward sides of wave crests but with asymmetric intensities. These regions of positive wave stress are intertwined with regions of negative wave stress just above wave crests and downwind of wave troughs. Likewise, at the interface, the viscous stress exhibits along-wave phase-locked variations with maxima upwind of the wave crests. As a general trend, the mean profiles of the w...",
+      "authors": [
+        "Kianoosh Yousefi",
+        "Fabrice Véron",
+        "Marc Buckley"
+      ]
+    },
+    {
+      "title": "Boundary Layer Turbulence over Surface Waves in a Strongly Forced Condition: LES and Observation",
+      "publication_year": 2019,
+      "publication_date": "2019-05-28",
+      "doi": "https://doi.org/10.1175/jpo-d-19-0070.1",
+      "venue": "Journal of Physical Oceanography",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": true,
+      "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/phoc/49/8/jpo-d-19-0070.1.pdf",
+      "concepts": [
+        "Airflow",
+        "Wind stress",
+        "Mechanics",
+        "Turbulence",
+        "Wind wave",
+        "Boundary layer",
+        "Wind speed",
+        "Physics"
+      ],
+      "abstract": "Abstract The impact of sea state on air–sea momentum flux (or wind stress) is a poorly understood component of wind–wave interactions, particularly in high wind conditions. The wind stress and mean wind profile over the ocean are influenced by the characteristics of boundary layer turbulence over surface waves, which are strongly modulated by transient airflow separation events; however, the features controlling their occurrence and intensity are not well known. A large-eddy simulation (LES) for wind over a sinusoidal wave train is employed to reproduce laboratory observations of phase-averaged airflow over waves in strongly forced conditions. The LES and observation both use a wave-following coordinate system with a decomposition of wind velocity into mean, wave-coherent, and turbulent fluctuation components. The LES results of the mean wind profile and structure of wave-induced and turbulent stress components agree reasonably well with observations. Both LES and observation show enhanced turbulent stress and mean wind shear at the height of the wave crest, signifying the impact of intermittent airflow separation events. Disparities exist particularly near the crest, suggesting...",
+      "authors": [
+        "Nyla Husain",
+        "Tetsu Hara",
+        "Marc Buckley",
+        "Kianoosh Yousefi",
+        "Fabrice Véron",
+        "Peter P. Sullivan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Numerical simulations of an array of offshore turbines and its effect on the local circulation",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3224/2/022057",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3224/2/022057",
+      "concepts": [
+        "Wind stress",
+        "Geology",
+        "Vortex",
+        "Offshore wind power",
+        "Wake",
+        "Meteorology",
+        "Inflow",
+        "Turbine"
+      ],
+      "abstract": "Abstract A one-way numerical coupling of the ocean circulation and atmospheric flow is developed to study the effect of offshore wind farms on the ocean. Our in-house UTD-WF LES (Large Eddy Simulation) solver is used for the atmospheric boundary layer and the wind turbines, whereas FVCOM (Finite Volume Community Ocean Model) is used for the ocean domain. An idealized offshore wind farm, consisting of an array of 4 × 2 turbines and a specified constant depth of H = 30 m, is modeled. Two sets of simulations, one with a uniform inflow and another with a turbulent inflow, are performed. Results show that the wind flow patterns around the wind farm, which include the low-velocity wake regions behind the wind turbines and the induction zone in front of the wind turbine rotors, are projected into the ocean surface. These flow patterns generate large streamwise vortices spanning the depth of the ocean. Due to these vortices and the consequent upwelling and downwelling, the circulation and mixing underneath the ocean surface is increased. When turbulence is imposed at the inlet, these large vortices no longer retain their coherence but meander downstream of the wind farm.",
+      "authors": [
+        "Miguel A. Guzmán Hernández",
+        "John M. Pérez Medina",
+        "Umberto Ciri",
+        "Kianoosh Yousefi",
+        "Stefano Leonardi"
+      ]
+    },
+    {
+      "title": "Data Driven Air Entrainment Velocity Parameterization by Breaking Waves",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "https://doi.org/10.48550/arxiv.2602.04067",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.04067",
+      "concepts": [
+        "Breaking wave",
+        "Sea state",
+        "Wave model",
+        "Meteorology",
+        "Entrainment (biomusicology)",
+        "Turbulence",
+        "Wind speed",
+        "Mechanics"
+      ],
+      "abstract": "Wave breaking injects turbulence and bubbles into the upper ocean, modulating air-sea exchange of momentum, heat, gases, and sea-spray aerosols. These fluxes depend nonlinearly on sea state but remain poorly represented in coupled atmosphere-wave-ocean models, where air-entrainment velocity is often parameterized using wind speed or significant wave height alone. We develop a global machine-learning parameterization of Va trained on a 43-year WAVEWATCH III simulation that resolves the breaker-front distribution and associated energetics. A multilayer perceptron with seven physically motivated predictors (wind speed, wave height, wave age, steepness, direction, and depth) reproduces spectral-reference Va with high skill. The model reduces longstanding biases in bulk formulas, notably overestimation in swell-dominated low latitudes and underestimation in storm tracks. Applied globally, it improves bubble-mediated CO2 transfer velocity and sea-salt aerosol emission, reducing errors by an order of magnitude. Validation against independent HiWinGS observations supports robust deep-water performance.",
+      "authors": [
+        "Xiaohui Zhou",
+        "Anton Darmenov",
+        "Kianoosh Yousefi"
+      ]
+    },
+    {
+      "title": "Data Driven Air Entrainment Velocity Parameterization by Breaking Waves",
+      "publication_year": 2026,
+      "publication_date": "2026-02-03",
+      "doi": "http://arxiv.org/abs/2602.04067",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.04067",
+      "concepts": [
+        "Breaking wave",
+        "Sea state",
+        "Wave model",
+        "Meteorology",
+        "Entrainment (biomusicology)",
+        "Turbulence",
+        "Wind speed",
+        "Mechanics"
+      ],
+      "abstract": "Wave breaking injects turbulence and bubbles into the upper ocean, modulating air-sea exchange of momentum, heat, gases, and sea-spray aerosols. These fluxes depend nonlinearly on sea state but remain poorly represented in coupled atmosphere-wave-ocean models, where air-entrainment velocity is often parameterized using wind speed or significant wave height alone. We develop a global machine-learning parameterization of Va trained on a 43-year WAVEWATCH III simulation that resolves the breaker-front distribution and associated energetics. A multilayer perceptron with seven physically motivated predictors (wind speed, wave height, wave age, steepness, direction, and depth) reproduces spectral-reference Va with high skill. The model reduces longstanding biases in bulk formulas, notably overestimation in swell-dominated low latitudes and underestimation in storm tracks. Applied globally, it improves bubble-mediated CO2 transfer velocity and sea-salt aerosol emission, reducing errors by an order of magnitude. Validation against independent HiWinGS observations supports robust deep-water performance.",
+      "authors": [
+        "Xiaohui Zhou",
+        "Anton Darmenov",
+        "Kianoosh Yousefi"
+      ]
+    },
+    {
+      "title": "Data-driven met-ocean model for offshore wind energy applications",
+      "publication_year": 2024,
+      "publication_date": "2024-06-01",
+      "doi": "https://doi.org/10.1088/1742-6596/2767/5/052005",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/2767/5/052005",
+      "concepts": [
+        "Offshore wind power",
+        "Drag",
+        "Wind speed",
+        "Wind stress",
+        "Wind wave",
+        "Wind power",
+        "Meteorology",
+        "Marine engineering"
+      ],
+      "abstract": "Abstract In recent years, the global transition towards green energy, driven by environmental concerns and increasing electricity demands, has remarkably reshaped the energy landscape. The transformative potential of marine wind energy is particularly critical in securing a sustainable energy future. To achieve this objective, it is essential to have an accurate understanding of wind dynamics and their interactions with ocean waves for the proper design and operation of offshore wind turbines (OWTs). The accuracy of met-ocean models depends critically on their ability to correctly capture sea-surface drag over the multiscale ocean surface—a quantity typically not directly resolved in numerical models and challenging to acquire using either field or laboratory measurements. Although skin friction drag contributes considerably to the total wind stress, especially at moderate wind speeds, it is notoriously challenging to predict using physics-based approaches. The current work introduces a novel approach based on a convolutional neural network (CNN) model to predict the spatial distributions of skin friction drag over wind-generated surface waves using wave profiles, local wave slo...",
+      "authors": [
+        "Kianoosh Yousefi",
+        "Gurpreet S. Hora",
+        "Hongshuo Yang",
+        "Marco G. Giometto"
+      ]
+    },
+    {
+      "title": "A machine learning model for reconstructing skin-friction drag over ocean surface waves",
+      "publication_year": 2024,
+      "publication_date": "2024-03-14",
+      "doi": "https://doi.org/10.1017/jfm.2024.81",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 15,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66B05CD637BE197C754A0FD6A19B6B57/S0022112024000818a.pdf/div-class-title-a-machine-learning-model-for-reconstructing-skin-friction-drag-over-ocean-surface-waves-div.pdf",
+      "concepts": [
+        "Drag",
+        "Parasitic drag",
+        "Mechanics",
+        "Surface (topology)",
+        "Geology",
+        "Computer science",
+        "Physics",
+        "Geometry"
+      ],
+      "abstract": "In order to improve the predictive abilities of weather and climate models, it is essential to understand the behaviour of wind stress at the ocean surface. Wind stress is contingent on small-scale interfacial dynamics typically not directly resolved in numerical models. Although skin friction contributes considerably to the total stress up to moderate wind speeds, it is notoriously challenging to measure and predict using physics-based approaches. This work proposes a supervised machine learning (ML) model that estimates the spatial distribution of the skin-friction drag over wind waves using solely wave elevation and wave age, which are relatively easy to acquire. The input–output pairs are high-resolution wave profiles and their corresponding surface viscous stresses collected from laboratory experiments. The ML model is built upon a convolutional neural network architecture that incorporates the Mish nonlinearity as its activation function. Results show that the model can accurately predict the overall distribution of viscous stresses; it captures the peak of viscous stress at/near the crest and its dramatic drop to almost null just past the crest in cases of intermittent ai...",
+      "authors": [
+        "Kianoosh Yousefi",
+        "Gurpreet S. Hora",
+        "Hongshuo Yang",
+        "Fabrice Véron",
+        "Marco G. Giometto"
+      ]
+    }
+  ]
+}

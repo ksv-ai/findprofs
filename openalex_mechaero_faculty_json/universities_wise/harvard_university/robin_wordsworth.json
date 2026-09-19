@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Robin Wordsworth",
+  "full_name": "Robin Wordsworth",
+  "department": "John A. Paulson School of Engineering and Applied Sciences (SEAS) / Environmental Science and Engineering",
+  "university": "Harvard University",
+  "author_id": "A5008740857",
+  "works_count": 249,
+  "cited_by_count": 6203,
+  "h_index": 38,
+  "top_topics": [
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 125
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 114
+    },
+    {
+      "topic": "Stellar, planetary, and galactic studies",
+      "count": 51
+    },
+    {
+      "topic": "Space Exploration and Technology",
+      "count": 51
+    },
+    {
+      "topic": "Geology and Paleoclimatology Research",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Growth model interpretation of planet size distribution",
+      "publication_year": 2019,
+      "publication_date": "2019-04-29",
+      "doi": "https://doi.org/10.1073/pnas.1812905116",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 592,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1906.04253",
+      "concepts": [
+        "Planet",
+        "Exoplanet",
+        "Physics",
+        "RADIUS",
+        "Envelope (radar)",
+        "Astrophysics",
+        "Stars",
+        "Astronomy"
+      ],
+      "abstract": "Significance The discovery of numerous exoplanet systems containing diverse populations of planets orbiting very close to their host stars challenges the planet formation theories based on the solar system. Here, we focus on the planets with radii of 2–4 R ⊕ , whose compositions are debated. They are thought to be either gas dwarfs consisting of rocky cores embedded in H 2 -rich gas envelopes or water worlds containing significant amounts of H 2 O-dominated fluid/ice in addition to rock and gas. We argue that these planets are water worlds.",
+      "authors": [
+        "Li Zeng",
+        "S. B. Jacobsen",
+        "Dimitar Sasselov",
+        "M. I. Petaev",
+        "Andrew Vanderburg",
+        "Mercedes López‐Morales",
+        "Juan Pérez‐Mercader",
+        "Thomas R. Mattsson",
+        "Gongjie Li",
+        "Matthew Z. Heising",
+        "A. S. Bonomo",
+        "M. Damasso",
+        "Travis A. Berger",
+        "Hao Cao",
+        "A. Levi",
+        "Robin Wordsworth"
+      ]
+    },
+    {
+      "title": "Global modelling of the early martian climate under a denser CO2 atmosphere: Water cycle and ice evolution",
+      "publication_year": 2012,
+      "publication_date": "2012-10-30",
+      "doi": "https://doi.org/10.1016/j.icarus.2012.09.036",
+      "venue": "Icarus",
+      "type": "article",
+      "cited_by_count": 350,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1207.3993",
+      "concepts": [
+        "Noachian",
+        "Hesperian",
+        "Martian",
+        "Atmosphere (unit)",
+        "Water cycle",
+        "Atmospheric sciences",
+        "Geology",
+        "Albedo (alchemy)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Robin Wordsworth",
+        "F. Forget",
+        "Ehouarn Millour",
+        "J. W. Head",
+        "Jean‐Baptiste Madeleine",
+        "Benjamin Charnay"
+      ]
+    },
+    {
+      "title": "3D modelling of the early martian climate under a denser CO2 atmosphere: Temperatures and CO2 ice clouds",
+      "publication_year": 2012,
+      "publication_date": "2012-10-30",
+      "doi": "https://doi.org/10.1016/j.icarus.2012.10.019",
+      "venue": "Icarus",
+      "type": "article",
+      "cited_by_count": 338,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1210.4216",
+      "concepts": [
+        "Atmosphere (unit)",
+        "Atmosphere of Mars",
+        "Astrobiology",
+        "Martian",
+        "Atmospheric sciences",
+        "Environmental science",
+        "Mars Exploration Program",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "F. Forget",
+        "Robin Wordsworth",
+        "Ehouarn Millour",
+        "Jean‐Baptiste Madeleine",
+        "L. Kerber",
+        "Jérémy Leconte",
+        "Emmanuel Marcq",
+        "R. M. Haberle"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "vivikuss/PandExo_He_Paper_APJL: \"Climates of temperate rocky planets with He-dominated atmospheres\", Kuss et al. (2026)",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.5281/zenodo.20788284",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20788284",
+      "concepts": [
+        "Astrobiology",
+        "Planet",
+        "Geology",
+        "Environmental science",
+        "Habitability",
+        "Terrestrial planet",
+        "Pollen",
+        "Hot Jupiter"
+      ],
+      "abstract": "This repository contains the PandExo setup, input files, and analysis scripts used for the simulations presented in: > Kuss et al. (2026), \"Climates of temperate rocky planets with He-dominated atmospheres\" Relevant files Input spectra pandexo_lhs_spectrum_new1.txt pandexo_lhs_spectrum_new2.txt pandexo_lhs_spectrum_new3.txt Analysis scripts analyze_data.py PAP_analyze_data_obs_data.py Simulation setup pandexo_generate.py Additional files Damiano_JWST.rtf (for plots) patch_numpy.py (compatibility) Software versionsThe simulations were performed using: - PandExo v3.1.1- Pandeia Engine v3.0.0 PandExo For details on installing PandExo, see README file provided in the repository.",
+      "authors": [
+        "vivikuss",
+        "Robin Wordsworth",
+        "Collin Cherubim",
+        "Jessica Cmiel"
+      ]
+    },
+    {
+      "title": "vivikuss/PCM_LBL_He_Paper_APJL: \"Climates of temperate rocky planets with He-dominated atmospheres\", Kuss et al. (2026)",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.5281/zenodo.20788252",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20788252",
+      "concepts": [
+        "Astrobiology",
+        "Planet",
+        "Habitability",
+        "Environmental science",
+        "Geology",
+        "Temperate climate",
+        "Terrestrial planet",
+        "Climate change"
+      ],
+      "abstract": "Modifications have been made to Planetary Climate Model Line-By-Line code by Wordsworth et al. (2017-2021) to treat He-dominated atmospheres as outlined in > Kuss et al. (2026), \"Climates of temperate rocky planets with He-dominated atmospheres\" Details on the original code and instruction to install it can be found in the README file on the github repository.",
+      "authors": [
+        "vivikuss",
+        "Robin Wordsworth",
+        "Collin Cherubim",
+        "Jessica Cmiel"
+      ]
+    },
+    {
+      "title": "vivikuss/picaso_He_Paper_APJL: \"Climates of temperate rocky planets with He-dominated atmospheres\", Kuss et al. (2026)",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.5281/zenodo.20788286",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20788286",
+      "concepts": [
+        "Astrobiology",
+        "Planet",
+        "Geology",
+        "Environmental science",
+        "Habitability",
+        "Terrestrial planet",
+        "Pollen",
+        "Hot Jupiter"
+      ],
+      "abstract": "This repository contains the PICASO setup, input files, and analysis scripts used for the simulations presented in: > Kuss et al. (2026), \"Climates of temperate rocky planets with He-dominated atmospheres\" Relevant files Input spectra spectrum_lhs_case1.txt spectrum_lhs_case2.txt spectrum_lhs_case3.txt Simulation setup create_pt_file_for_picaso.py trans_spectra.py Additional files patch_scipy.py Software versionThe simulations were performed using PICASO v2.1. PICASO For detail regarding the installation of PICASO, see the README file provided in the repository.",
+      "authors": [
+        "vivikuss",
+        "Robin Wordsworth",
+        "Collin Cherubim",
+        "Jessica Cmiel"
+      ]
+    },
+    {
+      "title": "vivikuss/Figs1_2_He_Paper_APJL: \"Climates of temperate rocky planets with He-dominated atmospheres\", Kuss et al. (2026)",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.5281/zenodo.20788270",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20788270",
+      "concepts": [
+        "Astrobiology",
+        "Planet",
+        "Geology",
+        "Habitability",
+        "Environmental science",
+        "Terrestrial planet",
+        "Asteroid",
+        "Temperate climate"
+      ],
+      "abstract": "This repository contains the scripts used to generate Figures 1 and 2 for: > Kuss et al. (2026), \"Climates of temperate rocky planets with He-dominated atmospheres\" Relevant files: PAP_code_comparison_plot.py: Script to plot Figure 1, relevant data is included in this repository as well. PAP_code_Tsurf_generate_data.py: Script to generate the data used in Figure 2, requires PCM Line-By-Line to be installed (see accompanying repository https://github.com/vivikuss/PCM_LBL_He_Paper_APJL). PAP_code_Tsurf_plots_NEW.py: Script to plot Figure 2 based on the generated data. The data used for Figure 2 presented in Kuss et al. (2026) is provided in an accompanying repository (https://github.com/vivikuss/Complete_Data_He_Paper_APJL).",
+      "authors": [
+        "vivikuss",
+        "Robin Wordsworth",
+        "Collin Cherubim",
+        "Jessica Cmiel"
+      ]
+    },
+    {
+      "title": "vivikuss/picaso_He_Paper_APJL: \"Climates of temperate rocky planets with He-dominated atmospheres\", Kuss et al. (2026)",
+      "publication_year": 2026,
+      "publication_date": "2026-06-21",
+      "doi": "https://doi.org/10.5281/zenodo.20788285",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20788285",
+      "concepts": [
+        "Astrobiology",
+        "Planet",
+        "Geology",
+        "Environmental science",
+        "Habitability",
+        "Terrestrial planet",
+        "Pollen",
+        "Hot Jupiter"
+      ],
+      "abstract": "This repository contains the PICASO setup, input files, and analysis scripts used for the simulations presented in: > Kuss et al. (2026), \"Climates of temperate rocky planets with He-dominated atmospheres\" Relevant files Input spectra spectrum_lhs_case1.txt spectrum_lhs_case2.txt spectrum_lhs_case3.txt Simulation setup create_pt_file_for_picaso.py trans_spectra.py Additional files patch_scipy.py Software versionThe simulations were performed using PICASO v2.1. PICASO For detail regarding the installation of PICASO, see the README file provided in the repository.",
+      "authors": [
+        "vivikuss",
+        "Robin Wordsworth",
+        "Collin Cherubim",
+        "Jessica Cmiel"
+      ]
+    }
+  ]
+}

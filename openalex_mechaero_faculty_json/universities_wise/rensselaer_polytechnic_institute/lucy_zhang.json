@@ -1,0 +1,209 @@
+{
+  "faculty_name": "Lucy Zhang",
+  "full_name": "Lucy T. Zhang",
+  "department": "Department of Mechanical, Aerospace, and Nuclear Engineering",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5047861103",
+  "works_count": 52,
+  "cited_by_count": 1496,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 19
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 11
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 8
+    },
+    {
+      "topic": "Coronary Interventions and Diagnostics",
+      "count": 5
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Microfluidics-enabled orientation and microstructure control of macroscopic graphene fibres",
+      "publication_year": 2018,
+      "publication_date": "2018-12-30",
+      "doi": "https://doi.org/10.1038/s41565-018-0330-9",
+      "venue": "Nature Nanotechnology",
+      "type": "article",
+      "cited_by_count": 326,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Graphene",
+        "Materials science",
+        "Microfluidics",
+        "Microchannel",
+        "Microstructure",
+        "Nanotechnology",
+        "Microscale chemistry",
+        "Composite material"
+      ],
+      "abstract": "",
+      "authors": [
+        "Guoqing Xin",
+        "Weiguang Zhu",
+        "Yanxiang Deng",
+        "Jie Cheng",
+        "Lucy T. Zhang",
+        "Aram J. Chung",
+        "Suvranu De",
+        "Jie Lian"
+      ]
+    },
+    {
+      "title": "Thermostats and thermostat strategies for molecular dynamics simulations of nanofluidics",
+      "publication_year": 2013,
+      "publication_date": "2013-02-22",
+      "doi": "https://doi.org/10.1063/1.4792202",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermostat",
+        "Dissipative particle dynamics",
+        "Nanofluidics",
+        "Mechanics",
+        "Statistical physics",
+        "Thermal",
+        "Computational fluid dynamics",
+        "Molecular dynamics"
+      ],
+      "abstract": "The thermostats in molecular dynamics (MD) simulations of highly confined channel flow may have significant influences on the fidelity of transport phenomena. In this study, we exploit non-equilibrium MD simulations to generate Couette flows with different combinations of thermostat algorithms and strategies. We provide a comprehensive analysis on the effectiveness of three thermostat algorithms Nosé-Hoover chain (NHC), Langevin (LGV) and dissipative particle dynamics (DPD) when applied in three thermostat strategies, thermostating either walls (TW) or fluid (TF), and thermostating both the wall and fluid (TWTF). Our results of thermal and mechanical properties show that the TW strategy more closely resembles experimental conditions. The TF and TWTF systems also produce considerably similar behaviors in weakly sheared systems, but deviate the dynamics in strongly sheared systems due to the isothermal condition. The LGV and DPD thermostats used in the TF and TWTF systems provide vital ways to yield correct dynamics in coarse-grained systems by tuning the fluid transport coefficients. Using conventional NHC thermostat to thermostat fluid only produces correct thermal behaviors in ...",
+      "authors": [
+        "Xin Yong",
+        "Lucy T. Zhang"
+      ]
+    },
+    {
+      "title": "Nanoscale Wetting on Groove-Patterned Surfaces",
+      "publication_year": 2009,
+      "publication_date": "2009-03-30",
+      "doi": "https://doi.org/10.1021/la804025h",
+      "venue": "Langmuir",
+      "type": "article",
+      "cited_by_count": 110,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wetting",
+        "Contact angle",
+        "Wetting transition",
+        "Nanoscopic scale",
+        "Materials science",
+        "Surface finish",
+        "Groove (engineering)",
+        "Composite material"
+      ],
+      "abstract": "In this paper, nanoscale wetting on groove-patterned surfaces is thoroughly studied using molecular dynamics simulations. The results are compared with Wenzel's and Cassie's predictions to determine whether these continuum theories are still valid at the nanoscale for both hydrophobic and hydrophilic types of surfaces when the droplet size is comparable to the groove size. A system with a liquid mercury droplet and grooved copper substrate is simulated. The wetting properties are determined by measuring contact angles of the liquid droplet at equilibrium states. Correlations are established between the contact angle, roughness factor r, and surface fraction f. The results show that, for hydrophobic surfaces, the contact angle as a function of roughness factor and surface fraction on nanogrooved surfaces obeys the predictions from Wenzel's theory for wetted contacts and Cassie's theory for composite contacts. However, slight deviations occur in composite contacts when a small amount of liquid penetration is observed. The contact angle of this partial wetting cannot be accurately predicted using either Cassie's or Wenzel's theories. For hydrophilic surfaces, only wetted contacts a...",
+      "authors": [
+        "Xin Yong",
+        "Lucy T. Zhang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Level set topology optimization for fluid-structure interaction using the modified immersed finite element method",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118754",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Discretization",
+        "Topology optimization",
+        "Level set method",
+        "Kernel (algebra)",
+        "Fluid–structure interaction",
+        "Applied mathematics",
+        "Nonlinear system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andreas Neofytou",
+        "Lucy T. Zhang",
+        "H. Alicia Kim"
+      ]
+    },
+    {
+      "title": "Level Set Topology Optimization for Fluid-Structure Interactions Using the Modified Immersed Finite Element Method",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5447837",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5447837",
+      "concepts": [
+        "Finite element method",
+        "Topology optimization",
+        "Discretization",
+        "Level set method",
+        "Fluid–structure interaction",
+        "Kernel (algebra)",
+        "Topology (electrical circuits)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andreas Neofytou",
+        "Lucy T. Zhang",
+        "H. Alicia Kim"
+      ]
+    },
+    {
+      "title": "NSF DARE—transforming modeling in neurorehabilitation: perspectives and opportunities from US funding agencies",
+      "publication_year": 2024,
+      "publication_date": "2024-02-03",
+      "doi": "https://doi.org/10.1186/s12984-024-01308-x",
+      "venue": "Journal of NeuroEngineering and Rehabilitation",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1186/s12984-024-01308-x.pdf",
+      "concepts": [
+        "Neurorehabilitation",
+        "Context (archaeology)",
+        "Computational model",
+        "Rehabilitation",
+        "Engineering ethics",
+        "Health care",
+        "Computer science",
+        "Psychology"
+      ],
+      "abstract": "In recognition of the importance and timeliness of computational models for accelerating progress in neurorehabilitation, the U.S. National Science Foundation (NSF) and the National Institutes of Health (NIH) sponsored a conference in March 2023 at the University of Southern California that drew global participation from engineers, scientists, clinicians, and trainees. This commentary highlights promising applications of computational models to understand neurorehabilitation (\"Using computational models to understand complex mechanisms in neurorehabilitation\" section), improve rehabilitation care in the context of digital twin frameworks (\"Using computational models to improve delivery and implementation of rehabilitation care\" section), and empower future interdisciplinary workforces to deliver higher-quality clinical care using computational models (\"Using computational models in neurorehabilitation requires an interdisciplinary workforce\" section). The authors describe near-term gaps and opportunities, all of which encourage interdisciplinary team science. Four major opportunities were identified including (1) deciphering the relationship between engineering figures of merit-...",
+      "authors": [
+        "Grace M. Hwang",
+        "Jonathan Kulwatno",
+        "Theresa H. Cruz",
+        "Daofen Chen",
+        "Toyin Ajisafe",
+        "Joseph D. Monaco",
+        "Ralph Nitkin",
+        "Stephanie M. George",
+        "C. Payne Lucas",
+        "Steven M. Zehnder",
+        "Lucy T. Zhang"
+      ]
+    }
+  ]
+}

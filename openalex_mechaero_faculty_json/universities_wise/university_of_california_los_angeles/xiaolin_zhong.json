@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Xiaolin Zhong",
+  "full_name": "Xiaolin Zhong",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5033534832",
+  "works_count": 299,
+  "cited_by_count": 6552,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 211
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 207
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 129
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 76
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct Numerical Simulation on the Receptivity, Instability, and Transition of Hypersonic Boundary Layers",
+      "publication_year": 2011,
+      "publication_date": "2011-03-02",
+      "doi": "https://doi.org/10.1146/annurev-fluid-120710-101208",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 374,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary layer",
+        "Direct numerical simulation",
+        "Laminar-turbulent transition",
+        "Mechanics",
+        "Aerodynamics",
+        "Hypersonic flight",
+        "Aerospace engineering"
+      ],
+      "abstract": "The prediction of the laminar-turbulent transition of boundary layers is critically important to the development of hypersonic vehicles because the transition has a first-order impact on aerodynamic heating, drag, and vehicle operation. The success of transition prediction relies on a fundamental understanding of the relevant physical mechanisms. In the 20 years since the review by Kleiser & Zang (1991) on the direct numerical simulation (DNS) of the boundary-layer transition, significant progress has been made on DNS in the hypersonic flow regime and in the spatial DNS approach. Many high-order shock-capturing and shock-fitting finite-difference methods have been developed and extensively applied to numerical simulations of the hypersonic boundary-layer transition. DNS has become a powerful research tool and has led to discoveries of new transition mechanisms. This article reviews the recent progress of DNS on hypersonic boundary-layer receptivity, instability, and transition. The current status and future directions are also presented.",
+      "authors": [
+        "Xiaolin Zhong",
+        "Xiaowen Wang"
+      ]
+    },
+    {
+      "title": "Receptivity of a supersonic boundary layer over a flat plate. Part 2. Receptivity to free-stream sound",
+      "publication_year": 2003,
+      "publication_date": "2003-07-02",
+      "doi": "https://doi.org/10.1017/s0022112003004798",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 175,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Boundary layer",
+        "Supersonic speed",
+        "Acoustic wave",
+        "Shock wave",
+        "Acoustics",
+        "Mach number",
+        "Oblique shock"
+      ],
+      "abstract": "In this paper, we continue to study the mechanisms of the receptivity of the supersonic boundary layer to free-stream disturbances by using both direct numerical simulation and linear stability theory. Specifically, the receptivity of a Mach 4.5 flow over a flat plate to free-stream fast acoustic waves is studied. The receptivity to free-stream slow acoustic waves, entropy waves and vorticity waves will be studied in the future. The oblique shock wave induced by the boundary-layer displacement plays an important role in the receptivity because the free-stream disturbance waves first pass through the shock before entering the boundary layer. A high-order shock-fitting scheme is used in the numerical simulations in order to account for the effects of interactions between free-stream disturbance waves and the oblique shock wave. The results show that the receptivity of the flat-plate boundary layer to free-stream fast acoustic waves leads to the excitation of both Mack modes and a family of stable modes, i.e. mode I, mode II, etc. It is found that the forcing fast acoustic waves do not interact directly with the unstable Mack modes. Instead, the stable mode I waves play an importan...",
+      "authors": [
+        "Yanbao Ma",
+        "Xiaolin Zhong"
+      ]
+    },
+    {
+      "title": "Receptivity of a supersonic boundary layer over a flat plate. Part 3. Effects of different types of free-stream disturbances",
+      "publication_year": 2005,
+      "publication_date": "2005-05-27",
+      "doi": "https://doi.org/10.1017/s0022112005003836",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 155,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Supersonic speed",
+        "Boundary layer",
+        "Shock wave",
+        "Acoustics",
+        "Mechanics",
+        "Acoustic wave",
+        "Mechanical wave"
+      ],
+      "abstract": "Supersonic boundary-layer receptivity to different types of free-stream disturbance is studied for a Mach 4.5 boundary-layer flow over a flat plate by using the approaches of both direct numerical simulation and linear stability theory. This paper is Part 3 of a three-part study of the receptivity of supersonic boundary layers to free-stream disturbances. The present paper investigates receptivity to four types of different free-stream disturbances, i.e. slow and fast acoustic waves, entropy waves, and vorticity waves. A high-order shock-fitting scheme is used in the numerical simulation in order to accurately account for the effects of interactions between free-stream disturbance waves and the oblique shock wave. Numerical results on the generation of fast acoustic waves by free-stream entropy waves or vorticity waves are compared with those of a linear theory. Good agreement is obtained in both wave angles and amplitudes immediately behind the bow shock. It is found that the second-mode receptivity to free-stream slow acoustic waves is several times stronger than that to free-stream fast acoustic waves. This is because free-stream slow acoustic waves can directly induce and in...",
+      "authors": [
+        "Yanbao Ma",
+        "Xiaolin Zhong"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Very high-order multi-layer compact schemes with shock-fitting method (MLC-SF) for compressible flow simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-08-30",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114332",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Compressible flow",
+        "Shock (circulatory)",
+        "Compressibility",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Applied mathematics",
+        "Physics",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yung-Tien Lin",
+        "Xiaolin Zhong"
+      ]
+    },
+    {
+      "title": "Receptivity and biorthogonal decomposition of hypersonic boundary layer",
+      "publication_year": 2025,
+      "publication_date": "2025-08-22",
+      "doi": "https://doi.org/10.1016/b978-0-44-318785-8.00011-0",
+      "venue": "Elsevier eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Receptivity",
+        "Boundary layer",
+        "Biorthogonal system",
+        "Hypersonic speed",
+        "Decomposition",
+        "Aerospace engineering",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zihao Zou",
+        "Xiaolin Zhong"
+      ]
+    },
+    {
+      "title": "Hypersonic boundary-layer receptivity to free-stream acoustic waves with thermochemical non-equilibrium effects",
+      "publication_year": 2025,
+      "publication_date": "2025-06-17",
+      "doi": "https://doi.org/10.1017/jfm.2025.10230",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Hypersonic speed",
+        "Mechanics",
+        "Receptivity",
+        "Boundary (topology)",
+        "Physics",
+        "Atmospheric sciences",
+        "Acoustics"
+      ],
+      "abstract": "Many hypersonic flows of interest feature high free-stream stagnation enthalpies, which lead to high flow-field temperatures and thermochemical non-equilibrium (TCNE) effects, such as finite-rate chemistry and vibrational excitation. However, very few studies have considered receptivity for high-enthalpy flows. In this paper, we investigate the receptivity of a high-enthalpy Mach 5 straight-cone boundary layer to slow and fast acoustic free-stream waves using direct numerical simulation alongside linear stability theory and the linear parabolised stability equations. In addition, we investigate the TCNE effect on receptivity by comparing results between the TCNE gas model and a thermochemically frozen gas model. The dominant instability mechanism for this flow configuration is found to be Mack’s second mode, with the unstable mode being the fast mode. Second-mode receptivity coefficients are obtained for a number of frequencies. For free-stream slow acoustic waves, these receptivity coefficients are found to generally increase with frequency. For a small subset of the considered frequency range, the receptivity coefficients corresponding to free-stream fast acoustic waves are fo...",
+      "authors": [
+        "Anand Varma",
+        "Xiaolin Zhong"
+      ]
+    },
+    {
+      "title": "Very High-Order Multi-Layer Compact Schemes with Shock-Fitting Method (Mlc-Sf) For Compressible Flow Simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5149012",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5149012",
+      "concepts": [
+        "Shock (circulatory)",
+        "Compressibility",
+        "Flow (mathematics)",
+        "Compressible flow",
+        "Layer (electronics)",
+        "Mechanics",
+        "Order (exchange)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yung-Tien Lin",
+        "Xiaolin Zhong"
+      ]
+    },
+    {
+      "title": "Bi-orthogonal Decomposition for Slow Acoustic Pulse Receptivity Simulation of Hypersonic Boundary Layer Over a Blunt Cone",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4277",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Blunt",
+        "Materials science",
+        "Cone (formal languages)",
+        "Hypersonic speed",
+        "Acoustics",
+        "Boundary layer",
+        "Aerospace engineering",
+        "Computer science"
+      ],
+      "abstract": "Boundary layer transition can be initiated differently given the nature of the external disturbances. Receptivity, which refers to the interaction between external disturbances and the boundary layer, introduces an initial disturbance amplitude into the flow for all scenarios. Different transition prediction tools consider receptivity to different extents. The popular $e^N$ method primarily focuses on the growth rate, also called the $N$ factor, of disturbances and neglects the initial amplitude. To address this issue, Mack (1977) proposed the amplitude method to incorporate receptivity, nonlinear effects, and broadband characteristics of disturbances. In amplitude method, an accurate evaluation of the receptivity coefficient at the branch I neutral stability location is significant in obtaining the initial amplitude of the disturbance wave. Current evaluation of the receptivity coefficient are the experimental fitting method used by Marineau (2017) and the back-tracking numerical method implemented by He and Zhong (2021). Although both approaches have the capability of obtaining the receptivity coefficient, the evaluation is not directly at the branch I neutral stability locati...",
+      "authors": [
+        "Zihao Zou",
+        "Xiaolin Zhong"
+      ]
+    }
+  ]
+}

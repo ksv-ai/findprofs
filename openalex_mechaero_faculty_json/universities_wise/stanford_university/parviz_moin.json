@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Parviz Moin",
+  "full_name": "Parviz Moin",
+  "department": "Department of Mechanical Engineering / Center for Turbulence Research (CTR)",
+  "university": "Stanford University",
+  "author_id": "A5003773421",
+  "works_count": 726,
+  "cited_by_count": 66158,
+  "h_index": 115,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 501
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 189
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 142
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 135
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 96
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A dynamic subgrid-scale eddy viscosity model",
+      "publication_year": 1991,
+      "publication_date": "1991-07-01",
+      "doi": "https://doi.org/10.1063/1.857955",
+      "venue": "Physics of Fluids A Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 7219,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Turbulence modeling",
+        "Mechanics",
+        "Laminar flow",
+        "Large eddy simulation",
+        "Boundary layer",
+        "Scale model"
+      ],
+      "abstract": "One major drawback of the eddy viscosity subgrid-scale stress models used in large-eddy simulations is their inability to represent correctly with a single universal constant different turbulent fields in rotating or sheared flows, near solid walls, or in transitional regimes. In the present work a new eddy viscosity model is presented which alleviates many of these drawbacks. The model coefficient is computed dynamically as the calculation progresses rather than input a priori. The model is based on an algebraic identity between the subgrid-scale stresses at two different filtered levels and the resolved turbulent stresses. The subgrid-scale stresses obtained using the proposed model vanish in laminar flow and at a solid boundary, and have the correct asymptotic behavior in the near-wall region of a turbulent boundary layer. The results of large-eddy simulations of transitional and turbulent channel flow that use the proposed model are in good agreement with the direct simulation data.",
+      "authors": [
+        "Massimo Germano",
+        "Ugo Piomelli",
+        "Parviz Moin",
+        "W. Cabot"
+      ]
+    },
+    {
+      "title": "Turbulence statistics in fully developed channel flow at low Reynolds number",
+      "publication_year": 1987,
+      "publication_date": "1987-04-01",
+      "doi": "https://doi.org/10.1017/s0022112087000892",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 4838,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Reynolds number",
+        "Reynolds stress equation model",
+        "Reynolds decomposition",
+        "K-epsilon turbulence model",
+        "Physics",
+        "Mechanics",
+        "Statistical physics"
+      ],
+      "abstract": "A direct numerical simulation of a turbulent channel flow is performed. The unsteady Navier-Stokes equations are solved numerically at a Reynolds number of 3300, based on the mean centreline velocity and channel half-width, with about 4 × 10 6 grid points (192 × 129 × 160 in x, y, z ). All essential turbulence scales are resolved on the computational grid and no subgrid model is used. A large number of turbulence statistics are computed and compared with the existing experimental data at comparable Reynolds numbers. Agreements as well as discrepancies are discussed in detail. Particular attention is given to the behaviour of turbulence correlations near the wall. In addition, a number of statistical correlations which are complementary to the existing experimental data are reported for the first time.",
+      "authors": [
+        "John Kim",
+        "Parviz Moin",
+        "Robert Moser"
+      ]
+    },
+    {
+      "title": "Application of a fractional-step method to incompressible Navier-Stokes equations",
+      "publication_year": 1985,
+      "publication_date": "1985-06-01",
+      "doi": "https://doi.org/10.1016/0021-9991(85)90148-2",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 3074,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vector field",
+        "Compressibility",
+        "Mathematics",
+        "Numerical analysis",
+        "Incompressible flow",
+        "Boundary value problem",
+        "Navier–Stokes equations",
+        "Boundary (topology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "John Kim",
+        "Parviz Moin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Evidences of reconnect and resplit following multigenerational splitting of pipe turbulent spots and evidences of quasi-cyclic oscillations of puff’s frontal propagation speed",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3173/1/012008",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3173/1/012008",
+      "concepts": [
+        "Eddy",
+        "Mechanics",
+        "Turbulence",
+        "Laminar flow",
+        "Reynolds number",
+        "Front (military)",
+        "Flow (mathematics)",
+        "Intermittency"
+      ],
+      "abstract": "Abstract We present direct simulation results on turbulent spots developing spatially through a 1000 radii-long fully-developed laminar pipe flow at Re = 2150, 2300 and 2500. We seek answers to the following questions: What does an equilibrium puff do while waiting for its turn to split? Is split a sudden memoryless event or a gradual process with some unknown hysteresis effect? How is puff identity affected by such a hysteresis effect, if it does exist? Rather than waiting passively as translating frozen eddies between splits, puffs are discovered here to constantly undergo a quasi-cyclic process as manifested by a life cycle localized in their frontal elongated zone. This is accompanied by a quasi-cyclic oscillation in their front propagation speed. Spot identity may vary due to a composite process including, sequentially, multi-generational splits, reconnect, and resplits. This finding carries implications to studies on the critical Reynolds number at which turbulence starts to spread in pipe flow: Puff life-time and split waiting-time statistics may be less accurate if such spot identity variation is not tracked and included in the sampling procedure. A set of movies documen...",
+      "authors": [
+        "Xiaohua Wu",
+        "Parviz Moin",
+        "Ronald J. Adrian"
+      ]
+    },
+    {
+      "title": "Gravity Wave Interactions in the Stratocumulus-Topped Boundary Layer",
+      "publication_year": 2026,
+      "publication_date": "2026-01-24",
+      "doi": "https://doi.org/10.48550/arxiv.2601.17635",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.17635",
+      "concepts": [
+        "Breakup",
+        "Mechanics",
+        "Forcing (mathematics)",
+        "Boundary layer",
+        "Gravity wave",
+        "Geology",
+        "Amplitude",
+        "Physics"
+      ],
+      "abstract": "This work studies the breakup propensity of the stratocumulus-topped boundary layer (STBL) interacting with gravity waves using large-eddy simulation with a uniform vertical grid of $5$ m and horizontal spacing of $30$ m. A radiative-convective equilibrium (RCE) state is constructed to enforce stationarity in the STBL, and the gravity waves are introduced via a vertical momentum forcing mimicking a packet of plane waves. A nondimensionalization involving the inversion height and mean horizontal base wind as length and velocity scales is proposed to provide a framework to analyze the forcing parameter space. The magnitude of the scaled forcing amplitude ($\\mathcal{A}$) is critical in understanding various STBL breakup conditions. Classification of breakup was based on the reduction of the liquid water path for each forced STBL case. We found that breakup did not occur for $\\mathcal{A}<1$ and observed modest reductions in cloud for $1<\\mathcal{A}<2$, but the deck recovered to the stationary state slowly after the single-period forcing ceased. Fixing $\\mathcal{A}\\sim 2$ showed that forcings with longer duration and wider locality promote breakup. However, when the forcing is a line...",
+      "authors": [
+        "Arun Balakrishna",
+        "Hao Fu",
+        "Parviz Moin",
+        "Morgan O'Neill"
+      ]
+    },
+    {
+      "title": "Gravity Wave Interactions in the Stratocumulus-Topped Boundary Layer",
+      "publication_year": 2026,
+      "publication_date": "2026-01-24",
+      "doi": "http://arxiv.org/abs/2601.17635",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.17635",
+      "concepts": [
+        "Breakup",
+        "Mechanics",
+        "Forcing (mathematics)",
+        "Boundary layer",
+        "Gravity wave",
+        "Geology",
+        "Amplitude",
+        "Physics"
+      ],
+      "abstract": "This work studies the breakup propensity of the stratocumulus-topped boundary layer (STBL) interacting with gravity waves using large-eddy simulation with a uniform vertical grid of $5$ m and horizontal spacing of $30$ m. A radiative-convective equilibrium (RCE) state is constructed to enforce stationarity in the STBL, and the gravity waves are introduced via a vertical momentum forcing mimicking a packet of plane waves. A nondimensionalization involving the inversion height and mean horizontal base wind as length and velocity scales is proposed to provide a framework to analyze the forcing parameter space. The magnitude of the scaled forcing amplitude ($\\mathcal{A}$) is critical in understanding various STBL breakup conditions. Classification of breakup was based on the reduction of the liquid water path for each forced STBL case. We found that breakup did not occur for $\\mathcal{A}<1$ and observed modest reductions in cloud for $1<\\mathcal{A}<2$, but the deck recovered to the stationary state slowly after the single-period forcing ceased. Fixing $\\mathcal{A}\\sim 2$ showed that forcings with longer duration and wider locality promote breakup. However, when the forcing is a line...",
+      "authors": [
+        "Arun Balakrishna",
+        "Hao Fu",
+        "Parviz Moin",
+        "Morgan O'Neill"
+      ]
+    },
+    {
+      "title": "A Multi-Physics Simulation of Heat Transfer in Iced Airfoils under Realistic Icing Conditions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0683",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Thermal conduction",
+        "Heat transfer",
+        "Icing conditions",
+        "Icing",
+        "Airfoil",
+        "Materials science",
+        "Convective heat transfer"
+      ],
+      "abstract": "This work presents a high-fidelity, multi-physics framework for investigating the heat transfer of aircraft icing under realistic conditions. The methodology integrates a compressible Wall-Modeled Large-Eddy Simulation (WMLES) solver for aerodynamics, a Lagrangian particle tracking method for droplet impingement, and an unsteady Conjugate Heat Transfer (CHT) solver for the solid ice domain. This framework is applied to a NACA 23012 airfoil featuring laser-scanned rime ice roughness to analyze the interplay between surface topology, droplet impingement, and thermal conduction driven by the solidification of supercooled droplets. Results reveal that surface roughness induces high-frequency spatial variations in the local collection efficiency, leading to a heterogeneous heat source distribution from droplet solidification. However, lateral conduction within the ice layer diffuses this localized heat generation, resulting in a surface temperature field that is notably smoother than the impingement profile. Analysis of the interfacial energy budget at the stagnation region indicates that approximately 30\\% of the latent heat released by droplet freezing is conducted into the ice lay...",
+      "authors": [
+        "Federico Zabaleta",
+        "Brett Bornhoft",
+        "Suhas S. Jain",
+        "Sanjeeb Bose",
+        "Parviz Moin"
+      ]
+    },
+    {
+      "title": "A Sharp-Interface Approach Based on Ghost Fluid Method for Compressible Two-Phase Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0734",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Convergence (economics)",
+        "Compressibility",
+        "Process (computing)",
+        "Work (physics)",
+        "Applied mathematics",
+        "Computer science",
+        "Compressible flow",
+        "Mechanics"
+      ],
+      "abstract": "This work presents a non-mixture approach based on the ghost-fluid method (GFM) for simulating compressible multiphase flows with the goal of achieving enhanced accuracy and efficiency on coarse computational meshes. Building upon the classical GFM approach, a narrow-band level-set method is developed by introducing a modified Hamilton-Jacobi equation. The method has demonstrated fast convergence during the reinitialization process and preserves the interface geometry by imposing essential numerical conditions. The numerical implementation details and initial validation results demonstrate the effectiveness of the proposed enhancements in capturing complex interfacial phenomena.",
+      "authors": [
+        "Hang Song",
+        "Hanul Hwang",
+        "Parviz Moin"
+      ]
+    }
+  ]
+}

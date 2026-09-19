@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Shaowu Pan",
+  "full_name": "Shaowu Pan",
+  "department": "Department of Mechanical, Aerospace, and Nuclear Engineering",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5074526331",
+  "works_count": 121,
+  "cited_by_count": 7082,
+  "h_index": 37,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 24
+    },
+    {
+      "topic": "Advanced Sensor and Energy Harvesting Materials",
+      "count": 17
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 14
+    },
+    {
+      "topic": "Conducting polymers and applications",
+      "count": 12
+    },
+    {
+      "topic": "Underwater Vehicles and Communication Systems",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data",
+      "publication_year": 2019,
+      "publication_date": "2019-11-21",
+      "doi": "https://doi.org/10.1016/j.cma.2019.112732",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1060,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2019.112732",
+      "concepts": [
+        "Discretization",
+        "Surrogate model",
+        "Curse of dimensionality",
+        "Computer science",
+        "Fluid dynamics",
+        "Artificial neural network",
+        "Computational fluid dynamics",
+        "Uncertainty quantification"
+      ],
+      "abstract": "",
+      "authors": [
+        "Luning Sun",
+        "Han Gao",
+        "Shaowu Pan",
+        "Jianxun Wang"
+      ]
+    },
+    {
+      "title": "Gesture recognition using a bioinspired learning architecture that integrates visual data with somatosensory data from stretchable sensors",
+      "publication_year": 2020,
+      "publication_date": "2020-06-08",
+      "doi": "https://doi.org/10.1038/s41928-020-0422-z",
+      "venue": "Nature Electronics",
+      "type": "article",
+      "cited_by_count": 558,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial intelligence",
+        "Convolutional neural network",
+        "Computer science",
+        "Gesture",
+        "Sensor fusion",
+        "Gesture recognition",
+        "Computer vision",
+        "Wired glove"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ming Wang",
+        "Zheng Yan",
+        "Ting Wang",
+        "Pingqiang Cai",
+        "Siyu Gao",
+        "Yi Zeng",
+        "Changjin Wan",
+        "Hong Wang",
+        "Liang Pan",
+        "Jiancan Yu",
+        "Shaowu Pan",
+        "Ke He",
+        "Jie Lü",
+        "Xiaodong Chen"
+      ]
+    },
+    {
+      "title": "Artificial Skin Perception",
+      "publication_year": 2020,
+      "publication_date": "2020-09-15",
+      "doi": "https://doi.org/10.1002/adma.202003014",
+      "venue": "Advanced Materials",
+      "type": "article",
+      "cited_by_count": 453,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Nanotechnology",
+        "Perception",
+        "Artificial skin",
+        "Polymer science",
+        "Biomedical engineering",
+        "Biology",
+        "Neuroscience"
+      ],
+      "abstract": "Skin is the largest organ, with the functionalities of protection, regulation, and sensation. The emulation of human skin via flexible and stretchable electronics gives rise to electronic skin (e-skin), which has realized artificial sensation and other functions that cannot be achieved by conventional electronics. To date, tremendous progress has been made in data acquisition and transmission for e-skin systems, while the implementation of perception within systems, that is, sensory data processing, is still in its infancy. Integrating the perception functionality into a flexible and stretchable sensing system, namely artificial skin perception, is critical to endow current e-skin systems with higher intelligence. Here, recent progress in the design and fabrication of artificial skin perception devices and systems is summarized, and challenges and prospects are discussed. The strategies for implementing artificial skin perception utilize either conventional silicon-based circuits or novel flexible computing devices such as memristive devices and synaptic transistors, which enable artificial skin to surpass human skin, with a distributed, low-latency, and energy-efficient informa...",
+      "authors": [
+        "Ming Wang",
+        "Yifei Luo",
+        "Ting Wang",
+        "Changjin Wan",
+        "Liang Pan",
+        "Shaowu Pan",
+        "Ke He",
+        "Aden Neo",
+        "Xiaodong Chen"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-09-19",
+      "doi": "https://doi.org/10.48550/arxiv.2509.20374",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.20374",
+      "concepts": [
+        "Suite",
+        "Benchmark (surveying)",
+        "Computer science",
+        "Computational fluid dynamics",
+        "Testbed",
+        "Automation",
+        "Key (lock)",
+        "Code (set theory)"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated strong performance across general NLP tasks, but their utility in automating numerical experiments of complex physical system -- a critical and labor-intensive component -- remains underexplored. As the major workhorse of computational science over the past decades, Computational Fluid Dynamics (CFD) offers a uniquely challenging testbed for evaluating the scientific capabilities of LLMs. We introduce CFDLLMBench, a benchmark suite comprising three complementary components -- CFDQuery, CFDCodeBench, and FoamBench -- designed to holistically evaluate LLM performance across three key competencies: graduate-level CFD knowledge, numerical and physical reasoning of CFD, and context-dependent implementation of CFD workflows. Grounded in real-world CFD practices, our benchmark combines a detailed task taxonomy with a rigorous evaluation framework to deliver reproducible results and quantify LLM performance across code executability, solution accuracy, and numerical convergence behavior. CFDLLMBench establishes a solid foundation for the development and evaluation of LLM-driven automation of numerical experiments for complex physical system...",
+      "authors": [
+        "Nithin Somasekharan",
+        "Ling Yue",
+        "Yadi Cao",
+        "Weichao Li",
+        "Patrick Emami",
+        "Pochinapeddi Sai Bhargav",
+        "Anurag Acharya",
+        "Xingyu Xie",
+        "Shaowu Pan"
+      ]
+    },
+    {
+      "title": "Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM",
+      "publication_year": 2025,
+      "publication_date": "2025-09-17",
+      "doi": "https://doi.org/10.48550/arxiv.2509.18178",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.18178",
+      "concepts": [
+        "Computer science",
+        "Workflow",
+        "Context (archaeology)",
+        "Visualization",
+        "Distributed computing",
+        "Process (computing)",
+        "Key (lock)",
+        "Benchmark (surveying)"
+      ],
+      "abstract": "Computational Fluid Dynamics (CFD) is an essential simulation tool in engineering, yet its steep learning curve and complex manual setup create significant barriers. To address these challenges, we introduce Foam-Agent, a multi-agent framework that automates the entire end-to-end OpenFOAM workflow from a single natural language prompt. Our key innovations address critical gaps in existing systems: 1. An Comprehensive End-to-End Simulation Automation: Foam-Agent is the first system to manage the full simulation pipeline, including advanced pre-processing with a versatile Meshing Agent capable of handling external mesh files and generating new geometries via Gmsh, automatic generation of HPC submission scripts, and post-simulation visualization via ParaView. 2. Composable Service Architecture: Going beyond a monolithic agent, the framework uses Model Context Protocol (MCP) to expose its core functions as discrete, callable tools. This allows for flexible integration and use by other agentic systems, such as Claude-code, for more exploratory workflows. 3. High-Fidelity Configuration Generation: We achieve superior accuracy through a Hierarchical Multi-Index RAG for precise context ...",
+      "authors": [
+        "Ling Yue",
+        "Nithin Somasekharan",
+        "Zhang, Tingwen",
+        "Yadi Cao",
+        "Shaowu Pan"
+      ]
+    },
+    {
+      "title": "MD-PNOP: Equation-Recast Neural Operators for Minimal-Data Extrapolation and PDE Solver Acceleration",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.48550/arxiv.2509.01416",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.01416",
+      "concepts": [
+        "Artificial neural network",
+        "Operator (biology)",
+        "Solver",
+        "Parametric statistics",
+        "Computer science",
+        "Applied mathematics",
+        "Extrapolation",
+        "Residual"
+      ],
+      "abstract": "The computational overhead of traditional numerical solvers for partial differential equations (PDEs) remains a critical bottleneck for large-scale parametric studies and design optimization. We introduce a Minimal-Data Parametric Neural Operator Preconditioning (MD-PNOP) framework, which establishes a new strategy for accelerating parametric PDE solvers while strictly preserving physical constraints. To address the extrapolation limitation of neural operators, parameter-induced operator difference is recast as additional source terms and incorporated into an iterative solution scheme using a pretrained neural operator. This equation-recast formulation enables systematic parameter extrapolation from a single training configuration to a broad range of unseen parameter settings without retraining. The neural operator predictions are then embedded into iterative PDE solvers as improved initial guesses, thereby reducing convergence iterations without sacrificing accuracy. Unlike purely data-driven approaches, MD-PNOP guarantees that the governing equations remain fully enforced, eliminating concerns regarding loss of physics or interpretability. The framework is architecture-agnosti...",
+      "authors": [
+        "Qiyun Cheng",
+        "Md. Hossain Sahadath",
+        "Huihua Yang",
+        "Shaowu Pan",
+        "Wei Ji"
+      ]
+    },
+    {
+      "title": "Learning Noise-Robust Stable Koopman Operator for Control With Hankel DMD",
+      "publication_year": 2025,
+      "publication_date": "2025-08-26",
+      "doi": "https://doi.org/10.1109/tcst.2025.3600710",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Operator (biology)",
+        "Noise (video)",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Computer science",
+        "Mathematics",
+        "Artificial intelligence",
+        "Transcription factor"
+      ],
+      "abstract": "We propose a noise-robust learning framework for the Koopman operator of nonlinear dynamical systems, with guaranteed long-term stability and improved model performance for better model-based predictive control tasks. Unlike some existing approaches that rely on ad hoc observables or black-box neural networks in extended dynamic mode decomposition (EDMD), our framework leverages observables generated by the system dynamics, when the system dynamics is known, through a Hankel matrix, which shares similarities with discrete Polyflow. When system dynamics is unknown, we approximate them with a neural network while maintaining structural similarities to discrete Polyflow. To enhance noise robustness and ensure long-term stability, we developed a stable parameterization of the Koopman operator, along with a progressive learning strategy for rollout loss. To further improve the performance of the model in the phase space, a simple iterative data augmentation strategy was developed. Numerical experiments of prediction and control of classic nonlinear systems with ablation study showed the effectiveness of the proposed techniques over several state-of-the-art practices.",
+      "authors": [
+        "Shahriar Akbar Sakib",
+        "Shaowu Pan"
+      ]
+    },
+    {
+      "title": "Beyond the Kolmogorov barrier: a learnable weighted hybrid autoencoder for model order reduction",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1098/rspa.2025.0159",
+      "venue": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Autoencoder",
+        "Reduction (mathematics)",
+        "Order (exchange)",
+        "Mathematics",
+        "Dimensional reduction",
+        "Applied mathematics",
+        "Algorithm",
+        "Computer science"
+      ],
+      "abstract": "Representation learning for high-dimensional, complex physical systems aims to identify a low-dimensional intrinsic latent space, which is crucial for reduced-order modelling and modal analysis. To overcome the well-known Kolmogorov barrier, deep autoencoders (AEs) have been introduced in recent years, but they often suffer from poor convergence behaviour as the rank of the latent space increases. To address this issue, we propose the learnable weighted hybrid AE , a hybrid approach that combines the strengths of singular value decomposition (SVD) with deep AEs through a learnable weighted framework. We find that the introduction of learnable weighting parameters is essential—without them, the resulting model would either collapse into a standard proper orthogonal decomposition or fail to exhibit the desired convergence behaviour. Interestingly, we empirically find that our trained model has a sharpness thousands of times smaller compared to other models, which in turn enhances its robustness to input noise. Our experiments on classical chaotic PDE systems, including the one-dimensional Kuramoto–Sivashinsky and forced isotropic turbulence datasets, demonstrate that our approach ...",
+      "authors": [
+        "Nithin Somasekharan",
+        "Shaowu Pan"
+      ]
+    }
+  ]
+}

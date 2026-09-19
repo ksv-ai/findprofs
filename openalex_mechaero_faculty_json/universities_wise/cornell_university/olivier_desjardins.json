@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Olivier Desjardins",
+  "full_name": "Olivier Desjardins",
+  "department": "Sibley School of Mechanical and Aerospace Engineering / Center for Applied Mathematics",
+  "university": "Cornell University",
+  "author_id": "A5072530647",
+  "works_count": 231,
+  "cited_by_count": 4876,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 84
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 82
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 39
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 36
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 27
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "High order conservative finite difference scheme for variable density low Mach number turbulent flows",
+      "publication_year": 2008,
+      "publication_date": "2008-03-29",
+      "doi": "https://doi.org/10.1016/j.jcp.2008.03.027",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 626,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conservation of mass",
+        "Turbulence",
+        "Large eddy simulation",
+        "Mathematics",
+        "Finite difference",
+        "Direct numerical simulation",
+        "Order of accuracy",
+        "Cartesian coordinate system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Olivier Desjardins",
+        "Guillaume Blanquart",
+        "Guillaume Balarac",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "An Euler–Lagrange strategy for simulating particle-laden flows",
+      "publication_year": 2012,
+      "publication_date": "2012-12-28",
+      "doi": "https://doi.org/10.1016/j.jcp.2012.12.015",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 542,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Eulerian path",
+        "Work (physics)",
+        "Mechanics",
+        "Euler equations",
+        "Particle (ecology)",
+        "Lagrangian",
+        "Coupling (piping)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jesse Capecelatro",
+        "Olivier Desjardins"
+      ]
+    },
+    {
+      "title": "An accurate conservative level set/ghost fluid method for simulating turbulent atomization",
+      "publication_year": 2008,
+      "publication_date": "2008-06-13",
+      "doi": "https://doi.org/10.1016/j.jcp.2008.05.027",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 412,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Level set method",
+        "Robustness (evolution)",
+        "Solver",
+        "Initialization",
+        "Level set (data structures)",
+        "Applied mathematics",
+        "Order of accuracy",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Olivier Desjardins",
+        "Vincent Moureau",
+        "Heinz Pitsch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Simulation Strategies for Compressible Multiphase Flows Using a Conservative Discretization Scheme",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0732",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Robustness (evolution)",
+        "Solver",
+        "Dissipation",
+        "Applied mathematics",
+        "Compressibility",
+        "Computer science",
+        "Temporal discretization"
+      ],
+      "abstract": "A dissipation-free, sharp-interface discretization strategy is presented for the accurate simulation of complex compressible multiphase flows, such as shock-droplet interaction. The approach employs a hybrid scheme where either a centered or WENO3 discretization in the bulk phases, time-integrated with a fourth-order Runge–Kutta method, is coupled at phasic interfaces to a semi-Lagrangian geometric volume-of-fluid method that transports discontinuous phasic quantities with second-order accuracy. The hybridization is both spatial and temporal, and it preserves the dissipation-free property across interfaces. Localized dissipation is introduced only where temporal errors become significant, improving robustness in challenging configurations. By minimizing numerical dissipation, the solver reveals the need for subgrid-scale models for under-resolved turbulence, shocks, and breakup—providing a platform for their development and evaluation. Simulations of shock impact on a liquid droplet at high Reynolds and Weber numbers demonstrate accuracy and robustness in multiphase environments relevant to hypersonic flows.",
+      "authors": [
+        "C.S.B. Lee",
+        "Olivier Desjardins"
+      ]
+    },
+    {
+      "title": "High-Speed Shock/Droplet Aerobreakup Using a Sharp Interface Method",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1550",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Mach number",
+        "Mechanics",
+        "Focus (optics)",
+        "Hypersonic speed",
+        "Shock (circulatory)",
+        "Displacement (psychology)",
+        "Work (physics)"
+      ],
+      "abstract": "High-speed droplet aerobreakup has been the focus of numerous experimental and numerical investigations due to its application in hypersonic aircraft development. This paper presents a preliminary mesh convergence study for fully 3D droplet aerobreakup simulations behind a steady normal shock of Mach numbers 5.12 and 3.03 using the open-source multiphase compressible flow solver from the NGA2 CFD framework (https://github.com/desjardi/NGA2). Primary droplet mass and displacement from simulation data is compared to previously published experimental and numerical results as well as previously developed empirical models. This work starts preliminary verification activities and provides the foundation for future work using the NGA2 solver to study the droplet aerobreakup problem.",
+      "authors": [
+        "Andrew J. Sayad",
+        "Jason Rabinovitch",
+        "C.S.B. Lee",
+        "Olivier Desjardins"
+      ]
+    },
+    {
+      "title": "A sharp computational method for simulating multiphase viscoelastic flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "https://doi.org/10.1016/j.jnnfm.2025.105559",
+      "venue": "Journal of Non-Newtonian Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Viscoelasticity",
+        "Mechanics",
+        "Isotropy",
+        "Cauchy stress tensor",
+        "Viscous stress tensor",
+        "Discontinuity (linguistics)",
+        "Elasticity (physics)",
+        "Advection"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joseph Vincent Giliberto",
+        "Olivier Desjardins"
+      ]
+    },
+    {
+      "title": "A Comprehensive Numerical Model of Thrombus Embolization: Fluid-Thrombus Interactions Through a Coupled Computational Fluid Dynamics - Peridynamics Framework",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6366378",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6366378",
+      "concepts": [
+        "Peridynamics",
+        "Multiphysics",
+        "Discretization",
+        "Thrombus",
+        "Computer science",
+        "Finite element method",
+        "Fluid dynamics",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "A. Karmakar",
+        "G. W. Burgreen",
+        "Olivier Desjardins",
+        "James F. Antaki"
+      ]
+    },
+    {
+      "title": "Towards a Model of Thrombus Embolization: Structural Response and Failure of Blood Clots Through Peridynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-11-01",
+      "doi": "https://doi.org/10.1002/cnm.70118",
+      "venue": "International Journal for Numerical Methods in Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Peridynamics",
+        "Materials science",
+        "Finite element method",
+        "Ultimate tensile strength",
+        "Fracture (geology)",
+        "Tensile testing",
+        "Thrombus",
+        "Structural engineering"
+      ],
+      "abstract": "Despite the high mortality rates associated with thromboembolic diseases, computational modeling of the physics of thromboembolism remains underdeveloped in the literature due to the inadequacy of classical finite element methods to accommodate the growth, large deformation, and fracture of blood clots, especially under the influence of fluid dynamic forces. Accordingly, we present a meshless numerical framework, employing peridynamics (PD) that readily captures the constitutive response, damage progression, and eventual failure of a blood clot. The PD framework was validated against three benchmark test cases: tensile loading of a plate with a hole, torsional loading of a column, and tensile loading of thin structural plates both with and without notches. Comparative quantitative and qualitative analysis demonstrated excellent agreement with finite element solutions generated using the commercial software ANSYS. The validated framework was then used to calibrate the peridynamic parameters to accurately reproduce the mechanical response, the cohesive bulk fracture of blood clots under tensile loading, and the debonding of blood clots from artificial surfaces, including titanium ...",
+      "authors": [
+        "A. Karmakar",
+        "Greg W. Burgreen",
+        "Olivier Desjardins",
+        "James F. Antaki"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Huixuan Wu",
+  "full_name": "Huixuan Wu",
+  "department": "Department of Mechanical Engineering",
+  "university": "Florida State University",
+  "author_id": "A5082917656",
+  "works_count": 61,
+  "cited_by_count": 878,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 13
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 12
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 8
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 5
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Measurements of the tip leakage vortex structures and turbulence in the meridional plane of an axial water-jet pump",
+      "publication_year": 2010,
+      "publication_date": "2010-09-23",
+      "doi": "https://doi.org/10.1007/s00348-010-0975-0",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 170,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle image velocimetry",
+        "Mechanics",
+        "Vortex",
+        "Turbulence",
+        "Vorticity",
+        "Optics",
+        "Vortex ring",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Huixuan Wu",
+        "Rinaldo L. Miorini",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "The Internal Structure of the Tip Leakage Vortex Within the Rotor of an Axial Waterjet Pump",
+      "publication_year": 2011,
+      "publication_date": "2011-07-15",
+      "doi": "https://doi.org/10.1115/1.4003065",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 136,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Vortex",
+        "Particle image velocimetry",
+        "Turbulence",
+        "Physics",
+        "Turbulence kinetic energy",
+        "Horseshoe vortex",
+        "Boundary layer"
+      ],
+      "abstract": "The complex flow field in the tip region of a turbomachine rotor, including the tip leakage flow and tip leakage vortex (TLV), has been studied for decades. Yet many associated phenomena are still not understood. This paper provides detailed data on the instantaneous and phase-averaged inner structures of the tip flow and evolution of the TLV. Observations are based on series of high resolution planar particle image velocimetry measurements performed in a transparent waterjet pump fitted into an optical refractive index-matched test facility. Velocity distributions and turbulence statistics are obtained in several meridional planes inside the rotor. We observe that the instantaneous TLV structure is composed of unsteady vortex filaments that propagate into the tip region of the blade passage. These filaments are first embedded into a vortex sheet, which is generated at the suction side of the blade tip, and then they wrap around each other and roll up into the TLV. We also find that the leakage vortex induces flow separation at the casing endwall and entrains the casing boundary layer with its counter-rotating vorticity. As it propagates in the rotor passage, the TLV migrates to...",
+      "authors": [
+        "Rinaldo L. Miorini",
+        "Huixuan Wu",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "Three-dimensional flow structures and associated turbulence in the tip region of a waterjet pump rotor blade",
+      "publication_year": 2011,
+      "publication_date": "2011-08-31",
+      "doi": "https://doi.org/10.1007/s00348-011-1189-9",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 123,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Particle image velocimetry",
+        "Vortex",
+        "Vorticity",
+        "Turbulence",
+        "Physics",
+        "Optics",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Huixuan Wu",
+        "David Tan",
+        "Rinaldo L. Miorini",
+        "Joseph Katz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Sensing and Estimation of Fire-Induced Wind Field Using Small UAS",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2286",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Acceleration",
+        "Environmental science",
+        "Wind speed",
+        "Meteorology",
+        "Waypoint",
+        "Range (aeronautics)",
+        "Kalman filter"
+      ],
+      "abstract": "Wildland fire may greatly affect the nearby and surrounding wind fields, by creating strong inflows, updrafts, downdrafts, and vortices. It may create challenging operating conditions for manned and unmanned aircraft. This paper presents a method to sense and estimate fire-induced wind fields using small fixed-wing UAS equipped with standard avionics, including a conventional pitot-tube. A novel model-aided extended Kalman filter (EKF) is developed to simultaneously estimate the air-relative velocity components, 3D wind velocities, and corresponding wind accelerations along the flight trajectory using onboard sensor measurements and the UAS dynamic model. The estimated wind velocity and acceleration can be used to identify gust parameters (e.g., updraft velocity, gust period, horizontal wind shear), characterize plume structure, and support data-driven modeling of fire-generated updrafts and downdrafts. The performance of the estimation filter is first validated using simulation data over one-minus-cosine type updraft field. The filter is then further validated using a prescribed fire dataset where a KHawk Zephyr3 UAS was flown near and through fire-generated plumes at an altitu...",
+      "authors": [
+        "Mosarruf H. Shawon",
+        "Matthew B. Rhudy",
+        "Justin Matt",
+        "Huixuan Wu",
+        "Haiyang Chao"
+      ]
+    },
+    {
+      "title": "A topology-based method for assessing the complexity and unpredictability of unsteady flows",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1063/5.0293673",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Laminar flow",
+        "Entropy (arrow of time)",
+        "Statistical physics",
+        "Vorticity",
+        "Flow (mathematics)",
+        "Vortex",
+        "Predictability"
+      ],
+      "abstract": "While unsteady flows are widely recognized to be complex, the precise definition of their complexity remains elusive. A complex flow may contain numerous interacting structures at different scales, with highly unpredictable dynamic behavior. Therefore, some studies have described flow complexity from a multi-scale interaction perspective. However, limited effort has been made to evaluate the degree of complexity of a flow. This paper addresses this issue using a new information theory-based framework. A separated laminar boundary layer is used as an exemplary flow to test the new complexity measurement method. The flow evolution is divided into pseudo-periods, with the vorticity in each period characterized by its topological features. These topological classifications are then symbolized based on their homological group. The resulting symbol sequence allows for the evaluation of unpredictability and complexity using the well-established excess entropy method. Along the streamwise direction, the flow's unpredictability shows a rapid increase near the transition point. Downstream, the unpredictability gradually saturates. The spatial meandering of vortices and temporal unpredicta...",
+      "authors": [
+        "Burak Ahmet Tuna",
+        "Huixuan Wu",
+        "Jackson Torok",
+        "Xingtian Tao",
+        "Zhongquan Charlie Zheng"
+      ]
+    },
+    {
+      "title": "Integrated Model for Early Gastric Cancer Prediction: Integration of Radiographic Images and Clinical Automated Measurements",
+      "publication_year": 2025,
+      "publication_date": "2025-07-28",
+      "doi": "https://doi.org/10.23919/ccc64809.2025.11178383",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial intelligence",
+        "Medicine",
+        "Classifier (UML)",
+        "Radiography",
+        "Cancer",
+        "Feature (linguistics)",
+        "Deep learning",
+        "Medical imaging"
+      ],
+      "abstract": "Early gastric cancer screening is essential to improve the survival rate of gastric cancer patients. Artificial intelligence technologies such as deep learning can identify key features of images and assist doctors in making diagnostic decisions, but there is little technology to integrate automatically generated clinical measurements into images in early gastric cancer testing. Therefore, we create a combined model that can perform multimodal fusion of clinical measurement data with CNN, including: 1. a random forest classifier is applied to select the most relevant features of the clinical measurement data automatically generated by radiographic images, and 2. the feature layer fusion method is proposed to integrate with the CNN fully connected layer after dimensionality reduction, which solves the problem of few automatic use of measurement data. In our research project, the diagnostic performance of the model is investigated by 1187 gastric radiographic images of subjects at risk of cancer. The results show that the performance of the model is comparable to that of expert prediction, and better than that of the state-of-the-art methods. Moreover, the model can provide an equ...",
+      "authors": [
+        "Yanze Du",
+        "Jianning Chi",
+        "Yiming Meng",
+        "Huixuan Wu",
+        "Zelan Li",
+        "Yuehua Gong"
+      ]
+    },
+    {
+      "title": "A Multi-Modal, Multi-Task Thyroid Ultrasound Imaging Dataset for Computer-Aided Thyroid Nodule Diagnosis",
+      "publication_year": 2025,
+      "publication_date": "2025-05-16",
+      "doi": "https://doi.org/10.1109/ccdc65474.2025.11090785",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nodule (geology)",
+        "Thyroid",
+        "Computer science",
+        "Thyroid nodules",
+        "Modal",
+        "Ultrasound",
+        "Ultrasound imaging",
+        "Radiology"
+      ],
+      "abstract": "The incidence of thyroid cancer has significantly increased over the past decade, and accurately identifying malignant thyroid nodules is crucial for early diagnosis and treatment. With the rapid development of deep learning algorithms, the diagnosis of benign and malignant thyroid nodules, as well as the detection and segmentation of lesions, has become more efficient. However, data-driven medical image deep learning algorithms still face challenges such as annotation difficulties, limited datasets, and the use of single-modal data. To address these issues, this paper presents a multi-modal, multi-task computer-aided diagnosis dataset named SHUS-CEUS specifically designed for thyroid disease research. The dataset integrates ultrasound sequence images with corresponding contrast-enhanced ultrasound videos, combining multi-modal information. It also includes benign/malignant classification labels and nodule segmentation annotations made by experienced clinicians, supporting both nodule classification and segmentation tasks. We conducted studies on thyroid nodule segmentation tasks, benign/malignant diagnostic tasks, and pre-training transfer learning based on this dataset. Extens...",
+      "authors": [
+        "Zelan Li",
+        "Jianning Chi",
+        "Lin Geng",
+        "Huixuan Wu",
+        "Jiahui Chen",
+        "Ying Huang"
+      ]
+    },
+    {
+      "title": "Beyond Point Annotation: A Weakly Supervised Network Guided by Multi-Level Labels Generated from Four-Point Annotation for Thyroid Nodule Segmentation in Ultrasound Image",
+      "publication_year": 2025,
+      "publication_date": "2025-03-12",
+      "doi": "https://doi.org/10.1109/icassp49660.2025.10890821",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Annotation",
+        "Nodule (geology)",
+        "Artificial intelligence",
+        "Computer science",
+        "Segmentation",
+        "Point (geometry)",
+        "Image segmentation",
+        "Image retrieval"
+      ],
+      "abstract": "Weakly supervised methods typically guided the pixel-wise training by comparing the predictions to single-level labels containing diverse segmentation-related information at once, but struggled to represent subtle feature differences between nodule and background regions and confused incorrect information, resulting in under-fitting or over-fitting in the segmentation predictions. This work proposes a weakly supervised network that generates multi-level labels from four-point annotation to refine diverse constraints for delicate nodule segmentation. The Distance-Similarity Fusion Prior referring to the points annotations filters out information irrelevant to nodules. The bounding box and pure foreground/background labels, generated from the point annotation, guarantee the rationality of the prediction in the arrangement of target localization and the spatial distribution of target/background regions, respectively. Our proposed network outperforms existing weakly supervised methods on two public datasets with respect to accuracy and robustness, improving the applicability of deep-learning-based segmentation in the clinical practice of thyroid nodule diagnosis.",
+      "authors": [
+        "Jianning Chi",
+        "Zelan Li",
+        "Huixuan Wu",
+        "Wenjun Zhang",
+        "Ying Huang"
+      ]
+    }
+  ]
+}

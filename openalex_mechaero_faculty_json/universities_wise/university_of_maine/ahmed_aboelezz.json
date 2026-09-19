@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Ahmed Aboelezz",
+  "full_name": "Ahmed Aboelezz",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Maine",
+  "author_id": "A5016522890",
+  "works_count": 42,
+  "cited_by_count": 224,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 12
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 7
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 6
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 5
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Low Speed Wind Tunnel Design and Optimization Using Computational Techniques and Experimental Validation",
+      "publication_year": 2019,
+      "publication_date": "2019-06-11",
+      "doi": "https://doi.org/10.13111/2066-8201.2019.11.2.1",
+      "venue": "INCAS BULLETIN",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.13111/2066-8201.2019.11.2.1",
+      "concepts": [
+        "Wind tunnel",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Hypersonic wind tunnel",
+        "Fluent",
+        "Wind speed",
+        "Marine engineering",
+        "Supersonic wind tunnel"
+      ],
+      "abstract": "Generally, the experimental aerodynamics is related to wind tunnel experiments. The wind tunnel design topic is very old but the development in computational fluid dynamics led to improvement in the wind tunnel design. This paper describes the design and optimization of low speed wind tunnel using CFD techniques. The new optimum wind tunnel will replace the old one featuring poor air quality and small area with lower wind speed at the test section. A computational domain was generated and adopted using ANSYS mesh generator and the solution domain was analysed by simulation technique using FLUENT CFD code in ANSYS Workbench package. The pressure drop calculations comparison between analytical, computational and experimental is included for different sections in the wind tunnel. The contraction cone was optimized using the response surface technique. The results identified that the pressure drop and turbulence level are modified as compared to the old wind tunnel.",
+      "authors": [
+        "Ahmed Aboelezz"
+      ]
+    },
+    {
+      "title": "Design, experimental investigation, and nonlinear flight dynamics with atmospheric disturbances of a fixed-wing micro air vehicle",
+      "publication_year": 2019,
+      "publication_date": "2019-12-16",
+      "doi": "https://doi.org/10.1016/j.ast.2019.105636",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Flight dynamics",
+        "Micro air vehicle",
+        "Wind tunnel",
+        "Aerospace engineering",
+        "Nonlinear system",
+        "Flight test",
+        "Control theory (sociology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ahmed Aboelezz",
+        "Mostafa Hassanalian",
+        "Ahmed Desoki",
+        "Basman Elhadidi",
+        "Gamal El-Bayoumi"
+      ]
+    },
+    {
+      "title": "WIND TUNNEL CALIBRATION, CORRECTIONS AND EXPERIMENTAL VALIDATION FOR FIXED-WING MICRO AIR VEHICLES MEASUREMENTS",
+      "publication_year": 2020,
+      "publication_date": "2020-02-17",
+      "doi": "https://doi.org/10.3846/aviation.2019.11975",
+      "venue": "Aviation",
+      "type": "article",
+      "cited_by_count": 19,
+      "is_oa": true,
+      "oa_url": "https://journals.vgtu.lt/index.php/Aviation/article/download/11975/9699",
+      "concepts": [
+        "Wind tunnel",
+        "Airspeed",
+        "Aerodynamics",
+        "Turbulence",
+        "Calibration",
+        "Anemometer",
+        "Reynolds number",
+        "Angle of attack"
+      ],
+      "abstract": "The increase in the number of Unmanned Aerial Vehicles (UAVs) and Micro Air Vehicles (MAVs), which are used in a variety of applications has led to a surge in low Reynolds number aerodynamics research. Flow around fixedwing MAVs has an unusual behavior due to its low aspect ratio and operates at low Reynolds number, which demanded to upgrade the used wind tunnel for this study. This upgrade enables measuring the small aerodynamics forces and moment of fixed-wing MAVs. The wind tunnel used in this work is upgraded with a state of art data acquisition system to deal with the different sensors signals in the wind tunnel. For accurate measurements, the sting balance, angle sensor, and airspeed sensor are calibrated. For validation purposes, an experiment is made on a low aspect ratio flat plate wing at low Reynolds number, and the measured data are corrected and compared with published results. The procedure presented in this paper for the first time gave a detailed and complete guide for upgrading and calibrating old wind tunnel, all the required corrections to correct the measured data was presented, the turbulence level correction new technique presented in this paper could be us...",
+      "authors": [
+        "Ahmed Aboelezz",
+        "Yunes Elqudsi",
+        "Mostafa Hassanalian",
+        "Ahmed Desoki"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Sparse-Data Reconstruction of Bladeless Fan Downstream Flow Using Navier-Stokes Physics-Informed Neural Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4657",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Flow (mathematics)",
+        "Downstream (manufacturing)",
+        "Artificial intelligence",
+        "Control engineering",
+        "Real-time computing",
+        "Engineering"
+      ],
+      "abstract": "This work reconstructs the steady three-dimensional downstream flow of a bladeless fan from sparse experimental measurements using a Navier-Stokes physics-informed neural network (PINN). Velocity components were measured with a robotic 7-hole Pitot probe on three downstream planes labeled D0, D1, and D2. The full D0 and D2 planes and the outer ring of D1 are imposed as boundary-condition measurements, whereas the interior points of D1 provide sparse interior supervision. A continuous neural representation of (u,v,w,p) is trained jointly with incompressible continuity and momentum residuals evaluated at collocation points distributed throughout the downstream volume. A structured depth-width architecture study, performed on an H100 cloud GPU provided through Google Colab, is used to select the final network. Among nine candidate architectures, the depth-8, width-64 network provides the best overall reconstruction accuracy and is used for the final downstream field reconstruction. The resulting PINN captures the dominant downstream flow topology and provides a practical route for dense volumetric reconstruction from sparse probe data without Computational Fluid Dynamics (CFD) supe...",
+      "authors": [
+        "Yousef A. Meligy",
+        "Ahmed Aboelezz"
+      ]
+    },
+    {
+      "title": "CFD-Based Shape Optimization of a Bladeless Drone Thruster Using Gaussian Process Surrogate Modeling With Experimental Validation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1901",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thrust",
+        "Propulsion",
+        "Surrogate model",
+        "Control theory (sociology)",
+        "Computer science",
+        "Kriging",
+        "Computational fluid dynamics",
+        "Adaptive sampling"
+      ],
+      "abstract": "Traditional exposed rotor designs for aerial propulsion systems pose significant safety risks and noise pollution challenges. Bladeless thrusters offer a promising alternative by leveraging air induction and entrainment to generate thrust. However, shape optimization of complex geometries using high-fidelity Computational Fluid Dynamics (CFD) simulations is often computationally prohibitive. This study presents a unified shape optimization framework for bladeless drone thrusters that couples ANSYS CFD simulations with a Gaussian Process (GP) surrogate model and a sequential adaptive sampling strategy. To ensure physical accuracy, a momentum-theory-based thrust equation was derived and validated against experimental data obtained from a thrust stand and a dedicated test rig equipped with a 7-hole pitot tube for detailed flow measurements. The optimization framework was applied to the thruster's angle of attack (AoA) and hydraulic radius (r_h). The optimal configuration (r_h = 0.05 m, AoA = -1.48 deg) was successfully identified, yielding a maximum thrust of 11.22 N. By balancing exploration and exploitation, the adaptive sampling strategy achieved these results in 307 minutes, re...",
+      "authors": [
+        "Ata Turgut",
+        "Josiah Bloom",
+        "Vikas Dhiman",
+        "Ahmed Aboelezz"
+      ]
+    },
+    {
+      "title": "Design and Characterization of a Modular Wind Wall for VTOL and Fixed Wing UAV Testing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2305",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modular design",
+        "Aerodynamics",
+        "Wind tunnel",
+        "Marine engineering",
+        "Aerospace engineering",
+        "Duct (anatomy)",
+        "Turbulence",
+        "Flight test"
+      ],
+      "abstract": "Outdoor flight testing for VTOL and fixed-wing UAVs is often unpredictable due to weather and wind conditions. However, a low-speed wind tunnel offers more control but incurs higher costs for larger test areas. By developing a modular wind wall, repeatable and controlled wind profiles can be produced. The wind wall consists of modular wind-generating units that can be stacked vertically and horizontally. By generating variable wind conditions that closely resemble real-world flight environments, UAV flight tests can be accurately simulated, providing valuable insights into their aerodynamic performance and flight stability. To evaluate the flow of the wind wall, several design parameters are analyzed within a single duct test module. These parameters include honeycomb meshes with varying cell widths, different distances between the motor and meshes, propeller configurations, and duct geometry. By measuring numerous duct configurations, turbulence intensity and flow uniformity are assessed. This testing aims to maintain turbulence intensity below 5%. A digital seven-hole probe system, mounted on an X/Y linear traverse, is used to measure the velocity and flow angularity at the ex...",
+      "authors": [
+        "Dylan Freeman",
+        "Ahmed Aboelezz"
+      ]
+    },
+    {
+      "title": "Studies on V-Formation and Echelon Flight Utilizing Flapping-Wing Drones",
+      "publication_year": 2024,
+      "publication_date": "2024-08-15",
+      "doi": "https://doi.org/10.3390/drones8080395",
+      "venue": "Drones",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2504-446X/8/8/395/pdf?version=1723707673",
+      "concepts": [
+        "Flapping",
+        "Aerodynamics",
+        "Wing",
+        "Aerospace engineering",
+        "Bird flight",
+        "Solver",
+        "Drone",
+        "Vortex"
+      ],
+      "abstract": "V-Formation and echelon formation flights can be seen used by migratory birds throughout the year and have left many scientists wondering why they choose very specific formations. Experiments and analytical studies have been completed on the topic of the formation flight of birds and have shown that migratory birds benefit aerodynamically by using these formations. However, many of these studies were completed using fixed-wing models, while migratory birds both flap and glide while in formation. This paper reports the design of and experiments with a flapping-wing model rather than only a fixed-wing model. In order to complete this study, two different approaches were used to generate a flapping-wing model. The first was a computational study using an unsteady vortex–lattice (UVLM) solver to simulate flapping bodies. The second was an experimental design using both custom-built flapping mechanisms and commercially bought flapping drones. The computations and various experimental trials confirmed that there is an aerodynamic benefit from flying in either V-formation or echelon flight while flapping. It is shown that each row of birds experiences an increase in aerodynamic perform...",
+      "authors": [
+        "Joseph Martinez-Ponce",
+        "Brenden Herkenhoff",
+        "Ahmed Aboelezz",
+        "Cameron Urban",
+        "Sophie F. Armanini",
+        "Élie Raphaël",
+        "Mostafa Hassanalian"
+      ]
+    },
+    {
+      "title": "Comprehensive design and performance validation of a wind tunnel for advanced respirable dust deposition investigations",
+      "publication_year": 2024,
+      "publication_date": "2024-08-13",
+      "doi": "https://doi.org/10.1016/j.jhazmat.2024.135516",
+      "venue": "Journal of Hazardous Materials",
+      "type": "article",
+      "cited_by_count": 19,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind tunnel",
+        "Anemometer",
+        "Engineering",
+        "Deposition (geology)",
+        "Coal mining",
+        "Airflow",
+        "Wind speed",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ahmed Aboelezz",
+        "Maria Beltran",
+        "Michael Hargather",
+        "Mostafa Hassanalian",
+        "Pedram Roghanchi"
+      ]
+    }
+  ]
+}

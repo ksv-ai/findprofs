@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Tansel Yucelen",
+  "full_name": "Tansel Yucelen",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of South Florida",
+  "author_id": "A5004807234",
+  "works_count": 410,
+  "cited_by_count": 4865,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 214
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 142
+    },
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 126
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 123
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 92
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Decentralized Consensus Control of a Rigid-Body Spacecraft Formation with Communication Delay",
+      "publication_year": 2016,
+      "publication_date": "2016-03-15",
+      "doi": "https://doi.org/10.2514/1.g001396",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": true,
+      "oa_url": "https://repository.arizona.edu/bitstream/10150/615096/1/NaBuYuSa16JGCD.pdf",
+      "concepts": [
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Elliptic orbit",
+        "Circular orbit",
+        "Orbit (dynamics)",
+        "Rigid body",
+        "Differential (mechanical device)",
+        "Topology (electrical circuits)"
+      ],
+      "abstract": "The decentralized consensus control of a formation of rigid-body spacecraft is studied in the framework of geometric mechanics while accounting for a constant communication time delay between spacecraft. The relative position and attitude (relative pose) are represented on the Lie group SE(3) and the communication topology is modeled as a digraph. The consensus problem is converted into a local stabilization problem of the error dynamics associated with the Lie algebra in the form of linear time-invariant delay differential equations with a single discrete delay in the case of a circular orbit, whereas it is in the form of linear time-periodic delay differential equations in the case of an elliptic orbit, in which the stability may be assessed using infinite-dimensional Floquet theory. The proposed technique is applied to the consensus control of four spacecraft in the vicinity of a Molniya orbit.",
+      "authors": [
+        "Morad Nazari",
+        "Eric A. Butcher",
+        "Tansel Yucelen",
+        "Amit K. Sanyal"
+      ]
+    },
+    {
+      "title": "An Adaptive Control Architecture for Mitigating Sensor and Actuator Attacks in Cyber-Physical Systems",
+      "publication_year": 2017,
+      "publication_date": "2017-01-11",
+      "doi": "https://doi.org/10.1109/tac.2017.2652127",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 458,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cyber-physical system",
+        "Actuator",
+        "Computer science",
+        "Adaptive control",
+        "Computation",
+        "Architecture",
+        "Controller (irrigation)",
+        "Networked control system"
+      ],
+      "abstract": "Recent technological advances in communications and computation have spurred a broad interest in control law architectures involving the monitoring, coordination, integration, and operation of sensing, computing, and communication components that tightly interact with the physical processes that they control. These systems are known as cyber-physical systems and due to their use of open computation and communication platform architectures, controlled cyber-physical systems are vulnerable to adversarial attacks. In this technical note, we propose a novel adaptive control architecture for addressing security and safety in cyber-physical systems. Specifically, we develop an adaptive controller that guarantees uniform ultimate boundedness of the closed-loop dynamical system in the face of adversarial sensor and actuator attacks that are time-varying and partial asymptotic stability when the sensor and actuator attacks are time-invariant. Finally, we provide a numerical example to illustrate the efficacy of the proposed adaptive control architecture.",
+      "authors": [
+        "Xu Jin",
+        "Wassim M. Haddad",
+        "Tansel Yucelen"
+      ]
+    },
+    {
+      "title": "Concurrent learning adaptive control of linear systems with exponentially convergent bounds",
+      "publication_year": 2012,
+      "publication_date": "2012-05-11",
+      "doi": "https://doi.org/10.1002/acs.2297",
+      "venue": "International Journal of Adaptive Control and Signal Processing",
+      "type": "article",
+      "cited_by_count": 379,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Adaptive control",
+        "Exponential growth",
+        "Exponential stability",
+        "Tracking error",
+        "Computer science",
+        "Verifiable secret sharing",
+        "Adaptation (eye)"
+      ],
+      "abstract": "SUMMARY Concurrent learning adaptive controllers, which use recorded and current data concurrently for adaptation, are developed for model reference adaptive control of uncertain linear dynamical systems. We show that a verifiable condition on the linear independence of the recorded data is sufficient to guarantee global exponential stability. We use this fact to develop exponentially decaying bounds on the tracking error and weight error, and estimate upper bounds on the control signal. These results allow the development of adaptive controllers that ensure good tracking without relying on high adaptation gains, and can be designed to avoid actuator saturation. Simulations and hardware experiments show improved performance. Copyright © 2012 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Girish Chowdhary",
+        "Tansel Yucelen",
+        "M. Muhlegg",
+        "Eric N. Johnson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Runtime Assurance With Stability Regulation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-30",
+      "doi": "https://doi.org/10.1002/rnc.70640",
+      "venue": "International Journal of Robust and Nonlinear Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nondeterministic algorithm",
+        "Flexibility (engineering)",
+        "Control theory (sociology)",
+        "Exponential stability",
+        "Computer science",
+        "Trajectory",
+        "Stability (learning theory)",
+        "Dynamical systems theory"
+      ],
+      "abstract": "ABSTRACT Runtime assurance refers to a supervisory method in control of dynamical systems. In the existing literature, it is used to monitor the behavior of a dynamical system for potential failures or violations of predefined trajectory boundaries. Under nominal conditions, the use of a complex or nondeterministic control law is allowed, where this law is switched to a safe one when such violations are detected. In this paper, we introduce a novel runtime assurance approach that diverges from methods found in the existing literature. Specifically, a general runtime assurance with a stability regulation framework is proposed. A complex or nondeterministic control law is permitted to drive the dynamical system when a predefined stability metric is met, and otherwise, a safe control law, inherently satisfying this metric, takes over. The key feature of the proposed framework is its flexibility in selecting the stability metric, which can be based on Lyapunov stability, asymptotic stability, exponential stability, or boundedness of system trajectories. Illustrative numerical examples are also provided to demonstrate the efficacy of the proposed framework.",
+      "authors": [
+        "Deniz Kurtoglu",
+        "Tansel Yucelen",
+        "Dzung Tran",
+        "David Casbeer",
+        "Eloy Garcia"
+      ]
+    },
+    {
+      "title": "A Finite-Time Distributed Control Protocol for Multiagent Placement to Spatiotemporal Points",
+      "publication_year": 2026,
+      "publication_date": "2026-05-18",
+      "doi": "https://doi.org/10.1109/tcns.2026.3694563",
+      "venue": "IEEE Transactions on Control of Network Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Protocol (science)",
+        "Distributed computing",
+        "Control (management)",
+        "Multi-agent system",
+        "Computer network",
+        "Control system",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Deniz Kurtoglu",
+        "Tansel Yucelen",
+        "Dzung Tran",
+        "David Casbeer",
+        "Eloy Garcia"
+      ]
+    },
+    {
+      "title": "Gain-scheduled symbiotic control of uncertain dynamical systems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-16",
+      "doi": "https://doi.org/10.1080/00207721.2026.2658201",
+      "venue": "International Journal of Systems Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Dynamical systems theory",
+        "Computer science",
+        "Control (management)",
+        "Dynamical system (definition)",
+        "Control system",
+        "Mathematics",
+        "Linear dynamical system"
+      ],
+      "abstract": "The recently introduced symbiotic control framework unifies fixed-gain control and adaptive learning architectures to suppress the adverse effects of system uncertainties more predictably than adaptive learning alone, while removing the necessity for explicit uncertainty bounds knowledge required by fixed-gain control alone. Yet, its existing formulation applies only to linear dynamical systems subject to system uncertainties. To this end, the contribution of this paper is a new symbiotic control framework for uncertain nonlinear dynamical systems. Specifically, a gain-scheduled representation of such systems is considered to model the nonlinear behaviour for the considered operating conditions. A gain-scheduled symbiotic control approach is then presented to mitigate system uncertainties of nonparametric nature, which employs a family of controllers designed for different equilibrium points. The consideration of system uncertainties of parametric nature is also stated as a special case. In addition to our system-theoretical findings, an illustrative numerical example is given to demonstrate the efficacy of the proposed gain-scheduled symbiotic control framework.",
+      "authors": [
+        "Cristian Naranjo",
+        "Tansel Yucelen",
+        "Deniz Kurtoglu",
+        "John T. Hrynuk"
+      ]
+    },
+    {
+      "title": "Towards Autonomous Robotic Platforms for Servicing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1472",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robotics",
+        "Control engineering",
+        "Controller (irrigation)",
+        "Computer science",
+        "Artificial intelligence",
+        "Control system",
+        "Control (management)",
+        "Engineering"
+      ],
+      "abstract": "There is a need for innovative robotic servicing technologies to rapidly handle problems in systems, provide sustainability, significantly reduce overall costs, and increase resiliency. To achieve these goals, autonomous technologies in robotics are required, such as advanced estimation and high-performance learning-based controls, which are of interest for repetitive tasks and timely control response for single or sequential operations in short life cycles. Thus, ControlX develops a resilient and high-performance control system for robotic manipulators. These controllers are validated using Gazebo with ROS2 as the communication layer to the controller running in MATLAB.",
+      "authors": [
+        "Kadriye M. Dogan",
+        "Kyle J. Vernyi",
+        "Tansel Yucelen",
+        "Mehrdad Pakmehr"
+      ]
+    },
+    {
+      "title": "Experimental Results With the Symbiotic Control Framework on an Aerospace Platform",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1990",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerospace",
+        "Adaptive control",
+        "Control engineering",
+        "Control (management)",
+        "Computer science",
+        "Control system",
+        "Engineering",
+        "Stability (learning theory)"
+      ],
+      "abstract": "Fixed-gain control and adaptive learning architectures aim to mitigate the effects of uncertainties. In particular, fixed-gain control offers a more predictable closedloop system behavior, but requires the knowledge of uncertainty bounds. On the other hand, while adaptive learning does not necessarily require such knowledge, it can result in a less predictable closed-loop system behavior compared to the previous one. To this end, a novel symbiotic control framework has been recently introduced, which unifies fixed-gain control and adaptive learning architectures to suppress the adverse effects of system uncertainties more predictably than adaptive learning alone, offering the strength of both fixed-gain and adaptive architectures. The contribution of this paper is to provide an application of symbiotic control framework to an aerospace platform for the purpose of illustrating the stability and performance of this framework in an experiment that includes the presence of unmodeled uncertainties, making the system more difficult to control.",
+      "authors": [
+        "Cristian Naranjo",
+        "Tansel Yucelen",
+        "John Hrynuk"
+      ]
+    }
+  ]
+}

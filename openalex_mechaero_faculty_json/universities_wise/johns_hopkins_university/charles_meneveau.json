@@ -1,0 +1,305 @@
+{
+  "faculty_name": "Charles Meneveau",
+  "full_name": "Charles Meneveau",
+  "department": "Department of Mechanical Engineering",
+  "university": "Johns Hopkins University",
+  "author_id": "A5037572274",
+  "works_count": 602,
+  "cited_by_count": 26060,
+  "h_index": 76,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 331
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 238
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 126
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 99
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 88
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Scale-Invariance and Turbulence Models for Large-Eddy Simulation",
+      "publication_year": 2000,
+      "publication_date": "2000-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fluid.32.1.1",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 1392,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Large eddy simulation",
+        "Statistical physics",
+        "Direct numerical simulation",
+        "Scale model",
+        "Dynamic similarity",
+        "Scalar (mathematics)",
+        "Turbulence modeling"
+      ],
+      "abstract": "▪ Abstract Relationships between small and large scales of motion in turbulent flows are of much interest in large-eddy simulation of turbulence, in which small scales are not explicitly resolved and must be modeled. This paper reviews models that are based on scale-invariance properties of high-Reynolds-number turbulence in the inertial range. The review starts with the Smagorinsky model, but the focus is on dynamic and similarity subgrid models and on evaluating how well these models reproduce the true impact of the small scales on large-scale physics and how they perform in numerical simulations. Various criteria to evaluate the model performance are discussed, including the so-called a posteriori and a priori studies based on direct numerical simulation and experimental data. Issues are addressed mainly in the context of canonical, incompressible flows, but extensions to scalar-transport, compressible, and reacting flows are also mentioned. Other recent modeling approaches are briefly introduced.",
+      "authors": [
+        "Charles Meneveau",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "Grand challenges in the science of wind energy",
+      "publication_year": 2019,
+      "publication_date": "2019-10-10",
+      "doi": "https://doi.org/10.1126/science.aau2027",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 1272,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1571388",
+      "concepts": [
+        "Engineering physics",
+        "Environmental science",
+        "Energy (signal processing)",
+        "Physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "Harvested by advanced technical systems honed over decades of research and development, wind energy has become a mainstream energy resource. However, continued innovation is needed to realize the potential of wind to serve the global demand for clean energy. Here, we outline three interdependent, cross-disciplinary grand challenges underpinning this research endeavor. The first is the need for a deeper understanding of the physics of atmospheric flow in the critical zone of plant operation. The second involves science and engineering of the largest dynamic, rotating machines in the world. The third encompasses optimization and control of fleets of wind plants working synergistically within the electricity grid. Addressing these challenges could enable wind power to provide as much as half of our global electricity needs and perhaps beyond.",
+      "authors": [
+        "Paul Veers",
+        "Katherine Dykes",
+        "Eric Lantz",
+        "Stephan Barth",
+        "Carlo L. Bottasso",
+        "Ola Carlson",
+        "Andrew Clifton",
+        "Johney B. Green",
+        "Peter F. Green",
+        "Hannele Holttinen",
+        "Daniel Laird",
+        "Ville Lehtomäki",
+        "Julie K. Lundquist",
+        "James F. Manwell",
+        "Melinda Marquis",
+        "Charles Meneveau",
+        "Patrick Moriarty",
+        "Xabier Munduate",
+        "Michael Muskulus",
+        "Jonathan Naughton",
+        "Lucy Y. Pao",
+        "Joshua Paquette",
+        "Joachim Peinke",
+        "Amy Robertson",
+        "Javier Sanz Rodrigo",
+        "Anna Maria Sempreviva",
+        "J. Charles Smith",
+        "Aidan Tuohy",
+        "Ryan Wiser"
+      ]
+    },
+    {
+      "title": "A Lagrangian dynamic subgrid-scale model of turbulence",
+      "publication_year": 1996,
+      "publication_date": "1996-07-25",
+      "doi": "https://doi.org/10.1017/s0022112096007379",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1188,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Statistical physics",
+        "Turbulence",
+        "Turbulence modeling",
+        "Large eddy simulation",
+        "Homogeneity (statistics)",
+        "Direct numerical simulation",
+        "Autocorrelation",
+        "Mechanics"
+      ],
+      "abstract": "The dynamic model for large-eddy simulation of turbulence samples information from the resolved velocity field in order to optimize subgrid-scale model coefficients. When the method is used in conjunction with the Smagorinsky eddy-viscosity model, and the sampling process is formulated in a spatially local fashion, the resulting coefficient field is highly variable and contains a significant fraction of negative values. Negative eddy viscosity leads to computational instability and as a result the model is always augmented with a stabilization mechanism. In most applications the model is stabilized by averaging the relevant equations over directions of statistical homogeneity. While this approach is effective, and is consistent with the statistical basis underlying the eddy-viscosity model, it is not applicable to complex-geometry inhomogeneous flows. Existing local formulations, intended for inhomogeneous flows, are most commonly stabilized by artificially constraining the coefficient to be positive. In this paper we introduce a new dynamic model formulation, that combines advantages of the statistical and local approaches. We propose to accumulate the required averages over fl...",
+      "authors": [
+        "Charles Meneveau",
+        "Thomas Lund",
+        "W. Cabot"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "JHTDB-wind: a web-accessible large-eddy simulation database of a wind farm with virtual sensor querying",
+      "publication_year": 2025,
+      "publication_date": "2025-12-01",
+      "doi": "https://doi.org/10.5194/wes-10-2821-2025",
+      "venue": "Wind energy science",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/wes-10-2821-2025",
+      "concepts": [
+        "Python (programming language)",
+        "Database",
+        "Computer science",
+        "Turbine",
+        "MATLAB",
+        "Fortran",
+        "Aerodynamics",
+        "Data flow diagram"
+      ],
+      "abstract": "This paper introduces JHTDB-wind (https://turbulence.idies.jhu.edu/datasets/windfarms, last access: 11 November 2025), a publicly accessible database containing large-eddy simulation (LES) data from wind farms. Building on the framework of the Johns Hopkins Turbulence Database (JHTDB), which hosts direct numerical simulation (DNS) and some LES datasets of canonical turbulent flows, JHTDB-wind stores the 4D space–time history of the flow and provides users the ability to access and query the data via a web-based virtual sensor interface. The initial dataset comprises LES results from a large wind farm with 10×6 turbines, modeled using a filtered actuator line method, under conventionally neutral atmospheric conditions. These data comprise 1 h (hour) of flow field data (velocity, pressure, potential temperature deviation, subgrid-scale (SGS) eddy viscosity, and turbine forces, approximately 15 TB (terabytes) and wind turbine data – including both turbine-level operational quantities and blade-level aerodynamic quantities (approximately 1.3 TB) – stored in Zarr and Parquet formats, respectively. Data retrieval is facilitated by the giverny Python package, allowing remote users to q...",
+      "authors": [
+        "Xiaowei Zhu",
+        "Shuolin Xiao",
+        "Ghanesh Narasimhan",
+        "Luis A. Martínez‐Tossas",
+        "Michael Schnaubelt",
+        "Gerard Lemson",
+        "Hanxun Yao",
+        "Alexander S. Szalay",
+        "Dennice F. Gayme",
+        "Charles Meneveau"
+      ]
+    },
+    {
+      "title": "Open questions in atmospheric turbulence: A synthesis from the centenary workshop “100 years of turbulence: Innsbruck 1922 -2022”",
+      "publication_year": 2025,
+      "publication_date": "2025-11-19",
+      "doi": "https://doi.org/10.1016/j.jemets.2025.100022",
+      "venue": "Journal of the European Meteorological Society.",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jemets.2025.100022",
+      "concepts": [
+        "Salient",
+        "Meteorology",
+        "History",
+        "Engineering",
+        "Process (computing)",
+        "Library science",
+        "Operations research",
+        "Climate change"
+      ],
+      "abstract": "In this contribution, we summarize salient findings, discussion points, and community recommendations resulting from the workshop “100 Years of Turbulence: Innsbruck 1922 –2022”, held as a centenary celebration of the First meeting on “Hydro- and Aero-dynamics” that took place in Innsbruck in 1922. Participants from numerous countries and continents discussed the significant achievements and major remaining challenges related to atmospheric turbulence over different types of complex surfaces (inhomogeneous terrain, impact of orography, and large roughness elements such as trees or buildings), as well as stratified and non-stationary turbulence. For each of these contexts, directions for future research were proposed, recognizing that current numerical weather and climate models treat turbulence as an unresolved process at the grid-cell scale.",
+      "authors": [
+        "Ivana Stiperski",
+        "Mathias W. Rotach",
+        "Cedrick Ansorge",
+        "Alexander Baklanov",
+        "Danijel Belušić",
+        "Elie Bou‐Zeid",
+        "Christophe Brun",
+        "Andreas Christen",
+        "Nelson Luı́s Dias",
+        "Andreas Dörnbrack",
+        "Thomas Foken",
+        "Andrey A. Grachev",
+        "A.A.M. Holtslag",
+        "Mark Kelly",
+        "Petra Klein",
+        "Branko Kosović",
+        "Charles Meneveau",
+        "Luca Mortarini",
+        "Edward G. Patton",
+        "Gert‐Jan Steeneveld",
+        "Christoph Thomas",
+        "Silvia Trini Castelli",
+        "Dino Zardi"
+      ]
+    },
+    {
+      "title": "Wall-model response to departure from equilibrium in turbulent flows over rough surfaces",
+      "publication_year": 2025,
+      "publication_date": "2025-11-14",
+      "doi": "https://doi.org/10.1017/jfm.2025.10819",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31DFC47425BBE0B4CC8C0BD33823427D/S0022112025108197a.pdf/div-class-title-wall-model-response-to-departure-from-equilibrium-in-turbulent-flows-over-rough-surfaces-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Surface finish",
+        "Statistical physics",
+        "Acceleration",
+        "Boundary (topology)",
+        "Physics"
+      ],
+      "abstract": "Most turbulent boundary-layer flows in engineering and natural sciences are out of equilibrium. While direct numerical simulation and wall-resolved large-eddy simulation can accurately account for turbulence response under such conditions, lower-cost approaches like wall-modelled large-eddy simulation often assume equilibrium and struggle to reproduce non-equilibrium effects. The recent ‘Lagrangian relaxation-towards-equilibrium’ (LaRTE) wall model (Fowler et al. 2022 J. Fluid Mech. vol. 934, 137), formulated for smooth walls, applies equilibrium modelling only to the slow dynamics that are more likely to conform to the assumed flow state. In this work, we extend the LaRTE model to account for wall roughness (LaRTE-RW) and apply the new model to turbulent flow over heterogeneous roughness and in accelerating and decelerating flows over rough surfaces. We compare predictions from the new LaRTE-RW model with those from the standard log-law equilibrium wall model (EQWM) and with experimental data to elucidate the turbulence response mechanisms to non-equilibrium conditions. The extended model transitions seamlessly across smooth-wall and fully rough regimes and improves prediction ...",
+      "authors": [
+        "Teresa Salomone",
+        "Charles Meneveau",
+        "Giuliano De Stefano",
+        "Ugo Piomelli"
+      ]
+    },
+    {
+      "title": "Reply on RC2",
+      "publication_year": 2025,
+      "publication_date": "2025-09-23",
+      "doi": "https://doi.org/10.5194/wes-2025-124-ac2",
+      "venue": "",
+      "type": "peer-review",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/wes-2025-124-ac2",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Turbine",
+        "Fortran",
+        "Aerodynamics",
+        "Database",
+        "MATLAB",
+        "Data flow diagram"
+      ],
+      "abstract": "Abstract. This manuscript introduces JHTDB-wind (https://turbulence.idies.jhu.edu/datasets/windfarms), a publicly accessible database containing large-eddy simulation (LES) data from wind farms. Building on the framework of the Johns Hopkins Turbulence Database (JHTDB), which hosts direct numerical and some large-eddy simulation datasets of canonical turbulent flows, JHTDB-wind stores the full space-time (4D) history of the flow and provides users the ability to access and query the data via a web-based virtual sensor interface. The initial dataset comprises LES results from a large wind farm with 6 × 10 turbines, modeled using a filtered actuator line method, under conventionally neutral atmospheric conditions. This data comprises one hour of flow field data (velocity, pressure, potential temperature, and others, approximately 15 TB) and wind turbine data—including both turbine-level operational quantities and blade-level aerodynamic quantities (approximately 1.3 TB)—stored in Zarr and Parquet formats, respectively. Data retrieval is facilitated by the Giverny Python package, allowing remote users to query the database in Python or Matlab (C and Fortran support are available fo...",
+      "authors": [
+        "Charles Meneveau"
+      ]
+    },
+    {
+      "title": "Small-scale properties from exascale computations of turbulence on a $\\mathbf{32\\,768^3}$ periodic cube",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1017/jfm.2025.10493",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ACBB7FFE296106B0F2E9CA1B50A1A456/S002211202510493Xa.pdf/div-class-title-small-scale-properties-from-exascale-computations-of-turbulence-on-a-span-class-inlineformula-span-class-alternatives-img-class-inline-graphic-mathjax-alternative-mathjax-alt-graphic-mathjax-off-data-mimesubtype-png-data-type-src-staticdomain-binary-version-id-urn-cambridge-org-id-binary-20250917035107221-0668-s002211202510493x-s002211202510493x-inline1-png-span-class-mathjax-tex-wrapper-data-mathjax-type-texmath-span-class-tex-math-mathjax-tex-math-mathjax-on-mathbf-32-768-3-span-span-span-span-periodic-cube-div.pdf",
+      "concepts": [
+        "Reynolds number",
+        "Turbulence",
+        "Physics",
+        "Reynolds stress equation model",
+        "Statistical physics",
+        "Enstrophy",
+        "Homogeneous isotropic turbulence",
+        "Direct numerical simulation"
+      ],
+      "abstract": "To study the physics of small-scale properties of homogeneous isotropic turbulence at increasingly high Reynolds numbers, direct numerical simulation results have been obtained for forced isotropic turbulence at Taylor-scale Reynolds number $R_\\lambda =2500$ on a $32\\,768^3$ three-dimensional periodic domain using a GPU pseudo-spectral code on a 1.1 exaflop GPU supercomputer (Frontier). These simulations employ the multi-resolution independent simulation (MRIS) technique (Yeung & Ravikumar 2020, Phys. Rev. Fluids, vol. 5, 110517) where ensemble averaging is performed over multiple short segments initiated from velocity fields at modest resolution, and subsequently taken to higher resolution in both space and time. Reynolds numbers are increased by reducing the viscosity with the large-scale forcing parameters unchanged. Although MRIS segments at the highest resolution for each Reynolds number last for only a few Kolmogorov time scales, small-scale physics in the dissipation range is well captured – for instance, in the probability density functions and higher moments of the dissipation rate and enstrophy density, which appear to show monotonic trends persisting well beyond the R...",
+      "authors": [
+        "P. K. Yeung",
+        "K. Ravikumar",
+        "Rohini Uma-Vaideswaran",
+        "Daniel L. Dotson",
+        "Katepalli R. Sreenivasan",
+        "Stephen B. Pope",
+        "Charles Meneveau",
+        "Stephen Nichols"
+      ]
+    }
+  ]
+}

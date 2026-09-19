@@ -1,0 +1,257 @@
+{
+  "faculty_name": "John Panickacheril John",
+  "full_name": "John Panickacheril John",
+  "department": "Department of Aerospace Engineering and Mechanics",
+  "university": "University of Alabama-Tuscaloosa",
+  "author_id": "A5043383748",
+  "works_count": 22,
+  "cited_by_count": 125,
+  "h_index": 7,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 19
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 12
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 10
+    },
+    {
+      "topic": "Solar and Space Plasma Dynamics",
+      "count": 5
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Laws of turbulence decay from direct numerical simulations",
+      "publication_year": 2022,
+      "publication_date": "2022-01-17",
+      "doi": "https://doi.org/10.1098/rsta.2021.0089",
+      "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "type": "article",
+      "cited_by_count": 38,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2106.15710",
+      "concepts": [
+        "Turbulence",
+        "Exponent",
+        "Statistical physics",
+        "Physics",
+        "Isotropy",
+        "Dissipation",
+        "Scaling",
+        "Homogeneous isotropic turbulence"
+      ],
+      "abstract": "Inspection of available data on the decay exponent for the kinetic energy of homogeneous and isotropic turbulence (HIT) shows that it varies by as much as 100%. Measurements and simulations often show no correspondence with theoretical arguments, which are themselves varied. This situation is unsatisfactory given that HIT is a building block of turbulence theory and modelling. We take recourse to a large base of direct numerical simulations and study decaying HIT for a variety of initial conditions. We show that the Kolmogorov decay exponent and the Birkhoff-Saffman decay are both observed, albeit approximately, for long periods of time if the initial conditions are appropriately arranged. We also present, for both cases, other turbulent statistics such as the velocity derivative skewness, energy spectra and dissipation, and show that the decay and growth laws are approximately as expected theoretically, though the wavenumber spectrum near the origin begins to change relatively quickly, suggesting that the invariants do not strictly exist. We comment briefly on why the decay exponent has varied so widely in past experiments and simulations. This article is part of the theme issu...",
+      "authors": [
+        "John Panickacheril John",
+        "Diego A. Donzis",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "Does dissipative anomaly hold for compressible turbulence?",
+      "publication_year": 2021,
+      "publication_date": "2021-06-10",
+      "doi": "https://doi.org/10.1017/jfm.2021.443",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 26,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Dissipative system",
+        "Anomaly (physics)",
+        "Physics",
+        "Mechanics",
+        "Compressibility",
+        "Classical mechanics",
+        "Thermodynamics"
+      ],
+      "abstract": "Abstract",
+      "authors": [
+        "John Panickacheril John",
+        "Diego A. Donzis",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "Solenoidal Scaling Laws for Compressible Mixing",
+      "publication_year": 2019,
+      "publication_date": "2019-11-26",
+      "doi": "https://doi.org/10.1103/physrevlett.123.224501",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 20,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1907.08261",
+      "concepts": [
+        "Solenoidal vector field",
+        "Physics",
+        "Compressibility",
+        "Scaling",
+        "Scalar (mathematics)",
+        "Vector field",
+        "Incompressible flow",
+        "Reynolds number"
+      ],
+      "abstract": "Mixing of passive scalars in compressible turbulence does not obey the same classical Reynolds number scaling as its incompressible counterpart. We first show from a large database of direct numerical simulations that even the solenoidal part of the velocity field fails to follow the classical incompressible scaling when the forcing includes a substantial dilatational component. Though the dilatational effects on the flow remain significant, our main results are that both the solenoidal energy spectrum and the passive scalar spectrum assume incompressible forms, and that the scalar gradient essentially aligns with the most compressive eigenvalue of the solenoidal part, provided that only the solenoidal components are consistently used for scaling. A slight refinement of this statement is also pointed out.",
+      "authors": [
+        "John Panickacheril John",
+        "Diego A. Donzis",
+        "Katepalli R. Sreenivasan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Turbulent mesoscale convection in the Boussinesq limit and beyond",
+      "publication_year": 2025,
+      "publication_date": "2025-05-21",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2025.109856",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatfluidflow.2025.109856",
+      "concepts": [
+        "Mesoscale meteorology",
+        "Turbulence",
+        "Limit (mathematics)",
+        "Convection",
+        "Mechanics",
+        "Physics",
+        "Meteorology",
+        "Mathematics"
+      ],
+      "abstract": "Mesoscale convection covers an intermediate scale range between highly fluctuating small-scale turbulence and the global organization of the convection flow. It is often characterized by an order of the convection patterns despite very high Rayleigh numbers and strong turbulent fluctuations. In this article, we review previous and discuss several new aspects of mesoscale convection which have been obtained by three-dimensional direct numerical simulations. These numerical studies are performed in the simplest, yet characteristic configuration of a plane layer that is heated from below and cooled from above. The setup is disentangled from other physical processes which enhance the physical complexity of mesoscale convection in real applications. We cover the role of thermal and mechanical boundary conditions for structure formation, the role of constant rotation of the layer, the impact of the domain shape, and the role of Prandtl number P r . With respect to the last point, we also obtained results for very low P r values that arise in astrophysical convection, but are inaccessible in controlled laboratory experiments with liquid metals. In addition to the simplest case of Bouss...",
+      "authors": [
+        "Shadab Alam",
+        "Dmitry Krasnov",
+        "Ambrish Pandey",
+        "John Panickacheril John",
+        "Roshan J. Samuel",
+        "Philipp P. Vieweg",
+        "Jörg Schumacher"
+      ]
+    },
+    {
+      "title": "Turbulent mesoscale convection in the Boussinesq limit and beyond",
+      "publication_year": 2025,
+      "publication_date": "2025-01-08",
+      "doi": "https://doi.org/10.48550/arxiv.2501.04809",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2501.04809",
+      "concepts": [
+        "Mesoscale meteorology",
+        "Limit (mathematics)",
+        "Turbulence",
+        "Convection",
+        "Meteorology",
+        "Physics",
+        "Mechanics",
+        "Geology"
+      ],
+      "abstract": "Mesoscale convection covers an intermediate scale range between small-scale turbulence and the global organization of the convection flow. It is often characterized by an order of the convection patterns despite very high Rayleigh numbers and strong turbulent fluctuations. In this review, we discuss several aspects of mesoscale convection, which have been investigated by three-dimensional direct numerical simulations. The numerical studies are performed in a characteristic configuration of a plane layer that is heated from below and cooled from above or subject to constant heat flux at the top and bottom boundaries. We discuss the role of the thermal and mechanical boundary conditions for structure formation and study the impact of the domain shape as well as the Prandtl number. With respect to the latter, we focus on low values that arise in astrophysical convection and are partly not anymore accessible in laboratory experiments with liquid metals. Beside these experiments in the Boussinesq approximation, we report studies of non-Boussinesq mesoscale convection. This is done by investigating effects of compressibility and temperature dependence of material properties. The kinet...",
+      "authors": [
+        "Shadab Alam",
+        "Dmitry Krasnov",
+        "Ambrish Pandey",
+        "John Panickacheril John",
+        "Roshan J. Samuel",
+        "Philipp P. Vieweg",
+        "Jörg Schumacher"
+      ]
+    },
+    {
+      "title": "Strong evidence for universality in homogeneous compressible turbulence",
+      "publication_year": 2024,
+      "publication_date": "2024-10-01",
+      "doi": "https://doi.org/10.1063/5.0218585",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0218585",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Universality (dynamical systems)",
+        "Statistical physics",
+        "Compressibility",
+        "Solenoidal vector field",
+        "Mach number",
+        "Homogeneous isotropic turbulence"
+      ],
+      "abstract": "Quantifying the degree of universality in compressible turbulence is challenging due to the existence of different modes and their complex interactions. For a restricted family of flows, Donzis and John [Phys. Rev. Fluids 5, 084609 (2020)] showed that universal behavior is indeed observed in compressible turbulence if the ratio of dilatational to solenoidal root mean square (rms) velocities (δ=u′d/u′s) is incorporated as a scaling parameter along with the traditional turbulent Mach number (Mt=u′/〈c〉, where u′ is the rms velocity and 〈c〉 is the mean speed of sound). In this paper, we argue for the generality of those results by analyzing a wide range of compressible turbulent flows spanning a variety of flow configurations and setups to assess the degree of universal behavior. These include, among others, reacting flows, flows with solenoidal, thermal, and dilatational forcing, and flows with mean shear and bulk viscosity. We also performed new direct numerical simulations, which include turbulence in situations where vibrational modes of constitutive molecules are not in thermal equilibrium. Collectively, we offer the largest comparison across studies in the literature to date. ...",
+      "authors": [
+        "John Panickacheril John",
+        "Diego A. Donzis"
+      ]
+    },
+    {
+      "title": "Compressible turbulent convection: The role of temperature-dependent thermal conductivity and dynamic viscosity",
+      "publication_year": 2024,
+      "publication_date": "2024-07-01",
+      "doi": "https://doi.org/10.1063/5.0216623",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0216623/20079636/076132_1_5.0216623.pdf",
+      "concepts": [
+        "Thermal conductivity",
+        "Compressibility",
+        "Viscosity",
+        "Turbulence",
+        "Mechanics",
+        "Convection",
+        "Materials science",
+        "Thermal"
+      ],
+      "abstract": "The impact of variable material properties, such as temperature-dependent thermal conductivity and dynamical viscosity, on the dynamics of a fully compressible turbulent convection flow beyond the anelastic limit is studied in the present work by two series of three-dimensional direct numerical simulations in a layer of aspect ratio 4 with periodic boundary conditions in both horizontal directions. One simulation series is for a weakly stratified adiabatic background and the other one for a strongly stratified one. The Rayleigh number is 105 and the Prandtl number is 0.7 throughout this study. The temperature dependence of material parameters is imposed as a power law with an exponent β. It generates a superadiabaticity ε(z) that varies across the convection layer. Central statistical quantities of the flow, such as the mean superadiabatic temperature, temperature and density fluctuations, or turbulent Mach numbers are compared in the form of horizontal plane-time averaged profiles. It is found that the additional material parameter dependence causes systematic quantitative changes of all these quantities, but no qualitative ones. A growing temperature power law exponent β also ...",
+      "authors": [
+        "John Panickacheril John",
+        "Jörg Schumacher"
+      ]
+    },
+    {
+      "title": "Strongly superadiabatic and stratified limits of compressible convection",
+      "publication_year": 2023,
+      "publication_date": "2023-10-30",
+      "doi": "https://doi.org/10.1103/physrevfluids.8.103505",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Convection",
+        "Mechanics",
+        "Compressibility",
+        "Mach number",
+        "Compressible flow",
+        "Dissipation",
+        "Physics",
+        "Limit (mathematics)"
+      ],
+      "abstract": "We identify the limit behaviors of fully compressible convection going beyond the anelastic and Boussinesq approximations. This is done in terms of the governing parameters, the dissipation number and the superadiabaticity. We demonstrate the asymmetry between the top and bottom boundary layers with respect to these parameters; other results include the common characteristics of compressible convection despite seemingly different physical conditions. Finally we show that Mach number alone is inadequate to elucidate the complex system and more importantly, the strongly stratified case has features that resemble solar surface convection.",
+      "authors": [
+        "John Panickacheril John",
+        "Jörg Schumacher"
+      ]
+    }
+  ]
+}

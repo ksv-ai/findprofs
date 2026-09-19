@@ -1,0 +1,175 @@
+{
+  "faculty_name": "David R. McDaniel",
+  "full_name": "David R. McDaniel",
+  "department": "Department of Mechanical and Materials Engineering",
+  "university": "University of Alabama at Birmingham",
+  "author_id": "A5111918102",
+  "works_count": 57,
+  "cited_by_count": 861,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 41
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 17
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 13
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 13
+    },
+    {
+      "topic": "Real-time simulation and control systems",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kestrel -- A Fixed Wing Virtual Aircraft Product of the CREATE Program",
+      "publication_year": 2009,
+      "publication_date": "2009-06-01",
+      "doi": "https://doi.org/10.1109/hpcmp-ugc.2009.26",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 124,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kestrel",
+        "Propulsion",
+        "Python (programming language)",
+        "Aerospace engineering",
+        "Aerodynamics",
+        "Computer science",
+        "Fixed wing",
+        "Modular design"
+      ],
+      "abstract": "This paper documents a new integrating product that allows cross-over between simulation of aerodynamics, dynamic stability and control, structures, propulsion, and store separation. The Kestrel software product is an integrating product written in modular form with a Python infrastructure to allow growth to additional capabilities as needed. Computational efficiency will also be improved by targeting the next generation peta-flop architectures envisioned for the 2010+ timeframe. Kestrel is also targeted to the need of simulating multidisciplinary physics, such as fluid-structure interactions, inclusion of propulsion effects, moving control surfaces, and coupled flight control systems. The Kestrel software product is to address these needs for fixed-wing aircraft in flight regimes ranging from subsonic through supersonic flight, including maneuvers, multi-aircraft configurations, and operational conditions. Preliminary results of the F-16C with comparison to experiments are provided. Parallel scalability analysis of the initial version of Kestrel is also presented.",
+      "authors": [
+        "Scott Morton",
+        "Brett Tillman",
+        "David R. McDaniel",
+        "David R. W. Sears",
+        "Todd Tuckey"
+      ]
+    },
+    {
+      "title": "Experiences in accurately predicting time-dependent flows",
+      "publication_year": 2008,
+      "publication_date": "2008-04-17",
+      "doi": "https://doi.org/10.1016/j.paerosci.2008.01.001",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 98,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Massively parallel",
+        "Computation",
+        "Computer science",
+        "Computational fluid dynamics",
+        "Flow (mathematics)",
+        "Turbulence",
+        "Computer simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Russell M. Cummings",
+        "Scott Morton",
+        "David R. McDaniel"
+      ]
+    },
+    {
+      "title": "Applied Computational Aerodynamics",
+      "publication_year": 2015,
+      "publication_date": "2015-04-27",
+      "doi": "https://doi.org/10.1017/cbo9781107284166",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book",
+      "cited_by_count": 91,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computer science",
+        "Visualization",
+        "Relevance (law)",
+        "Motion (physics)",
+        "Aerospace engineering",
+        "Engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "This computational aerodynamics textbook is written at the undergraduate level, based on years of teaching focused on developing the engineering skills required to become an intelligent user of aerodynamic codes. This is done by taking advantage of CA codes that are now available and doing projects to learn the basic numerical and aerodynamic concepts required. This book includes a number of unique features to make studying computational aerodynamics more enjoyable. These include:The computer programs used in the book's projects are all open source and accessible to students and practicing engineers alike on the book's website, www.cambridge.org/aerodynamics. The site includes access to images, movies, programs, and moreThe computational aerodynamics concepts are given relevance by CA Concept Boxes integrated into the chapters to provide realistic asides to the conceptsReaders can see fluids in motion with the Flow Visualization Boxes carefully integrated into the text.",
+      "authors": [
+        "Russell M. Cummings",
+        "William H. Mason",
+        "Scott Morton",
+        "David R. McDaniel"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Adaptive Training Investigation to Support Machine Learning Based Surrogate Modeling for Aircraft Loads Predictions",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-1942",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Training (meteorology)",
+        "Surrogate model",
+        "Artificial intelligence",
+        "Machine learning",
+        "Physics",
+        "Meteorology"
+      ],
+      "abstract": "Surrogate modeling plays a crucial role in connecting high-fidelity data generation techniques with everyday engineering tasks. These surrogate models act as quick substitutes for more expensive, high-fidelity methods, albeit with some loss in accuracy. The success of these models largely hinges on the quality of the data used to train them. This data should offer enough information to educate the surrogate model about the crucial aspects within the domain of interest. However, as problems become more intricate and involve higher dimensions, it becomes increasingly challenging to determine in advance the ideal data distribution necessary to accurately capture the non-linearities in the domain. Consequently, employing adaptive training methods to pinpoint where additional data is required becomes critical for producing a high-quality surrogate model. This effort focuses on demonstrating the application of adaptive training to enhance the underlying data distribution used for training a machine learning-based surrogate model. The primary goal here is to reduce the time required to obtain a solution, rather than aiming for a perfectly optimized data distribution.",
+      "authors": [
+        "Jennifer Abras",
+        "Todd Tuckey",
+        "David R. McDaniel",
+        "Nathan S. Hariharan"
+      ]
+    },
+    {
+      "title": "Machine Learning-Based Surrogate Modeling for Aerodynamic Loads Predictions",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-0232",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Surrogate model",
+        "Aerodynamics",
+        "Computer science",
+        "Transonic",
+        "Artificial neural network",
+        "Feature engineering",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-0232.vid The rapid prediction of loads for engineering applications is of high interest in the aerodynamic community. An approach for obtaining these rapid predictions is through the use of surrogate modeling. Surrogate models enable a faster turn-around time for various engineering needs that high-fidelity computational models cannot accommodate. A machine learning (ML) framework to support surrogate modeling of integrated aerodynamic loads predictions for aircraft is investigated in this effort. The ML framework includes core Deep Neural Network (DNN) components built to support surrogate models for both steady and unsteady aerodynamics. A vital aspect of a successful surrogate model is the prediction accuracy when non-linear flow phenomena such as flow separation and transonic effects impact the flowfield. For highly separated flows – such as dynamic stall – a two-step, novel physics-state predictor approach is laid out. The dual framework employs an intermediate physics-state predictor that enables the surrogate model to more accurately model dynamic separated and non-linear flow patterns. Parameter studies are conducte...",
+      "authors": [
+        "Jennifer Abras",
+        "Todd Tuckey",
+        "David R. McDaniel",
+        "Nathan S. Hariharan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "faculty_name": "Clint N. Dawson",
+  "full_name": "Clint Dawson",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics / Oden Institute",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5089253713",
+  "works_count": 361,
+  "cited_by_count": 12020,
+  "h_index": 57,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 115
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 72
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 70
+    },
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 55
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 51
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling hurricane waves and storm surge using integrally-coupled, scalable computations",
+      "publication_year": 2010,
+      "publication_date": "2010-09-03",
+      "doi": "https://doi.org/10.1016/j.coastaleng.2010.08.001",
+      "venue": "Coastal Engineering",
+      "type": "article",
+      "cited_by_count": 673,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polygon mesh",
+        "Computer science",
+        "Storm surge",
+        "Computation",
+        "Scalability",
+        "Domain decomposition methods",
+        "Interpolation (computer graphics)",
+        "Shallow water equations"
+      ],
+      "abstract": "",
+      "authors": [
+        "J. C. Dietrich",
+        "Marcel Zijlema",
+        "Joannes J. Westerink",
+        "L.H. Holthuijsen",
+        "Clint Dawson",
+        "Richard A. Luettich",
+        "Robert E. Jensen",
+        "Jane McKee Smith",
+        "Guus S. Stelling",
+        "Gregory W. Stone"
+      ]
+    },
+    {
+      "title": "A Basin- to Channel-Scale Unstructured Grid Hurricane Storm Surge Model Applied to Southern Louisiana",
+      "publication_year": 2008,
+      "publication_date": "2008-03-01",
+      "doi": "https://doi.org/10.1175/2007mwr1946.1",
+      "venue": "Monthly Weather Review",
+      "type": "article",
+      "cited_by_count": 493,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Storm surge",
+        "Geology",
+        "Unstructured grid",
+        "Inflow",
+        "Storm",
+        "Surge",
+        "Environmental science",
+        "Meteorology"
+      ],
+      "abstract": "Abstract Southern Louisiana is characterized by low-lying topography and an extensive network of sounds, bays, marshes, lakes, rivers, and inlets that permit widespread inundation during hurricanes. A basin- to channel-scale implementation of the Advanced Circulation (ADCIRC) unstructured grid hydrodynamic model has been developed that accurately simulates hurricane storm surge, tides, and river flow in this complex region. This is accomplished by defining a domain and computational resolution appropriate for the relevant processes, specifying realistic boundary conditions, and implementing accurate, robust, and highly parallel unstructured grid numerical algorithms. The model domain incorporates the western North Atlantic, the Gulf of Mexico, and the Caribbean Sea so that interactions between basins and the shelf are explicitly modeled and the boundary condition specification of tidal and hurricane processes can be readily defined at the deep water open boundary. The unstructured grid enables highly refined resolution of the complex overland region for modeling localized scales of flow while minimizing computational cost. Kinematic data assimilative or validated dynamic-modeled...",
+      "authors": [
+        "Joannes J. Westerink",
+        "Richard A. Luettich",
+        "Jesse Feyen",
+        "John Atkinson",
+        "Clint Dawson",
+        "H.J. Roberts",
+        "Mark D. Powell",
+        "Jason Dunion",
+        "Ethan J. Kubatko",
+        "Hasan Pourtaheri"
+      ]
+    },
+    {
+      "title": "A High-Resolution Coupled Riverine Flow, Tide, Wind, Wind Wave, and Storm Surge Model for Southern Louisiana and Mississippi. Part I: Model Development and Validation",
+      "publication_year": 2009,
+      "publication_date": "2009-08-13",
+      "doi": "https://doi.org/10.1175/2009mwr2906.1",
+      "venue": "Monthly Weather Review",
+      "type": "article",
+      "cited_by_count": 454,
+      "is_oa": true,
+      "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/138/2/2009mwr2906.1.pdf",
+      "concepts": [
+        "Storm surge",
+        "Bathymetry",
+        "Wave model",
+        "Geology",
+        "Storm",
+        "Surge",
+        "Wind wave",
+        "Hydrograph"
+      ],
+      "abstract": "Abstract A coupled system of wind, wind wave, and coastal circulation models has been implemented for southern Louisiana and Mississippi to simulate riverine flows, tides, wind waves, and hurricane storm surge in the region. The system combines the NOAA Hurricane Research Division Wind Analysis System (H*WIND) and the Interactive Objective Kinematic Analysis (IOKA) kinematic wind analyses, the Wave Model (WAM) offshore and Steady-State Irregular Wave (STWAVE) nearshore wind wave models, and the Advanced Circulation (ADCIRC) basin to channel-scale unstructured grid circulation model. The system emphasizes a high-resolution (down to 50 m) representation of the geometry, bathymetry, and topography; nonlinear coupling of all processes including wind wave radiation stress-induced set up; and objective specification of frictional parameters based on land-cover databases and commonly used parameters. Riverine flows and tides are validated for no storm conditions, while winds, wind waves, hydrographs, and high water marks are validated for Hurricanes Katrina and Rita.",
+      "authors": [
+        "Shintaro Bunya",
+        "J. C. Dietrich",
+        "Joannes J. Westerink",
+        "Bruce A. Ebersole",
+        "Jane McKee Smith",
+        "J. H. Atkinson",
+        "Robert E. Jensen",
+        "Donald T. Resio",
+        "Richard A. Luettich",
+        "Clint Dawson",
+        "V. J. Cardone",
+        "A. T. Cox",
+        "Mark D. Powell",
+        "H. J. Westerink",
+        "H.J. Roberts"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1029/2025jh000697",
+      "venue": "Journal of Geophysical Research Machine Learning and Computation",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2025jh000697",
+      "concepts": [
+        "Operator (biology)",
+        "Dynamics (music)",
+        "Computer science",
+        "Geology",
+        "Physics",
+        "Chemistry",
+        "Acoustics",
+        "Repressor"
+      ],
+      "abstract": "Abstract Coastal regions and river floodplains are particularly vulnerable to the impacts of extreme weather events. Accurate real‐time forecasting of hydrodynamic processes in these areas is essential for infrastructure planning and climate adaptation. Yet high‐fidelity numerical models are often too computationally expensive for real‐time use, and lower‐cost approaches, such as traditional model order reduction algorithms or conventional neural networks, typically struggle to generalize to out‐of‐distribution conditions. In this study, we present the Multiple‐Input Temporal Operator Network (MITONet), a novel autoregressive neural emulator that employs latent‐space operator learning to efficiently approximate high‐dimensional numerical solvers for complex, nonlinear problems that are governed by time‐dependent, parameterized partial differential equations. We showcase MITONet's predictive capabilities by forecasting regional tide‐driven dynamics in the Shinnecock Inlet in New York and riverine flow in a section of the Red River in Louisiana, both described by the two‐dimensional shallow‐water equations (2D shallow water equations), while incorporating initial conditions, time‐...",
+      "authors": [
+        "Peter Rivera-Casillas",
+        "Sourav Dutta",
+        "Shukai Cai",
+        "Mark Loveland",
+        "Kamaljyoti Nath",
+        "Khemraj Shukla",
+        "Corey J. Trahan",
+        "Jonghyun Lee",
+        "Matthew W. Farthing",
+        "Clint Dawson"
+      ]
+    },
+    {
+      "title": "R2-D2 Smoothing: A novel DEM smoothing method for kinematic wave models",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6396583",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6396583",
+      "concepts": [
+        "Smoothing",
+        "Resampling",
+        "Digital elevation model",
+        "Sensitivity (control systems)",
+        "Ridge",
+        "Geology",
+        "Mathematics",
+        "Algorithm"
+      ],
+      "abstract": "",
+      "authors": [
+        "Younghun Kang",
+        "Ethan J. Kubatko",
+        "Clint Dawson"
+      ]
+    },
+    {
+      "title": "MuSIKAL: Multiphysics Simulations and Knowledge Discovery Through AI/ML Technologies (Final Technical Report)",
+      "publication_year": 2025,
+      "publication_date": "2025-12-11",
+      "doi": "https://doi.org/10.2172/3007466",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/3007466",
+      "concepts": [
+        "Computer science",
+        "Multiphysics",
+        "Systems engineering",
+        "Engineering",
+        "Expert system",
+        "Knowledge extraction",
+        "Knowledge base",
+        "Knowledge-based systems"
+      ],
+      "abstract": "This report was prepared as an account of",
+      "authors": [
+        "USDOE Office of Science (SC) (United States)",
+        "Ruby P. C. Leung",
+        "Univ. of Texas, Austin, TX (United States)",
+        "Hartmut Kaiser",
+        "Carola Kaiser",
+        "Joannes Westerink",
+        "Dev Niyogi",
+        "Zong-LIang Yang",
+        "Alex Sun",
+        "Bridget Scanlon",
+        "Tan Bui-Thanh",
+        "Clint Dawson"
+      ]
+    },
+    {
+      "title": "adcirc/adcirc: v56.2.1",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.5281/zenodo.17655547",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.17655547",
+      "concepts": [
+        "Checksum",
+        "Computer science",
+        "MD5",
+        "Programming language",
+        "Operating system",
+        "Debugging",
+        "Legacy system",
+        "Fortran"
+      ],
+      "abstract": "v56.2.1 v56.2.1 is a bug fix release which resolves an issue for certain MPI libraries that do not support use lists in the legacy MPI Fortran module. What's Changed Removing mpi use lists for legacy MPI module by @zcobell in https://github.com/adcirc/adcirc/pull/487 Full Changelog: https://github.com/adcirc/adcirc/compare/v56.2.0...v56.2.1 Checksums | Algorithm | Checksum | |--|--| | MD5 |8cf630c314d0d5917528f77ee8b7616a| | SHA1 |8be9cf35e703cdd1870a12f519c9debb3c033a48| | SHA256 |1320f1312cfa092c73ebaf826173317403178de3db5d64a5bbd803c81e71cbf2|",
+      "authors": [
+        "Richard A. Luettich",
+        "Joannes J. Westerink",
+        "Zachary Cobell",
+        "Shintaro Bunya",
+        "Clint Dawson",
+        "Thomas C. Massey",
+        "J. C. Dietrich",
+        "Randall Kolar",
+        "Brian Blanton"
+      ]
+    },
+    {
+      "title": "Variational Data-Consistent Assimilation",
+      "publication_year": 2025,
+      "publication_date": "2025-11-03",
+      "doi": "https://doi.org/10.48550/arxiv.2511.01759",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.01759",
+      "concepts": [
+        "Data assimilation",
+        "Predictability",
+        "Applied mathematics",
+        "Robustness (evolution)",
+        "Nonlinear system",
+        "Mathematics",
+        "Computer science",
+        "Uniqueness"
+      ],
+      "abstract": "This work introduces a new class of four-dimensional variational data assimilation (4D-Var) methods grounded in data-consistent inversion (DCI) theory. The methods extend classical 4D-Var by incorporating a predictability-aware regularization term. The first method formulated is referred to as Data-Consistent 4D-Var (DC-4DVar), which is then enhanced using a Weighted Mean Error (WME) quantity-of-interest map to construct the DC-WME 4D-Var method. While the DC and DC-WME cost functions both involve a predictability-aware regularization term, the DC-WME function includes a modification to the model-data misfit, thereby improving estimation accuracy, robustness, and theoretical consistency in nonlinear and partially observed dynamical systems. Proofs are provided that establish the existence and uniqueness of the minimizer and analyze how a predictability assumption that is common within the DCI framework helps to promote solution stability. Numerical experiments are presented on benchmark dynamical systems (Lorenz-63 and Lorenz-96) as well as for the shallow water equations (SWE). In the benchmark dynamical systems, the DC-WME 4D-Var formulation is shown to consistently outperform...",
+      "authors": [
+        "Rylan Spence",
+        "Troy Butler",
+        "Clint Dawson"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Lawrence S. Ukeiley",
+  "full_name": "Lawrence Ukeiley",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Florida",
+  "author_id": "A5009893032",
+  "works_count": 226,
+  "cited_by_count": 5629,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 158
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 116
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 50
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 40
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 39
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Low-dimensional characteristics of a transonic jet. Part 1. Proper orthogonal decomposition",
+      "publication_year": 2008,
+      "publication_date": "2008-09-19",
+      "doi": "https://doi.org/10.1017/s0022112008002978",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 103,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Reynolds number",
+        "Scalar (mathematics)",
+        "Transonic",
+        "Turbulence",
+        "Azimuth",
+        "Eigenvalues and eigenvectors"
+      ],
+      "abstract": "An experimental investigation concerning the most energetic turbulent features of the flow exiting from an axisymmetric converging nozzle at Mach 0.85 and ambient temperature is discussed using planar optical measurement techniques. The arrangement of the particle image velocimetry (PIV) system allows for all three components of the velocity field to be captured along the (r, θ)-plane of the jet at discrete streamwise locations betweenx/D=3.0 and 8.0 in 0.25 diameter increments. The ensemble-averaged (time-suppressed) two-point full Reynolds stress matrix is constructed from which the integral eigenvalue problem of the proper orthogonal decomposition (POD) is applied using both scalar and vector forms of the technique. A grid sensitivity study indicates that the POD eigenvalues converge safely to within 1% of their expected value when the discretization of the spatial grid is less than 30% of the integral length scale or 10% of the shear-layer width. The first POD eigenvalue from the scalar decomposition of the streamwise component is shown to agree with previous investigations for a range of Reynolds numbers and Mach numbers with a peak in azimuthal mode 5 atx/D=3.0, and a grad...",
+      "authors": [
+        "Charles E. Tinney",
+        "Mark Glauser",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Velocity and surface pressure measurements in an open cavity",
+      "publication_year": 2005,
+      "publication_date": "2005-04-05",
+      "doi": "https://doi.org/10.1007/s00348-005-0948-x",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 112,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle image velocimetry",
+        "Boundary layer",
+        "Surface pressure",
+        "Mechanics",
+        "Vorticity",
+        "Mach number",
+        "Velocimetry",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lawrence Ukeiley",
+        "Nathan E. Murray"
+      ]
+    },
+    {
+      "title": "Examination of large-scale structures in a turbulent plane mixing layer. Part 1. Proper orthogonal decomposition",
+      "publication_year": 1999,
+      "publication_date": "1999-07-25",
+      "doi": "https://doi.org/10.1017/s0022112099005200",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 162,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Tensor (intrinsic definition)",
+        "Wavenumber",
+        "Mixing (physics)",
+        "Turbulence kinetic energy",
+        "Plane (geometry)",
+        "Vortex"
+      ],
+      "abstract": "Large-scale structures in a plane turbulent mixing layer are studied through the use of the proper orthogonal decomposition (POD). Extensive experimental measurements are obtained in a turbulent plane mixing layer by means of two cross-wire rakes aligned normal to the direction of the mean shear and perpendicular to the mean flow direction. The measurements are acquired well into the asymptotic region. From the measured velocities the two-point spectral tensor is calculated as a function of separation in the cross-stream direction and spanwise and streamwise wavenumbers. The continuity equation is then used for the calculation of the non-measured components of the tensor. The POD is applied using the cross-spectral tensor as its kernel. This decomposition yields an optimal basis set in the mean square sense. The energy contained in the POD modes converges rapidly with the first mode being dominant (49% of the turbulent kinetic energy). Examination of these modes shows that the first mode contains evidence of both known flow organizations in the mixing layer, i.e. quasi-two-dimensional spanwise structures and streamwise aligned vortices. Using the shot-noise theory the dominant m...",
+      "authors": [
+        "J. Delville",
+        "Lawrence Ukeiley",
+        "Laurent Cordier",
+        "Jean-Paul Bonnet",
+        "Mark Glauser"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A mutual information measure for predicting the performance of physical reservoir computers",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.1177/1045389x261426640",
+      "venue": "Journal of Intelligent Material Systems and Structures",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mutual information",
+        "Nonlinear system",
+        "Computer science",
+        "Measure (data warehouse)",
+        "Interaction information",
+        "Node (physics)",
+        "Aerodynamics",
+        "Information flow"
+      ],
+      "abstract": "Physical reservoir computing (PRC) performance is known to strongly depend on its nonlinear dynamics which complicates identifying appropriate metrics for design purposes. Here, we evaluate nonlinear structural dynamics using mutual information to understand the PRC’s ability to track a target signal. The information processing ability of a mechanical PRC is first elucidated by introducing a simple three node causal structure that fuses information between discrete sensors and the PRC’s dynamic states. The three node directed acyclic graph (DAG) is motivated by the Monty Hall problem, where the PRC serves as the new information similar to increasing odds of winning the car in the game show Let’s Make a Deal. This concept is applied to PRCs to understand how information is processed through a nonlinear structure to increase the odds of knowing the state of the environment. For practical aerodynamic state estimation applications, we take pressure measurements from experimental supersonic cavity flow as the input to the PRC. It is computationally shown that mutual information provides a good measure to design nonlinearities into a PRC.",
+      "authors": [
+        "Mario Carvajal",
+        "Basanta R. Pahari",
+        "Lawrence Ukeiley",
+        "William S. Oates"
+      ]
+    },
+    {
+      "title": "Sensing and Processing of a Shock-Induced Recirculation Bubble Using a Vibratory Physical Reservoir Computer",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0902",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Freestream",
+        "Mach number",
+        "Shock wave",
+        "Aerodynamics",
+        "Acoustics",
+        "Metamaterial",
+        "Mechanics",
+        "Shock (circulatory)"
+      ],
+      "abstract": "Sensing and processing unsteady aerodynamics is a significant challenge due to the high sensor density and computational cost required to capture the broad spatial and temporal scales spanned by unsteady flow features. Physical Reservoir Computing (PRC) offers a promising approach to overcoming these challenges by leveraging the nonlinear dynamics of physical structures to sense spatially distributed pressure inputs and process information with minimal digital computation. This study demonstrates the vibratory response of nonlinear metamaterial structure that consists of a network of unit cells with bi-linear bending stiffness to SWBLI, providing a pathway to PRC. The vibratory metamaterial is designed as a mechanical network in which each unit cell exhibits bi-linear bending stiffness. We experimentally excite the metamaterial with unsteady pressures generated by a shock wave to examine its dynamic response. We placed the metamaterial with a membrane in a Mach 1.4 wind tunnel with a cavity beneath the metamaterial. We exposed the metamaterial to two test cases: (1) a Mach 1.4 freestream flow without an induced-shock, and (2) a Mach 1.4 flow with a shock induced by a 5 degree we...",
+      "authors": [
+        "Shan He",
+        "Dylan Rautenstrauch",
+        "Brandon Giompalo",
+        "Lawrence Ukeiley",
+        "Patrick Musgrave"
+      ]
+    },
+    {
+      "title": "Large-Scale, Low-Frequency Phenomena Ahead of a Supersonic Wing-Body Junction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2521",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Boiler blowdown",
+        "Choked flow",
+        "Mechanics",
+        "Mach number",
+        "Flow (mathematics)",
+        "Supersonic wind tunnel",
+        "Physics"
+      ],
+      "abstract": "Wing-body junctions are a geometric feature commonly observed in aircraft. At supersonic speeds, they exhibit shock-induced flow separation (SIFS) which are associated with detrimental phenomena including separating shocks and the subsequent flow separation. SIFS is also characterized by low-frequency phenomena. In the current study, a supersonic wing-body junction flow is investigated using time-resolved Schlieren. Experiments are conducted in a Mach 1.4 blowdown wind tunnel. The large-scale events in the flow are studied using Proper Orthogonal Decomposition (POD) and these events are expected to exhibit low-frequency phenomena.",
+      "authors": [
+        "Anubhav Dasgupta",
+        "Alexander Ephraim",
+        "Surabhi Singh",
+        "Noah T. Compton",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Induced flow measurements and analytical tonal noise predictions for a sub-scale eVTOL rotor",
+      "publication_year": 2025,
+      "publication_date": "2025-09-29",
+      "doi": "https://doi.org/10.1177/1475472x251382214",
+      "venue": "International Journal of Aeroacoustics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotor (electric)",
+        "Physics",
+        "Acoustics",
+        "Airfoil",
+        "Advance ratio",
+        "Particle image velocimetry",
+        "Downwash",
+        "Mechanics"
+      ],
+      "abstract": "Tonal acoustic predictions of a fixed pitch rotor in edgewise flight are developed based on rotor inflow measurements. The induced velocity of a fixed-pitch rotor in hover and edgewise flight was measured with stereoscopic particle image velocimetry (sPIV) in an anechoic wind tunnel. The edgewise flight measurements covered advance ratios ranging from 0.065 to 0.268. The ensemble averaged sPIV measurements showed that an increase in advance ratio led to a skewing of the maximum induced velocity towards the advancing side of the rotor and an increased area of upwash velocity at the front of the rotor disk. The measured mean velocity field was combined with blade element theory and Sears Unsteady Airfoil Theory to estimate the unsteady blade forces, which were used in analytical tonal noise predictions. The predictions were on average within 5 dB of measured sound pressure levels at the rotor blade passage frequency.",
+      "authors": [
+        "James Goldschmidt",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "An Integrated Experimental and Computational Approach to Analyze Flexible Flapping Wings in Hover",
+      "publication_year": 2025,
+      "publication_date": "2025-08-07",
+      "doi": "https://doi.org/10.1007/978-1-4419-9834-7-125",
+      "venue": "River Publishers eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flapping",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Computer science",
+        "Aerodynamics",
+        "Marine engineering",
+        "Engineering",
+        "Wing"
+      ],
+      "abstract": "Biological flyers exploit wing deformation during flapping flight. There is a substantial need to improve the understanding of the aeroelastic effects associated with the wing deformation to build flapping wing micro air vehicles. This paper presents an effort to develop an integrated approach involving both experimental and computational methods to realize this goal. As the first step, an isotropic flat plate aluminum wing is manufactured and actuated to perform a single degree-of-freedom flapping motion. The wing deformation and airflow around the wing are measured with digital image correlation (DIC) and particle image velocimetry (PIV), respectively. Computational analyses are performed on this wing configuration using a combined nonlinear structural dynamics and Navier-Stokes solution. Reasonable agreement obtained between experimental and computational data in this preliminary effort shows a potential to analyze more complicated flexible flapping wings in future.",
+      "authors": [
+        "Pin Wu",
+        "Erik Sällström",
+        "Lawrence Ukeiley",
+        "Peter Ifju"
+      ]
+    }
+  ]
+}

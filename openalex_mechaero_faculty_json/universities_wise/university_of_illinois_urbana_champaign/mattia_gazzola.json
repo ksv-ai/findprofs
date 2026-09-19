@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Mattia Gazzola",
+  "full_name": "Mattia Gazzola",
+  "department": "Department of Mechanical Science and Engineering",
+  "university": "University of Illinois Urbana-Champaign",
+  "author_id": "A5106466015",
+  "works_count": 149,
+  "cited_by_count": 3672,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 39
+    },
+    {
+      "topic": "Soft Robotics and Applications",
+      "count": 24
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 24
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 21
+    },
+    {
+      "topic": "Advanced Materials and Mechanics",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Scaling macroscopic aquatic locomotion",
+      "publication_year": 2014,
+      "publication_date": "2014-09-12",
+      "doi": "https://doi.org/10.1038/nphys3078",
+      "venue": "Nature Physics",
+      "type": "article",
+      "cited_by_count": 348,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Kinematics",
+        "Turbulence",
+        "Scaling",
+        "Laminar flow",
+        "Classical mechanics",
+        "Mechanics",
+        "Inertial frame of reference"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mattia Gazzola",
+        "Médéric Argentina",
+        "L. Mahadevan"
+      ]
+    },
+    {
+      "title": "Simulations of single and multiple swimmers with non-divergence free deforming geometries",
+      "publication_year": 2011,
+      "publication_date": "2011-05-10",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.04.025",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 175,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Divergence (linguistics)",
+        "Vortex",
+        "Compressibility",
+        "Mathematics",
+        "Deformation (meteorology)",
+        "Benchmark (surveying)",
+        "Flow (mathematics)",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mattia Gazzola",
+        "Philippe Chatelain",
+        "Wim M. van Rees",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "C-start: optimal start of larval fish",
+      "publication_year": 2012,
+      "publication_date": "2012-02-03",
+      "doi": "https://doi.org/10.1017/jfm.2011.558",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 146,
+      "is_oa": true,
+      "oa_url": "http://hdl.handle.net/20.500.11850/48450",
+      "concepts": [
+        "Escape response",
+        "Mechanics",
+        "Curvature",
+        "Fish <Actinopterygii>",
+        "Physics",
+        "Line (geometry)",
+        "Vortex",
+        "Larva"
+      ],
+      "abstract": "Abstract We investigate the C-start escape response of larval fish by combining flow simulations using remeshed vortex methods with an evolutionary optimization. We test the hypothesis of the optimality of C-start of larval fish by simulations of larval-shaped, two- and three-dimensional self-propelled swimmers. We optimize for the distance travelled by the swimmer during its initial bout, bounding the shape deformation based on the larval mid-line curvature values observed experimentally. The best motions identified within these bounds are in good agreement within vivoexperiments and show that C-starts do indeed maximize escape distances. Furthermore we found that motions with curvatures beyond the ones experimentally observed for larval fish may result in even larger escape distances. We analyse the flow field and find that the effectiveness of the C-start escape relies on the ability of pronounced C-bent body configurations to trap and accelerate large volumes of fluid, which in turn correlates with large accelerations of the swimmer.",
+      "authors": [
+        "Mattia Gazzola",
+        "Wim M. van Rees",
+        "Petros Koumoutsakos"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Learning, locomotion, and navigation of soft synthetic snakes in three-dimensional, heterogeneous environments",
+      "publication_year": 2026,
+      "publication_date": "2026-05-24",
+      "doi": "https://doi.org/10.48550/arxiv.2605.24985",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.24985",
+      "concepts": [
+        "Robustness (evolution)",
+        "Computer science",
+        "Terrain",
+        "Artificial intelligence",
+        "Homogeneous",
+        "Reinforcement learning",
+        "Architecture",
+        "Control engineering"
+      ],
+      "abstract": "Limbless terrestrial animals exhibit exceptional locomotor versatility and control, currently unmatched by engineered counterparts. Here, we introduce a computational framework that enables soft synthetic snakes to navigate unstructured, heterogeneous 3D terrains. Our approach is grounded in bio-inspired actuation and sensing models that reduce the control complexity inherent to high-degree-of-freedom, continuum bodies. These models are integrated into a reinforcement learning architecture to derive environment-traversing policies. Training first occurs in simplified, homogeneous terrains to learn locomotion primitives. These are then composed into adaptive strategies for complex landscapes. We demonstrate robustness by deploying a snake in high-fidelity 3D environments reconstructed from real-world imaging, achieving reliable navigation. Overall, this work provides a physically-realistic simulation platform and practical insights for the control of continuum systems in natural terrains.",
+      "authors": [
+        "Xiaotian Zhang",
+        "Ali Albazroun",
+        "Tixian Wang",
+        "Songyuan Cui",
+        "Prashant G. Mehta",
+        "Mattia Gazzola"
+      ]
+    },
+    {
+      "title": "Learning, locomotion, and navigation of soft synthetic snakes in three-dimensional, heterogeneous environments",
+      "publication_year": 2026,
+      "publication_date": "2026-05-24",
+      "doi": "https://arxiv.org/abs/2605.24985",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.24985",
+      "concepts": [
+        "Robustness (evolution)",
+        "Computer science",
+        "Terrain",
+        "Artificial intelligence",
+        "Homogeneous",
+        "Reinforcement learning",
+        "Architecture",
+        "Control engineering"
+      ],
+      "abstract": "Limbless terrestrial animals exhibit exceptional locomotor versatility and control, currently unmatched by engineered counterparts. Here, we introduce a computational framework that enables soft synthetic snakes to navigate unstructured, heterogeneous 3D terrains. Our approach is grounded in bio-inspired actuation and sensing models that reduce the control complexity inherent to high-degree-of-freedom, continuum bodies. These models are integrated into a reinforcement learning architecture to derive environment-traversing policies. Training first occurs in simplified, homogeneous terrains to learn locomotion primitives. These are then composed into adaptive strategies for complex landscapes. We demonstrate robustness by deploying a snake in high-fidelity 3D environments reconstructed from real-world imaging, achieving reliable navigation. Overall, this work provides a physically-realistic simulation platform and practical insights for the control of continuum systems in natural terrains.",
+      "authors": [
+        "Xiaotian Zhang",
+        "Ali Albazroun",
+        "Tixian Wang",
+        "Songyuan Cui",
+        "Prashant G. Mehta",
+        "Mattia Gazzola"
+      ]
+    },
+    {
+      "title": "Elastica++: A high-performance, multiphysics framework for large interacting assemblies of Cosserat rods",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.48550/arxiv.2605.13766",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.13766",
+      "concepts": [
+        "Multiphysics",
+        "Robustness (evolution)",
+        "Discretization",
+        "Computer science",
+        "Solver",
+        "Rod",
+        "Computational science",
+        "Mechanical engineering"
+      ],
+      "abstract": "Soft, slender structures are ubiquitous in natural and engineered systems, with broad application potential from biomimetic materials to soft robotics. However, there is a notable lack of computational tools that simultaneously preserve high-fidelity continuum rod mechanics, scale to large interacting ensembles, and remain flexible across diverse biophysical settings. Here we introduce Elastica++, an open-source, high-performance implementation of the Cosserat-rod model for large-scale simulations of slender-body dynamics. Elastica++ combines performance-oriented kernels with shared-memory parallelism to sustain teraflop-scale throughput despite complex discretization domains and physical interactions. The framework further interoperates with external numerical solvers, supporting efficient multiphysics workflows. We demonstrate robustness and breadth through case studies spanning passive nest-like metamaterials, collective active-matter dynamics, cilia carpets, soft magnetic microrobots, and schooling swimmers. Elastica++ thus provides a missing foundation for high-throughput studies of emergent behavior in interacting assemblies of elastic slender structures.",
+      "authors": [
+        "Tejaswin Parthasarathy",
+        "Seung Hyun Kim",
+        "Songyuan Cui",
+        "Mattia Gazzola"
+      ]
+    },
+    {
+      "title": "Elastica++: A high-performance, multiphysics framework for large interacting assemblies of Cosserat rods",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://arxiv.org/abs/2605.13766",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.13766",
+      "concepts": [
+        "Multiphysics",
+        "Robustness (evolution)",
+        "Discretization",
+        "Computer science",
+        "Solver",
+        "Rod",
+        "Computational science",
+        "Mechanical engineering"
+      ],
+      "abstract": "Soft, slender structures are ubiquitous in natural and engineered systems, with broad application potential from biomimetic materials to soft robotics. However, there is a notable lack of computational tools that simultaneously preserve high-fidelity continuum rod mechanics, scale to large interacting ensembles, and remain flexible across diverse biophysical settings. Here we introduce Elastica++, an open-source, high-performance implementation of the Cosserat-rod model for large-scale simulations of slender-body dynamics. Elastica++ combines performance-oriented kernels with shared-memory parallelism to sustain teraflop-scale throughput despite complex discretization domains and physical interactions. The framework further interoperates with external numerical solvers, supporting efficient multiphysics workflows. We demonstrate robustness and breadth through case studies spanning passive nest-like metamaterials, collective active-matter dynamics, cilia carpets, soft magnetic microrobots, and schooling swimmers. Elastica++ thus provides a missing foundation for high-throughput studies of emergent behavior in interacting assemblies of elastic slender structures.",
+      "authors": [
+        "Tejaswin Parthasarathy",
+        "Seung Hyun Kim",
+        "Songyuan Cui",
+        "Mattia Gazzola"
+      ]
+    },
+    {
+      "title": "Neural reservoir control of a bio-hybrid soft arm",
+      "publication_year": 2026,
+      "publication_date": "2026-04-24",
+      "doi": "https://doi.org/10.1073/pnas.2522094123",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.2522094123",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Robotic arm",
+        "Reservoir computing",
+        "Control (management)",
+        "Control engineering",
+        "Bridging (networking)",
+        "Control system"
+      ],
+      "abstract": "A long-standing engineering problem, the control of soft robots is difficult because of their highly nonlinear, heterogeneous, anisotropic, and distributed nature. Here, bridging engineering and biology, neural reservoirs are employed for the dynamic control of a bio-hybrid model arm made of multiple muscle-tendon groups enveloping an elastic spine. We show how the use of reservoirs facilitates simultaneous control and self-modeling across challenging tasks, outperforming classic neural network approaches. Further, through the use of spiking reservoirs on neuromorphic hardware, energy efficiency gains of up to 75 and 45 times are obtained relative to standard and high-efficiency CPUs, with implications for the on-board control of untethered, small-scale systems.",
+      "authors": [
+        "Noel Naughton",
+        "Arman Tekinalp",
+        "Keshav Shivam",
+        "Seung Hyun Kim",
+        "Apoorva Khairnar",
+        "Volodymyr Kindratenko",
+        "Mattia Gazzola"
+      ]
+    }
+  ]
+}

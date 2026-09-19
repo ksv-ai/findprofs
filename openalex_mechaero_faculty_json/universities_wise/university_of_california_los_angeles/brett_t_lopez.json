@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Brett T. Lopez",
+  "full_name": "Brett T. Lopez",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5079219281",
+  "works_count": 73,
+  "cited_by_count": 1361,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 24
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 23
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 19
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 12
+    },
+    {
+      "topic": "Control and Stability of Dynamical Systems",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Drivocopter: A concept Hybrid Aerial/Ground vehicle for long-endurance mobility",
+      "publication_year": 2020,
+      "publication_date": "2020-03-01",
+      "doi": "https://doi.org/10.1109/aero47225.2020.9172782",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 59,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Payload (computing)",
+        "Computer science",
+        "Robot",
+        "Collision",
+        "Terrain",
+        "Simulation",
+        "Real-time computing",
+        "Artificial intelligence"
+      ],
+      "abstract": "Aerial robots show promise for increased capabilities in exploring unstructured and challenging environments. However, they are limited by payload capacity, flight times, and susceptibility to damage in case of collision. On the other hand, ground robots are able to carry larger payloads and have a lower cost of transport, at the price of limited mobility over challenging terrain. This paper presents a hybrid aerial/ground vehicle that combines the capabilities of both types of vehicles to enable multi-modal mobility in diverse and challenging environments, a lower cost of transport compared to purely aerial vehicles, increased payload capacity, and a design that is more robust to collisions and physical interaction within potentially cluttered and narrow spaces. The design consists of a UAV with four independently actuated spherical wheels which, in addition to providing traction for ground mobility, protect the propellers in collision. In comparison to hybrid vehicles with passive wheels presented in other designs, actuated wheels mitigates perception degradation in dusty environments caused by downwash from thrusting close to the ground. In addition, the integration of an end...",
+      "authors": [
+        "Arash Kalantari",
+        "Thomas Touma",
+        "Leon Kim",
+        "Rianna Jitosho",
+        "Kyle Strickland",
+        "Brett T. Lopez",
+        "Ali–akbar Agha–mohammadi"
+      ]
+    },
+    {
+      "title": "Robust Adaptive Control Barrier Functions: An Adaptive and Data-Driven Approach to Safety",
+      "publication_year": 2020,
+      "publication_date": "2020-06-30",
+      "doi": "https://doi.org/10.1109/lcsys.2020.3005923",
+      "venue": "IEEE Control Systems Letters",
+      "type": "article",
+      "cited_by_count": 190,
+      "is_oa": true,
+      "oa_url": "https://hdl.handle.net/1721.1/135249",
+      "concepts": [
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Adaptive control",
+        "Computer science",
+        "Parametric statistics",
+        "Unification",
+        "Invertible matrix",
+        "Aerodynamics"
+      ],
+      "abstract": "A new framework is developed for control of constrained nonlinear systems with structured parametric uncertainty. Forward invariance of a safe set is achieved through online parameter adaptation and data-driven model estimation. The new adaptive data-driven safety paradigm is merged with a recent adaptive controller for systems nominally contracting in closed-loop. This unification is more general than other safety controllers as contraction does not require the system be invertible or in a particular form. The method is tested on the pitch dynamics of an aircraft with uncertain nonlinear aerodynamics.",
+      "authors": [
+        "Brett T. Lopez",
+        "Jean-Jacques Slotine",
+        "Jonathan P. How"
+      ]
+    },
+    {
+      "title": "Aggressive collision avoidance with limited field-of-view sensing",
+      "publication_year": 2017,
+      "publication_date": "2017-09-01",
+      "doi": "https://doi.org/10.1109/iros.2017.8202314",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Collision avoidance",
+        "Clutter",
+        "Computer science",
+        "Motion planning",
+        "Computation",
+        "Key (lock)",
+        "Constraint (computer-aided design)",
+        "Computer vision"
+      ],
+      "abstract": "Quadrotors that navigate through unknown, cluttered environments have only recently begun to emerge following the development of small form-factor sensing and computing hardware and computationally efficient collision avoidance algorithms. Computation time of planning algorithms has significantly decreased in part to using local information as opposed to using a global map for collision avoidance. Safe planning with local information, however, restricts the direction of travel to remain within the perception system's field-of-view (FOV). The vehicle's motion becomes more constrained with body-mounted narrow FOV sensors, reducing vehicle maneuverability and speed. This work presents a relaxed-constraint Model Predictive Control framework that allows motions outside the perception FOV with guaranteed safety. The key aspect of this approach is the ability to safely choose a motion primitive generated in the past. Simulation and hardware results shows the new framework improves time to goal and flight path efficiency in environments with varying levels of clutter.",
+      "authors": [
+        "Brett T. Lopez",
+        "Jonathan P. How"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "New Insights into Cascaded Geometric Flight Control: From Performance Guarantees to Practical Pitfalls",
+      "publication_year": 2025,
+      "publication_date": "2025-12-30",
+      "doi": "https://doi.org/10.48550/arxiv.2512.24377",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2512.24377",
+      "concepts": [
+        "Control theory (sociology)",
+        "Position (finance)",
+        "Trajectory",
+        "Tracking (education)",
+        "Stability (learning theory)",
+        "Controller (irrigation)",
+        "Tracking error",
+        "Computer science"
+      ],
+      "abstract": "We present a new stability proof for cascaded geometric control used by aerial vehicles tracking time-varying position trajectories. Our approach uses sliding variables and a recently proposed quaternion-based sliding controller to demonstrate that exponentially convergent position trajectory tracking is theoretically possible. Notably, our analysis reveals new aspects of the control strategy, including how tracking error in the attitude loop influences the position loop, how model uncertainties affect the closed-loop system, and the practical pitfalls of the control architecture.",
+      "authors": [
+        "Brett T. Lopez"
+      ]
+    },
+    {
+      "title": "New Insights into Cascaded Geometric Flight Control: From Performance Guarantees to Practical Pitfalls",
+      "publication_year": 2025,
+      "publication_date": "2025-12-30",
+      "doi": "http://arxiv.org/abs/2512.24377",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.24377",
+      "concepts": [
+        "Control theory (sociology)",
+        "Position (finance)",
+        "Trajectory",
+        "Tracking (education)",
+        "Stability (learning theory)",
+        "Controller (irrigation)",
+        "Tracking error",
+        "Computer science"
+      ],
+      "abstract": "We present a new stability proof for cascaded geometric control used by aerial vehicles tracking time-varying position trajectories. Our approach uses sliding variables and a recently proposed quaternion-based sliding controller to demonstrate that exponentially convergent position trajectory tracking is theoretically possible. Notably, our analysis reveals new aspects of the control strategy, including how tracking error in the attitude loop influences the position loop, how model uncertainties affect the closed-loop system, and the practical pitfalls of the control architecture.",
+      "authors": [
+        "Brett T. Lopez"
+      ]
+    },
+    {
+      "title": "Capturing Tumbling Objects in Orbit with Adaptive Tube Model Predictive Control",
+      "publication_year": 2025,
+      "publication_date": "2025-03-01",
+      "doi": "https://doi.org/10.1109/aero63441.2025.11068695",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://escholarship.org/content/qt9k94w7gn/qt9k94w7gn.pdf",
+      "concepts": [
+        "Model predictive control",
+        "Orbit (dynamics)",
+        "Computer science",
+        "Tube (container)",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Artificial intelligence",
+        "Engineering"
+      ],
+      "abstract": "There is a growing need for sophisticated rendezvous and docking guidance algorithms capable of capturing tumbling, noncooperative objects, e.g., space debris, before they collide with other spacecraft. This capability entails sending a chaser (specialized spacecraft) that attaches to the target (tumbling object) to stabilize or deorbit the noncooperative asset. While rendezvous and docking with cooperative objects has been possible for several decades, advanced strategies for tumbling objects that account for uncertainties in the model parameters of either the chaser or target are still under development. We propose the use of adaptive dynamic tube model predictive control (ADTMPC) for trajectory planning of the chaser for rendezvous and docking with the target. Traditionally, the presence of model uncertainty requires the use of robust guidance techniques that are often conservative, leading to suboptimal performance. The main advantage of our approach is the ability to safely update the prediction model online leading to less conservative trajectories and behaviors without violating safety constraints that include time-varying collision constraints and other standard state or...",
+      "authors": [
+        "Aaron John-Sabu",
+        "Brett T. Lopez"
+      ]
+    },
+    {
+      "title": "High-Order Matrix Control Barrier Functions: Well-Posedness and Feasibility via Matrix Relative Degree",
+      "publication_year": 2026,
+      "publication_date": "2026-04-03",
+      "doi": "https://doi.org/10.48550/arxiv.2604.03450",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.03450",
+      "concepts": [
+        "Scalar (mathematics)",
+        "Control theory (sociology)",
+        "Eigenvalues and eigenvectors",
+        "Matrix (chemical analysis)",
+        "Positive definiteness",
+        "Mathematics",
+        "Control (management)",
+        "Nonlinear system"
+      ],
+      "abstract": "Control barrier functions (CBFs) provide an effective framework for enforcing safety in dynamical systems with scalar constraints. However, many safety constraints are more naturally expressed as matrix-valued conditions, such as positive definiteness or eigenvalue bounds - scalar formulations introduce potential nonsmoothness that complicates analysis. Matrix control barrier functions (MCBFs) address this limitation by directly enforcing matrix-valued safety constraints. Yet for constraints where the control input does not appear in the first derivative, high-order formulations are required. While such extensions are well understood in the scalar case, they remain largely unexplored in the matrix case. This paper develops high-order matrix control barrier functions (HOMCBFs) and establishes conditions ensuring well-posedness and feasibility of the associated constraints, enabling enforcement of matrix-valued safety constraints for systems with high-order dynamics. We further show that, using an optimal-decay HOMCBF formulation, forward invariance can be ensured while requiring control only over the minimum eigenspace. The framework is demonstrated on a localization safety probl...",
+      "authors": [
+        "Samuel G. Gessow",
+        "Pio Ong",
+        "Aaron D. Ames",
+        "Brett T. Lopez"
+      ]
+    },
+    {
+      "title": "High-Order Matrix Control Barrier Functions: Well-Posedness and Feasibility via Matrix Relative Degree",
+      "publication_year": 2026,
+      "publication_date": "2026-04-03",
+      "doi": "http://arxiv.org/abs/2604.03450",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.03450",
+      "concepts": [
+        "Scalar (mathematics)",
+        "Control theory (sociology)",
+        "Eigenvalues and eigenvectors",
+        "Matrix (chemical analysis)",
+        "Positive definiteness",
+        "Mathematics",
+        "Control (management)",
+        "Nonlinear system"
+      ],
+      "abstract": "Control barrier functions (CBFs) provide an effective framework for enforcing safety in dynamical systems with scalar constraints. However, many safety constraints are more naturally expressed as matrix-valued conditions, such as positive definiteness or eigenvalue bounds - scalar formulations introduce potential nonsmoothness that complicates analysis. Matrix control barrier functions (MCBFs) address this limitation by directly enforcing matrix-valued safety constraints. Yet for constraints where the control input does not appear in the first derivative, high-order formulations are required. While such extensions are well understood in the scalar case, they remain largely unexplored in the matrix case. This paper develops high-order matrix control barrier functions (HOMCBFs) and establishes conditions ensuring well-posedness and feasibility of the associated constraints, enabling enforcement of matrix-valued safety constraints for systems with high-order dynamics. We further show that, using an optimal-decay HOMCBF formulation, forward invariance can be ensured while requiring control only over the minimum eigenspace. The framework is demonstrated on a localization safety probl...",
+      "authors": [
+        "Samuel G. Gessow",
+        "Pio Ong",
+        "Aaron D. Ames",
+        "Brett T. Lopez"
+      ]
+    }
+  ]
+}

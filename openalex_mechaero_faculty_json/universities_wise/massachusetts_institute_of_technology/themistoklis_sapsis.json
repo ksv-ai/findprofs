@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Themistoklis Sapsis",
+  "full_name": "Themistoklis P. Sapsis",
+  "department": "Department of Mechanical Engineering",
+  "university": "Massachusetts Institute of Technology",
+  "author_id": "A5037328807",
+  "works_count": 279,
+  "cited_by_count": 5084,
+  "h_index": 39,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 52
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 47
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 40
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 27
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Data-driven forecasting of high-dimensional chaotic systems with long short-term memory networks",
+      "publication_year": 2018,
+      "publication_date": "2018-05-01",
+      "doi": "https://orcid.org/0000-0001-7264-3628",
+      "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+      "type": "preprint",
+      "cited_by_count": 439,
+      "is_oa": true,
+      "oa_url": "https://orcid.org/0000-0001-7264-3628",
+      "concepts": [
+        "Term (time)",
+        "Chaotic",
+        "Computer science",
+        "Long short term memory",
+        "Statistical physics",
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Physics"
+      ],
+      "abstract": "We introduce a data-driven forecasting method for high-dimensional chaotic systems using long shortterm memory (LSTM) recurrent neural networks. The proposed LSTM neural networks perform inference of high-dimensional dynamical systems in their reduced order space and are shown to be an effective set of nonlinear approximators of their attractor. We demonstrate the forecasting performance of the LSTM and compare it with Gaussian processes (GPS) in time series obtained from the Lorenz 96 system, the Kuramoto-Sivashinsky equation and a prototype climate model. The LSTM networks outperform the GPS in short-Term forecasting accuracy in all applications considered. A hybrid architecture, extending the LSTM with a mean stochastic model (MSM-LSTM), is proposed to ensure convergence to the invariant measure. This novel hybrid method is fully data-driven and extends the forecasting capabilities of LSTM networks.",
+      "authors": [
+        "Pantelis R. Vlachas",
+        "Wonmin Byeon",
+        "Petros Koumoutsakos",
+        "Zhong Wan",
+        "Themistoklis P. Sapsis"
+      ]
+    },
+    {
+      "title": "Dynamically orthogonal field equations for continuous stochastic dynamical systems",
+      "publication_year": 2009,
+      "publication_date": "2009-09-25",
+      "doi": "https://doi.org/10.1016/j.physd.2009.09.017",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 260,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stochastic partial differential equation",
+        "Mathematics",
+        "Stochastic differential equation",
+        "Dynamical systems theory",
+        "Applied mathematics",
+        "Partial differential equation",
+        "Differential equation",
+        "Independent equation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Themistoklis P. Sapsis",
+        "Pierre F. J. Lermusiaux"
+      ]
+    },
+    {
+      "title": "Data-assisted reduced-order modeling of extreme events in complex dynamical systems",
+      "publication_year": 2018,
+      "publication_date": "2018-05-24",
+      "doi": "https://doi.org/10.1371/journal.pone.0197704",
+      "venue": "PLoS ONE",
+      "type": "article",
+      "cited_by_count": 228,
+      "is_oa": true,
+      "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197704&type=printable",
+      "concepts": [
+        "Computer science",
+        "Dynamical systems theory",
+        "Attractor",
+        "Curse of dimensionality",
+        "Representation (politics)",
+        "Dimensionality reduction",
+        "Subspace topology",
+        "Imperfect"
+      ],
+      "abstract": "The prediction of extreme events, from avalanches and droughts to tsunamis and epidemics, depends on the formulation and analysis of relevant, complex dynamical systems. Such dynamical systems are characterized by high intrinsic dimensionality with extreme events having the form of rare transitions that are several standard deviations away from the mean. Such systems are not amenable to classical order-reduction methods through projection of the governing equations due to the large intrinsic dimensionality of the underlying attractor as well as the complexity of the transient events. Alternatively, data-driven techniques aim to quantify the dynamics of specific, critical modes by utilizing data-streams and by expanding the dimensionality of the reduced-order model using delayed coordinates. In turn, these methods have major limitations in regions of the phase space with sparse data, which is the case for extreme events. In this work, we develop a novel hybrid framework that complements an imperfect reduced order model, with data-streams that are integrated though a recurrent neural network (RNN) architecture. The reduced order model has the form of projected equations into a low...",
+      "authors": [
+        "Zhong Wan",
+        "Pantelis R. Vlachas",
+        "Petros Koumoutsakos",
+        "Themistoklis P. Sapsis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Risk-Sensitive Learning in Population Games under Extreme Events: Bifurcations and Chaotic Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-29",
+      "doi": "https://doi.org/10.48550/arxiv.2606.29967",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.29967",
+      "concepts": [
+        "Attractor",
+        "Chaotic",
+        "Statistical physics",
+        "Population",
+        "Bifurcation",
+        "Invariant (physics)",
+        "Mathematics",
+        "Nonlinear system"
+      ],
+      "abstract": "Inspired by nonequilibrium phenomena in game dynamics and behavioral evidence on the impact of extreme events on decision making, we investigate the nonlinear dynamics of a discrete-time multiagent learning rule in population congestion games under extreme events affecting one of the actions. The population state, following a risk-sensitive variant of the Multiplicative Weights Update (MWU), is coupled with a belief variable capturing the agents perceived risk and updated through an adaptive expectation rule. We perform a two-parameter bifurcation analysis with respect to the agents controlled parameters, identifying regions of qualitatively distinct behavior. Equilibria are studied first from both game-theoretic and dynamical perspectives. The resulting two-dimensional system exhibits complex behavior, including multi-stability among fixed points, invariant curves, periodic and chaotic attractors. Despite this complexity, the attractors can be grouped into distinct families, while the Cesàro averages of the trajectories are shown to converge to the stationary equilibrium. The incorporation of risk associated with the extreme event leads to new dynamical phenomena: attracting in...",
+      "authors": [
+        "Konstantinos Metaxas",
+        "Themistoklis P. Sapsis"
+      ]
+    },
+    {
+      "title": "Risk-Sensitive Learning in Population Games under Extreme Events: Bifurcations and Chaotic Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-29",
+      "doi": "https://arxiv.org/abs/2606.29967",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.29967",
+      "concepts": [
+        "Attractor",
+        "Chaotic",
+        "Statistical physics",
+        "Population",
+        "Bifurcation",
+        "Invariant (physics)",
+        "Mathematics",
+        "Nonlinear system"
+      ],
+      "abstract": "Inspired by nonequilibrium phenomena in game dynamics and behavioral evidence on the impact of extreme events on decision making, we investigate the nonlinear dynamics of a discrete-time multiagent learning rule in population congestion games under extreme events affecting one of the actions. The population state, following a risk-sensitive variant of the Multiplicative Weights Update (MWU), is coupled with a belief variable capturing the agents perceived risk and updated through an adaptive expectation rule. We perform a two-parameter bifurcation analysis with respect to the agents controlled parameters, identifying regions of qualitatively distinct behavior. Equilibria are studied first from both game-theoretic and dynamical perspectives. The resulting two-dimensional system exhibits complex behavior, including multi-stability among fixed points, invariant curves, periodic and chaotic attractors. Despite this complexity, the attractors can be grouped into distinct families, while the Cesàro averages of the trajectories are shown to converge to the stationary equilibrium. The incorporation of risk associated with the extreme event leads to new dynamical phenomena: attracting in...",
+      "authors": [
+        "Konstantinos Metaxas",
+        "Themistoklis P. Sapsis"
+      ]
+    },
+    {
+      "title": "Predicting Ocean Flow from Observed Lagrangian Trajectories via Bayesian Optimization in the Latent Space of an Autoencoder-Based Reduced-Order Model",
+      "publication_year": 2026,
+      "publication_date": "2026-04-29",
+      "doi": "https://doi.org/10.1175/aies-d-25-0124.1",
+      "venue": "Artificial Intelligence for the Earth Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drifter",
+        "Autoencoder",
+        "Computer science",
+        "Flow (mathematics)",
+        "Data assimilation",
+        "Bayesian inference",
+        "Trajectory",
+        "Bayesian probability"
+      ],
+      "abstract": "Abstract Accurate and computationally efficient modeling of ocean currents is important for understanding and monitoring the dispersion of marine pollution. Passive floating Lagrangian drifters, equipped with global positioning systems (GPSs), are a low-cost approach to tracking surface flow. However, assimilating drifter observations into comprehensive ocean models remains challenging, and these models require calibration of parameters and are often too computationally intensive for real-time or operational use. We introduce a Lagrangian data assimilation method that leverages machine learning techniques to enable computationally efficient ocean flow modeling. We first use reanalysis data to train an autoencoder to build a reduced-order model that extracts low-dimensional representations of the high-dimensional flow field. The decoder serves as a generative model, producing plausible flow fields from samples drawn from the autoencoder latent space. We then apply Bayesian optimization to minimize a cost function, defined in the low-dimensional latent space, that measures the discrepancy between observed trajectories and model-generated trajectories. Our approach is demonstrated ...",
+      "authors": [
+        "Bianca Champenois",
+        "Themistoklis P. Sapsis"
+      ]
+    },
+    {
+      "title": "Dynamics-Informed Deep Learning for Predicting Extreme Events",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "https://doi.org/10.48550/arxiv.2603.10777",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.10777",
+      "concepts": [
+        "Extreme learning machine",
+        "Computer science",
+        "Event (particle physics)",
+        "Lyapunov exponent",
+        "Identification (biology)",
+        "Artificial intelligence",
+        "Transient (computer programming)",
+        "Chaotic"
+      ],
+      "abstract": "Predicting extreme events in high-dimensional chaotic dynamical systems remains a fundamental challenge, as such events are rare, intermittent, and arise from transient dynamical mechanisms that are difficult to infer from limited observations. Accordingly, real-time forecasting calls for precursors that encode the mechanisms driving extremes, rather than relying solely on statistical associations. We propose a fully data-driven framework for long-lead prediction of extreme events that constructs interpretable, mechanism-aware precursors by explicitly tracking transient instabilities preceding event onset. The approach leverages a reduced-order formulation to compute finite-time Lyapunov exponent (FTLE)-like precursors directly from state snapshots, without requiring knowledge of the governing equations. To avoid the prohibitive computational cost of classical FTLE computation, instability growth is evaluated in an adaptively evolving low-dimensional subspace spanned by Optimal Time-Dependent (OTD) modes, enabling efficient identification of transiently amplifying directions. These precursors are then provided as input to a Transformer-based model, enabling forecast of extreme e...",
+      "authors": [
+        "Eirini Katsidoniotaki",
+        "Themistoklis P. Sapsis"
+      ]
+    },
+    {
+      "title": "Dynamics-Informed Deep Learning for Predicting Extreme Events",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "http://arxiv.org/abs/2603.10777",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.10777",
+      "concepts": [
+        "Extreme learning machine",
+        "Computer science",
+        "Event (particle physics)",
+        "Lyapunov exponent",
+        "Identification (biology)",
+        "Artificial intelligence",
+        "Transient (computer programming)",
+        "Chaotic"
+      ],
+      "abstract": "Predicting extreme events in high-dimensional chaotic dynamical systems remains a fundamental challenge, as such events are rare, intermittent, and arise from transient dynamical mechanisms that are difficult to infer from limited observations. Accordingly, real-time forecasting calls for precursors that encode the mechanisms driving extremes, rather than relying solely on statistical associations. We propose a fully data-driven framework for long-lead prediction of extreme events that constructs interpretable, mechanism-aware precursors by explicitly tracking transient instabilities preceding event onset. The approach leverages a reduced-order formulation to compute finite-time Lyapunov exponent (FTLE)-like precursors directly from state snapshots, without requiring knowledge of the governing equations. To avoid the prohibitive computational cost of classical FTLE computation, instability growth is evaluated in an adaptively evolving low-dimensional subspace spanned by Optimal Time-Dependent (OTD) modes, enabling efficient identification of transiently amplifying directions. These precursors are then provided as input to a Transformer-based model, enabling forecast of extreme e...",
+      "authors": [
+        "Eirini Katsidoniotaki",
+        "Themistoklis P. Sapsis"
+      ]
+    }
+  ]
+}

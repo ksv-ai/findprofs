@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Matthias Heinkenschloss",
+  "full_name": "Matthias Heinkenschloss",
+  "department": "Department of Computational Applied Mathematics and Operations Research",
+  "university": "Rice University",
+  "author_id": "A5070192811",
+  "works_count": 125,
+  "cited_by_count": 2813,
+  "h_index": 32,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 37
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 31
+    },
+    {
+      "topic": "Advanced Optimization Algorithms Research",
+      "count": 24
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 21
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Shape optimization in steady blood flow: A numerical study of non-Newtonian effects",
+      "publication_year": 2005,
+      "publication_date": "2005-04-01",
+      "doi": "https://doi.org/10.1080/10255840500180799",
+      "venue": "Computer Methods in Biomechanics & Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 181,
+      "is_oa": true,
+      "oa_url": "http://mediatum.ub.tum.de/node?id=1081752",
+      "concepts": [
+        "Generalized Newtonian fluid",
+        "Newtonian fluid",
+        "Mechanics",
+        "Shear thinning",
+        "Shape optimization",
+        "Non-Newtonian fluid",
+        "Shear rate",
+        "Computation"
+      ],
+      "abstract": "This paper presents a numerical study of non-Newtonian effects on the solution of shape optimization problems involving unsteady pulsatile blood flow. We consider an idealized two dimensional arterial graft geometry. Our computations are based on the Navier-Stokes equations generalized to non-Newtonian fluid, with the modified Cross model employed to account for the shear-thinning behavior of blood. Using a gradient-based optimization algorithm, we compare the optimal shapes obtained using both the Newtonian and generalized Newtonian constitutive equations. Depending on the shear rate prevalent in the domain, substantial differences in the flow as well as in the computed optimal shape are observed when the Newtonian constitutive equation is replaced by the modified Cross model. By varying a geometric parameter in our test case, we investigate the influence of the shear rate on the solution.",
+      "authors": [
+        "Feby Abraham",
+        "Marek Behr",
+        "Matthias Heinkenschloss"
+      ]
+    },
+    {
+      "title": "Balanced Truncation Model Reduction for a Class of Descriptor Systems with Application to the Oseen Equations",
+      "publication_year": 2008,
+      "publication_date": "2008-01-01",
+      "doi": "https://doi.org/10.1137/070681910",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 145,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Truncation (statistics)",
+        "Computation",
+        "Truncation error",
+        "Reduction (mathematics)",
+        "Applied mathematics",
+        "Projection (relational algebra)",
+        "Ordinary differential equation"
+      ],
+      "abstract": "We discuss the computation of balanced truncation model reduction for a class of descriptor systems which include the semidiscrete Oseen equations with time-independent advection and the linearized Navier–Stokes equations, linearized around a steady state. The purpose of this paper is twofold. First, we show how to apply standard balanced truncation model reduction techniques, which apply to dynamical systems given by ordinary differential equations, to this class of descriptor systems. This is accomplished by eliminating the algebraic equation using a projection. The second objective of this paper is to demonstrate how the important class of ADI/Smith-type methods for the approximate computation of reduced order models using balanced truncation can be applied without explicitly computing the aforementioned projection. Instead, we utilize the solution of saddle point problems. We demonstrate the effectiveness of the technique in the computation of reduced order models for semidiscrete Oseen equations.",
+      "authors": [
+        "Matthias Heinkenschloss",
+        "Danny C. Sorensen",
+        "Kai Sun"
+      ]
+    },
+    {
+      "title": "Trust-Region Interior-Point SQP Algorithms for a Class of Nonlinear Programming Problems",
+      "publication_year": 1998,
+      "publication_date": "1998-01-01",
+      "doi": "https://doi.org/10.1137/s036012995279031",
+      "venue": "SIAM Journal on Control and Optimization",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Karush–Kuhn–Tucker conditions",
+        "Mathematics",
+        "Sequential quadratic programming",
+        "Interior point method",
+        "Mathematical optimization",
+        "Quadratic programming",
+        "Limit point",
+        "Nonlinear programming"
+      ],
+      "abstract": "In this paper, a family of trust-region interior-point sequential quadratic programming (SQP) algorithms for the solution of a class of minimization problems with nonlinear equality constraints and simple bounds on some of the variables is described and analyzed. Such nonlinear programs arise, e.g., from the discretization of optimal control problems. The algorithms treat states and controls as independent variables. They are designed to take advantage of the structure of the problem. In particular they do not rely on matrix factorizations of the linearized constraints but use solutions of the linearized state equation and the adjoint equation. They are well suited for large scale problems arising from optimal control problems governed by partial differential equations. The algorithms keep strict feasibility with respect to the bound constraints by using an affine scaling method proposed, for a different class of problems, by Coleman and Li [SIAM J. Optim., 6 (1996), pp. 418--445] and they exploit trust-region techniques for equality-constrained optimization. Thus, they allow the computation of the steps using a variety of methods, including many iterative techniques. Global con...",
+      "authors": [
+        "J. E. Dennis",
+        "Matthias Heinkenschloss",
+        "L. N. Vicente"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Rigor Over Hype: What Foundation Model Should Mean in Computational Science",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/mcse.2026.3695442",
+      "venue": "Computing in Science & Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Foundation (evidence)",
+        "Computational model",
+        "Management science",
+        "Mathematics",
+        "Calculus (dental)",
+        "Work (physics)",
+        "Artificial intelligence"
+      ],
+      "abstract": "The termfoundation modelis rapidly entering scientific machine learning, yet its meaning in computational science remains inconsistent. Models are increasingly labeled foundational without evidence of broad generalization across physical systems, geometries, boundary/initial conditions, tasks, or operating regimes. We propose a definition of foundation models tailored to computational science and identify core and desirable characteristics, drawing inspiration from classical foundational methods (FEM/FVM/FDM) that achieve wide reuse through problem-independent structure and principled enforcement of governing equations. We argue that scientific foundation models face unique barriers relative to language and vision models, including field-valued data, mesh and geometry dependence, heterogeneous physics, expensive adaptation, limited benchmarks, and strict requirements for interpretability and physical consistency. To make claims measurable, we introduce a reviewer- and author-friendly checklist for reporting training breadth, generalization axes, adaptation cost, extrapolation protocols, and scientific consistency checks. We also highlight a constructive hybrid path: local learni...",
+      "authors": [
+        "Youngsoo Choi",
+        "Siu Wun Cheung",
+        "Youngkyu Kim",
+        "Ping-Hsuan Tsai",
+        "Alejandro N. Diaz",
+        "Ivan Zanardi",
+        "Seung Whan Chung",
+        "Dylan Copeland",
+        "Coleman Kendrick",
+        "William Anderson",
+        "Xiaolong He",
+        "Traian Iliescu",
+        "Matthias Heinkenschloss"
+      ]
+    },
+    {
+      "title": "Sensitivity of ODE Solutions and Quantities of Interest with Respect to Component Functions in the Dynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-10-09",
+      "doi": "https://doi.org/10.1137/25m1729563",
+      "venue": "SIAM Journal on Numerical Analysis",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Ode",
+        "Sensitivity (control systems)",
+        "Component (thermodynamics)",
+        "Applied mathematics",
+        "Dynamics (music)",
+        "Mathematical analysis",
+        "Function (biology)"
+      ],
+      "abstract": "Abstract. This work analyzes the sensitivities of the solution of a system of ordinary differential equations (ODEs) and a corresponding quantity of interest (QoI) to perturbations in a state-dependent component function that appears in the governing ODEs. This extends existing ODE sensitivity results, which consider the sensitivity of the ODE solution with respect to state-independent parameters. It is shown that with Carathéodory-type assumptions on the ODEs, the implicit function theorem can be applied to establish continuous Fréchet differentiability of the ODE solution with respect to the component function. These sensitivities are used to develop new estimates for the change in the ODE solution or QoI when the component function is perturbed. In applications, this new sensitivity-based bound on the ODE solution or QoI error is often much tighter than classical Gronwall-type error bounds. The sensitivity-based error bounds are applied to a trajectory simulation for a hypersonic vehicle.",
+      "authors": [
+        "Jonathan R. Cangelosi",
+        "Matthias Heinkenschloss"
+      ]
+    },
+    {
+      "title": "A Generalized $\\ell_1$-Merit Function SQP Method Using Function Approximations with Tunable Accuracy",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.48550/arxiv.2507.06199",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.06199",
+      "concepts": [
+        "Sequential quadratic programming",
+        "Mathematics",
+        "Mathematical optimization",
+        "Discretization",
+        "Constraint (computer-aided design)",
+        "Error function",
+        "Function (biology)",
+        "Generalization"
+      ],
+      "abstract": "This paper develops a generalization of the line-search sequential quadratic programming (SQP) algorithm with $\\ell_1$-merit function that uses objective and constraint function approximations with tunable accuracy to solve smooth equality-constrained optimization problems. The evaluation of objective and constraint functions and their gradients is potentially computationally expensive, but it is assumed that one can construct effective, computationally inexpensive models of these functions. This paper specifies how these models can be used to generate new iterates. At each iteration, the models have to satisfy function error and relative gradient error tolerances determined by the algorithm based on its progress. Moreover, bounds for the model errors are used to explore regions where the combined objective function and constraint models are sufficiently accurate. The algorithm has the same first-order global convergence properties as a line-search SQP algorithm with $\\ell_1$-merit function, but only uses objective and constraint function models and the model error bounds. The algorithm is applied to a discretized boundary control problem in which the evaluation of the objective...",
+      "authors": [
+        "Dane S. Grundvig",
+        "Matthias Heinkenschloss"
+      ]
+    },
+    {
+      "title": "Optimization problems governed by systems of PDEs with uncertainties",
+      "publication_year": 2025,
+      "publication_date": "2025-07-01",
+      "doi": "https://doi.org/10.1017/s0962492925000029",
+      "venue": "Acta Numerica",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AA58A4CF702C05F375F12242C8833C46/S0962492925000029a.pdf/div-class-title-optimization-problems-governed-by-systems-of-pdes-with-uncertainties-div.pdf",
+      "concepts": [
+        "Computer science",
+        "Mathematical optimization",
+        "Applied mathematics",
+        "Mathematics"
+      ],
+      "abstract": "This paper reviews current theoretical and numerical approaches to optimization problems governed by partial differential equations (PDEs) that depend on random variables or random fields. Such problems arise in many engineering, science, economics and societal decision-making tasks. This paper focuses on problems in which the governing PDEs are parametrized by the random variables/fields, and the decisions are made at the beginning and are not revised once uncertainty is revealed. Examples of such problems are presented to motivate the topic of this paper, and to illustrate the impact of different ways to model uncertainty in the formulations of the optimization problem and their impact on the solution. A linear–quadratic elliptic optimal control problem is used to provide a detailed discussion of the set-up for the risk-neutral optimization problem formulation, study the existence and characterization of its solution, and survey numerical methods for computing it. Different ways to model uncertainty in the PDE-constrained optimization problem are surveyed in an abstract setting, including risk measures, distributionally robust optimization formulations, probabilistic functions...",
+      "authors": [
+        "Matthias Heinkenschloss",
+        "Drew Kouri"
+      ]
+    },
+    {
+      "title": "Sensitivity of Optimal Control Solutions and Quantities of Interest with Respect to Component Functions",
+      "publication_year": 2025,
+      "publication_date": "2025-06-12",
+      "doi": "https://doi.org/10.48550/arxiv.2506.10804",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.10804",
+      "concepts": [
+        "Sensitivity (control systems)",
+        "Component (thermodynamics)",
+        "Optimal control",
+        "Mathematics",
+        "Function (biology)",
+        "Trajectory",
+        "Differentiable function",
+        "Work (physics)"
+      ],
+      "abstract": "This work establishes sensitivities of the solution of an optimal control problem (OCP) and a corresponding quantity of interest (QoI) to perturbations in a state/control-dependent component function that appears in the governing ODEs and the objective function. This extends existing OCP sensitivity results, which consider the sensitivity of the OCP solution with respect to state/control-independent parameters. It is shown that with Carathéodory-type assumptions, the Implicit Function Theorem can be applied to establish continuous Fréchet differentiability of the OCP solution with respect to the component function. These sensitivities are used to develop new estimates for the change in the QoI when the component function is perturbed. Applicability of the theoretical results is demonstrated on a trajectory optimization problem for a hypersonic vehicle.",
+      "authors": [
+        "Jonathan R. Cangelosi",
+        "Matthias Heinkenschloss"
+      ]
+    }
+  ]
+}

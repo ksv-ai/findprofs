@@ -1,0 +1,276 @@
+{
+  "faculty_name": "Tim Colonius",
+  "full_name": "Tim Colonius",
+  "department": "Department of Mechanical and Civil Engineering / GALCIT",
+  "university": "California Institute of Technology",
+  "author_id": "A5033274288",
+  "works_count": 580,
+  "cited_by_count": 19700,
+  "h_index": 63,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 289
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 194
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 102
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 101
+    },
+    {
+      "topic": "Ultrasound and Cavitation Phenomena",
+      "count": 71
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Model reduction for compressible flows using POD and Galerkin projection",
+      "publication_year": 2003,
+      "publication_date": "2003-12-09",
+      "doi": "https://doi.org/10.1016/j.physd.2003.03.001",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 805,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Projection (relational algebra)",
+        "Galerkin method",
+        "Mach number",
+        "Compressible flow",
+        "Compressibility",
+        "Kinematics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Richard M. Murray"
+      ]
+    },
+    {
+      "title": "The immersed boundary method: A projection approach",
+      "publication_year": 2007,
+      "publication_date": "2007-03-20",
+      "doi": "https://doi.org/10.1016/j.jcp.2007.03.005",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 675,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Projection method",
+        "Mathematical analysis",
+        "Boundary value problem",
+        "Lagrange multiplier",
+        "Immersed boundary method",
+        "Boundary (topology)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Tim Colonius"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nonlinear Disturbance Evolution in Boundary Layers Using a Recursive One-Way Navier-Stokes Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4162",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Boundary (topology)",
+        "Applied mathematics",
+        "Disturbance (geology)",
+        "Control theory (sociology)",
+        "Mathematics",
+        "Stability (learning theory)",
+        "Boundary value problem"
+      ],
+      "abstract": "The Nonlinear One-Way Navier-Stokes (NOWNS) equations have been demonstrated to accurately evolve the early stages of boundary-layer transition, relative to direct numerical simulation (DNS), for low-speed flows. While NOWNS entails a higher computational cost than the nonlinear parabolized stability equations (NPSE), it is a more robust one-way approximation that accommodates forcing, converges for larger disturbance amplitudes, and accurately evolves non-modal and multi-modal disturbances. NOWNS is based on the OWNS projection (OWNS-P) approach, while the OWNS recursive (OWNS-R) approach is a more recent development that entails a reduced computational cost compared to OWNS-P. OWNS-P solves the projected (one-way) equations, while OWNS-R solves the two-way equations and projects the resulting solution. To reduce the computational cost of NOWNS and improving its scalability, we adapt the NOWNS method to employ a recursive approach similar to OWNS-R. We reformulate OWNS-R as a project-then-solve approach which improves its performance in linear cases and enables robust solution in the nonlinear case. NOWNS-R is validated against DNS for low-speed oblique-wave breakdown and K-typ...",
+      "authors": [
+        "Michael K. Sleeman",
+        "Sam Glenn",
+        "Matthew T. Lakebrink",
+        "Tim Colonius"
+      ]
+    },
+    {
+      "title": "Receptivity Analysis of a Planar Wedge Geometry With Shock-Perturbation Interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4299",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geometry",
+        "Wedge (geometry)",
+        "Planar",
+        "Physics",
+        "Receptivity",
+        "Mathematical analysis",
+        "Optics",
+        "Mathematics"
+      ],
+      "abstract": "A shock-kinematic boundary condition (SKBC) formulation is developed for receptivity calculations of hypersonic boundary layers with attached shocks. The boundary condition is obtained from the linearized Rankine–Hugoniot equations by coupling the shock displacement to incoming and outgoing shock-normal characteristic amplitudes, and is incorporated into the linearized Navier–Stokes equations for analysis of Mach-6 flow over a 7 degree half-angle sharp tipped wedge. The formulation is used to study the response of the wedge boundary layer to two-dimensional slow acoustic, fast acoustic, vortical, and entropic disturbances incident on the shock. Parametric sweeps over incidence angle and forcing frequency show that the SKBC reproduces the expected branch-dependent shock transmission. Increasing frequency shifts the dominant amplified wall-pressure response upstream for all forcing classes. Vortical forcing generates a wall-pressure response indirectly, through shock processing and subsequent coupling to compressible post-shock disturbances, while entropic forcing primarily produces a convected thermodynamic disturbance with a weaker pressure signature except when the forcing freq...",
+      "authors": [
+        "Vishal Anantharaman",
+        "Omar Kamal",
+        "Tim Colonius"
+      ]
+    },
+    {
+      "title": "Learning Resolvent-Based Jet-Noise Models",
+      "publication_year": 2026,
+      "publication_date": "2026-05-20",
+      "doi": "https://doi.org/10.2514/6.2026-3307",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Resolvent",
+        "Mathematics",
+        "Representation (politics)",
+        "Applied mathematics",
+        "Observer (physics)",
+        "Statistical physics",
+        "Noise (video)"
+      ],
+      "abstract": "Global resolvent analysis provides an efficient representation of coherent structures in turbulent jets, but predictive noise modeling remains limited by the need to specify forcing statistics. We explore a data-driven approach in which local RANS-derived quantities are mapped to resolvent forcing correlations within a localized input–output framework that connects near-field regions to a global far-field observer arc. The forcing correlation matrix is constructed from frequency-dependent latent vectors produced by a neural network, ensuring a positive semi-definite model by design. Trained on isothermal round jets across a range of Mach numbers and evaluated on both interpolated and extrapolated conditions, the approach captures dominant self-correlated structure and reproduces key spectral trends, but fails to recover cross-spectral phase relationships between spatially separated regions. These results indicate that while localized, RANS-driven parameterizations of resolvent forcing are a plausible path forward, additional physical constraints are needed to obtain predictive models.",
+      "authors": [
+        "Ethan R. Eichberger",
+        "Tim Colonius"
+      ]
+    },
+    {
+      "title": "MFC 5.0: An exascale many-physics flow solver",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://doi.org/10.17632/8y55zscjd3.2",
+      "venue": "Mendeley Data",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.17632/8y55zscjd3.2",
+      "concepts": [
+        "Computational science",
+        "Solver",
+        "Computer science",
+        "Exascale computing",
+        "Scalability",
+        "Scaling",
+        "Software",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Many problems of interest in engineering, medicine, and the fundamental sciences rely on high-fidelity flow simulation, making performant computational fluid dynamics solvers a mainstay of the open-source software community. Previous work MFC 3.0 was made a published, documented, and open-source solver via Bryngelson et al. Comp. Phys. Comm. (2021) with numerous physical features, numerical methods, and scalable infrastructure. MFC 5.0 is a significant update to MFC 3.0, featuring a broad set of well-established and novel physical models and numerical methods, as well as the introduction of GPU and APU (or superchip) acceleration. We exhibit state-of-the-art performance and ideal scaling on the first two exascale supercomputers, OLCF Frontier and LLNL El Capitan. Combined with MFC’s single-accelerator performance, MFC achieves exascale computation in practice, and achieved the largest-to-date public CFD simulation at 200 trillion grid points as a 2025 ACM Gordon Bell Prize finalist. New physical features include the immersed boundary method, N-fluid phase change, Euler–Euler and Euler–Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic materials...",
+      "authors": [
+        "Benjamin Wilfong",
+        "Henry A. Le Berre",
+        "Anand Radhakrishnan",
+        "Ansh Vikram Gupta",
+        "Daniel J. Vickers",
+        "Diego Vaca-Revelo",
+        "Dimitrios Adam",
+        "Haocheng Yu",
+        "Hyeoksu Lee",
+        "José Rodolfo Chreim",
+        "Marcelo C. Barbosa",
+        "Yanjun Zhang",
+        "Esteban Cisneros–Garibay",
+        "Aswin Gnanaskandan",
+        "Mauro Rodriguez Jr",
+        "Reuben D. Budiardja",
+        "Stephen Abbott",
+        "Tim Colonius",
+        "Spencer H. Bryngelson"
+      ]
+    },
+    {
+      "title": "Band-Ensemble Spectral Proper Orthogonal Decomposition with Frequency Attribution",
+      "publication_year": 2026,
+      "publication_date": "2026-02-06",
+      "doi": "https://doi.org/10.48550/arxiv.2602.06588",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.06588",
+      "concepts": [
+        "Estimator",
+        "Mathematics",
+        "Spectral density",
+        "Algorithm",
+        "Spectral density estimation",
+        "Fourier transform",
+        "Set (abstract data type)",
+        "Variance (accounting)"
+      ],
+      "abstract": "This study presents band-ensemble Spectral Proper Orthogonal Decomposition (bSPOD). The approach is inspired by frequency smoothing, a method used to reduce estimator variance in power spectral density estimates, and is here extended to SPOD. The algorithm estimates SPOD modes from consecutive Fourier coefficients obtained from a single Fourier transform of the full time record and thus avoids time segmentation. In this study, bSPOD is applied to artificial test data and to a PIV data set of a broadband-tonal cavity flow. Compared to the more commonly used Welch-based SPOD formulation, bSPOD reduces spectral leakage, permits increased frequency resolution, and retains frequency information of tonal components at comparable computational cost. These features enable reduced estimator variance while maintaining low bias for tonal components, making bSPOD particularly effective for broadband-tonal flows.",
+      "authors": [
+        "Jakob G. R. von Saldern",
+        "Oliver T. Schmidt",
+        "Philipp Godbersen",
+        "J. Moritz Reumschüssel",
+        "Tim Colonius"
+      ]
+    }
+  ]
+}

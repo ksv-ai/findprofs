@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Inbae Jeong",
+  "full_name": "Inbae Jeong",
+  "department": "Department of Mechanical Engineering",
+  "university": "North Dakota State University",
+  "author_id": "A5051903099",
+  "works_count": 41,
+  "cited_by_count": 903,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Occupational Health and Safety Research",
+      "count": 10
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 8
+    },
+    {
+      "topic": "BIM and Construction Integration",
+      "count": 8
+    },
+    {
+      "topic": "Robotics and Automated Systems",
+      "count": 6
+    },
+    {
+      "topic": "Human-Automation Interaction and Safety",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Quick-RRT*: Triangular inequality-based implementation of RRT* with improved initial solution and convergence rate",
+      "publication_year": 2019,
+      "publication_date": "2019-01-09",
+      "doi": "https://doi.org/10.1016/j.eswa.2019.01.032",
+      "venue": "Expert Systems with Applications",
+      "type": "article",
+      "cited_by_count": 304,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Random tree",
+        "Mathematical optimization",
+        "Mathematics",
+        "Convergence (economics)",
+        "Algorithm",
+        "Computer science",
+        "Hypersphere",
+        "Set (abstract data type)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Inbae Jeong",
+        "Seungjae Lee",
+        "Jong-Hwan Kim"
+      ]
+    },
+    {
+      "title": "Multi-Camera-Based Human Activity Recognition for Human–Robot Collaboration in Construction",
+      "publication_year": 2023,
+      "publication_date": "2023-08-07",
+      "doi": "https://doi.org/10.3390/s23156997",
+      "venue": "Sensors",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1424-8220/23/15/6997/pdf?version=1691391082",
+      "concepts": [
+        "Human–robot interaction",
+        "Artificial intelligence",
+        "Computer science",
+        "Human–computer interaction",
+        "Computer vision",
+        "Activity recognition",
+        "Robot",
+        "Engineering"
+      ],
+      "abstract": "As the use of construction robots continues to increase, ensuring safety and productivity while working alongside human workers becomes crucial. To prevent collisions, robots must recognize human behavior in close proximity. However, single, or RGB-depth cameras have limitations, such as detection failure, sensor malfunction, occlusions, unconstrained lighting, and motion blur. Therefore, this study proposes a multiple-camera approach for human activity recognition during human-robot collaborative activities in construction. The proposed approach employs a particle filter, to estimate the 3D human pose by fusing 2D joint locations extracted from multiple cameras and applies long short-term memory network (LSTM) to recognize ten activities associated with human and robot collaboration tasks in construction. The study compared the performance of human activity recognition models using one, two, three, and four cameras. Results showed that using multiple cameras enhances recognition performance, providing a more accurate and reliable means of identifying and differentiating between various activities. The results of this study are expected to contribute to the advancement of human ...",
+      "authors": [
+        "Youjin Jang",
+        "Inbae Jeong",
+        "Moein Younesi Heravi",
+        "Sajib Sarkar",
+        "Hyunkyu Shin",
+        "Yonghan Ahn"
+      ]
+    },
+    {
+      "title": "Predicting human trust in human-robot collaborations using machine learning and psychophysiological responses",
+      "publication_year": 2024,
+      "publication_date": "2024-07-18",
+      "doi": "https://doi.org/10.1016/j.aei.2024.102720",
+      "venue": "Advanced Engineering Informatics",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Human–robot interaction",
+        "Robot",
+        "Artificial intelligence",
+        "Human–computer interaction",
+        "Computer science",
+        "Psychology",
+        "Machine learning",
+        "Knowledge management"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hardik Chauhan PhD",
+        "Youjin Jang",
+        "Inbae Jeong"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Assessing the Impact of Human–Robot Collaboration on Worker Productivity in Construction through Psychophysiological Response Analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-12-26",
+      "doi": "https://doi.org/10.1061/jcemd4.coeng-17093",
+      "venue": "Journal of Construction Engineering and Management",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Productivity",
+        "Psychology",
+        "Applied psychology",
+        "Cognition",
+        "Workspace",
+        "Valence (chemistry)",
+        "Engineering",
+        "Social psychology"
+      ],
+      "abstract": "Human–robot collaboration (HRC) presents a promising approach to addressing productivity and labor challenges in the construction industry. However, limited research has quantitatively explored how specific environmental and interaction-related factors influence productivity in construction-specific HRC scenarios. This study investigates the effects of workspace conditions (open versus closed environments) and robot engagement levels (no, low, high) on worker productivity, while also examining associated psychophysiological responses. A controlled virtual reality (VR) environment was used to simulate realistic construction tasks, and physiological data—including heart rate, electrodermal activity, skin temperature, and electroencephalography-based valence and arousal—were collected using biosensors. Results revealed that participants exhibited higher productivity in closed environments, likely due to reduced distractions and enhanced spatial control. Engagement levels with robots also significantly affected productivity, with direct human–robot interactions eliciting varying physiological and performance outcomes. Notably, changes in productivity were strongly associated with sh...",
+      "authors": [
+        "Hardik Chauhan PhD",
+        "Youjin Jang",
+        "Inbae Jeong"
+      ]
+    },
+    {
+      "title": "Thermal image-driven clothing insulation estimation using a fine-tuned multimodal large language model",
+      "publication_year": 2025,
+      "publication_date": "2025-11-14",
+      "doi": "https://doi.org/10.1016/j.enbuild.2025.116720",
+      "venue": "Energy and Buildings",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Inference",
+        "Clothing",
+        "Baseline (sea)",
+        "Robustness (evolution)",
+        "Artificial intelligence",
+        "RGB color model",
+        "HVAC"
+      ],
+      "abstract": "",
+      "authors": [
+        "Moein Younesi Heravi",
+        "Inbae Jeong",
+        "Youjin Jang"
+      ]
+    },
+    {
+      "title": "Human Pose Estimation Using Automated Multi-Camera Calibration",
+      "publication_year": 2025,
+      "publication_date": "2025-07-27",
+      "doi": "https://doi.org/10.22260/isarc2025/0197",
+      "venue": "Proceedings of the ... ISARC",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.iaarc.org/./publications/fulltext/197_Human_Pose_Estimation_Using_Automated_Multi-Camera_Calibration.pdf",
+      "concepts": [
+        "Computer science",
+        "Computer vision",
+        "Artificial intelligence",
+        "Calibration",
+        "Pose",
+        "Camera resectioning",
+        "Estimation",
+        "Engineering"
+      ],
+      "abstract": "3D human joint estimation is essential for enabling effective human-robot interaction in construction automation, facilitating precise monitoring of worker movements to enhance safety, ergonomics, and operational efficiency.Vision-based systems utilizing multi-camera setups offer diverse perspectives to address challenges such as occlusions, projection ambiguities, and sensor noise.However, these systems depend heavily on accurate camera calibration to align views and synchronize measurements.Traditional manual calibration methods are timeconsuming, labor-intensive, and prone to human error, making them unsuitable for dynamic construction sites where frequent camera repositioning is required due to shifting conditions and tasks.This study proposes a novel framework that leverages external marker detection for real-time, automated camera calibration, eliminating the need for manual intervention.This approach significantly reduces setup time, minimizes errors, and ensures reliable performance in rapidly changing environments.Furthermore, the framework integrates an Extended Kalman Filter (EKF) to fuse 2D joint locations from multiple cameras, effectively handling sensor noise and ...",
+      "authors": [
+        "Israt Sharmin Dola",
+        "Inbae Jeong",
+        "Youjin Jang",
+        "Moein Younesi Heravi"
+      ]
+    },
+    {
+      "title": "A Framework for Real-Time Estimation of Human Activity Intensity in Indoor Environments",
+      "publication_year": 2025,
+      "publication_date": "2025-07-27",
+      "doi": "https://doi.org/10.22260/isarc2025/0108",
+      "venue": "Proceedings of the ... ISARC",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.iaarc.org/./publications/fulltext/108_A_Framework_for_Real-Time_Estimation_of_Human_Activity_Intensity_in_Indoor_Environments.pdf",
+      "concepts": [
+        "Estimation",
+        "Intensity (physics)",
+        "Computer science",
+        "Environmental science",
+        "Remote sensing",
+        "Geology",
+        "Engineering",
+        "Optics"
+      ],
+      "abstract": "The real-time estimation of human activity level in indoor environments is crucial for thermal comfort prediction and optimizing HVAC systems, as well as supporting health monitoring and ergonomic assessments.Existing methods typically categorize activities into predefined types and therefore are not efficient for new activities.Furthermore, the transition between activities is not captured in these classification methods.To address these limitations, we propose a novel Activity Intensity Score (AIS) framework that provides a continuous, non-intrusive assessment of human activity intensity.The proposed AIS framework uses kinematic parameters derived from video-based pose estimation to calculate a dynamic intensity score.Key kinematic parameters, such as angular speed, angular acceleration, range of motion, movement frequency, and rotational energy, are extracted from pose landmarks using MediaPipe.These parameters are then normalized and combined to generate a continuous AIS that reflects real-time variations in movement intensity.The proposed approach was validated through controlled experiments with participants performing activities of varying intensities, including low (e.g....",
+      "authors": [
+        "Moein Younesi Heravi",
+        "Youjin Jang",
+        "Inbae Jeong",
+        "Israt Sharmin Dola"
+      ]
+    },
+    {
+      "title": "Adaptive Hazard Zone Model for Improved Safety in Highway Work Zones",
+      "publication_year": 2025,
+      "publication_date": "2025-07-27",
+      "doi": "https://doi.org/10.22260/isarc2025/0016",
+      "venue": "Proceedings of the ... ISARC",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.iaarc.org/./publications/fulltext/016_Adaptive_Hazard_Zone_Model_for_Improved_Safety_in_Highway_Work_Zones.pdf",
+      "concepts": [
+        "Work zone",
+        "Work (physics)",
+        "Hazard",
+        "Computer science",
+        "Hazard analysis",
+        "Transport engineering",
+        "Civil engineering",
+        "Engineering"
+      ],
+      "abstract": "Highway work zones present hazardous conditions where worker safety is at constant risk due to interactions with construction equipment.In such environments, accurately defining hazard zones around equipment is vital for timely detection and prevention of incidents.Traditional static hazard zone models, often relying on simple geometric shapes, fall short as they cannot adapt to changes in equipment speed and movement, leading to either inadequate safety coverage or frequent false alarms.This study proposes a dynamic hazard zone model that leverages a probabilistic approach based on bivariate Gaussian distribution to generate adaptive and realistic hazard zones.Real-time data from GPS and inertial measurement unit (IMU) sensors enable the model to adjust hazard zone dimensions dynamically in response to equipment behavior, improving both accuracy and responsiveness.Simulations conducted in Webots software demonstrated that the proposed model achieved 93% accuracy in hazard detection, significantly outperforming the 60% accuracy of static circular zones tested in the same environment.The findings underscore the potential of dynamic hazard zone modeling to enhance safety in highwa...",
+      "authors": [
+        "Ayenew Yihune Demeke",
+        "Moein Younesi Heravi",
+        "Israt Sharmin Dola",
+        "Inbae Jeong",
+        "Youjin Jang"
+      ]
+    }
+  ]
+}

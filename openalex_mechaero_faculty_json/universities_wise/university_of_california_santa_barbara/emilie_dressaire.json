@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Emilie Dressaire",
+  "full_name": "Emilie Dressaire",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of California-Santa Barbara",
+  "author_id": "A5021958524",
+  "works_count": 96,
+  "cited_by_count": 2150,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Hydraulic Fracturing and Reservoir Analysis",
+      "count": 20
+    },
+    {
+      "topic": "Surface Modification and Superhydrophobicity",
+      "count": 17
+    },
+    {
+      "topic": "Seismic Imaging and Inversion Techniques",
+      "count": 14
+    },
+    {
+      "topic": "Pickering emulsions and particle stabilization",
+      "count": 9
+    },
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Clogging of microfluidic systems",
+      "publication_year": 2016,
+      "publication_date": "2016-10-18",
+      "doi": "https://doi.org/10.1039/c6sm01879c",
+      "venue": "Soft Matter",
+      "type": "article",
+      "cited_by_count": 368,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Clogging",
+        "Microfluidics",
+        "Nanotechnology",
+        "Fouling",
+        "Materials science",
+        "Membrane",
+        "Chemistry",
+        "Biochemistry"
+      ],
+      "abstract": "The transport of suspensions of microparticles in confined environments is associated with complex phenomena at the interface of fluid mechanics and soft matter. Indeed, the deposition and assembly of particles under flow involve hydrodynamic, steric and colloidal forces, and can lead to the clogging of microchannels. The formation of clogs dramatically alters the performance of both natural and engineered systems, effectively limiting the use of microfluidic technology. While the fouling of porous filters has been studied at the macroscopic level, it is only recently that the formation of clogs has been considered at the pore-scale, using microfluidic devices. In this review, we present the clogging mechanisms recently reported for suspension flows of colloidal particles and for biofluids in microfluidic channels, including sieving, bridging and aggregation of particles. We discuss the technological implications of the clogging of microchannels and the schemes that leverage the formation of clogs. We finally consider some of the outstanding challenges involving clogging in human health, which could be tackled with microfluidic methods.",
+      "authors": [
+        "Emilie Dressaire",
+        "Alban Sauret"
+      ]
+    },
+    {
+      "title": "Imbibition by polygonal spreading on microdecorated surfaces",
+      "publication_year": 2007,
+      "publication_date": "2007-08-12",
+      "doi": "https://doi.org/10.1038/nmat1978",
+      "venue": "Nature Materials",
+      "type": "article",
+      "cited_by_count": 321,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wetting",
+        "Imbibition",
+        "Electrowetting",
+        "Contact angle",
+        "Materials science",
+        "Shape change",
+        "Wetting transition",
+        "Slip (aerodynamics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Laurent Courbin",
+        "Etienne Denieul",
+        "Emilie Dressaire",
+        "Marcus Roper",
+        "Armand Ajdari",
+        "Howard A. Stone"
+      ]
+    },
+    {
+      "title": "Pulsatile Flow in Microfluidic Systems",
+      "publication_year": 2019,
+      "publication_date": "2019-10-28",
+      "doi": "https://doi.org/10.1002/smll.201904032",
+      "venue": "Small",
+      "type": "article",
+      "cited_by_count": 106,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pulsatile flow",
+        "Microfluidics",
+        "Computer science",
+        "Flow (mathematics)",
+        "Context (archaeology)",
+        "Reynolds number",
+        "Mechanics",
+        "Materials science"
+      ],
+      "abstract": "This review describes the current knowledge and applications of pulsatile flow in microfluidic systems. Elements of fluid dynamics at low Reynolds number are first described in the context of pulsatile flow. Then the practical applications in microfluidic processes are presented: the methods to generate a pulsatile flow, the generation of emulsion droplets through harmonic flow rate perturbation, the applications in mixing and particle separation, and the benefits of pulsatile flow for clog mitigation. The second part of the review is devoted to pulsatile flow in biological applications. Pulsatile flows can be used for mimicking physiological systems, to alter or enhance cell cultures, and for bioassay automation. Pulsatile flows offer unique advantages over a steady flow, especially in microfluidic systems, but also require some new physical insights and more rigorous investigation to fully benefit future applications.",
+      "authors": [
+        "Brian Dincau",
+        "Emilie Dressaire",
+        "Alban Sauret"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Creeping flows through confined arrays of cylinders",
+      "publication_year": 2026,
+      "publication_date": "2026-06-05",
+      "doi": "https://doi.org/10.1103/thgg-p9gm",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2609.00262",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Geometry",
+        "Work (physics)",
+        "Geology",
+        "Displacement (psychology)",
+        "Flow (mathematics)",
+        "Computer science"
+      ],
+      "abstract": "Hair-covered appendages serve a variety of purposes in Nature, from chemical sensing and particle capture on the antennae of a crustacean to drag generation on bristled wings. At low to intermediate Reynolds numbers, these finite porous media experience three flow regimes. At low Reynolds numbers, the flow goes around the porous structure; this is the paddle or rake regime. As the Reynolds number increases, so does the relative flow rate through the array. If the fluid exits the structure mostly laterally, the flow is in the deflection regime. If the fluid exits downstream, the flow is in the sieve regime. Confining structures, such as the animal body or larger hairs, have been hypothesized to focus the flow on the hair-covered region. We investigate the influence of confinement on the flow through and around an array of cylinders, using a combination of experiments and numerical simulations. Experimentally, we vary the cylinder spacing, channel dimension, and flow rate and measure the velocity field using Particle Image Velocimetry. After comparing the results of finite element analysis with the experimental data, we numerically investigate a broader range of system geometries ...",
+      "authors": [
+        "S. K. Bohling",
+        "S. S. Tanikella",
+        "J. P. Raimondi",
+        "Nathan Jones",
+        "Emilie Dressaire"
+      ]
+    },
+    {
+      "title": "Creeping flows through confined arrays of cylinders",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "https://doi.org/10.48550/arxiv.2609.00262",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2609.00262",
+      "concepts": [
+        "Mechanics",
+        "Reynolds number",
+        "Hele-Shaw flow",
+        "Drag",
+        "Flow (mathematics)",
+        "Open-channel flow",
+        "External flow",
+        "Potential flow"
+      ],
+      "abstract": "Hair-covered appendages serve a variety of purposes in Nature, from chemical sensing and particle capture on the antennae of a crustacean to drag generation on bristled wings. Despite their large porosity, these finite porous structures experience very little flow through at low Reynolds numbers. This flow regime, characterized by large viscous boundary layers around the hairs, is known as the paddle or rake regime. As the Reynolds number of the flow increases, so does the relative flow rate through the array, which corresponds to the deflection and sieve regimes. Confining structures, such as the animal body or larger hairs, have been hypothesized to focus the flow on the hair-covered region. We investigate the influence of confinement on the flow through and around an array of cylinders, using a combination of experiments and numerical simulations. Experimentally, we vary the hair spacing, channel dimension, and flow rate and measure the velocity field using Particle Image Velocimetry. After comparing the results of finite element analysis with the experimental data, we numerically investigate a broader range of system geometries and flow parameters. Our results show that the ...",
+      "authors": [
+        "Sean K. Bohling",
+        "Sri Savya Tanikella",
+        "John Raimondi",
+        "Nathan Jones",
+        "Emilie Dressaire"
+      ]
+    },
+    {
+      "title": "Dynamics of fluid-driven fractures across material heterogeneities",
+      "publication_year": 2025,
+      "publication_date": "2025-02-28",
+      "doi": "https://doi.org/10.1103/physreve.111.025504",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dynamics (music)",
+        "Geology",
+        "Fluid dynamics",
+        "Mechanics",
+        "Geotechnical engineering",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "Fracture propagation is highly sensitive to the conditions at the crack tip. In heterogeneous materials, microscale obstacles can cause propagation instabilities. Macroscopic heterogeneities modify the stress field over scales larger than the tip region. Here we experimentally investigate the propagation of fluid-driven fractures through multilayered materials. We focus on analyzing fracture profiles formed upon injection of a low-viscosity fluid into a two-layer hydrogel block. Experimental observations highlight the influence of the originating layer on fracture dynamics. Fractures that form in the softer layer are confined, with no penetration in the stiffer layer. Conversely, fractures initiated within the stiffer layer experience rapid fluid transfer into the softer layer when reaching the interface. We report the propagation dynamics and show that it is controlled by the toughness contrast between neighboring layers, which drives fluid flow. We model the coupling between elastic deformation, material toughness, and volume conservation. After a short transient regime, scaling arguments capture the dependence of the fracture geometry on material properties, injection paramet...",
+      "authors": [
+        "S. S. Tanikella",
+        "M. C. Sigallon",
+        "Emilie Dressaire"
+      ]
+    },
+    {
+      "title": "Spreading of low-viscosity ink filaments driven by bath viscoelasticity in embedded printing",
+      "publication_year": 2024,
+      "publication_date": "2024-09-23",
+      "doi": "https://doi.org/10.1103/physrevapplied.22.034050",
+      "venue": "Physical Review Applied",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Viscoelasticity",
+        "Inkwell",
+        "Viscosity",
+        "Materials science",
+        "Composite material",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "Inks deposited in conventional direct ink writing need to be able to support their own weight and that of the upper layers with minimal deformation to preserve the structural integrity of the three-dimensional (3D) printed parts. This constraint limits the range of usable inks to high-viscosity materials. Embedded printing enables the use of much softer inks by depositing the materials in a bath of another fluid that provides external support, thus diversifying the types of 3D printable structures. The interactions between the ink and bath fluids, however, give rise to a unique type of defect: spreading of the dispensed ink behind the moving nozzle. By printing horizontal threads made of dyed water in baths of Carbopol suspensions, we demonstrate that the spreading can be attributed to the pressure field generated in the viscous bath by the relative motion of the nozzle. As the pressure gradient increases with the viscosity of the bath fluid while the viscosity of the ink resists the flow, a larger bath-to-ink viscosity ratio results in more spreading for low-concentration Carbopol baths. For high-concentration, yield-stress-fluid baths, we find that the steady-state viscosity a...",
+      "authors": [
+        "Jae Hyung Cho",
+        "Emilie Dressaire"
+      ]
+    },
+    {
+      "title": "Dynamics of fluid-driven fractures across material heterogeneities",
+      "publication_year": 2024,
+      "publication_date": "2024-07-14",
+      "doi": "https://doi.org/10.48550/arxiv.2407.10298",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2407.10298",
+      "concepts": [
+        "Dynamics (music)",
+        "Fluid dynamics",
+        "Mechanics",
+        "Geology",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "Fracture propagation is highly sensitive to the conditions at the crack tip. In heterogeneous materials, microscale obstacles can cause propagation instabilities. Macroscopic heterogeneities modify the stress field over scales larger than the tip region. Here, we experimentally investigate the propagation of fluid-driven fractures through multilayered materials. We focus on analyzing fracture profiles formed upon injection of a low-viscosity fluid into a two-layer hydrogel block. Experimental observations highlight the influence of the originating layer on fracture dynamics. Fractures that form in the softer layer are confined, with no penetration in the stiffer layer. Conversely, fractures initiated within the stiffer layer experience rapid fluid transfer into the softer layer when reaching the interface. We report the propagation dynamics and show that they are controlled by the toughness contrast between neighboring layers, which drives fluid flow. We model the coupling between elastic deformation, material toughness, and volume conservation. After a short transient regime, scaling arguments capture the dependence of the fracture geometry on material properties, injection par...",
+      "authors": [
+        "S. S. Tanikella",
+        "M. C. Sigallon",
+        "Emilie Dressaire"
+      ]
+    }
+  ]
+}

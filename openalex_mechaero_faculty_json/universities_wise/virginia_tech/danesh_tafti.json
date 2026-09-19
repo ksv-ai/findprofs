@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Danesh Tafti",
+  "full_name": "Danesh K. Tafti",
+  "department": "Department of Mechanical Engineering",
+  "university": "Virginia Tech",
+  "author_id": "A5044512850",
+  "works_count": 304,
+  "cited_by_count": 6144,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 138
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 114
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 54
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 46
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 44
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Efficient parallel CFD-DEM simulations using OpenMP",
+      "publication_year": 2013,
+      "publication_date": "2013-09-13",
+      "doi": "https://doi.org/10.1016/j.jcp.2013.09.007",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 140,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Parallel computing",
+        "Computer science",
+        "Domain decomposition methods",
+        "Overhead (engineering)",
+        "Computational science",
+        "Thread (computing)",
+        "Supercomputer"
+      ],
+      "abstract": "",
+      "authors": [
+        "Amit Amritkar",
+        "Surya Deb",
+        "Danesh K. Tafti"
+      ]
+    },
+    {
+      "title": "Experimental validation of large eddy simulations of flow and heat transfer in a stationary ribbed duct",
+      "publication_year": 2005,
+      "publication_date": "2005-11-24",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2005.08.010",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 117,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Duct (anatomy)",
+        "Mechanics",
+        "Heat transfer",
+        "Secondary flow",
+        "Large eddy simulation",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Evan A. Sewall",
+        "Danesh K. Tafti",
+        "A.B. Graham",
+        "Karen A. Thole"
+      ]
+    },
+    {
+      "title": "Heat transfer enhancement mechanisms in inline and staggered parallel-plate fin heat exchangers",
+      "publication_year": 1997,
+      "publication_date": "1997-07-01",
+      "doi": "https://doi.org/10.1016/s0017-9310(96)00303-1",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 106,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fin",
+        "Mechanics",
+        "Heat transfer",
+        "Boundary layer",
+        "Heat exchanger",
+        "Heat transfer enhancement",
+        "Materials science",
+        "Vortex"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lingming Zhang",
+        "S. Balachandar",
+        "Danesh K. Tafti",
+        "Fady Najjar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data driven prediction of bat flight kinematics and trajectory",
+      "publication_year": 2026,
+      "publication_date": "2026-04-29",
+      "doi": "https://doi.org/10.1088/1748-3190/ae66bf",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1748-3190/ae66bf/pdf",
+      "concepts": [
+        "Kinematics",
+        "Wing",
+        "Trajectory",
+        "Motion (physics)",
+        "Artificial intelligence",
+        "Computer science",
+        "Wingspan",
+        "Bird flight"
+      ],
+      "abstract": "Abstract Bat flight is unique among animal species due to their patagium wings which consist of a thin membrane connecting wing bones. This allows bats to have many degrees of freedom, typically more than birds or insects. In this work, we quantify the dimensional complexity of three different flights, straight flight, ascending right turn, and U-turn made by a great round-leaf bat ( Hipposideros armiger ). We employ proper orthogonal decomposition (POD) to determine the relevant number of modes that capture the essential kinematics associated with each flight. The POD is performed for the full flights and also on a flap-wise basis to investigate if the dimensional complexity of single flaps varies across the different flights. A study is performed to identify the marker points on the bat body that exhibit independent kinematic behavior across different flight maneuvers, with the goal of identifying the regions or joints that contribute most distinctly to the overall motion. Finally, we propose and test a deep learning architecture for predicting global flight trajectory given the wing motion and inversely predict the wing motion in the body frame required to effectuate an obser...",
+      "authors": [
+        "Neil Ashwin Raj",
+        "Danesh K. Tafti"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of a Near-Normal Shock/Turbulent-Boundary-Layer Interaction",
+      "publication_year": 2025,
+      "publication_date": "2025-11-30",
+      "doi": "https://doi.org/10.2514/1.j064904",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Shock (circulatory)",
+        "Physics",
+        "Boundary layer",
+        "Turbulence",
+        "Reynolds number",
+        "Geometry"
+      ],
+      "abstract": "Features of a normal shock/turbulent-boundary-layer interaction at Mach 1.54 are examined using large-eddy simulation. The geometry used consists of an internal passage divided into an upper unchoked section and a lower choked section by a shock-holding plate. This geometry and incoming Mach number produce a nearly normal shock and lambda-foot structure on the lower wall, leading to separation in the incoming, [Formula: see text], turbulent boundary layer. The shock structure is slightly detached from the leading edge of the shock-holding plate and exhibits unsteady but statistically stationary oscillations in the streamwise direction. Unsteady and time-averaged quantities are then examined upstream, inside, and downstream of the interaction region. The interaction of the front foot of the [Formula: see text]-shock with the turbulent boundary layer induces strong separation. The characteristic low-frequency oscillation in the main trunk of the shock is also present in the spectra of wall pressure fluctuations, turbulent kinetic energy, and instantaneous separation location. The shock-induced separation amplifies and redistributes the turbulent Reynolds stresses from the incident...",
+      "authors": [
+        "Peter Gioia",
+        "Danesh K. Tafti"
+      ]
+    },
+    {
+      "title": "High-fidelity numerical investigation of OSWEC: Effects of turbulence models, varying incident wave angle and irregular waves",
+      "publication_year": 2025,
+      "publication_date": "2025-10-17",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2025.123137",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Turbulence",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Mechanics",
+        "Physics",
+        "Rotation (mathematics)",
+        "Wind wave",
+        "Surge"
+      ],
+      "abstract": "",
+      "authors": [
+        "Minge Jiang",
+        "Danesh K. Tafti"
+      ]
+    },
+    {
+      "title": "Comparative analysis of XGBoost-augmented drag model in CFD-DEM simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-07-21",
+      "doi": "https://doi.org/10.1016/j.powtec.2025.121448",
+      "venue": "Powder Technology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drag",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ze Cao",
+        "Danesh K. Tafti",
+        "Yakun Liu"
+      ]
+    },
+    {
+      "title": "Hydrodynamic Forces and Flow Characteristics Around a Rigid Helical-Shaped Metallic Chip in Shear Flow Near a Plane Wall",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.1115/1.4069164",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flow (mathematics)",
+        "Mechanics",
+        "Shear flow",
+        "Shear (geology)",
+        "Plane (geometry)",
+        "Materials science",
+        "Geology",
+        "Geometry"
+      ],
+      "abstract": "Abstract This study investigates the hydrodynamic behavior of a rigid, helical-shaped metallic chip placed near a planar wall in a linear shear flow using numerical methods. The flow characteristics are analyzed across a range of Reynolds numbers (2≤Re≤100) and varying helical pitch values (0.5≤ϕ≤1.5). The computational domain is discretized using a polyhedral mesh with a refined near-wall region to capture high gradients in flow. A mesh independence study, followed by a validation case ensures the accuracy of results. The drag, lift, and moment coefficients of the helical chip are evaluated as functions of pitch and wall proximity. The results indicate that pitch significantly influences both pressure and viscous forces. With higher pitch values, greater flow penetration, and stronger vortex structures are noticed. A strong dependency of drag and lift forces on Reynolds number was observed, and empirical correlations were proposed in this work for predicting force coefficients. It is found that the lift force increases with the increase in Reynolds number and pitch. Flow visualization reveals distinct recirculation zones and vortex formations, highlighting the effect of ground ...",
+      "authors": [
+        "Naveen Raj Nannamkeril",
+        "Ze Cao",
+        "Danesh K. Tafti",
+        "S. Vengadesan"
+      ]
+    }
+  ]
+}

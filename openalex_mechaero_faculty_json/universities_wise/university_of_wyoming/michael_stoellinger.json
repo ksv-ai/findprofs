@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Michael Stoellinger",
+  "full_name": "Michael Stoellinger",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Wyoming",
+  "author_id": "A5083847449",
+  "works_count": 52,
+  "cited_by_count": 353,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 31
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 28
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 18
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 12
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Theory-based Reynolds-averaged Navier–Stokes equations with large eddy simulation capability for separated turbulent flow simulations",
+      "publication_year": 2020,
+      "publication_date": "2020-06-01",
+      "doi": "https://doi.org/10.1063/5.0006660",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Reynolds number",
+        "Physics",
+        "Large eddy simulation",
+        "Flow (mathematics)",
+        "Reynolds stress equation model",
+        "Mechanics"
+      ],
+      "abstract": "The prediction and investigation of very high Reynolds number turbulent wall flows pose a significant challenge: experimental studies and large eddy simulation (LES) are often inapplicable to these flows, and Reynolds-averaged Navier–Stokes (RANS) methods often fail to characterize the essential flow characteristics, in particular, for separated flows. These facts explain the need for the development of hybrid RANS-LES methods. The predominant approach to deal with this question is the combination of RANS and LES equation elements. This often implies shortcomings in simulations: the lack of control of modeled and resolved motions, which are involved in hybrid simulations, can lead to inconsistencies and imbalances. A novel approach based on a theoretical solution to the latter problem (referred to as continuous eddy simulation method) is investigated here via simulations of periodic hill flows (involving flow separation and reattachment) for a range of very high Reynolds numbers. We study the mechanism and simulation performance of these new hybrid methods. The results presented demonstrate their excellent performance and advantages to differently designed hybrid methods. We als...",
+      "authors": [
+        "Stefan Heinz",
+        "Reza Mokhtarpoor",
+        "Michael Stoellinger"
+      ]
+    },
+    {
+      "title": "Large eddy simulation for atmospheric boundary layer flow over flat and complex terrains",
+      "publication_year": 2016,
+      "publication_date": "2016-09-01",
+      "doi": "https://doi.org/10.1088/1742-6596/753/3/032044",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 27,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1742-6596/753/3/032044/pdf",
+      "concepts": [
+        "Terrain",
+        "Inflow",
+        "Large eddy simulation",
+        "Planetary boundary layer",
+        "Wind profiler",
+        "Geology",
+        "Outflow",
+        "Detached eddy simulation"
+      ],
+      "abstract": "In this work, we present Large Eddy Simulation (LES) results of atmospheric boundary layer (ABL) flow over complex terrain with neutral stratification using the OpenFOAM-based simulator for on/offshore wind farm applications (SOWFA). The complete work flow to investigate the LES for the ABL over real complex terrain is described including meteorological-tower data analysis, mesh generation and case set-up. New boundary conditions for the lateral and top boundaries are developed and validated to allow inflow and outflow as required in complex terrain simulations. The turbulent inflow data for the terrain simulation is generated using a precursor simulation of a flat and neutral ABL. Conditionally averaged met-tower data is used to specify the conditions for the flat precursor simulation and is also used for comparison with the simulation results of the terrain LES. A qualitative analysis of the simulation results reveals boundary layer separation and recirculation downstream of a prominent ridge that runs across the simulation domain. Comparisons of mean wind speed, standard deviation and direction between the computed results and the conditionally averaged tower data show a reas...",
+      "authors": [
+        "Yi Han",
+        "Michael Stoellinger",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Stochastic-Based RANS-LES Simulations of Swirling Turbulent Jet Flows",
+      "publication_year": 2017,
+      "publication_date": "2017-07-14",
+      "doi": "https://doi.org/10.1515/ijnsns-2016-0069",
+      "venue": "International Journal of Nonlinear Sciences and Numerical Simulation",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Jet (fluid)",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Physics",
+        "Vortex",
+        "Statistical physics"
+      ],
+      "abstract": "Abstract Many turbulent flow simulations require the use of hybrid methods because LES methods are computationally too expensive and RANS methods are not sufficiently accurate. We consider a recently suggested hybrid RANS-LES model that has a sound theoretical basis: it is systematically derived from a realizable stochastic turbulence model. The model is applied to turbulent swirling and nonswirling jet flow simulations. The results are shown to be in a very good agreement with available experimental data of nonswirling and mildly swirling jet flows. Compared to commonly applied other hybrid RANS-LES methods, our RANS-LES model does not seem to suffer from the ’modeled-stress depletion’ problem that is observed in DES and IDDES simulations of nonswirling jet flows, and it performs better than segregated RANS-LES models. The results presented contribute to a better physical understanding of swirling jet flows through an explanation of conditions for the onset and the mechanism of vortex breakdown.",
+      "authors": [
+        "Michael Stoellinger",
+        "Stefan Heinz",
+        "Celestin Zemtsop",
+        "Harish Gopalan",
+        "Reza Mokhtarpoor"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Numerical Investigation of Hydrodynamic Characteristics for Semiplaning Ships: A Comprehensive Study Using OpenFOAM",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.1115/1.4068920",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Marine engineering",
+        "Computational fluid dynamics",
+        "Environmental science",
+        "Engineering",
+        "Geology",
+        "Aerospace engineering"
+      ],
+      "abstract": "Abstract This research comprehensively studies the hydrodynamic characteristics of a semiplaning ship hull, R/V Athena, across different cruising speeds using OpenFOAM numerical simulations. Results were validated against experimental data for 11 Froude numbers ranging from 0.14 to 1.0. Key findings reveal (1) the hull resistance exhibits a near-linear relationship with Froude number, (2) the sinkage follows a distinct V-shaped curve with a short saddle region where simulations tend to under-predict values, and (3) the trim demonstrates an oblique “S” shape pattern. Free surface elevation analysis showed that their intensity increased while the number of side waves decreased with increasing Froude numbers. Additionally, tail waves moved further from the stern and exhibited greater intensity and wavelength at higher Froude numbers. Local pressure distributions and spray patterns were also analyzed, revealing complex flow physics around the hull. This study validates computational methods for simulating planing hulls at higher speeds and provides valuable insights into the transitional hydrodynamics between displacement and planing regimes.",
+      "authors": [
+        "Lianxia Li",
+        "Michael Stoellinger",
+        "Maysam Mousaviraad"
+      ]
+    },
+    {
+      "title": "Rigorous benchmarking of an iterative IBM solver by comparison to body-fitted mesh results",
+      "publication_year": 2024,
+      "publication_date": "2024-04-26",
+      "doi": "https://doi.org/10.1016/j.compfluid.2024.106281",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Computer science",
+        "Immersed boundary method",
+        "Computational fluid dynamics",
+        "Computational science",
+        "Reynolds number",
+        "Applied mathematics",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lianxia Li",
+        "Michael Stoellinger",
+        "Maysam Mousaviraad"
+      ]
+    },
+    {
+      "title": "Large eddy simulation of atmospheric boundary layer flow over complex terrain in comparison with RANS simulation and on-site measurements under neutral stability condition",
+      "publication_year": 2023,
+      "publication_date": "2023-03-01",
+      "doi": "https://doi.org/10.1063/5.0133585",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/2420246",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Planetary boundary layer",
+        "Large eddy simulation",
+        "Meteorology",
+        "Discretization",
+        "Turbulence",
+        "Wind profile power law",
+        "Mechanics"
+      ],
+      "abstract": "Large eddy simulation (LES) of the atmospheric boundary layer (ABL) flow over complex terrain is presented with a validation using meteorological tower (met-tower) data through an improved neutral stability sampling approach. The proposed stability sampling procedure includes a condition based on the most-likely occurrence time-periods of the neutral ABL and reduces the variabilities of the conditional wind statistics calculated at the met-towers in comparison to our previous work. The ABL flow simulations are carried out over a potential wind site with a prominent hill based using the OpenFOAM-based simulator for on/off-shore wind farm applications by applying the Lagrangian-averaged scale-invariant dynamic sub-grid scale turbulence model. A low-dissipative scale-selective discretization scheme for the non-linear convection term in the LES governing equation is adopted implicitly to ensure both the second-order accuracy and bounded solution. The LES inflow is generated through a precursor method with a “tiling” approach based on the flow driving parameters obtained from a corresponding Reynolds-averaged Navier–Stokes (RANS) simulation. Overall, the averaged wind velocity profil...",
+      "authors": [
+        "Yi Han",
+        "Michael Stoellinger",
+        "Huaiwu Peng",
+        "Lihui Zhang",
+        "Wei Liu"
+      ]
+    },
+    {
+      "title": "Study on Hydrodynamic Characteristics During Semi-Planing Ship Hull Maneuvering",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4566675",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4566675",
+      "concepts": [
+        "Hull",
+        "Marine engineering",
+        "Engineering",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lianxia Li",
+        "Michael Stoellinger",
+        "Maysam Mousaviraad"
+      ]
+    },
+    {
+      "title": "Development of a Novel Iterative Ibm Solver And Rigorous Benchmarking",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4610402",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4610402",
+      "concepts": [
+        "Benchmarking",
+        "IBM",
+        "Solver",
+        "Computer science",
+        "Problem solver",
+        "Computational science",
+        "Software engineering",
+        "Programming language"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lianxia Li",
+        "Michael Stoellinger",
+        "Maysam Mousaviraad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "faculty_name": "Hansen A. Mansy",
+  "full_name": "Hansen A. Mansy",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Central Florida",
+  "author_id": "A5113834305",
+  "works_count": 86,
+  "cited_by_count": 1081,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Phonocardiography and Auscultation Techniques",
+      "count": 41
+    },
+    {
+      "topic": "Non-Invasive Vital Sign Monitoring",
+      "count": 31
+    },
+    {
+      "topic": "Heart Rate Variability and Autonomic Control",
+      "count": 12
+    },
+    {
+      "topic": "Flow Measurement and Analysis",
+      "count": 9
+    },
+    {
+      "topic": "Ultrasound in Clinical Applications",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Time-Frequency Distribution of Seismocardiographic Signals: A Comparative Study",
+      "publication_year": 2017,
+      "publication_date": "2017-04-07",
+      "doi": "https://doi.org/10.3390/bioengineering4020032",
+      "venue": "Bioengineering",
+      "type": "article",
+      "cited_by_count": 88,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2306-5354/4/2/32/pdf?version=1491567434",
+      "concepts": [
+        "Short-time Fourier transform",
+        "Morlet wavelet",
+        "Time–frequency analysis",
+        "SIGNAL (programming language)",
+        "Fourier transform",
+        "Continuous wavelet transform",
+        "Pattern recognition (psychology)",
+        "Computer science"
+      ],
+      "abstract": "Accurate estimation of seismocardiographic (SCG) signal features can help successful signal characterization and classification in health and disease. This may lead to new methods for diagnosing and monitoring heart function. Time-frequency distributions (TFD) were often used to estimate the spectrotemporal signal features. In this study, the performance of different TFDs (e.g., short-time Fourier transform (STFT), polynomial chirplet transform (PCT), and continuous wavelet transform (CWT) with different mother functions) was assessed using simulated signals, and then utilized to analyze actual SCGs. The instantaneous frequency (IF) was determined from TFD and the error in estimating IF was calculated for simulated signals. Results suggested that the lowest IF error depended on the TFD and the test signal. STFT had lower error than CWT methods for most test signals. For a simulated SCG, Morlet CWT more accurately estimated IF than other CWTs, but Morlet did not provide noticeable advantages over STFT or PCT. PCT had the most consistently accurate IF estimations and appeared more suited for estimating IF of actual SCG signals. PCT analysis showed that actual SCGs from eight healt...",
+      "authors": [
+        "Amirtahà Taebi",
+        "Hansen A. Mansy"
+      ]
+    },
+    {
+      "title": "A model of lung parenchyma stress relaxation using fractional viscoelasticity",
+      "publication_year": 2015,
+      "publication_date": "2015-06-03",
+      "doi": "https://doi.org/10.1016/j.medengphy.2015.05.003",
+      "venue": "Medical Engineering & Physics",
+      "type": "article",
+      "cited_by_count": 79,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8369918",
+      "concepts": [
+        "Viscoelasticity",
+        "Standard linear solid model",
+        "Relaxation (psychology)",
+        "Stress relaxation",
+        "Parenchyma",
+        "Power law",
+        "Exponential function",
+        "Lung"
+      ],
+      "abstract": "Lung parenchyma viscoelasticity was studied via stress relaxation. Stress relaxation studies were conducted on freshly exercised inflated pig lungs. Fractional order and integer order viscoelastic models were compared. Fractional standard linear solid was the best among four-parameter models. Some pulmonary diseases and injuries are believed to correlate with lung viscoelasticity changes. Hence, a better understanding of lung viscoelastic models could provide new perspectives on the progression of lung pathology and trauma. In the presented study, stress relaxation measurements were performed to quantify relaxation behavior of pig lungs. Results have uncovered certain trends, including an initial steep decay followed by a slow asymptotic relaxation, which would be better described by a power law than exponential decay. The fractional standard linear solid (FSLS) and two integer order viscoelastic models – standard linear solid (SLS) and generalized Maxwell (GM) – were used to fit the stress relaxation curves; the FSLS was found to be a better fit. It is suggested that fractional order viscoelastic models, which have nonlocal, multi-scale attributes and exhibit power law behavior...",
+      "authors": [
+        "Zoujun Dai",
+        "Ying Peng",
+        "Hansen A. Mansy",
+        "Richard H. Sandler",
+        "Thomas J. Royston"
+      ]
+    },
+    {
+      "title": "Comparison of Poroviscoelastic Models for Sound and Vibration in the Lungs",
+      "publication_year": 2014,
+      "publication_date": "2014-01-08",
+      "doi": "https://doi.org/10.1115/1.4026436",
+      "venue": "Journal of vibration and acoustics",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/136/5/050905/6342084/vib_136_05_050905.pdf",
+      "concepts": [
+        "Biot number",
+        "Viscoelasticity",
+        "Mechanics",
+        "Poromechanics",
+        "Quasistatic process",
+        "Acoustics",
+        "Vibration",
+        "Physics"
+      ],
+      "abstract": "Noninvasive measurement of mechanical wave motion (sound and vibration) in the lungs may be of diagnostic value, as it can provide information about the mechanical properties of the lungs, which in turn are affected by disease and injury. In this study, two previously derived theoretical models of the vibroacoustic behavior of the lung parenchyma are compared: (1) a Biot theory of poroviscoelasticity and (2) an effective medium theory for compression wave behavior (also known as a \"bubble swarm\" model). A fractional derivative formulation of shear viscoelasticity is integrated into both models. A measurable \"fast\" compression wave speed predicted by the Biot theory formulation has a significant frequency dependence that is not predicted by the effective medium theory. Biot theory also predicts a slow compression wave. The experimentally measured fast compression wave speed and attenuation in a pig lung ex vivo model agreed well with the Biot theory. To obtain the parameters for the Biot theory prediction, the following experiments were undertaken: quasistatic mechanical indentation measurements were performed to estimate the lung static shear modulus; surface wave measurements w...",
+      "authors": [
+        "Zoujun Dai",
+        "Ying Peng",
+        "Hansen A. Mansy",
+        "Richard H. Sandler",
+        "Thomas J. Royston"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Comparison Of Two Different Methods For Clustering SCG Signals",
+      "publication_year": 2023,
+      "publication_date": "2023-04-01",
+      "doi": "https://doi.org/10.1016/j.cardfail.2022.10.127",
+      "venue": "Journal of Cardiac Failure",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cluster analysis",
+        "Pattern recognition (psychology)",
+        "k-medians clustering",
+        "Dynamic time warping",
+        "Waveform",
+        "Cluster (spacecraft)",
+        "Medicine",
+        "Statistics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Richard H. Sandler",
+        "Sherif Ahdy",
+        "Md Khushidul Azad",
+        "Nirav Raval",
+        "Robert J. Mentz",
+        "Hansen A. Mansy"
+      ]
+    },
+    {
+      "title": "Effect of the Initial Condition on SCG Clustering Using Unsupervised Machine Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-18509-9_2",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial intelligence",
+        "Cluster analysis",
+        "Computer science",
+        "Unsupervised learning",
+        "Pattern recognition (psychology)",
+        "Machine learning",
+        "Feature (linguistics)",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sherif A. Farahat",
+        "Richard H. Sandler",
+        "Hansen A. Mansy"
+      ]
+    },
+    {
+      "title": "AI-based approach for heart failure readmission prediction using SCG, ECG, and GSR signals",
+      "publication_year": 2025,
+      "publication_date": "2025-10-24",
+      "doi": "https://doi.org/10.1088/1361-6579/ae178c",
+      "venue": "Physiological Measurement",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1361-6579/ae178c",
+      "concepts": [
+        "Heart failure",
+        "Artificial intelligence",
+        "Medicine",
+        "Pattern recognition (psychology)",
+        "SIGNAL (programming language)",
+        "Computer science",
+        "Heart rate variability",
+        "Machine learning"
+      ],
+      "abstract": "Abstract Objective. Heart failure (HF) is considered a global pandemic because of increasing prevalence, high mortality rate, frequent hospitalization, and associated economic burden. This study explores a noninvasive method that may help in managing HF patients by predicting HF readmission. Methods. Seismocardiogram (SCG) signal is the low-frequency chest vibration produced by the mechanical activity of the heart. SCG signal was acquired from 101 patients with HF, including those readmitted to the hospital during the study period. SCG signals were segmented into heartbeats and clustered based on respiration phases. Features were extracted from each cluster. Several conventional machine learning (ML) models were developed using selected SCG and heart rate variability features. Furthermore, SCG signals were transformed into images using a time–frequency distribution method. Images were used to train a deep learning model. The models were able to predict the readmission status of HF patients. Results. ML algorithms achieved higher accuracy than the deep learning model in classifying the readmitted and non-readmitted HF patients. K-nearest neighbor achieved the highest classificati...",
+      "authors": [
+        "Rajkumar Dhar",
+        "Md Rakib Hossen",
+        "Peshala Thibbotuwawa Gamage",
+        "Richard H. Sandler",
+        "Nirav Raval",
+        "Robert J. Mentz",
+        "Hansen A. Mansy"
+      ]
+    },
+    {
+      "title": "Exercise-induced hypoalgesia following blood flow restricted exercise",
+      "publication_year": 2025,
+      "publication_date": "2025-03-01",
+      "doi": "https://doi.org/10.1016/j.ptsp.2025.02.011",
+      "venue": "Physical Therapy in Sport",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypoalgesia",
+        "Medicine",
+        "Physical therapy",
+        "Physical medicine and rehabilitation",
+        "Blood flow",
+        "Blood flow restriction",
+        "Resistance training",
+        "Cardiology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christopher E. Proppe",
+        "Paola M. Rivera",
+        "Sean M. Lubiak",
+        "David H. Fukuda",
+        "Abigail W. Anderson",
+        "Hansen A. Mansy",
+        "Ethan C. Hill"
+      ]
+    },
+    {
+      "title": "Effect of respiration and exercise on seismocardiographic signals",
+      "publication_year": 2024,
+      "publication_date": "2024-12-21",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.109600",
+      "venue": "Computers in Biology and Medicine",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compbiomed.2024.109600",
+      "concepts": [
+        "Respiration",
+        "Computer science",
+        "Physical therapy",
+        "Physical medicine and rehabilitation",
+        "Medicine",
+        "Anatomy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rajkumar Dhar",
+        "Seena E Darwish",
+        "Sara A Darwish",
+        "Richard H. Sandler",
+        "Hansen A. Mansy"
+      ]
+    }
+  ]
+}

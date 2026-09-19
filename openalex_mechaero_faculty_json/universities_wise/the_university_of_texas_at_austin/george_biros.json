@@ -1,0 +1,269 @@
+{
+  "faculty_name": "George Biros",
+  "full_name": "George Biros",
+  "department": "Walker Department of Mechanical Engineering / Oden Institute",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5044137409",
+  "works_count": 261,
+  "cited_by_count": 7256,
+  "h_index": 47,
+  "top_topics": [
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 30
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 25
+    },
+    {
+      "topic": "Medical Image Segmentation Techniques",
+      "count": 22
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 22
+    },
+    {
+      "topic": "Mathematical Biology Tumor Growth",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A kernel-independent adaptive fast multipole algorithm in two and three dimensions",
+      "publication_year": 2004,
+      "publication_date": "2004-01-20",
+      "doi": "https://doi.org/10.1016/j.jcp.2003.11.021",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 508,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fast multipole method",
+        "Mathematics",
+        "Kernel (algebra)",
+        "Multipole expansion",
+        "Laplace operator",
+        "Algorithm",
+        "Dirichlet distribution",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lexing Ying",
+        "George Biros",
+        "Denis Zorin"
+      ]
+    },
+    {
+      "title": "Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques",
+      "publication_year": 2015,
+      "publication_date": "2015-07-16",
+      "doi": "https://doi.org/10.1093/neuonc/nov127",
+      "venue": "Neuro-Oncology",
+      "type": "article",
+      "cited_by_count": 309,
+      "is_oa": true,
+      "oa_url": "https://academic.oup.com/neuro-oncology/article-pdf/18/3/417/7640370/nov127.pdf",
+      "concepts": [
+        "Generalizability theory",
+        "Medicine",
+        "Prospective cohort study",
+        "Hazard ratio",
+        "Machine learning",
+        "Magnetic resonance imaging",
+        "Artificial intelligence",
+        "Cohort"
+      ],
+      "abstract": "BACKGROUND: MRI characteristics of brain gliomas have been used to predict clinical outcome and molecular tumor characteristics. However, previously reported imaging biomarkers have not been sufficiently accurate or reproducible to enter routine clinical practice and often rely on relatively simple MRI measures. The current study leverages advanced image analysis and machine learning algorithms to identify complex and reproducible imaging patterns predictive of overall survival and molecular subtype in glioblastoma (GB). METHODS: One hundred five patients with GB were first used to extract approximately 60 diverse features from preoperative multiparametric MRIs. These imaging features were used by a machine learning algorithm to derive imaging predictors of patient survival and molecular subtype. Cross-validation ensured generalizability of these predictors to new patients. Subsequently, the predictors were evaluated in a prospective cohort of 29 new patients. RESULTS: Survival curves yielded a hazard ratio of 10.64 for predicted long versus short survivors. The overall, 3-way (long/medium/short survival) accuracy in the prospective cohort approached 80%. Classification of patie...",
+      "authors": [
+        "Luke Macyszyn",
+        "Hamed Akbari",
+        "Jared Pisapia",
+        "Xiao Da",
+        "Mark Attiah",
+        "Vadim Pigrish",
+        "Yingtao Bi",
+        "Sharmistha Pal",
+        "Ramana V. Davuluri",
+        "Laura Roccograndi",
+        "Nadia Dahmane",
+        "Maria Martinez‐Lage",
+        "George Biros",
+        "Ronald L. Wolf",
+        "Michel Bilello",
+        "Donald M. O’Rourke",
+        "Christos Davatzikos"
+      ]
+    },
+    {
+      "title": "Parallel Lagrange--Newton--Krylov--Schur Methods for PDE-Constrained Optimization. Part I: The Krylov--Schur Solver",
+      "publication_year": 2005,
+      "publication_date": "2005-01-01",
+      "doi": "https://doi.org/10.1137/s106482750241565x",
+      "venue": "SIAM Journal on Scientific Computing",
+      "type": "article",
+      "cited_by_count": 273,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Karush–Kuhn–Tucker conditions",
+        "Solver",
+        "Preconditioner",
+        "Mathematics",
+        "Hessian matrix",
+        "Mathematical optimization",
+        "Newton's method",
+        "Applied mathematics"
+      ],
+      "abstract": "Large-scale optimization of systems governed by partial differential equations (PDEs) is a frontier problem in scientific computation. Reduced quasi-Newton sequential quadratic programming (SQP) methods are state-of-the-art approaches for such problems. These methods take full advantage of existing PDE solver technology and parallelize well. However, their algorithmic scalability is questionable; for certain problem classes they can be very slow to converge. In this two-part article we propose a new method for steady-state PDE-constrained optimization, based on the idea of using a full space Newton solver combined with an approximate reduced space quasi-Newton SQP preconditioner. The basic components of the method are Newton solution of the first-order optimality conditions that characterize stationarity of the Lagrangian function; Krylov solution of the Karush--Kuhn--Tucker (KKT) linear systems arising at each Newton iteration using a symmetric quasi-minimum residual method; preconditioning of the KKT system using an approximate state/decision variable decomposition that replaces the forward PDE Jacobians by their own preconditioners, and the decision space Schur complement (th...",
+      "authors": [
+        "George Biros",
+        "Omar Ghattas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Extensions of the Regret-Minimization Algorithm for Optimal Design",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1137/25m1753097",
+      "venue": "SIAM Journal on Matrix Analysis and Applications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Optimal design",
+        "Algorithm",
+        "Mathematical optimization",
+        "Minification",
+        "Algebra over a field",
+        "Applied mathematics",
+        "Linear programming"
+      ],
+      "abstract": "Abstract. We consider the problem of selecting a subset of points from a dataset of [Formula: see text] unlabeled examples for labeling, with the goal of training a multiclass classifier. To address this, we build upon the regret minimization framework introduced by Allen-Zhu et al. [ Near-optimal design of experiments via regret minimization, in Proceedings of the 34th International Conference on Machine Learning, PMLR 70, 2017, pp. 126–135]. We propose an alternative regularization scheme within this framework, which leads to a new sample selection objective along with a provable sample complexity bound that guarantees a [Formula: see text]-approximate solution. Additionally, we extend the regret minimization approach to handle experimental design in the ridge regression setting. We evaluate the selected samples using logistic regression and compare performance against several state-of-the-art methods. Our empirical results on MNIST, CIFAR-10, and a 50-class subset of ImageNet demonstrate that our method consistently outperforms competing approaches across most scenarios.",
+      "authors": [
+        "Youguang Chen",
+        "George Biros"
+      ]
+    },
+    {
+      "title": "VesNet: Neural network accelerated solver for simulating Stokesian vesicle suspensions",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.48550/arxiv.2606.25569",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.25569",
+      "concepts": [
+        "Hagen–Poiseuille equation",
+        "Solver",
+        "Computer science",
+        "Speedup",
+        "Computational science",
+        "Coupling (piping)",
+        "Flow (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "Numerical simulation of deformable particle suspensions in Stokes flow is computationally expensive due to nonlinear fluid-structure interactions, evolving interfaces, and multiscale hydrodynamics. We present VesNet, a hybrid framework that accelerates two-dimensional vesicle suspension simulations by approximating vesicle self interactions, including background flow coupling and short-range lubrication forces, while retaining conventional modules for boundary reparameterization and far-field hydrodynamics. A GPU-accelerated implementation achieves over 100x speedup compared to a multithreaded MATLAB CPU boundary integral solver and about 5x relative to its GPU counterpart. VesNet accurately captures key dynamics, including single-vesicle phase behavior, pair interactions, and large-scale suspensions in Taylor-Green and Poiseuille flows, enabling efficient simulations of thousands of vesicles on modest computational resources.",
+      "authors": [
+        "Shan Zhong",
+        "Gökberk Kabacaoğlu",
+        "George Biros"
+      ]
+    },
+    {
+      "title": "VesNet: Neural network accelerated solver for simulating Stokesian vesicle suspensions",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://arxiv.org/abs/2606.25569",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.25569",
+      "concepts": [
+        "Hagen–Poiseuille equation",
+        "Solver",
+        "Computer science",
+        "Speedup",
+        "Computational science",
+        "Coupling (piping)",
+        "Flow (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "Numerical simulation of deformable particle suspensions in Stokes flow is computationally expensive due to nonlinear fluid-structure interactions, evolving interfaces, and multiscale hydrodynamics. We present VesNet, a hybrid framework that accelerates two-dimensional vesicle suspension simulations by approximating vesicle self interactions, including background flow coupling and short-range lubrication forces, while retaining conventional modules for boundary reparameterization and far-field hydrodynamics. A GPU-accelerated implementation achieves over 100x speedup compared to a multithreaded MATLAB CPU boundary integral solver and about 5x relative to its GPU counterpart. VesNet accurately captures key dynamics, including single-vesicle phase behavior, pair interactions, and large-scale suspensions in Taylor-Green and Poiseuille flows, enabling efficient simulations of thousands of vesicles on modest computational resources.",
+      "authors": [
+        "Shan Zhong",
+        "Gökberk Kabacaoğlu",
+        "George Biros"
+      ]
+    },
+    {
+      "title": "An efficient solver for the spatially homogeneous electron Boltzmann equation for weakly ionized collisional plasmas",
+      "publication_year": 2026,
+      "publication_date": "2026-06-18",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115131",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Physics",
+        "Boltzmann equation",
+        "Computational physics",
+        "Electron",
+        "Eulerian path",
+        "Distribution function",
+        "Plasma"
+      ],
+      "abstract": "",
+      "authors": [
+        "Milinda Fernando",
+        "Daniil Bochkov",
+        "James Almgren-Bell",
+        "Todd Oliver",
+        "Robert Moser",
+        "Philip Varghese",
+        "Laxminarayan Raja",
+        "George Biros"
+      ]
+    },
+    {
+      "title": "ut-padas/parki: v0.0.1",
+      "publication_year": 2026,
+      "publication_date": "2026-06-18",
+      "doi": "https://doi.org/10.5281/zenodo.21415320",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.21415320",
+      "concepts": [
+        "Computer science",
+        "Work (physics)",
+        "Engineering",
+        "Selection (genetic algorithm)",
+        "Identification (biology)",
+        "Product (mathematics)",
+        "Process (computing)",
+        "Context (archaeology)"
+      ],
+      "abstract": "What's Changed ParKI Version 0.0.1 by @kennykos in https://github.com/ut-padas/parki/pull/1 Full Changelog: https://github.com/ut-padas/parki/commits/v0.0.1 Contributors @kennykos @joarbagge @ziyudu123 @yiorgb Full Changelog: https://github.com/ut-padas/parki/commits/v0.0.1",
+      "authors": [
+        "Gabriel Kosmacher",
+        "Joar Bagge",
+        "George Biros"
+      ]
+    }
+  ]
+}

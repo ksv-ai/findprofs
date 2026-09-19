@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Jason Hicken",
+  "full_name": "Jason E. Hicken",
+  "department": "Department of Mechanical, Aerospace, and Nuclear Engineering",
+  "university": "Rensselaer Polytechnic Institute",
+  "author_id": "A5088748633",
+  "works_count": 102,
+  "cited_by_count": 2473,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 49
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 33
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 19
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 17
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stanford University Unstructured (SU2): An open-source integrated computational environment for multi-physics simulation and design",
+      "publication_year": 2013,
+      "publication_date": "2013-01-05",
+      "doi": "https://doi.org/10.2514/6.2013-287",
+      "venue": "51st AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 404,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Open source",
+        "Physics",
+        "Computer science",
+        "Computational science",
+        "Operating system",
+        "Software"
+      ],
+      "abstract": "",
+      "authors": [
+        "Francisco Palacios",
+        "Juan J. Alonso",
+        "Karthikeyan Duraisamy",
+        "Michael Colonno",
+        "Jason E. Hicken",
+        "Aniket Aranake",
+        "Alejandro Campos",
+        "Sean R. Copeland",
+        "Thomas D. Economon",
+        "Amrita K. Lonkar",
+        "Trent Lukaczyk",
+        "Thomas W. Taylor"
+      ]
+    },
+    {
+      "title": "Review of summation-by-parts operators with simultaneous approximation terms for the numerical solution of partial differential equations",
+      "publication_year": 2014,
+      "publication_date": "2014-03-14",
+      "doi": "https://doi.org/10.1016/j.compfluid.2014.02.016",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 378,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Summation by parts",
+        "Curvilinear coordinates",
+        "Quadrature (astronomy)",
+        "Partial differential equation",
+        "Applied mathematics",
+        "Boundary value problem",
+        "Differential operator"
+      ],
+      "abstract": "",
+      "authors": [
+        "David C. Del Rey Fernández",
+        "Jason E. Hicken",
+        "David W. Zingg"
+      ]
+    },
+    {
+      "title": "Aerodynamic Optimization Algorithm with Integrated Geometry Parameterization and Mesh Movement",
+      "publication_year": 2010,
+      "publication_date": "2010-01-28",
+      "doi": "https://doi.org/10.2514/1.44033",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 201,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Geometry",
+        "Movement (music)",
+        "Computer science",
+        "Polygon mesh",
+        "Mathematics",
+        "Algorithm",
+        "Aerospace engineering"
+      ],
+      "abstract": "An efficient gradient-based algorithm for aerodynamic shape optimization is presented. The algorithm consists of several components, including a novel integrated geometry parameterization and mesh movement, a parallel Newton―Krylov flow solver, and an adjoint-based gradient evaluation. To integrate geometry parameterization and mesh movement, generalized B-spline volumes are used to parameterize both the surface and volume mesh. The volume mesh of B-spline control points mimics a coarse mesh; a linear elasticity mesh-movement algorithm is applied directly to this coarse mesh and the fine mesh is regenerated algebraically. Using this approach, mesh-movement time is reduced by two to three orders of magnitude relative to a node-based movement. The mesh-adjoint system also becomes smaller and is thus amenable to complex-step derivative approximations. When solving the flow-adjoint equations using restarted Krylov-subspace methods, a nested-subspace strategy is shown to be more robust than truncating the entire subspace. Optimization is accomplished using a sequential-quadratic-programming algorithm. The effectiveness of the complete algorithm is demonstrated using a lift-constraine...",
+      "authors": [
+        "Jason E. Hicken",
+        "David W. Zingg"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Computational Fluid Dynamics for Optimization Using a Summation-by-Parts Discretization and Automatic Differentiation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0146",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Solver",
+        "Finite element method",
+        "Automatic differentiation",
+        "Computation",
+        "Aerodynamics",
+        "Computer science",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "In multidisciplinary analysis and optimization, computation of aerodynamics is typically handled with second-order finite volume or finite element methods. This paper presents a methodology capable of stable, higher-order discretizations using summation-by-parts operators. Typical finite element and finite difference higher-order operators offer advantages in solution accuracy and computational efficiency but are typically hampered by nonlinear instability. In contrast, summation-by-parts operators can be provably nonlinearly stable. The combination of summation-by-parts operators and an entropy-conservative flux can produce an entropy-stable discretization scheme. This work leverages these operators, an entropy-conservative flux formulation, and automatic differentiation to form a robust solution method. Automatic differentiation is particularly useful in support of the adjoint solver to calculate accurate derivatives with respect to state and design variables.",
+      "authors": [
+        "Brian J. Burke",
+        "Graeme Kennedy",
+        "Jason E. Hicken"
+      ]
+    },
+    {
+      "title": "Robust design optimization with gradient-based surrogates and adaptive sampling",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1007/s00158-025-04110-y",
+      "venue": "Structural and Multidisciplinary Optimization",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Engineering design process",
+        "Sampling (signal processing)",
+        "Adaptive sampling",
+        "Computer science",
+        "Multidisciplinary design optimization",
+        "Mathematical optimization",
+        "Mathematics",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Garo Bedonian",
+        "Jason E. Hicken",
+        "Edwin E. Forster"
+      ]
+    },
+    {
+      "title": "Accelerating the Convergence of Poorly-Scaled Optimization Problems",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3738",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Convergence (economics)",
+        "Computer science",
+        "Mathematical optimization",
+        "Mathematics",
+        "Economics",
+        "Economic growth"
+      ],
+      "abstract": "Poorly-scaled optimization problems have ill-conditioned Hessians or Jacobians, which can lead to slow convergence for many optimization algorithms. Indeed, if the ill-conditioning is severe enough, the optimization algorithm may not converge before the available computational budget is exhausted. To help mitigate scaling issues, we propose mappings for the design parameters and constraints that are based on the eigenvalue decomposition of the Hessian and singular-value decomposition of the Jacobian, respectively. To avoid the expense of computing the full decompositions, the mappings rely on only a small subset corresponding to the eigenvalues and singular values with the largest magnitudes. We estimate the eigenpairs using Arnoldi's method with Hessian-vector products approximated using forward differences applied to the gradient, which avoids the need for second derivatives. Similarly, we estimate the largest singular values of the constraint Jacobian using a matrix-free Lanczos algorithm. We demonstrate the Hessian-based mapping using unconstrained problems with quadratic objectives defined over a range of design-space dimensions and Hessian condition numbers. These numerica...",
+      "authors": [
+        "Habeeb B. Idris",
+        "Jason E. Hicken"
+      ]
+    },
+    {
+      "title": "Very high-order symmetric positive-interior quadrature rules on triangles and tetrahedra",
+      "publication_year": 2025,
+      "publication_date": "2025-06-01",
+      "doi": "https://doi.org/10.1016/j.cam.2025.116782",
+      "venue": "Journal of Computational and Applied Mathematics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cam.2025.116782",
+      "concepts": [
+        "Mathematics",
+        "Tetrahedron",
+        "Quadrature (astronomy)",
+        "Gauss–Jacobi quadrature",
+        "Gauss–Kronrod quadrature formula",
+        "Order (exchange)",
+        "Clenshaw–Curtis quadrature",
+        "Mathematical analysis"
+      ],
+      "abstract": "We present novel fully-symmetric quadrature rules with positive weights and strictly interior nodes that are exact for polynomials of total degrees up to 84 on triangles and 40 on tetrahedra. Initial guesses for solving the nonlinear systems of equations needed to derive quadrature rules are generated by forming tensor-product structures on quadrilateral/hexahedral subdomains of the simplices using the Legendre-Gauss nodes on the first half of the line reference element. In combination with a methodology for node elimination, these initial guesses lead to the development of highly efficient quadrature rules, even for very high polynomial degrees. Using existing estimates of the minimum number of quadrature points for a given degree, we show that the derived quadrature rules on triangles and tetrahedra are more than 95% and 80% efficient, respectively, for almost all degrees. The accuracy of the quadrature rules is demonstrated through numerical examples.",
+      "authors": [
+        "Zelalem Arega Worku",
+        "Jason E. Hicken",
+        "David W. Zingg"
+      ]
+    },
+    {
+      "title": "Constructing stable, high-order finite-difference operators on point clouds over complex geometries",
+      "publication_year": 2025,
+      "publication_date": "2025-03-20",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.113940",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2025.113940",
+      "concepts": [
+        "Mathematics",
+        "Order (exchange)",
+        "Finite difference",
+        "Point (geometry)",
+        "Pure mathematics",
+        "Applied mathematics",
+        "Mathematical analysis",
+        "Geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jason E. Hicken",
+        "Ge Yan",
+        "Sharanjeet Kaur"
+      ]
+    }
+  ]
+}

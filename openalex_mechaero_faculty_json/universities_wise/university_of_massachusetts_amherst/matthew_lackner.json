@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Matthew Lackner",
+  "full_name": "Matthew A. Lackner",
+  "department": "Department of Mechanical and Industrial Engineering",
+  "university": "University of Massachusetts Amherst",
+  "author_id": "A5078300862",
+  "works_count": 116,
+  "cited_by_count": 4609,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 68
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 53
+    },
+    {
+      "topic": "Wave and Wind Energy Systems",
+      "count": 40
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 25
+    },
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Development of a free vortex wake method code for offshore floating wind turbines",
+      "publication_year": 2012,
+      "publication_date": "2012-04-21",
+      "doi": "https://doi.org/10.1016/j.renene.2012.03.033",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Aerodynamics",
+        "Turbine",
+        "Wake turbulence",
+        "Marine engineering",
+        "Inflow",
+        "Offshore wind power",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "T. Sebastian",
+        "Matthew A. Lackner"
+      ]
+    },
+    {
+      "title": "Passive structural control of offshore wind turbines",
+      "publication_year": 2010,
+      "publication_date": "2010-09-17",
+      "doi": "https://doi.org/10.1002/we.426",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 376,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.426?download=true",
+      "concepts": [
+        "Offshore wind power",
+        "Nacelle",
+        "Turbine",
+        "Wind power",
+        "Aerodynamics",
+        "Engineering",
+        "Parametric statistics",
+        "Stiffness"
+      ],
+      "abstract": "Abstract The application of control techniques to offshore wind turbines has the potential to significantly improve the structural response of these systems. A new simulation tool is developed that can be utilized to model passive, semi‐active and active structural control systems in wind turbines. Two independent, single degree of freedom (DOF) tuned mass‐ damper (TMD) devices are incorporated into a modified version of the aero‐elastic code FAST (Fatigue, Aerodynamics, Structures and Turbulence). The TMDs are located in the nacelle of the turbine model, with one TMD translating in the fore‐aft direction, and the other in the side‐side direction. The equations of motion of the TMDs are incorporated into the source code of FAST, yielding a more realistic system for modeling structural control in wind turbines than has previously been modeled. The stiffness, damping and commanded force of each TMD are controllable through the FAST‐Simulink interface, and so idealizations of semi‐active and active control approaches can be implemented. A parametric study is performed to determine the optimal parameters of a passive single DOF, fore‐aft, TMD system in both a barge‐type and monopile...",
+      "authors": [
+        "Matthew A. Lackner",
+        "Mario A. Rotea"
+      ]
+    },
+    {
+      "title": "A comparison of smart rotor control approaches using trailing edge flaps and individual pitch control",
+      "publication_year": 2009,
+      "publication_date": "2009-07-07",
+      "doi": "https://doi.org/10.1002/we.353",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 181,
+      "is_oa": true,
+      "oa_url": "https://repository.tudelft.nl/file/File_e03e135c-638b-4db7-b7c7-b4c13d5b98c0",
+      "concepts": [
+        "Engineering",
+        "Rotor (electric)",
+        "Wind power",
+        "Blade pitch",
+        "Pitch control",
+        "Aerodynamics",
+        "Turbine",
+        "Trailing edge"
+      ],
+      "abstract": "Abstract Modern wind turbines are steadily increasing in size, with recent models boasting rotor diameters greater than 120 m. Wind turbines are subjected to significant and rapid fluctuating loads, which arise from a variety of sources including turbulence, tower shadow, wind shear and yawed flow. Reducing the loads experienced by the rotor blades can lower the cost of energy of wind turbines. ‘Smart rotor control’ concepts have emerged as a solution to reduce fatigue loads on wind turbines. In this approach, aerodynamic load control devices are distributed along the span of the blade, and through a combination of sensing, control and actuation, these devices dynamically control the blade loads. This research investigates the load reduction capabilities of smart rotor control devices, namely trailing edge flaps (TEFs), in the operation of a 5 MW wind turbine. A feedback control approach is implemented for load reduction, which utilizes a multiblade coordinate transformation. Single input–single output control techniques are employed to determine the appropriate response of the TEFs based on the blade loads. The use of TEFs and this control approach is shown to effectively reduc...",
+      "authors": [
+        "Matthew A. Lackner",
+        "Gijs van Kuik"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multi-Objective Evolutionary Optimization of Wind Turbine Airfoils Incorporating Leading-Edge Roughness Insensitivity",
+      "publication_year": 2026,
+      "publication_date": "2026-04-28",
+      "doi": "https://doi.org/10.5194/wes-2026-72",
+      "venue": "Wind Energy Science Discussions",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://wes.copernicus.org/preprints/wes-2026-72/wes-2026-72.pdf",
+      "concepts": [
+        "Airfoil",
+        "Camber (aerodynamics)",
+        "Lift coefficient",
+        "Turbine",
+        "Lift (data mining)",
+        "Structural engineering",
+        "Marine engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "Abstract. Wind turbine airfoil design has historically targeted three objectives: high lift coefficient (CL), high lift-to-drag ratio (CL/CD), and insensitivity to leading-edge roughness (LER). The airfoils developed in the 1980s and 1990s for these objectives remain in widespread use today, yet the trade-offs among these competing goals have never been systematically mapped using modern global optimization methods. This paper develops a multi-objective evolutionary strategy (ES) to compute Pareto-optimal airfoil sets that reveal these trade-offs explicitly. The ES is initialized from a symmetric NACA airfoil rather than an existing wind turbine design, uses a Chebyshev-based CST parameterization, and is rigorously tuned via parameter studies. At the outer bounds of the Pareto front, the optimized airfoils improve upon the DU 93-210 reference by 87 % in CL, 26 % in CL/CD, and reduce ∆C̄L,LER to near zero. These gains are driven largely by increased camber; when a practical camber constraint of 5 % is applied, improvements of 33 % in CL and 16 % in CL/CD are still realized with near-complete LER insensitivity. A key finding is that, counter to conventional design wisdom, aft-load...",
+      "authors": [
+        "Ryan Cameron",
+        "Matthew A. Lackner"
+      ]
+    },
+    {
+      "title": "An Application of Multidisciplinary Optimization to Low Induction Rotors using high fidelity structural modeling tools",
+      "publication_year": 2025,
+      "publication_date": "2025-05-21",
+      "doi": "https://doi.org/10.22541/au.174783113.30967935/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.authorea.com/doi/pdf/10.22541/au.174783113.30967935/v1",
+      "concepts": [
+        "Multidisciplinary approach",
+        "Multidisciplinary design optimization",
+        "High fidelity",
+        "Computer science",
+        "Fidelity",
+        "Biochemical engineering",
+        "Systems engineering",
+        "Reliability engineering"
+      ],
+      "abstract": "The upscaling of wind turbines has shifted rotor design from a purely aerodynamic challenge to a multidisciplinary design optimization (MDO) problem, requiring simultaneous consideration of aerodynamic performance, structural integrity, and cost. One promising approach within this framework is the Low Induction Rotor (LIR) concept, which trades reduced aerodynamic efficiency for decreased structural loading and increased rotor size. However, integration of LIR design into high-fidelity MDO environments has been limited, particularly with respect to structural modeling. This work presents a novel MDO framework that applies the LIR concept to the IEA 15 MW reference turbine using a parameterized axial induction distribution and incorporates two structural constraints: root bending moment and blade tip deflection. High-fidelity structural modeling is achieved through NuMAD and BeamDyn, enabling the generation of Pareto-optimal blade families that offer meaningful gains in power capture while satisfying structural constraints. This approach demonstrates the viability of LIRs in realistic engineering applications and establishes a pathway for high-fidelity rotor design optimization.",
+      "authors": [
+        "Jose Jesus Mora Amaro",
+        "Matthew A. Lackner"
+      ]
+    },
+    {
+      "title": "Design optimization of offshore wind jacket piles by assessing support structure orientation relative to metocean conditions",
+      "publication_year": 2023,
+      "publication_date": "2023-05-25",
+      "doi": "https://doi.org/10.5194/wes-8-807-2023",
+      "venue": "Wind energy science",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": true,
+      "oa_url": "https://wes.copernicus.org/articles/8/807/2023/wes-8-807-2023.pdf",
+      "concepts": [
+        "Pile",
+        "Offshore wind power",
+        "Foundation (evidence)",
+        "Turbine",
+        "Marine engineering",
+        "Embedment",
+        "Wave loading",
+        "Submarine pipeline"
+      ],
+      "abstract": "The orientation of a three-legged offshore wind jacket structure in 60 m water depth, supporting the IEA 15 MW reference turbine, has been assessed for optimizing the jacket pile design. A reference site off the coast of Massachusetts was considered, including site-specific metocean conditions and realistically plausible geotechnical conditions. Soil–structure interaction was modeled using three-dimensional finite-element (FE) ground–structure simulations to obtain equivalent mudline springs, which were subsequently used in nonlinear elastic simulations, considering aerodynamic and hydrodynamic loading of extreme sea states in the time domain. Jacket pile loads were found to be sensitive to the maximum 50-year wave direction, as opposed to the wind direction, indicating that the jacket orientation should be considered relative to the dominant wave direction. The results further demonstrated that the jacket orientation has a substantial impact on the overall jacket pile mass and maximum pile embedment depth and therefore represents an important opportunity for project cost and risk reductions. Finally, this research highlights the importance of detailed knowledge of the full glob...",
+      "authors": [
+        "Maciej M. Mroczek",
+        "Sanjay R. Arwade",
+        "Matthew A. Lackner"
+      ]
+    },
+    {
+      "title": "Comment on wes-2023-4",
+      "publication_year": 2023,
+      "publication_date": "2023-02-02",
+      "doi": "https://doi.org/10.5194/wes-2023-4-rc1",
+      "venue": "",
+      "type": "peer-review",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/wes-2023-4-rc1",
+      "concepts": [
+        "Pile",
+        "Foundation (evidence)",
+        "Turbine",
+        "Offshore wind power",
+        "Marine engineering",
+        "Aerodynamics",
+        "Embedment",
+        "Geotechnical engineering"
+      ],
+      "abstract": "Abstract. The orientation of a 3-legged offshore wind jacket structure in 60 meter water depth, supporting the IEA 15MW reference turbine, has been assessed for optimizing the jacket pile design. A reference site off the coast of Massachusetts was considered, including site specific metocean conditions and realistically plausible geotechnical conditions. Soil-structure interaction was modelled using three dimensional FE ground-structure simulations to obtain equivalent mudline springs which were subsequently used in nonlinear elastic simulations, considering aerodynamic and hydrodynamic loading of extreme sea states in the time domain. Jacket pile loads were found to be sensitive to the maximum 50 year wave direction, as opposed to the wind direction, indicating that the jacket orientation should be considered relative to the dominant wave direction. The results further demonstrated that the jacket orientation has a substantial impact on the overall jacket pile mass and maximum pile embedment depth, and therefore represents an important opportunity for project cost and risk reductions. Finally, this research highlights the importance of detailed knowledge of the full global mode...",
+      "authors": [
+        "Maciej M. Mroczek",
+        "Sanjay R. Arwade",
+        "Matthew A. Lackner"
+      ]
+    },
+    {
+      "title": "Design optimization of offshore wind jacket piles by assessing support structure orientation relative to metocean conditions",
+      "publication_year": 2023,
+      "publication_date": "2023-01-26",
+      "doi": "https://doi.org/10.5194/wes-2023-4",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://wes.copernicus.org/preprints/wes-2023-4/wes-2023-4.pdf",
+      "concepts": [
+        "Pile",
+        "Offshore wind power",
+        "Turbine",
+        "Foundation (evidence)",
+        "Marine engineering",
+        "Submarine pipeline",
+        "Aerodynamics",
+        "Embedment"
+      ],
+      "abstract": "Abstract. The orientation of a 3-legged offshore wind jacket structure in 60 meter water depth, supporting the IEA 15MW reference turbine, has been assessed for optimizing the jacket pile design. A reference site off the coast of Massachusetts was considered, including site specific metocean conditions and realistically plausible geotechnical conditions. Soil-structure interaction was modelled using three dimensional FE ground-structure simulations to obtain equivalent mudline springs which were subsequently used in nonlinear elastic simulations, considering aerodynamic and hydrodynamic loading of extreme sea states in the time domain. Jacket pile loads were found to be sensitive to the maximum 50 year wave direction, as opposed to the wind direction, indicating that the jacket orientation should be considered relative to the dominant wave direction. The results further demonstrated that the jacket orientation has a substantial impact on the overall jacket pile mass and maximum pile embedment depth, and therefore represents an important opportunity for project cost and risk reductions. Finally, this research highlights the importance of detailed knowledge of the full global mode...",
+      "authors": [
+        "Maciej M. Mroczek",
+        "Sanjay R. Arwade",
+        "Matthew A. Lackner"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "faculty_name": "David Jensen",
+  "full_name": "David Jensen",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Arkansas",
+  "author_id": "A5006681132",
+  "works_count": 193,
+  "cited_by_count": 9376,
+  "h_index": 39,
+  "top_topics": [
+    {
+      "topic": "Bayesian Modeling and Causal Inference",
+      "count": 52
+    },
+    {
+      "topic": "Data Mining Algorithms and Applications",
+      "count": 38
+    },
+    {
+      "topic": "Complex Network Analysis Techniques",
+      "count": 21
+    },
+    {
+      "topic": "Data Quality and Management",
+      "count": 14
+    },
+    {
+      "topic": "Advanced Causal Inference Techniques",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "MaxProp: Routing for Vehicle-Based Disruption-Tolerant Networks",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1109/infocom.2006.228",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2044,
+      "is_oa": true,
+      "oa_url": "https://scholarworks.umass.edu/cs_faculty_pubs/846",
+      "concepts": [
+        "Computer science",
+        "Computer network",
+        "Network packet",
+        "Routing protocol",
+        "Schedule",
+        "Network topology",
+        "Routing (electronic design automation)",
+        "Oracle"
+      ],
+      "abstract": "1688-1698",
+      "authors": [
+        "John Burgess",
+        "Brian Gallagher",
+        "David Jensen",
+        "Brian Neil Levine"
+      ]
+    },
+    {
+      "title": "Resisting structural re-identification in anonymized social networks",
+      "publication_year": 2008,
+      "publication_date": "2008-08-01",
+      "doi": "https://doi.org/10.14778/1453856.1453873",
+      "venue": "Proceedings of the VLDB Endowment",
+      "type": "article",
+      "cited_by_count": 549,
+      "is_oa": true,
+      "oa_url": "https://scholarworks.umass.edu/bitstreams/e4846f9d-1df0-470a-b02a-66fc77cefa18/download",
+      "concepts": [
+        "Computer science",
+        "Anonymity",
+        "Identification (biology)",
+        "Aggregate (composite)",
+        "Context (archaeology)",
+        "Social network (sociolinguistics)",
+        "Adversary",
+        "Variety (cybernetics)"
+      ],
+      "abstract": "We identify privacy risks associated with releasing network data sets and provide an algorithm that mitigates those risks. A network consists of entities connected by links representing relations such as friendship, communication, or shared activity. Maintaining privacy when publishing networked data is uniquely challenging because an individual's network context can be used to identify them even if other identifying information is removed. In this paper, we quantify the privacy risks associated with three classes of attacks on the privacy of individuals in networks, based on the knowledge used by the adversary. We show that the risks of these attacks vary greatly based on network structure and size. We propose a novel approach to anonymizing network data that models aggregate network structure and then allows samples to be drawn from that model. The approach guarantees anonymity for network entities while preserving the ability to estimate a wide variety of network measures with relatively little bias.",
+      "authors": [
+        "Michael Hay",
+        "Gerome Miklau",
+        "David Jensen",
+        "Don Towsley",
+        "Philipp Weis"
+      ]
+    },
+    {
+      "title": "Dynamics of Pleistocene Population Extinctions in Beringian Brown Bears",
+      "publication_year": 2002,
+      "publication_date": "2002-03-22",
+      "doi": "https://doi.org/10.1126/science.1067814",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 405,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Beringia",
+        "Pleistocene",
+        "Glacial period",
+        "Ursus",
+        "Climate change",
+        "Ecology",
+        "Ancient DNA",
+        "Last Glacial Maximum"
+      ],
+      "abstract": "The climatic and environmental changes associated with the last glaciation (90,000 to 10,000 years before the present; 90 to 10 ka B.P.) are an important example of the effects of global climate change on biological diversity. These effects were particularly marked in Beringia (northeastern Siberia, northwestern North America, and the exposed Bering Strait) during the late Pleistocene. To investigate the evolutionary impact of these events, we studied genetic change in the brown bear, Ursus arctos, in eastern Beringia over the past 60,000 years using DNA preserved in permafrost remains. A marked degree of genetic structure is observed in populations throughout this period despite local extinctions, reinvasions, and potential interspecies competition with the short-faced bear, Arctodus simus. The major phylogeographic changes occurred 35 to 21 ka B.P., before the glacial maximum, and little change is observed after this time. Late Pleistocene histories of mammalian taxa may be more complex than those that might be inferred from the fossil record or contemporary DNA sequences alone.",
+      "authors": [
+        "Ian Barnes",
+        "Paul Matheus",
+        "Beth Shapiro",
+        "David Jensen",
+        "Alan Cooper"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The Imperative for Grand Challenges in Computing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "https://doi.org/10.48550/arxiv.2601.00700",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.00700",
+      "concepts": [
+        "Grand Challenges",
+        "Action (physics)",
+        "Data science",
+        "Scale (ratio)",
+        "Engineering ethics",
+        "Call to action",
+        "Computer science",
+        "Big data"
+      ],
+      "abstract": "Computing is an indispensable component of nearly all technologies and is ubiquitous for vast segments of society. It is also essential to discoveries and innovations in most disciplines. However, while past grand challenges in science have involved computing as one of the tools to address the challenge, these challenges have not been principally about computing. Why has the computing community not yet produced challenges at the scale of grandeur that we see in disciplines such as physics, astronomy, or engineering? How might we go about identifying similarly grand challenges? What are the grand challenges of computing that transcend our discipline's traditional boundaries and have the potential to dramatically improve our understanding of the world and positively shape the future of our society? There is a significant benefit in us, as a field, taking a more intentional approach to \"grand challenges.\" We are seeking challenge problems that are sufficiently compelling as to both ignite the imagination of computer scientists and draw researchers from other disciplines to computational challenges. This paper emphasizes the importance, now more than ever, of defining and pursuing g...",
+      "authors": [
+        "William C. Regli",
+        "Rajmohan Rajaraman",
+        "Daniel Lopresti",
+        "David Jensen",
+        "Mary Lou Maher",
+        "Manish Parashar",
+        "Mona Singh",
+        "Holly A. Yanco"
+      ]
+    },
+    {
+      "title": "The Imperative for Grand Challenges in Computing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "http://arxiv.org/abs/2601.00700",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.00700",
+      "concepts": [
+        "Grand Challenges",
+        "Action (physics)",
+        "Data science",
+        "Scale (ratio)",
+        "Engineering ethics",
+        "Call to action",
+        "Computer science",
+        "Big data"
+      ],
+      "abstract": "Computing is an indispensable component of nearly all technologies and is ubiquitous for vast segments of society. It is also essential to discoveries and innovations in most disciplines. However, while past grand challenges in science have involved computing as one of the tools to address the challenge, these challenges have not been principally about computing. Why has the computing community not yet produced challenges at the scale of grandeur that we see in disciplines such as physics, astronomy, or engineering? How might we go about identifying similarly grand challenges? What are the grand challenges of computing that transcend our discipline's traditional boundaries and have the potential to dramatically improve our understanding of the world and positively shape the future of our society? There is a significant benefit in us, as a field, taking a more intentional approach to \"grand challenges.\" We are seeking challenge problems that are sufficiently compelling as to both ignite the imagination of computer scientists and draw researchers from other disciplines to computational challenges. This paper emphasizes the importance, now more than ever, of defining and pursuing g...",
+      "authors": [
+        "William C. Regli",
+        "Rajmohan Rajaraman",
+        "Daniel Lopresti",
+        "David Jensen",
+        "Mary Lou Maher",
+        "Manish Parashar",
+        "Mona Singh",
+        "Holly A. Yanco"
+      ]
+    },
+    {
+      "title": "Improving Generative Methods for Causal Evaluation via Simulation-Based Inference",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.48550/arxiv.2509.02892",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.02892",
+      "concepts": [
+        "Causal inference",
+        "Computer science",
+        "Estimator",
+        "Inference",
+        "Machine learning",
+        "Synthetic data",
+        "Benchmarking",
+        "Data mining"
+      ],
+      "abstract": "Generating synthetic datasets that accurately reflect real-world observational data is critical for evaluating causal estimators, but it remains a challenging task. Existing generative methods offer a solution by producing synthetic datasets anchored in the observed data (source data) while allowing variation in key parameters such as the treatment effect and amount of confounding bias. However, it is often unclear which generative methods to use and which values of parameters to choose when generating synthetic datasets. Moreover, existing methods typically require users to provide fixed point estimates of such parameters. This denies users the ability to express uncertainty over both generative methods and parameter values and removes the potential for posterior inference, potentially leading to unreliable estimator comparisons. We introduce simulation-based inference for causal evaluation (SBICE), a framework that treats the generative method and its corresponding generative parameters as uncertain and infers their posterior distribution given a source dataset. Leveraging techniques in simulation-based inference, SBICE identifies suitable generative methods and infers distrib...",
+      "authors": [
+        "Pracheta Amaranath",
+        "Vinitra Muralikrishnan",
+        "Sharma, Amit",
+        "David Jensen"
+      ]
+    },
+    {
+      "title": "Bayesian Sequential Experimental Design for Planning Series of Police Lineups",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1093/lpr/mgae017",
+      "venue": "Law Probability and Risk",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Suspect",
+        "Witness",
+        "Psychology",
+        "Innocence",
+        "Artificial intelligence",
+        "Cognitive psychology",
+        "Computer science",
+        "Criminology"
+      ],
+      "abstract": "Abstract To differentiate between guilty and innocent suspects during a criminal case, investigators often query eyewitness memory with a series of police lineups. Most current research on lineup efficacy, however, focuses almost exclusively on individual lineups—perhaps because the literature lacks analytic tools for the multi-lineup setting. In this article, we develop the first general formalism for evaluating the configurations of series of police lineups, thereby equipping the lineup research community to more fully understand these important cases. To accomplish this, we ground the problem of configuring police lineups in the theory of Bayesian sequential experimental design. Using both synthetic data and publicly available data from human-subjects studies, we find that a well-configured series can yield information greater than the sum of its parts. Evidentiary value increases when lineups are configured in light of what has been learned from past lineups and what might be learned from future lineups. Strikingly, some naive approaches reduce the information gained about the suspect’s guilt or innocence to a degree comparable to losing an entire witness in a multi-witness ...",
+      "authors": [
+        "Andy Zane",
+        "Andrew L. Cohen",
+        "David Jensen",
+        "Jeffrey J. Starns",
+        "Michael Tuttle",
+        "Sam Witty"
+      ]
+    },
+    {
+      "title": "A Hope for Life.",
+      "publication_year": 2024,
+      "publication_date": "2024-07-01",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/39013190",
+      "venue": "PubMed",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Psychology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Casey Risinger",
+        "Luke Merrill",
+        "David Jensen",
+        "Susan M. Anderson"
+      ]
+    }
+  ]
+}

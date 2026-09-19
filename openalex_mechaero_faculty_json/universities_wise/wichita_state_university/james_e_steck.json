@@ -1,0 +1,255 @@
+{
+  "faculty_name": "James E. Steck",
+  "full_name": "James E. Steck",
+  "department": "Department of Aerospace Engineering",
+  "university": "Wichita State University",
+  "author_id": "A5041044613",
+  "works_count": 194,
+  "cited_by_count": 1522,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Quantum Computing Algorithms and Architecture",
+      "count": 62
+    },
+    {
+      "topic": "Quantum Information and Cryptography",
+      "count": 50
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 46
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 27
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Adaptive Feedback Control by Constrained Approximate Dynamic Programming",
+      "publication_year": 2008,
+      "publication_date": "2008-07-24",
+      "doi": "https://doi.org/10.1109/tsmcb.2008.924140",
+      "venue": "IEEE Transactions on Systems Man and Cybernetics Part B (Cybernetics)",
+      "type": "article",
+      "cited_by_count": 48,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Computer science",
+        "Stall (fluid mechanics)",
+        "Artificial neural network",
+        "Stability (learning theory)",
+        "Controller (irrigation)",
+        "Adaptive control",
+        "Dynamic programming"
+      ],
+      "abstract": "A constrained approximate dynamic programming (ADP) approach is presented for designing adaptive neural network (NN) controllers with closed-loop stability and performance guarantees. Prior knowledge of the linearized equations of motion is used to guarantee that the closed-loop system meets performance and stability objectives when the plant operates in a linear parameter-varying (LPV) regime. In the presence of unmodeled dynamics or failures, the NN controller adapts to optimize its performance online, whereas constrained ADP guarantees that the LPV baseline performance is preserved at all times. The effectiveness of an adaptive NN flight controller is demonstrated for simulated control failures, parameter variations, and near-stall dynamics.",
+      "authors": [
+        "Silvio Ferrari",
+        "James E. Steck",
+        "Rajeev Chandramohan"
+      ]
+    },
+    {
+      "title": "Use of neural networks in control of high-alpha maneuvers",
+      "publication_year": 1993,
+      "publication_date": "1993-09-01",
+      "doi": "https://doi.org/10.2514/3.21104",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Alpha (finance)",
+        "Artificial neural network",
+        "Control theory (sociology)",
+        "Computer science",
+        "Control (management)",
+        "Artificial intelligence",
+        "Mathematics",
+        "Statistics"
+      ],
+      "abstract": "A method is presented by which an appropriately constructed artificial neural network can be to predict the force and moment coefficients of a 70-deg sweep delta wing during a high-angle-of-attack excursion. The angle-of-attack time history is a sinusoidal motion from 0 to 90 deg and returning to 0 deg. Experimental data are used to train the network, and it is demonstrated that the network has indeed learned to model the behavior of the delta wing over a range of frequencies of this type of angle-of-atta ck time history. The longitudinal equations of motion for a delta wing aircraft are integrated for three sinusoidal angle-of-attack time histories using the predicted network aerodynamic data. This integration generates the longitudinal control deflection time histories required to produce these maneuvers. An exploration is then made as to whether a second artificial neural network can be trained as a neural stick gearing for such maneuvers. This is investigated by attempting to train a network to associate each required control deflection time history with a specified stick position schedule.",
+      "authors": [
+        "Kamran Rokhsaz",
+        "James E. Steck"
+      ]
+    },
+    {
+      "title": "Linear and neural network feedback for flight control decoupling",
+      "publication_year": 1996,
+      "publication_date": "1996-08-01",
+      "doi": "https://doi.org/10.1109/37.526912",
+      "venue": "IEEE Control Systems",
+      "type": "article",
+      "cited_by_count": 37,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Control theory (sociology)",
+        "Decoupling (probability)",
+        "Nonlinear system",
+        "Computer science",
+        "Aerodynamics",
+        "Generalization",
+        "Flight simulator"
+      ],
+      "abstract": "Some experts are of the opinion that the task of flight training can become far less labor-intensive if the pilot can directly control each of the state variables of the aircraft individually. Yet complete decoupling of the aircraft as a nonlinear system is a formidable problem. Such a task requires accurate aircraft state information and rapid computing. The difficulties are compounded when the dynamics or the aerodynamics of the aircraft fall in the highly nonlinear regimes. The authors demonstrate the potential for an artificial neural network in conjunction with a linear compensator to perform such a function. The authors show that the linear compensator is unable to control the aircraft in the absence of the neural network. A neural network can be trained to produce the large nonlinear portion of the control inputs; however, a hybrid combination of the neural network and the compensator based on the linearized equations of motion gives the best results. Furthermore, The authors demonstrate that such a hybrid system can tolerate a large amount of noise in the network input. Several examples are shown, with and without the linear compensator. Finally, the authors demonstrate ...",
+      "authors": [
+        "James E. Steck",
+        "Kamran Rokhsaz",
+        "Shyh‐Pyng Shue"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Vision Based Navigation System For An Aircraft in Approach Phase",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0196",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer vision",
+        "Artificial intelligence",
+        "Computer science",
+        "Inertial measurement unit",
+        "Kalman filter",
+        "Sensor fusion",
+        "Filter (signal processing)",
+        "Radar altimeter"
+      ],
+      "abstract": "This paper presents an event driven linear Kalman filter that fuses asynchronous vision based camera pose estimates with simulated onboard IMU and radio altimeter data to improve position, velocity, and altitude estimation during approach. Implemented in X Plane for manual 3 nm and 10 nm approaches, the filter smooths noisy vision outputs, rejects spurious peaks, maintains continuity through vision dropouts, and closely tracks radio altimeter altitude with final approach errors under ~30 ft. Post processed vision attitude estimates follow the recorded data from X-Plane flight simulator with larger outliers at longer ranges. Results support using this fusion approach for autonomous landing guidance and motivate angular rate fusion and Machine Learning based pose estimation next.",
+      "authors": [
+        "B. Kartikeyan",
+        "James E. Steck"
+      ]
+    },
+    {
+      "title": "Navigation Path Planning and Flight Rules in Simulated Air Corridors for Urban Air Mobility",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1986",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Overtaking",
+        "Air traffic control",
+        "Collision avoidance",
+        "Collision",
+        "Air navigation",
+        "Computer science",
+        "Path (computing)",
+        "Motion planning"
+      ],
+      "abstract": "A framework is presented for simulating and controlling multiple urban air mobility vehicles in air corridors with real-time vehicle-to-vehicle communication. We use a framework developed in MATLAB, interfaced with X-Plane flight simulation software, to develop strategies to adapt to changing air traffic as well as environmental conditions, ensuring safe and efficient flight operations. Simulation of multiple vehicles within an air corridor enable evaluation of the effectiveness of various approaches in generating optimal navigation paths and collision avoidance for the simulated traffic in an air corridor. An example of how this framework can be utilized to evaluate an overtaking aircraft collision avoidance strategy is presented along with the control method used for the collision avoidance.",
+      "authors": [
+        "Alok Menon",
+        "James E. Steck",
+        "John Watkins",
+        "Kamesh Namuduri",
+        "Kevin Kraus",
+        "Zachary Farrington"
+      ]
+    },
+    {
+      "title": "Low Thrust Minimum Time Transfer: Reinforcement Learning of Optimal Co-State Time Dependance",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2782",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Acceleration",
+        "Convergence (economics)",
+        "Computer science",
+        "Dependency (UML)",
+        "Control theory (sociology)",
+        "Thrust",
+        "Geosynchronous orbit"
+      ],
+      "abstract": "This paper proposes a deep reinforcement learning framework for computing minimum-time low-thrust orbit-raising trajectories. Spacecraft dynamics is modeled using h-e elements, and includes J2 perturbations, acceleration due to the Sun and the Moon, as well as the effect of Earth shadow. Machine learning was used to adapt a parameterization of the optimal control co-state. To reduce a tendency to wander and oscillate during co-state learning and exploration, we replace our previous co-state dependency and learning mechanism, which we used in a prior paper, with a method here to adapt a co-state function that depends on time. Our methodology is demonstrated through numerical simulations of orbit-raising scenarios to the geosynchronous equatorial orbit. The simulations indicate better convergence when compared to parameterization of co-state dependency on the current state.",
+      "authors": [
+        "James E. Steck",
+        "Atri Dutta",
+        "Adrian Arustei"
+      ]
+    },
+    {
+      "title": "Flight Test Assignment Modules in a Senior Technical Elective/Graduate Flight Dynamics Course",
+      "publication_year": 2024,
+      "publication_date": "2024-09-26",
+      "doi": "https://doi.org/10.18260/1-2-110.1139-49391",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/49391.pdf",
+      "concepts": [
+        "Course (navigation)",
+        "Test (biology)",
+        "Aeronautics",
+        "Computer science",
+        "Flight test",
+        "Engineering",
+        "Simulation",
+        "Aerospace engineering"
+      ],
+      "abstract": "Local and regional aircraft companies hire Wichita State University graduates as flight test engineers for development, certification and production flight testing for various aircraft programs.Some, after significant further pilot training and experience, have moved into roles as flight test as well as commercial and military pilots.Textron Aviation and Bombardier-Learjet are the largest local employers of WSU flight test engineers, Bell Helicopter is a regional employer, and Boeing is a national employer.Some of these companies requested that introductory material on flight testing be incorporated into our curriculum, to expose and promote flight testing as a career for our graduates.Balaji Kartikeyan was a graduate student at WSU who was also in his 2 nd year as an intern in flight test at Bombardier.He and Jim Steck, who teaches and does research in aircraft design, flight dynamics and flight controls, 4 years ago, developed a flight test homework assignment for a junior level flight dynamics course, and, more importantly, 4 flight test modules/assignments to be included in the senior/graduate intermediate flight dynamics course.These modules were refined and taught by Alok ...",
+      "authors": [
+        "B. Kartikeyan",
+        "James E. Steck",
+        "Alok Menon"
+      ]
+    },
+    {
+      "title": "Existence of a robust optimal control process for efficient measurements in a two-qubit system",
+      "publication_year": 2026,
+      "publication_date": "2026-02-19",
+      "doi": "https://doi.org/10.1103/116x-1vfv",
+      "venue": "Physical Review A",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.19122",
+      "concepts": [
+        "Quantum entanglement",
+        "Unitary transformation",
+        "Observable",
+        "Transformation (genetics)",
+        "State (computer science)",
+        "Unitary state",
+        "Optimal control",
+        "Measure (data warehouse)"
+      ],
+      "abstract": "The verification of quantum entanglement is essential for quality control in quantum communication. In this work, we propose an efficient protocol to directly verify the two-qubit entanglement of a known target state through a single expectation value measurement. Our method provides exact entanglement quantification using the currencence measure without performing quantum state tomography. We prove the existence of a unitary transformation that drives the initial state of a two-qubit system to a designated final state, where the trace over a chosen observable directly yields the concurrence of the initial state. Furthermore, we implement an optimal control process of that transformation and demonstrate its effectiveness through numerical simulations. We also show that this process is robust to environmental noise. Our approach offers advantages in directly verifying entanglement with low circuit depth, making it suitable for industrial-scale quality control of entanglement generation. Our results, presented here, provide mathematical justification for our earlier computational experiments.",
+      "authors": [
+        "Ricardo Rodriguez",
+        "Nam Nguyen",
+        "Elizabeth Behrman",
+        "Andy C. Y. Li",
+        "James E. Steck"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "faculty_name": "William Engblom",
+  "full_name": "William Engblom and V. Bhagwandin",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5097037524",
+  "works_count": 1,
+  "cited_by_count": 26,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 1
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 1
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Wind-US Code Physical Modeling Improvements to Complement Hypersonic Testing and Evaluation",
+      "publication_year": 2009,
+      "publication_date": "2009-01-05",
+      "doi": "https://doi.org/10.2514/6.2009-193",
+      "venue": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 26,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20090027874/downloads/20090027874.pdf",
+      "concepts": [
+        "Complement (music)",
+        "Computer science",
+        "Code (set theory)",
+        "Aerospace engineering",
+        "Engineering",
+        "Programming language",
+        "Chemistry",
+        "Complementation"
+      ],
+      "abstract": "This report gives an overview of physical modeling enhancements to the Wind-US flow solver which were made to improve the capabilities for simulation of hypersonic flows and the reliability of computations to complement hypersonic testing. The improvements include advanced turbulence models, a bypass transition model, a conjugate (or closely coupled to vehicle structure) conduction-convection heat transfer capability, and an upgraded high-speed combustion solver. A Mach 5 shock-wave boundary layer interaction problem is used to investigate the benefits of k- s and k-w based explicit algebraic stress turbulence models relative to linear two-equation models. The bypass transition model is validated using data from experiments for incompressible boundary layers and a Mach 7.9 cone flow. The conjugate heat transfer method is validated for a test case involving reacting H2-O2 rocket exhaust over cooled calorimeter panels. A dual-mode scramjet configuration is investigated using both a simplified 1-step kinetics mechanism and an 8-step mechanism. Additionally, variations in the turbulent Prandtl and Schmidt numbers are considered for this scramjet configuration.",
+      "authors": [
+        "Nicholas J. Georgiadis",
+        "Dennis A. Yoder",
+        "Charles E. Towne",
+        "William Engblom and V. Bhagwandin",
+        "D Power",
+        "Chris Nelson"
+      ]
+    }
+  ],
+  "recent_works": []
+}

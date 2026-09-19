@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Alberto Passalacqua",
+  "full_name": "Alberto Passalacqua",
+  "department": "Department of Mechanical Engineering",
+  "university": "Iowa State University",
+  "author_id": "A5055354059",
+  "works_count": 105,
+  "cited_by_count": 1815,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 30
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 30
+    },
+    {
+      "topic": "Cyclone Separators and Fluid Dynamics",
+      "count": 15
+    },
+    {
+      "topic": "Fluid Dynamics and Mixing",
+      "count": 13
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Development of a generalized numerical framework for simulating biomass fast pyrolysis in fluidized-bed reactors",
+      "publication_year": 2013,
+      "publication_date": "2013-06-14",
+      "doi": "https://doi.org/10.1016/j.ces.2013.06.017",
+      "venue": "Chemical Engineering Science",
+      "type": "article",
+      "cited_by_count": 143,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pyrolysis",
+        "tar (computing)",
+        "Biomass (ecology)",
+        "Fluidized bed",
+        "Process engineering",
+        "Cellulosic ethanol",
+        "Syngas",
+        "Yield (engineering)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qingang Xiong",
+        "Song‐Charng Kong",
+        "Alberto Passalacqua"
+      ]
+    },
+    {
+      "title": "Implementation of an iterative solution procedure for multi-fluid gas–particle flow models on unstructured grids",
+      "publication_year": 2011,
+      "publication_date": "2011-08-02",
+      "doi": "https://doi.org/10.1016/j.powtec.2011.07.030",
+      "venue": "Powder Technology",
+      "type": "article",
+      "cited_by_count": 113,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Solver",
+        "Interpolation (computer graphics)",
+        "Grid",
+        "Momentum (technical analysis)",
+        "Robustness (evolution)",
+        "Unstructured grid",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alberto Passalacqua",
+        "Rodney O. Fox"
+      ]
+    },
+    {
+      "title": "Realizable high-order finite-volume schemes for quadrature-based moment methods",
+      "publication_year": 2011,
+      "publication_date": "2011-04-12",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.03.038",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 100,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Realizability",
+        "Finite volume method",
+        "Mathematics",
+        "Applied mathematics",
+        "Quadrature (astronomy)",
+        "Curvilinear coordinates",
+        "Numerical integration",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "V. Vikas",
+        "Z.J. Wang",
+        "Alberto Passalacqua",
+        "Rodney O. Fox"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "OpenQBMM/OpenQBMM: OpenQBMM 16.0.0 for OpenFOAM v2512",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.5281/zenodo.20695679",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20695679",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Engineering drawing",
+        "Process (computing)",
+        "Stability (learning theory)",
+        "Work (physics)",
+        "Key (lock)",
+        "Action (physics)"
+      ],
+      "abstract": "This is a stable release of OpenQBMM. The target version of OpenFOAM to build this release is OpenFOAM-v2512 (https://www.openfoam.com/news/main-news/openfoam-v2512) Please, refer to the installation instructions here: http://www.openqbmm.org/installation/ This release is also available as a git submodule for the OpenFOAM-v2512 repository: see https://openfoam.com/code/repositories.php for further instructions. To cite this release, please use: To cite OpenQBMM please use:",
+      "authors": [
+        "Alberto Passalacqua",
+        "Mark Olesen",
+        "Matteo Icardi",
+        "Ehsan Madadi",
+        "Pete Bachant",
+        "Xiaofei Hu",
+        "Kutalmis-Bercin",
+        "Jeff Heylmun",
+        "Joe Weaver"
+      ]
+    },
+    {
+      "title": "OpenQBMM/OpenQBMM: OpenQBMM 17.0.0 for OpenFOAM v2606",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.5281/zenodo.20695690",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20695690",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Engineering drawing",
+        "Process (computing)",
+        "Work (physics)",
+        "Stability (learning theory)",
+        "Key (lock)",
+        "Action (physics)"
+      ],
+      "abstract": "This is a stable release of OpenQBMM. The target version of OpenFOAM to build this release is OpenFOAM-v2606 (https://www.openfoam.com/news/main-news/openfoam-v2606) Please, refer to the installation instructions here: http://www.openqbmm.org/installation/ This release is also available as a git submodule for the OpenFOAM-v2606 repository: see https://openfoam.com/code/repositories.php for further instructions. To cite this release, please use: To cite OpenQBMM please use: Full Changelog: https://github.com/OpenQBMM/OpenQBMM/compare/OpenFOAM-v2512...OpenFOAM-v2606",
+      "authors": [
+        "Alberto Passalacqua",
+        "Mark Olesen",
+        "Matteo Icardi",
+        "Ehsan Madadi",
+        "Pete Bachant",
+        "Xiaofei Hu",
+        "Kutalmis-Bercin",
+        "Jeff Heylmun",
+        "Joe Weaver"
+      ]
+    },
+    {
+      "title": "OpenQBMM/OpenQBMM: OpenQBMM 15.0.0 for OpenFOAM v2506",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.5281/zenodo.20695685",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20695685",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Engineering drawing",
+        "Process (computing)",
+        "Stability (learning theory)",
+        "Work (physics)",
+        "Key (lock)",
+        "Action (physics)"
+      ],
+      "abstract": "This is a stable release of OpenQBMM. The target version of OpenFOAM to build this release is OpenFOAM-v2506 (https://www.openfoam.com/news/main-news/openfoam-v2506) Please, refer to the installation instructions here: http://www.openqbmm.org/installation/ This release is also available as a git submodule for the OpenFOAM-v2506 repository: see https://openfoam.com/code/repositories.php for further instructions. To cite this release, please use: To cite OpenQBMM please use:",
+      "authors": [
+        "Alberto Passalacqua",
+        "Mark Olesen",
+        "Matteo Icardi",
+        "Ehsan Madadi",
+        "Pete Bachant",
+        "Xiaofei Hu",
+        "Kutalmis-Bercin",
+        "Jeff Heylmun",
+        "Joe Weaver"
+      ]
+    },
+    {
+      "title": "Euler–Euler multiphase models for chemical reactors",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1016/j.coche.2026.101237",
+      "venue": "Current Opinion in Chemical Engineering",
+      "type": "review",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Process engineering",
+        "Chemical reactor",
+        "Environmental science",
+        "Nuclear engineering",
+        "Materials science",
+        "Chemical process",
+        "Waste management",
+        "Biochemical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alberto Passalacqua",
+        "Rodney O Fox"
+      ]
+    },
+    {
+      "title": "Characterizing Air Entrainment in Stirred Tanks Using High-Speed Backlit Imaging",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1615/jflowvisimageproc.2026063478",
+      "venue": "Journal of Flow Visualization and Image Processing",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Backlight",
+        "Entrainment (biomusicology)",
+        "Air entrainment",
+        "Environmental science",
+        "Mechanics",
+        "Marine engineering",
+        "Remote sensing",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohammed Y. Al-Subaey",
+        "Alberto Passalacqua",
+        "Theodore J. Heindel"
+      ]
+    }
+  ]
+}

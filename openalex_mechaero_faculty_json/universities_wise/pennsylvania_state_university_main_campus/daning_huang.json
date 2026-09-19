@@ -1,0 +1,297 @@
+{
+  "faculty_name": "Daning Huang",
+  "full_name": "Daning Huang",
+  "department": "Department of Aerospace Engineering",
+  "university": "Pennsylvania State University-Main Campus",
+  "author_id": "A5069630107",
+  "works_count": 96,
+  "cited_by_count": 463,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 37
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 24
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 21
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 14
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Regional Heatwave Prediction Using Graph Neural Network and Weather Station Data",
+      "publication_year": 2023,
+      "publication_date": "2023-04-04",
+      "doi": "https://doi.org/10.1029/2023gl103405",
+      "venue": "Geophysical Research Letters",
+      "type": "article",
+      "cited_by_count": 58,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2023gl103405",
+      "concepts": [
+        "Computer science",
+        "Preparedness",
+        "Climate change",
+        "Artificial neural network",
+        "Extreme weather",
+        "Computation",
+        "Graph",
+        "Data collection"
+      ],
+      "abstract": "Abstract Heatwaves lead to catastrophic consequences on public health and the economy. Accurate and timely predictions of regional heatwaves can improve climate preparedness and foster decision‐making to alleviate the burdens due to climate change. In this paper, we propose a heatwave prediction algorithm based on a novel deep learning model, that is, Graph Neural Network (GNN). This new GNN framework can provide real time warnings of the sudden occurrence of regional heatwaves with high accuracy at lower costs of computation and data collection. In addition, its interpretable structure unravels the spatiotemporal patterns of regional heatwaves and helps to enrich our understanding of the general climate dynamics and the causal influences between locations. The proposed GNN framework can be applied for the detection and prediction of other extreme or compound climate events, which calls for future studies.",
+      "authors": [
+        "Peiyuan Li",
+        "Yu Yin",
+        "Daning Huang",
+        "Zhi‐Hua Wang",
+        "Ashish Sharma"
+      ]
+    },
+    {
+      "title": "Integrated Aerothermoelastic Analysis Framework with Application to Skin Panels",
+      "publication_year": 2018,
+      "publication_date": "2018-09-21",
+      "doi": "https://doi.org/10.2514/1.j056677",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Aerodynamics",
+        "Flutter",
+        "Aeroelasticity",
+        "Finite element method",
+        "Rate of convergence",
+        "Nonlinear system",
+        "Boundary value problem"
+      ],
+      "abstract": "This study describes the development of an integrated aerothermoelastic computational framework. The framework consists of a Navier–Stokes aerodynamic solver based on an Automatic Differentiation flow solver code; a finite element structural solver for moderate deflection of a composite, doubly curved, shallow shell with thermal stress; and a finite element thermal solver for heat transfer in composite shallow shells with nonlinear material properties. The solvers are loosely coupled using a partitioned scheme. An analytical approach is developed to determine the time accuracy and the so-called energy accuracy of a loosely coupled scheme, which serves as a guide for designing schemes having a high convergence rate. The aeroelastic and aerothermoelastic behaviors of two-dimensional and three-dimensional panels are investigated using the computational framework. The effects of the aspect ratio and boundary-layer thickness are found to have significant influence on the critical flutter parameter and the onset time of aerothermoelastic instability.",
+      "authors": [
+        "Daning Huang",
+        "Tomer Rokita",
+        "Peretz P. Friedmann"
+      ]
+    },
+    {
+      "title": "PyPose: A Library for Robot Learning with Physics-based Optimization",
+      "publication_year": 2023,
+      "publication_date": "2023-06-01",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.02109",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 36,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial intelligence",
+        "Robotics",
+        "Robot",
+        "Computer science",
+        "Speedup",
+        "Deep learning",
+        "Human–computer interaction",
+        "Operating system"
+      ],
+      "abstract": "Deep learning has had remarkable success in robotic perception, but its data-centric nature suffers when it comes to generalizing to ever-changing environments. By contrast, physics-based optimization generalizes better, but it does not perform as well in complicated tasks due to the lack of high-level semantic information and reliance on manual parametric tuning. To take advantage of these two complementary worlds, we present PyPose: a robotics-oriented, PyTorch-based library that combines deep perceptual models with physics-based optimization. PyPose's architecture is tidy and well-organized, it has an imperative style interface and is efficient and user-friendly, making it easy to integrate into real-world robotic applications. Besides, it supports parallel computing of any order gradients of Lie groups and Lie algebras and 2nd-order optimizers, such as trust region methods. Experiments show that PyPose achieves more than 10× speedup in computation compared to the state-of-the-art libraries. To boost future research, we provide concrete examples for several fields of robot learning, including SLAM, planning, control, and inertial navigation.",
+      "authors": [
+        "Chen Wang",
+        "Dasong Gao",
+        "Kuan Xu",
+        "Junyi Geng",
+        "Yaoyu Hu",
+        "Yuheng Qiu",
+        "Bowen Li",
+        "Fan Yang",
+        "Brady Moon",
+        "Abhinav Pandey",
+        "Aryan",
+        "Jiahe Xu",
+        "Tianhao Wu",
+        "Haonan He",
+        "Daning Huang",
+        "Zhongqiang Ren",
+        "Shibo Zhao",
+        "Taimeng Fu",
+        "Pranay Reddy",
+        "Xiao Lin",
+        "Wenshan Wang",
+        "Jingnan Shi",
+        "Rajat Talak",
+        "Kun Cao",
+        "Yi Du",
+        "Han Wang",
+        "Huai Yu",
+        "Shanzhao Wang",
+        "Siyu Chen",
+        "Ananth Kashyap",
+        "Rohan Bandaru",
+        "Karthik Dantu",
+        "Jiajun Wu",
+        "Lihua Xie",
+        "Luca Carlone",
+        "Marco Hutter",
+        "Sebastian Scherer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data-Enabled Predictive Control for Flexible Spacecraft",
+      "publication_year": 2026,
+      "publication_date": "2026-05-07",
+      "doi": "https://doi.org/10.1115/1.4071867",
+      "venue": "Journal of Dynamic Systems Measurement and Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1115/1.4071867",
+      "concepts": [
+        "Spacecraft",
+        "Control (management)",
+        "Model predictive control",
+        "Computer science",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "Abstract Spacecraft are vital to space exploration and are often equipped with lightweight, flexible appendages to meet strict weight constraints. These appendages pose significant challenges for modeling and control due to their inherent nonlinearity. Data-driven control methods have gained traction to address such challenges. This paper introduces, to the best of the authors' knowledge, the first application of the data-enabled predictive control (DeePC) framework to boundary control for flexible spacecraft. Leveraging the fundamental lemma, DeePC constructs a nonparametric model by utilizing recorded past trajectories, eliminating the need for explicit model development. The developed method also incorporates dimension reduction techniques to enhance computational efficiency. Through numerical simulations, the proposed method is compared with a model-based Lyapunov boundary control approach, demonstrating robust performance under uncertainty, noise, and disturbances.",
+      "authors": [
+        "Huanqing Wang",
+        "Kaixiang Zhang",
+        "Amin Vahidi‐Moghaddam",
+        "Honglin An",
+        "Nan Li",
+        "Daning Huang",
+        "Zhaojian Li"
+      ]
+    },
+    {
+      "title": "Physics-Embedded Data-Driven Modeling for Model Predictive Control of Battery Charging Converter",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/tia.2026.3676959",
+      "venue": "IEEE Transactions on Industry Applications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Model predictive control",
+        "Computer science",
+        "Battery (electricity)",
+        "Control theory (sociology)",
+        "Automotive engineering",
+        "Control (management)",
+        "Converters",
+        "Engineering"
+      ],
+      "abstract": "Model predictive control (MPC) is widely used for battery converter charging control due to its strong capability to explicitly handle multiple objectives and complex constraints in real time. However, its performance depends on the accuracy of the prediction model, which is often degraded by incomplete prior physical knowledge, parameter uncertainty, and aging effects, thereby necessitating data-driven modeling strategies. Moreover, periodic model updating and real-time control require both low training and inference time costs, which purely data-driven models struggle to achieve. To address these challenges, a physics-embedded dictionary-based system identification (PhD-SI) method based on the sparse identification of nonlinear dynamical systems (SINDy) method is proposed. It integrates physical knowledge with data in a compact nested linear-in-parameter matrix representation equipped with high efficient fractional-power monomial base functions with a closed-form sparse regression solution, enabling accurate system identification with low training and inference time costs under incomplete prior knowledge. Results on a battery charging case study demonstrate improved modeling a...",
+      "authors": [
+        "Hanyang He",
+        "Yan Li",
+        "Minghui Zhu",
+        "Liang Du",
+        "Daning Huang"
+      ]
+    },
+    {
+      "title": "Eigenvalue- and Gradient-Aware Optimization for Small-Signal Stability via the Adjoint Method",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/tpwrs.2026.3725599",
+      "venue": "IEEE Transactions on Power Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stability (learning theory)",
+        "Control theory (sociology)",
+        "Applied mathematics",
+        "Mathematics",
+        "Mathematical optimization",
+        "Computer science",
+        "Minification",
+        "Electric power system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jianing Chen",
+        "Yan Li",
+        "Sicheng He",
+        "Daning Huang"
+      ]
+    },
+    {
+      "title": "Dataset for Diffusion Map Kernel Regression Model of Pitching and Plunging Flat Plate",
+      "publication_year": 2025,
+      "publication_date": "2025-12-29",
+      "doi": "https://doi.org/10.5281/zenodo.18081089",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18081089",
+      "concepts": [
+        "Trajectory",
+        "Mathematics",
+        "Grid",
+        "Phase (matter)",
+        "Geometry",
+        "Kernel (algebra)",
+        "Computation",
+        "Residual"
+      ],
+      "abstract": "This dataset contains pitching–plunging flat-plate flow simulations generated using the Immersed Boundary Projection Method (IBPM). It supports the construction, training, validation, and benchmarking of kernel ridge regression (KRR) models using Diffusion Map (DM) and Radial Basis Function (RBF) kernels, as well as the Residual Dynamic Mode Decomposition (ResDMD) model. The paper can be found here: https://arxiv.org/abs/2512.17203. The dynamics of the system are governed by two key parameters: the pitching phase and the plunging phase. In this dataset, the pitching phase is fixed at 0°, while the plunging phase varies across 16 trajectories, spanning phases from 0° to 330°. All data are stored as Python pickle files, with each file representing a single trajectory. The filename convention follows: PhaseA_X → pitching phase (fixed at 0) PhaseH_Y → plunging phase (varies across trajectories) A total of 16 trajectories are included. The trajectories with plunging phases except 135° are used for model training and validation, while the trajectory at 135° plunging phase is reserved exclusively for out-of-sample testing. Each training/validation trajectory consists of 200 x 299 x 599...",
+      "authors": [
+        "Jiwoo Song",
+        "Daning Huang",
+        "John Harlim"
+      ]
+    },
+    {
+      "title": "Reach on Remote Sensing Retrieval of Water Depth in the Lijiang River",
+      "publication_year": 2025,
+      "publication_date": "2025-12-23",
+      "doi": "https://doi.org/10.1007/s12524-025-02306-9",
+      "venue": "Journal of the Indian Society of Remote Sensing",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hyperspectral imaging",
+        "Remote sensing",
+        "Multispectral image",
+        "Spectroradiometer",
+        "Inversion (geology)",
+        "Karst",
+        "Multispectral pattern recognition",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hao Min",
+        "ZhiQiang Jia",
+        "Hong Wu",
+        "Daning Huang",
+        "Xiao Wo"
+      ]
+    }
+  ]
+}

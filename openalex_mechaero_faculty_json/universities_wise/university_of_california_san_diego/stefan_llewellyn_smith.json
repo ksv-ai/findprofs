@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Stefan Llewellyn Smith",
+  "full_name": "Stefan G. Llewellyn Smith",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-San Diego",
+  "author_id": "A5028755953",
+  "works_count": 210,
+  "cited_by_count": 2803,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 55
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 48
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 35
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 24
+    },
+    {
+      "topic": "Geophysics and Gravity Measurements",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Vortex shedding model of a flapping flag",
+      "publication_year": 2008,
+      "publication_date": "2008-11-26",
+      "doi": "https://doi.org/10.1017/s0022112008004321",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 184,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flapping",
+        "Flag (linear algebra)",
+        "Physics",
+        "Vortex shedding",
+        "Wake",
+        "Trailing edge",
+        "Vortex",
+        "Mechanics"
+      ],
+      "abstract": "A two-dimensional model for the flapping of an elastic flag under axial flow is described. The vortical wake is accounted for by the shedding of discrete point vortices with unsteady intensity, enforcing the regularity condition at the flag's trailing edge. The stability of the flat state of rest as well as the characteristics of the flapping modes in the periodic regime are compared successfully to existing linear stability and experimental results. An analysis of the flapping regime shows the co-existence of direct kinematic waves, travelling along the flag in the same direction as the imposed flow, and reverse dynamic waves, travelling along the flag upstream from the trailing edge.",
+      "authors": [
+        "Sébastien Michelin",
+        "Stefan G. Llewellyn Smith",
+        "Beverley J. Glover"
+      ]
+    },
+    {
+      "title": "An unsteady point vortex method for coupled fluid–solid problems",
+      "publication_year": 2009,
+      "publication_date": "2009-05-02",
+      "doi": "https://doi.org/10.1007/s00162-009-0096-7",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 116,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00162-009-0096-7.pdf",
+      "concepts": [
+        "Vortex",
+        "Inviscid flow",
+        "Vorticity",
+        "Vortex shedding",
+        "Burgers vortex",
+        "Classical mechanics",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "A method is proposed for the study of the two-dimensional coupled motion of a general sharp-edged solid body and a surrounding inviscid flow. The formation of vorticity at the body’s edges is accounted for by the shedding at each corner of point vortices whose intensity is adjusted at each time step to satisfy the regularity condition on the flow at the generating corner. The irreversible nature of vortex shedding is included in the model by requiring the vortices’ intensity to vary monotonically in time. A conservation of linear momentum argument is provided for the equation of motion of these point vortices (Brown–Michael equation). The forces and torques applied on the solid body are computed as explicit functions of the solid body velocity and the vortices’ position and intensity, thereby providing an explicit formulation of the vortex–solid coupled problem as a set of non-linear ordinary differential equations. The example of a falling card in a fluid initially at rest is then studied using this method. The stability of broadside-on fall is analysed and the shedding of vorticity from both plate edges is shown to destabilize this position, consistent with experimental studie...",
+      "authors": [
+        "Sébastien Michelin",
+        "Stefan G. Llewellyn Smith"
+      ]
+    },
+    {
+      "title": "Scattering of acoustic waves by a vortex",
+      "publication_year": 1999,
+      "publication_date": "1999-05-10",
+      "doi": "https://doi.org/10.1017/s0022112099004371",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 66,
+      "is_oa": true,
+      "oa_url": "https://escholarship.org/content/qt9n33k54w/qt9n33k54w.pdf",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Wavenumber",
+        "Vortex",
+        "Vorticity",
+        "Scattering",
+        "Amplitude",
+        "Classical mechanics"
+      ],
+      "abstract": "We investigate the scattering of a plane acoustic wave by an axisymmetric vortex in two dimensions. We consider vortices with localized vorticity, arbitrary circulation and small Mach number. The wavelength of the acoustic waves is assumed to be much longer than the scale of the vortex. This enables us to define two asymptotic regions: an inner, vortical region, and an outer, wave region. The solution is then developed in the two regions using matched asymptotic expansions, with the Mach number as the expansion parameter. The leading-order scattered wave field consists of two components. One component arises from the interaction in the vortical region, and takes the form of a dipolar wave. The other component arises from the interaction in the wave region. For an incident wave with wavenumber k propagating in the positive X-direction, a steepest descents analysis shows that, in the far-field limit, the leading-order scattered field takes the form i(π−θ)eikX+½cosθcot(½θ) (2π/kR)1/2ei(kR−π/4), where θ is the usual polar angle. This expression is not valid in a parabolic region centred on the positive X-axis, where kRθ2=O(1). A different asymptotic solution is appropriate in this r...",
+      "authors": [
+        "Rupert Ford",
+        "Stefan G. Llewellyn Smith"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the fundamental solution for viscous internal waves and Brinkman flows. Part 1. Two dimensions",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.48550/arxiv.2605.15451",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.15451",
+      "concepts": [
+        "Internal wave",
+        "Superposition principle",
+        "Circulation (fluid dynamics)",
+        "Physics",
+        "Mathematical analysis",
+        "Anisotropy",
+        "Mechanics",
+        "Asymptotic expansion"
+      ],
+      "abstract": "We obtain the viscous and diffusive fundamental solution for monochromatic internal waves in a uniformly stratified medium and for anisotropic Brinkman flow. These solutions take the form of single integrals with logarithmic singularities, and can be computed numerically in an efficient manner for possible use in boundary integral methods. Far-field asymptotic results are obtained, giving solutions valid far from and inside a ``beam'' corresponding to the internal wave angle in the internal wave case, consistent with Thomas & Stevenson (1972). For Prandtl numbers $\\text{Pr} \\gtrsim O(1)$, the wave field is given by a superposition of wave- and Stokeslet-like terms. Unlike previous studies, a uniform asymptotic expansion of the wave-field for $\\text{Pr} \\gtrsim O(1)$ can be computed rigorously. Density diffusion attenuates the wave amplitude as to $(1+\\text{Pr}^{-1})^{-2/3}$ and broadens the beam width according to $(1+\\text{Pr}^{-1})^{1/3}$. Evanescent waves in a stratified medium and anisotropic Brinkman flows have similar behaviour. Anisotropic Brinkman flow is purely real, dominated by a single circulation cell. As anisotropy increases, the flow becomes increasingly confined ...",
+      "authors": [
+        "Saikumar Bheemarasetty",
+        "Stefan G. Llewellyn Smith"
+      ]
+    },
+    {
+      "title": "On the fundamental solution for viscous internal waves and Brinkman flows. Part 1. Two dimensions",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://arxiv.org/abs/2605.15451",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.15451",
+      "concepts": [
+        "Internal wave",
+        "Superposition principle",
+        "Circulation (fluid dynamics)",
+        "Physics",
+        "Mathematical analysis",
+        "Anisotropy",
+        "Mechanics",
+        "Asymptotic expansion"
+      ],
+      "abstract": "We obtain the viscous and diffusive fundamental solution for monochromatic internal waves in a uniformly stratified medium and for anisotropic Brinkman flow. These solutions take the form of single integrals with logarithmic singularities, and can be computed numerically in an efficient manner for possible use in boundary integral methods. Far-field asymptotic results are obtained, giving solutions valid far from and inside a ``beam'' corresponding to the internal wave angle in the internal wave case, consistent with Thomas & Stevenson (1972). For Prandtl numbers $\\text{Pr} \\gtrsim O(1)$, the wave field is given by a superposition of wave- and Stokeslet-like terms. Unlike previous studies, a uniform asymptotic expansion of the wave-field for $\\text{Pr} \\gtrsim O(1)$ can be computed rigorously. Density diffusion attenuates the wave amplitude as to $(1+\\text{Pr}^{-1})^{-2/3}$ and broadens the beam width according to $(1+\\text{Pr}^{-1})^{1/3}$. Evanescent waves in a stratified medium and anisotropic Brinkman flows have similar behaviour. Anisotropic Brinkman flow is purely real, dominated by a single circulation cell. As anisotropy increases, the flow becomes increasingly confined ...",
+      "authors": [
+        "Saikumar Bheemarasetty",
+        "Stefan G. Llewellyn Smith"
+      ]
+    },
+    {
+      "title": "Suppression of Rayleigh-Bénard convection and restratification by horizontal convection",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "https://doi.org/10.48550/arxiv.2603.23770",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.23770",
+      "concepts": [
+        "Buoyancy",
+        "Stratification (seeds)",
+        "Convection",
+        "Mechanics",
+        "Rayleigh number",
+        "Boundary layer",
+        "Geology",
+        "Scaling"
+      ],
+      "abstract": "We investigate the competition between horizontal convection (HC) and Rayleigh-Bénard convection (RBC) in a fluid layer subject to a uniform destabilizing buoyancy flux at the bottom and a horizontally varying buoyancy distribution at the top. The RBC forcing imposes negative horizontal mean vertical buoyancy gradients at the top and bottom of the fluid layer. But if the HC forcing is sufficiently strong then the volume averaged vertical buoyancy gradient, $\\langle b_z \\rangle$, is positive i.e.~opposite in sign to destabilizing RBC buoyancy gradients at the boundaries. If $\\langle b_z \\rangle>0$ we say that the layer has been ''restratified''. Using scaling analysis based on power integrals together with two-dimensional direct numerical simulations at Rayleigh numbers up to $10^{10}$, we identify two cases: a neutral stratification state, in which HC first offsets RBC so that $\\langle b_z \\rangle = 0$, and a strong stratification regime, in which HC dominates and $\\langle b_z \\rangle$ is opposite in sign, and greater in magnitude, than the prescribed destabilizing vertical buoyancy gradient at the layer boundaries. For the range of parameters explored in this study, we derive s...",
+      "authors": [
+        "F. Rein",
+        "Stefan G. Llewellyn Smith",
+        "William. R. Young"
+      ]
+    },
+    {
+      "title": "Suppression of Rayleigh-Bénard convection and restratification by horizontal convection",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "http://arxiv.org/abs/2603.23770",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.23770",
+      "concepts": [
+        "Buoyancy",
+        "Stratification (seeds)",
+        "Convection",
+        "Mechanics",
+        "Rayleigh number",
+        "Boundary layer",
+        "Geology",
+        "Scaling"
+      ],
+      "abstract": "We investigate the competition between horizontal convection (HC) and Rayleigh-Bénard convection (RBC) in a fluid layer subject to a uniform destabilizing buoyancy flux at the bottom and a horizontally varying buoyancy distribution at the top. The RBC forcing imposes negative horizontal mean vertical buoyancy gradients at the top and bottom of the fluid layer. But if the HC forcing is sufficiently strong then the volume averaged vertical buoyancy gradient, $\\langle b_z \\rangle$, is positive i.e.~opposite in sign to destabilizing RBC buoyancy gradients at the boundaries. If $\\langle b_z \\rangle>0$ we say that the layer has been ''restratified''. Using scaling analysis based on power integrals together with two-dimensional direct numerical simulations at Rayleigh numbers up to $10^{10}$, we identify two cases: a neutral stratification state, in which HC first offsets RBC so that $\\langle b_z \\rangle = 0$, and a strong stratification regime, in which HC dominates and $\\langle b_z \\rangle$ is opposite in sign, and greater in magnitude, than the prescribed destabilizing vertical buoyancy gradient at the layer boundaries. For the range of parameters explored in this study, we derive s...",
+      "authors": [
+        "F. Rein",
+        "Stefan G. Llewellyn Smith",
+        "William. R. Young"
+      ]
+    },
+    {
+      "title": "SQG point vortex dynamics with order Rossby corrections",
+      "publication_year": 2026,
+      "publication_date": "2026-01-20",
+      "doi": "https://doi.org/10.1016/j.euromechflu.2026.204467",
+      "venue": "European Journal of Mechanics - B/Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Vorticity",
+        "Physics",
+        "Rossby number",
+        "Classical mechanics",
+        "Geostrophic wind",
+        "Flow (mathematics)",
+        "Surface (topology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mac Lee",
+        "Stefan G. Llewellyn Smith"
+      ]
+    }
+  ]
+}

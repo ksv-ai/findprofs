@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Claire J. Tomlin",
+  "full_name": "Claire J. Tomlin",
+  "department": "Department of Electrical Engineering and Computer Sciences / Aerospace Engineering Program",
+  "university": "University of California-Berkeley",
+  "author_id": "A5045155646",
+  "works_count": 678,
+  "cited_by_count": 24698,
+  "h_index": 74,
+  "top_topics": [
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 110
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 100
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 86
+    },
+    {
+      "topic": "Air Traffic Management and Optimization",
+      "count": 71
+    },
+    {
+      "topic": "Formal Methods in Verification",
+      "count": 63
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Quadrotor Helicopter Flight Dynamics and Control: Theory and Experiment",
+      "publication_year": 2007,
+      "publication_date": "2007-06-15",
+      "doi": "https://doi.org/10.2514/6.2007-6461",
+      "venue": "AIAA Guidance, Navigation, and Control Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 1112,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flight dynamics",
+        "Dynamics (music)",
+        "Vehicle dynamics",
+        "Aerospace engineering",
+        "Computer science",
+        "Aeronautics",
+        "Control (management)",
+        "Attitude control"
+      ],
+      "abstract": "Quadrotor helicopters are emerging as a popular platform for unmanned aerial vehicle (UAV) research, due to the simplicity of their construction and maintenance, their ability to hover, and their vertical take off and landing (VTOL) capability. Current designs have often considered only nominal operating conditions for vehicle control design. This work seeks to address issues that arise when deviating significantly from the hover flight regime. Aided by well established research for helicopter flight control, three separate aerodynamic effects are investigated as they pertain to quadrotor flight, due to vehicular velocity, angle of attack, and airframe design. They cause moments that affect attitude control, and thrust variation that affects altitude control. Where possible, a theoretical development is first presented, and is then validated through both thrust test stand measurements and vehicle flight tests using the Stanford Testbed of Autonomous Rotorcraft for Multi-Agent Control (STARMAC) quadrotor helicopter. The results enabled improved controller performance. I.",
+      "authors": [
+        "Gabriel Hoffmann",
+        "Haomiao Huang",
+        "Steven L. Waslander",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "Aerodynamics and control of autonomous quadrotor helicopters in aggressive maneuvering",
+      "publication_year": 2009,
+      "publication_date": "2009-05-01",
+      "doi": "https://doi.org/10.1109/robot.2009.5152561",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 427,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Testbed",
+        "Aerodynamics",
+        "Stall (fluid mechanics)",
+        "Control engineering",
+        "Computer science",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Drone"
+      ],
+      "abstract": "Quadrotor helicopters have become increasingly important in recent years as platforms for both research and commercial unmanned aerial vehicle applications. This paper extends previous work on several important aerodynamic effects impacting quadrotor flight in regimes beyond nominal hover conditions. The implications of these effects on quadrotor performance are investigated and control techniques are presented that compensate for them accordingly. The analysis and control systems are validated on the Stanford Testbed of Autonomous Rotorcraft for Multi-Agent Control quadrotor helicopter testbed by performing the quadrotor equivalent of the stall turn aerobatic maneuver. Flight results demonstrate the accuracy of the aerodynamic models and improved control performance with the proposed control schemes.",
+      "authors": [
+        "Haomiao Huang",
+        "Gabriel Hoffmann",
+        "Steven L. Waslander",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "Conflict resolution for air traffic management: a study in multiagent hybrid systems",
+      "publication_year": 1998,
+      "publication_date": "1998-04-01",
+      "doi": "https://doi.org/10.1109/9.664154",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 1047,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Air traffic control",
+        "Heading (navigation)",
+        "Air traffic management",
+        "Separation (statistics)",
+        "Trajectory",
+        "Conflict resolution",
+        "Resolution (logic)",
+        "Computer science"
+      ],
+      "abstract": "Air traffic management (ATM) of the future allows for the possibility of free flight, in which aircraft choose their own optimal routes, altitudes, and velocities. The safe resolution of trajectory conflicts between aircraft is necessary to the success of such a distributed control system. In this paper, we present a method to synthesize provably safe conflict resolution manoeuvres. The method models the aircraft and the manoeuvre as a hybrid control system and calculates the maximal set of safe initial conditions for each aircraft so that separation is assured in the presence of uncertainties in the actions of the other aircraft. Examples of manoeuvres using both speed and heading changes are worked out in detail.",
+      "authors": [
+        "Claire J. Tomlin",
+        "George J. Pappas",
+        "S. Shankar Sastry"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Maximizing Seaweed Growth on Autonomous Farms: A Dynamic Programming Approach for Underpowered Systems Operating in Uncertain Ocean Currents",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1109/lra.2025.3604727",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Environmental science"
+      ],
+      "abstract": "Seaweed biomass presents a substantial opportunity for climate mitigation, yet to realize its potential, farming must be expanded to the vast open oceans. However, in the open ocean neither anchored farming nor floating farms with powerful engines are economically viable. Thus, a potential solution are farms that operate bygoing with the flow, utilizing minimal propulsion to strategically leverage beneficial ocean currents. In this work, we focus on low-power autonomous seaweed farms and design controllers that maximize seaweed growth by taking advantage of ocean currents. We first introduce a Dynamic Programming (DP) formulation to solve for the growth-optimal value function when the true currents are known. However, in reality only short-term imperfect forecasts with increasing uncertainty are available. Hence, we present three additional extensions. Firstly, we use frequent replanning to mitigate forecast errors. Second, to optimize for long-term growth, we extend the value function beyond the forecast horizon by estimating the expected future growth based on seasonal average currents. Lastly, we introduce a discounted finite-time DP formulation to account for the increasing ...",
+      "authors": [
+        "Matthias Killer",
+        "Marius Wiggert",
+        "Hanna Krasowski",
+        "Manan Doshi",
+        "Pierre F. J. Lermusiaux",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "Active Calibration of Reachable Sets Using Approximate Pick-to-Learn",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.48550/arxiv.2603.24894",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.24894",
+      "concepts": [
+        "Generalization",
+        "Reachability",
+        "Calibration",
+        "Probabilistic logic",
+        "Computer science",
+        "Algorithm",
+        "Computation",
+        "Generalization error"
+      ],
+      "abstract": "Reachability computations that rely on approximate or learned models require calibration in order to uphold confidence about their guarantees. Calibration generally involves sampling scenarios inside the reachable set. However, producing reasonable probabilistic guarantees may require many samples, which can be costly. To remedy this, we propose that calibration of reachable sets be performed using active learning strategies. In order to produce a probabilistic guarantee on the active learning, we adapt the Pick-to-Learn algorithm, which produces generalization bounds for standard supervised learning, to the active learning setting. Our method, Approximate Pick-to-Learn, treats the process of choosing data samples as maximizing an approximate error function. Conformal prediction is used to ensure that the approximate error is close to the true model error. We demonstrate our technique for a simulated drone racing example in which learning is used to provide an initial guess of the reachable tube. Our method requires fewer samples to calibrate the model and provides more accurate sets than the baselines while also producing a novel generalization bound.",
+      "authors": [
+        "Sampada Deglurkar",
+        "Ebonye Smith",
+        "Jingqi Li",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "Active Calibration of Reachable Sets Using Approximate Pick-to-Learn",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.1109/lcsys.2026.3710205",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.24894",
+      "concepts": [
+        "Generalization",
+        "Reachability",
+        "Calibration",
+        "Probabilistic logic",
+        "Computer science",
+        "Algorithm",
+        "Computation",
+        "Generalization error"
+      ],
+      "abstract": "Reachability computations that rely on approximate or learned models require calibration in order to uphold confidence about their guarantees. Calibration generally involves sampling scenarios inside the reachable set. However, producing reasonable probabilistic guarantees may require many samples, which can be costly. To remedy this, we propose that calibration of reachable sets be performed using active learning strategies. In order to produce a probabilistic guarantee on the active learning, we adapt the Pick-to-Learn algorithm, which produces generalization bounds for standard supervised learning, to the active learning setting. Our method, Approximate Pick-to-Learn, treats the process of choosing data samples as maximizing an approximate error function. Conformal prediction is used to ensure that the approximate error is close to the true model error. We demonstrate our technique for a simulated drone racing example in which learning is used to provide an initial guess of the reachable tube. Our method requires fewer samples to calibrate the model and provides more accurate sets than the baselines while also producing a novel generalization bound.",
+      "authors": [
+        "Sampada Deglurkar",
+        "Ebonye Smith",
+        "Jingqi Li",
+        "Claire J. Tomlin"
+      ]
+    },
+    {
+      "title": "When are safety filters safe? On minimum phase conditions of control barrier functions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/tac.2026.3719594",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2508.07684",
+      "concepts": [
+        "Control theory (sociology)",
+        "Minimum phase",
+        "Bounded function",
+        "Linearization",
+        "Constraint (computer-aided design)",
+        "Phase (matter)",
+        "Computer science",
+        "Modular design"
+      ],
+      "abstract": "In emerging control applications involving multiple and complex tasks, safety filters are gaining prominence as a modular approach to enforcing safety constraints. Among various methods, control barrier functions (CBFs) are widely used for designing safety filters due to their simplicity, imposing a single linear constraint on the control input at each state. In this work, we focus on the internal dynamics of systems governed by CBF-constrained control laws. Our key observation is that, although CBFs guarantee safety by enforcing state constraints, they can inadvertently be \"unsafe\" by causing the internal state to diverge. We investigate the conditions under which the full system state, including the internal state, can remain bounded under a CBF-based safety filter. Drawing inspiration from the input-output linearization literature, where boundedness is ensured by minimum phase conditions, we propose a new set of CBF minimum phase conditions tailored to the structure imposed by the CBF constraint. A critical distinction from the original minimum phase conditions is that the internal dynamics in our setting is driven by a nonnegative virtual control input, which reflects the en...",
+      "authors": [
+        "Jason J. Choi",
+        "Claire J. Tomlin",
+        "Shankar Sastry",
+        "Koushil Sreenath"
+      ]
+    },
+    {
+      "title": "Active Calibration of Reachable Sets Using Approximate Pick-to-Learn",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/lcsys.2026.3710205",
+      "venue": "IEEE Control Systems Letters",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Algorithm",
+        "Computer science",
+        "Mathematics",
+        "Set (abstract data type)",
+        "Noise (video)",
+        "Stability (learning theory)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sampada Deglurkar",
+        "Ebonye Smith",
+        "Jingqi Li",
+        "Claire J. Tomlin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Martin Wosnik",
+  "full_name": "Martin Wosnik",
+  "department": "Department of Mechanical Engineering / Ocean Engineering",
+  "university": "University of New Hampshire",
+  "author_id": "A5091065839",
+  "works_count": 1128,
+  "cited_by_count": 1677,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Engineering Applied Research",
+      "count": 888
+    },
+    {
+      "topic": "Internet of Things and Social Network Interactions",
+      "count": 385
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 71
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 47
+    },
+    {
+      "topic": "Cyclone Separators and Fluid Dynamics",
+      "count": 46
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Characterising the near-wake of a cross-flow turbine",
+      "publication_year": 2015,
+      "publication_date": "2015-01-23",
+      "doi": "https://doi.org/10.1080/14685248.2014.1001852",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 124,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Physics",
+        "Mechanics",
+        "Turbulence",
+        "Turbine",
+        "Towing",
+        "Momentum (technical analysis)",
+        "Vorticity"
+      ],
+      "abstract": "The performance and detailed near-wake characteristics of a vertical axis, cross-flow turbine (CFT) of aspect ratio 1 were measured in a large cross-section towing tank. The near-wake at one turbine diameter downstream was examined using acoustic Doppler velocimetry, where essential features regarding momentum, energy, and vorticity are highlighted. Dominant scales and their relative importance were investigated and compared at various locations in the measurement plane. Estimates for the terms in the mean streamwise momentum and mean kinetic energy equation were computed, showing that the unique mean vertical velocity field of this wake, characterised by counter-rotating swirling motion, contributes significantly more to recovery than the turbulent transport. This result sheds light on previous CFT studies showing relatively fast downstream wake recovery compared to axial-flow turbines. Finally, predictions from a Reynolds-averaged Navier–Stokes simulation with the commonly used actuator disk model were compared with the experimental results, evaluating its use as an engineering tool for studying flow in CFT arrays. Unsurprisingly, the model was not able to predict the near-wak...",
+      "authors": [
+        "Peter Bachant",
+        "Martin Wosnik"
+      ]
+    },
+    {
+      "title": "An Experimental Study of a Ventilated Supercavitating Vehicle",
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "doi": "http://flow.me.es.osaka-u.ac.jp/cav2003/Papers/Cav03-OS-7-008.pdf",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 66,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supercavitation",
+        "Particle image velocimetry",
+        "Wake",
+        "Water tunnel",
+        "Airflow",
+        "Marine engineering",
+        "Grayscale",
+        "Velocimetry"
+      ],
+      "abstract": "Supercavitating vehicles need to be supplied with an artificial cavity through ventilation until they accelerate to conditions at which a natural supercavity can be sustained. A study has been carried out in the high-speed water tunnel at St. Anthony Falls Laboratory to investigate some aspects of the flow physics of such a supercavitating vehicle. Digital strobe photography images were taken to qualitatively describe the cavity shape and wake details. In addition, the amount of ventilation gas required to sustain an artificial cavity at different velocities was investigated. It was found that the strut shape critically affects air demand through cavity-strut wake interaction. The wake of ventilated cavities was then characterized quantitatively using Particle Image Velocimetry (PIV). Since two-camera, filtered PIV was prohibitively costly due to the large amount of fluorescent particles required to seed the tunnel, a new grayscale technique was developed to measure the void fraction of gas to liquid in the wake of the supercavitating body. Further PIV measurements are currently underway to explore this grayscale technique in bubbly wakes.",
+      "authors": [
+        "Martin Wosnik",
+        "Travis J. Schauer",
+        "Roger E. A. Arndt"
+      ]
+    },
+    {
+      "title": "Modeling the near-wake of a vertical-axis cross-flow turbine with 2-D and 3-D RANS",
+      "publication_year": 2016,
+      "publication_date": "2016-09-01",
+      "doi": "https://doi.org/10.1063/1.4966161",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Mechanics",
+        "Turbulence",
+        "Physics",
+        "Turbine",
+        "Turbulence kinetic energy",
+        "Drag"
+      ],
+      "abstract": "The near-wake of a vertical-axis cross-flow turbine was modeled numerically via blade-resolved k–ω shear stress transport (SST) and Spalart–Allmaras Reynolds-averaged Navier–Stokes (RANS) models in two and three dimensions. The results for each case were compared with the experimental measurements of the turbine shaft power, overall streamwise rotor drag, mean velocity, turbulence kinetic energy, and momentum transport terms in the near-wake at one diameter downstream. It was shown that 2-D simulations overpredict turbine loading and do not resolve mean vertical momentum transport, which plays an important role in the near-wake's momentum balance. The 3-D simulations fared better at predicting performance, with the Spalart–Allmaras model predictions being closest to the experiments. The SST model more accurately predicted the turbulence kinetic energy, while the Spalart–Allmaras model more closely matched the momentum transport terms in the near-wake. These results show the potential of blade-resolved RANS as a design tool and a way to “extrapolate” experimental flow field measurements.",
+      "authors": [
+        "Peter Bachant",
+        "Martin Wosnik"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An experimental evaluation of the interplay between geometry and scale on cross-flow turbine performance",
+      "publication_year": 2024,
+      "publication_date": "2024-08-29",
+      "doi": "https://doi.org/10.1016/j.rser.2024.114848",
+      "venue": "Renewable and Sustainable Energy Reviews",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solidity",
+        "Chord (peer-to-peer)",
+        "Reynolds number",
+        "Turbine",
+        "Rotor (electric)",
+        "Tip-speed ratio",
+        "Mechanics",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aidan Hunt",
+        "Benjamin Strom",
+        "Gregory Talpey",
+        "Hannah Ross",
+        "Isabel Scherl",
+        "Steven L. Brunton",
+        "Martin Wosnik",
+        "Brian Polagye"
+      ]
+    },
+    {
+      "title": "An experimental evaluation of the interplay between geometry and scale on cross-flow turbine performance",
+      "publication_year": 2023,
+      "publication_date": "2023-10-31",
+      "doi": "https://doi.org/10.48550/arxiv.2310.20616",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2310.20616",
+      "concepts": [
+        "Solidity",
+        "Chord (peer-to-peer)",
+        "Reynolds number",
+        "Turbine",
+        "Rotor (electric)",
+        "Tip-speed ratio",
+        "Aspect ratio (aeronautics)",
+        "Mechanics"
+      ],
+      "abstract": "Cross-flow turbines harness kinetic energy in wind or moving water. Due to their unsteady fluid dynamics, it can be difficult to predict the interplay between aspects of rotor geometry and turbine performance. This study considers the effects of three geometric parameters: the number of blades, the preset pitch angle, and the chord-to-radius ratio. The relevant fluid dynamics of cross-flow turbines are reviewed, as are prior experimental studies that have investigated these parameters in a more limited manner. Here, 223 unique experiments are conducted across an order of magnitude of diameter-based Reynolds numbers ($\\approx 8\\!\\times\\!10^4 - 8\\!\\times\\!10^5$) in which the performance implications of these three geometric parameters are evaluated. In agreement with prior work, maximum performance is generally observed to increase with Reynolds number and decrease with blade count. The broader experimental space clarifies parametric interdependencies; for example, the optimal preset pitch angle is increasingly negative as the chord-to-radius ratio increases. As these experiments vary both the chord-to-radius ratio and blade count, the performance of different rotor geometries wit...",
+      "authors": [
+        "Aidan Hunt",
+        "Benjamin Strom",
+        "Gregory Talpey",
+        "Hannah Ross",
+        "Isabel Scherl",
+        "Steven L. Brunton",
+        "Martin Wosnik",
+        "Brian Polagye"
+      ]
+    },
+    {
+      "title": "Scaling and Design Optimization of a Two-Body Point-Absorber Wave Energy Converter for Aquaculture Farm Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7350330",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7350330",
+      "concepts": [
+        "Sizing",
+        "Marine engineering",
+        "Buoy",
+        "Baseline (sea)",
+        "Spar",
+        "Power (physics)",
+        "Optimal design",
+        "Point (geometry)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pablo  A. Matamala-Carvajal",
+        "Martin Wosnik",
+        "David W. Fredriksson",
+        "Arezoo Hasankhani"
+      ]
+    },
+    {
+      "title": "A Systems Integration Approach to an Instrumented Tidal Energy Converter within an Open-Source Testbed",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.36688/ewtec-2025-843",
+      "venue": "Proceedings of the ... European Wave and Tidal Energy Conference",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tidal power",
+        "Marine energy",
+        "System integration",
+        "Turbine",
+        "Testbed",
+        "Renewable energy",
+        "Aerospace",
+        "Marine engineering"
+      ],
+      "abstract": "Tidal energy converters (TEC), e.g., marine hydrokinetic turbines, harness the kinetic energy of tidal currents to generate clean renewable power. The Open-Source Tidal Energy Converter (OSTEC) project will design, build, and deploy an instrumented marine turbine system in a real tidal environment and will serve as a testbed for research and development. With its 2.5 m rotor diameter and 26 kW rated power, this tidal turbine will generate open-source datasets on power performance, mechanical and design loads, and tidal inflow conditions at meaningful Reynolds number scales. Many studies have focused on the system integration of TECs with other infrastructure, such as electrical grids, farms, or hybrid energy systems. This contribution focusses on the evolution and system integration of the first-of-its-kind OSTEC itself, replicating the systematic approach of design, prototyping, and testing commonly used in industries that develop large complex systems, like the aerospace industry, paving the way for industrial and commercial-scale devices. System integration combines different assemblies, sub-assemblies, and components of a system into one cohesive whole. The objective for OST...",
+      "authors": [
+        "Parviz Sedigh",
+        "Mason Bichanich",
+        "Martin Wosnik",
+        "Aidan Bharath",
+        "Vincent S. Neary",
+        "Robert J. Cavagnaro"
+      ]
+    },
+    {
+      "title": "Power Take-Off Design, Integration and Commissioning of an Instrumented Open-Source Tidal Energy Converter (OSTEC) Testbed",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.36688/ewtec-2025-1095",
+      "venue": "Proceedings of the ... European Wave and Tidal Energy Conference",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbine",
+        "Tidal power",
+        "Torque",
+        "Rotor (electric)",
+        "Wind power",
+        "Automotive engineering",
+        "Engineering",
+        "Drivetrain"
+      ],
+      "abstract": "The Open-Source Tidal Energy Converter (OSTEC), developed jointly between UNH-AMEC, SNL, NREL, and PNNL, will serve as a versatile testbed for open-source research and development (R&D) on many aspects of tidal energy research. Featuring a 2.5-meter diameter rotor plane, this tidal turbine is designed to generate publicly accessible datasets on power performance, mechanical and design loads, and tidal inflow conditions, all at Reynolds number scales for alternative off-grid market applications that enable upscaling of dynamic load response and power performance to utility grid scale markets. The primary objective of OSTEC project is to design, build, and deploy an instrumented marine turbine system in a real-world tidal environment. Hydrokinetic energy of tidal currents is captured by the turbine’s rotor and converted into mechanical power, which is transferred via the drivetrain (i.e., gearbox and generator) to the power take-off (PTO) system for electrical conversion. The focus herein is on the PTO subsystem, including the driveshaft, gearbox, motor-generator, control, and cooling system. The turbine’s most critical performance characteristics for PTO design and specification ...",
+      "authors": [
+        "Parviz Sedigh",
+        "Robert J. Cavagnaro",
+        "Aidan Bharath",
+        "Vincent S. Neary",
+        "Mason Bichanich",
+        "Martin Wosnik"
+      ]
+    }
+  ]
+}

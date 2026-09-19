@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Amirhossein Ghasemi",
+  "full_name": "Amir H. Ghasemi",
+  "department": "Department of Mechanical Engineering & Engineering Science",
+  "university": "University of North Carolina at Charlotte",
+  "author_id": "A5021746158",
+  "works_count": 58,
+  "cited_by_count": 512,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Human-Automation Interaction and Safety",
+      "count": 17
+    },
+    {
+      "topic": "Traffic control and management",
+      "count": 11
+    },
+    {
+      "topic": "Occupational Health and Safety Research",
+      "count": 8
+    },
+    {
+      "topic": "Autonomous Vehicle Technology and Safety",
+      "count": 7
+    },
+    {
+      "topic": "Teleoperation and Haptic Systems",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Pre-compensation of servo contour errors using a model predictive control framework",
+      "publication_year": 2015,
+      "publication_date": "2015-08-20",
+      "doi": "https://doi.org/10.1016/j.ijmachtools.2015.08.002",
+      "venue": "International Journal of Machine Tools and Manufacture",
+      "type": "article",
+      "cited_by_count": 76,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Contouring",
+        "Compensation (psychology)",
+        "Position (finance)",
+        "Model predictive control",
+        "Servo",
+        "Computer science",
+        "Path (computing)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shiyi Yang",
+        "Amir H. Ghasemi",
+        "Xiangxing Lu",
+        "Chinedum E. Okwudire"
+      ]
+    },
+    {
+      "title": "Who’s the boss? Arbitrating control authority between a human driver and automation system",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "doi": "https://doi.org/10.1016/j.trf.2019.12.005",
+      "venue": "Transportation Research Part F Traffic Psychology and Behaviour",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Automation",
+        "Autopilot",
+        "Obstacle",
+        "Control (management)",
+        "Computer science",
+        "Fault (geology)",
+        "Control engineering",
+        "Computer security"
+      ],
+      "abstract": "",
+      "authors": [
+        "Akshay Bhardwaj",
+        "Amir H. Ghasemi",
+        "Yingshi Zheng",
+        "Huckleberry Febbo",
+        "Paramsothy Jayakumar",
+        "Tulga Ersal",
+        "Jeffrey L. Stein",
+        "R. Brent Gillespie"
+      ]
+    },
+    {
+      "title": "Application of Multi-Resonator Notch Frequency Control for Tracking the Frequency in Low Inertia Microgrids Under Distorted Grid Conditions",
+      "publication_year": 2017,
+      "publication_date": "2017-08-15",
+      "doi": "https://doi.org/10.1109/tsg.2017.2738668",
+      "venue": "IEEE Transactions on Smart Grid",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Harmonics",
+        "Band-stop filter",
+        "Estimator",
+        "Inertia",
+        "Electric power system",
+        "Frequency deviation",
+        "Automatic frequency control"
+      ],
+      "abstract": "Frequency variations are much faster and more significant in microgrids with low-inertia inverters and other control devices for distributed generation. Accordingly, it is imperative to utilize a concise frequency estimation method for analyzing the transient behavior of microgrids. This paper proposes a robust algorithm which is based on multi-resonator and adaptive notch filter and is referred to as the multi-resonant notch frequency control for improving the frequency estimation of perturbed power system. In general, power system distortions such as harmonics, inter-harmonics, and faults may affect the accuracy of frequency estimation. In contrast to conventional methods for frequency estimator, the proposed method is less sensitive to distortions and unbalanced power system conditions. The proposed method uses the information in all three-phase signals which is proved to be more robust against signal variations than single-phase methods. Simulation results demonstrate the accuracy and the speed of the proposed method for frequency estimation in both grid-connected and islanded mode of low inertia microgrids under grid faults.",
+      "authors": [
+        "Zahra Dehghani Arani",
+        "Seyed Abbas Taher",
+        "Amir H. Ghasemi",
+        "Mohammad Shahidehpour"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A component sizing prediction study for a series hybrid electric vehicle based on artificial neural network",
+      "publication_year": 2023,
+      "publication_date": "2023-08-21",
+      "doi": "https://doi.org/10.1177/14680874231188354",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Driving cycle",
+        "Automotive engineering",
+        "Artificial neural network",
+        "Duty cycle",
+        "Sizing",
+        "Battery (electricity)",
+        "Engineering",
+        "Electric vehicle"
+      ],
+      "abstract": "In the present study, the predictive tool based on an artificial neural network is developed by means of the experimental data of two series hybrid electric vehicles. The experiments have been conducted on different driving conditions, including highways, traffic, and combined driving conditions. Then, the artificial neural network is developed to predict an arbitrary series hybrid electric vehicle’s required power. The instantaneous required power is divided into dynamic and steady power to size the combustion engine, electric motor, and high voltage battery of the series hybrid electric vehicle. The effects of different ambient conditions (including ambient temperature and altitude), the inverter and high voltage battery efficiencies, and the coast-down coefficients on the components sizing of the series hybrid electric vehicle are then investigated in different driving conditions. The results revealed that the maximum instantaneous power of the electric motor is associated with rapid acceleration in low-speed conditions, and the suburban driving route determines the combustion engine’s maximum power. Notably, the Worldwide Harmonized Light-duty vehicles Test Cycle is the most...",
+      "authors": [
+        "Seyyed Erfan Faghih",
+        "Iman Chitsaz",
+        "Amir H. Ghasemi"
+      ]
+    },
+    {
+      "title": "Enhancing Traffic Flow in Heterogeneous Freeways: Integration of Multivariable Extremum Seeking and Filtered Feedback Linearization Control",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1109/access.2025.3585431",
+      "venue": "IEEE Access",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/access.2025.3585431",
+      "concepts": [
+        "Multivariable calculus",
+        "Linearization",
+        "Feedback linearization",
+        "Control theory (sociology)",
+        "Computer science",
+        "Trajectory",
+        "Flow (mathematics)",
+        "Traffic flow (computer networking)"
+      ],
+      "abstract": "This paper presents a novel control approach for managing traffic flow on heterogeneous freeways, including both human-driven vehicles and autonomous vehicles classes. We introduce an enhanced version of the multi-class METANET model that incorporates state-dependent parameters, enabling a more accurate representation of the macroscopic dynamics of traffic systems. Building on this improved traffic model, we propose a two-level hierarchical control framework to manage traffic flow and reduce congestion effectively. At the upper level, a distributed multi-variable extremum seeking (DMV-ES) control approach determines the optimal densities for different class of vehicles within controlled traffic cells to maximize overall traffic flow while minimizing flow variations between adjacent cells. These densities are then provided as reference inputs to the lower-level controller, where a distributed filtered feedback linearization (D-FFL) control is employed to determine the desired speed commands for the vehicles. The key advantage of the proposed controller is that it requires only limited knowledge of the system, making it well-suited for the uncertain and nonlinear nature of heterog...",
+      "authors": [
+        "Pouria Karimi Shahri",
+        "Arash Rahmanidehkordi",
+        "Azad Ghaffari",
+        "Amir H. Ghasemi"
+      ]
+    },
+    {
+      "title": "UNC Charlotte Autonomous Shuttle Pilot Study: An Assessment of Operational Performance, Reliability, and Challenges",
+      "publication_year": 2024,
+      "publication_date": "2024-11-11",
+      "doi": "https://doi.org/10.3390/machines12110796",
+      "venue": "Machines",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2075-1702/12/11/796/pdf?version=1731315147",
+      "concepts": [
+        "Reliability (semiconductor)",
+        "Reliability engineering",
+        "Space Shuttle",
+        "Aeronautics",
+        "Computer science",
+        "Engineering",
+        "Aerospace engineering",
+        "Physics"
+      ],
+      "abstract": "This paper presents the findings from an autonomous shuttle pilot program conducted at the University of North Carolina at Charlotte between June and December 2023 as part of the North Carolina Department of Transportation’s Connected Autonomous Shuttle Supporting Innovation (CASSI) initiative. The shuttle completed 825 trips, transporting 565 passengers along a 2.2-mile mixed-traffic campus route. The study evaluates the shuttle’s operational performance, reliability, and challenges using data from onboard sensors, system logs, and operator reports. Key analyses are divided into four areas: service reliability, which assesses autonomy disengagements caused by signal loss, technical issues, and environmental factors; service robustness, focusing on the shuttle’s ability to maintain operations under adverse conditions; performance metrics, including average speed, autonomy percentage, and battery usage; and service usage, which examines the number of trips and passengers to gauge efficiency. Signal loss and battery-related issues were the primary causes of service interruptions, while environmental factors like weather and vegetation also affected shuttle performance. Recommendat...",
+      "authors": [
+        "Mohammadnavid Golchin",
+        "Abhinav Grandhi",
+        "Ninad Gore",
+        "Srinivas S. Pulugurtha",
+        "Amir H. Ghasemi"
+      ]
+    },
+    {
+      "title": "Traffic Density Control for Heterogeneous Highway Systems With Input Constraints",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1109/lcsys.2024.3516073",
+      "venue": "IEEE Control Systems Letters",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control (management)",
+        "Computer science",
+        "Transport engineering",
+        "Engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "This letter introduces a traffic management algorithm for heterogeneous highway corridors consisting of both human-driven vehicles (HVs) and autonomous vehicles (AVs). The traffic flow dynamics are modeled using the heterogeneous METANET model, with variable speed control employed to maintain desired vehicle densities and reduce congestion. To generate speed control commands, we developed a hybrid framework that combines feedback linearization (FL) and model predictive control (MPC), treating the traffic system as an over-actuated, constrained nonlinear system. The FL component linearizes the nonlinear dynamics, while the MPC component handles constraints by generating virtual control inputs that ensure control limits are respected. To address the over-actuated nature of the system, we introduce a novel constraint mapping algorithm within the MPC that links virtual control input constraints to the actual control commands. Additionally, we propose a real-time reference density generation method that accounts for both AVs and HVs to mitigate congestion. Numerical simulations were conducted for two scenarios: controlling only AVs and controlling both AVs and HVs. The results demons...",
+      "authors": [
+        "Arash Rahmanidehkordi",
+        "Amir H. Ghasemi"
+      ]
+    },
+    {
+      "title": "Enhancing Traffic Flow via Feedback Linearization and Model Predictive Control under Input Constraints",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1016/j.ifacol.2025.01.064",
+      "venue": "IFAC-PapersOnLine",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ifacol.2025.01.064",
+      "concepts": [
+        "Model predictive control",
+        "Feedback linearization",
+        "Control theory (sociology)",
+        "Linearization",
+        "Flow (mathematics)",
+        "Computer science",
+        "Feedback control",
+        "Control (management)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Arash Rahmanidehkordi",
+        "Amir H. Ghasemi"
+      ]
+    }
+  ]
+}

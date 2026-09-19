@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Kamesh Subbarao",
+  "full_name": "Kamesh Subbarao",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Texas at Arlington",
+  "author_id": "A5057626643",
+  "works_count": 229,
+  "cited_by_count": 3873,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 65
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 37
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 35
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 35
+    },
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Backstepping Approach for Controlling a Quadrotor Using Lagrange Form Dynamics",
+      "publication_year": 2009,
+      "publication_date": "2009-04-20",
+      "doi": "https://doi.org/10.1007/s10846-009-9331-0",
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "type": "article",
+      "cited_by_count": 378,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Backstepping",
+        "Control theory (sociology)",
+        "Underactuation",
+        "Inverse dynamics",
+        "Aerodynamics",
+        "Controller (irrigation)",
+        "Kinematics",
+        "Robotics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Abhijit Das",
+        "Frank L. Lewis",
+        "Kamesh Subbarao"
+      ]
+    },
+    {
+      "title": "Adaptive Output Feedback Control for Spacecraft Rendezvous and Docking Under Measurement Uncertainty",
+      "publication_year": 2006,
+      "publication_date": "2006-07-01",
+      "doi": "https://doi.org/10.2514/1.17498",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 301,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Rendezvous",
+        "Spacecraft",
+        "Parametric statistics",
+        "Bounded function",
+        "Computer science",
+        "Attitude control",
+        "Position (finance)"
+      ],
+      "abstract": "An output feedback structured model reference adaptive control law has been developed for spacecraft ren-dezvous and docking problems. The effect of bounded output errors on controller performance is studied in detail. Output errors can represent an aggregation of sensor calibration errors, systematic bias, or some stochastic distur-bances present in any real sensor measurements or state estimates. The performance of the control laws for stable, bounded tracking of the relative position and attitude trajectories is evaluated, considering unmodeled external as well as parametric disturbances and realistic position and attitude measurement errors. Essential ideas and results from computer simulations are presented to illustrate the performance of the algorithm developed in the paper.",
+      "authors": [
+        "Puneet Singla",
+        "Kamesh Subbarao",
+        "John L. Junkins"
+      ]
+    },
+    {
+      "title": "Nonlinear Control of Motion Synchronization for Satellite Proximity Operations",
+      "publication_year": 2008,
+      "publication_date": "2008-08-22",
+      "doi": "https://doi.org/10.2514/1.34248",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 145,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Satellite",
+        "Nonlinear system",
+        "Satellite tracking",
+        "Computer science",
+        "Control theory (sociology)",
+        "Synchronization (alternating current)",
+        "Motion (physics)",
+        "Control (management)"
+      ],
+      "abstract": "This paper considers the problem of motion synchronization of free-flying robotic spacecraft and serviceable floating objects in space. The synchronization maneuvers are a combination of relative position tracking and attitude reorientation. Control laws are developed that ensure that the relative position vector between a pursuer and spacecraft is always directed toward the docking port of the target. The tracking-error reference signals are generated based on a novel target construction. Also, the attitude reorientation of the pursuer is achieved by constructing a desired attitude from the virtual target, and the control law seeks to nullify the errors between the current and desired attitude parameters. The control law synthesis proceeds along familiar, established procedures motivated by feedback-linearization-based approaches. Disturbance torques due to gravity gradient and other unknown but bounded disturbances are accounted for using an adaptive control formulation. The stability of the control laws are demonstrated via Lyapunov analysis and Matrosov's theorem Numerical simulations are performed to demonstrate the efficacy of this control formulation.",
+      "authors": [
+        "Kamesh Subbarao",
+        "Sam Welsh"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Real-Time Reachable Set-Based Model Predictive Control for Safe Trajectory Tracking of Quadrotors",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0544",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Model predictive control",
+        "Trajectory",
+        "Computer science",
+        "Control theory (sociology)",
+        "Obstacle avoidance",
+        "Collision avoidance",
+        "Set (abstract data type)",
+        "MATLAB"
+      ],
+      "abstract": "This paper presents a unified framework for autonomous quadrotor navigation that integrates real-time reachable set computations with Model Predictive Control (MPC) to ensure both safety and adaptability in complex environments. The proposed method employs zonotopes to represent the set of possible future UAV states and control deviations robustly. Reachable set tubes are computed online through iterative propagation of these zonotopes using the system dynamics. A collision avoidance mechanism detects intersections between predicted reachable sets and environmental obstacles, followed by a zonotope contraction procedure to define safe, under-approximated flight corridors. These dynamically generated safe regions are incorporated as constraints within the MPC optimization problem. The proposed reachable set-based MPC framework enhances trajectory tracking and obstacle avoidance performance. Its effectiveness is demonstrated through MATLAB and Python simulations involving static obstacles, highlighting its ability to achieve safe and reliable navigation.",
+      "authors": [
+        "Jinaykumar Patel",
+        "Uluhan C. Kaya",
+        "Kamesh Subbarao"
+      ]
+    },
+    {
+      "title": "Robust 6-DOF State Estimation for Spacecraft Proximity Operations Using Zonotopic Set Membership Based Kalman Filtering",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0111",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Extended Kalman filter",
+        "Kalman filter",
+        "Invariant extended Kalman filter",
+        "Linearization",
+        "Fast Kalman filter",
+        "Unscented transform",
+        "Noise (video)"
+      ],
+      "abstract": "This paper introduces a hybrid estimation and control framework that combines zonotopic set-membership filtering with the Extended Kalman Filter (EKF) for robust six-degree-of freedom (6-DOF) state estimation and guidance in spacecraft rendezvous and proximity operations. The proposed approach simultaneously addresses translational and rotational dynamics in the presence of stochastic noise and unknown-but-bounded (UBB) disturbances. A nonlinear system model is linearized via Taylor series expansion, where the Lagrange remainder and UBB uncertainties are bounded using zonotopes. These bounds are incorporated within a Kalman filtering framework, and the Kalman gain is optimized to minimize the mean-squared estimation error. The resulting Zonotopic Set-Membership Kalman Filter (ZSM-KF) accounts for stochastic, UBB, and linearization errors in a unified manner, overcoming key limitations of conventional EKF methods. The estimated states from the hybrid filter are integrated into a time-varying Model Predictive Control (MPC) scheme to enable feedback-based, constraint aware guidance. Simulation results with full 6-DOF spacecraft dynamics demonstrate enhanced robustness, estimation a...",
+      "authors": [
+        "Jinaykumar Patel",
+        "Kamesh Subbarao"
+      ]
+    },
+    {
+      "title": "Multi-Robot Cooperative 3D Frontier Exploration Using Stereo Camera Based Mapping in GPS-Denied Environments",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0859",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer vision",
+        "Artificial intelligence",
+        "Computer science",
+        "Inertial measurement unit",
+        "Simultaneous localization and mapping",
+        "Odometry",
+        "Trajectory",
+        "Visual odometry"
+      ],
+      "abstract": "Autonomous 3D exploration with lightweight uncrewed aerial vehicles is especially chal- lenging when relying solely on stereo vision in GPS-denied environments. This paper proposes a decentralized multi unmanned aerial vehicle (UAV) exploration framework that integrates Real-Time Appearance-Based Visual SLAM (RTAB-Map) with an entropy-filtered frontier detection pipeline operating directly on a volumetric OctoMap. Frontier voxels are refined using Shannon entropy and clustered with Density-Based Spatial Clustering of Applications with Noise (DBSCAN), while a ray-casting-based Next-Best-View utility function selects in- formative, low-cost goals without centralized coordination. Rapidly-Exploring Random Tree Star (RRT*) planner with OctoMap collision checks generates feasible paths, and a Nonlinear Model Predictive Controller (NMPC) ensures stable trajectory tracking using filtered visual odometry. The Extended Kalman Filter is used for the fusion of visual odometry and IMU data. This framework enables scalable vision-based cooperative exploration without GPS or external infrastructure.",
+      "authors": [
+        "Rakesh Yadav",
+        "Kamesh Subbarao"
+      ]
+    },
+    {
+      "title": "Macroscopic-Model-Based Learning for Detection of Cyber-Attacks in UAV Swarms",
+      "publication_year": 2025,
+      "publication_date": "2025-06-10",
+      "doi": "https://doi.org/10.2514/1.i011509",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Real-time computing",
+        "Computer security",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering"
+      ],
+      "abstract": "This paper considers a class of cyber-attacks aimed at a swarm of unmanned aerial vehicles (UAVs). Our focus is on scenarios wherein an attacker may hack into a subset of vehicles in the swarm and subtly modify their flight parameters. These hacked vehicles (referred to as malicious vehicles) are subsequently able to modify the behavior of the overall swarm. The swarm comprising the mix of malicious and normal vehicles is modeled using a system of coupled partial differential equations (PDEs) in a two-dimensional Lighthill–Whitham–Richards model. We develop a methodology that combines Gaussian processes with wave propagation analysis of this two-species PDE model and use this method for detecting the presence of malicious vehicles in the swarm. Simulation results demonstrate that this methodology performs successful detection of the malicious vehicles and also identifies their mode of attack on the UAV swarm.",
+      "authors": [
+        "Abhishek Kashyap",
+        "Animesh Chakravarthy",
+        "Kamesh Subbarao",
+        "David W. Casbeer",
+        "Isaac E. Weintraub",
+        "Brandon Hencey"
+      ]
+    },
+    {
+      "title": "Reachable-Set Constrained Model Predictive Control for Safe Hypersonic Reentry",
+      "publication_year": 2025,
+      "publication_date": "2025-04-07",
+      "doi": "https://doi.org/10.2514/1.g008436",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reentry",
+        "Hypersonic speed",
+        "Set (abstract data type)",
+        "Model predictive control",
+        "Control theory (sociology)",
+        "Hypersonic flight",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "This paper investigates the application of reachability analysis within the context of the atmospheric reentry problem. We address the crucial challenge of ensuring reentry vehicle safety by integrating reachability analysis with model predictive control (MPC). Our approach enables the design of controllers with formal safety guarantees under disturbances and uncertainties. Constraints derived from reachability analysis are enforced using both nonlinear and linear time-varying MPC techniques. We further apply tube-based MPC to specifically address nonlinear systems with additive disturbances. Simulations demonstrate the effectiveness of our approach in complex nonlinear reentry scenarios and highlight the significant value of combining reachability analysis with MPC for the development of provably safe control systems operating in uncertain environments.",
+      "authors": [
+        "Jinaykumar Patel",
+        "Kamesh Subbarao"
+      ]
+    }
+  ]
+}

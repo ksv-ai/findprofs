@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Sukalyan Bhattacharya",
+  "full_name": "Sukalyan Bhattacharya",
+  "department": "Department of Mechanical Engineering",
+  "university": "Texas Tech University",
+  "author_id": "A5047935545",
+  "works_count": 67,
+  "cited_by_count": 706,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 12
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 10
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 9
+    },
+    {
+      "topic": "Material Dynamics and Properties",
+      "count": 8
+    },
+    {
+      "topic": "Microfluidic and Bio-sensing Technologies",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Hydrodynamic interactions of spherical particles in suspensions confined between two planar walls",
+      "publication_year": 2005,
+      "publication_date": "2005-10-11",
+      "doi": "https://doi.org/10.1017/s0022112005005938",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 86,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/physics/0505056",
+      "concepts": [
+        "Superposition principle",
+        "SPHERES",
+        "Planar",
+        "Matrix (chemical analysis)",
+        "Classical mechanics",
+        "Crossover",
+        "Mechanics",
+        "Particle (ecology)"
+      ],
+      "abstract": "Hydrodynamic interactions in a suspension of spherical particles confined between two parallel planar walls are studied under creeping-flow conditions. The many-particle friction matrix in this system is evaluated using our novel numerical algorithm based on transformations between Cartesian and spherical representations of Stokes flow. The cartesian representation is used to describe the interaction of the fluid with the walls and the spherical representation is used to describe the interaction with the particles. The transformations between these two representations are given in a closed form, which allows us to evaluate the coefficients in linear equations for the induced-force multipoles on particle surfaces. the friction matrix is obtained from these equations, supplemented with the superposition lubrication corrections. we have used our algorithm to evaluate the friction matrix for a single sphere, a pair of spheres, and for linear chains of spheres. The friction matrix exhibits a crossover from a quasi-two-dimensional behaviour (for systems with small wall separation H) to THE three-dimensional behaviour (when the distance H is much larger than the interparticle distance ...",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Jerzy Bławzdziewicz",
+        "Eligiusz Wajnryb"
+      ]
+    },
+    {
+      "title": "Many-particle hydrodynamic interactions in parallel-wall geometry: Cartesian-representation method",
+      "publication_year": 2005,
+      "publication_date": "2005-05-15",
+      "doi": "https://doi.org/10.1016/j.physa.2005.03.031",
+      "venue": "Physica A Statistical Mechanics and its Applications",
+      "type": "article",
+      "cited_by_count": 61,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/cond-mat/0504699",
+      "concepts": [
+        "Cartesian coordinate system",
+        "Superposition principle",
+        "SPHERES",
+        "Stokes flow",
+        "Classical mechanics",
+        "Flow (mathematics)",
+        "Matrix (chemical analysis)",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Jerzy Bławzdziewicz",
+        "Eligiusz Wajnryb"
+      ]
+    },
+    {
+      "title": "Image system for Stokes-flow singularity between two parallel planar walls",
+      "publication_year": 2002,
+      "publication_date": "2002-10-24",
+      "doi": "https://doi.org/10.1063/1.1508812",
+      "venue": "Journal of Mathematical Physics",
+      "type": "article",
+      "cited_by_count": 45,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multipole expansion",
+        "Gravitational singularity",
+        "Fast multipole method",
+        "Bounded function",
+        "Stokes flow",
+        "Singularity",
+        "Planar",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Using a recently developed image representation for Stokes flow in a half-space bounded by a planar wall [Cichocki and Jones, Physica A 258, 273 (1998)], the image system is constructed for the flow field produced by a force multipole in the space bounded by two parallel walls. The image singularities are expressed in terms of products of double-reflection matrices, and the expansion is simplified using symmetries of the double-reflection operation. Our analysis yields recurrence relations for the strengths of the image multipoles. The relations are solved explicitly, and a complete image system is obtained for an arbitrary source-force multipole. Applications of our image representation for evaluating the hydrodynamic friction and mobility matrices of particles interacting with two parallel planar walls are indicated.",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Jerzy Bławzdziewicz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Unifying Viscocapillary and Inertial Regimes in Selective Withdrawal",
+      "publication_year": 2026,
+      "publication_date": "2026-01-06",
+      "doi": "https://doi.org/10.48550/arxiv.2601.03074",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.03074",
+      "concepts": [
+        "Entrainment (biomusicology)",
+        "Mechanics",
+        "Inertial frame of reference",
+        "Reynolds number",
+        "Newtonian fluid",
+        "Physics",
+        "Shear thinning",
+        "Statistical physics"
+      ],
+      "abstract": "Selective withdrawal extracts only a single phase from a stratified multi-layer system. Entrainment occurs when a critical condition draws up the static layer which is not being withdrawn. Existing studies provide robust scalings within distinct limiting regimes. These include viscocapillary-dominated entrainment at low Reynolds number. They also include inertia-dominated entrainment at high Reynolds number. However, a single unifying representation remains to be explored in the literature. This limitation is most evident in transitional conditions between classical limits. It is also pronounced when the lower layer is non-Newtonian. Here we report selective-withdrawal experiments spanning these conditions. The upper layer is Newtonian, using PDMS or soybean oil. The lower layer is either Newtonian water or shear-thinning xanthan-gum solutions. We propose a unified framework that connects these previously separated regimes. The framework adopts a ``Moody diagram'' type representation for selective withdrawal. We collapse normalized critical submergence height using a Reynolds-like control parameter. Surface-tension effects enter subdominantly through the capillary length. The re...",
+      "authors": [
+        "Sabbir Hassan",
+        "Arsalan Abutalebi",
+        "Sukalyan Bhattacharya",
+        "Gordon F. Christopher"
+      ]
+    },
+    {
+      "title": "Unifying Viscocapillary and Inertial Regimes in Selective Withdrawal",
+      "publication_year": 2026,
+      "publication_date": "2026-01-06",
+      "doi": "http://arxiv.org/abs/2601.03074",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.03074",
+      "concepts": [
+        "Entrainment (biomusicology)",
+        "Mechanics",
+        "Inertial frame of reference",
+        "Reynolds number",
+        "Newtonian fluid",
+        "Physics",
+        "Shear thinning",
+        "Statistical physics"
+      ],
+      "abstract": "Selective withdrawal extracts only a single phase from a stratified multi-layer system. Entrainment occurs when a critical condition draws up the static layer which is not being withdrawn. Existing studies provide robust scalings within distinct limiting regimes. These include viscocapillary-dominated entrainment at low Reynolds number. They also include inertia-dominated entrainment at high Reynolds number. However, a single unifying representation remains to be explored in the literature. This limitation is most evident in transitional conditions between classical limits. It is also pronounced when the lower layer is non-Newtonian. Here we report selective-withdrawal experiments spanning these conditions. The upper layer is Newtonian, using PDMS or soybean oil. The lower layer is either Newtonian water or shear-thinning xanthan-gum solutions. We propose a unified framework that connects these previously separated regimes. The framework adopts a ``Moody diagram'' type representation for selective withdrawal. We collapse normalized critical submergence height using a Reynolds-like control parameter. Surface-tension effects enter subdominantly through the capillary length. The re...",
+      "authors": [
+        "Sabbir Hassan",
+        "Arsalan Abutalebi",
+        "Sukalyan Bhattacharya",
+        "Gordon F. Christopher"
+      ]
+    },
+    {
+      "title": "Wind energy: status and outlook with focus on offshore wind",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1016/b978-0-443-21927-6.00014-3",
+      "venue": "Energy and Climate Change",
+      "type": "book-chapter",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/b978-0-443-21927-6.00014-3",
+      "concepts": [
+        "Offshore wind power",
+        "Wind power",
+        "Marine engineering",
+        "Submarine pipeline",
+        "Focus (optics)",
+        "Meteorology",
+        "Environmental science",
+        "Oceanography"
+      ],
+      "abstract": "Wind power is one of the oldest forms of energy source, and wind turbines are the oldest machines. Current-day wind energy is harvested through large-scale offshore and onshore wind farms. Offshore wind farms (OWFs) are increasingly being deployed and constructed as scalable, sustainable energy sources. Currently, OWFs represent the most cost-effective new energy projects in Europe, with their levelized cost of energy having significantly decreased due to decades of innovation supported by both public and private funding. This rapidly growing industry has the potential to accelerate the decarbonization of regional and global economies and introduce green hydrogen as a reliable commercial energy source, all while causing minimal disruption to ecosystems and biodiversity. This chapter provides a historical perspective on wind energy utilization, demonstrating that wind turbines are among the oldest, largest, and most sophisticated machines. It also highlights the potential of offshore wind energy to offer new solutions for meeting the clean energy demands of a growing global population, enhancing national energy security through technologies like green hydrogen production and stor...",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Georgios Nikitas"
+      ]
+    },
+    {
+      "title": "Intriguing Brownian Diffusivity Characteristics of Complex Nanoparticles",
+      "publication_year": 2024,
+      "publication_date": "2024-06-14",
+      "doi": "https://doi.org/10.1115/1.4065732",
+      "venue": "Journal of Applied Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/91/10/101008/7355858/jam_91_10_101008.pdf",
+      "concepts": [
+        "Brownian motion",
+        "Thermal diffusivity",
+        "Nano-",
+        "Statistical physics",
+        "Brownian dynamics",
+        "Materials science",
+        "Physics",
+        "Classical mechanics"
+      ],
+      "abstract": "Abstract This article reveals how apparently similar looking nanoparticles with same size, shape, and mass may exhibit widely varying Brownian diffusivity due to inherent features of nanoscale dynamics. Such variabilities may, in certain cases, reach order of magnitude fluctuations depending on the interfacial and bulk properties of the Brownian body. Accordingly, the theory explains several unanswered questions in connection to submicron systems including anomalous thermal properties of nanofluids and strangely varying transmittivities of biologically originated particulate droplets.",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Paula C. Fossi"
+      ]
+    },
+    {
+      "title": "Perturbative stability analysis of deformable charged bodies revealing the mathematical origin of Planck constant",
+      "publication_year": 2024,
+      "publication_date": "2024-04-24",
+      "doi": "https://doi.org/10.1088/1402-4896/ad42db",
+      "venue": "Physica Scripta",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1402-4896/ad42db",
+      "concepts": [
+        "Planck",
+        "Constant (computer programming)",
+        "Physics",
+        "Stability (learning theory)",
+        "Planck constant",
+        "Classical mechanics",
+        "Statistical physics",
+        "Theoretical physics"
+      ],
+      "abstract": "Abstract This article considers elementary particles like electrons as finitely sized deformable bodies and analyzes the classical mechanics of their interior continuum. The consequent findings answer a long-standing question in physics by computing Planck constant mathematically. It also explains quantum phenomena like wave-particle duality, uncertainty principle and atomic stability without resorting to phenomenological relations like Planck’s law or Bohr’s postulates. The analysis introduces the criteria for perpetual stability under arbitrary perturbations to compensate for the lack of system-defining initial conditions typically available in a classical mechanics problem. Accordingly, unperturbed leading order field solutions are first constructed from steady rotation and axisymmetric electromagnetic potentials. Then, novel perturbation theories uniquely render the particulate geometry along with mass and charge distributions by exploiting the stability conditions. The approach reveals the perpetually stable body to have surface charges encapsulating a slender disk with a radius-to-thickness ratio 51.36 and a rim velocity of 0.09798c. The volumetric densities for rest-mass ...",
+      "authors": [
+        "Sukalyan Bhattacharya",
+        "Sonal Bhattacharya"
+      ]
+    }
+  ]
+}

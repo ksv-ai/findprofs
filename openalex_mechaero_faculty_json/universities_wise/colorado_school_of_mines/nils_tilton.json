@@ -1,0 +1,279 @@
+{
+  "faculty_name": "Nils Tilton",
+  "full_name": "Nils Tilton",
+  "department": "Department of Mechanical Engineering",
+  "university": "Colorado School of Mines",
+  "author_id": "A5014669702",
+  "works_count": 56,
+  "cited_by_count": 740,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Membrane Separation Technologies",
+      "count": 20
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 17
+    },
+    {
+      "topic": "Solar-Powered Water Purification Methods",
+      "count": 13
+    },
+    {
+      "topic": "Heat and Mass Transfer in Porous Media",
+      "count": 13
+    },
+    {
+      "topic": "Membrane-based Ion Separation Techniques",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Linear stability analysis of pressure-driven flows in channels with porous walls",
+      "publication_year": 2008,
+      "publication_date": "2008-05-14",
+      "doi": "https://doi.org/10.1017/s0022112008001341",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Mechanics",
+        "Linear stability",
+        "Porous medium",
+        "Porosity",
+        "Permeability (electromagnetism)",
+        "Materials science",
+        "Isotropy"
+      ],
+      "abstract": "We present the three-dimensional linear stability analysis of a pressure-driven, incompressible, fully developed, laminar flow in a channel delimited by rigid, homogeneous, isotropic, porous layers. We consider porous materials of small permeability in which the maximum fluid velocity is small compared to the mean velocity in the channel region and for which inertial effects may be neglected. We analyse the linear stability of symmetric laminar velocity profiles in channels with two identical porous walls as well as skewed laminar velocity profiles in channels with only one porous wall. We solve the fully coupled linear stability problem, arising from the adjacent channel and porous flows, using a spectral collocation technique. We validate our results by recovering the linear stability results of a flow in a channel with impermeable walls as the permeabilities of the porous layers tend to zero. We also verify that our results are consistent with the assumption of negligible inertial effects in the porous regions. We characterize the stability of pressure-driven flows by performing a parametric study in which we vary the permeability, porosity, and height of the porous layers as...",
+      "authors": [
+        "Nils Tilton",
+        "Luca Cortelezzi"
+      ]
+    },
+    {
+      "title": "Computational fluid dynamics simulations of polarization phenomena in direct contact membrane distillation",
+      "publication_year": 2019,
+      "publication_date": "2019-06-05",
+      "doi": "https://doi.org/10.1016/j.memsci.2019.05.074",
+      "venue": "Journal of Membrane Science",
+      "type": "article",
+      "cited_by_count": 82,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Membrane distillation",
+        "Computational fluid dynamics",
+        "Membrane",
+        "Concentration polarization",
+        "Polarization (electrochemistry)",
+        "Mechanics",
+        "Dynamics (music)",
+        "Chemical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jincheng Lou",
+        "Johan Vanneste",
+        "Steven C. DeCaluwe",
+        "Tzahi Y. Cath",
+        "Nils Tilton"
+      ]
+    },
+    {
+      "title": "The initial transient period of gravitationally unstable diffusive boundary layers developing in porous media",
+      "publication_year": 2013,
+      "publication_date": "2013-09-01",
+      "doi": "https://doi.org/10.1063/1.4821225",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 57,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Perturbation (astronomy)",
+        "Amplitude",
+        "Instability",
+        "Mechanics",
+        "Boundary value problem",
+        "Convection",
+        "Mathematical analysis"
+      ],
+      "abstract": "Gravitationally unstable, transient, diffusive boundary layers play an important role in carbon dioxide sequestration. Though the linear stability of these layers has been studied extensively, there is wide disagreement in the results, and it is not clear which methodology best reflects the physics of the instability. We demonstrate that this disagreement stems from an inherent sensitivity of the problem to how perturbation growth is measured. During an initial transient period, the concentration and velocity fields exhibit different growth rates and these rates depend on the norm used to measure perturbation amplitude. This sensitivity decreases at late times as perturbations converge to dominant quasi-steady eigenmodes. Therefore, we characterize the linear regime by measuring the duration of the initial transient period, and we interpret the convergence process by examining the growth rates and non-orthogonality of the quasi-steady eigenmodes. To judge the relevance of various methodologies and perturbation structures to physical systems, we demonstrate that every perturbation has a maximum allowable initial amplitude above which the sum of the base-state and perturbation pro...",
+      "authors": [
+        "Nils Tilton",
+        "Don Daniel",
+        "Amir Riaz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Analytical and Numerical Solutions to the Three-Phase Stefan Problem With Simultaneous Occurrences of Melting, Solidification, Boiling, and Condensation Phenomena",
+      "publication_year": 2025,
+      "publication_date": "2025-08-05",
+      "doi": "https://doi.org/10.1115/1.4069329",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2503.06360",
+      "concepts": [
+        "Condensation",
+        "Boiling",
+        "Thermodynamics",
+        "Stefan problem",
+        "Phase (matter)",
+        "Materials science",
+        "Phase change",
+        "Mechanics"
+      ],
+      "abstract": "Abstract The one-dimensional (1D) Stefan problem is a prototypical heat and mass transfer problem that analyzes the temperature distribution in a material undergoing phase change. In addition, it describes the evolution of the phase change front within the phase change material (PCM). Analytical solutions to the two-phase Stefan problem which describes the melting of a solid or boiling of a liquid have been extensively discussed in the literature. Density change effects and associated fluid flow phenomena during phase change are typically ignored to simplify the analysis. As the PCM boils or condenses, it undergoes a density change of 1000 or more. The effects of density changes and convection cannot be ignored when dealing with such problems. In our recent work (Thirumalaisamy and Bhalla, 2023, “A Low Mach Enthalpy Method to Model Non-Isothermal Gas–Liquid–Solid Flows With Melting and Solidification,” Int. J. Multiphase Flow, 169, p. 104605), we found analytical solutions to the two-phase Stefan problem that account for a jump in the thermophysical properties of the two phases, including density. In this work, we extend our prior analyses to obtain analytical solutions to the t...",
+      "authors": [
+        "Mehran Soleimani",
+        "Kimmo Koponen",
+        "Nils Tilton",
+        "Amneet Pal Singh Bhalla"
+      ]
+    },
+    {
+      "title": "A direct forcing, immersed boundary method for conjugate heat transport",
+      "publication_year": 2025,
+      "publication_date": "2025-05-31",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114135",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Immersed boundary method",
+        "Mechanics",
+        "Conjugate",
+        "Boundary (topology)",
+        "Physics",
+        "Mathematics",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kimmo Koponen",
+        "Amneet Pal Singh Bhalla",
+        "Brennan Sprinkle",
+        "Ning Wu",
+        "Nils Tilton"
+      ]
+    },
+    {
+      "title": "Permeate fluxes from desalination of brines and produced waters: A reactive transport modeling study",
+      "publication_year": 2025,
+      "publication_date": "2025-05-16",
+      "doi": "https://doi.org/10.1016/j.apgeochem.2025.106429",
+      "venue": "Applied Geochemistry",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apgeochem.2025.106429",
+      "concepts": [
+        "Desalination",
+        "Environmental science",
+        "Environmental chemistry",
+        "Environmental engineering",
+        "Chemistry",
+        "Membrane",
+        "Biochemistry"
+      ],
+      "abstract": "ABSTRACT: The increasing interest in the use of membrane systems to desalinate inland brackish water, agricultural drainage, and industrially produced wastewater demands improved means of predicting desalination system performance under variable feedwater compositions. The interaction among water flow, solute transport, and chemical composition in these systems impacts permeate flux evolution. Here, an established multicomponent reactive transport simulator that accounts for these coupled processes is applied to compute osmotic pressure and permeate fluxes in reverse osmosis (RO) systems. The model is first validated by predicting permeate fluxes for a set of benchtop crossflow experiments subject to a range of feed flow rates and compositions, under fouling and non-fouling conditions. Results compare favorably with measured data that show that solutions with similar total dissolved solids concentrations but different compositions result in different permeate fluxes. The model is then applied to predict permeate fluxes from the desalination of produced waters using a commercial spiral wound RO module. For NaCl-dominant brines, at total dissolved salt concentrations (TDS) below a...",
+      "authors": [
+        "Sergi Molins",
+        "Nicolas Spycher",
+        "Sarah M. Dischinger",
+        "Mostafa Nassr",
+        "Ji Yeon Lee",
+        "Jacob Johnston",
+        "Nils Tilton",
+        "Kristofer L. Gleason",
+        "Benny D. Freeman",
+        "William T. Stringfellow",
+        "Daniel J. Miller"
+      ]
+    },
+    {
+      "title": "Mineral Scale Formation during Crossflow Reverse Osmosis at Constant Flux and Constant Transmembrane Pressure Conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-01-07",
+      "doi": "https://doi.org/10.1021/acs.iecr.4c04059",
+      "venue": "Industrial & Engineering Chemistry Research",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reverse osmosis",
+        "Fouling",
+        "Forward osmosis",
+        "Membrane fouling",
+        "Chemistry",
+        "Membrane",
+        "Flux (metallurgy)",
+        "Membrane technology"
+      ],
+      "abstract": "Mineral scale formation on membrane surfaces is a significant challenge in reverse osmosis water purification. Laboratory fouling experiments are typically run such that the transmembrane pressure (TMP) is fixed, and the permeate flux decreases over time as scales accumulate on the membrane surface. However, this change in flux means that the hydrodynamic conditions at the membrane surface are continuously changing, which could affect crystallization and foulant deposition processes. Operating under constant permeate flux conditions, in contrast, is advantageous because it keeps the hydrodynamic conditions relatively consistent, making it possible to compare how membrane properties ( e . g ., surface chemistry) affect fouling propensity. Industrial reverse osmosis operations are not run strictly in either constant TMP or constant flux mode; while they may start at a constant TMP, feed pressure may be periodically adjusted to maintain permeate water production within a specified range. The scarcity of constant permeate flux reverse osmosis scaling experiments reported in the literature frustrates efforts to compare membrane fouling processes under constant TMP and constant flux c...",
+      "authors": [
+        "Mostafa Nassr",
+        "Sarah M. Dischinger",
+        "Ji Yeon Lee",
+        "Kristofer L. Gleason",
+        "Sergi Molins",
+        "Nicolas Spycher",
+        "Pedram Bigdelou",
+        "Jacob Johnston",
+        "Nathaniel A. Lynd",
+        "Nils Tilton",
+        "William T. Stringfellow",
+        "Benny D. Freeman",
+        "Daniel J. Miller"
+      ]
+    },
+    {
+      "title": "A numerical method for simulating variable density flows in membrane desalination systems",
+      "publication_year": 2024,
+      "publication_date": "2024-10-11",
+      "doi": "https://doi.org/10.1016/j.compfluid.2024.106449",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compfluid.2024.106449",
+      "concepts": [
+        "Variable (mathematics)",
+        "Mechanics",
+        "Desalination",
+        "Membrane",
+        "Mathematics",
+        "Computer science",
+        "Applied mathematics",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Federico Municchi",
+        "Yiming Liu",
+        "J. Wang",
+        "Tzahi Y. Cath",
+        "Craig Turchi",
+        "Michael B. Heeley",
+        "Eric M.V. Hoek",
+        "David Jassby",
+        "Nils Tilton"
+      ]
+    }
+  ]
+}

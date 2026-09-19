@@ -1,0 +1,289 @@
+{
+  "faculty_name": "Tianfeng Lu",
+  "full_name": "Tianfeng Lu",
+  "department": "School of Mechanical, Aerospace, and Manufacturing Engineering",
+  "university": "University of Connecticut",
+  "author_id": "A5022013436",
+  "works_count": 193,
+  "cited_by_count": 11392,
+  "h_index": 52,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 152
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 150
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 56
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 22
+    },
+    {
+      "topic": "Heat transfer and supercritical fluids",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Structure of a spatially developing turbulent lean methane–air Bunsen flame",
+      "publication_year": 2006,
+      "publication_date": "2006-09-08",
+      "doi": "https://doi.org/10.1016/j.proci.2006.08.025",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 376,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1465575",
+      "concepts": [
+        "Laminar flow",
+        "Turbulence",
+        "Bunsen burner",
+        "Mechanics",
+        "Laminar flame speed",
+        "Combustion",
+        "Flame structure",
+        "Premixed flame"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ramanan Sankaran",
+        "Evatt R. Hawkes",
+        "Jacqueline H. Chen",
+        "Tianfeng Lu",
+        "Chung K. Law"
+      ]
+    },
+    {
+      "title": "Three-dimensional direct numerical simulation of a turbulent lifted hydrogen jet flame in heated coflow: a chemical explosive mode analysis",
+      "publication_year": 2010,
+      "publication_date": "2010-05-19",
+      "doi": "https://doi.org/10.1017/s002211201000039x",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 353,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Turbulence",
+        "Explosive material",
+        "Direct numerical simulation",
+        "Jet (fluid)",
+        "Reynolds number",
+        "Materials science",
+        "Premixed flame"
+      ],
+      "abstract": "A chemical explosive mode analysis (CEMA) was developed as a new diagnostic to identify flame and ignition structure in complex flows. CEMA was then used to analyse the near-field structure of the stabilization region of a turbulent lifted hydrogen–air slot jet flame in a heated air coflow computed with three-dimensional direct numerical simulation. The simulation was performed with a detailed hydrogen–air mechanism and mixture-averaged transport properties at a jet Reynolds number of 11000 with over 900 million grid points. Explosive chemical modes and their characteristic time scales, as well as the species involved, were identified from the Jacobian matrix of the chemical source terms for species and temperature. An explosion index was defined for explosive modes, indicating the contribution of species and temperature in the explosion process. Radical and thermal runaway can consequently be distinguished. CEMA of the lifted flame shows the existence of two premixed flame fronts, which are difficult to detect with conventional methods. The upstream fork preceding the two flame fronts thereby identifies the stabilization point. A Damköhler number was defined based on the time s...",
+      "authors": [
+        "Tianfeng Lu",
+        "Chun Sang Yoo",
+        "J. H. Chen",
+        "Chung K. Law"
+      ]
+    },
+    {
+      "title": "A physics-based approach to modeling real-fuel combustion chemistry – II. Reaction kinetic models of jet and rocket fuels",
+      "publication_year": 2018,
+      "publication_date": "2018-04-10",
+      "doi": "https://doi.org/10.1016/j.combustflame.2018.03.021",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 369,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2018.03.021",
+      "concepts": [
+        "Combustion",
+        "Jet fuel",
+        "Pyrolysis",
+        "Chemistry",
+        "Thermodynamics",
+        "Organic chemistry",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rui Xu",
+        "Kun Wang",
+        "Sayak Banerjee",
+        "Jiankun Shao",
+        "Tom Parise",
+        "Yangye Zhu",
+        "Shengkai Wang",
+        "Ashkan Movaghar",
+        "Dong Joon Lee",
+        "Runhua Zhao",
+        "Han Xu",
+        "Yang Gao",
+        "Tianfeng Lu",
+        "Kenneth Brezinsky",
+        "Fokion N. Egolfopoulos",
+        "David F. Davidson",
+        "Ronald K. Hanson",
+        "Craig T. Bowman",
+        "Hai Wang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An iterative dynamic chemical stiffness removal method for reacting flow simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-01-21",
+      "doi": "https://doi.org/10.1007/s44270-024-00006-2",
+      "venue": "Propulsion and Energy",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44270-024-00006-2.pdf",
+      "concepts": [
+        "Range (aeronautics)",
+        "Iterative method",
+        "Computer science",
+        "Laminar flow",
+        "Algorithm",
+        "Computational fluid dynamics",
+        "Applied mathematics",
+        "Mathematical optimization"
+      ],
+      "abstract": "Abstract An iterative dynamic chemical stiffness removal method (IDCSR) based on quasi-steady-state approximation (QSSA) is proposed. The IDCSR method is built on a previously developed non-iterative method which has proved to work well for small timestep sizes. A novel iterative procedure is designed in IDCSR to enable explicit time integration of stiff chemistry at relatively large timestep sizes relevant to practical reacting flow simulations. The effectiveness of the iterative procedure is first demonstrated with a toy problem and homogeneous auto-ignition with fixed integration step sizes, showing that larger timestep sizes can be allowed for explicit time integration using IDCSR compared with the previous non-iterative method. IDCSR is then compared with existing explicit chemistry solvers for simulations of homogeneous auto-ignition and shows similar or lower computational cost but significantly higher accuracy across a wide range of timestep sizes. IDCSR is further combined with an automatic adaptive time-stepping scheme for simulations of 0-D homogeneous auto-ignition and a 2-D laminar lifted n -dodecane jet flame. For the 0-D auto-ignition simulations, IDCSR is shown t...",
+      "authors": [
+        "Chao Xu",
+        "Tianfeng Lu"
+      ]
+    },
+    {
+      "title": "Numerical Simulations of Non-Ideal Spray Detonations in Jet Fuels With a Shock-Droplet Interaction Model",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0388",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Jet (fluid)",
+        "Shock (circulatory)",
+        "Mechanics",
+        "Ideal (ethics)",
+        "Jet fuel",
+        "Materials science",
+        "Aerospace engineering",
+        "Physics"
+      ],
+      "abstract": "We present three-dimensional (3D) simulations of liquid-fueled detonations in monodisperse sprays of n-dodecane in air. Simulations incorporate a new droplet break-up model, multi-species molecular transport, complex chemical kinetics, and realistic boundary conditions. The droplet break-up model represents the interaction of droplets with strong shocks at detonation-relevant conditions. A series of simulations are carried out to characterize the resultant detonation properties in a 3D rectangular channel for n-dodecane droplet sizes of 5, 10, and 20 micron. In all cases, a steady, freely propagating detonation is observed. We find that the speed of a detonation in all cases is within 1% of the Chapman-Jouguet speed of a comparable premixed gaseous detonation, independent of the droplet size. At the same time, characteristic spatial scales in a detonation front, in particular detonation cell size, is found to increase with an increase in the droplet size. Finally, we describe the resulting soot foils, as well as the detailed physical-space and thermochemical-space structure of the detonation front.",
+      "authors": [
+        "Sai Sandeep Dammati",
+        "Alexei Poludnenko",
+        "Nikolaos Kateris",
+        "Wendi Dong",
+        "Hai Wang",
+        "Tianfeng Lu"
+      ]
+    },
+    {
+      "title": "An analysis of the ignition of hydrogen/n-dodecane dual-fuel mixing layers at engine-relevant conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1016/j.proci.2025.105917",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.proci.2025.105917",
+      "concepts": [
+        "Ignition system",
+        "Combustion",
+        "Mixing (physics)",
+        "Diffusion",
+        "Hydrogen",
+        "Laminar flow",
+        "Mechanics",
+        "Diesel fuel"
+      ],
+      "abstract": "Hydrogen is attracting increasing attention as a clean-burning, carbon-neutral fuel in heavy-duty engine applications, which usually often operate by compression ignition. However, hydrogen cannot ignite on its own under typical conditions in these engines. To address this, the concept of hydrogen-diesel dual direct injection (H 2 DDI) has been recently proposed in which hydrogen and diesel are introduced separately into the combustion chamber, with diesel providing the ignition source, leading to ignition occurring in stratified mixtures. This study employs numerical simulations to investigate the ignition of stratified mixtures in one-dimensional laminar mixing-layer configurations under engine-relevant conditions, where a n -dodecane fuel-rich stream is surrounded by an oxidiser stream with (dual-fuel/DF cases) and without (single fuel/SF cases) hydrogen. It is shown that the ignition of the DF cases is delayed compared to the SF cases because hydrogen consumes OH species during the low-temperature oxidation of n -dodecane. Unlike the SF cases, the DF cases exhibit a postponed initiation of the first-stage ignition relative to the most reactive ignition delay time observed in...",
+      "authors": [
+        "S. Gu",
+        "Armin Wehrfritz",
+        "Evatt R. Hawkes",
+        "Yunchao Wu",
+        "Tianfeng Lu",
+        "Haiou Wang"
+      ]
+    },
+    {
+      "title": "Modeling of high-speed, methane-air, turbulent combustion, Part II: Reduced methane oxidation chemistry",
+      "publication_year": 2024,
+      "publication_date": "2024-03-04",
+      "doi": "https://doi.org/10.1016/j.combustflame.2024.113380",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2024.113380",
+      "concepts": [
+        "Methane",
+        "Combustion",
+        "Turbulence",
+        "Laminar flow",
+        "Flame structure",
+        "Mechanics",
+        "Chemistry",
+        "Laminar flame speed"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rui Xu",
+        "Sai Sandeep Dammati",
+        "Xian Shi",
+        "Ethan S. Genter",
+        "Zoltan Jozefik",
+        "Matthew E. Harvazinski",
+        "Tianfeng Lu",
+        "Alexei Poludnenko",
+        "Venkateswaran Sankaran",
+        "Alan R. Kerstein",
+        "Hai Wang"
+      ]
+    },
+    {
+      "title": "Modeling of high-speed, methane–air, turbulent combustion, Part I: One-dimensional turbulence modeling with comparison to DNS",
+      "publication_year": 2024,
+      "publication_date": "2024-03-01",
+      "doi": "https://doi.org/10.1016/j.combustflame.2024.113379",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2024.113379",
+      "concepts": [
+        "Turbulence",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Combustion",
+        "Flame structure",
+        "Thermodynamics",
+        "Methane",
+        "Chemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zoltan Jozefik",
+        "Matthew E. Harvazinski",
+        "Venkateswaran Sankaran",
+        "Sai Sandeep Dammati",
+        "Alexei Poludnenko",
+        "Tianfeng Lu",
+        "Alan R. Kerstein",
+        "Rui Xu",
+        "Hai Wang"
+      ]
+    }
+  ]
+}

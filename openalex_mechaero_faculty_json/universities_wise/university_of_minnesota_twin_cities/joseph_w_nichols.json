@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Joseph W. Nichols",
+  "full_name": "Joseph W. Nichols",
+  "department": "Department of Aerospace Engineering and Mechanics",
+  "university": "University of Minnesota-Twin Cities",
+  "author_id": "A5103811963",
+  "works_count": 112,
+  "cited_by_count": 4570,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 72
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 48
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 46
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 16
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Input-output analysis of high-speed axisymmetric isothermal jet noise",
+      "publication_year": 2016,
+      "publication_date": "2016-04-01",
+      "doi": "https://doi.org/10.1063/1.4946886",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Jet (fluid)",
+        "Aeroacoustics",
+        "Supersonic speed",
+        "Mechanics",
+        "Turbulence",
+        "Jet noise"
+      ],
+      "abstract": "We use input-output analysis to predict and understand the aeroacoustics of high-speed isothermal turbulent jets. We consider axisymmetric linear perturbations about Reynolds-averaged Navier-Stokes solutions of ideally expanded turbulent jets with jet Mach numbers 0.6 < Mj < 1.8. For each base flow, we compute the optimal harmonic forcing function and the corresponding linear response using singular value decomposition of the resolvent operator. In addition to the optimal mode, input-output analysis also yields sub-optimal modes associated with smaller singular values. For supersonic jets, the optimal response closely resembles a wavepacket in both the near-field and the far-field such as those obtained by the parabolized stability equations (PSE), and this mode dominates the response. For subsonic jets, however, the singular values indicate that the contributions of sub-optimal modes to noise generation are nearly equal to that of the optimal mode, explaining why the PSE do not fully capture the far-field sound in this case. Furthermore, high-fidelity large eddy simulation (LES) is used to assess the prevalence of sub-optimal modes in the unsteady data. By projecting LES source...",
+      "authors": [
+        "Jinah Jeun",
+        "Joseph W. Nichols",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "Reduced-order representation of near-wall structures in the late transitional boundary layer",
+      "publication_year": 2014,
+      "publication_date": "2014-04-28",
+      "doi": "https://doi.org/10.1017/jfm.2014.184",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 93,
+      "is_oa": true,
+      "oa_url": "https://polytechnique.hal.science/hal-01050701v1/document",
+      "concepts": [
+        "Laminar flow",
+        "Boundary layer",
+        "Reynolds number",
+        "Mechanics",
+        "Turbulence",
+        "Direct numerical simulation",
+        "Physics",
+        "Shear stress"
+      ],
+      "abstract": "Abstract Direct numerical simulations (DNS) of controlled H- and K-type transitions to turbulence in an $M = 0.2$ (where $M$ is the Mach number) nominally zero-pressure-gradient and spatially developing flat-plate boundary layer are considered. Sayadi, Hamman & Moin ( J. Fluid Mech. , vol. 724, 2013, pp. 480–509) showed that with the start of the transition process, the skin-friction profiles of these controlled transitions diverge abruptly from the laminar value and overshoot the turbulent estimation. The objective of this work is to identify the structures of dynamical importance throughout the transitional region. Dynamic mode decomposition (DMD) (Schmid, J. Fluid Mech. , vol. 656, 2010, pp. 5–28) as an optimal phase-averaging process, together with triple decomposition (Reynolds & Hussain, J. Fluid Mech. , vol. 54 (02), 1972, pp. 263–288), is employed to assess the contribution of each coherent structure to the total Reynolds shear stress. This analysis shows that low-frequency modes, corresponding to the legs of hairpin vortices, contribute most to the total Reynolds shear stress. The use of composite DMD of the vortical structures together with the skin-friction coefficien...",
+      "authors": [
+        "Taraneh Sayadi",
+        "Peter J. Schmid",
+        "Joseph W. Nichols",
+        "Parviz Moin"
+      ]
+    },
+    {
+      "title": "Unstructured Large-Eddy Simulations of Supersonic Jets",
+      "publication_year": 2017,
+      "publication_date": "2017-01-13",
+      "doi": "https://doi.org/10.2514/1.j055084",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Large eddy simulation",
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Nozzle",
+        "Aeroacoustics",
+        "Jet noise",
+        "Unstructured grid"
+      ],
+      "abstract": "Experience gained from previous jet noise studies with the unstructured large-eddy simulation flow solver “Charles” is summarized and put to practice for the predictions of supersonic jets issued from a converging–diverging round nozzle. In this work, the nozzle geometry is explicitly included in the computational domain using an unstructured body-fitted mesh. Two different mesh topologies are investigated, with emphasis on grid isotropy in the acoustic source-containing region, either directly or through the use of adaptive refinement, with grid size ranging from 42 to control volumes. Three different operating conditions are considered: isothermal ideally expanded (fully expanded jet Mach number of , temperature of , and Reynolds number of ), heated ideally expanded (, , and ), and heated overexpanded (, , and ). Blind comparisons with the available experimental measurements carried out at the United Technologies Research Center for the same nozzle and operating conditions are presented. The results show good agreement for both the flow and sound fields. In particular, the spectra shape and levels are accurately captured in the simulations for both near-field and far-field noi...",
+      "authors": [
+        "Guillaume A. Brès",
+        "Frank Ham",
+        "Joseph W. Nichols",
+        "Sanjiva K. Lele"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Correction: Hypersonic Boundary Layer Instability Calculations for Complex Geometries Using Curved, High-Order Adaptive Meshes",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-0086.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2026-0086.c1",
+      "concepts": [
+        "Boundary layer",
+        "Instability",
+        "Hypersonic speed",
+        "Mechanics",
+        "Physics",
+        "Boundary (topology)",
+        "Layer (electronics)",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "C. Kiefer",
+        "David A. Cook",
+        "Joseph W. Nichols"
+      ]
+    },
+    {
+      "title": "Hypersonic Boundary Layer Instability Calculations for Complex Geometries Using Curved, High-Order Adaptive Meshes",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0086",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Solver",
+        "Instability",
+        "Curvature",
+        "Mechanics",
+        "Boundary layer",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "Predicting boundary layer transition in hypersonic flows is critical for accurate estimation of drag and aerothermal heating. This process is governed by complex instability mechanisms that are sensitive to surface curvature, shock waves, and entropy layer interactions. This research develops and verifies a Hybridizable Discontinuous Galerkin (HDG) framework coupled with Adaptive Mesh Refinement (AMR) to perform Input/Output (I/O) analysis on these complex flows. The method is first validated against Linear Stability Theory (LST) for a hypersonic flow over a cylinder, demonstrating accurate capture of transverse curvature effects and oblique wave growth. A computational efficiency study reveals that strategic $h$-refinement provides a $3\\times$ speedup over global $p$-refinement for comparable accuracy, highlighting the effectiveness of AMR for localized wave packets. Finally, the method is applied to a blunt cone with a detached bow shock. While the framework accurately resolves low-frequency disturbances and the associated metric terms near the stagnation point, the analysis identifies a memory scaling bottleneck in the direct solver when resolving high-frequency Mack modes. T...",
+      "authors": [
+        "C. Kiefer",
+        "D. C. Cook",
+        "Joseph W. Nichols"
+      ]
+    },
+    {
+      "title": "Reattachment streaks in hypersonic compression ramp flow: an input–output analysis – ERRATUM",
+      "publication_year": 2025,
+      "publication_date": "2025-10-10",
+      "doi": "https://doi.org/10.1017/jfm.2025.10646",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/395784D541F133A1B1B7A46C1678E581/S0022112025106460a.pdf/div-class-title-reattachment-streaks-in-hypersonic-compression-ramp-flow-an-input-output-analysis-erratum-div.pdf",
+      "concepts": [
+        "Compression (physics)",
+        "Materials science",
+        "Hypersonic speed",
+        "Mechanics",
+        "Hypersonic flight",
+        "Hypersonic flow",
+        "Optics",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anubhav Dwivedi",
+        "Sidharth Gs",
+        "Joseph W. Nichols",
+        "Graham V. Candler",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "Correction: Hybridizable Discontinuous Galerkin Methods for Input/Output Analysis of Complex Hypersonic Boundary Layers",
+      "publication_year": 2025,
+      "publication_date": "2025-01-06",
+      "doi": "https://doi.org/10.2514/6.2025-1135.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-1135.c1",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary (topology)",
+        "Discontinuous Galerkin method",
+        "Computer science",
+        "Applied mathematics",
+        "Mathematics",
+        "Mathematical analysis",
+        "Finite element method"
+      ],
+      "abstract": "",
+      "authors": [
+        "C. Kiefer",
+        "David A. Cook",
+        "Joseph W. Nichols"
+      ]
+    },
+    {
+      "title": "Hybridizable Discontinuous Galerkin Methods for Input/Output Analysis of Complex Hypersonic Boundary Layers",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1135",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Discontinuous Galerkin method",
+        "Boundary (topology)",
+        "Galerkin method",
+        "Computer science",
+        "Boundary value problem",
+        "Applied mathematics",
+        "Control theory (sociology)"
+      ],
+      "abstract": "The increasing complexity of hypersonic flight simulations necessitates advanced numerical methods that can reduce computational time while maintaining accuracy. This is especially important for calculations predicting the transition of hypersonic boundary layers from laminar to turbulent flow, in which complex geometry and multi-modal effects play a significant roles. This research explores the efficacy of Hybridizable Discontinuous Galerkin (HDG) methods combined with Adaptive Mesh Refinement (AMR) to support Input/Output (I/O) analysis to understand the stability and receptivity of complex hypersonic boundary layers. Specifically, we apply these methods to analyze the behavior of acoustic waves in hypersonic conditions. Our approach leverages the common requirement of a linear system from HDG and I/O analysis to study the response of the flow field to small perturbations around a steady baseflow, allowing for detailed examination of wave propagation and stability characteristics. The results demonstrate the HDG-AMR method, along with I/O analysis, as a tool for hypersonic flow problems as it accurately resolves wave dynamics and flow features in hypersonic boundary layers. Th...",
+      "authors": [
+        "C. Kiefer",
+        "David A. Cook",
+        "Joseph W. Nichols"
+      ]
+    }
+  ]
+}

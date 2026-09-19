@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Petros Koumoutsakos",
+  "full_name": "Petros Koumoutsakos",
+  "department": "John A. Paulson School of Engineering and Applied Sciences (SEAS) / Applied Mathematics & Mechanical Engineering",
+  "university": "Harvard University",
+  "author_id": "A5075516550",
+  "works_count": 538,
+  "cited_by_count": 25234,
+  "h_index": 77,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 83
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 79
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 62
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 51
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 46
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Reducing the Time Complexity of the Derandomized Evolution Strategy with Covariance Matrix Adaptation (CMA-ES)",
+      "publication_year": 2003,
+      "publication_date": "2003-03-01",
+      "doi": "https://doi.org/10.1162/106365603321828970",
+      "venue": "Evolutionary Computation",
+      "type": "article",
+      "cited_by_count": 2621,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "CMA-ES",
+        "Evolution strategy",
+        "Covariance matrix",
+        "Mathematical optimization",
+        "Population",
+        "Mathematics",
+        "Matrix (chemical analysis)",
+        "Covariance"
+      ],
+      "abstract": "This paper presents a novel evolutionary optimization strategy based on the derandomized evolution strategy with covariance matrix adaptation (CMA-ES). This new approach is intended to reduce the number of generations required for convergence to the optimum. Reducing the number of generations, i.e., the time complexity of the algorithm, is important if a large population size is desired: (1) to reduce the effect of noise; (2) to improve global search properties; and (3) to implement the algorithm on (highly) parallel machines. Our method results in a highly parallel algorithm which scales favorably with large numbers of processors. This is accomplished by efficiently incorporating the available information from a large population, thus significantly reducing the number of generations needed to adapt the covariance matrix. The original version of the CMA-ES was designed to reliably adapt the covariance matrix in small populations but it cannot exploit large populations efficiently. Our modifications scale up the efficiency to population sizes of up to 10n, where n is the problem dimension. This method has been applied to a large number of test problems, demonstrating that in many...",
+      "authors": [
+        "Nikolaus Hansen",
+        "Sibylle D. Müller",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "Feature point tracking and trajectory analysis for video imaging in cell biology",
+      "publication_year": 2005,
+      "publication_date": "2005-07-13",
+      "doi": "https://doi.org/10.1016/j.jsb.2005.06.002",
+      "venue": "Journal of Structural Biology",
+      "type": "article",
+      "cited_by_count": 1468,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jsb.2005.06.002",
+      "concepts": [
+        "Tracking (education)",
+        "Computer vision",
+        "Artificial intelligence",
+        "Computer science",
+        "Initialization",
+        "Feature (linguistics)",
+        "Video microscopy",
+        "Trajectory"
+      ],
+      "abstract": "This paper presents a computationally efficient, two-dimensional, feature point tracking algorithm for the automated detection and quantitative analysis of particle trajectories as recorded by video imaging in cell biology. The tracking process requires no a priori mathematical modeling of the motion, it is self-initializing, it discriminates spurious detections, and it can handle temporary occlusion as well as particle appearance and disappearance from the image region. The efficiency of the algorithm is validated on synthetic video data where it is compared to existing methods and its accuracy and precision are assessed for a wide range of signal-to-noise ratios. The algorithm is well suited for video imaging in cell biology relying on low-intensity fluorescence microscopy. Its applicability is demonstrated in three case studies involving transport of low-density lipoproteins in endosomes, motion of fluorescently labeled Adenovirus-2 particles along microtubules, and tracking of quantum dots on the plasma membrane of live cells. The present automated tracking process enables the quantification of dispersive processes in cell biology using techniques such as moment scaling spec...",
+      "authors": [
+        "Ivo F. Sbalzarini",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "On the Water−Carbon Interaction for Use in Molecular Dynamics Simulations of Graphite and Carbon Nanotubes",
+      "publication_year": 2003,
+      "publication_date": "2003-01-16",
+      "doi": "https://doi.org/10.1021/jp0268112",
+      "venue": "The Journal of Physical Chemistry B",
+      "type": "article",
+      "cited_by_count": 1317,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Molecular dynamics",
+        "Graphite",
+        "Contact angle",
+        "Carbon fibers",
+        "Carbon nanotube",
+        "Monomer",
+        "Interaction energy",
+        "Hydrogen bond"
+      ],
+      "abstract": "A systematic molecular dynamics study shows that the contact angle of a water droplet on graphite changes significantly as a function of the water−carbon interaction energy. Together with the observation that a linear relationship can be established between the contact angle and the water monomer binding energy on graphite, a new route to calibrate interaction potential parameters is presented. Through a variation of the droplet size in the range from 1000 to 17 500 water molecules, we determine the line tension to be positive and on the order of 2 × 10 -10 J/m. To recover a macroscopic contact angle of 86°, a water monomer binding energy of −6.33 kJ mol -1 is required, which is obtained by applying a carbon−oxygen Lennard-Jones potential with the parameters ε CO = 0.392 kJ mol -1 and σ CO = 3.19 Å. For this new water−carbon interaction potential, we present density profiles and hydrogen bond distributions for a water droplet on graphite.",
+      "authors": [
+        "T. Werder",
+        "Jens Honoré Walther",
+        "Richard L. Jaffe",
+        "T. Halicioǧlu",
+        "Petros Koumoutsakos"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "DeepONet-enhanced bayesian inference for biphasic tumor growth modeling",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118919",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2026.118919",
+      "concepts": [
+        "Computer science",
+        "Inference",
+        "Artificial intelligence",
+        "Bayesian inference",
+        "Nonlinear system",
+        "Uncertainty quantification",
+        "Bayesian probability",
+        "Machine learning"
+      ],
+      "abstract": "The advancements in computational biology in tandem with the explosion of machine learning (ML) have the potential to revolutionize quantitative and personalized medicine. In this framework, a Deep Operator Network (DeepONet) enhanced computational framework is presented, which enables informed simulations of cancer growth. A continuum mechanics-based, biphasic tumor growth model (TGM) is developed that simulates the tumor as well as the immune response within the tumor microenvironment (TME). A Bayesian inference framework is then customized in order to calculate the posterior distributions of critical model parameters using experimental data. Given the computational complexity of solving the TGM consisting of multiple coupled nonlinear partial differential equations (PDEs), we integrate a DeepONet surrogate model to significantly reduce computational costs while preserving the accuracy of the original model. This approach enhances the identification of model parameters based on experimental data, underscoring the importance of Bayesian strategies in cancer modeling. The proposed framework offers a robust and adaptable approach to tumor growth simulations, paving the way for mo...",
+      "authors": [
+        "Gerasimos Sotiropoulos",
+        "Sergey Litvinov",
+        "Sebastian Kaltenbach",
+        "Constantinos Harkos",
+        "Konstantinos Atzarakis",
+        "Triantafyllos Stylianopoulos",
+        "Petros Koumoutsakos",
+        "Vissarion Papadopoulos"
+      ]
+    },
+    {
+      "title": "Bayesian inference for PDE-based inverse problems using the optimization of a discrete loss",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118903",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inverse problem",
+        "Robustness (evolution)",
+        "Inference",
+        "Uncertainty quantification",
+        "Bayesian probability",
+        "Partial differential equation",
+        "Computer science",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lucas Amoudruz",
+        "Sergey Litvinov",
+        "Costas Papadimitriou",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "Reinforcement learning closures for underresolved partial differential equations using synthetic data",
+      "publication_year": 2026,
+      "publication_date": "2026-01-22",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118767",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.11308",
+      "concepts": [
+        "Partial differential equation",
+        "Closure (psychology)",
+        "Computer science",
+        "Range (aeronautics)",
+        "Synthetic data",
+        "Reinforcement learning",
+        "Applied mathematics",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lothar Heimbach",
+        "Sebastian Kaltenbach",
+        "Petr Karnakov",
+        "Francis J. Alexander",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "A Critical Assessment of Pattern Comparisons Between POD and Autoencoders in Intraventricular Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-12-22",
+      "doi": "https://doi.org/10.48550/arxiv.2512.19376",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2512.19376",
+      "concepts": [
+        "Interpretability",
+        "Autoencoder",
+        "Orthogonality",
+        "Flow (mathematics)",
+        "Pattern recognition (psychology)",
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "Undercut"
+      ],
+      "abstract": "Understanding intraventricular hemodynamics requires compact and physically interpretable representations of the underlying flow structures, as characteristic flow patterns are closely associated with cardiovascular conditions and can support early detection of cardiac deterioration. Conventional visualization of velocity or pressure fields, however, provides limited insight into the coherent mechanisms driving these dynamics. Reduced-order modeling techniques, like Proper Orthogonal Decomposition (POD) and Autoencoder (AE) architectures, offer powerful alternatives to extract dominant flow features from complex datasets. This study systematically compares POD with several AE variants (Linear, Nonlinear, Convolutional, and Variational) using left ventricular flow fields obtained from computational fluid dynamics simulations. We show that, for a suitably chosen latent dimension, AEs produce modes that become nearly orthogonal and qualitatively resemble POD modes that capture a given percentage of kinetic energy. As the number of latent modes increases, AE modes progressively lose orthogonality, leading to linear dependence, spatial redundancy, and the appearance of repeated modes...",
+      "authors": [
+        "Eneko Lazpita",
+        "Andrés Bell-Navas",
+        "Jesús Garicano‐Mena",
+        "Petros Koumoutsakos",
+        "Soledad Le Clainche"
+      ]
+    },
+    {
+      "title": "A Critical Assessment of Pattern Comparisons Between POD and Autoencoders in Intraventricular Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-12-22",
+      "doi": "http://arxiv.org/abs/2512.19376",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.19376",
+      "concepts": [
+        "Interpretability",
+        "Autoencoder",
+        "Orthogonality",
+        "Flow (mathematics)",
+        "Pattern recognition (psychology)",
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "Undercut"
+      ],
+      "abstract": "Understanding intraventricular hemodynamics requires compact and physically interpretable representations of the underlying flow structures, as characteristic flow patterns are closely associated with cardiovascular conditions and can support early detection of cardiac deterioration. Conventional visualization of velocity or pressure fields, however, provides limited insight into the coherent mechanisms driving these dynamics. Reduced-order modeling techniques, like Proper Orthogonal Decomposition (POD) and Autoencoder (AE) architectures, offer powerful alternatives to extract dominant flow features from complex datasets. This study systematically compares POD with several AE variants (Linear, Nonlinear, Convolutional, and Variational) using left ventricular flow fields obtained from computational fluid dynamics simulations. We show that, for a suitably chosen latent dimension, AEs produce modes that become nearly orthogonal and qualitatively resemble POD modes that capture a given percentage of kinetic energy. As the number of latent modes increases, AE modes progressively lose orthogonality, leading to linear dependence, spatial redundancy, and the appearance of repeated modes...",
+      "authors": [
+        "Eneko Lazpita",
+        "Andrés Bell-Navas",
+        "Jesús Garicano‐Mena",
+        "Petros Koumoutsakos",
+        "Soledad Le Clainche"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "faculty_name": "Charbel Farhat",
+  "full_name": "Charbel Farhat",
+  "department": "Department of Aeronautics and Astronautics / Mechanical Engineering / ICME",
+  "university": "Stanford University",
+  "author_id": "A5124067787",
+  "works_count": 4,
+  "cited_by_count": 2,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 4
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 2
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 2
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 1
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Application of Projection-Based Reduced-Order Models to the Aerodynamic Test and Evaluation of the T-38 Aircraft",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1113",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Solver",
+        "Flight test",
+        "Aerodynamic force",
+        "Wind tunnel",
+        "Aerospace engineering"
+      ],
+      "abstract": "Reduced-order models (ROMs) based on high-fidelity computational fluid dynamics (CFD) simulations have emerged as promising tools to streamline aerodynamic test and evaluation (T&E) of air vehicles. This study presents the development and application of projection-based ROMs (PROMs) for the T-38 Talon aircraft, aiming to accelerate flight test campaigns while maintaining predictive accuracy. This paper outlines the modeling framework, cross-code verification strategy, and flight validation results, demonstrating how PROMs can bridge high-fidelity simulations with real-world test data interpretation. Two different CFD solvers -- Stanford's AERO-F and the Department of Defense's Kestrel -- were used to compute the aerodynamic performance of the T-38. Model outputs, including aerodynamic forces, moments, and surface pressure distributions, were validated against one another and against experimental data obtained from the United States Air Force Academy (USAFA) subsonic wind tunnel. The AERO-F solver was then used to construct nonlinear ROMs on a 4-dimensional parameter space via the Least-Squares Petrov-Galerkin (LSPG) method augmented with Energy-Conserving Sampling and Weighting ...",
+      "authors": [
+        "Matthew R. Chmiel",
+        "Mehdi Ghoreyshi",
+        "Daniel I. Harp",
+        "Charbel Farhat"
+      ]
+    },
+    {
+      "title": "Mechanics-informed neural networks for data-driven constitutive modeling",
+      "publication_year": 2026,
+      "publication_date": "2026-09-02",
+      "doi": "https://doi.org/10.25740/vh804zg9191",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/vh804zg9191",
+      "concepts": [
+        "Artificial neural network",
+        "Computer science",
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "Relation (database)",
+        "Algorithm",
+        "Noise (video)",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Faisal Asad",
+        "Charbel Farhat",
+        "Juan J. Alonso",
+        "Manan Arya",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Aeronautics and Astronautics."
+      ]
+    },
+    {
+      "title": "Accelerating Flight Test and Evaluation via Aerodynamic Projection-Based Reduced-Order Models",
+      "publication_year": 2026,
+      "publication_date": "2026-07-27",
+      "doi": "https://doi.org/10.2514/1.j067099",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Solver",
+        "Flight test",
+        "Mach number",
+        "Aerospace engineering",
+        "Aerodynamic force"
+      ],
+      "abstract": "Reduced-order models (ROMs) based on high-fidelity computational fluid dynamics (CFD) simulations have emerged as promising tools to streamline aerodynamic test and evaluation of air vehicles. This study presents the development and application of projection-based ROMs (PROMs) for the T-38 Talon aircraft, aiming to accelerate flight test campaigns while maintaining predictive accuracy. Two different CFD solvers, Stanford’s AERO-F and the Department of Defense’s Kestrel, were used to compute the aerodynamic performance of the T-38. Model outputs were validated against one another and against experimental data. The AERO-F solver was then used to construct nonlinear ROMs on a four-dimensional parameter space via the least-squares Petrov–Galerkin method augmented with energy-conserving sampling and weighting hyperreduction. These hyperreduced PROM (HPROM) predictions were compared with flight test data from a T-38C performing longitudinal maneuvers at Edwards Air Force Base, spanning a challenging range of angles of attack, Mach numbers, altitudes, and stabilator deflections. Over the approximately 90 s maneuver, the HPROMs modeled the vertical aerodynamic force acting on the aircra...",
+      "authors": [
+        "Matthew R. Chmiel",
+        "Mehdi Ghoreyshi",
+        "Daniel Isaiah Harp",
+        "Charbel Farhat"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Application of Projection-Based Reduced-Order Models to the Aerodynamic Test and Evaluation of the T-38 Aircraft",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1113",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Solver",
+        "Flight test",
+        "Aerodynamic force",
+        "Wind tunnel",
+        "Aerospace engineering"
+      ],
+      "abstract": "Reduced-order models (ROMs) based on high-fidelity computational fluid dynamics (CFD) simulations have emerged as promising tools to streamline aerodynamic test and evaluation (T&E) of air vehicles. This study presents the development and application of projection-based ROMs (PROMs) for the T-38 Talon aircraft, aiming to accelerate flight test campaigns while maintaining predictive accuracy. This paper outlines the modeling framework, cross-code verification strategy, and flight validation results, demonstrating how PROMs can bridge high-fidelity simulations with real-world test data interpretation. Two different CFD solvers -- Stanford's AERO-F and the Department of Defense's Kestrel -- were used to compute the aerodynamic performance of the T-38. Model outputs, including aerodynamic forces, moments, and surface pressure distributions, were validated against one another and against experimental data obtained from the United States Air Force Academy (USAFA) subsonic wind tunnel. The AERO-F solver was then used to construct nonlinear ROMs on a 4-dimensional parameter space via the Least-Squares Petrov-Galerkin (LSPG) method augmented with Energy-Conserving Sampling and Weighting ...",
+      "authors": [
+        "Matthew R. Chmiel",
+        "Mehdi Ghoreyshi",
+        "Daniel I. Harp",
+        "Charbel Farhat"
+      ]
+    },
+    {
+      "title": "A Probabilistic Physics-Based Framework for Robust and Adaptive Digital Twin Development",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6168942",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6168942",
+      "concepts": [
+        "Interpretability",
+        "Computer science",
+        "Robustness (evolution)",
+        "Probabilistic logic",
+        "Inference",
+        "Machine learning",
+        "Representation (politics)",
+        "Data mining"
+      ],
+      "abstract": "",
+      "authors": [
+        "Charbel Farhat"
+      ]
+    }
+  ]
+}

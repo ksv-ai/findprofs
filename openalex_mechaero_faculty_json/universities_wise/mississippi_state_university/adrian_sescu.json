@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Adrian Sescu",
+  "full_name": "Adrian Sescu",
+  "department": "Department of Aerospace Engineering",
+  "university": "Mississippi State University",
+  "author_id": "A5067871719",
+  "works_count": 169,
+  "cited_by_count": 804,
+  "h_index": 15,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 103
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 69
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 52
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 40
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A control algorithm for statistically stationary large-eddy simulations of thermally stratified boundary layers",
+      "publication_year": 2014,
+      "publication_date": "2014-02-21",
+      "doi": "https://doi.org/10.1002/qj.2266",
+      "venue": "Quarterly Journal of the Royal Meteorological Society",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geostrophic wind",
+        "Planetary boundary layer",
+        "Mechanics",
+        "Boundary layer",
+        "Momentum (technical analysis)",
+        "Stratified flow",
+        "Boundary (topology)",
+        "Environmental science"
+      ],
+      "abstract": "Large-eddy simulations (LESs) of thermally stratified atmospheric boundary layers (ABLs) typically involve imposed heating or cooling at the ground surface, leading to slowly varying temperature distributions in the domain. While for some applications an interpretation of the resulting fields as quasi-stationary is possible, there are certain applications for which the slow temporal variations are a serious drawback. An example occurs when using LES for a systematic analysis of effects of large wind farms on atmospheric heat fluxes, where analysis of stationary statistics greatly facilitates understanding. In order to obtain statistically stationary temperature fields in LES of thermally stratified boundary layers, in this article we introduce a control algorithm, and test its effectiveness for various levels of surface heating and cooling. The method uses a ‘proportional-integral’ (PI) control algorithm, designed to keep constant the horizontally averaged temperature in a computational fringe layer placed above the ABL region of interest. For flows driven by a geostrophic wind, another controller is used to adjust the mean flow angle within the ABL at a specified height to achi...",
+      "authors": [
+        "Adrian Sescu",
+        "Charles Meneveau"
+      ]
+    },
+    {
+      "title": "Boundary-layer transition at high free-stream disturbance levels – beyond Klebanoff modes",
+      "publication_year": 2008,
+      "publication_date": "2008-10-01",
+      "doi": "https://doi.org/10.1017/s0022112008003078",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Inviscid flow",
+        "Mechanics",
+        "Leading edge",
+        "Flow (mathematics)",
+        "Physics",
+        "Disturbance (geology)",
+        "Upstream (networking)"
+      ],
+      "abstract": "We consider a nominally uniform flow over a semi-infinite flat plate and show how a small slowly modulated (predominantly streamwise) disturbance of the upstream flow is amplified by leading-edge bluntness effects and eventually develops into a small-amplitude but nonlinear spanwise motion far downstream from the edge. This motion is then imposed on the viscous boundary layer at the surface of the plate – causing an order-one change in its profile shape, which can reduce the wall shear to zero and thereby causes the boundary layer to separate. The present study is similar to an earlier steady flow analysis, but the unsteady effects now cause the upstream boundary layer to develop inflectional profiles which can support rapidly growing inviscid instabilities that give rise to transition before the separation can occur.",
+      "authors": [
+        "M. E. Goldstein",
+        "Adrian Sescu"
+      ]
+    },
+    {
+      "title": "Toward low‐noise synthetic turbulent inflow conditions for aeroacoustic calculations",
+      "publication_year": 2013,
+      "publication_date": "2013-07-22",
+      "doi": "https://doi.org/10.1002/fld.3833",
+      "venue": "International Journal for Numerical Methods in Fluids",
+      "type": "article",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inflow",
+        "Turbulence",
+        "Mean flow",
+        "Boundary value problem",
+        "Aeroacoustics",
+        "Scalar (mathematics)",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "SUMMARY The accuracy of boundary conditions for computational aeroacoustics is a well‐known challenge, due in part to the necessity of truncating the flow domain and replacing the analytical boundary conditions at infinity with numerical boundary conditions. In particular, the inflow boundary condition involving turbulent velocity or scalar fields is likely to introduce spurious waves into the domain, therefore degrading the flow behavior and deteriorating the physical acoustic waves. In this work, a method to generate low‐noise, divergence‐free, synthetic turbulence for inflow boundary conditions is proposed. It relies on the classical view of turbulence as a superposition of random eddies convected with the mean flow. Within the proposed model, the vector potential and the requirement that the individual eddies must satisfy the linearized momentum equations about the mean flow are used. The model is tested using isolated eddies convected through the inflow boundary and an experimental benchmark data for spatially decaying isotropic turbulence. Copyright © 2013 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Adrian Sescu",
+        "Ray Hixon"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An Ensemble Model for Efficiently Predicting External Aerodynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4019",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aerodynamics",
+        "Ensemble forecasting",
+        "Ensemble learning",
+        "Artificial intelligence",
+        "Field (mathematics)",
+        "Mathematical model",
+        "Control theory (sociology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alexander S. Way",
+        "Adrian Sescu",
+        "Ian Dettwiller",
+        "Elyse G. Hall"
+      ]
+    },
+    {
+      "title": "Fractal Inspired Passive Control Strategies for Transonic and Supersonic Flows Over Cavities",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4481",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transonic",
+        "Supersonic speed",
+        "Fractal",
+        "Physics",
+        "Control theory (sociology)",
+        "Mechanics",
+        "Work (physics)",
+        "Computer science"
+      ],
+      "abstract": "High-speed flows over open cavities, such as those encountered in aircraft weapons bays, are characterized by intense unsteady pressure fluctuations driven by shear-layer instabil- ities, shock-boundary-layer interactions, and feedback mechanisms that result in elevated noise levels and structural loading. In this study, fractal-inspired passive control strate- gies are investigated for the reduction of cavity-induced noise in transonic and supersonic flow regimes. Time-accurate computational fluid dynamics simulations are performed us- ing an immersed boundary method to model Minkowski fractal-shaped spoilers positioned at the leading edge of a rectangular cavity. Simulations are conducted at Mach numbers of 0.95 and 2.0, considering three fractal orders and three spoiler orientations relative to the freestream. The numerical results demonstrate that the introduction of leading-edge spoilers significantly modifies the cavity shear-layer dynamics, leading to reduced pressure fluctuations within the cavity and lower sound pressure levels in the near-field. While the fractal order of the spoiler has only a modest influence on acoustic performance, spoiler orientation is found to b...",
+      "authors": [
+        "Mitchell Pegoda",
+        "Adrian Sescu",
+        "Edward Luke",
+        "Ryan Schmit",
+        "Rachelle L. Speth"
+      ]
+    },
+    {
+      "title": "Hypersonic Trajectory Optimization Using a Data-Driven Surrogate Model for Convective Heating",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://doi.org/10.2514/1.t7330",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Trajectory",
+        "Freestream",
+        "Aerospace engineering",
+        "Surrogate model",
+        "Hypersonic flight",
+        "Computer science",
+        "Trajectory optimization"
+      ],
+      "abstract": "Accurate and rapid prediction of aerothermodynamic loads remains an ongoing challenge for intelligent trajectory design and optimization for hypersonic vehicles. Existing approaches rely on engineering approximations to estimate aerothermal heating, which are valid only for a limited range of flow conditions and geometric shapes. To address this shortcoming, we introduce a data-driven surrogate model to predict the convective heat flux anywhere on the vehicle surface as a function of freestream conditions, vehicle attitude, and wall temperature. We couple this novel framework with a gradient-based trajectory optimization algorithm that leverages modern computing hardware and open-source deep learning libraries. Using this architecture, we solve for a series of active maneuvers that minimize the peak temperature measured across a local region of interest on the Hypersonic International Flight Research Experimentation 5 (HIFiRE-5) vehicle payload. We also calculate a glide phase trajectory satisfying aerothermodynamic constraints imposed at a critical surface location. The demonstration cases indicate that our framework can successfully enforce terminal constraints while achieving...",
+      "authors": [
+        "Alexander S. Way",
+        "Adrian Sescu",
+        "Shanti Bhushan",
+        "Greg W. Burgreen",
+        "Anup Zope",
+        "Ian Dettwiller"
+      ]
+    },
+    {
+      "title": "Comparison of Surrogate Model Architectures Using NASA-CRM Benchmark Aerodynamic Dataset",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0689",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Surrogate model",
+        "Benchmark (surveying)",
+        "Aerodynamics",
+        "Computer science",
+        "Machine learning",
+        "Freestream",
+        "Artificial intelligence",
+        "Surrogate data"
+      ],
+      "abstract": "This paper compares the performance of two popular scalar-to-field surrogate modeling architectures using the NASA-Common Research Model (CRM) benchmark aerodynamic dataset. Over the past decade, advancements in machine learning and data science have resulted in a surge of data-driven surrogate modeling frameworks which can be used to accelerate engineering analysis and optimization tasks. Until recently, the comparison of different surrogate models has been impossible due to the lack of standard test cases. The AIAA Applied Aerodynamics Surrogate Modeling Group (AASM) recently published four benchmark cases that include aerodynamic coefficient and surface load distribution datasets for various example applications, including two and three-dimensional geometries. In this work, we document the accuracy and efficiency of a design variable hypernetwork (DVH) surrogate model using the provided NASA-CRM test case as a reference. These results are compared against those obtained using a proper orthogonal decomposition (POD+I) model. The surrogate models are designed to target pressure and skin friction coefficients along on the surface of the vehicle as functions of freestream conditi...",
+      "authors": [
+        "Alexander S. Way",
+        "Adrian Sescu",
+        "Ian Dettwiller",
+        "Elyse G. Hall"
+      ]
+    },
+    {
+      "title": "DNS Investigation of the Breakdown Mechanics of Görtler Vortices in Hypersonic Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1930",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Vortex",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Physics",
+        "Adiabatic process",
+        "Adiabatic wall"
+      ],
+      "abstract": "In this paper we investigate the transition in hypersonic boundary layers over concave surfaces using direct numerical simulation (DNS). Our focus is on the breakdown of Görtler vortices and the transition to fully turbulent boundary layer, assuming a hypersonic flow at moderate Mach number that allows us to consider the calorically perfect gas condition. More specifically, a Mach $6$ or $7$ boundary layer flow over an adiabatic or isothermal concave wall is disturbed in the upstream to excite centrifugal instabilities in the form of Görtler vortices. Downstream, high- and low-speed streaks develop in the flow, eventually evolving into mushroom-like structures before breaking into turbulence. The parametric study includes the variation of the spanwise separation of these vortices while keeping the boundary layer thickness constant at a Reynolds number based on the momentum thickness of $1,500$ and the corresponding Görtler number of $11$. Among various flow characteristics results, consisting of iso-surfaces of Q-criterion, contour plots, energy and wall shear stress distributions, as well as periodicity analysis, we also include spectral proper decomposition (SPOD) analysis, wh...",
+      "authors": [
+        "Omar Es-Sahli",
+        "Matthew Brockhaus",
+        "Adrian Sescu",
+        "Y. Hattori"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Zhaojian Li",
+  "full_name": "Zhaojian Li",
+  "department": "Department of Mechanical Engineering",
+  "university": "Michigan State University",
+  "author_id": "A5037274043",
+  "works_count": 177,
+  "cited_by_count": 4766,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Traffic control and management",
+      "count": 42
+    },
+    {
+      "topic": "Autonomous Vehicle Technology and Safety",
+      "count": 29
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 26
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 19
+    },
+    {
+      "topic": "Traffic Prediction and Management Techniques",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Large-Scale Traffic Signal Control",
+      "publication_year": 2019,
+      "publication_date": "2019-03-15",
+      "doi": "https://doi.org/10.1109/tits.2019.2901791",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "type": "article",
+      "cited_by_count": 1038,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Computer science",
+        "Robustness (evolution)",
+        "Scalability",
+        "Observability",
+        "Distributed computing",
+        "Artificial neural network",
+        "Artificial intelligence"
+      ],
+      "abstract": "Reinforcement learning (RL) is a promising data-driven approach for adaptive traffic signal control (ATSC) in complex urban traffic networks, and deep neural networks further enhance its learning power. However, the centralized RL is infeasible for large-scale ATSC due to the extremely high dimension of the joint action space. The multi-agent RL (MARL) overcomes the scalability issue by distributing the global control to each local RL agent, but it introduces new challenges: now, the environment becomes partially observable from the viewpoint of each local agent due to limited communication among agents. Most existing studies in MARL focus on designing efficient communication and coordination among traditional Q-learning agents. This paper presents, for the first time, a fully scalable and decentralized MARL algorithm for the state-of-the-art deep RL agent, advantage actor critic (A2C), within the context of ATSC. In particular, two methods are proposed to stabilize the learning procedure, by improving the observability and reducing the learning difficulty of each local agent. The proposed multi-agent A2C is compared against independent A2C and independent Q-learning algorithms,...",
+      "authors": [
+        "Tianshu Chu",
+        "Jie Wang",
+        "Lara Codecà",
+        "Zhaojian Li"
+      ]
+    },
+    {
+      "title": "Deep Multi-Agent Reinforcement Learning for Highway On-Ramp Merging in Mixed Traffic",
+      "publication_year": 2023,
+      "publication_date": "2023-06-23",
+      "doi": "https://doi.org/10.1109/tits.2023.3285442",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "type": "article",
+      "cited_by_count": 230,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Scalability",
+        "Computer science",
+        "Supervisor",
+        "Exploit",
+        "Distributed computing",
+        "Artificial intelligence",
+        "Computer security"
+      ],
+      "abstract": "On-ramp merging is a challenging task for autonomous vehicles (AVs), especially in mixed traffic where AVs coexist with human-driven vehicles (HDVs). In this paper, we formulate the mixed-traffic highway on-ramp merging problem as a multi-agent reinforcement learning (MARL) problem, where the AVs (on both merge lane and through lane) collaboratively learn a policy to adapt to HDVs to maximize the traffic throughput. We develop an efficient and scalable MARL framework that can be used in dynamic traffic where the communication topology could be time-varying. Parameter sharing and local rewards are exploited to foster inter-agent cooperation while achieving great scalability. An action masking scheme is employed to improve learning efficiency by filtering out invalid/unsafe actions at each step. In addition, a novel priority-based safety supervisor is developed to significantly reduce collision rate and greatly expedite the training process. A gym-like simulation environment is developed and open-sourced with three different levels of traffic densities. We exploit curriculum learning to efficiently learn harder tasks from trained models under simpler settings. Comprehensive experi...",
+      "authors": [
+        "Dong Chen",
+        "Mohammad R. Hajidavalloo",
+        "Zhaojian Li",
+        "Kaian Chen",
+        "Yongqiang Wang",
+        "Longsheng Jiang",
+        "Yue Wang"
+      ]
+    },
+    {
+      "title": "Robust Platoon Control in Mixed Traffic Flow Based on Tube Model Predictive Control",
+      "publication_year": 2021,
+      "publication_date": "2021-02-19",
+      "doi": "https://doi.org/10.1109/tiv.2021.3060626",
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1910.07477",
+      "concepts": [
+        "Platoon",
+        "Model predictive control",
+        "Computer science",
+        "Control (management)",
+        "Control theory (sociology)",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Artificial intelligence"
+      ],
+      "abstract": "The design of cooperative adaptive cruise control is critical in mixed traffic flow, where connected and automated vehicles (CAVs) and human-driven vehicles (HDVs) coexist. Compared with pure CAVs, the major challenge is how to handle the prediction uncertainty of HDVs, which can cause significant state deviation of CAVs from planned trajectories. In most existing studies, model predictive control (MPC) is utilized to replan CAVs’ trajectories to mitigate the deviation at each time step. However, as the replanning process is usually conducted by solving an optimization problem with information through inter-vehicular communication, MPC methods suffer from heavy computational and communicational burdens. To address this limitation, a robust platoon control framework is proposed based on tube MPC in this paper. The prediction uncertainty is dynamically mitigated by the feedback control and restricted inside a set with a high probability. When the uncertainty exceeds the set or additional external disturbance emerges, the feedforward control is triggered to plan a “tube” (a sequence of sets), which can bound CAVs’ actual trajectories. As the replanning process is usually not requir...",
+      "authors": [
+        "Shuo Feng",
+        "Ziyou Song",
+        "Zhaojian Li",
+        "Yi Zhang",
+        "Li Li"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Privacy-conscious, data-enabled predictive leading cruise control via affine masking",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1049/pbtr049e_ch4",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Model predictive control",
+        "Computer science",
+        "Cruise control",
+        "State (computer science)",
+        "Control (management)",
+        "Affine transformation",
+        "Masking (illustration)",
+        "Platoon"
+      ],
+      "abstract": "The use of data-driven predictive control for connected and automated vehicles (CAVs) has gained significant interest due to its ability to ensure safe and efficient operations without requiring explicit dynamic models. Nonetheless, implementing such data-driven approaches requires gathering and sharing sensitive vehicle data, posing risks of privacy breaches and potential exploitation by malicious entities. In this chapter, we introduce a privacy-conscious, data-enabled predictive control framework tailored for CAVs operating in mixed traffic scenarios, where both human-driven vehicles (HDVs) and CAVs are present. The framework addresses threats from external eavesdroppers as well as honest-but-curious central units that intercept communication channels to extract CAV state and input data. To protect sensitive information, an affine masking technique is employed to obscure actual state and input signals. Additionally, an extended version of data-enabled predictive leading cruise control (LCC) is developed to enable optimal control of CAVs while preserving privacy. Simulation results confirm that the proposed approach effectively shields CAV data from attackers without compromis...",
+      "authors": [
+        "Kaixiang Zhang",
+        "J Chen",
+        "Zhaojian Li"
+      ]
+    },
+    {
+      "title": "Data-Enabled Predictive Control for Flexible Spacecraft",
+      "publication_year": 2026,
+      "publication_date": "2026-05-07",
+      "doi": "https://doi.org/10.1115/1.4071867",
+      "venue": "Journal of Dynamic Systems Measurement and Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1115/1.4071867",
+      "concepts": [
+        "Spacecraft",
+        "Control (management)",
+        "Model predictive control",
+        "Computer science",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "Abstract Spacecraft are vital to space exploration and are often equipped with lightweight, flexible appendages to meet strict weight constraints. These appendages pose significant challenges for modeling and control due to their inherent nonlinearity. Data-driven control methods have gained traction to address such challenges. This paper introduces, to the best of the authors' knowledge, the first application of the data-enabled predictive control (DeePC) framework to boundary control for flexible spacecraft. Leveraging the fundamental lemma, DeePC constructs a nonparametric model by utilizing recorded past trajectories, eliminating the need for explicit model development. The developed method also incorporates dimension reduction techniques to enhance computational efficiency. Through numerical simulations, the proposed method is compared with a model-based Lyapunov boundary control approach, demonstrating robust performance under uncertainty, noise, and disturbances.",
+      "authors": [
+        "Huanqing Wang",
+        "Kaixiang Zhang",
+        "Amin Vahidi‐Moghaddam",
+        "Honglin An",
+        "Nan Li",
+        "Daning Huang",
+        "Zhaojian Li"
+      ]
+    },
+    {
+      "title": "Differentially Private Distributed Model Predictive Control of Linear Discrete-Time Systems With Global Constraints",
+      "publication_year": 2025,
+      "publication_date": "2025-10-31",
+      "doi": "https://doi.org/10.1109/tac.2025.3627270",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/tac.2025.3627270",
+      "concepts": [
+        "Computer science",
+        "Convergence (economics)",
+        "Stability (learning theory)",
+        "Model predictive control",
+        "Mathematical optimization",
+        "Software deployment",
+        "Noise (video)",
+        "Dual (grammatical number)"
+      ],
+      "abstract": "Distributed model predictive control (DMPC) has attracted extensive attention as it can explicitly handle system constraints and achieve optimal control in a decentralized manner. However, the deployment of DMPC strategies generally requires the sharing of sensitive data among subsystems, which may violate the privacy of participating systems. In this paper, we propose a differentially-private DMPC algorithm for linear discrete-time systems subject to coupled global constraints. Specifically, we first show that a conventional distributed dual gradient algorithm can be used to address the considered DMPC problem but cannot provide strong privacy preservation. Then, to protect privacy against the eavesdropper, we incorporate a differential-privacy noise injection mechanism into the DMPC framework and prove that the resulting distributed optimization algorithm can ensure both provable convergence to a global optimal solution and rigorous$\\epsilon$-differential privacy. In addition, an implementation strategy of the DMPC is designed such that the recursive feasibility and stability of the closed-loop system are guaranteed. Simulation results are provided to demonstrate the effective...",
+      "authors": [
+        "Kaixiang Zhang",
+        "Yongqiang Wang",
+        "Ziyou Song",
+        "Zhaojian Li"
+      ]
+    },
+    {
+      "title": "Distributed Platoon Control Under Quantization: Stability Analysis and Privacy Preservation",
+      "publication_year": 2025,
+      "publication_date": "2025-10-07",
+      "doi": "https://doi.org/10.48550/arxiv.2510.05959",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.05959",
+      "concepts": [
+        "Platoon",
+        "Probabilistic logic",
+        "Quantization (signal processing)",
+        "Computer science",
+        "Bounded function",
+        "Differential privacy",
+        "Stability (learning theory)",
+        "Information leakage"
+      ],
+      "abstract": "Distributed control of connected and automated vehicles has attracted considerable interest for its potential to improve traffic efficiency and safety. However, such control schemes require sharing privacy-sensitive vehicle data, which introduces risks of information leakage and potential malicious activities. This paper investigates the stability and privacy-preserving properties of distributed platoon control under two types of quantizers: deterministic and probabilistic. For deterministic quantization, we show that the resulting control strategy ensures the system errors remain uniformly ultimately bounded. Moreover, in the absence of auxiliary information, an eavesdropper cannot uniquely infer sensitive vehicle states. In contrast, the use of probabilistic quantization enables asymptotic convergence of the vehicle platoon in expectation with bounded variance. Importantly, probabilistic quantizers can satisfy differential privacy guarantees, thereby preserving privacy even when the eavesdropper possesses arbitrary auxiliary information. We further analyze the trade-off between control performance and privacy by formulating an optimization problem that characterizes the impact...",
+      "authors": [
+        "Kaixiang Zhang",
+        "Zhaojian Li",
+        "Wenbin Lin"
+      ]
+    },
+    {
+      "title": "From Shadow to Light: Toward Safe and Efficient Policy Learning Across MPC, DeePC, RL, and LLM Agents",
+      "publication_year": 2025,
+      "publication_date": "2025-10-05",
+      "doi": "https://doi.org/10.48550/arxiv.2510.04076",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.04076",
+      "concepts": [
+        "Reinforcement learning",
+        "Computer science",
+        "Control (management)",
+        "Model predictive control",
+        "Face (sociological concept)",
+        "Robot",
+        "Shadow (psychology)",
+        "Artificial intelligence"
+      ],
+      "abstract": "One of the main challenges in modern control applications, particularly in robot and vehicle motion control, is achieving accurate, fast, and safe movement. To address this, optimal control policies have been developed to enforce safety while ensuring high performance. Since basic first-principles models of real systems are often available, model-based controllers are widely used. Model predictive control (MPC) is a leading approach that optimizes performance while explicitly handling safety constraints. However, obtaining accurate models for complex systems is difficult, which motivates data-driven alternatives. ML-based MPC leverages learned models to reduce reliance on hand-crafted dynamics, while reinforcement learning (RL) can learn near-optimal policies directly from interaction data. Data-enabled predictive control (DeePC) goes further by bypassing modeling altogether, directly learning safe policies from raw input-output data. Recently, large language model (LLM) agents have also emerged, translating natural language instructions into structured formulations of optimal control problems. Despite these advances, data-driven policies face significant limitations. They often...",
+      "authors": [
+        "Amin Vahidi‐Moghaddam",
+        "Sayed Pedram Haeri Boroujeni",
+        "Iman Jebellat",
+        "Ehsan Jebellat",
+        "Niloufar Mehrabi",
+        "Zhaojian Li"
+      ]
+    }
+  ]
+}

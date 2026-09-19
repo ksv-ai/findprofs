@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Myoungkyu Lee",
+  "full_name": "Myoungkyu Lee",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Houston",
+  "author_id": "A5057828898",
+  "works_count": 71,
+  "cited_by_count": 2478,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 37
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 8
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 7
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 7
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Web services accessible database of turbulent channel flow and its use for testing a new integral wall model for LES",
+      "publication_year": 2015,
+      "publication_date": "2015-12-02",
+      "doi": "https://doi.org/10.1080/14685248.2015.1088656",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 249,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Direct numerical simulation",
+        "Turbulence",
+        "Database",
+        "Computer science",
+        "Channel (broadcasting)",
+        "Open-channel flow",
+        "Flow (mathematics)",
+        "Large eddy simulation"
+      ],
+      "abstract": "The output from a direct numerical simulation (DNS) of turbulent channel flow at Reτ ≈ 1000 is used to construct a publicly and Web services accessible, spatio-temporal database for this flow. The simulated channel has a size of 8πh × 2h × 3πh, where h is the channel half-height. Data are stored at 2048 × 512 × 1536 spatial grid points for a total of 4000 time samples every 5 time steps of the DNS. These cover an entire channel flow-through time, i.e. the time it takes to traverse the entire channel length 8πh at the mean velocity of the bulk flow. Users can access the database through an interface that is based on the Web services model and perform numerical experiments on the slightly over 100 terabytes (TB) DNS data on their remote platforms, such as laptops or local desktops. Additional technical details about the pressure calculation, database interpolation, and differentiation tools are provided in several appendices. As a sample application of the channel flow database, we use it to conduct an a-priori test of a recently introduced integral wall model for large eddy simulation of wall-bounded turbulent flow. The results are compared with those of the equilibrium wall mode...",
+      "authors": [
+        "Jason Graham",
+        "Kalin Kanov",
+        "Xiang I. A. Yang",
+        "Myoungkyu Lee",
+        "Nicholas Malaya",
+        "Cristian C. Lalescu",
+        "Randal Burns",
+        "Gregory L. Eyink",
+        "Alexander S. Szalay",
+        "Robert Moser",
+        "C. Meneveau"
+      ]
+    },
+    {
+      "title": "Petascale direct numerical simulation of turbulent channel flow on up to 786K cores",
+      "publication_year": 2013,
+      "publication_date": "2013-10-30",
+      "doi": "https://doi.org/10.1145/2503210.2503298",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 101,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Direct numerical simulation",
+        "Petascale computing",
+        "Reynolds number",
+        "Computer science",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "We present results of performance optimization for direct numerical simulation (DNS) of wall bounded turbulent flow (channel flow). DNS is a technique in which the fluid flow equations are solved without subgrid modeling. Of particular interest are high Reynolds number (Re) turbulent flows over walls, because of their importance in technological applications. Simulating high Re turbulence is a challenging computational problem, due to the high spatial and temporal resolution requirements.",
+      "authors": [
+        "Myoungkyu Lee",
+        "Nicholas Malaya",
+        "Robert Moser"
+      ]
+    },
+    {
+      "title": "Experiences from Leadership Computing in Simulations of Turbulent Fluid Flows",
+      "publication_year": 2014,
+      "publication_date": "2014-04-16",
+      "doi": "https://doi.org/10.1109/mcse.2014.51",
+      "venue": "Computing in Science & Engineering",
+      "type": "article",
+      "cited_by_count": 36,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Computer science",
+        "Scalability",
+        "Supercomputer",
+        "Computational science",
+        "Computational fluid dynamics",
+        "Fast Fourier transform",
+        "Code (set theory)"
+      ],
+      "abstract": "We performed a direct numerical simulation (DNS) of high Reynolds number turbulent channel flow to expand our understanding of wall-bounded turbulence. The resolution requirements inherent to realistic turbulent flows necessitate leadership computing systems. Using Mira at Argonne Leadership Computing Facility, Argonne National Laboratory, we were able to achieve DNS at Re_tau = 5,200, and generated approximately 140 Tbytes of data. To use Mira efficiently, we developed a new DNS code, PoongBack, including a new parallel 3D FFT kernel. The new code shows excellent scalability up to 786,432 cores. Here, we summarize our code development and production simulation efforts, including parallel I/O.",
+      "authors": [
+        "Myoungkyu Lee",
+        "Rhys Ulerich",
+        "Nicholas Malaya",
+        "Robert Moser"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Glyph‐Based Multi‐Scale Visualization of Spatial Turbulent Multi‐Physics Statistics",
+      "publication_year": 2026,
+      "publication_date": "2026-03-04",
+      "doi": "https://doi.org/10.1111/cgf.70399",
+      "venue": "Computer Graphics Forum",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Glyph (data visualization)",
+        "Visualization",
+        "Voronoi diagram",
+        "Computer science",
+        "Spatial analysis",
+        "Data visualization",
+        "Geovisualization",
+        "Centroidal Voronoi tessellation"
+      ],
+      "abstract": "Abstract Many scientific and engineering problems involving multi‐physics span a wide range of scales. Understanding the interactions across these scales is essential for fully comprehending such complex problems. However, visualizing multivariate, multi‐scale data within an integrated view where correlations across space, scales and fields are easily perceived remains challenging. To address this, we introduce a novel local spatial statistical visualization of flow fields across multiple fields and turbulence scales. Our method leverages the curvelet transform for scale decomposition of fields of interest, a level‐set‐restricted centroidal Voronoi tessellation to partition the spatial domain into local regions for statistical aggregation, and a set of glyph designs that combines information across scales and fields into a single, or reduced set of perceivable visual representations. Each glyph represents data aggregated within a Voronoi region and is positioned at the Voronoi site for direct visualization in a 3D view centred around flow features of interest. We implement and integrate our method into an interactive visualization system where the glyph‐based technique operates ...",
+      "authors": [
+        "Arisa Charlize Cowe",
+        "Tyson Neuroth",
+        "Qi Wu",
+        "Martin Rieth",
+        "J H Chen",
+        "Myoungkyu Lee",
+        "Kwan‐Liu Ma"
+      ]
+    },
+    {
+      "title": "Turbulent transport for wall-shear-stress fluctuations",
+      "publication_year": 2025,
+      "publication_date": "2025-11-24",
+      "doi": "https://doi.org/10.1017/jfm.2025.10844",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F28963F9623BCB56D391C23D84B16388/S0022112025108446a.pdf/div-class-title-turbulent-transport-for-wall-shear-stress-fluctuations-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Mechanics",
+        "Dissipation",
+        "Hagen–Poiseuille equation",
+        "Reynolds number",
+        "Spectral line",
+        "Couette flow"
+      ],
+      "abstract": "Statistical structure and the underlying energy budget of wall-shear-stress fluctuations are studied in both Poiseuille and Couette flows with emphasis on its streamwise component. Using a dimensional analysis and direct numerical simulation data, it is shown that the spectra of streamwise wall dissipation for $\\lambda \\lesssim 1000 \\delta _\\nu$ are asymptotically invariant with the Reynolds number ( ${\\textit{Re}}$ ), whereas those for $\\lambda \\gtrsim \\delta$ decay with ${\\textit{Re}}$ (here, $\\lambda$ is a nominal wall-parallel wavelength, and $\\delta _\\nu$ and $\\delta$ are the viscous inner and outer length scales, respectively). The wall dissipation increases with ${\\textit{Re}}$ due to the increasing contribution of the spectra at $1000 \\delta _\\nu \\lesssim \\lambda \\lesssim \\delta$ . The subsequent analysis of the energy budget shows that the near-wall motions associated with these wall-dissipation spectra are driven mainly by turbulent transport and are ‘inactive’ in the sense that they contain very little Reynolds shear stress (or turbulence production). As such, turbulent-transport spectra near the wall are also found to share the same ${\\textit{Re}}$ -scaling behaviour...",
+      "authors": [
+        "Myoungkyu Lee",
+        "Yongyun Hwang"
+      ]
+    },
+    {
+      "title": "Turbulent transport for wall shear stress fluctuations",
+      "publication_year": 2025,
+      "publication_date": "2025-10-15",
+      "doi": "https://doi.org/10.48550/arxiv.2510.13758",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.13758",
+      "concepts": [
+        "Turbulence",
+        "Dissipation",
+        "Mechanics",
+        "Physics",
+        "Spectral line",
+        "Reynolds number",
+        "Reynolds stress",
+        "Shear stress"
+      ],
+      "abstract": "Statistical structure and the underlying energy budget of wall shear stress fluctuations are studied in both Poiseulle and Couette flows with emphasis on its streamwise component. Using a dimensional analysis and direct numerical simulation data, it is shown that the spectra of streamwise wall dissipation for $λ\\lesssim 1000 δ_ν$ are asymptotically invariant with the Reynolds number ($Re$), whereas those for $λ\\gtrsim δ$ decay with $Re$ (here, $λ$ is a nominal wall-parallel wavelength, and $δ_ν$ and $δ$ are the viscous inner and outer length scales, respectively). The wall dissipation increases with $Re$ due to the increasing contribution of the spectra at $1000 δ_ν\\lesssim λ\\lesssim δ$. The subsequent analysis of the energy budget shows that the near-wall motions associated with these wall dissipation spectra are mainly driven by turbulent transport and are `inactive' in the sense that they contain very little Reynolds shear stress (or turbulence production). As such, turbulent transport spectra near the wall are also found to share the same $Re$-scaling behaviour with wall dissipation, and this is observed in the spectra of both the wall-normal and inter-scale turbulent transp...",
+      "authors": [
+        "Myoungkyu Lee",
+        "Yongyun Hwang"
+      ]
+    },
+    {
+      "title": "Characteristics of flow velocity and flame speed in a turbulent channel flow for lean hydrogen flames",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1016/j.proci.2025.105975",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flame speed",
+        "Flashback",
+        "Laminar flame speed",
+        "Premixed flame",
+        "Laminar flow",
+        "Diffusion flame",
+        "Mechanics",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jung‐Ho Sohn",
+        "Myoungkyu Lee",
+        "Dong-hyuk Shin"
+      ]
+    },
+    {
+      "title": "The energetics and colour for linearised models of wall turbulence",
+      "publication_year": 2024,
+      "publication_date": "2024-11-26",
+      "doi": "https://doi.org/10.1017/jfm.2024.929",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1017/jfm.2024.929",
+      "concepts": [
+        "Energetics",
+        "Turbulence",
+        "Mechanics",
+        "K-epsilon turbulence model",
+        "Turbulence kinetic energy",
+        "Physics",
+        "Classical mechanics",
+        "Thermodynamics"
+      ],
+      "abstract": "By comparing the budget of a data-driven quasi-linear approximation (DQLA) (Holford, Lee & Hwang, J. Fluid Mech., vol. 980, 2024, A12) and direct numerical simulation (DNS) (Lee & Moser, J. Fluid Mech., vol. 860, 2019, pp. 886–938), the energetics of linear models for wall-bounded turbulence are assessed. The DQLA is implemented with the linearised Navier–Stokes equations with a stochastic forcing term and an eddy viscosity diffusion model. The self-consistent nature of the DQLA allows for a global comparison across all wavenumbers to assess the role of the various terms in the linear model in replicating the features present in DNS. Starting from the steady-state second-order statistics of a Fourier mode, a spectral budget equation is derived, connecting Lyapunov-like equations to the transport budget equations obtained from DNS. It is found that the DQLA and DNS are in good qualitative agreement for the streamwise-elongated structures present in DNS, comparing well for production, viscous transport and wall-normal turbulent transport. However, the DQLA does not have an energy-conservative nonlinear term. This results in no dissipation under molecular viscosity, with energy ins...",
+      "authors": [
+        "Jacob J. Holford",
+        "Myoungkyu Lee",
+        "Yongyun Hwang"
+      ]
+    }
+  ]
+}

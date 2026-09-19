@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Seongkyu Lee",
+  "full_name": "Seongkyu Lee",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Davis",
+  "author_id": "A5030054230",
+  "works_count": 134,
+  "cited_by_count": 1804,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 96
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 55
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 40
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 36
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turbulent boundary layer trailing-edge noise: Theory, computation, experiment, and application",
+      "publication_year": 2021,
+      "publication_date": "2021-06-24",
+      "doi": "https://doi.org/10.1016/j.paerosci.2021.100737",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 204,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0376042121000427/pdf",
+      "concepts": [
+        "Trailing edge",
+        "Boundary layer",
+        "Turbulence",
+        "Noise (video)",
+        "Computation",
+        "Mechanics",
+        "Acoustics",
+        "Statistical physics"
+      ],
+      "abstract": "When the pressure fluctuations caused by turbulence vorticity in the boundary layer are scattered by a sharp trailing edge, acoustic energy is generated and propagated to the far field. This trailing edge noise is emitted from aircraft wings, turbomachinery blades, wind turbine blades, helicopter blades, etc. Being dominant at high frequencies, this trailing-edge noise is a key element that annoys human hearing. This article covers virtually the entire landscape of modern research into trailing-edge noise including theoretical developments, numerical simulations, wind tunnel experiments, and applications of trailing-edge noise. The theoretical approach includes Green’s function formulations, Wiener–Hopf methods that solve the mixed boundary-value problem, Howe’s and Amiet’s models that relate the wall pressure spectrum to acoustic radiation. Recent analytical developments for poroelasticity and serrations are also included. We discuss a hierarchy of numerical approaches that range from semi-empirical schemes that estimate the wall pressure spectrum using mean-flow and turbulence statistics to high-fidelity unsteady flow simulations such as Large Eddy Simulation (LES) or Direct N...",
+      "authors": [
+        "Seongkyu Lee",
+        "Lorna J. Ayton",
+        "Franck Bertagnolio",
+        "Stéphane Moreau",
+        "Tze Pei Chong",
+        "Phillip Joseph"
+      ]
+    },
+    {
+      "title": "Potential Panel and Time-Marching Free-Wake-Coupling Analysis for Helicopter Rotor",
+      "publication_year": 2009,
+      "publication_date": "2009-05-01",
+      "doi": "https://doi.org/10.2514/1.40001",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 44,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Aerospace engineering",
+        "Rotor (electric)",
+        "Helicopter rotor",
+        "Coupling (piping)",
+        "Aeronautics",
+        "Wake turbulence",
+        "Physics"
+      ],
+      "abstract": "A potential-based panel method coupled with advanced time-marching free-wake techniques is developed to achieve fast and accurate prediction for unsteady aerodynamics and wake dynamics of helicopter rotating blades. This coupling analysis is enabled by using the equivalence of the doublet-wake panels and the vortex filaments. The coupled panel method allows the inclusion of the self-induced velocity of curved vortex filaments and high-order time integration for the computation of wake convection. A parallel computation is applied to the wake convection for fast numerical calculation. The computation of the induced velocity from each vortex filament is parallelized and computed separately. The velocity-field integration technique is used to avoid numerical singularity during the interaction between the wake and blades. It is found that blade-pressure predictions and the wake roll-up agree well with the measured data for helicopter rotors, both in hover and forward flight. Tip-vortex pairing phenomena are also predicted and compared with the measured data.",
+      "authors": [
+        "Seong Yong Wie",
+        "Seongkyu Lee",
+        "Duck Joo Lee"
+      ]
+    },
+    {
+      "title": "Computational Study on Noise of Urban Air Mobility Quadrotor Aircraft",
+      "publication_year": 2021,
+      "publication_date": "2021-09-17",
+      "doi": "https://doi.org/10.4050/jahs.67.012009",
+      "venue": "Journal of the American Helicopter Society",
+      "type": "article",
+      "cited_by_count": 43,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fuselage",
+        "Computational fluid dynamics",
+        "Noise (video)",
+        "Rotor (electric)",
+        "Aircraft noise",
+        "Aeroacoustics",
+        "Acoustics",
+        "Sound pressure"
+      ],
+      "abstract": "This paper investigates the acoustics of a one-passenger and a six-passenger quadrotor urban air mobility (UAM) aircraft in level flight based on a high-fidelity computational fluid dynamics (CFD) approach. The CFD simulations are carried out using the HPCMP CREATE TM -AV multidisciplinary rotorcraft analysis and simulation tool Helios. The acoustic simulations are performed using the acoustic prediction tool PSU-WOPWOP. A total of three CFD models are simulated: a onepassenger isolated rotor configuration, a one-passenger full configuration with a fuselage, and a six-passenger isolated rotor configuration. The noise comparison between the one-passenger isolated rotor case and the full configuration case shows that the vehicle fuselage increases the A-weighted sound pressure level (SPL) up to 5 dB. The acoustic comparison between the one-passenger and the six-passenger isolated rotor configuration shows that the maximum overall SPL difference is up to 14 dB. Furthermore, it is shown that the noise of the six-passenger configuration is approximately 11 dB lower than that of a similar-sized conventional helicopter in an overhead scenario. The community noise impact of UAM aircraft...",
+      "authors": [
+        "Zhongqi Jia",
+        "Seongkyu Lee"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Frequency-Domain Rotor and Propeller Tonal Noise Models: Analytical Framework and Prediction Accuracy",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "https://doi.org/10.2514/1.j066263",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propeller",
+        "Noise (video)",
+        "Rotor (electric)",
+        "Acoustics",
+        "Computer science",
+        "Helicopter rotor",
+        "Aircraft noise",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Frequency-domain tonal noise prediction models provide a rapid means of assessing rotational noise, which is particularly useful during the early stages of rotorcraft and propeller design and optimization. This paper presents a comprehensive review of the most widely used frequency-domain models, including four steady loading noise models, three unsteady loading noise models, and three thickness noise models. Unified and consistent formulations are provided for all models, and the contributions of individual terms are grouped and analyzed. The models are then compared under various operating conditions, including steady hover, unsteady hover, axial forward flight, and edgewise forward flight. Overall, the models show good agreement with measurement data, although certain deficiencies have also been identified. Finally, recommendations for model usage under different flight conditions are provided.",
+      "authors": [
+        "Hyunjune Gill",
+        "Seongkyu Lee"
+      ]
+    },
+    {
+      "title": "Application of airfoil parameterization methods to broadband noise reduction in rotors",
+      "publication_year": 2026,
+      "publication_date": "2026-01-22",
+      "doi": "https://doi.org/10.1177/1475472x261419075",
+      "venue": "International Journal of Aeroacoustics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1177/1475472x261419075",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamics",
+        "Rotor (electric)",
+        "Acoustics",
+        "Noise (video)",
+        "Noise reduction",
+        "Reduction (mathematics)",
+        "Sound pressure"
+      ],
+      "abstract": "This paper employs a Kriging-based surrogate model combined with a multi-objective genetic algorithm to optimize rotor blade airfoils with respect to thrust, power, and broadband noise. Three airfoil parameterization methods—ParFoil, PARSEC, and CST—are compared in generating airfoil geometries for the surrogate modeling and optimization process. The optimized airfoil shapes and their corresponding aerodynamic and acoustic performance metrics are presented and analyzed. Low-fidelity aerodynamic analyses are performed using XFOIL and blade element momentum theory, while acoustic predictions are obtained using Lee’s wall-pressure spectrum model and Amiet’s turbulent boundary-layer trailing-edge noise model implemented in UCD-QuietFly. The study focuses on two configurations: a small-scale ideally twisted rotor and a scaled XV-15 rotor blade. Optimization of the ideally twisted rotor across the three parameterization methods demonstrates an A-weighted overall sound pressure level reduction of approximately 4 dBA, primarily attributed to decreases in the chordwise pressure gradient and wall shear stress. Similarly, optimization of the XV-15 blade using the ParFoil method achieves a ...",
+      "authors": [
+        "Jordon Won",
+        "Seongkyu Lee"
+      ]
+    },
+    {
+      "title": "Effect of Surface Roughness on Dynamic Stall in Pitching Motion",
+      "publication_year": 2025,
+      "publication_date": "2025-11-03",
+      "doi": "https://doi.org/10.2514/1.j065650",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stall (fluid mechanics)",
+        "Mechanics",
+        "Surface roughness",
+        "Surface finish",
+        "Angle of attack",
+        "Materials science",
+        "Motion (physics)",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jessica G. Shum",
+        "Seongkyu Lee",
+        "Kambiz Salari",
+        "R.C. McCallen"
+      ]
+    },
+    {
+      "title": "Methods to predict rotor trailing-edge noise using computational fluid dynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1121/10.0039055",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trailing edge",
+        "Boundary layer",
+        "Airfoil",
+        "Computational fluid dynamics",
+        "Rotor (electric)",
+        "Noise (video)",
+        "Mechanics",
+        "Flow separation"
+      ],
+      "abstract": "This paper investigates various methods for predicting rotor turbulent boundary layer trailing-edge noise using computational fluid dynamics (CFD) in conjunction with Amiet's trailing-edge noise model. Three approaches are proposed and examined to obtain the boundary-layer parameters, which serve as key inputs to an empirical wall pressure spectrum model. The first approach directly extracts the boundary-layer parameters from 3D CFD solutions. The second approach derives the boundary-layer parameters from the sectional normal and chordwise forces. The third approach determines the boundary-layer parameters from the chordwise pressure coefficient distributions. Among these, the second approach is found to provide the most reliable and efficient predictions. The predictions demonstrate good agreement with experimental data for two rotor configurations under multiple operating conditions. Despite variations in thrust due to changes in collective pitch, the resulting change in the effective angle of attack is insufficient to induce substantial alterations in boundary-layer parameters, leading to low sensitivity to noise. However, airfoil selection, blade geometry, and rotation speed...",
+      "authors": [
+        "Jordon Won",
+        "Nikos Trembois",
+        "Seongkyu Lee"
+      ]
+    },
+    {
+      "title": "Effect of Wingtip Side Edge Shape on Vortex Formation and Aerodynamics Using High-Fidelity Numerical Simulations",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3702",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Vortex",
+        "Aerospace engineering",
+        "Wingtip device",
+        "Enhanced Data Rates for GSM Evolution",
+        "High fidelity",
+        "Fidelity",
+        "Wingtip vortices"
+      ],
+      "abstract": "One of the most significant factors affecting wing performance is the behavior of wingtip vortices, which contribute to induced drag and can profoundly impact overall aerodynamic efficiency. The geometry of the wingtip, particularly the shape of the side edge, has been identified as a key determinant of vortex formation and strength. This study quantifies the differences in vortex characteristics between squared and rounded wingtips at nominal and high angles of attack (AoA) using NASA’s OVERFLOW solver. A NACA 0012 semispan wing model is simulated at a chord-based Reynolds number of 4.6 million, with cases including a mesh convergence study and validation against experimental data. The rounded and squared tip geometries are compared in terms of surface pressure, vortex structure, and time-averaged aerodynamic forces. Additionally, Spectral Proper Orthogonal Decomposition is used to investigate unsteady flow behavior and coherent vortex dynamics across various AoAs. Results show that the rounded tip generates a coherent primary vortex on the upper surface, while the squared tip forms multiple interacting vortices that induce more complex wake behavior. At high AoA, both configur...",
+      "authors": [
+        "Alyssa Y. Freed",
+        "Jordon Won",
+        "Seongkyu Lee"
+      ]
+    }
+  ]
+}

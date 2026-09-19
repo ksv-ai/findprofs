@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Fabrizio Bisetti",
+  "full_name": "Fabrizio Bisetti",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics",
+  "university": "The University of Texas at Austin",
+  "author_id": "A5023116154",
+  "works_count": 164,
+  "cited_by_count": 1890,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 98
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 52
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 30
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 26
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "On the formation and early evolution of soot in turbulent nonpremixed flames",
+      "publication_year": 2011,
+      "publication_date": "2011-06-29",
+      "doi": "https://doi.org/10.1016/j.combustflame.2011.05.021",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 238,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Diffusion flame",
+        "Chemistry",
+        "Turbulence",
+        "Combustion",
+        "Volume fraction",
+        "Turbulent diffusion",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fabrizio Bisetti",
+        "Guillaume Blanquart",
+        "Michael E. Mueller",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "Formation, growth, and transport of soot in a three-dimensional turbulent non-premixed jet flame",
+      "publication_year": 2014,
+      "publication_date": "2014-01-29",
+      "doi": "https://doi.org/10.1016/j.combustflame.2014.01.008",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 150,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Turbulence",
+        "Jet (fluid)",
+        "Chemistry",
+        "Diffusion flame",
+        "Combustion",
+        "Naphthalene",
+        "Flame structure"
+      ],
+      "abstract": "",
+      "authors": [
+        "Antonio Attili",
+        "Fabrizio Bisetti",
+        "Michael E. Mueller",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "Statistics and scaling of turbulence in a spatially developing mixing layer at Reλ = 250",
+      "publication_year": 2012,
+      "publication_date": "2012-03-01",
+      "doi": "https://doi.org/10.1063/1.3696302",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 80,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Scaling",
+        "Laminar flow",
+        "Isotropy",
+        "Intermittency",
+        "K-epsilon turbulence model",
+        "Turbulence kinetic energy"
+      ],
+      "abstract": "The turbulent flow originating from the interaction between two parallel streams with different velocities is studied by means of direct numerical simulation. Rather than the more common temporal evolving layer, a spatially evolving configuration, with perturbed laminar inlet conditions is considered. The streamwise evolution and the self-similar state of turbulence statistics are reported and compared to results available in the literature. The characteristics of the transitional region agree with those observed in other simulations and experiments of mixing layers originating from laminar inlets. The present results indicate that the transitional region depends strongly on the inlet flow. Conversely, the self-similar state of turbulent kinetic energy and dissipation agrees quantitatively with those in a temporal mixing layer developing from turbulent initial conditions [M. M. Rogers and R. D. Moser, “Direct simulation of a self-similar turbulent mixing layer,” Phys. Fluids 6, 903 (1994)]. The statistical features of turbulence in the self-similar region have been analysed in terms of longitudinal velocity structure functions, and scaling exponents are estimated by applying the...",
+      "authors": [
+        "Antonio Attili",
+        "Fabrizio Bisetti"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Mathematical models and numerical methods for high-fidelity simulation of ignition of reactive mixtures by nanosecond plasma discharges in realistic configurations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.1080/13647830.2026.2621925",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ignition system",
+        "Mathematical model",
+        "Mechanics",
+        "Plasma",
+        "Materials science",
+        "Computer simulation",
+        "Numerical analysis",
+        "Numerical models"
+      ],
+      "abstract": "We present a newly developed framework for the numerical simulation of ignition of reactive mixtures using single or repeated nanosecond discharge pulses. The framework builds upon the AMReX library, using the existing compressible solver PeleC and low-Mach solver PeleLMeX and allowing for adaptive mesh refinement, complex geometries, and execution on next-generation high-performance computing (HPC) systems. High-fidelity elementary models are adopted for weakly-ionised plasma discharges with significant energy deposition, consistent with nanosecond discharge pulses, and then implemented in the solver. The treatment of non-thermal electrons and charged species, thermodynamics of non-equilbrium species, plasma kinetics, limiting time scales, and boundary conditions for charged species are discussed and addressed for computational efficiency. The framework is demonstrated for three relevant applications: single and multi-pulse discharges in air, single pulse ignition of an ethylene/air mixture, and a three-dimensional plasma discharge in air with temperature stratification. The successful application of the framework demonstrates the feasibility of high-fidelity simulation of igni...",
+      "authors": [
+        "Alfredo Duarte Gomez",
+        "Nicholas Deak",
+        "Lucas Esclapez",
+        "Marcus Day",
+        "Fabrizio Bisetti"
+      ]
+    },
+    {
+      "title": "Mathematical models and numerical methods for high-fidelity simulation of ignition of reactive mixtures by nanosecond plasma discharges in realistic configurations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.6084/m9.figshare.31228962.v1",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31228962.v1",
+      "concepts": [
+        "Ignition system",
+        "Solver",
+        "Plasma",
+        "Nanosecond",
+        "Mechanics",
+        "Materials science",
+        "Boundary value problem",
+        "Mathematical model"
+      ],
+      "abstract": "We present a newly developed framework for the numerical simulation of ignition of reactive mixtures using single or repeated nanosecond discharge pulses. The framework builds upon the AMReX library, using the existing compressible solver PeleC and low-Mach solver PeleLMeX and allowing for adaptive mesh refinement, complex geometries, and execution on next-generation high-performance computing (HPC) systems. High-fidelity elementary models are adopted for weakly-ionised plasma discharges with significant energy deposition, consistent with nanosecond discharge pulses, and then implemented in the solver. The treatment of non-thermal electrons and charged species, thermodynamics of non-equilbrium species, plasma kinetics, limiting time scales, and boundary conditions for charged species are discussed and addressed for computational efficiency. The framework is demonstrated for three relevant applications: single and multi-pulse discharges in air, single pulse ignition of an ethylene/air mixture, and a three-dimensional plasma discharge in air with temperature stratification. The successful application of the framework demonstrates the feasibility of high-fidelity simulation of igni...",
+      "authors": [
+        "Alfredo Duarte Gomez",
+        "Nicholas Deak",
+        "Lucas Esclapez",
+        "Marcus Day",
+        "Fabrizio Bisetti"
+      ]
+    },
+    {
+      "title": "Mathematical models and numerical methods for high-fidelity simulation of ignition of reactive mixtures by nanosecond plasma discharges in realistic configurations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.6084/m9.figshare.31228962",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31228962",
+      "concepts": [
+        "Ignition system",
+        "Solver",
+        "Plasma",
+        "Nanosecond",
+        "Mechanics",
+        "Materials science",
+        "Boundary value problem",
+        "Mathematical model"
+      ],
+      "abstract": "We present a newly developed framework for the numerical simulation of ignition of reactive mixtures using single or repeated nanosecond discharge pulses. The framework builds upon the AMReX library, using the existing compressible solver PeleC and low-Mach solver PeleLMeX and allowing for adaptive mesh refinement, complex geometries, and execution on next-generation high-performance computing (HPC) systems. High-fidelity elementary models are adopted for weakly-ionised plasma discharges with significant energy deposition, consistent with nanosecond discharge pulses, and then implemented in the solver. The treatment of non-thermal electrons and charged species, thermodynamics of non-equilbrium species, plasma kinetics, limiting time scales, and boundary conditions for charged species are discussed and addressed for computational efficiency. The framework is demonstrated for three relevant applications: single and multi-pulse discharges in air, single pulse ignition of an ethylene/air mixture, and a three-dimensional plasma discharge in air with temperature stratification. The successful application of the framework demonstrates the feasibility of high-fidelity simulation of igni...",
+      "authors": [
+        "Alfredo Duarte Gomez",
+        "Nicholas Deak",
+        "Lucas Esclapez",
+        "Marcus Day",
+        "Fabrizio Bisetti"
+      ]
+    },
+    {
+      "title": "Simulation of Voltage and Current Waveforms During Nanosecond Pulsed Capacitive Discharges via Electrically Coupled Plasma Fluid Model and Lossless Transmission Line",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2230",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma",
+        "Voltage",
+        "Nanosecond",
+        "Waveform",
+        "Transmission line",
+        "Capacitive coupling",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "A framework for the simulation of voltage and current waveforms during nanosecond pulsed capacitive discharges via electrically coupled plasma fluid model and lossless transmission line is presented. It consists of a transmission line model based on the theory of Riemann invariants for hyperbolic laws, a zero-dimensional two-temperature plasma reactor with detailed non-equilibrium air plasma chemistry and attending load circuit model, and a novel numerical method that enables accurate coupling of ordinary differential equations that describe voltage and current at the load of arbitrary complexity to zero- and multi-dimensional plasma simulators. The framework is demonstrated for nanosecond pulsed discharges and shown to enable the simulation of realistic voltage waveforms and energy coupling to the plasma without any user-defined input beyond circuit parameters. Simulations show that a Gaussian pulse of sufficient duration is required for the plasma channel to become conductive. For such configurations, as the current increases abruptly, the voltage on the load drops, bringing the plasma discharge to a conclusion. Consequently, we find that energy transfer to the plasma occurs a...",
+      "authors": [
+        "Fabrizio Bisetti",
+        "Alfredo J. Duarte"
+      ]
+    },
+    {
+      "title": "Enabling Low-Temperature (LTP) Ignition Technologies for Multi-Mode Engines through the Development of a Validated High-Fidelity LTP Model for Predicative Simulations Tools",
+      "publication_year": 2025,
+      "publication_date": "2025-01-31",
+      "doi": "https://doi.org/10.2172/2567488",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/2567488",
+      "concepts": [
+        "Long-term potentiation",
+        "Fidelity",
+        "Ignition system",
+        "Predicative expression",
+        "High fidelity",
+        "Computer science",
+        "Engineering",
+        "Chemistry"
+      ],
+      "abstract": "The goal of multi-mode engine architectures is to extend current lean-burn dilution limits with renewable fuels, which requires spark plugs to deposit high energies (hundreds of mJ) in order to initiate ignition and complete combustion. At elevated energy deposition rates, spark plugs experience increased electrode erosion and thermal losses, which ultimately shortens the spark-plug lifetime and lowers ignition efficiency. As such, in order to safeguard the efficiency gains of multi-mode concepts, new and improved ignition technologies are required. Recently, non-equilibrium low-temperature plasmas (LTP) have been shown to promote energy-efficient ignition via quenching and transport of electronically excited atoms and molecules, selective radical production and fast heating of hydrocarbon/air mixtures [1-2]. Thus, LTP is seen as a technology that can potentially improve the energy extraction efficiency of fuels, while enabling kinetically controlled combustion modes towards fuel leaner conditions to realize current DOE VTO goals of improving the sustainability of future mobility [3]. Although many previous studies have demonstrated the efficacy of plasma-assisted ignition to en...",
+      "authors": [
+        "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Vehicle Technologies Office (VTO)",
+        "Nicholas Tsolas",
+        "Auburn Univ., AL (United States)",
+        "Fabrizio Bisetti",
+        "Issac Ekoto",
+        "Riccardo Scarcelli"
+      ]
+    }
+  ]
+}

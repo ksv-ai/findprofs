@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Mark Drela",
+  "full_name": "Mark Drela",
+  "department": "Department of Aeronautics and Astronautics",
+  "university": "Massachusetts Institute of Technology",
+  "author_id": "A5038168295",
+  "works_count": 159,
+  "cited_by_count": 7846,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 68
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 38
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 22
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "XFOIL: An Analysis and Design System for Low Reynolds Number Airfoils",
+      "publication_year": 1989,
+      "publication_date": "1989-01-01",
+      "doi": "https://doi.org/10.1007/978-3-642-84010-4_1",
+      "venue": "Lecture notes in engineering",
+      "type": "book-chapter",
+      "cited_by_count": 2429,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Airfoil",
+        "Boundary layer",
+        "Laminar flow",
+        "Reynolds number",
+        "Mechanics",
+        "Mathematics",
+        "Flow separation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mark Drela"
+      ]
+    },
+    {
+      "title": "Viscous-inviscid analysis of transonic and low Reynolds number airfoils",
+      "publication_year": 1987,
+      "publication_date": "1987-10-01",
+      "doi": "https://doi.org/10.2514/3.9789",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1098,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Transonic",
+        "Airfoil",
+        "Reynolds number",
+        "Mathematics",
+        "Boundary layer",
+        "Mechanics",
+        "Euler equations"
+      ],
+      "abstract": "A method of accurately calculating transonic and low Reynolds number airfoil flows, implemented in the viscous-inviscid design/analysis code ISES, is presented. The Euler equations are discretized on a conservative streamline grid and are strongly coupled to a two-equation integral boundary-layer formulation, using the displacement thickness concept. A transition prediction formulation of the e9 type is derived and incorporated into the viscous formulation. The entire discrete equation set, including the viscous and transition formulations, is solved as a fully coupled nonlinear system by a global Newton method. This is a rapid and reliable method for dealing with strong viscous-inviscid interactions, which invariably occur in transonic and low Reynolds number airfoil flows. The results presented demonstrate the ability of the ISES code to predict transitioning separation bubbles and their associated losses. The rapid airfoil performance degradation with decreasing Reynolds number is thus accurately predicted. Also presented is a transonic airfoil calculation involving shock-induced separation, showing the robustness of the global Newton solution procedure. Good agreement with e...",
+      "authors": [
+        "Mark Drela",
+        "Michael B. Giles"
+      ]
+    },
+    {
+      "title": "Power Balance in Aerodynamic Flows",
+      "publication_year": 2009,
+      "publication_date": "2009-06-11",
+      "doi": "https://doi.org/10.2514/1.42409",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": true,
+      "oa_url": "https://dspace.mit.edu/bitstreams/5b44a9a6-aad9-4eb9-bf35-914843d8d188/download",
+      "concepts": [
+        "Aerodynamics",
+        "Balance (ability)",
+        "Mechanics",
+        "Aerospace engineering",
+        "Power (physics)",
+        "Computational fluid dynamics",
+        "Environmental science",
+        "Physics"
+      ],
+      "abstract": "A control volume analysis of the compressible viscous flow about an aircraft is performed,including integrated propulsors and flow control systems. In contrast to most past analyses which have focused on forces and momentum flow, in particular thrust and drag, the present analysis focuses on mechanical power and kinetic energy flow. The result is a clear identification and quantification of all the power sources, power sinks, and their interactions which are present in any aerodynamic flow. The formulation does not require any separate definitions of thrust and drag, and hence it is especially useful for analysis and optimization of aerodynamic configurations which have tightly integrated propulsion and boundary layer control systems.",
+      "authors": [
+        "Mark Drela"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Testing of a Ducted-Fan Blown Lift Aircraft Concept",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4271",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lift (data mining)",
+        "Engineering",
+        "Marine engineering",
+        "Environmental science",
+        "Geology",
+        "Computer science",
+        "Work (physics)",
+        "Mechanical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Trevor Long",
+        "Mark Drela",
+        "Brenda Chow",
+        "Aaron Vliet",
+        "Benjamin Levy",
+        "Arianee Contreras",
+        "Taras Yushchenko",
+        "Jason Li",
+        "Nidhi Nair",
+        "Isabella Ortiz"
+      ]
+    },
+    {
+      "title": "Landing Trajectory Planning for Ultra-STOL Aircraft Subjected to Disturbances",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2069",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Takeoff",
+        "Takeoff and landing",
+        "Control theory (sociology)",
+        "Trajectory",
+        "Controllability",
+        "Lift (data mining)",
+        "Aerodynamics",
+        "Engineering"
+      ],
+      "abstract": "This paper investigates the limits of controllability of ultra Short Takeoff and Landing (uSTOL) aircraft, focusing on precision landing approaches at very low airspeeds. These landings require extremely high lift coefficients enabled by blown lift resulting in highly nonlinear and power-dependent aerodynamic characteristics and flight far on the back side of the power curve. Additionally, the low speeds make uSTOL aircraft highly sensitive to gusts and any control compensation; effects further complicated by the blown-lift aerodynamics. The paper will use nonlinear trajectory optimization to determine the best possible trajectories within physical limits assuming perfect knowledge of the disturbance field. The objective is to inform the design of uSTOL landing control systems which will reduce the dispersion from gusts and other perturbations to acceptable levels.",
+      "authors": [
+        "Trevor Long",
+        "Mark Drela",
+        "Demet Ulker"
+      ]
+    },
+    {
+      "title": "PVU: A Medium-Order Finite Element Panel Method",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2300",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Mathematics",
+        "Discretization",
+        "Finite element method",
+        "Quadrilateral",
+        "Polygon mesh",
+        "Interpolation (computer graphics)",
+        "Bilinear interpolation"
+      ],
+      "abstract": "A new type of Panel-Vertex-Unstructured (PVU) method is presented, which combines an established Morino-type source+doublet Dirichlet formulation with modern finite-element solution techniques for completely arbitrary unstructured meshes. The discretization uses nodal variables and bilinear interpolation over elements, and a Galerkin weighted-residual integration is used to construct the discrete residuals at the nodes, thus allowing any unstructured mix of triangular and quadrilateral elements. Numerical differentiation for the surface velocity and pressure calculation also uses a finite element weighted-residual approach, and is also applicable to any unstructured mesh topology. Compressibility is handled by a standard Prandtl-Glauert treatment. A two-layer wake formulation enables evaluation of wake velocities with the finite-element based method, simplifying strong boundary layer coupling. The two-layer wake also simplifies propulsor jet modeling. In lieu of the constant-strength ``wake strip'' structured-mesh treatment of traditional panel methods, the wake zero pressure jump convective equation is solved on the wake using a Petrov-Galerkin weighted residual discretization....",
+      "authors": [
+        "Mark Drela",
+        "Demet Ulker",
+        "Harold Youngren"
+      ]
+    },
+    {
+      "title": "TASOPT.jl: A Julia package for conceptual commercial transport aircraft design",
+      "publication_year": 2025,
+      "publication_date": "2025-09-03",
+      "doi": "https://doi.org/10.21105/joss.08521",
+      "venue": "The Journal of Open Source Software",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://joss.theoj.org/papers/10.21105/joss.08521.pdf",
+      "concepts": [
+        "Package design",
+        "R package",
+        "Computer science",
+        "Systems engineering",
+        "Engineering",
+        "Programming language"
+      ],
+      "abstract": "Aircraft design is a multidisciplinary field that spans aerodynamics, structures, thermodynamics and propulsion.Prior approaches to this problem have consisted of historical correlations, empirical drag and simplified propulsion system models (Raymer, 2018;Roskam, 2002;Torenbeek, 1982).TASOPT, originally written in FORTRAN and developed by Mark Drela (Drela, 2011;Greitzer et al., 2010), took the approach of basing the aerodynamic, propulsion, and weight estimates on low-order models built on first-principles structural, aerodynamic, thermodynamic theory to the extent possible.This approach gives confidence that optimized aircraft designs generated by the program are not spurious artifacts of inappropriately extrapolated empirical data.This package, TASOPT.jl, is a modern, Julia based implementation of the same principles, written with the goal of extensibility in mind.The current package leverages open source Julia packages where useful to provide an easy-to-read and maintain software.TASOPT.jlalso introduces additional functionality such as capability to model some forms of hydrogen fuel aircraft.In addition, the software allows users to connect it with other aircraft propulsio...",
+      "authors": [
+        "Prakash Prashanth",
+        "Nicolas Gomez-Vega",
+        "Sicheng He",
+        "Aditeya Shukla",
+        "Jonas Gonzalez",
+        "Diego Salgado Bobadilla",
+        "Kanghyun Lee",
+        "Prateek Ranjan",
+        "Sayed Shayan Zahid",
+        "James Abel",
+        "Mark Drela",
+        "Raymond L. Speth"
+      ]
+    },
+    {
+      "title": "Announcements and Acknowledgments",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2514/1.c037770",
+      "venue": "Journal of Aircraft",
+      "type": "editorial",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/1.C037770",
+      "concepts": [
+        "Aeronautics",
+        "Aerospace engineering",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "Aircraft (JA) since it was founded in 1964.That decade also saw the beginnings of large-scale computing which, after decades of exponential growth in computational power, is now woven into virtually all aspects of aeronautical engineering.Nevertheless, the article topics in the 1964 JA issues will seem familiar to most present readers: aircraft safety, drag reduction and laminar flow, propulsion noise, VTOL and STOL aerodynamics, structural design optimization, wind tunnel and flight test methods, handling qualities, etc.Perhaps this is not surprising, because although computation and aircraft technology has greatly evolved, the physics which underlies this technology has not changed.The original impetus for JAadvancement of the applied science and technology of airborne flight-therefore remains as strong as ever.To better fit the mission of the JA, its topic list has been modestly adjusted to better harmonize it and to generally reduce its overlap with other journals of the AIAA.This involved considerable input from the JA Associate Editors, and from the Editors in Chief of the other journals.About ten JA topics were removed because they directly overlapped with those of the re...",
+      "authors": [
+        "Mark Drela"
+      ]
+    }
+  ]
+}

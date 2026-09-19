@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Mark W. Mueller",
+  "full_name": "Mark W. Mueller",
+  "department": "Department of Mechanical Engineering / Aerospace Engineering Program",
+  "university": "University of California-Berkeley",
+  "author_id": "A5009591368",
+  "works_count": 108,
+  "cited_by_count": 3039,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 40
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 24
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 13
+    },
+    {
+      "topic": "Robotic Locomotion and Control",
+      "count": 12
+    },
+    {
+      "topic": "Control and Dynamics of Mobile Robots",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The Flight Assembled Architecture installation: Cooperative construction with flying machines",
+      "publication_year": 2014,
+      "publication_date": "2014-07-11",
+      "doi": "https://doi.org/10.1109/mcs.2014.2320359",
+      "venue": "IEEE Control Systems",
+      "type": "article",
+      "cited_by_count": 309,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Architecture",
+        "Exhibition",
+        "Engineering",
+        "Dependability",
+        "Architectural engineering",
+        "Tower",
+        "Robot",
+        "Robustness (evolution)"
+      ],
+      "abstract": "The art installation Flight Assembled Architecture [1] is one of the first structures built by flying vehicles. Culminating in a 6-m-tall tower composed of 1500 foam modules (see Figures 1 and 2), the installation was assembled by four quadrocopters in 18 hours during a four-day-long live exhibition at the Fonds R?gional d'Art Contemporain (Regional Contemporary Art Fund) du Centre in Orl?ans, France. This article documents the design and development of specific elements of the autonomous system behind this one-of-a-kind installation and describes the process and challenges of bringing such a complex system out of the laboratory and into the public realm, where live demonstration and human-in-the-loop interaction demand high levels of robustness, dependability, and safety. The installation is a 1:100 scale model of what was originally conceived of as a 600 m-high vertical village (see \"The Vertical Village\" for details) and is an exploration of aerial construction in architecture. Architects have been exploring the use of digital technologies for the design and assembly of structures for some time now, and many facilities for investigating nonstandard architectural design and fa...",
+      "authors": [
+        "Frederico Augugliaro",
+        "Sergei Lupashin",
+        "Michael Hamer",
+        "Cason Male",
+        "Markus Hehn",
+        "Mark W. Mueller",
+        "Jan Willmann",
+        "Fabio Gramazio",
+        "Matthias Köhler",
+        "Raffaello D’Andrea"
+      ]
+    },
+    {
+      "title": "Fusing ultra-wideband range measurements with accelerometers and rate gyroscopes for quadrocopter state estimation",
+      "publication_year": 2015,
+      "publication_date": "2015-05-01",
+      "doi": "https://doi.org/10.1109/icra.2015.7139421",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 204,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Accelerometer",
+        "Gyroscope",
+        "Wideband",
+        "Estimator",
+        "Airspeed",
+        "Rotor (electric)",
+        "Control theory (sociology)",
+        "Ranging"
+      ],
+      "abstract": "A state estimator for a quadrocopter is presented, using measurements from an accelerometer, angular rate gyroscope, and a set of ultra-wideband ranging radios. The estimator uses an extended aerodynamic model for the quadrocopter, where the full 3D airspeed is observable through accelerometer measurements. The remaining quadrocopter states, including the yaw orientation, are rendered observable by fusing ultra-wideband range measurements, under the assumption of no wind. The estimator is implemented on a standard microcontroller using readily-available, low-cost sensors. Performance is experimentally investigated in a variety of scenarios, where the quadrocopter is flown under feedback control using the estimator output.",
+      "authors": [
+        "Mark W. Mueller",
+        "Michael Hamer",
+        "Raffaello D’Andrea"
+      ]
+    },
+    {
+      "title": "Relaxed hover solutions for multicopters: Application to algorithmic redundancy and novel vehicles",
+      "publication_year": 2015,
+      "publication_date": "2015-10-06",
+      "doi": "https://doi.org/10.1177/0278364915596233",
+      "venue": "The International Journal of Robotics Research",
+      "type": "article",
+      "cited_by_count": 133,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Controllability",
+        "Redundancy (engineering)",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Position (finance)",
+        "Computer science",
+        "Propeller",
+        "Engineering"
+      ],
+      "abstract": "This paper presents a relaxed definition of hover for multicopters with propellers pointing in a common direction. These solutions are found by requiring that the multicopter remain substantially in one position, and that the solutions be constant when expressed in a coordinate system attached to the vehicle. The vehicle’s angular velocity is then shown to be either zero or parallel to gravity. The controllability of a vehicle’s attitude about these solutions is then investigated. These relaxed hover solutions may be applied as an algorithmic failsafe, allowing, for example, a quadrocopter to fly despite the complete loss of one, two, or three of its propellers. Experimental results validate the quadrocopter failsafe for two types of failure (a single propeller and two opposing propellers failing), and a nonlinear simulation validates the remaining two types of failure (two adjacent and three propellers failing). The relaxed hover solutions are also shown to allow a multicopter to maintain flight in spite of extreme center of mass offsets. Finally, the design and experimental validation of three novel vehicles is presented.",
+      "authors": [
+        "Mark W. Mueller",
+        "Raffaello D’Andrea"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Energy-Efficient Collaborative Transport of Tether-Suspended Payloads via Rotating Equilibrium",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.48550/arxiv.2603.06955",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.06955",
+      "concepts": [
+        "Thrust",
+        "Lift (data mining)",
+        "Aerospace engineering",
+        "Range (aeronautics)",
+        "Aerodynamics",
+        "Propulsion",
+        "Aerodynamic force",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Collaborative aerial transportation of tethered payloads is fundamentally limited by space, power, and weight constraints. Conventional approaches rely on static equilibrium conditions, where each vehicle tilts to generate the forces that ensure they maintain a formation geometry that avoids aerodynamic interactions and collision. This horizontal thrust component represents a significant energy penalty compared to the ideal case in which each vehicle produces purely vertical thrust to lift the payload. Operating in tighter tether configurations can minimize this effect, but at the cost of either having to fly the vehicles in closer proximity, which risks collision, or significantly increasing the length of the tether, which increases complexity and reduces potential use-cases. We propose operating the tether-suspended flying system at a rotating equilibrium. By maintaining steady circular motion, centrifugal forces provide the necessary horizontal tether tension, allowing each quadrotor to generate purely vertical thrust and thus reducing the total force (and power) required compared to an equilibrium where the thrusts are not vertical. It also allows for a wider range of tether...",
+      "authors": [
+        "Eric Foss",
+        "Andrew Tai",
+        "Carlo Bosio",
+        "Mark W. Mueller"
+      ]
+    },
+    {
+      "title": "Energy-Efficient Collaborative Transport of Tether-Suspended Payloads via Rotating Equilibrium",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://arxiv.org/abs/2603.06955",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.06955",
+      "concepts": [
+        "Thrust",
+        "Lift (data mining)",
+        "Aerospace engineering",
+        "Range (aeronautics)",
+        "Aerodynamics",
+        "Propulsion",
+        "Aerodynamic force",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Collaborative aerial transportation of tethered payloads is fundamentally limited by space, power, and weight constraints. Conventional approaches rely on static equilibrium conditions, where each vehicle tilts to generate the forces that ensure they maintain a formation geometry that avoids aerodynamic interactions and collision. This horizontal thrust component represents a significant energy penalty compared to the ideal case in which each vehicle produces purely vertical thrust to lift the payload. Operating in tighter tether configurations can minimize this effect, but at the cost of either having to fly the vehicles in closer proximity, which risks collision, or significantly increasing the length of the tether, which increases complexity and reduces potential use-cases. We propose operating the tether-suspended flying system at a rotating equilibrium. By maintaining steady circular motion, centrifugal forces provide the necessary horizontal tether tension, allowing each quadrotor to generate purely vertical thrust and thus reducing the total force (and power) required compared to an equilibrium where the thrusts are not vertical. It also allows for a wider range of tether...",
+      "authors": [
+        "Eric Foss",
+        "Andrew Tai",
+        "Carlo Bosio",
+        "Mark W. Mueller"
+      ]
+    },
+    {
+      "title": "Kalman Filter-Based Drift Detection and Mitigation of Visual-Inertial Odometry in UAVs",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.23919/acc63710.2025.11107817",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Odometry",
+        "Kalman filter",
+        "Computer vision",
+        "Computer science",
+        "Artificial intelligence",
+        "Extended Kalman filter",
+        "Inertial measurement unit",
+        "Simultaneous localization and mapping"
+      ],
+      "abstract": "We present a conceptual framework for an autonomous safety mechanism designed to enhance the reliability of Unmanned Aerial Vehicles (UAVs) that use Visual-Inertial Odometry (VIO) for state estimation. As UAVs increasingly interact with the public, such safety mechanisms are crucial to reducing the likelihood and severity of accidents. VIO drift, which occurs when accumulated estimation errors cause discrepancies between the UAV’s perceived and actual position, poses a significant risk to safe operation. To address this challenge, we propose a Kalman filter-based approach for detecting VIO drift events. Upon detection, the envisioned safety mechanism is designed to adjust state estimation by integrating onboard gyroscope measurements and thrust commands for short durations, aiming to enhance stability and prevent potential crashes before initiating a controlled landing. While this framework provides the foundation for a real-time safety mechanism, the implementation and experiment focus on validating the drift detection component in an offline setting using real UAV flight data. The results demonstrate the effectiveness of the detection method in identifying VIO drift scenarios,...",
+      "authors": [
+        "Roman Ibrahimov",
+        "Teaya Yang",
+        "Mark W. Mueller"
+      ]
+    },
+    {
+      "title": "UCAirLink: A Vertical Takeoff and Landing-Based Air Transportation System for Optimizing Commuter Efficiency",
+      "publication_year": 2025,
+      "publication_date": "2025-05-20",
+      "doi": "https://doi.org/10.4050/f-0081-2025-0196",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Takeoff",
+        "Takeoff and landing",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Environmental science",
+        "Computer science",
+        "Marine engineering",
+        "Automotive engineering"
+      ],
+      "abstract": "Vertical lift technologies present a promising solution for civil transportation between separated metropolitan and urban regions. This paper introduces the University of California Air transportation Link (UCAirLink), an electric vertical takeoff and landing (eVTOL)-based air transportation system for reducing overall commute times between regions. By leveraging flight operations in the National Airspace System (NAS), the UCAirLink connects the four northernmost University of California (UC) or the Center for Information Technology Research in the Interest of Society and the Banatao Institute (CITRIS) campuses. The UCAirLink addresses key aspects of urban air mobility (UAM) including optimal vehicle selection, infrastructure design, and flight route planning given regulations from the Federal Aviation Administration (FAA). A detailed trade study is presented for the selection of an optimal eVTOL aircraft. The eVTOL's flight routes cruise primarily in Class E and G airspaces to adhere to FAA flight regulations and ensure safe passenger-operations. Preliminary analysis shows a threefold reduction in overall travel time compared to traditional ground-based transportation modes, wi...",
+      "authors": [
+        "Leire Roma Rubi",
+        "Jordan Kam",
+        "Rain Luo",
+        "Jerry Yang",
+        "Zheng Xi",
+        "Enyang Zou",
+        "Ting-Hao Wang",
+        "Mark W. Mueller"
+      ]
+    },
+    {
+      "title": "Duawlfin: A Drone with Unified Actuation for Wheeled Locomotion and Flight Operation",
+      "publication_year": 2025,
+      "publication_date": "2025-05-20",
+      "doi": "https://doi.org/10.48550/arxiv.2505.13836",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.13836",
+      "concepts": [
+        "Propulsion",
+        "Drivetrain",
+        "Actuator",
+        "Drone",
+        "Automotive engineering",
+        "Computer science",
+        "Power (physics)",
+        "Engineering"
+      ],
+      "abstract": "This paper presents Duawlfin, a drone with unified actuation for wheeled locomotion and flight operation that achieves efficient, bidirectional ground mobility. Unlike existing hybrid designs, Duawlfin eliminates the need for additional actuators or propeller-driven ground propulsion by leveraging only its standard quadrotor motors and introducing a differential drivetrain with one-way bearings. This innovation simplifies the mechanical system, significantly reduces energy usage, and prevents the disturbance caused by propellers spinning near the ground, such as dust interference with sensors. Besides, the one-way bearings minimize the power transfer from motors to propellers in the ground mode, which enables the vehicle to operate safely near humans. We provide a detailed mechanical design, present control strategies for rapid and smooth mode transitions, and validate the concept through extensive experimental testing. Flight-mode tests confirm stable aerial performance comparable to conventional quadcopters, while ground-mode experiments demonstrate efficient slope climbing (up to 30°) and agile turning maneuvers approaching 1g lateral acceleration. The seamless transitions be...",
+      "authors": [
+        "Jerry Tang",
+        "Rui Zhang",
+        "Kaan Beyduz",
+        "Yiwei Jiang",
+        "Cody Wiebe",
+        "Haoyu Zhang",
+        "Osaruese Asoro",
+        "Mark W. Mueller"
+      ]
+    }
+  ]
+}

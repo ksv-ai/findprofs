@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Camilo Riano-Rios",
+  "full_name": "Camilo Riano-Rios",
+  "department": "Department of Aerospace, Physics and Space Sciences",
+  "university": "Florida Institute of Technology",
+  "author_id": "A5087944428",
+  "works_count": 12,
+  "cited_by_count": 89,
+  "h_index": 4,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 8
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 8
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 5
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 4
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic and gravity gradient based attitude control for CubeSats in the presence of environmental and spacecraft uncertainties",
+      "publication_year": 2020,
+      "publication_date": "2020-12-31",
+      "doi": "https://doi.org/10.1016/j.actaastro.2020.12.038",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 26,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.actaastro.2020.12.038",
+      "concepts": [
+        "Spacecraft",
+        "CubeSat",
+        "Control theory (sociology)",
+        "Attitude control",
+        "Aerospace engineering",
+        "Aerodynamics",
+        "Drag",
+        "Quaternion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Camilo Riano-Rios",
+        "Runhan Sun",
+        "Riccardo Bevilacqua",
+        "Warren E. Dixon"
+      ]
+    },
+    {
+      "title": "Differential drag-based multiple spacecraft maneuvering and on-line parameter estimation using integral concurrent learning",
+      "publication_year": 2020,
+      "publication_date": "2020-05-10",
+      "doi": "https://doi.org/10.1016/j.actaastro.2020.04.059",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.actaastro.2020.04.059",
+      "concepts": [
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Lyapunov function",
+        "Controller (irrigation)",
+        "Acceleration",
+        "Aerospace engineering",
+        "Nonlinear system",
+        "Drag"
+      ],
+      "abstract": "",
+      "authors": [
+        "Camilo Riano-Rios",
+        "R. Bevilacqua",
+        "Warren E. Dixon"
+      ]
+    },
+    {
+      "title": "Adaptive control for differential drag-based rendezvous maneuvers with an unknown target",
+      "publication_year": 2020,
+      "publication_date": "2020-03-19",
+      "doi": "https://doi.org/10.1016/j.actaastro.2020.03.011",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 20,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.actaastro.2020.03.011",
+      "concepts": [
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Rendezvous",
+        "Controller (irrigation)",
+        "Lyapunov function",
+        "Drag",
+        "Differential (mechanical device)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Camilo Riano-Rios",
+        "Riccardo Bevilacqua",
+        "Warren E. Dixon"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Radial-Basis-Function-Neural-Network–Based Adaptive Attitude Control with Reaction Wheel Health Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-27",
+      "doi": "https://doi.org/10.2514/1.g009838",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Attitude control",
+        "Computer science",
+        "Estimation",
+        "Control (management)",
+        "Reaction wheel",
+        "Adaptive control",
+        "Control engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Morokot Sakal",
+        "George Nehma",
+        "Camilo Riano-Rios",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "Adaptive Controller for Simultaneous Spacecraft Attitude Tracking and Reaction Wheel Fault Detection",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "https://doi.org/10.2514/1.a36424",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2504.12124",
+      "concepts": [
+        "Control theory (sociology)",
+        "Reaction wheel",
+        "Spacecraft",
+        "Actuator",
+        "Controller (irrigation)",
+        "Adaptive control",
+        "Computer science",
+        "Tracking (education)"
+      ],
+      "abstract": "The attitude control of a spacecraft is integral to achieving mission success. However, failures in actuators such as reaction wheels are detrimental and can often lead to an early end of mission. We propose a Lyapunov-based adaptive controller that can estimate and compensate for reaction wheels degradation simultaneously. The controller incorporates an adaptive update control law with a gradient-based term and an integral concurrent learning term that collects input/output data for online estimation of uncertain parameters. The proposed controller guarantees attitude tracking and minimal loss of control authority under faulty reaction wheel performance. The controllers performance is tested through a variety of numerical simulations as well as a software-in-the-loop test, where the adaptive controller is run in Python via ROS2, while the environment is simulated in Simulink.",
+      "authors": [
+        "George Nehma",
+        "Camilo Riano-Rios",
+        "Morokot Sakal",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "Adaptive Controller for Simultaneous Spacecraft Attitude Tracking and Reaction Wheel Fault Detection",
+      "publication_year": 2026,
+      "publication_date": "2026-03-23",
+      "doi": "https://doi.org/10.2514/1.a36424",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Reaction wheel",
+        "Spacecraft",
+        "Actuator",
+        "Computer science",
+        "Attitude control",
+        "Adaptive control",
+        "Fault tolerance"
+      ],
+      "abstract": "The attitude control of a spacecraft is integral to achieving mission success. However, failures in actuators such as reaction wheels are detrimental and can often lead to an early end of mission. We propose a Lyapunov-based adaptive controller that can estimate and compensate for reaction wheels degradation simultaneously. The controller incorporates an adaptive update control law with a gradient-based term and an integral concurrent learning term that collects input/output data for online estimation of uncertain parameters. The proposed controller guarantees attitude tracking and minimal loss of control authority under faulty reaction wheel performance. The controllers performance is tested through a variety of numerical simulations as well as a software-in-the-loop test, where the adaptive controller is run in Python via ROS2, while the environment is simulated in Simulink.",
+      "authors": [
+        "George Nehma",
+        "Camilo Riano-Rios",
+        "Morokot Sakal",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "DreamLander: A 6-DOF World Model Based Reinforcement Learning Planetary Lander",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1035",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Descent (aeronautics)",
+        "Optimal control",
+        "Gradient descent",
+        "Range (aeronautics)",
+        "Variety (cybernetics)",
+        "Process (computing)",
+        "Soft landing"
+      ],
+      "abstract": "Soft powered descent landings are becoming evermore important in the field of space exploration and scientific advancement, because of their ability to deliver mission critical payloads, both highly accurately and safely. The high efficiency restriction on planetary landings due to the severely limited fuel supply results in the need for optimal guidance trajectories and control. Model based reinforcement learning is proving to be an important tool in simplifying the highly complex process of generating optimal guidance trajectories and control. In this work, we present DreamLander, a state of the art model based reinforcement learning algorithm based on DreamerV3, to generate optimal guidance and control for a realistic 6 degree of freedom entry descent landing problem. The model based approach creates a sample efficient and highly generalizable model that can be applied to a variety of scenarios whilst maintaining a high degree of accuracy, landing within 2 meters of the designated landing zone, and with velocity norm less than 0.3 meters per second. DreamLander makes use of state sensor observations, making progress toward End-to-End solutions of the Entry Descent Landing pro...",
+      "authors": [
+        "George Nehma",
+        "Patrick D. Quinn",
+        "Madhur Tiwari",
+        "Camilo Riano-Rios"
+      ]
+    },
+    {
+      "title": "Real-Time Estimation of Drag-Based Parameters in LEO via Adaptive Control and Sparse Identification",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2625",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Computer science",
+        "Adaptive control",
+        "Nonlinear system",
+        "Spacecraft",
+        "Controller (irrigation)",
+        "Identification (biology)",
+        "Convergence (economics)"
+      ],
+      "abstract": "Estimating drag-related parameters in Low Earth Orbit (LEO) remains a challenge due to uncertainties in atmospheric models and spacecraft physical properties. This paper takes inspiration from the Sparse Identification of Nonlinear Dynamics (SINDy) technique from Machine Learning (ML) to propose a Concurrent Learning-based adaptation law, modified with a Bregman divergence-derived term, that learns the experienced differential drag when modeled as a large collection of nonlinear functions with unknown coefficients, while ensuring tracking of desired relative orbital states between a chaser and a target spacecraft. The stability of the controller is assessed via Lyapunov-based stability analysis and performance evaluated through numerical simulations. The numerical results show that the proposed controller can simultaneously ensure relative states tracking and identify a sparse representation of the differential drag acceleration in the LVLH frame. This work combines traditional adaptive control with an ML-based strategy to enable real-time identification with convergence guarantees, making the framework well-suited for safety-critical aerospace applications where large datasets ...",
+      "authors": [
+        "Morokot Sakal",
+        "Camilo Riano-Rios",
+        "Madhur Tiwari"
+      ]
+    }
+  ]
+}

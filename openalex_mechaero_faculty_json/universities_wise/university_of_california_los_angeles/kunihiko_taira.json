@@ -1,0 +1,266 @@
+{
+  "faculty_name": "Kunihiko Taira",
+  "full_name": "Kunihiko Taira",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5035955909",
+  "works_count": 296,
+  "cited_by_count": 8703,
+  "h_index": 38,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 188
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 100
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 67
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 55
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 54
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Three-dimensional flows around low-aspect-ratio flat-plate wings at low Reynolds numbers",
+      "publication_year": 2009,
+      "publication_date": "2009-03-06",
+      "doi": "https://doi.org/10.1017/s0022112008005314",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 400,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Reynolds number",
+        "Vortex shedding",
+        "Vortex",
+        "Stall (fluid mechanics)",
+        "Mechanics",
+        "Angle of attack",
+        "Vortex lift"
+      ],
+      "abstract": "Three-dimensional flows over impulsively translated low-aspect-ratio flat plates are investigated for Reynolds numbers of 300 and 500, with a focus on the unsteady vortex dynamics at post-stall angles of attack. Numerical simulations, validated by an oil tow-tank experiment, are performed to study the influence of aspect ratio, angle of attack and planform geometry on the wake vortices and the resulting forces on the plate. Immediately following the impulsive start, the separated flows create wake vortices that share the same topology for all aspect ratios. At large time, the tip vortices significantly influence the vortex dynamics and the corresponding forces on the wings. Depending on the aspect ratio, angle of attack and Reynolds number, the flow at large time reaches a stable steady state, a periodic cycle or aperiodic shedding. For cases of high angles of attack, an asymmetric wake develops in the spanwise direction at large time. The present results are compared to higher Reynolds number flows. Some non-rectangular planforms are also considered to examine the difference in the wakes and forces. After the impulsive start, the time at which maximum lift occurs is fairly cons...",
+      "authors": [
+        "Kunihiko Taira",
+        "Tim Colonius"
+      ]
+    },
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Super-resolution reconstruction of turbulent flows with machine learning",
+      "publication_year": 2019,
+      "publication_date": "2019-05-07",
+      "doi": "https://doi.org/10.1017/jfm.2019.238",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 826,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1811.11328",
+      "concepts": [
+        "Turbulence",
+        "Computer science",
+        "Laminar flow",
+        "Convolutional neural network",
+        "Artificial intelligence",
+        "Flow (mathematics)",
+        "Machine learning",
+        "Algorithm"
+      ],
+      "abstract": "We use machine learning to perform super-resolution analysis of grossly under-resolved turbulent flow field data to reconstruct the high-resolution flow field. Two machine learning models are developed, namely, the convolutional neural network (CNN) and the hybrid downsampled skip-connection/multi-scale (DSC/MS) models. These machine learning models are applied to a two-dimensional cylinder wake as a preliminary test and show remarkable ability to reconstruct laminar flow from low-resolution flow field data. We further assess the performance of these models for two-dimensional homogeneous turbulence. The CNN and DSC/MS models are found to reconstruct turbulent flows from extremely coarse flow field images with remarkable accuracy. For the turbulent flow problem, the machine-leaning-based super-resolution analysis can greatly enhance the spatial resolution with as little as 50 training snapshot data, holding great potential to reveal subgrid-scale physics of complex turbulent flows. With the growing availability of flow field data from high-fidelity simulations and experiments, the present approach motivates the development of effective super-resolution models for a variety of fl...",
+      "authors": [
+        "Kai Fukami",
+        "Koji Fukagata",
+        "Kunihiko Taira"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Weak Dominant Balance for Robust Identification of Dynamically Consistent Fluid Flow Structure",
+      "publication_year": 2026,
+      "publication_date": "2026-06-27",
+      "doi": "https://doi.org/10.48550/arxiv.2606.29047",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.29047",
+      "concepts": [
+        "Identification (biology)",
+        "Computer science",
+        "Noise (video)",
+        "Proper orthogonal decomposition",
+        "Flow (mathematics)",
+        "Partial differential equation",
+        "Applied mathematics",
+        "Obstacle"
+      ],
+      "abstract": "Extracting interpretable, localized physical mechanisms from complex spatiotemporal data is a foundational challenge across physics, biology, and engineering, but has remained out of reach on real measurements. The central obstacle is obtaining high-quality gradients of data via numerical differentiation, which amplifies noise, diverges for high-order equations, and falters on irregular geometries, limiting the scope of existing approaches to clean simulations of low-order systems. Here, we present weak dominant balance, a derivative-free framework that projects governing equations into a weak (integral) formulation, offloading differentiation onto smooth analytical test functions and leaving the data untouched. The method sustains accurate regime identification under severe noise where existing approaches categorically fail, delivers the first data-driven decomposition of a third-order partial differential equation applied to turbulent duct flow, and produces matching decompositions across direct numerical simulation and particle-image velocimetry measurements of a wavy channel flow, uncovering a previously uncharacterized dynamical regime. Weak dominant balance brings mechanis...",
+      "authors": [
+        "Samuel Ahnert",
+        "Esther Lagemann",
+        "H. Jane Bae",
+        "Kunihiko Taira",
+        "Ricardo Vinuesa",
+        "Christian Lagemann",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "Weak Dominant Balance for Robust Identification of Dynamically Consistent Fluid Flow Structure",
+      "publication_year": 2026,
+      "publication_date": "2026-06-27",
+      "doi": "https://arxiv.org/abs/2606.29047",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.29047",
+      "concepts": [
+        "Identification (biology)",
+        "Computer science",
+        "Noise (video)",
+        "Proper orthogonal decomposition",
+        "Flow (mathematics)",
+        "Partial differential equation",
+        "Applied mathematics",
+        "Obstacle"
+      ],
+      "abstract": "Extracting interpretable, localized physical mechanisms from complex spatiotemporal data is a foundational challenge across physics, biology, and engineering, but has remained out of reach on real measurements. The central obstacle is obtaining high-quality gradients of data via numerical differentiation, which amplifies noise, diverges for high-order equations, and falters on irregular geometries, limiting the scope of existing approaches to clean simulations of low-order systems. Here, we present weak dominant balance, a derivative-free framework that projects governing equations into a weak (integral) formulation, offloading differentiation onto smooth analytical test functions and leaving the data untouched. The method sustains accurate regime identification under severe noise where existing approaches categorically fail, delivers the first data-driven decomposition of a third-order partial differential equation applied to turbulent duct flow, and produces matching decompositions across direct numerical simulation and particle-image velocimetry measurements of a wavy channel flow, uncovering a previously uncharacterized dynamical regime. Weak dominant balance brings mechanis...",
+      "authors": [
+        "Samuel Ahnert",
+        "Esther Lagemann",
+        "H. Jane Bae",
+        "Kunihiko Taira",
+        "Ricardo Vinuesa",
+        "Christian Lagemann",
+        "Steven L. Brunton"
+      ]
+    },
+    {
+      "title": "Extreme vortex gust encounters by a square wing",
+      "publication_year": 2026,
+      "publication_date": "2026-06-25",
+      "doi": "https://doi.org/10.1017/jfm.2026.11728",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4D84B001CC425D60AD2A695C2C659905/S0022112026117285a.pdf/div-class-title-extreme-vortex-gust-encounters-by-a-square-wing-div.pdf",
+      "concepts": [
+        "Wing",
+        "Vortex",
+        "Horseshoe vortex",
+        "Downwash",
+        "Physics",
+        "Mechanics",
+        "Lift (data mining)",
+        "Vortex lift"
+      ],
+      "abstract": "Extreme gust encounters by finite wings with disturbance velocity exceeding their cruise speed remain largely unexplored, while being particularly relevant to miniature-scale aircraft. This study considers extreme aerodynamic flows around a square wing and the large, unsteady forces that result from gust encounters. We analyse the evolution of three-dimensional, large-scale vortical structures and their complex interactions with the wing by performing direct numerical simulations at a chord-based Reynolds number of 600. We find that a strong incoming positive gust vortex induces a prominent leading-edge vortex (LEV) on the upper surface of the wing, accompanied by tip vortices (TiVs) strengthened through the interaction. Conversely, a strong negative gust vortex induces an LEV on the lower surface of the wing and causes a reversal in TiV orientation. In both extreme vortex gust encounters, the wing experiences significant lift fluctuations. Furthermore, we identify two opposing effects of the TiVs on the large lift fluctuations. First, the enhanced or reversed TiVs contribute to significant lift surges or drops by generating large low-pressure cores near the wing. Second, the Ti...",
+      "authors": [
+        "Hiroto Odaka",
+        "Luke Smith",
+        "Kunihiko Taira"
+      ]
+    },
+    {
+      "title": "On the effect of airfoil geometry on extreme vortex-gust encounters",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1017/jfm.2026.11711",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/59A89249B15FEF6BE6BE16DFE114CB1A/S002211202611711Xa.pdf/div-class-title-on-the-effect-of-airfoil-geometry-on-extreme-vortex-gust-encounters-div.pdf",
+      "concepts": [
+        "Airfoil",
+        "Angle of attack",
+        "Lift (data mining)",
+        "Reynolds number",
+        "Mechanics",
+        "Aerodynamic center",
+        "Aerodynamics",
+        "Physics"
+      ],
+      "abstract": "Historically, investigations on gust encounters have been limited to thin airfoils. In this work, we examine vortex-gust encounters by a family of airfoils at a chord-based Reynolds number italic Re Subscript c Baseline equals 100 Re c = 100 ${\\textit{Re}}_c=100$ , which includes variations in the gust ratio, initial gust position, gust radius, angle of attack, airfoil thickness and airfoil camber. We examine differences in the flow fields, lift-element distributions and aerodynamic responses across several airfoil–gust interactions. We observe a large deviation of the flow fields and aerodynamic responses with respect to the baseline flows for increasing gust ratios and gust sizes. The initial position of the vortex gust influences the magnitude of the velocity gradients observed near the leading edge, effectively heightening or mitigating the amplitude of the lift response. Moreover, the lift fluctuation increases with the angle of attack until it flattens around 10 Superscript ring 10 ∘ $10^\\circ$ , reminiscent of an unsteady stall-like regime. Furthermore, we report a decrease in the amplitude of the gust-induced lift fluctuations for thicker airfoils, which we attribute to ...",
+      "authors": [
+        "Barbara Lopez-Doriga",
+        "Anya R. Magaña Jones",
+        "Kunihiko Taira"
+      ]
+    },
+    {
+      "title": "Forcing-informed resolvent analysis: Identification of input-output relations in self-sustained flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-18",
+      "doi": "https://doi.org/10.48550/arxiv.2606.19731",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.19731",
+      "concepts": [
+        "Resolvent",
+        "Forcing (mathematics)",
+        "Nonlinear system",
+        "Mathematics",
+        "Operator (biology)",
+        "Applied mathematics",
+        "Mathematical analysis",
+        "Boundary (topology)"
+      ],
+      "abstract": "We present a forcing-informed (FI) resolvent analysis framework to identify input-output relations for statistically stationary self-sustained unsteady flows. The central idea of this method is to inform the resolvent operator about the spatiotemporal structures of the nonlinear terms that act as exogenous forcing with respect to the mean flow. To construct the FI resolvent operator, we estimate the basis vectors for the input subspace spanned by forcing snapshots and, similarly, for the output subspace, from simulation data. The extracted FI response and forcing modes are expressed through the estimated bases of the output and input subspaces, respectively, and the singular values of the FI resolvent operator correspond to the actual output amplitudes. These properties ensure that the extracted modes are consistent with the actual self-sustained flow fields. Additionally, the forcing snapshots can be used to construct the linear operator, enabling a fully data-driven FI resolvent analysis. The proposed framework is validated using the Stuart-Landau oscillator and demonstrated for a two-dimensional cylinder wake and a three-dimensional transitional boundary layer. We successfull...",
+      "authors": [
+        "Yuta Iwatani",
+        "Kunihiko Taira",
+        "Soshi Kawai"
+      ]
+    }
+  ]
+}

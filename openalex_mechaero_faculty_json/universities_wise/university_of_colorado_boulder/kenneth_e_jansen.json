@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Kenneth E. Jansen",
+  "full_name": "Kenneth E. Jansen",
+  "department": "Ann and H.J. Smead Department of Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5069574368",
+  "works_count": 273,
+  "cited_by_count": 7991,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 134
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 75
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 45
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 37
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A stabilized finite element method for the incompressible Navier-Stokes equations using a hierarchical basis",
+      "publication_year": 2001,
+      "publication_date": "2001-01-01",
+      "doi": "https://doi.org/10.1002/1097-0363(20010115)35:1<93::aid-fld85>3.0.co;2-g",
+      "venue": "International Journal for Numerical Methods in Fluids",
+      "type": "article",
+      "cited_by_count": 307,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Laminar flow",
+        "Navier–Stokes equations",
+        "Mathematics",
+        "Basis function",
+        "Compressibility",
+        "Basis (linear algebra)",
+        "Pressure-correction method"
+      ],
+      "abstract": "Stabilized finite element methods have been shown to yield robust, accurate numerical solutions to both the compressible and incompressible Navier–Stokes equations for laminar and turbulent flows. The present work focuses on the application of higher-order, hierarchical basis functions to the incompressible Navier–Stokes equations using a stabilized finite element method. It is shown on a variety of problems that the most cost-effective simulations (in terms of CPU time, memory, and disk storage) can be obtained using higher-order basis functions when compared with the traditional linear basis. In addition, algorithms will be presented for the efficient implementation of these methods within the traditional finite element data structures. Copyright © 2001 John Wiley & Sons, Ltd.",
+      "authors": [
+        "Christian H. Whiting",
+        "Kenneth E. Jansen"
+      ]
+    },
+    {
+      "title": "A stabilized finite element method for computing turbulence",
+      "publication_year": 1999,
+      "publication_date": "1999-05-01",
+      "doi": "https://doi.org/10.1016/s0045-7825(98)00301-6",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 141,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Grid",
+        "Large eddy simulation",
+        "Massively parallel",
+        "Computer science",
+        "Computational science",
+        "Finite element method",
+        "Reynolds number"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kenneth E. Jansen"
+      ]
+    },
+    {
+      "title": "A generalized-α method for integrating the filtered Navier–Stokes equations with a stabilized finite element method",
+      "publication_year": 2000,
+      "publication_date": "2000-10-01",
+      "doi": "https://doi.org/10.1016/s0045-7825(00)00203-6",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 810,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Integrator",
+        "Finite element method",
+        "Laminar flow",
+        "Mathematics",
+        "Midpoint",
+        "Context (archaeology)",
+        "Turbulence",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kenneth E. Jansen",
+        "Christian H. Whiting",
+        "Gregory M. Hulbert"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Benchmarking of Finite Element and Finite Volume Solvers for Nonequilibrium Turbulent Flow at Mach 11",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4548",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite volume method",
+        "Finite element method",
+        "Mach number",
+        "Physics",
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Non-equilibrium thermodynamics"
+      ],
+      "abstract": "This work presents a code-to-code comparison between two high-performance solvers for hypersonic, turbulent flow in thermochemical nonequilibrium: PHASTA, a continuous-Galerkin finite element solver with a more mature turbulence simulation track record, and LeMANS, a finite volume solver with a more mature track record in high-enthalpy aerothermodynamics. Both codes solve the same governing equations and are applied to Mach 11 flow over a two-dimensional diamond airfoil at 24 km altitude using identical boundary conditions, turbulence modeling, and gas chemistry. Agreement between solvers in the stagnation region, including shock structure, temperature, and shock standoff distance, demonstrates consistent prediction of bulk flow physics and provides verification of the thermochemical nonequilibrium modeling in PHASTA. Strong agreement in wall shear stress, drag, and qualitative boundary-layer profiles further indicates consistent predictions of near-wall momentum transport, effectively serving as a verification of the turbulence modeling in both solvers under thermochemical nonequilibrium conditions. While stagnation-point heat flux exhibits differences exceeding 10%, wall heat ...",
+      "authors": [
+        "Connor W. Morency",
+        "Nicholas S. Campbell",
+        "Iain D. Boyd",
+        "Kenneth E. Jansen"
+      ]
+    },
+    {
+      "title": "Reynolds Number Dependency in Compressible Crossflow-Jet Problems",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1953",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Jet (fluid)",
+        "Dependency (UML)",
+        "Mechanics",
+        "Physics",
+        "Compressibility",
+        "Aerospace engineering",
+        "Computer science"
+      ],
+      "abstract": "Compressible jets transversely issuing into a spatially-developing turbulent boundary layer (SDTBL) are one of the most challenging types of three-dimensional flows due to their thermal-fluid complexity and technological applications; for instance, film cooling of turbine blades, fuel, or dilution air injection in gas turbine engines, thrust vector control, just to name a few. The ability to control a flow field in such a way as to enhance thermal efficiency is of crucial relevance in aerospace and other engineering applications. We seek to perform Direct Numerical Simulation (DNS) with high spatial and temporal resolution of compressible jets in crossflow at low (",
+      "authors": [
+        "Guillermo Araya",
+        "Christian Lagares",
+        "Kenneth E. Jansen"
+      ]
+    },
+    {
+      "title": "Direct numerical simulation of two boundary layers with the same pressure distribution but different surface curvatures",
+      "publication_year": 2024,
+      "publication_date": "2024-08-31",
+      "doi": "https://doi.org/10.48550/arxiv.2409.00555",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2409.00555",
+      "concepts": [
+        "Surface (topology)",
+        "Distribution (mathematics)",
+        "Boundary (topology)",
+        "Geometry",
+        "Surface pressure",
+        "Mechanics",
+        "Geology",
+        "Mathematics"
+      ],
+      "abstract": "A pair of Direct Numerical Simulations is used to investigate curvature and pressure effects. One has a Gaussian test bump and a straight opposite wall, while the other has a straight test wall and a blowing/suction distribution on an opposite porous boundary, adjusted to produce the same pressure distribution. The calculation of the transpiration distribution is made in potential flow, ignoring the boundary layer. This problem of specifying a pressure distribution is known to be ill-posed for short waves. We address this issue by considering a pressure distribution that is very smooth compared with the distance from wall to opposite boundary. It is also ill-posed once separation occurs. The pressure distribution of the viscous flow nevertheless ended up very close to the specified one, upstream of separation, and comparisons are confined to that region. In the entry region the boundary layers have essentially the same thicknesses and are well-developed turbulence-wise, which is essential for a valid comparison. The focus is on the attached flow in the favorable and adverse gradients. The convex curvature is strong enough compared with the boundary-layer thickness to make the st...",
+      "authors": [
+        "Philippe R. Spalart",
+        "Kenneth E. Jansen",
+        "Gary N. Coleman"
+      ]
+    },
+    {
+      "title": "Modeling Thermochemical Nonequilibrium With the Continuous Galerkin Finite Element Flow Solver PHASTA",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4367",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Solver",
+        "Non-equilibrium thermodynamics",
+        "Galerkin method",
+        "Computer science",
+        "Discontinuous Galerkin method",
+        "Flow (mathematics)",
+        "Computational science"
+      ],
+      "abstract": "This paper aims to introduce developments within the PHASTA flow solver that are needed for applications in hypersonic CFD research. The PHASTA formulation is described and unit tests are performed that serve to validate new features that enable the simulation of thermochemical nonequilibrium. These features include a multi-species reacting flow module, a two-temperature formulation that includes a model for vibrational temperature, a model for mass diffusion, and the Spalart-Allmaras RANS turbulence model. The code accurately predicts the physics for simple problems but requires further development for more complex flows that represent real-world engineering problems.",
+      "authors": [
+        "Connor W. Morency",
+        "Kenneth E. Jansen"
+      ]
+    },
+    {
+      "title": "Unsteady Pressure Gradients in Wind Tunnels with Time-Varying Freestreams",
+      "publication_year": 2024,
+      "publication_date": "2024-07-15",
+      "doi": "https://doi.org/10.2514/1.j063971",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geology",
+        "Pressure gradient",
+        "Marine engineering",
+        "Wind tunnel",
+        "Mechanics",
+        "Environmental science",
+        "Meteorology",
+        "Geotechnical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Dasha Gloutak",
+        "Daniel Eichner",
+        "Jaylon McGhee",
+        "Kenneth E. Jansen",
+        "John Farnsworth"
+      ]
+    }
+  ]
+}

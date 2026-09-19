@@ -1,0 +1,183 @@
+{
+  "faculty_name": "John A. Judge",
+  "full_name": "John A. Judge",
+  "department": "Department of Mechanical Engineering",
+  "university": "The Catholic University of America",
+  "author_id": "A5103414476",
+  "works_count": 103,
+  "cited_by_count": 727,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 25
+    },
+    {
+      "topic": "Advanced MEMS and NEMS Technologies",
+      "count": 21
+    },
+    {
+      "topic": "Mechanical and Optical Resonators",
+      "count": 18
+    },
+    {
+      "topic": "Underwater Acoustics Research",
+      "count": 18
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Attachment losses of high Q oscillators",
+      "publication_year": 2004,
+      "publication_date": "2004-07-14",
+      "doi": "https://doi.org/10.1063/1.1773928",
+      "venue": "Applied Physics Letters",
+      "type": "article",
+      "cited_by_count": 141,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cantilever",
+        "Limiting",
+        "Range (aeronautics)",
+        "Quality (philosophy)",
+        "Simple (philosophy)",
+        "Statistical physics",
+        "Wavelength",
+        "Finite element method"
+      ],
+      "abstract": "Attachment losses can play a role in limiting the quality factors of micro/nanomechanical oscillators. The existing theoretical results in this regard are applicable to highly idealized scenarios. The theory has been extended in two important directions: the width of the cantilever is considered to be small relative to a wavelength as opposed to large, and the base is allowed to have finite thickness. These extensions result in significant, in many cases order of magnitude, changes in the estimates of attachment loss. Simple formulas for Q−1 covering most of the parameter range are given.",
+      "authors": [
+        "Douglas M. Photiadis",
+        "John A. Judge"
+      ]
+    },
+    {
+      "title": "Attachment loss of micromechanical and nanomechanical resonators in the limits of thick and thin support structures",
+      "publication_year": 2007,
+      "publication_date": "2007-01-01",
+      "doi": "https://doi.org/10.1063/1.2401271",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 117,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microscale chemistry",
+        "Resonator",
+        "Cantilever",
+        "Microelectromechanical systems",
+        "Materials science",
+        "Nanoscopic scale",
+        "Paddle",
+        "Limiting"
+      ],
+      "abstract": "Analytical expressions are provided for the energy loss from vibrating mechanical resonators into their support structures for two limiting cases: supports that can be treated as plates, and supports that act as semi-infinite elastic media, with effectively infinite thickness. The former case is applicable to many microscale resonators, while the latter is appropriate for nanoscale devices. General formulations are given, applicable to a wide range of resonator geometries. These formulations are then applied to two geometries commonly used in microelectromechanical systems and nanelectromechanical systems applications: cantilevered beams and doubly fixed beams. Experimental data are presented to validate the finite-thickness support theory, and the predictions of the theory are also compared to data from existing literature for a microscale rectangular paddle oscillator.",
+      "authors": [
+        "John A. Judge",
+        "Douglas M. Photiadis",
+        "Joseph F. Vignola",
+        "Brian H. Houston",
+        "Jacek Jarzynski"
+      ]
+    },
+    {
+      "title": "Effect of viscous loss on mechanical resonators designed for mass detection",
+      "publication_year": 2006,
+      "publication_date": "2006-01-23",
+      "doi": "https://doi.org/10.1063/1.2165186",
+      "venue": "Applied Physics Letters",
+      "type": "article",
+      "cited_by_count": 89,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Resonator",
+        "Microscale chemistry",
+        "Added mass",
+        "Cantilever",
+        "Viscous liquid",
+        "Vibration",
+        "Materials science",
+        "Mechanics"
+      ],
+      "abstract": "Simple models are presented for estimating viscous damping of fluid (gas or liquid) loaded mechanical resonators. The models apply to beams in flexural modes of vibration, and to thin beams and plates in longitudinal modes of vibration. Predictions of the associated quality factor are compared with measured values for several macroscale and microscale resonators. The scaling of viscous loss with oscillator size is discussed. The minimum detectable mass is estimated for several oscillator designs and it is shown that, for comparably sized devices, longitudinal resonators have the lowest threshold of detection. This minimum detectable mass is proportional to scale to the power 1.75 for all resonator architectures limited by viscous damping, and it is shown that the viscous loss is 220 times larger in water than in air.",
+      "authors": [
+        "Joseph F. Vignola",
+        "John A. Judge",
+        "Jacek Jarzynski",
+        "Maxim Zalalutdinov",
+        "Brian H. Houston",
+        "Jeffrey W. Baldwin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Atmospheric sound transmission loss at the coast: Modeling turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.1121/10.0037860",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sound (geography)",
+        "Turbulence",
+        "Sound transmission class",
+        "Environmental science",
+        "Meteorology",
+        "Transmission (telecommunications)",
+        "Oceanography",
+        "Acoustics"
+      ],
+      "abstract": "This work presents progress in an ongoing effort to effectively represent turbulence in a numerical model of atmospheric sound propagation in a near-shore environment. Excess attenuation is predicted with a parabolic equation solver that incorporates turbulence as well as the combined effects of wind and temperature profiles on the sound speed profile. Literature-based turbulence parameters are used to inform model inputs. These previously reported turbulence metrics are compared with turbulence parameters derived from scanning Doppler LIDAR wind profiling measurements. A set of acoustic transmission loss measurements made with concurrent wind, temperature, and water surface roughness measurements provide ground truth for model output comparison. [Work supported by Office of Naval Research Award Nos. N00014-22-1-2492 and N00014-24-1-2437.]",
+      "authors": [
+        "Sophie Arruza",
+        "Matthew Stengrim",
+        "Joseph F. Vignola",
+        "Diego Turo",
+        "John A. Judge",
+        "Teresa J. Ryan"
+      ]
+    },
+    {
+      "title": "Atmospheric sound transmission loss at the coast: A summary of observations",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.1121/10.0038311",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sound (geography)",
+        "Environmental science",
+        "Transmission (telecommunications)",
+        "Meteorology",
+        "Sound transmission class",
+        "Atmospheric sciences",
+        "Oceanography",
+        "Geology"
+      ],
+      "abstract": "This work presents advances in an ongoing effort to amass a catalog of atmospheric acoustic transmission loss measurements that are made with coordinating high resolution meteorological observations in a near-shore environment. The measurement layout places the acoustic source at ranges from 250 to 2000 m from shore with a seven-channel vertical linear acoustic receiver array at the shoreline. Pure tone bursts are used with frequencies up to 2 kHz. The concurrent meteorological observations include high resolution temperature profiling, scanning Doppler LIDAR wind profiling measurements in the source-to-receiver direction, and water surface profiling. Observation generalizations are presented for cases of upward and downward refraction at different ranges, normalized to the prevailing wind direction. [Work supported by Office of Naval Research Awards N00014-22-1-2492 and N00014-24-1-2437.]",
+      "authors": [
+        "Teresa J. Ryan",
+        "Heath Faircloth",
+        "Brielle Wagner",
+        "Matthew Stengrim",
+        "Jeff Foeller",
+        "John A. Judge",
+        "Diego Turo",
+        "Joseph F. Vignola"
+      ]
+    }
+  ]
+}

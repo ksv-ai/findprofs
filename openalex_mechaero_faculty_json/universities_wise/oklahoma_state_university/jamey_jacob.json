@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Jamey Jacob",
+  "full_name": "Jamey Jacob",
+  "department": "School of Mechanical and Aerospace Engineering",
+  "university": "Oklahoma State University",
+  "author_id": "A5041719233",
+  "works_count": 341,
+  "cited_by_count": 3507,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 78
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 61
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 45
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 42
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 39
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical Simulations of Plasma Based Flow Control Applications",
+      "publication_year": 2005,
+      "publication_date": "2005-06-06",
+      "doi": "https://doi.org/10.2514/6.2005-4633",
+      "venue": "35th AIAA Fluid Dynamics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 272,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20080022313/downloads/20080022313.pdf",
+      "concepts": [
+        "Plasma",
+        "Computer science",
+        "Flow control (data)",
+        "Numerical models",
+        "Mechanics",
+        "Computer simulation",
+        "Physics",
+        "Simulation"
+      ],
+      "abstract": "A mathematical model was developed to simulate flow control applications using plasma actuators. The effects of the plasma actuators on the external flow are incorporated into Navier Stokes computations as a body force vector. In order to compute this body force vector, the model solves two additional equations: one for the electric field due to the applied AC voltage at the electrodes and the other for the charge density representing the ionized air. The model is calibrated against an experiment having plasma-driven flow in a quiescent environment and is then applied to simulate a low pressure turbine flow with large flow separation. The effects of the plasma actuator on control of flow separation are demonstrated numerically. Cp = pressure coefficient Cx = axial chord for Pak-B blade e E = elementary charge, C � = electric field, N/C ε = permittivity, ε = ε rε o ε r = relative permittivity Nomenclature ε o = permittivity of free space, 8.854x10-12 C 2 /Nm 2 fB � = body force vector, N/m 3 FSTI = freestream turbulence intensity, % Φ = total electric potential, Volt, Φ = φ + ϕ φ = electric potential due to external electric field, Volt ϕ = electric potential due to net charge de...",
+      "authors": [
+        "Yildirim Suzen",
+        "George Huang",
+        "Jamey Jacob",
+        "David E. Ashpis"
+      ]
+    },
+    {
+      "title": "Intercomparison of Small Unmanned Aircraft System (sUAS) Measurements for Atmospheric Science during the LAPSE-RATE Campaign",
+      "publication_year": 2019,
+      "publication_date": "2019-05-10",
+      "doi": "https://doi.org/10.3390/s19092179",
+      "venue": "Sensors",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/s19092179",
+      "concepts": [
+        "Aerospace engineering",
+        "Remote sensing",
+        "Environmental science",
+        "Aeronautics",
+        "Meteorology",
+        "Astrobiology",
+        "Engineering",
+        "Geology"
+      ],
+      "abstract": "Small unmanned aircraft systems (sUAS) are rapidly transforming atmospheric research. With the advancement of the development and application of these systems, improving knowledge of best practices for accurate measurement is critical for achieving scientific goals. We present results from an intercomparison of atmospheric measurement data from the Lower Atmospheric Process Studies at Elevation-a Remotely piloted Aircraft Team Experiment (LAPSE-RATE) field campaign. We evaluate a total of 38 individual sUAS with 23 unique sensor and platform configurations using a meteorological tower for reference measurements. We assess precision, bias, and time response of sUAS measurements of temperature, humidity, pressure, wind speed, and wind direction. Most sUAS measurements show broad agreement with the reference, particularly temperature and wind speed, with mean value differences of 1.6 ± 2 . 6 ∘ C and 0.22 ± 0 . 59 m/s for all sUAS, respectively. sUAS platform and sensor configurations were found to contribute significantly to measurement accuracy. Sensor configurations, which included proper aspiration and radiation shielding of sensors, were found to provide the most accurate therm...",
+      "authors": [
+        "Lindsay Barbieri",
+        "Stephan T. Kral",
+        "Sean Bailey",
+        "Amy E. Frazier",
+        "Jamey Jacob",
+        "Joachim Reuder",
+        "David Brus",
+        "Phillip B. Chilson",
+        "Christopher Crick",
+        "Carrick Detweiler",
+        "Abhiram Doddi",
+        "Jack Elston",
+        "Hosein Foroutan",
+        "Javier González-Rocha",
+        "Brian Greene",
+        "Marcelo I. Guzmán",
+        "Adam Houston",
+        "Ashraful Islam",
+        "Osku Kemppinen",
+        "Dale Lawrence",
+        "Elizabeth A. Pillar-Little",
+        "Shane D. Ross",
+        "Michael P. Sama",
+        "David G. Schmale",
+        "Travis J Schuyler",
+        "Ajay Shankar",
+        "Suzanne Smith",
+        "Sean Waugh",
+        "Cory Dixon",
+        "Steve Borenstein",
+        "Gijs de Boer"
+      ]
+    },
+    {
+      "title": "Flow control with plasma synthetic jet actuators",
+      "publication_year": 2007,
+      "publication_date": "2007-01-19",
+      "doi": "https://doi.org/10.1088/0022-3727/40/3/s02",
+      "venue": "Journal of Physics D Applied Physics",
+      "type": "article",
+      "cited_by_count": 162,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/0022-3727/40/3/S02/pdf",
+      "concepts": [
+        "Synthetic jet",
+        "Plasma actuator",
+        "Plasma",
+        "Flow control (data)",
+        "Actuator",
+        "Jet (fluid)",
+        "Flow (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "This paper presents an experimental investigation of the characteristics of a plasma actuator design for flow control consisting of an annular electrode in quiescent and flat plate boundary layer flows. In quiescent flow, the circular plasma region produced on actuation was observed to generate a vertical zero-net mass flux (or synthetic) jet, hence the name plasma synthetic jet actuator, the characteristics of which were found to be affected by the actuator operation mode (steady or unsteady). Pulsed operation of the actuator results in the formation of a starting vortex ring that advects ahead of the jet and secondary vortex rings near the actuator surface due to the additional plasma-induced fluid entrainment in the boundary layer. By varying the actuator pulsing frequency, multiple vortex rings were created in the flowfield and the resulting vortex ring interactions were found to increase both the peak velocity and streamwise extent of the jet. The interaction of the actuator with a crossflow was observed to be similar to that seen in conventional or non zero-net mass flux jets with the plasma synthetic jet penetrating into the mean flow. As expected, the influence of the je...",
+      "authors": [
+        "Arvind Santhanakrishnan",
+        "Jamey Jacob"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Propellor Wake Decay and Crosswind Interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://commons.erau.edu/isarra/conference/presentations/6",
+      "venue": "Scholarly Commons (Embry–Riddle Aeronautical University)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Crosswind",
+        "Wake",
+        "Aerospace engineering",
+        "Environmental science",
+        "Wake turbulence",
+        "Turbulence",
+        "Meteorology",
+        "Thrust"
+      ],
+      "abstract": "This research explores the temporal wake decay of a propeller for small uncrewed vehicles focusing on the rate it takes for the perturbed air to return to ambient conditions, the extent that the far field wake reaches to better quantify rotary wake dissipation rates, and the effects that a crosswind has on these spatial propellor induced flow qualities. These preliminary results are intended to better optimize in situ measurements for multi-vehicle campaigns such as swarm flight applications to better understand minimum required spacing to not have the wake influence onboard sensors and flight path planning for the minimum time between flights so that the vehicles do not collect data from lingering wakes that may be present. This will also assist in the next step of urban air mobility to optimize flight paths so that vehicles minimize adverse flight dynamics induced by other vehicles’ wakes as sUAV traffic density looks to increase. The experiments measured thrust on the propellor while observing the propellor induced turbulence to quantify the propellor wake, and using an open-air wind tunnel, a crosswind was generated to observe the effects on the wake. The research highlights...",
+      "authors": [
+        "Kerrick Ray",
+        "Jamey Jacob"
+      ]
+    },
+    {
+      "title": "Obtaining and Executing High-Altitude FAA Public Operator COAs in and Near Class C Airspace: sUAS for Weather Study",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4191",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Operator (biology)",
+        "Class (philosophy)",
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematics",
+        "Meteorology",
+        "Engineering",
+        "Key (lock)"
+      ],
+      "abstract": "The 2024 ISARRA/MicroSCALES campaign demonstrated an effective strategy for obtaining and executing FAA Public Operator Certificates of Authorization (COAs) to support high-altitude small uncrewed aircraft system (sUAS) operations in and adjacent to Class C airspace. Conducted by Oklahoma State University and partner institutions, the campaign integrated atmospheric science missions focused on turbulence, boundary-layer structure, and urban heat index measurements with real-world regulatory and operational constraints. Four distinct COAs were secured through coordinated pre-application engagement with the FAA and local air traffic control, allowing multi-team concurrent operations under a single airspace management framework. The project validated that disciplined risk mitigation—including prior precedent COA language, centralized ``AirBoss'' coordination, and proactive communication with ATC—can enable safe, efficient, and repeatable high-altitude sUAS flights in controlled airspace while advancing atmospheric research objectives. The campaign conducted 1,126 total flights totaling 188.56 flight hours, including 254 microSCALE missions that accounted for 77.9 of those hours.",
+      "authors": [
+        "Chris Swan",
+        "Jamey Jacob"
+      ]
+    },
+    {
+      "title": "Analysis of Response Metrics for sUAS First Responder Operations in an Urban Environment: The Tulsa Testbed",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4190",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "First responder",
+        "Computer science",
+        "Testbed",
+        "Engineering",
+        "Key (lock)",
+        "Real-time computing",
+        "Systems engineering",
+        "Simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Abby Haddox",
+        "Braydon S. Revard",
+        "Jamey Jacob"
+      ]
+    },
+    {
+      "title": "Layered Run-Time Assurance for BVLOS UAS Using Integrated Sensor Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4468",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Noise (video)",
+        "Remote sensing",
+        "Control system",
+        "Process (computing)",
+        "Feature (linguistics)",
+        "Key (lock)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Albert Assifuah",
+        "Jamey Jacob"
+      ]
+    },
+    {
+      "title": "Counter-drone technologies are evolving – but there’s no surefire way to defend against drone attacks",
+      "publication_year": 2026,
+      "publication_date": "2026-02-13",
+      "doi": "https://doi.org/10.64628/aai.d9j6srpxq",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drone",
+        "Computer security",
+        "Computer science",
+        "Internet privacy",
+        "Key (lock)",
+        "Business",
+        "Government (linguistics)",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jamey Jacob"
+      ]
+    }
+  ]
+}

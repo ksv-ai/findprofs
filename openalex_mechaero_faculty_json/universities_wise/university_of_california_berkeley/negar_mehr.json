@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Negar Mehr",
+  "full_name": "Negar Mehr",
+  "department": "Department of Mechanical Engineering / Aerospace Engineering Program",
+  "university": "University of California-Berkeley",
+  "author_id": "A5062267932",
+  "works_count": 90,
+  "cited_by_count": 456,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Traffic control and management",
+      "count": 24
+    },
+    {
+      "topic": "Transportation Planning and Optimization",
+      "count": 20
+    },
+    {
+      "topic": "Reinforcement Learning in Robotics",
+      "count": 15
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 11
+    },
+    {
+      "topic": "Transportation and Mobility Innovations",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Maximum-Entropy Multi-Agent Dynamic Games: Forward and Inverse Solutions",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.1109/tro.2022.3232300",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 51,
+      "is_oa": true,
+      "oa_url": "https://ieeexplore.ieee.org/ielx7/8860/4359257/10021943.pdf",
+      "concepts": [
+        "Mathematical optimization",
+        "Rational agent",
+        "Computer science",
+        "Nash equilibrium",
+        "Sequential game",
+        "Game theory",
+        "Mathematics",
+        "Mathematical economics"
+      ],
+      "abstract": "In this article, we study the problem of multiple stochastic agents interacting in a dynamic game scenario with continuous state and action spaces. We define a new notion of stochastic Nash equilibrium for boundedly rational agents, which we call the entropic cost equilibrium (ECE). We show that ECE is a natural extension to multiple agents of maximum entropy optimality for a single agent. We solve both the “forward” and “inverse” problems for the multi-agent ECE game. For the forward problem, we provide a Riccati algorithm to compute closed-form ECE feedback policies for the agents, which are exact in the linear-quadratic-gaussian case. We give an iterative variant to find locally ECE feedback policies for the nonlinear case. For the inverse problem, we present an algorithm to infer the cost functions of the multiple interacting agents given noisy, boundedly rational input and state trajectory examples from agents acting in an ECE. The effectiveness of our algorithms is demonstrated in a simulated multi-agent collision avoidance scenario, and with data from the INTERACTION traffic dataset. In both cases, we show that, by taking into account the agents' game theoretic interactio...",
+      "authors": [
+        "Negar Mehr",
+        "Mingyu Wang",
+        "Maulik Bhatt",
+        "Mac Schwager"
+      ]
+    },
+    {
+      "title": "Game-Theoretic Planning for Risk-Aware Interactive Agents",
+      "publication_year": 2020,
+      "publication_date": "2020-10-24",
+      "doi": "https://doi.org/10.1109/iros45743.2020.9341137",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 35,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Recursion (computer science)",
+        "Nash equilibrium",
+        "Computer science",
+        "Mathematical optimization",
+        "Set (abstract data type)",
+        "Quadratic equation",
+        "Best response",
+        "Game theory"
+      ],
+      "abstract": "Modeling the stochastic behavior of interacting agents is key for safe motion planning. In this paper, we study the interaction of risk-aware agents in a game-theoretical framework. Under the entropic risk measure, we derive an iterative algorithm for approximating the intractable feedback Nash equilibria of a risk-sensitive dynamic game. We use an iteratively linearized approximation of the system dynamics and a quadratic approximation of the cost function in solving a backward recursion for finding feedback Nash equilibria. In this respect, the algorithm shares a similar structure with DDP and iLQR methods. We conduct experiments in a set of challenging scenarios such as roundabouts. Compared to ignoring the game interaction or the risk sensitivity, we show that our risk-sensitive game-theoretic framework leads to more timeefficient, intuitive, and safe behaviors when facing underlying risks and uncertainty.",
+      "authors": [
+        "Mingyu Wang",
+        "Negar Mehr",
+        "Adrien Gaidon",
+        "Mac Schwager"
+      ]
+    },
+    {
+      "title": "Potential iLQR: A Potential-Minimizing Controller for Planning Multi-Agent Interactive Trajectories",
+      "publication_year": 2021,
+      "publication_date": "2021-06-27",
+      "doi": "https://doi.org/10.15607/rss.2021.xvii.084",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 30,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.15607/rss.2021.xvii.084",
+      "concepts": [
+        "Computer science",
+        "Controller (irrigation)",
+        "Control engineering",
+        "Human–computer interaction",
+        "Engineering",
+        "Agronomy",
+        "Biology"
+      ],
+      "abstract": "Many robotic applications involve interactions between multiple agents where an agent's decisions affect the behavior of other agents. Such behaviors can be captured by the equilibria of differential games which provide an expressive framework for modeling the agents' mutual influence. However, finding the equilibria of differential games is in general challenging as it involves solving a set of coupled optimal control problems. In this work, we propose to leverage the special structure of multi-agent interactions to generate interactive trajectories by simply solving a single optimal control problem, namely, the optimal control problem associated with minimizing the potential function of the differential game. Our key insight is that for a certain class of multi-agent interactions, the underlying differential game is indeed a potential differential game for which equilibria can be found by solving a single optimal control problem. We introduce such an optimal control problem and build on single-agent trajectory optimization methods to develop a computationally tractable and scalable algorithm for planning multi-agent interactive trajectories. We will demonstrate the performance...",
+      "authors": [
+        "Talha Kavuncu",
+        "Ayberk Yaraneri",
+        "Negar Mehr"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "When Should a Leader Act Suboptimally? The Role of Inferability in Repeated Stackelberg Games",
+      "publication_year": 2025,
+      "publication_date": "2025-10-20",
+      "doi": "https://doi.org/10.1109/tac.2025.3623435",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stackelberg competition",
+        "Variety (cybernetics)",
+        "Set (abstract data type)",
+        "Function (biology)",
+        "Repeated game",
+        "Inference",
+        "Computer science",
+        "Game theory"
+      ],
+      "abstract": "When interacting with other decision-making agents in non-adversarial scenarios, it is critical for an autonomous agent to have inferable behavior: The agent's actions must convey its intention and strategy. We model the inferability problem using Stackelberg games with observations where a leader and a follower repeatedly interact. During the interactions, the leader uses a fixed mixed strategy. The follower does not know the leader's strategy and dynamically reacts to the statistically inferred strategy based on the leader's previous actions. In the inference setting, the leader may have lower performance compared to the setting where the follower has full information on the leader's strategy. We refer to the performance gap between these settings as the inferability gap. For a variety of game settings, we show that the inferability gap is upper-bounded by a function of the number of interactions and the stochasticity level of the leader's strategy, which encourages the use of inferable strategies with lower stochasticity levels. We also analyze bimatrix Stackelberg games and identify a set of games in which the leader's near-optimal strategy may potentially suffer from a larg...",
+      "authors": [
+        "Mustafa O. Karabag",
+        "Sophia Smith",
+        "Negar Mehr",
+        "David Fridovich-Keil",
+        "Ufuk Topcu"
+      ]
+    },
+    {
+      "title": "Multi-Agent Inverse Reinforcement Learning in Real World Unstructured Pedestrian Crowds",
+      "publication_year": 2025,
+      "publication_date": "2025-10-19",
+      "doi": "https://doi.org/10.1109/iros60139.2025.11247542",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Crowds",
+        "Pedestrian",
+        "Reinforcement learning",
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Intersection (aeronautics)",
+        "Trajectory"
+      ],
+      "abstract": "Social robot navigation in crowded public spaces such as university campuses, restaurants, grocery stores, and hospitals, is an increasingly important area of research. One of the core strategies for achieving this goal is to understand humans’ intent–underlying psychological factors that govern their motion–by learning how humans assign rewards to their actions, typically via inverse reinforcement learning (IRL). Despite significant progress in IRL, learning reward functions of multiple agents simultaneously in dense unstructured pedestrian crowds has remained intractable due to the nature of the tightly coupled social interactions that occur in these scenarios e.g. passing, intersections, swerving, weaving, etc. In this paper, we present a new multi-agent maximum entropy inverse reinforcement learning algorithm for real world unstructured pedestrian crowds. Key to our approach is a simple, but effective, mathematical trick which we name the so-called \"tractability-rationality trade-off\" trick that achieves tractability at the cost of a slight reduction in accuracy. We compare our approach to the classical single-agent MaxEnt IRL as well as state-of-the-art trajectory predictio...",
+      "authors": [
+        "Rohan Chandra",
+        "Haresh Karnan",
+        "Negar Mehr",
+        "Peter Stone",
+        "Joydeep Biswas"
+      ]
+    },
+    {
+      "title": "Understanding and Imitating Human-Robot Motion with Restricted Visual Fields",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1109/iros60139.2025.11247882",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Perception",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision",
+        "Motion (physics)",
+        "Field (mathematics)",
+        "Robot",
+        "Code (set theory)"
+      ],
+      "abstract": "When working around other agents such as humans, it is important to model their perception capabilities to predict and make sense of their behavior. In this work, we consider agents whose perception capabilities are determined by their limited field of view, viewing range, and the potential to miss objects within their viewing range. By considering the perception capabilities and observation model of agents independently from their motion policy, we show that we can better predict the agents’ behavior; i.e., by reasoning about the perception capabilities of other agents, one can better make sense of their actions. We perform a user study where human operators navigate a cluttered scene while scanning the region for obstacles with a limited field of view and range. We show that by reasoning about the limited observation space of humans, a robot can better learn a human’s strategy for navigate an environment and navigate with minimal collision with dynamic and static obstacles. We also show that this learned model helps it successfully navigate a physical hardware vehicle in real-time. Code available at https://github.com/labicon/HRMotion-RestrictedView.",
+      "authors": [
+        "Maulik Bhatt",
+        "HongHao Zhen",
+        "Monroe Kennedy",
+        "Negar Mehr"
+      ]
+    },
+    {
+      "title": "MultiNash-PF: A Particle Filtering Approach for Computing Multiple Local Generalized Nash Equilibria in Trajectory Games",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1109/iros60139.2025.11246346",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Nash equilibrium",
+        "Computation",
+        "Computer science",
+        "Mathematical optimization",
+        "Robot",
+        "Particle filter",
+        "Potential game"
+      ],
+      "abstract": "Modern robotic systems frequently engage in complex multi-agent interactions, many of which are inherently multi-modal, i.e., they can lead to multiple distinct outcomes. To interact effectively, robots must recognize the possible interaction modes and adapt to the one preferred by other agents. In this work, we propose MultiNash-PF, an efficient algorithm for capturing the multimodality in multi-agent interactions. We model interaction outcomes as equilibria of a game-theoretic planner, where each equilibrium corresponds to a distinct interaction mode. Our framework formulates interactive planning as Constrained Potential Trajectory Games (CPTGs), in which local Generalized Nash Equilibria (GNEs) represent plausible interaction outcomes. We propose to integrate the potential game approach with implicit particle filtering, a sample-efficient method for non-convex trajectory optimization. We utilize implicit particle filtering to identify the coarse estimates of multiple local minimizers of the game’s potential function. MultiNash-PF then refines these estimates with optimization solvers, obtaining different local GNEs. We show through numerical simulations that MultiNash-PF redu...",
+      "authors": [
+        "Maulik Bhatt",
+        "Iman Askari",
+        "Yue Yu",
+        "Ufuk Topcu",
+        "Huazhen Fang",
+        "Negar Mehr"
+      ]
+    },
+    {
+      "title": "Advancement of concept maturity level for a servicing architecture for the Habitable Worlds Observatory",
+      "publication_year": 2025,
+      "publication_date": "2025-09-17",
+      "doi": "https://doi.org/10.1117/12.3064066",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Observatory",
+        "Architecture",
+        "Maturity (psychological)",
+        "Engineering",
+        "Computer science",
+        "Remote sensing",
+        "Geography",
+        "Systems engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jonathan W. Arenberg",
+        "Quenten Duden",
+        "Stephen Leete",
+        "Doyle Towles",
+        "Natasha Bosanac",
+        "Negar Mehr",
+        "Robyn Wollands"
+      ]
+    }
+  ]
+}

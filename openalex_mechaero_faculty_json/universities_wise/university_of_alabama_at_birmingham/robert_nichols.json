@@ -1,0 +1,167 @@
+{
+  "faculty_name": "Robert Nichols",
+  "full_name": "Robert H. Nichols",
+  "department": "Department of Mechanical and Materials Engineering",
+  "university": "University of Alabama at Birmingham",
+  "author_id": "A5110854272",
+  "works_count": 48,
+  "cited_by_count": 1376,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 25
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 16
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 12
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 9
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Solver and Turbulence Model Upgrades to OVERFLOW 2 for Unsteady and High-Speed Applications",
+      "publication_year": 2006,
+      "publication_date": "2006-06-05",
+      "doi": "https://doi.org/10.2514/6.2006-2824",
+      "venue": "24th AIAA Applied Aerodynamics Conference",
+      "type": "conference-paper",
+      "cited_by_count": 241,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Computer science",
+        "Turbulence",
+        "Parallel computing",
+        "Computational science",
+        "Mechanics",
+        "Physics",
+        "Programming language"
+      ],
+      "abstract": "An implicit unfactored SSOR algorithm has been added to the overset Navier-Stokes CFD code OVERFLOW 2 for unsteady and moving body applications. The HLLEM and HLLC third-order spatial upwind convective flux models have been added for high-speed flow applications. A generalized upwind transport equation has been added for solution of the two-equation turbulence models and the species equations. The generalized transport equation is solved using an unfactored SSOR implicit algorithm. Three hybrid RANS/DES turbulence models have been added for unsteady flow applications. Wall function boundary conditions that include compressibility and heat transfer effects have been also been added to OVERFLOW 2.",
+      "authors": [
+        "Robert H. Nichols",
+        "Robert Tramel",
+        "Pieter G. Buning"
+      ]
+    },
+    {
+      "title": "Addition of Improved Shock-Capturing Schemes to OVERFLOW 2.1",
+      "publication_year": 2009,
+      "publication_date": "2009-06-14",
+      "doi": "https://doi.org/10.2514/6.2009-3988",
+      "venue": "19th AIAA Computational Fluid Dynamics",
+      "type": "conference-paper",
+      "cited_by_count": 172,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20090025446/downloads/20090025446.pdf",
+      "concepts": [
+        "Computer science",
+        "Shock (circulatory)",
+        "Medicine",
+        "Internal medicine"
+      ],
+      "abstract": "Existing approximate Riemann solvers do not perform well when the grid is not aligned with strong shocks in the flow field. Three new approximate Riemann algorithms are investigated to improve solution accuracy and stability in the vicinity of strong shocks. The new algorithms are compared to the existing upwind algorithms in OVERFLOW 2.1. The new algorithms use a multidimensional pressure gradient based switch to transition to a more numerically dissipative algorithm in the vicinity of strong shocks. One new algorithm also attempts to artificially thicken captured shocks in order to alleviate the errors in the solution introduced by \"stair-stepping\" of the shock resulting from the approximate Riemann solver. This algorithm performed well for all the example cases and produced results that were almost insensitive to the alignment of the grid and the shock.",
+      "authors": [
+        "Robert Tramel",
+        "Robert H. Nichols",
+        "Pieter G. Buning"
+      ]
+    },
+    {
+      "title": "Accuracy and Performance Improvements to Kestrel’s Near-Body Flow Solver",
+      "publication_year": 2016,
+      "publication_date": "2016-01-02",
+      "doi": "https://doi.org/10.2514/6.2016-1051",
+      "venue": "54th AIAA Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 80,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kestrel",
+        "Computer science",
+        "Solver",
+        "Flow (mathematics)",
+        "Geology",
+        "Mechanics",
+        "Physics",
+        "Programming language"
+      ],
+      "abstract": "",
+      "authors": [
+        "David R. McDaniel",
+        "Robert H. Nichols",
+        "Timothy A. Eymann",
+        "Robert E. Starr",
+        "Scott Morton"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Turbulent Wall Roughness Modeling with the CREATE-AV Kestrel Flow Solver",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-1944",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kestrel",
+        "Turbulence",
+        "Solver",
+        "Surface roughness",
+        "Flow (mathematics)",
+        "Computer science",
+        "Surface finish",
+        "Mechanics"
+      ],
+      "abstract": "Wall roughness effects have been included in the turbulence and transition models incorporated in the KCFD flow solver in Kestrel using an augmented wall distance technique. The capability is available for low Reynolds and for wall function grid spacings applications. Roughness is specified using equivalent sand grain roughness height (k_s). Roughness effects are shown to be accurately simulated up to nondimensional roughness values (k_s^+) of 1000-2000 for both low-speed and high-speed flow regimes. The roughness simulation capability added to the transition model can be used to simulate boundary layer trips and provides a more general method of specifying trips than simply turning the turbulence model on and off in specified regions of the flow. The new capability is demonstrated for several applications covering subsonic through hypersonic flows.",
+      "authors": [
+        "Robert H. Nichols"
+      ]
+    },
+    {
+      "title": "Evaluation of the Turbulence Models in CREATE-AV Kestrel for High-Mach Flows",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-0808",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Kestrel",
+        "Mechanics",
+        "Turbulence",
+        "Boundary layer",
+        "Physics",
+        "Flow (mathematics)",
+        "Hypersonic speed"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-0808.vid A number of hypersonic simulations were conducted to test and compare CREATE-AV Kestrel against experimental data. These included canonical cases of transitional flow over a flat plate, shock-wave/boundary-layer interactions (SWBLI) on a compression ramp, SWBLI on a large cone with flare, and SWBLI on a hollow cylinder with flare. Simulations were carried out using several turbulence models available in Kestrel on a series of refined grids for each validation case. The cases include both two- and three-dimensional computational studies over a range of high-Mach flow conditions.",
+      "authors": [
+        "Brian J. Burke",
+        "William C. Tyson",
+        "Robert H. Nichols"
+      ]
+    }
+  ]
+}

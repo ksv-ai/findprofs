@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Hang Woon Lee",
+  "full_name": "Hang Woon Lee",
+  "department": "Department of Mechanical, Materials and Aerospace Engineering",
+  "university": "West Virginia University",
+  "author_id": "A5091265465",
+  "works_count": 45,
+  "cited_by_count": 137,
+  "h_index": 6,
+  "top_topics": [
+    {
+      "topic": "Satellite Communication Systems",
+      "count": 21
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 18
+    },
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 16
+    },
+    {
+      "topic": "Spacecraft Design and Technology",
+      "count": 14
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Optimization of satellite constellation deployment strategy considering uncertain areas of interest",
+      "publication_year": 2018,
+      "publication_date": "2018-04-03",
+      "doi": "https://doi.org/10.1016/j.actaastro.2018.03.054",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 33,
+      "is_oa": true,
+      "oa_url": "https://www.ideals.illinois.edu/items/107700/bitstreams/351421/data.pdf",
+      "concepts": [
+        "Constellation",
+        "Software deployment",
+        "Satellite constellation",
+        "Computer science",
+        "Satellite",
+        "Communications satellite",
+        "Engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hang Woon Lee",
+        "Pauline C. M. Jakob",
+        "Koki Ho",
+        "Seiichi Shimizu",
+        "Shoji Yoshikawa"
+      ]
+    },
+    {
+      "title": "Space Transportation System and Mission Planning for Regular Interplanetary Missions",
+      "publication_year": 2018,
+      "publication_date": "2018-11-12",
+      "doi": "https://doi.org/10.2514/1.a34168",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interplanetary spaceflight",
+        "Scalability",
+        "Mars Exploration Program",
+        "Computer science",
+        "Aerospace engineering",
+        "Space exploration",
+        "Low earth orbit",
+        "Time horizon"
+      ],
+      "abstract": "This paper develops a computationally efficient and scalable mission planning optimization method for regular space transportation missions, defined as a set of repeating and periodic interplanetary transportation missions over a long time horizon after one or a few setup missions. As more long-term manned missions to Mars are being conceptualized, the need for a sustainable interplanetary transportation system has become increasingly prominent. However, planning regular transportation missions with existing space mission planning optimization formulations has a limitation in computational scalability in the time dimension. The proposed partially periodic time-expanded network can address this limitation of the past studies; it is shown to be computationally scalable and capable of generating solutions that are practically preferred. Properties of the proposed partially periodic time-expanded network are analyzed, and a case study reveals that the total initial mass in the low Earth orbit of regular missions approaches to the theoretical lower bound as the number of transportation missions increases.",
+      "authors": [
+        "Hao Chen",
+        "Hang Woon Lee",
+        "Koki Ho"
+      ]
+    },
+    {
+      "title": "Regional Constellation Reconfiguration Problem: Integer Linear Programming Formulation and Lagrangian Heuristic Method",
+      "publication_year": 2023,
+      "publication_date": "2023-07-31",
+      "doi": "https://doi.org/10.2514/1.a35685",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 17,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control reconfiguration",
+        "Mathematical optimization",
+        "Solver",
+        "Integer programming",
+        "Computer science",
+        "Linear programming",
+        "Heuristic",
+        "Lagrangian relaxation"
+      ],
+      "abstract": "A group of satellites, with either homogeneous or heterogeneous orbital characteristics and/or hardware specifications, can undertake a reconfiguration process due to variations in operations pertaining to Earth observation missions. This paper investigates the problem of optimizing a satellite constellation reconfiguration process against two competing mission objectives: 1) the maximization of the total coverage reward, and 2) the minimization of the total cost of the transfer. The decision variables for the reconfiguration process include the design of the new configuration and the assignment of satellites from one configuration to another. We present a novel biobjective integer linear programming formulation that combines constellation design and transfer problems. The formulation lends itself to the use of generic mixed-integer linear programming (MILP) methods such as the branch-and-bound algorithm for the computation of provably optimal solutions; however, these approaches become computationally prohibitive even for moderately sized instances. In response to this challenge, this paper proposes a Lagrangian relaxation-based heuristic method that leverages the assignment pr...",
+      "authors": [
+        "Hang Woon Lee",
+        "Koki Ho"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Robust Multi-Body Station-Keeping via Hybrid Propulsion and Reinforcement Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.2514/6.2026-3040",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Control theory (sociology)",
+        "Control engineering",
+        "Propulsion",
+        "Engineering",
+        "Stability (learning theory)",
+        "Control system",
+        "Control (management)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joshua Warner",
+        "Hang Woon Lee"
+      ]
+    },
+    {
+      "title": "Advancing the SmallSat Digital Twin for Active Debris Removal Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0793",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Debris",
+        "Space debris",
+        "Aerospace engineering",
+        "Collision avoidance",
+        "Limiting",
+        "Spacecraft",
+        "Engineering",
+        "Collision"
+      ],
+      "abstract": "The growing density of orbital debris threatens active spacecraft and future missions. While nets, harpoons, and robotic arms show promise for cleaning up debris, they are costly and demand precise control, motivating interest in space-based lasers that use ablation to impart small velocity changes for just-in-time collision avoidance and deorbiting. To mature this approach, we extend the SmallSat Digital Twin (SSDT) to provide a high-fidelity, spacecraft-focused simulation that integrates avionics, dynamics, core Flight System (cFS) flight software, ground control (OpenC3), and new radar/optical sensor and debris models. The enhanced SSDT supports realistic detection logic (Sun/Earth exclusion, field of view, limiting magnitude), representative tumbling debris with size/reflectivity parameters, and a laser engagement model based on an impulsive momentum transfer.",
+      "authors": [
+        "Scott Zemerick",
+        "Mark Suder",
+        "Dominic K. Amato",
+        "David Martinelli",
+        "Hang Woon Lee"
+      ]
+    },
+    {
+      "title": "Automating the Wildfire Detection and Scheduling Pipeline with Maneuverable Earth Observation Satellites",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.2514/1.i011883",
+      "venue": "Journal of Aerospace Information Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.08924",
+      "concepts": [
+        "Scheduling (production processes)",
+        "Computer science",
+        "Earth observation",
+        "Real-time computing",
+        "Satellite",
+        "Earth observation satellite",
+        "Remote sensing",
+        "Sensor fusion"
+      ],
+      "abstract": "Wildfires are becoming increasingly frequent, with potentially devastating consequences, including loss of life, infrastructure destruction, and severe environmental damage. Low-Earth-orbit satellites equipped with onboard sensors can capture critical information related to active wildfires and enable near-real-time detection through machine learning algorithms applied to the acquired data. We propose a framework that automates the complete wildfire detection and satellite scheduling pipeline, entitled the WildFire-applicable Intelligent and Responsive Ensemble for Detection and Scheduling (WildFIRE-DS). This paper develops an algorithm to realize the vision of the WildFIRE-DS as a proof of concept, integrating three key components: wildfire detection in satellite imagery, statistical updating that incorporates data from repeated flyovers, and multisatellite scheduling optimization. The algorithm enables wildfire detection using convolutional neural networks with sensor fusion techniques, incorporates subsequent flyover information via Bayesian statistics, and schedules a constellation of satellites using the state-of-the-art Reconfigurable Earth Observation Satellite Scheduling...",
+      "authors": [
+        "Brycen D. Pearl",
+        "Joshua G. Warner",
+        "Hang Woon Lee"
+      ]
+    },
+    {
+      "title": "Encounter Geometry Effects on Space-Based Laser Debris Remediation and Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-03",
+      "doi": "https://doi.org/10.2514/1.a36710",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.04942",
+      "concepts": [
+        "Space debris",
+        "Debris",
+        "Laser",
+        "Aerospace engineering",
+        "Momentum (technical analysis)",
+        "Environmental remediation",
+        "Environmental science",
+        "Nonlinear system"
+      ],
+      "abstract": "The escalating accumulation of orbital debris poses a critical threat to future space operations. Space-based lasers leveraging laser ablation have emerged as a promising approach for mitigating debris proliferation and preserving the orbital environment. Current literature, however, treats space-based laser debris remediation as a deterministic problem, assuming that momentum transfer and the resulting debris perturbations are precisely known. In reality, laser-to-debris engagement outcomes are inherently stochastic due to partially known debris characteristics. Compounding this challenge, estimating critical laser-matter parameters in situ, such as the momentum coupling coefficient, requires ablation that consequently perturbs the debris trajectory. This establishes a coupled ablation-and-estimation problem in which the laser platform and target debris encounter geometry influence remediation effectiveness and estimation accuracy. To address this problem, we present a joint ablation-and-estimation methodology that provides insights into the driving factors that make different encounter geometries improve or degrade overall remediation and estimation performance. Results across...",
+      "authors": [
+        "M. Fox",
+        "Gavin M. Baker",
+        "David Rogers",
+        "Hang Woon Lee"
+      ]
+    },
+    {
+      "title": "Optimal Satellite Constellation Configuration Design: A Collection of Mixed Integer Linear Programs",
+      "publication_year": 2026,
+      "publication_date": "2026-03-16",
+      "doi": "https://doi.org/10.2514/1.a36518",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.09855",
+      "concepts": [
+        "Constellation",
+        "Computer science",
+        "Satellite constellation",
+        "Satellite",
+        "Distributed computing",
+        "Integer programming",
+        "Real-time computing",
+        "Linear programming"
+      ],
+      "abstract": "Designing satellite constellation systems involves complex multidisciplinary optimization in which coverage serves as a primary driver of overall system cost and performance. Among the various design considerations, constellation configuration, which dictates how satellites are placed and distributed in space relative to each other, predominantly determines the resulting coverage. In constellation configuration design, coverage may be treated either as an optimization objective or as a constraint, depending on mission goals. The state-of-the-art literature addresses each mission scenario on a case-by-case basis, employing distinct assumptions, modeling techniques, and solution methods. While such problem-specific approaches yield valuable insights, users often face implementation challenges when performing tradeoff studies across different mission scenarios, as each scenario must be handled distinctly. In this paper, we propose a collection of five mixed-integer linear programs that are of practical significance, extensible to more complex mission narratives through additional constraints, and capable of obtaining provably optimal constellation configurations. The framework can ...",
+      "authors": [
+        "David O. Williams Rogers",
+        "Dongshik Won",
+        "Dongwook Koh",
+        "Kyungwoo Hong",
+        "Hang Woon Lee"
+      ]
+    }
+  ]
+}

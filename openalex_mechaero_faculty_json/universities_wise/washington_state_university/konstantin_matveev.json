@@ -1,0 +1,243 @@
+{
+  "faculty_name": "Konstantin Matveev",
+  "full_name": "Konstantin I. Matveev",
+  "department": "School of Mechanical and Materials Engineering",
+  "university": "Washington State University",
+  "author_id": "A5007425874",
+  "works_count": 226,
+  "cited_by_count": 1935,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Ship Hydrodynamics and Maneuverability",
+      "count": 71
+    },
+    {
+      "topic": "Fluid Dynamics Simulations and Interactions",
+      "count": 69
+    },
+    {
+      "topic": "Advanced Thermodynamic Systems and Engines",
+      "count": 52
+    },
+    {
+      "topic": "Spacecraft and Cryogenic Technologies",
+      "count": 39
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Aerodynamic characteristics of NACA 4412 airfoil section with flap in extreme ground effect",
+      "publication_year": 2009,
+      "publication_date": "2009-09-01",
+      "doi": "https://doi.org/10.2478/ijnaoe-2013-0001",
+      "venue": "International Journal of Naval Architecture and Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2092678216303776/pdf",
+      "concepts": [
+        "Airfoil",
+        "Lift-to-drag ratio",
+        "Ground effect (cars)",
+        "NACA airfoil",
+        "Angle of attack",
+        "Lift-induced drag",
+        "Mechanics",
+        "Drag"
+      ],
+      "abstract": "Wing-in-Ground vehicles and aerodynamically assisted boats take advantage of increased lift and reduced drag of wing sections in the ground proximity. At relatively low speeds or heavy payloads of these craft, a flap at the wing trailing-edge can be applied to boost the aerodynamic lift. The influence of a flap on the two-dimensional NACA 4412 airfoil in viscous ground-effect flow is numerically investigated in this study. The computational method consists of a steady-state, incompressible, finite volume method utilizing the Spalart-Allmaras turbulence model. Grid generation and solution of the Navier-Stokes equations are completed using computer program Fluent. The code is validated against published experimental and numerical results of unbounded flow with a flap, as well as ground-effect motion without a flap. Aerodynamic forces are calculated, and the effects of angle of attack, Reynolds number, ground height, and flap deflection are presented for a split and plain flap. Changes in the flow introduced with the flap addition are also discussed. Overall, the use of a flap on wings with small attack angles is found to be beneficial for small flap deflections up to 5% of the cho...",
+      "authors": [
+        "Alex E. Ockfen",
+        "Konstantin I. Matveev"
+      ]
+    },
+    {
+      "title": "A model for combustion instability involving vortex shedding",
+      "publication_year": 2003,
+      "publication_date": "2003-06-01",
+      "doi": "https://doi.org/10.1080/00102200302349",
+      "venue": "Combustion Science and Technology",
+      "type": "article",
+      "cited_by_count": 174,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Instability",
+        "Vortex shedding",
+        "Combustion",
+        "Mechanics",
+        "Vortex",
+        "Thermodynamics",
+        "Physics",
+        "Materials science"
+      ],
+      "abstract": "Vigorous burning of vortices, formed behind flame stabilizers, can drive significant pressure oscillations inside premixed-type combustors. The goal of this work is to derive a reduced-order model for interaction among vortex shedding, chamber acoustics, and combustion process. A dump combustor is considered a general system configuration. Formation of vortices at the sudden expansion in a chamber is affected by the oscillatory flow. A new quasi-steady model is proposed for determining the moment of vortex separation. Vortex burning is assumed to be localized in space and time. A \"kicked\" oscillator model is utilized for deriving the appropriate dynamical system. The moment of burning and the corresponding vortex location are dependent on the chamber geometry, velocity field, and characteristic chemical and hydrodynamic times. If Rayleigh's criterion is satisfied, acoustic waves can develop in the chamber. Model and experimental results are compared for a chosen configuration. A study of model performance for a realistic system is carried out by variation of parameters where the mean flow velocity and the number of modes are treated as variables.",
+      "authors": [
+        "Konstantin I. Matveev",
+        "F. E. C. Culick"
+      ]
+    },
+    {
+      "title": "On the limiting parameters of artificial cavitation",
+      "publication_year": 2003,
+      "publication_date": "2003-02-28",
+      "doi": "https://doi.org/10.1016/s0029-8018(02)00103-8",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 59,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Marine engineering",
+        "Limiting",
+        "Lift (data mining)",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Propulsion",
+        "Parametric statistics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Konstantin I. Matveev"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "CFD Simulations of Basic Stepped-Hull Configurations in Planing Regime Using Star-CCM+ Software",
+      "publication_year": 2025,
+      "publication_date": "2025-06-24",
+      "doi": "https://doi.org/10.3390/jmse13071217",
+      "venue": "Journal of Marine Science and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2077-1312/13/7/1217/pdf?version=1750759823",
+      "concepts": [
+        "Hull",
+        "Computational fluid dynamics",
+        "Software",
+        "Marine engineering",
+        "Star (game theory)",
+        "Aerospace engineering",
+        "Computer science",
+        "Environmental science"
+      ],
+      "abstract": "High-speed marine vehicles often employ stepped hulls with the purpose of ventilating bottom surfaces with air, thus reducing the hull’s water resistance. Due to the large number of possible geometrical variations for stepped hulls, numerical simulations can potentially make the process of designing such hulls more effective. In this study, the computational fluid dynamics software Star-CCM+ (version 15.04.008) is applied to comparing the numerical results with the experimental hydrodynamic data available for prismatic hulls with one and two steps. Additionally, simulations are carried out for steps with different sweep angles, for three- and four-step hulls, and for a stepped hull in shallow water. Reasonable agreement with the test data was obtained, although some underestimation of drag and overprediction of air-ventilated zones were noted. In the studied conditions, increasing the forward sweep angle of a step, employing multi-step configurations, and operating in shallow water demonstrated further reductions in the wetted areas and the attainment of higher lift–drag ratios.",
+      "authors": [
+        "Konstantin I. Matveev"
+      ]
+    },
+    {
+      "title": "Acoustic Losses in Cryogenic Hydrogen at Transitions Between Tubes of Different Diameters",
+      "publication_year": 2025,
+      "publication_date": "2025-04-14",
+      "doi": "https://doi.org/10.3390/hydrogen6020025",
+      "venue": "Hydrogen",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2673-4141/6/2/25/pdf?version=1744621884",
+      "concepts": [
+        "Hydrogen",
+        "Materials science",
+        "Nuclear engineering",
+        "Acoustics",
+        "Environmental science",
+        "Chemistry",
+        "Engineering",
+        "Physics"
+      ],
+      "abstract": "Acoustic oscillations in cryogenic systems can either be imposed intentionally, as in pulse-tube cryocoolers, or occur spontaneously due to Taconis-type thermoacoustic instabilities. To predict the propagation of sound waves in ducts with sudden changes in cross-sectional areas, minor losses associated with such transitions in oscillatory flows must be known. However, the current modeling approaches usually rely on correlations for minor loss coefficients obtained in steady flows, which may not accurately represent minor losses in sound waves. In this study, high-fidelity computational fluid dynamics simulations are undertaken for acoustic oscillations at transitions between tubes of different diameters filled with cryogenic hydrogen. The variable parameters include the tube diameter ratios, temperatures (80 K and 30 K), and acoustic impedances corresponding to standing and traveling waves. Computational simulation results are compared with reduced-order acoustic models to develop corrections for minor loss coefficients that describe transition losses in sound waves more precisely. The present findings can improve the accuracy of design calculations for acoustic cryocoolers and ...",
+      "authors": [
+        "Kian Conroy",
+        "Konstantin I. Matveev"
+      ]
+    },
+    {
+      "title": "Experimenting with Catalytic Stacks for Ortho-Parahydrogen Conversion in a Thermoacoustic Standing-Wave Engine",
+      "publication_year": 2026,
+      "publication_date": "2026-06-18",
+      "doi": "https://doi.org/10.3390/cryo2020007",
+      "venue": "Cryo",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/3042-4860/2/2/7/pdf?version=1781762203",
+      "concepts": [
+        "Thermoacoustic heat engine",
+        "Materials science",
+        "Thermoacoustics",
+        "Catalysis",
+        "Heat engine",
+        "Spin isomers of hydrogen",
+        "Energy conversion efficiency",
+        "Hydrogen"
+      ],
+      "abstract": "Thermoacoustic oscillations are excited sound waves in systems with large temperature gradients. Thermoacoustic engines and refrigerators can be constructed using porous materials to enhance the acoustic power produced and facilitate heat pumping for refrigeration. Porous materials can also be utilized as catalytic beds to convert between the two spin-isomers of hydrogen: orthohydrogen and parahydrogen. The conversion between ortho- and parahydrogen is either endothermic or exothermic, and the composition of the isomers manipulates the heat capacity of the fluid. This study experimentally investigates ortho-parahydrogen conversion in a thermoacoustic standing-wave engine with different oxidized catalytic materials. Recorded experimental measurements include the onset temperature ratio, acoustic pressure amplitude, and frequency of the thermoacoustic engine. The results depict a relationship between the oxidized materials and the acoustic amplitude. All oxidized materials promoted an increase in acoustic amplitude versus the pure metallic components. Steady-flow conversion was measured for brass oxide and iron oxide pellets; however, no conversion was detected for aluminum oxide ...",
+      "authors": [
+        "Matthew Shenton",
+        "Nathan Jorgensen",
+        "Konstantin I. Matveev",
+        "Jacob Leachman"
+      ]
+    },
+    {
+      "title": "Computational Modeling of Density Wave Instability in Cryogenic Hydrogen",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.11159/icffts25.131",
+      "venue": "Proceedings of the International Conference on Fluid Flow and Thermal Science, ICFFTS ...",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.11159/icffts25.131",
+      "concepts": [
+        "Hydrogen",
+        "Instability",
+        "Materials science",
+        "Physics",
+        "Mechanics",
+        "Stability (learning theory)",
+        "Thermodynamics",
+        "Field (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Konstantin I. Matveev"
+      ]
+    },
+    {
+      "title": "Numerical Simulations of Large-Amplitude Acoustic Oscillations in Cryogenic Hydrogen at Pipe Exit",
+      "publication_year": 2025,
+      "publication_date": "2025-08-29",
+      "doi": "https://doi.org/10.3390/hydrogen6030063",
+      "venue": "Hydrogen",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2673-4141/6/3/63/pdf?version=1756486320",
+      "concepts": [
+        "Amplitude",
+        "Acoustics",
+        "Hydrogen",
+        "Mechanics",
+        "Physics",
+        "Materials science",
+        "Optics",
+        "Quantum mechanics"
+      ],
+      "abstract": "Pipe exits into cryogenic systems, such as an exit of a venting or sensor tube inside a cryogenic storage tank, can affect spontaneously occurring acoustic oscillations, known as Taconis oscillations. The amplitude which such oscillations will reach is dependent on losses at the pipe exit that prevent resonant oscillations from growing without bound. Consequently, being able to accurately determine minor losses at a pipe exit is important in predicting the behavior of these oscillations. Current thermoacoustic modeling of such transitions typically relies on steady-flow minor loss coefficients, which are usually assumed to be constant for a pipe entrance or exit. In this study, numerical simulations are performed for acoustic flow at a pipe exit, with and without a wall adjacent to the exit. The operating fluid is cryogenic hydrogen gas, while the pipe radius (2 and 4 mm), temperature (40 and 80 K), and acoustic velocity amplitudes (varying in the range of 10 m/s to 70 m/s) are variable parameters. The simulation results are compared with one-dimensional acoustic models to determine the behavior of minor losses. Results are also analyzed to find harmonics behavior and a build-up...",
+      "authors": [
+        "Kian Conroy",
+        "Konstantin I. Matveev"
+      ]
+    }
+  ]
+}

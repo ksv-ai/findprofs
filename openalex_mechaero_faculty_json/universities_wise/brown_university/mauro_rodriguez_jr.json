@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Mauro Rodriguez Jr.",
+  "full_name": "Mauro Rodriguez",
+  "department": "School of Engineering: Fluids and Thermal Sciences / Center for Fluid Mechanics",
+  "university": "Brown University",
+  "author_id": "A5086175635",
+  "works_count": 47,
+  "cited_by_count": 294,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Ultrasound and Cavitation Phenomena",
+      "count": 18
+    },
+    {
+      "topic": "Fluid Dynamics and Mixing",
+      "count": 12
+    },
+    {
+      "topic": "Ultrasound and Hyperthermia Applications",
+      "count": 6
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 6
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling tissue-selective cavitation damage",
+      "publication_year": 2019,
+      "publication_date": "2019-10-22",
+      "doi": "https://doi.org/10.1088/1361-6560/ab5010",
+      "venue": "Physics in Medicine and Biology",
+      "type": "article",
+      "cited_by_count": 78,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6925591",
+      "concepts": [
+        "Cavitation",
+        "Materials science",
+        "Ultrasound",
+        "Biomedical engineering",
+        "Bubble",
+        "Viscoelasticity",
+        "Ablation",
+        "Soft tissue"
+      ],
+      "abstract": "The destructive growth and collapse of cavitation bubbles are used for therapeutic purposes in focused ultrasound procedures and can contribute to tissue damage in traumatic injuries. Histotripsy is a focused ultrasound procedure that relies on controlled cavitation to homogenize soft tissue. Experimental studies of histotripsy cavitation have shown that the extent of ablation in different tissues depends on tissue mechanical properties and waveform parameters. Variable tissue susceptibility to the large stresses, strains, and strain rates developed by cavitation bubbles has been suggested as a basis for localized liver tumor treatments that spare large vessels and bile ducts. However, field quantities developed within microns of cavitation bubbles are too localized and transient to measure in experiments. Previous numerical studies have attempted to circumvent this challenge but made limited use of realistic tissue property data. In this study, numerical simulations are used to calculate stress, strain, and strain rate fields produced by bubble oscillation under histotripsy forcing in a variety of tissues with literature-sourced viscoelastic and acoustic properties. Strain fiel...",
+      "authors": [
+        "Lauren Mancia",
+        "Eli Vlaisavljevich",
+        "Nyousha Yousefi",
+        "Mauro Rodriguez",
+        "Timothy J. Ziemlewicz",
+        "Fred T. Lee",
+        "David L. Henann",
+        "Christian Franck",
+        "Zhen Xu",
+        "Eric Johnsen"
+      ]
+    },
+    {
+      "title": "Comparative study of the dynamics of laser and acoustically generated bubbles in viscoelastic media",
+      "publication_year": 2019,
+      "publication_date": "2019-04-10",
+      "doi": "https://doi.org/10.1103/physreve.99.043103",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 45,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stiffness",
+        "RADIUS",
+        "Viscoelasticity",
+        "Materials science",
+        "Bubble",
+        "Nucleation",
+        "Phase (matter)",
+        "Rayleigh scattering"
+      ],
+      "abstract": "Experimental observations of the growth and collapse of acoustically and laser-nucleated single bubbles in water and agarose gels of varying stiffness are presented. The maximum radii of generated bubbles decreased as the stiffness of the media increased for both nucleation modalities, but the maximum radii of laser-nucleated bubbles decreased more rapidly than acoustically nucleated bubbles as the gel stiffness increased. For water and low stiffness gels, the collapse times were well predicted by a Rayleigh cavity, but bubbles collapsed faster than predicted in the higher stiffness gels. The growth and collapse phases occurred symmetrically (in time) about the maximum radius in water but not in gels, where the duration of the growth phase decreased more than the collapse phase as gel stiffness increased. Numerical simulations of the bubble dynamics in viscoelastic media showed varying degrees of success in accurately predicting the observations.",
+      "authors": [
+        "Chad Wilson",
+        "Timothy L. Hall",
+        "Eric Johnsen",
+        "Lauren Mancia",
+        "Mauro Rodriguez",
+        "Jonathan Lundt",
+        "Tim Colonius",
+        "David L. Henann",
+        "Christian Franck",
+        "Zhen Xu",
+        "Jonathan R. Sukovich"
+      ]
+    },
+    {
+      "title": "Dynamics of an inertially collapsing gas bubble between two parallel, rigid walls",
+      "publication_year": 2022,
+      "publication_date": "2022-08-11",
+      "doi": "https://doi.org/10.1017/jfm.2022.571",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 37,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7FE6DA0FC5602B4DEBB62EDDA2DA9D16/S0022112022005717a.pdf/div-class-title-dynamics-of-an-inertially-collapsing-gas-bubble-between-two-parallel-rigid-walls-div.pdf",
+      "concepts": [
+        "Bubble",
+        "Mechanics",
+        "Cavitation",
+        "Physics",
+        "Jet (fluid)",
+        "Channel (broadcasting)",
+        "Vortex",
+        "Dynamics (music)"
+      ],
+      "abstract": "The collapse of cavitation bubbles in channel flows can give rise to structural damage along neighbouring walls. Although the collapse of a bubble near a single wall has been studied extensively, less is known about bubble collapse between two walls, e.g. as in a channel. We conduct highly resolved, direct simulations of the Navier–Stokes equations to investigate the bubble dynamics and pressures produced by the collapse of a bubble between two parallel rigid walls. We examine the dependence of the dynamics and pressures on the initial bubble location, confinement and driving pressure. For a fixed initial stand-off distance, as the channel width increases the bubble volume, migration distance and re-entrant jet speed approach their single-wall counterparts. We obtain an expression for the minimum channel width at which the confinement does not affect the bubble dynamics depending on the driving pressure difference and initial stand-off distance. For a fixed channel width, varying stand-off distance reduced the maximum wall pressures in the channel relative to the single wall; the trend was consistent for three different driving pressures. Two different jetting behaviours are see...",
+      "authors": [
+        "Mauro Rodriguez",
+        "Shahaboddin Alahyari Beig",
+        "Charlotte Barbier",
+        "Eric Johnsen"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nonspherical gas bubble dynamics in viscoelastic soft materials",
+      "publication_year": 2026,
+      "publication_date": "2026-06-05",
+      "doi": "https://doi.org/10.48550/arxiv.2606.07817",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.07817",
+      "concepts": [
+        "Mechanics",
+        "Viscoelasticity",
+        "Classical mechanics",
+        "Bubble",
+        "Physics",
+        "Rheology",
+        "Dissipation",
+        "Cavitation"
+      ],
+      "abstract": "Nonspherical gas bubble dynamics in viscoelastic materials influence the stress transmission and energy dissipation of their surroundings and are difficult to predict. Their accurate prediction is essential in applications ranging from biomedical procedures to high-strain-rate rheological measurements. However, existing models do not sufficiently capture the nonspherical rotational dynamics. We formulate and superpose a rotational contribution to the perturbed deformation with a potential contribution. Linearised forward and inverse coordinate maps are formulated based on the deformation field which are used to compute velocities, accelerations, and stresses. The addition of the rotational degree of freedom satisfies the momentum balance equations and stress continuity at the bubble surface. The material surrounding the bubble is modelled with a Kelvin-Voigt constitutive model with Newtonian viscosity and quadratic strain-stiffening neo-Hookean elasticity. The model agrees with previous viscous fluids models when elastic effects are neglected and radial oscillations are small. When viscous effects are small relative to elastic, shear waves radiate from the bubble surface into th...",
+      "authors": [
+        "Sawyer Remillard",
+        "Mauro Rodriguez"
+      ]
+    },
+    {
+      "title": "Microbubble surface instabilities in a strain stiffening viscoelastic material",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.1016/j.eml.2026.102479",
+      "venue": "Extreme Mechanics Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.eml.2026.102479",
+      "concepts": [
+        "Viscoelasticity",
+        "Rheometry",
+        "Mechanics",
+        "Bubble",
+        "Perturbation (astronomy)",
+        "Stiffening",
+        "Materials science",
+        "Classical mechanics"
+      ],
+      "abstract": "Understanding the dynamics of instabilities along fluid-solid interfaces is critical for the efficacy of focused ultrasound therapy tools (e.g., histotripsy) and microcavitation rheometry techniques. Non-uniform pressure fields generated by either ultrasound or a focused laser can cause non-spherical microcavitation bubbles. Previous perturbation amplitude evolution models in viscoelastic materials either assume pure radial deformation or have inconsistent kinematic fields between the fluid and solid contributions. We derive a kinematically-consistent theoretical model for the evolution of surface perturbations. The model captures the non-linear kinematics of a strain-stiffening viscoelastic material surrounding a non-spherical bubble. The model is validated for (i) small, approximately linear radial oscillations and (ii) large inertial oscillations using laser-induced microcavitation experiments in a soft hydrogel. For the former, the bubble is allowed to reach mechanical equilibrium, and then surface perturbations are excited using ultrasound forcing. For the latter, the microbubble forms small bubble surface perturbations at its maximum radius that grow during collapse. The m...",
+      "authors": [
+        "Sawyer Remillard",
+        "Bachir A. Abeid",
+        "Timothy L. Hall",
+        "Jonathan R. Sukovich",
+        "Jacob C. Baker",
+        "Jin Yang",
+        "Jonathan B. Estrada",
+        "Mauro Rodriguez"
+      ]
+    },
+    {
+      "title": "Energy transfer of two spherical oscillating bubbles in a free field",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1063/5.0300783",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bubble",
+        "Physics",
+        "Mechanics",
+        "Compressibility",
+        "Scaling",
+        "Energy budget",
+        "Work (physics)",
+        "Range (aeronautics)"
+      ],
+      "abstract": "Cavitation bubbles often appear as populations in a wide range of naval and biomedical applications. While the oscillations of an isolated spherical bubble are relatively well understood, the dynamics of multiple bubbles remain less characterized due to the large number of parameters associated with bubble size and spatial configuration. In the present study, we develop an energy budget framework for quantifying energy transfer and pressure work during the oscillations of spherical bubbles while conserving the total energy of the system. We focus on a two-bubble system in the dilute limit, in which bubbles interact weakly and largely maintain spherical symmetry. The energy budget framework uses the outputs of the coupled Keller–Miksis equations to evaluate individual energy components and their temporal evolution. Three key parameters—bubble size ratio, bubble–bubble distance, and driving pressure ratio—are observed to nonlinearly alter collapse time, energy concentration, and radiated acoustic energy. We show that stronger interactions, caused by larger size ratios or smaller separation distances, lead to reduced compression and less violent and delayed collapse, thereby loweri...",
+      "authors": [
+        "M. Kim",
+        "J. J. Lee",
+        "Mauro Rodriguez"
+      ]
+    },
+    {
+      "title": "Hierarchical Bayesian constitutive model selection for high-strain-rate soft material characterization",
+      "publication_year": 2025,
+      "publication_date": "2025-11-20",
+      "doi": "https://doi.org/10.48550/arxiv.2511.16794",
+      "venue": "PubMed",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.16794",
+      "concepts": [
+        "Model selection",
+        "Bayesian probability",
+        "Uncertainty quantification",
+        "Computer science",
+        "Noise (video)",
+        "Constitutive equation",
+        "Estimation theory",
+        "Maximum a posteriori estimation"
+      ],
+      "abstract": "(MAP) material parameter values. Synthetic tests recover the ground-truth models and expected parameters. Using experimental data for gelatin, fibrin, polyacrylamide, and agarose, MAP simulations of credible models reproduce the data. Moreover, a cross-institutional comparison of 10% gelatin indicates consistent constitutive model selection.",
+      "authors": [
+        "Víctor Sánchez",
+        "Sawyer Remillard",
+        "Bachir A. Abeid",
+        "Ling Bu",
+        "Spencer H. Bryngelson",
+        "Jin Yang",
+        "Jonathan B. Estrada",
+        "Mauro Rodriguez"
+      ]
+    },
+    {
+      "title": "Low Reynolds number pumping near an elastic half space",
+      "publication_year": 2025,
+      "publication_date": "2025-05-15",
+      "doi": "https://doi.org/10.1103/physrevfluids.10.054003",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Magnetic Reynolds number",
+        "Mechanics",
+        "Reynolds equation",
+        "Space (punctuation)",
+        "Physics",
+        "Reynolds decomposition",
+        "Mathematics"
+      ],
+      "abstract": "Oscillatory flow near deformable boundaries arises in a variety of biological and engineered contexts. In this study, peristaltically driven flow is quantified as a function of a passive boundary's elasticity for transverse and longitudinal driving waves. Compliance of the elastic half-space generally leads to a decrease in flow rate. However, under longitudinal loading and sufficient confinement, flow can increase. Lagrangian velocities quantify reflux, supporting claims longitudinal waves reduce reflux near the peristaltic wave. We show our analysis agrees with experimental data for pulsatile cerebrospinal fluid flow in the brain.",
+      "authors": [
+        "Avery Trevino",
+        "Thomas Powers",
+        "Roberto Zenit",
+        "Mauro Rodriguez"
+      ]
+    }
+  ]
+}

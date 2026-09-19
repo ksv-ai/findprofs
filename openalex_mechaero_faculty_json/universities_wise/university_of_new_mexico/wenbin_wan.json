@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Wenbin Wan",
+  "full_name": "Wenbin Wan",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of New Mexico",
+  "author_id": "A5100544289",
+  "works_count": 42,
+  "cited_by_count": 130,
+  "h_index": 6,
+  "top_topics": [
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 13
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 9
+    },
+    {
+      "topic": "Traffic control and management",
+      "count": 6
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 6
+    },
+    {
+      "topic": "Vehicle Dynamics and Control Systems",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Safety Constrained Control Framework for UAVs in GPS Denied Environment",
+      "publication_year": 2020,
+      "publication_date": "2020-12-14",
+      "doi": "https://doi.org/10.1109/cdc42340.2020.9304304",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 14,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spoofing attack",
+        "Global Positioning System",
+        "Computer science",
+        "Kalman filter",
+        "Real-time computing",
+        "Controller (irrigation)",
+        "Control (management)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Unmanned aerial vehicles (UAVs) suffer from sensor drifts in GPS denied environments, which can lead to potentially dangerous situations. To avoid intolerable sensor drifts in the presence of GPS spoofing attacks, we propose a safety constrained control framework that adapts the UAV at a path re-planning level to support resilient state estimation against GPS spoofing attacks. The attack detector is used to detect GPS spoofing attacks and provides a switching criterion between the robust control mode and emergency control mode. An attacker location tracker (ALT) is developed to track the attacker's location and estimate the spoofing device's output power by the unscented Kalman filter (UKF) with sliding window outputs. Using the estimates from ALT, we design an escape controller (ESC) based on the model predictive controller (MPC) such that the UAV escapes from the effective range of the spoofing device within the escape time.",
+      "authors": [
+        "Wenbin Wan",
+        "Hunmin Kim",
+        "Naira Hovakimyan",
+        "Lui Sha",
+        "Petros G. Voulgaris"
+      ]
+    },
+    {
+      "title": "Machine learning algorithms for FPGA Implementation in biomedical engineering applications: A review",
+      "publication_year": 2024,
+      "publication_date": "2024-02-01",
+      "doi": "https://doi.org/10.1016/j.heliyon.2024.e26652",
+      "venue": "Heliyon",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.heliyon.2024.e26652",
+      "concepts": [
+        "Field-programmable gate array",
+        "Computer science",
+        "Application-specific integrated circuit",
+        "Scalability",
+        "Algorithm",
+        "Computer architecture",
+        "FPGA prototype",
+        "Embedded system"
+      ],
+      "abstract": "Field Programmable Gate Arrays (FPGAs) are integrated circuits that can be configured by the user after manufacturing, making them suitable for customized hardware prototypes, a feature not available in general-purpose processors in Application Specific Integrated Circuits (ASIC). In this paper, we review the vast Machine Learning (ML) algorithms implemented on FPGAs to increase performance and capabilities in healthcare technology over 2001-2023. In particular, we focus on real-time ML algorithms targeted to FPGAs and hybrid System-on-a-chip (SoC) FPGA architectures for biomedical applications. We discuss how previous works have customized and optimized their ML algorithm and FPGA designs to address the putative embedded systems challenges of limited memory, hardware, and power resources while maintaining scalability to accommodate different network sizes and topologies. We provide a synthesis of articles implementing classifiers and regression algorithms, as they are significant algorithms that cover a wide range of ML algorithms used for biomedical applications. This article is written to inform the biomedical engineering and FPGA design communities to advance knowledge of FP...",
+      "authors": [
+        "Morteza Babaee Altman",
+        "Wenbin Wan",
+        "Amineh Sadat Hosseini",
+        "Saber Arabi Nowdeh",
+        "Masoumeh Alizadeh"
+      ]
+    },
+    {
+      "title": "Development of permanent magnet synchronous motor used in electric vehicle",
+      "publication_year": 2002,
+      "publication_date": "2002-11-13",
+      "doi": "https://doi.org/10.1109/icems.2001.971819",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 22,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Permanent magnet synchronous motor",
+        "Electric vehicle",
+        "Synchronous motor",
+        "Magnet",
+        "Automotive engineering",
+        "Computer science",
+        "Electrical engineering",
+        "Engineering"
+      ],
+      "abstract": "Permanent magnet synchronous motor (PMSM) has a excellent performance and will see a wide use in electric vehicle (EV) application. But some improvements should and can be done to make it more suitable in an EV drive. In this paper, asymmetric airgap and its optimal design, field and circuit coupled design method and winding switch of PMSM are put forward and analyzed, and are verified to be valid by experiment or simulation.",
+      "authors": [
+        "Xu Yanliang",
+        "Jiaqun Xu",
+        "Wenbin Wan",
+        "Tang Renyuan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Intelligent Connected Vehicles",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.3390/vehicles8040070",
+      "venue": "Vehicles",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2624-8921/8/4/70/pdf?version=1774944955",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Intelligent transportation system",
+        "Field (mathematics)",
+        "Intelligent decision support system",
+        "Automation",
+        "Intelligent sensor",
+        "Intelligent control"
+      ],
+      "abstract": "The development of intelligent connected vehicles (ICVs) continues to be shaped by simultaneous advances in sensing, communication, autonomy, and data-driven system design [...]",
+      "authors": [
+        "Shih-Lin Lin",
+        "Wenbin Wan"
+      ]
+    },
+    {
+      "title": "DBaS-Log-MPPI: Efficient and Safe Trajectory Optimization via Barrier States",
+      "publication_year": 2025,
+      "publication_date": "2025-10-19",
+      "doi": "https://doi.org/10.1109/iros60139.2025.11245991",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Model predictive control",
+        "Computer science",
+        "Path (computing)",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Control (management)",
+        "Motion planning"
+      ],
+      "abstract": "Optimizing trajectory costs for nonlinear control systems remains a significant challenge. Model Predictive Control (MPC), particularly sampling-based approaches such as the Model Predictive Path Integral (MPPI) method, has recently demonstrated considerable success by leveraging parallel computing to efficiently evaluate numerous trajectories. However, MPPI often struggles to balance safe navigation in constrained environments with effective exploration in open spaces, leading to infeasibility in cluttered conditions. To address these limitations, we propose DBaS-Log-MPPI, a novel algorithm that integrates Discrete Barrier States (DBaS) to ensure safety while enabling adaptive exploration with enhanced feasibility. Our method is efficiently validated through three simulation missions and one real-world experiment, involving a 2D quadrotor and a ground vehicle navigating through cluttered obstacles. We demonstrate that our algorithm surpasses both Vanilla MPPI and Log-MPPI, achieving higher success rates, lower tracking errors, and a conservative average speed.",
+      "authors": [
+        "Fanxin Wang",
+        "Haolong Jiang",
+        "Chuyuan Tao",
+        "Wenbin Wan",
+        "Yikun Cheng"
+      ]
+    },
+    {
+      "title": "Stabilizing and synchronizing the chaotic PMSM systems via improving A2C algorithm",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1088/1402-4896/ae15c4",
+      "venue": "Physica Scripta",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Synchronizing",
+        "Control theory (sociology)",
+        "Computer science",
+        "Convergence (economics)",
+        "Synchronization (alternating current)",
+        "Nonlinear system",
+        "Chaotic",
+        "Reinforcement learning"
+      ],
+      "abstract": "Abstract This paper presents a model-free deep reinforcement learning (DRL) framework for the stabilization and synchronization of chaotic permanent magnet synchronous motor (PMSM) systems, addressing the limitations of traditional control methods that rely on precise system models. The proposed approach employs a modified Advantage-Actor-Critic (A2C) algorithm, featuring a novel nonlinear error-sensitive reward function that significantly enhances convergence speed by amplifying learning signals in the vicinity of the target state. Unlike conventional DRL applications, the control strategy utilizes only two control inputs, reducing implementation complexity and energy cost. Experimental results demonstrate that the proposed method achieves single-system stabilization within 0.28 s and synchronization between two PMSMs within 0.32 s—improving convergence speed by over 40% compared to standard A2C and other reward designs. Under Gaussian noise, the trained policy achieves significantly lower mean absolute errors, demonstrating high control precision and strong robustness. These results highlight the practical potential of DRL in real-world motor control applications, where system...",
+      "authors": [
+        "Shitao Jin",
+        "Wenbin Wan",
+        "Xiaofeng Wang",
+        "Jie Wu",
+        "Pengchun Rao",
+        "Ru-ru Ma"
+      ]
+    },
+    {
+      "title": "Towards Resilient Tracking in Autonomous Vehicles: A Distributionally Robust Input and State Estimation Approach",
+      "publication_year": 2025,
+      "publication_date": "2025-04-14",
+      "doi": "https://doi.org/10.48550/arxiv.2504.09974",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2504.09974",
+      "concepts": [
+        "Robustness (evolution)",
+        "Probabilistic logic",
+        "Computer science",
+        "Ambiguity",
+        "Control theory (sociology)",
+        "Mathematical optimization",
+        "State (computer science)",
+        "Vehicle dynamics"
+      ],
+      "abstract": "This paper proposes a novel framework for the distributionally robust input and state estimation (DRISE) for autonomous vehicles operating under model uncertainties and measurement outliers. The proposed framework improves the input and state estimation (ISE) approach by integrating distributional robustness, enhancing the estimator's resilience and robustness to adversarial inputs and unmodeled dynamics. Moment-based ambiguity sets capture probabilistic uncertainties in both system dynamics and measurement noise, offering analytical tractability and efficiently handling uncertainties in mean and covariance. In particular, the proposed framework minimizes the worst-case estimation error, ensuring robustness against deviations from nominal distributions. The effectiveness of the proposed approach is validated through simulations conducted in the CARLA autonomous driving simulator, demonstrating improved performance in state estimation accuracy and robustness in dynamic and uncertain environments.",
+      "authors": [
+        "Kasra Azizi",
+        "Kumar Anurag",
+        "Wenbin Wan"
+      ]
+    },
+    {
+      "title": "DBaS-Log-MPPI: Efficient and Safe Trajectory Optimization via Barrier States",
+      "publication_year": 2025,
+      "publication_date": "2025-03-26",
+      "doi": "https://doi.org/10.48550/arxiv.2504.06437",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2504.06437",
+      "concepts": [
+        "Trajectory",
+        "Model predictive control",
+        "Computer science",
+        "Path (computing)",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Control (management)",
+        "Motion planning"
+      ],
+      "abstract": "Optimizing trajectory costs for nonlinear control systems remains a significant challenge. Model Predictive Control (MPC), particularly sampling-based approaches such as the Model Predictive Path Integral (MPPI) method, has recently demonstrated considerable success by leveraging parallel computing to efficiently evaluate numerous trajectories. However, MPPI often struggles to balance safe navigation in constrained environments with effective exploration in open spaces, leading to infeasibility in cluttered conditions. To address these limitations, we propose DBaS-Log-MPPI, a novel algorithm that integrates Discrete Barrier States (DBaS) to ensure safety while enabling adaptive exploration with enhanced feasibility. Our method is efficiently validated through three simulation missions and one real-world experiment, involving a 2D quadrotor and a ground vehicle navigating through cluttered obstacles. We demonstrate that our algorithm surpasses both Vanilla MPPI and Log-MPPI, achieving higher success rates, lower tracking errors, and a conservative average speed.",
+      "authors": [
+        "Fanxin Wang",
+        "Haolong Jiang",
+        "Chuyuan Tao",
+        "Wenbin Wan",
+        "Yikun Cheng"
+      ]
+    }
+  ]
+}

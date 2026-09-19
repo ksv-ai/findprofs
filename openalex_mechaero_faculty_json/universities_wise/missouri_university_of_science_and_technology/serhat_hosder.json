@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Serhat Hosder",
+  "full_name": "Serhat Hosder",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Missouri University of Science and Technology",
+  "author_id": "A5041724810",
+  "works_count": 133,
+  "cited_by_count": 2680,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 73
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 58
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 45
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 34
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Efficient Sampling for Non-Intrusive Polynomial Chaos Applications with Multiple Uncertain Input Variables",
+      "publication_year": 2007,
+      "publication_date": "2007-04-23",
+      "doi": "https://doi.org/10.2514/6.2007-1939",
+      "venue": "48th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference",
+      "type": "conference-paper",
+      "cited_by_count": 340,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "CHAOS (operating system)",
+        "Computer science",
+        "Polynomial chaos",
+        "Sampling (signal processing)",
+        "Polynomial",
+        "Mathematics",
+        "Algorithm",
+        "Statistics"
+      ],
+      "abstract": "The accuracy and the computational efficiency of a Point-Collocation Non-Intrusive Polynomial Chaos (NIPC) method applied to stochastic problems with multiple uncertain input variables has been investigated. Two stochastic model problems with multiple uni-form random variables were studied to determine the effect of different sampling methods (Random, Latin Hypercube, and Hammersley) for the selection of the collocation points. The effect of the number of collocation points on the accuracy of polynomial chaos expan-sions were also investigated. The results of the stochastic model problems show that all three sampling methods exhibit a similar performance in terms of the the accuracy and the computational efficiency of the chaos expansions. It has been observed that using a number of collocation points that is twice more than the minimum number required gives a better approximation to the statistics at each polynomial degree. This improvement can be related to the increase of the accuracy of the polynomial coefficients due to the use of more information in their calculation. The results of the stochastic model problems also indicate that for problems with multiple random variable...",
+      "authors": [
+        "Serhat Hosder",
+        "Robert Walters",
+        "Michael Balch"
+      ]
+    },
+    {
+      "title": "A Non-Intrusive Polynomial Chaos Method For Uncertainty Propagation in CFD Simulations",
+      "publication_year": 2006,
+      "publication_date": "2006-01-09",
+      "doi": "https://doi.org/10.2514/6.2006-891",
+      "venue": "44th AIAA Aerospace Sciences Meeting and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 324,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "CHAOS (operating system)",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Polynomial",
+        "Applied mathematics",
+        "Statistical physics",
+        "Mathematical optimization"
+      ],
+      "abstract": "In this extended abstract, we present a Non-Intrusive Polynomial Chaos (PC) method for the propagation of input uncertainty in Computational Fluid Dynamics (CFD) simulations. By the “non-intrusive” term, we specify a method which does not modify the original deterministic code used in the simulations. In our proposed paper, we focus on investigating such a method which uses deterministic solutions in a stochastic model to simulate the propagation of the input uncertainties for obtaining various statistics of output variables. In a previous study [1], an intrusive PC formulation was implemented to a deterministic Euler code. This intrusive method involves substituting the PC expansions into fluxes and Jacobians, and projecting them onto a random basis function in the form of Hermite Polynomials. Despite its power in uncertainty propagation modeling, this intrusive method can be relatively difficult, expensive, and time consuming to implement to complex problems such as the full Navier-Stokes simulation of 3-D, viscous, turbulent flows around realistic aerospace vehicles or multi-system level simulations which include the interaction of many different codes from different discipli...",
+      "authors": [
+        "Serhat Hosder",
+        "Robert Walters",
+        "Rafael Pérez"
+      ]
+    },
+    {
+      "title": "Point-Collocation Nonintrusive Polynomial Chaos Method for Stochastic Computational Fluid Dynamics",
+      "publication_year": 2010,
+      "publication_date": "2010-11-11",
+      "doi": "https://doi.org/10.2514/1.39389",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 244,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Uncertainty quantification",
+        "Monte Carlo method",
+        "Transonic",
+        "Mathematics",
+        "Polynomial",
+        "Computational fluid dynamics",
+        "Collocation (remote sensing)"
+      ],
+      "abstract": "This paper describes a point-collocation nonintrusive polynomial chaos technique used for uncertainty propagation in computational fluid dynamics simulations. The application of point-collocation nonintrusive polynomial chaos to stochastic computational fluid dynamics is demonstrated with two examples: 1) a stochastic expansion-wave problem with an uncertain deflection angle (geometric uncertainty) and 2) a stochastic transonic-wing case with uncertain freestream Mach number and angle of attack. For each problem, input uncertainties are propagated with both the nonintrusive polynomial chaos method and Monte Carlo techniques to obtain the statistics of various output quantities. Confidence intervals for Monte Carlo statistics are calculated using the bootstrap method. For the expansion-wave problem, a fourth-degree polynomial chaos expansion, which requires five deterministic computational fluid dynamics evaluations, has been sufficient to predict the statistics within the confidence interval of 10,000 crude Monte Carlo simulations. In the transonic-wing case, for various output quantities of interest, it has been shown that a fifth-degree point-collocation nonintrusive polynomia...",
+      "authors": [
+        "Serhat Hosder",
+        "Robert W. Walters",
+        "Michael Balch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A combined tomographic particle image velocimetry and numerical simulation approach for supersonic wind tunnel calibration",
+      "publication_year": 2025,
+      "publication_date": "2025-11-02",
+      "doi": "https://doi.org/10.1016/j.ast.2025.111168",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Wind tunnel",
+        "Supersonic wind tunnel",
+        "Pitot tube",
+        "Particle image velocimetry",
+        "Aerodynamics",
+        "Turbulence",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "J Gary",
+        "J. K. Mcdermott",
+        "Kyle Worden",
+        "Serhat Hosder",
+        "Davide Viganò"
+      ]
+    },
+    {
+      "title": "Multifidelity Dust Erosion Analysis of Mars Entry Vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1138",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mars Exploration Program",
+        "Erosion",
+        "Astrobiology",
+        "Environmental science",
+        "Computer science",
+        "Aerospace engineering",
+        "Geology",
+        "Engineering"
+      ],
+      "abstract": "The objective of this paper is to present a multifidelity approach for estimating recession rate and kinetic energy impact rate on the surface of planetary entry vehicles operating in dusty atmospheric environments at hypersonic speeds. The multifidelity model used a co-Kriging approach that combined a low-fidelity correlation with a correction factor from high-fidelity CFD solutions. The developed multifidelity model enables efficient and accurate exploration of a design space to determine at what conditions encountering dust is most dangerous to TPS survivability. Two sample problems are used to demonstrate the effectiveness of the approach: the Mars 2020 lander and a HIAD-type entry vehicle design space. Converged multifidelity models for the M2020 and HIAD design spaces were able to predict independent sets of high-fidelity test points with 2.83% and 3.84% error, respectively. Additionally, the computational cost of evaluating the converged multifidelity models was approximately 4 orders of magnitude lower than one high-fidelity CFD solution. The converged models were then applied to sets of randomly generated atmospheric ballistic entry trajectories to demonstrate the effec...",
+      "authors": [
+        "Adam J. Boland",
+        "Dominic Zanti",
+        "Serhat Hosder",
+        "Andrew Hinkle"
+      ]
+    },
+    {
+      "title": "Arc-Jet and Free-Flight Evaluation of Laminar and Turbulent Diffusion Models on Ablation",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0557",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Jet (fluid)",
+        "Turbulence",
+        "Arc (geometry)",
+        "Mechanics",
+        "Diffusion",
+        "Ablation",
+        "Turbulent diffusion"
+      ],
+      "abstract": "This paper investigates the effect of diffusion models on carbon ablation with a parametric study on a slug-calorimeter geometry in arc-jet flow at two enthalpy conditions using two arc-jet flow modeling approaches, and at corresponding enthalpy-matched free-flight conditions using RANS CFD simulations. Additionally, a sphere-cone geometry is modeled at the arc-jet enthalpy matched free-flight conditions and at a high Reynolds number free-flight condition. The approximate-corrected form of Fick’s law and the Stefan-Maxwell diffusion models are investigated for equilibrium and finite-rate carbon ablation in laminar and turbulent flows, which is simulated with the Menter-SST turbulence model. The turbulent cases include the investigation of the effect of the turbulent Schmidt number and free-stream turbulence intensity on ablation. The results showed that the equilibrium-char solutions are more sensitive to the diffusion model. The variation in the turbulent Schmidt number created a noticeable effect on ablation only for the high Re number free-flight case. The comparison between the arc-jet and free-flight cases outlined the differences in ablation magnitudes and profiles for the...",
+      "authors": [
+        "Kyle J. Worden",
+        "André Heider",
+        "Serhat Hosder"
+      ]
+    },
+    {
+      "title": "Assessment of Radiation Scattering by Dust in Mars Entry",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1535",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mars Exploration Program",
+        "Astrobiology",
+        "Radiation",
+        "Scattering",
+        "Physics",
+        "Light scattering",
+        "Aerospace engineering",
+        "Environmental science"
+      ],
+      "abstract": "The impact of gas phase radiation scattering by dust particle presence in Mars entry scenarios is assessed using a suite of numerical tools. A hypersonic gas and dilute particle multiphase flow is simulated using a mixed continuum model and an efficient size distribution quadrature scheme. Radiative transport is simulated with a hybrid ray-tracing and P1 spherical harmonics model. The NASA HARA radiation code and a Lorentz-Mie scattering model are used to predict the gas-particle mixture radiative properties. Application of the numerical suite to a representative case based on the Mars 2020 entry shows that, even at conditions in excess of the strongest recorded dust storm, the augmentation in surface radiative heat flux due to scattering alone is lower than 1%, and therefore negligible. Predictions with even higher dust loading conditions confirm that even highly uncertain dust mass profiles are unlikely to be a concern for the scattering augmentation mechanism.",
+      "authors": [
+        "Andrew Hinkle",
+        "Christopher O. Johnston",
+        "Kyle B. Thompson",
+        "Serhat Hosder"
+      ]
+    },
+    {
+      "title": "Mission-Driven Inverse Design of Blended Wing Body Aircraft with Machine Learning",
+      "publication_year": 2024,
+      "publication_date": "2024-02-05",
+      "doi": "https://doi.org/10.3390/aerospace11020137",
+      "venue": "Aerospace",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2226-4310/11/2/137/pdf?version=1707121209",
+      "concepts": [
+        "Wing",
+        "Inverse",
+        "Aerospace engineering",
+        "Computer science",
+        "Engineering",
+        "Aeronautics",
+        "Artificial intelligence",
+        "Mechanical engineering"
+      ],
+      "abstract": "The intent of this work was to investigate the feasibility of developing machine learning models for calculating values of airplane configuration design variables when provided time-series, mission-informed performance data. Shallow artificial neural networks were developed, trained, and tested using data pertaining to the blended wing body (BWB) class of aerospace vehicles. Configuration design parameters were varied using a Latin-hypercube sampling scheme. These data were used by a parametric-based BWB configuration generator to create unique BWBs. Performance for each configuration was obtained via a performance estimation tool. Training and testing of neural networks was conducted using a K-fold cross-validation scheme. A random forest approach was used to determine the values of predicted configuration design variables when evaluating neural network accuracy across a blended wing body vehicle survey. The results demonstrated the viability of leveraging neural networks in mission-dependent, inverse design of blended wing bodies. In particular, feed-forward, shallow neural network architectures yielded significantly better predictive accuracy than cascade-forward architecture...",
+      "authors": [
+        "Rohan Sharma",
+        "Serhat Hosder"
+      ]
+    }
+  ]
+}

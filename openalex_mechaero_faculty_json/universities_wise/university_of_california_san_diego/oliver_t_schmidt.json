@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Oliver T. Schmidt",
+  "full_name": "Oliver T. Schmidt",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-San Diego",
+  "author_id": "A5062168975",
+  "works_count": 163,
+  "cited_by_count": 5183,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 95
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 62
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 42
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 32
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Spectral analysis of jet turbulence",
+      "publication_year": 2018,
+      "publication_date": "2018-09-21",
+      "doi": "https://doi.org/10.1017/jfm.2018.675",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 476,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1711.06296",
+      "concepts": [
+        "Physics",
+        "Wavenumber",
+        "Turbulence",
+        "Supersonic speed",
+        "Mean flow",
+        "Computational physics",
+        "Transonic",
+        "Mechanics"
+      ],
+      "abstract": "Informed by large-eddy simulation (LES) data and resolvent analysis of the mean flow, we examine the structure of turbulence in jets in the subsonic, transonic and supersonic regimes. Spectral (frequency-space) proper orthogonal decomposition is used to extract energy spectra and decompose the flow into energy-ranked coherent structures. The educed structures are generally well predicted by the resolvent analysis. Over a range of low frequencies and the first few azimuthal mode numbers, these jets exhibit a low-rank response characterized by Kelvin–Helmholtz (KH) type wavepackets associated with the annular shear layer up to the end of the potential core and that are excited by forcing in the very-near-nozzle shear layer. These modes too have been experimentally observed before and predicted by quasi-parallel stability theory and other approximations – they comprise a considerable portion of the total turbulent energy. At still lower frequencies, particularly for the axisymmetric mode, and again at high frequencies for all azimuthal wavenumbers, the response is not low-rank, but consists of a family of similarly amplified modes. These modes, which are primarily active downstream...",
+      "authors": [
+        "Oliver T. Schmidt",
+        "Aaron Towne",
+        "Georgios Rigas",
+        "Tim Colonius",
+        "Guillaume A. Brès"
+      ]
+    },
+    {
+      "title": "Acoustic resonance in the potential core of subsonic jets",
+      "publication_year": 2017,
+      "publication_date": "2017-07-27",
+      "doi": "https://doi.org/10.1017/jfm.2017.346",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 203,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Vortex sheet",
+        "Mechanics",
+        "Mach number",
+        "Aeroacoustics",
+        "Acoustic wave",
+        "Instability",
+        "Duct (anatomy)"
+      ],
+      "abstract": "The purpose of this paper is to characterize and model waves that are observed within the potential core of subsonic jets and relate them to previously observed tones in the near-nozzle region. The waves are detected in data from a large-eddy simulation of a Mach 0.9 isothermal jet and modelled using parallel and weakly non-parallel linear modal analysis of the Euler equations linearized about the turbulent mean flow, as well as simplified models based on a cylindrical vortex sheet and the acoustic modes of a cylindrical soft duct. In addition to the Kelvin–Helmholtz instability waves, three types of waves with negative phase velocities are identified in the potential core: upstream- and downstream-propagating duct-like acoustic modes that experience the shear layer as a pressure-release surface and are therefore radially confined to the potential core, and upstream-propagating acoustic modes that represent a weak coupling between the jet core and the free stream. The slow streamwise contraction of the potential core imposes a frequency-dependent end condition on the waves that is modelled as the turning points of a weakly non-parallel approximation of the waves. These turning p...",
+      "authors": [
+        "Aaron Towne",
+        "André V. G. Cavalieri",
+        "Peter Jordan",
+        "Tim Colonius",
+        "Oliver T. Schmidt",
+        "Vincent Jaunet",
+        "Guillaume A. Brès"
+      ]
+    },
+    {
+      "title": "Importance of the nozzle-exit boundary-layer state in subsonic turbulent jets",
+      "publication_year": 2018,
+      "publication_date": "2018-07-19",
+      "doi": "https://doi.org/10.1017/jfm.2018.476",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 240,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-02378471",
+      "concepts": [
+        "Laminar flow",
+        "Nozzle",
+        "Boundary layer",
+        "Turbulence",
+        "Jet (fluid)",
+        "Mechanics",
+        "Physics",
+        "Mach number"
+      ],
+      "abstract": "To investigate the effects of the nozzle-exit conditions on jet flow and sound fields, large-eddy simulations of an isothermal Mach 0.9 jet issued from a convergent-straight nozzle are performed at a diameter-based Reynolds number of $1\\times 10^{6}$ . The simulations feature near-wall adaptive mesh refinement, synthetic turbulence and wall modelling inside the nozzle. This leads to fully turbulent nozzle-exit boundary layers and results in significant improvements for the flow field and sound predictions compared with those obtained from the typical approach based on laminar flow in the nozzle. The far-field pressure spectra for the turbulent jet match companion experimental measurements, which use a boundary-layer trip to ensure a turbulent nozzle-exit boundary layer to within 0.5 dB for all relevant angles and frequencies. By contrast, the initially laminar jet results in greater high-frequency noise. For both initially laminar and turbulent jets, decomposition of the radiated noise into azimuthal Fourier modes is performed, and the results show similar azimuthal characteristics for the two jets. The axisymmetric mode is the dominant source of sound at the peak radiation angl...",
+      "authors": [
+        "Guillaume A. Brès",
+        "Peter Jordan",
+        "Vincent Jaunet",
+        "Maxime Le Rallic",
+        "André V. G. Cavalieri",
+        "Aaron Towne",
+        "Sanjiva K. Lele",
+        "Tim Colonius",
+        "Oliver T. Schmidt"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Boundary layer transition as succession of temporal and spatial symmetry breaking",
+      "publication_year": 2026,
+      "publication_date": "2026-04-21",
+      "doi": "https://doi.org/10.1017/jfm.2026.11423",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/676E635E2C93DCAB8CCE342CC16359E4/S0022112026114232a.pdf/div-class-title-boundary-layer-transition-as-succession-of-temporal-and-spatial-symmetry-breaking-div.pdf",
+      "concepts": [
+        "Symmetry breaking",
+        "Aperiodic graph",
+        "Flow (mathematics)",
+        "Harmonic",
+        "Symmetry (geometry)",
+        "Hierarchy",
+        "Physics",
+        "Boundary (topology)"
+      ],
+      "abstract": "We show that both temporal and spatial symmetry breaking in canonical K-type boundary layer transition arise as organised structures with quantifiable energetic pathways rather than unstructured noise. Before the skin-friction maximum, the flow is described by a periodic, spanwise-symmetric fundamental harmonic response (FHR) to the Tollmien–Schlichting wave. The FHR is spatially compact, produces hairpin packets and remains fully harmonic despite a turbulence-like appearance, thereby delimiting the deterministic regime. Past this point, a distinct regime change occurs: a hierarchy of quasi-periodic and aperiodic structures emerges, followed shortly by anti-symmetric structures that develop similarly despite no anti-symmetric inputs. We identify these structures as symmetry-decomposed spectral and space–time proper orthogonal modes that resolve the progression from deterministic harmonics to broadband dynamics. We introduce inter-modal and inter-symmetry energy budgets derived from symmetry-decomposed Navier–Stokes equations. They reveal a directed energy transfer from the FHR into the leading temporal and spatial symmetry breaking modes and, subsequently, into broadband residua...",
+      "authors": [
+        "Cong Lin",
+        "Oliver T. Schmidt"
+      ]
+    },
+    {
+      "title": "Obliquely Incident Nonlinear Internal Waves on a Shallow Shelf",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1029/2025jc022650",
+      "venue": "Journal of Geophysical Research Oceans",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Shoaling and schooling",
+        "Geology",
+        "Internal wave",
+        "Wake",
+        "Oblique case",
+        "Seabed",
+        "Waves and shallow water",
+        "Geodesy"
+      ],
+      "abstract": "Abstract We introduce a new statistical framework that operates directly in space and time to detect shoaling internal waves as seabed temperature structures observed by a fiber optic distributed temperature sensing array deployed in the coastal waters offshore of California. The nonlinear internal wave exhibited a mean shoaling velocity of approximately m , with the most commonly observed speed near 0.08 m , a mean period of minutes, and arrived at the fiber at an average angle of incidence of relative to shore‐normal. This angle is similar to the orientation of the nearby Scripps branch of the La Jolla Canyon, suggesting that the canyon is a generation site. Nonlinear wave events preferentially occurred during specific phases of the background internal tide, clustered around the ebb phase. To investigate the impact of the oblique angle of approach on the dynamics of shoaling, the observations were used as inspiration for a idealized simulation of a shoaling internal wave approaching a slope at an angle. In the simulation, an initial solitary‐like depression wave evolved into elevation boluses propagating obliquely to the isobaths, remaining closely attached to the seafloor as ...",
+      "authors": [
+        "Christos Papoutsellis",
+        "Andrew J. Lucas",
+        "Isha Shukla",
+        "Kevin M. Okun",
+        "Robert Pinkel",
+        "Oliver T. Schmidt"
+      ]
+    },
+    {
+      "title": "Triadic orthogonal decomposition reveals nonlinearity in fluid flows",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.1017/jfm.2026.11183",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/24C5D0148963B1106BCB6E30CD4911F0/S0022112026111835a.pdf/div-class-title-triadic-orthogonal-decomposition-reveals-nonlinearity-in-fluid-flows-div.pdf",
+      "concepts": [
+        "Physics",
+        "Isotropy",
+        "Wake",
+        "Nonlinear system",
+        "Flow (mathematics)",
+        "Vortex",
+        "Scaling",
+        "Cylinder"
+      ],
+      "abstract": "Energy transfer across scales is fundamental in fluid dynamics, linking large-scale flow motions to small-scale turbulent structures in engineering and natural environments. Triadic interactions among three wave components form complex networks across scales, challenging understanding and model reduction. We introduce triadic orthogonal decomposition (TOD), a method that identifies coherent flow structures optimally capturing spectral momentum transfer, quantifies their coupling and energy exchange in an energy-budget bispectrum and reveals the regions where they interact. Triadic orthogonal decomposition distinguishes three components – a momentum recipient, donor and catalyst – and recovers laws governing pairwise, six-triad and global triad conservation. We apply TOD to three examples: the classical cylinder wake, experimental wind turbine wake data and a direct numerical simulation of isotropic turbulence. Energy transfer can be spatially distributed but vanish upon integration or spatially localised but facilitate net interscale exchange, so a complete characterisation of nonlinearity requires examination of both integral and local transfers. In the cylinder wake, we link b...",
+      "authors": [
+        "Brandon Chung Y. Yeung",
+        "Tianyi Chu",
+        "Oliver T. Schmidt"
+      ]
+    },
+    {
+      "title": "Band-Ensemble Spectral Proper Orthogonal Decomposition with Frequency Attribution",
+      "publication_year": 2026,
+      "publication_date": "2026-02-06",
+      "doi": "https://doi.org/10.48550/arxiv.2602.06588",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.06588",
+      "concepts": [
+        "Estimator",
+        "Mathematics",
+        "Spectral density",
+        "Algorithm",
+        "Spectral density estimation",
+        "Fourier transform",
+        "Set (abstract data type)",
+        "Variance (accounting)"
+      ],
+      "abstract": "This study presents band-ensemble Spectral Proper Orthogonal Decomposition (bSPOD). The approach is inspired by frequency smoothing, a method used to reduce estimator variance in power spectral density estimates, and is here extended to SPOD. The algorithm estimates SPOD modes from consecutive Fourier coefficients obtained from a single Fourier transform of the full time record and thus avoids time segmentation. In this study, bSPOD is applied to artificial test data and to a PIV data set of a broadband-tonal cavity flow. Compared to the more commonly used Welch-based SPOD formulation, bSPOD reduces spectral leakage, permits increased frequency resolution, and retains frequency information of tonal components at comparable computational cost. These features enable reduced estimator variance while maintaining low bias for tonal components, making bSPOD particularly effective for broadband-tonal flows.",
+      "authors": [
+        "Jakob G. R. von Saldern",
+        "Oliver T. Schmidt",
+        "Philipp Godbersen",
+        "J. Moritz Reumschüssel",
+        "Tim Colonius"
+      ]
+    },
+    {
+      "title": "Band-Ensemble Spectral Proper Orthogonal Decomposition with Frequency Attribution",
+      "publication_year": 2026,
+      "publication_date": "2026-02-06",
+      "doi": "https://arxiv.org/abs/2602.06588",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.06588",
+      "concepts": [
+        "Estimator",
+        "Mathematics",
+        "Spectral density",
+        "Algorithm",
+        "Spectral density estimation",
+        "Fourier transform",
+        "Set (abstract data type)",
+        "Variance (accounting)"
+      ],
+      "abstract": "This study presents band-ensemble Spectral Proper Orthogonal Decomposition (bSPOD). The approach is inspired by frequency smoothing, a method used to reduce estimator variance in power spectral density estimates, and is here extended to SPOD. The algorithm estimates SPOD modes from consecutive Fourier coefficients obtained from a single Fourier transform of the full time record and thus avoids time segmentation. In this study, bSPOD is applied to artificial test data and to a PIV data set of a broadband-tonal cavity flow. Compared to the more commonly used Welch-based SPOD formulation, bSPOD reduces spectral leakage, permits increased frequency resolution, and retains frequency information of tonal components at comparable computational cost. These features enable reduced estimator variance while maintaining low bias for tonal components, making bSPOD particularly effective for broadband-tonal flows.",
+      "authors": [
+        "Jakob G. R. von Saldern",
+        "Oliver T. Schmidt",
+        "Philipp Godbersen",
+        "J. Moritz Reumschüssel",
+        "Tim Colonius"
+      ]
+    }
+  ]
+}

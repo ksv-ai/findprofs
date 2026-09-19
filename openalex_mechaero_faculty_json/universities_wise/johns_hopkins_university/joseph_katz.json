@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Joseph Katz",
+  "full_name": "Joseph Katz",
+  "department": "Department of Mechanical Engineering",
+  "university": "Johns Hopkins University",
+  "author_id": "A5044925111",
+  "works_count": 399,
+  "cited_by_count": 13879,
+  "h_index": 62,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 189
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 66
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 61
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 59
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 50
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Scale-Invariance and Turbulence Models for Large-Eddy Simulation",
+      "publication_year": 2000,
+      "publication_date": "2000-01-01",
+      "doi": "https://doi.org/10.1146/annurev.fluid.32.1.1",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 1392,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Large eddy simulation",
+        "Statistical physics",
+        "Direct numerical simulation",
+        "Scale model",
+        "Dynamic similarity",
+        "Scalar (mathematics)",
+        "Turbulence modeling"
+      ],
+      "abstract": "▪ Abstract Relationships between small and large scales of motion in turbulent flows are of much interest in large-eddy simulation of turbulence, in which small scales are not explicitly resolved and must be modeled. This paper reviews models that are based on scale-invariance properties of high-Reynolds-number turbulence in the inertial range. The review starts with the Smagorinsky model, but the focus is on dynamic and similarity subgrid models and on evaluating how well these models reproduce the true impact of the small scales on large-scale physics and how they perform in numerical simulations. Various criteria to evaluate the model performance are discussed, including the so-called a posteriori and a priori studies based on direct numerical simulation and experimental data. Issues are addressed mainly in the context of canonical, incompressible flows, but extensions to scalar-transport, compressible, and reacting flows are also mentioned. Other recent modeling approaches are briefly introduced.",
+      "authors": [
+        "Charles Meneveau",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "On the properties of similarity subgrid-scale models as deduced from measurements in a turbulent jet",
+      "publication_year": 1994,
+      "publication_date": "1994-09-25",
+      "doi": "https://doi.org/10.1017/s0022112094002296",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 758,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Turbulence modeling",
+        "Large eddy simulation",
+        "Mechanics",
+        "Reynolds stress",
+        "Particle image velocimetry",
+        "Physics",
+        "Jet (fluid)"
+      ],
+      "abstract": "The properties of turbulence subgrid-scale stresses are studied using experimental data in the far field of a round jet, at a Reynolds number of R λ ≈ 310. Measurements are performed using two-dimensional particle displacement velocimetry. Three elements of the subgrid-scale stress tensor are calculated using planar filtering of the data. Using a priori testing, eddy-viscosity closures are shown to display very little correlation with the real stresses, in accord with earlier findings based on direct numerical simulations at lower Reynolds numbers. Detailed analysis of subgrid energy fluxes and of the velocity field decomposed into logarithmic bands leads to a new similarity subgrid-scale model. It is based on the ‘resolved stress’ tensor L ij , which is obtained by filtering products of resolved velocities at a scale equal to twice the grid scale. The correlation coefficient of this model with the real stress is shown to be substantially higher than that of the eddy-viscosity closures. It is shown that mixed models display similar levels of correlation. During the a priori test, care is taken to only employ resolved data in a fashion that is consistent with the information that...",
+      "authors": [
+        "Shewen Liu",
+        "Charles Meneveau",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "Applications of Holography in Fluid Mechanics and Particle Dynamics",
+      "publication_year": 2009,
+      "publication_date": "2009-09-23",
+      "doi": "https://doi.org/10.1146/annurev-fluid-121108-145508",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 464,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Holography",
+        "Digital holography",
+        "Turbulence",
+        "Mechanics",
+        "Focus (optics)",
+        "Tracking (education)",
+        "Particle tracking velocimetry",
+        "Reynolds number"
+      ],
+      "abstract": "The quantification of three-dimensional (3D) flow structures and particle dynamics is crucial for unveiling complex interactions in turbulent flows. This review summarizes recent advances in volumetric particle detection and 3D flow velocimetry involving holography. We introduce the fundamental principle of holography and discuss the debilitating depth-of-focus problem, along with methods that have been implemented to circumvent it. The focus of this review is on recent advances in the development of in-line digital holography in general, and digital holographic microscopy in particular. A mathematical background for the numerical reconstruction of digital holograms is followed by a summary of recently introduced 3D particle tracking and velocity measurement techniques. The review concludes with sample applications, including 3D velocity measurements that fully resolve the flow in the inner part of a turbulent boundary layer, the diffusion of oil droplets in high–Reynolds number turbulence, and predator-prey interactions among swimming microorganisms in dense suspensions, as well as oceanic and atmospheric field experiments.",
+      "authors": [
+        "Joseph Katz",
+        "Jian Sheng"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A CFD–VDROP Framework for Simulating Oil Droplet Breakup in Subwater Jet Blowouts: Implementation and Validation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6551030",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6551030",
+      "concepts": [
+        "Breakup",
+        "Mechanics",
+        "Laminar flow",
+        "Turbulence",
+        "Jet (fluid)",
+        "Flow (mathematics)",
+        "Plume",
+        "Population"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zhaonian Qu",
+        "Michel Boufadel",
+        "Fangda Cui",
+        "Cosan Daskiran",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "Analysis of flow-wall deformation coupling in high Reynolds number compliant wall boundary layers",
+      "publication_year": 2025,
+      "publication_date": "2025-09-23",
+      "doi": "https://doi.org/10.1017/jfm.2025.10596",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/48F66764A1E6D66C4F2C835132526686/S002211202510596Xa.pdf/div-class-title-analysis-of-flow-wall-deformation-coupling-in-high-reynolds-number-compliant-wall-boundary-layers-div.pdf",
+      "concepts": [
+        "Mechanics",
+        "Deformation (meteorology)",
+        "Materials science",
+        "Boundary layer",
+        "Physics",
+        "Eddy",
+        "Wavelength",
+        "Reynolds number"
+      ],
+      "abstract": "Interactions of turbulent boundary layers with a compliant surface are investigated experimentally at Re τ = 3300–8900. Integrating tomographic particle tracking with Mach–Zehnder interferometry enables simultaneous mapping of the compliant wall deformation and the three-dimensional velocity and pressure fields. Our initial study (J. Fluid. Mech. vol. 980, R2) shows that the flow–deformation correlations decrease with increasing Re τ , despite an order of magnitude increase in deformation amplitude. To elucidate the mechanisms involved, the same velocity, pressure and kinetic energy fields are decomposed to ‘wave-coherent’ and ‘stochastic’ parts using a Hilbert projection method. The phase dependent coherent variables, especially the pressure, are highly correlated with the wave, but decrease with increasing Re τ . While the coherent energy is 6 %–10 % of the stochastic level, the pressure root mean square is comparable near the wall. The energy flux between the coherent and stochastic parts and the pressure diffusion reverse sign at the critical layer. To explain the Re τ dependence, the characteristic deformation wavelength (three times the thickness) is compared with the scal...",
+      "authors": [
+        "Yuhui Lu",
+        "Tianrui Xiang",
+        "Tamer A. Zaki",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "Splashing regimes of high-speed drop impact",
+      "publication_year": 2025,
+      "publication_date": "2025-09-16",
+      "doi": "https://doi.org/10.1017/jfm.2025.10543",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E6DC2611B39C9FD9D8175075118DDEF4/S0022112025105430a.pdf/div-class-title-splashing-regimes-of-high-speed-drop-impact-div.pdf",
+      "concepts": [
+        "Drop impact",
+        "Mechanics",
+        "Impact crater",
+        "Surface tension",
+        "Necking",
+        "Drop (telecommunication)",
+        "Materials science",
+        "Jet (fluid)"
+      ],
+      "abstract": "When a drop impinges onto a deep liquid pool, it can yield various splashing behaviours, leading to a crown-like structure along the free surface. Under high-speed impact conditions, the upper portion of the thin-walled crown may undergo necking and encapsulate a large bubble, which remains fascinating and is rarely discussed in the literature. In this work, we numerically study this physical process based on the volume-of-fluid and adaptive mesh refinement framework. Our meticulous observations have allowed us to unveil a spectrum of repeatable early-time jet behaviours, vorticity structures and crater evolution, underscoring the rich and complex nature of drop-impact phenomenon. We show that the interplay between aerodynamic pressure and surface tension on the liquid crown could play a significant role in its bending and surface closure. A regime map, incorporating both early-stage jet dynamics and overall bubble-canopy formation, is established across a wide parameter space. This study provides a comprehensive understanding of the diverse splashing regimes, offering insights into the fundamental characteristics of drop-impact phenomenon.",
+      "authors": [
+        "Hui Wang",
+        "Shuo Liu",
+        "Annie-Claude Bayeul-Lainé",
+        "David Murphy",
+        "Joseph Katz",
+        "Olivier Coutier-Delgosha"
+      ]
+    },
+    {
+      "title": "Evolution of flow and turbulence over the entire tip region of an axial compressor rotor",
+      "publication_year": 2025,
+      "publication_date": "2025-04-07",
+      "doi": "https://doi.org/10.1007/s00348-025-04013-0",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Axial compressor",
+        "Turbulence",
+        "Rotor (electric)",
+        "Gas compressor",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Physics",
+        "Flow visualization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ayush Saraswat",
+        "Subhra Shankha Koley",
+        "Michael Joly",
+        "Joseph Katz"
+      ]
+    },
+    {
+      "title": "On the scaling and critical layer in a turbulent boundary layer over a compliant surface",
+      "publication_year": 2024,
+      "publication_date": "2024-01-31",
+      "doi": "https://doi.org/10.1017/jfm.2024.11",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD912F52FFE8545BED091355B1A9AF58/S0022112024000119a.pdf/div-class-title-on-the-scaling-and-critical-layer-in-a-turbulent-boundary-layer-over-a-compliant-surface-div.pdf",
+      "concepts": [
+        "Boundary layer",
+        "Turbulence",
+        "Scaling",
+        "Layer (electronics)",
+        "Blasius boundary layer",
+        "Mechanics",
+        "Boundary layer thickness",
+        "Boundary layer control"
+      ],
+      "abstract": "Simultaneous time-resolved measurements of wall deformation and the 3-D velocity field in boundary layers over a compliant surface are performed by integrating Mach Zehnder interferometry with tomographic particle tracking velocimetry. The pressure is calculated by spatially integrating the material acceleration. Combining data obtained from several references, trends of the deformation r.m.s. scaled by the compliant wall thickness collapse when plotted vs pressure fluctuations scaled by the material shear modulus. For the present data, at all Reynolds numbers, the deformation waves travel at 53% of the free-stream velocity and have a preferred wavelength of three times the thickness. The latter is consistent with theoretical models. Adopting insight derived from atmospheric wind–wave interactions, the pressure–deformation correlations peak at or slightly above the ‘critical layer’, where the mean flow speed is equal to the surface wave speed. This layer is located within the log layer, and when expressed using inner variables, increases in elevation with increasing Reynolds number. For the entire region below the critical layer, wavenumber–frequency spectra of pressure and vert...",
+      "authors": [
+        "Yuhui Lu",
+        "Tianrui Xiang",
+        "Tamer A. Zaki",
+        "Joseph Katz"
+      ]
+    }
+  ]
+}

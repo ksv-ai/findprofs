@@ -1,0 +1,206 @@
+{
+  "faculty_name": "Perrine Pepiot",
+  "full_name": "Perrine Pepiot",
+  "department": "Sibley School of Mechanical and Aerospace Engineering / Center for Applied Mathematics",
+  "university": "Cornell University",
+  "author_id": "A5085424335",
+  "works_count": 53,
+  "cited_by_count": 1410,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 27
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 26
+    },
+    {
+      "topic": "Heat transfer and supercritical fluids",
+      "count": 16
+    },
+    {
+      "topic": "Thermochemical Biomass Conversion Processes",
+      "count": 13
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A chemical mechanism for low to high temperature oxidation of n-dodecane as a component of transportation fuel surrogates",
+      "publication_year": 2013,
+      "publication_date": "2013-11-15",
+      "doi": "https://doi.org/10.1016/j.combustflame.2013.10.012",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 231,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Jet fuel",
+        "Combustion",
+        "Chemistry",
+        "Soot",
+        "Diesel fuel",
+        "Dodecane",
+        "Hydrocarbon",
+        "Component (thermodynamics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krithika Narayanaswamy",
+        "Perrine Pepiot",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "A component library framework for deriving kinetic mechanisms for multi-component fuel surrogates: Application for jet fuel surrogates",
+      "publication_year": 2016,
+      "publication_date": "2016-01-15",
+      "doi": "https://doi.org/10.1016/j.combustflame.2015.12.013",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 140,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2015.12.013",
+      "concepts": [
+        "Jet fuel",
+        "Combustion",
+        "Component (thermodynamics)",
+        "Surrogate model",
+        "Process engineering",
+        "Chemistry",
+        "Thermodynamics",
+        "Biochemical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krithika Narayanaswamy",
+        "Heinz Pitsch",
+        "Perrine Pepiot"
+      ]
+    },
+    {
+      "title": "Biomass Pyrolysis and Gasification of Varying Particle Sizes in a Fluidized-Bed Reactor",
+      "publication_year": 2011,
+      "publication_date": "2011-05-06",
+      "doi": "https://doi.org/10.1021/ef200257k",
+      "venue": "Energy & Fuels",
+      "type": "article",
+      "cited_by_count": 97,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Char",
+        "tar (computing)",
+        "Particle (ecology)",
+        "Particle size",
+        "Fluidized bed",
+        "Pyrolysis",
+        "Chemistry",
+        "Biomass (ecology)"
+      ],
+      "abstract": "A new 4 in. (102 mm) diameter fluidized-bed reactor has been built and used to study the effect of biomass particle size on the yield of light gas and tar compounds during gasification. Batch experiments were conducted with white oak milled into four sphere sizes with diameters of 6, 13, 18, and 25 mm, at reactor bed temperatures of 500, 600, 700, 800, and 900 °C. As expected, the yields of light gas increase with temperature but then reach a plateau above 800 °C. As the particle size increases, a decrease in the formation of light gases, accompanied by an increase in the formation of char, is observed. For larger particle sizes, the commonly used power law dependence of particle devolatilization time with sphere diameter holds true and the transition from heat- and mass-transport control to kinetic control as particle diameter decreases is illustrated. Measurements of the organic compounds present in the syngas are performed using a molecular beam mass spectrometer (MBMS). These measurements indicate that, as the size of the spheres increases, the formation of tars and polycyclic aromatic hydrocarbons (PAHs) increases. These observations further emphasize the important role of ...",
+      "authors": [
+        "Katherine R. Gaston",
+        "Mark W. Jarvis",
+        "Perrine Pepiot",
+        "K. M. Smith",
+        "W.J. Frederick",
+        "Mark R. Nimlos"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the Use of Low-Dimensional Simulations for Database Generation in PCA-Based Modeling",
+      "publication_year": 2025,
+      "publication_date": "2025-06-16",
+      "doi": "https://doi.org/10.1115/gt2025-154197",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Principal component analysis",
+        "Dimensionality reduction",
+        "Database",
+        "Context (archaeology)",
+        "A priori and a posteriori",
+        "Computer science",
+        "Dimension (graph theory)",
+        "Combustion"
+      ],
+      "abstract": "Abstract The use of principal component analysis (PCA) for turbulent combustion modeling has been the focus of multiple recent research efforts. PCA has been shown to be effective as a dimension reduction technique. PCA examines a database to determine directions of maximum variance. The compositions in the full state space can then be projected onto a reduced state space spanned by a subset of these directions leading to dimension reduction. This significantly reduces the number of transport equations that need to be solved at runtime leading to significant computational savings. One of the crucial steps when using PCA in reacting flow modeling is database generation. Specifically, the database needs to be generated in a computationally-efficient manner and needs to be comprised of compositions that are representative of those encountered at runtime. Multiple low-dimensional configurations have been explored in the recent literature, with one of the most popular choices being one-dimensional counterflow flames. In the current work, we perform a-priori comparisons between compositions extracted from a variety of different turbulent combustion configurations and databases generat...",
+      "authors": [
+        "Ashish S. Newale",
+        "Pushan Sharma",
+        "Perrine Pepiot"
+      ]
+    },
+    {
+      "title": "A novel machine learning based lumping approach for the reduction of large kinetic mechanisms for plasma-assisted combustion applications",
+      "publication_year": 2023,
+      "publication_date": "2023-12-21",
+      "doi": "https://doi.org/10.1016/j.combustflame.2023.113252",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0010218023006260",
+      "concepts": [
+        "Combustion",
+        "Chemistry",
+        "Plasma",
+        "Kinetic energy",
+        "Ignition system",
+        "Biological system",
+        "Reduction (mathematics)",
+        "Dimensionality reduction"
+      ],
+      "abstract": "",
+      "authors": [
+        "Georgios Rekkas-Ventiris",
+        "Alfredo Duarte Gomez",
+        "Nicholas Deak",
+        "Nicholas Kincaid",
+        "Perrine Pepiot",
+        "Fabrizio Bisetti",
+        "A. Bellemans"
+      ]
+    },
+    {
+      "title": "A projection-based analytical Jacobian framework for chemical kinetics applications",
+      "publication_year": 2023,
+      "publication_date": "2023-02-24",
+      "doi": "https://doi.org/10.1016/j.combustflame.2023.112675",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2023.112675",
+      "concepts": [
+        "Jacobian matrix and determinant",
+        "Projection (relational algebra)",
+        "Applied mathematics",
+        "Ode",
+        "State vector",
+        "Computer science",
+        "Variety (cybernetics)",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pushan Sharma",
+        "Ashish S. Newale",
+        "Stephen B. Pope",
+        "Perrine Pepiot"
+      ]
+    }
+  ]
+}

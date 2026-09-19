@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Ryan T. Glasser",
+  "full_name": "Ryan T. Glasser",
+  "department": "Department of Physics and Engineering Physics",
+  "university": "Tulane University",
+  "author_id": "A5062235827",
+  "works_count": 112,
+  "cited_by_count": 708,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Quantum Information and Cryptography",
+      "count": 60
+    },
+    {
+      "topic": "Quantum optics and atomic interactions",
+      "count": 46
+    },
+    {
+      "topic": "Quantum Mechanics and Applications",
+      "count": 24
+    },
+    {
+      "topic": "Cold Atom Physics and Bose-Einstein Condensates",
+      "count": 21
+    },
+    {
+      "topic": "Quantum Computing Algorithms and Architecture",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stimulated Generation of Superluminal Light Pulses via Four-Wave Mixing",
+      "publication_year": 2012,
+      "publication_date": "2012-04-26",
+      "doi": "https://doi.org/10.1103/physrevlett.108.173902",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 65,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1204.0810",
+      "concepts": [
+        "Superluminal motion",
+        "Pulse (music)",
+        "Group velocity",
+        "Physics",
+        "Mixing (physics)",
+        "Optics",
+        "Four-wave mixing",
+        "Atomic physics"
+      ],
+      "abstract": "We report on the four-wave mixing of superluminal pulses, in which both the injected and generated pulses involved in the process propagate with negative group velocities. Generated pulses with negative group velocities of up to v(g)=-1/880c are demonstrated, corresponding to the generated pulse's peak exiting the 1.7 cm long medium ≈50 ns earlier than if it had propagated at the speed of light in vacuum, c. We also show that in some cases the seeded pulse may propagate with a group velocity larger than c, and that the generated conjugate pulse peak may exit the medium even earlier than the amplified seed pulse peak. We can control the group velocities of the two pulses by changing the seed detuning and the input seed power.",
+      "authors": [
+        "Ryan T. Glasser",
+        "Ulrich Vogl",
+        "Paul D. Lett"
+      ]
+    },
+    {
+      "title": "Deep learning as a tool to distinguish between high orbital angular momentum optical modes",
+      "publication_year": 2016,
+      "publication_date": "2016-09-14",
+      "doi": "https://doi.org/10.1117/12.2242115",
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "type": "conference-paper",
+      "cited_by_count": 63,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Angular momentum",
+        "Physics",
+        "Orbital angular momentum multiplexing",
+        "Computer science",
+        "Orbital angular momentum of light",
+        "Total angular momentum quantum number",
+        "Classical mechanics"
+      ],
+      "abstract": "The generation of light containing large degrees of orbital angular momentum (OAM) has recently been demon- strated in both the classical and quantum regimes. Since there is no fundamental limit to how many quanta of OAM a single photon can carry, optical states with an arbitrarily high difference in this quantum number may, in principle, be entangled. This opens the door to investigations into high-dimensional entanglement shared between states in superpositions of nonzero OAM. Additionally, making use of non-zero OAM states can allow for a dramatic increase in the amount of information carried by a single photon, thus increasing the information capacity of a communication channel. In practice, however, it is difficult to differentiate between states with high OAM numbers with high precision. Here we investigate the ability of deep neural networks to differentiate between states that contain large values of OAM. We show that such networks may be used to differentiate be- tween nearby OAM states that contain realistic amounts of noise, with OAM values of up to 100. Additionally, we examine how the classification accuracy scales with the signal-to-noise ratio of images that are u...",
+      "authors": [
+        "Erin M. Knutson",
+        "Sanjaya Lohani",
+        "Onur Danaci",
+        "Sean D. Huver",
+        "Ryan T. Glasser"
+      ]
+    },
+    {
+      "title": "Quantum mutual information of an entangled state propagating through a fast-light medium",
+      "publication_year": 2014,
+      "publication_date": "2014-05-23",
+      "doi": "https://doi.org/10.1038/nphoton.2014.112",
+      "venue": "Nature Photonics",
+      "type": "article",
+      "cited_by_count": 53,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1405.7726",
+      "concepts": [
+        "Physics",
+        "Mutual information",
+        "Quantum information",
+        "Noise (video)",
+        "Quantum information science",
+        "Quantum optics",
+        "Quantum",
+        "Quantum mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jeremy B. Clark",
+        "Ryan T. Glasser",
+        "Quentin Glorieux",
+        "Ulrich Vogl",
+        "Tian Li",
+        "Kevin M. Jones",
+        "Paul D. Lett"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Efficient training for optical computing",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.1088/2632-2153/ae59ed",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae59ed/pdf",
+      "concepts": [
+        "Computer science",
+        "Wavefront",
+        "Algorithm",
+        "Scalability",
+        "Backpropagation",
+        "Inference",
+        "Scaling",
+        "Signal processing"
+      ],
+      "abstract": "Abstract Diffractive optical information processors have demonstrated significant promise in delivering high-speed, parallel, and energy-efficient inference for scaling machine learning tasks. Training, however, remains a major computational bottleneck in achieving scalable state-of-the-art classification models. The linear transformations in such systems are inherently constrained to compositions of circulant and diagonal matrix factors, representing free-space propagation and phase and/or amplitude modulation of light, respectively. While theoretically established that such factors can generate arbitrary linear transformations, only experimentally unfeasible upper bounds on the number of factors exist. Additionally, physical parameters such as inter-layer distances, number of layers, and phase-only modulation restrict the solution space. As trainable elements occupy only a subset of the overall transformation, current constrained minimization techniques incur unnecessary computational overhead, limiting scalability. In this work, we introduce a backpropagation algorithm that provides a novel closed form solution to calculate gradients and incorporates plane wave decomposition ...",
+      "authors": [
+        "Manon P. Bart",
+        "Nick H. Sparks",
+        "Ryan T. Glasser"
+      ]
+    },
+    {
+      "title": "Intensity correlation technique for mode detection and information encoding with structured-light superpositions",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "https://doi.org/10.1364/oe.591525",
+      "venue": "Optics Express",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1364/oe.591525",
+      "concepts": [
+        "Optics",
+        "Physics",
+        "Encoding (memory)",
+        "Intensity (physics)",
+        "Mode (computer interface)",
+        "Computer science",
+        "Algorithm",
+        "Correlation"
+      ],
+      "abstract": "We present an intensity-only correlation methodology for mode recognition and information encoding in turbulence-limited free-space optical links utilizing Laguerre-Gaussian (LG) modes and their superpositions. While conventional single LG modes degrade rapidly with increasing turbulence strength, petal beams formed by superposing modes with opposite helicity exhibit enhanced correlation contrast, reduced crosstalk, and improved recognition accuracy. This leads to higher channel capacities, reaching the theoretical limit under weak turbulence. Furthermore, we experimentally show the feasibility of the method by implementing spatial multiplexing schemes as well as grayscale and color image transmission. These results establish intensity-correlation with structured-light superpositions as a straightforward yet effective framework for turbulence-resilient, high-capacity free-space optical communication.",
+      "authors": [
+        "Nazifa Rumman",
+        "Manon P. Bart",
+        "Ryan T. Glasser",
+        "Thomas A. Searles"
+      ]
+    },
+    {
+      "title": "Single photon optical convolutional neural networks",
+      "publication_year": 2026,
+      "publication_date": "2026-03-05",
+      "doi": "https://doi.org/10.1117/12.3089673",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Convolutional neural network",
+        "Artificial intelligence",
+        "Physics",
+        "Artificial neural network",
+        "Algorithm",
+        "Pattern recognition (psychology)",
+        "Feature (linguistics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ryan T. Glasser",
+        "Sita Dawanse"
+      ]
+    },
+    {
+      "title": "Efficient Training for Optical Computing",
+      "publication_year": 2025,
+      "publication_date": "2025-06-25",
+      "doi": "https://doi.org/10.48550/arxiv.2506.20833",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.20833",
+      "concepts": [
+        "Computer science",
+        "Wavefront",
+        "Algorithm",
+        "Backpropagation",
+        "Signal processing",
+        "Inference",
+        "Scaling",
+        "Modulation (music)"
+      ],
+      "abstract": "Diffractive optical information processors have demonstrated significant promise in delivering high-speed, parallel, and energy efficient inference for scaling machine learning tasks. Training, however, remains a major computational bottleneck, compounded by large datasets and many simulations required for state-of-the-art classification models. The underlying linear transformations in such systems are inherently constrained to compositions of circulant and diagonal matrix factors, representing free-space propagation and phase and/or amplitude modulation of light, respectively. While theoretically established that an arbitrary linear transformation can be generated by such factors, only upper bounds on the number of factors exist, which are experimentally unfeasible. Additionally, physical parameters such as inter-layer distance, number of layers, and phase-only modulation further restrict the solution space. Without tractable analytical decompositions, prior works have implemented various constrained minimization techniques. As trainable elements occupy a small subset of the overall transformation, existing techniques incur unnecessary computational overhead, limiting scalabili...",
+      "authors": [
+        "Manon P. Bart",
+        "N.H.C. Sparks",
+        "Ryan T. Glasser"
+      ]
+    },
+    {
+      "title": "Classification of single photons in higher-order spatial modes via convolutional neural networks",
+      "publication_year": 2025,
+      "publication_date": "2025-03-25",
+      "doi": "https://doi.org/10.1364/ol.551297",
+      "venue": "Optics Letters",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Optics",
+        "Photon",
+        "Convolutional neural network",
+        "Computer science",
+        "Physics",
+        "Spatial frequency",
+        "Photon counting",
+        "Artificial intelligence"
+      ],
+      "abstract": "Spatial modes are a promising candidate for encoding information for classical and quantum optical communication due to their potential high information capacity. Unfortunately, compensation of a wavefront upon propagation through the atmosphere is necessary to benefit from advantages spatial modes offer. In this work, we leverage the success of convolutional networks in denoising and classifying images to improve information transfer of spatial modes. Hermite–Gaussian (HG), Laguerre–Gaussian (LG), and Ince–Gaussian (IG) modes are experimentally generated using single photons and imaged. A denoising autoencoder corrects for turbulence effects on the wavefront, followed by a convolutional neural network to classify mode orders. The model achieves a 99.2% classification accuracy across all modes, and Hermite–Gaussian modes exhibited the highest individual mode accuracy. As the convolutional networks rely solely on intensity, they offer an efficient and cost-effective tool for optical communication systems in the single-photon limit.",
+      "authors": [
+        "Manon P. Bart",
+        "Sita Dawanse",
+        "Nicholas J. Savino",
+        "Viet Tran",
+        "Tianhong Wang",
+        "Sanjaya Lohani",
+        "Farris Nefissi",
+        "Pascal Bassène",
+        "Moussa N’Gom",
+        "Ryan T. Glasser"
+      ]
+    }
+  ]
+}

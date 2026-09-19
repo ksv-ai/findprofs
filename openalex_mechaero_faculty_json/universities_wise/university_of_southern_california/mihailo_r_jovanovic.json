@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Mihailo R. Jovanovic",
+  "full_name": "Mihailo R. Jovanović",
+  "department": "Department of Aerospace and Mechanical Engineering / Department of Electrical and Computer Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5087790067",
+  "works_count": 318,
+  "cited_by_count": 6778,
+  "h_index": 37,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 87
+    },
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 54
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 41
+    },
+    {
+      "topic": "Advanced Optimization Algorithms Research",
+      "count": 29
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Input-output analysis of high-speed axisymmetric isothermal jet noise",
+      "publication_year": 2016,
+      "publication_date": "2016-04-01",
+      "doi": "https://doi.org/10.1063/1.4946886",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Jet (fluid)",
+        "Aeroacoustics",
+        "Supersonic speed",
+        "Mechanics",
+        "Turbulence",
+        "Jet noise"
+      ],
+      "abstract": "We use input-output analysis to predict and understand the aeroacoustics of high-speed isothermal turbulent jets. We consider axisymmetric linear perturbations about Reynolds-averaged Navier-Stokes solutions of ideally expanded turbulent jets with jet Mach numbers 0.6 < Mj < 1.8. For each base flow, we compute the optimal harmonic forcing function and the corresponding linear response using singular value decomposition of the resolvent operator. In addition to the optimal mode, input-output analysis also yields sub-optimal modes associated with smaller singular values. For supersonic jets, the optimal response closely resembles a wavepacket in both the near-field and the far-field such as those obtained by the parabolized stability equations (PSE), and this mode dominates the response. For subsonic jets, however, the singular values indicate that the contributions of sub-optimal modes to noise generation are nearly equal to that of the optimal mode, explaining why the PSE do not fully capture the far-field sound in this case. Furthermore, high-fidelity large eddy simulation (LES) is used to assess the prevalence of sub-optimal modes in the unsteady data. By projecting LES source...",
+      "authors": [
+        "Jinah Jeun",
+        "Joseph W. Nichols",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "Componentwise energy amplification in channel flows",
+      "publication_year": 2005,
+      "publication_date": "2005-06-21",
+      "doi": "https://doi.org/10.1017/s0022112005004295",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 452,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Perturbation (astronomy)",
+        "Scaling",
+        "Reynolds number",
+        "Vortex",
+        "Vector field",
+        "Classical mechanics"
+      ],
+      "abstract": "We study the linearized Navier–Stokes (LNS) equations in channel flows from an input–output point of view by analysing their spatio-temporal frequency responses. Spatially distributed and temporally varying body force fields are considered as inputs, and components of the resulting velocity fields are considered as outputs into these equations. We show how the roles of Tollmien–Schlichting (TS) waves, oblique waves, and streamwise vortices and streaks in subcritical transition can be explained as input–output resonances of the spatio-temporal frequency responses. On the one hand, we demonstrate the effectiveness of input field components, and on the other, the energy content of velocity perturbation components. We establish that wall-normal and spanwise forces have much stronger influence on the velocity field than streamwise force, and that the impact of these forces is most powerful on the streamwise velocity component. We show this using the relative scaling of the different input–output system components with the Reynolds number. We further demonstrate that for the streamwise constant perturbations, the spanwise force localized near the lower wall has, by far, the strongest ...",
+      "authors": [
+        "Mihailo R. Jovanović",
+        "Bassam Bamieh"
+      ]
+    },
+    {
+      "title": "Sparsity-promoting dynamic mode decomposition",
+      "publication_year": 2014,
+      "publication_date": "2014-02-01",
+      "doi": "https://doi.org/10.1063/1.4863670",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 910,
+      "is_oa": true,
+      "oa_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4863670",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Physics",
+        "Norm (philosophy)",
+        "Applied mathematics",
+        "Algorithm",
+        "Flow (mathematics)",
+        "Amplitude",
+        "Convex optimization"
+      ],
+      "abstract": "Dynamic mode decomposition (DMD) represents an effective means for capturing the essential features of numerically or experimentally generated flow fields. In order to achieve a desirable tradeoff between the quality of approximation and the number of modes that are used to approximate the given fields, we develop a sparsity-promoting variant of the standard DMD algorithm. Sparsity is induced by regularizing the least-squares deviation between the matrix of snapshots and the linear combination of DMD modes with an additional term that penalizes the ℓ1-norm of the vector of DMD amplitudes. The globally optimal solution of the resulting regularized convex optimization problem is computed using the alternating direction method of multipliers, an algorithm well-suited for large problems. Several examples of flow fields resulting from numerical simulations and physical experiments are used to illustrate the effectiveness of the developed method.",
+      "authors": [
+        "Mihailo R. Jovanović",
+        "Peter J. Schmid",
+        "Joseph W. Nichols"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Frequency responses of the Navier-Stokes equations: a weakly nonlinear perturbation analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-12-09",
+      "doi": "https://doi.org/10.1109/cdc57313.2025.11312950",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Perturbation (astronomy)",
+        "Frequency response",
+        "Linearization",
+        "Nonlinear system",
+        "Mathematics",
+        "Control theory (sociology)",
+        "Quadratic equation",
+        "Mathematical analysis"
+      ],
+      "abstract": "We utilize a perturbation analysis to characterize responses of the incompressible Navier-Stokes (NS) equations to small-amplitude unsteady 3D harmonic disturbances. We demonstrate how quadratic interactions of unsteady oblique disturbance induce steady streamwise streaks that are widely considered to trigger the early stages of transition to turbulence. The proposed framework allows us to reliably reproduce the spatial structure of the streaks via a reduced-order dynamical representation that utilizes input-output modes of the frequency response operator associated with linearization around the laminar base flow. We demonstrate that a specific suboptimal mode of the frequency response operator robustly captures the resulting response across the range of Reynolds numbers. The low-dimensional model resulting from our approach is almost indistinguishable from the ones derived using computationally expensive non-convex optimization methods, thereby demonstrating the predictive power of our framework for control-oriented modeling of transition.",
+      "authors": [
+        "Dušan Božić",
+        "Anubhav Dwivedi",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "Reattachment streaks in hypersonic compression ramp flow: an input–output analysis – ERRATUM",
+      "publication_year": 2025,
+      "publication_date": "2025-10-10",
+      "doi": "https://doi.org/10.1017/jfm.2025.10646",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/395784D541F133A1B1B7A46C1678E581/S0022112025106460a.pdf/div-class-title-reattachment-streaks-in-hypersonic-compression-ramp-flow-an-input-output-analysis-erratum-div.pdf",
+      "concepts": [
+        "Compression (physics)",
+        "Materials science",
+        "Hypersonic speed",
+        "Mechanics",
+        "Hypersonic flight",
+        "Hypersonic flow",
+        "Optics",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anubhav Dwivedi",
+        "Sidharth Gs",
+        "Joseph W. Nichols",
+        "Graham V. Candler",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "From oblique-wave forcing to streak reinforcement: A perturbation-based frequency-response framework",
+      "publication_year": 2026,
+      "publication_date": "2026-04-10",
+      "doi": "https://doi.org/10.1103/sgrw-g148",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.09137",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Streak",
+        "Geology",
+        "Meteorology",
+        "Remote sensing",
+        "Climatology",
+        "Geodesy",
+        "Environmental science"
+      ],
+      "abstract": "We develop a perturbation-based frequency-response framework for analyzing amplification mechanisms that are central to subcritical routes to transition in wall-bounded shear flows. By systematically expanding the input-output dynamics of fluctuations about the laminar base flow with respect to forcing amplitude, we establish a rigorous correspondence between linear resolvent analysis and higher-order nonlinear interactions. At second order, quadratic interactions of unsteady oblique waves generate steady streamwise streaks via the lift-up mechanism. We demonstrate that the spatial structure of these streaks is captured by the second output singular function of the streamwise-constant resolvent operator. At higher orders, nonlinear coupling between oblique waves and induced streaks acts as structured forcing of the laminar linearized dynamics, yielding additional streak components whose relative phase governs reinforcement or attenuation of the leading-order streak response. Our analysis identifies a critical forcing amplitude marking the breakdown of the weakly nonlinear regime, beyond which direct numerical simulations exhibit sustained unsteadiness. We show that this breakdow...",
+      "authors": [
+        "Dušan Božić",
+        "Anubhav Dwivedi",
+        "Mihailo R. Jovanović"
+      ]
+    },
+    {
+      "title": "Patterns of Human Injuries and Fatalities in Fire Incidents in Serbia: A Comprehensive Statistical and Data Mining Analysis",
+      "publication_year": 2026,
+      "publication_date": "2026-04-02",
+      "doi": "https://doi.org/10.3390/fire9040146",
+      "venue": "Fire",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2571-6255/9/4/146/pdf?version=1775128685",
+      "concepts": [
+        "Decision tree",
+        "Population",
+        "Statistical model",
+        "Regression analysis",
+        "Statistics",
+        "Geography",
+        "Association rule learning",
+        "Logistic regression"
+      ],
+      "abstract": "This manuscript is a continuation of the research published in Fire 2025, 8(8), 302, i.e., it deals with the examination of the cause-and-effect relationships of fires in the Republic of Serbia from the aspect of human safety. Among others, variables related to gender, age, and severity of injuries caused by fires are introduced, on which various methods of statistical analysis and stochastic modeling are first applied. Continuous age variables are modelled using the flexible Generalized Additive Models for Location, Scale, and Shape (GAMLSS) framework, where the Generalized Normal Distribution (GND) is identified as the optimal generative model for injuries, while a Reflected Log-Normal Distribution with positive support (RefLOGND+) provides the best fit for fatalities. The quality of such modeling is formally verified, and the probabilities of injury and death of individuals in certain age categories are predicted, revealing a pronounced concentration of injuries in the working-age population and a markedly higher relative risk of fatal outcomes among elderly individuals. Thereafter, by applying certain Data Mining (DM) techniques, primarily the Apriori algorithm, the most fre...",
+      "authors": [
+        "Nikola Mitrović",
+        "Vladica Stojanović",
+        "Mihailo R. Jovanović",
+        "Željko Grujčić",
+        "Dragan Mladjan"
+      ]
+    },
+    {
+      "title": "Dynamic Mode Decomposition ( DMD ) for Low‐Latency Real‐Time Cardiac MRI",
+      "publication_year": 2026,
+      "publication_date": "2026-03-30",
+      "doi": "https://doi.org/10.1002/mrm.70360",
+      "venue": "Magnetic Resonance in Medicine",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/mrm.70360",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Aliasing",
+        "Spiral (railway)",
+        "Computer science",
+        "Dynamics (music)",
+        "Algorithm",
+        "Iterative reconstruction",
+        "Mode (computer interface)"
+      ],
+      "abstract": "PURPOSE: To demonstrate dynamic mode decomposition (DMD) for high spatiotemporal low-latency online reconstruction in 2D real-time cardiac MRI. METHODS: DMD was applied to 2D spiral balanced steady state free precession (bSSFP) real-time adult and fetal cardiac MRI at 0.55 T, with data from 10 healthy adult volunteers (3F/7M; age: 21-49; BMI: 20-34) and 6 pregnant females (maternal age: 30-41; maternal BMI: 22-47; gestational age: 23 weeks 6 days-37 weeks 5 days). DMD model appropriateness was assessed against off-line spatiotemporally constrained reconstruction (STCR) as the reference. We retrospectively evaluated DMD-based low-latency online reconstruction at two temporal resolutions (21 and 42 ms/frame). DMD modes were estimated from the most recently acquired frames and used to remove aliasing while preserving underlying physiological motion. RESULTS: DMD represented cardiac dynamics with normalized root-mean-square error (NRMSE) less than 7% when all modes retained. Low-latency DMD-based online reconstruction performed de-aliasing while preserving the physiological motion, supporting framerates (21 and 42 ms/frame). CONCLUSION: We have demonstrated that the DMD framework is...",
+      "authors": [
+        "Ecrin Yağız",
+        "Bilal Taşdelen",
+        "Ibrahim K. Ozaslan",
+        "Mihailo R. Jovanović",
+        "Ye Tian",
+        "Krishna Nayak"
+      ]
+    }
+  ]
+}

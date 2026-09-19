@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Jingang Yi",
+  "full_name": "Jingang Yi",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Rutgers University-New Brunswick",
+  "author_id": "A5090869394",
+  "works_count": 351,
+  "cited_by_count": 6348,
+  "h_index": 43,
+  "top_topics": [
+    {
+      "topic": "Vehicle Dynamics and Control Systems",
+      "count": 61
+    },
+    {
+      "topic": "Robotic Locomotion and Control",
+      "count": 56
+    },
+    {
+      "topic": "Prosthetics and Rehabilitation Robotics",
+      "count": 55
+    },
+    {
+      "topic": "Balance, Gait, and Falls Prevention",
+      "count": 41
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kinematic Modeling and Analysis of Skid-Steered Mobile Robots With Applications to Low-Cost Inertial-Measurement-Unit-Based Motion Estimation",
+      "publication_year": 2009,
+      "publication_date": "2009-07-30",
+      "doi": "https://doi.org/10.1109/tro.2009.2026506",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 201,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kinematics",
+        "Mobile robot",
+        "Extended Kalman filter",
+        "Inertial measurement unit",
+        "Kinematic diagram",
+        "Robot",
+        "Robot kinematics",
+        "Slip (aerodynamics)"
+      ],
+      "abstract": "Skid-steered mobile robots are widely used because of their simple mechanism and high reliability. Understanding the kinematics and dynamics of such a robotic platform is, however, challenging due to the complex wheel/ground interactions and kinematic constraints. In this paper, we develop a kinematic modeling scheme to analyze the skid-steered mobile robot. Based on the analysis of the kinematics of the skid-steered mobile robot, we reveal the underlying geometric and kinematic relationships between the wheel slips and locations of the instantaneous rotation centers. As an application example, we also present how to utilize the modeling and analysis for robot positioning and wheel slip estimation using only low-cost strapdown inertial measurement units. The robot positioning and wheel slip-estimation scheme is based on an extended Kalman filter (EKF) design that incorporates the kinematic constraints for accuracy enhancement. The performance of the EKF-based positioning and wheel slip-estimation scheme are also presented. The estimation methodology is tested and validated experimentally on a robotic test bed.",
+      "authors": [
+        "Jingang Yi",
+        "Hongpeng Wang",
+        "Junjie Zhang",
+        "Dezhen Song",
+        "Suhada Jayasuriya",
+        "Jingtai Liu"
+      ]
+    },
+    {
+      "title": "Disturbance-Observer-Based Hysteresis Compensation for Piezoelectric Actuators",
+      "publication_year": 2009,
+      "publication_date": "2009-06-25",
+      "doi": "https://doi.org/10.1109/tmech.2009.2023986",
+      "venue": "IEEE/ASME Transactions on Mechatronics",
+      "type": "article",
+      "cited_by_count": 194,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hysteresis",
+        "Control theory (sociology)",
+        "Compensation (psychology)",
+        "Actuator",
+        "Nonlinear system",
+        "Piezoelectricity",
+        "Materials science",
+        "Microscale chemistry"
+      ],
+      "abstract": "We present a novel hysteresis compensation method for piezoelectric actuators. We consider the hysteresis nonlinearity of the actuator as a disturbance over a linear system. A disturbance observer (DOB) is then utilized to estimate and compensate for the hysteresis nonlinearity. In contrast to the existing inverse-model-based approach, the DOB-based hysteresis compensation does not rely on any particular hysteresis model, and therefore provides a simple and effective compensation mechanism. We design and fabricate a lead magnesium niobate-lead titanate (PMN-PT) piezoelectric actuator for microscale tip-based power sintering process. Experimental validation of the proposed hysteresis compensation is performed on the PMN-PT cantilever piezoelectric actuator. The experimental results demonstrate the effectiveness and efficiency of the approach.",
+      "authors": [
+        "Jingang Yi",
+        "Susan Chang",
+        "Yantao Shen"
+      ]
+    },
+    {
+      "title": "Quasi-Direct Drive Actuation for a Lightweight Hip Exoskeleton With High Backdrivability and High Bandwidth",
+      "publication_year": 2020,
+      "publication_date": "2020-05-18",
+      "doi": "https://doi.org/10.1109/tmech.2020.2995134",
+      "venue": "IEEE/ASME Transactions on Mechatronics",
+      "type": "article",
+      "cited_by_count": 183,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7971415",
+      "concepts": [
+        "Exoskeleton",
+        "Bandwidth (computing)",
+        "Powered exoskeleton",
+        "Computer science",
+        "Simulation",
+        "Computer network"
+      ],
+      "abstract": "High-performance actuators are crucial to enable mechanical versatility of wearable robots, which are required to be lightweight, highly backdrivable, and with high bandwidth. State-of-the-art actuators, e.g., series elastic actuators (SEAs), have to compromise bandwidth to improve compliance (i.e., backdrivability). We describe the design and human-robot interaction modeling of a portable hip exoskeleton based on our custom quasi-direct drive (QDD) actuation (i.e., a high torque density motor with low ratio gear). We also present a model-based performance benchmark comparison of representative actuators in terms of torque capability, control bandwidth, backdrivability, and force tracking accuracy. This paper aims to corroborate the underlying philosophy of \"design for control\", namely meticulous robot design can simplify control algorithms while ensuring high performance. Following this idea, we create a lightweight bilateral hip exoskeleton to reduce joint loadings during normal activities, including walking and squatting. Experiments indicate that the exoskeleton is able to produce high nominal torque (17.5 Nm), high backdrivability (0.4 Nm backdrive torque), high bandwidth (...",
+      "authors": [
+        "Shuangyue Yu",
+        "Tzu-Hao Huang",
+        "Xiaolong Yang",
+        "Chunhai Jiao",
+        "Jianfu Yang",
+        "Yue Chen",
+        "Jingang Yi",
+        "Hao Su"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Ergonomic Evaluation of Knee Exoskeleton Assistance in Construction: A Multimodal Study",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6921558",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6921558",
+      "concepts": [
+        "Exoskeleton",
+        "Wearable computer",
+        "Work (physics)",
+        "Physical medicine and rehabilitation",
+        "Wearable technology",
+        "Engineering",
+        "Computer science",
+        "Motion capture"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chunchu Zhu",
+        "Xinyan Huang",
+        "Xiangmin Liu",
+        "Yana van der Meulen Rodgers",
+        "Jingang Yi"
+      ]
+    },
+    {
+      "title": "Active Training Data Selection for Gaussian Process-based Robot Dynamics Learning and Control",
+      "publication_year": 2025,
+      "publication_date": "2025-10-19",
+      "doi": "https://doi.org/10.1109/iros60139.2025.11246109",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Computer science",
+        "Artificial intelligence",
+        "Gaussian process",
+        "Active learning (machine learning)",
+        "Machine learning",
+        "Process (computing)",
+        "Robot learning"
+      ],
+      "abstract": "Model-based robot control requires an accurate dynamics model and a machine learning-based method can extract robot dynamics from collected motion data by simulation and experiment. A Gaussian process (GP) has been used as one of the learning methods to obtain robot dynamics. To avoid large training datasets for learning robot dynamics, we propose an active training data selection strategy. The data sampling criteria are to minimize the probability density difference between the actual model and the GP-based estimate. Using such a criterion, the active training data strategy identifies where to sample the next data point for model training. We demonstrate the proposed active learning strategy with a 3-link robot arm in both fully actuated and underactuated modes. With the selected dataset containing 150 data points, the integrated probability density error compared with the entire dataset (over 30, 000 data points) is less than 0.3. The experimental results confirm that the GP-based control performance is greater than that under the model-based control.",
+      "authors": [
+        "Feng Han",
+        "Yi Huang",
+        "Jingang Yi"
+      ]
+    },
+    {
+      "title": "Assistive Control of Knee Exoskeletons for Human Walking on Sandy Terrain",
+      "publication_year": 2025,
+      "publication_date": "2025-09-22",
+      "doi": "https://doi.org/10.1109/tbme.2025.3608132",
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Exoskeleton",
+        "Terrain",
+        "Kinematics",
+        "Gait",
+        "Ground reaction force",
+        "Torque",
+        "Biomechanics",
+        "Gait analysis"
+      ],
+      "abstract": "Human walkers encounter diverse terrains such as sand and solid ground, which result in distinct gait locomotion and energy costs. This study aims to design and validate a knee stiffness-based model predictive control approach for knee exoskeletons to assist walking on sand. A comparative analysis of human gait, kinematics, and kinetics on sand versus solid ground is conducted. A machine learning-based estimation scheme is developed to predict ground reaction forces in real time. These predictions, combined with human joint torque estimates, are used to design a knee exoskeleton controller that employs a model predictive stiffness control strategy. The experiments demonstrate significant differences in lower limb kinematics and kinetics, as well as a 15% reduction in major muscle activation and a 3.7% (albeit insignificant) reduction in metabolic cost during exoskeleton-assisted walking on sand. These results confirm that the proposed control framework effectively improves walking efficiency on sandy terrain by reducing both muscular effort and metabolic demand.",
+      "authors": [
+        "Chunchu Zhu",
+        "Xunjie Chen",
+        "Jingang Yi"
+      ]
+    },
+    {
+      "title": "Data-Efficient Learning-Based Estimation of Region of Attractions for Nonlinear Dynamic Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-08-17",
+      "doi": "https://doi.org/10.1109/case58245.2025.11164134",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Computer science",
+        "Control theory (sociology)",
+        "Sampling (signal processing)",
+        "Estimation theory",
+        "Mathematics",
+        "Estimation",
+        "Nonlinear dynamical systems"
+      ],
+      "abstract": "Estimation of the region of attraction (RoA) of dynamic systems is a challenging task due to complex nonlinear behaviors. Analytical approaches require accurate dynamic models and are commonly conservative. In this paper, we present a data-efficient, machine learning-based RoA estimation strategy for an unknown dynamic system with multiple attractors. Our approach constructs and maps the dynamics onto the Riemannian manifold with potential function. The initial RoA is estimated based on regions with low potential values and high gradient magnitudes. To refine the RoA boundaries, further sampling is directed towards regions adjacent to the initial estimation, ensuring an adaptive and efficient data collection process. A Morse graph-based RoA expansion strategy is finally applied to identify the boundaries of RoA. We demonstrate the proposed RoA estimation method by using both simulation and experimental results for inverted pendulums with various controllers. Comparison with other RoA estimation methods is also presented to demonstrate the superior data efficiency and accuracy of the proposed approach.",
+      "authors": [
+        "Yi Huang",
+        "Feng Han",
+        "Jingang Yi"
+      ]
+    },
+    {
+      "title": "Dynamic Arch Compensation Based on Controllable Pneumatic Insoles for Flatfoot Deformity",
+      "publication_year": 2025,
+      "publication_date": "2025-07-23",
+      "doi": "https://doi.org/10.1109/lra.2025.3592133",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Arch",
+        "Compensation (psychology)",
+        "Orthodontics",
+        "Deformity",
+        "Materials science",
+        "Structural engineering",
+        "Engineering",
+        "Medicine"
+      ],
+      "abstract": "Human feet are crucial for supporting body weight and adapting to complex terrains. Adult-acquired flatfoot deformity (AAFD) arises from congenital or acquired causes, impairing the foot's ability to transition between flexible and rigid states, known as the lock-unlock mechanism during the stance and swing phases. In this study, we propose a plantar dynamic support system that utilizes pneumatic airbags, regulated through a model predictive control (MPC) strategy to minimize tracking errors. Experiments were conducted to measure kinetic parameters and electromyography signals, validating the system's efficacy. The results showed improvements in the normalized navicular height truncated (NNHt) index and reductions in muscle activity of the fibularis longus (FL), soleus (SOL), and gastrocnemius (GAST) by 4.42%, 16.65%, and 23.84%, respectively, during the stance phase.",
+      "authors": [
+        "Bin Zhang",
+        "Yan Guo",
+        "Yijun Zhang",
+        "Jingang Yi",
+        "Binrui Wang",
+        "Tao Liu",
+        "Wenyang Li",
+        "Long He"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Prashant Khare",
+  "full_name": "Prashant Khare",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics",
+  "university": "University of Cincinnati",
+  "author_id": "A5072628945",
+  "works_count": 123,
+  "cited_by_count": 781,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 27
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 24
+    },
+    {
+      "topic": "Particle accelerators and beam dynamics",
+      "count": 17
+    },
+    {
+      "topic": "Superconducting Materials and Applications",
+      "count": 17
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Large-Eddy-Simulation Study of Combustion Dynamics of Bluff-Body Stabilized Flames",
+      "publication_year": 2016,
+      "publication_date": "2016-01-25",
+      "doi": "https://doi.org/10.1080/00102202.2015.1136296",
+      "venue": "Combustion Science and Technology",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Large eddy simulation",
+        "Turbulence",
+        "Combustion",
+        "Wake",
+        "Boundary layer",
+        "Bluff",
+        "Chemistry"
+      ],
+      "abstract": "A comprehensive numerical study is conducted to explore the dynamic behaviors of a flame stabilized by a triangular bluff body in a straight chamber. The formulation accommodates the complete set of conservation equations with turbulence closure achieved by a large eddy simulation (LES) technique. A G-equation-based level-set flamelet approach is employed to model the interactions between premixed combustion and turbulence. Both non-reacting and reacting flows are treated, with special attention given to the effect of inlet boundary conditions on the flame evolution. The flow around the bluff body consists of boundary layers, separated shear layers, a recirculation zone and a wake. Their mutual coupling, as well as interactions with acoustic motion and flame oscillation are analyzed in detail. The physical processes responsible for driving combustion instabilities and the mechanism of energy transfer from chemical reactions in the flame zone to acoustic oscillations in the bulk of the chamber are investigated systematically. Intensive resonance is found to occur between shear-layer instabilities and chamber acoustic waves, when the acoustically reflecting inlet boundary conditio...",
+      "authors": [
+        "Huaguang Li",
+        "Prashant Khare",
+        "Hong‐Gye Sung",
+        "Vigor Yang"
+      ]
+    },
+    {
+      "title": "Modeling of finite-size droplets and particles in multiphase flows",
+      "publication_year": 2015,
+      "publication_date": "2015-06-20",
+      "doi": "https://doi.org/10.1016/j.cja.2015.05.004",
+      "venue": "Chinese Journal of Aeronautics",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S1000936115001004/pdf",
+      "concepts": [
+        "Mechanics",
+        "Sauter mean diameter",
+        "Drag",
+        "Turbulence",
+        "Physics",
+        "Finite volume method",
+        "Lagrangian particle tracking",
+        "Wake"
+      ],
+      "abstract": "The conventional point-particle approach for treating the dispersed phase in a continuous flowfield is extended by taking into account the effect of finite particle size, using a Gaussian interpolation from Lagrangian points to the Eulerian field. The inter-phase exchange terms in the conservation equations are distributed over the volume encompassing the particle size, as opposed to the Dirac delta function generally used in the point-particle approach. The proposed approach is benchmarked against three different flow configurations in a numerical framework based on large eddy simulation (LES) turbulence closure. First, the flow over a circular cylinder is simulated for a Reynolds number of 3900 at 1 atm pressure. Results show good agreement with experimental data for the mean streamwise velocity and the vortex shedding frequency in the wake region. The calculated flowfield exhibits correct physics, which the conventional point-particle approach fails to capture. The second case deals with diesel jet injection in quiescent environment over a pressure range of 1.1–5.0 MPa. The calculated jet penetration depth closely matches measurements. It decreases with increasing chamber pre...",
+      "authors": [
+        "Prashant Khare",
+        "Shanwu Wang",
+        "Vigor Yang"
+      ]
+    },
+    {
+      "title": "Atomization patterns and breakup characteristics of liquid sheets formed by two impinging jets",
+      "publication_year": 2011,
+      "publication_date": "2011-01-04",
+      "doi": "https://doi.org/10.2514/6.2011-97",
+      "venue": "49th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Materials science",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "ligament, are studied. The circumferentially space drops were shed from the periphery of the sheet, as well as the ligaments were fragmented from the leading edge of the sheet and then broke into droplets following the Rayleigh mechanism. The periodic waves from the point of impingement were apparent on the surface of the sheet. The impact waves caused early breakdown of the sheet downstream of the impingement point, whereas waves amplied by aerodynamic stresses controlled the breakdown of the rest of the sheet and the ligaments. The impinging jets for non-Newtonian uid are also investigated, two dierent ow patterns are observed.",
+      "authors": [
+        "Dong-Jun Ma",
+        "Xiaodong Chen",
+        "Prashant Khare",
+        "Vigor Yang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Mutual interactions between a thin flexible panel and supersonic flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1063/5.0301373",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0301373",
+      "concepts": [
+        "Supersonic speed",
+        "Panel data",
+        "Business",
+        "Aerospace engineering",
+        "Economics",
+        "Engineering",
+        "Econometrics"
+      ],
+      "abstract": "This paper discusses the mutual interactions between a thin flexible aluminum plate and supersonic flow using two-dimensional (2D) numerical simulations. Fully compressible Navier–Stokes equations loosely coupled with the Venant–Kirchhoff equations to model elastic structural dynamics with large deformations are solved using an open source library, SU2. Turbulence closure is achieved through the large eddy simulation technique. The configuration considered in this research effort is based on an experiment in which a thin flexible panel with a thickness of 1.02 mm and a 50.8 mm overhang at the outer edge of a backward-facing step is exposed to Mach 2 flow. The computational framework was first validated against measurements for both the initial transients of 10 ms and the fully started conditions at 0.4 s. Then, numerical studies were performed to analyze the fluid–structure interactions at four different Mach numbers between 0.5 and 3. The flow behavior revealed distinct phenomena, including shear layer separation for subsonic and transonic flows, and a fully enclosed recirculation region under the overhang in supersonic cases. The time-averaged flow field identified potential t...",
+      "authors": [
+        "Himakar Ganti",
+        "Luis Bravo",
+        "Anindya Ghosal",
+        "Prashant Khare"
+      ]
+    },
+    {
+      "title": "Distorted tulip flame: On the mechanisms controlling premixed flame acceleration in closed channels",
+      "publication_year": 2025,
+      "publication_date": "2025-10-08",
+      "doi": "https://doi.org/10.1016/j.icheatmasstransfer.2025.109810",
+      "venue": "International Communications in Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Premixed flame",
+        "Materials science",
+        "Baroclinity",
+        "Harmonics",
+        "Compressibility",
+        "Vortex",
+        "Acceleration"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fernando Illacanchi",
+        "Andrés Z. Mendiburu",
+        "Luis Bravo",
+        "Prashant Khare",
+        "César Celis"
+      ]
+    },
+    {
+      "title": "Vortex behavior in a dynamically moving hypersonic cavity",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.1063/5.0263004",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0263004",
+      "concepts": [
+        "Physics",
+        "Vortex",
+        "Hypersonic speed",
+        "Aerospace engineering",
+        "Mechanics",
+        "Hypersonic flow",
+        "Classical mechanics",
+        "Engineering"
+      ],
+      "abstract": "This paper details a study based on direct numerical simulation to investigate complex fundamental flow physics when Mach 11 flow interacts with a dynamically moving two-dimensional (2D) cavity. As a first step to understanding this phenomenon, grid motion capability is improved and verified in the computational framework that solves for thermochemical non-equilibrium processes relevant to hypersonic flow conditions. Following this, cavity motion is prescribed at a rate of 60 m/s so that the length by depth (L/D) of the cavity actively changes from an L/D of 2 to L/D of 9.8 during the simulation. It is found that in a compressive state, the cavity exhibits previously unseen behavior, including consistent shear layer detachment from the trailing edge, vortex breakdowns representative of energy cascading in turbulence, two dominant wave reflections that are sustained, and the tendency of the species to follow the vortical flow behavior due to its low relative timescale.",
+      "authors": [
+        "Jeremy Redding",
+        "Prashant Khare",
+        "Luis Bravo"
+      ]
+    },
+    {
+      "title": "Numerical Simulation of the Structural Health of Aviation Thermal Barrier Coatings",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2447",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aviation",
+        "Thermal barrier coating",
+        "Thermal",
+        "Aerospace engineering",
+        "Computer simulation",
+        "Computer science",
+        "Materials science",
+        "Aeronautics"
+      ],
+      "abstract": "In this study, a Finite Element Analysis (FEA) is performed to evaluate the performance of environmental and thermal barrier coatings under realistic gas turbine operating conditions. The structural model encompasses the FEA analysis of the metal substrate CMSX-4, the bond coat (BC), the thermal barrier coating (TBC), and the thermally grown oxide (TGO) layer sandwiched between them. Reynolds Averaged Navier Stokes (RANS) simulations are utilized to characterize the high temperature flowfield, based on anticipated combustor exit flow conditions. Subsequently, the RANS solver is coupled with the FEA solver to apply aerodynamic and thermal loads, resulting in thermal stresses, creep stress, and TGO layer growth-induced swell stress. The cumulative effects of these factors, including crack propagation and coating delamination, are examined to assess structural damage to the material.",
+      "authors": [
+        "Manu Kamin",
+        "Luis Bravo",
+        "Anindya Ghoshal",
+        "Prashant Khare"
+      ]
+    },
+    {
+      "title": "Distorted Tulip Flame: On the Mechanisms Controlling Premixed Flame Acceleration in Closed Channels",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5336610",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5336610",
+      "concepts": [
+        "Acceleration",
+        "Premixed flame",
+        "Mechanics",
+        "Materials science",
+        "Laminar flame speed",
+        "Chemistry",
+        "Physics",
+        "Combustion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fernando Illacanchi Guerra",
+        "Andres A. Mendiburu",
+        "Luis Bravo",
+        "Prashant Khare",
+        "César Celis"
+      ]
+    }
+  ]
+}

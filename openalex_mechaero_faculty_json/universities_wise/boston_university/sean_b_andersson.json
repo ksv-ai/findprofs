@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Sean B. Andersson",
+  "full_name": "Sean B. Andersson",
+  "department": "Department of Mechanical Engineering",
+  "university": "Boston University",
+  "author_id": "A5081816980",
+  "works_count": 237,
+  "cited_by_count": 2434,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Advanced Fluorescence Microscopy Techniques",
+      "count": 51
+    },
+    {
+      "topic": "Force Microscopy Techniques and Applications",
+      "count": 49
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 29
+    },
+    {
+      "topic": "Integrated Circuits and Semiconductor Failure Analysis",
+      "count": 20
+    },
+    {
+      "topic": "Formal Methods in Verification",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Tutorial on the Mechanisms, Dynamics, and Control of Atomic Force Microscopes",
+      "publication_year": 2007,
+      "publication_date": "2007-07-01",
+      "doi": "https://doi.org/10.1109/acc.2007.4282300",
+      "venue": "Proceedings of the ... American Control Conference/Proceedings of the American Control Conference",
+      "type": "conference-paper",
+      "cited_by_count": 224,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Atomic force microscopy",
+        "Microscope",
+        "Computer science",
+        "Perspective (graphical)",
+        "Control (management)",
+        "Nanotechnology",
+        "Artificial intelligence",
+        "Physics"
+      ],
+      "abstract": "The Atomic Force Microscope (AFM) is one of the most versatile tools in nanotechnology. For control engineers this instrument is particularly interesting, since its ability to image the surface of a sample is entirely dependent upon the use of a feedback loop. This paper will present a tutorial on the control of AFMs. We take the reader on a walk around the control loop and discuss each of the individual technology components. The major imaging modes are described from a controls perspective and recent advances geared at increasing the performance of these microscopes are highlighted.",
+      "authors": [
+        "Daniel Y. Abramovitch",
+        "Sean B. Andersson",
+        "Lucy Y. Pao",
+        "Georg Schitter"
+      ]
+    },
+    {
+      "title": "Temporal Logic Motion Planning and Control With Probabilistic Satisfaction Guarantees",
+      "publication_year": 2011,
+      "publication_date": "2011-11-22",
+      "doi": "https://doi.org/10.1109/tro.2011.2172150",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 150,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Probabilistic CTL",
+        "Markov decision process",
+        "Temporal logic",
+        "Probabilistic logic",
+        "Computation tree logic",
+        "Computer science",
+        "Model checking",
+        "Linear temporal logic"
+      ],
+      "abstract": "We describe a computational framework for automatic deployment of a robot with sensor and actuator noise from a temporal logic specification over a set of properties that are satisfied by the regions of a partitioned environment. We model the motion of the robot in the environment as a Markov decision process (MDP) and translate the motion specification to a formula of probabilistic computation tree logic (PCTL). As a result, the robot control problem is mapped to that of generating an MDP control policy from a PCTL formula. We present algorithms for the synthesis of such policies for different classes of PCTL formulas. We illustrate our method with simulation and experimental results.",
+      "authors": [
+        "Morteza Lahijanian",
+        "Sean B. Andersson",
+        "Călin Belta"
+      ]
+    },
+    {
+      "title": "Formal Verification and Synthesis for Discrete-Time Stochastic Systems",
+      "publication_year": 2015,
+      "publication_date": "2015-02-02",
+      "doi": "https://doi.org/10.1109/tac.2015.2398883",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 116,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Markov chain",
+        "Probabilistic CTL",
+        "Markov decision process",
+        "Probabilistic logic",
+        "Model checking",
+        "Abstraction",
+        "Theoretical computer science"
+      ],
+      "abstract": "Formal methods are increasingly being used for control and verification of dynamic systems against complex specifications. In general, these methods rely on a relatively simple system model, such as a transition graph, Markov chain, or Markov decision process, and require abstraction of the original continuous-state dynamics. It can be difficult or impossible, however, to find a perfectly equivalent abstraction, particularly when the original system is stochastic. Here we develop an abstraction procedure that maps a discrete-time stochastic system to an Interval-valued Markov Chain (IMC) and a switched discrete-time stochastic system to a Bounded-parameter Markov Decision Process (BMDP). We construct model checking algorithms for these models against Probabilistic Computation Tree Logic (PCTL) formulas and a synthesis procedure for BMDPs. Finally, we develop an efficient refinement algorithm that reduces the uncertainty in the abstraction. The technique is illustrated through simulation.",
+      "authors": [
+        "Morteza Lahijanian",
+        "Sean B. Andersson",
+        "Călin Belta"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Double-Helix based Real-Time Single Particle Tracking",
+      "publication_year": 2025,
+      "publication_date": "2025-12-02",
+      "doi": "https://doi.org/10.48550/arxiv.2512.02695",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.02695",
+      "concepts": [
+        "Tracking (education)",
+        "Particle (ecology)",
+        "Position (finance)",
+        "Plane (geometry)",
+        "Physics",
+        "Optics",
+        "Control theory (sociology)",
+        "Cardinal point"
+      ],
+      "abstract": "In Real-Time, Feedback-Driven Single Particle Tracking methods, measurements of the emission intensity from a labeled, nanometer-scale particle are used in a feedback loop to track the motion of the particle as it moves inside its native environment, including within living cells. In this work, we take advantage of Point Spread Function (PSF) engineering techniques that encode the axial position of the particle into the shape of the PSF in the focal plane to eliminate the need for out-of-focal-plane measurements, reducing the complexity of implementation and decreasing the overall measurement time of the control loop. Specifically, we used the Double Helix PSF (DH-PSF) in which a single fluorescent source gives rise to two lobes in the image plane with the lobes rotating in the plane as the particle moves along the optical axis. We designed simple estimators of the relative error between the particle and the tracker, and a simple proportional feedback controller to regulate that error to zero. We explored the efficacy of the approach through simulation studies, demonstrating the tracking of fast-moving particles (with diffusion coefficients up to 10 {μ\\text{m}^2/\\text{s}}) over ...",
+      "authors": [
+        "Mir Md Nasim Hossain",
+        "Sean B. Andersson"
+      ]
+    },
+    {
+      "title": "Persistent Monitoring Trajectory Optimization in Partitioned Environments",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.23919/acc63710.2025.11107796",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Computer science",
+        "Trajectory optimization",
+        "Real-time computing",
+        "Physics",
+        "Astronomy"
+      ],
+      "abstract": "We consider the problem of using an autonomous agent to persistently monitor a collection of targets distributed in a given environment. We generalize existing work by allowing the agent’s dynamics to vary throughout the environment, leading to a hybrid dynamical system. This introduces an additional layer of complexity towards the planning portion of the problem: we must not only identify in which order to visit the points of interest, but also in which order to traverse the regions. We propose a tailored global path planner and prove that it is not only probabilistically complete, but converges in probability to a time-optimal solution. We then design an offline sequence planner together with an online trajectory optimizer. Simulations validate the results.",
+      "authors": [
+        "Jonas Håll",
+        "Christos G. Cassandras",
+        "Sean B. Andersson"
+      ]
+    },
+    {
+      "title": "A Formation based Multi-agent Receding Horizon Control Method for Signal Strength Model Estimation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.23919/acc63710.2025.11107976",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Computer science",
+        "Horizon",
+        "Estimation",
+        "SIGNAL (programming language)",
+        "Control (management)",
+        "Artificial intelligence",
+        "Mathematics"
+      ],
+      "abstract": "This paper considers the problem of localizing a set of nodes in a wireless sensor network where both the node positions and communication model parameters are unknown. We assume that a multi-agent system moves in formation through the environment, taking measurements of the Received Signal Strength, and seek a controller that optimizes a performance metric based on the Fisher Information Matrix. We propose a two-stage formation-based receding horizon approach that alternates between estimating the parameters and determining where to move and how to scale the formation to maximally inform the estimation problem. We apply a Dynamic Programming approach to solve the multi-stage look ahead control problem of the first stage, followed by a Particle Swarm Optimization algorithm to determine the best formation configuration in the second stage. We demonstrate our approach using different formation structures and compare it against multiple baselines.",
+      "authors": [
+        "Yancheng Zhu",
+        "Sean B. Andersson"
+      ]
+    },
+    {
+      "title": "Robust Behavior Cloning Via Global Lipschitz Regularization",
+      "publication_year": 2025,
+      "publication_date": "2025-06-24",
+      "doi": "https://doi.org/10.48550/arxiv.2506.19250",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.19250",
+      "concepts": [
+        "Lipschitz continuity",
+        "Robustness (evolution)",
+        "Bounded function",
+        "Artificial neural network",
+        "Certificate",
+        "Computer science",
+        "Mathematics",
+        "Norm (philosophy)"
+      ],
+      "abstract": "Behavior Cloning (BC) is an effective imitation learning technique and has even been adopted in some safety-critical domains such as autonomous vehicles. BC trains a policy to mimic the behavior of an expert by using a dataset composed of only state-action pairs demonstrated by the expert, without any additional interaction with the environment. However, During deployment, the policy observations may contain measurement errors or adversarial disturbances. Since the observations may deviate from the true states, they can mislead the agent into making sub-optimal actions. In this work, we use a global Lipschitz regularization approach to enhance the robustness of the learned policy network. We then show that the resulting global Lipschitz property provides a robustness certificate to the policy with respect to different bounded norm perturbations. Then, we propose a way to construct a Lipschitz neural network that ensures the policy robustness. We empirically validate our theory across various environments in Gymnasium. Keywords: Robust Reinforcement Learning; Behavior Cloning; Lipschitz Neural Network",
+      "authors": [
+        "Shili Wu",
+        "Yizhao Jin",
+        "Niu, Puhua",
+        "Aniruddha Datta",
+        "Sean B. Andersson"
+      ]
+    },
+    {
+      "title": "Accelerated Decision Making for Distributed Network Estimation Problems",
+      "publication_year": 2025,
+      "publication_date": "2025-06-24",
+      "doi": "https://doi.org/10.23919/ecc65951.2025.11187016",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Scalability",
+        "Robustness (evolution)",
+        "Computational complexity theory",
+        "Flexibility (engineering)",
+        "Ranking (information retrieval)",
+        "Constraint (computer-aided design)",
+        "Reduction (mathematics)"
+      ],
+      "abstract": "This paper presents an accelerated distributed receding horizon controller for cooperative network estimation problems using multiple autonomous agents. Our approach accelerates decision-making by integrating a novel heuristic-based ranking system, significantly reducing the dependency on computationally expensive Nonlinear Programs (NLPs). The reduction of computational complexity enables real-time responses and scalability to large systems while maintaining high levels of estimation accuracy. To mitigate the small loss of performance, we further introduce a method that aims at generating the best solution within a given computational time constraint by leveraging both the newly introduced ranking scheme and the traditional NLP solutions. Numerical simulations demonstrate competitive performance when benchmarked against data-driven offline policies (e.g., RL), showing that our methods achieve good results while having enhanced flexibility and robustness properties due to their online nature.",
+      "authors": [
+        "Jonas Håll",
+        "Alexander Wasilkoff",
+        "Ruggero Carli",
+        "Christos G. Cassandras",
+        "Sean B. Andersson"
+      ]
+    }
+  ]
+}

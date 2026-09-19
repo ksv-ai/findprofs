@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Joseph M. Powers",
+  "full_name": "Joseph M. Powers",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Notre Dame",
+  "author_id": "A5035613424",
+  "works_count": 164,
+  "cited_by_count": 3238,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 45
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 34
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 30
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 22
+    },
+    {
+      "topic": "Energetic Materials and Combustion",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Accurate Spatial Resolution Estimates for Reactive Supersonic Flow with Detailed Chemistry",
+      "publication_year": 2005,
+      "publication_date": "2005-05-01",
+      "doi": "https://doi.org/10.2514/1.11641",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 87,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Choked flow",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Aerospace engineering",
+        "Physics",
+        "Environmental science",
+        "Materials science"
+      ],
+      "abstract": "Ar obust method is developed and used to provide rational estimates of reaction zone thicknesses in onedimensional steady gas-phase detonations in mixtures of inviscid ideal reacting gases whose chemistry is described by detailed kinetics of the interactions of N molecular species constituted from L atomic elements. The conservation principles are cast as a set of algebraic relations giving pressure, temperature, density, velocity, and L species mass fractions as functions of the remaining N‐L species mass fractions. These are used to recast the N‐L species evolution equations as a self-contained system of nonlinear ordinary differential equations of the form dYi/dx = fi (Y1 ,..., YN‐L). These equations are numerically integrated from a shock to an equilibrium end state. The eigenvalues of the Jacobian of fi are calculated at every point in space, and their reciprocals give local estimates of all length scales. Application of the method to the standard problem of a stoichiometric Chapman‐Jouguet hydrogen‐air detonation in a mixture with ambient pressure of 1 atm and temperature of 298 K reveals that the finest length scale is on the order of 10 −5 cm; this is orders of magnitude...",
+      "authors": [
+        "Joseph M. Powers",
+        "Samuel Paolucci"
+      ]
+    },
+    {
+      "title": "Theory of two-phase detonation—Part I: Modeling",
+      "publication_year": 1990,
+      "publication_date": "1990-06-01",
+      "doi": "https://doi.org/10.1016/0010-2180(90)90104-y",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 65,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Explosive material",
+        "Conservation law",
+        "Propellant",
+        "Constitutive equation",
+        "Work (physics)",
+        "Second law of thermodynamics",
+        "Combustion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joseph M. Powers",
+        "D. Scott Stewart",
+        "Herman Krier"
+      ]
+    },
+    {
+      "title": "Review of Multiscale Modeling of Detonation",
+      "publication_year": 2006,
+      "publication_date": "2006-11-01",
+      "doi": "https://doi.org/10.2514/1.17897",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 62,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Materials science",
+        "Deflagration to detonation transition",
+        "Aerospace engineering",
+        "Mechanics",
+        "Explosive material",
+        "Engineering",
+        "Physics"
+      ],
+      "abstract": "Issues associated with modeling the multiscale nature of detonation are reviewed, and potential applications to detonation-driven propulsion systems are discussed. It is suggested that a failure of most existing computations to simultaneously capture the intrinsic microscales of the underlying continuum model along with engineering macroscales could in part explain existing discrepancies between numerical predictions and experimental observation. Mathematical and computational strategies for addressing general problems in multiscale physics are first examined, followed by focus on their application to detonation modeling. Results are given for a simple detonation with one-step kinetics, which undergoes a period-doubling transition to chaos; as activation energy is increased, such a system exhibits larger scales than are commonly considered. In contrast, for systems with detailed kinetics, scales finer than are commonly considered are revealed to be present in models typically used for detonation propulsion systems. Some modern computational strategies that have been recently applied to more efficiently capture the multiscale physics of detonation are discussed: intrinsic low-dim...",
+      "authors": [
+        "Joseph M. Powers"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Solution Verification of Anomalous Waves in Nonideal Gases",
+      "publication_year": 2024,
+      "publication_date": "2024-06-29",
+      "doi": "https://doi.org/10.1115/1.4065834",
+      "venue": "Journal of Verification Validation and Uncertainty Quantification",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Discretization",
+        "Euler equations",
+        "Shock wave",
+        "van der Waals force",
+        "Physics",
+        "Classical mechanics",
+        "Mechanics"
+      ],
+      "abstract": "Abstract Solution verification methods for anomalous waves in inviscid and viscous van der Waals gases are presented. Anomalous waves are admissible in a single gas phase material when isentropes are concave, rendering the sound speed to have the unusual feature of decreasing with increasing density. The anomalous waves considered include rarefaction shocks and continuous compression fans. A previously known exact solution of inviscid continuous fans with a van der Waals equation of state is applied to anomalous waves. An exact solution for viscous shocks in an ideal gas is described and utilized for verification of the viscous numerical solutions. Solutions and simulations of viscous and inviscid van der Waals gases in shock tubes are presented with both conventional and anomalous waves. Shock tube solutions are used for verification of numerical simulations. Highly resolved viscous solutions are obtained with a simple explicit Euler time advancement scheme coupled with a second-order central spatial discretization. Inviscid simulations are performed with a third-order Runge–Kutta method in time and a fifth-order mapped weighted essentially nonoscillatory (WENO5M) discretizatio...",
+      "authors": [
+        "Katherine R. Pielemeier",
+        "Alexander M. Davies",
+        "Joseph M. Powers"
+      ]
+    },
+    {
+      "title": "Spectral Model for Nonequilibrium Radiation Induced from Flow Around a Hypersonic Body",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0653",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic flow",
+        "Hypersonic speed",
+        "Non-equilibrium thermodynamics",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Mechanics",
+        "Radiation",
+        "Physics"
+      ],
+      "abstract": "This study presents a two-dimensional simulation of hypersonic flow around a cylindrical geometry along with the development and verification of a line-by-line emission and absorp- tion spectral database for nonequilibrium flows characterized by two temperatures. The spec- tral databases have currently been constructed for atomic and molecular species in five-species air-chemical models with translational and vibrational temperatures spanning 300 – 4800 K, number density regimes from 1 × 10^10 – 1 × 10^20 cm−3, and for spectral ranges in the vacuum ultraviolet and infrared. In order to gather the radiative properties of relevant hypersonic thermodynamic states, we employ a bicubic polynomial interpolation between temperatures and spline interpolation between number densities. The spectral database is accessed with a finite volume Photon Monte Carlo method and the model is verified through reconstruction of absorbtion coeﬀicients and comparisons with exact solutions for radiative transfer in one-dimensional gas mixtures. Then sample radiation calculations are performed on a snapshot in time of the two-dimensional flow where there is substantial energy in both the post-shock zone ...",
+      "authors": [
+        "Joey Farmer",
+        "Andrew A. Oliva",
+        "Ryan G. McClarren",
+        "Aleksandar Jemcov",
+        "Joseph M. Powers"
+      ]
+    },
+    {
+      "title": "Harmony in High Speed Combustion",
+      "publication_year": 2023,
+      "publication_date": "2023-11-02",
+      "doi": "https://doi.org/10.52843/cassyni.ww1w80",
+      "venue": "",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustion",
+        "Harmony (color)",
+        "Environmental science",
+        "Chemistry",
+        "Physics",
+        "Organic chemistry",
+        "Optics"
+      ],
+      "abstract": "Processes in nature are sometimes characterized by disorder and other times by order. Such is the case with the phenomena of combustion; one can compare the disorder of a crackling flame in a fireplace to the order of a candle flame in still air. Analogs exist in high speed combustion such as might be present in rocket nozzles or high speed air-breathing jet engines. Here, a paradigm problem in high speed combustion will be considered in which the transition from order to disorder will be studied in a controlled fashion. The mathematical model is one that closely mimics nature, namely the compressible reactive Navier-Stokes equations for a mixture of calorically imperfect ideal gases that react via a model of detailed chemical kinetics. The key physical mechanisms considered are reaction, advection, and diffusion. Their relative importance dictates the physical flame structures which are predicted. One-dimenensional unsteady models of hydrogen-air combustion are examined. The solution is mathematically verified by use of a wavelet-based method which adapts the computational grid automatically so as to meet a user-specified error tolerance. The solution is then validated by compa...",
+      "authors": [
+        "Joseph M. Powers"
+      ]
+    },
+    {
+      "title": "Nonlinear Dynamics for Fluid Flow",
+      "publication_year": 2023,
+      "publication_date": "2023-06-29",
+      "doi": "https://doi.org/10.1017/9781009026307.016",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fluid mechanics",
+        "Fluid dynamics",
+        "Nonlinear system",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Calculus (dental)",
+        "Computer science",
+        "Mechanics"
+      ],
+      "abstract": "Providing a modern approach to classical fluid mechanics, this textbook presents an accessible and rigorous introduction to the field, with a strong emphasis on both mathematical exposition and physical problems. It includes a consistent treatment of a broad range of fluid mechanics topics, including governing equations, vorticity, potential flow, compressible flow, viscous flow, instability, and turbulence. It has enhanced coverage of geometry, coordinate transformations, kinematics, thermodynamics, heat transfer, and nonlinear dynamics. To round out student understanding, a robust emphasis on theoretical fundamentals and underlying mathematical details is provided, enabling students to gain confidence and develop a solid framework for further study. Included also are 180 end-of-chapter problems, with full solutions and sample course syllabi available for instructors. With sufficient coverage for a one- or two-semester sequence, this textbook provides an ideal flexible teaching pathway for graduate students in aerospace, mechanical, chemical, and civil engineering, and applied mathematics.",
+      "authors": [
+        "Joseph M. Powers"
+      ]
+    },
+    {
+      "title": "Potential Flow",
+      "publication_year": 2023,
+      "publication_date": "2023-06-29",
+      "doi": "https://doi.org/10.1017/9781009026307.011",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fluid mechanics",
+        "Fluid dynamics",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Aerospace",
+        "Calculus (dental)",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "Providing a modern approach to classical fluid mechanics, this textbook presents an accessible and rigorous introduction to the field, with a strong emphasis on both mathematical exposition and physical problems. It includes a consistent treatment of a broad range of fluid mechanics topics, including governing equations, vorticity, potential flow, compressible flow, viscous flow, instability, and turbulence. It has enhanced coverage of geometry, coordinate transformations, kinematics, thermodynamics, heat transfer, and nonlinear dynamics. To round out student understanding, a robust emphasis on theoretical fundamentals and underlying mathematical details is provided, enabling students to gain confidence and develop a solid framework for further study. Included also are 180 end-of-chapter problems, with full solutions and sample course syllabi available for instructors. With sufficient coverage for a one- or two-semester sequence, this textbook provides an ideal flexible teaching pathway for graduate students in aerospace, mechanical, chemical, and civil engineering, and applied mathematics.",
+      "authors": [
+        "Joseph M. Powers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Paul K. Newton",
+  "full_name": "Paul K. Newton",
+  "department": "Department of Mathematics / Department of Aerospace and Mechanical Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5003429104",
+  "works_count": 194,
+  "cited_by_count": 3378,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Mathematical Biology Tumor Growth",
+      "count": 31
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 30
+    },
+    {
+      "topic": "Quantum chaos and dynamical systems",
+      "count": 30
+    },
+    {
+      "topic": "Evolution and Genetic Dynamics",
+      "count": 24
+    },
+    {
+      "topic": "Nonlinear Waves and Solitons",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Motion of three point vortices on a sphere",
+      "publication_year": 1998,
+      "publication_date": "1998-05-01",
+      "doi": "https://doi.org/10.1016/s0167-2789(97)00236-4",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 131,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Physics",
+        "RADIUS",
+        "Geodesic",
+        "Equilateral triangle",
+        "Great circle",
+        "Geometry",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rangachari Kidambi",
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "The N-Vortex Problem",
+      "publication_year": 2001,
+      "publication_date": "2001-01-01",
+      "doi": "https://doi.org/10.1007/978-1-4684-9290-3",
+      "venue": "Applied mathematical sciences",
+      "type": "book",
+      "cited_by_count": 475,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Computer science",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "Vortex Crystals",
+      "publication_year": 2003,
+      "publication_date": "2003-01-01",
+      "doi": "https://doi.org/10.1016/s0065-2156(02)39001-x",
+      "venue": "Advances in applied mechanics",
+      "type": "book-chapter",
+      "cited_by_count": 164,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Parallelogram",
+        "Perpendicular",
+        "Physics",
+        "Plane (geometry)",
+        "Classical mechanics",
+        "Motion (physics)",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hassan Aref",
+        "Paul K. Newton",
+        "Mark A. Stremler",
+        "Tadashi Tokieda",
+        "Dmitri Vainchtein"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Reinforcement learning for chemotherapy scheduling in a stochastic tumor evolution model",
+      "publication_year": 2026,
+      "publication_date": "2026-05-19",
+      "doi": "https://doi.org/10.1103/cbkw-5s4b",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Computer science",
+        "Scheduling (production processes)",
+        "Artificial intelligence",
+        "Job shop scheduling",
+        "Machine learning",
+        "Q-learning",
+        "Mathematical optimization"
+      ],
+      "abstract": "We present a Q-learning framework for optimizing chemotherapy dosing schedules in a stochastic finite-cell model of tumor evolution under drug-induced selection. The tumor consists of three competing subpopulations: a chemosensitive lineage, S, and two single-drug-resistant lineages, R_{1} and R_{2}, each resistant to one of two cytotoxic agents, C_{1} and C_{2}. Drug administration is formulated as a discrete action space in a finite-state Markov process, where the state is defined by the composition (S,R_{1},R_{2}) constrained by a fixed population size N. Tumor volume evolves according to a separate growth equation, with expansion rate proportional to the difference between the population-averaged fitness and a fixed microenvironmental baseline. Using Q-learning, we derive optimal dosing policies that balance therapeutic pressure with the evolutionary dynamics of resistance. The reward function is engineered to promote long-term coexistence among subpopulations, thereby delaying fixation of resistance by penalizing population imbalance. We analyze the structure of the optimal policies to (i) infer dominant evolutionary trajectories under treatment, (ii) quantify robustness to...",
+      "authors": [
+        "M. Giles",
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "Generation–Establishment Tradeoffs Shape the Temporal Window of Recombinant Evolution",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "https://doi.org/10.64898/2026.04.07.717007",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/09/2026.04.07.717007.full.pdf",
+      "concepts": [
+        "Evolutionary biology",
+        "Coupling (piping)",
+        "Biology",
+        "Recombinant DNA",
+        "Genome",
+        "Hazard",
+        "Window (computing)",
+        "Trajectory"
+      ],
+      "abstract": "Recent viral coinfection experiments show that recombinant genomes are generated readily and depend strongly on infection timing and order, yet only a small fraction give rise to persistent lineages. We develop a hybrid deterministic–stochastic framework that resolves this discrepancy by coupling density-dependent recombinant generation with stochastic establishment of rare lineages. The resulting hazard of successful lineage formation is generically non-monotonic, increasing with parental abundance through enhanced generation while decreasing under competitive suppression, and exhibits a unique interior maximum in parental-density space. As parental populations evolve, their trajectory across this hazard landscape defines a sharply localized temporal window of evolutionary opportunity. These results reveal a general principle: evolutionary success is determined not only by intrinsic fitness, but by when variants arise within a dynamically changing ecological context.",
+      "authors": [
+        "Simon J. Anthony",
+        "Heather Wells",
+        "Urbashi Mitra",
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "Gaming the cancer–immunity cycle by synchronizing the dose schedules",
+      "publication_year": 2025,
+      "publication_date": "2025-08-08",
+      "doi": "https://doi.org/10.1073/pnas.2423775122",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.2423775122",
+      "concepts": [
+        "Dosing",
+        "Context (archaeology)",
+        "Synchronizing",
+        "Immunotherapy",
+        "Medicine",
+        "Chemotherapy",
+        "Cancer",
+        "Population"
+      ],
+      "abstract": "We introduce a mathematical model of the cancer-immunity cycle and use it to test several hypotheses regarding the combination, timing, and optimization associated with chemotherapy and immunotherapy dosing schedules in the context of competition and time-dependent selection pressure. A key idea is the value of synchronizing the dosing schedules with the fundamental period of the cancer-immunity cycle. The competitors in the population dynamics evolutionary game are the cancer cells, healthy (normal) cells, and T cells, which conceptually form a nontransitive rock-paper-scissor chain. The chemotherapy and immunotherapy dosing schedules each act as control functions whose timing and magnitudes we synchronize with the fundamental period of the underlying nonlinear dynamical system. With the model, we show among other more detailed results, that chemotherapy and immunotherapy pulse-dosing schedules do not commute; the best duration of the chemotherapy is one-quarter of the cancer-immunity cycle, whereas for immunotherapy it is one-half cycle; immunotherapy dosing should precede chemotherapy dosing and last twice as long. A general conclusion is that optimized timing of the dosing s...",
+      "authors": [
+        "Saeedeh Mahmoodifar",
+        "K. Stuckey",
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "Chemotherapy dose scheduling via Q-learning in a Markov tumor model",
+      "publication_year": 2025,
+      "publication_date": "2025-06-08",
+      "doi": "https://doi.org/10.1101/2025.06.05.658118",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/08/2025.06.05.658118.full.pdf",
+      "concepts": [
+        "Computer science",
+        "Markov chain",
+        "Q-learning",
+        "Markov model",
+        "Artificial intelligence",
+        "Machine learning",
+        "Reinforcement learning"
+      ],
+      "abstract": "We describe a Q-learning approach to optimized chemotherapy dose scheduling in a stochastic finite-cell Markov process that models tumor cell natural selection dynamics. The three competing subpopulations comprising our virtual tumor are a chemo-sensitive population (S), and two chemo-resistant populations, R 1 and R 2 , each resistant to one of two drugs, C 1 and C 2 . The two drugs are toggled off or on which constitute the actions (selection pressure) imposed on our state-variables ( S, R 1 , R 2 ), measured as proportions in our finite state-space of N cancer cells ( S + R 1 + R 2 = N ). After the converged chemo-dosing policies are obtained, corresponding to a given reward structure, we focus on three important aspects of chemotherapy dose scheduling. First, we identify the most likely evolutionary paths of the tumor cell populations in response to the optimized (converged) policies. Second, we quantify the robustness in the ability to reach our target of balanced co-existence in light of incomplete information in both the initial cell-populations as well as the state-variables at each step. Third, we evaluate the efficacy of simplified policies which exploit the symmetries...",
+      "authors": [
+        "Michael B. Giles",
+        "Paul K. Newton"
+      ]
+    },
+    {
+      "title": "Gaming the cancer-immunity cycle by synchronizing the dose schedules",
+      "publication_year": 2024,
+      "publication_date": "2024-11-03",
+      "doi": "https://doi.org/10.1101/2024.10.31.621326",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1101/2024.10.31.621326",
+      "concepts": [
+        "Synchronizing",
+        "Immunity",
+        "Computer science",
+        "Medicine",
+        "Immunology",
+        "Telecommunications",
+        "Immune system",
+        "Transmission (telecommunications)"
+      ],
+      "abstract": "We introduce a mathematical model of the cancer-immunity cycle and use it to test several hypotheses regarding the combination, timing, and optimization associated with chemotherapy and immunotherapy dosing schedules in the context of competition and selection pressure. A key conceptual idea is the value of synchronizing the dosing schedules with the fundamental period of the cancer-immunity cycle. The competitors in the population dynamics evolutionary game are the cancer cells, healthy cells, and T-cells, which form a non-transitive rock-paper-scissor chain, mediated by the tumor microenvironment. The chemotherapy and immunotherapy dosing schedules each act as control functions whose timing we synchronize with the fundamental period of the underlying nonlinear dynamical system. With the model, we show among other more detailed results, that chemotherapy and immunotherapy schedules are non-transitive; the best duration of the chemotherapy is around one-quarter of the cancer-immunity cycle, whereas for immunotherapy it is one-half cycle; immunotherapy dosing should preceed chemotherapy dosing. A general conclusion is that optimized timing of the dosing schedules can make up for ...",
+      "authors": [
+        "Saeedeh Mahmoodifar",
+        "Paul K. Newton"
+      ]
+    }
+  ]
+}

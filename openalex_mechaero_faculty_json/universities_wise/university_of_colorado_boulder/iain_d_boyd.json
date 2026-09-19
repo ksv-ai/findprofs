@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Iain D. Boyd",
+  "full_name": "Iain D. Boyd",
+  "department": "Ann and H.J. Smead Department of Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5029805261",
+  "works_count": 944,
+  "cited_by_count": 15428,
+  "h_index": 63,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 537
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 287
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 224
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 154
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 139
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical Simulation of Weakly Ionized Hypersonic Flow for Reentry Configurations",
+      "publication_year": 2006,
+      "publication_date": "2006-06-05",
+      "doi": "https://doi.org/10.2514/6.2006-3773",
+      "venue": "9th AIAA/ASME Joint Thermophysics and Heat Transfer Conference",
+      "type": "conference-paper",
+      "cited_by_count": 248,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reentry",
+        "Hypersonic speed",
+        "Hypersonic flow",
+        "Aerospace engineering",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Computer simulation",
+        "Computer science"
+      ],
+      "abstract": "Numerical simulations of axisymmetric flows over reentry configurations at hypersonic conditions using a Navier-Stokes solver are presented. The Navier-Stokes equations are modified using Park’s two-temperature model to account for thermochemical nonequilibrium and weak ionization eects. The finite-volume method is used to solve the set of dierential equations. The code has the capability to handle any mixture of hexahedra, tetrahedra, prisms and pyramids in 3D or triangles and quadrilaterals in 2D. The results in this paper only use quadrilaterals. Numerical fluxes between the cells are discretized using a modified Steger-Warming Flux Vector Splitting approach which has low dissipation and is appropriate to calculate boundary layers. A point or line implicit method is used to perform the time integration. Pressure, heat transfer rates and electron number density profiles are compared to available experimental and flight measurements.",
+      "authors": [
+        "Leonardo Scalabrin",
+        "Iain D. Boyd"
+      ]
+    },
+    {
+      "title": "Predicting failure of the continuum fluid equations in transitional hypersonic flows",
+      "publication_year": 1995,
+      "publication_date": "1995-01-01",
+      "doi": "https://doi.org/10.1063/1.868720",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 349,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Hypersonic speed",
+        "Mechanics",
+        "Shock wave",
+        "Knudsen number",
+        "Classical mechanics",
+        "Shock (circulatory)",
+        "Direct simulation Monte Carlo"
+      ],
+      "abstract": "The manner in which the Navier–Stokes equations of fluid mechanics break down under conditions of low-density, hypersonic flow is investigated numerically. This is performed through careful and detailed comparisons of solutions obtained with continuum and Monte Carlo simulation techniques. The objective of the study is to predict conditions under which the continuum approach may be expected to fail. Both normal shock waves and bow shocks formed by flow over a sphere are considered for argon and nitrogen. It is found that a Knudsen number based on local flow conditions and gradients is a convenient and accurate criterion for indicating breakdown of the continuum flow equations. Failure of the Navier–Stokes equations in hypersonic transitional flows occurs both in the shock front and in the region immediately adjacent to the body surface.",
+      "authors": [
+        "Iain D. Boyd",
+        "Gang Chen",
+        "Graham V. Candler"
+      ]
+    },
+    {
+      "title": "Momentum and Heat Transfer in a Laminar Boundary Layer with Slip Flow",
+      "publication_year": 2006,
+      "publication_date": "2006-10-01",
+      "doi": "https://doi.org/10.2514/1.22968",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": true,
+      "oa_url": "https://hdl.handle.net/2027.42/77059",
+      "concepts": [
+        "Laminar flow",
+        "Boundary layer",
+        "Mechanics",
+        "Heat transfer",
+        "Slip (aerodynamics)",
+        "Temperature jump",
+        "Materials science",
+        "Drag"
+      ],
+      "abstract": "Peer Reviewed",
+      "authors": [
+        "Michael Martin",
+        "Iain D. Boyd"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Correction: Assessment of Shear Stress Transport Turbulence Model Variants in Hypersonic Separated Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-08",
+      "doi": "https://doi.org/10.2514/6.2026-4558.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Turbulence",
+        "Shear stress",
+        "Physics",
+        "Geology",
+        "Stress (linguistics)",
+        "Hypersonic speed",
+        "Shear (geology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sarah Kinney",
+        "Iain D. Boyd",
+        "John A. Evans"
+      ]
+    },
+    {
+      "title": "Correction: Mixed Uncertainty Quantification for Hypersonic Entry Into Hydrogen-Helium Atmospheres",
+      "publication_year": 2026,
+      "publication_date": "2026-06-08",
+      "doi": "https://doi.org/10.2514/6.2026-4715.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2026-4715.c1",
+      "concepts": [
+        "Uncertainty quantification",
+        "Uncertainty analysis",
+        "Environmental science",
+        "Measurement uncertainty",
+        "Hypersonic flight",
+        "Calibration",
+        "Work (physics)",
+        "Remote sensing"
+      ],
+      "abstract": "Correction NoticeThe manuscript states in Section V: \"The number of samples required for a total order expansion using a polynomial order of 2 is 276.For the present analysis, it is chosen to compute 25 epistemic samples and 25 aleatory samples, for a total of 625 samples.\"The correction is that the number of samples required for a total order expansion should be computed for each type of uncertainty separately.Using Eq. 13, the number of samples required for a total order expansion using a polynomial order of 2 is 231 epistemic samples and 6 aleatory samples.Performing the analysis again with 231 epistemic samples and 10 aleatory samples, for a total number of samples of 2310, the PCE and Sobol' indices are computed again.",
+      "authors": [
+        "Cate Leszcz",
+        "Timothy T. Aiken",
+        "Iain D. Boyd"
+      ]
+    },
+    {
+      "title": "Evaluation of B-Si-C Chemistry Models in High-Enthalpy Air Experiments",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4716",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Environmental science",
+        "Process engineering",
+        "Air pollution",
+        "Mathematical model",
+        "Work (physics)",
+        "Materials science",
+        "Thermodynamics"
+      ],
+      "abstract": "With the growing need for hypersonic flight vehicles has come increased interest in advanced refractory materials. Numerous studies have considered ultra-high temperature ceramics from a material and surface chemistry perspective but none have incorporated the full gas phase response. In order to do so, new chemistry models for simulating the material response of ultra-high temperature ceramics are evaluated against recent experimental data collected for ZrB2-SiC samples under high-enthalpy air conditions. In addition to the air species being simulated, B-Si-C species are needed. Both gas and surface temperature measurements are included and correlated with emission measurements taken from multiple spectrometers. Simulations of the facility and material sample are conducted. Radiation calculations are performed on the resulting multi-species flowfield and compared to the spectrometer readings. While some gaps in the available data for the added species are identified, overall results agree well with the experimental measurements.",
+      "authors": [
+        "Nicholas S. Campbell",
+        "Iain D. Boyd",
+        "Douglas Flectcher"
+      ]
+    },
+    {
+      "title": "Assessment of Shear Stress Transport Turbulence Model Variants in Hypersonic Separated Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4558",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Turbulence",
+        "Shear stress",
+        "Physics",
+        "Stress (linguistics)",
+        "Hypersonic speed",
+        "Shear (geology)",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sarah Kinney",
+        "Iain D. Boyd",
+        "John A. Evans"
+      ]
+    },
+    {
+      "title": "Mixed Uncertainty Quantification for Hypersonic Entry Into Hydrogen-Helium Atmospheres",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4715",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Environmental science",
+        "Uncertainty analysis",
+        "Measurement uncertainty",
+        "Hypersonic flight",
+        "Calibration",
+        "Remote sensing",
+        "Mechanics"
+      ],
+      "abstract": "Designing a mission to the two least explored planets in our solar system, Uranus and Neptune, requires a comprehensive understanding of the aerothermal environment of an entry vehicle in hydrogen-helium-methane (H2/He/CH4) atmospheres. There are uncertainties in current models and experiments that have been performed to simulate a hypersonic entry into these atmospheres. Uncertainty quantification (UQ) can provide insight on which specific uncertain parameters used in simulations most contribute to the uncertainty in the prediction of a quantity of interest (QoI). This study presents a mixed UQ analysis that includes both epistemic uncertain parameters from the chemical kinetic rate parameters that are implemented in simulations as well as aleatory uncertain parameters that represent experimental measurements. First, the mixed UQ framework is tested on a model problem to compute stagnation point convective heating in H2/He atmospheres. The mixed UQ framework is then extended to quantify the sensitivities of spectral radiance predictions from a nonequilibrium chemical kinetics solver coupled with a radiation solver. It is found that mostly epistemic uncertain chemical kinetic ra...",
+      "authors": [
+        "Cate Leszcz",
+        "Timothy T. Aiken",
+        "Iain D. Boyd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Alireza Doostan",
+  "full_name": "Alireza Doostan",
+  "department": "Ann and H.J. Smead Department of Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5005638433",
+  "works_count": 181,
+  "cited_by_count": 4142,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 89
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 50
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 37
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 17
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A non-adapted sparse approximation of PDEs with stochastic inputs",
+      "publication_year": 2011,
+      "publication_date": "2011-01-10",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.01.002",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 461,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1006.2151",
+      "concepts": [
+        "Importance sampling",
+        "Probabilistic logic",
+        "Measure (data warehouse)",
+        "Sampling (signal processing)",
+        "Applied mathematics",
+        "Mathematics",
+        "Code (set theory)",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alireza Doostan",
+        "Houman Owhadi"
+      ]
+    },
+    {
+      "title": "Compressive sampling of polynomial chaos expansions: Convergence analysis and sampling strategies",
+      "publication_year": 2014,
+      "publication_date": "2014-09-28",
+      "doi": "https://doi.org/10.1016/j.jcp.2014.09.019",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 225,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2014.09.019",
+      "concepts": [
+        "Polynomial chaos",
+        "Mathematics",
+        "Convergence (economics)",
+        "Sampling (signal processing)",
+        "Applied mathematics",
+        "CHAOS (operating system)",
+        "Polynomial",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jerrad Hampton",
+        "Alireza Doostan"
+      ]
+    },
+    {
+      "title": "Stochastic model reduction for chaos representations",
+      "publication_year": 2007,
+      "publication_date": "2007-03-28",
+      "doi": "https://doi.org/10.1016/j.cma.2006.10.047",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 195,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stochastic partial differential equation",
+        "Mathematics",
+        "Galerkin method",
+        "Partial differential equation",
+        "Stochastic differential equation",
+        "Applied mathematics",
+        "Continuous-time stochastic process",
+        "Hilbert space"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alireza Doostan",
+        "Roger Ghanem",
+        "John Red-Horse"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Inferring Titan Atmosphere Methane Content From Dragonfly Backshell Radiation Measurements",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1287",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Methane",
+        "Radiative transfer",
+        "Environmental science",
+        "Atmospheric methane",
+        "Titan (rocket family)",
+        "Computational physics",
+        "Measurement uncertainty",
+        "Atmosphere (unit)"
+      ],
+      "abstract": "During the entry of the Dragonfly capsule into the atmosphere of Titan, a variety of instruments will record vehicle surface properties including radiation. Uncertainty in CN emission remains a principal limitation in modeling and interpreting radiative heating during Titan atmospheric entry. Prior work has shown that the ratio of integrated CN red and CN violet band radiances can, in principle, be used to infer the freestream methane mole fraction when only chemical kinetic uncertainty is considered. In this study, we extend that framework to include uncertainty in the heavy-particle excitation rates governing the CN(A–X) and CN(B–X) band systems. The rates of these excitation processes are difficult to measure experimentally and exhibit discrepancies of multiple orders of magnitude across available datasets. Using polynomial chaos expansion surrogate models coupled with Bayesian inference in PyMC, we examine how methane identifiability evolves as excitation-rate uncertainty bounds are systematically tightened. We find that current uncertainty levels produce broad, non-informative methane posteriors, even when radiative measurements are assumed noise-free, but that progressive ...",
+      "authors": [
+        "M. Sands",
+        "Audrey Gaymann",
+        "Sung Min Jo",
+        "Alireza Doostan",
+        "Iain Boyd"
+      ]
+    },
+    {
+      "title": "Bi-fidelity interpolative decomposition for multimodal data",
+      "publication_year": 2026,
+      "publication_date": "2026-01-05",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118706",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interpolation (computer graphics)",
+        "Decomposition",
+        "Basis (linear algebra)",
+        "Algorithm",
+        "Mathematics",
+        "Computer science",
+        "Rocket (weapon)",
+        "Dynamic mode decomposition"
+      ],
+      "abstract": "",
+      "authors": [
+        "Murray Cutforth",
+        "Tiffany Fan",
+        "Tony Zahtila",
+        "Alireza Doostan",
+        "Eric Darve"
+      ]
+    },
+    {
+      "title": "Scalable Data Reduction Techniques for Extreme-Scale Unstructured PDE Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.2172/3374153",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/3374153",
+      "concepts": [
+        "Computer science",
+        "Reduction (mathematics)",
+        "Scalability",
+        "Algorithm",
+        "Data mining",
+        "Key (lock)",
+        "Data reduction",
+        "Scale (ratio)"
+      ],
+      "abstract": "The present report summarizes activities performed over the 3-year (plus one year of NCE) duration of the award DE-SC0022283, “Scalable Data Reduction Techniques for Extreme-Scale Unstructured PDE Simulations,” funded by the DOE Office of Advanced Scientific Computing Research (ASCR).",
+      "authors": [
+        "Alireza Doostan"
+      ]
+    },
+    {
+      "title": "Learning gradient flow: Using equation discovery to accelerate engineering optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-05-30",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119099",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.13513",
+      "concepts": [
+        "Leverage (statistics)",
+        "Mathematical optimization",
+        "Balanced flow",
+        "Surrogate model",
+        "Gradient method",
+        "Optimization problem",
+        "Convergence (economics)",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Grant Norman",
+        "Conor Rowan",
+        "Kurt Maute",
+        "Alireza Doostan"
+      ]
+    },
+    {
+      "title": "Integration of local and global surrogates for failure probability estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-17",
+      "doi": "https://doi.org/10.48550/arxiv.2603.17211",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.17211",
+      "concepts": [
+        "Convergence (economics)",
+        "Reliability (semiconductor)",
+        "Computer science",
+        "Monte Carlo method",
+        "Importance sampling",
+        "Limit (mathematics)",
+        "Domain (mathematical analysis)",
+        "Mathematical optimization"
+      ],
+      "abstract": "This paper presents the development of an algorithm, termed the Global-Local Hybrid Surrogate (GLHS), designed to efficiently compute the probability of rare failure events in complex systems. The primary goal is to enhance the accuracy of reliability analysis while minimizing computational cost, particularly for high-dimensional problems where traditional methods, such as Monte Carlo simulations, become prohibitively expensive. The proposed GLHS builds upon the foundational work of Li et al., by integrating an adaptive strategy based on the General Domain Adaptive Strategy (Adcock et al.). The algorithm aims to approximate the failure domain of a given system, defined as the region in the input domain where the system transitions from safe to failure modes, described by a limit state surface. This failure domain is not explicitly known and must be learned iteratively during the analysis. The method employs a buffer zone, defined as the region surrounding the limit state surface. Within this buffer zone, Christoffel Adaptive Sampling is utilized to select new samples for constructing localized surrogate models, which are designed to refine the approximation in regions critical t...",
+      "authors": [
+        "Audrey Gaymann",
+        "Juan M. Cardenas",
+        "Sung  Min Jo",
+        "Marco Panesi",
+        "Alireza Doostan"
+      ]
+    }
+  ]
+}

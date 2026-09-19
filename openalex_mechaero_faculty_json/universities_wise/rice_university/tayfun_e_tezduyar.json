@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Tayfun E. Tezduyar",
+  "full_name": "Tayfun E. Tezduyar",
+  "department": "Department of Mechanical Engineering",
+  "university": "Rice University",
+  "author_id": "A5040474854",
+  "works_count": 589,
+  "cited_by_count": 30778,
+  "h_index": 99,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 281
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 202
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 105
+    },
+    {
+      "topic": "Advanced Numerical Analysis Techniques",
+      "count": 95
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 61
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stabilized Finite Element Formulations for Incompressible Flow Computations",
+      "publication_year": 1991,
+      "publication_date": "1991-01-01",
+      "doi": "https://doi.org/10.1016/s0065-2156(08)70153-4",
+      "venue": "Advances in applied mechanics",
+      "type": "book-chapter",
+      "cited_by_count": 913,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Galerkin method",
+        "Finite element method",
+        "Piecewise",
+        "Petrov–Galerkin method",
+        "Incompressible flow",
+        "Mathematical analysis",
+        "Compressibility"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tayfun E. Tezduyar"
+      ]
+    },
+    {
+      "title": "Incompressible flow computations with stabilized bilinear and linear equal-order-interpolation velocity-pressure elements",
+      "publication_year": 1992,
+      "publication_date": "1992-03-01",
+      "doi": "https://doi.org/10.1016/0045-7825(92)90141-6",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 868,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Bilinear interpolation",
+        "Quadrilateral",
+        "Reynolds number",
+        "Galerkin method",
+        "Interpolation (computer graphics)",
+        "Finite element method",
+        "Linear interpolation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tayfun E. Tezduyar",
+        "Sanjay Mittal",
+        "S. E. Ray",
+        "R. Shih"
+      ]
+    },
+    {
+      "title": "A new strategy for finite element computations involving moving boundaries and interfaces—The deforming-spatial-domain/space-time procedure: I. The concept and the preliminary numerical tests",
+      "publication_year": 1992,
+      "publication_date": "1992-02-01",
+      "doi": "https://doi.org/10.1016/0045-7825(92)90059-s",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 840,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary (topology)",
+        "Finite element method",
+        "Mathematics",
+        "Mathematical analysis",
+        "Displacement (psychology)",
+        "Computation",
+        "Interpolation (computer graphics)",
+        "Domain (mathematical analysis)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tayfun E. Tezduyar",
+        "Marek Behr",
+        "J. Liou"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Dirichlet-boundary stabilization in space–time computational analysis: Derivation in 1D elastodynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-06-13",
+      "doi": "https://doi.org/10.1142/s0218202526500491",
+      "venue": "Mathematical Models and Methods in Applied Sciences",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discretization",
+        "Mathematics",
+        "Dirichlet distribution",
+        "Focus (optics)",
+        "Applied mathematics",
+        "Polynomial",
+        "Current (fluid)",
+        "Mathematical analysis"
+      ],
+      "abstract": "In the space–time (ST) computational analysis, the discretization methods, such as those with finite elements, have appeared in a number of variations over the past years. Most of the current methods employ discontinuous functions in time. The motivation for that is to avoid a cost associated with fully 4D computations. Consequently, the increase in the number of unknowns in time remains under control despite using ST elements. Such methods have been applied over the past decades to a very large number of fluid dynamics and advection–diffusion problems, which are governed by equations with first-order time derivatives, and to a far lesser extent to elastodynamics and other solid mechanics problems, which are governed by equations with second-order time derivatives. In both contexts, especially when the functions are continuous in space, the ST methods are often formulated in the framework of stabilized methods, such as the Streamline-Upwind/Petrov-Galerkin, Galerkin/Least-Squares, Pressure-Stabilizing/Petrov-Galerkin, and variational multiscale methods. These are sometimes supplemented with discontinuity-capturing techniques. With the widespread adoption of isogeometric analysis...",
+      "authors": [
+        "Yasutoshi Taniguchi",
+        "Kenji Takizawa",
+        "Takahito Kashiwabara",
+        "Tayfun E. Tezduyar"
+      ]
+    },
+    {
+      "title": "Space–time isogeometric analysis of the aortic-valve to aorta flow with high-resolution boundary-layer representation",
+      "publication_year": 2026,
+      "publication_date": "2026-05-21",
+      "doi": "https://doi.org/10.1007/s00466-026-02788-5",
+      "venue": "Computational Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00466-026-02788-5.pdf",
+      "concepts": [
+        "Isogeometric analysis",
+        "Topology (electrical circuits)",
+        "Flow (mathematics)",
+        "Mesh generation",
+        "Vortex",
+        "Polygon mesh",
+        "Curvature",
+        "Computer science"
+      ],
+      "abstract": "Challenges faced in computational analysis of aortic-valve to aorta flow include (i) contact between the valve leaflets, which changes the flow-domain topology, (ii) high-resolution boundary-layer representation even with the topology changes, (iii) thin leaflets that generate thin shear layers and associated vortex structures, and (iv) flow driven primarily by pressure differences. In addressing these challenges with the Space–Time Computational Flow Analysis (STCFA), we use the “ST-SI-TC-IGA.” The core component of the ST-SI-TC-IGA is the ST Variational Multiscale (ST-VMS) method, and the other key components are the ST Slip Interface (ST-SI) and ST Topology Change (ST-TC) methods and the ST Isogeometric Analysis (ST-IGA). The Constrained-Flow-Profile Traction is also a part of the STCFA here, enabling us to use traction boundary condition at the inlet. Furthermore, for more cost-effective mesh refinement near the solid surfaces of the complex geometries involved, we are using a moving T-splines mesh with the product-form T-splines basis functions. This is enabled by the Complex-Geometry T-Splines Mesh Generation method. The mesh motion is enabled by a combination of the Fiber...",
+      "authors": [
+        "Takuya Terahara",
+        "Hiroka Miura",
+        "Kenji Takizawa",
+        "Tayfun E. Tezduyar"
+      ]
+    },
+    {
+      "title": "T-splines mesh generation for complex geometries: Multipatch-NURBS to product-form-T-splines conversion",
+      "publication_year": 2025,
+      "publication_date": "2025-09-10",
+      "doi": "https://doi.org/10.1007/s00466-025-02678-2",
+      "venue": "Computational Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00466-025-02678-2.pdf",
+      "concepts": [
+        "T-vertices",
+        "Mesh generation",
+        "Adaptive mesh refinement",
+        "Computer science",
+        "Laplacian smoothing",
+        "Mesh networking",
+        "Isogeometric analysis",
+        "Robustness (evolution)"
+      ],
+      "abstract": "Abstract We present a T-splines mesh generation method for complex geometries, enabling good local mesh refinement in isogeometric analysis (IGA), with the continuity and smoothness desired. Good local mesh refinement enhances the IGA computational efficiency by having a higher density of control points only in places and directions where we need higher refinement. It also enhances computational robustness by evading high-aspect-ratio elements associated with directional refinement of structured meshes. The method is based on converting a multipatch NURBS mesh created by a complex-geometry mesh generation method to a product-form-T-splines mesh, with the desired continuity and smoothness across the patch boundaries. Even just the NURBS-based complex-geometry IGA mesh generation has been a challenge, which has largely been addressed with the Complex-Geometry IGA Mesh Generation (CGIMG) and NURBS Surface-to-Volume Guided Mesh Generation (NSVGMG) methods. The method we are presenting here, Complex-Geometry T-Splines Mesh Generation (CGTSMG), is significantly advancing the state-of-the-art complex-geometry mesh generation from where the CGIMG and NSVGMG brought it. The CGTSMG can, o...",
+      "authors": [
+        "Takuya Terahara",
+        "Kenji Takizawa",
+        "Shohei Mikawa",
+        "Tayfun E. Tezduyar"
+      ]
+    },
+    {
+      "title": "T-splines mesh generation for complex geometries: Spacecraft parachute aerodynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-08-29",
+      "doi": "https://doi.org/10.1007/s00466-025-02679-1",
+      "venue": "Computational Mechanics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00466-025-02679-1.pdf",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Spacecraft",
+        "Computational Science and Engineering",
+        "Mesh generation",
+        "Computer science",
+        "Structural engineering",
+        "Engineering"
+      ],
+      "abstract": "Abstract We present, as a 3D application of recently introduced Complex-Geometry T-Splines Mesh Generation (CGTSMG) method, Space–Time Isogeometric Analysis (ST-IGA) of spacecraft parachute aerodynamics. The computation is for the final design of the Orion spacecraft landing parachute. The parachute canopy has hundreds of gaps and slits, which are modeled, and a wider gap and 16 “windows,” which are resolved. We first generate, manually next to the canopy surfaces and with the Complex-Geometry IGA Mesh Generation elsewhere, a quadratic B-splines mesh made of 670 patches. We then convert that, with the CGTSMG, to a T-splines mesh with $$C^{1}$$ continuity across what used to be the patch boundaries, except around the extraordinary points. After that, we improve the quality by mesh relaxation with the Fiber-Reinforced Hyperelasticity Mesh Update Method. The computation is performed with the ST-IGA and ST Variational Multiscale method. The success of the mesh generation and flow computation process demonstrates the level of sophistication the ST-IGA has reached in complex-geometry flow analysis.",
+      "authors": [
+        "Takuya Terahara",
+        "Kenji Takizawa",
+        "Tayfun E. Tezduyar",
+        "Reha Avsar"
+      ]
+    },
+    {
+      "title": "High-resolution Space–Time Isogeometric Analysis of NREL 5MW wind turbine long-wake flow",
+      "publication_year": 2025,
+      "publication_date": "2025-04-30",
+      "doi": "https://doi.org/10.1007/s00466-025-02630-4",
+      "venue": "Computational Mechanics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s00466-025-02630-4",
+      "concepts": [
+        "Isogeometric analysis",
+        "Wake",
+        "Turbine",
+        "Computational Science and Engineering",
+        "Flow (mathematics)",
+        "Computer science",
+        "Physics",
+        "Aerospace engineering"
+      ],
+      "abstract": "Abstract We present high-resolution Space–Time Isogeometric Analysis (ST-IGA) of NREL 5MW wind turbine long-wake flow, computed up to 10 rotor diameters downstream of the turbine. The ST Variational Multiscale (ST-VMS) method serves as the core method in the computation. The time-periodic velocity data at the inflow boundary of the wake domain comes from a wind turbine rotor and tower aerodynamics computation conducted earlier with the ST-IGA and ST-VMS. The wake flow is computed with the Carrier-Domain Method (CDM), introduced for high-resolution, high-efficiency computation of time-periodic long-wake flows. In the CDM, a short segment of the wake domain, the carrier domain (CD), moves in the free-stream direction, from the beginning of the long wake domain to the end. The data at the moving inflow plane comes from the time-periodic data computed at an earlier position of the CD. With the high mesh resolution that can easily be afforded over the short domain segment, the wake flow patterns can be carried, with superior accuracy, far downstream. The CDM has two versions, one where the CD moves in a continuous fashion (“CDM-C”), and one where it moves in a discrete fashion (“CDM-...",
+      "authors": [
+        "Yang Liu",
+        "Kenji Takizawa",
+        "Tayfun E. Tezduyar"
+      ]
+    }
+  ]
+}

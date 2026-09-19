@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Guillermo Paniagua",
+  "full_name": "Guillermo Paniagua",
+  "department": "School of Mechanical Engineering / Aeronautics & Astronautics",
+  "university": "Purdue University",
+  "author_id": "A5038253130",
+  "works_count": 380,
+  "cited_by_count": 4196,
+  "h_index": 32,
+  "top_topics": [
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 161
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 103
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 101
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 95
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 75
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Thermodynamic analysis of a gas turbine engine with a rotating detonation combustor",
+      "publication_year": 2017,
+      "publication_date": "2017-03-18",
+      "doi": "https://doi.org/10.1016/j.apenergy.2017.03.045",
+      "venue": "Applied Energy",
+      "type": "article",
+      "cited_by_count": 259,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Detonation",
+        "Turbomachinery",
+        "Mechanical engineering",
+        "Combustion chamber",
+        "Thermodynamic cycle",
+        "Gas compressor",
+        "Turbine"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jorge Sousa",
+        "Guillermo Paniagua",
+        "Elena Collado Morata"
+      ]
+    },
+    {
+      "title": "Design and analysis of pioneering high supersonic axial turbines",
+      "publication_year": 2014,
+      "publication_date": "2014-08-27",
+      "doi": "https://doi.org/10.1016/j.ijmecsci.2014.08.014",
+      "venue": "International Journal of Mechanical Sciences",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0020740314002793/pdf",
+      "concepts": [
+        "Supersonic speed",
+        "Aerodynamics",
+        "Turbine",
+        "Mach number",
+        "Transonic",
+        "Aerospace engineering",
+        "Supersonic wind tunnel",
+        "Mechanical engineering"
+      ],
+      "abstract": "The trend towards ultra compact thermal power generation, is constrained by the unavailability of fluid-machinery adequate for supersonic flow conditions. Conventional turbine designs exhibit unacceptable performances related to large aerodynamic losses and a narrow operation range. This paper provides for the first time in the open literature the design procedure, and subsequent analysis of the turbine performance of a turbine adequate for supersonic axial pulsating flows, as those encountered in innovative combustors. The design approach considers the most adverse condition, a steady inlet axial Mach number equal to 3.5. The possible turbine families were classified by the velocity triangles and discussed. A fundamental issue in supersonic passages is to ensure the normal shock at the start of the engine is swallowed through the turbine passages, namely the turbine passage is started. To ensure self-starting capability the turning is restricted to lower values than in the conventional subsonic turbines. The design procedure was based on the method of characteristics, converting the inlet uniform flow into a vortex flow field, such that the adequate deflection is inflicted to t...",
+      "authors": [
+        "Guillermo Paniagua",
+        "Maria Chiara Iorio",
+        "Nuno Vinha",
+        "Jorge Sousa"
+      ]
+    },
+    {
+      "title": "Unsteady Performance of Rotating Detonation Engines with Different Exhaust Nozzles",
+      "publication_year": 2016,
+      "publication_date": "2016-11-14",
+      "doi": "https://doi.org/10.2514/1.b36164",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Nozzle",
+        "Mechanics",
+        "Mach number",
+        "Conical surface",
+        "Materials science",
+        "Detonation",
+        "Inlet"
+      ],
+      "abstract": "In this paper, OpenFoam, an open source unsteady Reynolds-averaged Navier–Stokes software was carefully examined to analyze rotating detonation combustors. This tool was subsequently used to quantify the effect of the outlet conditions on five different exhaust nozzle geometries. Both detonation and deflagration of the hydrogen–air mixture were taken into account in the source terms of the species transport equation. The premixed –air mixture was injected at three different total pressures, ranging from 0.4 to 0.8 MPa. First, the rotating detonation combustor was described, and then five different nozzles were investigated: straight duct, conical, Bezier outer wall, Bezier inner wall, and two Bezier surfaces. All the nozzles were compared regarding their outlet total temperature, pressure gain, exit Mach number, and outlet flow angle. The use of a straight duct nozzle generated a noticeable drop in pressure gain of about 27% compared to the baseline combustor. The conical nozzle expanded the combustor outlet flow from sonic conditions into Mach 1.8 to 2.3. The Bezier outer wall underperformed compared to the conical nozzle at low combustor inlet pressures, while the situation wa...",
+      "authors": [
+        "James Braun",
+        "Bayindir H. Saracoglu",
+        "Guillermo Paniagua"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Thermal performance of a supersonic high temperature optical probe nacelle",
+      "publication_year": 2026,
+      "publication_date": "2026-03-13",
+      "doi": "https://doi.org/10.1016/j.applthermaleng.2026.130520",
+      "venue": "Applied Thermal Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.applthermaleng.2026.130520",
+      "concepts": [
+        "Nacelle",
+        "Supersonic speed",
+        "Thermal",
+        "Materials science",
+        "Thermography",
+        "Temperature measurement",
+        "Optics",
+        "Sonic boom"
+      ],
+      "abstract": "This study presents a multi-step approach to design and evaluate the cooling architecture of an actively cooled probe nacelle suitable for high-temperature supersonic flows. First, a 1D heat transfer model was used to determine the coolant pressure required for thermal protection of the nacelle at supersonic conditions. It incorporates conductive-convective heat transfer, effusion cooling, leading-edge effects, and high-speed boundary layer effects. A parametric analysis identified a minimum coolant pressure of 2.4 bar to satisfy the temperature limits of the nacelle at the most severe conditions of M 1 = 6 , T 01 = 1700 K . 3D RANS simulations were utilized to assess the accuracy of the 1D model giving average deviations in adiabatic cooling effectiveness and heat transfer coefficient below 6% and 15% respectively. Finally, the cooling performance of the nacelle was assessed in a transonic open jet. Cooling effectiveness was measured with high-resolution infrared thermography, and heat flux was measured with high-frequency Atomic Layer Thermopiles (ALTP). Uncertainties in cooling effectiveness and heat transfer coefficient were evaluated through Taylor propagation and Monte Car...",
+      "authors": [
+        "Ignacio Lasala",
+        "Aubrey J. McKelvy",
+        "Etienne Choquet",
+        "Thierry Andre",
+        "Guillermo Paniagua"
+      ]
+    },
+    {
+      "title": "Bridging the gap between high-speed linear cascades and rotating turbine facilities",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1016/j.measurement.2026.121017",
+      "venue": "Measurement",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transonic",
+        "Turbomachinery",
+        "Cascade",
+        "Turbine",
+        "Mach number",
+        "Aerodynamics",
+        "Airfoil",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andrea Ruan",
+        "Hunter D. Nowak",
+        "Lukas Benjamin Inhestern",
+        "James Taylor",
+        "John P. Clark",
+        "Guillermo Paniagua"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulations of a Turbulent Boundary Layer Separation Over a Bump With Strong Pressure Gradients and Free-Stream Turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-02-28",
+      "doi": "https://doi.org/10.1115/1.4071255",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Boundary layer",
+        "Turbulence",
+        "Flow separation",
+        "Reynolds number",
+        "Turbulence kinetic energy",
+        "Physics",
+        "Vortex"
+      ],
+      "abstract": "Abstract This study examines the flow over a wall-bounded bump geometry using wall-modeled large-eddy simulations (WMLES) in the limit of very thin wall resolution. The geometry and flow conditions are based on an experimental investigation of a canonical geometry designed to replicate diffusion rates similar to those in low-pressure turbine blades. The high subsonic Mach and low Reynolds number upstream of the bump generate strong pressure gradients, both favorable and adverse. As the incoming turbulent boundary layer encounters the bump surface, it undergoes relaminarization, shock–wave interaction and subsequent separation. An inadequate grid resolution near the wall is found to suppress the formation of streamwise vortices during relaminarization, resulting in a different mixing process within the separated boundary layer and a longer separation bubble. To prevent this, extending the spatial region of high refinement to at least 3 δ99 of the relaminarization region is recommended. The study also investigates the impact of freestream isotropic turbulence on the pressure distribution and separation, revealing that even a small variation in inflow turbulence intensity is suffic...",
+      "authors": [
+        "Himpu Marbona",
+        "Daniel Rodríguez",
+        "Alejandro Martínez-Cava",
+        "Eusebio Valero",
+        "Ray Vandenhoeck",
+        "Kunal Puri",
+        "Guillermo Paniagua"
+      ]
+    },
+    {
+      "title": "Numerical modeling of a deflagrative-based pressure gain combustor integrated with an axial turbine",
+      "publication_year": 2026,
+      "publication_date": "2026-02-05",
+      "doi": "https://doi.org/10.1016/j.applthermaleng.2026.130128",
+      "venue": "Applied Thermal Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.applthermaleng.2026.130128",
+      "concepts": [
+        "Combustor",
+        "Turbine",
+        "Combustion",
+        "Mechanical engineering",
+        "Transient (computer programming)",
+        "Combustion chamber",
+        "Thermal efficiency",
+        "Engineering"
+      ],
+      "abstract": "Pressure Gain Combustion (PGC) is a promising technology to significantly enhance the thermal efficiency of gas turbines by increasing stagnation pressure across the combustor. While most PGC research has focused on detonative-based systems such as Rotating Detonation Engines (RDEs), this study investigates an alternative deflagrative-based approach inspired by pistonless internal combustion engines. A comprehensive numerical analysis is presented, utilizing a dedicated simulation tool developed within the GT-Power environment to model the unsteady thermodynamic behavior of a deflagrative-based hydrogen-fueled PGC prototype. The combustor model was validated against high-frequency experimental data and then scaled to represent a real-engine application. To complete the system, a multi-stage axial turbine was specifically designed to accommodate the strongly pulsating outflow from the combustor. Despite significant fluctuations, the turbine maintained an average efficiency of 90% over the pulsation cycle. The combustor and turbine models were integrated into a full-cycle simulation framework, enabling the assessment of the complete system performance under transient operating con...",
+      "authors": [
+        "Claretta Tempesti",
+        "Sergio Grasa",
+        "Luca Romani",
+        "F. Ciccateri",
+        "Giovanni Ferrara",
+        "Guillermo Paniagua"
+      ]
+    },
+    {
+      "title": "Statorless mixed flow turbine for transonic pulsating inflow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-21",
+      "doi": "https://doi.org/10.1016/j.enconman.2026.121079",
+      "venue": "Energy Conversion and Management",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.enconman.2026.121079",
+      "concepts": [
+        "Inflow",
+        "Transonic",
+        "Turbine",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Environmental science",
+        "Marine engineering",
+        "Physics"
+      ],
+      "abstract": "Effective harvesting of power from high speed highly transient inflows such as the outflow of rotating detonation combustors (RDCs) is key to achieving their promised cycle efficiency step jump. To increase power density and efficiency simultaneously, a concept that can directly ingest transonic outflow, addressing the choking is needed, i.e. without additional transition elements. A new statorless design was assessed using a comprehensive approach to quantify all contributions to loss generation in transient flows, locally and globally. The turbine rotor was designed under steady flow conditions with a genetic algorithm. The comparison of power and loss generation between steady and unsteady flow results shows that a design methodology under steady-state conditions is suitable to characterize the performance of different designs. Three design families were further assessed under highly transient transonic conditions including traveling shock waves with a relative total pressure amplitude of 149.6 % around the mean value and inflow angle variations from −26.5 deg to + 51.8 deg. The oblique shock impinging on the pressure side (PS) of the turbine augments the shaft power extracti...",
+      "authors": [
+        "Lukas Benjamin Inhestern",
+        "Dieter Peitsch",
+        "Guillermo Paniagua"
+      ]
+    }
+  ]
+}

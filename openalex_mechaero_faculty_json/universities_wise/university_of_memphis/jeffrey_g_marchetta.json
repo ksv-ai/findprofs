@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Jeffrey G. Marchetta",
+  "full_name": "Jeffrey Marchetta",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Memphis",
+  "author_id": "A5081707044",
+  "works_count": 50,
+  "cited_by_count": 442,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Spacecraft and Cryogenic Technologies",
+      "count": 26
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 10
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 8
+    },
+    {
+      "topic": "Solar and Space Plasma Dynamics",
+      "count": 7
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Realistic Near-Term Propellant Depots: Implementation of a Critical Spacefaring Capability",
+      "publication_year": 2009,
+      "publication_date": "2009-06-14",
+      "doi": "https://doi.org/10.2514/6.2009-6756",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 32,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propellant",
+        "Testbed",
+        "Systems engineering",
+        "Modular design",
+        "Aerospace engineering",
+        "Spacecraft",
+        "Aeronautics",
+        "Propulsion"
+      ],
+      "abstract": "Orbital cryogenic propellant depots and the ability to refuel spacecraft in orbit are critical capabilities for the expansion of human life throughout the Solar System. While depots have long been recognized as an important component of large-scale manned spaceflight efforts, questions about their technology readiness have so far prevented their implementation. Technological advancements in settled cryogenic handling, passive thermal control systems, and autonomous rendezvous and docking techniques make near-term implementation of cryogenic propellant depots significantly more realistic. Current work on flight-demonstration tools like ULA’s CRYOTE testbed, and Masten Space Systems’s XA-1.0 suborbital RLV provide methods for affordably retiring the remaining technical risks for cryogenic depots. Recent depot design concepts, built on high-TRL technologies and existing flight vehicle hardware, can enable easier implementation of first-generation propellant depots without requiring extensive development programs. Some concepts proposed by industry include disposable “pre-depots”, single-fluid simple depots, self-deployable dual-fluid single-launch depots using existing launchers an...",
+      "authors": [
+        "Jonathan Goff",
+        "Frank Zegler",
+        "Dallas Bienhoff",
+        "Jeffrey Marchetta",
+        "Bernard Kutter",
+        "Frank O. Chandler"
+      ]
+    },
+    {
+      "title": "Fluid capture by a permanent ring magnet in reduced gravity",
+      "publication_year": 1999,
+      "publication_date": "1999-01-11",
+      "doi": "https://doi.org/10.2514/6.1999-845",
+      "venue": "37th Aerospace Sciences Meeting and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 22,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Magnet",
+        "Spacecraft",
+        "Process (computing)",
+        "Computer science",
+        "Magnetic field",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Simulation"
+      ],
+      "abstract": "Recent advances in magnet technology suggest that magnetic positive positioning of liquids may become a viable technology for future spacecraft systems. Development of a new computational tool for simulating this process is presented as are results from experimental and computational studies of the process. Comparison of simulation predictions to known solutions for simple configurations and to experiment data, support the conclusion that the computational tool provides a good model of magnetic positive positioning. Sequences oFpredicted flow fields that extend the parameter space of the experimental investigation are presented and conclusions are drawn about the expeiiments, the simulation, and magnetic positive positioning.",
+      "authors": [
+        "Jeffrey Marchetta",
+        "John Hochstein"
+      ]
+    },
+    {
+      "title": "Modeling and prediction of magnetic storage and reorientation of LOX in reduced gravity",
+      "publication_year": 2002,
+      "publication_date": "2002-01-14",
+      "doi": "https://doi.org/10.2514/6.2002-1005",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 16,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Magnetic storage",
+        "Environmental science",
+        "Computer science",
+        "Materials science",
+        "Operating system"
+      ],
+      "abstract": "A computational simulation is used to model magnetically induced cryogenic propellant flows in reduced gravity. Simulations of magnetic positive positioning and storage of LOX are presented and evaluated. The influence of the magnetic field and its feasibility for use in each respective application is explored. The magnetic Bond number is utilized as predictive correlating parameter for investigating these processes. Evidence is presented to support the hypothesis that magnetic fields may be an attractive option for positive positioning of cryogenic propellants in future spacecraft systems and the hypothesis that the magnetic Bond number is an effective dimensionless parameter for modeling and",
+      "authors": [
+        "Jeffrey Marchetta",
+        "John Hochstein",
+        "Daniel Sauter",
+        "Benjamin Simmons"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Simulations of large-scale zero boiloff, densification, and solidification of hydrogen",
+      "publication_year": 2025,
+      "publication_date": "2025-01-27",
+      "doi": "https://doi.org/10.1016/j.rineng.2025.104182",
+      "venue": "Results in Engineering",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.rineng.2025.104182",
+      "concepts": [
+        "Materials science",
+        "Scale (ratio)",
+        "Zero (linguistics)",
+        "Hydrogen",
+        "Mechanics",
+        "Thermodynamics",
+        "Physics",
+        "Linguistics"
+      ],
+      "abstract": "An Integrated Refrigeration and Storage (IRAS) experimental system called the Ground Operations and Demonstration Unit for Liquid Hydrogen (GODU-LH2) demonstrated the ability store cryogens in a zero boiloff (ZBO) process, and to densify liquid hydrogen by reducing the temperature and pressure down to the triple point resulting in solidification. The incompressible Navier-Stokes was utilized to simulate ZBO, densification, and solidification of liquid hydrogen (LH2) in the IRAS tank. The simulations were performed using a commercially available Computational Fluid Dynamics (CFD) pressure-based mass and momentum flow model and an enthalpy-porosity energy model. Results demonstrated the simulation's ability to predict time-dependent flow and temperature fields and solid-liquid phase locations for hydrogen during ZBO, densification, and solidification. The simulations showed good agreement with experimental data, with errors within acceptable ranges for temperature and pressure predictions, provided detailed insights into natural convection and solid-liquid phase change dynamics. These findings are critical for the design of future cryogenic fluid management systems.",
+      "authors": [
+        "Colin P. Mahony",
+        "Jeffrey Marchetta",
+        "Adam Swanger"
+      ]
+    },
+    {
+      "title": "Energy of Fluid (EOF) Simulation of Large-Scale Densification and Solidification of Hydrogen",
+      "publication_year": 2024,
+      "publication_date": "2024-05-01",
+      "doi": "https://doi.org/10.1088/1757-899x/1301/1/012156",
+      "venue": "IOP Conference Series Materials Science and Engineering",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1757-899x/1301/1/012156",
+      "concepts": [
+        "Refrigeration",
+        "Computation",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Mechanical engineering",
+        "Liquid hydrogen",
+        "Software",
+        "Volume (thermodynamics)"
+      ],
+      "abstract": "Abstract The current research develops a finite volume-based Computation Fluid Dynamic (CFD) model utilizing an Energy of Fluid (EOF) approach to generate a simulation of the densification of liquid hydrogen (LH2) in the Integrated Refrigeration and Storage (IRAS) experimental tank for the Ground Operations Demonstration Unit for Liquid Hydrogen Project (GODU-LH2) at the Kennedy Space Center (KSC). The computational code will integrate a commercial software pressure-based model with User Defined Functions (UDF) generated and added to the model. The modified model will solve the energy equation in terms of internal energy and provide temperature and pressure calculations for a given tank geometry. This method will decrease computational time when compared to the built-in commercially available Enthalpy solvers. Currently the research focused on utilizing User Defined Scalars (UDS) compared to the enthalpy model and a lumped node analysis to show the written UDS is as accurate as the built-in solvers, and the models will be verified using known solutions for solidification and validated with the experimental results from the Cryogenics Test Laboratory (CTL) at KSC for the IRAS den...",
+      "authors": [
+        "Constance Mahony",
+        "Jeffrey Marchetta",
+        "Adam Swanger"
+      ]
+    },
+    {
+      "title": "Back to the Meat Slicer: A Vertically Integrated, Thinly Cut Salami Framework for ABET Student Outcome Assessment",
+      "publication_year": 2025,
+      "publication_date": "2025-11-16",
+      "doi": "https://doi.org/10.1115/imece2025-167080",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Accreditation",
+        "Outcome-based education",
+        "Outcome (game theory)",
+        "Curriculum",
+        "Meaning (existential)",
+        "Craft",
+        "Medical education",
+        "Process management"
+      ],
+      "abstract": "Abstract Evolution of ABET Accreditation Criteria in recent decades has included a change from specification of 11 Program Outcomes (POs) to specification of 7 Student Outcome (SOs) that are more complex compound statements somewhat akin to a whole salami that needs to be cut into smaller pieces before it can be used. Although ABET provided a map to facilitate the PO-to-SO transition, the words used for that mapping required programs to interpret their meaning and intent to craft continuous improvement programs that drive and document student attainment of the SOs. ABET workshops later recommended adoption of Program Indicators (PIs) at multiple levels of the curriculum to drive and document student attainment of the SOs (subdividing the salami). Presented herein is a framework in which PIs are further “sliced” into more specific and measurable Elements (Es). Student level of attainment of these Es can be measured to assess and document student attainment of PIs, and hence SOs. Specific examples of implementation of this framework, including detailed explanations of the calculations used to determine student level of attainment of the Es, the PIs, and SOs are presented. Examples...",
+      "authors": [
+        "Jeffrey Marchetta",
+        "John Hochstein"
+      ]
+    },
+    {
+      "title": "Comparison of Aerosol Emissions during Specific Speech Tasks",
+      "publication_year": 2023,
+      "publication_date": "2023-07-07",
+      "doi": "https://doi.org/10.1016/j.jvoice.2023.05.004",
+      "venue": "Journal of Voice",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vowel",
+        "Particulates",
+        "Audiology",
+        "Aerosol",
+        "Acoustics",
+        "Speech recognition",
+        "Environmental science",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Miriam van Mersbergen",
+        "Jeffrey Marchetta",
+        "Daniel Foti",
+        "Eric Pillow",
+        "Apratim Dasgupta",
+        "Chandler Cain",
+        "Stephen Morvant"
+      ]
+    },
+    {
+      "title": "Simulation and Optimization of Aerogel Packaging Solutions for Cold-Chain Biologistics",
+      "publication_year": 2023,
+      "publication_date": "2023-01-04",
+      "doi": "https://doi.org/10.1007/s41783-022-00149-0",
+      "venue": "Journal of Packaging Technology and Research",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerogel",
+        "Materials science",
+        "Process engineering",
+        "Thermal insulation",
+        "Thermal",
+        "Expanded polystyrene",
+        "Polystyrene",
+        "Composite material"
+      ],
+      "abstract": "",
+      "authors": [
+        "Elijah Gasmen",
+        "Jeffrey Marchetta",
+        "Firouzeh Sabri"
+      ]
+    }
+  ]
+}

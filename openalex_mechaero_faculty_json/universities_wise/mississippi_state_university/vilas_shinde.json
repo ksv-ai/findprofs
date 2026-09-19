@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Vilas Shinde",
+  "full_name": "Vilas Shinde",
+  "department": "Department of Aerospace Engineering",
+  "university": "Mississippi State University",
+  "author_id": "A5037505084",
+  "works_count": 39,
+  "cited_by_count": 455,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 30
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 20
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 17
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 10
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Transitional shock wave boundary layer interaction over a flexible panel",
+      "publication_year": 2019,
+      "publication_date": "2019-07-19",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2019.07.007",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 64,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2019.07.007",
+      "concepts": [
+        "Reynolds number",
+        "Boundary layer",
+        "Dynamic mode decomposition",
+        "Laminar flow",
+        "Flow separation",
+        "Mechanics",
+        "Adverse pressure gradient",
+        "Oblique shock"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vilas Shinde",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde",
+        "Caleb J. Barnes",
+        "Miguel R. Visbal"
+      ]
+    },
+    {
+      "title": "Dynamic interaction between shock wave turbulent boundary layer and flexible panel",
+      "publication_year": 2022,
+      "publication_date": "2022-07-16",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2022.103660",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 58,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2022.103660",
+      "concepts": [
+        "Inviscid flow",
+        "Boundary layer",
+        "Turbulence",
+        "Fluid–structure interaction",
+        "Reynolds number",
+        "Mechanics",
+        "Dynamic mode decomposition",
+        "Sandwich panel"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vilas Shinde",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Numerical simulation of the fluid–structure interaction in a tube array under cross flow at moderate and high Reynolds number",
+      "publication_year": 2014,
+      "publication_date": "2014-03-22",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2014.02.013",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 44,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-02860426/document",
+      "concepts": [
+        "Reynolds number",
+        "Mechanics",
+        "Vortex-induced vibration",
+        "Turbulence",
+        "Cylinder",
+        "Mathematics",
+        "Displacement (psychology)",
+        "Instability"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vilas Shinde",
+        "Thibaud Marcel",
+        "Yannick Hoarau",
+        "Thibaut Deloze",
+        "G. Harran",
+        "Franck Baj",
+        "Jérome Cardolaccia",
+        "J.P. Magnaud",
+        "Élisabeth Longatte",
+        "M. Braza"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Use of Machine Learning and Sparse Data Estimation Technique to Reconstruct Flow Around a NACA0012 Airfoil",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4799",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial intelligence",
+        "Computer science",
+        "Airfoil",
+        "Pattern recognition (psychology)",
+        "Machine learning",
+        "Sparse approximation",
+        "Computer vision",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Capturing the flow when sensor data is limited is a common problem in controls. Reduction in dimensionality of the flow can help decrease the amount of computational power required to achieve this task, especially when instant feedback is needed. This study proposes the use of a Convolutional Neural Network (CNN) and sparse data estimation technique to retrieve the time coefficients of Proper Orthogonal Decomposition (POD) to reconstruct the flow around a 2D NACA0012 airfoil when pressure sensors are placed strictly on the surface of the airfoil. The corresponding flow has a Mach number of M∞ = 0.1 and a Reynolds number of Re = 200,000. To train the model, time coefficients obtained from the sparse data estimation technique with all sensors present (1351). The sensors are placed on the wall which is the airfoil, and we noticed here that those locations might not be the best ones to initially reconstruct the flow. However, the point of this study is to place the sensors over the airfoil to replicate real-life experiments. The results show good agreement with test data, reducing the available number of sensors down to 500, i.e., ≈ 63% fewer sensors. Below that, the ML model accura...",
+      "authors": [
+        "Onitiana Razafimino",
+        "Vilas Shinde"
+      ]
+    },
+    {
+      "title": "Turbulent shock-wave boundary layer interactions over compliant panels: Insights from one-way analyses",
+      "publication_year": 2026,
+      "publication_date": "2026-04-04",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2026.104564",
+      "concepts": [
+        "Boundary layer",
+        "Shock wave",
+        "Shock (circulatory)",
+        "Turbulence",
+        "Mechanics",
+        "Boundary (topology)",
+        "Aerospace engineering",
+        "Layer (electronics)"
+      ],
+      "abstract": "Panels encountering low-frequency loading due to proximal turbulent shock-wave boundary layer interactions (SWBLI) experience fluid structure interactions (FSI), with adverse and potentially catastrophic effects on high-speed vehicle performance. In certain parameter ranges, the feedback between fluid and structure is muted, and one-way analyses offer computational efficiency for rapid assessments of prescribed fluid load on the structural response (F→S) and vice versa, i.e., prescribed structural motion on fluid response (S→F). Both scenarios are examined here for a Mach 2 SWBLI over a 22.5o ramp, using Large-Eddy Simulations for the fluid and a finite-element model for the structure. Where possible, the literature on experimental observations and coupled simulations validate the appropriateness of the approach. In the F→S framework, the effects of precomputed turbulent surface pressures are examined on different panels; parameters varied include cavity pressure, boundary conditions (pinned/clamped), frequency alignment with structural modes, panel orientation, and location relative to the interaction. When placed near flow separation, panel responses exhibit distinct features ...",
+      "authors": [
+        "Anshul Suri",
+        "Vilas Shinde",
+        "Jack J. McNamara",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Panel Thermal Buckling and Snap-Through Under Mach 6 Turbulent Boundary Layer",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0189",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Hypersonic speed",
+        "Boundary layer",
+        "Mechanics",
+        "Materials science",
+        "Turbulence",
+        "Thermal",
+        "Boundary layer thickness"
+      ],
+      "abstract": "In extreme environments that are encountered in hypersonic flight, high-temperature differentials and pressure perturbations from the boundary layer greatly impact skin panel integrity. This paper investigates an extreme dynamic response, also known as snap-through, of a skin panel to Mach 6 turbulent boundary layer. A thin rectangular panel of aspect ratio (width/length) ��/�� = 0.53 and thickness ℎ/�� = 0.002 is considered. First, the panel is subjected to a range of critical thermal buckling loads Δ��/Δ������ , to assess thermal buckling under various thermal loads and its effect on the panel response. Second, the surface of the panel is then subjected to pressure fluctuations that are obtained from a precursor Large Eddy Simulation (LES) of a Mach 6 turbulent boundary layer at a high unit Reynolds number (���� �� = 73×106 1/��). The hypersonic pressure fluctuations are applied on the panel in a one-way coupling through the use of a well-validated fluid-thermal-structure interaction (FTSI) solver framework. The snap-through instability of the panel is examined for various pressure-fluctuation magnitudes, and material properties in terms of the mass ratio and flutter parameter...",
+      "authors": [
+        "Edward G. Kenyon",
+        "Vilas Shinde"
+      ]
+    },
+    {
+      "title": "Spacetime-spectral analysis of flowfields",
+      "publication_year": 2025,
+      "publication_date": "2025-12-23",
+      "doi": "https://doi.org/10.48550/arxiv.2512.20728",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2512.20728",
+      "concepts": [
+        "Spectrogram",
+        "Fourier transform",
+        "Time–frequency analysis",
+        "SIGNAL (programming language)",
+        "Algorithm",
+        "Spectral density estimation",
+        "Signal processing",
+        "Energy (signal processing)"
+      ],
+      "abstract": "The classical Fourier analysis of a time signal, in the discrete sense, provides the frequency content of signal under the assumption of periodicity. Although the original signal can be exactly recovered using an inverse transform, the time dependence of the spectrum remains inaccessible. There exist various time-frequency analysis techniques, such as the short time fast Fourier transform and wavelets, but those are fundamentally limited in achieving high resolution in both the time and frequency domains concurrently. For spatiotemporal flowfields, the frequency based modal decompositions generally provide spatial modes with a temporal counterpart that evolves at a constant frequency. However, an accurate time-local spectral contribution and its variation over time are highly desired to better understand the intermittent/extreme events, for instance, in turbulent flowfields. To this end, this paper presents a spectral mode decomposition that yields spectral-space and spectral-time modes, where the latter along with the associated spectral energies provide a spectrogram that is at the resolution of flowfields. The spectral modes get both the frequency and energy ranks. The numeri...",
+      "authors": [
+        "Vilas Shinde"
+      ]
+    },
+    {
+      "title": "Spacetime-spectral analysis of flowfields",
+      "publication_year": 2025,
+      "publication_date": "2025-12-23",
+      "doi": "http://arxiv.org/abs/2512.20728",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.20728",
+      "concepts": [
+        "Spectrogram",
+        "Fourier transform",
+        "Time–frequency analysis",
+        "SIGNAL (programming language)",
+        "Algorithm",
+        "Spectral density estimation",
+        "Signal processing",
+        "Energy (signal processing)"
+      ],
+      "abstract": "The classical Fourier analysis of a time signal, in the discrete sense, provides the frequency content of signal under the assumption of periodicity. Although the original signal can be exactly recovered using an inverse transform, the time dependence of the spectrum remains inaccessible. There exist various time-frequency analysis techniques, such as the short time fast Fourier transform and wavelets, but those are fundamentally limited in achieving high resolution in both the time and frequency domains concurrently. For spatiotemporal flowfields, the frequency based modal decompositions generally provide spatial modes with a temporal counterpart that evolves at a constant frequency. However, an accurate time-local spectral contribution and its variation over time are highly desired to better understand the intermittent/extreme events, for instance, in turbulent flowfields. To this end, this paper presents a spectral mode decomposition that yields spectral-space and spectral-time modes, where the latter along with the associated spectral energies provide a spectrogram that is at the resolution of flowfields. The spectral modes get both the frequency and energy ranks. The numeri...",
+      "authors": [
+        "Vilas Shinde"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Hessam Babaee",
+  "full_name": "Hessam Babaee",
+  "department": "Department of Mechanical Engineering and Materials Science",
+  "university": "University of Pittsburgh",
+  "author_id": "A5052438518",
+  "works_count": 106,
+  "cited_by_count": 1091,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 33
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 23
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 20
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 20
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A quantum-inspired approach to exploit turbulence structures",
+      "publication_year": 2022,
+      "publication_date": "2022-01-13",
+      "doi": "https://doi.org/10.1038/s43588-021-00181-1",
+      "venue": "Nature Computational Science",
+      "type": "article",
+      "cited_by_count": 123,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2106.05782",
+      "concepts": [
+        "Turbulence",
+        "Statistical physics",
+        "Quantum",
+        "Computer science",
+        "Eddy",
+        "Flow (mathematics)",
+        "Tensor (intrinsic definition)",
+        "Exploit"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nikita Gourianov",
+        "Michael Lubasch",
+        "Sergey Dolgov",
+        "Quincy Y. van den Berg",
+        "Hessam Babaee",
+        "Peyman Givi",
+        "Martin Kiffner",
+        "Dieter Jaksch"
+      ]
+    },
+    {
+      "title": "A phase-field method for 3D simulation of two-phase heat transfer",
+      "publication_year": 2014,
+      "publication_date": "2014-12-06",
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2014.11.052",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 43,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2014.11.052",
+      "concepts": [
+        "Discretization",
+        "Heat transfer",
+        "Convective heat transfer",
+        "Heat transfer coefficient",
+        "Mechanics",
+        "Churchill–Bernstein equation",
+        "Thermal conduction",
+        "Convection"
+      ],
+      "abstract": "",
+      "authors": [
+        "X. Zheng",
+        "Hessam Babaee",
+        "Suchuan Dong",
+        "Chryssostomos Chryssostomidis",
+        "George Em Karniadakis"
+      ]
+    },
+    {
+      "title": "Multi-fidelity Bayesian neural networks: Algorithms and applications",
+      "publication_year": 2021,
+      "publication_date": "2021-04-16",
+      "doi": "https://doi.org/10.1016/j.jcp.2021.110361",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 195,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2021.110361",
+      "concepts": [
+        "Artificial neural network",
+        "Algorithm",
+        "Computer science",
+        "Hyperparameter",
+        "Bayesian probability",
+        "Fidelity",
+        "Inverse problem",
+        "Nonlinear system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xuhui Meng",
+        "Hessam Babaee",
+        "George Em Karniadakis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "AMORE: Adaptive multi-output operator network for stiff chemical kinetics",
+      "publication_year": 2026,
+      "publication_date": "2026-05-12",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115030",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2026.115030",
+      "concepts": [
+        "Operator (biology)",
+        "Control theory (sociology)",
+        "Computer science",
+        "Artificial neural network",
+        "Invertible matrix",
+        "Constraint (computer-aided design)",
+        "Mathematical optimization",
+        "Observer (physics)"
+      ],
+      "abstract": "Time integration of stiff systems is a primary source of computational cost in combustion, hypersonics, and other reactive transport systems. This stiffness can introduce time scales significantly smaller than those associated with other physical processes, requiring extremely small time steps in explicit schemes or computationally intensive implicit methods. Consequently, strategies to alleviate challenges posed by stiffness are important. While neural operators (DeepONets) can act as surrogates for stiff kinetics, a reliable operator learning strategy is required to appropriately account for differences in error between output variables and samples. Here, we develop AMORE, Adaptive Multi-Output Operator Network, a framework comprising an operator capable of predicting multiple outputs and adaptive loss functions ensuring reliable operator learning. The operator predicts all thermochemical states from given initial conditions. We propose two adaptive loss functions within the framework, considering each state variable's and sample's error to penalize the loss function. We designed the trunk to automatically satisfy Partition of Unity. To enforce unity mass-fraction constraint e...",
+      "authors": [
+        "Kamaljyoti Nath",
+        "Additi Pandey",
+        "Bryan T. Susi",
+        "Hessam Babaee",
+        "George Em Karniadakis"
+      ]
+    },
+    {
+      "title": "Kinetic-Mamba: Mamba-Assisted Predictions of Stiff Chemical Kinetics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1615/jmachlearnmodelcomput.2026064419",
+      "venue": "Journal of Machine Learning for Modeling and Computing",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.14471",
+      "concepts": [
+        "Extrapolation",
+        "Robustness (evolution)",
+        "Combustion",
+        "Computer science",
+        "Biological system",
+        "On the fly",
+        "Fidelity",
+        "Representation (politics)"
+      ],
+      "abstract": "Accurate chemical kinetics modeling is essential for combustion simulations, as it governs the evolution of complex reaction pathways and thermochemical states. In this work, we introduce Kinetic-Mamba, a Mamba-based neural operator framework that integrates the expressive power of neural operators with the efficient temporal modeling capabilities of Mamba architectures. The framework comprises three complementary models: (i) a standalone Mamba model that predicts the time evolution of thermochemical state variables from given initial conditions; (ii) a constrained Mamba model that enforces mass conservation while learning the state dynamics; and (iii) a regime-informed architecture employing two standalone Mamba models to capture dynamics across temperature-dependent regimes. We additionally develop a latent Kinetic-Mamba variant that evolves dynamics in a reduced latent space and reconstructs the full state on the physical manifold. The accuracy and robustness of Kinetic-Mamba was evaluated using both time-decomposition and recursive-prediction strategies. We further assess the extrapolation capabilities of the model on varied out-of-distribution datasets. Computational experi...",
+      "authors": [
+        "Additi Pandey",
+        "Wei Liang",
+        "Hessam Babaee",
+        "George Em Karniadakis"
+      ]
+    },
+    {
+      "title": "On-the-fly reduced-order modelling for skeletal reduction of gasoline surrogate combustion",
+      "publication_year": 2025,
+      "publication_date": "2025-10-07",
+      "doi": "https://doi.org/10.1080/13647830.2025.2567377",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustion",
+        "Reduction (mathematics)",
+        "Gasoline",
+        "Environmental science",
+        "Chemistry",
+        "Process engineering",
+        "Waste management",
+        "Materials science"
+      ],
+      "abstract": "Skeletal reaction models are derived for a four-component gasoline surrogate model via a novel fully automated instantaneous local sensitivity analysis technique. This technique provides a direct approach for model reduction of large systems; in contrast to previous/ current methods constructed by ‘hands-on manipulation.’ The sensitivities of the species mass fractions and the temperature with respect to the reaction rates are estimated by a reduced-order modelling (ROM) methodology. Termed ‘implicit time-dependent basis CUR (implicit TDB-CUR),’ this methodology is based on the CUR matrix decomposition and incorporates implicit time integration to evolve the bases. The estimated sensitivities are subsequently analysed to develop skeletal reaction models with a fully automated procedure. The 1389-species gasoline surrogate model developed at Lawrence Livermore National Laboratory (LLNL) is selected as the detailed kinetics model. The skeletal reduction procedure is applied to this model in a zero-dimensional constant-pressure reactor over a wide range of initial conditions. The performances of the resulting models are evaluated by comparison against the results produced by the LL...",
+      "authors": [
+        "Yinmin Liu",
+        "Hessam Babaee",
+        "Peyman Givi",
+        "Daniel Livescu",
+        "Arash G. Nouri"
+      ]
+    },
+    {
+      "title": "TDB-CUR + TDB_L-CUR",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.2172/3365818",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/3365818",
+      "concepts": [
+        "Combustion",
+        "Turbulence",
+        "Direct numerical simulation",
+        "Nonlinear system",
+        "Curse of dimensionality",
+        "Mechanics",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "DNS of NH3/H2",
+      "authors": [
+        "Sandia National Laboratories (SNL-CA), Livermore, CA (United States)",
+        "Kisung Jung",
+        "Basic Energy Sciences",
+        "Junsu Kim",
+        "Cristian Lacey",
+        "Jun Hyung Lee",
+        "Hessam Babaee",
+        "Chun Sang Yoo",
+        "J H Chen"
+      ]
+    },
+    {
+      "title": "On-the-fly reduced-order modelling of the filter density function with time-dependent subspaces",
+      "publication_year": 2025,
+      "publication_date": "2025-04-16",
+      "doi": "https://doi.org/10.1080/13647830.2025.2492571",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Linear subspace",
+        "Order (exchange)",
+        "Filter (signal processing)",
+        "Function (biology)",
+        "Mathematics",
+        "Applied mathematics",
+        "Computer science",
+        "Pure mathematics"
+      ],
+      "abstract": "A dynamical low-rank approximation is developed for reduced-order modelling (ROM) of the filtered density function (FDF) transport equation, which is utilised for large eddy simulation (LES) of turbulent reacting flows. In this methodology, the evolution of the composition matrix describing the FDF transport via a set of Langevin equations is constrained to a low-rank matrix manifold. The composition matrix is approximated using a low-rank factorisation, which consists of two thin, time-dependent matrices representing spatial and composition bases, along with a small time-dependent coefficient matrix. The evolution equations for spatial and composition subspaces are derived by projecting the composition transport equation onto the tangent space of the low-rank matrix manifold. Unlike conventional ROMs, such as those based on principal component analysis, both subspaces are time-dependent and the ROM does not require any prior data to extract the low-dimensional subspaces. As a result, the constructed ROM adapts on the fly to changes in the dynamics. For demonstration, LES via the time-dependent bases (TDB) is conducted of the canonical configuration of a temporally developing pl...",
+      "authors": [
+        "Aidyn Aitzhan",
+        "Peyman Givi",
+        "Hessam Babaee"
+      ]
+    }
+  ]
+}

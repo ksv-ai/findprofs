@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Song-Charng Kong",
+  "full_name": "Song‐Charng Kong",
+  "department": "Department of Mechanical Engineering",
+  "university": "Texas Tech University",
+  "author_id": "A5089047836",
+  "works_count": 176,
+  "cited_by_count": 9059,
+  "h_index": 46,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 99
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 63
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 44
+    },
+    {
+      "topic": "Vehicle emissions and performance",
+      "count": 40
+    },
+    {
+      "topic": "Biodiesel Production and Applications",
+      "count": 36
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Combustion and emissions characteristics of compression-ignition engine using dual ammonia-diesel fuel",
+      "publication_year": 2010,
+      "publication_date": "2010-08-14",
+      "doi": "https://doi.org/10.1016/j.fuel.2010.07.055",
+      "venue": "Fuel",
+      "type": "article",
+      "cited_by_count": 860,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diesel fuel",
+        "NOx",
+        "Diesel engine",
+        "Inlet manifold",
+        "Environmental science",
+        "Combustion",
+        "Waste management",
+        "Diesel exhaust"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aaron J. Reiter",
+        "Song‐Charng Kong"
+      ]
+    },
+    {
+      "title": "The Development and Application of a Diesel Ignition and Combustion Model for Multidimensional Engine Simulation",
+      "publication_year": 1995,
+      "publication_date": "1995-02-01",
+      "doi": "https://doi.org/10.4271/950278",
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "type": "conference-paper",
+      "cited_by_count": 496,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Homogeneous charge compression ignition",
+        "Ignition system",
+        "Automotive engineering",
+        "Combustion",
+        "Carbureted compression ignition model engine",
+        "Diesel engine",
+        "Diesel fuel",
+        "Computer science"
+      ],
+      "abstract": "An integrated numerical model has been developed for diesel engine computations based on the KIVA-II code. The model incorporates a modified RNG k-ε, turbulence model, a ‘wave’ breakup spray model, the Shell ignition model, the laminar-and-turbulent characteristic-time combustion model, a crevice flow model, a spray/wall impingement model that includes rebounding and breaking-up drops, and other improved submodels in the KIVA code. The model was validated and applied to model successfully different types of diesel engines under various operating conditions. These engines include a Caterpillar engine with different injection pressures at different injection timings, a small Tacom engine at different loads, and a Cummins engine modified by Sandia for optical experiments. Good levels of agreement in cylinder pressures and heat release rate data were obtained using the same computer model for all engine cases. Predictions of engine emissions were also performed and a good quantitative agreement between measured and predicted NOx and soot emission data were obtained with the use of the present modified RNG turbulence model. The results indicate that the predicted flow structures have...",
+      "authors": [
+        "Song‐Charng Kong",
+        "Zhiyu Han",
+        "Rolf D. Reitz"
+      ]
+    },
+    {
+      "title": "Demonstration of Compression-Ignition Engine Combustion Using Ammonia in Reducing Greenhouse Gas Emissions",
+      "publication_year": 2008,
+      "publication_date": "2008-07-12",
+      "doi": "https://doi.org/10.1021/ef800140f",
+      "venue": "Energy & Fuels",
+      "type": "article",
+      "cited_by_count": 439,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diesel fuel",
+        "Diesel engine",
+        "Environmental science",
+        "Homogeneous charge compression ignition",
+        "Diesel cycle",
+        "Combustion",
+        "Waste management",
+        "Carbureted compression ignition model engine"
+      ],
+      "abstract": "This study demonstrated the feasibility of ammonia combustion in compression-ignition diesel engines. Ammonia combustion does not produce carbon dioxide, a known greenhouse gas that contributes to global warming. Using this idea, a method was developed to introduce ammonia into the intake manifold and to inject diesel fuel or biodiesel directly into the cylinder to ignite the mixture. This dual-fuel approach was chosen because ammonia has a high resistance to autoignition. This approach was proven successful in a multicylinder, turbocharged diesel engine. The system developed required only a slight modification of the intake to implement the ammonia fuel line. The existing diesel fuel injection system remained unchanged. A liquid ammonia tank was used for fuel storage, and a high pressure relief valve regulated the ammonia flow rate. Engine combustion phasing (e.g., ignition) was controlled by diesel fuel injection. Both experiments and chemical kinetic studies were carried out for different diesel/ammonia ratios at various engine speeds and loads. Ammonia was used as an energy replacement for diesel fuel. The results showed that the peak engine torque could be achieved by using...",
+      "authors": [
+        "Aaron J. Reiter",
+        "Song‐Charng Kong"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Thermomechanical Analysis of an Ignition-Assistance Device Due to Fuel Spray Impingement Using the Smoothed Particle Hydrodynamics Method",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.1115/1.4071756",
+      "venue": "Journal of Engineering for Gas Turbines and Power",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Heat transfer",
+        "Work (physics)",
+        "Parametric statistics",
+        "Thermal",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Heat transfer coefficient"
+      ],
+      "abstract": "Abstract Accurate prediction of the ignition-assistance device's thermomechanical response during fuel spray impingement is essential for understanding ignition reliability in aviation compression-ignition engines. This work presents a thermomechanical analysis of an ignition-assistance device under transient interaction with F-24 fuel droplets using a smoothed particle hydrodynamics (SPH) framework. The computational model captures liquid–solid heat transfer and droplet dynamics during film boiling at elevated surface temperatures. To accurately represent heat transfer in the film-boiling regime, a novel heat transfer model is incorporated alongside a multilevel resolution strategy that reduces computational cost while preserving local accuracy. A parametric study is performed to evaluate the influence of key injection characteristics, including droplet size, fuel loading, and impact parameter, on the resulting surface temperature and thermal stress evolution. The results show that increasing any of these parameters leads to larger maximum temperature decreases and corresponding increases in the thermal stress levels. Overall, the study provides a physics-based characterization...",
+      "authors": [
+        "Kamyab Karimi",
+        "Song‐Charng Kong",
+        "Eric Mayhew",
+        "Kenneth Kim",
+        "Chol-Bum M. Kweon"
+      ]
+    },
+    {
+      "title": "Numerical Analysis of Droplet Impact on Non-flat Surfaces Using SPH for Thermal Spray Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-01-13",
+      "doi": "https://doi.org/10.1007/s11666-025-02156-4",
+      "venue": "Journal of Thermal Spray Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s11666-025-02156-4.pdf",
+      "concepts": [
+        "Materials science",
+        "Thermal spraying",
+        "Thermal conductivity",
+        "Smoothed-particle hydrodynamics",
+        "Aluminium",
+        "Thermal",
+        "Yttria-stabilized zirconia",
+        "Composite material"
+      ],
+      "abstract": "Abstract In surface treatment methods, thermal spray is one of the promising technologies to enhance material functionality and life. This study presents a numerical investigation of molten droplet impact on engineered substrates using the smoothed particle hydrodynamics (SPH) method on splat morphology. Aluminum substrates incorporating two cubic extensions and machine lines were examined. Experimental observations of alumina droplet impact were used to validate the SPH model, demonstrating the model’s capability to reproduce spreading, flow of molten material along or across the grooves, pore formation, and solidification. Simulations were extended to yttria-stabilized zirconia (YSZ) droplets to assess the role of thermophysical properties, including low thermal conductivity and high melting point, on the splat morphology. Results from the simulations show that YSZ droplets exhibit longer molten lifetime, deeper penetration into the valleys, and a complex lateral flow pattern that induces interfacial pores, particularly in denser configurations. Comparative analysis between alumina and YSZ highlights the coupled effects of surface patterns and material thermal behavior on spre...",
+      "authors": [
+        "Bhanu Prakash Maddineni",
+        "Song‐Charng Kong"
+      ]
+    },
+    {
+      "title": "Thermal and Stress Analyses of Ignition Plug During Fuel Droplet Impingement Using Smoothed Particle Hydrodynamics With Multilevel Resolution",
+      "publication_year": 2025,
+      "publication_date": "2025-12-10",
+      "doi": "https://doi.org/10.1115/1.4070612",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Smoothed-particle hydrodynamics",
+        "Ignition system",
+        "Mechanics",
+        "Materials science",
+        "Thermal conduction",
+        "Thermal",
+        "Parametric statistics",
+        "Particle (ecology)"
+      ],
+      "abstract": "Abstract To enable robust ignition of heavy fuels and the operation of compression-ignition (CI) engines at altitude, the use of ignition-assistant (IA) devices, such as glow plugs, is essential. However, this requires using the glow plugs outside of the conditions for which they were originally designed, often with fuel impinging directly on the hot surface. It is important to evaluate the temperature distribution and resulting thermal stress on the ignition plug during fuel injection to ensure its reliability and performance. This work uses a computational approach based on the smoothed particle hydrodynamics (SPH) method; this method is extended to conduct integrated simulations of heat conduction in solids, drop-wall interaction, and resulting heat transfer. Furthermore, a multilevel resolution SPH framework is developed to simulate fuel droplet impingement on a glow plug, capturing the thermal responses with high accuracy and computational efficiency. The model is validated against experimental data for droplet dynamics using F-24 and n-decane for various Weber numbers. A series of parametric studies are then conducted to investigate the influence of droplet loading, drople...",
+      "authors": [
+        "Kamyab Karimi",
+        "Doruk Isik",
+        "Song‐Charng Kong",
+        "Eric Mayhew",
+        "Kenneth Kim",
+        "Chol-Bum Kweon"
+      ]
+    },
+    {
+      "title": "Simulation of binary droplet collisions from bouncing to shattering regime",
+      "publication_year": 2025,
+      "publication_date": "2025-09-05",
+      "doi": "https://doi.org/10.1103/1dl6-hj7d",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Smoothed-particle hydrodynamics",
+        "Collision",
+        "Coalescence (physics)",
+        "Physics",
+        "Binary number",
+        "Mechanics",
+        "Range (aeronautics)"
+      ],
+      "abstract": "Binary droplet collisions exhibit four primary outcomes at Weber number (We) below 100, i.e., bouncing, coalescence, reflexive separation, and stretching separation. At We exceeding 300, shattering becomes prominent, characterized by the catastrophic disintegration of the merged mass and ejection of satellite droplets. Previous numerical studies have largely focused on isolated regimes, with limited overlap across the full impact parameter space, and typically require regime-specific models. In this work, an integrated simulation approach is presented based on Smoothed Particle Hydrodynamics (SPH) to capture all major collision regimes from We=10 to 1000. This mesh-free method successfully reproduces both head-on and off-center collision outcomes for water, tetradecane, and heptane under near room conditions. The bouncing regime is modeled using an interfacial curvature-based approach tailored to account for hydrocarbon behavior, accurately replicating the transition to coalescence and stretching separation. The present SPH simulations capture the deformation morphologies and satellite droplet formation for stretching separation, while the critical We for reflexive separation is...",
+      "authors": [
+        "Mohammad F. F. Patwary",
+        "Doruk Isik",
+        "Song‐Charng Kong"
+      ]
+    },
+    {
+      "title": "Heat Transfer and Thermal Stress Analysis of Ignition Plug During Heating Using Smoothed Particle Hydrodynamics",
+      "publication_year": 2025,
+      "publication_date": "2025-05-22",
+      "doi": "https://doi.org/10.1115/1.4068751",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ignition system",
+        "Spark plug",
+        "Heat transfer",
+        "Mechanics",
+        "Smoothed-particle hydrodynamics",
+        "Materials science",
+        "Particle (ecology)",
+        "Thermodynamics"
+      ],
+      "abstract": "Abstract Reliable ignition-assistant technologies are essential for combustion engines in modern aviation to optimize engine performance using flexible fuels for unmanned aerial vehicles (UAVs). Computational modeling can help characterize the operation of such ignition-assistant devices. In recent years, smoothed particle hydrodynamics (SPH) has proven to be a useful tool for investigating various thermo-fluidic phenomena. SPH discretizes the domain into numerical particles, each representing physical attributes such as mass, density, and temperature. While SPH offers several advantages, its computational demands are significant. Thus, a GPU-accelerated SPH solver using the CUDA framework is developed in this study. The present focus is on studying the temperature distribution and thermal stresses in a hot surface ignition device. The study pursues two main goals. Initially, it involves validating the developed solver across fundamental heat transfer problems with known analytical solutions. These tests involve various boundary conditions in two- and three-dimensional geometries to assess accuracy and effectiveness. Subsequently, a realistic glow plug geometry was modeled under...",
+      "authors": [
+        "Kamyab Karimi",
+        "Doruk Isik",
+        "Song‐Charng Kong"
+      ]
+    }
+  ]
+}

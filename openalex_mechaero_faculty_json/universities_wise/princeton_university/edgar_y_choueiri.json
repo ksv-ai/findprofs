@@ -1,0 +1,243 @@
+{
+  "faculty_name": "Edgar Y. Choueiri",
+  "full_name": "Edgar Choueiri",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Princeton University",
+  "author_id": "A5013310973",
+  "works_count": 230,
+  "cited_by_count": 3333,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 141
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 67
+    },
+    {
+      "topic": "Magnetic confinement fusion research",
+      "count": 40
+    },
+    {
+      "topic": "Ionosphere and magnetosphere dynamics",
+      "count": 29
+    },
+    {
+      "topic": "Particle accelerators and beam dynamics",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Plasma oscillations in Hall thrusters",
+      "publication_year": 2001,
+      "publication_date": "2001-04-01",
+      "doi": "https://doi.org/10.1063/1.1354644",
+      "venue": "Physics of Plasmas",
+      "type": "article",
+      "cited_by_count": 524,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Plasma",
+        "Instability",
+        "Ionization",
+        "Dispersion relation",
+        "Axial symmetry",
+        "Azimuth",
+        "Oscillation (cell signaling)"
+      ],
+      "abstract": "The nature of oscillations in the 1 kHz–60 MHz frequency range that have been observed during operation of Hall thrusters is quantitatively discussed. Contours of various plasma parameters measured inside the accelerating channel of a typical Hall thruster are used to evaluate the various stability criteria and dispersion relations of oscillations that are suspected to occur. A band by band up-to-date overview of the oscillations is carried out with a description of their observed behavior and a discussion of their nature and dependencies through comparison of the calculated contours to reported observations. The discussion encompasses the excitation of low frequency azimuthal drift waves that can form a rotating spoke, axially propagating “transit-time” oscillations, azimuthal drift waves, ionization instability-type waves, and wave emission peculiar to weakly ionized inhomogeneous plasmas in crossed electric and magnetic fields.",
+      "authors": [
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "A Critical History of Electric Propulsion: The First 50 Years (1906-1956)",
+      "publication_year": 2004,
+      "publication_date": "2004-03-01",
+      "doi": "https://doi.org/10.2514/1.9245",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 200,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Electrically powered spacecraft propulsion",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Spacecraft propulsion",
+        "Engineering"
+      ],
+      "abstract": "A = beam cross-sectional area a = vehicle acceleration i ≡ p/V = current per unit vehicle mass j = current density Mv = vehicle mass m ̇ = propellant mass flow rate P = input electric power p ≡ P/Mv = input electric power per unit vehicle mass T = thrust uex = rocket exhaust velocity V = voltage η = thrust efficiency W HEN writing history, it is tempting to identify thematic pe-riods in the often continuous stream of events under review and label them as “eras, ” or to point to certain achievements and call them “milestones. ” Keeping in mind that such demarcations and des-ignations inevitably entail some arbitrariness, we shall not resist this temptation. Indeed, the history of electric propulsion (EP), which now spans almost a full century, particularly lends itself to a subdi-vision that epitomizes the progress of the field from its start as the dream realm of a few visionaries, to its transformation into the con-cern of large corporations. We shall therefore idealize the continuous history of the field as a series of five essentially consecutive eras:",
+      "authors": [
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "Fundamental difference between the two Hall thruster variants",
+      "publication_year": 2001,
+      "publication_date": "2001-11-01",
+      "doi": "https://doi.org/10.1063/1.1409344",
+      "venue": "Physics of Plasmas",
+      "type": "article",
+      "cited_by_count": 128,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Electron",
+        "Hall effect",
+        "Anode",
+        "Acceleration",
+        "Boron nitride",
+        "Plasma",
+        "Pressure gradient"
+      ],
+      "abstract": "The fundamental difference between the two variants of Hall thrusters, the stationary plasma thruster (SPT) and the thruster with anode layer (TAL), is illustrated quantitatively using an analytical model that accounts for the effects of secondary electron emission (SEE) from the walls. The model includes a prescription for the quenching of the temperature of the electrons on their way to the anode which results from the enhanced electron energy losses to the wall that occur at, and upstream of, an axial location where the wall potential reverses from electron attracting to electron repellent. For the higher SEE coefficient of an insulator wall (compared to that of a metallic one) this sign reversal occurs at a lower electron temperature and is shown to lead to a more extended acceleration region due to the resulting relaxation of the potential gradient required to balance the electron pressure gradient. By replacing the boron nitride walls (SPT) of an idealized Hall thruster with stainless steel (TAL), the acceleration zone is shown analytically to collapse to a region near the anode having an extent that is about eight times smaller than that for the SPT. The results are used ...",
+      "authors": [
+        "Edgar Choueiri"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Decomposing the Influence of Physical Acoustic Modeling on Neural Personal Sound Zone Rendering: An Ablation Study",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "https://doi.org/10.48550/arxiv.2603.02508",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.02508",
+      "concepts": [
+        "Binaural recording",
+        "Acoustics",
+        "Computer science",
+        "Transfer function",
+        "Artificial neural network",
+        "Boosting (machine learning)",
+        "Directional sound",
+        "Ablation"
+      ],
+      "abstract": "Deep learning-based Personal Sound Zones (PSZs) rely on simulated acoustic transfer functions (ATFs) for training, yet idealized point-source models exhibit large sim-to-real gaps. While physically informed components improve generalization, individual contributions remain unclear. This paper presents a controlled ablation study on a head-pose-conditioned binaural PSZ renderer using the Binaural Spatial Audio Neural Network (BSANN). We progressively enrich simulated ATFs with three components: (i) anechoically measured frequency responses of the particular loudspeakers(FR), (ii) analytic circular-piston directivity (DIR), and (iii) rigid-sphere head-related transfer functions (RS-HRTF). Four configurations are evaluated via in-situ measurements with two dummy heads. Performance metrics include inter-zone isolation (IZI), inter-program interference (IPI), and crosstalk cancellation (XTC) over 100-20000 Hz. Results show FR provides spectral calibration, yielding modest XTC improvements and reduced inter-listener IPI imbalance. DIR delivers the most consistent sound-zone separation gains (10.05 dB average IZI/IPI). RS-HRTF dominates binaural separation, boosting XTC by +2.38/+2.89 ...",
+      "authors": [
+        "Hao Jiang",
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "Decomposing the Influence of Physical Acoustic Modeling on Neural Personal Sound Zone Rendering: An Ablation Study",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "http://arxiv.org/abs/2603.02508",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.02508",
+      "concepts": [
+        "Binaural recording",
+        "Acoustics",
+        "Computer science",
+        "Transfer function",
+        "Artificial neural network",
+        "Boosting (machine learning)",
+        "Directional sound",
+        "Ablation"
+      ],
+      "abstract": "Deep learning-based Personal Sound Zones (PSZs) rely on simulated acoustic transfer functions (ATFs) for training, yet idealized point-source models exhibit large sim-to-real gaps. While physically informed components improve generalization, individual contributions remain unclear. This paper presents a controlled ablation study on a head-pose-conditioned binaural PSZ renderer using the Binaural Spatial Audio Neural Network (BSANN). We progressively enrich simulated ATFs with three components: (i) anechoically measured frequency responses of the particular loudspeakers(FR), (ii) analytic circular-piston directivity (DIR), and (iii) rigid-sphere head-related transfer functions (RS-HRTF). Four configurations are evaluated via in-situ measurements with two dummy heads. Performance metrics include inter-zone isolation (IZI), inter-program interference (IPI), and crosstalk cancellation (XTC) over 100-20000 Hz. Results show FR provides spectral calibration, yielding modest XTC improvements and reduced inter-listener IPI imbalance. DIR delivers the most consistent sound-zone separation gains (10.05 dB average IZI/IPI). RS-HRTF dominates binaural separation, boosting XTC by +2.38/+2.89 ...",
+      "authors": [
+        "Hao Jiang",
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "Stereo Audio Rendering for Personal Sound Zones Using a Binaural Spatially Adaptive Neural Network (BSANN)",
+      "publication_year": 2026,
+      "publication_date": "2026-01-10",
+      "doi": "https://doi.org/10.48550/arxiv.2601.06621",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2601.06621",
+      "concepts": [
+        "Binaural recording",
+        "Rendering (computer graphics)",
+        "Loudspeaker",
+        "Computer science",
+        "Robustness (evolution)",
+        "Ambisonics",
+        "Artificial neural network",
+        "Acoustics"
+      ],
+      "abstract": "A binaural rendering framework for personal sound zones (PSZs) is proposed to enable multiple head-tracked listeners to receive fully independent stereo audio programs. Current PSZ systems typically rely on monophonic rendering and therefore cannot control the left and right ears separately, which limits the quality and accuracy of spatial imaging. The proposed method employs a Binaural Spatially Adaptive Neural Network (BSANN) to generate ear-optimized loudspeaker filters that reconstruct the desired acoustic field at each ear of multiple listeners. The framework integrates anechoically measured loudspeaker frequency responses, analytically modeled transducer directivity, and rigid-sphere head-related transfer functions (HRTFs) to enhance acoustic accuracy and spatial rendering fidelity. An explicit active crosstalk cancellation (XTC) stage further improves three-dimensional spatial perception. Experiments show significant gains in measured objective performance metrics, including inter-zone isolation (IZI), inter-program isolation (IPI), and crosstalk cancellation (XTC), with log-frequency-weighted values of 10.23/10.03 dB (IZI), 11.11/9.16 dB (IPI), and 10.55/11.13 dB (XTC), ...",
+      "authors": [
+        "Hao Jiang",
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "Stereo Audio Rendering for Personal Sound Zones Using a Binaural Spatially Adaptive Neural Network (BSANN)",
+      "publication_year": 2026,
+      "publication_date": "2026-01-10",
+      "doi": "http://arxiv.org/abs/2601.06621",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2601.06621",
+      "concepts": [
+        "Binaural recording",
+        "Rendering (computer graphics)",
+        "Loudspeaker",
+        "Computer science",
+        "Robustness (evolution)",
+        "Ambisonics",
+        "Artificial neural network",
+        "Acoustics"
+      ],
+      "abstract": "A binaural rendering framework for personal sound zones (PSZs) is proposed to enable multiple head-tracked listeners to receive fully independent stereo audio programs. Current PSZ systems typically rely on monophonic rendering and therefore cannot control the left and right ears separately, which limits the quality and accuracy of spatial imaging. The proposed method employs a Binaural Spatially Adaptive Neural Network (BSANN) to generate ear-optimized loudspeaker filters that reconstruct the desired acoustic field at each ear of multiple listeners. The framework integrates anechoically measured loudspeaker frequency responses, analytically modeled transducer directivity, and rigid-sphere head-related transfer functions (HRTFs) to enhance acoustic accuracy and spatial rendering fidelity. An explicit active crosstalk cancellation (XTC) stage further improves three-dimensional spatial perception. Experiments show significant gains in measured objective performance metrics, including inter-zone isolation (IZI), inter-program isolation (IPI), and crosstalk cancellation (XTC), with log-frequency-weighted values of 10.23/10.03 dB (IZI), 11.11/9.16 dB (IPI), and 10.55/11.13 dB (XTC), ...",
+      "authors": [
+        "Hao Jiang",
+        "Edgar Choueiri"
+      ]
+    },
+    {
+      "title": "Pulsed Magnetoplasmadynamic Propulsion for Airbreathing Satellites in Very Low Earth Orbit",
+      "publication_year": 2025,
+      "publication_date": "2025-09-22",
+      "doi": "https://doi.org/10.2514/1.b39990",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Low earth orbit",
+        "Physics",
+        "Aerospace engineering",
+        "Orbit (dynamics)",
+        "Geocentric orbit",
+        "Electrically powered spacecraft propulsion",
+        "Satellite"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joseph W. Zimmerman",
+        "Roland Burton",
+        "Ryan T. Fox",
+        "David L. Carroll",
+        "Emil J. Broemmelsiek",
+        "Edgar Choueiri"
+      ]
+    }
+  ]
+}

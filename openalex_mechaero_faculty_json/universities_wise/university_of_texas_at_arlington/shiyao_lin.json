@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Shiyao Lin",
+  "full_name": "Shiyao Lin",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Texas at Arlington",
+  "author_id": "A5108829083",
+  "works_count": 47,
+  "cited_by_count": 463,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Mechanical Behavior of Composites",
+      "count": 40
+    },
+    {
+      "topic": "Structural Response to Dynamic Loads",
+      "count": 15
+    },
+    {
+      "topic": "Composite Structure Analysis and Optimization",
+      "count": 11
+    },
+    {
+      "topic": "Structural Analysis of Composite Materials",
+      "count": 10
+    },
+    {
+      "topic": "Fatigue and fracture mechanics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Predicting the low velocity impact damage of a quasi-isotropic laminate using EST",
+      "publication_year": 2020,
+      "publication_date": "2020-06-09",
+      "doi": "https://doi.org/10.1016/j.compstruct.2020.112530",
+      "venue": "Composite Structures",
+      "type": "article",
+      "cited_by_count": 65,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Subroutine",
+        "Materials science",
+        "Isotropy",
+        "Digital image correlation",
+        "Delamination (geology)",
+        "Impact energy",
+        "Deformation (meteorology)",
+        "Composite laminates"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shiyao Lin",
+        "Solver I. Thorsson",
+        "Anthony M. Waas"
+      ]
+    },
+    {
+      "title": "The effect of stacking sequence on the LVI damage of laminated composites; experiments and analysis",
+      "publication_year": 2021,
+      "publication_date": "2021-04-01",
+      "doi": "https://doi.org/10.1016/j.compositesa.2021.106377",
+      "venue": "Composites Part A Applied Science and Manufacturing",
+      "type": "article",
+      "cited_by_count": 55,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stacking",
+        "Materials science",
+        "Composite material",
+        "Impact energy",
+        "Structural engineering",
+        "Physics",
+        "Engineering",
+        "Nuclear magnetic resonance"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shiyao Lin",
+        "Anthony M. Waas"
+      ]
+    },
+    {
+      "title": "Experimental study on the panel size effects of the Low-Velocity Impact (LVI) and Compression After Impact (CAI) of laminated composites, Part I: LVI",
+      "publication_year": 2022,
+      "publication_date": "2022-06-07",
+      "doi": "https://doi.org/10.1016/j.compstruct.2022.115822",
+      "venue": "Composite Structures",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Composite number",
+        "Compression (physics)",
+        "Structural engineering",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shiyao Lin",
+        "Vipul Ranatunga",
+        "Anthony M. Waas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Computational Method for Predicting the Damage and Failure Due to Impact of Double Hat Stiffened Aircraft Skin Panels",
+      "publication_year": 2026,
+      "publication_date": "2026-02-12",
+      "doi": "https://doi.org/10.1007/s42496-025-00301-4",
+      "venue": "Aerotecnica Missili & Spazio",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s42496-025-00301-4.pdf",
+      "concepts": [
+        "Structural engineering",
+        "Residual",
+        "Residual strength",
+        "Structural failure",
+        "Finite element method",
+        "Computational model",
+        "Failure mode and effects analysis",
+        "Damage tolerance"
+      ],
+      "abstract": "Abstract We present a computational method to predict the extent of damage and disbond failure of stiffened carbon fiber reinforced polymer (CFRP) structural panels which are core structures used in modern aircraft. Low-velocity impacts (LVI) can occur during maintenance, transport, or service. Precisely predicting the extent of LVI damage to accurately assess the residual compressive load carrying capacity of the panel is needed. We present results for the extent and amount of impact damage in a CFRP structural panel due to LVI impact using a novel high fidelity computational method developed by the authors. Different damage modes, such as delamination, matrix failure and fiber failure are predicted and compared for different impact locations. Additionally, the results from a 105J impact simulation were used to develop a field function that links element size, cohesive strength, and disbond area, enabling computational efficiency while maintaining prediction accuracy.",
+      "authors": [
+        "Mursheda Rahman",
+        "Eric U. Maravilla",
+        "Siddhant Devaru",
+        "Shiyao Lin",
+        "Anthony M. Waas",
+        "Vipul Ranatunga"
+      ]
+    },
+    {
+      "title": "Progressive Damage and Failure Predictions of T-Pull and Side Bend Tests of Composite Joints",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0447",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Composite number",
+        "Structural engineering",
+        "Materials science",
+        "Aerospace",
+        "Shear (geology)",
+        "Component (thermodynamics)",
+        "Compatibility (geochemistry)",
+        "Stiffness"
+      ],
+      "abstract": "This paper presents blind progressive damage and failure predictions conducted for typical aerospace composite structural components under various loading conditions. This blind prediction exercise was organized by the United States Air Force Research Lab (AFRL) under the Technical Cooperation Program (TTCP). The studied structural component is a stiffened laminated composite panel. The predicted load cases include T-pull, side bend, and mixed shear, with three defect levels, including pristine, tip defect, and throat defect. The blind predictions in this paper were performed with a continuum damage model, Enhanced Schapery Theory (EST), which was developed for versatile progressive damage and failure analyses (PDFA) for laminated composites. Highly accurate blind prediction results were obtained for the T-pull and mixed shear cases. For the side bend cases, the first-round blind predictions were inaccurate, due to the model not including the possibility for noodle-web debonding. With the noodle-web correctly modeled using interface elements, the second-round predictions became significantly more accurate. Overall, this blind prediction exercise validates and confirms the accura...",
+      "authors": [
+        "Shiyao Lin",
+        "Anthony M. Waas"
+      ]
+    },
+    {
+      "title": "Design and Instrumentation of an In-house Drop Tower for Low Velocity Impact Testing of Composites and Metals",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1464",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Instrumentation (computer programming)",
+        "Structural engineering",
+        "Rigidity (electromagnetism)",
+        "Design of experiments",
+        "Impact",
+        "Drop (telecommunication)",
+        "Materials science",
+        "Tower"
+      ],
+      "abstract": "This study presents the design and development of a customized, in-house drop-tower impact-testing facility for investigating the effects of low-velocity impact (LVI) on composites and metals using a spherical indenter. Eighteen samples were tested under various impact conditions with various energy levels. Four distinct types of mounting blocks with a spherical indenter were designed, and LVI tests were conducted. The influence of tightening, impactor mass, and mounting block design on the force response was systematically examined. Force responses were recorded using a piezoelectric force sensor, a charge amplifier, and an oscilloscope. Additionally, high-speed imaging with digital image correlation (DIC) analysis was included to validate the structural rigidity of the systems. Results from the in-house facility were compared with those from a commercially available drop tower for validation. Following multiple iterations of design, experimentation, and validation, the in-house system achieved an accuracy level closely matching that of the commercial setup. We will make the design of the drop tower publicly available to facilitate the democratization of the mechanical testing ...",
+      "authors": [
+        "Titu Sarker",
+        "Ravi Venkata Surya Mogilisetti",
+        "Shiyao Lin"
+      ]
+    },
+    {
+      "title": "Correlating Microscale Damage with Dielectric State Variable Characterized by Broadband Dielectric Spectroscopy (BbDS)",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-05208-7_19",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microscale chemistry",
+        "Materials science",
+        "Dielectric",
+        "Multiphysics",
+        "Digital image correlation",
+        "Structural health monitoring",
+        "Composite material",
+        "Broadband"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shiyao Lin",
+        "Vamsee Vadlamudi"
+      ]
+    },
+    {
+      "title": "Efficient and sustainable fixation of CO2 into 2-oxazolidinones utilizing ionic liquid functionalized SiO2 nanocomposites",
+      "publication_year": 2025,
+      "publication_date": "2025-09-30",
+      "doi": "https://doi.org/10.1186/s13065-025-01627-7",
+      "venue": "BMC Chemistry",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://bmcchem.biomedcentral.com/counter/pdf/10.1186/s13065-025-01627-7",
+      "concepts": [
+        "Ionic liquid",
+        "Catalysis",
+        "Nanocomposite",
+        "Selectivity",
+        "Chemical engineering",
+        "Yield (engineering)",
+        "Materials science",
+        "Heterogeneous catalysis"
+      ],
+      "abstract": "Abstract Chemical fixation of CO2 into 2-oxazolidinones is of significance because of the important application in the chemical synthesis. In this study, a series of ionic liquid functionalized SiO2 nanocomposites were synthesized and developed as heterogeneous catalysts for the CO2 cyclization reaction. The resulting SiO2-MILZrCl5 behaved as high-efficiency heterogeneous catalyst for solvent-additive-free CO2 cyclization at 70 °C and 0.1 MPa CO2. A high yield of 93% with selectivity of 99.4% over 5-methyl-3-phenyloxazolidin-2-one was attained. Furthermore, a wide range of epoxides were transformed with high yields and excellent selectivities under atmospheric pressure. Additionally, SiO2-MILZrCl5 could serve as a durable and recoverable heterogeneous catalyst for the reaction, which could be used for five cycles without significant loss of catalytic activity. This study offers novel insights for the development of green catalysts for the efficient CO2 fixation. Graphical Abstract",
+      "authors": [
+        "Yulin Hu",
+        "Shiyao Lin",
+        "Xiaobing Liu"
+      ]
+    }
+  ]
+}

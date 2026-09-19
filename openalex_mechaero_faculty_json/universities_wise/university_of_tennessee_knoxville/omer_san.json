@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Omer San",
+  "full_name": "Omer San",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Tennessee-Knoxville",
+  "author_id": "A5085671233",
+  "works_count": 245,
+  "cited_by_count": 6377,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 97
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 76
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 47
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 38
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A deep learning enabler for nonintrusive reduced order modeling of fluid flows",
+      "publication_year": 2019,
+      "publication_date": "2019-08-01",
+      "doi": "https://doi.org/10.1063/1.5113494",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 180,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1907.04945",
+      "concepts": [
+        "Physics",
+        "Enabling",
+        "Order (exchange)",
+        "Fluid dynamics",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Fluid mechanics",
+        "Statistical physics"
+      ],
+      "abstract": "In this paper, we introduce a modular deep neural network (DNN) framework for data-driven reduced order modeling of dynamical systems relevant to fluid flows. We propose various DNN architectures which numerically predict evolution of dynamical systems by learning from either using discrete state or slope information of the system. Our approach has been demonstrated using both residual formula and backward difference scheme formulas. However, it can be easily generalized into many different numerical schemes as well. We give a demonstration of our framework for three examples: (i) Kraichnan-Orszag system, an illustrative coupled nonlinear ordinary differential equation, (ii) Lorenz system exhibiting chaotic behavior, and (iii) a nonintrusive model order reduction framework for the two-dimensional Boussinesq equations with a differentially heated cavity flow setup at various Rayleigh numbers. Using only snapshots of state variables at discrete time instances, our data-driven approach can be considered truly nonintrusive since any prior information about the underlying governing equations is not required for generating the reduced order model. Our a posteriori analysis shows that ...",
+      "authors": [
+        "Suraj Pawar",
+        "Sk. Mashfiqur Rahman",
+        "Harsha Vaddireddy",
+        "Omer San",
+        "Adil Rasheed",
+        "Prakash Vedula"
+      ]
+    },
+    {
+      "title": "Data-driven deconvolution for large eddy simulations of Kraichnan turbulence",
+      "publication_year": 2018,
+      "publication_date": "2018-12-01",
+      "doi": "https://doi.org/10.1063/1.5079582",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 101,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/1593571",
+      "concepts": [
+        "Deconvolution",
+        "Physics",
+        "Turbulence",
+        "Large eddy simulation",
+        "Filter (signal processing)",
+        "Grid",
+        "Turbulence modeling",
+        "Algorithm"
+      ],
+      "abstract": "In this article, we demonstrate the use of artificial neural networks as optimal maps which are utilized for convolution and deconvolution of coarse-grained fields to account for sub-grid scale turbulence effects. We demonstrate that an effective eddy-viscosity is predicted by our purely data-driven large eddy simulation framework without explicit utilization of phenomenological arguments. In addition, our data-driven framework precludes the knowledge of true sub-grid stress information during the training phase due to its focus on estimating an effective filter and its inverse so that grid-resolved variables may be related to direct numerical simulation data statistically. The proposed predictive framework is also combined with a statistical truncation mechanism for ensuring numerical realizability in an explicit formulation. Through this, we seek to unite structural and functional modeling strategies for modeling non-linear partial differential equations using reduced degrees of freedom. Both a priori and a posteriori results are shown for a two-dimensional decaying turbulence case in addition to a detailed description of validation and testing. A hyperparameter sensitivity st...",
+      "authors": [
+        "Romit Maulik",
+        "Omer San",
+        "Adil Rasheed",
+        "Prakash Vedula"
+      ]
+    },
+    {
+      "title": "On closures for reduced order models— A spectrum of first-principle to machine-learned avenues",
+      "publication_year": 2021,
+      "publication_date": "2021-01-01",
+      "doi": "https://hdl.handle.net/11250/2989808",
+      "venue": "NORA - Norwegian Open Research Archives",
+      "type": "article",
+      "cited_by_count": 129,
+      "is_oa": true,
+      "oa_url": "https://hdl.handle.net/11250/2989808",
+      "concepts": [
+        "Galerkin method",
+        "Construct (python library)",
+        "Stability (learning theory)",
+        "Applied mathematics",
+        "Field (mathematics)",
+        "Physics",
+        "Nonlinear system",
+        "Vortex"
+      ],
+      "abstract": "For over a century, reduced order models (ROMs) have been a fundamental discipline of theoretical fluid mechanics. Early examples include Galerkin models inspired by the Orr–Sommerfeld stability equation and numerous vortex models, of which the von Kármán vortex street is one of the most prominent. Subsequent ROMs typically relied on first principles, like mathematical Galerkin models, weakly nonlinear stability theory, and two- and three-dimensional vortex models. Aubry et al. [J. Fluid Mech. 192, 115–173 (1988)] pioneered the data-driven proper orthogonal decomposition (POD) modeling. In early POD modeling, available data were used to build an optimal basis, which was then utilized in a classical Galerkin procedure to construct the ROM, but data have made a profound impact on ROMs beyond the Galerkin expansion. In this paper, we take a modest step and illustrate the impact of data-driven modeling on one significant ROM area. Specifically, we focus on ROM closures, which are correction terms that are added to the classical ROMs in order to model the effect of the discarded ROM modes in under-resolved simulations. Through simple examples, we illustrate the main modeling principl...",
+      "authors": [
+        "Shady E. Ahmed",
+        "Suraj Pawar",
+        "Omer San",
+        "Adil Rasheed",
+        "Trian, Iliescu",
+        "Bernd R. Noack"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Discovery of governing equations for reduced-order aerodynamic modes of atmospheric entry capsules",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.1016/j.ast.2026.112454",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Physics",
+        "Mechanics",
+        "Atmospheric entry",
+        "Aerodynamic force",
+        "Environmental science",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ashraf Kassem",
+        "Shafi Al Salman Romeo",
+        "Bipin Tiwari",
+        "Lamisa Musharrat",
+        "Omer San",
+        "Kursat Kara"
+      ]
+    },
+    {
+      "title": "Nonlinear Parameter Estimation for Entry Capsule Dynamic Stability Analysis and Uncertainty Quantification",
+      "publication_year": 2025,
+      "publication_date": "2025-10-21",
+      "doi": "https://doi.org/10.2514/1.a35998",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Markov chain Monte Carlo",
+        "Nonlinear system",
+        "Stability (learning theory)",
+        "Sensitivity (control systems)",
+        "Monte Carlo method",
+        "Uncertainty quantification",
+        "Applied mathematics",
+        "Markov chain"
+      ],
+      "abstract": "Identifying dynamic stability coefficients plays a pivotal role in missions that involve atmospheric entry. Although several methods exist to derive these coefficients from experimental and numerical data, there are deficiencies that need to be addressed. In this study, a modular nonlinear parameter estimation (NPE) framework is proposed, which employs a neural network and Markov chain Monte Carlo (MCMC) algorithm to infer the dynamic stability coefficients and identify the uncertainties in the predictions. Given the sensitivity of Markov chains to initial chain location, the neural network is used to generate an initial sample for the first chain that will be used in the MCMC method, where the static and dynamic stability coefficients are estimated along with the uncertainties. The time histories of the moment and angle of attack obtained from computational fluid dynamics simulations with US3D are fed into the NPE framework to estimate the static and dynamic stability coefficients. The results show that the trajectories generated from the estimated coefficients agree with those obtained from the US3D simulations.",
+      "authors": [
+        "Furkan Oz",
+        "Shafi Al Salman Romeo",
+        "Ashraf Kassem",
+        "Dirk Ekelschot",
+        "Joseph Schulz",
+        "Cole Kazemba",
+        "Omer San",
+        "Kursat Kara"
+      ]
+    },
+    {
+      "title": "Multifidelity data fusion for analyzing dynamic stability of atmospheric entry vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-10-11",
+      "doi": "https://doi.org/10.1016/j.ast.2025.111049",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Computer science",
+        "Stability (learning theory)",
+        "Trajectory",
+        "Markov chain Monte Carlo",
+        "Nonlinear system",
+        "Range (aeronautics)",
+        "Uncertainty quantification"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shafi Al Salman Romeo",
+        "Ashraf Kassem",
+        "Barkha Tiwari",
+        "Omer San",
+        "Kursat Kara"
+      ]
+    },
+    {
+      "title": "Superresolving Non-linear PDE Dynamics with Reduced-Order Autodifferentiable Ensemble Kalman Filtering For Turbulence Modeling and Flow Regulation",
+      "publication_year": 2025,
+      "publication_date": "2025-09-15",
+      "doi": "https://doi.org/10.48550/arxiv.2509.12149",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.12149",
+      "concepts": [
+        "Data assimilation",
+        "Burgers' equation",
+        "Kalman filter",
+        "Chaotic",
+        "Attractor",
+        "Nonlinear system",
+        "Computer science",
+        "Enstrophy"
+      ],
+      "abstract": "Accurately reconstructing and forecasting high-resolution (HR) states from computationally cheap low-resolution (LR) observations is central to estimation-and-control of spatio-temporal PDE systems. We develop a unified superresolution pipeline based on the reduced-order autodifferentiable Ensemble Kalman filter (ROAD-EnKF). The method learns a low-dimensional latent dynamics model and a nonlinear decoder from latent variables to HR fields; the learned pair is embedded in an EnKF, enabling simultaneous state estimation and control-oriented forecasting with quantified uncertainty. We evaluate on three benchmarks: 1-D viscous Burgers equation (shock formation), Kuramoto-Sivashinsky (KS) equation (chaotic dynamics), and 2-D Navier-Stokes-Kraichnan turbulence (NSKT) (vortex decaying dynamics at Re 16,000). LR data are obtained by factors of 4-8 downsampling per spatial dimension and are corrupted with noise. On Burgers and KS, the latent models remain stable far beyond the observation window, accurately predicting shock propagation and chaotic attractor statistics up to 150 steps. On 2-D NSKT, the approach preserves the kinetic-energy spectrum and enstrophy budget of the HR data, in...",
+      "authors": [
+        "Mrigank Dhingra",
+        "Omer San"
+      ]
+    },
+    {
+      "title": "MSR-HINE-2D: Multiscale Recurrent Hierarchical Neural Emulator for 2D Kolmogorov Flow",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.5281/zenodo.20711365",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20711365",
+      "concepts": [
+        "Autoregressive model",
+        "Computer science",
+        "Path (computing)",
+        "Algorithm",
+        "Flow (mathematics)",
+        "Consistency (knowledge bases)",
+        "Chaotic",
+        "Artificial neural network"
+      ],
+      "abstract": "MSR-HINE-2D is a multiscale recurrent hierarchical neural emulator that stabilizes long-horizon autoregressive rollouts of chaotic PDEs. The method uses a modern 2D U-Net backbone with persistent multi-rate GRU latent states at medium and coarse spectral scales, benchmarked on 2D forced Kolmogorov flow (Re=4000, 256×256). Latent-state consistency is enforced only as a training loss; the inference path carries no posterior re-encoding, eliminating the circularity present in earlier HINE formulations.",
+      "authors": [
+        "Mrigank Dhingra",
+        "Omer San"
+      ]
+    }
+  ]
+}

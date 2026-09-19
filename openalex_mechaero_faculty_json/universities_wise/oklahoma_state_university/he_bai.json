@@ -1,0 +1,255 @@
+{
+  "faculty_name": "He Bai",
+  "full_name": "He Bai",
+  "department": "School of Mechanical and Aerospace Engineering",
+  "university": "Oklahoma State University",
+  "author_id": "A5040513070",
+  "works_count": 245,
+  "cited_by_count": 4351,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 41
+    },
+    {
+      "topic": "Adaptive Dynamic Programming Control",
+      "count": 27
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 25
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 22
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Cooperative Control Design: A Systematic, Passivity-Based Approach",
+      "publication_year": 2011,
+      "publication_date": "2011-06-16",
+      "doi": "https://doi.org/10.1007/978-1-4614-0014-1",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 200,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Passivity",
+        "Control theory (sociology)",
+        "Inertial frame of reference",
+        "Robustness (evolution)",
+        "Frame of reference",
+        "Adaptive control",
+        "Reference frame",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "He Bai",
+        "Murat Arcak",
+        "John T. Wen"
+      ]
+    },
+    {
+      "title": "Robust dynamic average consensus of time-varying inputs",
+      "publication_year": 2010,
+      "publication_date": "2010-12-01",
+      "doi": "https://doi.org/10.1109/cdc.2010.5717485",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 177,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Estimator",
+        "Initialization",
+        "Constant (computer programming)",
+        "Computation",
+        "Control theory (sociology)",
+        "Computer science",
+        "Mathematics",
+        "Mathematical optimization"
+      ],
+      "abstract": "We consider the dynamic average consensus problem in which each agent in a network has access to its own local input signal, but it must compute and track the average of all such inputs. Each agent communicates only with neighbors in the network, and local communication, computation and memory requirements should be independent of the number of the agents in the network. The Proportional-Integral (PI) estimator in guarantees zero steady-state error under constant inputs for constant, connected, and balanced networks, even in the presence of estimator initialization errors. In this work, we employ the internal model principle to generalize the PI estimator so that it achieves zero steady-state error for classes of time-varying inputs, including polynomial inputs of known order and sinusoidal inputs with known frequencies. Like the PI estimator, our new estimator is robust to initialization errors.",
+      "authors": [
+        "He Bai",
+        "Randy A. Freeman",
+        "Kevin Lynch"
+      ]
+    },
+    {
+      "title": "Nanocomposite hydrogels as multifunctional systems for biomedical applications: Current state and perspectives",
+      "publication_year": 2020,
+      "publication_date": "2020-07-07",
+      "doi": "https://doi.org/10.1016/j.compositesb.2020.108208",
+      "venue": "Composites Part B Engineering",
+      "type": "article",
+      "cited_by_count": 176,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Self-healing hydrogels",
+        "Nanocomposite",
+        "Materials science",
+        "Nanotechnology",
+        "Nanoparticle",
+        "Porosity",
+        "Composite material",
+        "Polymer chemistry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fazli Wahid",
+        "Xiangjun Zhao",
+        "Shiru Jia",
+        "He Bai",
+        "Cheng Zhong"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Robotic Kinematic Modeling and Deformation of Composite Laminates via Automated Fiber Placement Manufacturing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1080",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kinematics",
+        "Deformation (meteorology)",
+        "Stiffness",
+        "Materials science",
+        "Composite laminates",
+        "Mechanical engineering",
+        "Compaction",
+        "Composite number"
+      ],
+      "abstract": "Robotic arm-assisted Automated Fiber Placement (AFP) for advanced composite structure manufacturing typically relies on position-based kinematic motion to plan placement trajectories. After each ply is laid, the placement head is incrementally shifted upward by the prepreg thickness to place the next layer. However, uncured elastic prepreg tapes are prone to deformation, and non-uniform tooling surfaces can lead to variations in compaction pressure across the laid layers. With the accumulation of layers, such variations become more pronounced because of the variation in stiffness of placed materials, and maintaining a consistent force using a position-based approach becomes difficult. The inconsistent pressure often causes reduced tackiness at the interface between the tool surface and materials and plies, which causes the potential wrinkling, twisting, or shifting of the material during composite manufacturing. This paper proposes studying force control to maintain a consistent force applied to the material during material placement. To accurately represent real manufacturing conditions and design a force control approach during the fiber placement process, a Collaborative Robo...",
+      "authors": [
+        "Razaul Islam",
+        "Morton Prince",
+        "He Bai",
+        "Wei Zhao"
+      ]
+    },
+    {
+      "title": "Distributed Estimation and Fusion for Multi-Quadcopter Wind Field Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/tcst.2025.3647936",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kalman filter",
+        "Covariance intersection",
+        "Fuse (electrical)",
+        "Sensor fusion",
+        "Wind power",
+        "Covariance",
+        "Estimation",
+        "Fusion"
+      ],
+      "abstract": "Wind estimation can be widely used in the planning and control of uncrewed aerial systems and for meteorology and environmental studies. Fusion of wind estimates from multiple quadcopters can result in improved accuracy of wind estimation that may not be attainable by a single quadcopter. In this article, we consider a multi-quadcopter wind field estimation problem. We design an invariant extended Kalman filter (IEKF) and integrate it with a sequential covariance intersection (SCI) algorithm to fuse wind estimates from multiple quadcopters. We also develop baseline algorithms such as a least-squares method and a multiplicative-EKF (MEKF) SCI algorithm. The effectiveness of the proposed IEKF-SCI algorithm is compared with the baseline algorithms and demonstrated in simulations under various wind field models.",
+      "authors": [
+        "Hao Chen",
+        "He Bai"
+      ]
+    },
+    {
+      "title": "The Global, Regional, and National Economic Burden of Malignant Bone and Joint Neoplasms and Soft-Tissue and Other Extraosseous Sarcomas: A Health-Economic Modeling Study",
+      "publication_year": 2025,
+      "publication_date": "2025-12-09",
+      "doi": "https://doi.org/10.21203/rs.3.rs-8249604/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-8249604/latest.pdf",
+      "concepts": [
+        "Medicine",
+        "Soft tissue",
+        "Population",
+        "Gross domestic product",
+        "Health care",
+        "Disease burden",
+        "Purchasing power parity",
+        "Healthcare system"
+      ],
+      "abstract": "",
+      "authors": [
+        "J Zhang",
+        "Donghai Wang",
+        "Daqi Xin",
+        "He Bai"
+      ]
+    },
+    {
+      "title": "Nonlinear Mode and Koopman Participation Factor Analysis for Inverter Dominated Power Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-12-09",
+      "doi": "https://doi.org/10.1109/cdc57313.2025.11312451",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Control theory (sociology)",
+        "Computer science",
+        "Mode (computer interface)",
+        "Power (physics)",
+        "Electric power system",
+        "Stability (learning theory)",
+        "System dynamics"
+      ],
+      "abstract": "This paper presents a novel framework for identifying dominant nonlinear modes and their interactions in electric power systems with high penetration of inverter-based resources (IBRs), leveraging a Carleman linearization-based Koopman participation factor analysis. By capturing higher-order nonlinear dynamics and exposing the complex interactions between the states of the IBRs and those of the power system, this approach helps in characterizing the stability of the nonlinear model of the grid. The proposed methodology is validated on the IEEE-68 bus system, demonstrating its efficiency in quantifying the impact of IBRs on grid dynamics and stability, and providing actionable insights for the design of advanced control strategies to mitigate such nonlinear interactions.",
+      "authors": [
+        "Jishnudeep Kar",
+        "Aranya Chakrabortty",
+        "He Bai"
+      ]
+    },
+    {
+      "title": "Attack-Resilient Secondary Control in Microgrids Using a Reputation-Based Approach",
+      "publication_year": 2025,
+      "publication_date": "2025-11-03",
+      "doi": "https://doi.org/10.1109/gess67704.2025.11297184",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microgrid",
+        "Controller (irrigation)",
+        "Resilience (materials science)",
+        "Computer science",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Stability (learning theory)",
+        "Control engineering"
+      ],
+      "abstract": "This paper proposes a reputation-based distributed secondary controller for microgrids, designed to enhance resilience against cyber-attacks targeting both controllers and communication links. The control strategy operates through a four-phase framework: detection, mitigation, isolation, and update. Each phase contributes to isolating malicious distributed generations (DGs) and preventing the propagation of corrupted signals across the network. The effectiveness of the proposed controller is evaluated through simulations on a modified IEEE 16-bus microgrid comprising six DGs. Results from MATLAB/Simulink simulations confirm the controller’s ability to detect and mitigate both control-level and communication-level attacks, thereby maintaining system stability and ensuring secure operation.",
+      "authors": [
+        "Majid Dehghani",
+        "Hamidreza Nazaripouya",
+        "He Bai"
+      ]
+    }
+  ]
+}

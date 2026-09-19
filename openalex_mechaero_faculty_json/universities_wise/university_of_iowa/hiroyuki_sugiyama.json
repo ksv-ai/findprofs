@@ -1,0 +1,277 @@
+{
+  "faculty_name": "Hiroyuki Sugiyama",
+  "full_name": "Hiroyuki Sugiyama",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Iowa",
+  "author_id": "A5047424129",
+  "works_count": 229,
+  "cited_by_count": 3565,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 60
+    },
+    {
+      "topic": "Railway Engineering and Dynamics",
+      "count": 55
+    },
+    {
+      "topic": "Soil Mechanics and Vehicle Dynamics",
+      "count": 38
+    },
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 38
+    },
+    {
+      "topic": "Mechanical stress and fatigue analysis",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Chrono: An Open Source Multi-physics Dynamics Engine",
+      "publication_year": 2016,
+      "publication_date": "2016-01-01",
+      "doi": "https://doi.org/10.1007/978-3-319-40361-8_2",
+      "venue": "Lecture notes in computer science",
+      "type": "conference-paper",
+      "cited_by_count": 269,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Physics engine",
+        "Software",
+        "Finite element method",
+        "Open source software",
+        "Dynamics (music)",
+        "Open source",
+        "License"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alessandro Tasora",
+        "Radu Serban",
+        "Hammad Mazhar",
+        "Arman Pazouki",
+        "Daniel Melanz",
+        "Jonathan Fleischmann",
+        "Michael Taylor",
+        "Hiroyuki Sugiyama",
+        "Dan Negruţ"
+      ]
+    },
+    {
+      "title": "Railroad Vehicle Dynamics: A Computational Approach",
+      "publication_year": 2007,
+      "publication_date": "2007-07-23",
+      "doi": "http://203.131.219.242/cdm/ref/collection/ebook/id/2921",
+      "venue": "Thammasat University Digital Collections",
+      "type": "article",
+      "cited_by_count": 266,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multibody system",
+        "Vehicle dynamics",
+        "Computer science",
+        "Derailment",
+        "Computational model",
+        "Nonlinear system",
+        "Engineering",
+        "Systems engineering"
+      ],
+      "abstract": "The methods of computational mechanics have been used extensively in modeling many physical systems. The use of multibody-system techniques, in particular, has been applied successfully in the study of various, fundamentally different applications. Railroad Vehicle Dynamics: A Computational Approach presents a computational multibody-system approach that can be used to develop complex models of railroad vehicle systems. The book examines several computational multibody-system formulations and discusses their computer implementation. The computational algorithms based on these general formulations can be used to develop general- and special-purpose railroad vehicle computer programs for use in the analysis of railroad vehicle systems, including the study of derailment and accident scenarios, design issues, and performance evaluation. The authors focus on the development of fully nonlinear formulations, supported by an explanation of the limitations of the linearized formulations that are frequently used in the analysis of railroad vehicle systems. The chapters of the book are organized to guide readers from basic concepts and definitions through a final understanding of the utili...",
+      "authors": [
+        "Ahmed A. Shabana",
+        "Khaled E. Zaazaa",
+        "Hiroyuki Sugiyama"
+      ]
+    },
+    {
+      "title": "Review on the Absolute Nodal Coordinate Formulation for Large Deformation Analysis of Multibody Systems",
+      "publication_year": 2013,
+      "publication_date": "2013-03-21",
+      "doi": "https://doi.org/10.1115/1.4023487",
+      "venue": "Journal of Computational and Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 235,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Finite element method",
+        "Multibody system",
+        "Coordinate system",
+        "Parameterized complexity",
+        "Nonlinear system",
+        "Constraint (computer-aided design)",
+        "Coordinate space",
+        "Rotor (electric)"
+      ],
+      "abstract": "The aim of this study is to provide a comprehensive review of the finite element absolute nodal coordinate formulation, which can be used to obtain efficient solutions to large deformation problems of constrained multibody systems. In particular, important features of different types of beam and plate elements that have been proposed since 1996 are reviewed. These elements are categorized by parameterization of the elements (i.e., fully parameterized and gradient deficient elements), strain measures used, and remedies for locking effects. Material nonlinearities and the integration of the absolute nodal coordinate formulation to general multibody dynamics computer algorithms are addressed with particular emphasis on visco-elasticity, elasto-plasticity, and joint constraint formulations. Furthermore, it is shown that the absolute nodal coordinate formulation has been applied to a wide variety of challenging nonlinear dynamics problems that include belt drives, rotor blades, elastic cables, leaf springs, and tires. Unresolved issues and future perspectives of the study of the absolute nodal coordinate formulation are also addressed in this investigation.",
+      "authors": [
+        "Johannes Gerstmayr",
+        "Hiroyuki Sugiyama",
+        "Aki Mikkola"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Predicting Vehicle–Water Interaction in Shallow Water: Simulations and Experimental Validation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-19",
+      "doi": "https://doi.org/10.1115/1.4071177",
+      "venue": "Journal of Computational and Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Flume",
+        "Transient (computer programming)",
+        "Computational model",
+        "Marine engineering",
+        "Waves and shallow water",
+        "Experimental data",
+        "Engineering"
+      ],
+      "abstract": "Abstract Accurate prediction of coupled vehicle–water interaction is crucial for assessing vehicle mobility in complex water environments, including river crossings and water fording. For this purpose, various computational models have been proposed to predict vehicle–fluid interactions using coupled multibody dynamics and computational fluid dynamics (CFD) solvers, as well as emerging data-driven approaches to replace computationally intensive CFD models. Despite advances in computational approaches for modeling vehicle–fluid interactions, only limited studies have been conducted regarding the validation of the models in real physical settings. There are few or no experimental data available to characterize hydrodynamic loads for the evaluation of transient vehicle responses in shallow water. Therefore, this study presents the validation of the physics-based and data-driven coupled vehicle–water interaction models using a model-scale vehicle operated in shallow water. To this end, transient vehicle cornering responses in shallow water, predicted by both physics-based and data-driven models, are compared with those from free-running vehicle experiments conducted in a shallow wat...",
+      "authors": [
+        "Hao He",
+        "Daniel Matthew",
+        "Hiroki Yamashita",
+        "Casey Harwood",
+        "Michael Swafford",
+        "J. Ezequiel Martín",
+        "Arkady Grunin",
+        "Nathan Tison",
+        "Paramsothy Jayakumar",
+        "Hiroyuki Sugiyama"
+      ]
+    },
+    {
+      "title": "Modeling of Vehicle Mobility in Shallow Water With Data-Driven Hydrodynamics Model",
+      "publication_year": 2024,
+      "publication_date": "2024-02-29",
+      "doi": "https://doi.org/10.1115/1.4064971",
+      "venue": "Journal of Computational and Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Computer science",
+        "Waves and shallow water",
+        "Fidelity",
+        "Flow (mathematics)",
+        "High fidelity",
+        "Water model",
+        "Simulation"
+      ],
+      "abstract": "Abstract In this study, a data-driven hydrodynamics model is proposed to enable quick prediction of vehicle mobility in shallow water, considering the effect of tire–soil interaction. To this end, a high-fidelity coupled vehicle–water interaction model using computational fluid dynamics (CFD) and multibody dynamics (MBD) solvers is developed to characterize the hydrodynamic loads exerted on a vehicle operated in shallow water, and it is used to generate training data for the data-driven hydrodynamics model. To account for the history-dependent hydrodynamic behavior, a long short-term memory (LSTM) neural network is introduced to incorporate effects of the historical variation of vehicle motion states as the input to the data-driven model, and it is used to predict hydrodynamic loads online exerted on vehicle components in the MBD mobility simulation. The impacts of hydrodynamic loads on the vehicle mobility capability in shallow water are examined for different water depths and incoming flow speeds using the high-fidelity coupled CFD-MBD model. Furthermore, it is demonstrated that the vehicle–water interaction behavior in scenarios not considered in the training data can be pred...",
+      "authors": [
+        "Hiroki Yamashita",
+        "J. Ezequiel Martín",
+        "Nathan Tison",
+        "Arkady Grunin",
+        "Paramsothy Jayakumar",
+        "Hiroyuki Sugiyama"
+      ]
+    },
+    {
+      "title": "A Multi-domain Simulation Framework for Modeling an Aircraft Ejection Event",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.2514/6.2024-0049",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Discrete event simulation",
+        "Domain (mathematical analysis)",
+        "Event (particle physics)",
+        "Simulation",
+        "Physics",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "The ejection of a pilot from an aircraft is a complex, multi-step process where multiple forces such as seat ejection forces, aerodynamic forces, drogue chute forces and parachute forces act on the seat-manikin system. This paper describes a modeling approach to capture the response of the seat-manikin system under these forces. The goal of the modeling methodology is to provide a numerical framework to capture manikin response, specifically the articulation of the neck and spine to assess the potential for injury to a pilot. A model of a manikin, derived from the LSTC Hybrid III manikin, along with a simplified FE model of an ejection seat were used to simulate a seat-manikin ejection process. Accelerations from test data and also from numerical code were applied to simulate 0-0 ejection events. Neck-base accelerations from this model were applied to a head-neck model in a dynamics code IMBD to predict neck injury. Simultaneously, a fluid-structure interaction model with the manikin, including visor and helmet, ejection seat and safety features was developed. Models were validated with test data and results are described. This modeling framework will be developed further to inc...",
+      "authors": [
+        "Sreenivasa Voleti",
+        "Angus L. McLean",
+        "Eric H. Upchurch",
+        "John L. Hampton",
+        "Hiroyuki Sugiyama",
+        "Himmelman A. Richard"
+      ]
+    },
+    {
+      "title": "Predicting Vehicle Motion in Shallow Water with Data-Driven Hydrodynamics Model",
+      "publication_year": 2023,
+      "publication_date": "2023-08-20",
+      "doi": "https://doi.org/10.1115/detc2023-115254",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Waves and shallow water",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Moment (physics)",
+        "Shallow water equations",
+        "High fidelity",
+        "Speedup"
+      ],
+      "abstract": "Abstract In this study, a numerical procedure for predicting vehicle mobility in shallow water is proposed with the data-driven hydrodynamic force and moment model. To this end, the high-fidelity coupled CFD-MBD model is developed to characterize the hydrodynamic loads exerted on the vehicle in shallow water and used to generate the training dataset for the proposed data-driven model. The neural networks are called from the MBD mobility solver every time step to determine the hydrodynamic loads, given the current vehicle motion states and water conditions, allowing for predicting the transient responses of the vehicle interacting with shallow water. It is demonstrated by several numerical examples that the complex vehicle-water interaction behavior was accurately predicted by the proposed data-driven hydrodynamics model while achieving a substantial computational speedup.",
+      "authors": [
+        "Hiroki Yamashita",
+        "J. Ezequiel Martín",
+        "Hiroyuki Sugiyama",
+        "Nathan Tison",
+        "Arkady Grunin",
+        "Paramsothy Jayakumar"
+      ]
+    },
+    {
+      "title": "Experimental Validation of Wheel Wear Prediction Using On-Track Tests and Simulations of Railroad Vehicles",
+      "publication_year": 2026,
+      "publication_date": "2026-02-19",
+      "doi": "https://doi.org/10.1115/1.4071178",
+      "venue": "Journal of Computational and Nonlinear Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flange",
+        "Tread",
+        "Automotive engineering",
+        "Track (disk drive)",
+        "Axle",
+        "Structural engineering",
+        "Engineering",
+        "Contact force"
+      ],
+      "abstract": "Abstract In this study, wear prediction capability for railroad wheels is validated against on-track vehicle test data. To this end, wear tests are conducted on a loop track using a freight train. The wear rates for the wheel tread and flange on multiple curves are identified using material losses from the measured wheel profiles and the wheel–rail contact information obtained from the multibody vehicle simulation on each curve. The averaged wear rate is then used for the wear prediction model. The worn wheel profiles predicted by the wear simulation agree well with the test data not considered in the wear rate identification process. Furthermore, using the validated wear simulation model for the test vehicle, a procedure for evaluating wheel profile wear with a 1:10 scaled roller test rig is proposed, considering the on-track vehicle test conditions. For this, the angle of attack and derailment coefficients of the first axle are utilized as input for the scale roller test rig. It is shown that incorporating the continuous change in the contact force characteristics caused by wear evolution is critical in replicating the wheel–rail contact behavior in on-track vehicle operations...",
+      "authors": [
+        "Hiroki Yamashita",
+        "Yosuke Yamazaki",
+        "Takanori Kato",
+        "Takahiro Fujimoto",
+        "Osamu Kondo",
+        "Hiroyuki Sugiyama"
+      ]
+    }
+  ]
+}

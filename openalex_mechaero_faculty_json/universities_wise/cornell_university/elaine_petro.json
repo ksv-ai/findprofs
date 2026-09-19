@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Elaine Petro",
+  "full_name": "Elaine Petro",
+  "department": "Sibley School of Mechanical and Aerospace Engineering",
+  "university": "Cornell University",
+  "author_id": "A5082232017",
+  "works_count": 76,
+  "cited_by_count": 347,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 47
+    },
+    {
+      "topic": "Mass Spectrometry Techniques and Applications",
+      "count": 37
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 22
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 9
+    },
+    {
+      "topic": "Ion-surface interactions and analysis",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Multiscale modeling of electrospray ion emission",
+      "publication_year": 2022,
+      "publication_date": "2022-05-16",
+      "doi": "https://doi.org/10.1063/5.0065615",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": true,
+      "oa_url": "https://aip.scitation.org/doi/pdf/10.1063/5.0065615",
+      "concepts": [
+        "Electrospray",
+        "Ion",
+        "Materials science",
+        "Electrohydrodynamics",
+        "Molecular dynamics",
+        "Analytical Chemistry (journal)",
+        "Chemical physics",
+        "Chemistry"
+      ],
+      "abstract": "A multi-scale approach to electrospray ion source modeling has been developed. The evolution of a single-emitter electrospray plume in a pure ionic regime is simulated with a combination of electrohydrodynamic fluids and n-body particle modeling. Simulations are performed for the ionic liquid, EMI-BF4, firing in a positive pure-ion mode. The metastable nature of ion clusters is captured using an ion fragmentation model informed by molecular dynamics simulations and experimental data. Results are generated for three operating points (120, 324, and 440 nA) and are used to predict performance relevant properties, such as the divergence angle and the extractor surface impingement rate. Comparisons to experimental data recorded at similar operating points are provided.",
+      "authors": [
+        "Elaine Petro",
+        "Ximo Gallud",
+        "Sebastian K. Hampl",
+        "Madeleine Schroeder",
+        "Carl J. Geiger",
+        "Paulo Lozano"
+      ]
+    },
+    {
+      "title": "Effects of Water-Vapor Propellant on Electrodeless Thruster Performance",
+      "publication_year": 2017,
+      "publication_date": "2017-04-24",
+      "doi": "https://doi.org/10.2514/1.b36389",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 36,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propellant",
+        "Ionization",
+        "Materials science",
+        "Water vapor",
+        "Specific impulse",
+        "Argon",
+        "Atomic physics",
+        "Electron ionization"
+      ],
+      "abstract": "The performance of an electrodeless thruster operating on water-vapor propellant is evaluated and compared to noble-gas propellants. Cross-section data for electron interactions in water vapor are employed to predict the ionization cost as a function of electron temperature. The ionization cost model incorporates energy-loss mechanisms such as dissociation and excitation of rotational modes that are not present for noble-gas propellants. The ionization cost for water is compared to that of traditional noble-gas propellants, such as argon. The characteristics of a water-vapor plasma sheath are discussed and incorporated, along with the ionization cost, into an overall thrust efficiency analysis. Results indicate that comparable performance can be attained for sufficiently high electron temperatures.",
+      "authors": [
+        "Elaine Petro",
+        "Raymond J. Sedwick"
+      ]
+    },
+    {
+      "title": "Characterization of the TILE Electrospray Emitters",
+      "publication_year": 2020,
+      "publication_date": "2020-08-17",
+      "doi": "https://doi.org/10.2514/6.2020-3612",
+      "venue": "AIAA Propulsion and Energy 2020 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 33,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tile",
+        "Propulsion",
+        "Chip",
+        "Electrospray",
+        "Aerospace engineering",
+        "Common emitter",
+        "Spacecraft",
+        "Specific impulse"
+      ],
+      "abstract": "Accion Systems' TILE electrospray thrusters, a microfabricated propulsion system for small satellites, has been characterized at the MIT Space Propulsion Laboratory. A suite of diagnostic instruments including a time-of-flight mass spectrometer and a retarding potential analyzer are used to estimate the thrust, specific impulse, and efficiency of an individual emitter chip from measured beam properties of two test articles. These results are combined and analyzed to predict overall performance for the thruster chip device at several operating points",
+      "authors": [
+        "Elaine Petro",
+        "Amelia Bruno",
+        "Paulo Lozano",
+        "Louis Perna",
+        "Dakota Freeman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Secondary species formed from ionic liquid electrospray ion plume impacts with propellant thin films",
+      "publication_year": 2026,
+      "publication_date": "2026-03-26",
+      "doi": "https://doi.org/10.1088/1361-6463/ae57b7",
+      "venue": "Journal of Physics D Applied Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6463/ae57b7/pdf",
+      "concepts": [
+        "Analytical Chemistry (journal)",
+        "Electrospray",
+        "Ion",
+        "Secondary ion mass spectrometry",
+        "Ionic liquid",
+        "Mass spectrometry",
+        "Chemistry",
+        "Materials science"
+      ],
+      "abstract": "Abstract The operational lifetime of ionic liquid electrospray propulsion systems is limited by plume–extractor electrode interactions. Over time, propellant accumulation, surface erosion, and electrical shorts degrade the extractor and therefore restrict the total impulse throughput. Characterizing the secondary species generated by plume impacts with deposited ionic liquid is therefore essential to understanding and mitigating these degradation pathways. A surface analysis technique known as time-of-flight secondary ion mass spectrometry (TOF-SIMS), in the form of a custom electrospray laboratory diagnostic and an analytical-grade system, yields a comprehensive analysis of secondary ions formed from energetic ion beam impacts with ionic liquid thin-film substrates. Results revealed nearly identical positive secondary ion species for both EMI-BF 4 and EMI-Im thin films, whereas EMI-Im produced a more diverse set of negative ions consistent with the greater chemical complexity of its anion. The analytical-grade SIMS spectra revealed many relatively high mass-to-charge ratio secondary ions likely below the detection limit for the laboratory diagnostic, thus shifting the average m...",
+      "authors": [
+        "Giuliana C. Hofheins",
+        "Aleksandra Barbara Biedron",
+        "Elaine Petro"
+      ]
+    },
+    {
+      "title": "Ab initio simulations of EMI-BF4 neutral-surface interactions in electrospray thrusters",
+      "publication_year": 2026,
+      "publication_date": "2026-03-16",
+      "doi": "https://doi.org/10.1063/5.0316584",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0316584",
+      "concepts": [
+        "Atomic physics",
+        "Kinetic energy",
+        "Ion",
+        "Chemistry",
+        "Molecular physics",
+        "Chemical physics",
+        "Mass spectrometry",
+        "Coulomb explosion"
+      ],
+      "abstract": "Electrospray thrusters promise compact, high specific impulse propulsion for small spacecraft, yet ground characterization remains confounded by secondary species emission and incomplete diagnostics of neutral products. To address these limitations, we perform energy-resolved mixed quantum/classical ab initio molecular dynamics of neutral 1-ethyl-3-methylimidazolium tetrafluoroborate colliding with Au extractor surfaces with impact energies from 10 to 100 eV to resolve fragment species spectra, charge states, kinetic energy partitioning, and scattering geometry. The simulations reveal a three-stage sequence with impact energy: the low energy regime, 10–20 eV, which favors ionic dissociation; intermediate energy regime, between 30 and 40 eV, opens a neutralization window; and high energy regime, greater than 50 eV, drives covalent fragmentation into many light products with mixed charge states. Fractional energy distributions show a transition from few-body, energy-concentrated outcomes in the low energy regime to many-body, energy-dispersed outcomes in the high energy regime. Deflection angle distributions exhibit a strong mass-to-angle anti-correlation such that heavier fragmen...",
+      "authors": [
+        "Nicholas Laws",
+        "Elaine Petro"
+      ]
+    },
+    {
+      "title": "Searching for Ariel’s Aliens with the CRISPI (Compositional Regolith and Icy Surface analysis via Particle Impact) Mass Spectrometer SmallSat Flyby Mission",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.22541/essoar.176824622.20523635/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.22541/essoar.176824622.20523635/v1",
+      "concepts": [
+        "Regolith",
+        "Uranus",
+        "Astrobiology",
+        "Orbiter",
+        "Icy moon",
+        "Particle (ecology)",
+        "Astronomy",
+        "Physics"
+      ],
+      "abstract": "CRISPI (Compositional Regolith and Icy Surface analysis via Particle Impact) is a proposed ridealong in-situ mass spectrometer (MS) smallsat mission to provide synergistic astrobiology science at Ariel to the Uranus Orbiter and Probe (UOP) mission. By utilizing a high-resolution impact ionization MS based on the Europa Clipper’s Surface Dust Analyzer on a deployable smallsat platform, CRISPSI will provide in-situ mass data of the surface of Ariel, a moon of Uranus and one of the highest-priority astrobiology targets in the outer solar system. Ariel is specifically called out in the Origins, Worlds, and Life (OWL) Decadal Survey as a high-priority target because it is potentially a liquid-water-bearing icy ocean world that is known to have ammonia, an organic volatile species that indicates recent surface processing (possibly from cryovolcanism or other subsurface sources) and may act as an anti-freeze for water. However, the baseline UOP mission has few flybys of Ariel with limited compositional data provided only by optical spectrometers. CRISPI addresses this gap by enabling the direct and unambiguous detection of organics and salts present in and the quantification of ice-to-...",
+      "authors": [
+        "Zach Ulibarri",
+        "Saima Jamal",
+        "Ashin Alex",
+        "Lucas Arzoumanian",
+        "Ramchander Rao Bhaskara",
+        "A. Chadwick",
+        "Sneha Gayen",
+        "Kyungmin Kim",
+        "Mark Lohatepanont",
+        "Preeti Nair",
+        "Kenia Nova",
+        "Carlos Oliveira",
+        "Adam Parks",
+        "Rachel Pride",
+        "Suraj Singh",
+        "Abdul Sessay",
+        "Joshua S. Umansky-Castro",
+        "Lucien Volk",
+        "Eric Yablonski",
+        "Martin Zhou",
+        "Elaine Petro",
+        "Mason A. Peck",
+        "D Savransky",
+        "Fabien Royer",
+        "Andrew van Paridon"
+      ]
+    },
+    {
+      "title": "Machine Learning to Predict Ionic Liquid Propellant Properties",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1399",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Principal component analysis",
+        "Principal component regression",
+        "Kernel (algebra)",
+        "Ionic liquid",
+        "Electrospray ionization",
+        "Electrospray",
+        "Artificial intelligence",
+        "Chemistry"
+      ],
+      "abstract": "The efficiency of ion emission from electrospray ionization sources is fundamentally constrained by the binding energy between the ionic liquid (IL) cation and anion. High binding energies favor the ejection of clusters and droplets, reducing the achievable specific impulse, while low binding energies promote the formation of a pure-ion beam. Density functional theory (DFT) provides accurate ion-pair energetics but is too computationally expensive for large-scale screening of IL propellants. In this work, we develop a machine learning (ML) framework capable of predicting DFT-calculated ion-pair binding energies directly from the SMILES representations of the constituent ions. Dimensionality-reduced features obtained via principal component analysis (PCA) were used to train two regressors: Ridge regression and kernel Ridge regression. Kernel Ridge regression achieved the better performance, with a coefficient of determination (R²) of 0.4, and a Spearman’s rank correlation coefficient of 0.9 with ten principal components. An R² value of 0.4 is still considered weak, which can be attributed to the size of the training set (only 20 data points). While there is room for improvement i...",
+      "authors": [
+        "Abu Taqui Md Tahsin",
+        "Paul Trusov",
+        "Abderrahim R. Bendimerad",
+        "Elaine Petro"
+      ]
+    },
+    {
+      "title": "Kinetic Plume Modeling of Electrospray Ion Sources With Emitter and Extractor Defects",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2321",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plume",
+        "Common emitter",
+        "Materials science",
+        "Surface roughness",
+        "Kinetic energy",
+        "Ion",
+        "Electrospray",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "Manufacturing variations and surface defects in electrospray ion sources contribute to performance degradation and reduced device lifetime, yet their quantitative impact on plume characteristics remains poorly understood. This work presents a coupled modeling approach that integrates 2D axisymmetric electrohydrodynamic solutions with fully 3D kinetic particle simulations to investigate how emitter-extractor concentricity errors and off-apex emission site formation affect plume divergence, thrust vector alignment, and extractor impingement. A meniscus distortion methodology is developed to approximate physically consistent fluid surfaces in non-axisymmetric electric fields while preserving the emission site topology within 200 nm of the apex. Simulations were conducted for a single EMI – BF4 ion source operating at 1900 V with concentricity errors from 0 to 80 μm and emission site offsets from 0 to 12 μm. Results demonstrate that emission site location dominates extractor impingement behavior: a 12 μm offset increases intercepted mass fraction from 0.15% to 4% and produces thrust misalignment of 33°, whereas an 80 μm concentricity error yields only 5.1◦ misalignment with no signi...",
+      "authors": [
+        "Adler Smith",
+        "Alice S. Park",
+        "Elaine Petro"
+      ]
+    }
+  ]
+}

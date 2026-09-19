@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Brian Thurow",
+  "full_name": "Brian Thurow",
+  "department": "Department of Aerospace Engineering",
+  "university": "Auburn University",
+  "author_id": "A5045194119",
+  "works_count": 210,
+  "cited_by_count": 2478,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 116
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 52
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 38
+    },
+    {
+      "topic": "Advanced Vision and Imaging",
+      "count": 31
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Volumetric particle image velocimetry with a single plenoptic camera",
+      "publication_year": 2015,
+      "publication_date": "2015-09-29",
+      "doi": "https://doi.org/10.1088/0957-0233/26/11/115201",
+      "venue": "Measurement Science and Technology",
+      "type": "article",
+      "cited_by_count": 180,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle image velocimetry",
+        "Particle tracking velocimetry",
+        "Single camera",
+        "Velocimetry",
+        "Particle (ecology)",
+        "Computer vision",
+        "Image (mathematics)",
+        "Optics"
+      ],
+      "abstract": "A novel three-dimensional (3D), three-component (3C) particle image velocimetry (PIV) technique based on volume illumination and light field imaging with a single plenoptic camera is described. A plenoptic camera uses a densely packed microlens array mounted near a high resolution image sensor to sample the spatial and angular distribution of light collected by the camera. The multiplicative algebraic reconstruction technique (MART) computed tomography algorithm is used to reconstruct a volumetric intensity field from individual snapshots and a cross-correlation algorithm is used to estimate the velocity field from a pair of reconstructed particle volumes. This work provides an introduction to the basic concepts of light field imaging with a plenoptic camera and describes the unique implementation of MART in the context of plenoptic image data for 3D/3C PIV measurements. Simulations of a plenoptic camera using geometric optics are used to generate synthetic plenoptic particle images, which are subsequently used to estimate the quality of particle volume reconstructions at various particle number densities. 3D reconstructions using this method produce reconstructed particles that...",
+      "authors": [
+        "Timothy W. Fahringer",
+        "Kyle P. Lynch",
+        "Brian Thurow"
+      ]
+    },
+    {
+      "title": "Large-scale structure evolution and sound emission in high-speed jets: real-time visualization with simultaneous acoustic measurements",
+      "publication_year": 2005,
+      "publication_date": "2005-11-18",
+      "doi": "https://doi.org/10.1017/s002211200500666x",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 176,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Turbulence",
+        "Jet (fluid)",
+        "Noise (video)",
+        "Jet noise",
+        "Physics",
+        "Mach number",
+        "Flow visualization"
+      ],
+      "abstract": "This investigation presents a unique and elaborate set of experiments relating the generation of noise to the evolution of large-scale turbulence structures within an ideally expanded, Mach 1.28, high-Reynolds-number $(1.03\\,{\\times}\\,10^{6})$ jet. The results appear to indicate many similarities between the noise generation processes of high-speed low-Reynolds-number and high-speed high-Reynolds-number jets. Similar to the rapid changes observed in theregion of noise generation in low-Reynolds-number jets in previous experimental and computational work, a series of robust flow features formed approximately one convective time scale before noise emission and then rapidly disintegrated shortly before the estimated moment of noise emission. Coincident with the disintegration, a positive image intensity fluctuation formed at the jet centreline in a region that is immediately past the endof the potential core. This indicates mixed fluid had reached the jet core. These results are consistent with the formation of large-scale structures within the shear layer, which entrain ambient air into the jet, and their eventual interaction and disintegration apparently result in noise generatio...",
+      "authors": [
+        "James Hileman",
+        "Brian Thurow",
+        "E. Caraballo",
+        "Mo Samimy"
+      ]
+    },
+    {
+      "title": "Review of ultra-high repetition rate laser diagnostics for fluid dynamic measurements",
+      "publication_year": 2012,
+      "publication_date": "2012-10-29",
+      "doi": "https://doi.org/10.1088/0957-0233/24/1/012002",
+      "venue": "Measurement Science and Technology",
+      "type": "article",
+      "cited_by_count": 135,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/0957-0233/24/1/012002/pdf",
+      "concepts": [
+        "Optics",
+        "Laser",
+        "Particle image velocimetry",
+        "Velocimetry",
+        "Materials science",
+        "Laser Doppler velocimetry",
+        "Pulse (music)",
+        "Flow visualization"
+      ],
+      "abstract": "Recent advances in ultra-high repetition rate (100 kHz and above) laser diagnostics for fluid dynamic measurements are reviewed. The development of the pulse burst laser system, which enabled several of these advances, is described. The pulse burst laser system produces high repetition rate output by slicing the output of a low power continuous wave laser and passing the resulting burst of pulses through a series of pulsed Nd:YAG amplifiers. Several systems have been built with output approaching 1.0 J/pulse over bursts of up to 100 pulses generated at between 50 and 1000 kHz. Combined with the capabilities of several types of commercially available high-speed cameras, these systems have been used to make a wide variety of high repetition rate and 3D flow measurements. Several examples of various high repetition rate laser diagnostics are described, including flow visualization, filtered Rayleigh scattering, planar Doppler velocimetry, particle image velocimetry, planar laser induced fluorescence, molecular tagging velocimetry and 3D flow visualization.",
+      "authors": [
+        "Brian Thurow",
+        "Naibo Jiang",
+        "Walter Lempert"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Adaptation and validation of physics-informed neural networks for rotating 3D velocimetry",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1007/s00348-026-04203-4",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s00348-026-04203-4",
+      "concepts": [
+        "Particle image velocimetry",
+        "Computer science",
+        "Stereoscopy",
+        "Particle tracking velocimetry",
+        "Velocimetry",
+        "Computer vision",
+        "Artificial intelligence",
+        "Frame (networking)"
+      ],
+      "abstract": "Abstract Physics-informed neural networks (PINNs) are adapted and experimentally validated for rotating three-dimensional velocimetry (R3DV). Through the application of plenoptic imaging, R3DV enables the capture of time-resolved three-dimensional/three-component (3D/3C) velocity fields in the rotating frame of reference but suffers from anisotropic uncertainty due to the plenoptic camera’s limited baseline parallax. PINNs offer a means to regularize noisy measurements by enforcing physics-based constraints. Through validation against high resolution stereoscopic particle image velocimetry (stereo-PIV), we demonstrate that integrating PINNs with plenoptic particle tracking velocimetry (PTV) significantly improves estimations of depthwise motion. Across a range of Rossby numbers (2−4.5, $$\\infty $$ ∞ ), the out-of-plane velocity error is reduced by an average of 72.6 $$\\%$$ % relative to plenoptic-PTV. In addition, the influence of several design considerations and hyperparameters are explored and we identify critical adjustments to conventional PINN configurations that aid in mitigating errors inherent to plenoptic-PTV, namely: (1) balance of the objective function in proportion...",
+      "authors": [
+        "Mahyar Moaven",
+        "Abbishek Gururaj",
+        "Vrishank Raghav",
+        "Brian Thurow"
+      ]
+    },
+    {
+      "title": "An Investigation Into Neural Radiance Fields for Spray Reconstruction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1317",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Injector",
+        "Radiance",
+        "Artificial neural network",
+        "Optics",
+        "Volume (thermodynamics)",
+        "Work (physics)",
+        "Artificial intelligence",
+        "Computer science"
+      ],
+      "abstract": "Two-phase impinging injector sprays were reconstructed, in 3D, using the novel view synthesis method, Neural Radiance Fields (NeRF). This reconstruction technique utilizes a deep neural network to represent a 3D scene and is applied here to qualitatively visualize the sprays of two types of injector geometries imaged with an array of 18 cameras and pulsed LED illumination. Pentad and triplet injectors were used to produce sample data at four pressure drop values, 40, 100, 150, and 200 psi. NeRF shows significant potential as a 3D spray reconstruction method due to its ability to discern between areas dense with liquid and areas with little to no liquid revealing the asymmetric 3D topology of the different injector types. It also demonstrated the ability to reconstruct large individual droplets. The long-term potential of NeRF to be adapted for quantitative spray measurements is partially motivated by the use of an optical density parameter and Beer-Lambert law in the training of the network as a means to locate objects in a scene. Although the use of the optical density parameter in this work was contrived (i.e. used for convenience and not rigorously grounded in the physics of ...",
+      "authors": [
+        "Murphy Mitchell",
+        "Peter Mouaikel",
+        "David Scarborough",
+        "Brian Thurow"
+      ]
+    },
+    {
+      "title": "Development of Tomographic Reconstruction Method for MTV using Neural Radiance Fields",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2100",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radiance",
+        "Computer vision",
+        "Calibration",
+        "Computer science",
+        "Tomographic reconstruction",
+        "Artificial intelligence",
+        "Iterative reconstruction",
+        "Noise (video)"
+      ],
+      "abstract": "This work explores the use of a Neural Radiance Field–based tomographic reconstruction approach for 3D Molecular TaggingVelocimetry (MTV) measurements obtained with a plenoptic camera. Conventional tomographic reconstruction typically relies on voxel-based iterative algorithms, which can be sensitive to discretization, noise, and limited angular sampling. Here, the FluidNeRF framework is adapted to the Plenoptic 3.0 (Fourier Integral Microscope) imaging geometry by implementing an orthographic ray model and incorporating the elemental-image affine calibration directly into the reconstruction. The method is applied to an MTV dataset acquired in an axisymmetric stagnation jet experiment, consisting of 19 elemental images captured from a single camera. Three dimensional MTV intensity fields reconstructed using FluidNeRF are compared with results obtained using Richardson–Lucy Deconvolution. Both approaches recover the expected beamlet arrangement and its depth-dependent behavior. However, the FluidNeRF reconstructions exhibit reduced background noise and smoother beamlet representations, particularly in regions where the tagged signal is weak. These results indicate that neural imp...",
+      "authors": [
+        "Sandra H. Halder",
+        "Mark J. Yamakaitis",
+        "Bibek Sapkota",
+        "Charles Fort",
+        "Philippe M. Bardet",
+        "Brian Thurow"
+      ]
+    },
+    {
+      "title": "Neural Network-Based Predictions of Crater Evolution During Plume Surface Interaction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2154",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Impact crater",
+        "Plume",
+        "Geology",
+        "Volume (thermodynamics)",
+        "Martian",
+        "Scaling",
+        "Geophysics",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Supersonic rocket exhaust plumes impinging on Lunar and Martian surfaces mobilize regolith and form craters whose evolution is strongly dependent on plume characteristics and ambient conditions. This study examines crater formation and temporal evolution in plume-surface interaction (PSI) using the data from Physics Focused Ground Test (PFGT) experiments conducted in NASA Marshall’s 15-ft vacuum chamber under various mass flow rate (\\(\\dot{m}\\)), ambient pressure (\\(p_{amb}\\)), and nozzle height (\\(h/d_e\\)). Crater edges and their time evolution are extracted from high-speed videos using a U-Net–based convolutional neural network, enabling robust reconstruction of crater geometry. The resulting crater volume time evolution exhibits regime-dependent transitions, e.g., annular to parabolic, parabolic to conical–parabolic, etc., whose onset varies with operating conditions. Polynomial feature maps are employed to model crater volume evolution. Single-parameter coefficient-based models are first used to assess crater-volume scaling when only one operating parameter is varied, demonstrating reduced predictive accuracy in transitional regimes. A feedforward neural network with a polyn...",
+      "authors": [
+        "Srijan Satyal",
+        "Vikas N. Bhargav",
+        "Brian Thurow",
+        "David Scarborough",
+        "Vrishank Raghav",
+        "Nek Sharan"
+      ]
+    },
+    {
+      "title": "Effect of Plume Conditions and Granular Bed Properties on the Temporal Transitions in Mechanisms Driving Plume-Surface Interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2830",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Impact crater",
+        "Plume",
+        "Geology",
+        "Transition zone",
+        "Granular material",
+        "Mechanics",
+        "Erosion",
+        "Mechanism (biology)"
+      ],
+      "abstract": "Crater formation and evolution is a known consequence of Plume-Surface Interactions (PSI) that is associated with several adverse effects. The evolution of these craters is a dynamic process that is dictated by the characteristics of the plume and the physical properties of the granular surface. Depending on the operating conditions, the evolution of craters can be dictated by the presence of mechanisms such as bearing capacity failure, viscous erosion, and several others. The erosion process can be solely influenced by a single predominant mechanism or a combination of several of them over the time span of the interaction. Owing to the dynamic nature of PSI, transitions may occur from one mechanism to another. These transitions can manifest in the form of distinct crater profiles that are parabolic, annular, deep (steep-walled and cylindrical), or a composite of multiple shapes. This study aims to investigate the susceptibility of these temporal transitions by examining the crater profile transitions due to the effect of plume operating conditions and granular bed properties. This was performed by examining the transition time scales and crater growth properties extracted from ...",
+      "authors": [
+        "Vikas N. Bhargav",
+        "Srijan Satyal",
+        "Brian Thurow",
+        "David Scarborough",
+        "Nek Sharan",
+        "Vrishank Raghav"
+      ]
+    }
+  ]
+}

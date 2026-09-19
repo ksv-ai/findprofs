@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Sourabh V. Apte",
+  "full_name": "Sourabh V. Apte",
+  "department": "School of Mechanical, Industrial and Manufacturing Engineering",
+  "university": "Oregon State University",
+  "author_id": "A5074157650",
+  "works_count": 191,
+  "cited_by_count": 3463,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 72
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 43
+    },
+    {
+      "topic": "Hydrology and Sediment Transport Processes",
+      "count": 34
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 28
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "LES of atomizing spray with stochastic modeling of secondary breakup",
+      "publication_year": 2003,
+      "publication_date": "2003-09-01",
+      "doi": "https://doi.org/10.1016/s0301-9322(03)00111-3",
+      "venue": "International Journal of Multiphase Flow",
+      "type": "article",
+      "cited_by_count": 290,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Mechanics",
+        "Statistical physics",
+        "Computation",
+        "RADIUS",
+        "Physics",
+        "Sauter mean diameter",
+        "Brownian motion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sourabh V. Apte",
+        "Mikhael Gorokhovski",
+        "Parviz Moin"
+      ]
+    },
+    {
+      "title": "Large-eddy simulation of swirling particle-laden flows in a coaxial-jet combustor",
+      "publication_year": 2003,
+      "publication_date": "2003-07-22",
+      "doi": "https://doi.org/10.1016/s0301-9322(03)00104-6",
+      "venue": "International Journal of Multiphase Flow",
+      "type": "article",
+      "cited_by_count": 262,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Particle-laden flows",
+        "Physics",
+        "Turbulence",
+        "Large eddy simulation",
+        "Jet (fluid)",
+        "Stokes number",
+        "Combustor"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sourabh V. Apte",
+        "Krishnan Mahesh",
+        "Parviz Moin",
+        "Joseph Oefelein"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of Realistic Gas Turbine Combustors",
+      "publication_year": 2006,
+      "publication_date": "2006-04-01",
+      "doi": "https://doi.org/10.2514/1.14606",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 234,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Turbulence",
+        "Large eddy simulation",
+        "Combustion",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Combustion chamber",
+        "Finite volume method"
+      ],
+      "abstract": "Large-eddy simulation is a promising technique for accurate prediction of reacting multiphase flows in practical gas-turbine combustion chambers involving complex physical phenomena of turbulent mixing and combustion dynamics. Development of advanced models for liquid fuel atomization, droplet evaporation, droplet deformation and drag, and turbulent combustion is discussed specifically for gas-turbine applications. The nondissipative, yet robust numerical scheme for arbitrary shaped unstructured grids developed by Mahesh et al. (Mahesh, K., Constantinescu, G., and Moin, P., New Time-Accurate Finite-Volume Fractional-Step Algorithm for Prediction of Turbulent Flows on Unstructured Hybrid Meshes, Journal of Computational Physics, Vol. 197, No. 1, 2004, pp. 215-240) is modified to account for density variations due to chemical reactions. A systematic validation and verification study of the individual spray models and the numerical scheme is performed in canonical and complex combustor geometries. Finally, a multiscale, multi physics, turbulent reacting flow simulation in a real gas-turbine combustor is performed to assess the predictive capability of the solver.",
+      "authors": [
+        "Parviz Moin",
+        "Sourabh V. Apte"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Euler–Lagrange modeling of sediment–turbulence interactions in horizontal channel flow",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1063/5.0313463",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Turbulence",
+        "Open-channel flow",
+        "Flow (mathematics)",
+        "Particle-laden flows",
+        "Reynolds number",
+        "Coupling (piping)"
+      ],
+      "abstract": "Euler–Lagrange (EL) modeling of sediment-laden, highly turbulent channel flows remains challenging particularly in the near-wall region, because sediment particles are relatively large compared with the local flow scales. The accuracy of EL simulations can deteriorate in two-way and four-way coupled simulations, especially in the presence of large particles relative to the local resolved scales. The issue arises in the inter-phase coupling where the particle force is added to the adjacent fluid-phase momentum equations that introduces disturbance in the local flow field. Using the disturbed field to compute particle forces in subsequent time steps can lead to inaccuracies that become more pronounced as the particle size increases relative to the local flow scales. This occurs because most closure models are derived based on the undisturbed background flow, which is no longer available in the two-way (and four-way) coupled simulations. In this study, a newly developed corrected EL approach coupled with large eddy simulations is employed to model sediment–turbulence interactions in a horizontal channel flow with a Reynolds number of Reτ=583.3 defined based on the bed friction velo...",
+      "authors": [
+        "Pedram Pakseresht",
+        "Sourabh V. Apte"
+      ]
+    },
+    {
+      "title": "Experimental Investigation of Flow over a Porous Bed Using PIV and PLIF",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1615/tfec2026.tfl.061451",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Flow (mathematics)",
+        "Porosity",
+        "Composite material",
+        "Rheology",
+        "Mechanics",
+        "Work (physics)",
+        "Compression (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zeeshan Memon",
+        "Jordan Strahl",
+        "James A. Liburdy",
+        "Sourabh V. Apte"
+      ]
+    },
+    {
+      "title": "Momentum transport and interfacial turbulence across the sediment–water interface in rough permeable beds",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1515/tp-2026-0086",
+      "venue": "Transport Phenomena",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Dissipation",
+        "Reynolds number",
+        "Particle image velocimetry",
+        "Turbulence kinetic energy",
+        "Kinetic energy",
+        "Reynolds stress"
+      ],
+      "abstract": "Abstract A unified investigation of momentum transport mechanisms is performed using both laboratory measurements and predictive numerical simulations of flow over a randomly packed, permeable bed of spherical particles representative of natural aquatic systems. High-resolution refractive-index-matched particle image velocimetry (RIM-PIV) is used to resolve the near-bed and pore-level velocity fields at low permeability Reynolds numbers (Re K ≈ 0.22–0.36). These measurements are compared with a single-domain, variable-porosity Volume-Averaged Navier–Stokes (VaNS) simulation at a matching low Re K ≈ 0.34. The VaNS model is then applied at higher permeability Reynolds numbers (Re K ≈ 2.56–5.39), with the available PR-DNS data used to assess the higher-Re K predictions. Results show that the sediment–water interface acts as a narrow adjustment zone where velocity and shear stresses change rapidly, with strong damping of fluctuations inside the bed. Streamwise fluctuations remain dominant near the interface and are significantly larger than the wall-normal components. Increasing Re K enhances slip velocity, strengthens interfacial shear, and increases turbulent kinetic energy produc...",
+      "authors": [
+        "Zeeshan Q. Memon",
+        "Brian D. Wood",
+        "Sourabh V. Apte"
+      ]
+    },
+    {
+      "title": "Characteristics of Turbulent Transport Over Permeable and Impermeable Bed of Particles",
+      "publication_year": 2025,
+      "publication_date": "2025-10-10",
+      "doi": "https://doi.org/10.1007/s11242-025-02237-6",
+      "venue": "Transport in Porous Media",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Surface finish",
+        "Boundary layer",
+        "Reynolds number",
+        "Permeability (electromagnetism)",
+        "Materials science",
+        "Drag"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shashank K. Karra",
+        "Sourabh V. Apte",
+        "Xiaoliang He",
+        "Tim Scheibe",
+        "Brian D. Wood"
+      ]
+    },
+    {
+      "title": "Multiscale settling dynamics of Kolmogorov-scale sediment-like particles in turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-06-13",
+      "doi": "https://doi.org/10.1017/jfm.2025.10234",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Settling",
+        "Scale (ratio)",
+        "Kolmogorov microscales",
+        "Mechanics",
+        "Physics",
+        "Statistical physics",
+        "Turbulence modeling"
+      ],
+      "abstract": "The settling dynamics of finite size, slightly heavier-than-fluid Kolmogorov-scale particles in homogeneous, isotropic turbulence at moderate volume loadings is investigated. A thoroughly validated two-way-coupled, point-particle model based on the complete Maxey–Riley–Gatignol equation of motion is used with closure models for all forces, including the history force, together with corrections for the self-disturbance field created by the particle using a novel zonal-advection-diffusion-reaction method. Settling dynamics is investigated by varying turbulence intensities relative to the particle settling speed in quiescent flow for multiple Stokes numbers. The length scales associated with the turbulence structures that strongly interact with and influence the settling dynamics are investigated using multiscale statistical analysis of the fluid velocity and second invariant of the velocity gradient tensors sampled by the particles. The time scales are investigated using trajectory curvature angle statistics of inertial and fluid particles. Low-to-moderate Stokes number particles tend to sample strain-rate dominated regions of the flow, tend to follow the curvature of the flow pat...",
+      "authors": [
+        "Nathan Keane",
+        "Sourabh V. Apte"
+      ]
+    }
+  ]
+}

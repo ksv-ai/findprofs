@@ -1,0 +1,259 @@
+{
+  "faculty_name": "John T. Hwang",
+  "full_name": "John T. Hwang",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-San Diego",
+  "author_id": "A5041402377",
+  "works_count": 174,
+  "cited_by_count": 3275,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 37
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 30
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 29
+    },
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 20
+    },
+    {
+      "topic": "Manufacturing Process and Optimization",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "OpenMDAO: an open-source framework for multidisciplinary design, analysis, and optimization",
+      "publication_year": 2019,
+      "publication_date": "2019-03-01",
+      "doi": "https://doi.org/10.1007/s00158-019-02211-z",
+      "venue": "Structural and Multidisciplinary Optimization",
+      "type": "article",
+      "cited_by_count": 637,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00158-019-02211-z.pdf",
+      "concepts": [
+        "Multidisciplinary design optimization",
+        "Multidisciplinary approach",
+        "Engineering design process",
+        "Computer science",
+        "Open source",
+        "Systems engineering",
+        "Management science",
+        "Industrial engineering"
+      ],
+      "abstract": "Multidisciplinary design optimization (MDO) is concerned with solving design problems involving coupled numerical models of complex engineering systems. While various MDO software frameworks exist, none of them take full advantage of state-of-the-art algorithms to solve coupled models efficiently. Furthermore, there is a need to facilitate the computation of the derivatives of these coupled models for use with gradient-based optimization algorithms to enable design with respect to large numbers of variables. In this paper, we present the theory and architecture of OpenMDAO, an open-source MDO framework that uses Newton-type algorithms to solve coupled systems and exploits problem structure through new hierarchical strategies to achieve high computational efficiency. OpenMDAO also provides a framework for computing coupled derivatives efficiently and in a way that exploits problem sparsity. We demonstrate the framework’s efficiency by benchmarking scalable test problems. We also summarize a number of OpenMDAO applications previously reported in the literature, which include trajectory optimization, wing design, and structural topology optimization, demonstrating that the framewor...",
+      "authors": [
+        "Justin S. Gray",
+        "John T. Hwang",
+        "Joaquim R. R. A. Martins",
+        "Kenneth Moore",
+        "Bret A. Naylor"
+      ]
+    },
+    {
+      "title": "Open-source coupled aerostructural optimization using Python",
+      "publication_year": 2018,
+      "publication_date": "2018-02-07",
+      "doi": "https://doi.org/10.1007/s00158-018-1912-8",
+      "venue": "Structural and Multidisciplinary Optimization",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Python (programming language)",
+        "Multidisciplinary design optimization",
+        "Computer science",
+        "Aerodynamics",
+        "Topology optimization",
+        "Software",
+        "Finite element method",
+        "Fidelity"
+      ],
+      "abstract": "",
+      "authors": [
+        "John Jasa",
+        "John T. Hwang",
+        "Joaquim R. R. A. Martins"
+      ]
+    },
+    {
+      "title": "A Python surrogate modeling framework with derivatives",
+      "publication_year": 2019,
+      "publication_date": "2019-07-01",
+      "doi": "https://doi.org/10.1016/j.advengsoft.2019.03.005",
+      "venue": "Advances in Engineering Software",
+      "type": "article",
+      "cited_by_count": 354,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.advengsoft.2019.03.005",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Toolbox",
+        "Kriging",
+        "Benchmarking",
+        "Surrogate model",
+        "Data mining",
+        "Interpolation (computer graphics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohamed Amine Bouhlel",
+        "John T. Hwang",
+        "Nathalie Bartoli",
+        "Rémi Lafage",
+        "Joseph Morlier",
+        "Joaquim R. R. A. Martins"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "System-Level, Large-Scale Multidisciplinary Design Optimization of an Air Taxi Concept",
+      "publication_year": 2026,
+      "publication_date": "2026-04-05",
+      "doi": "https://doi.org/10.2514/1.c038533",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multidisciplinary design optimization",
+        "Conceptual design",
+        "Robustness (evolution)",
+        "Multidisciplinary approach",
+        "Computer science",
+        "Optimal design",
+        "Takeoff",
+        "Engineering"
+      ],
+      "abstract": "The rise of urban air mobility as a solution to alleviate congestion in metropolitan areas has spurred the development of novel vertical takeoff and landing aircraft, renewing research interest in conceptual design. Adjoint-based multidisciplinary design optimization naturally suits aircraft design by efficiently searching high-dimensional design spaces. However, solving system-level large-scale aircraft design problems reliably remains challenging due to numerical conditioning issues arising from simultaneously modeling many design conditions and disciplines. This paper presents a novel demonstration of system-level large-scale multidisciplinary design optimization of an urban air mobility concept using an integrated, physics-based computational model. We solve a gross weight minimization problem of a lift-plus-cruise reference vehicle with 161 design variables and 96 constraints across 15 design conditions, representing nominal mission and failure conditions. Our computational model integrates physics-based models for aerodynamics, propulsion, structures, aeroacoustics, motor performance, and static stability. The optimized design achieves a 6.5% reduction in gross weight. Par...",
+      "authors": [
+        "Marius L. Ruh",
+        "Michael A. P. Warner",
+        "Luca Scotzniovsky",
+        "Andrew H. Fletcher",
+        "Mark Sperry",
+        "John T. Hwang"
+      ]
+    },
+    {
+      "title": "Towards Hyper-Reduced Weighted POD for Large-Scale Aerodynamic Design Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1212",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Inviscid flow",
+        "Aerodynamics",
+        "Mathematical optimization",
+        "Mathematics",
+        "Point of delivery",
+        "Multidisciplinary design optimization",
+        "Proper orthogonal decomposition"
+      ],
+      "abstract": "The aim of this work is to present the first steps of our research to make high-fidelity inviscid compressible flow models computationally tractable for large-scale preliminary aircraft design optimization problems. We take a novel weighted Proper Orthogonal Decomposition (POD) approach and apply it to speed up a Discontinuous Galerkin-based compressible Euler model in an airfoil shape optimization problem. We show how the weighted POD approach improves upon a standard POD approach, especially when predicting drag coefficients, while having lower wall times than the standard POD approach. We intend to extend the current approach with hyper-reduction, in order to obtain further speedups, and switch to gradient-based optimization methods in order to enable more efficient solving of large-scale optimization problems.",
+      "authors": [
+        "Sebastiaan P. van Schie",
+        "John T. Hwang"
+      ]
+    },
+    {
+      "title": "Large-scale MDO under uncertainty of an eVTOL aircraft using dimension reduction via global sensitivity analysis",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3344",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Scale (ratio)",
+        "Computer science",
+        "Aerospace engineering",
+        "Environmental science",
+        "Engineering",
+        "Physics",
+        "Machine learning"
+      ],
+      "abstract": "Electric vertical takeoff and landing (eVTOL) aircraft have gained significant attention from both industry and academia due to their potential to transform urban transportation and promote sustainability through zero-emission propulsion. Recent work has demonstrated the effectiveness of multidisciplinary design optimization (MDO) in enhancing eVTOL performance at the conceptual design stage. However, most existing studies have focused on deterministic MDO problems neglecting the impact of real-world uncertainties. To address this gap, we formulate and demonstrate the solution of the first large-scale MDO under uncertainty (MDOUU) problem for NASA’s Lift-Plus-Cruise configuration. This problem encompasses 51 design variables and 7 independent uncertain inputs. To keep the computational cost tractable, we introduce a novel sensitivity analysis-based, shared-grid uncertainty quantification framework that (i) screens each quantity of interest (QoI) with first-order Sobol indices and (ii) evaluates the resulting low-dimensional quadrature rules on a single, unioned node set. Numerical results demonstrate that the proposed UQ strategy achieves accurate statistical estimates for all 7...",
+      "authors": [
+        "Bingran Wang",
+        "Marius L. Ruh",
+        "Aoran Tian",
+        "Luca Scotzniovsky",
+        "John T. Hwang"
+      ]
+    },
+    {
+      "title": "Differentiable Surface Mesh Deformation for Non-Conformal, Independently Parameterized Components with Large Shape Changes",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3683",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Parameterized complexity",
+        "Conformal map",
+        "Differentiable function",
+        "Deformation (meteorology)",
+        "Surface (topology)",
+        "Computer science",
+        "Mathematics",
+        "Geometry"
+      ],
+      "abstract": "System-level aircraft conceptual design can be viewed as a high-dimensional, multidisciplinary design optimization (MDO) problem involving potentially thousands of design variables across multiple subsystems and design conditions. Recent advances in modeling and adjoint-based sensitivity analysis have enabled the use of low-fidelity physics-based models to solve this complex problem in a computationally efficient manner using established MDO algorithms. However, integrating higher-fidelity aerodynamic simulations into comprehensive, large-scale MDO of aircraft concepts remains challenging. This is in large part due to the increased computational cost and the large geometric changes that may occur at the conceptual design stage. Since many mid- to high-fidelity aerodynamic solvers require conforming surface meshes, there is a need for a general deformation method that efficiently updates surface mesh nodes based on changes to the design geometry in a differentiable manner. In this paper, we aim to fill this need by developing such a method using a two-step process: 1) recompute intersections between components given large geometric changes and 2) deform the surface mesh using thi...",
+      "authors": [
+        "Marius L. Ruh",
+        "John T. Hwang"
+      ]
+    },
+    {
+      "title": "A Fast, Memory-Efficient Panel Method for Large-Scale Multidisciplinary Design Optimization Under Uncertainty Using Graph-Based Modeling",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3021",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Multidisciplinary design optimization",
+        "Multidisciplinary approach",
+        "Scale (ratio)",
+        "Graph",
+        "Parallel computing",
+        "Mathematical optimization",
+        "Theoretical computer science"
+      ],
+      "abstract": "Comprehensive large-scale multidisciplinary design optimization for aircraft design has become feasible thanks to recent advances in automatic adjoint-based sensitivity analysis. However, a major limitation of existing methods and previous demonstrations is the use of low-fidelity models to address key disciplines. Aerodynamics, one of these key disciplines, is currently restricted to very low or high fidelity methods. Panel methods bridge this gap in modeling fidelity; however, existing tools are not suited for large-scale MDO because they lack adjoint-based sensitivity analysis needed for efficient gradient computation. In addition, panel methods naturally incur a prohibitive n^2 cost. In this paper, we address these needs by presenting a modern, graph-based panel method with automatic adjoint-based sensitivity analysis. We discuss novel methods focused on reducing the prohibitive quadratic cost with respect to grid size by using a new approach we call partitioned vectorization, and present a method incorporating POD that reduces the memory cost for solving the linear system to",
+      "authors": [
+        "Luca Scotzniovsky",
+        "John T. Hwang"
+      ]
+    }
+  ]
+}

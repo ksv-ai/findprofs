@@ -1,0 +1,297 @@
+{
+  "faculty_name": "Aditya K. Aiyer",
+  "full_name": "Aditya Aiyer",
+  "department": "Department of Mechanical Engineering and Mechanics",
+  "university": "Lehigh University",
+  "author_id": "A5031998252",
+  "works_count": 25,
+  "cited_by_count": 43,
+  "h_index": 3,
+  "top_topics": [
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 8
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 7
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 6
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 5
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Experimental observations and modelling of sub-Hinze bubble production by turbulent bubble break-up",
+      "publication_year": 2022,
+      "publication_date": "2022-11-08",
+      "doi": "https://doi.org/10.1017/jfm.2022.604",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 22,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B1978FC9D3E60B90B943458B92C5D08C/S0022112022006048a.pdf/div-class-title-experimental-observations-and-modelling-of-sub-hinze-bubble-production-by-turbulent-bubble-break-up-div.pdf",
+      "concepts": [
+        "Bubble",
+        "Turbulence",
+        "Physics",
+        "Instability",
+        "Mechanics",
+        "Population",
+        "Surface tension",
+        "Break-Up"
+      ],
+      "abstract": "We present experiments on large air cavities spanning a wide range of sizes relative to the Hinze scale $d_{H}$ , the scale at which turbulent stresses are balanced by surface tension, disintegrating in turbulence. For cavities with initial sizes $d_0$ much larger than $d_{H}$ (probing up to $d_0/d_{H} = 8.3$ ), the size distribution of bubbles smaller than $d_{H}$ follows $N(d) \\propto d^{-3/2}$ , with $d$ the bubble diameter. The capillary instability of ligaments involved in the deformation of the large bubbles is shown visually to be responsible for the creation of the small bubbles. Turning to dynamical, three-dimensional measurements of individual break-up events, we describe the break-up child size distribution and the number of child bubbles formed as a function of $d_0/d_{H}$ . Then, to model the evolution of a population of bubbles produced by turbulent bubble break-up, we propose a population balance framework in which break-up involves two physical processes: an inertial deformation to the parent bubble that sets the size of large child bubbles, and a capillary instability that sets the size of small child bubbles. A Monte Carlo approach is used to construct the chil...",
+      "authors": [
+        "Daniel Ruth",
+        "Aditya Aiyer",
+        "Aliénor Rivière",
+        "Stéphane Perrard",
+        "Luc Deike"
+      ]
+    },
+    {
+      "title": "A dynamic wall modeling approach for large eddy simulation of offshore wind farms in realistic oceanic conditions",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1063/5.0159019",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Large eddy simulation",
+        "Drag",
+        "Mechanics",
+        "Wind speed",
+        "Filter (signal processing)",
+        "Physics",
+        "Turbulence",
+        "Meteorology"
+      ],
+      "abstract": "Due to the multitude of scales present in realistic oceanic conditions, resolving the surface stress is computationally intensive, motivating modeling approaches. In this work, a dynamic wave drag model is developed for large eddy simulation (LES) to quantify the effects of multiscale dynamically rough surfaces on the atmospheric boundary layer. The waves are vertically unresolved, and the total drag due to the horizontally resolved portion of the wave spectrum is computed through a superposition of the force from each mode. As LES can only resolve the horizontal wind–wave interactions to the filter scale Δ, the effects of the horizontally unresolved, subfilter waves are modeled by specifying a roughness length scale characterizing the unresolved wave energy spectrum. This subfilter roughness is set proportional to the subfilter root mean square of the wave height distribution, and the constant of proportionality is evaluated dynamically during the simulation based on the assumption that the total drag force at the wave surface is independent of the filter scale. The dynamic approach is used to simulate the airflow over a spectrum of moving waves, and the results are validated a...",
+      "authors": [
+        "Aditya Aiyer",
+        "Luc Deike",
+        "Michael E. Mueller"
+      ]
+    },
+    {
+      "title": "Passive scalar mixing and decay at finite correlation times in the Batchelor regime",
+      "publication_year": 2017,
+      "publication_date": "2017-07-11",
+      "doi": "https://doi.org/10.1017/jfm.2017.364",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1511.08206",
+      "concepts": [
+        "Physics",
+        "Scalar (mathematics)",
+        "Mathematical physics",
+        "Scaling",
+        "Fluctuation spectrum",
+        "Order (exchange)",
+        "Quantum electrodynamics",
+        "Quantum mechanics"
+      ],
+      "abstract": "An elegant model for passive scalar mixing and decay was given by Kraichnan (Phys. Fluids, vol. 11, 1968, pp. 945–953) assuming the velocity to be delta correlated in time. For realistic random flows this assumption becomes invalid. We generalize the Kraichnan model to include the effects of a finite correlation time, $\\unicode[STIX]{x1D70F}$ , using renewing flows. The generalized evolution equation for the three-dimensional (3-D) passive scalar spectrum $\\hat{M}(k,t)$ or its correlation function $M(r,t)$ , gives the Kraichnan equation when $\\unicode[STIX]{x1D70F}\\rightarrow 0$ , and extends it to the next order in $\\unicode[STIX]{x1D70F}$ . It involves third- and fourth-order derivatives of $M$ or $\\hat{M}$ (in the high $k$ limit). For small- $\\unicode[STIX]{x1D70F}$ (or small Kubo number), it can be recast using the Landau–Lifshitz approach to one with at most second derivatives of $\\hat{M}$ . We present both a scaling solution to this equation neglecting diffusion and a more exact solution including diffusive effects. To leading order in $\\unicode[STIX]{x1D70F}$ , we first show that the steady state 1-D passive scalar spectrum, preserves the Batchelor (J. Fluid Mech., vol. 5...",
+      "authors": [
+        "Aditya Aiyer",
+        "Kandaswamy Subramanian",
+        "Pallavi Bhat"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Sea Surface Roughness Dependence on Ocean Wave Parameters through Large Eddy Simulation with Local Subfilter Wave Drag",
+      "publication_year": 2026,
+      "publication_date": "2026-06-13",
+      "doi": "https://doi.org/10.48550/arxiv.2606.15446",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.15446",
+      "concepts": [
+        "Wind wave",
+        "Planetary boundary layer",
+        "Turbulence",
+        "Wind stress",
+        "Drag",
+        "Mechanics",
+        "Surface wave",
+        "Wind wave model"
+      ],
+      "abstract": "Characterizing the Marine Atmospheric Boundary Layer (MABL) requires understanding the coupling between ocean waves and the turbulent atmospheric boundary layer above them. This coupling controls momentum exchange between the atmosphere and the ocean; it is of practical importance in the global climate, flow of ocean currents, ocean engineering, and offshore wind energy. Computational study of the MABL is complex because it must resolve the coupled physics of waves and turbulence over a wide range of spatial and temporal scales. This study expands on approaches for representing dynamic, local waves in Large Eddy Simulations (LES) of the MABL by developing a subfilter wave drag model to be local and scale-invariant. It explores the effects of different wave parameters (significant wave height and peak frequency of the wave energy spectrum) on the resulting momentum flux beyond monotonic relationships between surface stress through friction velocity $u_\\ast$ and wind velocity above the surface $U_{10}$. Results are compared to field data and in a discussion on how representation of the MABL and associated momentum flux need to account for both wind and wave effects.",
+      "authors": [
+        "Hannah Hata Williams",
+        "Aditya Aiyer",
+        "Luc Deike",
+        "Michael E. Mueller"
+      ]
+    },
+    {
+      "title": "Sea Surface Roughness Dependence on Ocean Wave Parameters through Large Eddy Simulation with Local Subfilter Wave Drag",
+      "publication_year": 2026,
+      "publication_date": "2026-06-13",
+      "doi": "https://arxiv.org/abs/2606.15446",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.15446",
+      "concepts": [
+        "Wind wave",
+        "Planetary boundary layer",
+        "Turbulence",
+        "Wind stress",
+        "Drag",
+        "Mechanics",
+        "Surface wave",
+        "Wind wave model"
+      ],
+      "abstract": "Characterizing the Marine Atmospheric Boundary Layer (MABL) requires understanding the coupling between ocean waves and the turbulent atmospheric boundary layer above them. This coupling controls momentum exchange between the atmosphere and the ocean; it is of practical importance in the global climate, flow of ocean currents, ocean engineering, and offshore wind energy. Computational study of the MABL is complex because it must resolve the coupled physics of waves and turbulence over a wide range of spatial and temporal scales. This study expands on approaches for representing dynamic, local waves in Large Eddy Simulations (LES) of the MABL by developing a subfilter wave drag model to be local and scale-invariant. It explores the effects of different wave parameters (significant wave height and peak frequency of the wave energy spectrum) on the resulting momentum flux beyond monotonic relationships between surface stress through friction velocity $u_\\ast$ and wind velocity above the surface $U_{10}$. Results are compared to field data and in a discussion on how representation of the MABL and associated momentum flux need to account for both wind and wave effects.",
+      "authors": [
+        "Hannah Hata Williams",
+        "Aditya Aiyer",
+        "Luc Deike",
+        "Michael E. Mueller"
+      ]
+    },
+    {
+      "title": "Wave-phase-aware model implementation in WRF-LES v3.8.1 for turbulence-resolving simulations of turbulent flow over monochromatic waves",
+      "publication_year": 2026,
+      "publication_date": "2026-06-02",
+      "doi": "https://doi.org/10.5194/egusphere-2026-2292",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/egusphere-2026-2292",
+      "concepts": [
+        "Turbulence",
+        "Forcing (mathematics)",
+        "Drag",
+        "Mechanics",
+        "Wave model",
+        "Physics",
+        "Momentum (technical analysis)",
+        "Statistical physics"
+      ],
+      "abstract": "Abstract. In simulations of turbulent marine atmospheric flows, wind-wave interactions are commonly represented using bulk, wave-phase-averaged parameterizations, which can introduce errors across different wave conditions due to their inability to capture phase-dependent processes. In scale-resolving large-eddy simulations (LES) or direct numerical simulations (DNS), wave-phase-resolved approaches explicitly represent wave geometry, but at a substantial computational cost. To bridge this gap, recent developments in wave-phase-aware models incorporate phase-dependent effects at reduced cost, often by leveraging canopy-stress analogies originally developed for atmospheric boundary layer flows over rough surfaces. However, differences in model implementation across numerical frameworks have hindered direct comparison of the predictions from these different wave representations in LES. In this study, we implement two wave-phase-aware models, the Wave Drag Model (WDM) and the Windward Potential Flow Model (WPM), within a unified LES framework using WRF-LES, and compare them against a wave-phase-resolved moving-wave (MOW) model under identical forcing conditions, enabling a consisten...",
+      "authors": [
+        "Baris Kale",
+        "Mohammadreza Asadbeigi",
+        "Aditya Aiyer",
+        "Michael F. Howland"
+      ]
+    },
+    {
+      "title": "CADET: Context-Conditioned Ads CTR Prediction With a Decoder-Only Transformer",
+      "publication_year": 2026,
+      "publication_date": "2026-02-11",
+      "doi": "https://doi.org/10.48550/arxiv.2602.11410",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.11410",
+      "concepts": [
+        "Computer science",
+        "Transformer",
+        "Artificial intelligence",
+        "Feature engineering",
+        "Deep learning",
+        "Robustness (evolution)",
+        "Feature learning",
+        "Discriminative model"
+      ],
+      "abstract": "Click-through rate (CTR) prediction is fundamental to online advertising systems. While Deep Learning Recommendation Models (DLRMs) with explicit feature interactions have long dominated this domain, recent advances in generative recommenders have shown promising results in content recommendation. However, adapting these transformer-based architectures to ads CTR prediction still presents unique challenges, including handling post-scoring contextual signals, maintaining offline-online consistency, and scaling to industrial workloads. We present CADET (Context-Conditioned Ads Decoder-Only Transformer), an end-to-end decoder-only transformer for ads CTR prediction deployed at LinkedIn. Our approach introduces several key innovations: (1) a context-conditioned decoding architecture with multi-tower prediction heads that explicitly model post-scoring signals such as ad position, resolving the chicken-and-egg problem between predicted CTR and ranking; (2) a self-gated attention mechanism that stabilizes training by adaptively regulating information flow at both representation and interaction levels; (3) a timestamp-based variant of Rotary Position Embedding (RoPE) that captures tempo...",
+      "authors": [
+        "David Pardoe",
+        "Neil Daftary",
+        "Miro Furtado",
+        "Aditya Aiyer",
+        "Yu Wang",
+        "Liuqing Li",
+        "Tao Song",
+        "Lars Hertel",
+        "Young Jin Yun",
+        "Senthil Radhakrishnan",
+        "Zhiwei Wang",
+        "Tommy Li",
+        "Khai Phan Tran",
+        "Ananth Nagarajan",
+        "Ali Naqvi",
+        "Yue Zhang",
+        "Renpeng Fang",
+        "Avi Romascanu",
+        "Arjun Kulothungun",
+        "Deepak Kumar",
+        "Praneeth Boda",
+        "Fedor Borisyuk",
+        "Ruoyan Wang"
+      ]
+    },
+    {
+      "title": "CADET: Context-Conditioned Ads CTR Prediction With a Decoder-Only Transformer",
+      "publication_year": 2026,
+      "publication_date": "2026-02-11",
+      "doi": "https://arxiv.org/abs/2602.11410",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.11410",
+      "concepts": [
+        "Computer science",
+        "Transformer",
+        "Artificial intelligence",
+        "Feature engineering",
+        "Deep learning",
+        "Robustness (evolution)",
+        "Feature learning",
+        "Discriminative model"
+      ],
+      "abstract": "Click-through rate (CTR) prediction is fundamental to online advertising systems. While Deep Learning Recommendation Models (DLRMs) with explicit feature interactions have long dominated this domain, recent advances in generative recommenders have shown promising results in content recommendation. However, adapting these transformer-based architectures to ads CTR prediction still presents unique challenges, including handling post-scoring contextual signals, maintaining offline-online consistency, and scaling to industrial workloads. We present CADET (Context-Conditioned Ads Decoder-Only Transformer), an end-to-end decoder-only transformer for ads CTR prediction deployed at LinkedIn. Our approach introduces several key innovations: (1) a context-conditioned decoding architecture with multi-tower prediction heads that explicitly model post-scoring signals such as ad position, resolving the chicken-and-egg problem between predicted CTR and ranking; (2) a self-gated attention mechanism that stabilizes training by adaptively regulating information flow at both representation and interaction levels; (3) a timestamp-based variant of Rotary Position Embedding (RoPE) that captures tempo...",
+      "authors": [
+        "David Pardoe",
+        "Neil Daftary",
+        "Miro Furtado",
+        "Aditya Aiyer",
+        "Yu Wang",
+        "Liuqing Li",
+        "Tao Song",
+        "Lars Hertel",
+        "Young Jin Yun",
+        "Senthil Radhakrishnan",
+        "Zhiwei Wang",
+        "Tommy Li",
+        "Khai Phan Tran",
+        "Ananth Nagarajan",
+        "Ali Naqvi",
+        "Yue Zhang",
+        "Renpeng Fang",
+        "Avi Romascanu",
+        "Arjun Kulothungun",
+        "Deepak Kumar",
+        "Praneeth Boda",
+        "Fedor Borisyuk",
+        "Ruoyan Wang"
+      ]
+    }
+  ]
+}

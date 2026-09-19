@@ -1,0 +1,158 @@
+{
+  "faculty_name": "Adrian Lozano-Duran",
+  "full_name": "Adrian Lozano-Duran",
+  "department": "Graduate Aerospace Laboratories (GALCIT)",
+  "university": "California Institute of Technology",
+  "author_id": "A5133656489",
+  "works_count": 2,
+  "cited_by_count": 0,
+  "h_index": 0,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 1
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 1
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 1
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 1
+    },
+    {
+      "topic": "Machine Learning in Materials Science",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Unified scaling laws for turbulent boundary layers across flow regimes",
+      "publication_year": 2026,
+      "publication_date": "2026-04-10",
+      "doi": "https://arxiv.org/abs/2604.09947",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.09947",
+      "concepts": [
+        "Dimensionless quantity",
+        "Scaling",
+        "Mathematics",
+        "Mean flow",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Scaling law",
+        "Boundary (topology)"
+      ],
+      "abstract": "We discover unified scaling laws for the mean wall shear stress and the mean velocity profile in turbulent boundary layers subject to favorable and adverse mean pressure gradients-including flows with separation and reattachment. We use the information-theoretic irreducible error theorem to identify, among all dimensionally consistent combinations, the dimensionless groups with maximal predictive power, without assuming any functional form. Two dimensionless variables suffice to describe the mean wall shear stress, while three characterize the mean velocity profile. The scaling laws depend exclusively on variables defined at a fixed streamwise location, demonstrating that judiciously chosen combinations of local quantities implicitly encode upstream history without requiring global parameters. The results are validated against a rich collection of cases and are shown to collapse mean quantities across flow regimes previously thought to require distinct treatments.",
+      "authors": [
+        "Gonzalo Arranz",
+        "Adrian Lozano-Duran"
+      ]
+    },
+    {
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://arxiv.org/abs/2604.09584",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.09584",
+      "concepts": [
+        "Computer science",
+        "Flow (mathematics)",
+        "Scaling",
+        "Theoretical computer science",
+        "Partial differential equation",
+        "Boundary (topology)",
+        "Coupling (piping)",
+        "Multiscale modeling"
+      ],
+      "abstract": "Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materials science, where discrete, tokenizable representations naturally interface with large language models. We address this by coupling multi-agent LLMs with latent foundation models (LFMs), a generative model over parametrised simulations, that learns explicit, compact and disentangled latent representations of flow fields, enabling continuous exploration across governing PDE parameters and boundary conditions. The LFM serves as an on-demand surrogate simulator, allowing agents to query arbitrary parameter configurations at negligible cost. A hierarchical agent architecture orchestrates exploration through a closed loop of hypothesis, experimentation, analysis and verification, with a tool-modular interface requiring no user support. App...",
+      "authors": [
+        "Abhijeet Vishwasrao",
+        "Francisco Giral",
+        "Mahmoud Golestanian",
+        "Federica Tonti",
+        "Andrea Arroyo Ramo",
+        "Adrian Lozano-Duran",
+        "Steven L. Brunton",
+        "Sergio Hoyas",
+        "Soledad Le Clainche",
+        "Hector Gomez",
+        "Ricardo Vinuesa"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Unified scaling laws for turbulent boundary layers across flow regimes",
+      "publication_year": 2026,
+      "publication_date": "2026-04-10",
+      "doi": "https://arxiv.org/abs/2604.09947",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.09947",
+      "concepts": [
+        "Dimensionless quantity",
+        "Scaling",
+        "Mathematics",
+        "Mean flow",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Scaling law",
+        "Boundary (topology)"
+      ],
+      "abstract": "We discover unified scaling laws for the mean wall shear stress and the mean velocity profile in turbulent boundary layers subject to favorable and adverse mean pressure gradients-including flows with separation and reattachment. We use the information-theoretic irreducible error theorem to identify, among all dimensionally consistent combinations, the dimensionless groups with maximal predictive power, without assuming any functional form. Two dimensionless variables suffice to describe the mean wall shear stress, while three characterize the mean velocity profile. The scaling laws depend exclusively on variables defined at a fixed streamwise location, demonstrating that judiciously chosen combinations of local quantities implicitly encode upstream history without requiring global parameters. The results are validated against a rich collection of cases and are shown to collapse mean quantities across flow regimes previously thought to require distinct treatments.",
+      "authors": [
+        "Gonzalo Arranz",
+        "Adrian Lozano-Duran"
+      ]
+    },
+    {
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-26",
+      "doi": "https://arxiv.org/abs/2604.09584",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.09584",
+      "concepts": [
+        "Computer science",
+        "Flow (mathematics)",
+        "Scaling",
+        "Theoretical computer science",
+        "Partial differential equation",
+        "Boundary (topology)",
+        "Coupling (piping)",
+        "Multiscale modeling"
+      ],
+      "abstract": "Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materials science, where discrete, tokenizable representations naturally interface with large language models. We address this by coupling multi-agent LLMs with latent foundation models (LFMs), a generative model over parametrised simulations, that learns explicit, compact and disentangled latent representations of flow fields, enabling continuous exploration across governing PDE parameters and boundary conditions. The LFM serves as an on-demand surrogate simulator, allowing agents to query arbitrary parameter configurations at negligible cost. A hierarchical agent architecture orchestrates exploration through a closed loop of hypothesis, experimentation, analysis and verification, with a tool-modular interface requiring no user support. App...",
+      "authors": [
+        "Abhijeet Vishwasrao",
+        "Francisco Giral",
+        "Mahmoud Golestanian",
+        "Federica Tonti",
+        "Andrea Arroyo Ramo",
+        "Adrian Lozano-Duran",
+        "Steven L. Brunton",
+        "Sergio Hoyas",
+        "Soledad Le Clainche",
+        "Hector Gomez",
+        "Ricardo Vinuesa"
+      ]
+    }
+  ]
+}

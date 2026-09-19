@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Mitul Luhar",
+  "full_name": "Mitul Luhar",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5077636450",
+  "works_count": 117,
+  "cited_by_count": 2576,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 52
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 21
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 11
+    },
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 10
+    },
+    {
+      "topic": "Coastal wetland ecosystem dynamics",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Opposition control within the resolvent analysis framework",
+      "publication_year": 2014,
+      "publication_date": "2014-05-19",
+      "doi": "https://doi.org/10.1017/jfm.2014.209",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Resolvent",
+        "Turbulence",
+        "Reynolds number",
+        "Mechanics",
+        "Direct numerical simulation",
+        "Drag",
+        "Normal mode"
+      ],
+      "abstract": "Abstract This paper extends the resolvent analysis of McKeon & Sharma ( J. Fluid Mech. , vol. 658, 2010, pp. 336–382) to consider flow control techniques that employ linear control laws, focusing on opposition control (Choi, Moin & Kim, J. Fluid Mech. , vol. 262, 1994, pp. 75–110) as an example. Under this formulation, the velocity field for turbulent pipe flow is decomposed into a series of highly amplified (rank-1) response modes, identified from a gain analysis of the Fourier-transformed Navier–Stokes equations. These rank-1 velocity responses represent propagating structures of given streamwise/spanwise wavelength and temporal frequency, whose wall-normal footprint depends on the phase speed of the mode. Opposition control, introduced via the boundary condition on wall-normal velocity, affects the amplification characteristics (and wall-normal structure) of these response modes; a decrease in gain indicates mode suppression, which leads to a decrease in the drag contribution from that mode. With basic assumptions, this rank-1 model reproduces trends observed in previous direct numerical simulation and large eddy simulation, without requiring high-performance computing facili...",
+      "authors": [
+        "Mitul Luhar",
+        "A. S. Sharma",
+        "Beverley McKeon"
+      ]
+    },
+    {
+      "title": "Interaction between flow, transport and vegetation spatial structure",
+      "publication_year": 2008,
+      "publication_date": "2008-07-28",
+      "doi": "https://doi.org/10.1007/s10652-008-9080-9",
+      "venue": "Environmental Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 286,
+      "is_oa": true,
+      "oa_url": "http://hdl.handle.net/1721.1/69014",
+      "concepts": [
+        "Turbulence",
+        "Drag",
+        "Canopy",
+        "Environmental science",
+        "Vegetation (pathology)",
+        "Sediment transport",
+        "Drag coefficient",
+        "Hydrology (agriculture)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mitul Luhar",
+        "Jeffrey Rominger",
+        "Heidi Nepf"
+      ]
+    },
+    {
+      "title": "Wave‐induced velocities inside a model seagrass bed",
+      "publication_year": 2010,
+      "publication_date": "2010-12-01",
+      "doi": "https://doi.org/10.1029/2010jc006345",
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "type": "article",
+      "cited_by_count": 208,
+      "is_oa": true,
+      "oa_url": "http://hdl.handle.net/10261/49420",
+      "concepts": [
+        "Mechanics",
+        "Current (fluid)",
+        "Mean flow",
+        "Laminar flow",
+        "Physics",
+        "Flow (mathematics)",
+        "Geology",
+        "Excursion"
+      ],
+      "abstract": "Laboratory measurements reveal the flow structure within and above a model seagrass meadow (dynamically similar to Zostera marina) forced by progressive waves. Despite being driven by purely oscillatory flow, a mean current in the direction of wave propagation is generated within the meadow. This mean current is forced by a nonzero wave stress, similar to the streaming observed in wave boundary layers. The measured mean current is roughly four times that predicted by laminar boundary layer theory, with magnitudes as high as 38% of the near‐bed orbital velocity. A simple theoretical model is developed to predict the magnitude of this mean current based on the energy dissipated within the meadow. Unlike unidirectional flow, which can be significantly damped within a meadow, the in‐canopy orbital velocity is not significantly damped. Consistent with previous studies, the reduction of in‐canopy velocity is a function of the ratio of orbital excursion and blade spacing.",
+      "authors": [
+        "Mitul Luhar",
+        "Sylvain Coutu",
+        "Eduardo Infantes",
+        "S. R. Fox",
+        "Heidi Nepf"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Interactions between internal solitary waves and porous surface canopies",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.1017/jfm.2026.11554",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1017/jfm.2026.11554",
+      "concepts": [
+        "Mechanics",
+        "Pycnocline",
+        "Internal wave",
+        "Dissipation",
+        "Amplitude",
+        "Vortex",
+        "Particle image velocimetry",
+        "Leading edge"
+      ],
+      "abstract": "Interactions between internal solitary waves and surface canopies of varying length and porosity are examined via laboratory experiments and complementary simulations for a miscible, two-layer system. In both approaches, internal solitary waves of varying amplitudes are generated by a jet-array mechanism that is driven by the nonlinear extended Korteweg–de Vries solution. Pycnocline displacements, phase speeds and velocity fields are obtained using synchronised planar laser-induced fluorescence and particle imaging velocimetry systems in the experiment. In the simulations, the canopy is represented as a porous zone with prescribed porosity and hydraulic conductivity determined by the Kozeny–Carman model, which is validated by comparing simulated and measured horizontal velocity profiles. The higher-porosity (transitional) canopy produces a nearly monotonic, albeit minor, amplitude reduction and negligible wave energy dissipation after the interaction. However, the shear layer developed at the bottom edge of the lower-porosity (dense) canopy grows to a strength comparable to the shear sustained by the internal solitary wave profile at the pycnocline. The vortex pair generated by ...",
+      "authors": [
+        "Jen-Ping Chu",
+        "Mitul Luhar",
+        "Patrick Joseph Lynett"
+      ]
+    },
+    {
+      "title": "Flight Mission Modeling of eVTOL and eCTOL Commuter Aircraft",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2280",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Climb",
+        "Takeoff",
+        "Range (aeronautics)",
+        "Aerospace engineering",
+        "Payload (computing)",
+        "Engineering",
+        "Automotive engineering",
+        "Work (physics)"
+      ],
+      "abstract": "This work models flight mission segments for battery-powered electric aircraft. Battery specific energy (BSE) requirements at aircraft level are identified to make electric vertical take-off and landing (eVTOL) and electric conventional take-off and landing (eCTOL) commuter aircraft feasible under future technology scenarios. For eVTOLs, the analysis pays particular attention to the critical transition segment from vertical takeoff to horizontal fixed-wing flight to calculate power and energy requirements. For a 5-person vehicle on a 37.5-nmi (69.5-km) mission similar to that of the Joby S4, the transition segment requires an instantaneous power of 980 kW, largely due to the induced drag. Due to this high power, the climb has an energy consumption similar to that of the cruise, despite being shorter in duration. The eCTOL aircraft is sized by converting a fuel-burning commuter aircraft (the Cessna 208B Grand Caravan) and quantifying changes in the range and total weight as a function of the BSE and empty weight fraction (EWF). Both aircraft can fly longer-range missions as BSE increases, and as EWF and hence, total aircraft weight decrease. For eVTOL and eCTOL aircraft to be fea...",
+      "authors": [
+        "Joon Vin Kwak",
+        "T. Venkatesh",
+        "Marty K. Bradley",
+        "Mitul Luhar",
+        "Saakar Byahut"
+      ]
+    },
+    {
+      "title": "Why do only some riblets promote spanwise rollers?",
+      "publication_year": 2025,
+      "publication_date": "2025-11-03",
+      "doi": "https://doi.org/10.1017/jfm.2025.10790",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/074973890E714AD87C7AB29DC5D71980/S0022112025107908a.pdf/div-class-title-why-do-only-some-riblets-promote-spanwise-rollers-div.pdf",
+      "concepts": [
+        "Mechanics",
+        "Flow (mathematics)",
+        "Boundary (topology)",
+        "Scaling",
+        "Turbulence",
+        "Admittance",
+        "Boundary value problem",
+        "Physics"
+      ],
+      "abstract": "Linear-stability modelling suggests that all sufficiently large riblets promote maximally growing spanwise rollers (García-Mayoral & Jiménez 2011 J. Fluid Mech. vol. 678, 317–347), yet direct numerical simulations (DNS) have shown that this is not the case (Endrikat et al. 2021 J. Fluid Mech. vol. 913, A37) some riblet shapes do not form spanwise rollers at all. Thus, the drag-reduction breakdown across all riblet shapes cannot be solely attributed to maximally growing spanwise rollers, prompting a reappraisal of the modelling. In this paper, comparing DNS data with riblet-resolving linear-stability predictions shows that the spanwise rollers are actually marginal modes, not maximally growing instabilities. This riblet-resolved linear analysis also predicts that not all riblet shapes promote spanwise rollers, in agreement with DNS, and unlike earlier linear-stability modelling, which relied on a one-dimensional (1-D) mean flow and on an over-simplified effective wall-admittance boundary condition. These riblet-resolved calculations further inform how to capture the effect of the riblet shape in a 1D model. Once captured, predictions with an effective boundary condition match rib...",
+      "authors": [
+        "Christopher J. Camobreco",
+        "Sebastian Endrikat",
+        "Ricardo García-Mayoral",
+        "Mitul Luhar",
+        "Daniel Chung"
+      ]
+    },
+    {
+      "title": "Internal Solitary Wave Generation Using A Jet-Array Wavemaker",
+      "publication_year": 2024,
+      "publication_date": "2024-11-25",
+      "doi": "https://doi.org/10.21203/rs.3.rs-5405979/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.21203/rs.3.rs-5405979/v1",
+      "concepts": [
+        "Amplitude",
+        "Pycnocline",
+        "Physics",
+        "Jet (fluid)",
+        "Inlet",
+        "Mechanics",
+        "Phase (matter)",
+        "Particle image velocimetry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jen-Ping Chu",
+        "Patrick Lynett",
+        "Mitul Luhar"
+      ]
+    },
+    {
+      "title": "Capturing multiscale interactions in fluid flow via Lagrangian coherent structures and modal analysis",
+      "publication_year": 2024,
+      "publication_date": "2024-10-28",
+      "doi": "https://doi.org/10.48550/arxiv.2410.20802",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2410.20802",
+      "concepts": [
+        "Sensitivity (control systems)",
+        "Modal",
+        "Mode (computer interface)",
+        "Lagrangian coherent structures",
+        "Modal analysis",
+        "Lagrangian",
+        "Mathematics",
+        "Mechanics"
+      ],
+      "abstract": "We consider the relationship between Eulerian modal decompositions and Lagrangian coherent structures (LCSs). The model sensitivity framework developed by Kaszás and Haller (2020) is used to express data-driven modal representations of fluid flow in a Lagrangian space. The method, based on the computation of the finite-time Lyapunov exponent, computes the amplitude perturbations experienced by fluid particles due to specific modal components of the flow. Demonstrations of the method are presented for both periodic and turbulent flows, including experimental data from the wake past an oscillating foil, numerical data of the classical cylinder wake flow, and a direct numerical simulation (DNS) of a turbulent channel flow. This method provides a way to understand how Eulerian mode structures interact dynamically with features of the Lagrangian coherent structure across scales, offering additional physical insight into modal decompositions.",
+      "authors": [
+        "Morgan R. Jones",
+        "Charles Klewicki",
+        "Khan, Oliver",
+        "Steven L. Brunton",
+        "Mitul Luhar"
+      ]
+    }
+  ]
+}

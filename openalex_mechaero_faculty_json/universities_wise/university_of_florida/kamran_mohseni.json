@@ -1,0 +1,247 @@
+{
+  "faculty_name": "Kamran Mohseni",
+  "full_name": "Kamran Mohseni",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Florida",
+  "author_id": "A5064775139",
+  "works_count": 436,
+  "cited_by_count": 5346,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 156
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 80
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 62
+    },
+    {
+      "topic": "Underwater Vehicles and Communication Systems",
+      "count": 54
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 49
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Lift evaluation of a two-dimensional pitching flat plate",
+      "publication_year": 2013,
+      "publication_date": "2013-09-01",
+      "doi": "https://doi.org/10.1063/1.4819878",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 99,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1205.6853",
+      "concepts": [
+        "Vortex lift",
+        "Vortex",
+        "Airfoil",
+        "Lift (data mining)",
+        "Angle of attack",
+        "Mechanics",
+        "Leading edge",
+        "Vortex shedding"
+      ],
+      "abstract": "Several previous experimental and theoretical studies have shown that a leading edge vortex (LEV) on an airfoil or wing can provide lift enhancement. In this paper, unsteady two-dimensional (2D) potential flow theory is employed to model the flow field of a pitching flat plate wing. A multi-vortices model is developed to model both the leading edge and trailing edge vortices (TEVs), which offers improved accuracy compared with using only single vortex at each separation location. The lift is obtained by integrating the unsteady Blasius equation. It is found that the motion of vortices contributes significantly to the overall aerodynamic force on the flat plate. A Kutta-like condition is used to determine the vortex intensity and location at the leading edge for large angle of attack cases; however, it is proposed to relax this condition for small angle of attack cases and apply a 2D shear layer model to calculate the circulation of the new added vortex. The results of the simulation are then compared with classical numerical, theoretical, and experimental data for canonical unsteady flat plat problems. Good agreement with these data is observed. Moreover, these results suggested...",
+      "authors": [
+        "Xi Xia",
+        "Kamran Mohseni"
+      ]
+    },
+    {
+      "title": "Numerical simulations of the Lagrangian averaged Navier–Stokes equations for homogeneous isotropic turbulence",
+      "publication_year": 2003,
+      "publication_date": "2003-01-09",
+      "doi": "https://doi.org/10.1063/1.1533069",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 135,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Homogeneous isotropic turbulence",
+        "Direct numerical simulation",
+        "K-epsilon turbulence model",
+        "Reynolds number",
+        "K-omega turbulence model"
+      ],
+      "abstract": "Capabilities for turbulence calculations of the Lagrangian averaged Navier–Stokes (LANS-α) equations are investigated in decaying and statistically stationary three-dimensional homogeneous and isotropic turbulence. Results of the LANS-α computations are analyzed by comparison with direct numerical simulation (DNS) data and large eddy simulations. Two different decaying turbulence cases at moderate and high Reynolds numbers are studied. In statistically stationary turbulence two different forcing techniques are implemented to model the energetics of the energy-containing scales. The resolved flows are examined by comparison of the energy spectra of the LANS-α with the DNS computations. The energy transfer and the capability of the LANS-α equations in representing the backscatter of energy is analyzed by comparison with the DNS data. Furthermore, the correlation between the vorticity and the eigenvectors of the rate of the resolved strain tensor is studied. We find that the LANS-α equations capture the gross features of the flow, while the wave activity below the scale α is filtered by a nonlinear redistribution of energy.",
+      "authors": [
+        "Kamran Mohseni",
+        "Branko Kosović",
+        "Steve Shkoller",
+        "Jerrold E. Marsden"
+      ]
+    },
+    {
+      "title": "Modelling circulation, impulse and kinetic energy of starting jets with non-zero radial velocity",
+      "publication_year": 2013,
+      "publication_date": "2013-02-19",
+      "doi": "https://doi.org/10.1017/jfm.2013.9",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 95,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Physics",
+        "Kinetic energy",
+        "Nozzle",
+        "Impulse (physics)",
+        "Rotational symmetry",
+        "Jet (fluid)",
+        "Radial velocity"
+      ],
+      "abstract": "Abstract The evolution of starting jet circulation, impulse and kinetic energy are derived in terms of kinematics at the entrance boundary of a semi-infinite axisymmetric domain. This analysis is not limited to the case of parallel jet flows; and the effect of non-zero radial velocity is specifically identified. The pressure distribution along the entrance boundary is also derived as it is required for kinetic energy modelling. This is done without reliance on an approximated potential function (i.e. translating flat plate), making it a powerful analytical tool for any axisymmetric jet flow. The pressure model indicates that a non-zero radial velocity is required for any ‘over-pressure’ at the nozzle exit. Jet flows are created from multiple nozzle configurations to validate this model. The jet is illuminated in cross-section, and velocity and vorticity fields are determined using digital particle image velocimetry (DPIV) techniques and circulation, impulse and kinetic energy of the jet are calculated from the DPIV data. A non-zero radial velocity at the entrance boundary has a drastic effect on the final jet. Experimental data showed that a specific configuration resulting in a...",
+      "authors": [
+        "Michael Krieg",
+        "Kamran Mohseni"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Capturing the kinematics and dynamics of fluid fronts",
+      "publication_year": 2025,
+      "publication_date": "2025-10-23",
+      "doi": "https://doi.org/10.3389/fphy.2025.1652090",
+      "venue": "Frontiers in Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2025.1652090/pdf",
+      "concepts": [
+        "Hypersurface",
+        "Surface (topology)",
+        "Kinematics",
+        "Classical mechanics",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Vortex",
+        "Mathematics"
+      ],
+      "abstract": "Gibbs was the first person to represent a phase interface by a dividing surface. He defined the dividing surface as a mathematical surface that has its own material properties and internal dynamics. In this paper, an alternative derivation to this mathematical surface is provided that generalizes the concept of dividing surface to fluid fronts beyond that of just a phase or material interface. Here, this extended definition of dividing surface is referred to as the extended dividing hypersurface (EDH), as it is not just applicable to a surface front but also to a line and a point front. This hypersurface represents a continuum approximation of a diffused region, where fluid properties and flow parameters vary sharply but continuously across it. This paper shows that the properties and equations describing an EDH can be derived from the equations describing the diffused region by integrating it in the directions normal to the hypersurface. This is equivalent to collapsing the diffused region in the normal direction. Hence, ensuring that the EDH is both kinematically and dynamically equivalent to that of the diffused region. Various canonical problems are examined to demonstrate t...",
+      "authors": [
+        "Joseph Thalakkottor",
+        "Kamran Mohseni"
+      ]
+    },
+    {
+      "title": "A theory on leading-edge vortex stabilization by spanwise flow",
+      "publication_year": 2023,
+      "publication_date": "2023-08-30",
+      "doi": "https://doi.org/10.1017/jfm.2023.613",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Leading edge",
+        "Vortex",
+        "Lift (data mining)",
+        "Flow (mathematics)",
+        "Delta wing",
+        "Wing",
+        "Physics"
+      ],
+      "abstract": "Natural flyers are capable of producing excessive lift via a stabilized leading-edge vortex (LEV), which appears to linger above the wing for a longer duration than it could in an equivalent two-dimensional flow. Previous studies found this stabilization behaviour closely related to a spanwise flow along the LEV axis; however, it is still debatable how the spanwise flow influences the LEV stability. In this work, potential flow theory is adopted to model an LEV attached to a flat-plate wing. To account for the spanwise flow effect, we propose a finite-area sink (FAS) model which allows the dynamical interaction between co-located LEV and spanwise flow. Through linear stability analysis of the dynamical system associated with the LEV movement, we arrive at a stable spiral-sink type of equilibrium, which is the first mathematical evidence supporting LEV stabilization by spanwise flow. It is further concluded that the LEV stability can be enhanced by either increasing the strength or decreasing the cross-section area of the spanwise flow.",
+      "authors": [
+        "Xi Xia",
+        "Kamran Mohseni"
+      ]
+    },
+    {
+      "title": "Capturing the kinematics and dynamics of fluid fronts",
+      "publication_year": 2023,
+      "publication_date": "2023-08-20",
+      "doi": "https://doi.org/10.48550/arxiv.2308.10369",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2308.10369",
+      "concepts": [
+        "Hypersurface",
+        "Surface (topology)",
+        "Classical mechanics",
+        "Vortex",
+        "Mechanics",
+        "Physics",
+        "Kinematics",
+        "Geometry"
+      ],
+      "abstract": "Gibbs was the first person to represent a phase interface by a dividing surface. He defined the dividing surface as a mathematical surface that has its own material properties and internal dynamics. In this paper, an alternative derivation to this mathematical surface is provided that generalizes the concept of dividing surface to fluid fronts beyond that of just a phase or material interface. Other fluid fronts being a vortex sheet, shock front, moving contact line, and gravity wavefront, to name a few. Here, this extended definition of dividing surface is referred to as the extended dividing hypersurface (EDH), as it is not just applicable to a surface front but also to a line and a point front. This hypersurface is a continuum approximation of a diffused region with fluid properties and flow parameters varying sharply but continuously across it. This paper shows that the properties and equations describing an EDH can be derived from the equations describing the diffused region by integrating it in the directions normal to the hypersurface. This is equivalent to collapsing the diffused region in the normal direction. Hence, ensuring that the EDH is both kinematically and dynam...",
+      "authors": [
+        "Joseph Thalakkottor",
+        "Kamran Mohseni"
+      ]
+    },
+    {
+      "title": "An Experimental Evaluation of Radio Models for Localizing Fixed-Wing UAVs in Rural Environments",
+      "publication_year": 2023,
+      "publication_date": "2023-01-06",
+      "doi": "https://doi.org/10.1109/tvt.2023.3234865",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transmitter",
+        "Polarization (electrochemistry)",
+        "Channel (broadcasting)",
+        "Power (physics)",
+        "Fixed wing",
+        "Reflection (computer programming)",
+        "Computer science",
+        "Electronic engineering"
+      ],
+      "abstract": "The emergence of unmanned aerial vehicles (UAVs) has spurred research on radio air-to-ground (AG) channels. The research shows the AG channel can exhibit higher rates of change and more 3D effects than a terrestrial channel. A received-power model predicts the power that makes it from the transmitter (Tx) to the receiver (Rx) through the intervening environment. Received-power models are key to many RF localization schemes. However, many of the received-power models used for UAV localization are 1D or 2D; 3D effects such as ground reflection and polarization are oversimplified or ignored entirely. In this paper, we perform a comparative experimental analysis of various received-power models. The more sophisticated models account for range, Tx directionality, Rx directionality, polarization, and ground reflection. The models are applied to an AG link realized by a fixed-wing UAV in an open-field environment. Our results show that, on average, a 50% reduction in localization error can be achieved by including the polarization factor in the received-power model.",
+      "authors": [
+        "Matthew Silic",
+        "Kamran Mohseni"
+      ]
+    },
+    {
+      "title": "Utilizing Spatially Varying Fiber Arrays in Soft Morphing Surfaces for Grasping Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-04-06",
+      "doi": "https://doi.org/10.1115/1.4071597",
+      "venue": "Journal of Mechanisms and Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1115/1.4071597",
+      "concepts": [
+        "Morphing",
+        "Grippers",
+        "Soft robotics",
+        "Actuator",
+        "Hexapod",
+        "Computer science",
+        "Embedding",
+        "Work (physics)"
+      ],
+      "abstract": "Abstract Soft robotic grippers have the potential for dexterous manipulation of delicate, irregularly shaped objects that conventional end effectors lack the finesse to handle; however, the infinite dimensionality resulting from the compliance of soft materials increases the complexity of achieving controlled deformation. To address this, we present a method for introducing a structure into soft bodies using discontinuous, spatially varying fiber arrays to create morphing surfaces. We demonstrate this approach through the design of a novel soft robotic gripper, in which eccentric reinforcement within a flat circular membrane induces coupled vertical and lateral deformations upon inflation. This forms a finger-like manipulator, an actuation pattern not typically achieved in similarly shaped membrane-based actuators. Multiple membrane actuators were coordinated to perform diverse grasping tasks, successfully lifting both lightweight (3.8 g) deformable objects and heavier (1.2 kg) rigid items, demonstrating the versatility of the design. The principles established in this work offer a scalable framework for embedding functional anisotropy in soft actuators to enable complex, task-o...",
+      "authors": [
+        "Austin Moss",
+        "Nick Sholl",
+        "Kamran Mohseni"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "faculty_name": "Camli Badrya",
+  "full_name": "Camli Badrya",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Davis",
+  "author_id": "A5055976807",
+  "works_count": 54,
+  "cited_by_count": 427,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 29
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 22
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 21
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 13
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Multi-Fidelity Coupled Trim Analysis of a Flapping-Wing Micro Air Vehicle Flight",
+      "publication_year": 2017,
+      "publication_date": "2017-01-31",
+      "doi": "https://doi.org/10.2514/1.c034236",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 28,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flapping",
+        "Wing",
+        "Kinematics",
+        "Aerodynamics",
+        "Trim",
+        "Flight dynamics",
+        "Micro air vehicle",
+        "Aerodynamic force"
+      ],
+      "abstract": "This study provides a methodology to analyze the performance of a millimeter-scale flapping-wing micro air vehicle in hover and steady forward flight. Using a flight dynamic model of the insect, which comes embedded with simplified quasi-steady wing aerodynamics and is coupled to high-fidelity computational fluid dynamics analysis, trim solutions are obtained in realistic time frames. This procedure is analogous to rotorcraft periodic coupling for trim. Six iterative coupling cycles are sufficient to obtain convergence in the wing loads and trim variables for the cases investigated. This multifidelity approach, where many quasi-steady calculations are combined with a judicious number of computational fluid dynamics simulations, may be used in parametric sweeps and design studies to improve hover and cruise performance. The trim variables chosen in this study are the parameters used to describe the wing kinematics (stroke amplitude , stroke flapping bias , and stroke plane tilt ). Flight conditions investigated are hover and three forward flight speeds. At hover, the wing kinematics parameters produce linearly independent force and moment components in the longitudinal plane. In ...",
+      "authors": [
+        "Camli Badrya",
+        "Ananth Sridharan",
+        "James D. Baeder",
+        "Christopher Kroninger"
+      ]
+    },
+    {
+      "title": "Multidisciplinary design optimisation of a fully electric regional aircraft wing with active flow control technology",
+      "publication_year": 2021,
+      "publication_date": "2021-10-28",
+      "doi": "https://doi.org/10.1017/aer.2021.101",
+      "venue": "The Aeronautical Journal",
+      "type": "article",
+      "cited_by_count": 23,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Drag",
+        "Aerodynamics",
+        "Laminar flow",
+        "Engineering",
+        "Airfoil",
+        "Aerospace engineering",
+        "Mechanical engineering"
+      ],
+      "abstract": "Abstract The German research Cluster of Excellence SE2A (Sustainable and Energy Efficient Aviation) is investigating different technologies to be implemented in the following decades, to achieve more efficient air transportation. This paper studies the Hybrid Laminar Flow Control (HLFC) using boundary layer suction for drag reduction, combined with other technologies for load and structural weight reduction and a novel full-electric propulsion system. A multidisciplinary design optimisation framework is presented, enabling physics-based analysis and optimisation of a fully electric aircraft wing equipped with HLFC technologies and load alleviation, and new structures and materials. The main focus is on simulation and optimisation of the boundary layer suction and its influence on wing design and optimisation. A quasi three-dimensional aerodynamic analysis is used for drag estimation of the wing. The tool executes the aerofoil analysis using XFOILSUC, which provides accurate drag estimation through boundary layer suction. The optimisation is based on a genetic algorithm for maximum take-off weight (MTOW) minimisation. The optimisation results show that the active flow control app...",
+      "authors": [
+        "Valerio Mosca",
+        "Stanislav Karpuk",
+        "Anand Sudhi",
+        "Camli Badrya",
+        "Ali Elham"
+      ]
+    },
+    {
+      "title": "Computational and Experimental Investigation of a Flapping-Wing Micro Air Vehicle in Hover",
+      "publication_year": 2019,
+      "publication_date": "2019-05-17",
+      "doi": "https://doi.org/10.2514/1.c035239",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 14,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Micro air vehicle",
+        "Aerospace engineering",
+        "Flapping",
+        "Wing",
+        "Aerodynamics",
+        "Computational fluid dynamics",
+        "Wing loading",
+        "Aeronautics"
+      ],
+      "abstract": "Experimental and computational study of flapping-wing insect at low Reynolds number is conducted in this work. The paper is broadly divided into two sections: experiments and computational fluid dynamics–based numerical analysis. A dynamically scaled wing is simulated using Overset Transonic Rotor Unsteady Navier–Stokes (OVERTURNS) computational platform, a three-dimensional Navier–Stokes solver. The computational results are compared with experimental results of an isolated flapping wing performed in an oil tank. Good agreement was observed between the experiments and numerical simulations in terms of magnitude and trend of the unsteady instantaneous lift and drag forces over the flapping cycle. A parametric study was performed to observe the influence of the kinematic, flapping frequency and pitch angle, on the force production and power requirements. As a consequence of the study, lift-to-power ratio versus average lift was identified as a principal efficiency metric to assess the performance of flapping-wing vehicles for given geometry and kinematic parameters. A clear advantage for a wing pitch angle of 40° was observed compared with that of 30° or 60°.",
+      "authors": [
+        "Camli Badrya",
+        "Bharath Govindarajan",
+        "James D. Baeder",
+        "Aaron Harrington",
+        "Christopher Kroninger"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental Study of Obstacle-Induced Flow Turbulence in Ground Proximity Using an Atmospheric Boundary Layer Wind Tunnel",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4656",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Planetary boundary layer",
+        "Boundary layer",
+        "Turbulence",
+        "Wind tunnel",
+        "Meteorology",
+        "Geology",
+        "Flow (mathematics)",
+        "Log wind profile"
+      ],
+      "abstract": "Advanced Air Mobility (AAM) requires an improved understanding of the complex airflow structures and turbulence environments encountered by vehicles operating near the ground. This study examines the effects of ground infrastructure on mechanical turbulence and the resulting wind velocity fluctuations above surface obstacles. The experiments were conducted in an atmospheric boundary layer (ABL) wind tunnel facility designed to simulate a neutral turbulent boundary layer with an average freestream velocity of 4 m/s. The mean flow field and turbulence intensity were characterized using a Constant Temperature Anemometry (CTA) system. Mechanical turbulence production within the neutral ABL was investigated to provide an initial understanding of the Vertical Zone of Influence (VZOI) for configurations inspired by the theory of isolated-flow, wake-interference-flow, and skimming-flow configurations. The result shows that the maximum overhead turbulence intensity within the surface layer of the ABL can increase from 15% to 25% simply due to the presence of a single obstacle to the course of a fully developed flow. Additionally, the VZOI was found to consistently scale with 4× the heigh...",
+      "authors": [
+        "Stephie A. Soloarivony",
+        "Albert Zhan",
+        "Camli Badrya"
+      ]
+    },
+    {
+      "title": "Wind Tunnel Testing of a Subsonic Airfoil Employing Hybrid Laminar Flow Control",
+      "publication_year": 2026,
+      "publication_date": "2026-05-18",
+      "doi": "https://doi.org/10.2514/1.j065991",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Laminar flow",
+        "Suction",
+        "Wind tunnel",
+        "Adverse pressure gradient",
+        "Flow separation",
+        "Mechanics",
+        "Materials science"
+      ],
+      "abstract": "A hybrid laminar flow control (HLFC) airfoil with boundary-layer suction (BLS) applied between 50 and 80% of the chord on the upper surface is tested in a wind tunnel, revealing the potential of HLFC in the adverse pressure gradient region. The HLFC airfoil is designed for [Formula: see text] million ([Formula: see text]) through a numerical optimization framework for two-dimensional HLFC profiles. The wind-tunnel model is constructed from composite materials with a metallic insert enabling BLS. The suction panel consists of a thin, porous stainless-steel sheet with laser-drilled holes of [Formula: see text] in diameter and a porosity of 0.9%. This porous surface is bonded to a multichamber suction system that allows independent control of the suction flow rate at four chordwise locations. Pressure measurements are used to compute [Formula: see text] and [Formula: see text], while infrared thermography tracks the transition location. Flow meters monitor the suction flow rate. Experimental results demonstrate that BLS extends the laminar region by displacing the laminar separation bubble toward the trailing edge, thereby reducing drag. The application of laminar-flow suction redu...",
+      "authors": [
+        "Michelangelo Corelli Grappadelli",
+        "Anand Sudhi",
+        "Rolf Radespiel",
+        "Camli Badrya"
+      ]
+    },
+    {
+      "title": "Aerodynamic Design and Experimental Characterization of an Airfoil at Low Reynolds Numbers",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.4050/f-0082-2026-0217",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Reynolds number",
+        "Lift coefficient",
+        "Mechanics",
+        "Camber (aerodynamics)",
+        "Lift (data mining)",
+        "Laminar flow",
+        "Lift-to-drag ratio"
+      ],
+      "abstract": "A novel airfoil was designed at a Reynolds number (Re) of 50,000 using a multi-objective, multi-fidelity framework based on unsteady Reynolds-averaged Navier-Stokes (URANS) simulations and a gradient-free optimization approach, and compared with the DEA-11 airfoil. Aerodynamic performance and flow physics were investigated through water tunnel experiments, two-dimensional and three-dimensional URANS simulations, and microscopic particle image velocimetry (Micro-PIV), with numerical results validated against experimental data. At Re = 50,000, the optimized airfoil achieves approximately 60% drag reduction at matched lift coefficient, a reduced extent of flow separation, lower pitching moment, with comparable maximum lift coefficient relative to the DAE-11 baseline. In the three-dimensional setting, a classical aspect ratio correction recovers the finite-wing lift closely, while three-dimensional URANS consistently under-predicts drag at positive angles of attack. Measurements and computations confirm that trailing-edge laminar separation bubbles play a significant role in the observed nonlinearity in the lift curve by inducing a virtual camber and effective incidence change. Cons...",
+      "authors": [
+        "Sneha Jacob",
+        "Juan Miranda",
+        "Moble Benedict",
+        "Camli Badrya",
+        "Cibin Joseph"
+      ]
+    },
+    {
+      "title": "Optimization of Rotor Blade Airfoils Using Compressible Unsteady Flow Simulations for Hover and Forward Flight Performance",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.4050/f-0082-2026-0302",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Stall (fluid mechanics)",
+        "Mechanics",
+        "Aerodynamic center",
+        "Aerodynamics",
+        "Mach number",
+        "Lift coefficient",
+        "Lift-induced drag"
+      ],
+      "abstract": "A multi-objective optimization of a rotor blade airfoil is presented using compressible unsteady Reynolds-averaged Navier-Stokes simulations directly within the optimization loop. The baseline SC1095 airfoil is optimized using NSGA-II with two objectives: pre-stall aerodynamic efficiency representing hover performance, and lift hysteresis loop area representing dynamic stall severity. The optimized airfoil exhibits increased maximum thickness with an aft-shifted crest and substantially higher camber. Static polars show improved lift-to-drag ratio at $Ma = 0.5$ and $0.6$. Hover performance is essentially unchanged relative to the baseline. In forward flight, a progressive power penalty is incurred above $\\mu = 0.2$, attributed to higher profile drag at advancing blade Mach numbers. Dynamic stall simulations show an 80% reduction in peak drag and a 50% reduction in peak pitching moment excursion relative to the SC1095, demonstrating the effectiveness of the optimization for retreating blade conditions.",
+      "authors": [
+        "Cibin Joseph",
+        "Camli Badrya"
+      ]
+    },
+    {
+      "title": "Fly motion vision maximizes signal energy transfer between mechanical input and sensor output",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "https://doi.org/10.1126/scirobotics.adx7524",
+      "venue": "Science Robotics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Observability",
+        "Control theory (sociology)",
+        "Computer science",
+        "Actuator",
+        "SIGNAL (programming language)",
+        "Artificial intelligence",
+        "Motion (physics)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Insects achieve agile flight using a sensor-rich control architecture whose embodiment eliminates the need for complex computation. For example, their visual systems are tuned to detect the optic flow associated with specific self-motions, but what functional principle does this tuning embed, and how does it facilitate motor control? Here, we tested the hypothesis that evolution cotunes physics and physiology by aligning an insect's sensors to its dynamically important modes of self-motion. Specifically, we show that the spatial tuning of the blowfly motion vision system maximizes the open-loop Hankel singular values, which quantify the flow of signal energy from gust disturbances and control inputs to sensor outputs, jointly optimizing observability and controllability. This evolutionary principle differs from the conventional engineering-design paradigm of optimizing state estimation, with implications for robotic systems combining high performance with minimal actuator usage.",
+      "authors": [
+        "J. Sean Humbert",
+        "Holger G. Krapp",
+        "James D. Baeder",
+        "Camli Badrya",
+        "Inés L. Dawson",
+        "Jiaqi Huang",
+        "Andrew Hyslop",
+        "Yong Su Jung",
+        "Alix Leroy",
+        "Cosima Lutkus",
+        "Beth Mortimer",
+        "Indira Nagesh",
+        "Clément Ruah",
+        "Simon M. Walker",
+        "Yingjie Yang",
+        "Rafal W. Żbikowski",
+        "Graham K. Taylor"
+      ]
+    }
+  ]
+}

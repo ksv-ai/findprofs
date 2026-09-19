@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Diego Donzis",
+  "full_name": "Diego A. Donzis",
+  "department": "Department of Aerospace Engineering",
+  "university": "Texas A&M University-College Station",
+  "author_id": "A5075864982",
+  "works_count": 135,
+  "cited_by_count": 2463,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 101
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 42
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 40
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 17
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Dissipation and enstrophy in isotropic turbulence: Resolution effects and scaling in direct numerical simulations",
+      "publication_year": 2008,
+      "publication_date": "2008-04-01",
+      "doi": "https://doi.org/10.1063/1.2907227",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 226,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Enstrophy",
+        "Physics",
+        "Turbulence",
+        "Dissipation",
+        "Reynolds number",
+        "Direct numerical simulation",
+        "Statistical physics",
+        "Scaling"
+      ],
+      "abstract": "Existing experimental and numerical data suggest that the turbulence energy dissipation and enstrophy (i.e., the square of vorticity) possess different scaling properties, while available theory suggests that there should be no differences at sufficiently high Reynolds numbers. We have performed a series of direct numerical simulations with up to 20483 grid points where advanced computational power is used to increase the Reynolds number (up to 650 on the Taylor scale) or to resolve the small scales better (down to 1∕4 of a Kolmogorov scale). Our primary goal is to assess the differences and similarities between dissipation and enstrophy. Special attention is paid to the effects of small-scale resolution on the quality and reliability of the data, in view of recent theoretical work [V. Yakhot and K. R. Sreenivasan, “Anomalous scaling of structure functions and dynamic constraints on turbulence simulations,” J. Stat. Phys. 121, 823 (2005)] which stipulates the resolution needed to obtain a moment of a given order. We also provide error estimates as a function of small-scale resolution. Probability density functions of dissipation and enstrophy at high Reynolds number reveal the p...",
+      "authors": [
+        "Diego A. Donzis",
+        "P. K. Yeung",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "Dissipation, enstrophy and pressure statistics in turbulence simulations at high Reynolds numbers",
+      "publication_year": 2012,
+      "publication_date": "2012-02-08",
+      "doi": "https://doi.org/10.1017/jfm.2012.5",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 167,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Enstrophy",
+        "Reynolds number",
+        "Physics",
+        "Turbulence",
+        "Dissipation",
+        "Statistical physics",
+        "Vorticity",
+        "Isotropy"
+      ],
+      "abstract": "Abstract We use data from well-resolved direct numerical simulations at Taylor-scale Reynolds numbers from 140 to 1000 to study the statistics of energy dissipation rate and enstrophy density (i.e. the square of local vorticity). Despite substantial variability in each of these variables, their extreme events not only scale in a similar manner but also progressively tend to occur spatially together as the Reynolds number increases. Though they possess non-Gaussian tails of enormous amplitudes, ratios of some characteristic properties can be closely linked to those of isotropic Gaussian random fields. We present results also on statistics of the pressure Laplacian and conditional mean pressure given both dissipation and enstrophy. At low Reynolds number intense negative pressure fluctuations are preferentially associated with rotation-dominated regions but at high Reynolds number both high dissipation and high enstrophy have similar effects.",
+      "authors": [
+        "P. K. Yeung",
+        "Diego A. Donzis",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "High-Reynolds-number simulation of turbulent mixing",
+      "publication_year": 2005,
+      "publication_date": "2005-08-01",
+      "doi": "https://doi.org/10.1063/1.2001690",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 144,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Reynolds number",
+        "Intermittency",
+        "Turbulence",
+        "Scalar (mathematics)",
+        "Mechanics",
+        "Isotropy",
+        "Scaling"
+      ],
+      "abstract": "A brief report is given of a new 20483 direct numerical simulation of the mixing of passive scalars with uniform mean gradients in forced, stationary isotropic turbulence. The Taylor-scale Reynolds number is close to 700 and Schmidt numbers of 1 and 1∕8 are considered. The data provide the most convincing evidence to date for the inertial-convective scaling. Significant departures from small-scale isotropy are sustained in conventional measures. Subject to some stringent resolution requirements, the data suggest that commonly observed differences between the intermittency of energy and scalar dissipation rates may in part be a finite-Reynolds-number effect.",
+      "authors": [
+        "P. K. Yeung",
+        "Diego A. Donzis",
+        "Katepalli R. Sreenivasan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Turbulence through the lens of a visionary: A tribute to K. R. Sreenivasan and an introduction to the special issue",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1063/5.0288593",
+      "venue": "Physics of Fluids",
+      "type": "editorial",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0288593/20766095/100401_1_5.0288593.pdf",
+      "concepts": [
+        "Admiration",
+        "Tribute",
+        "Privilege (computing)",
+        "Physics",
+        "Turbulence",
+        "Lens (geology)",
+        "Through-the-lens metering",
+        "Art history"
+      ],
+      "abstract": "This special issue of Physics of Fluids celebrates the 75th birthday of Professor Katepalli Raju Sreenivasan, popularly known as Sreeni, a distinguished figure whose intellectual influence extends broadly across fluid dynamics, statistical physics, applied mathematics, and beyond. It is a privilege to introduce this collection of papers, contributed by colleagues, former students, and researchers deeply influenced by his work, reflecting the profound respect and admiration he commands within the scientific community.",
+      "authors": [
+        "Sharath S. Girimaji",
+        "Diego A. Donzis"
+      ]
+    },
+    {
+      "title": "Contributors",
+      "publication_year": 2025,
+      "publication_date": "2025-08-22",
+      "doi": "https://doi.org/10.1016/b978-0-44-318785-8.00005-5",
+      "venue": "Elsevier eBooks",
+      "type": "paratext",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Diego A. Donzis",
+        "Hermann F. Fasel",
+        "Christoph Hader",
+        "Asif Manzoor Hasan",
+        "Travis S. Kocian",
+        "Johan Larsson",
+        "Dimitri Papamoschou",
+        "Pedro Paredes",
+        "René Pecnik",
+        "Sergio Pirozzoli",
+        "Helen Reed",
+        "Neil D. Sandham",
+        "Christian Stemmer",
+        "Vassilios Theofilis",
+        "Xiaolin Zhong",
+        "Zihao Zou"
+      ]
+    },
+    {
+      "title": "Isotropic compressible turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-08-22",
+      "doi": "https://doi.org/10.1016/b978-0-44-318785-8.00018-3",
+      "venue": "Elsevier eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Isotropy",
+        "Turbulence",
+        "Compressibility",
+        "Mechanics",
+        "Aerospace engineering",
+        "Physics",
+        "Geology",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Diego A. Donzis"
+      ]
+    },
+    {
+      "title": "How much Navier–Stokes dynamics is needed to capture turbulent mixing?",
+      "publication_year": 2025,
+      "publication_date": "2025-08-10",
+      "doi": "https://doi.org/10.1017/jfm.2025.10429",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/46C4CC68D4127BC48B30C5970404954D/S0022112025104291a.pdf/div-class-title-how-much-navier-stokes-dynamics-is-needed-to-capture-turbulent-mixing-div.pdf",
+      "concepts": [
+        "Intermittency",
+        "Physics",
+        "Reynolds number",
+        "Turbulence",
+        "Scalar (mathematics)",
+        "Scaling",
+        "Mixing (physics)",
+        "Vector field"
+      ],
+      "abstract": "We study the mixing of passive scalars in a velocity field generated by selected-eddy simulations (SES), an approach where only a randomly selected subset of spectrally distributed modes obey Navier–Stokes dynamics. The Taylor Reynolds number varies from 140 to 400 and the Schmidt number ( $Sc$ ) varies from 0.25 to 1. By comparing the results with direct numerical simulations (DNS), we show that most statistics are captured with as low as $0.5\\,\\%$ of Navier–Stokes modes in the velocity field. This includes scalar gradients, spectra, structure functions and their departures from classical scaling due to intermittency. The results suggest that all modes need not be resolved to accurately capture turbulent mixing for $Sc\\leqslant 1$ scalars.",
+      "authors": [
+        "Shilpa Sajeev",
+        "Diego A. Donzis"
+      ]
+    },
+    {
+      "title": "Mach number and wall thermal boundary condition effects on near-wall compressible turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-04-04",
+      "doi": "https://doi.org/10.1017/jfm.2025.66",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4933338CE68CC66B42B95151D9A3DA0B/S0022112025000667a.pdf/div-class-title-mach-number-and-wall-thermal-boundary-condition-effects-on-near-wall-compressible-turbulence-div.pdf",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Turbulence",
+        "Compressibility",
+        "Compressible flow",
+        "Boundary layer",
+        "Thermal",
+        "Physics"
+      ],
+      "abstract": "We investigate the effects of thermal boundary conditions and Mach number on turbulence close to walls. In particular, we study the near-wall asymptotic behaviour for adiabatic and pseudo-adiabatic walls, and compare to the asymptotic behaviour recently found near isothermal cold walls (Baranwal et al. 2022. J. Fluid Mech.933, A28). This is done by analysing a new large database of highly-resolved direct numerical simulations of turbulent channels with different wall thermal conditions and centreline Mach numbers. We observe that the asymptotic power-law behaviour of Reynolds stresses as well as heat fluxes does change with both centreline Mach number and thermal condition at the wall. Power-law exponents transition from their analytical expansion for solenoidal fields to those for non-solenoidal field as the Mach number is increased, though this transition is found to be dependent on the thermal boundary conditions. The correlation coefficients between velocity and temperature are also found to be affected by these factors. Consistent with recent proposals on universal behaviour of compressible turbulence, we find that dilatation at the wall is the key scaling parameter for the...",
+      "authors": [
+        "Akanksha Baranwal",
+        "Diego A. Donzis",
+        "Rodney Bowersox"
+      ]
+    }
+  ]
+}

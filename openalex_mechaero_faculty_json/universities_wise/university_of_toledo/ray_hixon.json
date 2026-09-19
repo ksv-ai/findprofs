@@ -1,0 +1,229 @@
+{
+  "faculty_name": "Ray Hixon",
+  "full_name": "Ray Hixon",
+  "department": "Department of Mechanical, Industrial and Manufacturing Engineering",
+  "university": "University of Toledo",
+  "author_id": "A5088291292",
+  "works_count": 114,
+  "cited_by_count": 1635,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 78
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 67
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 38
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 35
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Application of a Nonlinear Computational Aeroacoustics Code to the Gust-Airfoil Problem",
+      "publication_year": 2006,
+      "publication_date": "2006-02-01",
+      "doi": "https://doi.org/10.2514/1.3478",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Euler equations",
+        "Solver",
+        "Computational aeroacoustics",
+        "Nonlinear system",
+        "Benchmark (surveying)",
+        "Computer science",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "A time-domain solution of the gust-airfoil problem is obtained using a high-accuracy computational aeroacoustics code to solve the nonlinear Euler equations. For computational efficiency, the equations are cast in chain-rule curvilinear form, and a structured multiblock solver is used on a distributed-memory parallel computer cluster. To fully investigate the performance of this solver, a test matrix of benchmark problems is computed (two airfoil geometries and four gust-reduced frequencies). These results are compared to benchmark solutions both on the airfoil surface and in the flow domain.",
+      "authors": [
+        "Ray Hixon",
+        "Vladimir V. Golubev",
+        "Reda R. Mankbadi",
+        "James Scott",
+        "Steven F. Sawyer",
+        "M. Nallasamy"
+      ]
+    },
+    {
+      "title": "Use of Linearized Euler Equations for Supersonic Jet Noise Prediction",
+      "publication_year": 1998,
+      "publication_date": "1998-02-01",
+      "doi": "https://doi.org/10.2514/2.7495",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 87,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supersonic speed",
+        "Jet noise",
+        "Euler equations",
+        "Jet (fluid)",
+        "Physics",
+        "Noise (video)",
+        "Mechanics",
+        "Euler's formula"
+      ],
+      "abstract": "The use of linearized Euler equations for direct prediction of supersonic jet noise is explored. It is shown that a high-order numerical scheme coupled with proper boundary treatment can produce a stable solution nearly free from reflections. Results are verified against analytical results for sound radiated by instability waves. Applicability of this approach to real jets is explored by taking the inflow disturbances to be random in time and comparing the computed sound field to the experimentally measured one. Nomenclature D = jet exit nozzle diameter e = total energy per unit volume Me = jet exit Mach number p = pressure Ue = jet exit velocity u = axial velocity v = radial velocity w = azimuthal velocity p = density pe = jet exit density",
+      "authors": [
+        "Reda R. Mankbadi",
+        "Ray Hixon",
+        "S.-H. Shih",
+        "Louis A. Povinelli"
+      ]
+    },
+    {
+      "title": "High-accuracy large-step explicit Runge–Kutta (HALE-RK) schemes for computational aeroacoustics",
+      "publication_year": 2009,
+      "publication_date": "2009-02-27",
+      "doi": "https://doi.org/10.1016/j.jcp.2009.02.015",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Computational aeroacoustics",
+        "Runge–Kutta methods",
+        "Grid",
+        "Stability (learning theory)",
+        "Limit (mathematics)",
+        "Benchmark (surveying)",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vasanth Allampalli",
+        "Ray Hixon",
+        "M. Nallasamy",
+        "Scott Sawyer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Free-Energy Mapping of Gas-Assisted Exfoliation Pathways for Graphene under Compressible Flow: Implications for High-Volume Nanocomposite Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-05-03",
+      "doi": "https://doi.org/10.1021/acsanm.6c01419",
+      "venue": "ACS Applied Nano Materials",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Nanocomposite",
+        "Graphene",
+        "Exfoliation joint",
+        "Composite material",
+        "Compressibility",
+        "Nanotechnology",
+        "Exfoliated graphite nano-platelets"
+      ],
+      "abstract": "",
+      "authors": [
+        "Saeed Arabha",
+        "Cuiying Jian",
+        "Ray Hixon",
+        "Reza Rizvi"
+      ]
+    },
+    {
+      "title": "Compressible Flow Exfoliation of Two‐Dimensional Nanomaterials: Insights Into Layer Separation Informed by Gas Dynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-02-17",
+      "doi": "https://doi.org/10.1002/adem.202502168",
+      "venue": "Advanced Engineering Materials",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adem.202502168",
+      "concepts": [
+        "Materials science",
+        "Exfoliation joint",
+        "Shock (circulatory)",
+        "Drag",
+        "Flow (mathematics)",
+        "Nanotechnology",
+        "Nozzle",
+        "Molybdenum disulfide"
+      ],
+      "abstract": "As the technological implications of 2D nanomaterials like graphene, hexagonal boron nitride (h‐BN), and molybdenum disulfide (MoS 2 ) continue to expand, a critical need arises for the streamlined production of these materials. Their characteristics such as high mechanical robustness, exceptional electrical and thermal conductivities, and substantial surface area effects underscore this urgency. This study delves into an innovative technique, the compressible flow exfoliation (CFE) method, for the aim of achieving scalable production of 2D h‐BN nanosheets. The CFE technique capitalizes on the properties of high‐pressure gas, laden with 2D nanomaterials, as it traverses an orifice, acting as a converging–divergent (CD) nozzle. In such situations, the supersonic flow results in the formation of shock waves, exerting a sudden drag force on the nanomaterials. However, it is revealed that such shock events alone are not sufficient for separating the 2D layers in nanomaterials. Through detailed particle laden‐flow analysis and experiments, we reveal that the key to initiating exfoliation lies in the presence of a thrust force, which is critical for effectively separating these layers...",
+      "authors": [
+        "Md Farhadul Islam",
+        "Saeed Arabha",
+        "Ray Hixon",
+        "Reza Rizvi"
+      ]
+    },
+    {
+      "title": "Efficient Implicit Time-Marching Schemes with High-Order Stencils for Compressible Flow",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114360",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2025.114360",
+      "concepts": [
+        "Inviscid flow",
+        "Computer science",
+        "Benchmark (surveying)",
+        "Stability (learning theory)",
+        "Range (aeronautics)",
+        "Flow (mathematics)",
+        "Applied mathematics",
+        "Computation"
+      ],
+      "abstract": "Time-marching techniques are a cornerstone of Computational Aeroacoustics, but existing approaches face significant challenges. Explicit schemes, though straightforward, often require excessively small time steps to maintain numerical stability, while traditional implicit methods achieve larger time steps at the cost of high computational expense per step. This research presents a novel implicit framework that combines high-order differencing stencils for enhanced physical accuracy with low-order preconditioning to ensure numerical stability and efficiency. A comprehensive stability analysis is conducted for preconditioned implicit formulations in both inviscid and viscous flow regimes. The framework is validated across a range of benchmark problems, including one-dimensional, two-dimensional, and three-dimensional inviscid compressible flows, as well as a one-dimensional viscous problem. Results demonstrate the scheme’s ability to achieve robust stability, high accuracy, and reduced computational overhead compared to traditional implicit methods, making it a promising approach for high-fidelity aeroacoustic simulations.",
+      "authors": [
+        "Zaid H. Sabri",
+        "Ray Hixon"
+      ]
+    },
+    {
+      "title": "Efficient Implicit Time-Marching Schemes with High-Order Stencils for Compressible Flow",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.5119565",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5119565",
+      "concepts": [
+        "Flow (mathematics)",
+        "Compressible flow",
+        "Computer science",
+        "Compressibility",
+        "Mechanics",
+        "Computer graphics (images)",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zaid H. Sabri",
+        "Ray Hixon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Georgios Matheou",
+  "full_name": "Georgios Matheou",
+  "department": "School of Mechanical, Aerospace, and Manufacturing Engineering",
+  "university": "University of Connecticut",
+  "author_id": "A5091254897",
+  "works_count": 116,
+  "cited_by_count": 1474,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 60
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 47
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 30
+    },
+    {
+      "topic": "Atmospheric and Environmental Gas Dynamics",
+      "count": 21
+    },
+    {
+      "topic": "Atmospheric aerosols and clouds",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Large-Eddy Simulation of Stratified Turbulence. Part II: Application of the Stretched-Vortex Model to the Atmospheric Boundary Layer",
+      "publication_year": 2014,
+      "publication_date": "2014-08-08",
+      "doi": "https://doi.org/10.1175/jas-d-13-0306.1",
+      "venue": "Journal of the Atmospheric Sciences",
+      "type": "article",
+      "cited_by_count": 118,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Planetary boundary layer",
+        "Turbulence",
+        "Boundary layer",
+        "Mesoscale meteorology",
+        "Convective Boundary Layer",
+        "Advection",
+        "Turbulence kinetic energy",
+        "Large eddy simulation"
+      ],
+      "abstract": "Abstract The buoyancy-adjusted stretched-vortex subgrid-scale (SGS) model is assessed for a number of large-eddy simulations (LESs) corresponding to diverse atmospheric boundary layer conditions. The cases considered are free convection, a moderately stable boundary layer [first Global Energy and Water Exchanges (GEWEX) Atmospheric Boundary Layer Study (GABLS)] case, shallow cumulus [Barbados Oceanographic and Meteorological Experiment (BOMEX)], shallow precipitating cumulus [Rain in Cumulus over the Ocean (RICO)] and nocturnal stratocumulus [Second Dynamics and Chemistry of the Marine Stratocumulus (DYCOMS-II) field study RF01]. An identical LES setup, including advection discretization and SGS model parameters, is used for all cases, which is a stringent test on the ability of LES to accurately capture diverse conditions without any flow-adjustable parameters. The LES predictions agree well with observations and previously reported model results. A grid-resolution convergence study is carried out, and for all cases the mean profiles exhibit good grid-resolution independence, even for resolutions that are typically considered coarse. Second-order statistics, for example, varian...",
+      "authors": [
+        "Georgios Matheou",
+        "Daniel Chung"
+      ]
+    },
+    {
+      "title": "On the Fidelity of Large-Eddy Simulation of Shallow Precipitating Cumulus Convection",
+      "publication_year": 2011,
+      "publication_date": "2011-04-11",
+      "doi": "https://doi.org/10.1175/2011mwr3599.1",
+      "venue": "Monthly Weather Review",
+      "type": "article",
+      "cited_by_count": 108,
+      "is_oa": true,
+      "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/139/9/2011mwr3599.1.pdf",
+      "concepts": [
+        "Discretization",
+        "Meteorology",
+        "Advection",
+        "Large eddy simulation",
+        "Convection",
+        "Environmental science",
+        "Grid",
+        "Precipitation"
+      ],
+      "abstract": "The present study considers the impact of various choices pertaining to the numerical solution of the governing equations on large-eddy simulation (LES) prediction and the association of these choices with flow physics. These include the effect of dissipative versus nondissipative advection discretizations, different implementations of the constant-coefficient Smagorinsky subgrid-scale model, and grid resolution. Simulations corresponding to the trade wind precipitating shallow cumulus composite case of the Rain in Cumulus over the Ocean (RICO) field experiment were carried out. Global boundary layer quantities such as cloud cover, liquid water path, surface precipitation rate, power spectra, and the overall convection structure were used to compare the effects of different discretization implementations. The different discretization implementations were found to exert a significant impact on the LES prediction even for the cases where the process of precipitation was not included. Increasing numerical dissipation decreases cloud cover and surface precipitation rates. For nonprecipitating cases, grid convergence is achieved for grid spacings of 20 m. Cloud cover was found to be ...",
+      "authors": [
+        "Georgios Matheou",
+        "Daniel Chung",
+        "Louise Nuijens",
+        "Björn Stevens",
+        "J. Teixeira"
+      ]
+    },
+    {
+      "title": "Eddy Diffusivity/Mass Flux and Shallow Cumulus Boundary Layer: An Updraft PDF Multiple Mass Flux Scheme",
+      "publication_year": 2012,
+      "publication_date": "2012-01-19",
+      "doi": "https://doi.org/10.1175/jas-d-11-090.1",
+      "venue": "Journal of the Atmospheric Sciences",
+      "type": "article",
+      "cited_by_count": 70,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Convection",
+        "Eddy diffusion",
+        "Mass flux",
+        "Convective Boundary Layer",
+        "Boundary layer",
+        "Mechanics",
+        "Planetary boundary layer",
+        "Environmental science"
+      ],
+      "abstract": "Abstract In this study, the eddy diffusivity/mass flux (EDMF) approach is used to combine parameterizations of nonprecipitating moist convection and boundary layer turbulence. The novel aspect of this EDMF version is the use of a probability density function (PDF) to describe the moist updraft characteristics. A single bulk dry updraft is initialized at the surface and integrated vertically. At each model level, the possibility of condensation within the updraft is considered based on the PDF of updraft moist conserved variables. If the updraft partially condenses, it is split into moist and dry updrafts, which are henceforth integrated separately. The procedure is repeated at each of the model levels above. The single bulk updraft ends up branching into numerous moist and dry updrafts. With this new approach, the need to define a cloud-base closure is circumvented. This new version of EDMF is implemented in a single-column model (SCM) and evaluated using large-eddy simulation (LES) results for the Barbados Oceanographic and Meteorological Experiment (BOMEX) representing steady-state convection over ocean and the Atmospheric Radiation Measurement (ARM) case representing time-var...",
+      "authors": [
+        "Kay Sušelj",
+        "J. Teixeira",
+        "Georgios Matheou"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Large Eddy Simulation-Based Power Forecast Approach for Offshore Wind Farms",
+      "publication_year": 2025,
+      "publication_date": "2025-12-05",
+      "doi": "https://doi.org/10.3390/en18246386",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/en18246386",
+      "concepts": [
+        "Wake",
+        "Meteorology",
+        "Inflow",
+        "Mesoscale meteorology",
+        "Turbine",
+        "Environmental science",
+        "Offshore wind power",
+        "Turbulence"
+      ],
+      "abstract": "Reliable power forecasts are essential for the grid integration of offshore wind. This work presents a physics-based forecasting framework that couples mesoscale numerical weather prediction with large-eddy simulation (LES) and an actuator-disk turbine representation to predict farm-scale flows and power under realistic atmospheric conditions. Mean meteorological profiles from the Weather Research and Forecasting model drive a concurrent–precursor LES generating turbulent inflow consistent with the evolving boundary layer, while a main LES resolves turbulence and wake formation within the wind farm. The LES configuration and turbine-forcing implementation are validated against canonical single- and multi-turbine benchmarks, showing close agreement in wake deficits and recovery trends. The framework is then demonstrated for the South Fork Wind project (12 turbines, ∼132 MW) using a set of time-varying cases over a 24 h period. Simulations reproduce hub-height wind variability, row-to-row power differences associated with wake interactions, and turbine-level power fluctuations (order 1 MW) that converge with appropriate averaging windows. The results illustrate how an LES-augmente...",
+      "authors": [
+        "Yongjie Lu",
+        "Tasnim Zaman",
+        "Bin Ma",
+        "Marina Astitha",
+        "Georgios Matheou"
+      ]
+    },
+    {
+      "title": "Wind Direction Effects on Power Production of the South Fork Offshore Wind Farm",
+      "publication_year": 2025,
+      "publication_date": "2025-10-26",
+      "doi": "https://doi.org/10.1109/naps66256.2025.11272322",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Offshore wind power",
+        "Environmental science",
+        "Meteorology",
+        "Wind power",
+        "Marine engineering",
+        "Submarine pipeline",
+        "Fork (system call)",
+        "Wind speed"
+      ],
+      "abstract": "The power output of offshore wind farms is affected by varying weather conditions. The impact of wind direction on the South Fork offshore wind farm is investigated using a combination of high resolution modeling and field observations. The modeling uses a realistic atmospheric boundary layer structure based on the Weather Research and Forecasting model simulation. Simulations conducted with varying wind directions show that power output is sensitive to the wind incidence angle. Small deviations from the worst-case alignment can significantly affect performance. Specifically, for the South Fork Wind Farm, a 20° shift from the least favorable wind direction can lead to an increase in total power output of up to 30%. Even though the South Fork Wind Farm layout is constrained by environmental and construction considerations, an optimal orientation of wind farm could have resulted in higher power output.",
+      "authors": [
+        "Yongjie Lu",
+        "Georgios Matheou"
+      ]
+    },
+    {
+      "title": "Investigating Turbulent Dynamics in the Nocturnal Boundary Layer: A Large Eddy Simulation Study of the South Fork Wind Farm",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3016/1/012048",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3016/1/012048",
+      "concepts": [
+        "Boundary layer",
+        "Fork (system call)",
+        "Turbulence",
+        "Large eddy simulation",
+        "Mechanics",
+        "Nocturnal",
+        "Meteorology",
+        "Wind tunnel"
+      ],
+      "abstract": "Abstract In this study, Large Eddy Simulations (LES) with realistic inflow conditions are conducted to investigate the dynamics of the nocturnal marine atmospheric boundary layer (MABL) (with approximately 8 m/s mean inflow speeds) around the South Fork Wind Farm, completed in March 2024 and located 35 miles offshore and east of Montauk Point, NY. The LES framework incorporates 12 turbines represented by actuator disk models. We analyze the turbulence and circulation dynamics in the wake regions, focusing on the effects of tilting and stretching on vorticity as they represent the biggest budget terms. Our findings reveal that these processes intensify circulation and induce convergent (upward) motions in the near wake, while acting as sinks of vorticity in the far wake, thereby weakening circulation and facilitating flow recovery mechanisms. Additionally, we identify shear production as the primary source of turbulent kinetic energy (TKE) downstream of the actuator discs, peaking above the hub height, particularly at the top tip. The summer nocturnal boundary layer typically has consistent upward buoyancy flux. Heating at the surface induces convection and produces TKE. Overall,...",
+      "authors": [
+        "Adam Ayouche",
+        "Baylor Fox‐Kemper",
+        "Yongjie Lu",
+        "Georgios Matheou"
+      ]
+    },
+    {
+      "title": "Effects of Discretization of Smagorinsky–Lilly Subgrid Scale Model on Large-Eddy Simulation of Stable Boundary Layers",
+      "publication_year": 2025,
+      "publication_date": "2025-03-07",
+      "doi": "https://doi.org/10.3390/atmos16030310",
+      "venue": "Atmosphere",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/atmos16030310",
+      "concepts": [
+        "Large eddy simulation",
+        "Scale (ratio)",
+        "Scale model",
+        "Discretization",
+        "Meteorology",
+        "Climatology",
+        "Geology",
+        "Environmental science"
+      ],
+      "abstract": "Large-eddy simulation (LES) models are sensitive to numerical discretization because of the large fraction of resolved turbulent energy (>80%) and the strong non-linear interactions between resolved-scale fields with the turbulence subgrid scale (SGS) model. The effects of the Smagorinsky–Lilly SGS model discretization are investigated. Three finite difference schemes are compared. Second-, fourth-, and sixth-order centered difference schemes are used to approximate the spatial derivatives of the SGS model. In the LES of homogeneous isotropic turbulence (HIT), including (non-isotropic) turbulent mixing of a passive scalar, no differences are observed with respect to the SGS model discretization. The HIT LES results are validated against a direct numerical simulation, which resolves all flow scales and does not include an SGS model. In the LES of a moderately stable atmospheric boundary layer, the LES results depend on the SGS discretization for coarse grid resolutions. The second-order scheme performs better at coarse resolutions compared to higher-order schemes. Overall, it is found that higher-order discretizations of the Smagorinsky–Lilly model are not beneficial compared to ...",
+      "authors": [
+        "Jonas Banhos",
+        "Georgios Matheou"
+      ]
+    },
+    {
+      "title": "Deep Learning-Based quantifications of methane emissions with field applications",
+      "publication_year": 2024,
+      "publication_date": "2024-07-09",
+      "doi": "https://doi.org/10.1016/j.jag.2024.104018",
+      "venue": "International Journal of Applied Earth Observation and Geoinformation",
+      "type": "article",
+      "cited_by_count": 16,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jag.2024.104018",
+      "concepts": [
+        "Convolutional neural network",
+        "Hyperparameter",
+        "Flux (metallurgy)",
+        "Methane",
+        "Environmental science",
+        "Eddy covariance",
+        "Computer science",
+        "Remote sensing"
+      ],
+      "abstract": "Tackling methane emissions is critical for mitigating climate change, emphasizing the need to identify, quantify, and mitigate emission sources. Methane emissions can be detected using airborne techniques equipped with suitable sensors; however, a method is needed to precisely estimate methane source flux rates from these measurements. We have developed a convolutional neural network (CNN) model using a dataset generated from Large-Eddy Simulation (LES) mimicking the Airborne Visible/Infrared Imaging Spectrometer (AVIRIS-NG) measurements with different source flux rates (5–100 kg/hr) and varying wind speeds (1–10 m/s). Our proposed deep neural network architecture is simple, ensuring efficient training on synthetic data. Additionally, we have optimized model hyperparameters and architecture, improving accuracy and enabling precise quantification of source flux rates. We test the trained model on synthetic 2D images, demonstrating excellent overall predictability with mean absolute percentage errors of 2.15 % for the training dataset, 5.02 % for the validation dataset, and 4.84 % for the test dataset in predicting the source flux rates in kg/hr using the synthetic images. The err...",
+      "authors": [
+        "Ismot Jahan",
+        "Mohamed Mehana",
+        "Georgios Matheou",
+        "Hari Viswanathan"
+      ]
+    }
+  ]
+}

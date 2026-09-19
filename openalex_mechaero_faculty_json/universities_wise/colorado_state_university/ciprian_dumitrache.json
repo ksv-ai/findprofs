@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Ciprian Dumitrache",
+  "full_name": "Ciprian Dumitrache",
+  "department": "Department of Mechanical Engineering",
+  "university": "Colorado State University",
+  "author_id": "A5006804139",
+  "works_count": 73,
+  "cited_by_count": 511,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Laser-induced spectroscopy and plasma",
+      "count": 46
+    },
+    {
+      "topic": "Plasma Applications and Diagnostics",
+      "count": 28
+    },
+    {
+      "topic": "Laser Design and Applications",
+      "count": 20
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 14
+    },
+    {
+      "topic": "Atomic and Molecular Physics",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Hydrodynamic regimes induced by nanosecond pulsed discharges in air: mechanism of vorticity generation",
+      "publication_year": 2019,
+      "publication_date": "2019-06-11",
+      "doi": "https://doi.org/10.1088/1361-6463/ab28f9",
+      "venue": "Journal of Physics D Applied Physics",
+      "type": "article",
+      "cited_by_count": 63,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-02164353",
+      "concepts": [
+        "Schlieren",
+        "Vorticity",
+        "Mechanics",
+        "Nanosecond",
+        "Physics",
+        "Kernel (algebra)",
+        "Baroclinity",
+        "Materials science"
+      ],
+      "abstract": "Abstract The mechanisms controlling the hydrodynamic effects induced by nanosecond pulsed discharges applied between two pin electrodes in air at atmospheric conditions are investigated experimentally and numerically. A cylindrical plasma kernel is formed between the electrodes during the discharge. After the discharge, schlieren images show that the cylindrical kernel evolves in different ways depending on the gap distance: (1) for short gap distances ( ), the cylindrical kernel collapses to form a torus-like structure. In this case, the flow field presents a significant source of vorticity; (2) for larger gaps ( ), the kernel retains its initial cylindrical shape and cools down primarily through heat diffusion. The objective of this work is to understand the mechanisms leading to the formation of these two hydrodynamic regimes. To this end, simulations were performed and compared with the experimental schlieren images. It is shown that the main source of vorticity is the baroclinic torque caused by the cylindrical blast wave that follows the fast energy addition during the discharge. Finally, a criterion is given to predict the occurrence of the two hydrodynamic regimes. This ...",
+      "authors": [
+        "Ciprian Dumitrache",
+        "Arnaud Gallant",
+        "Nicolas Minesi",
+        "Sergey Stepanyan",
+        "Gabi-Daniel Stancu",
+        "Christophe O. Laux"
+      ]
+    },
+    {
+      "title": "Control of Early Flame Kernel Growth by Multi-Wavelength Laser Pulses for Enhanced Ignition",
+      "publication_year": 2017,
+      "publication_date": "2017-08-25",
+      "doi": "https://doi.org/10.1038/s41598-017-10457-0",
+      "venue": "Scientific Reports",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41598-017-10457-0.pdf",
+      "concepts": [
+        "Ignition system",
+        "Laser ignition",
+        "Wavelength",
+        "Laser",
+        "Materials science",
+        "Computer science",
+        "Optoelectronics",
+        "Optics"
+      ],
+      "abstract": "The present contribution examines the impact of plasma dynamics and plasma-driven fluid dynamics on the flame growth of laser ignited mixtures and shows that a new dual-pulse scheme can be used to control the kernel formation process in ways that extend the lean ignition limit. We perform a comparative study between (conventional) single-pulse laser ignition (λ = 1064 nm) and a novel dual-pulse method based on combining an ultraviolet (UV) pre-ionization pulse (λ = 266 nm) with an overlapped near-infrared (NIR) energy addition pulse (λ = 1064 nm). We employ OH* chemiluminescence to visualize the evolution of the early flame kernel. For single-pulse laser ignition at lean conditions, the flame kernel separates through third lobe detachment, corresponding to high strain rates that extinguish the flame. In this work, we investigate the capabilities of the dual-pulse to control the plasma-driven fluid dynamics by adjusting the axial offset of the two focal points. In particular, we find there exists a beam waist offset whereby the resulting vorticity suppresses formation of the third lobe, consequently reducing flame stretch. With this approach, we demonstrate that the dual-pulse me...",
+      "authors": [
+        "Ciprian Dumitrache",
+        "Rachel VanOsdol",
+        "Christopher Limbach",
+        "Azer P. Yalin"
+      ]
+    },
+    {
+      "title": "Gas dynamics and vorticity generation in laser-induced breakdown of air",
+      "publication_year": 2020,
+      "publication_date": "2020-02-03",
+      "doi": "https://doi.org/10.1364/oe.385430",
+      "venue": "Optics Express",
+      "type": "article",
+      "cited_by_count": 43,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1364/oe.385430",
+      "concepts": [
+        "Vorticity",
+        "Mechanics",
+        "Blast wave",
+        "Physics",
+        "Baroclinity",
+        "Optics",
+        "Laser",
+        "Shock wave"
+      ],
+      "abstract": "Research has shown that the ignition characteristics of laser-induced plasmas in fuel-air mixtures are influenced by the gas dynamics effects induced during the gas breakdown stage. Here, we present the numerical modeling of the fluid mechanics induced by breakdown (plasma formation) from a nanosecond near-infrared (NIR) laser pulse in air. The simulations focus on the post-discharge kernel dynamics with the goal of developing a better understanding of how vorticity is generated during the kernel cooling phase. Initial conditions (ICs) of kernel shape, temperature, and pressure (corresponding to the end of the laser pulse) are found from experimental Rayleigh scattering data. It is shown that this method for determining ICs is preferred versus the use of the Taylor-Sedov blast wave theory as it provides a more accurate description of the starting field. Past experimental observations have revealed that the gas dynamics of nanosecond laser sparks typically lead to the formation of an asymmetric torus with a frontal lobe propagating towards the laser source. We show that the development of the asymmetric torus is governed by strong vorticity generated through baroclinic torque ari...",
+      "authors": [
+        "Ciprian Dumitrache",
+        "Azer P. Yalin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental Investigation of a Femtosecond-Initiated Continuous Optical Discharge in High-Pressure Nitrogen",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4322",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nitrogen",
+        "Materials science",
+        "Analytical Chemistry (journal)",
+        "Nitrogen oxides",
+        "Environmental science",
+        "Chemistry",
+        "Measure (data warehouse)",
+        "Optical fiber"
+      ],
+      "abstract": "This study experimentally investigates femtosecond and nanosecond-laser pre-ionization as seed-plasma strategies for continuous-wave (CW) laser coupling in high-pressure nitrogen. The motivation is to evaluate the feasibility of an optically initiated continuous optical discharge (COD) for future plasma-assisted combustion applications. Both fs and ns pre-ionization sources were coupled with a 976 nm CW laser at pressures up to 30 bar. Femtosecond excitation produced an elongated filamentary plasma that transitioned to multi-filament behavior at elevated pressure. The transmitted femtosecond spectrum also showed strong pressure-dependent broadening, indicating significant nonlinear optical restructuring of the pulse during propagation through dense nitrogen. Apparent CW power losses of approximately 16–22% were measured in the collinear fs-CW configuration at 30 bar, but direct beam-profile imaging revealed strong distortion of the transmitted CW beam. This indicates that the apparent power loss includes contributions from plasma or thermally induced defocusing and beam steering, making it difficult to isolate true absorption in the femtosecond case. Nanosecond optical breakdown...",
+      "authors": [
+        "Justin Loconzolo",
+        "Mozhdeh Hooshyar",
+        "Ciprian Dumitrache"
+      ]
+    },
+    {
+      "title": "Lean Flame Stability Enhancement Using Nanosecond Pulsed Discharges in a Staged Combustor",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4321",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Combustor",
+        "Nanosecond",
+        "Stability (learning theory)",
+        "Composite material",
+        "Combustion",
+        "Metallurgy",
+        "Nuclear engineering"
+      ],
+      "abstract": "This study investigates the use of nanosecond repetitively pulsed (NRP) discharges to enhance lean flame behavior in a commercially available Honeywell SER 450 staged combustion burner. The burner was operated with natural gas in both its baseline ignition configuration and a retrofitted plasma-assisted combustion (PAC) configuration. NRP discharges were generated using a nanosecond pulser operated at approximately 8 kV and 15 kHz with a 2 mm interelectrode gap. Experiments were conducted in an open-flame configuration at a fixed thermal input power of 50 kBTU/hr over a range of global equivalence ratios, (",
+      "authors": [
+        "Zachary Kinzler",
+        "Bret Windom",
+        "Azer P. Yalin",
+        "Ciprian Dumitrache"
+      ]
+    },
+    {
+      "title": "Pre-lonization Thresholds for Continuous-Wave Sustainment of Femtosecond-Initiated Plasmas",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4257",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supercontinuum",
+        "Materials science",
+        "Femtosecond",
+        "Optics",
+        "Optoelectronics",
+        "Ultrashort pulse",
+        "Filamentation",
+        "Reflectivity"
+      ],
+      "abstract": "This study examines the feasibility of using a continuous-wave (CW) laser to extend the lifetime of a femtosecond (fs) filament and to analyze its impact on key excited species such as N2(C) and N2+(B). A CW laser, with Ilaser=1014 W/m2, overlapped to the fs filament is able to sustain electron temperature at 8867 K and modifies reaction pathways by enhancing electron-impact processes. However, despite this additional energy input, the electron number density continues to decay rapidly and stabilize around ~10^10 cm⁻³, indicating that CW-assisted heating alone is insufficient to sustain the filament on microsecond timescales. Analysis of the dominant reaction mechanisms reveals that electron production remains limited by insufficient electron energy, with recombination and loss processes dominating at low electron temperatures. A sensitivity analysis of electron production and loss pathways identifies a critical threshold of approximately Te~2 eV, above which electron-impact ionization becomes competitive with loss mechanisms. Motivated by this result, a high-electron temperature, Te~6 eV, seed initialization case representative of a nanosecond discharge is investigated. In this...",
+      "authors": [
+        "Mozhdeh Hooshyar",
+        "Ciprian Dumitrache"
+      ]
+    },
+    {
+      "title": "Influence of Laser Energy and Ignition Location on Spray Flame Evolution",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "https://doi.org/10.6084/m9.figshare.31450775",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31450775",
+      "concepts": [
+        "Ignition system",
+        "Laser ignition",
+        "Combustion",
+        "Laser",
+        "Materials science",
+        "SPARK (programming language)",
+        "Kernel (algebra)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Laser ignition experiments were performed in a heptane spray using an Nd:YAG laser to investigate its ignitability. In the first set, Laser-Induced Breakdown Spectroscopy (LIBS) and imaging were employed to quantify Hα/O ratios, kernel size, and kernel number at various locations within the spray. While these parameters generally followed the spray profile, they did not reliably predict ignition. In the second set, OH chemiluminescence, LIBS, and high-speed imaging was utilized to understand the effect of laser energy and ignition location on ignitability. Two distinct modes of ignition failure – short and long – were identified based on kernel extinction time. For the spray conditions studied, ignition was achieved at laser energy of 250 mJ, while long-mode failure occurred at 80 mJ, and short-mode failure at 30 mJ. Optical intensities of OH and CH showed that higher laser energies generated more radical species and sustained the flame long enough to establish stable ignition. Additionally, kernel trajectories extracted from high-speed images showed that ignition is more probable for cases where the spark is generated in or moves into recirculation zone. These findings enhance ...",
+      "authors": [
+        "Parneeth Lokini",
+        "Ciprian Dumitrache",
+        "Azer Yalin",
+        "Bret Windom"
+      ]
+    },
+    {
+      "title": "Influence of Laser Energy and Ignition Location on Spray Flame Evolution",
+      "publication_year": 2026,
+      "publication_date": "2026-03-03",
+      "doi": "https://doi.org/10.6084/m9.figshare.31450775.v1",
+      "venue": "Figshare",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.31450775.v1",
+      "concepts": [
+        "Ignition system",
+        "Laser ignition",
+        "Combustion",
+        "Laser",
+        "Materials science",
+        "SPARK (programming language)",
+        "Kernel (algebra)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Laser ignition experiments were performed in a heptane spray using an Nd:YAG laser to investigate its ignitability. In the first set, Laser-Induced Breakdown Spectroscopy (LIBS) and imaging were employed to quantify Hα/O ratios, kernel size, and kernel number at various locations within the spray. While these parameters generally followed the spray profile, they did not reliably predict ignition. In the second set, OH chemiluminescence, LIBS, and high-speed imaging was utilized to understand the effect of laser energy and ignition location on ignitability. Two distinct modes of ignition failure – short and long – were identified based on kernel extinction time. For the spray conditions studied, ignition was achieved at laser energy of 250 mJ, while long-mode failure occurred at 80 mJ, and short-mode failure at 30 mJ. Optical intensities of OH and CH showed that higher laser energies generated more radical species and sustained the flame long enough to establish stable ignition. Additionally, kernel trajectories extracted from high-speed images showed that ignition is more probable for cases where the spark is generated in or moves into recirculation zone. These findings enhance ...",
+      "authors": [
+        "Parneeth Lokini",
+        "Ciprian Dumitrache",
+        "Azer Yalin",
+        "Bret Windom"
+      ]
+    }
+  ]
+}

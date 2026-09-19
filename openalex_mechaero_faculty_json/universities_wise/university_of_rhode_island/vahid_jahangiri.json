@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Vahid Jahangiri",
+  "full_name": "Vahid Jahangiri",
+  "department": "Department of Mechanical, Industrial and Systems Engineering",
+  "university": "University of Rhode Island",
+  "author_id": "A5053113679",
+  "works_count": 29,
+  "cited_by_count": 1103,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Vibration Control and Rheological Fluids",
+      "count": 13
+    },
+    {
+      "topic": "Seismic Performance and Analysis",
+      "count": 11
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 11
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 6
+    },
+    {
+      "topic": "Wave and Wind Energy Systems",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Fatigue damage mitigation of offshore wind turbines under real wind and wave conditions",
+      "publication_year": 2018,
+      "publication_date": "2018-10-25",
+      "doi": "https://doi.org/10.1016/j.engstruct.2018.10.053",
+      "venue": "Engineering Structures",
+      "type": "article",
+      "cited_by_count": 139,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.lsu.edu/civil_engineering_pubs/335",
+      "concepts": [
+        "Turbine",
+        "Wave loading",
+        "Tuned mass damper",
+        "Structural engineering",
+        "Offshore wind power",
+        "Engineering",
+        "Aerodynamics",
+        "Marine engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chao Sun",
+        "Vahid Jahangiri"
+      ]
+    },
+    {
+      "title": "Conceptual Study of a Real-Time Hybrid Simulation Framework for Monopile Offshore Wind Turbines Under Wind and Wave Loads",
+      "publication_year": 2020,
+      "publication_date": "2020-08-26",
+      "doi": "https://doi.org/10.3389/fbuil.2020.00129",
+      "venue": "Frontiers in Built Environment",
+      "type": "article",
+      "cited_by_count": 43,
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/articles/10.3389/fbuil.2020.00129/pdf",
+      "concepts": [
+        "Turbine",
+        "Offshore wind power",
+        "Sensitivity (control systems)",
+        "Renewable energy",
+        "Engineering",
+        "Context (archaeology)",
+        "Marine engineering",
+        "Computer science"
+      ],
+      "abstract": "As an attractive renewable energy source, offshore wind plants are becoming increasingly popular for energy production. However, the performance assessment of offshore wind turbine (OWT) structure is a challenging task due to the combined wind-wave loading and difficulties in reproducing such loading conditions in laboratory. Real-time hybrid simulation (RTHS), combining physical testing and numerical simulation in real-time, offers a new venue to study the structural behavior of OWTs. It overcomes the scaling incompatibilities in OWT scaled model testing by replacing the rotor components with an actuation system, driven by an aerodynamic simulation tool running in real-time. In this study, a RTHS framework for monopile OWTs is proposed. A set of sensitivity analyses is carried out to evaluate the feasibility of this RTHS framework and determine possible tolerances on its design. By simulating different scaling laws and possible error contributors (delays and noises) in the proposed framework, the sensitivity of the OWT responses to these parameters are quantified. An example using a National Renewable Energy Lab (NREL) 5-MW reference OWT system at 1:25 scale is simulated in thi...",
+      "authors": [
+        "Wei Song",
+        "Chao Sun",
+        "Yanhui Zuo",
+        "Vahid Jahangiri",
+        "Yan Lü",
+        "Qinghua Han"
+      ]
+    },
+    {
+      "title": "Bi-directional vibration control of offshore wind turbines using a 3D pendulum tuned mass damper",
+      "publication_year": 2017,
+      "publication_date": "2017-12-22",
+      "doi": "https://doi.org/10.1016/j.ymssp.2017.12.011",
+      "venue": "Mechanical Systems and Signal Processing",
+      "type": "article",
+      "cited_by_count": 262,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tuned mass damper",
+        "Engineering",
+        "Structural engineering",
+        "Turbine",
+        "Offshore wind power",
+        "Vibration",
+        "Nacelle",
+        "Vibration control"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chao Sun",
+        "Vahid Jahangiri"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Aerodynamic Load Estimation in Wind Turbine Drivetrains Using a Bayesian Data Assimilation Approach",
+      "publication_year": 2023,
+      "publication_date": "2023-10-06",
+      "doi": "https://doi.org/10.1007/978-3-031-37003-8_10",
+      "venue": "Conference proceedings of the Society for Experimental Mechanics",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drivetrain",
+        "Aerodynamics",
+        "Turbine",
+        "Wind power",
+        "Torque",
+        "Wind speed",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohammad Valikhani",
+        "Vahid Jahangiri",
+        "Hamed Ebrahimian",
+        "Sauro Liberatore",
+        "Babak Moaveni",
+        "Eric M. Hines"
+      ]
+    },
+    {
+      "title": "Bayesian finite element model inversion of offshore wind turbine structures for joint parameter-load estimation",
+      "publication_year": 2024,
+      "publication_date": "2024-10-24",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2024.119458",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Offshore wind power",
+        "Finite element method",
+        "Turbine",
+        "Inversion (geology)",
+        "Marine engineering",
+        "Submarine pipeline",
+        "Geology",
+        "Joint (building)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohammad Valikhani",
+        "Mansureh Nabiyan",
+        "Mingming Song",
+        "Vahid Jahangiri",
+        "Hamed Ebrahimian",
+        "Babak Moaveni"
+      ]
+    },
+    {
+      "title": "Application of a new two dimensional nonlinear tuned mass damper in bi-directional vibration mitigation of wind turbine blades",
+      "publication_year": 2024,
+      "publication_date": "2024-01-04",
+      "doi": "https://doi.org/10.1016/j.engstruct.2023.117371",
+      "venue": "Engineering Structures",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://repository.lsu.edu/civil_engineering_pubs/1078",
+      "concepts": [
+        "Tuned mass damper",
+        "Vibration",
+        "Turbine",
+        "Nonlinear system",
+        "Damper",
+        "Structural engineering",
+        "Turbine blade",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vahid Jahangiri",
+        "Chao Sun",
+        "Hadi Babaei"
+      ]
+    },
+    {
+      "title": "Effect of Chevron, Single and Cross Bracing in Optimized Planar Steel Braced Frames on the Mitigating Progressive Collapse",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1007/978-981-99-6018-7_26",
+      "venue": "Lecture notes in civil engineering",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chevron (anatomy)",
+        "Structural engineering",
+        "OpenSees",
+        "Bracing",
+        "Braced frame",
+        "Steel frame",
+        "Progressive collapse",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vahid Jahangiri",
+        "Mehdi Maghfouri",
+        "Seyed Mohammadreza Ghadiri"
+      ]
+    },
+    {
+      "title": "Vibration control of steel frames with setback irregularities equipped with semi-active tuned mass dampers",
+      "publication_year": 2023,
+      "publication_date": "2023-09-16",
+      "doi": "https://doi.org/10.1016/j.jcsr.2023.108222",
+      "venue": "Journal of Constructional Steel Research",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0143974X23004492",
+      "concepts": [
+        "Setback",
+        "Structural engineering",
+        "Tuned mass damper",
+        "Engineering",
+        "Displacement (psychology)",
+        "Acceleration",
+        "Vibration",
+        "Damper"
+      ],
+      "abstract": "",
+      "authors": [
+        "Seyed Amin Hosseini",
+        "Vahid Jahangiri",
+        "Ali Massumi"
+      ]
+    }
+  ]
+}

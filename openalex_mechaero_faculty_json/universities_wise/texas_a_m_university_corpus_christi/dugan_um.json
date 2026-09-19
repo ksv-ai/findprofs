@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Dugan Um",
+  "full_name": "Dugan Um",
+  "department": "Department of Engineering",
+  "university": "Texas A&M University-Corpus Christi",
+  "author_id": "A5055158183",
+  "works_count": 82,
+  "cited_by_count": 320,
+  "h_index": 10,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 12
+    },
+    {
+      "topic": "Manufacturing Process and Optimization",
+      "count": 12
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 10
+    },
+    {
+      "topic": "Computational Geometry and Mesh Generation",
+      "count": 7
+    },
+    {
+      "topic": "Optical measurement and interference techniques",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A modularized sensitive skin for motion planning in uncertain environments",
+      "publication_year": 2002,
+      "publication_date": "2002-11-27",
+      "doi": "https://doi.org/10.1109/robot.1998.676240",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Motion planning",
+        "Artificial intelligence",
+        "Robotics",
+        "Variety (cybernetics)",
+        "Robot",
+        "Motion (physics)",
+        "Computer vision"
+      ],
+      "abstract": "One way to avoid obstacles without modeling the environment is to use a sensor-based sensitive skin covering the body of the robot along with proper sensor-based motion planning algorithms. Compared to prior attempts, the system developed at the UW-Madison Robotics Lab and discussed here presents a system that can be easily reconfigured for a variety of applications. This is accomplished via modularized sensitive skin patches that can be connected in various ways, and a hierarchical control architecture that can be easily modified for various system configurations. In the implemented version, the skin contains about 1000 infrared sensors; it can be easily expanded, with minor changes. The system has been successfully tested in preliminary trials.",
+      "authors": [
+        "Dugan Um",
+        "Bratislav Stanković",
+        "K. Giles",
+        "Thomas Hammond",
+        "V. Lumelsky"
+      ]
+    },
+    {
+      "title": "Multiple Intensity Differentiation for 3-D Surface Reconstruction With Mono-Vision Infrared Proximity Array Sensor",
+      "publication_year": 2011,
+      "publication_date": "2011-06-17",
+      "doi": "https://doi.org/10.1109/jsen.2011.2159200",
+      "venue": "IEEE Sensors Journal",
+      "type": "article",
+      "cited_by_count": 32,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Visualization",
+        "Computer vision",
+        "Intensity (physics)",
+        "Artificial intelligence",
+        "Electronics",
+        "Interface (matter)",
+        "Infrared"
+      ],
+      "abstract": "3-D depth sensor technologies, as manifested in several consumers' electronics products, have potential for a technological breakthrough in various application areas such as industrial, medical, and outdoor vision system. Depth sensing of human body motions can promote intuitive gesture inputs for natural HMI (Human Machine Interface) as well as HRI (Human Robot Interaction) to the next level. In today's industry, the dominant trends in 3-D depth sensing are shifting from the traditional laser based scanning or TOF (Time of Flight) depth sensing to the intensity based Infrared 3-D depth mechanism. For example, Microsoft Kinect is a manifestation of such demands for more affordable and real time 3-D depth sensing. In this paper, we investigate currently available 3-D sensor technologies for comparison followed by the presentations of the results in novel mono-vision based 3-D surface sensing and visualization study. The novel method presented in this paper is to calculate the 3-D depth and the surface angle of an object at the same time. The proposed technology is to generate high quality 3-D surfaces with a pure intensity matrix from multiple light sources. The enabling technolo...",
+      "authors": [
+        "Dugan Um",
+        "Dongseok Ryu",
+        "Myungjoon Kal"
+      ]
+    },
+    {
+      "title": "Cotton yield prediction utilizing unmanned aerial vehicles (UAV) and Bayesian neural networks",
+      "publication_year": 2024,
+      "publication_date": "2024-09-07",
+      "doi": "https://doi.org/10.1016/j.compag.2024.109415",
+      "venue": "Computers and Electronics in Agriculture",
+      "type": "article",
+      "cited_by_count": 27,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compag.2024.109415",
+      "concepts": [
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Bayesian probability",
+        "Machine learning",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Lei Zhao",
+        "Dugan Um",
+        "Kevin Nowka",
+        "Jose Landivar",
+        "Juan Landivar",
+        "Mahendra Bhandari"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "TomatoPGT: A 3D point cloud dataset of tomato plants for segmentation and plant-trait extraction",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1016/j.dib.2026.112642",
+      "venue": "Data in Brief",
+      "type": "data-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.dib.2026.112642",
+      "concepts": [
+        "Segmentation",
+        "Point cloud",
+        "Computer science",
+        "Extraction (chemistry)",
+        "Artificial intelligence",
+        "Research article",
+        "Point (geometry)",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "Three-dimensional (3D) point-cloud phenotyping enables non-destructive and repeatable characterization of plant architecture, supporting the measurement of traits such as internode length, branching topology, and organ orientation. This article presents TomatoPGT (Tomato Plant Graph Twin) , a 3D tomato dataset designed for research on semantic/instance segmentation, graph-based structural representation, and graph-derived phenotypic trait extraction. The dataset contains 42 scans from three greenhouse-grown tomato plants acquired across early to mid-vegetative development using a rotational multi-view imaging system. Each scan consists of 60–70 overlapping RGB images captured under uniform illumination and reconstructed into a metrically scaled dense colored point cloud using Structure-from-Motion and multi-view stereo. TomatoPGT provides: (i) multi-view RGB images, (ii) dense colored point clouds, (iii) manually curated semantic and instance annotations at organ level, (iv) graph representations encoding plant topology and geometry, and (v) tabulated phenotypic traits computed deterministically from the graphs (internode length, insertion angles, and phyllotactic angles). Tomat...",
+      "authors": [
+        "Prasad Nethala",
+        "Dugan Um",
+        "Samantha McCoy",
+        "Seth Gibson",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
+    },
+    {
+      "title": "TomatoPGT Tools (Binary Release): CloudSeg and CloudGraph for Organ-Level Digital Twin Modeling of Tomato Plants from 3D Point Clouds",
+      "publication_year": 2026,
+      "publication_date": "2026-02-15",
+      "doi": "https://doi.org/10.5281/zenodo.18651881",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18651881",
+      "concepts": [
+        "Annotation",
+        "Point cloud",
+        "Computer science",
+        "Python (programming language)",
+        "Graph",
+        "Data mining",
+        "Schema (genetic algorithms)",
+        "Reverse engineering"
+      ],
+      "abstract": "TomatoPGT Tools (Binary Release) provides two Windows-based GUI applications developed for organ-level structural annotation and semantic graph extraction from 3D tomato plant point clouds. CloudSeg enables manual structural annotation of raw .ply point clouds following a simplified topology schema (Root-Node, Junction-Nodes, mainStem-Seg, Compound Leaf-Node, Stalk-Seg, Sucker-Seg). It outputs annotated .txt files for downstream processing. CloudGraph converts annotated .txt files into semantic plant graphs (*.json) and computes quantitative phenotype traits (*.csv), including internode lengths, stem height, branching metrics, leaf insertion angles, and sucker orientation. This binary release accompanies the TomatoPGT Data in Brief publication and is intended for reproducible annotation and graph-based phenotype extraction workflows. System requirements:- Windows 10/11 (64-bit)- Python 3.11 (64-bit)- Open3D 0.19.0 License: MITAuthor: Prasad NethalaAffiliation: Texas A&M University – Corpus Christi",
+      "authors": [
+        "Prasad Nethala",
+        "Samantha McCoy",
+        "Seth Gibson",
+        "Dugan Um",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
+    },
+    {
+      "title": "TomatoPGT Tools (Binary Release): CloudSeg and CloudGraph for Organ-Level Digital Twin Modeling of Tomato Plants from 3D Point Clouds",
+      "publication_year": 2026,
+      "publication_date": "2026-02-15",
+      "doi": "https://doi.org/10.5281/zenodo.18651880",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18651880",
+      "concepts": [
+        "Annotation",
+        "Point cloud",
+        "Computer science",
+        "Python (programming language)",
+        "Graph",
+        "Data mining",
+        "Schema (genetic algorithms)",
+        "Reverse engineering"
+      ],
+      "abstract": "TomatoPGT Tools (Binary Release) provides two Windows-based GUI applications developed for organ-level structural annotation and semantic graph extraction from 3D tomato plant point clouds. CloudSeg enables manual structural annotation of raw .ply point clouds following a simplified topology schema (Root-Node, Junction-Nodes, mainStem-Seg, Compound Leaf-Node, Stalk-Seg, Sucker-Seg). It outputs annotated .txt files for downstream processing. CloudGraph converts annotated .txt files into semantic plant graphs (*.json) and computes quantitative phenotype traits (*.csv), including internode lengths, stem height, branching metrics, leaf insertion angles, and sucker orientation. This binary release accompanies the TomatoPGT Data in Brief publication and is intended for reproducible annotation and graph-based phenotype extraction workflows. System requirements:- Windows 10/11 (64-bit)- Python 3.11 (64-bit)- Open3D 0.19.0 License: MITAuthor: Prasad NethalaAffiliation: Texas A&M University – Corpus Christi",
+      "authors": [
+        "Prasad Nethala",
+        "Samantha McCoy",
+        "Seth Gibson",
+        "Dugan Um",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
+    },
+    {
+      "title": "TomatoPGT: A 3D point cloud dataset of tomato plants for segmentation and plant-trait extraction",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.17632/72md54c7n7",
+      "venue": "Mendeley Data",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.17632/72md54c7n7",
+      "concepts": [
+        "Point cloud",
+        "RGB color model",
+        "Segmentation",
+        "Artificial intelligence",
+        "Graph",
+        "Computer science",
+        "Computer vision",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "TomatoPGT is a three-dimensional (3D) point cloud dataset of greenhouse-grown tomato plants designed to support research in semantic segmentation, graph-based plant representation, and plant trait extraction. The dataset comprises three tomato cultivars: Celebrity Hybrid, Beefsteak, and Big Boy Hybrid, each captured at multiple developmental stages using a rotational multi-view imaging system with controlled illumination. For each plant and stage, 60–70 overlapping RGB images were acquired and reconstructed into metrically scaled 3D point clouds using structure-from-motion and multi-view stereo techniques. The dataset provides RGB images, dense colored point clouds, semantic and instance annotations, semantic graph representations encoding plant topology, and tabular phenotypic traits derived from the graph structures. Graph representations describe the structural relationships between plant organs, including stem segments, junctions, stalks, and compound leaves, enabling organ-resolved geometric and architectural analysis.",
+      "authors": [
+        "Prasad Nethala",
+        "Dugan Um",
+        "Samantha McCoy",
+        "Seth Gibson",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
+    },
+    {
+      "title": "TomatoPGT: A 3D point cloud dataset of tomato plants for segmentation and plant-trait extraction",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.17632/72md54c7n7.1",
+      "venue": "Mendeley Data",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.17632/72md54c7n7.1",
+      "concepts": [
+        "Point cloud",
+        "RGB color model",
+        "Segmentation",
+        "Artificial intelligence",
+        "Graph",
+        "Computer science",
+        "Computer vision",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "TomatoPGT is a three-dimensional (3D) point cloud dataset of greenhouse-grown tomato plants designed to support research in semantic segmentation, graph-based plant representation, and plant trait extraction. The dataset comprises three tomato cultivars: Celebrity Hybrid, Beefsteak, and Big Boy Hybrid, each captured at multiple developmental stages using a rotational multi-view imaging system with controlled illumination. For each plant and stage, 60–70 overlapping RGB images were acquired and reconstructed into metrically scaled 3D point clouds using structure-from-motion and multi-view stereo techniques. The dataset provides RGB images, dense colored point clouds, semantic and instance annotations, semantic graph representations encoding plant topology, and tabular phenotypic traits derived from the graph structures. Graph representations describe the structural relationships between plant organs, including stem segments, junctions, stalks, and compound leaves, enabling organ-resolved geometric and architectural analysis.",
+      "authors": [
+        "Prasad Nethala",
+        "Dugan Um",
+        "Samantha McCoy",
+        "Seth Gibson",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
+    }
+  ]
+}

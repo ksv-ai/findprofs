@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Shivam Barwey",
+  "full_name": "Shivam Barwey",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Notre Dame",
+  "author_id": "A5071906834",
+  "works_count": 42,
+  "cited_by_count": 394,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 15
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 14
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 8
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 7
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An AMReX-based Compressible Reacting Flow Solver for High-speed Reacting Flows relevant to Hypersonic Propulsion",
+      "publication_year": 2024,
+      "publication_date": "2024-12-01",
+      "doi": "https://doi.org/10.48550/arxiv.2412.00900",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 15,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2412.00900",
+      "concepts": [
+        "Aerospace engineering",
+        "Solver",
+        "Propulsion",
+        "Hypersonic speed",
+        "Ramjet",
+        "Flow (mathematics)",
+        "Hypersonic flow",
+        "Hypersonic flight"
+      ],
+      "abstract": "This work presents a comprehensive framework for the efficient implementation of finite-volume-based reacting flow solvers, specifically tailored for high speed propulsion applications. Using the exascale computing project (ECP) based AMReX framework, a compressible flow solver for handling high-speed reacting flows is developed. This work is complementary to the existing PeleC solver, emphasizing specific applications that include confined shock-containing flows, stationary and moving shocks and detonations. The framework begins with a detailed exposition of the numerical methods employed, emphasizing their application to complex geometries and their effectiveness in ensuring accurate and stable numerical simulations. Subsequently, an in-depth analysis evaluates the solver's performance across canonical and practical geometries, with particular focus on computational cost and efficiency. The solver's scalability and robustness are demonstrated through practical test cases, including flow path simulations of scramjet engines and detailed analysis of various detonation phenomena.",
+      "authors": [
+        "Shivank Sharma",
+        "Ral Bielawski",
+        "Oliver R. Gibson",
+        "Shuzhi Zhang",
+        "Vansh Sharma",
+        "Andreas H. Rauch",
+        "Jagmohan Singh",
+        "Sebastian Abisleiman",
+        "Michael Ullman",
+        "Shivam Barwey",
+        "Venkat Raman"
+      ]
+    },
+    {
+      "title": "A generative adversarial network (GAN) approach to creating synthetic flame images from experimental data",
+      "publication_year": 2023,
+      "publication_date": "2023-02-08",
+      "doi": "https://doi.org/10.1016/j.egyai.2023.100238",
+      "venue": "Energy and AI",
+      "type": "article",
+      "cited_by_count": 34,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.egyai.2023.100238",
+      "concepts": [
+        "Combustion",
+        "Computer science",
+        "Combustor",
+        "Generative grammar",
+        "Set (abstract data type)",
+        "Data set",
+        "Planar laser-induced fluorescence",
+        "Cluster analysis"
+      ],
+      "abstract": "Modern diagnostic tools in turbulent combustion allow for highly-resolved measurements of reacting flows; however, they tend to generate massive data-sets which may cause conventional analysis to be intractable and inefficient. To alleviate this problem, machine learning tools may be used to, for example, discover features from the data for downstream modeling and prediction tasks. To this end, this work applies generative adversarial networks (GANs) to generate realistic flame images based on a time-resolved data set of hydroxide concentration snapshots obtained from planar laser induced fluorescence measurements of a model combustor. The trained networks are able to generate flames in attached, lifted, and intermediate configurations. Using k-means clustering and proper orthogonal decomposition, the synthetic image set produced by the GAN is shown to be visually similar to the real image set, with recirculation zones and burned/unburned regions clearly present. To the authors’ knowledge, this work is the first to demonstrate GAN usage for purely generative modeling in turbulent combustion. Combined with techniques for controlling the configuration of generated flames, new aven...",
+      "authors": [
+        "Anthony Carreon",
+        "Shivam Barwey",
+        "Venkat Raman"
+      ]
+    },
+    {
+      "title": "Data-driven Classification and Modeling of Combustion Regimes in Detonation Waves",
+      "publication_year": 2020,
+      "publication_date": "2020-06-11",
+      "doi": "https://doi.org/10.1007/s10494-020-00176-4",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 40,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Deflagration",
+        "Cluster analysis",
+        "Computer science",
+        "Combustion",
+        "Artificial neural network",
+        "Domain (mathematical analysis)",
+        "Data mining"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shivam Barwey",
+        "Supraj Prakash",
+        "Malik Hassanaly",
+        "Venkat Raman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Solver-Integrated Lossy and Lossless Compression for Scalable Flow Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-06-26",
+      "doi": "https://doi.org/10.1145/3815572.3815766",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lossy compression",
+        "Lossless compression",
+        "Computer science",
+        "Compression (physics)",
+        "Flow (mathematics)",
+        "Algorithm",
+        "Data compression",
+        "Scalability"
+      ],
+      "abstract": "Large-scale computational fluid dynamics (CFD) simulations routinely generate terabytes of data, making I/O and storage a dominant bottleneck for post-hoc analysis and data-driven workflows. This challenge is amplified on modern GPU-accelerated systems, where the cost of data movement and checkpointing can rival or exceed computation. We present a solver-integrated compression framework for high-order CFD that combines a portable compressed data representation, an embarrassingly parallel I/O pipeline, and a discretization-aware analysis of error propagation. The approach is implemented in the spectral element solver nekRS using Blosc2 for lossless compression and SZ3 for error-bounded lossy compression, while remaining applicable to a broader class of high-order discretizations. A central contribution is a quantity-of-interest (QoI)-aware analysis that accounts for spectral element interpolation, differentiation, and geometric mappings. This framework provides practical guidance for selecting compression tolerances based on workflow requirements, distinguishing between interpolationdominated, derivative-sensitive, and projection-based QoIs. We evaluate the approach across repres...",
+      "authors": [
+        "Viral Sudip Shah",
+        "Harikrishna Tummalapalli",
+        "Shivam Barwey",
+        "Riccardo Balin",
+        "Ramesh Balakrishnan",
+        "Paul Fischer",
+        "Sheng Di",
+        "Franck Cappello"
+      ]
+    },
+    {
+      "title": "A Multimodal Vision Transformer-based Modeling Framework for Prediction of Fluid Flows in Energy Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-02",
+      "doi": "https://doi.org/10.48550/arxiv.2604.02483",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.02483",
+      "concepts": [
+        "Computer science",
+        "Computational fluid dynamics",
+        "Flow (mathematics)",
+        "Grid",
+        "Artificial intelligence",
+        "Fluid dynamics",
+        "Energy flow",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Computational fluid dynamics (CFD) simulations of complex fluid flows in energy systems are prohibitively expensive due to strong nonlinearities and multiscale-multiphysics interactions. In this work, we present a transformer-based modeling framework for prediction of fluid flows, and demonstrate it for high-pressure gas injection phenomena relevant to reciprocating engines. The approach employs a hierarchical Vision Transformer (SwinV2-UNet) architecture that processes multimodal flow datasets from multi-fidelity simulations. The model architecture is conditioned on auxiliary tokens explicitly encoding the data modality and time increment. Model performance is assessed on two different tasks: (1) spatiotemporal rollouts, where the model autoregressively predicts the flow state at future times; and (2) feature transformation, where the model infers unobserved fields/views from observed fields/views. We train separate models on multimodal datasets generated from in-house CFD simulations of argon jet injection into a nitrogen environment, encompassing multiple grid resolutions, turbulence models, and equations of state. The resulting data-driven models learn to generalize across r...",
+      "authors": [
+        "Kiran K. Yalamanchi",
+        "Shivam Barwey",
+        "Ibrahim Jarrah",
+        "Pinaki Pal"
+      ]
+    },
+    {
+      "title": "A Multimodal Vision Transformer-based Modeling Framework for Prediction of Fluid Flows in Energy Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-02",
+      "doi": "http://arxiv.org/abs/2604.02483",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.02483",
+      "concepts": [
+        "Computer science",
+        "Computational fluid dynamics",
+        "Flow (mathematics)",
+        "Grid",
+        "Artificial intelligence",
+        "Fluid dynamics",
+        "Energy flow",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Computational fluid dynamics (CFD) simulations of complex fluid flows in energy systems are prohibitively expensive due to strong nonlinearities and multiscale-multiphysics interactions. In this work, we present a transformer-based modeling framework for prediction of fluid flows, and demonstrate it for high-pressure gas injection phenomena relevant to reciprocating engines. The approach employs a hierarchical Vision Transformer (SwinV2-UNet) architecture that processes multimodal flow datasets from multi-fidelity simulations. The model architecture is conditioned on auxiliary tokens explicitly encoding the data modality and time increment. Model performance is assessed on two different tasks: (1) spatiotemporal rollouts, where the model autoregressively predicts the flow state at future times; and (2) feature transformation, where the model infers unobserved fields/views from observed fields/views. We train separate models on multimodal datasets generated from in-house CFD simulations of argon jet injection into a nitrogen environment, encompassing multiple grid resolutions, turbulence models, and equations of state. The resulting data-driven models learn to generalize across r...",
+      "authors": [
+        "Kiran K. Yalamanchi",
+        "Shivam Barwey",
+        "Ibrahim Jarrah",
+        "Pinaki Pal"
+      ]
+    },
+    {
+      "title": "Mesh-based Super-resolution of Multiscale Detonation Flows with Graph Transformers",
+      "publication_year": 2025,
+      "publication_date": "2025-11-15",
+      "doi": "https://doi.org/10.48550/arxiv.2511.12041",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.12041",
+      "concepts": [
+        "Transformer",
+        "Polygon mesh",
+        "Computer science",
+        "Algorithm",
+        "Detonation",
+        "Graph",
+        "Representation (politics)",
+        "Theoretical computer science"
+      ],
+      "abstract": "Super-resolution flow reconstruction using state-of-the-art data-driven techniques is valuable for a variety of applications, such as subgrid/subfilter closure modeling, accelerating spatiotemporal forecasting, data compression, and serving as an upscaling tool for sparse experimental measurements. In the present work, a first-of-its-kind graph transformer approach is developed for mesh-based super-resolution (SR-GT) of reacting flows. The novel data-driven modeling paradigm leverages a graph-based flow-field representation compatible with complex geometries and non-uniform/unstructured grids. Further, the transformer backbone captures long-range dependencies between different parts of the low-resolution flow-field, identifies important features, and then generates the super-resolved flow-field that preserves those features at a higher resolution. The performance of SR-GT is demonstrated in the context of spectral-element-discretized meshes for a challenging test problem of 2D detonation propagation within a premixed hydrogen-air mixture exhibiting highly complex multiscale reacting flow behavior. The SR-GT framework utilizes a unique element + neighborhood graph representation ...",
+      "authors": [
+        "Shivam Barwey",
+        "Pinaki Pal"
+      ]
+    },
+    {
+      "title": "FIGNN: Feature-Specific Interpretability for Graph Neural Network Surrogate Models",
+      "publication_year": 2025,
+      "publication_date": "2025-06-13",
+      "doi": "https://doi.org/10.48550/arxiv.2506.11398",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.11398",
+      "concepts": [
+        "Interpretability",
+        "Computer science",
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Machine learning",
+        "Regularization (linguistics)",
+        "Graph",
+        "Pooling"
+      ],
+      "abstract": "This work presents a novel graph neural network (GNN) architecture, the Feature-specific Interpretable Graph Neural Network (FIGNN), designed to enhance the interpretability of deep learning surrogate models defined on unstructured grids in scientific applications. Traditional GNNs often obscure the distinct spatial influences of different features in multivariate prediction tasks. FIGNN addresses this limitation by introducing a feature-specific pooling strategy, which enables independent attribution of spatial importance for each predicted variable. Additionally, a mask-based regularization term is incorporated into the training objective to explicitly encourage alignment between interpretability and predictive error, promoting localized attribution of model performance. The method is evaluated for surrogate modeling of two physically distinct systems: the SPEEDY atmospheric circulation model and the backward-facing step (BFS) fluid dynamics benchmark. Results demonstrate that FIGNN achieves competitive predictive performance while revealing physically meaningful spatial patterns unique to each feature. Analysis of rollout stability, feature-wise error budgets, and spatial mas...",
+      "authors": [
+        "Riddhiman Raut",
+        "Romit Maulik",
+        "Shivam Barwey"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "faculty_name": "Kelly Cohen",
+  "full_name": "Kelly Cohen",
+  "department": "Department of Aerospace Engineering and Engineering Mechanics",
+  "university": "University of Cincinnati",
+  "author_id": "A5034113408",
+  "works_count": 375,
+  "cited_by_count": 3366,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 69
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 47
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 45
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 41
+    },
+    {
+      "topic": "Fuzzy Logic and Control Systems",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Sensor Placement Based on Proper Orthogonal Decomposition Modeling of a Cylinder Wake",
+      "publication_year": 2003,
+      "publication_date": "2003-06-23",
+      "doi": "https://doi.org/10.2514/6.2003-4259",
+      "venue": "33rd AIAA Fluid Dynamics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 57,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Proper orthogonal decomposition",
+        "Computer science",
+        "Cylinder",
+        "Engineering",
+        "Aerospace engineering",
+        "Physics",
+        "Mechanical engineering"
+      ],
+      "abstract": "The effectiveness of a sensor configuration for feedback flow control on the wake of a circular cylinder is investigated in both direct numerical simulation as well as in a water tunnel experiment. The research program is aimed at suppressing the von Karman vortex street in the wake of a cylinder at a Reynolds number of 100. The design of sensor number and placement was based on data from a laminar direct numerical simulation of the Navier Stokes equations for the unforced condition. A low-dimensional Proper Orthogonal Decomposition (POD) was applied to the vorticity calculated from the flow field and sensor placement was based on the intensity of the resulting spatial eigenfunctions. The numerically generated data was comprised of 70 snapshots taken from the steady state regime. A Linear Stochastic Estimator (LSE) was employed to map the velocity data to the temporal coefficients of the reduced order model. The capability of the sensor configuration to provide accurate estimates of the four low-dimensional states was validated experimentally in a water tunnel at a Reynolds number of 108. For the experimental wake, a sample of 200 Particle Image Velocimetry (PIV) measurements wa...",
+      "authors": [
+        "Kelly Cohen",
+        "Stefan Siegel",
+        "Tom McLaughlin"
+      ]
+    },
+    {
+      "title": "Feedback Control of a Circular Cylinder Wake in Experiment and Simulation (Invited)",
+      "publication_year": 2003,
+      "publication_date": "2003-06-23",
+      "doi": "https://doi.org/10.2514/6.2003-3569",
+      "venue": "33rd AIAA Fluid Dynamics Conference and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 78,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drag",
+        "Wake",
+        "Lift (data mining)",
+        "Vortex shedding",
+        "Reynolds number",
+        "Control theory (sociology)",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "The effect of feedback flow control on the wake of a circular cylinder at a Reynolds number of 100 is investigated in both water tunnel experiment and direct numerical simulation. Our control approach uses a low dimensional model based on proper orthogonal decomposition (POD). The controller applies linear proportional and differential feedback to the estimate of the first POD mode. The range of validity of the POD model is explored in detail. Actuation is implemented as displacement of the cylinder normal to the flow. We demonstrate that the threshold peak amplitude below which the control actuation ceases to be effective is in the order of 5% of the cylinder diameter. The closed loop feedback simulations explore the effect of both fixed phase and variable phase feedback on the wake. While fixed phase feedback is effective in reducing drag and unsteady lift, it fails to stabilize this state once the low drag state has been reached. Variable phase feedback, however, achieves the same drag and unsteady lift reductions while being able to stabilize the flow in the low drag state. In the low drag state, the near wake is entirely steady, while the far wake exhibits vortex shedding a...",
+      "authors": [
+        "Stefan Siegel",
+        "Kelly Cohen",
+        "Tom McLaughlin"
+      ]
+    },
+    {
+      "title": "A heuristic approach to effective sensor placement for modeling of a cylinder wake",
+      "publication_year": 2005,
+      "publication_date": "2005-02-25",
+      "doi": "https://doi.org/10.1016/j.compfluid.2004.11.002",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Particle image velocimetry",
+        "Reynolds number",
+        "Laminar flow",
+        "Cylinder",
+        "Root mean square",
+        "Estimator",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kelly Cohen",
+        "Stefan Siegel",
+        "Thomas McLaughlin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A VelocitySNN-Fuzzy AI Architecture: Neuromorphic Event-Driven Spiking Neural Network and Fuzzy Logic AI System for 3D Velocity Determination in Martian Flight",
+      "publication_year": 2025,
+      "publication_date": "2025-07-28",
+      "doi": "https://doi.org/10.1109/naecon65708.2025.11235482",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Neuromorphic engineering",
+        "Drone",
+        "Artificial intelligence",
+        "Computer science",
+        "Odometry",
+        "Artificial neural network",
+        "Fuzzy logic",
+        "Spiking neural network"
+      ],
+      "abstract": "We introduce VelocitySNN-Fuzzy AI, a novel neuromorphic system for real-time determination of three-dimensional velocity vectors (Vx, Vy, Vz) during Martian drone flight. Unlike Earth-Based UAVs, Mars operations cannot rely on GPS or conventional visual odometry due to the lack of infrastructure and the extreme lighting and terrain conditions. Our approach integrates a bio-inspired event-based camera, a Spiking Neural Network (SNN) developed using SpikingJelly, and an explainable Fuzzy AI Logic layer to produce reliable and interpretable velocity determination in challenging Mars-Like environments. Validated using publicly available Mars-Style drone datasets, the architecture demonstrates low-latency, high-dynamic-range perception suitable for small, power-constrained UAV platforms. VelocitySNN-Fuzzy AI determines 3D velocity for Martian drones using event-based vision, spiking neural networks, and fuzzy logic. Designed for GPS-denied, low-light environments, it enables real-time, low-power navigation. Validated on FPV drone datasets, it supports autonomous flight with interpretable outputs and deployment on neuromorphic hardware like Loihi and Akida.",
+      "authors": [
+        "Davis Harbour",
+        "Vijayan K. Asari",
+        "Steven D. Harbour",
+        "Kelly Cohen",
+        "Matthew Kinnison",
+        "Jamison Colter",
+        "Stephen Schlager",
+        "Tarek M. Taha",
+        "Chris Yakopcic",
+        "Hallie Pennel",
+        "Amanda Mitchel",
+        "Aqsa Sultana",
+        "Shaik Nordin Abouzahra"
+      ]
+    },
+    {
+      "title": "Comparative of Genetic Fuzzy regression techniques for aeroacoustic phenomenons",
+      "publication_year": 2025,
+      "publication_date": "2025-05-29",
+      "doi": "https://doi.org/10.48550/arxiv.2505.23746",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.23746",
+      "concepts": [
+        "Fuzzy logic",
+        "Data mining",
+        "Fuzzy clustering",
+        "Artificial intelligence",
+        "Fuzzy rule",
+        "Machine learning",
+        "Computer science",
+        "Fuzzy set operations"
+      ],
+      "abstract": "This study investigates the application of Genetic Fuzzy Systems (GFS) to model the self-noise generated by airfoils, a key issue in aeroaccoustics with significant implications for aerospace, automotive and drone applications. Using the publicly available Airfoil Self Noise dataset, various Fuzzy regression strategies are explored and compared. The paper evaluates a brute force Takagi Sugeno Kang (TSK) fuzzy system with high rule density, a cascading Geneti Fuzzy Tree (GFT) architecture and a novel clustered approach based on Fuzzy C-means (FCM) to reduce the model's complexity. This highlights the viability of clustering assisted fuzzy inference as an effective regression tool for complex aero accoustic phenomena. Keywords : Fuzzy logic, Regression, Cascading systems, Clustering and AI.",
+      "authors": [
+        "Henry, Hugo",
+        "Kelly Cohen"
+      ]
+    },
+    {
+      "title": "Martian Flight: Enabling Motion Estimation of NASA's Next-Generation Mars Flying Drone by Implementing a Neuromorphic Event-Camera and Explainable Fuzzy Spiking Neural Network Model",
+      "publication_year": 2024,
+      "publication_date": "2024-09-29",
+      "doi": "https://doi.org/10.1109/dasc62030.2024.10749524",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Neuromorphic engineering",
+        "Mars Exploration Program",
+        "Drone",
+        "Computer science",
+        "Martian",
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Exploration of Mars"
+      ],
+      "abstract": "The event camera is researched, developed, and designed to imitate the human eye; it is a groundbreaking vision sensor with the following advantages over a standard camera: a net rate that is much faster, a latency that is far less, a high dynamic range, and it uses far less power. These fundamental properties assist in enabling the design of third-generation algorithms in Spiking Neural Networks intended to mimic the human brain and vision processing. Moreover, these fundamental properties enable swift robotics despite the challenges of motion blur and high latency that standard cameras face. Also, these properties should enable motion estimation from the surface features on Mars, which is difficult to achieve with standard cameras. For this research, the team is using a NASA Space use-case application. For this NASA Space application, the team has chosen a challenging motion-estimation task involving a Mars-based above-ground Helicopter beyond “Ingenuity” and the planet and surface of Mars. Event-based cameras have been gaining interest within the computer vision community. They are particularly suitable for applications with challenging temporal constraints and safety require...",
+      "authors": [
+        "Davis Harbour",
+        "Kelly Cohen",
+        "Steven D. Harbour",
+        "Bradley M. Ratliff",
+        "Alex Henderson",
+        "Hallie Pennel",
+        "Stephen Schlager",
+        "Tarek M. Taha",
+        "Chris Yakopcic",
+        "Vijayan K. Asari",
+        "Jan Bořil",
+        "Aqsa Sultana",
+        "Shaik Nordin Abouzahra",
+        "Anya Bulter",
+        "Connor Prikkel"
+      ]
+    },
+    {
+      "title": "Evaluating the interpretability of a hierarchical fuzzy rule-based model for shipbreaking",
+      "publication_year": 2025,
+      "publication_date": "2025-12-02",
+      "doi": "https://doi.org/10.20517/ces.2025.47",
+      "venue": "Complex Engineering Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://f.oaes.cc/xmlpdf/published/article/a46c873baef4d288856952bf1e5b9463/ces5047.pdf",
+      "concepts": [
+        "Interpretability",
+        "Artificial intelligence",
+        "Machine learning",
+        "Fuzzy logic",
+        "Computer science",
+        "Data mining",
+        "Fuzzy control system",
+        "Random forest"
+      ],
+      "abstract": "Machine learning models can provide valuable decision support in many real-world applications. However, a model must be interpretable to those using it. This paper explores the use of post-hoc model interpretability methods in combination with an intrinsically interpretable model design to create a model that is interpretable to both a model designer and a model end user. A hierarchical fuzzy rule-based model is trained with a genetic algorithm on a real-world shipbreaking use case and the performance-interpretability trade-off of the model with respect to a random forest model is discussed. Further, an interesting pattern was found using the post-hoc interpretability method SHapley Additive exPlanations (SHAP), with potential implications for the future design of hierarchical fuzzy rule-based models.",
+      "authors": [
+        "Lynn Pickering",
+        "Victor Ciulei",
+        "Paul Merkx",
+        "Jasper van Vliet",
+        "Kelly Cohen"
+      ]
+    },
+    {
+      "title": "36. Predictive Analytics for Psychiatric Consultation",
+      "publication_year": 2025,
+      "publication_date": "2025-11-01",
+      "doi": "https://doi.org/10.1016/j.jaclp.2025.10.282",
+      "venue": "Journal of the Academy of Consultation-Liaison Psychiatry",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Predictive analytics",
+        "Psychiatry",
+        "Medicine",
+        "Psychology",
+        "Predictive validity",
+        "MEDLINE",
+        "Identification (biology)",
+        "Data collection"
+      ],
+      "abstract": "",
+      "authors": [
+        "David E. Karol",
+        "Tri Nguyen",
+        "Wilhelm Louw",
+        "Jeffrey A. Welge",
+        "Thomas J. Blom",
+        "Eric Vernon",
+        "Kelly Cohen"
+      ]
+    }
+  ]
+}

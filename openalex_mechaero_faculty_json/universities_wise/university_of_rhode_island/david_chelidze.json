@@ -1,0 +1,261 @@
+{
+  "faculty_name": "David Chelidze",
+  "full_name": "David Chelidze",
+  "department": "Department of Mechanical, Industrial and Systems Engineering",
+  "university": "University of Rhode Island",
+  "author_id": "A5078819095",
+  "works_count": 126,
+  "cited_by_count": 1405,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 52
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 29
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 18
+    },
+    {
+      "topic": "Chaos control and synchronization",
+      "count": 12
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Blind source separation based vibration mode identification",
+      "publication_year": 2007,
+      "publication_date": "2007-06-18",
+      "doi": "https://doi.org/10.1016/j.ymssp.2007.05.007",
+      "venue": "Mechanical Systems and Signal Processing",
+      "type": "article",
+      "cited_by_count": 178,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/mcise_facpubs/99",
+      "concepts": [
+        "Blind signal separation",
+        "Robustness (evolution)",
+        "Modal",
+        "Algorithm",
+        "Computer science",
+        "Vibration",
+        "Identification (biology)",
+        "Independent component analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Wenliang Zhou",
+        "David Chelidze"
+      ]
+    },
+    {
+      "title": "A Dynamical Systems Approach to Failure Prognosis",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1115/1.1640638",
+      "venue": "Journal of vibration and acoustics",
+      "type": "article",
+      "cited_by_count": 129,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/mcise_facpubs/121",
+      "concepts": [
+        "Control theory (sociology)",
+        "Metric (unit)",
+        "Nonlinear system",
+        "Vibration",
+        "Computer science",
+        "Cantilever",
+        "Process (computing)",
+        "Benchmark (surveying)"
+      ],
+      "abstract": "In this paper, a previously published damage tracking method is extended to provide failure prognosis, and applied experimentally to an electromechanical system with a failing supply battery. The method is based on a dynamical systems approach to the problem of damage evolution. In this approach, damage processes are viewed as occurring in a hierarchical dynamical system consisting of a “fast,” directly observable subsystem coupled to a “slow,” hidden subsystem describing damage evolution. Damage tracking is achieved using a two-time-scale modeling strategy based on phase space reconstruction. Using the reconstructed phase space of the reference (undamaged) system, short-time predictive models are constructed. Fast-time data from later stages of damage evolution of a given system are collected and used to estimate a tracking function by calculating the short time reference model prediction error. In this paper, the tracking metric based on these estimates is used as an input to a nonlinear recursive filter, the output of which provides continuous refined estimates of the current damage (or, equivalently, health) state. Estimates of remaining useful life (or, equivalently, time t...",
+      "authors": [
+        "David Chelidze",
+        "Joseph P. Cusumano"
+      ]
+    },
+    {
+      "title": "Smooth orthogonal decomposition-based vibration mode identification",
+      "publication_year": 2005,
+      "publication_date": "2005-11-04",
+      "doi": "https://doi.org/10.1016/j.jsv.2005.08.006",
+      "venue": "Journal of Sound and Vibration",
+      "type": "article",
+      "cited_by_count": 126,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/mcise_facpubs/111",
+      "concepts": [
+        "Vibration",
+        "Normal mode",
+        "Modal",
+        "Modal analysis",
+        "Mathematics",
+        "Linear subspace",
+        "Operational Modal Analysis",
+        "Modal testing"
+      ],
+      "abstract": "",
+      "authors": [
+        "David Chelidze",
+        "Wenliang Zhou"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "High-order multiscale symbolic transfer diversity entropy: A novel complexity measure with application to aero-engine bearing fault diagnosis",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.1016/j.ymssp.2026.114594",
+      "venue": "Mechanical Systems and Signal Processing",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Entropy (arrow of time)",
+        "Computer science",
+        "Algorithm",
+        "Robustness (evolution)",
+        "Embedding",
+        "Pattern recognition (psychology)",
+        "Trigonometric functions",
+        "Cosine similarity"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yanxi Fan",
+        "Rui Yuan",
+        "Yong Lv",
+        "Ersegun Deniz Gedikli",
+        "David Chelidze",
+        "Hamed Azami"
+      ]
+    },
+    {
+      "title": "Advances and prospects of phase space reconstruction-based high-dimensional signal processing for fault diagnosis: A systematic review",
+      "publication_year": 2026,
+      "publication_date": "2026-01-24",
+      "doi": "https://doi.org/10.1016/j.ymssp.2026.113919",
+      "venue": "Mechanical Systems and Signal Processing",
+      "type": "review",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/mcise_facpubs/1122",
+      "concepts": [
+        "Interpretability",
+        "Signal processing",
+        "Computer science",
+        "Embedding",
+        "Signal reconstruction",
+        "Scalability",
+        "Implementation",
+        "Electronic engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yong Lv",
+        "Hengyu Liu",
+        "Rui Yuan",
+        "Xiulin Dong",
+        "Yifei Wang",
+        "H. Wu",
+        "David Chelidze"
+      ]
+    },
+    {
+      "title": "Ball tree structure-informed phase space warping: a robust algorithm for dynamic degradation tracking under variable speed conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-12-30",
+      "doi": "https://doi.org/10.1016/j.aei.2025.104288",
+      "venue": "Advanced Engineering Informatics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Algorithm",
+        "Control theory (sociology)",
+        "Curvature",
+        "Trajectory",
+        "Nonlinear system",
+        "Tracking (education)",
+        "Computer science",
+        "Ball (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rui Yuan",
+        "Hengyu Liu",
+        "Yong Lv",
+        "Yuejian Chen",
+        "Xingkai Yang",
+        "Hewenxuan Li",
+        "David Chelidze"
+      ]
+    },
+    {
+      "title": "Demographic Trends in Georgia and Some Avenues for Overcoming the Problems",
+      "publication_year": 2025,
+      "publication_date": "2025-12-16",
+      "doi": "https://doi.org/10.52340/ekonomisti.2025.04.08",
+      "venue": "EKONOMISTI",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Population",
+        "Revenue",
+        "Debt",
+        "State (computer science)",
+        "Population growth",
+        "Economics",
+        "Tax revenue",
+        "Population projection"
+      ],
+      "abstract": "DOI:10.52340/ekonomisti.2025.04.08 Expanded summary The aim of the paper is to study and analyze the ongoing demographic processes in Georgia and to find ways of overcoming the existing problems. To achieve this goal, the first part of the paper discusses the results of the general population censuses carried out at the end of the Soviet Period in 1989, and subsequently in 2002 and 2014 after the restoration of the country’s independence, as well as preliminary data for the 2024 census. Taking into account the undesirable trend of population decline in the country as a whole (including the titular nationality—ethnic Georgians), as well as of the working-age population and of women of reproductive age, as highlighted through research-systematization of the aforementioned data, as well as of all relevant data, the paper outlines an opinion on the feasibility of creating and using a mechanism for the financial stimulation of the ongoing demographic processes in the country. Considering the budgetary difficulties identified as a result of the review of the State Budget of Georgia laws of the previous years and the important parameters of the 2026 draft law, namely for the period of ...",
+      "authors": [
+        "Avtandil Sulaberidze",
+        "David Chelidze"
+      ]
+    },
+    {
+      "title": "Edible wild herbs and mushrooms of Tusheti (the eastern Greater Caucasus), Georgia",
+      "publication_year": 2024,
+      "publication_date": "2024-12-18",
+      "doi": "https://doi.org/10.32859/era.29.60.1-13",
+      "venue": "Ethnobotany Research and Applications",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://ethnobotanyjournal.org/index.php/era/article/download/6593/2019",
+      "concepts": [
+        "Geography",
+        "Traditional medicine",
+        "Biology",
+        "Medicine"
+      ],
+      "abstract": "Background: Wild herbs were traditionally widely used in everyday diet of the population of alpine areas of Georgia. Ethnography has a long history of research in the country, and along with the results particularly intensified ethnobotanical and ethnomycological studies of the recent decades, it is interesting to synthesize the data scattered in the Georgian ethnographic sources, an attempt of which is the present paper. Methods: The review paper is based on the Georgian ethnographic literature sources deposited at the National Parliamentary Library of Georgia (NLPG). Literature searches were performed through the NLPG catalog (https://www.nplg.¬gov.ge/geo/Catalogues) with the major keyword “Tusheti”. Dictionaries of the Georgian language and specifically those of plant names were also consulted. Results: Seventy-three species and eight genera of vascular plants (the latter without particular species as only respective generic local names were found) mentioned in the ethnographic literature sources issues before recent ethnobotanical studies (Bussmann et al. 2016, 2017) as well as 26 species of mushrooms mostly revealed during interviews collected in the recent decades are list...",
+      "authors": [
+        "Rainer W. Bussmann",
+        "Narel Y. Paniagua-Zambrana",
+        "Shalva Sikharulidze",
+        "David Kikodze",
+        "Manana Khutsishvili",
+        "David Chelidze",
+        "Inesa Maisaia",
+        "Angelina Jorjadze",
+        "Ketevan Batsatsashvili"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "faculty_name": "Jessica Shang",
+  "full_name": "Jessica K. Shang",
+  "department": "Department of Mechanical Engineering / LLE",
+  "university": "University of Rochester",
+  "author_id": "A5100724664",
+  "works_count": 90,
+  "cited_by_count": 1040,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 12
+    },
+    {
+      "topic": "Laser-Plasma Interactions and Diagnostics",
+      "count": 11
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 9
+    },
+    {
+      "topic": "Surface Modification and Superhydrophobicity",
+      "count": 7
+    },
+    {
+      "topic": "Cerebrospinal fluid and hydrocephalus",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Artificial insect wings of diverse morphology for flapping-wing micro air vehicles",
+      "publication_year": 2009,
+      "publication_date": "2009-08-27",
+      "doi": "https://doi.org/10.1088/1748-3182/4/3/036002",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 121,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1748-3182/4/3/036002/pdf",
+      "concepts": [
+        "Flapping",
+        "Wing",
+        "Micro air vehicle",
+        "Biomimetics",
+        "Aerodynamics",
+        "Insect flight",
+        "Thrust",
+        "Aerospace engineering"
+      ],
+      "abstract": "The development of flapping-wing micro air vehicles (MAVs) demands a systematic exploration of the available design space to identify ways in which the unsteady mechanisms governing flapping-wing flight can best be utilized for producing optimal thrust or maneuverability. Mimicking the wing kinematics of biological flight requires examining the potential effects of wing morphology on flight performance, as wings may be specially adapted for flapping flight. For example, insect wings passively deform during flight, leading to instantaneous and potentially unpredictable changes in aerodynamic behavior. Previous studies have postulated various explanations for insect wing complexity, but there lacks a systematic approach for experimentally examining the functional significance of components of wing morphology, and for determining whether or not natural design principles can or should be used for MAVs. In this work, a novel fabrication process to create centimeter-scale wings of great complexity is introduced; via this process, a wing can be fabricated with a large range of desired mechanical and geometric characteristics. We demonstrate the versatility of the process through the cr...",
+      "authors": [
+        "Jessica K. Shang",
+        "Stacey A. Combes",
+        "Benjamin M. Finio",
+        "Robert J. Wood"
+      ]
+    },
+    {
+      "title": "Spectral analysis of fluid flows using sub-Nyquist-rate PIV data",
+      "publication_year": 2014,
+      "publication_date": "2014-09-01",
+      "doi": "https://doi.org/10.1007/s00348-014-1805-6",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1401.7047",
+      "concepts": [
+        "Nyquist–Shannon sampling theorem",
+        "Computer science",
+        "Compressed sensing",
+        "Nyquist rate",
+        "Sampling (signal processing)",
+        "SIGNAL (programming language)",
+        "Particle image velocimetry",
+        "Nyquist frequency"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jonathan H. Tu",
+        "Clarence W. Rowley",
+        "J. Nathan Kutz",
+        "Jessica K. Shang"
+      ]
+    },
+    {
+      "title": "Body torque modulation for a microrobotic fly",
+      "publication_year": 2009,
+      "publication_date": "2009-05-01",
+      "doi": "https://doi.org/10.1109/robot.2009.5152582",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 56,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Torque",
+        "Flapping",
+        "Kinematics",
+        "Actuator",
+        "Takeoff",
+        "Control theory (sociology)",
+        "Wing",
+        "Computer science"
+      ],
+      "abstract": "The Harvard Microrobotics Lab has previously demonstrated the world's first at-scale robotic insect capable of vertical takeoff with external power. Both of the robot's wings were driven by a single power actuator and 1-DOF mechanical transmission-making independent control of both wings, and therefore asymmetric flapping and the generation of a net body torque, impossible. This paper presents a method to modulate body torques by altering the kinematics of each wing transmission independently, via the introduction of two additional control actuators. Theoretical kinematic and dynamic predictions based on a pseudo-rigid body model are compared to the observed wing trajectories. Controllable body torques are necessary for the development of control algorithms for eventual stable hovering and free flight.",
+      "authors": [
+        "Benjamin M. Finio",
+        "Jessica K. Shang",
+        "R. J. Wood"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Particle image velocimetry (PIV) data of flow past a cylinder",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.5281/zenodo.20765566",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20765566",
+      "concepts": [
+        "Particle image velocimetry",
+        "Cylinder",
+        "Reynolds number",
+        "Flow (mathematics)",
+        "Physics",
+        "Velocimetry",
+        "Mechanics",
+        "Optics"
+      ],
+      "abstract": "The dataset is a MATLAB data file and contains a 2D velocity field over time of flow past a cylinder, acquired with 2D/planar particle image velocimetry (PIV). The experiment was conducted in a recirculating water channel at cylinder Reynolds number Re = 413. The cylinder is finite length, and the PIV data was acquired in a plane at the mid-span. The velocity fields were computed using LaVision DaVis 8.1.2. The frequency of the dataset is 20 Hz. Additional experimental and PIV processing details can be found in J. H. Tu et al, \"Spectral analysis of fluid flows using sub-Nyquist-rate PIV data\", Experiments in Fluids, 2014. The dataset contains 4 variables: u: velocity in the x-direction (meters per second) v: velocity in the y-direction (meters per second) x: x-coordinate grid (meters) y: y-coordinate grid (meters) Note that some of the values in (u,v) are exactly zeros (0s); these regions were masked out prior to PIV processing as they correspond to regions of the flow that are not illuminated by the laser: the cylinder cross-section, and the shadows cast by the cylinder.",
+      "authors": [
+        "Jessica K. Shang",
+        "Jonathan Tu"
+      ]
+    },
+    {
+      "title": "Particle image velocimetry (PIV) data of flow past a cylinder",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.5281/zenodo.20765567",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20765567",
+      "concepts": [
+        "Particle image velocimetry",
+        "Cylinder",
+        "Reynolds number",
+        "Flow (mathematics)",
+        "Physics",
+        "Velocimetry",
+        "Mechanics",
+        "Optics"
+      ],
+      "abstract": "The dataset is a MATLAB data file and contains a 2D velocity field over time of flow past a cylinder, acquired with 2D/planar particle image velocimetry (PIV). The experiment was conducted in a recirculating water channel at cylinder Reynolds number Re = 413. The cylinder is finite length, and the PIV data was acquired in a plane at the mid-span. The velocity fields were computed using LaVision DaVis 8.1.2. The frequency of the dataset is 20 Hz. Additional experimental and PIV processing details can be found in J. H. Tu et al, \"Spectral analysis of fluid flows using sub-Nyquist-rate PIV data\", Experiments in Fluids, 2014. The dataset contains 4 variables: u: velocity in the x-direction (meters per second) v: velocity in the y-direction (meters per second) x: x-coordinate grid (meters) y: y-coordinate grid (meters) Note that some of the values in (u,v) are exactly zeros (0s); these regions were masked out prior to PIV processing as they correspond to regions of the flow that are not illuminated by the laser: the cylinder cross-section, and the shadows cast by the cylinder.",
+      "authors": [
+        "Jessica K. Shang",
+        "Jonathan Tu"
+      ]
+    },
+    {
+      "title": "Measurement of turbulent velocity and bounds for thermal diffusivity in laser shock compressed foams by x-ray photon correlation spectroscopy",
+      "publication_year": 2025,
+      "publication_date": "2025-10-02",
+      "doi": "https://doi.org/10.1103/lff9-f3c1",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/lff9-f3c1",
+      "concepts": [
+        "Thermal diffusivity",
+        "Spectroscopy",
+        "Nanosecond",
+        "Shock (circulatory)",
+        "Laser",
+        "Materials science",
+        "Photon",
+        "Measure (data warehouse)"
+      ],
+      "abstract": "Experimental benchmarking of transport coefficients under extreme conditions is required for validation of differing theoretical models. To date, measurement of transport properties of dynamically compressed samples remains a challenge with only a limited number of studies able to quantify transport in high pressure and temperature matter. x-ray photon correlation spectroscopy utilizes coherent x-ray sources to measure time correlations of density fluctuations, thus providing measurements of length and timescale-dependent transport properties. Here, we present a first-of-a-kind experiment to conduct x-ray photon correlation spectroscopy in laser shock compression experiments. We report measurement of the turbulent velocity in the wake of a laser driven supersonic shock and place an upper bound on thermal diffusivity in a solid density plasma on nanosecond timescales.",
+      "authors": [
+        "Charles Heaton",
+        "Hao Yin",
+        "Dimitri Khaghani",
+        "Hae Ja Lee",
+        "Hannah Poole",
+        "Eric G. Blackman",
+        "Nina Boiadjieva",
+        "Xiaoqian M. Chen",
+        "Céline Crépisson",
+        "Gilbert W. Collins",
+        "Adrien Descamps",
+        "A. E. Gleason",
+        "Christian Gutt",
+        "Alexander N. Petsch",
+        "Lisa Randolph",
+        "Silke Nelson",
+        "P. McGehee",
+        "Rajan Plumley",
+        "C. Spindloe",
+        "Thomas H. Stevens",
+        "Charlotte Stuart",
+        "Joshua J. Turner",
+        "Hussein Aluie",
+        "Jessica K. Shang",
+        "G. Gregori"
+      ]
+    },
+    {
+      "title": "Theory of x-ray photon correlation spectroscopy for multiscale flows",
+      "publication_year": 2025,
+      "publication_date": "2025-05-29",
+      "doi": "https://doi.org/10.1103/physrevresearch.7.023202",
+      "venue": "Physical Review Research",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevResearch.7.023202",
+      "concepts": [
+        "Spectroscopy",
+        "Photon",
+        "Physics",
+        "Statistical physics",
+        "Correlation",
+        "X-ray",
+        "Computational physics",
+        "Materials science"
+      ],
+      "abstract": "Complex multiscale flows associated with instabilities and turbulence are commonly induced under high-energy density (HED) conditions, but accurate measurement of their transport properties has been challenging. X-ray photon correlation spectroscopy (XPCS) with coherent x-ray sources can, in principle, probe material dynamics to infer transport properties using time autocorrelation of density fluctuations. Here we develop a theoretical framework for utilizing XPCS to study material diffusivity in multiscale flows. We extend single-scale shear flow theories to broadband flows using a multiscale analysis that captures shear and diffusion dynamics. Our theory is validated with simulated XPCS for Brownian particles advected in multiscale flows. We demonstrate the versatility of the method over several orders of magnitude in timescale using sequential-pulse XPCS, single-pulse x-ray speckle visibility spectroscopy (XSVS), and double-pulse XSVS.",
+      "authors": [
+        "Hao Yin",
+        "Charles Heaton",
+        "Eric G. Blackman",
+        "A. E. Gleason",
+        "Joshua J. Turner",
+        "G. W. Collins",
+        "G. Gregori",
+        "Jessica K. Shang",
+        "Hussein Aluie"
+      ]
+    },
+    {
+      "title": "Biomimetic seal whisker sensors for high-sensitivity wake detection and localization",
+      "publication_year": 2025,
+      "publication_date": "2025-04-16",
+      "doi": "https://doi.org/10.1088/1748-3190/adcddf",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Whisker",
+        "Sensitivity (control systems)",
+        "Strain gauge",
+        "Materials science",
+        "Acoustics",
+        "Computer science",
+        "Electronic engineering",
+        "Engineering"
+      ],
+      "abstract": "Abstract Pinnipeds, with highly sensitive whiskers, can detect instantaneous spatial hydrodynamic disturbances, crucial for tracking wakes and their sources. However, no existing engineering solution replicates this for intelligent passive flow perception. To bridge this gap, we propose a low-cost, whisker-inspired sensor designed for use in arrays for underwater sensing and tracking. The sensor integrates metal foil strain gages within a polydimethylsiloxane soft base, coupled with a 3D-printed biomimetic seal whisker model. It exhibits low self-noise in undisturbed flow and high sensitivity in wake detection, identifying flow speeds as low as 0.5 mm s−1—comparable to biological whiskers (∼0.25 mm s−1). The dual strain gage design, placed on adjacent perpendicular sides, allows precise measurement of whisker bending amplitude and direction. The sensor shows excellent linearity, repeatability, fatigue life, short response time and superior dynamic performance in the low-frequency range (⩽35 Hz). Despite its high performance, it is cost-effective and easy to fabricate, requiring no specialized facilities or extensive training, making it ideal for large-scale array deployment. To ...",
+      "authors": [
+        "Biao Geng",
+        "Qian Xue",
+        "Zhiheng Xu",
+        "Winston Jiang",
+        "Jonathan Sullo",
+        "Cadence Brunecz",
+        "Jessica K. Shang",
+        "Xudong Zheng"
+      ]
+    }
+  ]
+}

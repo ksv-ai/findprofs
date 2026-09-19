@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Susanta Ghosh",
+  "full_name": "Susanta Ghosh",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Michigan Technological University",
+  "author_id": "A5012521601",
+  "works_count": 89,
+  "cited_by_count": 1747,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Carbon Nanotubes in Composites",
+      "count": 7
+    },
+    {
+      "topic": "Machine Learning in Materials Science",
+      "count": 7
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 6
+    },
+    {
+      "topic": "Solidification and crystal growth phenomena",
+      "count": 6
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A novel sequential method to train physics informed neural networks for Allen Cahn and Cahn Hilliard equations",
+      "publication_year": 2022,
+      "publication_date": "2022-01-04",
+      "doi": "https://doi.org/10.1016/j.cma.2021.114474",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 277,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2021.114474",
+      "concepts": [
+        "Collocation (remote sensing)",
+        "Artificial neural network",
+        "Partial differential equation",
+        "Function (biology)",
+        "Applied mathematics",
+        "Mathematics",
+        "Boundary (topology)",
+        "Partial derivative"
+      ],
+      "abstract": "",
+      "authors": [
+        "Revanth Mattey",
+        "Susanta Ghosh"
+      ]
+    },
+    {
+      "title": "Microwave Spectra and Molecular Structures of Fluoroform, Chloroform, and Methyl Chloroform",
+      "publication_year": 1952,
+      "publication_date": "1952-04-01",
+      "doi": "https://doi.org/10.1063/1.1700501",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 158,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chloroform",
+        "Microwave",
+        "Methane",
+        "Spectral line",
+        "Chemistry",
+        "Analytical Chemistry (journal)",
+        "Organic chemistry",
+        "Physics"
+      ],
+      "abstract": "Sufficient isotopic combinations have been studied to make complete structural determinations of fluoroform and chloroform from microwave rotational spectra. The dimensions of CHF3 are dCH = 1.098A, dCF = 1.332A, and ∠FCF = 108°48′; those of CHCl3 are dCH = 1.073A, dCCl = 1.767A, and ∠ClCCl = 110°24′. Measurements were made on only the most abundant isotopic species of CH3CCl3. If the CCl3 configuration as in chloroform and the CH3 configuration as in methane are assumed, the CC distance in CH3CCl3 is found to be 1.55A.",
+      "authors": [
+        "Susanta Ghosh",
+        "R. Trambarulo",
+        "Walter Gordy"
+      ]
+    },
+    {
+      "title": "Microzonation of earthquake hazard in Greater Delhi area",
+      "publication_year": 2004,
+      "publication_date": "2004-11-01",
+      "doi": "http://eprints.iisc.ac.in/2646/1/P2Microzonation.pdf",
+      "venue": "NOT FOUND REPOSITORY (Indian Institute of Science Bangalore)",
+      "type": "article",
+      "cited_by_count": 154,
+      "is_oa": true,
+      "oa_url": "http://eprints.iisc.ac.in/2646/1/P2Microzonation.pdf",
+      "concepts": [
+        "Seismology",
+        "Seismic hazard",
+        "Geology",
+        "Peak ground acceleration",
+        "Earthquake scenario",
+        "Tectonics",
+        "Seismic microzonation",
+        "Hazard"
+      ],
+      "abstract": "A spate of earthquakes in the recent past, causing extensive damage,has heightened the sensitivity of engineers and planners to the looming seismic risk in densely populated Indian cities. Delhi city is in a seismically active region and hence it is important to understand the existing earthquake hazard to the city on a scientific basis. This article, after discussing the seismo-tectonic status of the city and its environs, presents probabilistic seismic hazard analysis of an area of 30 km x 40 km with its centre at India Gate, Delhi city. The quantified hazard in terms of the rock level peak ground acceleration value is mapped on a grid size of 1 km x 1 km, for a return period of 2500 years. In engineering parlance, this corresponds to a probability of exceedance of 2% in a design life of 50 years. This map can be used as the basis for further site-specific studies at soft, soil deposits.",
+      "authors": [
+        "Radhika Iyengar",
+        "Susanta Ghosh"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Bayesian 3D Steerable CNNs: Enabling Equivariance and Uncertainty Quantification Simultaneously",
+      "publication_year": 2026,
+      "publication_date": "2026-06-13",
+      "doi": "https://arxiv.org/abs/2606.15479",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.15479",
+      "concepts": [
+        "Uncertainty quantification",
+        "Leverage (statistics)",
+        "Bayesian probability",
+        "Bayesian inference",
+        "Mathematics",
+        "Uncertainty reduction theory",
+        "Calibration",
+        "Posterior probability"
+      ],
+      "abstract": "Steerable convolutional neural networks (Steerable-CNNs) guarantee SE(3)-equivariance by parameterizing kernels as linear combinations of steerable basis functions, but their deterministic nature precludes uncertainty quantification - limiting their use in settings where confidence estimates are essential. We propose a Bayesian Steerable-CNN that places posterior distributions over the basis coefficients, yielding stochastic kernels while preserving equivariance exactly. The loss function of the model is obtained via variational inference and minimized by Bayes-by-Backpropagation. The framework admits a decomposition of predictive uncertainty into epistemic and aleatoric components. Empirically, the model attains competitive classification accuracy alongside an expected calibration error of 0.0263 and outperforms its deterministic counterpart by up to 6.17% under distributional shift induced by additive Gaussian noise. Furthermore, we leverage the model's uncertainty estimates to enhance its performance significantly, achieving a notable gain - approximately 4% higher accuracy across 84% of the test dataset. A statistically significant negative correlation between epistemic unce...",
+      "authors": [
+        "Abhishek Keripale",
+        "Ponkrshnan Thiagarajan",
+        "Susanta Ghosh"
+      ]
+    },
+    {
+      "title": "Sol-gel derived low crystalline manganese-iron phosphide: a stable and efficient electrocatalyst for oxygen evolution reaction",
+      "publication_year": 2026,
+      "publication_date": "2026-01-04",
+      "doi": "https://doi.org/10.1007/s44344-025-00032-5",
+      "venue": "Discover Catalysis.",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44344-025-00032-5.pdf",
+      "concepts": [
+        "Oxygen evolution",
+        "Electrocatalyst",
+        "Catalysis",
+        "Phosphide",
+        "Materials science",
+        "Chemical engineering",
+        "Water splitting",
+        "Transition metal"
+      ],
+      "abstract": "The sluggish kinetics of the oxygen evolution reaction (OER) is a primary bottleneck that hampers the overall efficiency of water electrolysis. The exploration of transition metal phosphides (TMPs) as promising electrocatalysts for OER has attracted considerable interest in recent research. However, there remains a scarcity of studies focusing on the structural and morphological transformations that TMPs undergo due to inevitable surface reconstruction during the oxygen evolution reaction. In this work, a novel catalyst manganese-iron phosphide (MnFeP-500) electrocatalyst with remarkable activities was developed by sol-gel method for OER in alkaline medium. The synthesized MnFeP-500 catalysts supported on Ni foam exhibited over-potentials of 115 mV at 10 mA cm − 2 and 498 mV at 150 mA cm − 2 , respectively for OER. Also, the physical and chemical properties of the prepared catalysts were studied by different characterization techniques. To evaluate its potential as a promising catalyst for the oxygen evolution reaction, a long-term durability test of the MnFeP-500 catalyst was performed in an alkaline medium, which demonstrated a stable performance over a continuous period of 15...",
+      "authors": [
+        "A. P. Singh",
+        "Susanta Ghosh"
+      ]
+    },
+    {
+      "title": "Electronic structure prediction of medium and high entropy alloys across composition space",
+      "publication_year": 2025,
+      "publication_date": "2025-11-21",
+      "doi": "https://doi.org/10.1038/s41524-025-01856-3",
+      "venue": "npj Computational Materials",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1038/s41524-025-01856-3",
+      "concepts": [
+        "Ternary operation",
+        "Electronic structure",
+        "Statistical physics",
+        "Bayesian probability",
+        "Computer science",
+        "High entropy alloys",
+        "Artificial intelligence",
+        "Space (punctuation)"
+      ],
+      "abstract": "Abstract We propose machine learning (ML) models to predict the electron density — the fundamental unknown of a material’s ground state — across the composition space of concentrated alloys. From this, other physical properties can be inferred, enabling accelerated exploration. A significant challenge is that the number of descriptors and sampled compositions required for accurate prediction grows rapidly with species. To address this, we employ Bayesian Active Learning (AL), which minimizes training data requirements by leveraging uncertainty quantification capabilities of Bayesian Neural Networks. Compared to the strategic tessellation of the composition space, Bayesian-AL reduces the number of training data points by a factor of 2.5 for ternary (SiGeSn) and 1.7 for quaternary (CrFeCoNi) systems. We also introduce easy-to-optimize, body-attached-frame descriptors, which respect physical symmetries while keeping descriptor-vector size nearly constant as alloy complexity increases. Our ML models demonstrate high accuracy and generalizability in predicting both electron density and energy across composition space.",
+      "authors": [
+        "Shashank Pathrudkar",
+        "S. Taylor",
+        "Abhishek Keripale",
+        "Abhijeet S. Gangan",
+        "Ponkrshnan Thiagarajan",
+        "Shivang Agarwal",
+        "Jaime Marian",
+        "Susanta Ghosh",
+        "Amartya Banerjee"
+      ]
+    },
+    {
+      "title": "Surprisingly High Redundancy in Electronic Structure Data Across Materials Explained by Low Intrinsic Dimensionality",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.48550/arxiv.2507.09001",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.09001",
+      "concepts": [
+        "Pruning",
+        "Computer science",
+        "Redundancy (engineering)",
+        "Machine learning",
+        "Generalizability theory",
+        "Artificial intelligence",
+        "Data mining",
+        "Electronic structure"
+      ],
+      "abstract": "Machine learning (ML) models for electronic structure typically rely on large datasets generated by computationally expensive Kohn-Sham density functional theory calculations, as it is not known a priori which portions of the data are essential for accurate learning. Here, we reveal significant redundancies in electronic structure datasets across diverse material systems and attribute them to the low intrinsic dimensionality of the underlying data. We show that even random pruning can substantially reduce dataset size with minimal degradation in predictive accuracy. Moreover, a state-of-the-art coverage-based pruning strategy that samples data across all learning difficulties preserves chemical accuracy and model generalizability while using up to two orders of magnitude less data and reducing training time by a factor of three or more. We further demonstrate that the essential electronic structure information lies on a low-dimensional, non-linear manifold, providing a geometric explanation for the observed prunability. These observations are consistent with the predominance of local atomic environments in determining electronic properties, as suggested by nearsightedness argume...",
+      "authors": [
+        "Sazzad Hossain",
+        "Ponkrshnan Thiagarajan",
+        "Shashank Pathrudkar",
+        "S. Taylor",
+        "Abhijeet S. Gangan",
+        "Amartya Banerjee",
+        "Susanta Ghosh"
+      ]
+    },
+    {
+      "title": "Gradient flow based phase-field modeling using separable neural networks",
+      "publication_year": 2025,
+      "publication_date": "2025-03-14",
+      "doi": "https://doi.org/10.1016/j.cma.2025.117897",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2025.117897",
+      "concepts": [
+        "Artificial neural network",
+        "Separable space",
+        "Balanced flow",
+        "Flow (mathematics)",
+        "Field (mathematics)",
+        "Computer science",
+        "Phase (matter)",
+        "Two-phase flow"
+      ],
+      "abstract": "",
+      "authors": [
+        "Revanth Mattey",
+        "Susanta Ghosh"
+      ]
+    }
+  ]
+}

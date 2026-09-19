@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Tuhin Das",
+  "full_name": "Tuhin Das",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Central Florida",
+  "author_id": "A5042244876",
+  "works_count": 140,
+  "cited_by_count": 1102,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Fuel Cells and Related Materials",
+      "count": 16
+    },
+    {
+      "topic": "Advancements in Solid Oxide Fuel Cells",
+      "count": 15
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 14
+    },
+    {
+      "topic": "Control and Dynamics of Mobile Robots",
+      "count": 14
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Swing-Up Control of the Pendubot: An Impulse–Momentum Approach",
+      "publication_year": 2009,
+      "publication_date": "2009-06-10",
+      "doi": "https://doi.org/10.1109/tro.2009.2022427",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 86,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Swing",
+        "Rest (music)",
+        "Feedback linearization",
+        "Controller (irrigation)",
+        "Underactuation",
+        "Linearization",
+        "Impulse (physics)"
+      ],
+      "abstract": "The standard control problem of the pendubot refers to the task of stabilizing its equilibrium configuration with the highest potential energy. Linearization of the dynamics of the pendubot about this equilibrium results in a completely controllable system and allows a linear controller to be designed for local asymptotic stability. For the underactuated pendubot, the important task is, therefore, to design a controller that will swing up both links and bring the configuration variables of the system within the region of attraction of the desired equilibrium. This paper provides a new method for swing-up control based on a series of rest-to-rest maneuvers of the first link about its vertically upright configuration. The rest-to-rest maneuvers are designed such that each maneuver results in a net gain in energy of the second link. This results in swing-up of the second link and the pendubot configuration reaching the region of attraction of the desired equilibrium. A four-step algorithm is provided for swing-up control followed by stabilization. Simulation results are presented to demonstrate the efficacy of the approach.",
+      "authors": [
+        "Thamer Albahkali",
+        "Ranjan Mukherjee",
+        "Tuhin Das"
+      ]
+    },
+    {
+      "title": "Sustainability of decentralized woodfuel-based power plant: an experience in India",
+      "publication_year": 2003,
+      "publication_date": "2003-09-22",
+      "doi": "https://doi.org/10.1016/s0360-5442(03)00158-0",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 72,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sustainability",
+        "Power station",
+        "Electricity generation",
+        "Renewable energy",
+        "Electricity",
+        "Environmental science",
+        "Environmental economics",
+        "Business"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sonaton Ghosh",
+        "Tuhin Das",
+        "Tushar Jash"
+      ]
+    },
+    {
+      "title": "Robust Control of Solid Oxide Fuel Cell Ultracapacitor Hybrid System",
+      "publication_year": 2011,
+      "publication_date": "2011-01-01",
+      "doi": "https://doi.org/10.1109/tcst.2010.2098478",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 59,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Supercapacitor",
+        "Solid oxide fuel cell",
+        "Fuel cells",
+        "Control theory (sociology)",
+        "Engineering",
+        "Computer science",
+        "Control engineering",
+        "Control (management)"
+      ],
+      "abstract": "Mitigating fuel starvation and improving load-following capability of solid oxide fuel cells (SOFC) are conflicting control objectives. In this paper, we address this issue using a hybrid SOFC ultracapacitor configuration. Fuel starvation is prevented by regulating the fuel cell current using a steady-state invariant relationship involving fuel utilization, fuel flow, and current. Two comprehensive control strategies are developed. The first is a Lyapunov-based nonlinear control and the second is a standardH∞robust control. Both strategies additionally control the state of charge of the ultracapacitor that provides transient power compensation. A hardware-in-the-loop test stand is developed where the proposed control strategies are verified.",
+      "authors": [
+        "Tahar Allag",
+        "Tuhin Das"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Adaptive Altitude Control of a Tethered Multirotor Autogyro under Varying Wind Speeds using Differential Rotor Braking",
+      "publication_year": 2025,
+      "publication_date": "2025-09-24",
+      "doi": "https://doi.org/10.48550/arxiv.2509.20561",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.20561",
+      "concepts": [
+        "Control theory (sociology)",
+        "Multirotor",
+        "Altitude (triangle)",
+        "Wind speed",
+        "Controller (irrigation)",
+        "Rotor (electric)",
+        "Wind power",
+        "Aerodynamics"
+      ],
+      "abstract": "A tethered multirotor autogyro can function as an unmanned aerial vehicle for energy-efficient and prolonged deployment, as it uses the available wind energy to sustain flight. This article presents an adaptive altitude control strategy for such a device. At a constant wind speed, the equilibrium altitude can be approximated by a quadratic function of the pitch angle. The proposed adaptive control estimates the coefficients of this quadratic function. The estimates are used for altitude control and to attain the maximum altitude (and minimum horizontal drift) for a given wind speed. A feedback controller based on regenerative differential rotor braking is used as the actuation to modulate the autogyro's pitch angle. Implementation of the controller using a control-oriented, higher-order dynamic model demonstrates the controller's capability to regulate the altitude and maintain stable flights under varying wind speeds. Based on the system's maximum altitude tracking performance, the adaptive control is adjusted to improve performance under substantial changes in wind speeds.",
+      "authors": [
+        "Tasnia Noboni",
+        "Tuhin Das"
+      ]
+    },
+    {
+      "title": "Modeling Tethered Multirotor Autogyro with Altitude Control via Differential Rotor Braking",
+      "publication_year": 2025,
+      "publication_date": "2025-04-01",
+      "doi": "https://doi.org/10.2514/1.g008573",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multirotor",
+        "Control theory (sociology)",
+        "Differential (mechanical device)",
+        "Rotor (electric)",
+        "Computer science",
+        "Dynamic braking",
+        "Automotive engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "The potential use of tethered autogyros as energy-efficient low-altitude surveillance systems calls for control and stability analysis of autorotative flight. A control-oriented dynamic model of a tethered multirotor autogyro, introducing the flapping degree of freedom of each blade, is developed in this paper by combining the Lagrangian approach, blade element momentum theory, and catenary mechanics. The resulting model is hybrid in the sense that the aerodynamic forces are three dimensional, whereas the autogyro is constrained to move within the vertical plane. The assumption that roll and yaw motions can be controlled by lateral rotors in the full three-dimensional extension facilitates detailed dynamic modeling while limiting the number of states. The equations of motion are numerically solved, and equilibrium characteristics are explored. The trends of equilibrium data are consistent with existing results in the literature. Simulation results show that a two-loop feedback controller based on a novel regenerative differential rotor braking technique is effective in controlling the autogyro’s pitch angle and altitude while using the restoring force from the tether. To further...",
+      "authors": [
+        "Tasnia Noboni",
+        "Jonathan McConnell",
+        "Tuhin Das"
+      ]
+    },
+    {
+      "title": "Altitude Control of a Tethered Multi-Rotor Autogyro in 2-D Using Pitch Actuation via Differential Rotor Braking",
+      "publication_year": 2023,
+      "publication_date": "2023-05-31",
+      "doi": "https://doi.org/10.23919/acc55779.2023.10155811",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotor (electric)",
+        "Control theory (sociology)",
+        "Differential (mechanical device)",
+        "Computer science",
+        "Automotive engineering",
+        "Physics",
+        "Control (management)",
+        "Aerospace engineering"
+      ],
+      "abstract": "For tethered multi-rotor autogyros to be viable energy efficient unmanned aerial vehicles (UAVs), control analysis and stability investigation of autorotative flight are vital. In this paper, a simplified model-based altitude control technique is presented which is effective in the presence of both uniform and variable wind profile. A two-rotor autogyro, tethered to the ground and constrained to move in the 2D plane of the wind direction, is adopted for the study. The reduction to 2D simplifies the system and helps focus on the feasibility of altitude control and pitch modulation by exclusively using differential braking, which is a novel concept. In this arrangement, control inputs are the braking torques in each of the two rotors. The assumption is that with another two rotors in the lateral direction the roll and yaw motion of the system can be controlled when extended to 3D. The aerodynamics and tether modeling are based on Blade Element Momentum (BEM) method and catenary mechanics respectively. The characteristics of the equilibria of the tethered multi-rotor autogyro are investigated. For the aforementioned set-up, the differential rotor braking input is designed based on ...",
+      "authors": [
+        "Tasnia Noboni",
+        "Jonathan McConnell",
+        "Tuhin Das"
+      ]
+    },
+    {
+      "title": "A novel stress coupled hydrogen failure criterion to predict hydrogen embrittlement in high-strength steels",
+      "publication_year": 2025,
+      "publication_date": "2025-11-26",
+      "doi": "https://doi.org/10.1016/j.ijhydene.2025.152763",
+      "venue": "International Journal of Hydrogen Energy",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijhydene.2025.152763",
+      "concepts": [
+        "Hydrogen embrittlement",
+        "Materials science",
+        "Hydrogen",
+        "Work (physics)",
+        "Finite element method",
+        "Stress (linguistics)",
+        "Robustness (evolution)",
+        "Embrittlement"
+      ],
+      "abstract": "Hydrogen embrittlement (HE) has been a long-standing challenge for high-strength metals, particularly in high-strength steels. The present work focuses on developing a modeling approach that accurately captures and predicts the HE induced failure initiation in high-strength steels. A stress-coupled diffusion model is formulated and implemented within the finite element modeling framework to capture hydrogen distribution under different loading and charging conditions. Benchmarking the model against the experimental results obtained from incremental step load testing on AISI 4340 notched specimens under varying charging scenarios, the local hydrogen concentration and stress state has been identified as important parameters manifesting material degradation due to HE. This refurbishes the conventional concept of critical hydrogen concentration alone required to induce HE by establishing a strong dependency of hydrogen concentration on the history of loading and stress state. A novel HE failure criterion is developed considering the coupling aspects of local hydrogen concentration and stress triaxiality into a cohesive zone model. The model is then validated by considering different...",
+      "authors": [
+        "Sidharth Sarmah",
+        "Tuhin Das",
+        "Salim Brahimi",
+        "Stephen Yue",
+        "Jun Song"
+      ]
+    },
+    {
+      "title": "Enhancement of hydrodynamics modeling for floating offshore wind turbines using multi-objective genetic algorithm",
+      "publication_year": 2025,
+      "publication_date": "2025-09-30",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2025.122842",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.oceaneng.2025.122842",
+      "concepts": [
+        "Marine engineering",
+        "Genetic algorithm",
+        "Wind power",
+        "Offshore wind power",
+        "Environmental science",
+        "Submarine pipeline",
+        "Geology",
+        "Engineering"
+      ],
+      "abstract": "Floating offshore wind turbines (FOWTs) are pivotal for enhancing the U.S. energy supply by harnessing deep-water wind resources with higher capacity factors. Accurate hydrodynamic modeling is essential for predicting FOWT responses to varying sea states, as hydrodynamic coefficients—added mass, damping, and drag—govern platform dynamics. However, these coefficients are highly sensitive to platform geometry and environmental conditions, presenting significant challenges for predictive modeling. This study presents an optimization framework that automates the tuning of hydrodynamic coefficients across varying sea states. The hydrodynamics model is developed based on Morison’s equation and enhanced with second-order wave kinematics, wave stretching, MacCamy-Fuchs corrections, depth-dependent coefficients, and component-wise discretization. A multi-objective Genetic Algorithm (GA) is employed to calibrate coefficients using data from free-decay and irregular wave tests. The framework treats hydrodynamic coefficients as design variables and evaluates fitness based on dynamic responses in both time and frequency domains. To support generalization, regression models are developed to e...",
+      "authors": [
+        "Doyal Sarker",
+        "Tri Ngo",
+        "Tuhin Das"
+      ]
+    }
+  ]
+}

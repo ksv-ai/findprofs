@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Ashok Gopalarathnam",
+  "full_name": "Ashok Gopalarathnam",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "North Carolina State University",
+  "author_id": "A5004052432",
+  "works_count": 159,
+  "cited_by_count": 2457,
+  "h_index": 26,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 79
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 56
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 42
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 39
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding",
+      "publication_year": 2014,
+      "publication_date": "2014-06-23",
+      "doi": "https://doi.org/10.1017/jfm.2014.297",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 276,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Vortex shedding",
+        "Reynolds number",
+        "Physics",
+        "Leading edge",
+        "Vortex",
+        "Vorticity",
+        "Kármán vortex street"
+      ],
+      "abstract": "Abstract Unsteady aerofoil flows are often characterized by leading-edge vortex (LEV) shedding. While experiments and high-order computations have contributed to our understanding of these flows, fast low-order methods are needed for engineering tasks. Classical unsteady aerofoil theories are limited to small amplitudes and attached leading-edge flows. Discrete-vortex methods that model vortex shedding from leading edges assume continuous shedding, valid only for sharp leading edges, or shedding governed by ad-hoc criteria such as a critical angle of attack, valid only for a restricted set of kinematics. We present a criterion for intermittent vortex shedding from rounded leading edges that is governed by a maximum allowable leading-edge suction. We show that, when using unsteady thin aerofoil theory, this leading-edge suction parameter (LESP) is related to the $\\def \\xmlpi #1{}\\def \\mathsfbi #1{\\boldsymbol {\\mathsf {#1}}}\\let \\le =\\leqslant \\let \\leq =\\leqslant \\let \\ge =\\geqslant \\let \\geq =\\geqslant \\def \\Pr {\\mathit {Pr}}\\def \\Fr {\\mathit {Fr}}\\def \\Rey {\\mathit {Re}}A_0$ term in the Fourier series representing the chordwise variation of bound vorticity. Furthermore, for any...",
+      "authors": [
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam",
+        "Kenneth Granlund",
+        "Michael Ol",
+        "Jack R. Edwards"
+      ]
+    },
+    {
+      "title": "Testing and Characterization of a Fixed Wing Cross-Domain Unmanned Vehicle Operating in Aerial and Underwater Environments",
+      "publication_year": 2017,
+      "publication_date": "2017-09-18",
+      "doi": "https://doi.org/10.1109/joe.2017.2742798",
+      "venue": "IEEE Journal of Oceanic Engineering",
+      "type": "article",
+      "cited_by_count": 165,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Underwater",
+        "Propeller",
+        "Propulsion",
+        "Proof of concept",
+        "Aerodynamics",
+        "Flight control surfaces",
+        "Range (aeronautics)",
+        "Engineering"
+      ],
+      "abstract": "This paper presents test results and performance characterization of the first fixed-wing unmanned vehicle capable of full cross-domain operation in both the aerial and underwater environments with repeated transition and low-energy loitering capabilities. This vehicle concept combines the speed and range of an aircraft with the persistence, diving capabilities, and stealth of a submersible. The paper describes the proof-of-concept vehicle including its concept of operations, the approaches employed to achieve the required functions, and the main components and subsystems. Key subsystems include a passively flooding and draining wing, a single motor and propeller combination for propulsion in both domains, and aerodynamic-hydrodynamic control surfaces. Experiments to quantify the vehicle performance, control responses, and energy consumption in underwater, surface, and flight operation are presented and analyzed. Results of several full-cycle tests are presented to characterize and illustrate each stage of operation including surface locomotion, underwater locomotion, water egress, flight, and water ingress. In total, the proof-of-concept vehicle demonstrated 12 full-cycle cross...",
+      "authors": [
+        "Warren Weisler",
+        "William J. Stewart",
+        "Mark Anderson",
+        "Kara Peters",
+        "Ashok Gopalarathnam",
+        "Matthew Bryant"
+      ]
+    },
+    {
+      "title": "An unsteady airfoil theory applied to pitching motions validated against experiment and computation",
+      "publication_year": 2013,
+      "publication_date": "2013-01-15",
+      "doi": "https://doi.org/10.1007/s00162-012-0292-8",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Inviscid flow",
+        "Vortex",
+        "Mechanics",
+        "Reynolds number",
+        "Angle of attack",
+        "Vorticity",
+        "Vortex shedding"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam",
+        "Jack R. Edwards",
+        "Michael Ol",
+        "Kenneth Granlund"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physically consistent formulation for the bound vortex sheet strength in the Wagner model",
+      "publication_year": 2026,
+      "publication_date": "2026-06-10",
+      "doi": "https://doi.org/10.1103/hcd2-znt5",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.06884",
+      "concepts": [
+        "Physics",
+        "Vortex",
+        "Upper and lower bounds",
+        "Mechanics",
+        "Work (physics)",
+        "Classical mechanics",
+        "Vortex sheet",
+        "Vorticity"
+      ],
+      "abstract": "Unsteady thin-airfoil theory (UTAT) coupled with discrete-vortex methods has been widely employed in reduced-order aerodynamic modeling. Due to the non-uniqueness of potential-flow solutions, the Kutta condition is imposed to determine the circulation around the airfoil. Although the unsteady Kutta condition is commonly associated with the zero-loading condition at the trailing edge, its implications for the continuity of the vortex-sheet strength remain comparatively underexplored. In particular, the classical series expansion employed for the bound vorticity in unsteady thin-airfoil theory is not uniformly convergent at the trailing edge, leading to mathematical inconsistencies in the vortex-sheet and pressure distributions. In this context, the present work seeks to advance the mathematical framework of unsteady thin-airfoil theory through a physically consistent formulation of the bound vortex-sheet strength for the Wagner problem. A recurrence relation is derived for the Wagner coefficients, allowing the construction of a uniformly convergent series expansion for the bound vorticity. The proposed formulation ensures continuity between the bound and wake vortex sheets while ...",
+      "authors": [
+        "George Lucas S. Torres",
+        "Ashok Gopalarathnam",
+        "Flávio D. Marques"
+      ]
+    },
+    {
+      "title": "Investigation of thrust augmentation in multi-foil flapping propulsion systems using a low-order hydrodynamic model",
+      "publication_year": 2026,
+      "publication_date": "2026-02-17",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2026.124539",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.oceaneng.2026.124539",
+      "concepts": [
+        "Propulsion",
+        "Thrust",
+        "Marine engineering",
+        "Flapping",
+        "Aerospace engineering",
+        "Engineering",
+        "Geology",
+        "Mechanical engineering"
+      ],
+      "abstract": "Tandem flapping foil propulsion is an interesting area of research with many important applications in engineering and nature. Interaction between the hindfoil and the vortex-dominated wake shed from the forefoil presents a wealth of complex unsteady flow phenomena. The spatial locations of the foils relative to each other, along with the motion parameters of the foils, determine the timing of arrival of the forefoil wake vortices at the hindfoil location and thus the outcomes of the interactions. It has been observed that some parameter combinations in a tandem arrangement can result in cycle-averaged thrust values of the hindfoil of up to two times that of isolated operation, while certain combinations can lead to significant deterioration of thrust. The parameter space involving the geometric and kinematic features of the foils and the flow properties is large and has been previously explored using experimental and high-fidelity computational approaches. In this paper, we present a low-order theoretical approach for modeling a system of multiple flapping foils using unsteady thin airfoil theory for representing the foils and a discrete-vortex method for the flowfield simulati...",
+      "authors": [
+        "Arun Vishnu Suresh Babu",
+        "Andrew Mistele",
+        "Ashok Gopalarathnam"
+      ]
+    },
+    {
+      "title": "Discrete vortex-based broadcast mode analysis for mitigation of dynamic stall",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "https://doi.org/10.1017/jfm.2025.11019",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FF07C33B497F0E8CD97436E433814B02/S0022112025110197a.pdf/div-class-title-discrete-vortex-based-broadcast-mode-analysis-for-mitigation-of-dynamic-stall-div.pdf",
+      "concepts": [
+        "Stall (fluid mechanics)",
+        "Computer science",
+        "Airfoil",
+        "Vortex",
+        "Control theory (sociology)",
+        "Flow control (data)",
+        "Actuator",
+        "Nonlinear system"
+      ],
+      "abstract": "We integrate a discrete vortex method (DVM) with complex network analysis to strategise dynamic stall mitigation over aerofoils with active flow control. The objective is to inform the actuator placement and the timing to introduce control inputs during the highly transient process of dynamic stall. To this end, we treat a massively separated flow as a network of discrete vortical elements and quantify the interactions among the vortical nodes by tracking the spread of displacement perturbations between each pair of vortical elements using a DVM. This allows us to perform network broadcast mode analysis to identify an optimal set of discrete vortices, the critical timing and the direction to seed perturbations as control inputs. Motivated by the objective of dynamic stall mitigation, the optimality is defined as maximising the reduction of total circulation of the free vortices generated from the leading edge over a prescribed time horizon. We demonstrate the use of the analysis on a two-dimensional flow over a flat plate aerofoil and a three-dimensional turbulent flow over an SD $7003$ aerofoil. The results from the network analysis reveal that the optimal timing for introducin...",
+      "authors": [
+        "Het D. Patel",
+        "Yi Tsung Lee",
+        "Ashok Gopalarathnam",
+        "C. Yeh"
+      ]
+    },
+    {
+      "title": "Automatic Limit Cycle Oscillation Annihilation in Aeroelastic Wings Using Prescribed Impinging Vortices",
+      "publication_year": 2025,
+      "publication_date": "2025-10-28",
+      "doi": "https://doi.org/10.2514/1.j065541",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Physics",
+        "Vortex",
+        "Oscillation (cell signaling)",
+        "Mechanics",
+        "Limit (mathematics)",
+        "Vortex shedding",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Michael T. Hughes",
+        "Ashok Gopalarathnam",
+        "Matthew Bryant"
+      ]
+    },
+    {
+      "title": "Effect of rounded trailing edges on unsteady airfoil loading at low reynolds numbers",
+      "publication_year": 2025,
+      "publication_date": "2025-07-05",
+      "doi": "https://doi.org/10.1007/s00162-025-00747-z",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00162-025-00747-z.pdf",
+      "concepts": [
+        "Airfoil",
+        "Reynolds number",
+        "Trailing edge",
+        "Mechanics",
+        "Mathematics",
+        "Computational Science and Engineering",
+        "Geometry",
+        "Physics"
+      ],
+      "abstract": "Abstract The steady potential flow past a traditional airfoil with a round leading edge and a sharp trailing edge can usually be simulated using the assumption of Kutta condition at the trailing edge. However, for the airfoil undergoing unsteady motion, especially at high reduced frequencies, numerical and experimental studies have shown that the flow can curve around the trailing edge, resulting in the stagnation point moving away from the trailing edge. This phenomenon becomes increasingly apparent when the airfoil has a round trailing edge instead of the usual sharp one. Inspired by the success of using leading-edge suction force to represent the flow turn-around at the leading edge and the associated vortex shedding, this work introduces the trailing-edge suction force and connects it to the trailing-edge unsteady flow physics. In this work, the effect of trailing edge roundness on the unsteady airfoil flow is studied by generating airfoil shapes with various amounts of roundness. Computational fluid dynamics (CFD) studies of unsteady flow past airfoils with different round trailing edges are performed to study the effects of the trailing-edge suction force on the flowfield....",
+      "authors": [
+        "Yi Tsung Lee",
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam"
+      ]
+    }
+  ]
+}

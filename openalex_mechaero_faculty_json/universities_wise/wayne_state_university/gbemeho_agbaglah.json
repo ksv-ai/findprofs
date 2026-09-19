@@ -1,0 +1,245 @@
+{
+  "faculty_name": "Gbemeho Agbaglah",
+  "full_name": "G. Gilou Agbaglah",
+  "department": "Department of Mechanical Engineering",
+  "university": "Wayne State University",
+  "author_id": "A5087764436",
+  "works_count": 24,
+  "cited_by_count": 321,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 11
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 8
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 8
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 7
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Slat cove dynamics of low Reynolds number flow past a 30P30N high lift configuration",
+      "publication_year": 2021,
+      "publication_date": "2021-03-01",
+      "doi": "https://doi.org/10.1063/5.0036088",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 14,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Physics",
+        "Wake",
+        "Vortex",
+        "Mechanics",
+        "Vortex shedding",
+        "Lift (data mining)",
+        "Horseshoe vortex"
+      ],
+      "abstract": "A three-dimensional computational fluid dynamics analysis of low Reynolds number [O(104)] flow over a 30P30N three-element high lift wing is carried out using a high-order spectral element method. In this article, we study the flow in the slat cove region and the slat wake/shear layer interaction. Vortical structures, identified in the computations, are very similar to those visualized in recent experiments. For Reynolds numbers below a critical interval (found in recent experiments), Görtler vortices are observed in the slat wake, while for Reynolds numbers above the critical interval, a roll-up is observed in the slat cove and both streamwise and spanwise vortices form in the slat wake. Prior to the formation of Görtler and roll-up vortices, three-dimensional tongue- or rib-like vortex shapes, similar to those found in the wake of bluff bodies, are observed in the slat cove and promote transition to three-dimensional flow. Above the critical interval, streaks and spanwise vortices are observed to dominate the slat wake and lead to the formation of hairpin vortices which contribute to the transition to turbulence. Integral flow parameters such as lift, drag, and pressure coeffi...",
+      "authors": [
+        "Mayank Vadsola",
+        "G. Gilou Agbaglah",
+        "Catherine Mavriplis"
+      ]
+    },
+    {
+      "title": "Numerical simulation of the initial destabilization of an air-blasted liquid layer",
+      "publication_year": 2017,
+      "publication_date": "2017-01-11",
+      "doi": "https://doi.org/10.1017/jfm.2016.835",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Laminar flow",
+        "Physics",
+        "Turbulence",
+        "Volume of fluid method",
+        "Large eddy simulation",
+        "Instability",
+        "Momentum (technical analysis)"
+      ],
+      "abstract": "Numerical simulations of a planar air/water air-blast atomization are performed using an in-house multiphase Navier–Stokes solver which uses a semi-Lagrangian geometric volume of fluid method to track the position of the interface. This solver conserves mass exactly and mitigates momentum and kinetic energy conservation errors. Excellent agreement with recent experiments is obtained when comparing physical quantities, such as the liquid cone length, maximum wave frequency and spatial growth rate of the primary instability. The inclination of the gas inflow, which mimics the slope of the separator plate, is shown to enhance the primary atomization. A three-dimensional large-eddy simulation, run using physically correct air/water parameters, is used to provide the statistics of the flow. The gas layer is laminar close to the entrance and becomes turbulent at positions further downstream. The liquid wave crests expand in thin sheets, which break into secondary droplets, as observed in experiments.",
+      "authors": [
+        "G. Gilou Agbaglah",
+        "Robert Chiodi",
+        "Olivier Desjardins"
+      ]
+    },
+    {
+      "title": "Computational analysis of physical mechanisms at the onset of three-dimensionality in the wake of a square cylinder",
+      "publication_year": 2017,
+      "publication_date": "2017-11-07",
+      "doi": "https://doi.org/10.1017/jfm.2017.713",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 26,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Vortex",
+        "Physics",
+        "Reynolds number",
+        "Mechanics",
+        "Instability",
+        "Vorticity",
+        "Cylinder"
+      ],
+      "abstract": "A high-order spectral element method is used to perform direct numerical simulations of flow past a square cylinder at the transition from the two-dimensional von Kármán vortex street in the wake of the cylinder to three-dimensionality. A Reynolds number range between 100 and 300 has been considered and good agreement with previous numerical and experimental results is obtained. At transition, the spanwise perturbation observed in the cylinder wake occurs before the onset of the streamwise vortex separation, while the former mechanism is commonly shown, in the literature, to originate from the latter by an instability of the cores or interactions of shed vortices in the vicinity of the cylinder. It is shown that the first three-dimensional unstable mode, the mode $A$ , originates from an axial stretching of the upstream perturbed vorticity, existing on the braids, due to the strain field created by the spanwise vortices which evolve under a shear instability of the wake when viscous effects are small. On the other hand, the mode $B$ is observed to arise only after spanwise vortices are shed downstream of the cylinder.",
+      "authors": [
+        "G. Gilou Agbaglah",
+        "Catherine Mavriplis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "From vortices to droplets: Gas-phase instability effects on thin liquid film breakup",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1063/5.0278367",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Breakup",
+        "Vortex",
+        "Instability",
+        "Two-phase flow",
+        "Mechanics"
+      ],
+      "abstract": "This study explores the role of gas flow dynamics in the fragmentation of thin liquid sheets using three-dimensional numerical simulations. A thin liquid sheet with a thickness of 25 μm is subjected to high-velocity co-flowing gas streams characterized by three distinct gas Reynolds numbers, namely, Reg=300,500, and 1000. Simulations show that the breakup behavior of the sheet is governed by the vortical structures formed in the gas flow, which range from oblique vortex shedding at lower Reg to rib-like vortical patterns at higher Reg. The gas-induced instabilities impose transverse and longitudinal oscillations on the liquid sheet, which govern the locations of hole formation, the development of ligaments, and ultimately the resulting droplet size distribution. For Reg=300, breakup occurs via rim instability and the end-pinching or Rayleigh–Plateau-type instability of liquid fingers, whereas for Reg=500 and 1000, sheet rupture through hole formation and collision dominates. A manifold death (MD) algorithm is used to enforce breakup at a grid-independent critical film thickness, improving robustness against numerical artifacts. Droplet size distributions obtained with and withou...",
+      "authors": [
+        "Muhammad Osama",
+        "G. Gilou Agbaglah"
+      ]
+    },
+    {
+      "title": "Bag film rupture mechanisms in droplet fragmentation under uniform airflows",
+      "publication_year": 2025,
+      "publication_date": "2025-02-01",
+      "doi": "https://doi.org/10.1063/5.0253364",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Fragmentation (computing)",
+        "Mechanics",
+        "Aerospace engineering",
+        "Classical mechanics",
+        "Operating system",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "The fragmentation of a droplet under aerodynamic forces induced by the surrounding flow is a fundamental phenomenon crucial to various spray applications. Bag breakup represents a fragmentation regime characterized by the formation of a forward-facing, hollow “bag” or thin film around the droplet, which ultimately ruptures, resulting in the generation of multiple smaller fragments. We perform three-dimensional numerical simulations to investigate the rupture of the liquid film, referred to as the “bag film,” which forms during the bag breakup of a droplet. Three different combinations of Reynolds and Weber numbers are used to examine the impact of the wake gas flow structures on bag film breakup. The temporal evolution of the bag's length and diameter agrees very well with previous results in the literature. The shape of the wake flow structures is found to vary with Reynolds numbers. The gas enstrophy on the leeward side of the bag film indicates that film rupture is associated with a rise in enstrophy. Just prior to breakup, an attached vortical structure is observed at the film interface at the rupture location. This structure induces localized pressure fluctuations within th...",
+      "authors": [
+        "Yogini Sasar",
+        "G. Gilou Agbaglah"
+      ]
+    },
+    {
+      "title": "On the Origin of Görtler Vortices in Flow over a Multi-Element Airfoil",
+      "publication_year": 2024,
+      "publication_date": "2024-11-01",
+      "doi": "https://doi.org/10.3390/jeta2040010",
+      "venue": "Journal of Experimental and Theoretical Analyses",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2813-4648/2/4/10/pdf?version=1730450529",
+      "concepts": [
+        "Airfoil",
+        "Vortex",
+        "Element (criminal law)",
+        "Flow (mathematics)",
+        "Geology",
+        "Mechanics",
+        "Physics",
+        "Political science"
+      ],
+      "abstract": "The flow characteristics of a 30P30N three-element high-lift airfoil at low Reynolds numbers O104 are examined through three-dimensional simulations using a high-order spectral element method. This study primarily investigates the flow structures of the slat cove and Görtler vortices formed on the upper surface of the main airfoil. Spanwise instability grows exponentially in the slat cove with a constant wavelength, corresponding to that of the subsequently formed Görtler vortices. Görtler number calculations show that curvature-induced centrifugal instability at the slat cusp leads to the subsequent formation of Görtler vortices. Proper orthogonal decomposition (POD) is used to analyze the development of flow structures in the slat cove in different time ranges. At early time, the flow in the slat cove is dominated by shear layers that evolve into spanwise perturbations. These perturbations further evolve into distinct bell-shaped structures close to the slat cusp and are advected to the upper surface of the main airfoil, leading to the formation of Görtler vortices.",
+      "authors": [
+        "Hussein Kokash",
+        "Catherine Mavriplis",
+        "G. Gilou Agbaglah"
+      ]
+    },
+    {
+      "title": "Görtler Vortices Formation in Flow Over a Multi-Element Airfoil",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4776787",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4776787",
+      "concepts": [
+        "Airfoil",
+        "Vortex",
+        "Element (criminal law)",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Business",
+        "Aerospace engineering",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hussein Kokash",
+        "G. Gilou Agbaglah"
+      ]
+    },
+    {
+      "title": "Two- to Three-Dimensional Wake Transition Mechanism Induced by the Angle of Attack of a Naca0012 Airfoil",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4806241",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4806241",
+      "concepts": [
+        "Airfoil",
+        "Wake",
+        "Angle of attack",
+        "Mechanism (biology)",
+        "Transition (genetics)",
+        "Physics",
+        "Mechanics",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hussein Kokash",
+        "G. Gilou Agbaglah"
+      ]
+    }
+  ]
+}

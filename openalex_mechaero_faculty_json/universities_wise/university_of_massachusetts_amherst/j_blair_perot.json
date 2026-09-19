@@ -1,0 +1,113 @@
+{
+  "faculty_name": "J. Blair Perot",
+  "full_name": "Blair Perot",
+  "department": "Department of Mechanical and Industrial Engineering",
+  "university": "University of Massachusetts Amherst",
+  "author_id": "A5089940851",
+  "works_count": 103,
+  "cited_by_count": 4259,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 50
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 22
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 21
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 12
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Discrete Conservation Properties of Unstructured Mesh Schemes",
+      "publication_year": 2011,
+      "publication_date": "2011-01-05",
+      "doi": "https://doi.org/10.1146/annurev-fluid-122109-160645",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 115,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conservation law",
+        "Energy conservation",
+        "Conservation of mass",
+        "Conservation of energy",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Entropy (arrow of time)",
+        "Mathematical optimization"
+      ],
+      "abstract": "Numerical methods with discrete conservation statements are useful because they cannot produce solutions that violate important physical constraints. A large number of numerical methods used in computational fluid dynamics (CFD) have either global or local conservation statements for some of the primary unknowns of the method. This review suggests that local conservation of primary unknowns often follows from global conservation of those quantities. Secondary conservation involves the conservation of derived quantities, such as kinetic energy, entropy, and vorticity, which are not directly unknowns of the numerical system. Secondary conservation can further improve physical fidelity of a numerical solution, but it is typically much harder to achieve. We consider current approaches to secondary conservation and techniques used outside of CFD that are potentially related. Finally, the review concludes with a discussion of how secondary conservation properties might be included automatically.",
+      "authors": [
+        "Blair Perot"
+      ]
+    },
+    {
+      "title": "Direct numerical simulations of turbulent flows over superhydrophobic surfaces",
+      "publication_year": 2009,
+      "publication_date": "2009-01-26",
+      "doi": "https://doi.org/10.1017/s0022112008004916",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Materials science",
+        "Drag",
+        "Reynolds number",
+        "Turbulence",
+        "Shear stress",
+        "Shear velocity",
+        "Slip (aerodynamics)"
+      ],
+      "abstract": "Direct numerical simulations (DNSs) are used to investigate the drag-reducing performance of superhydrophobic surfaces (SHSs) in turbulent channel flow. SHSs combine surface roughness with hydrophobicity and can, in some cases, support a shear-free air–water interface. Slip velocities, wall shear stresses and Reynolds stresses are considered for a variety of SHS microfeature geometry configurations at a friction Reynolds number of Re τ ≈ 180. For the largest microfeature spacing studied, an average slip velocity over 75% of the bulk velocity is obtained, and the wall shear stress reduction is found to be nearly 40%. The simulation results suggest that the mean velocity profile near the superhydrophobic wall continues to scale with the wall shear stress but is offset by a slip velocity that increases with increasing microfeature spacing.",
+      "authors": [
+        "Michael B. Martell",
+        "Blair Perot",
+        "Jonathan P. Rothstein"
+      ]
+    },
+    {
+      "title": "Shear-free turbulent boundary layers. Part 1. Physical insights into near-wall turbulence",
+      "publication_year": 1995,
+      "publication_date": "1995-07-25",
+      "doi": "https://doi.org/10.1017/s0022112095001935",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Dissipation",
+        "K-epsilon turbulence model",
+        "Reynolds stress",
+        "Kinematics",
+        "Physics",
+        "Boundary (topology)"
+      ],
+      "abstract": "Direct numerical simulation is used to examine the interaction of turbulence with a wall in the absence of mean shear. The influence of a solid wall on turbulence is analysed by first considering two ‘simpler’ types of boundaries. The first boundary is an idealized permeable wall. This boundary isolates and elucidates the viscous effects created by the wall. The second boundary is an idealized free surface. This boundary complements the first by allowing one to isolate and investigate the kinematic effects that occur near boundaries. The knowledge gained from these two simpler flows is then used to understand how turbulence is influenced by solid walls where both viscous and kinematic effects occur in combination. Examination of the instantaneous flow fields confirms the presence of previously hypothesized structures (splats), and reveals an additional class of structures (antisplats). Statistical analysis of the Reynolds stresses and Reynolds stress transport equations indicates the relative importance of dissipation, intercomponent energy transfer, and energy transport. It is found that it is not the structures themselves, but the imbalance between structures which leads to in...",
+      "authors": [
+        "Blair Perot",
+        "Parviz Moin"
+      ]
+    }
+  ],
+  "recent_works": []
+}

@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Daniel J. Bodony",
+  "full_name": "Daniel J. Bodony",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Illinois Urbana-Champaign",
+  "author_id": "A5011367707",
+  "works_count": 236,
+  "cited_by_count": 2807,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 98
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 91
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 89
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 32
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical investigation of a honeycomb liner grazed by laminar and turbulent boundary layers",
+      "publication_year": 2016,
+      "publication_date": "2016-03-08",
+      "doi": "https://doi.org/10.1017/jfm.2016.79",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Mechanics",
+        "Turbulence",
+        "Body orifice",
+        "Aeroacoustics",
+        "Boundary layer",
+        "Boundary layer suction",
+        "Drag"
+      ],
+      "abstract": "Direct numerical simulations are used to study the interaction of a cavity-backed circular orifice with grazing laminar and turbulent boundary layers and incident sound waves. The flow conditions and geometry are representative of single degree-of-freedom acoustic liners applied in the inlet and exhaust ducts of aircraft engines and are the same as those from experiments conducted at NASA Langley. The simulations identify the fluid mechanics of how the sound field and state of the grazing boundary layer impact the in-orifice flow and suggest a simple flow analogy that enables scaling estimates. From the scaling estimates the simulations are then used to develop reduced-order models for the in-orifice flow and a time-domain impedance model is constructed. The liner is found to increase drag at all conditions studied by an amount that increases with the incident sound pressure amplitude.",
+      "authors": [
+        "Qi Zhang",
+        "Daniel J. Bodony"
+      ]
+    },
+    {
+      "title": "Hypersonic Fluid–Structure Interactions in Compression Corner Shock-Wave/Boundary-Layer Interaction",
+      "publication_year": 2020,
+      "publication_date": "2020-07-14",
+      "doi": "https://doi.org/10.2514/1.j059152",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 84,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Hypersonic speed",
+        "Materials science",
+        "Sandwich panel",
+        "Mach number",
+        "Mechanics",
+        "Shock (circulatory)",
+        "Shock wave"
+      ],
+      "abstract": "The fluid–structure interaction of a flexible panel exposed to a ramp-induced shock-wave/boundary-layer interaction (SWBLI) at Mach 6 is investigated experimentally for transitional and turbulent incoming boundary layers. Panel deformations are measured using photogrammetry enabled by a new marker-tracking routine, whereas pressure fluctuations are obtained with fast-response piezoresistive pressure transducers. The significance of aerothermal heating is evident in the nonlinear panel response: enhanced static deformations and frequency shifting are consistent with a temperature differential between the panel and its support structure, which induces compressive thermal strain and flexural softening. Time-domain and modal vibratory behavior are correlated to the SWBLI environment, and shear-layer reattachment near antinodes of certain mode shapes is identified as a source of enhanced panel excitation. Comparison with companion rigid-ramp experiments shows evidence of feedback into the downstream flowfield regime.",
+      "authors": [
+        "Thomas J. Whalen",
+        "Antonio Giovanni Schöneich",
+        "Stuart J. Laurence",
+        "Bryson T. Sullivan",
+        "Daniel J. Bodony",
+        "Maxim Freydin",
+        "Earl H. Dowell",
+        "Gregory M. Buck"
+      ]
+    },
+    {
+      "title": "Interaction of a Mach 2.25 turbulent boundary layer with a fluttering panel using direct numerical simulation",
+      "publication_year": 2013,
+      "publication_date": "2013-08-28",
+      "doi": "https://doi.org/10.1063/1.4819350",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 65,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Boundary layer",
+        "Turbulence",
+        "Mechanics",
+        "Aerospace engineering",
+        "Direct numerical simulation",
+        "Classical mechanics"
+      ],
+      "abstract": "The interaction between a thin metallic panel and a Mach 2.25 turbulent boundary layer is investigated using a direct numerical simulation approach for coupled fluid-structure problems. The solid solution is found by integrating the finite-strain, finite-deformation equations of elasticity using a non-linear 3D finite element solver, while the direct numerical simulation of the boundary layer uses a finite-difference compressible Navier-Stokes solver. The initially laminar boundary layer contains low amplitude unstable eigenmodes that grow in time and excite traveling bending waves in the panel. As the boundary layer transitions to a fully turbulent state, with Reθ ≈ 1200, the panel's bending waves coalesce into a standing wave pattern exhibiting flutter with a final amplitude approximately 20 times the panel thickness. The corresponding panel deflection is roughly 25 wall units and reaches across the sonic line in the boundary layer profile. Once it reaches a limit cycle state, the panel/boundary layer system is examined in detail where it is found that turbulence statistics appear to be modified by the presence of the compliant panel, the effect of which is forgotten within on...",
+      "authors": [
+        "Christopher Ostoich",
+        "Daniel J. Bodony",
+        "Philippe H. Geubelle"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental study of fluid-thermal-structural interactions in a Mach-10 compression corner using super-ellipse-based photogrammetry",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.1007/s00348-026-04209-y",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s00348-026-04209-y",
+      "concepts": [
+        "Compression (physics)",
+        "Context (archaeology)",
+        "Displacement (psychology)",
+        "Materials science",
+        "Flat panel",
+        "Thermal",
+        "Photogrammetry",
+        "Mach number"
+      ],
+      "abstract": "Abstract An experimental study is conducted of the fluid-thermal-structural interaction of a clamped compliant panel exposed to the intense shock-wave/boundary-layer interaction (SWBLI) induced by a compression ramp at Mach 10. Initial measurements of the underlying flowfield with a rigid ramp showed the incoming boundary layer to be transitional, and the SWBLI was observed to vary from attached to fully separated as the ramp angle was increased from 10 $$^\\circ $$ ∘ to 30 $$^\\circ $$ ∘ . For the compliant panel, a sealed cavity behind the panel allowed the effects of pressure-differential induced strains to be studied in the context of characterizing surface response to the aero-thermal load. Full-field, time-resolved panel deformations were measured using high-speed photogrammetry enabled by a new high-fidelity marker-tracking routine, which was shown to outperform existing methods. Substantial static panel deformations (of the order of several times the panel thickness) were produced by the intense aero-thermal loading environment. These deformations, combined with induced thermal and pressure gradients across the panel, were found to significantly modify the nature of existi...",
+      "authors": [
+        "Travis Duchene",
+        "Antonio G. Schöneich",
+        "Brett F. Bathel",
+        "Joshua M. Weisberger",
+        "Gregory M. Buck",
+        "Daniel J. Bodony",
+        "Stuart J. Laurence"
+      ]
+    },
+    {
+      "title": "Resolvent analysis of shock-laden flows",
+      "publication_year": 2026,
+      "publication_date": "2026-03-23",
+      "doi": "https://doi.org/10.1017/jfm.2026.11255",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1F747BB15B3A04EE3334AA09823D40FB/S0022112026112555a.pdf/div-class-title-resolvent-analysis-of-shock-laden-flows-div.pdf",
+      "concepts": [
+        "Resolvent",
+        "Inviscid flow",
+        "Resolvent formalism",
+        "Classification of discontinuities",
+        "Shock (circulatory)",
+        "Transonic",
+        "Flow (mathematics)",
+        "Mathematical analysis"
+      ],
+      "abstract": "We present a semi-analytic investigation of the resolvent operator, and its associated forcing and response modes for quasi-one-dimensional shock-laden flows. Using a Green’s function approach, we derive resolvent solutions for isentropic (subsonic and supersonic) and transonic flows with shocks in converging–diverging nozzles of arbitrary geometry. Our analysis demonstrates that shock-induced heightened sensitivity in the resolvent across flow discontinuities leads to significant discrepancies between numerically computed and the analytical input and output modes if shock effects are not properly accounted for. In particular, we find that the resolvent operator exhibits singular behaviour at the shock location. Specifically, the inviscid (where the shock is treated purely as a flow discontinuity) and viscous analytical leading resolvent modes do not converge as the viscosity parameter $\\mu \\rightarrow 0$ , which affects the accuracy of flow control and stability analyses that rely on resolvent-based methods. Furthermore, the derived solutions serve as benchmarks for verifying numerical schemes designed to compute adjoint and resolvent modes in shock-laden flows, ensuring that t...",
+      "authors": [
+        "Sandeep Ravikumar Murthy",
+        "Daniel J. Bodony"
+      ]
+    },
+    {
+      "title": "Modeling and Validation of Tongue-Induced Unsteady Loading in Turbocharger Radial Turbine Using a 1D Approach With 3D LES",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0982",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Volute",
+        "Turbocharger",
+        "Turbine",
+        "Aerodynamics",
+        "Unsteady flow",
+        "Flow (mathematics)",
+        "Engineering",
+        "Flanging"
+      ],
+      "abstract": "In aviation, turbochargers adapted from ground-based systems are employed in intermittent combustion engines to improve efficiency and performance. However, these units frequently operate under off-design conditions, making them vulnerable to blade failures caused by aerodynamically induced resonances. This study presents a one-dimensional (1D) modeling approach for simulating unsteady loading in turbocharger turbines. The model integrates the theoretical design of the volute with a viscous flow solver that accounts for volute curvature and the circumferentially continuous nature of the outflow. The 1D model effectively captures tongue-induced unsteady loading and shows good agreement with results from three-dimensional (3D) large eddy simulations (LES), demonstrating its capability in accurately predicting unsteady aerodynamic forces on radial turbine blades. Additionally, the study identifies the mechanisms responsible for cyclic blade loading and associated vibrations. Ongoing work focuses on further refining the 1D model for improved predictive accuracy and deepening the investigation into the influence of the volute tongue on unsteady blade loading.",
+      "authors": [
+        "Chhote Lal Shah",
+        "Jaywon Woo",
+        "Daniel J. Bodony",
+        "Sangguk Kang"
+      ]
+    },
+    {
+      "title": "Petrov–Galerkin model reduction for collisional–radiative argon plasma",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1063/5.0306085",
+      "venue": "Physics of Plasmas",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1063/5.0306085",
+      "concepts": [
+        "Physics",
+        "Solver",
+        "Plasma",
+        "Reduction (mathematics)",
+        "Statistical physics",
+        "Non-equilibrium thermodynamics",
+        "Computational physics",
+        "Ionization"
+      ],
+      "abstract": "Accurate simulation of nonequilibrium plasmas, essential in hypersonic reentry, fusion energy, and astrophysical flows, relies on state-specific collisional–radiative (CR) kinetic models but often comes with prohibitive computational cost. While traditional approaches reduce this burden through empirical or physics-based simplifications, they frequently compromise accuracy in strongly nonequilibrium regimes. To address these limitations, we develop a Petrov–Galerkin reduced-order model (ROM) for CR argon plasma based on oblique projections that optimally balance the covariance of full-order state trajectories with that of the system's output sensitivities. This construction ensures that the ROM captures both the dominant energetic modes and the directions most relevant to input–output behavior. After offline training in a zero-dimensional setting using nonlinear forward and adjoint simulations, the ROM is coupled to a finite-volume solver and applied to one- (1D) and two-dimensional (2D) ionizing shock-tube problems. The ROM achieves a 3× reduction in state dimension and more than one order of magnitude savings in floating-point operations, while maintaining errors below 1% for ...",
+      "authors": [
+        "Ivan Zanardi",
+        "Alessandro Meini",
+        "Alberto Padovan",
+        "Daniel J. Bodony",
+        "Marco Panesi"
+      ]
+    },
+    {
+      "title": "Experimental Study of Transitional and Turbulent Fluid-Thermal-Structural Interactions in a Mach-6 Compression Corner",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7439583",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7439583",
+      "concepts": [
+        "Compression (physics)",
+        "Softening",
+        "Materials science",
+        "Mechanics",
+        "Amplitude",
+        "Flow (mathematics)",
+        "Thermal",
+        "Structural engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Travis DuChene",
+        "Antonio Schöneich",
+        "Brett Bathel",
+        "Joshua Weisberger",
+        "Daniel J. Bodony",
+        "Stuart Laurence"
+      ]
+    }
+  ]
+}

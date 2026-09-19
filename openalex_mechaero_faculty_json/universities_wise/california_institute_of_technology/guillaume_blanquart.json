@@ -1,0 +1,256 @@
+{
+  "faculty_name": "Guillaume Blanquart",
+  "full_name": "Guillaume Blanquart",
+  "department": "Department of Mechanical and Civil Engineering",
+  "university": "California Institute of Technology",
+  "author_id": "A5083125334",
+  "works_count": 205,
+  "cited_by_count": 4513,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 107
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 74
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 52
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 36
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 32
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "High order conservative finite difference scheme for variable density low Mach number turbulent flows",
+      "publication_year": 2008,
+      "publication_date": "2008-03-29",
+      "doi": "https://doi.org/10.1016/j.jcp.2008.03.027",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 626,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conservation of mass",
+        "Turbulence",
+        "Large eddy simulation",
+        "Mathematics",
+        "Finite difference",
+        "Direct numerical simulation",
+        "Order of accuracy",
+        "Cartesian coordinate system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Olivier Desjardins",
+        "Guillaume Blanquart",
+        "Guillaume Balarac",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "Chemical mechanism for high temperature combustion of engine relevant fuels with emphasis on soot precursors",
+      "publication_year": 2009,
+      "publication_date": "2009-01-18",
+      "doi": "https://doi.org/10.1016/j.combustflame.2008.12.007",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 502,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Combustion",
+        "Mechanism (biology)",
+        "Environmental science",
+        "Chemistry",
+        "Emphasis (telecommunications)",
+        "Waste management",
+        "Process engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Guillaume Blanquart",
+        "P PEPIOTDESJARDINS",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "A consistent chemical mechanism for oxidation of substituted aromatic species",
+      "publication_year": 2010,
+      "publication_date": "2010-08-05",
+      "doi": "https://doi.org/10.1016/j.combustflame.2010.07.009",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 340,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustion",
+        "Chemistry",
+        "Toluene",
+        "Ethylbenzene",
+        "Shock tube",
+        "Laminar flow",
+        "Ignition system",
+        "Autoignition temperature"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krithika Narayanaswamy",
+        "Guillaume Blanquart",
+        "Heinz Pitsch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Master-Equation-Informed Reduced-Order Model for Thermal Non-Equilibrium Dissociation: Application to N 2",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4330",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thermal",
+        "Materials science",
+        "Work (physics)",
+        "Thermodynamics",
+        "Thermal conductivity",
+        "Constant (computer programming)",
+        "Temperature measurement",
+        "Mathematical model"
+      ],
+      "abstract": "",
+      "authors": [
+        "Albert Zhou",
+        "Alex T. Carroll",
+        "Guillaume Blanquart"
+      ]
+    },
+    {
+      "title": "Treatment of Thermal Nonequilibrium Dissociation: Rate Constant Review for H 2",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://doi.org/10.2514/1.t7371",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Non-equilibrium thermodynamics",
+        "Thermodynamics",
+        "Constant (computer programming)",
+        "Thermal",
+        "Mechanics",
+        "Work (physics)",
+        "Thermal conductivity"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alex T. Carroll",
+        "Jacob Wolmer",
+        "Guillaume Blanquart",
+        "Aaron M. Brandis",
+        "Brett A. Cruden"
+      ]
+    },
+    {
+      "title": "State-Specific Kinetic Modeling of Atomic H for H$_2$/ He Entry Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-04",
+      "doi": "https://doi.org/10.48550/arxiv.2605.02382",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.02382",
+      "concepts": [
+        "Shock tube",
+        "Ionization",
+        "Kinetic energy",
+        "Mechanics",
+        "Thermodynamics",
+        "Boundary layer",
+        "Helium",
+        "Shock (circulatory)"
+      ],
+      "abstract": "An 11-species thermochemical model for H$_2$/ He mixtures with state-specific kinetics for atomic H is developed and used to simulate 1-D shocks at conditions relevant for ice and gas giant entry flows. To implement this kinetic model, a literature review of the state-specific excitation and ionization rate constants of atomic H is first performed. While electron-impact rate constants from various sources are found to be in good agreement, large discrepancies are found in the limited data available on heavy-particle-impact rate constants. To validate the kinetic model, 1-D steady shocks are simulated using a space-marching code that explicitly accounts for shock tube boundary layer effects. The resulting radiance profiles are compared to experimental data from the NASA Ames Electric Arc Shock Tube (EAST) facility, and are found to reproduce the measured values reasonably accurately while capturing the distinct induction zone behavior observed in the experiments. A sensitivity analysis of the kinetic rates and boundary layer treatment reveals avenues for further improvement of the model. Finally, a comparison to alternate models from the literature underscores the improved accura...",
+      "authors": [
+        "Alex T. Carroll",
+        "Guillaume Blanquart",
+        "Aaron M. Brandis",
+        "Brett A. Cruden"
+      ]
+    },
+    {
+      "title": "State-Specific Kinetic Modeling of Atomic H for H$_2$/ He Entry Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-04",
+      "doi": "https://arxiv.org/abs/2605.02382",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.02382",
+      "concepts": [
+        "Shock tube",
+        "Ionization",
+        "Kinetic energy",
+        "Mechanics",
+        "Thermodynamics",
+        "Boundary layer",
+        "Helium",
+        "Shock (circulatory)"
+      ],
+      "abstract": "An 11-species thermochemical model for H$_2$/ He mixtures with state-specific kinetics for atomic H is developed and used to simulate 1-D shocks at conditions relevant for ice and gas giant entry flows. To implement this kinetic model, a literature review of the state-specific excitation and ionization rate constants of atomic H is first performed. While electron-impact rate constants from various sources are found to be in good agreement, large discrepancies are found in the limited data available on heavy-particle-impact rate constants. To validate the kinetic model, 1-D steady shocks are simulated using a space-marching code that explicitly accounts for shock tube boundary layer effects. The resulting radiance profiles are compared to experimental data from the NASA Ames Electric Arc Shock Tube (EAST) facility, and are found to reproduce the measured values reasonably accurately while capturing the distinct induction zone behavior observed in the experiments. A sensitivity analysis of the kinetic rates and boundary layer treatment reveals avenues for further improvement of the model. Finally, a comparison to alternate models from the literature underscores the improved accura...",
+      "authors": [
+        "Alex T. Carroll",
+        "Guillaume Blanquart",
+        "Aaron M. Brandis",
+        "Brett A. Cruden"
+      ]
+    },
+    {
+      "title": "Theoretical one-dimensional model for variable-density Rayleigh-Taylor turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-04-10",
+      "doi": "https://doi.org/10.1103/prg3-bclc",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.09409",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Mechanics",
+        "Field (mathematics)",
+        "Statistical physics",
+        "K-omega turbulence model",
+        "Work (physics)",
+        "Noise (video)"
+      ],
+      "abstract": "In an early theoretical work published in 1965, Belen'kii & Fradkin proposed a turbulent diffusivity model for Rayleigh--Taylor (RT) mixing. We review its derivation and present alternative arguments leading to the same final similarity equation. The original work then introduced an approximation that led to a simplified ordinary differential equation (ODE), which was used primarily to derive the important scaling result, $h \\sim (\\ln R)gt^2$. Here, we extend the analysis by examining the solutions to both the full similarity ODE and the simplified ODE in detail. It is shown that the full similarity equation captures many now well-known features of non-Boussinesq RT flows, including asymmetric spike and bubble growth and a systematic shift of velocity statistics toward the light-fluid side. Comparisons of the theoretical model with numerical and experimental studies show reasonable agreement in both spatial profiles and growth trends of mixing layer heights. We further show that a global mass correction applied to the simplified solution closely approximates the full solution, highlighting that, to leading order, RT mixing is governed by the competing dynamics between diffusion ...",
+      "authors": [
+        "Chian Yeh Goh",
+        "Guillaume Blanquart"
+      ]
+    }
+  ]
+}

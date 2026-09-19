@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Jasim Imran",
+  "full_name": "Jasim Imran",
+  "department": "Department of Civil and Environmental Engineering, Mechanical Engineering",
+  "university": "University of South Carolina",
+  "author_id": "A5087044762",
+  "works_count": 132,
+  "cited_by_count": 3844,
+  "h_index": 35,
+  "top_topics": [
+    {
+      "topic": "Hydrology and Sediment Transport Processes",
+      "count": 52
+    },
+    {
+      "topic": "Geological formations and processes",
+      "count": 45
+    },
+    {
+      "topic": "Hydraulic flow and structures",
+      "count": 31
+    },
+    {
+      "topic": "Dam Engineering and Safety",
+      "count": 27
+    },
+    {
+      "topic": "Flood Risk Assessment and Management",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Numerical Modeling of Three-Dimensional Flow Field Around Circular Piers",
+      "publication_year": 2004,
+      "publication_date": "2004-01-20",
+      "doi": "https://doi.org/10.1061/(asce)0733-9429(2004)130:2(91)",
+      "venue": "Journal of Hydraulic Engineering",
+      "type": "article",
+      "cited_by_count": 184,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Reynolds stress",
+        "Shear stress",
+        "Geology",
+        "Turbulence modeling",
+        "Computation",
+        "Open-channel flow"
+      ],
+      "abstract": "A three-dimensional numerical model FLUENT is used to simulate the separated turbulent flow around vertical circular piers in clear water. Computations are performed using different turbulence models and results are compared with several sets of experimental data available in the literature. Despite commonly perceived weakness of the k-ε model in resolving three-dimensional (3D) open channel and geophysical flows, several variants of this turbulence model are found to have performed satisfactorily in reproducing the measured velocity profiles. However, model results obtained using the k-ε models show some discrepancy with the measured bed shear stress. The Reynolds stress model performed quite well in simulating velocity distribution on flat bed and scour hole as well as shear stress distribution on flat bed around circular piers. The study demonstrates that a robust 3D hydrodynamic model can effectively supplement experimental studies in understanding the complex flow field and the scour initiation process around piers of various size, shape, and dimension.",
+      "authors": [
+        "Tarek M. Salaheldin",
+        "Jasim Imran",
+        "M. Hanif Chaudhry"
+      ]
+    },
+    {
+      "title": "Numerical Model of Turbidity Currents with a Deforming Bottom Boundary",
+      "publication_year": 2005,
+      "publication_date": "2005-03-16",
+      "doi": "https://doi.org/10.1061/(asce)0733-9429(2005)131:4(283)",
+      "venue": "Journal of Hydraulic Engineering",
+      "type": "article",
+      "cited_by_count": 121,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flume",
+        "Mechanics",
+        "Turbidity current",
+        "Turbulence",
+        "Supercritical flow",
+        "Geology",
+        "Sediment transport",
+        "Geotechnical engineering"
+      ],
+      "abstract": "A numerical model of turbidity currents with a deforming bottom boundary has been developed. The model predicts the vertical structure of the flow velocity and concentration as well as change in the bed level due to erosion and deposition of suspended sediment. The Reynolds-averaged Navier–Stokes equations for dilute suspension have been solved using a finite volume method. The bottom boundary and the grid system are allowed to adjust in response to sediment deposition and entrainment during the computation. The model has been applied to simulate the evolution of a conservative saline density current and turbidity currents along an 11.6m long flume that includes a slope followed by a horizontal bed. The model successfully simulates the evolution of the currents. Model results have been compared with the experimental data. Good similarity profiles of velocity and excess density or suspended sediment concentration are obtained at both the upstream supercritical and the downstream subcritical flow regions. A turbulent Schmidt number larger than one has been found to be appropriate for providing a good match with the experimental data. Changes in bed level predicted by the model hav...",
+      "authors": [
+        "Heqing Huang",
+        "Jasim Imran",
+        "Carlos Pirmez"
+      ]
+    },
+    {
+      "title": "Reconstruction of turbidity currents in Amazon Channel",
+      "publication_year": 2003,
+      "publication_date": "2003-06-01",
+      "doi": "https://doi.org/10.1016/j.marpetgeo.2003.03.005",
+      "venue": "Marine and Petroleum Geology",
+      "type": "article",
+      "cited_by_count": 367,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbidity current",
+        "Geology",
+        "Canyon",
+        "Channel (broadcasting)",
+        "Outcrop",
+        "Geomorphology",
+        "Entrainment (biomusicology)",
+        "Deposition (geology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Carlos Pirmez",
+        "Jasim Imran"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "UAV-Deployable Open-Source Sensor Nodes for Spatial and Temporal In Situ Water Quality Monitoring and Mapping",
+      "publication_year": 2026,
+      "publication_date": "2026-02-11",
+      "doi": "https://doi.org/10.3390/s26041158",
+      "venue": "Sensors",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1424-8220/26/4/1158/pdf?version=1770798286",
+      "concepts": [
+        "Environmental science",
+        "Remote sensing",
+        "Water quality",
+        "Turbidity",
+        "Kriging",
+        "In situ",
+        "Software deployment",
+        "Wireless sensor network"
+      ],
+      "abstract": "Cost efficient, spatially resolved water quality monitoring is essential for managing pollution and protecting aquatic ecosystems. This study presents a low-cost (approximately USD 200), open-source, unmanned aerial vehicle (UAV)-deployable in situ sensor node for real-time assessment of surface-water conditions. The system integrates sensors for pH, turbidity, temperature, and total dissolved solids (TDSs), with onboard data logging and real-time clock (RTC) synchronization. Bench validation of the sensor package yielded mean absolute percentage errors of 1.34% for pH, 5.23% for TDS, and 0.81% for temperature, and the device operated continuously for 42 h. Field deployment demonstrated its ability to resolve spatial gradients, with observed ranges in the tested water body of pH 6.0-6.7, turbidity 11-18 NTU, TDS 44-51 ppm, and temperature 22.8-24.6 °C. Ordinary Kriging was used to interpolate measurements and generate continuous spatial maps. The open-source, UAV-deployable design provides an accessible platform for community-scale and research-oriented water quality mapping.",
+      "authors": [
+        "Matthew Burnett",
+        "Mohamed Abdelwahab",
+        "Joud N. Satme",
+        "Austin R. J. Downey",
+        "Gabriel Barahona Smith",
+        "Antonio Fonce",
+        "Jasim Imran"
+      ]
+    },
+    {
+      "title": "Experimental Validation of UAV-Deployed Edge Sensors for Frequency-Based Bridge Damage Detection",
+      "publication_year": 2025,
+      "publication_date": "2025-09-09",
+      "doi": "https://doi.org/10.12783/shm2025/37534",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://dpi-proceedings.com/index.php/shm2025/article/download/37534/36107",
+      "concepts": [
+        "Structural health monitoring",
+        "Fast Fourier transform",
+        "Computer science",
+        "Transmission (telecommunications)",
+        "Electronic engineering",
+        "Computation",
+        "Signal processing",
+        "Acoustics"
+      ],
+      "abstract": "This work presents the experimental validation of a UAV-deployable wireless sensor package capable of edge-based Fast Fourier Transform (FFT) processing for frequencybased Structural Health Monitoring (SHM). The sensor system executes onboard computation to detect shifts in natural frequencies, enabling rapid assessment without relying on continuous high-bandwidth communication. A lab-scale beam structure is used to simulate structural state changes by repositioning support locations, with a UAVdeployable sensor placed on the beam to capture vibration data alongside a reference accelerometer. The embedded FFT algorithm performs local signal transformation and peak detection, successfully identifying modal frequency shifts correlated with altered boundary conditions. These peak frequencies are logged and prepared for selective wireless transmission to reduce power and data transmission demands. The sensor package is shown to reliably detect frequency shifts of approximately 1 Hz across configurations. This demonstration underscores the viability of low-power, autonomous edge-sensing systems for scalable, rapid-deployment SHM platforms, particularly when structural access is const...",
+      "authors": [
+        "Joud N. Satme",
+        "Ryan Yount",
+        "Samuel Roberts",
+        "David P. Wamai",
+        "Austin Downey",
+        "Jason D. Bakos",
+        "Jasim Imran"
+      ]
+    },
+    {
+      "title": "UAV deployable buoy-style sensor for in situ water quality monitoring",
+      "publication_year": 2025,
+      "publication_date": "2025-05-21",
+      "doi": "https://doi.org/10.1117/12.3052963",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Buoy",
+        "Remote sensing",
+        "Environmental science",
+        "In situ",
+        "Computer science",
+        "Style (visual arts)",
+        "Quality (philosophy)",
+        "Marine engineering"
+      ],
+      "abstract": "The current standard for detecting contamination in water bodies relies on manual sampling and off-site laboratory analysis, resulting in delays in disseminating critical public health information. This paper presents a novel approach to real-time, in situ water quality monitoring using a UAV-deployable, long-endurance sensor cluster. At the core of the system is an open-source sensor integrated into a buoy, referred to as a sensor node, designed to measure key water quality parameters including pH, total dissolved solids, turbidity, and temperature. The sensor node is built from low-cost, modular hardware, enabling rapid deployment and system adaptability. It features long-range bidirectional wireless communication, GPS for localization, and an energy-efficient power management system. A solar charging module extends the node’s operational endurance. To overcome the logistical challenges of large-scale sensor deployment, an autonomous UAV-based drop mechanism is integrated for efficient distribution across water bodies. A field demonstration was conducted in an urban creek affected by overland runoff. Sensor readings showed deviations of 0.71–4.2% compared to industrial referen...",
+      "authors": [
+        "M. Amir Khan",
+        "Matthew J. Burnett",
+        "Austin Downey",
+        "Joud N. Satme",
+        "Jasim Imran"
+      ]
+    },
+    {
+      "title": "Early Warning Potential of Low-Cost Sensors Evaluated Using the Camp Mystic Flash-Flooding Event",
+      "publication_year": 2026,
+      "publication_date": "2026-04-23",
+      "doi": "https://doi.org/10.1061/9780784486931.024",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flash flood",
+        "Warning system",
+        "Hydrograph",
+        "Terrain",
+        "Stage (stratigraphy)",
+        "Flood myth",
+        "Flooding (psychology)",
+        "Storm"
+      ],
+      "abstract": "Extreme rainfall can trigger rapid flash flooding in small watersheds, often leaving limited time to respond. In ungauged basins, the lack of upstream rainfall or stage measurements further constrains the ability to track evolving conditions. This study reconstructs the July 4, 2025, Camp Mystic flood in Kerr County, Texas, and examines the feasibility of upstream early warning using low-cost water-level sensors. A two-dimensional HEC-RAS model was developed using 10-m USGS terrain data, land-cover-based Manning’s 𝑛 from NLCD, and rainfall observations from nearby stations. The simulation reproduced an approximately 11-m rise in water level within 5 h and showed satisfactory agreement with documented high-water marks. Potential upstream sensing locations were identified using the Topographic Wetness Index (TWI). Stage hydrographs extracted at these points show a much faster and earlier rise than at the downstream site, providing a meaningful lead time for evacuation. Comparisons with 100-year and 1,000-year SCS Type II storms show that the observed stage rose much more rapidly than standard design storms. The results indicate that low-cost, off-grid sensors, when deployed using ...",
+      "authors": [
+        "Ayman Mokhtar Nemnem",
+        "Md. Asifuzzaman Khan",
+        "Austin R. J. Downey",
+        "Jasim Imran"
+      ]
+    },
+    {
+      "title": "Performance Analysis of Iteration-Based Dynamic Flood Routing Model for Dendritic Channel Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.1061/jhend8.hyeng-14381",
+      "venue": "Journal of Hydraulic Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Routing (electronic design automation)",
+        "Channel (broadcasting)",
+        "Computer network",
+        "Flood myth",
+        "Adaptive routing",
+        "Hydrological modelling",
+        "Network topology"
+      ],
+      "abstract": "An effective flood forecasting system requires dynamic routing to accurately predict floods under diverse conditions, from slow- to fast-rising events. However, for operational forecasting, dynamic routing is computationally demanding, especially for large channel networks, necessitating efficient solution methods. The integration of a dynamic model into an operational routing environment must ensure reliable predictions and cost-effectiveness. This study compares the performance of two dynamic flood routing models: (1) the iteration-based junction point water stage prediction correction (JPWSPC) model developed in-house; and (2) the hydrologic engineering center–river analysis system (HEC-RAS) model, developed by the US Army Corps of Engineers Hydrologic Engineering Center. Performance is evaluated for three scenarios: (1) a single river reach; (2) a confluence of three channels; (3) a 15-channel network, with varying inflow peaks, bed slopes, and widths under subcritical flow conditions. Results show that for large river systems with backwater effects, JPWSPC is three to nine times faster than HEC-RAS, depending on channel and flow characteristics. Across a wide range of subcr...",
+      "authors": [
+        "Jani Fathima Jamal",
+        "Erfan Goharian",
+        "Jasim Imran",
+        "M. Hanif Chaudhry"
+      ]
+    }
+  ]
+}

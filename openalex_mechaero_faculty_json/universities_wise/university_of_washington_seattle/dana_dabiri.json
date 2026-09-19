@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Dana Dabiri",
+  "full_name": "Dana Dabiri",
+  "department": "William E. Boeing Department of Aeronautics & Astronautics",
+  "university": "University of Washington-Seattle",
+  "author_id": "A5061729533",
+  "works_count": 120,
+  "cited_by_count": 2416,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 17
+    },
+    {
+      "topic": "Analytical Chemistry and Sensors",
+      "count": 14
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 8
+    },
+    {
+      "topic": "Cardiac Valve Diseases and Treatments",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The Application of Advanced Methods in Analyzing the Performance of the Air Curtain in a Refrigerated Display Case",
+      "publication_year": 2002,
+      "publication_date": "2002-08-19",
+      "doi": "https://doi.org/10.1115/1.1478586",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 69,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Spillage",
+        "Simulation",
+        "Particle image velocimetry",
+        "Marine engineering",
+        "Environmental science",
+        "Computer science",
+        "Mechanical engineering"
+      ],
+      "abstract": "Computational Fluid Dynamics (CFD) modeling is effectively coupled with the experimental technique of Digital Particle Image Velocimetry (DPIV), to study the flowfield characteristics and performance of the air curtain of a medium-temperature open vertical refrigerated display case used in supermarkets. A global comparison of the flowfield and quantification of the entrained air into the case indicate that there is a considerable amount of cold air spillage from a typical display case that is replaced by the ambient warm entrained air across the air curtain, lowering the energy efficiency of the case. The computational model that is developed from the marriage of CFD and DPIV techniques provides a reliable simulation tool that can be used for the design optimization of air curtains. A correct estimate of the infiltration rate by changing different parameters in a validated computational simulation model will provide a feasible tool for minimizing the spillage of the cold air, and thereby designing more energy efficient open display cases.",
+      "authors": [
+        "Homayun K. Navaz",
+        "Ramin Faramarzi",
+        "Morteza Gharib",
+        "Dana Dabiri",
+        "Darius Modarress"
+      ]
+    },
+    {
+      "title": "Universal outlier detection for particle image velocimetry (PIV) and particle tracking velocimetry (PTV) data",
+      "publication_year": 2010,
+      "publication_date": "2010-03-26",
+      "doi": "https://doi.org/10.1088/0957-0233/21/5/057002",
+      "venue": "Measurement Science and Technology",
+      "type": "article",
+      "cited_by_count": 64,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle tracking velocimetry",
+        "Particle image velocimetry",
+        "Velocimetry",
+        "Anomaly detection",
+        "Particle (ecology)",
+        "Tracking (education)",
+        "Outlier",
+        "Physics"
+      ],
+      "abstract": "A generalization of the universal outlier detection method of Westerweel and Scarano (2005 Universal outlier detection for PIV data Exp. Fluids 39 1096–100) has been made, allowing the use of the above algorithm on both gridded (PIV) and non-gridded (PTV) data. The changes include a different definition of neighbors based on Delaunay tessellation, a weighting of neighbor velocities based on the distance from the point in question and an adaptive tolerance to account for the different distances to neighbors. The new algorithm is tested on flows varying from impinging jets to turbulent boundary layers and wakes to wingtip vortices, both PIV and PTV. The residuals for these flows also show universality in their probability density functions, similarly suggesting the use of a single threshold value to identify outliers. Also the new algorithm is found to work with data up to about a 15% spurious vector content.",
+      "authors": [
+        "James S. Duncan",
+        "Dana Dabiri",
+        "Jay R. Hove",
+        "Morteza Gharib"
+      ]
+    },
+    {
+      "title": "The effect of a discrete window offset on the accuracy of cross-correlation analysis of digital PIV recordings",
+      "publication_year": 1997,
+      "publication_date": "1997-05-22",
+      "doi": "https://doi.org/10.1007/s003480050082",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 475,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle image velocimetry",
+        "Offset (computer science)",
+        "Turbulence",
+        "Cross-correlation",
+        "Displacement (psychology)",
+        "Optics",
+        "Isotropy",
+        "Digital image correlation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jerry Westerweel",
+        "Dana Dabiri",
+        "Morteza Gharib"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Color-Coded 3D Particle Tracking Velocimetry System for Velocity Measurement in Transient Evaporating Films",
+      "publication_year": 2026,
+      "publication_date": "2026-06-26",
+      "doi": "https://doi.org/10.21203/rs.3.rs-10073427/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-10073427/latest.pdf",
+      "concepts": [
+        "Optics",
+        "Streamlines, streaklines, and pathlines",
+        "Particle tracking velocimetry",
+        "Calibration",
+        "Tracking (education)",
+        "Velocimetry",
+        "Particle image velocimetry",
+        "Noise (video)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andrew Gunther Jansen",
+        "Dana Dabiri",
+        "Aneet Dharmavaram Narendranath",
+        "Jeffrey S. Allen",
+        "James C. Hermanson"
+      ]
+    },
+    {
+      "title": "Feedforward Control Design of a Rudderless Aircraft with Rotary Horizontal Tail",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0319",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Feed forward",
+        "Control theory (sociology)",
+        "Rudder",
+        "Trajectory",
+        "Controller (irrigation)",
+        "Linear-quadratic regulator",
+        "Stability (learning theory)",
+        "Control engineering"
+      ],
+      "abstract": "This paper presents a control strategy combining inversion-based feedforward control with an optimal feedback controller to enhance stability and trajectory tracking for both conventional ruddered and rudderless aircraft equipped with rotary horizontal tails. Rudderless aircraft offer aerodynamic benefits by eliminating the drag associated with a vertical rudder surface. For this configuration, an alternative involves rotating the horizontal tail and elevator to enable maneuvering, similar to avian flight. While effective, this method introduces additional complexity to the vehicle's dynamic behavior. This paper aims to mitigate disturbances and achieve precise trajectory tracking for such a rudderless aircraft configuration. The inversion-based feedforward controller proactively computes control inputs to ensure accurate trajectory adherence, even in the presence of internal non-minimum phase dynamics. Simultaneously, the Linear Quadratic Regulator (LQR) feedback controller is proposed to maintain system stability by minimizing deviations from equilibrium conditions. The stability of the overall dynamics is then analyzed using eigenvalue assessments to ensure controllable and s...",
+      "authors": [
+        "Nutchanon Singhasenee",
+        "Stewart Lamon",
+        "Dana Dabiri",
+        "Mehran Mesbahi",
+        "Cheng Chang"
+      ]
+    },
+    {
+      "title": "Luminescent Pressure-Sensitive Paints with Embedded Ag@SiO2 Nanoparticles",
+      "publication_year": 2024,
+      "publication_date": "2024-12-20",
+      "doi": "https://doi.org/10.1021/acsanm.4c05718",
+      "venue": "ACS Applied Nano Materials",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Luminescence",
+        "Pressure-sensitive paint",
+        "Materials science",
+        "Nanoparticle",
+        "Surface plasmon resonance",
+        "Atmospheric pressure",
+        "Optoelectronics",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "Designing pressure-sensitive paint (PSP) to achieve high luminescence and high pressure sensitivity at near-atmospheric pressures increases the signal-to-noise ratio of the luminescence images, facilitating aerodynamic studies of low-speed flows. Here, we investigate a PSP formulation that incorporates silica-coated silver nanoparticles (Ag@SiO 2 ), along with Pt(II) meso -tetra(pentafluorophenyl)porphine (PtTFPP) embedded in a sol–gel matrix. The Ag@SiO 2 nanoparticles enhance the luminescence of PtTFPP by localized surface plasmon resonance (LSPR)-induced electric field enhancement rather than through altering the radiative decay rate of PtTFPP. The thickness of the silica layer and the mass ratio of Ag/PtTFPP are essential for optimizing the luminescence enhancement. In comparison to Ag-free PSP, the Ag@SiO 2 -doped PSP exhibits a 2-fold luminescence enhancement while maintaining a high pressure sensitivity of 0.94%/kPa normalized to atmospheric pressure data. The high luminescence and pressure sensitivity not only offer increased signal strength for imaging low-speed airflows but also hold promising potential for future designs of PSP formulations using MEL.",
+      "authors": [
+        "Ji Feng",
+        "Colin W. Baxter",
+        "Igor Novosselov",
+        "Guozhong Cao",
+        "Dana Dabiri"
+      ]
+    },
+    {
+      "title": "Enhanced Luminescence of Pressure-Sensitive Paint Using Metal-Enhanced Luminescence",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-3922",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Luminescence",
+        "Materials science",
+        "Metal",
+        "Optoelectronics",
+        "Metallurgy"
+      ],
+      "abstract": "Metal-Enhanced Luminescence (MEL) is the process by which surface plasmon resonance (SPR) of metallic nanoparticles are used to enhance the luminescence of luminophores. In this study, Silica-coated silver nanoparticles (Ag@SiO2) were used to generate MEL in a sol-gel-PtTFPP PSP to increase its emission intensity; we refer to this paint as MEL-PSP. Our results show that MEL-PSP shows a factor of two increase in luminescence compared with conventional PSP. MEL-PSP was then used during low-speed wind tunnel testing. Experimental methods and software were developed to process both luminescent and pressure data from a calibration facility in addition to image data obtained from wind tunnel testing. Wind tunnel testing consisted of imaging flow over a flat plate and a NACA 0012 airfoil, both coated with MEL-PSP, to determine surface pressure distributions. Tests were conducted at 4.7 × 10^4 and 1.9 × 10^5 Reynolds numbers based on chord length. Results demonstrated significantly reduced pressure uncertainties for models coated with the MEL-PSP compared to the conventional PSP. Additionally, expected pressure trends were readily visible in the processed data.",
+      "authors": [
+        "Colin W. Baxter",
+        "Ji Feng",
+        "Dana Dabiri"
+      ]
+    },
+    {
+      "title": "A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints",
+      "publication_year": 2025,
+      "publication_date": "2025-12-15",
+      "doi": "https://doi.org/10.1016/j.sna.2025.117366",
+      "venue": "Sensors and Actuators A Physical",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Transformation (genetics)",
+        "Optics",
+        "Pressure-sensitive paint",
+        "Calibration curve",
+        "Channel (broadcasting)",
+        "Range (aeronautics)",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jianya Wei",
+        "Zehua Wang",
+        "Jingyi Bai",
+        "Dana Dabiri"
+      ]
+    }
+  ]
+}

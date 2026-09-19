@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Ivan Bermejo-Moreno",
+  "full_name": "Iván Bermejo-Moreno",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5014839664",
+  "works_count": 64,
+  "cited_by_count": 1468,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 43
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 33
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 16
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 11
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Confinement effects in shock wave/turbulent boundary layer interactions through wall-modelled large-eddy simulations",
+      "publication_year": 2014,
+      "publication_date": "2014-10-03",
+      "doi": "https://doi.org/10.1017/jfm.2014.505",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 146,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Boundary layer",
+        "Shock wave",
+        "Mach number",
+        "Oblique shock",
+        "Duct (anatomy)",
+        "Wedge (geometry)"
+      ],
+      "abstract": "Abstract We present wall-modelled large-eddy simulations (WLES) of oblique shock waves interacting with the turbulent boundary layers (TBLs) (nominal $\\def \\xmlpi #1{}\\def \\mathsfbi #1{\\boldsymbol {\\mathsf {#1}}}\\let \\le =\\leqslant \\let \\leq =\\leqslant \\let \\ge =\\geqslant \\let \\geq =\\geqslant \\def \\Pr {\\mathit {Pr}}\\def \\Fr {\\mathit {Fr}}\\def \\Rey {\\mathit {Re}}\\delta _{99}=5.4\\ \\mathrm{mm}$ and ${\\mathit{Re}}_{\\theta }\\approx 1.4\\times 10^4$ ) developed inside a duct with an almost-square cross-section ( $45\\ \\mathrm{mm}\\times 47.5\\ \\mathrm{mm}$ ) to investigate three-dimensional effects imposed by the lateral confinement of the flow. Three increasing strengths of the incident shock are considered, for a constant Mach number of the incoming air stream $M\\approx 2$ , by varying the height (1.1, 3 and 5 mm) of a compression wedge located at a constant streamwise location that spans the top wall of the duct at a 20° angle. Simulation results are first validated with particle image velocimetry (PIV) experimental data obtained at several vertical planes (one near the centre of the duct and three near one of the sidewalls) for the 1.1 and 3 mm-high wedge cases. The instantaneous and ...",
+      "authors": [
+        "Iván Bermejo-Moreno",
+        "Laura Campo",
+        "Johan Larsson",
+        "Julien Bodart",
+        "David Helmer",
+        "John K. Eaton"
+      ]
+    },
+    {
+      "title": "Large eddy simulation with modeled wall-stress: recent progress and future directions",
+      "publication_year": 2015,
+      "publication_date": "2015-11-16",
+      "doi": "https://doi.org/10.1299/mer.15-00418",
+      "venue": "Mechanical Engineering Reviews",
+      "type": "article",
+      "cited_by_count": 532,
+      "is_oa": true,
+      "oa_url": "https://www.jstage.jst.go.jp/article/mer/3/1/3_15-00418/_pdf",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Focus (optics)",
+        "Detached eddy simulation",
+        "Turbulence",
+        "Large eddy simulation",
+        "Stress (linguistics)",
+        "Berlin wall",
+        "Computer science"
+      ],
+      "abstract": "The paper provides a brief introduction to the near-wall problem of LES and how it can be solved through modeling of the near-wall turbulence. The distinctions and key differences between different approaches are emphasized, both in terms of fidelity (LES, wall-modeled LES, and DES) and in terms of different wall-modeled LES approaches (hybrid LES/RANS and wall-stress-models). The focus is on approaches that model the wall-stress directly, i.e., methods for which the LES equations are formally solved all the way down to the wall. Progress over the last decade is reviewed, and the most important and promising directions for future research are discussed.",
+      "authors": [
+        "Johan Larsson",
+        "Soshi Kawai",
+        "Julien Bodart",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Solving the compressible navier-stokes equations on up to 1.97 million cores and 4.1 trillion grid points",
+      "publication_year": 2013,
+      "publication_date": "2013-10-30",
+      "doi": "https://doi.org/10.1145/2503210.2503265",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Solver",
+        "Computational science",
+        "Parallel computing",
+        "Grid",
+        "Computer science",
+        "Scaling",
+        "Navier–Stokes equations",
+        "Computation"
+      ],
+      "abstract": "We present weak and strong scaling studies as well as performance analyses of the Hybrid code, a finite-difference solver of the compressible Navier-Stokes equations on structured grids used for the direct numerical simulation of isotropic turbulence and its interaction with shock waves. Parallelization is achieved through MPI, emphasizing the use of non-blocking communication with concurrent computation. The simulations, scaling and performance studies were done on the Sequoia, Vulcan and Vesta Blue Gene/Q systems, the first two accounting for a total of 1,966,080 cores when used in combination. The maximum number of grid points simulated was 4.12 trillion, with a memory usage of approximately 1.6 PB. We discuss the use of hyperthreading, which significantly improves the parallel performance of the code on this architecture.",
+      "authors": [
+        "Iván Bermejo-Moreno",
+        "Julien Bodart",
+        "Johan Larsson",
+        "Blaise M. Barney",
+        "Joseph W. Nichols",
+        "S. Casey Jones"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Correction: Analysis of Heat Flux Prediction Capabilities Across Multi-Fidelity Simulations of Hypersonic Inflatable Aerodynamic Decelerators",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-0288.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inflatable",
+        "Aerodynamics",
+        "Heat flux",
+        "Hypersonic flight",
+        "Aerospace engineering",
+        "Hypersonic speed",
+        "Flux (metallurgy)",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ryan E. Zapp",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Analysis of Heat Flux Prediction Capabilities Across Multi-Fidelity Simulations of Hypersonic Inflatable Aerodynamic Decelerators",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0288",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat flux",
+        "Mechanics",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Boundary layer",
+        "Stagnation point",
+        "Laminar flow",
+        "Materials science",
+        "Hypersonic speed"
+      ],
+      "abstract": "We conduct Reynolds-averaged Navier-Stokes (RANS), wall-modeled large-eddy simulations (WMLES), and under-resolved large-eddy simulations (URLES) of a Mach 5.96 atmospheric reentry vehicle with a statically deformed isothermal aeroshell. The study focuses on comparing the ability of RANS (with a $k$-$\\omega$-$\\gamma$ model), WMLES (with an equilibrium wall-stress model), and URLES (with a no-slip, isothermal wall boundary condition) to predict wall heat flux. Mesh sensitivity analysis applied to the RANS and WMLES cases reveal that the wall heat flux predictions are noticeably sensitive not only to the mesh resolution but also to the mesh misalignment with the bow shock. The latter is particularly relevant in the wall heat flux prediction near the stagnation point and in laminar regions of the flow. In turbulent flow regions, downstream of boundary layer transition, both RANS and WMLES provide accurate prediction of wall heat flux peaks, but underpredict the heat flux in regions leading to those peak values. The effects of varying the wall-model exchange height on the wall heat flux prediction are explored, finding that decreasing the wall-model exchange height to the first cell...",
+      "authors": [
+        "Ryan E. Zapp",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Wall-Resolved Large-Eddy Simulations of Transitional Supersonic Boundary Layers Over Sinusoidal Roughness Elements",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0945",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Freestream",
+        "Hypersonic speed",
+        "Supersonic speed",
+        "Mechanics",
+        "Mach number",
+        "Boundary layer",
+        "Materials science",
+        "Surface roughness"
+      ],
+      "abstract": "We investigate the use of high-fidelity numerical simulations to analyze skin friction and heat flux in hypersonic boundary layers developing over a blunt-body geometry with distributed surface roughness. Wall-Resolved Large Eddy Simulations (WRLES) are performed for a Mach 5.9 freestream over walls embedded with roughness elements of varying heights and wavelengths, and the results are compared against a baseline smooth-wall configuration. The influence of both roughness height and wavelength on the onset and progression of transition is systematically examined, with particular attention to their effects on surface heat flux and skin friction coefficients. Our findings also provide some insight into the mechanisms by which surface roughness triggers and sustains transition in high-speed blunt-body flows. This study contributes to the ongoing development of predictive tools for hypersonic aerothermodynamics and serves as a foundation for future high-fidelity strategies applicable to transitional flows with roughness and mean curvature. The results demonstrate that increasing roughness height and reducing roughness wavelength promote earlier boundary layer transition, with eviden...",
+      "authors": [
+        "Aishwarya Krishnan",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Wall-modeled large-eddy simulations of shock-turbulent boundary layer interactions with wall heating and cooling",
+      "publication_year": 2025,
+      "publication_date": "2025-08-04",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2025.109987",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatfluidflow.2025.109987",
+      "concepts": [
+        "Mechanics",
+        "Boundary layer",
+        "Large eddy simulation",
+        "Shock (circulatory)",
+        "Turbulence",
+        "Materials science",
+        "Physics",
+        "Internal medicine"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vanessa Rubien",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Analysis of Equilibrium Wall Model Parameters in Wall-Modeled Large-Eddy Simulation of High-Speed Turbulent Flows Over Diabatic and Adiabatic Walls",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1891",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diabatic",
+        "Adiabatic wall",
+        "Adiabatic process",
+        "Mechanics",
+        "Turbulence",
+        "Large eddy simulation",
+        "Physics",
+        "Thermodynamics"
+      ],
+      "abstract": "Wall-modeled large-eddy simulations (WMLES) of a Mach 2.3, shock-free turbulent boundary layer over a heated wall and a Mach 2.28, flat-plate shock-turbulent boundary layer interaction (STBLI) over cooled, adiabatic, and heated thermal wall conditions are conducted. Several modifications of the equilibrium wall model are explored, including alternative wall-normal coordinate scalings in the Van Driest damping function and alternative constant and variable turbulent Prandtl numbers. The sensitivity of standard aerodynamic quantities and heat transfer characteristics to these parameters are assessed, both independently and in combination with a reduced wall-model exchange height. Wall-normal velocity profiles exhibit changes in the log-layer with the application of various damping function scalings, and alternative mean velocity transformations are investigated. For the supersonic, shock-free turbulent boundary layer flow case studied, the heat transfer coefficient is found to be highly impacted by the variation of a constant turbulent Prandtl number as well as a variable turbulent Prandtl number. For the STBLI configuration under consideration, predictions of skin friction coeffi...",
+      "authors": [
+        "Vanessa Rubien",
+        "Iván Bermejo-Moreno"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "faculty_name": "Troy Henderson",
+  "full_name": "Troy Henderson",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5136746287",
+  "works_count": 2,
+  "cited_by_count": 0,
+  "h_index": 0,
+  "top_topics": [
+    {
+      "topic": "Radiation Dose and Imaging",
+      "count": 1
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 1
+    },
+    {
+      "topic": "Adaptive optics and wavefront sensing",
+      "count": 1
+    },
+    {
+      "topic": "Calibration and Measurement Techniques",
+      "count": 1
+    },
+    {
+      "topic": "Satellite Image Processing and Photogrammetry",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Tiled Plate Solving and Distortion Correction for Robust Star Tracking in WFOV Imagery",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1109/aero66936.2026.11519839",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer vision",
+        "Artificial intelligence",
+        "Computer science",
+        "Distortion (music)",
+        "Tracking (education)",
+        "Robustness (evolution)",
+        "Star (game theory)",
+        "Algorithm"
+      ],
+      "abstract": "Wide Field-of-View (WFOV) cameras are commonly adopted in applications such as autonomous driving and space-craft navigation due to their ability to capture large portions of the environment, enhancing situational awareness and improving the likelihood of detecting reference features like stars for celestial navigation and star tracking. However, wide-angle optics introduce severe nonlinear distortion, especially toward the image periphery, posing challenges for accurate perception, limiting the effectiveness of star-based attitude estimation methods that rely on global plate solving. These challenges are further exacerbated under occlusion or glare scenarios, where global imaging solutions become impractical. To overcome these limitations, this work presents a three-stage framework that combines omnidirectional distortion correction with tile-wise plate solving to improve the reliability and accuracy of star tracking in wide-angle imagery. An omnidirectional fisheye distortion model first rectifies the raw image, which is then subdivided into virtually reprojected tiles that reduce distortion by covering a smaller field with a pinhole perspective. Each tile is independently pla...",
+      "authors": [
+        "Gabriela Gavilanez",
+        "Daniel Lopez",
+        "Khushboo Patel",
+        "Andrew Murphy",
+        "Samuil Nikolov",
+        "Dori Stein",
+        "Alvin Pujols",
+        "Shivansh Soni",
+        "Troy Henderson"
+      ]
+    },
+    {
+      "title": "Effects of Radiation on Photosensitive Instruments While Traversing the Van Allen Belts",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1109/aero66936.2026.11520052",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Traverse",
+        "Physics",
+        "Radiation",
+        "Geology",
+        "Optics",
+        "Background radiation",
+        "Course (navigation)",
+        "Remote sensing"
+      ],
+      "abstract": "In February 2024, the Polaris Dawn mission - a privately crewed spaceflight aboard a SpaceX Dragon capsule - launched into an elliptical Earth orbit with an apogee of$\\mathbf{1, 4 0 0}$kilometers, marking the furthest distance traveled by a crewed spacecraft since NASA's Apollo missions. During their transit, the crew passed through regions of the Van Allen radiation belts, which are zones characterized by elevated levels of charged particle radiation. In collaboration with SpaceX and the Polaris program, Embry-Riddle's Space Technologies Lab integrated a payload, named LLAMAS, onto the interior wall of the Dragon capsule to capture footage of the Polaris Dawn crew throughout the mission. This paper will describe the measured effects of radiation on the LLAMAS camera sensors by examining the density of hot pixels throughout the duration of the spaceflight.",
+      "authors": [
+        "Aiden McCollum",
+        "Emelia Kelly",
+        "Daniel Lopez",
+        "Troy Henderson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Tiled Plate Solving and Distortion Correction for Robust Star Tracking in WFOV Imagery",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1109/aero66936.2026.11519839",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer vision",
+        "Artificial intelligence",
+        "Computer science",
+        "Distortion (music)",
+        "Tracking (education)",
+        "Robustness (evolution)",
+        "Star (game theory)",
+        "Algorithm"
+      ],
+      "abstract": "Wide Field-of-View (WFOV) cameras are commonly adopted in applications such as autonomous driving and space-craft navigation due to their ability to capture large portions of the environment, enhancing situational awareness and improving the likelihood of detecting reference features like stars for celestial navigation and star tracking. However, wide-angle optics introduce severe nonlinear distortion, especially toward the image periphery, posing challenges for accurate perception, limiting the effectiveness of star-based attitude estimation methods that rely on global plate solving. These challenges are further exacerbated under occlusion or glare scenarios, where global imaging solutions become impractical. To overcome these limitations, this work presents a three-stage framework that combines omnidirectional distortion correction with tile-wise plate solving to improve the reliability and accuracy of star tracking in wide-angle imagery. An omnidirectional fisheye distortion model first rectifies the raw image, which is then subdivided into virtually reprojected tiles that reduce distortion by covering a smaller field with a pinhole perspective. Each tile is independently pla...",
+      "authors": [
+        "Gabriela Gavilanez",
+        "Daniel Lopez",
+        "Khushboo Patel",
+        "Andrew Murphy",
+        "Samuil Nikolov",
+        "Dori Stein",
+        "Alvin Pujols",
+        "Shivansh Soni",
+        "Troy Henderson"
+      ]
+    },
+    {
+      "title": "Effects of Radiation on Photosensitive Instruments While Traversing the Van Allen Belts",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1109/aero66936.2026.11520052",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Traverse",
+        "Physics",
+        "Radiation",
+        "Geology",
+        "Optics",
+        "Background radiation",
+        "Course (navigation)",
+        "Remote sensing"
+      ],
+      "abstract": "In February 2024, the Polaris Dawn mission - a privately crewed spaceflight aboard a SpaceX Dragon capsule - launched into an elliptical Earth orbit with an apogee of$\\mathbf{1, 4 0 0}$kilometers, marking the furthest distance traveled by a crewed spacecraft since NASA's Apollo missions. During their transit, the crew passed through regions of the Van Allen radiation belts, which are zones characterized by elevated levels of charged particle radiation. In collaboration with SpaceX and the Polaris program, Embry-Riddle's Space Technologies Lab integrated a payload, named LLAMAS, onto the interior wall of the Dragon capsule to capture footage of the Polaris Dawn crew throughout the mission. This paper will describe the measured effects of radiation on the LLAMAS camera sensors by examining the density of hot pixels throughout the duration of the spaceflight.",
+      "authors": [
+        "Aiden McCollum",
+        "Emelia Kelly",
+        "Daniel Lopez",
+        "Troy Henderson"
+      ]
+    }
+  ]
+}

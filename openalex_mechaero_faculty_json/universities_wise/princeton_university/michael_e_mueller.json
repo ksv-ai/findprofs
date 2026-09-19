@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Michael E. Mueller",
+  "full_name": "Michael E. Mueller",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Princeton University",
+  "author_id": "A5075568528",
+  "works_count": 146,
+  "cited_by_count": 2853,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 114
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 85
+    },
+    {
+      "topic": "Radiative Heat Transfer Studies",
+      "count": 36
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 24
+    },
+    {
+      "topic": "Atmospheric chemistry and aerosols",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Hybrid Method of Moments for modeling soot formation and growth",
+      "publication_year": 2009,
+      "publication_date": "2009-02-28",
+      "doi": "https://doi.org/10.1016/j.combustflame.2009.01.025",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 257,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Statistical physics",
+        "Robustness (evolution)",
+        "Monte Carlo method",
+        "Coalescence (physics)",
+        "Moment closure",
+        "Moment (physics)",
+        "Nyström method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Michael E. Mueller",
+        "Guillaume Blanquart",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "On the formation and early evolution of soot in turbulent nonpremixed flames",
+      "publication_year": 2011,
+      "publication_date": "2011-06-29",
+      "doi": "https://doi.org/10.1016/j.combustflame.2011.05.021",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 238,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Diffusion flame",
+        "Chemistry",
+        "Turbulence",
+        "Combustion",
+        "Volume fraction",
+        "Turbulent diffusion",
+        "Thermodynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fabrizio Bisetti",
+        "Guillaume Blanquart",
+        "Michael E. Mueller",
+        "Heinz Pitsch"
+      ]
+    },
+    {
+      "title": "LES model for sooting turbulent nonpremixed flames",
+      "publication_year": 2012,
+      "publication_date": "2012-02-27",
+      "doi": "https://doi.org/10.1016/j.combustflame.2012.02.001",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 174,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Soot",
+        "Turbulence",
+        "Diffusion flame",
+        "Intermittency",
+        "Combustion",
+        "Chemistry",
+        "Jet (fluid)",
+        "Large eddy simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Michael E. Mueller",
+        "Heinz Pitsch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data-based filtered dissipation rate modelling for multi-modal turbulent combustion: evaluating a priori model generalizability",
+      "publication_year": 2026,
+      "publication_date": "2026-01-02",
+      "doi": "https://doi.org/10.1080/13647830.2026.2621012",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dissipation",
+        "Turbulence",
+        "Mechanics",
+        "Generalizability theory",
+        "Applied mathematics",
+        "Mathematics",
+        "Control theory (sociology)",
+        "Physics"
+      ],
+      "abstract": "Manifold-based models offer a computationally efficient alternative to directly transporting the thermochemical state in computational simulations of turbulent reacting flows, projecting the high-dimensional thermochemical state-space onto a low-dimensional manifold. Recent efforts have yielded a manifold-based model applicable to multi-modal combustion, enabling reconstruction of the thermochemical state from solutions to two-dimensional manifold equations in mixture fraction and generalized progress variable that are parameterised by three scalar dissipation rates. In coarse-grained simulations such as Large Eddy Simulation (LES), closure of the multi-modal manifold equations and subfilter variances/covariance requires closure of three filtered scalar dissipation rates. The present work adopts a data-based approach, providing closure for the three filtered scalar dissipation rates via deep neural networks (DNNs). High-fidelity datasets corresponding to an autoigniting n-dodecane jet flame and a bluff body swirl-stabilized confined lifted spray flame of two aviation fuels (Jet-A and C1) with different ignition propensities are leveraged to generate training data that spans a di...",
+      "authors": [
+        "Cristian E. Lacey",
+        "Bruno S. Soriano",
+        "Martin Rieth",
+        "Michael E. Mueller",
+        "J. H. Chen"
+      ]
+    },
+    {
+      "title": "Manifold modeling of flame–flame interactions in turbulent premixed combustion",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1016/j.proci.2026.106064",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S1540748926000623/pdf",
+      "concepts": [
+        "Combustion",
+        "Turbulence",
+        "Manifold (fluid mechanics)",
+        "Mechanics",
+        "Physics",
+        "Premixed flame",
+        "Classical mechanics",
+        "Materials science"
+      ],
+      "abstract": "Whether premixed flame annihilation interactions can be captured by a manifold model for premixed combustion is an open question since flame–flame interactions give rise to local extrema in progress variable dissipation rate ( ⇾ χ ΛΛ ⇾ 0 ) at non-zero/-unity progress variable. This work demonstrates the ability to replicate the local thermochemical state at flame–flame interaction critical points (where ⇾ ∇ Λ ⇾ 0 ) using a manifold model in progress variable Λ by comparing the conditional statistics of Direct Numerical Simulations (DNS) to predictions from the manifold model. A DNS database of turbulent premixed statistically planar hydrogen–air flames in moderate turbulence was generated with conditions that exist firmly in the thin reaction zone regime. Extracting local progress variable dissipation rate profiles at the critical points as a function of progress variable χ ΛΛ ( Λ ) , these profiles are used to close the dissipation rate term in the premixed manifold equations. Furthermore, owing to the influence of differential diffusion, the progress variable curvature κ was extracted from the DNS and closed in the same manner κ ( Λ ) . Good agreement between the manifold mode...",
+      "authors": [
+        "Michael Walker",
+        "Katie VanderKam",
+        "Michael E. Mueller"
+      ]
+    },
+    {
+      "title": "Propagation and corner dynamics of colliding and annihilating premixed flames",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1016/j.proci.2026.106306",
+      "venue": "Proceedings of the Combustion Institute",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.proci.2026.106306",
+      "concepts": [
+        "Physics",
+        "Dynamics (music)",
+        "Classical mechanics",
+        "Acceleration",
+        "Work (physics)",
+        "Field (mathematics)",
+        "Mechanics",
+        "Bifurcation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Michael Walker",
+        "Sydney L. Rzepka",
+        "Chung K. Law",
+        "Michael E. Mueller"
+      ]
+    },
+    {
+      "title": "Soot modeling with temperature- and size-based collision efficiency for nucleation and condensation",
+      "publication_year": 2025,
+      "publication_date": "2025-10-06",
+      "doi": "https://doi.org/10.1016/j.jaecs.2025.100407",
+      "venue": "Applications in Energy and Combustion Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jaecs.2025.100407",
+      "concepts": [
+        "Soot",
+        "Nucleation",
+        "Condensation",
+        "Chemistry",
+        "Volume fraction",
+        "Collision",
+        "Diffusion",
+        "Diffusion flame"
+      ],
+      "abstract": "Temperature- and size-based collision efficiencies for the collision of dimerizing gas-phase species and for the condensation of dimers onto soot particles were estimated based on theoretical principles. These collision efficiencies were then implemented within a detailed soot model with the Hybrid Method of Moments (HMOM). For the size dependence, taking advantage of the inherent ability of HMOM to demarcate nucleation and aggregation modes of the soot size distribution, a different condensation collision efficiency is used for each mode to account for the substantial differences in size between the two modes and the effect on condensation collision efficiency. Simulations were performed using detailed chemistry for laminar ethylene flames and were validated for premixed atmospheric, premixed pressurized, and coflow atmospheric diffusion flames. Compared to the base model with constant collision efficiency for a given dimerizing species and 100% collision efficiency for condensation, the proposed model results in a change in the budget of nucleation and condensation rates with increased nucleation and decreased condensation. This change was found to increase the surface growth ...",
+      "authors": [
+        "Pavan Prakash Duvvuri",
+        "Michael E. Mueller",
+        "Agnes Jocher"
+      ]
+    },
+    {
+      "title": "Large Eddy Simulation of the evolution of the soot size distribution in turbulent nonpremixed bluff body flames",
+      "publication_year": 2025,
+      "publication_date": "2025-06-18",
+      "doi": "https://doi.org/10.1016/j.combustflame.2025.114282",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2025.114282",
+      "concepts": [
+        "Bluff",
+        "Turbulence",
+        "Large eddy simulation",
+        "Soot",
+        "Mechanics",
+        "Physics",
+        "Statistical physics",
+        "Environmental science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hernando Maldonado Colmán",
+        "Michael E. Mueller"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "faculty_name": "Michael P. Brenner",
+  "full_name": "Michael P. Brenner",
+  "department": "John A. Paulson School of Engineering and Applied Sciences (SEAS) / Applied Mathematics & Applied Physics",
+  "university": "Harvard University",
+  "author_id": "A5001027226",
+  "works_count": 473,
+  "cited_by_count": 22466,
+  "h_index": 74,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 34
+    },
+    {
+      "topic": "Pickering emulsions and particle stabilization",
+      "count": 33
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 32
+    },
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Experimental characterization of electrospinning: the electrically forced jet and instabilities",
+      "publication_year": 2001,
+      "publication_date": "2001-12-01",
+      "doi": "https://doi.org/10.1016/s0032-3861(01)00540-7",
+      "venue": "Polymer",
+      "type": "article",
+      "cited_by_count": 1069,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Electric field",
+        "Jet (fluid)",
+        "Mechanics",
+        "Instability",
+        "Materials science",
+        "Electrospinning",
+        "Volumetric flow rate",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yu-Shik Shin",
+        "Moses M. Hohman",
+        "Michael P. Brenner",
+        "Gregory C. Rutledge"
+      ]
+    },
+    {
+      "title": "Single-bubble sonoluminescence",
+      "publication_year": 2002,
+      "publication_date": "2002-05-13",
+      "doi": "https://doi.org/10.1103/revmodphys.74.425",
+      "venue": "Reviews of Modern Physics",
+      "type": "article",
+      "cited_by_count": 1053,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/RevModPhys.74.425",
+      "concepts": [
+        "Sonoluminescence",
+        "Bubble",
+        "Physics",
+        "Bremsstrahlung",
+        "Light emission",
+        "Shock wave",
+        "Mechanics",
+        "Adiabatic process"
+      ],
+      "abstract": "Single-bubble sonoluminescence occurs when an acoustically trapped and periodically driven gas bubble collapses so strongly that the energy focusing at collapse leads to light emission. Detailed experiments have demonstrated the unique properties of this system: the spectrum of the emitted light tends to peak in the ultraviolet and depends strongly on the type of gas dissolved in the liquid; small amounts of trace noble gases or other impurities can dramatically change the amount of light emission, which is also affected by small changes in other operating parameters (mainly forcing pressure, dissolved gas concentration, and liquid temperature). This article reviews experimental and theoretical efforts to understand this phenomenon. The currently available information favors a description of sonoluminescence caused by adiabatic heating of the bubble at collapse, leading to partial ionization of the gas inside the bubble and to thermal emission such as bremsstrahlung. After a brief historical review, the authors survey the major areas of research: Section II describes the classical theory of bubble dynamics, as developed by Rayleigh, Plesset, Prosperetti, and others, while Sec. I...",
+      "authors": [
+        "Michael P. Brenner",
+        "Sascha Hilgenfeldt",
+        "Detlef Lohse"
+      ]
+    },
+    {
+      "title": "Electrospinning and electrically forced jets. I. Stability theory",
+      "publication_year": 2001,
+      "publication_date": "2001-08-01",
+      "doi": "https://doi.org/10.1063/1.1383791",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 1042,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Instability",
+        "Physics",
+        "Electrohydrodynamics",
+        "Jet (fluid)",
+        "Mechanics",
+        "Rayleigh–Taylor instability",
+        "Electrospinning",
+        "Rotational symmetry"
+      ],
+      "abstract": "Electrospinning is a process in which solid fibers are produced from a polymeric fluid stream (solution or melt) delivered through a millimeter-scale nozzle. The solid fibers are notable for their very small diameters (<1 μm). Recent experiments demonstrate that an essential mechanism of electrospinning is a rapidly whipping fluid jet. This series of papers analyzes the mechanics of this whipping jet by studying the instability of an electrically forced fluid jet with increasing field strength. An asymptotic approximation of the equations of electrohydrodynamics is developed so that quantitative comparisons with experiments can be carried out. The approximation governs both long wavelength axisymmetric distortions of the jet, as well as long wavelength oscillations of the centerline of the jet. Three different instabilities are identified: the classical (axisymmetric) Rayleigh instability, and electric field induced axisymmetric and whipping instabilities. At increasing field strengths, the electrical instabilities are enhanced whereas the Rayleigh instability is suppressed. Which instability dominates depends strongly on the surface charge density and radius of the jet. The phy...",
+      "authors": [
+        "Moses M. Hohman",
+        "Michael Shin",
+        "Gregory C. Rutledge",
+        "Michael P. Brenner"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data for Non-Equilibrium Sensing of Volatile Compounds Using Active and Passive Analyte Delivery",
+      "publication_year": 2026,
+      "publication_date": "2026-05-26",
+      "doi": "https://doi.org/10.5281/zenodo.7710594",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.7710594",
+      "concepts": [
+        "Analyte",
+        "Chemistry",
+        "Chromatography"
+      ],
+      "abstract": "Version 2: Added missing files to sniffing_data.zip See GitHub repository for data processing functions and examples: https://github.com/soerenbrandt/sniffing-sensor Abstract:Sensor technologies have allowed us to outperform the human senses of sight, hearing, and touch; however, the development of artificial noses is significantly behind their biological counterparts. This is largely due to the complexity of natural olfaction, as it incorporates complex fluid dynamics within the nasal anatomy together with the response patterns of hundreds to thousands of unique molecular-scale receptors for odor interpretation. We designed a sensing approach to identify volatiles that exploits time-dependent information from a single sensor (here, the reflectance spectra from a mesoporous one-dimensional photonic crystal) by augmenting and accentuating differences in the non-equilibrium mass-transport dynamics of vapors stemming from their distinct physicochemical properties, thus obviating the need for a large sensor array. By training a machine learning algorithm on the sensor output, we clearly identify polar and nonpolar volatile organic compounds, determine the mixing ratios of binary mix...",
+      "authors": [
+        "Soeren Brandt",
+        "Ida Pavlichenko",
+        "Anna V. Shneidman",
+        "Haritosh Patel",
+        "Austin Tripp",
+        "Timothy Wong",
+        "Sean Lazaro",
+        "Ethan Thompson",
+        "Aubrey Maltz",
+        "Thomas Storwick",
+        "Holden Beggs",
+        "Katalin Szendrei‐Temesi",
+        "Bettina V. Lotsch",
+        "C. Nadir Kaplan",
+        "Claas Willem Visser",
+        "Michael P. Brenner",
+        "Venkatesh N. Murthy",
+        "Joanna Aizenberg"
+      ]
+    },
+    {
+      "title": "General-Purpose Inverse Design of Heterogeneous Finite-Sized Assemblies",
+      "publication_year": 2026,
+      "publication_date": "2026-05-19",
+      "doi": "https://doi.org/10.1103/w4s1-rtqm",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inverse",
+        "General purpose",
+        "Inverse problem",
+        "Computer science",
+        "General theory",
+        "Applied mathematics",
+        "Inverse method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Livia A. J. Guttieres",
+        "Ryan Krueger",
+        "Remi Drolet",
+        "Michael P. Brenner"
+      ]
+    },
+    {
+      "title": "Fundamental scaling constraints for equilibrium molecular computing",
+      "publication_year": 2026,
+      "publication_date": "2026-05-07",
+      "doi": "https://doi.org/10.1103/x9sw-h1rh",
+      "venue": "Physical review. E",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scaling",
+        "Computer science",
+        "Statistical physics",
+        "Algorithm",
+        "Mathematics",
+        "Physics",
+        "Applied mathematics",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anonymous",
+        "Qian-Ze Zhu",
+        "Michael P. Brenner"
+      ]
+    },
+    {
+      "title": "Expert evaluation of LLM world models: A high-T c superconductivity case study",
+      "publication_year": 2026,
+      "publication_date": "2026-03-10",
+      "doi": "https://doi.org/10.1073/pnas.2533676123",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2533676123",
+      "concepts": [
+        "Rubric",
+        "Computer science",
+        "Field (mathematics)",
+        "Set (abstract data type)",
+        "Construct (python library)",
+        "Data science",
+        "Key (lock)",
+        "Management science"
+      ],
+      "abstract": "Large Language Models (LLMs) show great promise as a powerful tool for scientific literature exploration. However, their effectiveness in providing scientifically accurate and comprehensive answers to complex questions within specialized domains remains an active area of research. Using the field of high-temperature cuprates as an exemplar, we evaluate the ability of LLM systems to understand the literature at the level of an expert. We construct an expert-curated database of 1,726 scientific papers that covers the history of the field, and a set of 67 expert-formulated questions that probe deep understanding of the literature. We then evaluate six different LLM-based systems for answering these questions, including both commercially available closed models and a custom retrieval-augmented generation (RAG) system capable of retrieving images alongside text. Experts then evaluate the answers of these systems against a rubric that assesses balanced perspectives, factual comprehensiveness, succinctness, and evidentiary support. Among the six systems, two using RAG on curated literature outperformed existing closed models across key metrics, particularly in providing comprehensive a...",
+      "authors": [
+        "Haoyu Guo",
+        "Maria Tikhanovskaya",
+        "Paul Raccuglia",
+        "Alexey Vlaskin",
+        "Chris Co",
+        "Daniel J. Liebling",
+        "Scott Ellsworth",
+        "Matthew Abraham",
+        "Elizabeth H. Dorfman",
+        "N. P. Armitage",
+        "Chunhan Feng",
+        "Antoine Georges",
+        "Olivier Gingras",
+        "Dominik Kiese",
+        "Steven A. Kivelson",
+        "Vadim Oganesyan",
+        "B. J. Ramshaw",
+        "Subir Sachdev",
+        "T. Senthil",
+        "J. M. Tranquada",
+        "Michael P. Brenner",
+        "Subhashini Venugopalan",
+        "Eun-Ah Kim"
+      ]
+    },
+    {
+      "title": "jax-dna",
+      "publication_year": 2026,
+      "publication_date": "2026-03-08",
+      "doi": "https://doi.org/10.5281/zenodo.18913268",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18913268",
+      "concepts": [
+        "Computer science",
+        "Code (set theory)",
+        "Source code",
+        "Artificial intelligence",
+        "Algorithm",
+        "Software",
+        "Set (abstract data type)",
+        "Programming language"
+      ],
+      "abstract": "Source code for optimizations and figure plotting for manuscript titled \"Fitting coarse-grained models to macroscopic experimental data via automatic differentiation\"",
+      "authors": [
+        "Ryan Krueger",
+        "Megan C. Engel",
+        "Ryan Hausen",
+        "Michael P. Brenner"
+      ]
+    }
+  ]
+}

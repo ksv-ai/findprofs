@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Gregory L. Eyink",
+  "full_name": "Gregory L. Eyink",
+  "department": "Department of Applied Mathematics and Statistics / Department of Mechanical Engineering",
+  "university": "Johns Hopkins University",
+  "author_id": "A5052696233",
+  "works_count": 241,
+  "cited_by_count": 7143,
+  "h_index": 45,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 131
+    },
+    {
+      "topic": "Advanced Thermodynamics and Statistical Mechanics",
+      "count": 41
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 38
+    },
+    {
+      "topic": "Solar and Space Plasma Dynamics",
+      "count": 36
+    },
+    {
+      "topic": "Statistical Mechanics and Entropy",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A public turbulence database cluster and applications to study Lagrangian evolution of velocity increments in turbulence",
+      "publication_year": 2008,
+      "publication_date": "2008-01-01",
+      "doi": "https://doi.org/10.1080/14685240802376389",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 676,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/0804.1703",
+      "concepts": [
+        "Intermittency",
+        "Turbulence",
+        "Direct numerical simulation",
+        "Computer science",
+        "Set (abstract data type)",
+        "Data set",
+        "Database",
+        "Scale (ratio)"
+      ],
+      "abstract": "A public database system archiving a direct numerical simulation (DNS) data set of isotropic, forced turbulence is described in this paper. The data set consists of the DNS output on 10243 spatial points and 1024 time samples spanning about one large-scale turnover time. This complete 10244 spacetime history of turbulence is accessible to users remotely through an interface that is based on the Web-services model. Users may write and execute analysis programs on their host computers, while the programs make subroutine-like calls that request desired parts of the data over the network. The users are thus able to perform numerical experiments by accessing the 27 terabytes (TB) of DNS data using regular platforms such as laptops. The architecture of the database is explained, as are some of the locally defined functions, such as differentiation and interpolation. Test calculations are performed to illustrate the usage of the system and to verify the accuracy of the methods. The database is then used to analyze a dynamical model for small-scale intermittency in turbulence. Specifically, the dynamical effects of pressure and viscous terms on the Lagrangian evolution of velocity incre...",
+      "authors": [
+        "Yi Li",
+        "Eric Perlman",
+        "Minping Wan",
+        "Yunke Yang",
+        "Charles Meneveau",
+        "Randal Burns",
+        "Shiyi Chen",
+        "Alexander S. Szalay",
+        "Gregory L. Eyink"
+      ]
+    },
+    {
+      "title": "Onsager and the theory of hydrodynamic turbulence",
+      "publication_year": 2006,
+      "publication_date": "2006-01-17",
+      "doi": "https://doi.org/10.1103/revmodphys.78.87",
+      "venue": "Reviews of Modern Physics",
+      "type": "article",
+      "cited_by_count": 499,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Subject (documents)",
+        "Dissipation",
+        "Intermittency",
+        "Theoretical physics",
+        "Classical mechanics",
+        "Statistical physics"
+      ],
+      "abstract": "Lars Onsager, a giant of twentieth-century science and the 1968 Nobel Laureate in Chemistry, made deep contributions to several areas of physics and chemistry. Perhaps less well known is his ground-breaking work and lifelong interest in the subject of hydrodynamic turbulence. He wrote two papers on the subject in the 1940s, one of them just a short abstract. Unbeknownst to Onsager, one of his major results was derived a few years earlier by A. N. Kolmogorov, but Onsager's work contains many gems and shows characteristic originality and deep understanding. His only full-length article on the subject in 1949 introduced two novel ideas---negative-temperature equilibria for two-dimensional ideal fluids and an energy-dissipation anomaly for singular Euler solutions---that stimulated much later work. However, a study of Onsager's letters to his peers around that time, as well as his private papers of that period and the early 1970s, shows that he had much more to say about the problem than he published. Remarkably, his private notes of the 1940s contain the essential elements of at least four major results that appeared decades later in the literature: (1) a mean-field Poisson-Boltzma...",
+      "authors": [
+        "Gregory L. Eyink",
+        "Katepalli R. Sreenivasan"
+      ]
+    },
+    {
+      "title": "Energy dissipation without viscosity in ideal hydrodynamics I. Fourier analysis and local energy transfer",
+      "publication_year": 1994,
+      "publication_date": "1994-11-01",
+      "doi": "https://doi.org/10.1016/0167-2789(94)90117-1",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 367,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Energy flux",
+        "Physics",
+        "Dissipation",
+        "Kinetic energy",
+        "Range (aeronautics)",
+        "Multifractal system",
+        "Energy (signal processing)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Gregory L. Eyink"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Weak-Strong Uniqueness and the d’Alembert Paradox",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.1007/s00021-026-01033-6",
+      "venue": "Journal of Mathematical Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2502.00993",
+      "concepts": [
+        "Uniqueness",
+        "Mathematics",
+        "Mathematical economics",
+        "Mathematical physics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hao Quan",
+        "Gregory L. Eyink"
+      ]
+    },
+    {
+      "title": "On the importance of stochasticity in closures of turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-02-23",
+      "doi": "http://arxiv.org/abs/2602.19875",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.19875",
+      "concepts": [
+        "Turbulence",
+        "Perturbation (astronomy)",
+        "Predictability",
+        "Statistical physics",
+        "Truncation (statistics)",
+        "Closure (psychology)",
+        "Variance (accounting)",
+        "Chaotic"
+      ],
+      "abstract": "Deterministic closures for coarse-grained turbulence models help reproduce mean statistics, but often fail to capture the finite-time growth of uncertainty. Using the framework of shell models as a quantitative multi-scale testbed, we compare fully resolved simulations with large-eddy simulations using either stochastic or deterministic subgrid closures. While in the fully resolved system a single microscopic perturbation is rapidly amplified by strongly chaotic dynamics, truncation produces a strong delay and suppression of variance growth when uncertainty is introduced through initial condition perturbations only. We show that a data-driven Langevin-type stochastic closure restores the correct timing and magnitude of variance growth across scales, demonstrating that sustained stochasticity is essential for predictability in reduced turbulent dynamics.",
+      "authors": [
+        "André V. L. Freitas",
+        "Luca Biferale",
+        "Mathieu Desbrun",
+        "Gregory L. Eyink",
+        "Alexei A. Mailybaev",
+        "Kiwon Um"
+      ]
+    },
+    {
+      "title": "On the importance of stochasticity in closures of turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-02-23",
+      "doi": "https://doi.org/10.48550/arxiv.2602.19875",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.19875",
+      "concepts": [
+        "Turbulence",
+        "Perturbation (astronomy)",
+        "Predictability",
+        "Statistical physics",
+        "Truncation (statistics)",
+        "Closure (psychology)",
+        "Variance (accounting)",
+        "Chaotic"
+      ],
+      "abstract": "Deterministic closures for coarse-grained turbulence models help reproduce mean statistics, but often fail to capture the finite-time growth of uncertainty. Using the framework of shell models as a quantitative multi-scale testbed, we compare fully resolved simulations with large-eddy simulations using either stochastic or deterministic subgrid closures. While in the fully resolved system a single microscopic perturbation is rapidly amplified by strongly chaotic dynamics, truncation produces a strong delay and suppression of variance growth when uncertainty is introduced through initial condition perturbations only. We show that a data-driven Langevin-type stochastic closure restores the correct timing and magnitude of variance growth across scales, demonstrating that sustained stochasticity is essential for predictability in reduced turbulent dynamics.",
+      "authors": [
+        "André V. L. Freitas",
+        "Luca Biferale",
+        "Mathieu Desbrun",
+        "Gregory L. Eyink",
+        "Alexei A. Mailybaev",
+        "Kiwon Um"
+      ]
+    },
+    {
+      "title": "Non-Gaussian statistics of concentration fluctuations in free liquid diffusion",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.1103/d27z-4fxz",
+      "venue": "Physical Review Research",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/d27z-4fxz",
+      "concepts": [
+        "Diffusion",
+        "Materials science",
+        "Thermodynamics",
+        "Measure (data warehouse)",
+        "Statistics",
+        "Statistical physics",
+        "Noise (video)",
+        "Work (physics)"
+      ],
+      "abstract": "We show that the three-point skewness of concentration fluctuations is nonvanishing in free liquid diffusion, even in the limit of vanishingly small mean concentration gradients. We exploit a high-Schmidt reduction of nonlinear Landau-Lifshitz hydrodynamics for a binary fluid, both analytically and by a massively parallel Lagrangian Monte Carlo simulation. Non-Gaussian statistics result from nonlinear coupling of concentration fluctuations to thermal velocity fluctuations, analogous to the turbulent advection of a passive scalar. Concentration fluctuations obey no central limit theorem, counter to the predictions of macroscopic fluctuation theory for generic diffusive systems.",
+      "authors": [
+        "Marco Bussoletti",
+        "Mirko Gallo",
+        "Amir Jafari",
+        "Gregory L. Eyink"
+      ]
+    },
+    {
+      "title": "SOLVING FUNCTIONAL PDES WITH GAUSSIAN PROCESSES AND APPLICATIONS TO FUNCTIONAL RENORMALIZATION GROUP EQUATIONS",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6203461",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6203461",
+      "concepts": [
+        "Mathematics",
+        "Applied mathematics",
+        "Operator (biology)",
+        "Kernel (algebra)",
+        "Gaussian process",
+        "Range (aeronautics)",
+        "Partial differential equation",
+        "Representation (politics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xianjin Yang",
+        "Matthieu Darcy",
+        "Matthew Hudes",
+        "Francis J. Alexander",
+        "Gregory L. Eyink",
+        "Houman Owhadi"
+      ]
+    }
+  ]
+}

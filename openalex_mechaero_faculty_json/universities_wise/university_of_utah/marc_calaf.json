@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Marc Calaf",
+  "full_name": "Marc Calaf",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Utah",
+  "author_id": "A5054861034",
+  "works_count": 182,
+  "cited_by_count": 3616,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 81
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 49
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 41
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 37
+    },
+    {
+      "topic": "Plant Water Relations and Carbon Dynamics",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Large eddy simulation study of fully developed wind-turbine array boundary layers",
+      "publication_year": 2010,
+      "publication_date": "2010-01-01",
+      "doi": "https://doi.org/10.1063/1.3291077",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 979,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/1.3291077/14129557/015110_1_online.pdf",
+      "concepts": [
+        "Planetary boundary layer",
+        "Wind power",
+        "Turbine",
+        "Turbulence kinetic energy",
+        "Physics",
+        "Log wind profile",
+        "Wind profile power law",
+        "Large eddy simulation"
+      ],
+      "abstract": "It is well known that when wind turbines are deployed in large arrays, their efficiency decreases due to complex interactions among themselves and with the atmospheric boundary layer (ABL). For wind farms whose length exceeds the height of the ABL by over an order of magnitude, a “fully developed” flow regime can be established. In this asymptotic regime, changes in the streamwise direction can be neglected and the relevant exchanges occur in the vertical direction. Such a fully developed wind-turbine array boundary layer (WTABL) has not been studied systematically before. A suite of large eddy simulations (LES), in which wind turbines are modeled using the classical “drag disk” concept, is performed for various wind-turbine arrangements, turbine loading factors, and surface roughness values. The results are used to quantify the vertical transport of momentum and kinetic energy across the boundary layer. It is shown that the vertical fluxes of kinetic energy are of the same order of magnitude as the power extracted by the forces modeling the wind turbines. In the fully developed WTABL, the kinetic energy extracted by the wind turbines is transported into the wind-turbine region ...",
+      "authors": [
+        "Marc Calaf",
+        "Charles Meneveau",
+        "Johan Meyers"
+      ]
+    },
+    {
+      "title": "Large eddy simulation study of scalar transport in fully developed wind-turbine array boundary layers",
+      "publication_year": 2011,
+      "publication_date": "2011-12-01",
+      "doi": "https://doi.org/10.1063/1.3663376",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 191,
+      "is_oa": true,
+      "oa_url": "http://infoscience.epfl.ch/record/173026",
+      "concepts": [
+        "Physics",
+        "Planetary boundary layer",
+        "Log wind profile",
+        "Wind power",
+        "Wind gradient",
+        "Wind shear",
+        "Turbulence",
+        "Wind speed"
+      ],
+      "abstract": "Wind harvesting is fast becoming an important alternative source of energy. As wind farms become larger, they begin to attain scales at which two-way interactions with the atmospheric boundary layer (ABL) must be taken into account. Several studies have shown that there is a quantifiable effect of wind farms on the local meteorology, mainly through changes in the land-atmosphere fluxes of heat and moisture. In particular, the observed trends suggest that wind farms increase fluxes at the surface and this could be due to increased turbulence in the wakes. Conversely, simulations and laboratory experiments show that underneath wind farms, the friction velocity is decreased due to extraction of momentum by the wind turbines, a factor that could decrease scalar fluxes at the surface. In order to study this issue in more detail, a suite of large eddy simulations of an infinite (fully developed) wind turbine array boundary layer, including scalar transport from the ground surface without stratification, is performed. Results show an overall increase in the scalar fluxes of about 10%–15% when wind turbines are present in the ABL, and that the increase does not strongly depend upon wind...",
+      "authors": [
+        "Marc Calaf",
+        "M. B. Parlange",
+        "Charles Meneveau"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of the Atmospheric Boundary Layer",
+      "publication_year": 2020,
+      "publication_date": "2020-08-18",
+      "doi": "https://doi.org/10.1007/s10546-020-00556-3",
+      "venue": "Boundary-Layer Meteorology",
+      "type": "article",
+      "cited_by_count": 170,
+      "is_oa": true,
+      "oa_url": "http://repository.library.noaa.gov/view/noaa/32892/noaa_32892_DS1.pdf",
+      "concepts": [
+        "Planetary boundary layer",
+        "Boundary layer",
+        "Resource (disambiguation)",
+        "Scale (ratio)",
+        "Computer science",
+        "Atmospheric dispersion modeling",
+        "Large eddy simulation",
+        "Boundary (topology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rob Stoll",
+        "Jeremy A. Gibbs",
+        "Scott T. Salesky",
+        "William Anderson",
+        "Marc Calaf"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data-Driven Flux Parameterization for the Atmospheric Boundary Layer",
+      "publication_year": 2026,
+      "publication_date": "2026-06-23",
+      "doi": "https://doi.org/10.48550/arxiv.2606.24593",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.24593",
+      "concepts": [
+        "Closure (psychology)",
+        "Turbulence",
+        "Planetary boundary layer",
+        "Boundary layer",
+        "Stability (learning theory)",
+        "Mathematics",
+        "Mechanics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Turbulent fluxes in the atmospheric boundary layer (ABL) govern exchanges of momentum, heat, and mass between the surface and atmosphere, shaping boundary layer structure and influencing weather, climate, and engineering applications. Yet their representation in coarse resolution models remains challenging, particularly under unstable conditions with strongly nonlocal transport and stable conditions with intermittent turbulence. Here, we develop a data driven turbulent flux parameterization in which nondimensional fluxes are represented by a linearized convolution operator acting on nondimensional mean state profiles. We train and evaluate the closure using high resolution large eddy simulations (LES) of idealized flow over homogeneous surfaces spanning multiple stability regimes. Several first order closure variants are constructed from different combinations of mean temperature and velocity profiles to predict heat and momentum fluxes, and the best model is selected by minimizing mean squared error across training and unseen test cases. The resulting parameterization improves predictive skill relative to a standard K-profile closure while retaining an interpretable operator fo...",
+      "authors": [
+        "Abed Hammoud",
+        "Edriss S. Titi Mitchell Bushuk",
+        "Mitchell Bushuk",
+        "Marc Calaf",
+        "Khaled Ghannam",
+        "Elie Bou-Zeid"
+      ]
+    },
+    {
+      "title": "Data-Driven Flux Parameterization for the Atmospheric Boundary Layer",
+      "publication_year": 2026,
+      "publication_date": "2026-06-23",
+      "doi": "https://arxiv.org/abs/2606.24593",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.24593",
+      "concepts": [
+        "Closure (psychology)",
+        "Turbulence",
+        "Planetary boundary layer",
+        "Boundary layer",
+        "Stability (learning theory)",
+        "Mathematics",
+        "Mechanics",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Turbulent fluxes in the atmospheric boundary layer (ABL) govern exchanges of momentum, heat, and mass between the surface and atmosphere, shaping boundary layer structure and influencing weather, climate, and engineering applications. Yet their representation in coarse resolution models remains challenging, particularly under unstable conditions with strongly nonlocal transport and stable conditions with intermittent turbulence. Here, we develop a data driven turbulent flux parameterization in which nondimensional fluxes are represented by a linearized convolution operator acting on nondimensional mean state profiles. We train and evaluate the closure using high resolution large eddy simulations (LES) of idealized flow over homogeneous surfaces spanning multiple stability regimes. Several first order closure variants are constructed from different combinations of mean temperature and velocity profiles to predict heat and momentum fluxes, and the best model is selected by minimizing mean squared error across training and unseen test cases. The resulting parameterization improves predictive skill relative to a standard K-profile closure while retaining an interpretable operator fo...",
+      "authors": [
+        "Abed Hammoud",
+        "Edriss S. Titi Mitchell Bushuk",
+        "Mitchell Bushuk",
+        "Marc Calaf",
+        "Khaled Ghannam",
+        "Elie Bou-Zeid"
+      ]
+    },
+    {
+      "title": "Large Eddy Simulations of the Atmospheric Boundary Layer Over Satellite‐Sensed Sea Ice Maps",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.1029/2024jd042062",
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2024jd042062",
+      "concepts": [
+        "Sea ice",
+        "Climatology",
+        "Geology",
+        "Arctic ice pack",
+        "Atmospheric sciences",
+        "Atmospheric models",
+        "Climate model",
+        "Ice divide"
+      ],
+      "abstract": "Abstract Surface heterogeneity in the marginal ice zone (MIZ) causes multiscale secondary atmospheric circulations that are challenging to model or observe. The absence or inadequate representation of these circulations in ocean‐atmosphere exchange schemes in climate models is partially responsible for the underestimation of Arctic sea ice loss. Observationally, such circulations obfuscate the interpretation of polar atmospheric chemistry measurements, among others. To address this open challenge, large‐eddy simulations are conducted over real‐world satellite‐sensed sea ice maps with an ice‐sea temperature contrast, as well as over idealizations of these maps that alter the ice pattern but conserve its fraction, showing that the ice fraction of a surface is not sufficient to predict the surface heat flux. In a second suite of simulations, three other heterogeneity metrics (representing the surface fragmentation, patch edge tortuosity, and patch size variability) are introduced to complement the ice fraction in describing the surface. Simulations varying these parameters suggest that they also significantly impact surface‐air interactions. A roughness contrast is then added to th...",
+      "authors": [
+        "Joseph Fogarty",
+        "Mitchell Bushuk",
+        "Marc Calaf",
+        "Mohammad Allouche",
+        "Khaled Ghannam",
+        "Elie Bou‐Zeid"
+      ]
+    },
+    {
+      "title": "Dataset for \"Data-Driven Flux Parameterization for the Atmospheric Boundary Layer\"",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.5281/zenodo.20448229",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20448229",
+      "concepts": [
+        "Flux (metallurgy)",
+        "Boundary (topology)",
+        "Environmental science",
+        "Atmospheric models",
+        "Atmospheric sciences",
+        "Planetary boundary layer",
+        "Meteorology",
+        "Parametrization (atmospheric modeling)"
+      ],
+      "abstract": "Dataset for \"Data-Driven Flux Parameterization for the Atmospheric Boundary Layer\"",
+      "authors": [
+        "Mohamad Abed ElRahman Hammoud",
+        "Edriss Titi",
+        "Mitch Bushuk",
+        "Marc Calaf",
+        "Khaled Ghannam",
+        "Elie Bou-Zeid"
+      ]
+    },
+    {
+      "title": "Dataset for \"Data-Driven Flux Parameterization for the Atmospheric Boundary Layer\"",
+      "publication_year": 2026,
+      "publication_date": "2026-05-29",
+      "doi": "https://doi.org/10.5281/zenodo.20449689",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20449689",
+      "concepts": [
+        "Flux (metallurgy)",
+        "Boundary (topology)",
+        "Environmental science",
+        "Atmospheric models",
+        "Atmospheric sciences",
+        "Planetary boundary layer",
+        "Meteorology",
+        "Parametrization (atmospheric modeling)"
+      ],
+      "abstract": "Data accompanying the manuscript \"Data-Driven Flux Parameterization for the Atmospheric Boundary Layer\"",
+      "authors": [
+        "Mohamad Abed El Rahman Hammoud",
+        "Edriss S. Titi",
+        "Mitchell Bushuk",
+        "Marc Calaf",
+        "Khaled Ghannam",
+        "Elie Bou‐Zeid"
+      ]
+    }
+  ]
+}

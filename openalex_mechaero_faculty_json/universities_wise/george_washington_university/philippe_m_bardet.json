@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Philippe M. Bardet",
+  "full_name": "Philippe M. Bardet",
+  "department": "Mechanical & Aerospace Engineering",
+  "university": "George Washington University",
+  "author_id": "A5022754959",
+  "works_count": 117,
+  "cited_by_count": 633,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 21
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 17
+    },
+    {
+      "topic": "Nuclear reactor physics and engineering",
+      "count": 14
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Rapid processing and assembly of semiconductor thermoelectric materials for energy conversion devices",
+      "publication_year": 2016,
+      "publication_date": "2016-08-02",
+      "doi": "https://doi.org/10.1016/j.matlet.2016.07.152",
+      "venue": "Materials Letters",
+      "type": "article",
+      "cited_by_count": 64,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Thermoelectric effect",
+        "Thermoelectric materials",
+        "Semiconductor",
+        "Thermoelectric generator",
+        "Figure of merit",
+        "Laser",
+        "Ceramic"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ahmed El-Desouky",
+        "Michael J. Carter",
+        "Matthieu A. André",
+        "Philippe M. Bardet",
+        "Saniya LeBlanc"
+      ]
+    },
+    {
+      "title": "Options for Scaled Experiments for High Temperature Liquid Salt and Helium Fluid Mechanics and Convective Heat Transfer",
+      "publication_year": 2008,
+      "publication_date": "2008-09-01",
+      "doi": "https://doi.org/10.13182/nt163-344",
+      "venue": "Nuclear Technology",
+      "type": "article",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat transfer",
+        "Convective heat transfer",
+        "Thermodynamics",
+        "Mechanics",
+        "Grashof number",
+        "Chemistry",
+        "Heat transfer coefficient",
+        "Thermal conductivity"
+      ],
+      "abstract": "Liquid fluoride salts and helium have desirable properties for use as working fluids for high-temperature (500 to 1000°C) heat transport in fission and fusion applications. This paper presents recent progress in the design and analysis of scaled thermal-hydraulic experiments for fluid mechanics and convective heat transfer in liquid salt and helium systems. It presents a category of heat transfer fluids and a category of light mineral oils that can be used for scaled experiments simulating convective heat transfer in liquid salts. By optimally selecting the length, velocity, average temperature, and temperature difference scales of the experiment, it is possible to simultaneously match the Reynolds, Froude, Prandtl, and Grashof numbers in geometrically scaled experiments operating at low-temperature, reduced length, and velocity scales. Mechanical pumping power and heat input are reduced to ~1 to 2% of the prototype power inputs. Helium fluid mechanics and heat transfer likewise can be simulated by nitrogen following the same procedure. The resulting length, velocity, temperature, and power scales for simulating helium are quite similar to those for the liquid salts, and the pre...",
+      "authors": [
+        "Philippe M. Bardet",
+        "Per F. Peterson"
+      ]
+    },
+    {
+      "title": "Pulsed laser melting of bismuth telluride thermoelectric materials",
+      "publication_year": 2019,
+      "publication_date": "2019-05-16",
+      "doi": "https://doi.org/10.1016/j.jmapro.2019.04.021",
+      "venue": "Journal of Manufacturing Processes",
+      "type": "article",
+      "cited_by_count": 32,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jmapro.2019.04.021",
+      "concepts": [
+        "Materials science",
+        "Bismuth telluride",
+        "Thermoelectric effect",
+        "Process window",
+        "Laser",
+        "Thermal conductivity",
+        "Microstructure",
+        "Bismuth"
+      ],
+      "abstract": "",
+      "authors": [
+        "Michael J. Carter",
+        "Ahmed El-Desouky",
+        "Matthieu A. André",
+        "Philippe M. Bardet",
+        "Saniya LeBlanc"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Development of Tomographic Reconstruction Method for MTV using Neural Radiance Fields",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2100",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Radiance",
+        "Computer vision",
+        "Calibration",
+        "Computer science",
+        "Tomographic reconstruction",
+        "Artificial intelligence",
+        "Iterative reconstruction",
+        "Noise (video)"
+      ],
+      "abstract": "This work explores the use of a Neural Radiance Field–based tomographic reconstruction approach for 3D Molecular TaggingVelocimetry (MTV) measurements obtained with a plenoptic camera. Conventional tomographic reconstruction typically relies on voxel-based iterative algorithms, which can be sensitive to discretization, noise, and limited angular sampling. Here, the FluidNeRF framework is adapted to the Plenoptic 3.0 (Fourier Integral Microscope) imaging geometry by implementing an orthographic ray model and incorporating the elemental-image affine calibration directly into the reconstruction. The method is applied to an MTV dataset acquired in an axisymmetric stagnation jet experiment, consisting of 19 elemental images captured from a single camera. Three dimensional MTV intensity fields reconstructed using FluidNeRF are compared with results obtained using Richardson–Lucy Deconvolution. Both approaches recover the expected beamlet arrangement and its depth-dependent behavior. However, the FluidNeRF reconstructions exhibit reduced background noise and smoother beamlet representations, particularly in regions where the tagged signal is weak. These results indicate that neural imp...",
+      "authors": [
+        "Sandra H. Halder",
+        "Mark J. Yamakaitis",
+        "Bibek Sapkota",
+        "Charles Fort",
+        "Philippe M. Bardet",
+        "Brian Thurow"
+      ]
+    },
+    {
+      "title": "Four-view single-camera plenoptic 3.0 imager for three-dimensional Lagrangian particle tracking in an oscillatory laminar boundary layer",
+      "publication_year": 2025,
+      "publication_date": "2025-08-12",
+      "doi": "https://doi.org/10.1007/s00348-025-04095-w",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Tracking (education)",
+        "Lagrangian",
+        "Boundary layer",
+        "Boundary (topology)",
+        "Particle (ecology)",
+        "Particle tracking velocimetry",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mark J. Yamakaitis",
+        "Anis Rezaiguia",
+        "Charles Fort",
+        "Roberto Capanna",
+        "Philippe M. Bardet"
+      ]
+    },
+    {
+      "title": "Near-wall volumetric molecular tagging velocimetry with a Fourier integral microscope",
+      "publication_year": 2025,
+      "publication_date": "2025-07-21",
+      "doi": "https://doi.org/10.1007/s00348-025-04078-x",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Velocimetry",
+        "Materials science",
+        "Microscope",
+        "Optics",
+        "Fourier transform",
+        "Particle image velocimetry",
+        "Particle tracking velocimetry",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Peter Huck",
+        "Mark J. Yamakaitis",
+        "Charles Fort",
+        "Philippe M. Bardet"
+      ]
+    },
+    {
+      "title": "Supersonic Pulse-Jet System for Filter Regeneration: Molecular Tagging Velocimetry Study and Computational Fluid Dynamics Validation",
+      "publication_year": 2025,
+      "publication_date": "2025-05-21",
+      "doi": "https://doi.org/10.3390/app15105764",
+      "venue": "Applied Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2076-3417/15/10/5764/pdf?version=1747827259",
+      "concepts": [
+        "Supersonic speed",
+        "Jet (fluid)",
+        "Velocimetry",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "This paper provides shadowgraphy and molecular tagging velocimetry (MTV) acquisition results and validates a computational fluid dynamics (CFDs) simulation for an underexpanded supersonic gas jet in a plenum pointed toward a wall with an aligned converging pipe outlet. Flow configurations of this type are encountered in pulse-jet systems for online industrial gas filter regeneration. Although previous CFD validation efforts for pulse-jet systems have relied on static pressure measurements, this work expands the validation data using high-resolution flow visualization and velocimetry techniques. Simulations were performed with an axisymmetric two-dimensional Reynolds-averaged Navier-Stokes model and are in close agreement with the shadowgraphy and MTV data, including the description of Mach disks, barrel shocks, and reflected shocks in the underexpanded jet. The CFD model was finally applied to study the role of the converging tube downstream of the jet.",
+      "authors": [
+        "Giancarlo Lenci",
+        "Charles Fort",
+        "Matthieu A. André",
+        "Victor Petrov",
+        "Ryan E. Jones",
+        "Chuck Marks",
+        "Philippe M. Bardet"
+      ]
+    },
+    {
+      "title": "Withdrawn: Micro-Hydroxyl Tagging Velocimetry to Measure Near-Wall Turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0240",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Velocimetry",
+        "Turbulence",
+        "Measure (data warehouse)",
+        "Mechanics",
+        "Physics",
+        "Materials science",
+        "Computer science",
+        "Data mining"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mir M. Tareq",
+        "Charles Fort",
+        "Sabine Portal",
+        "Philippe M. Bardet"
+      ]
+    }
+  ]
+}

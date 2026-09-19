@@ -1,0 +1,268 @@
+{
+  "faculty_name": "H. Jane Bae",
+  "full_name": "H. Jane Bae",
+  "department": "Graduate Aerospace Laboratories (GALCIT)",
+  "university": "California Institute of Technology",
+  "author_id": "A5051222488",
+  "works_count": 64,
+  "cited_by_count": 1039,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 56
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 19
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 17
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 9
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Minimum-dissipation models for large-eddy simulation",
+      "publication_year": 2015,
+      "publication_date": "2015-08-01",
+      "doi": "https://doi.org/10.1063/1.4928700",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 238,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/1.4928700/15691134/085107_1_online.pdf",
+      "concepts": [
+        "Physics",
+        "Dissipation",
+        "Turbulence modeling",
+        "Turbulence",
+        "Filter (signal processing)",
+        "Large eddy simulation",
+        "Isotropy",
+        "Anisotropy"
+      ],
+      "abstract": "Minimum-dissipation eddy-viscosity models are a class of sub-filter models for large-eddy simulation that give the minimum eddy dissipation required to dissipate the energy of sub-filter scales. A previously derived minimum-dissipation model is the QR model. This model is based on the invariants of the resolved rate-of-strain tensor and has many desirable properties. It appropriately switches off for laminar and transitional flows, has low computational complexity, and is consistent with the exact sub-filter tensor on isotropic grids. However, the QR model proposed in the literature gives insufficient eddy dissipation. It is demonstrated that this can be corrected by increasing the model constant. The corrected QR model gives good results in simulations of decaying grid turbulence on an isotropic grid. On anisotropic grids the QR model is not consistent with the exact sub-filter tensor and requires an approximation of the filter width. It is demonstrated that the results of the QR model on anisotropic grids are primarily determined by the used filter width approximation, and that no approximation gives satisfactory results in simulations of both a temporal mixing layer and turbu...",
+      "authors": [
+        "Wybe Rozema",
+        "H. Jane Bae",
+        "Parviz Moin",
+        "Roel Verstappen"
+      ]
+    },
+    {
+      "title": "Scientific multi-agent reinforcement learning for wall-models of turbulent flows",
+      "publication_year": 2022,
+      "publication_date": "2022-03-17",
+      "doi": "https://doi.org/10.1038/s41467-022-28957-7",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 168,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41467-022-28957-7.pdf",
+      "concepts": [
+        "Turbulence",
+        "Heuristics",
+        "Computer science",
+        "Aerodynamics",
+        "Reinforcement learning",
+        "Large eddy simulation",
+        "Flow (mathematics)",
+        "Reynolds number"
+      ],
+      "abstract": "The predictive capabilities of turbulent flow simulations, critical for aerodynamic design and weather prediction, hinge on the choice of turbulence models. The abundance of data from experiments and simulations and the advent of machine learning have provided a boost to turbulence modeling efforts. However, simulations of turbulent flows remain hindered by the inability of heuristics and supervised learning to model the near-wall dynamics. We address this challenge by introducing scientific multi-agent reinforcement learning (SciMARL) for the discovery of wall models for large-eddy simulations (LES). In SciMARL, discretization points act also as cooperating agents that learn to supply the LES closure model. The agents self-learn using limited data and generalize to extreme Reynolds numbers and previously unseen geometries. The present simulations reduce by several orders of magnitude the computational cost over fully-resolved simulations while reproducing key flow quantities. We believe that SciMARL creates unprecedented capabilities for the simulation of turbulent flows.",
+      "authors": [
+        "H. Jane Bae",
+        "Petros Koumoutsakos"
+      ]
+    },
+    {
+      "title": "Turbulence intensities in large-eddy simulation of wall-bounded flows",
+      "publication_year": 2018,
+      "publication_date": "2018-01-22",
+      "doi": "https://doi.org/10.1103/physrevfluids.3.014610",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 93,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6800690",
+      "concepts": [
+        "Turbulence",
+        "Large eddy simulation",
+        "Bounded function",
+        "Mechanics",
+        "Physics",
+        "Detached eddy simulation",
+        "Meteorology",
+        "Mathematics"
+      ],
+      "abstract": "A persistent problem in wall-bounded large-eddy simulations (LES) with Dirichlet no-slip boundary conditions is that the near-wall streamwise velocity fluctuations are overpredicted, while those in the wall-normal and spanwise directions are underpredicted. The problem may become particularly pronounced when the near-wall region is underresolved. The prediction of the fluctuations is known to improve for wall-modeled LES, where the no-slip boundary condition at the wall is typically replaced by Neumann and no-transpiration conditions for the wall-parallel and wall-normal velocities, respectively. However, the turbulence intensity peaks are sensitive to the grid resolution and the prediction may degrade when the grid is refined. In the present study, a physical explanation of this phenomena is offered in terms of the behavior of the near-wall streaks. We also show that further improvements are achieved by introducing a Robin (slip) boundary condition with transpiration instead of the Neumann condition. By using a slip condition, the inner energy production peak is damped, and the blocking effect of the wall is relaxed such that the splatting of eddies at the wall is mitigated. As...",
+      "authors": [
+        "H. Jane Bae",
+        "Adrián Lozano-Durán",
+        "Sanjeeb Bose",
+        "Parviz Moin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Tipping Point Forecasting in Non-Stationary Dynamics on Function Spaces (Airfoil Dataset)",
+      "publication_year": 2025,
+      "publication_date": "2025-12-30",
+      "doi": "https://doi.org/10.5281/zenodo.18098806",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18098806",
+      "concepts": [
+        "Tipping point (physics)",
+        "Trajectory",
+        "Function (biology)",
+        "Airfoil",
+        "Computer science",
+        "Dynamics (music)",
+        "Econometrics",
+        "Mathematics"
+      ],
+      "abstract": "Preprocessed divergence-free trajectory data for airfoil stall at Re1000 and Re5000, as used in the paper \"Tipping Point Forecasting in Non-Stationary Dynamics on Function Spaces.\" Refer to paper for funding and acknowledgements.",
+      "authors": [
+        "Miguel Liu-Schiaffini",
+        "Clare E. Singer",
+        "Nikola Kovachki",
+        "Sze Chai Leung",
+        "H. Jane Bae",
+        "Kamyar Azizzadenesheli",
+        "Anima Anandkumar"
+      ]
+    },
+    {
+      "title": "Tipping Point Forecasting in Non-Stationary Dynamics on Function Spaces (Airfoil Dataset)",
+      "publication_year": 2025,
+      "publication_date": "2025-12-30",
+      "doi": "https://doi.org/10.5281/zenodo.18098807",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18098807",
+      "concepts": [
+        "Tipping point (physics)",
+        "Trajectory",
+        "Function (biology)",
+        "Airfoil",
+        "Computer science",
+        "Dynamics (music)",
+        "Econometrics",
+        "Mathematics"
+      ],
+      "abstract": "Preprocessed divergence-free trajectory data for airfoil stall at Re1000 and Re5000, as used in the paper \"Tipping Point Forecasting in Non-Stationary Dynamics on Function Spaces.\" Refer to paper for funding and acknowledgements.",
+      "authors": [
+        "Miguel Liu-Schiaffini",
+        "Clare E. Singer",
+        "Nikola Kovachki",
+        "Sze Chai Leung",
+        "H. Jane Bae",
+        "Kamyar Azizzadenesheli",
+        "Anima Anandkumar"
+      ]
+    },
+    {
+      "title": "Physics-informed Neural-operator Predictive Control for Drag Reduction in Turbulent Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-10-03",
+      "doi": "https://doi.org/10.48550/arxiv.2510.03360",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.03360",
+      "concepts": [
+        "Turbulence",
+        "Drag",
+        "Reynolds number",
+        "Model predictive control",
+        "Discretization",
+        "Control theory (sociology)",
+        "Mechanics",
+        "Flow control (data)"
+      ],
+      "abstract": "Assessing turbulence control effects for wall friction numerically is a significant challenge since it requires expensive simulations of turbulent fluid dynamics. We instead propose an efficient deep reinforcement learning (RL) framework for modeling and control of turbulent flows. It is model-based RL for predictive control (PC), where both the policy and the observer models for turbulence control are learned jointly using Physics Informed Neural Operators (PINO), which are discretization invariant and can capture fine scales in turbulent flows accurately. Our PINO-PC outperforms prior model-free reinforcement learning methods in various challenging scenarios where the flows are of high Reynolds numbers and unseen, i.e., not provided during model training. We find that PINO-PC achieves a drag reduction of 39.0\\% under a bulk-velocity Reynolds number of 15,000, outperforming previous fluid control methods by more than 32\\%.",
+      "authors": [
+        "Zelin Zhao",
+        "Zongyi Li",
+        "Kimia Hassibi",
+        "Kamyar Azizzadenesheli",
+        "Junchi Yan",
+        "H. Jane Bae",
+        "Di Zhou",
+        "Anima Anandkumar"
+      ]
+    },
+    {
+      "title": "Grid Resolution Assessment in Wall-Modeled Large-Eddy Simulation via Velocity Gradient Partitioning",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1376",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Grid",
+        "Large eddy simulation",
+        "Resolution (logic)",
+        "Computer science",
+        "Mechanics",
+        "Geology",
+        "Physics",
+        "Artificial intelligence"
+      ],
+      "abstract": "Wall-modeled large-eddy simulation (WMLES) has attracted significant attention in engineering applications as a high-fidelity simulation technique not limited by near-wall resolution requirements. It significantly reduces computational costs by resolving the energy-containing and dynamically important scales of turbulence far from the wall while modeling the effects of near-wall eddies. However, the inherent grid dependence of WMLES results raises the question of how to determine an adequate yet minimal resolution for the outer region. To address this question, we propose an approach to assess grid resolution that does not rely on a priori knowledge of domain-specific flow statistics. This approach leverages the velocity gradient partitioning, which provides an expressive, broadly applicable, and Galilean invariant description of local flow features. The error metric we define represents the deviation of the partitioning far from the wall in WMLES from the partitioning associated with isotropic turbulence. Using simulations of turbulent channel flow, we compare the convergence trends of this metric with those of conventional metrics representing turbulence kinetic energy errors....",
+      "authors": [
+        "Di Zhou",
+        "Rahul Arun",
+        "Tim Colonius",
+        "H. Jane Bae"
+      ]
+    },
+    {
+      "title": "Sparse space–time resolvent analysis for statistically stationary and time-varying flows",
+      "publication_year": 2024,
+      "publication_date": "2024-11-21",
+      "doi": "https://doi.org/10.1017/jfm.2024.955",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Resolvent",
+        "Singular value decomposition",
+        "Turbulence",
+        "Nonlinear system",
+        "Mathematical analysis",
+        "Applied mathematics",
+        "Sparse approximation",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Resolvent analysis provides a framework to predict coherent spatio-temporal structures of the largest linear energy amplification, through a singular value decomposition (SVD) of the resolvent operator, obtained by linearising the Navier–Stokes equations about a known turbulent mean velocity profile. Resolvent analysis utilizes a Fourier decomposition in time, which has thus far limited its application to statistically stationary or time-periodic flows. This work develops a variant of resolvent analysis applicable to time-evolving flows, and proposes a variant that identifies spatio-temporally sparse structures, applicable to either stationary or time-varying mean velocity profiles. Spatio-temporal resolvent analysis is formulated through the incorporation of the temporal dimension to the numerical domain via a discrete time-differentiation operator. Sparsity (which manifests in localisation) is achieved through the addition of an $l_1$ -norm penalisation term to the optimisation associated with the SVD. This modified optimisation problem can be formulated as a nonlinear eigenproblem and solved via an inverse power method. We first showcase the implementation of the sparse analy...",
+      "authors": [
+        "Barbara Lopez-Doriga",
+        "Eric Ballouz",
+        "H. Jane Bae",
+        "Scott T. M. Dawson"
+      ]
+    }
+  ]
+}

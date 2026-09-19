@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Babak Shotorban",
+  "full_name": "Babak Shotorban",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Alabama in Huntsville",
+  "author_id": "A5018948140",
+  "works_count": 95,
+  "cited_by_count": 1170,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 26
+    },
+    {
+      "topic": "Fire effects on ecosystems",
+      "count": 25
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 24
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 19
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling subgrid-scale effects on particles by approximate deconvolution",
+      "publication_year": 2005,
+      "publication_date": "2005-07-27",
+      "doi": "https://doi.org/10.1063/1.2001691",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 112,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Deconvolution",
+        "Large eddy simulation",
+        "Turbulence",
+        "A priori and a posteriori",
+        "Mechanics",
+        "Statistical physics",
+        "Direct numerical simulation"
+      ],
+      "abstract": "The approximate deconvolution is implemented to reconstruct the instantaneous velocities from the filtered velocities before using them in the momentum equations of particles in the large-eddy simulation (LES) of particle-laden turbulent flows. It is shown that the various statistics of particles obtained through deconvolution are in good agreement with those obtained by the direct numerical simulation (DNS) by conducting a priori and a posteriori tests in a particle-laden homogeneous shear turbulent flow. On the other hand, the neglect of the effects of subgrid scales on the particles results in discrepancies between DNS and LES results.",
+      "authors": [
+        "Babak Shotorban",
+        "Farzad Mashayek"
+      ]
+    },
+    {
+      "title": "A stochastic model for particle motion in large-eddy simulation",
+      "publication_year": 2006,
+      "publication_date": "2006-01-01",
+      "doi": "https://doi.org/10.1080/14685240600595685",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 99,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "A priori and a posteriori",
+        "Statistical physics",
+        "Isotropy",
+        "Large eddy simulation",
+        "Physics",
+        "Mechanics",
+        "Test particle",
+        "Stochastic modelling"
+      ],
+      "abstract": "Most of the studies on large-eddy simulation (LES) of particle-laden flows assume that the effect of subgrid scales on the particle motion is negligible. This assumption may break down, particularly when particles have a small time constant and/or the filtered energy is significant. In this work, a stochastic model is proposed for the particle motion in LES while considering the effect of subgrid fluctuations. The model assumes that the fluid particle seen by the heavy particle evolves based on a diffusion stochastic process. For model assessment, both a priori and a posteriori tests are conducted for a particle-laden decaying isotropic turbulence. In the a priori test the filtered velocity field, obtained via filtering the DNS velocities, and in the a posteriori test the LES velocity field, obtained via the dynamic Smagorinsky model, are applied to particles through the stochastic model. The small-particle statistics obtained through the stochastic model very well match those obtained through DNS in the a priori test, once the effects of the initial conditions have decayed. There is also a good agreement with DNS results in the a posteriori test. It is shown that the neglect of...",
+      "authors": [
+        "Babak Shotorban",
+        "Farzad Mashayek"
+      ]
+    },
+    {
+      "title": "Coalescence collision of liquid drops",
+      "publication_year": 2002,
+      "publication_date": "2002-11-04",
+      "doi": "https://doi.org/10.1016/s0017-9310(02)00256-9",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 99,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Collision",
+        "Reynolds number",
+        "Mechanics",
+        "Coalescence (physics)",
+        "Drop (telecommunication)",
+        "Bubble",
+        "Materials science",
+        "Liquid drop"
+      ],
+      "abstract": "",
+      "authors": [
+        "Farzad Mashayek",
+        "Nasser Ashgriz",
+        "W.J. Minkowycz",
+        "Babak Shotorban"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physics-based modeling of fire spread in small-scale fuel beds using multiple-reaction pyrolysis kinetics",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.1071/wf25205",
+      "venue": "International Journal of Wildland Fire",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1071/wf25205",
+      "concepts": [
+        "Ignition system",
+        "Thermogravimetric analysis",
+        "Pyrolysis",
+        "Fire Dynamics Simulator",
+        "Environmental science",
+        "Nuclear engineering",
+        "Flame spread",
+        "Solid fuel"
+      ],
+      "abstract": "Background Physics-based models often use single-step reaction schemes for thermal pyrolysis. However, more detailed schemes may be needed to accurately represent fuels such as pine needles that are composed of multiple chemical components. To this end, a multi-reaction kinetic scheme accounting for lipids, digestives, hemicellulose, etc. content was evaluated. Aims Validate the scheme against previous thermogravimetric analysis (TGA) experiments and assess its impact in physics-based modeling. Methods Analytical and numerical solutions were obtained for the scheme under TGA conditions. It was implemented in Fire Dynamics Simulator (FDS) to physically model previous ignition and fire spread experiments in two setups including small scale fuel beds. Key results Analytical and numerical mass loss rates matched perfectly and agreed with TGA data. In the first fuel bed setup, simulated ignition time, mass loss and mass loss rates aligned well with experiments. In the second setup, simulations in general overestimated temperatures and heat fluxes but performed better than those using a single-step scheme. Conclusions The multi-reaction scheme reproduced TGA data accurately and improv...",
+      "authors": [
+        "Sahar Rasoulpour",
+        "Amirreza Hesabi-Shotorbani",
+        "Babak Shotorban"
+      ]
+    },
+    {
+      "title": "Multi-reaction kinetic modeling of foliage pyrolysis in wildland fires",
+      "publication_year": 2026,
+      "publication_date": "2026-03-19",
+      "doi": "https://doi.org/10.1016/j.jaap.2026.107749",
+      "venue": "Journal of Analytical and Applied Pyrolysis",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pyrolysis",
+        "Environmental science",
+        "Kinetic energy",
+        "Environmental chemistry",
+        "Atmospheric sciences",
+        "Chemistry",
+        "Decomposition",
+        "Waste management"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sahar Rasoulpour",
+        "Babak Shotorban"
+      ]
+    },
+    {
+      "title": "Learning Flux Limiters with Kolmogorov Arnold Networks.",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0290",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flux limiter",
+        "Inviscid flow",
+        "Artificial neural network",
+        "Euler equations",
+        "Applied mathematics",
+        "Limiter",
+        "Mathematics",
+        "Euler's formula"
+      ],
+      "abstract": "The Euler equations describing compressible inviscid flows remain a standard benchmark for assessing numerical methods. Flows that are characterized by shocks and discontinuities pose a challenge for application of high-order numerical schemes, as they cause non-physical oscillations. Reconstruction by Monotonic Upstream centered Scheme for Conservation Laws (MUSCL) mitigates this issue by using flux limiters that reduce the order of the approximation near large changes in gradients. Choosing a flux limiter is typically heuristic and problem-dependent. This work applies a Kolmogorov–Arnold Networks (KANs) in attempt to discover the optimal flux limiter function for the Euler equations. KANs are boasted to include more interpretability advantages over traditional Multilayer Perceptron (MLP) architectures which makes them of keen interest to fluid flow problems. This paper evaluates the learned KANs limiters against classical flux limiters and MLP-based learned limiters, highlighting the difficulties Neural Networks have with learning discontinuous functions.",
+      "authors": [
+        "Jacob A. Kleinpeter",
+        "Babak Shotorban"
+      ]
+    },
+    {
+      "title": "Modeling of the gravitational deposition of firebrands subject to a turbulent jet flow",
+      "publication_year": 2025,
+      "publication_date": "2025-05-06",
+      "doi": "https://doi.org/10.1016/j.firesaf.2025.104403",
+      "venue": "Fire Safety Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Jet (fluid)",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Deposition (geology)",
+        "Subject (documents)",
+        "Engineering",
+        "Gravitation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Patrick Damiani",
+        "Aditya Mankame",
+        "Babak Shotorban"
+      ]
+    },
+    {
+      "title": "A computational study of the deposition of firebrands between two side-by-side blocks",
+      "publication_year": 2024,
+      "publication_date": "2024-10-04",
+      "doi": "https://doi.org/10.1016/j.firesaf.2024.104270",
+      "venue": "Fire Safety Journal",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.firesaf.2024.104270",
+      "concepts": [
+        "Side impact",
+        "Deposition (geology)",
+        "Computer science",
+        "Engineering",
+        "Structural engineering",
+        "Geology",
+        "Paleontology",
+        "Sediment"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aditya Mankame",
+        "Patrick Damiani",
+        "Babak Shotorban"
+      ]
+    }
+  ]
+}

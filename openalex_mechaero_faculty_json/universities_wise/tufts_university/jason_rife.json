@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Jason Rife",
+  "full_name": "Jason Rife",
+  "department": "Department of Mechanical Engineering",
+  "university": "Tufts University",
+  "author_id": "A5022024681",
+  "works_count": 145,
+  "cited_by_count": 1309,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "GNSS positioning and interference",
+      "count": 45
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 30
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 18
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 17
+    },
+    {
+      "topic": "Remote Sensing and LiDAR Applications",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Paired overbounding for nonideal LAAS and WAAS error distributions",
+      "publication_year": 2006,
+      "publication_date": "2006-10-01",
+      "doi": "https://doi.org/10.1109/taes.2006.314579",
+      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+      "type": "article",
+      "cited_by_count": 131,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "GNSS augmentation",
+        "Position (finance)",
+        "Bounding overwatch",
+        "Computer science",
+        "Position error",
+        "Global Positioning System",
+        "Ranging",
+        "Algorithm"
+      ],
+      "abstract": "A significant challenge in fielding space-based and ground-based augmentation systems (SBAS and GBAS) for GPS involves the validation of navigation integrity, which requires the establishment of error bounds for aircraft position. This paper introduces a new approach to validating position-domain integrity by using two-sided envelopes for each ranging source. This paired-bounding approach allows for error distributions of arbitrary form and thus improves on earlier integrity validation approaches restricted to zero-mean, symmetric, and unimodal distributions.",
+      "authors": [
+        "Jason Rife",
+        "Sam Pullen",
+        "Per Enge",
+        "Boris Pervan"
+      ]
+    },
+    {
+      "title": "Paired overbounding and application to GPS augmentation",
+      "publication_year": 2004,
+      "publication_date": "2004-07-20",
+      "doi": "https://doi.org/10.1109/plans.2004.1309027",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 61,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pseudorange",
+        "Upper and lower bounds",
+        "Range (aeronautics)",
+        "Domain (mathematical analysis)",
+        "Mathematics",
+        "Gaussian",
+        "Inflation (cosmology)",
+        "Cumulative distribution function"
+      ],
+      "abstract": "The relationship between range-domain and position-domain errors remains an open issue for GPS augmentation programs, such as the Federal Aviation Administration's Local Area Augmentation System (LAAS). This paper introduces a theorem that guarantees a conservative error bound (overbound) in the position domain given similarly conservative overbounds for broadcast pseudorange statistics. This paired overbound theorem requires that a cumulative distribution function (CDF) be constructed to bound both sides of the range-domain error distribution. The paired overbound theorem holds for arbitrary error distributions, even those that are non-zero mean, asymmetric or multimodal. Two applications of the paired overbound theorem to GPS augmentation are also discussed. First, the theorem is employed to construct an inflation factor for a non-zero mean Gaussian distribution; in the context of a simulation of worst-case satellite geometries for 10 locations in the United States and Europe, the required inflation factor for broadcast sigma is only 1.18, even for biases as large as 10 cm for each satellite. Second, the theorem is applied to bound a bimodal multipath model tightly; the result...",
+      "authors": [
+        "Jason Rife",
+        "Sam Pullen",
+        "Boris Pervan",
+        "Per Enge"
+      ]
+    },
+    {
+      "title": "Navigation, Interference Suppression, and Fault Monitoring in the Sea-Based Joint Precision Approach and Landing System",
+      "publication_year": 2008,
+      "publication_date": "2008-12-01",
+      "doi": "https://doi.org/10.1109/jproc.2008.2006107",
+      "venue": "Proceedings of the IEEE",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Global Positioning System",
+        "Computer science",
+        "Inertial navigation system",
+        "Real-time computing",
+        "Receiver autonomous integrity monitoring",
+        "GPS signals",
+        "Avionics",
+        "Radio navigation"
+      ],
+      "abstract": "The United States Navy seeks the capability to land manned and unmanned aerial vehicles autonomously on an aircraft carrier using GPS. To deliver this capability, the Navy is developing a navigation system called the Sea-Based Joint Precision Approach and Landing System (JPALS). Because standard GPS is not sufficiently precise to land aircraft on a shortened, constantly moving runway, Sea-Based JPALS leverages dual-frequency, carrier-phase differential GPS navigation. Carrier phase measurements, derived from the sinusoidal waveforms underlying the GPS signal, are very precise but not necessarily accurate unless the user resolves the ambiguity associated with the sinusoid's periodicity. Ensuring the validity of ambiguity resolution is the central challenge for the high-integrity, safety-critical JPALS application. Based on a multi-year, multi-institution collaborative study, this paper proposes a navigation and monitoring architecture designed to meet the guidance quality challenge posed by Sea-Based JPALS. In particular, we propose a two-stage navigation algorithm that meets the aggressive integrity-risk requirement for Sea-Based JPALS by first filtering a combination of GPS obs...",
+      "authors": [
+        "Jason Rife",
+        "Samer Khanafseh",
+        "Sam Pullen",
+        "David Lorenzo",
+        "Ung-Suok Kim",
+        "M. Koenig",
+        "Tsung‐Yu Chiou",
+        "B. Kempny",
+        "Boris Pervan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Characterizing Lidar Range-Measurement Ambiguity due to Multiple Returns",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.33012/2025.20444",
+      "venue": "Proceedings of the Satellite Division's International Technical Meeting (Online)/Proceedings of the Satellite Division's International Technical Meeting (CD-ROM)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.09282",
+      "concepts": [
+        "Lidar",
+        "Probabilistic logic",
+        "Ambiguity",
+        "Remote sensing",
+        "Computer science",
+        "Position (finance)",
+        "Conical surface",
+        "Probability distribution"
+      ],
+      "abstract": "Reliable position and attitude sensing is critical for highly automated vehicles that operate on conventional roadways. Lidar sensors are increasingly incorporated into pose-estimation systems. Despite its great utility, lidar is a complex sensor, and its performance in roadway environments is not yet well understood. For instance, it is often assumed in lidar-localization algorithms that a lidar will always identify a unique surface along a given raypath. However, this assumption is not always true, as ample prior evidence exists to suggest that lidar units may generate measurements probabilistically when more than one scattering surface appears within the lidar’s conical beam. In this paper, we analyze lidar datasets to characterize cases with probabilistic returns along particular raypaths. Our contribution is to present representative cumulative distribution functions (CDFs) for raypaths observed by two different mechanically rotating lidar units with stationary bases. In subsequent discussion, we outline a qualitative methodology to assess the effect of probabilistic multi-return cases on lidar-based localization.",
+      "authors": [
+        "Jason Rife",
+        "Yifan Li"
+      ]
+    },
+    {
+      "title": "Exploiting Structure-from-Motion for Robust Vision-Based Map Matching for Aircraft Surface Movement",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.33012/2025.20382",
+      "venue": "Proceedings of the Satellite Division's International Technical Meeting (Online)/Proceedings of the Satellite Division's International Technical Meeting (CD-ROM)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Computer vision",
+        "Artificial intelligence",
+        "Outlier",
+        "Computer science",
+        "Pipeline (software)",
+        "Key (lock)",
+        "Image matching"
+      ],
+      "abstract": "In this paper we introduce a vision-aided navigation (VAN) pipeline designed to support ground navigation of autonomous aircraft. The proposed algorithm combines the computational efficiency of indirect methods with the robustness of direct image-based techniques to enhance solution integrity. The pipeline starts by processing ground images (e.g., acquired by a taxiing aircraft) and relates them via a feature-based structure-from-motion (SfM) solution. A ground plane mosaic is then constructed via homography transforms and matched to satellite imagery using a sum of squares differences (SSD) of intensities. Experimental results reveal that drift within the SfM solution, similar to that observed in dead-reckoning systems, challenges the expected accuracy benefits of map-matching with a wide-baseline ground-plane mosaic. However, the proposed algorithm demonstrates key integrity features, such as the ability to identify registration anomalies and ambiguous matches. These characteristics of the pipeline can mitigate outlier behaviors and contribute toward a robust, certifiable solution for autonomous surface movement of aircraft.",
+      "authors": [
+        "D. Choate",
+        "Jason Rife"
+      ]
+    },
+    {
+      "title": "A Probabilistic Formulation of LiDAR Mapping With Neural Radiance Fields",
+      "publication_year": 2025,
+      "publication_date": "2025-04-03",
+      "doi": "https://doi.org/10.1109/lra.2025.3557301",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/lra.2025.3557301",
+      "concepts": [
+        "Radiance",
+        "Lidar",
+        "Probabilistic logic",
+        "Remote sensing",
+        "Artificial neural network",
+        "Computer science",
+        "Geography",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Matthew McDermott",
+        "Jason Rife"
+      ]
+    },
+    {
+      "title": "Offline Covariance Prediction for Lidar-Based Map-Matching in Autonomous Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-02-13",
+      "doi": "https://doi.org/10.33012/2025.19994",
+      "venue": "Proceedings of the Institute of Navigation ... International Technical Meeting/Proceedings of the ... International Technical Meeting of The Institute of Navigation",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lidar",
+        "Computer science",
+        "Covariance",
+        "Matching (statistics)",
+        "Artificial intelligence",
+        "Map matching",
+        "Computer vision",
+        "Data mining"
+      ],
+      "abstract": "This paper introduces a concept for map-based characterization of lidar positioning errors. A map-based model can account for spatial variations in lidar positioning performance, including variations in the types of terrain the lidar visualizes and matches to a high-definition map (HD map). Our approach for map-based error characterization relies on a two-step positioning algorithm. The two-step algorithm includes a coarse positioning step using scan context descriptors, as well as a refined step using normal-distribution transform (NDT) scan matching. This two-step approach is practical in that it reduces sensitivity to the initial guess needed for refined scan matching. Initial-condition sensitivity can otherwise cause problems with scan-matching convergence and introduce biases in statistical error characterization. After describing our map-based error characterization approach, we apply the method to a representative highway dataset. Our analysis shows that the map-based error characterization approach provides a reasonable characterization of errors in a test data set. We also provide evidence that lidar-positioning error distributions exhibit heavier-than Gaussian tails.",
+      "authors": [
+        "Hadi Wassaf",
+        "J. L. Poage",
+        "Jason Rife"
+      ]
+    },
+    {
+      "title": "Toward High-Integrity Roadway Applications of Georeferenced Lidar Positioning: A Review",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.33012/navi.719",
+      "venue": "NAVIGATION Journal of the Institute of Navigation",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.33012/navi.719",
+      "concepts": [
+        "Georeference",
+        "Lidar",
+        "Remote sensing",
+        "Environmental science",
+        "Geology",
+        "Geography",
+        "Physical geography"
+      ],
+      "abstract": "As a step toward founding the new field of lidar integrity, this paper compiles a list of lidar faults, threats, anomalies, and challenges – which we collectively label adversities. Engineers will eventually need to characterize and mitigate these adversities for rigorous quantification of lidar integrity. Lidar adversities manifest at the intersection of environment, hardware, and algorithms. By extension, the specific design approach or architecture of a lidar system, as well as its application, must be specified to define a complete set of adversities and resulting measurement-error distributions, including operationally hazardous errors. To this end, we focus on the application of absolute positioning for high-integrity roadway operations and identify three promising lidar architectures for that application. In comparing and contrasting these architectures, we review the broader literature to identify associated lidar adversities, and we provide a perspective on how those adversities might be mitigated in the future.",
+      "authors": [
+        "Jason Rife",
+        "Samer Khanafseh",
+        "Boris Pervan",
+        "Hadi Wassaf"
+      ]
+    }
+  ]
+}

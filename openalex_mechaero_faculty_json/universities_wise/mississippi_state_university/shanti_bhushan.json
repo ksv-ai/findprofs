@@ -1,0 +1,270 @@
+{
+  "faculty_name": "Shanti Bhushan",
+  "full_name": "Shanti Bhushan",
+  "department": "Department of Mechanical Engineering",
+  "university": "Mississippi State University",
+  "author_id": "A5103870732",
+  "works_count": 88,
+  "cited_by_count": 958,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 25
+    },
+    {
+      "topic": "Ship Hydrodynamics and Maneuverability",
+      "count": 13
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 10
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turn and zigzag maneuvers of a surface combatant using a URANS approach with dynamic overset grids",
+      "publication_year": 2012,
+      "publication_date": "2012-09-27",
+      "doi": "https://doi.org/10.1007/s00773-012-0196-8",
+      "venue": "Journal of Marine Science and Technology",
+      "type": "article",
+      "cited_by_count": 146,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computation",
+        "Zigzag",
+        "Rudder",
+        "Solver",
+        "Mechanics",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Computational fluid dynamics",
+        "Simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pablo M. Carrica",
+        "Farzad Ismail",
+        "Mark Hyman",
+        "Shanti Bhushan",
+        "Frederick Stern"
+      ]
+    },
+    {
+      "title": "Computational ship hydrodynamics: Nowadays and way forward",
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "doi": "https://doi.org/10.3233/isp-130090",
+      "venue": "International Shipbuilding Progress",
+      "type": "article",
+      "cited_by_count": 94,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Propulsion",
+        "Seakeeping",
+        "Computational fluid dynamics",
+        "Grid",
+        "Aerospace engineering",
+        "Supercomputer",
+        "Fidelity"
+      ],
+      "abstract": "Computational fluid dynamics for ship hydrodynamics has made monumental progress over the last ten years, which is reaching the milestone of providing first-generation simulation-based design tools with vast capabilities for model- and full-scale simulations and optimization. This is due to the enabling technologies such as free surface tracking/capturing, turbulence modeling, 6 degree of freedom (DoF) motion prediction, dynamic overset grids, local/adaptive grid refinement, high performance computing, environmental modeling and optimization methods. Herein, various modeling, numerical methods, and high performance computing approaches for computational ship hydrodynamics are evaluated thereby providing a vision for the development of the next-generation high-fidelity simulation tools. Verification and validation procedures and their applications, including resistance and propulsion, seakeeping, maneuvering, and stability and capsizing, are reviewed. Issues, opportunities, and challenges for advancements in higher-fidelity two-phase flow are addressed. Fundamental studies for two-phase flows are also discussed. Conclusions and future directions are also provided.",
+      "authors": [
+        "Frederick Stern",
+        "Jianming Yang",
+        "Zhaoyuan Wang",
+        "Hamid Sadat-Hosseini",
+        "Maysam Mousaviraad",
+        "Shanti Bhushan",
+        "Tao Xing"
+      ]
+    },
+    {
+      "title": "Model-and Full-Scale URANS Simulations of Athena Resistance, Powering, Seakeeping, and 5415 Maneuvering",
+      "publication_year": 2009,
+      "publication_date": "2009-12-01",
+      "doi": "https://doi.org/10.5957/jsr.2009.53.4.179",
+      "venue": "Journal of Ship Research",
+      "type": "article",
+      "cited_by_count": 83,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Seakeeping",
+        "Hull",
+        "Full scale",
+        "Marine engineering",
+        "Turbulence",
+        "Detached eddy simulation",
+        "Scale (ratio)",
+        "Rudder"
+      ],
+      "abstract": "This study demonstrates the versatility of a two-point, multilayer wall function in computing model-and full-scale ship flows with wall roughness and pressure gradient effects. The wall-function model is validated for smooth flat-plate flows at Reynolds numbers up to 109, and it is applied to the Athena R/V for resistance, propulsion, and seakeeping calculations and to fully appended DTMB 5415 for a maneuvering simulation. Resistance predictions for Athena bare hull with skeg at the model scale compare well with the near-wall turbulence model results and experimental fluid dynamics (EFD) data. For full-scale simulations, frictional resistance coefficient predictions using smooth wall are in good agreement with the International Towing Tank Conference (ITTC) line. Rough-wall simulations show higher frictional and total resistance coefficients, where the former is found to be in good agreement with the ITTC correlation allowance. Self-propelled simulations for the fully appended Athena performed at full scale using rough-wall conditions compare well with full-scale data extrapolated from model-scale measurements using the ITTC ship-model correlation line including a correlation al...",
+      "authors": [
+        "Shanti Bhushan",
+        "Tao Xing",
+        "Pablo M. Carrica",
+        "Frederick Stern"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental and Computational Aerodynamic Analysis of Low-Re Wings in Translation and Rotation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2841",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Acceleration",
+        "Rotation (mathematics)",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Wing",
+        "Mechanics",
+        "Kinematics",
+        "Lift (data mining)"
+      ],
+      "abstract": "Experimental validation of computational fluid dynamics (CFD) is critical to ensuring accurate results, especially for complex flow regimes. The current study investigates transition, a standard approach for Vertical Take-Off and Landing (VTOL) aircraft, in which lifting surfaces switch from forward flight to hover, and vice versa. Experimentally, a hybrid reverse wind tunnel system (HRWTS) is employed to simulate the acceleration and rotation of a wing model. This system is used in tandem with CFD efforts to characterize uncoupled acceleration at discrete angles of attack, rotation at constant inflow velocities, and coupled transition, wherein both acceleration and rotational kinematics are combined. Results indicate a strong correlation in the load predictions between the computations and the experiments. CFD results over-predict the loads after stalling. The acceleration rate has a significant effect on the accelerating and rotating wing compared to the wing that is only accelerating. The pitch rate has minimal effects on the rotating and accelerating-rotating wing.",
+      "authors": [
+        "Matthew White",
+        "Seshendra Palakurthy",
+        "Tulasi Ram Vechalapu",
+        "Anup Zope",
+        "Shreyas Narsipur",
+        "Shanti Bhushan"
+      ]
+    },
+    {
+      "title": "Computational Fluid Dynamics Modeling and Predicting Environmental Conditions in a Poultry Incubator",
+      "publication_year": 2025,
+      "publication_date": "2025-12-05",
+      "doi": "https://doi.org/10.1115/1.4070566",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Incubator",
+        "Computational fluid dynamics",
+        "Relative humidity",
+        "Environmental science",
+        "Marine engineering",
+        "Humidity",
+        "Current (fluid)",
+        "Air temperature"
+      ],
+      "abstract": "Abstract Environmental conditions of a poultry incubator impact chick embryo development and pathogen survivability and spread. The current practices of monitoring and control based on limited sensor locations inside an incubator give incomplete knowledge of the overall spatiotemporal distributions of important environmental factors such as temperature, humidity, and carbon dioxide. To better understand the environmental conditions inside an incubator, a computational fluid dynamics (CFD) model was developed to predict air ventilation patterns and scalar transport in a small-scale commercial incubator with two egg racks (1620 eggs total) over 18-day incubation period. Various modeling approaches were investigated to identify cost-effective numerical models for long duration simulations. The CFD model was validated using experimental datasets procured at four interior locations measuring velocity, temperature, humidity, and CO2. The CFD model compared within 12% of the experimental data for velocity, temperature, and CO2 accumulation predictions, but showed higher 37% error for relative humidity (RH). The limitation in temperature predictions was attributed to challenges in model...",
+      "authors": [
+        "Melvy Fernandes",
+        "Greg W. Burgreen",
+        "Jessica L. Drewry",
+        "J.L. Purswell",
+        "Shanti Bhushan"
+      ]
+    },
+    {
+      "title": "Hypersonic Trajectory Optimization Using a Data-Driven Surrogate Model for Convective Heat Transfer",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3404",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Computer science",
+        "Hypersonic speed",
+        "Convective heat transfer",
+        "Heat transfer",
+        "Trajectory optimization",
+        "Convection",
+        "Aerospace engineering"
+      ],
+      "abstract": "Accurate and rapid prediction of aerothermodynamic loads remains an ongoing challenge for intelligent trajectory design and optimization for hypersonic vehicles. Existing approaches rely on engineering approximations to estimate aerothermal heating, which are valid only for a limited range of flow conditions and geometric shapes. To address this shortcoming, we introduce a data-driven surrogate model to predict the convective heat flux anywhere on the vehicle surface as a function of freestream conditions, vehicle attitude, and wall temperature. We couple this novel framework with a gradient-based trajectory optimization algorithm that leverages modern computing hardware and open-source deep learning libraries. Using this architecture, we solve for a series of active maneuvers which minimizes the peak temperature measured across a local region of interest on the HIFiRE-5 vehicle payload. We also calculate a glide phase trajectory satisfying aerothermodynamic constraints imposed at a critical surface location. The demonstration cases indicate that our framework can successfully enforce terminal constraints while achieving optimization objectives. The proposed convective heating s...",
+      "authors": [
+        "Alexander S. Way",
+        "Adrian Sescu",
+        "Shanti Bhushan",
+        "Greg W. Burgreen",
+        "Anup Zope",
+        "Ian Dettwiller"
+      ]
+    },
+    {
+      "title": "Evaluating Loci-Chem Solver Capabilities for Transonic and Supersonic Flows Over Bay Cavities",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3883",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transonic",
+        "Supersonic speed",
+        "Solver",
+        "Aerospace engineering",
+        "Bay",
+        "Computer science",
+        "Geology",
+        "Aerodynamics"
+      ],
+      "abstract": "Cavity flows are prevalent in many fluids engineering applications. Relevant examples include combat aircraft that can be subject to high-speed cavity flows in their weapons bay or commercial aircraft that predominately encounter cavity flows during landing gear deployment and retraction. The strong acoustic effects of cavity flows are a major concern for stealth in military operations and noise control for commercial aircraft flying near airports. Being able to accurately model and control cavity flows will enable substantial improvements in aircraft design and performance. This paper aims at establishing a high- fidelity computational fluid dynamics framework based on wall-resolved LES, targeting the prediction of unsteady transonic and supersonic flows and pressure fluctuations developing over weapons bay cavities. The numerical results in terms of sound pressure level spectra and boundary layer quantities are validated using existing experimental data. The results shows that the numerical algorithm is able to accurately predict the SPL spectra in both transonic and supersonic conditions.",
+      "authors": [
+        "Mitchell Pegoda",
+        "Adrian Sescu",
+        "Shanti Bhushan",
+        "Ryan Schmit",
+        "Rachelle L. Speth"
+      ]
+    },
+    {
+      "title": "Development and Validation of Machine-Learned Actuator Line Model for Hydrokinetic Turbine Rotor",
+      "publication_year": 2025,
+      "publication_date": "2025-02-08",
+      "doi": "https://doi.org/10.1115/1.4067787",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotor (electric)",
+        "Actuator",
+        "Turbine",
+        "Model validation",
+        "Line (geometry)",
+        "Computer science",
+        "Marine engineering",
+        "Engineering"
+      ],
+      "abstract": "Abstract This study develops and validates a machine-learned (ML) actuator line model (ALM) as a promising advancement in turbine/rotor modeling that can be applied to diverse engineering applications. The model alleviates two limitations of the standard ALM, namely, its reliance on the predefined lift and drag coefficient tables and its inability to account for flow unsteadiness. The ML-ALM model is trained using a blade-resolved simulation database of forces acting on blade elements for unsteady inflow conditions. The model is validated for solitary turbine performance and wake predictions against experimental data and is verified for an inline turbine case for the performance and wake predictions of the downstream turbine against blade-resolved simulations. Its engineering applicability is demonstrated for an eight-turbine array farm simulation. The ML-ALM predicts turbine performance and wakes within 10% of blade-resolved results along with credible advection of tip vortical structures including breakdown and turbulent kinetic energy burst, using 92% less computational time than corresponding blade-resolved simulations.",
+      "authors": [
+        "Joshua Bowman",
+        "Shanti Bhushan",
+        "Greg W. Burgreen",
+        "Ian Dettwiller"
+      ]
+    }
+  ]
+}

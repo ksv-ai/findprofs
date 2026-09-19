@@ -1,0 +1,270 @@
+{
+  "faculty_name": "German Drazer",
+  "full_name": "Germán Drazer",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Rutgers University-New Brunswick",
+  "author_id": "A5041315704",
+  "works_count": 121,
+  "cited_by_count": 2263,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Microfluidic and Bio-sensing Technologies",
+      "count": 35
+    },
+    {
+      "topic": "Microfluidic and Capillary Electrophoresis Applications",
+      "count": 25
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 21
+    },
+    {
+      "topic": "Granular flow and fluidized beds",
+      "count": 16
+    },
+    {
+      "topic": "Electrostatics and Colloid Interactions",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Lattice Boltzmann method for non-Newtonian (power-law) fluids",
+      "publication_year": 2005,
+      "publication_date": "2005-10-25",
+      "doi": "https://doi.org/10.1103/physreve.72.046312",
+      "venue": "Physical Review E",
+      "type": "article",
+      "cited_by_count": 240,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/cond-mat/0506768",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Non-Newtonian fluid",
+        "Newtonian fluid",
+        "HPP model",
+        "Power law",
+        "Physics",
+        "Lattice (music)",
+        "Geometry"
+      ],
+      "abstract": "We study an ad hoc extension of the lattice Boltzmann method that allows the simulation of non-Newtonian fluids described by generalized Newtonian models. We extensively test the accuracy of the method for the case of shear-thinning and shear-thickening truncated power-law fluids in the parallel plate geometry, and show that the relative error compared to analytical solutions decays approximately linear with the lattice resolution. Finally, we also tested the method in the reentrant-flow geometry, in which the shear rate is no longer a scalar and the presence of two singular points requires high accuracy in order to obtain satisfactory resolution in the local stress near these points. In this geometry, we also found excellent agreement with the solutions obtained by standard finite-element methods, and the agreement improves with higher lattice resolution.",
+      "authors": [
+        "S. Gabbanelli",
+        "Germán Drazer",
+        "Joel Koplik"
+      ]
+    },
+    {
+      "title": "Permeability anisotropy induced by the shear displacement of rough fracture walls",
+      "publication_year": 2005,
+      "publication_date": "2005-09-01",
+      "doi": "https://doi.org/10.1029/2005wr003938",
+      "venue": "Water Resources Research",
+      "type": "article",
+      "cited_by_count": 123,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2005WR003938",
+      "concepts": [
+        "Anisotropy",
+        "Perpendicular",
+        "Shear (geology)",
+        "Lattice Boltzmann methods",
+        "Permeability (electromagnetism)",
+        "Materials science",
+        "Mechanics",
+        "Displacement (psychology)"
+      ],
+      "abstract": "The permeability anisotropy that results from a shear displacement between the complementary self‐affine walls of a rough fracture is investigated. Experiments in which a dyed fluid radially injected into a transparent fracture displaces a transparent one are presented. A clear anisotropy is observed in the presence of shear displacements and allows us to estimate the ratio of the permeabilities for flows parallel and perpendicular to . A simple model which accounts for the development of channels perpendicular to qualitatively explains these results and predicts a permeability decreasing (increasing) linearly with the variance of the aperture field for flow parallel (perpendicular) to the shear displacement. These predictions are then compared to the results of numerical simulations performed using a lattice Boltzmann technique and to the anisotropies measured in displacement experiments.",
+      "authors": [
+        "Harold Auradou",
+        "Germán Drazer",
+        "Jean‐Pierre Hulin",
+        "Joel Koplik"
+      ]
+    },
+    {
+      "title": "Flow channeling in a single fracture induced by shear displacement",
+      "publication_year": 2006,
+      "publication_date": "2006-10-01",
+      "doi": "https://doi.org/10.1016/j.geothermics.2006.11.004",
+      "venue": "Geothermics",
+      "type": "article",
+      "cited_by_count": 109,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/physics/0603058",
+      "concepts": [
+        "Perpendicular",
+        "Shear (geology)",
+        "Anisotropy",
+        "Mechanics",
+        "Displacement (psychology)",
+        "Geology",
+        "Scaling",
+        "Geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Harold Auradou",
+        "Germán Drazer",
+        "Alejandro Boschan",
+        "Jean‐Pierre Hulin",
+        "Joel Koplik"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Pattern Formation During Swelling in Aqueous Glycerin Solutions of Hydrogel Beads",
+      "publication_year": 2026,
+      "publication_date": "2026-02-16",
+      "doi": "https://doi.org/10.1021/acs.jpcb.5c07378",
+      "venue": "The Journal of Physical Chemistry B",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aqueous solution",
+        "Swelling",
+        "Viscosity",
+        "Pattern formation",
+        "Wavelength",
+        "Shell (structure)",
+        "Materials science",
+        "Instability"
+      ],
+      "abstract": "We investigated the surface instabilities that develop during the swelling of hydrogel beads immersed in aqueous glycerin solutions of varying concentrations. Using a simple laser imaging technique, we tracked the evolution of a dry inner core and a hydrated shell along with the transient formation of surface patterns. The experiments show a consistent transition from wrinkles to a labyrinth morphology, as both the number of lobules decreases and their characteristic wavelength increases. We find that the nondimensional wavelength of the surface patterns scales with the nondimensional thickness of the hydrated shell, independent of glycerin concentration. Additionally, when time is rescaled with a characteristic poroelastic time, the evolution of both the number of lobules as well as their wavelength from experiments with all of the different glycerin concentrations collapse onto a universal curve, highlighting that increasing the solution viscosity primarily delays the onset of the instability without altering its geometric nature.",
+      "authors": [
+        "Sebastian Ariel Falcioni",
+        "Yanina Lucrecia Roht",
+        "Germán Drazer",
+        "I. Ippolito"
+      ]
+    },
+    {
+      "title": "The influence of geometry on particle capture efficiency in trap impactors",
+      "publication_year": 2025,
+      "publication_date": "2025-07-05",
+      "doi": "https://doi.org/10.1016/j.jaerosci.2025.106643",
+      "venue": "Journal of Aerosol Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trap (plumbing)",
+        "Particle (ecology)",
+        "Geometry",
+        "Materials science",
+        "Physics",
+        "Mechanics",
+        "Meteorology",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "L. R. White",
+        "Edward P. DeMauro",
+        "Germán Drazer"
+      ]
+    },
+    {
+      "title": "Comparison of granules obtained with two twin-screw granulators of different diameter working at the same shear rate",
+      "publication_year": 2025,
+      "publication_date": "2025-05-02",
+      "doi": "https://doi.org/10.1016/j.powtec.2025.121092",
+      "venue": "Powder Technology",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.powtec.2025.121092",
+      "concepts": [
+        "Shear (geology)",
+        "Materials science",
+        "Composite material",
+        "Shear rate",
+        "Mechanical engineering",
+        "Engineering drawing",
+        "Mechanics",
+        "Engineering"
+      ],
+      "abstract": "We study the response of two twin-screw granulators of different barrel diameter to the variation of three process parameters (liquid-to-solid ratio, screw speed and throughput), while maintaining the same shear rate field along the screws. Various responses, including size distribution, porosity and content uniformity, were measured to determine granule characteristics. The set of experiments was based on a central composite design face-centered. Granules in both systems showed drug content consistent with expected values across varying process parameters. Relative granules size, normalized with the granulator gap, was larger for the equipment with the smaller gap. The liquid-to-solid ratio (LSR) was the most influential parameter affecting the granule size. Specifically, dimensional granule size increased with LSR values in both systems, consistent with previous studies. Elevated LSR values resulted in greater amounts of over-granulated material, whereas lower values produced exceedingly small (fines) or under-granulated material. The minimum amounts of both over- and under-granulated material were found at intermediate LSR values. Porosity varied differently between the syste...",
+      "authors": [
+        "Nazareth Eliana Ceschan",
+        "Marianela Balbi",
+        "Pablo D. Ravazzoli",
+        "Germán Drazer",
+        "Fernando J. Muzzio",
+        "Gerardo Callegari"
+      ]
+    },
+    {
+      "title": "Microstructure response of concentrated suspensions to flow reversal",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1140/epje/s10189-025-00472-9",
+      "venue": "The European Physical Journal E",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-04915455/document",
+      "concepts": [
+        "Microstructure",
+        "Volume fraction",
+        "Strain rate",
+        "Materials science",
+        "Shear rate",
+        "Strain partitioning",
+        "Shear flow",
+        "Atomic packing factor"
+      ],
+      "abstract": "",
+      "authors": [
+        "A. A. Garcia",
+        "Yanina Lucrecia Roht",
+        "I. Ippolito",
+        "D. Salin",
+        "Germán Drazer",
+        "Jean‐Pierre Hulin",
+        "Georges Gauthier"
+      ]
+    },
+    {
+      "title": "A label-free nanowell-based impedance sensor for ten-minute SARS-CoV-2 detection",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1039/d5sd00002e",
+      "venue": "Sensors & Diagnostics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2025/sd/d5sd00002e",
+      "concepts": [
+        "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "Coronavirus disease 2019 (COVID-19)",
+        "2019-20 coronavirus outbreak",
+        "Electrical impedance",
+        "Medicine",
+        "Computer science",
+        "Virology",
+        "Engineering"
+      ],
+      "abstract": "(1.5 pM) for spike proteins. Middle East respiratory syndrome (MERS-CoV) spike proteins are differentiated from SARS-CoV-2 spike proteins, demonstrating specificity.",
+      "authors": [
+        "Zhuolun Meng",
+        "Liam White",
+        "Pengfei Xie",
+        "Hassan Raji",
+        "Seyed Reza Mahmoodi",
+        "Aris Karapiperis",
+        "Hao Lin",
+        "Germán Drazer",
+        "Mehdi Javanmard",
+        "Edward P. DeMauro"
+      ]
+    }
+  ]
+}

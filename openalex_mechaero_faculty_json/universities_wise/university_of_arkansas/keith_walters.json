@@ -1,0 +1,243 @@
+{
+  "faculty_name": "Keith Walters",
+  "full_name": "D. Keith Walters",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Arkansas",
+  "author_id": "A5110562539",
+  "works_count": 146,
+  "cited_by_count": 3276,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 89
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 43
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 40
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 25
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Three-Equation Eddy-Viscosity Model for Reynolds-Averaged Navier–Stokes Simulations of Transitional Flow",
+      "publication_year": 2008,
+      "publication_date": "2008-10-24",
+      "doi": "https://doi.org/10.1115/1.2979230",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 601,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Turbulence modeling",
+        "Mechanics",
+        "Laminar flow",
+        "Boundary layer",
+        "Reynolds number",
+        "Reynolds stress equation model",
+        "K-epsilon turbulence model"
+      ],
+      "abstract": "An eddy-viscosity turbulence model employing three additional transport equations is presented and applied to a number of transitional flow test cases. The model is based on the k-ω framework and represents a substantial refinement to a transition-sensitive model that has been previously documented in the open literature. The third transport equation is included to predict the magnitude of low-frequency velocity fluctuations in the pretransitional boundary layer that have been identified as the precursors to transition. The closure of model terms is based on a phenomenological (i.e., physics-based) rather than a purely empirical approach and the rationale for the forms of these terms is discussed. The model has been implemented into a commercial computational fluid dynamics code and applied to a number of relevant test cases, including flat plate boundary layers with and without applied pressure gradients, as well as a variety of airfoil test cases with different geometries, Reynolds numbers, freestream turbulence conditions, and angles of attack. The test cases demonstrate the ability of the model to successfully reproduce transitional flow behavior with a reasonable degree of ...",
+      "authors": [
+        "D. Keith Walters",
+        "Davor Čokljat"
+      ]
+    },
+    {
+      "title": "A New Model for Boundary Layer Transition Using a Single-Point RANS Approach",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1115/1.1622709",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 299,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Computational fluid dynamics",
+        "Boundary layer",
+        "Turbulence",
+        "Mechanics",
+        "Turbulence modeling",
+        "Reynolds number",
+        "Computer science"
+      ],
+      "abstract": "This paper presents the development and implementation of a new model for bypass and natural transition prediction using Reynolds-averaged Navier-Stokes computational fluid dynamics (CFD), based on modification of two-equation, linear eddy-viscosity turbulence models. The new model is developed herein based on considerations of the universal character of transitional boundary layers that have recently been documented in the open literature, and implemented into a popular commercial CFD code (FLUENT) in order to assess its performance. Two transitional test cases are presented: (1) a boundary layer developing on a flat heated wall, with free-stream turbulence intensity Tu∞ ranging from 0.2 to 6%; and (2) flow over a turbine stator vane, with chord Reynolds number 2.3×105, and Tu∞ from 0.6 to 20%. Results are presented in terms of Stanton number, and compared to experimental data for both cases. Results show good agreement with the test cases and suggest that the new approach has potential as a predictive tool.",
+      "authors": [
+        "D. Keith Walters",
+        "James H. Leylek"
+      ]
+    },
+    {
+      "title": "A Detailed Analysis of Film-Cooling Physics: Part I—Streamwise Injection With Cylindrical Holes",
+      "publication_year": 1997,
+      "publication_date": "1997-02-01",
+      "doi": "https://doi.org/10.1115/1.555433",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 295,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vorticity",
+        "Discretization",
+        "Mechanics",
+        "Turbulence",
+        "Vortex",
+        "Boundary layer",
+        "Multigrid method",
+        "Physics"
+      ],
+      "abstract": "A previously documented systematic computational methodology is implemented and applied to a jet-in-crossflow problem in order to document all of the pertinent flow physics associated with a film-cooling flowfield. Numerical results are compared to experimental data for the case of a row of three-dimensional, inclined jets with length-to-diameter ratios similar to a realistic film-cooling application. A novel vorticity-based approach is included in the analysis of the flow physics. Particular attention has been paid to the downstream coolant structures and to the source and influence of counterrotating vortices in the crossflow region. It is shown that the vorticity in the boundary layers within the film hole is primarily responsible for this secondary motion. Important aspects of the study include: (1) a systematic treatment of the key numerical issues, including accurate computational modeling of the physical problem, exact geometry and high-quality grid generation techniques, higher-order numerical discretization, and accurate evaluation of turbulence model performance; (2) vorticity-based analysis and documentation of the physical mechanisms of jet–crossflow interaction and ...",
+      "authors": [
+        "D. Keith Walters",
+        "James H. Leylek"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Investigation of a Dynamic Hybrid Turbulence Modeling Strategy for CFD Simulation of Compound-Angle Film Cooling",
+      "publication_year": 2025,
+      "publication_date": "2025-06-16",
+      "doi": "https://doi.org/10.1115/gt2025-154111",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Coolant",
+        "Adiabatic process",
+        "Mechanics",
+        "Plenum space",
+        "Heat transfer"
+      ],
+      "abstract": "Abstract Consistently accurate computational prediction of the complex flow physics associated with gas turbine hot section component film cooling is important for ensuring effective and efficient heat transfer design. Since these flow fields are naturally highly turbulent and anisotropic, accurate yet cost-effective turbulence modeling techniques are a critical aspect of computational fluid dynamics (CFD) based analysis. A previous study conducted by the authors investigated the capabilities of the dynamic hybrid RANS-LES (DHRL) turbulence modeling framework compared to an industry standard RANS k-ω SST model for a normal jet-in-crossflow [1]. In the present study, attention is focused on both fluid dynamics and adiabatic effectiveness for an engine representative film-cooling configuration with available high quality experimental results [2]. The geometry consists of a row of streamwise and compound angled round coolant film holes. The density ratio between the coolant and crossflow is 1.5, obtained via foreign gas injection, with the crossflow air at 305 K and a pure nitrogen coolant stream at 203 K. Two different coolant injection modes are investigated for all blowing ratio...",
+      "authors": [
+        "Cole C. Simmonds",
+        "D. Keith Walters",
+        "James H. Leylek"
+      ]
+    },
+    {
+      "title": "LOKI: Laparoscopic Operational Kinematic Instrument",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/ismr67322.2025.11025967",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kinematics",
+        "Computer science",
+        "Aeronautics",
+        "Engineering",
+        "Physics",
+        "Classical mechanics"
+      ],
+      "abstract": "Laparoscopic surgery is an accepted surgical technique that is capable of improving patient outcomes when compared to open-surgery. However, one standing challenge is obtaining and maintaining an adequate field of view of the operative area through retraction. This paper presents LOKI, a laparoscopic operational kinematic instrument for surgical retraction that uses phase changing material (PCM) to switch between high dexterity and high stiffness. In this paper, we identify the clinical requirements, define the corresponding geometrical parameters of the PCM, propose a design for the arm and thermal management system of the thermal fluid, and perform thermal analysis using computational fluid dynamics to evaluate the phase transition time of the PCM across multiple flow rates. We demonstrate that despite the arm's relatively large size and thermal mass compared to prior art, the proposed thermal conduit permits an adequate thermal response. Observed computationally is a minimum phase transition time of 27 s for liquefaction and 14.5 s for solidification using a flow rate of$20\\left[\\frac{\\mathrm{L}}{~\\min}\\right]$.",
+      "authors": [
+        "D. Keith Walters",
+        "Kevin W. Sexton",
+        "Anthony L. Gunderman"
+      ]
+    },
+    {
+      "title": "A Proposed Universal Wall Function for Velocity and Temperature in Turbulent Near-Wall Flows of Low and High Prandtl Number Fluids",
+      "publication_year": 2025,
+      "publication_date": "2025-04-02",
+      "doi": "https://doi.org/10.1115/1.4068346",
+      "venue": "ASME Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Prandtl number",
+        "Turbulent Prandtl number",
+        "Turbulence",
+        "Mechanics",
+        "Function (biology)",
+        "Magnetic Prandtl number",
+        "Physics",
+        "Materials science"
+      ],
+      "abstract": "Abstract Wall functions are often used in practical engineering analysis of turbulent boundary layers to approximate the near-wall mean velocity and temperature distributions and/or provide boundary conditions, by relating flow variables some distance from the wall to values of wall shear stress and heat flux. General wall functions are applicable throughout the entire inner boundary layer, including the viscous sublayer, buffer region, and logarithmic region. Several well-known general wall functions are available for mean velocity, but there are fewer options for mean temperature, especially in the form of simple algebraic expressions that require no numerical integration and which are applicable over a wide range of fluid Prandtl numbers. This technical brief presents a new general wall function formulation for mean velocity and temperature that satisfies these conditions. Because it is a relatively simple algebraic function, it is easily implemented into new or existing computational fluid dynamics (CFD) solvers. The new wall function is validated by comparison to direct numerical simulation (DNS) data for turbulent channel flow with 80 < Re < 5000 and 0.007 < Pr < 10.",
+      "authors": [
+        "D. Keith Walters"
+      ]
+    },
+    {
+      "title": "Static and Dynamic Time Filtering Techniques for Hybrid RANS-Large Eddy Simulation of Non-Stationary Turbulent Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-02-08",
+      "doi": "https://doi.org/10.1115/1.4067790",
+      "venue": "Journal of Fluids Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Turbulence",
+        "Computer science",
+        "Statistical physics",
+        "Mechanics",
+        "Physics"
+      ],
+      "abstract": "Abstract Unsteady turbulent wall bounded flows can include complex flow physics such as temporally varying mean pressure gradients, intermittent regions of high turbulence intensity, and interaction of different scales of motion. As a representative example, pulsating channel flow presents significant challenges for newly developed and existing turbulence models in computational fluid dynamics (CFD) simulations. The present study investigates the performance of the dynamic hybrid Reynolds-averaged Navier-Stokes-large eddy simulation RANS-LES (DHRL) modeling framework for nonstationary turbulent flows using two variants of an exponential temporal filter for calculating statistics of the resolved turbulent flow. The first adopts a static filter size (static exponential time filtering-SETF) based on the characteristic time scale of imposed mean flow unsteadiness. The second uses a dynamic filter size (dynamic exponential time filtering-DETF) to vary the filter size based on local statistics of the resolved turbulent flow. Both of the time-filtered variants and the baseline (stationary) form of DHRL are compared against an industry-standard RANS model, monotonically integrated large...",
+      "authors": [
+        "Tausif Jamal",
+        "Olalekan O. Shobayo",
+        "D. Keith Walters",
+        "Shanti Bhushan"
+      ]
+    },
+    {
+      "title": "A Near-Wall Methodology for Large-Eddy Simulation Based on Dynamic Hybrid RANS-LES",
+      "publication_year": 2024,
+      "publication_date": "2024-12-14",
+      "doi": "https://doi.org/10.3390/e26121095",
+      "venue": "Entropy",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1099-4300/26/12/1095/pdf?version=1734166011",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Large eddy simulation",
+        "Turbulence",
+        "Mechanics",
+        "Detached eddy simulation",
+        "Boundary layer",
+        "Turbulence modeling",
+        "Reynolds number"
+      ],
+      "abstract": "Attempts to mitigate the computational cost of fully resolved large-eddy simulation (LES) in the near-wall region include both the hybrid Reynolds-averaged Navier-Stokes/LES (HRL) and wall-modeled LES (WMLES) approaches. This paper presents an LES wall treatment method that combines key attributes of the two, in which the boundary layer mesh is sized in the streamwise and spanwise directions comparable to WMLES, and the wall-normal mesh is comparable to a RANS simulation without wall functions. A mixing length model is used to prescribe an eddy viscosity in the near-wall region, with the mixing length scale limited based on local mesh size. The RANS and LES regions are smoothly blended using the dynamic hybrid RANS-LES (DHRL) framework. The results are presented for the turbulent channel flow at two Reynolds numbers, and comparison to the DNS results shows that the mean and fluctuating quantities are reasonably well predicted with no apparent log-layer mismatch. A detailed near-wall meshing strategy for the proposed method is presented, and estimates indicate that it can be implemented with approximately twice the number of grid points as traditional WMLES, while avoiding the di...",
+      "authors": [
+        "Michael Tullis",
+        "D. Keith Walters"
+      ]
+    }
+  ]
+}

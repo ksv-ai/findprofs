@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Jonathan Clark",
+  "full_name": "Jonathan E. Clark",
+  "department": "Department of Mechanical Engineering",
+  "university": "Florida State University",
+  "author_id": "A5034041450",
+  "works_count": 141,
+  "cited_by_count": 3255,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Robotic Locomotion and Control",
+      "count": 87
+    },
+    {
+      "topic": "Prosthetics and Rehabilitation Robotics",
+      "count": 41
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 37
+    },
+    {
+      "topic": "Amino Acid Enzymes and Metabolism",
+      "count": 15
+    },
+    {
+      "topic": "Modular Robots and Swarm Intelligence",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "SLC1A5 Mediates Glutamine Transport Required for Lung Cancer Cell Growth and Survival",
+      "publication_year": 2012,
+      "publication_date": "2012-12-05",
+      "doi": "https://doi.org/10.1158/1078-0432.ccr-12-2334",
+      "venue": "Clinical Cancer Research",
+      "type": "article",
+      "cited_by_count": 359,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3697078",
+      "concepts": [
+        "Glutamine",
+        "Lung cancer",
+        "Biology",
+        "Cell growth",
+        "Cancer research",
+        "Cancer",
+        "Cancer cell",
+        "Programmed cell death"
+      ],
+      "abstract": "PURPOSE: We have previously identified solute-linked carrier family A1 member 5 (SLC1A5) as an overexpressed protein in a shotgun proteomic analysis of stage I non-small cell lung cancer (NSCLC) when compared with matched controls. We hypothesized that overexpression of SLC1A5 occurs to meet the metabolic demand for lung cancer cell growth and survival. EXPERIMENTAL DESIGN: To test our hypothesis, we first analyzed the protein expression of SLC1A5 in archival lung cancer tissues by immunohistochemistry and immunoblotting (N = 98) and in cell lines (N = 36). To examine SLC1A5 involvement in amino acid transportation, we conducted kinetic analysis of l-glutamine (Gln) uptake in lung cancer cell lines in the presence and absence of a pharmacologic inhibitor of SLC1A5, gamma-l-Glutamyl-p-Nitroanilide (GPNA). Finally, we examined the effect of Gln deprivation and uptake inhibition on cell growth, cell-cycle progression, and growth signaling pathways of five lung cancer cell lines. RESULTS: Our results show that (i) SLC1A5 protein is expressed in 95% of squamous cell carcinomas (SCC), 74% of adenocarcinomas (ADC), and 50% of neuroendocrine tumors; (ii) SLC1A5 is located at the cytopla...",
+      "authors": [
+        "Mohamed Hassanein",
+        "Megan D. Hoeksema",
+        "Masakazu Shiota",
+        "Jun Qian",
+        "Bradford K. Harris",
+        "Heidi Chen",
+        "Jonathan E. Clark",
+        "William E. Alborn",
+        "Rosana Eisenberg",
+        "Pierre P. Massion"
+      ]
+    },
+    {
+      "title": "iSprawl: Design and Tuning for High-speed Autonomous Open-loop Running",
+      "publication_year": 2006,
+      "publication_date": "2006-08-23",
+      "doi": "https://doi.org/10.1177/0278364906069150",
+      "venue": "The International Journal of Robotics Research",
+      "type": "article",
+      "cited_by_count": 283,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hexapod",
+        "STRIDE",
+        "Trajectory",
+        "Transmission (telecommunications)",
+        "Control theory (sociology)",
+        "Power (physics)",
+        "Center of mass (relativistic)",
+        "Computer science"
+      ],
+      "abstract": "We describe the design features that underlie the operation of iSprawl, a small (0.3 kg) autonomous, bio-inspired hexapod that runs at 15 body-lengths/second (2.3 m/s). These features include a tuned set of leg compliances for efficient running and a light and flexible power transmission system. This transmission system permits high speed rotary power to be converted to periodic thrusting and distributed to the tips of the rapidly swinging legs. The specific resistance of iSprawl is approximately constant at 1.75 for speeds between 1.25 m/s and 2.5 m/s. Examination of the trajectory of the center of mass and the ground reaction forces for iSprawl show that it achieves a stable, bouncing locomotion similar to that seen in insects and in previous (slower) bio-inspired robots, but with an unusually high stride frequency for its size.",
+      "authors": [
+        "Sangbae Kim",
+        "Jonathan E. Clark",
+        "Mark R. Cutkosky"
+      ]
+    },
+    {
+      "title": "Fast and Robust: Hexapedal Robots via Shape Deposition Manufacturing",
+      "publication_year": 2002,
+      "publication_date": "2002-10-01",
+      "doi": "https://doi.org/10.1177/0278364902021010837",
+      "venue": "The International Journal of Robotics Research",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Robustness (evolution)",
+        "Biomimetics",
+        "3D printing",
+        "Computer science",
+        "Actuator",
+        "Mobile robot",
+        "Robotics"
+      ],
+      "abstract": "Robots to date lack the robustness and performance of even the simplest animals when operating in unstructured environments. This observation has prompted an interest in biomimetic robots that take design inspiration from biology. However, even biomimetic designs are compromised by the complexity and fragility that result from using traditional engineering materials and manufacturing methods. We argue that biomimetic design must be combined with structures that mimic the way biological structures are composed, with embedded actuators and sensors and spatially-varied materials. This proposition is made possible by a layered-manufacturing technology called shape deposition manufacturing (SDM). We present a family of hexapedal robots whose functional biomimetic design is made possible by SDM's unique capabilities and whose fast (over four body-lengths per second) and robust (traversal over hip-height obstacles) performance begins to compare to that seen in nature. We describe the design and fabrication of the robots and we present the results of experiments that focus on their performance and locomotion dynamics.",
+      "authors": [
+        "Jorge Cham",
+        "Sean A. Bailey",
+        "Jonathan E. Clark",
+        "Robert J. Full",
+        "Mark R. Cutkosky"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Model-based Optimization of Anguilliform Swimming Gaits for Soft Robotic Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://doi.org/10.48550/arxiv.2606.11278",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.11278",
+      "concepts": [
+        "Fish locomotion",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Inertial frame of reference",
+        "Robot",
+        "Climbing",
+        "Computer science",
+        "Control engineering"
+      ],
+      "abstract": "In this paper, we introduce the Soft Lamprey-Inspired Dual Environment Robot (SLIDER) and a proper modeling and optimization procedure employed to design the robot. We represent the primary fluid environment actions - inertial effects, vortex forces, and viscous dissipation - using Lighthill's theory for large-amplitude elongated bodies. For structural design parameters such as internal pressure, tail size, and body stiffness, a fast, geometrically and materially nonlinear model is developed and validated. The fluid-structure interaction equations are solved implicitly with an efficient second-order box method. A pneumatic manifold robotic system is employed to actuate SLIDER in a quiescent water tank environment, allowing cross-comparison of computational and experimental results. We find that low-frequency swimming is dominated by resistant environmental forces, whereas higher-frequency swimming is primarily affected by inertial fluid forces. Using our efficient model alongside a genetic algorithm, we co-optimize a swimming control pattern and caudal fin design (subject to SLIDER's climbing morphology) to achieve a tethered swimming speed of 21.7 +/- 0.4 cm/s (0.59 Bl/s). Furt...",
+      "authors": [
+        "Brian Van Stratum",
+        "James Gallentine",
+        "D. Caleb Rucker",
+        "Eric Barth",
+        "Jonathan E. Clark",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Model-based Optimization of Anguilliform Swimming Gaits for Soft Robotic Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-09",
+      "doi": "https://arxiv.org/abs/2606.11278",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.11278",
+      "concepts": [
+        "Fish locomotion",
+        "Control theory (sociology)",
+        "Nonlinear system",
+        "Inertial frame of reference",
+        "Robot",
+        "Climbing",
+        "Computer science",
+        "Control engineering"
+      ],
+      "abstract": "In this paper, we introduce the Soft Lamprey-Inspired Dual Environment Robot (SLIDER) and a proper modeling and optimization procedure employed to design the robot. We represent the primary fluid environment actions - inertial effects, vortex forces, and viscous dissipation - using Lighthill's theory for large-amplitude elongated bodies. For structural design parameters such as internal pressure, tail size, and body stiffness, a fast, geometrically and materially nonlinear model is developed and validated. The fluid-structure interaction equations are solved implicitly with an efficient second-order box method. A pneumatic manifold robotic system is employed to actuate SLIDER in a quiescent water tank environment, allowing cross-comparison of computational and experimental results. We find that low-frequency swimming is dominated by resistant environmental forces, whereas higher-frequency swimming is primarily affected by inertial fluid forces. Using our efficient model alongside a genetic algorithm, we co-optimize a swimming control pattern and caudal fin design (subject to SLIDER's climbing morphology) to achieve a tethered swimming speed of 21.7 +/- 0.4 cm/s (0.59 Bl/s). Furt...",
+      "authors": [
+        "Brian Van Stratum",
+        "James Gallentine",
+        "Caleb Rucker",
+        "Eric Barth",
+        "Jonathan E. Clark",
+        "Kourosh Shoele"
+      ]
+    },
+    {
+      "title": "Bioelectronic Technology for Nutritional Research—a Novel In Vitro Platform for a Better Understanding of Human Gut Barrier Absorption",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1002/adbi.202500409",
+      "venue": "Advanced Biology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adbi.202500409",
+      "concepts": [
+        "In vitro",
+        "Cell biology",
+        "Nutrient sensing",
+        "Chemistry",
+        "Signal transduction",
+        "Gut flora",
+        "Cell signaling",
+        "Biology"
+      ],
+      "abstract": "The epithelial gut barrier and gut microbiota significantly contribute to human health by controlling molecule absorption, a regulated transport that dictates bioavailability. Effective public health strategies, like dietary reference values, require a complete understanding of nutrient absorption. However, the lack of internationally harmonized nutritional recommendations indicates that gut barrier mechanisms are not fully unraveled. The conventional in vitro model Caco-2/HT29-MTX cultured on cell culture inserts, established for drug development, is limited in representing complex human gut physiology. The new bioelectronic e-transmembrane platform leverages technological and biological advances to generate more meaningful in vitro predictions. The soft electroactive Poly (3,4-ethylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS) scaffold enables direct cell-electrode coupling for more sensitive barrier impedance measurements, especially required for testing commonly low physiological nutrient concentrations. Promoted epithelial-fibroblast interactions result in modulated protein signal transduction and expression of genes regulating gut barrier integrity. Overall, the e-t...",
+      "authors": [
+        "Verena Stoeger",
+        "Magdalena E Strauß",
+        "Kumar Thurimella",
+        "Shani Elias‐Kirma",
+        "Izabella Niewczas",
+        "Etkin Parlar",
+        "Erika Schaudy",
+        "Chrysanthi‐Maria Moysidou",
+        "Stephen Voong",
+        "Jory Lietard",
+        "Jonathan E. Clark",
+        "Christopher Gerner",
+        "Róisı́n M. Owens"
+      ]
+    },
+    {
+      "title": "A Single Actuator Driven Two-Fold Symmetric Mechanism for Versatile Dynamic Locomotion",
+      "publication_year": 2025,
+      "publication_date": "2025-12-23",
+      "doi": "https://doi.org/10.3390/robotics15010002",
+      "venue": "Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2218-6581/15/1/2/pdf?version=1766499726",
+      "concepts": [
+        "Mechanism (biology)",
+        "Actuator",
+        "Control theory (sociology)",
+        "Jump",
+        "Computer science",
+        "Robot",
+        "Simulation",
+        "Gait"
+      ],
+      "abstract": "Tumbling, rolling, and somersaults are alternate forms of locomotion used by animals and robots to navigate rough terrains. In this paper, we present a Two-Fold Symmetric (TFS) mechanism that demonstrates dynamic tumbling and leaping using a single actuator. The dynamics of the proposed mechanism are captured by a hybrid dynamic model with discrete states based on the nature of ground contact. By changing the shape parameters of a trapezoidal actuation signal, various dynamic responses and gaits are attained. Simulations and hardware experiments demonstrate tumbling and leaping/hopping. It is shown that the mechanism demonstrates gait versatility and attains speeds up to 3.0 Body Lengths per second and can jump up to a height of 60% of its total height, all using a single actuator that sets it apart from contemporary tumbling robots.",
+      "authors": [
+        "Muhammad Hamza Asif Nizami",
+        "Zaid Ahsan Shah",
+        "Charles A. Young",
+        "Jonathan E. Clark"
+      ]
+    },
+    {
+      "title": "Motion Planning for Multimodal Underwater Legged Robots",
+      "publication_year": 2025,
+      "publication_date": "2025-09-02",
+      "doi": "https://doi.org/10.1109/ecmr65884.2025.11163233",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Robot",
+        "Motion planning",
+        "Artificial intelligence",
+        "Motion (physics)",
+        "Computer vision",
+        "Underwater",
+        "Engineering"
+      ],
+      "abstract": "This paper presents a method for enabling autonomous navigation of a legged underwater robot designed to perform targeted exploration missions on the seafloor. Unlike traditional underwater vehicles, which rely on thrusters or tracks and often struggle with stability and precise movement on uneven terrain, the proposed system leverages a hybrid locomotion strategy–including walking, jumping, swimming, and sinking gaits–to adapt to diverse and unstructured environments while minimizing disturbance to the seafloor.Experimental results demonstrate that the robot is capable of generating multi-modal trajectories, dynamically choosing between swimming, jumping, descending and walking gaits. Both local and global motion plans are generated to achieve either distance or energy optimal motions around or over seafloor obstacles.",
+      "authors": [
+        "J. F. Boylan",
+        "Camilo Ordóñez",
+        "Jonathan E. Clark"
+      ]
+    }
+  ]
+}

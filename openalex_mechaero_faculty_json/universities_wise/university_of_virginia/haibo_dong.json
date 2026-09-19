@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Haibo Dong",
+  "full_name": "Haibo Dong",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Virginia",
+  "author_id": "A5067836089",
+  "works_count": 316,
+  "cited_by_count": 4417,
+  "h_index": 37,
+  "top_topics": [
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 201
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 78
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 71
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 59
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 52
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Hydrodynamic Performance of Aquatic Flapping: Efficiency of Underwater Flight in the Manta",
+      "publication_year": 2016,
+      "publication_date": "2016-07-11",
+      "doi": "https://doi.org/10.3390/aerospace3030020",
+      "venue": "Aerospace",
+      "type": "article",
+      "cited_by_count": 212,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2226-4310/3/3/20/pdf?version=1468217096",
+      "concepts": [
+        "Flapping",
+        "Strouhal number",
+        "Propulsive efficiency",
+        "Thrust",
+        "Propulsion",
+        "Wingspan",
+        "Fish fin",
+        "Marine engineering"
+      ],
+      "abstract": "The manta is the largest marine organism to swim by dorsoventral oscillation (flapping) of the pectoral fins. The manta has been considered to swim with a high efficiency stroke, but this assertion has not been previously examined. The oscillatory swimming strokes of the manta were examined by detailing the kinematics of the pectoral fin movements swimming over a range of speeds and by analyzing simulations based on computational fluid dynamic potential flow and viscous models. These analyses showed that the fin movements are asymmetrical up- and downstrokes with both spanwise and chordwise waves interposed into the flapping motions. These motions produce complex three-dimensional flow patterns. The net thrust for propulsion was produced from the distal half of the fins. The vortex flow pattern and high propulsive efficiency of 89% were associated with Strouhal numbers within the optimal range (0.2–0.4) for rays swimming at routine and high speeds. Analysis of the swimming pattern of the manta provided a baseline for creation of a bio-inspired underwater vehicle, MantaBot.",
+      "authors": [
+        "Frank E. Fish",
+        "Christian Schreiber",
+        "Keith W. Moored",
+        "Geng Liu",
+        "Haibo Dong",
+        "Hilary Bart‐Smith"
+      ]
+    },
+    {
+      "title": "Vortex dynamics and new lift enhancement mechanism of wing–body interaction in insect forward flight",
+      "publication_year": 2016,
+      "publication_date": "2016-04-19",
+      "doi": "https://doi.org/10.1017/jfm.2016.175",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 117,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Flapping",
+        "Lift (data mining)",
+        "Physics",
+        "Mechanics",
+        "Vortex lift",
+        "Vortex",
+        "Insect flight"
+      ],
+      "abstract": "The effects of wing–body interaction (WBI) on aerodynamic performance and vortex dynamics have been numerically investigated in the forward flight of cicadas. Flapping wing kinematics was reconstructed based on the output of a high-speed camera system. Following the reconstruction of cicada flight, three models, wing–body (WB), body-only (BD) and wings-only (WN), were then developed and evaluated using an immersed-boundary-method-based incompressible Navier–Stokes equations solver. Results have shown that due to WBIs, the WB model had a 18.7 % increase in total lift production compared with the lift generated in both the BD and WN models, and about 65 % of this enhancement was attributed to the body. This resulted from a dramatic improvement of body lift production from 2 % to 11.6 % of the total lift produced by the wing–body system. Further analysis of the associated near-field and far-field vortex structures has shown that this lift enhancement was attributed to the formation of two distinct vortices shed from the thorax and the posterior of the insect, respectively, and their interactions with the flapping wings. Simulations are also used to examine the new lift enhancement ...",
+      "authors": [
+        "Geng Liu",
+        "Haibo Dong",
+        "Chengyu Li"
+      ]
+    },
+    {
+      "title": "Wing kinematics measurement and aerodynamics of a dragonfly in turning flight",
+      "publication_year": 2017,
+      "publication_date": "2017-01-06",
+      "doi": "https://doi.org/10.1088/1748-3190/aa5761",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 108,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1748-3190/aa5761/pdf",
+      "concepts": [
+        "Wing",
+        "Thrust",
+        "Kinematics",
+        "Aerodynamics",
+        "Angle of attack",
+        "Aerodynamic force",
+        "Aerospace engineering",
+        "Wing loading"
+      ],
+      "abstract": "This study integrates high-speed photogrammetry, 3D surface reconstruction, and computational fluid dynamics to explore a dragonfly (Erythemis Simplicicollis) in free flight. Asymmetric wing kinematics and the associated aerodynamic characteristics of a turning dragonfly are analyzed in detail. Quantitative measurements of wing kinematics show that compared to the outer wings, the inner wings sweep more slowly with a higher angle of attack during the downstroke, whereas they flap faster with a lower angle of attack during the upstroke. The inner-outer asymmetries of wing deviations result in an oval wingtip trajectory for the inner wings and a figure-eight wingtip trajectory for the outer wings. Unsteady aerodynamics calculations indicate significantly asymmetrical force production between the inner and outer wings, especially for the forewings. Specifically, the magnitude of the drag force on the inner forewing is approximately 2.8 times greater than that on the outer forewing during the downstroke. In the upstroke, the outer forewing generates approximately 1.9 times greater peak thrust than the inner forewing. To keep the body aloft, the forewings contribute approximately 64%...",
+      "authors": [
+        "Chengyu Li",
+        "Haibo Dong"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Hydrodynamic interactions of low-aspect-ratio oscillating panels in a tip-to-tip formation",
+      "publication_year": 2026,
+      "publication_date": "2026-03-02",
+      "doi": "https://doi.org/10.1017/jfm.2026.11175",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FD5CF16A2A2015261B51092F78E2DC4A/S0022112026111756a.pdf/div-class-title-hydrodynamic-interactions-of-low-aspect-ratio-oscillating-panels-in-a-tip-to-tip-formation-div.pdf",
+      "concepts": [
+        "Strouhal number",
+        "Mechanics",
+        "Physics",
+        "Vortex",
+        "Thrust",
+        "Flow visualization",
+        "Merge (version control)",
+        "Water tunnel"
+      ],
+      "abstract": "The vertical, tip-to-tip arrangement of neighbouring caudal fins, common in densely packed fish schools, has received much less attention than staggered or side-by-side pairings. We explore this configuration using a canonical system of two trapezoidal panels (aspect ratio ${\\textit{AR}}=1.2$ ) that pitch about their leading edges while heaving harmonically at a Strouhal number $St=0.45$ and a reduced frequency $k=2.09$ . Direct numerical simulations based on an immersed-boundary method are conducted over a Reynolds-number range of $600\\leq {\\textit{Re}}\\leq 1\\times 10^{4}$ , and complementary water-channel experiments extend this range to $1\\times 10^{4} \\leq {\\textit{Re}}\\leq 3\\times 10^{4}$ . Results indicate that when the panels oscillate in phase at a non-dimensional vertical spacing $H/c\\leq 1.0$ with $c$ denoting the panel chord length, the cycle-averaged thrust of each panel rises by up to 14.5 % relative to an isolated panel; the enhancement decreases monotonically as the spacing increases. Anti-phase motion instead lowers the power consumption by up to 6 %, with only a modest thrust penalty, providing an alternative interaction regime. Flow visualisation shows that in-...",
+      "authors": [
+        "Yu Pan",
+        "Yuanhang Zhu",
+        "Elizabeth Westfall",
+        "Daniel B. Quinn",
+        "Haibo Dong",
+        "George Lauder"
+      ]
+    },
+    {
+      "title": "Fins in formation: hydrodynamic impact of median fins in in-line fish swimming",
+      "publication_year": 2026,
+      "publication_date": "2026-01-09",
+      "doi": "https://doi.org/10.1088/1748-3190/ae3652",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1748-3190/ae3652",
+      "concepts": [
+        "Drag",
+        "Fin",
+        "Mechanics",
+        "Reynolds number",
+        "Thrust",
+        "Dorsal fin",
+        "Wake",
+        "Fish fin"
+      ],
+      "abstract": "Abstract Median fins, including the dorsal and anal fins, influence fish propulsion by lowering body drag and increasing caudal fin thrust through active movement. While their role in solitary swimming is established, their impact on hydrodynamics within schooling environments remains unclear. Using high-fidelity computational fluid dynamics simulations of in-line fish pairs, we systematically varied median fin presence on leaders and followers to isolate neighbor-induced performance changes. When comparing the full-finned configuration to the finless configuration at a leader-follower streamwise spacing ( S ) of 1.1 body lengths ( l ), the follower’s drag was reduced by 9.5%. A significant contribution of the total drag reduction, about 70%, was neighbor-induced, arising from wake-body interactions with the wake of a leader that had median fins, while the rest was attributed to adding the follower’s own median fins. This neighbor-induced benefit arises from stronger leader-generated vortex structures that interact with the follower’s body, lowering both shear and pressure drag. The neighbor-induced benefits persist across a range of spacings, diminishing only beyond S = 1.4 l. ...",
+      "authors": [
+        "Alec Menzer",
+        "Yu Pan",
+        "George Lauder",
+        "Haibo Dong"
+      ]
+    },
+    {
+      "title": "Design of A Lightweight Robotic Tensegrity Morphing Airfoil",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0259",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Morphing",
+        "Tensegrity",
+        "Lift (data mining)",
+        "Computer science",
+        "Lift-to-drag ratio",
+        "Engineering",
+        "Aerodynamics"
+      ],
+      "abstract": "This paper explores the design and fabrication of a robotic airfoil based on a tensegrity morphing structure. We begin by introducing a family of tensegrity morphing airfoil designs that convert a continuous airfoil shape into a discrete configuration. The airfoil structure is divided into two main components: a rigid section (the D-section head) and a flexible section (the tensegrity morphing tail). We compute aerodynamic forces using the panel method and, based on the drag and lift analyses, propose a morphing airfoil design and develop its CAD model. This model integrates all essential electronics, including the battery, PCB board, and motors, within the rigid D-section. The flexible tail is actuated by strings, enabling adaptive morphing. Our approach integrates lightweight tensegrity principles with adaptive design to create efficient morphing airfoil structures. The methodology is also applicable to bio-inspired wings, robotic fingers, grippers, and other soft robotic systems.",
+      "authors": [
+        "Luyang Zhao",
+        "Yitao Jiang",
+        "Chun-Yi She",
+        "Devin Balkcom",
+        "Haibo Dong",
+        "Muhao Chen"
+      ]
+    },
+    {
+      "title": "Computational analysis of fish-foil pairing and wake energy extraction in low-speed flow",
+      "publication_year": 2025,
+      "publication_date": "2025-09-11",
+      "doi": "https://doi.org/10.1088/1748-3190/ae0632",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1748-3190/ae0632",
+      "concepts": [
+        "Wake",
+        "Thrust",
+        "Vortex",
+        "Flume",
+        "Kinematics",
+        "Mechanics",
+        "Advection",
+        "FOIL method"
+      ],
+      "abstract": "The energetic consequences of swimming within a neighboring fish's vortex street remain a central question in collective locomotion. Recent flume experiments in which a flapping hydrofoil generated a biomimetic wake demonstrated that a trout can station-keep behind the foil while displaying kinematics markedly different from those used in uniform flow. To examine the underlying hydrodynamics, we accurately replicate the fish-foil system by first reproducing the experimentally recorded motions using a joint-based kinematic reconstruction method, and then we simulate the fluid dynamics with three-dimensional computational fluid dynamics. A companion simulation without the foil is also conducted to isolate wake effects. Relative to uniform-flow swimming, the presence of the foil wake reduces the trout's cycle-averaged hydrodynamic power expenditure by 11.4 ± 0.0003%, a benefit that arises because vortex columns shed by the foil create coherent negative-pressure corridors along the fish's lateral surface. Power reduction is realized when the trout's long-wavelength body wave remains phase-locked with the downstream advection of these vortex structures, enabling the fish to harvest p...",
+      "authors": [
+        "Jiacheng Guo",
+        "George Lauder",
+        "Robin Thandiackal",
+        "Haibo Dong"
+      ]
+    },
+    {
+      "title": "Hydrodynamic Interactions Between Schooling Fish in a Three-Dimensional Non-Planar Cluster",
+      "publication_year": 2025,
+      "publication_date": "2025-07-27",
+      "doi": "https://doi.org/10.1115/fedsm2025-158490",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Front (military)",
+        "Cluster (spacecraft)",
+        "Plane (geometry)",
+        "Geometry",
+        "Phase (matter)",
+        "Thrust",
+        "Vortex"
+      ],
+      "abstract": "Abstract Schooling fish can fall into many different positions relative to their neighbors, resulting in different hydrodynamic interactions. Fish in large schools have been observed to share similar frontal planes relative to their neighbors, especially those at the front of the school, and differ from each other in their depths. In this work, we analyze two frontal triangular formations: side triangle (ST) and downward triangle (DT). In these formations the neighbors share the same frontal plane (same streamwise position) but vary in depth. In our prior study of the side-by-side interactions between neighbors, the undulating phase difference between the nearest laterally separated neighbors heavily impact the propulsive performance of the swimmers. Thus, in this study, we varied the phase difference between nearest lateral neighbors, between values of 0 and π, to analyze the in-phase and anti-phase modes of interaction. We conducted three-dimensional (3D) direct numerical simulations (DNS) on the frontal triangle formations using an immersed-boundary method (IBM). At a Reynolds number of 4000, we ensured grid-independent result. Through our simulations we find that the anti-ph...",
+      "authors": [
+        "Jiacheng Guo",
+        "Haibo Dong"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Ali Mani",
+  "full_name": "Ali Mani",
+  "department": "Department of Mechanical Engineering",
+  "university": "Stanford University",
+  "author_id": "A5066321909",
+  "works_count": 302,
+  "cited_by_count": 5653,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 86
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 74
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 43
+    },
+    {
+      "topic": "Membrane-based Ion Separation Techniques",
+      "count": 42
+    },
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 29
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Theory and experiments of concentration polarization and ion focusing at microchannel and nanochannel interfaces",
+      "publication_year": 2010,
+      "publication_date": "2010-01-01",
+      "doi": "https://doi.org/10.1039/b902074h",
+      "venue": "Chemical Society Reviews",
+      "type": "review",
+      "cited_by_count": 297,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Microfluidics",
+        "Microchannel",
+        "Nanofluidics",
+        "Nanotechnology",
+        "Polarization (electrochemistry)",
+        "Context (archaeology)",
+        "Ion",
+        "Materials science"
+      ],
+      "abstract": "In this tutorial review aimed at researchers using nanofluidic devices, we summarize the current state of theoretical and experimental approaches to describing concentration polarization (CP) in hybrid microfluidic-nanofluidic systems. We also analyze experimental results for these systems and place them in the context of recent theoretical developments. We then extend the theory to explain the behavior of both positively and negatively charged, low-concentration, analyte species in systems with CP. We conclude by discussing several applications of CP in microfluidics.",
+      "authors": [
+        "Thomas A. Zangle",
+        "Ali Mani",
+        "Juan G. Santiago"
+      ]
+    },
+    {
+      "title": "Overlimiting Current in a Microchannel",
+      "publication_year": 2011,
+      "publication_date": "2011-09-06",
+      "doi": "https://doi.org/10.1103/physrevlett.107.118301",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 283,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1108.2325",
+      "concepts": [
+        "Electrokinetic phenomena",
+        "Microchannel",
+        "Mechanics",
+        "Materials science",
+        "Current (fluid)",
+        "Convection",
+        "Instability",
+        "Diffusion"
+      ],
+      "abstract": "We revisit the classical problem of diffusion-limited ion transport to a membrane (or electrode) by considering the effects of charged sidewalls. Using simple mathematical models and numerical simulations, we identify three basic mechanisms for overlimiting current in a microchannel: (i) surface conduction carried by excess counterions, which dominates for very thin channels, (ii) convection by electro-osmotic flow on the sidewalls, which dominates for thicker channels, and (iii) transitions to electro-osmotic instability on the membrane end in very thick channels. These intriguing electrokinetic phenomena may find applications in biological separations, water desalination, and electrochemical energy storage.",
+      "authors": [
+        "E. Victoria Dydek",
+        "Boris Zaltzman",
+        "Isaak Rubinstein",
+        "Daosheng Deng",
+        "Ali Mani",
+        "Martin Z. Bazant"
+      ]
+    },
+    {
+      "title": "On the Propagation of Concentration Polarization from Microchannel−Nanochannel Interfaces Part I: Analytical Model and Characteristic Analysis",
+      "publication_year": 2009,
+      "publication_date": "2009-03-10",
+      "doi": "https://doi.org/10.1021/la803317p",
+      "venue": "Langmuir",
+      "type": "article",
+      "cited_by_count": 243,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4816500",
+      "concepts": [
+        "Electrokinetic phenomena",
+        "Microchannel",
+        "Chemistry",
+        "Concentration polarization",
+        "Polarization (electrochemistry)",
+        "Ion",
+        "Mechanics",
+        "Poisson's equation"
+      ],
+      "abstract": "We develop two models to describe ion transport in variable-height micro- and nanochannels. For the first model, we obtain a one-dimensional (unsteady) partial differential equation governing flow and charge transport through a shallow and wide electrokinetic channel. In this model, the effects of electric double layer (EDL) on axial transport are taken into account using exact solutions of the Poisson-Boltzmann equation. The second simpler model, which is approachable analytically, assumes that the EDLs are confined to near-wall regions. Using a characteristics analysis, we show that the latter model captures concentration polarization (CP) effects and provides useful insight into its dynamics. Two distinct CP regimes are identified: CP with propagation in which enrichment and depletion shocks propagate outward, and CP without propagation where polarization effects stay local to micro- nanochannel interfaces. The existence of each regime is found to depend on a nanochannel Dukhin number and mobility of the co-ion nondimensionalized by electroosmotic mobility. Interestingly, microchannel dimensions and axial diffusion are found to play an insignificant role in determining whethe...",
+      "authors": [
+        "Ali Mani",
+        "Thomas A. Zangle",
+        "Juan G. Santiago"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Generalized Forcing Method: Generation of Diverse Data for Training Linear Transport PDE Closure Models",
+      "publication_year": 2026,
+      "publication_date": "2026-06-03",
+      "doi": "https://doi.org/10.48550/arxiv.2606.05141",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.05141",
+      "concepts": [
+        "Closure (psychology)",
+        "Forcing (mathematics)",
+        "Mathematics",
+        "Homogeneous",
+        "Applied mathematics",
+        "Basis (linear algebra)",
+        "Work (physics)",
+        "Closure problem"
+      ],
+      "abstract": "Data-driven closure modeling for transport partial differential equations requires training data that are accurate, affordable, diverse, and directly tailored to the target closure fields. We develop the Generalized Forcing Method (GFM), a data-generation framework for training linear transport closure models. GFM generates such data by running simulations with a zero initial condition and an extra body force that is constructed compatibly with the reduced dynamics. This framework leads to implicit GFM (iGFM), which prescribes resolved trajectories, and explicit GFM (eGFM), which constructs a basis of admissible forcings. We apply eGFM to three linear transport closure problems: homogeneous shear flows, spatially inhomogeneous flows, and homogeneous shear flows with random coefficients. The results show that eGFM can identify accurate and stable reduced models when the reduced variables and model form are consistent with the underlying closure relation.",
+      "authors": [
+        "Wenyuan Xue",
+        "Ali Mani"
+      ]
+    },
+    {
+      "title": "A variable-coefficient model for decay of isotropic turbulence capturing effects of finite cascade time and Reynolds number",
+      "publication_year": 2026,
+      "publication_date": "2026-06-02",
+      "doi": "https://doi.org/10.48550/arxiv.2606.03642",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.03642",
+      "concepts": [
+        "Dissipation",
+        "Reynolds number",
+        "Dissipative system",
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Energy cascade",
+        "Cascade"
+      ],
+      "abstract": "We study isotropic turbulence decay in the context of the k-epsilon model, which solves the dissipation and kinetic energy equations. In modeling the dissipation equation, the coefficient C_epsilon2, suggested by Hanjalic and Launder [Journal of Fluid Mechanics, 1972] [1], is related to the temporal decay power-law by n = 1/(C_epsilon2 -1 )) and is assumed to be a constant value. In this work, we perform high-fidelity numerical simulations to examine the mathematical terms responsible for the decay of isotropic turbulence, considering both scenarios of forced and decaying turbulence. Our data suggest that the instantaneous C_epsilon2 not only depends on the instantaneous Reynolds number but is also sensitive to the history of energy injection in turbulence. We attribute these observations to the finite time required for the cascade from energetic to dissipative scales. Considering data from both decaying and growing forced turbulence, we develop an evolution equation for C_epsilon2 with Reynolds-dependent coefficients. We demonstrate that this model accurately captures the time evolution of dissipation and kinetic energy over a wide range of Reynolds numbers under a wide range o...",
+      "authors": [
+        "Rozie Zangeneh",
+        "Wenyuan Xue",
+        "Daniel Israel",
+        "Ali Mani"
+      ]
+    },
+    {
+      "title": "A variable-coefficient model for decay of isotropic turbulence capturing effects of finite cascade time and Reynolds number",
+      "publication_year": 2026,
+      "publication_date": "2026-06-02",
+      "doi": "https://arxiv.org/abs/2606.03642",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.03642",
+      "concepts": [
+        "Dissipation",
+        "Reynolds number",
+        "Dissipative system",
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Energy cascade",
+        "Cascade"
+      ],
+      "abstract": "We study isotropic turbulence decay in the context of the k-epsilon model, which solves the dissipation and kinetic energy equations. In modeling the dissipation equation, the coefficient C_epsilon2, suggested by Hanjalic and Launder [Journal of Fluid Mechanics, 1972] [1], is related to the temporal decay power-law by n = 1/(C_epsilon2 -1 )) and is assumed to be a constant value. In this work, we perform high-fidelity numerical simulations to examine the mathematical terms responsible for the decay of isotropic turbulence, considering both scenarios of forced and decaying turbulence. Our data suggest that the instantaneous C_epsilon2 not only depends on the instantaneous Reynolds number but is also sensitive to the history of energy injection in turbulence. We attribute these observations to the finite time required for the cascade from energetic to dissipative scales. Considering data from both decaying and growing forced turbulence, we develop an evolution equation for C_epsilon2 with Reynolds-dependent coefficients. We demonstrate that this model accurately captures the time evolution of dissipation and kinetic energy over a wide range of Reynolds numbers under a wide range o...",
+      "authors": [
+        "Rozie Zangeneh",
+        "Wenyuan Xue",
+        "Daniel Israel",
+        "Ali Mani"
+      ]
+    },
+    {
+      "title": "Reproduction Data and Scripts for \"Generalized Forcing Method: Generation of Diverse Data for Training Linear Transport PDE Closure Models\"",
+      "publication_year": 2026,
+      "publication_date": "2026-05-28",
+      "doi": "https://doi.org/10.5281/zenodo.20424795",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20424795",
+      "concepts": [
+        "Forcing (mathematics)",
+        "Scripting language",
+        "Closure (psychology)",
+        "Convergence (economics)",
+        "Reproduction",
+        "Computer science",
+        "Homogeneous",
+        "Training (meteorology)"
+      ],
+      "abstract": "This archive contains the reproduction data, reduced models, plotting scripts, and precomputed figures for the paper “Generalized Forcing Method: Generation of Diverse Data for Training Linear Transport PDE Closure Models.” The archive includes five model-evaluation cases: two homogeneous parallel-flow cases, two inhomogeneous-flow cases, and one homogeneous random-flow case. The provided scripts evaluate the reduced models against the included test solutions and reproduce the RMSE convergence plots and eGFM dataset-summary plots reported in the manuscript. The release is intended for figure reproduction and model-evaluation verification. It does not include the full simulation code or the model-fitting code.",
+      "authors": [
+        "Wenyuan Xue",
+        "Ali Mani"
+      ]
+    },
+    {
+      "title": "An LES model with finite-rate phase change and subgrid spray based on a thermodynamically consistent four-equation multiphase model",
+      "publication_year": 2026,
+      "publication_date": "2026-04-26",
+      "doi": "https://doi.org/10.48550/arxiv.2604.23846",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.23846",
+      "concepts": [
+        "Multiphase flow",
+        "Combustion",
+        "Thermodynamics",
+        "Mechanics",
+        "Phase (matter)",
+        "Eulerian path",
+        "Bounded function",
+        "Phase change"
+      ],
+      "abstract": "In this work, an LES model with finite-rate phase change and subgrid spray based on a high-resolution numerical scheme for multiphase multi-component simulations which satisfies interface equilibrium and phase immiscibility conditions is proposed. The multiphase model is based on a robust implementation of the four-equation multiphase model which assumes a strict subgrid equilibrium of pressure, temperature, and velocity. Critically, the equilibrium assumptions of the four-equation model provide large computational savings compared to modeling the full non-equilibrium multiphase system. To obtain predictive capabilities with these restrictive equilibrium assumptions, a new phase-confined form of the Eulerian $Σ$ spray model is proposed to predict subgrid interfacial surface area while avoiding unphysical leakage across interfaces. Additionally, an improved finite rate phase change model which is thermodynamically bounded by the equilibration of the Gibbs-free energy is coupled with the $Σ$ equation to model complex phase change regimes. The full modeling framework is validated using the Engine Combustion Network (ECN) Spray A case in non-evaporating and evaporating conditions an...",
+      "authors": [
+        "Henry Collis",
+        "Shahab Mirjalili",
+        "Makrand Khanwale",
+        "Ali Mani",
+        "Gianluca Iaccarino"
+      ]
+    }
+  ]
+}

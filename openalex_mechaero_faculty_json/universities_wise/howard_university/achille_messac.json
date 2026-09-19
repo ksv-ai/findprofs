@@ -1,0 +1,142 @@
+{
+  "faculty_name": "Achille Messac",
+  "full_name": "Achille Messac",
+  "department": "Department of Mechanical Engineering",
+  "university": "Howard University",
+  "author_id": "A5061492615",
+  "works_count": 230,
+  "cited_by_count": 7651,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 95
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 57
+    },
+    {
+      "topic": "Optimal Experimental Design Methods",
+      "count": 34
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 31
+    },
+    {
+      "topic": "Design Education and Practice",
+      "count": 25
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The normalized normal constraint method for generating the Pareto frontier",
+      "publication_year": 2003,
+      "publication_date": "2003-07-01",
+      "doi": "https://doi.org/10.1007/s00158-002-0276-1",
+      "venue": "Structural and Multidisciplinary Optimization",
+      "type": "article",
+      "cited_by_count": 758,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pareto principle",
+        "Mathematical optimization",
+        "Pareto interpolation",
+        "Constraint (computer-aided design)",
+        "Set (abstract data type)",
+        "Filter (signal processing)",
+        "Multi-objective optimization",
+        "Engineering design process"
+      ],
+      "abstract": "",
+      "authors": [
+        "Achille Messac",
+        "Amir Ismail-Yahaya",
+        "Connor Mattson"
+      ]
+    },
+    {
+      "title": "Physical programming - Effective optimization for computational design",
+      "publication_year": 1996,
+      "publication_date": "1996-01-01",
+      "doi": "https://doi.org/10.2514/3.13035",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 477,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematical optimization",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "A new effective and computationally efficient approach for design optimization, hereby entitled physical programming, is developed. This new approach is intended to substantially reduce the computational intensity of large problems and to place the design process into a more flexible and natural framework. Knowledge of the desired attributes of the optimal design is judiciously exploited. For each attribute of interest to the designer (each criterion), regions are defined that delineate degrees of desirability : unacceptable, highly undesirable, undesirable, tolerable, desirable, and highly desirable. This approach completely eliminates the need for iterative weight setting, which is the object of the typical computational bottleneck in large design optimization problems. Two key advantages of physical programming are 1) once the designer's preferences are articulated, obtaining the corresponding optimal design is a noniterative process-in stark contrast to conventional weight-based methods and 2) it provides the means to reliably employ optimization with minimal prior knowledge thereof. The mathematical infrastructure that supports the physical programming design optimization f...",
+      "authors": [
+        "Achille Messac"
+      ]
+    },
+    {
+      "title": "Unrestricted wind farm layout optimization (UWFLO): Investigating key factors influencing the maximum power generation",
+      "publication_year": 2011,
+      "publication_date": "2011-08-17",
+      "doi": "https://doi.org/10.1016/j.renene.2011.06.033",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 339,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind power",
+        "Particle swarm optimization",
+        "Wake",
+        "Turbine",
+        "Rotor (electric)",
+        "Marine engineering",
+        "Electricity generation",
+        "Power (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Souma Chowdhury",
+        "Jie Zhang",
+        "Achille Messac",
+        "Luciano Castillo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Optimal selection of time windows for preventive maintenance of offshore wind farms subject to wake losses",
+      "publication_year": 2023,
+      "publication_date": "2023-09-14",
+      "doi": "https://doi.org/10.1002/we.2815",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.2815",
+      "concepts": [
+        "Downtime",
+        "Offshore wind power",
+        "Turbine",
+        "Wind power",
+        "Preventive maintenance",
+        "Wake",
+        "Schedule",
+        "Engineering"
+      ],
+      "abstract": "Abstract The maintenance of wind farms is one of the major factors affecting their profitability. During preventive maintenance, the shutdown of wind turbines causes downtime energy losses. The selection of when and which turbines to maintain can significantly impact the overall downtime energy loss. This paper leverages a wind farm power generation model to calculate downtime energy losses during preventive maintenance for an offshore wind farm. Wake effects are considered to accurately evaluate power output under specific wind conditions. In addition to wind speed and direction, the influence of wake effects is an important factor in selecting time windows for maintenance. To minimize the overall downtime energy loss of an offshore wind farm caused by preventive maintenance, a mixed‐integer nonlinear optimization problem is formulated and solved by the genetic algorithm, which can select the optimal maintenance time windows of each turbine. Weather conditions are imposed as constraints to ensure the safety of maintenance personnel and transportation. Using the climatic data of Cape Cod, Massachusetts, the schedule of preventive maintenance is optimized for a simulated utility‐...",
+      "authors": [
+        "Junqiang Zhang",
+        "Junqiang Zhang",
+        "Souma Chowdhury",
+        "Jie Zhang",
+        "Jie Zhang",
+        "Weiyang Tong",
+        "Achille Messac"
+      ]
+    }
+  ]
+}

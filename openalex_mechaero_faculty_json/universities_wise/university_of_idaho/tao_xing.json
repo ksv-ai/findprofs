@@ -1,0 +1,281 @@
+{
+  "faculty_name": "Tao Xing",
+  "full_name": "Tao Xing",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Idaho",
+  "author_id": "A5019984418",
+  "works_count": 118,
+  "cited_by_count": 2186,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Ship Hydrodynamics and Maneuverability",
+      "count": 13
+    },
+    {
+      "topic": "Supercapacitor Materials and Fabrication",
+      "count": 10
+    },
+    {
+      "topic": "Electrocatalysts for Energy Conversion",
+      "count": 9
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 8
+    },
+    {
+      "topic": "Fuel Cells and Related Materials",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Dynamic overset CFD simulations of wind turbine aerodynamics",
+      "publication_year": 2011,
+      "publication_date": "2011-07-23",
+      "doi": "https://doi.org/10.1016/j.renene.2011.06.029",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 207,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Detached eddy simulation",
+        "Turbine",
+        "Aerodynamics",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Thrust",
+        "Tip-speed ratio"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yuwei Li",
+        "Kwang-Jun Paik",
+        "Tao Xing",
+        "Pablo M. Carrica"
+      ]
+    },
+    {
+      "title": "Verification and validation of Large Eddy Simulation of attached cavitating flow around a Clark-Y hydrofoil",
+      "publication_year": 2019,
+      "publication_date": "2019-03-29",
+      "doi": "https://doi.org/10.1016/j.ijmultiphaseflow.2019.03.026",
+      "venue": "International Journal of Multiphase Flow",
+      "type": "article",
+      "cited_by_count": 149,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Large eddy simulation",
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Transient (computer programming)",
+        "Vortex shedding",
+        "Vortex"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yun Long",
+        "Xinping Long",
+        "Bin Ji",
+        "Tao Xing"
+      ]
+    },
+    {
+      "title": "Evaluation of linear and nonlinear convection schemes on multidimensional non‐orthogonal grids with applications to KVLCC2 tanker",
+      "publication_year": 2009,
+      "publication_date": "2009-09-17",
+      "doi": "https://doi.org/10.1002/fld.2174",
+      "venue": "International Journal for Numerical Methods in Fluids",
+      "type": "article",
+      "cited_by_count": 55,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Nonlinear system",
+        "Turbulence",
+        "Grid",
+        "Isotropy",
+        "Convection",
+        "Mathematics",
+        "Applied mathematics"
+      ],
+      "abstract": "Abstract Almost all evaluations of convection schemes reported in the literature are conducted using simple problems on uniform orthogonal grids; thus, having limited contribution when solving industrial computational fluid dynamics (CFD), where the grids are usually non‐orthogonal with distortions. Herein, several convection schemes are assessed in uniform and distorted non‐orthogonal grids with emphasis on industrial applications. Linear and nonlinear (TVD) convection schemes are assessed on analytical benchmarks in both uniform and distorted grids. To evaluate the performance of the schemes, four error metrics are used: dissipation, phase and L1 errors, and the schemes' effective order of accuracy. Qualitative and quantitative deterioration of these error metrics as a function of the grid distortion metrics are investigated, and rigorous verifications are performed. Recommendations for effective use of the convection schemes based on the range of grid aspect ratio (AR), expansion ratio (ER) and skewness (Q) are included. A ship hydrodynamics case is studied, involving a Reynolds averaged Navier–Stokes simulation of a bare‐hull KVLCC2 tanker using linear and nonlinear convecti...",
+      "authors": [
+        "Farzad Ismail",
+        "Pablo M. Carrica",
+        "Tao Xing",
+        "Frederick Stern"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental study of flag fluid–structure interaction in a laminar jet and application of POD",
+      "publication_year": 2024,
+      "publication_date": "2024-01-08",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2023.104040",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jfluidstructs.2023.104040",
+      "concepts": [
+        "Reynolds number",
+        "Drag",
+        "Drag coefficient",
+        "Particle image velocimetry",
+        "Strouhal number",
+        "Laminar flow",
+        "Oscillation (cell signaling)",
+        "Mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Rodrigo Padilla",
+        "Vibhav Durgesh",
+        "Tao Xing",
+        "Anas Nawafleh"
+      ]
+    },
+    {
+      "title": "A Deep Learning Model Integrating Ultrasound Images and Multidimensional Clinical Information for Differentiating Benign and Malignant Non-Mass Lesions",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.3390/diagnostics16091380",
+      "venue": "Diagnostics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/diagnostics16091380",
+      "concepts": [
+        "Ultrasound",
+        "Medicine",
+        "Breast ultrasound",
+        "Artificial intelligence",
+        "Palpation",
+        "Radiology",
+        "Deep learning",
+        "Data set"
+      ],
+      "abstract": "Background/Objectives: This study aims to develop a deep learning (DL) model integrating ultrasound images and multidimensional clinical information to improve the diagnostic accuracy of breast non-mass lesions (NMLs). Methods: A total of 794 multicenter retrospective cases of NMLs were selected, stratified, and randomly divided into a training set (635 cases) and validation set (159 cases) at an 8:2 ratio. Multidimensional clinical information (including age, reproductive history, menstrual history, medical history, and findings from palpating the lesions) was incorporated to develop a DL model integrating ultrasound images and clinical data. To evaluate the diagnostic performance of the DL model, the area under the curve (AUC), accuracy, specificity, and sensitivity were employed. Results: The diagnostic model for NMLs integrating ultrasound images and multidimensional clinical information achieved an AUC of 0.8520 (95% CI: 0.7898–0.9068), F1 score of 0.7563, accuracy of 0.8176, sensitivity of 0.7031, and specificity of 0.8947. Its performance was superior to that of the model using only ultrasound images (AUC 0.8520 vs. 0.7571). SHAP analysis evaluating the reasons for the im...",
+      "authors": [
+        "Weixian Huang",
+        "Xie Zhiyu",
+        "Mo Zixuan",
+        "Tao Xing",
+        "Yanhui Jiang",
+        "Dong Ni",
+        "Yanfeng Zhou",
+        "J ian-xing Zhang"
+      ]
+    },
+    {
+      "title": "Efficient Product Regulation of CO 2 Hydrogenation over an Intelligent Dual-Zeolite System",
+      "publication_year": 2025,
+      "publication_date": "2025-11-26",
+      "doi": "https://doi.org/10.1021/jacs.5c18916",
+      "venue": "Journal of the American Chemical Society",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Product (mathematics)",
+        "Process engineering",
+        "Product distribution",
+        "Production (economics)",
+        "Catalysis",
+        "Biochemical engineering",
+        "Petroleum product"
+      ],
+      "abstract": "Precisely regulating the product distribution to directly synthesize the target products with the desired compositions is of great significance for heterogeneous catalysis. However, due to the product orientation, it is difficult to achieve this purpose through a single catalytic component. Herein, we report a dual-zeolite-regulation strategy that simultaneously employs two high-selective zeolites with different product tendencies for CO 2 hydrogenation. By changing the configuration composition of the two zeolites, the desired components in the target products can be freely switched. Taking liquefied petroleum gas as an example, a wide-range adjustment of propane/butane ratios is successfully achieved between 0.53 and 4.31 under high overall selectivity. The dual-zeolite regulation strategy can simplify the separation steps and shorten the production time, thus significantly reducing the total cost. Furthermore, machine-learning models are constructed with a low mean-square error (MSE) based on the reaction results, enabling the users to better predict and customize the required product composition.",
+      "authors": [
+        "Jiaming Liang",
+        "Yitian Wang",
+        "Bowei Meng",
+        "Hengyang Liu",
+        "Lei Jiang",
+        "Lisheng Guo",
+        "Zhihao Liu",
+        "Wenhang Wang",
+        "Zi‐Han Yuan",
+        "Chengwei Wang",
+        "Qiang Liu",
+        "Tao Li",
+        "Tao Xing",
+        "Jiancai Sui",
+        "Guangbo Liu",
+        "Shuhei Yasuda",
+        "Yingluo He",
+        "Bing Liang",
+        "Ding Ma",
+        "Noritatsu Tsubaki"
+      ]
+    },
+    {
+      "title": "Role of Stiffness in Friction with Graphite",
+      "publication_year": 2025,
+      "publication_date": "2025-11-17",
+      "doi": "https://doi.org/10.1103/bpg9-zyq8",
+      "venue": "Physical Review Letters",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stiffness",
+        "Materials science",
+        "Microscale chemistry",
+        "Graphite",
+        "Graphene",
+        "Slider",
+        "Composite material",
+        "Molecular dynamics"
+      ],
+      "abstract": "When contacting solids slide against each other, friction typically increases as material stiffness decreases due to the resulting increase in real contact area. However, varying trends have been observed, influenced by wear, surface geometry, tribochemistry, and environmental factors. To disentangle these effects, we construct a microscale structural superlubric system composed of graphite slider and graphene substrate, featuring wearless, fully contacted, atomically smooth, and chemically stable interfaces. The normal stiffness is tuned using few-layer graphene with different thicknesses. Experiments show that, for the system with a clean interface, friction remains constant across substrates with varying stiffness. By contrast, a positive stiffness dependence of friction is observed in third body-rich interfaces. A comprehensive framework is provided, clarifying fundamentally how friction and its stiffness dependence originate from the configuration transition of third body molecules and symmetry of the stiffness for the two contacting surfaces, corroborated by molecular dynamics simulations.",
+      "authors": [
+        "Yuqing He",
+        "Zhaokuan Yu",
+        "Jin Wang",
+        "Tao Xing",
+        "Ming Ma"
+      ]
+    },
+    {
+      "title": "Failure Analysis of Prestressed Concrete Girder Bridges Under Over-Height Truck Impacts",
+      "publication_year": 2025,
+      "publication_date": "2025-06-27",
+      "doi": "https://doi.org/10.1177/03611981251339178",
+      "venue": "Transportation Research Record Journal of the Transportation Research Board",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Truck",
+        "Structural engineering",
+        "Girder",
+        "Prestressed concrete",
+        "Engineering",
+        "Geotechnical engineering",
+        "Forensic engineering",
+        "Automotive engineering"
+      ],
+      "abstract": "Accidental collisions between over-height trucks and bridge superstructures are a common threat to existing bridge infrastructure. These incidents often stem from illegal over-height vehicles or truck operators' unawareness of clearance limits, posing serious safety risks and causing substantial structural damage. This study presents a comprehensive numerical investigation of the dynamic response of prestressed concrete girder bridges subjected to over-height truck impacts. Large-scale finite element models were developed in LS-DYNA, with validation conducted against experimental results. The parametric study explored impact speeds ranging from 16 to 113 km/h (10 to 70 mph), impactor masses between 2 and 6 tons, impact locations, contact areas, and the presence and type of intermediate diaphragms (reinforced concrete and steel). The findings highlight that peak impact forces are strongly influenced by speed, mass, and contact area. For instance, at full-depth bottom flange impacts, the peak impact force increased by 80% as the speed rose from 16 km/h (10 mph) to 97 km/h (60 mph). In contrast, reducing the contact area by 85% in partial-depth impacts reduced peak forces by 70%–80...",
+      "authors": [
+        "Mohamed T. Elshazli",
+        "Mohamed A. ElGawady",
+        "Tao Xing",
+        "Ahmed Ibrahim"
+      ]
+    }
+  ]
+}

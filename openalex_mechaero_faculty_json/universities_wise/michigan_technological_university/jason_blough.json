@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Jason Blough",
+  "full_name": "Jason Blough",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Michigan Technological University",
+  "author_id": "A5009020533",
+  "works_count": 140,
+  "cited_by_count": 1006,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 27
+    },
+    {
+      "topic": "Hydraulic and Pneumatic Systems",
+      "count": 25
+    },
+    {
+      "topic": "Vehicle Noise and Vibration Control",
+      "count": 23
+    },
+    {
+      "topic": "Acoustic Wave Phenomena Research",
+      "count": 17
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analysis of Combustion Knock Metrics in Spark-Ignition Engines",
+      "publication_year": 2006,
+      "publication_date": "2006-04-03",
+      "doi": "https://doi.org/10.4271/2006-01-0400",
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "type": "conference-paper",
+      "cited_by_count": 142,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Accelerometer",
+        "Automotive engineering",
+        "Combustion",
+        "Ignition system",
+        "Vibration",
+        "Engine knocking",
+        "Internal combustion engine",
+        "SIGNAL (programming language)"
+      ],
+      "abstract": "Combustion knock detection and control in internal combustion engines continues to be an important feature in engine management systems. In spark-ignition engine applications, the frequency of occurrence of combustion knock and its intensity are controlled through a closed-looped feedback system to maintain knock at levels that do not cause engine damage or objectionable audible noise. Many methods for determination of the feedback signal for combustion knock in spark-ignition internal combustion engines have been employed with the most common technique being measurement of engine vibration using an accelerometer. With this technique single or multiple piezoelectric accelerometers are mounted on the engine and vibrations resulting from combustion knock and other sources are converted to electrical signals. These signals are input to the engine control unit and are processed to determine the signal strength during a period of crank-angle when combustion knock is expected. As the accelerometer detects a number of sources of vibrations in addition to the desired vibration from knock, the signal quality varies significantly from engine to engine, cylinder to cylinder, and over the o...",
+      "authors": [
+        "Jeffrey Naber",
+        "Jason Blough",
+        "Dave Frankowski",
+        "Monroe Goble",
+        "John E. Szpytman"
+      ]
+    },
+    {
+      "title": "Theoretical Foundations for High Performance Order Tracking with the Vold-Kalman Tracking Filter",
+      "publication_year": 1997,
+      "publication_date": "1997-05-20",
+      "doi": "https://doi.org/10.4271/972007",
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "type": "conference-paper",
+      "cited_by_count": 97,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kalman filter",
+        "Tracking (education)",
+        "Computer science",
+        "Control theory (sociology)",
+        "Artificial intelligence",
+        "Sociology",
+        "Pedagogy",
+        "Control (management)"
+      ],
+      "abstract": "Vold and Leuridan [1] introduced in 1993 an algorithm for high resolution, slew rate independent order tracking based on the concepts of Kalman filters [5, 6]. The algorithm has been highly successful as implemented in a commercial software system in solving data analysis problems previously intractable with other analysis methods. At the same time certain deficiencies have surfaced, prompting the development of an improved formulation. This paper presents for the first time the second generation algorithm and its theoretical foundations. The new algorithm allows for the simultaneous estimation of multiple orders, effectively decoupling close and crossing orders. This is especially important for acoustics applications, where order crossings cause transient beating events. The algorithm now allows for a much wider range of filter shapes, such that signals with sideband modulations are processed with high fidelity. Finally, systems with radical RPM changes, such as transmissions, are tracked also through the transient events associated with abrupt changes in inertia and boundary conditions. The order functions are extracted without phase error, and may hence be used in synthesis a...",
+      "authors": [
+        "Håvard Vold",
+        "Michael Mains",
+        "Jason Blough"
+      ]
+    },
+    {
+      "title": "Accelerometer Based Sensing of Combustion in a High Speed HPCR Diesel Engine",
+      "publication_year": 2007,
+      "publication_date": "2007-04-16",
+      "doi": "https://doi.org/10.4271/2007-01-0972",
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "type": "conference-paper",
+      "cited_by_count": 61,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Accelerometer",
+        "Automotive engineering",
+        "Diesel engine",
+        "Combustion",
+        "Computer science",
+        "Environmental science",
+        "Acoustics",
+        "Engineering"
+      ],
+      "abstract": "The capability to detect combustion in a diesel engine has the potential of being an important control feature to meet increasingly stringent emission regulations and for the development of alternative combustion strategies such as HCCI and PCCI. In this work, block mounted accelerometers are investigated as potential feedback sensors for detecting combustion characteristics in a high-speed, high pressure common rail (HPCR), 1.9L diesel engine. Accelerometers are positioned in multiple placements and orientations on the engine, and engine testing is conducted under motored, single and pilot-main injection conditions. Engine tests are then conducted at varying injection timings to observe the resulting time and frequency domain changes of both the pressure and acceleration signals. The higher frequency (3 kHz ≤ f ≤ 25 kHz) components of the in-cylinder pressure are found to correlate to the peak rate of in-cylinder heat release and indicated a potential application to the detection of combustion. The accelerometer and pressure signals are analyzed through the use of various functions including angle dependant fast Fourier transforms (FFT) and coherence to isolate frequency compon...",
+      "authors": [
+        "Christopher J. Polonowski",
+        "Vivek K. Mathur",
+        "Jeffrey Naber",
+        "Jason Blough"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A Review of Efforts To Improve Dynamic Environment Testing Practices",
+      "publication_year": 2025,
+      "publication_date": "2025-11-06",
+      "doi": "https://doi.org/10.1007/s40799-025-00844-y",
+      "venue": "Experimental Techniques",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixture",
+        "Dynamic testing",
+        "Test fixture",
+        "Vibration",
+        "Computer science",
+        "Shock (circulatory)",
+        "Test (biology)",
+        "Field (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "C. F. Taylor",
+        "James DeClerck",
+        "Jason Blough",
+        "Charles Van Karsen",
+        "David Labyak",
+        "Ruth Mele Joshua"
+      ]
+    },
+    {
+      "title": "The Process To Design and Analyze Dynamic Environment Test Fixtures (PDADyE)",
+      "publication_year": 2025,
+      "publication_date": "2025-10-30",
+      "doi": "https://doi.org/10.1007/s40799-025-00845-x",
+      "venue": "Experimental Techniques",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixture",
+        "Test fixture",
+        "Process (computing)",
+        "Component (thermodynamics)",
+        "Field (mathematics)",
+        "Vibration",
+        "Computer science",
+        "Dynamic testing"
+      ],
+      "abstract": "",
+      "authors": [
+        "C. Taylor",
+        "James DeClerck",
+        "Jason Blough",
+        "Charles Van Karsen",
+        "David Labyak",
+        "Ruth Mele Joshua"
+      ]
+    },
+    {
+      "title": "Torque Converter Dynamic Characterization Using Torque Transmissibility Frequency Response Functions: Open Clutch, Hydro-Mechanical Response",
+      "publication_year": 2025,
+      "publication_date": "2025-02-07",
+      "doi": "https://doi.org/10.1007/s40799-025-00777-6",
+      "venue": "Experimental Techniques",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Damping torque",
+        "Torque converter",
+        "Control theory (sociology)",
+        "Torque",
+        "Clutch",
+        "Frequency response",
+        "Damper",
+        "Stall torque"
+      ],
+      "abstract": "",
+      "authors": [
+        "Luke Jurmu",
+        "Darrell Robinette",
+        "Jason Blough",
+        "C. S. Reynolds"
+      ]
+    },
+    {
+      "title": "In situ torque transmissibility frequency response function measurements of a centrifugal pendulum vibration absorber in a torque converter clutch damper",
+      "publication_year": 2024,
+      "publication_date": "2024-12-08",
+      "doi": "https://doi.org/10.1177/10775463241305676",
+      "venue": "Journal of Vibration and Control",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Damping torque",
+        "Damper",
+        "Control theory (sociology)",
+        "Torque",
+        "Clutch",
+        "Engineering",
+        "Transmissibility (structural dynamics)",
+        "Torsional vibration"
+      ],
+      "abstract": "This investigation details torsional testing and characterization of torque converter clutch (TCC) damper variants containing centrifugal pendulum absorbers (CPAs) utilized in light duty production vehicles. Data collected on a torque converter dynamometer test stand was used to correlate a nonlinear model of the combination TCC damper and CPA when locked with zero relative slip speed. The range of test torques and speeds are related to when driveline, chassis and body noise and vibration concerns are high and the damper-CPA combination are required to provide maximum isolation. To facilitate model correlation efforts, modified configurations of the same torque converter design were procured, enabling separation of damping effects from the CPA and damper springs. Under load, the locked TCC was torsionally excited to acquire torque transmissibility frequency response functions (TTFRFs). The anti-resonance of the CPA was measured, and the viscous damping coefficient estimated. A manual tuning and modified half-power bandwidth method were used to estimate the equivalent viscous damping of the CPA. Additional test cases included torsional excitation amplitude and oil temperature to ...",
+      "authors": [
+        "Luke Jurmu",
+        "Luke Jurmu",
+        "Darrell Robinette",
+        "Darrell Robinette",
+        "Jason Blough",
+        "Craig J. Reynolds"
+      ]
+    },
+    {
+      "title": "Dynamic Characterization of a Twin Plate Torque Converter Clutch During Controlled Slip",
+      "publication_year": 2024,
+      "publication_date": "2024-04-08",
+      "doi": "https://doi.org/10.4271/2024-01-2715",
+      "venue": "SAE technical papers on CD-ROM/SAE technical paper series",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Clutch",
+        "Torque",
+        "Slip (aerodynamics)",
+        "Materials science",
+        "Torque converter",
+        "Control theory (sociology)",
+        "Computer science",
+        "Structural engineering"
+      ],
+      "abstract": "This paper details testing for torque converter clutch (TCC) characterization during steady state and dynamic operation under controlled slip conditions on a dynamometer setup. The subject torque converter under test is a twin plate clutch with a dual stage turbine damper without a centrifugal pendulum absorber. An overview is provided of the dynamometer setup, hydraulic system and control techniques for regulating the apply pressure to the torque converter and clutch. To quantify the performance of the clutch in terms of control stability, pressure to torque relationship and the dynamic behavior during apply and release, a matrix of oil temperatures, output speeds, input torques, and clutch apply pressures were imposed upon the torque converter. The torque capacity of the clutch is estimated with the dimensions of the friction surfaces and pressure plate and an enhanced lookup data of K-factor obtained through testing of the hydrodynamics at input torques from 10 to 200 Nm over a speed ratio range consistent with controlled slip. The influence of controlled operating point parameters is reported as TCC apply pressure verse estimated TCC torque. The effect of temperature, output...",
+      "authors": [
+        "Darrell Robinette",
+        "Jason Blough",
+        "Luke Jurmu",
+        "Craig J. Reynolds",
+        "Andrew Scheich"
+      ]
+    }
+  ]
+}

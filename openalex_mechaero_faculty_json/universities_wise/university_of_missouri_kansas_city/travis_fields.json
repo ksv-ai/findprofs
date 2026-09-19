@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Travis Fields",
+  "full_name": "Travis Fields",
+  "department": "Department of Civil & Mechanical Engineering",
+  "university": "University of Missouri-Kansas City",
+  "author_id": "A5021054975",
+  "works_count": 57,
+  "cited_by_count": 274,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 25
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 15
+    },
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 13
+    },
+    {
+      "topic": "Adventure Sports and Sensation Seeking",
+      "count": 12
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Real-Time Closed-Loop System Identification of a Quadcopter",
+      "publication_year": 2018,
+      "publication_date": "2018-10-01",
+      "doi": "https://doi.org/10.2514/1.c034219",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 27,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quadcopter",
+        "Control theory (sociology)",
+        "System identification",
+        "Estimation theory",
+        "Computer science",
+        "Aileron",
+        "Propeller",
+        "Control engineering"
+      ],
+      "abstract": "Real-time estimation of dynamic model parameters for an unmanned aircraft can provide valuable information about the dynamics of the vehicle. However, the aircraft model estimation performance can be severely degraded with an active control system and highly collinear model terms such as those found on a quadrotor unmanned aircraft. Model parameters were estimated based on dynamic flight data of a quadcopter aircraft. System identification maneuvers were generated using varying-amplitude orthogonal multisine input signals applied on a quadcopter with nominal hardware conditions and with a damaged propeller. Recursive Fourier transform regression was applied to dynamic data to estimate parameters of two input model forms: independent and delta input. Prediction capability of the identified models was assessed using data of nearly the same flight conditions. Results indicated that, as the amplitude of the input multisine increased, the identifiability of control effectiveness improved, and prediction error decreased. Overall, a well-designed multi-input multisine input design and Fourier transform regression applied together provided efficient and accurate real-time parameter esti...",
+      "authors": [
+        "Mohammed Alabsi",
+        "Travis Fields"
+      ]
+    },
+    {
+      "title": "Feasibility of In-Flight Quadrotor Individual Motor Thrust Measurements",
+      "publication_year": 2016,
+      "publication_date": "2016-01-01",
+      "doi": "https://doi.org/10.2514/6.2016-1760",
+      "venue": "AIAA Atmospheric Flight Mechanics Conference",
+      "type": "conference-paper",
+      "cited_by_count": 15,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thrust",
+        "Aerospace engineering",
+        "Computer science",
+        "Aeronautics",
+        "Control theory (sociology)",
+        "Control engineering",
+        "Automotive engineering",
+        "Engineering"
+      ],
+      "abstract": "Small unmanned aircraft have become increasingly utilized for a wide range of applications; however such aircraft typically do not undergo the same rigorous safety protocols as the larger human piloted counterparts. A thrust estimation for a quadcopter unmanned aircraft was developed and evaluated that could potentially improve flight control design by increasing sensory feedback information. Strain gauges were integrated into the quadcopter frame to provide total force measurements on each arm of the vehicle. To compensate for inertial forces caused by rotational and translational acceleration, a dynamic model coupled with state information from motion capture data was implemented. A variety of tests were conducted to evaluate the accuracy of the individual load cells, inertial compensation, and free-flight motor thrust estimates. Results indicate the strain gauge load cells can accurately measure the total forces acting on the arms. During high frequency maneuvers the inertial compensation algorithm can reduce the measurement uncertainty; however, during low frequency maneuvers the noise caused by poor state information reduces the benefit of the inertial compensation algorith...",
+      "authors": [
+        "John Bazin",
+        "Travis Fields",
+        "Andrew Smith"
+      ]
+    },
+    {
+      "title": "Evaluation of Control Line Reefing Systems for Circular Parachutes",
+      "publication_year": 2016,
+      "publication_date": "2016-02-22",
+      "doi": "https://doi.org/10.2514/1.c033524",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Travis Fields"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Review of: \"Modelling of Quadcopter for Precision Agriculture and Surveillance Purposes\"",
+      "publication_year": 2024,
+      "publication_date": "2024-02-09",
+      "doi": "https://doi.org/10.32388/lrrs6u",
+      "venue": "",
+      "type": "peer-review",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.qeios.com/read/LRRS6U/pdf",
+      "concepts": [
+        "Quadcopter",
+        "Agriculture",
+        "Precision agriculture",
+        "Computer science",
+        "Environmental science",
+        "Engineering",
+        "Geography",
+        "Aerospace engineering"
+      ],
+      "abstract": "This manuscript provides the description of quadcopter modeling for basic flight maneuvers. The manuscript is geared towards agricultural applications; however, there is no modeling/simulation/testing with regards",
+      "authors": [
+        "Travis Fields"
+      ]
+    },
+    {
+      "title": "High-Power Microwave Antennas: A Comprehensive Review",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1109/access.2025.3564973",
+      "venue": "IEEE Access",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/access.2025.3564973",
+      "concepts": [
+        "Microwave",
+        "Directional antenna",
+        "Computer science",
+        "Microwave transmission",
+        "Electrical engineering",
+        "Electronic engineering",
+        "Telecommunications",
+        "Antenna (radio)"
+      ],
+      "abstract": "High-power antennas have emerged as a critical area of focus for researchers in recent design efforts, particularly for high-power microwave (HPM) technologies. The increasing demand for gigawatt power handling microwave systems in directed energy and electronic warfare applications necessitates the integration of innovative high-power design strategies into traditional antenna design procedures, where the emphasis is on developing wideband and high-gain antennas. Owing to the lack of a comprehensive study of recently proposed antennas for high-power applications, this review paper provides an in-depth discussion, comparison, and examination of the latest advancements in HPM antenna technology. In addition, this review provides a qualitative and quantitative assessment of HPM antennas using widely used antenna metrics such as the center frequency, electrical size, bandwidth, peak gain, and power handling capability. Moreover, this review provides a comprehensive overview of the methodology employed in designing high-power microwave antennas and discusses the outcomes obtained. In addition, the employment of special types of gases, low-loss dielectric materials, and smoothly vary...",
+      "authors": [
+        "Mashrur Zawad",
+        "Md. Sohel Rana",
+        "Travis Fields",
+        "Anthony N. Caruso",
+        "Kalyan C. Durbhakula",
+        "Mohamed Z. M. Hamdalla"
+      ]
+    },
+    {
+      "title": "Design of a 3D Printed Metasurface Antenna for High Power Application",
+      "publication_year": 2024,
+      "publication_date": "2024-10-07",
+      "doi": "https://doi.org/10.36227/techrxiv.171561213.33169544/v2",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.171561213.33169544",
+      "concepts": [
+        "Antenna (radio)",
+        "Power (physics)",
+        "3d printed",
+        "Electrical engineering",
+        "Engineering",
+        "Computer science",
+        "Telecommunications",
+        "Physics"
+      ],
+      "abstract": "Weight-size optimization is the main challenge of high-power antenna design. This letter presents a low-profile, metasurface-based wideband antenna. The proposed antenna comprises an N-type-to-waveguide transition to excite the metasurfaces and handle high-power excitations. A metasurface array of 4×4-unit cells is integrated into the waveguide. The proposed waveguide is 3D printed, and its internal faces are covered by copper tape to maintain a low weight (less than 0.5 lb.). The prototype is experimentally tested, and the results confirm the prototype's functionality from 2.1 GHz to 3.6 GHz with a bandwidth of 52.6 % and a peak gain of 8.5 dBi. Furthermore, the high-power handling capability of the proposed design has been experimentally confirmed by exciting it with a 7 kV pulsed source. These results demonstrate the applicability of the proposed antenna in satellite communication, radar communication, and wireless communication between Unmanned Aerial Vehicles (UAVs).",
+      "authors": [
+        "Mohamed Z. M. Hamdalla",
+        "Mashrur Zawad",
+        "Matthew Kunkle",
+        "Somen Baidya",
+        "Roy Allen",
+        "Peter J. Bland",
+        "Travis Fields",
+        "Ahmed M. Hassan"
+      ]
+    },
+    {
+      "title": "Design of a 3D Printed Wide Band Metasurface Antenna for High Power Applications",
+      "publication_year": 2024,
+      "publication_date": "2024-05-13",
+      "doi": "https://doi.org/10.36227/techrxiv.171561213.33169544/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.36227/techrxiv.171561213.33169544/v1",
+      "concepts": [
+        "Antenna (radio)",
+        "Power (physics)",
+        "3d printed",
+        "Electrical engineering",
+        "Computer science",
+        "Electronic engineering",
+        "Engineering",
+        "Physics"
+      ],
+      "abstract": "Weight-size optimization is the main challenge of high-power antenna design. This letter presents a low-profile, metasurface-based wideband antenna. The proposed antenna comprises an N-type-to-waveguide transition to excite the metasurfaces and handle high-power excitations. A metasurface array of 4×4-unit cells is integrated into the waveguide. The proposed waveguide is 3D printed, and its internal faces are covered by copper tape to maintain a low weight (less than 0.5 lb.). The prototype is experimentally tested, and the results confirm the prototype's functionality from 2.1 GHz to 3.6 GHz with a bandwidth of 52.6 % and a peak gain of 8.5 dBi. Furthermore, the high-power handling capability of the proposed design has been experimentally confirmed by exciting it with a 7 kV pulsed source. These results demonstrate the applicability of the proposed antenna in satellite communication, radar communication, and wireless communication between Unmanned Aerial Vehicles (UAVs).",
+      "authors": [
+        "Mohamed Z. M. Hamdalla",
+        "Mashrur Zawad",
+        "Matthew Kunkle",
+        "Somen Baidya",
+        "Roy Allen",
+        "Peter J. Bland",
+        "Travis Fields",
+        "Ahmed M. Hassan"
+      ]
+    },
+    {
+      "title": "Machine Learning-based Optimization of Hexagon-shaped Fractal Antenna for Ultra-wideband Communications",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2528/pierc24031308",
+      "venue": "Progress In Electromagnetics Research C",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "http://dx.doi.org/10.2528/pierc24031308",
+      "concepts": [
+        "Fractal antenna",
+        "Fractal",
+        "Wideband",
+        "Antenna (radio)",
+        "Computer science",
+        "Telecommunications",
+        "Radiation pattern",
+        "Physics"
+      ],
+      "abstract": "In the wireless communication industry, achieving gigabit-per-second data rates with low-profile, ultra-wideband (UWB) microstrip patch antennae poses a significant challenge.Conventional optimization algorithms, though effective, are often computationally expensive, particularly for complex antenna geometries with high degrees of freedom.There is an imperative need for new methodologies to address this challenge and revolutionize the antenna optimization process.Successful and timely development of antennas relies on the efficiency and computational speed of optimization algorithms, full-wave electromagnetic solvers, and the intuition of radio frequency engineers.To mitigate the dependence on complex and time-consuming processes, we propose an efficient machine learning (ML)-based antenna optimization methodology that minimizes optimization time by more than 90%.This paper aims to apply and study the performance of two specific ML models, the radial basis function (RBF), and the least squared regression (LSR) models, in the bandwidth optimization without increasing the aperture area of a hexagon-shaped fractal antenna.The hexagon-shaped fractal antenna was chosen for its UWB ch...",
+      "authors": [
+        "Sai Sampreeth Indharapu",
+        "Anthony N. Caruso",
+        "Travis Fields",
+        "Kalyan C. Durbhakula"
+      ]
+    }
+  ]
+}

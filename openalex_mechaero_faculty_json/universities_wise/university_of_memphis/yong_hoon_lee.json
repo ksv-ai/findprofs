@@ -1,0 +1,309 @@
+{
+  "faculty_name": "Yong Hoon Lee",
+  "full_name": "Yong Hoon Lee",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Memphis",
+  "author_id": "A5007488043",
+  "works_count": 172,
+  "cited_by_count": 1270,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Advanced Wireless Communication Techniques",
+      "count": 23
+    },
+    {
+      "topic": "Image and Signal Denoising Methods",
+      "count": 19
+    },
+    {
+      "topic": "Advanced Adaptive Filtering Techniques",
+      "count": 19
+    },
+    {
+      "topic": "Digital Filter Design and Implementation",
+      "count": 16
+    },
+    {
+      "topic": "Wireless Communication Networks Research",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Carrier frequency offset compensation for uplink of OFDM-FDMA systems",
+      "publication_year": 2000,
+      "publication_date": "2000-12-01",
+      "doi": "https://doi.org/10.1109/4234.898725",
+      "venue": "IEEE Communications Letters",
+      "type": "article",
+      "cited_by_count": 162,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Orthogonal frequency-division multiplexing",
+        "Carrier frequency offset",
+        "Telecommunications link",
+        "Offset (computer science)",
+        "Computer science",
+        "Frequency offset",
+        "Compensation (psychology)",
+        "Computational complexity theory"
+      ],
+      "abstract": "A frequency offset compensation method for OFDM-FDMA, that can correct offsets after the DFT via circular convolution, is proposed as an alternative to the direct method that corrects frequency offsets by multiplying the complex exponents of the offset estimates before the DFT. In contrast to the direct method whose complexity increases proportional to the number of users, the computational load of the proposed scheme decreases as the number of users increases. It is shown that the proposed method is simpler to implement than the direct method when the number of users is greater than two. Furthermore, the former can outperform the latter, because a frequency offset compensation for one user after the DFT does not affect the data of other users. Computer simulation results demonstrate the advantage of the proposed method.",
+      "authors": [
+        "Jihoon Choi",
+        "Changoo Lee",
+        "Hae Won Jung",
+        "Yong Hoon Lee"
+      ]
+    },
+    {
+      "title": "Simple, low-cost, sensitive and label-free aptasensor for the detection of cardiac troponin I based on a gold nanoparticles modified titanium foil",
+      "publication_year": 2018,
+      "publication_date": "2018-11-12",
+      "doi": "https://doi.org/10.1016/j.bios.2018.11.012",
+      "venue": "Biosensors and Bioelectronics",
+      "type": "article",
+      "cited_by_count": 87,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aptamer",
+        "Detection limit",
+        "Materials science",
+        "Colloidal gold",
+        "Troponin I",
+        "Crystallinity",
+        "Nanoparticle",
+        "Titanium"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nasrin Siraj Lopa",
+        "Md. Mahbubur Rahman",
+        "Faiz Ahmed",
+        "Taewook Ryu",
+        "Sabuj Chandra Sutradhar",
+        "Lei Jin",
+        "Jaewoong Kim",
+        "Dae Ho Kim",
+        "Yong Hoon Lee",
+        "Whangi Kim"
+      ]
+    },
+    {
+      "title": "Characterization of fiber orientation in short fiber reinforced composites with an image processing technique",
+      "publication_year": 2002,
+      "publication_date": "2002-09-01",
+      "doi": "https://doi.org/10.1007/s10019-002-0180-8",
+      "venue": "Materials Research Innovations",
+      "type": "article",
+      "cited_by_count": 66,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Orientation (vector space)",
+        "Fiber",
+        "Tensor (intrinsic definition)",
+        "Composite material",
+        "Planar",
+        "Fiber-reinforced composite",
+        "Composite number"
+      ],
+      "abstract": "An experimental method is developed to measure the three-dimensional fiber orientation in short fiber reinforced composites by utilizing an image processing technique. The second order orientation tensor can be calculated with geometrical data that were obtained from two parallel planar cross-sections. The orientation state of individual fibers is determined from the geometry of the elliptical cross-sectional shape on the polished surface. The basic concept in determining the three-dimensional fiber orientation tensor is to slice the composite sample twice in the same direction within a small distance. The tensor is determined by using a digital image processing technique and a computational code which calculates the tensor from the geometrical characteristics obtained for the elliptical fiber cross-sections. Experiments are performed to measure the three-dimensional orientation tensor of composite specimens and good results are obtained by using the method proposed in this study",
+      "authors": [
+        "Yong Hoon Lee",
+        "Seok Won Lee",
+        "Jae Ryoun Youn",
+        "Kwansoo Chung",
+        "Tae Jin Kang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nested control co-design of a spar buoy horizontal-axis floating offshore wind turbine",
+      "publication_year": 2025,
+      "publication_date": "2025-03-29",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2025.121037",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 17,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S0029801825007504/pdf",
+      "concepts": [
+        "Spar",
+        "Buoy",
+        "Marine engineering",
+        "Offshore wind power",
+        "Submarine pipeline",
+        "Turbine",
+        "Horizontal axis",
+        "Geology"
+      ],
+      "abstract": "Floating offshore wind turbine (FOWT) systems involve several coupled physical analysis disciplines, including aeroelasticity , multi-body structural dynamics , hydrodynamics , and controls. Conventionally, physical structure (plant) and control design decisions are treated as two separate problems, and generally, control design is performed after the plant design is complete. However, this sequential design approach cannot fully capitalize upon the synergy between plant and control design decisions. These conventional design practices produce suboptimal designs, especially in cases with strong coupling between plant and control design decisions. Control co-design (CCD) is a holistic design approach that accounts fully for plant-control design coupling by optimizing these decisions simultaneously. CCD is especially advantageous for system design problems with complex interactions between physics disciplines, which is the case for FOWT systems. This paper presents and demonstrates a nested CCD approach using open-loop optimal control (OLOC) for a simplified reduced-order model that simulates FOWT dynamic behavior. This simplified model is helpful for optimization studies due to i...",
+      "authors": [
+        "Saeid Bayat",
+        "Yong Hoon Lee",
+        "James T. Allison"
+      ]
+    },
+    {
+      "title": "NLRWindSystems/WEIS: WEIS v2.1.2",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.5281/zenodo.20041679",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20041679",
+      "concepts": [
+        "Constraint (computer-aided design)",
+        "Computer science",
+        "Engineering",
+        "Mode (computer interface)",
+        "Work (physics)",
+        "Tower",
+        "Engineering drawing",
+        "Component (thermodynamics)"
+      ],
+      "abstract": "What's Changed WEIS v2.1.2 by @dzalkind in https://github.com/NLRWindSystems/WEIS/pull/470 Added platform optimization constraint for mean platform pitch Can fully suppress 2nd tower mode if desired Conda and pip packaging updates Full Changelog: https://github.com/NLRWindSystems/WEIS/compare/v2.1.1...v2.1.2",
+      "authors": [
+        "Nikhar Abbas",
+        "dzalkind",
+        "Pietro Bortolotti",
+        "John Jasa",
+        "Rafael M Mudafort",
+        "Jake Nunemaker",
+        "Mayank Chetan",
+        "Eliot Quon",
+        "Yingqian Liao",
+        "Dakota Sky Ramos",
+        "Cory Frontin",
+        "Garrett Barter",
+        "Sora Ryu",
+        "Yong Hoon Lee",
+        "ATHUL KRISHNA SUNDARRAJAN",
+        "Evan Gaertner",
+        "E. Branlard",
+        "Sebastiaan Mulders",
+        "Alicia Key",
+        "David Heffernan",
+        "Gerrit Motes",
+        "Jenni Rinker",
+        "Paul-Emile Meunier",
+        "Xianping Du",
+        "amoratoc"
+      ]
+    },
+    {
+      "title": "Advancing wind turbines through control co-design: An integrative review",
+      "publication_year": 2026,
+      "publication_date": "2026-04-30",
+      "doi": "https://doi.org/10.1016/j.apenergy.2026.127951",
+      "venue": "Applied Energy",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.apenergy.2026.127951",
+      "concepts": [
+        "Wind power",
+        "Control (management)",
+        "Engineering",
+        "Environmental science",
+        "Turbine",
+        "Marine engineering",
+        "Renewable energy",
+        "Computer science"
+      ],
+      "abstract": "Control co-design (CCD) represents an integrated approach to simultaneously optimize the physical design and control strategies of wind turbines, aiming to improve efficiency and reduce costs. This review explores the current state of CCD, addressing advancements in methodologies, challenges in defining and quantifying couplings, and limitations in existing applications. While CCD has demonstrated potential in improving wind turbine design, gaps remain in standardizing coupling metrics and expanding its applicability to broader design problems. By establishing robust methodologies and addressing current challenges, CCD can become a transformative approach in advancing sustainable and cost-effective wind energy systems.",
+      "authors": [
+        "Saeid Bayat",
+        "C.V. Peterson",
+        "Yong Hoon Lee",
+        "Jenna Iori",
+        "James T. Allison"
+      ]
+    },
+    {
+      "title": "NLRWindSystems/WEIS: v2.1.2",
+      "publication_year": 2026,
+      "publication_date": "2026-04-28",
+      "doi": "https://doi.org/10.5281/zenodo.19858014",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "software",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.19858014",
+      "concepts": [
+        "Computer science",
+        "Constraint (computer-aided design)",
+        "Mode (computer interface)",
+        "Engineering",
+        "Work (physics)",
+        "Component (thermodynamics)",
+        "Engineering drawing",
+        "Tower"
+      ],
+      "abstract": "What's Changed WEIS v2.1.2 by @dzalkind in https://github.com/NLRWindSystems/WEIS/pull/470 Added platform optimization constraint for mean platform pitch Can fully suppress 2nd tower mode if desired Conda and pip packaging updates Full Changelog: https://github.com/NLRWindSystems/WEIS/compare/v2.1.1...v2.1.2",
+      "authors": [
+        "Nikhar Abbas",
+        "dzalkind",
+        "Pietro Bortolotti",
+        "John Jasa",
+        "Rafael M Mudafort",
+        "Jake Nunemaker",
+        "Mayank Chetan",
+        "Eliot Quon",
+        "Yingqian Liao",
+        "Dakota Sky Ramos",
+        "Cory Frontin",
+        "Garrett Barter",
+        "Sora Ryu",
+        "Yong Hoon Lee",
+        "ATHUL KRISHNA SUNDARRAJAN",
+        "Evan Gaertner",
+        "E. Branlard",
+        "Sebastiaan Mulders",
+        "Alicia Key",
+        "David Heffernan",
+        "Gerrit Motes",
+        "Jenni Rinker",
+        "Paul-Emile Meunier",
+        "Xianping Du",
+        "amoratoc"
+      ]
+    },
+    {
+      "title": "Surrogate-Based Co-Design Coupling Analysis for Floating Offshore Wind Turbines",
+      "publication_year": 2026,
+      "publication_date": "2026-04-24",
+      "doi": "https://doi.org/10.48550/arxiv.2604.22969",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.22969",
+      "concepts": [
+        "Variable (mathematics)",
+        "Turbine",
+        "Identification (biology)",
+        "Control variable",
+        "Coupling (piping)",
+        "Computer science",
+        "Engineering",
+        "Selection (genetic algorithm)"
+      ],
+      "abstract": "This work presents a design coupling analysis (DCA) framework to investigate the interactions among control and plant design variables in floating offshore wind turbine (FOWT) and to support the formulation of tractable control co-design (CCD) optimization strategies. DCA provides quantitative information that reveals the relationships and dependencies among design variables and to objective function, enabling improved design variable selection, identification of dominant variables that drive system interactions, and informed selection of optimization solution strategies. However, applying DCA to complex systems is challenging because the models used to describe their dynamics are computationally expensive, and constructing DCA information requires exhaustive model evaluations and optimizations. Here, a surrogate model of the FOWT system is employed to make the repeated model evaluations required for DCA computationally feasible. Using this framework, the bidirectional couplings between control and plant design variables, as well as the couplings among plant design variables, are estimated. The results reveal strong interactions among various design variables, and identify the m...",
+      "authors": [
+        "Elena Fernández Bravo",
+        "Sunil Tamang",
+        "Yong Hoon Lee",
+        "James T. Allison"
+      ]
+    }
+  ]
+}

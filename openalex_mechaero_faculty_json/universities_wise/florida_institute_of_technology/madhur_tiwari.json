@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Madhur Tiwari",
+  "full_name": "Madhur Tiwari",
+  "department": "Department of Aerospace, Physics and Space Sciences",
+  "university": "Florida Institute of Technology",
+  "author_id": "A5072433088",
+  "works_count": 32,
+  "cited_by_count": 92,
+  "h_index": 5,
+  "top_topics": [
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 13
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 11
+    },
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 5
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 5
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "SpaceYOLO: A Human-Inspired Model for Real-time, On-board Spacecraft Feature Detection",
+      "publication_year": 2023,
+      "publication_date": "2023-03-04",
+      "doi": "https://doi.org/10.1109/aero55745.2023.10115705",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 19,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Rendezvous",
+        "Computer science",
+        "Space debris",
+        "Computer vision",
+        "Context (archaeology)",
+        "Object detection",
+        "Collision avoidance"
+      ],
+      "abstract": "The rapid proliferation of non-cooperative spacecraft and space debris in orbit has precipitated a surging demand for on-orbit servicing and space debris removal at a scale that only autonomous missions can address, but the prerequisite autonomous navigation and flightpath planning to safely capture an unknown, non-cooperative, tumbling space object is an open problem. Planning safe, effective trajectories requires real-time, automated spacecraft feature recognition algorithms to pinpoint the locations of collision hazards (e.g., solar panels or antennas) and safe docking features (e.g., satellite bodies or thrusters). Prior work in this area reveals that computer vision models' performance is highly dependent on the training dataset and its coverage of scenarios visually similar to the real scenarios that occur in deployment. Hence, the algorithm may have degraded performance under certain lighting conditions even when the rendezvous maneuver conditions of the chaser to the target spacecraft are the same. This work delves into how humans perform these tasks through a survey of how people experienced with spacecraft shapes and components recognize features of the three spacecraf...",
+      "authors": [
+        "Trupti Mahendrakar",
+        "Ryan T. White",
+        "Markus Wilde",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "Direct adaptive control of spacecraft near asteroids",
+      "publication_year": 2022,
+      "publication_date": "2022-10-10",
+      "doi": "https://doi.org/10.1016/j.actaastro.2022.10.014",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 19,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Asteroid",
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Gravitational field",
+        "Lyapunov function",
+        "Trajectory",
+        "Orbit (dynamics)",
+        "Controller (irrigation)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Madhur Tiwari",
+        "Richard J. Prazenica",
+        "Troy Henderson"
+      ]
+    },
+    {
+      "title": "Computationally Efficient Data-Driven Discovery and Linear Representation of Nonlinear Systems for Control",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.1109/lcsys.2023.3329623",
+      "venue": "IEEE Control Systems Letters",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Linearization",
+        "Autoencoder",
+        "Nonlinear system",
+        "Representation (politics)",
+        "Computer science",
+        "Inverted pendulum",
+        "Linear system",
+        "Operator (biology)"
+      ],
+      "abstract": "This work focuses on developing a data-driven framework using Koopman operator theory for system identification and linearization of nonlinear systems for control. Our proposed method presents a deep learning framework with recursive learning. The resulting linear system is controlled using a linear quadratic control. An illustrative example using a pendulum system is presented with simulations on noisy data. We show that our proposed method is trained more efficiently and is more accurate than an autoencoder baseline.",
+      "authors": [
+        "Madhur Tiwari",
+        "George Nehma",
+        "Bethany Lusch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Radial-Basis-Function-Neural-Network–Based Adaptive Attitude Control with Reaction Wheel Health Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-27",
+      "doi": "https://doi.org/10.2514/1.g009838",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Attitude control",
+        "Computer science",
+        "Estimation",
+        "Control (management)",
+        "Reaction wheel",
+        "Adaptive control",
+        "Control engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Morokot Sakal",
+        "George Nehma",
+        "Camilo Riano-Rios",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "Adaptive Controller for Simultaneous Spacecraft Attitude Tracking and Reaction Wheel Fault Detection",
+      "publication_year": 2026,
+      "publication_date": "2026-03-24",
+      "doi": "https://doi.org/10.2514/1.a36424",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2504.12124",
+      "concepts": [
+        "Control theory (sociology)",
+        "Reaction wheel",
+        "Spacecraft",
+        "Actuator",
+        "Controller (irrigation)",
+        "Adaptive control",
+        "Computer science",
+        "Tracking (education)"
+      ],
+      "abstract": "The attitude control of a spacecraft is integral to achieving mission success. However, failures in actuators such as reaction wheels are detrimental and can often lead to an early end of mission. We propose a Lyapunov-based adaptive controller that can estimate and compensate for reaction wheels degradation simultaneously. The controller incorporates an adaptive update control law with a gradient-based term and an integral concurrent learning term that collects input/output data for online estimation of uncertain parameters. The proposed controller guarantees attitude tracking and minimal loss of control authority under faulty reaction wheel performance. The controllers performance is tested through a variety of numerical simulations as well as a software-in-the-loop test, where the adaptive controller is run in Python via ROS2, while the environment is simulated in Simulink.",
+      "authors": [
+        "George Nehma",
+        "Camilo Riano-Rios",
+        "Morokot Sakal",
+        "Madhur Tiwari"
+      ]
+    },
+    {
+      "title": "Dynamic Scene 3D Reconstruction of an Uncooperative Resident Space Object",
+      "publication_year": 2025,
+      "publication_date": "2025-09-09",
+      "doi": "https://doi.org/10.48550/arxiv.2509.07932",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.07932",
+      "concepts": [
+        "Computer vision",
+        "Computer science",
+        "Artificial intelligence",
+        "Polygon mesh",
+        "Object (grammar)",
+        "3D reconstruction",
+        "Space debris",
+        "Computer graphics (images)"
+      ],
+      "abstract": "Characterization of uncooperative Resident Space Objects (RSO) play a crucial role in On-Orbit Servicing (OOS) and Active Debris Removal (ADR) missions to assess the geometry and motion properties. To address the challenges of reconstructing tumbling uncooperative targets, this study evaluates the performance of existing state-of-the-art 3D reconstruction algorithms for dynamic scenes, focusing on their ability to generate geometrically accurate models with high-fidelity. To support our evaluation, we developed a simulation environment using Isaac Sim to generate physics-accurate 2D image sequences of tumbling satellite under realistic orbital lighting conditions. Our preliminary results on static scenes using Neuralangelo demonstrate promising reconstruction quality. The generated 3D meshes closely match the original CAD models with minimal errors and artifacts when compared using Cloud Compare (CC). The reconstructed models were able to capture critical fine details for mission planning. This provides a baseline for our ongoing evaluation of dynamic scene reconstruction.",
+      "authors": [
+        "Bala Prenith Reddy Gopu",
+        "Huber, Timothy Jacob",
+        "George Nehma",
+        "Quinn, Patrick",
+        "Madhur Tiwari",
+        "Matt Ueckermann",
+        "David Hinckley",
+        "McKenna, Christopher"
+      ]
+    },
+    {
+      "title": "Deep learning based dynamics identification and linearization of orbital problems using Koopman theory",
+      "publication_year": 2025,
+      "publication_date": "2025-05-09",
+      "doi": "https://doi.org/10.1016/j.ast.2025.110295",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Identification (biology)",
+        "Linearization",
+        "Dynamics (music)",
+        "Control theory (sociology)",
+        "Classical mechanics",
+        "Orbital mechanics",
+        "System identification",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "George Nehma",
+        "Madhur Tiwari",
+        "Manasvi Lingam"
+      ]
+    },
+    {
+      "title": "End-to-End Imitation Learning for Optimal Asteroid Proximity Operations",
+      "publication_year": 2025,
+      "publication_date": "2025-03-01",
+      "doi": "https://doi.org/10.1109/aero63441.2025.11068678",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "End-to-end principle",
+        "Computer science",
+        "Imitation",
+        "Asteroid",
+        "Artificial intelligence",
+        "Astrobiology",
+        "Psychology",
+        "Physics"
+      ],
+      "abstract": "Controlling spacecraft near asteroids in deep space comes with many challenges. The delays involved necessitate heavy usage of limited onboard computation resources while fuel efficiency remains a priority to support the long loiter times needed for gathering data. Additionally, the difficulty of state determination due to the lack of traditional reference systems requires a guidance, navigation, and control (GNC) pipeline that ideally is both computationally and fuel-efficient, and that incorporates a robust state determination system. In this paper, we propose an end-to-end algorithm utilizing neural networks to generate near-optimal control commands from raw sensor data, as well as a hybrid model predictive control (MPC) guided imitation learning controller delivering improvements in computational efficiency over a traditional MPC controller.",
+      "authors": [
+        "Patrick Quinn",
+        "George Nehma",
+        "Madhur Tiwari"
+      ]
+    }
+  ]
+}

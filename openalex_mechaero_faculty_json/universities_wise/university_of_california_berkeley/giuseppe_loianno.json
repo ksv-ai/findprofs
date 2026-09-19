@@ -1,0 +1,278 @@
+{
+  "faculty_name": "Giuseppe Loianno",
+  "full_name": "Giuseppe Loianno",
+  "department": "Department of Electrical Engineering and Computer Sciences / Aerospace Engineering Program",
+  "university": "University of California-Berkeley",
+  "author_id": "A5077485450",
+  "works_count": 205,
+  "cited_by_count": 4731,
+  "h_index": 38,
+  "top_topics": [
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 82
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 81
+    },
+    {
+      "topic": "Advanced Vision and Imaging",
+      "count": 27
+    },
+    {
+      "topic": "UAV Applications and Optimization",
+      "count": 22
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Estimation, Control, and Planning for Aggressive Flight With a Small Quadrotor With a Single Camera and IMU",
+      "publication_year": 2016,
+      "publication_date": "2016-11-29",
+      "doi": "https://doi.org/10.1109/lra.2016.2633290",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 313,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inertial measurement unit",
+        "Computer science",
+        "Monocular",
+        "Rotation (mathematics)",
+        "Angular velocity",
+        "Units of measurement",
+        "Computer vision",
+        "Artificial intelligence"
+      ],
+      "abstract": "We address the state estimation, control, and planning for aggressive flight with a 150 cm diameter, 250 g quadrotor equipped only with a single camera and an inertial measurement unit (IMU). The use of smartphone grade hardware and the small scale provides an inexpensive and practical solution for autonomous flight in indoor environments. The key contributions of this paper are: 1) robust state estimation and control using only a monocular camera and an IMU at speeds of 4.5 m/s, accelerations of over 1.5 g, roll and pitch angles of up to 90°, and angular rate of up to 800°/s without requiring any structure in the environment; 2) planning of dynamically feasible three-dimensional trajectories for slalom paths and flights through narrow windows; and 3) extensive experimental results showing aggressive flights through and around obstacles with large rotation angular excursions and accelerations.",
+      "authors": [
+        "Giuseppe Loianno",
+        "Chris Brunner",
+        "Gary McGrath",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "Fast, autonomous flight in GPS‐denied and cluttered environments",
+      "publication_year": 2017,
+      "publication_date": "2017-12-15",
+      "doi": "https://doi.org/10.1002/rob.21774",
+      "venue": "Journal of Field Robotics",
+      "type": "article",
+      "cited_by_count": 203,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rob.21774",
+      "concepts": [
+        "Robot",
+        "Global Positioning System",
+        "Component (thermodynamics)",
+        "A priori and a posteriori",
+        "Computer science",
+        "Software",
+        "Real-time computing",
+        "Artificial intelligence"
+      ],
+      "abstract": "Abstract One of the most challenging tasks for a flying robot is to autonomously navigate between target locations quickly and reliably while avoiding obstacles in its path, and with little to no a priori knowledge of the operating environment. This challenge is addressed in the present paper. We describe the system design and software architecture of our proposed solution and showcase how all the distinct components can be integrated to enable smooth robot operation. We provide critical insight on hardware and software component selection and development and present results from extensive experimental testing in real‐world warehouse environments. Experimental testing reveals that our proposed solution can deliver fast and robust aerial robot autonomous navigation in cluttered, GPS‐denied environments.",
+      "authors": [
+        "Kartik Mohta",
+        "Michael Watterson",
+        "Yash Mulgaonkar",
+        "Sikang Liu",
+        "Chao Qu",
+        "Anurag Makineni",
+        "Kelsey Saulnier",
+        "Ke Sun",
+        "Alex Zihao Zhu",
+        "Jeffrey Delmerico",
+        "Konstantinos Karydis",
+        "Nikolay Atanasov",
+        "Giuseppe Loianno",
+        "Davide Scaramuzza",
+        "Kostas Daniilidis",
+        "Camillo J. Taylor",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "Autonomous landing on a moving vehicle with an unmanned aerial vehicle",
+      "publication_year": 2019,
+      "publication_date": "2019-01-04",
+      "doi": "https://doi.org/10.1002/rob.21858",
+      "venue": "Journal of Field Robotics",
+      "type": "article",
+      "cited_by_count": 164,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Controller (irrigation)",
+        "Takeoff",
+        "Artificial intelligence",
+        "Robotics",
+        "Quadcopter",
+        "Engineering",
+        "Computer science"
+      ],
+      "abstract": "Abstract This paper addresses the perception, control, and trajectory planning for an aerial platform to identify and land on a moving car at 15 km/hr. The hexacopter unmanned aerial vehicle (UAV), equipped with onboard sensors and a computer, detects the car using a monocular camera and predicts the car future movement using a nonlinear motion model. While following the car, the UAV lands on its roof, and it attaches itself using magnetic legs. The proposed system is fully autonomous from takeoff to landing. Numerous field tests were conducted throughout the year‐long development and preparations for the Mohamed Bin Zayed International Robotics Challenge (MBZIRC) 2017 competition, for which the system was designed. We propose a novel control system in which a model predictive controller is used in real time to generate a reference trajectory for the UAV, which are then tracked by the nonlinear feedback controller. This combination allows to track predictions of the car motion with minimal position error. The evaluation presents three successful autonomous landings during the MBZIRC 2017, where our system achieved the fastest landing among all competing teams.",
+      "authors": [
+        "Tomas Baca",
+        "Petr Štěpán",
+        "Vojtěch Spurný",
+        "Daniel Heřt",
+        "Robert Pěnička",
+        "Martin Saska",
+        "Justin Thomas",
+        "Giuseppe Loianno",
+        "Vijay Kumar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "HoLoArm: Deformable Arms for Collision-Tolerant Quadrotor Flight",
+      "publication_year": 2026,
+      "publication_date": "2026-05-25",
+      "doi": "https://doi.org/10.48550/arxiv.2605.25790",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.25790",
+      "concepts": [
+        "Drone",
+        "Payload (computing)",
+        "Flexibility (engineering)",
+        "Computer science",
+        "Engineering",
+        "Resilience (materials science)",
+        "Robot",
+        "Aerospace engineering"
+      ],
+      "abstract": "The increasing use of drones in human-centric applications highlights the need for designs that can survive collisions and recover rapidly, minimizing risks to both humans and the environment. We present HoLoArm, a quadrotor with compliant arms inspired by the nodus structure of dragonfly wings. This design provides natural flexibility and resilience while preserving flight stability, which is further reinforced by the integration of a Reinforcement Learning (RL) control policy that enhances both recovery and hovering performance. Experimental results demonstrate that HoLoArm can passively deform in any direction, including axial one, and recover within 0.3-0.6 s depending on the direction and level of the impact. The drone can survive collisions at speeds up to 7.6 m/s and carry a 540 g payload while maintaining stable flight. This work contributes to the morphological design of soft aerial robots with high agility and reliable safety, enabling operation in cluttered and human shared environments, and lays the groundwork for future fully soft drones that integrate compliant structures with intelligent control.",
+      "authors": [
+        "Quang Ngoc Pham",
+        "Jonas Eschmann",
+        "Yang Zhou",
+        "Alejandro Ojeda Olarte",
+        "Giuseppe Loianno",
+        "Van Anh Ho"
+      ]
+    },
+    {
+      "title": "Wind-Aware Optimal Trajectory Planning for Efficient Gliding of Fixed-Wing Aerial Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://doi.org/10.48550/arxiv.2605.15619",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.15619",
+      "concepts": [
+        "Trajectory",
+        "Control theory (sociology)",
+        "Obstacle",
+        "Motion planning",
+        "Engineering",
+        "Optimal control",
+        "Computer science",
+        "Sink (geography)"
+      ],
+      "abstract": "Gliding offers small fixed-wing UAVs extended endurance and silent operation but requires accurate energy management, especially under wind disturbances and obstacle constraints. Traditional Total Energy Control Systems based controllers regulate the trade between potential and kinetic energy reactively, often requiring fine-tuning and trim-conditions knowledge. In this work, we shift the regulation to the planning level and present a nonlinear, multi-cost trajectory planner for small UAV gliders. The method generates $\\mathcal{C}^3$ continuous trajectories based on Bernstein polynomials, mapped into control commands through differential flatness, and re-planned online to match experimentally derived sink polar curves. A simulated netto variometer is integrated into the optimization to estimate air mass motion, constraining the glide to energy-balanced states. Consecutive gliding trajectories are linked by cruising segments computed through trajectories initialized on Dubins path-based waypoints, enabling hybrid missions that combine powered and unpowered flight. The approach is validated in CFD simulations and real-world experiments with a fixed-wing platform, showing reliable ...",
+      "authors": [
+        "Luca Morando",
+        "Nishanth Bobbili",
+        "Giuseppe Loianno"
+      ]
+    },
+    {
+      "title": "Wind-Aware Optimal Trajectory Planning for Efficient Gliding of Fixed-Wing Aerial Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://arxiv.org/abs/2605.15619",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.15619",
+      "concepts": [
+        "Trajectory",
+        "Control theory (sociology)",
+        "Obstacle",
+        "Motion planning",
+        "Engineering",
+        "Optimal control",
+        "Computer science",
+        "Sink (geography)"
+      ],
+      "abstract": "Gliding offers small fixed-wing UAVs extended endurance and silent operation but requires accurate energy management, especially under wind disturbances and obstacle constraints. Traditional Total Energy Control Systems based controllers regulate the trade between potential and kinetic energy reactively, often requiring fine-tuning and trim-conditions knowledge. In this work, we shift the regulation to the planning level and present a nonlinear, multi-cost trajectory planner for small UAV gliders. The method generates $\\mathcal{C}^3$ continuous trajectories based on Bernstein polynomials, mapped into control commands through differential flatness, and re-planned online to match experimentally derived sink polar curves. A simulated netto variometer is integrated into the optimization to estimate air mass motion, constraining the glide to energy-balanced states. Consecutive gliding trajectories are linked by cruising segments computed through trajectories initialized on Dubins path-based waypoints, enabling hybrid missions that combine powered and unpowered flight. The approach is validated in CFD simulations and real-world experiments with a fixed-wing platform, showing reliable ...",
+      "authors": [
+        "Luca Morando",
+        "Nishanth Bobbili",
+        "Giuseppe Loianno"
+      ]
+    },
+    {
+      "title": "RAPTOR: A foundation policy for quadrotor control",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.1126/scirobotics.aec1481",
+      "venue": "Science Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2509.11481",
+      "concepts": [
+        "Reinforcement learning",
+        "Variety (cybernetics)",
+        "Foundation (evidence)",
+        "Controller (irrigation)",
+        "Adaptation (eye)",
+        "Control (management)",
+        "Engineering",
+        "Identification (biology)"
+      ],
+      "abstract": "Humans are remarkably data efficient when adapting to previously unseen conditions, like driving a new car. In contrast, modern robotic control systems, like neural network policies trained using reinforcement learning (RL), are highly specialized for single environments. Because of this overfitting, they are known to break down even under small differences like the simulation-to-reality gap and require system identification and retraining for even minimal changes to the system. Here, we present RAPTOR, a method for training a highly adaptive foundation policy for quadrotor control. Our method enables training a single, end-to-end neural network policy to control a wide variety of quadrotors. We tested 10 different real quadrotors, from 32 grams to 2.4 kilograms, that also differed in motor type (brushed versus brushless), frame type (soft versus rigid), propeller type (two, three, or four blades), and flight controller (PX4, Betaflight, Crazyflie, M5StampFly). We found that a tiny, three-layer policy with only 2084 parameters was sufficient for zero-shot adaptation to a wide variety of platforms. The adaptation through in-context learning was made possible by using a recurrence...",
+      "authors": [
+        "Jonas Eschmann",
+        "Dario Albani",
+        "Giuseppe Loianno"
+      ]
+    },
+    {
+      "title": "SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors",
+      "publication_year": 2026,
+      "publication_date": "2026-06-22",
+      "doi": "https://doi.org/10.48550/arxiv.2606.23444",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.23444",
+      "concepts": [
+        "Generalization",
+        "Model predictive control",
+        "Computer science",
+        "Pipeline (software)",
+        "Artificial intelligence",
+        "Autoregressive model",
+        "Embedding",
+        "Artificial neural network"
+      ],
+      "abstract": "Accurate dynamics models are critical for informed decision-making in robotic systems, particularly for agile aerial vehicles operating under uncertainty. Neural network dynamics models are attractive for capturing complex nonlinear effects, but existing predictive approaches struggle with long-horizon forecasting because their autoregressive rollout mechanism amplifies errors over time. Joint Embedding Predictive Architectures (JEPAs) offer a compelling alternative by modeling dynamics in latent space, yet prior JEPA-style methods for robot navigation have been studied primarily for kinematic-level planning, with limited investigation in high-frequency control. In this work, we introduce the JEPA-style model for real-time quadrotor control. The proposed approach combines a latent dynamics model with a novel physics-inspired prober that maps frozen latents to interpretable state, enabling physically grounded long-horizon prediction. Additionally, we combine the learned model with a sampling-based optimal control solution to take advantage of its predictive capabilities for real-time control on embedded hardware. Finally, to reduce the dependence on expensive and unsafe real-worl...",
+      "authors": [
+        "Pratyaksh Rao",
+        "Wancong Zhang",
+        "Randall Balestriero",
+        "Yann LeCun",
+        "Giuseppe Loianno"
+      ]
+    }
+  ]
+}

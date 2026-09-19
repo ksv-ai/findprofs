@@ -1,0 +1,271 @@
+{
+  "faculty_name": "Venanzio Cichella",
+  "full_name": "Venanzio Cichella",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Iowa",
+  "author_id": "A5014268576",
+  "works_count": 111,
+  "cited_by_count": 1203,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 52
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 32
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 16
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 15
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Geometric 3D Path-Following Control for a Fixed-Wing UAV on SO(3)",
+      "publication_year": 2011,
+      "publication_date": "2011-06-14",
+      "doi": "https://doi.org/10.2514/6.2011-6415",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 51,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixed wing",
+        "Path (computing)",
+        "Computer science",
+        "Wing",
+        "Control (management)",
+        "Computer vision",
+        "Topology (electrical circuits)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "This paper addresses the problem of steering an Unmanned Aerial Vehicle along a given path. In the setup adopted, the vehicle is assigned a nominal path and a speed profile along it. The vehicle is then tasked to follow this nominal path independently of the temporal assignments of the mission, which is in contrast to “open-loop” trajectory tracking maneuvers. The paper builds on previous work by the authors on path-following control and derives a new control algorithm that uses the Special Orthorgonal goup SO(3) in the formulation of the attitude control problem. This formulation avoids the geometric singularities and complexities that appear when dealing with local parameterizations of the vehicle’s attitude, and leads thus to a singularity-free path-following control law. Flight test results performed in Camp Roberts, CA, demonstrate the efficacy of the path-following control algorithm developed in this paper.",
+      "authors": [
+        "Venanzio Cichella",
+        "Isaac Kaminer",
+        "Vladimir Dobrokhodov",
+        "Enric Xargay",
+        "Naira Hovakimyan",
+        "A. Pascoal"
+      ]
+    },
+    {
+      "title": "Safe Coordinated Maneuvering of Teams of Multirotor Unmanned Aerial Vehicles: A Cooperative Control Framework for Multivehicle, Time-Critical Missions",
+      "publication_year": 2016,
+      "publication_date": "2016-07-18",
+      "doi": "https://doi.org/10.1109/mcs.2016.2558443",
+      "venue": "IEEE Control Systems",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multirotor",
+        "Platoon",
+        "Aeronautics",
+        "Control (management)",
+        "Drone",
+        "Engineering",
+        "Control engineering",
+        "Computer science"
+      ],
+      "abstract": "Multirotor unmanned aerial vehicles (UAVs) have experienced a very fast-paced technological development over the past years. Flight control systems have evolved from simple stability augmentation systems, barely enabling an external pilot to remotely fly a multirotor UAV, to full-fledged command augmentation systems, opening up the possibilities of autonomous operations of multirotors. Due to their small size, low cost, and high agility, multirotors draw a plethora of applications, including multiple vehicles operations, where the vehicles cooperate and jointly execute a mission, in constrained complex environments such as crowd monitoring and utility line inspection.",
+      "authors": [
+        "Venanzio Cichella",
+        "Ronald Choe",
+        "Syed Bilal Mehdi",
+        "Enric Xargay",
+        "Naira Hovakimyan",
+        "Vladimir Dobrokhodov",
+        "Isaac Kaminer",
+        "A. Pascoal",
+        "A. Pedro Aguiar"
+      ]
+    },
+    {
+      "title": "Time-Critical Cooperative Path Following of Multiple Unmanned Aerial Vehicles over Time-Varying Networks",
+      "publication_year": 2013,
+      "publication_date": "2013-02-07",
+      "doi": "https://doi.org/10.2514/1.56538",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 96,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Computer science",
+        "Path (computing)",
+        "Autopilot",
+        "Interval (graph theory)",
+        "Real-time computing",
+        "Collision avoidance",
+        "Control theory (sociology)"
+      ],
+      "abstract": "This paper addresses the problem of steering a fleet of unmanned aerial vehicles along desired three-dimensional paths while meeting stringent spatial and temporal constraints. A representative example is the challenging mission scenario where the unmanned aerial vehicles are tasked to cooperatively execute collision-free maneuvers and arrive at their final destinations at the same time. In the proposed framework, the unmanned aerial vehicles are assigned nominal spatial paths and speed profiles along those, and then the vehicles are requested to execute cooperative path following, rather than open loop trajectory tracking maneuvers. This strategy yields robust behavior against external disturbances by allowing the unmanned aerial vehicles to negotiate their speeds along the paths in response to information exchanged over the supporting communications network. The paper considers the case where the graph that captures the underlying time-varying communications topology is disconnected during some interval of time or even fails to be connected at all times. Conditions are given under which the cooperative path-following closed-loop system is stable. Flight test results of a coord...",
+      "authors": [
+        "Enric Xargay",
+        "Isaac Kaminer",
+        "A. Pascoal",
+        "Naira Hovakimyan",
+        "Vladimir Dobrokhodov",
+        "Venanzio Cichella",
+        "A. Pedro Aguiar",
+        "Reza Ghabcheloo"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Solving Geodesic Equations With Composite Bernstein Polynomials for Trajectory Planning",
+      "publication_year": 2026,
+      "publication_date": "2026-03-07",
+      "doi": "https://doi.org/10.1109/aero66936.2026.11519773",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematics",
+        "Trajectory",
+        "Bernstein polynomial",
+        "Applied mathematics",
+        "Geodesic",
+        "Mathematical analysis",
+        "Computer science",
+        "Sequence (biology)"
+      ],
+      "abstract": "This work presents a trajectory planning method based on composite Bernstein polynomials, designed for autonomous systems navigating complex environments. The method is implemented in a symbolic optimization framework that enables continuous paths and precise control over trajectory shape. Trajectories are planned over a cost surface that encodes obstacles as continuous fields rather than discrete boundaries. Areas near obstacles are assigned higher costs, naturally encouraging the trajectory to maintain a safe distance while still allowing for efficient routing through constrained spaces. The use of composite Bernstein polynomials allows the trajectory to maintain continuity while enabling fine control over local curvature to meet geodesic constraints. The symbolic representation supports exact derivatives, improving the efficiency of the optimization process. The method is applicable to both two- and three-dimensional environments and is suitable for ground, aerial, underwater, and space system applications. In the context of spacecraft trajectory planning, for example, it enables the generation of continuous, dynamically feasible trajectories with high numerical efficiency, m...",
+      "authors": [
+        "Nick Gorman",
+        "Gage MacLin",
+        "Maxwell Hammond",
+        "Venanzio Cichella"
+      ]
+    },
+    {
+      "title": "Solving Geodesic Equations with Composite Bernstein Polynomials for Trajectory Planning",
+      "publication_year": 2026,
+      "publication_date": "2026-02-10",
+      "doi": "https://doi.org/10.48550/arxiv.2602.10365",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.10365",
+      "concepts": [
+        "Motion planning",
+        "Trajectory",
+        "Geodesic",
+        "Mathematics",
+        "Computer science",
+        "Mathematical optimization",
+        "Boundary (topology)",
+        "Surface (topology)"
+      ],
+      "abstract": "This work presents a trajectory planning method based on composite Bernstein polynomials for autonomous systems navigating complex environments. The method is implemented in a symbolic optimization framework that enables continuous paths and precise control over trajectory shape. Trajectories are planned over a cost surface that encodes obstacles as continuous fields rather than discrete boundaries. Regions near obstacles are assigned higher costs, naturally encouraging the trajectory to maintain a safe distance while still allowing efficient routing through constrained spaces. The use of composite Bernstein polynomials preserves continuity while enabling fine control over local curvature to satisfy geodesic constraints. The symbolic representation supports exact derivatives, improving optimization efficiency. The method applies to both two- and three-dimensional environments and is suitable for ground, aerial, underwater, and space systems. In spacecraft trajectory planning, for example, it enables the generation of continuous, dynamically feasible trajectories with high numerical efficiency, making it well suited for orbital maneuvers, rendezvous and proximity operations, clut...",
+      "authors": [
+        "Nick Gorman",
+        "Gage MacLin",
+        "Maxwell Hammond",
+        "Venanzio Cichella"
+      ]
+    },
+    {
+      "title": "Solving Geodesic Equations with Composite Bernstein Polynomials for Trajectory Planning",
+      "publication_year": 2026,
+      "publication_date": "2026-02-10",
+      "doi": "http://arxiv.org/abs/2602.10365",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.10365",
+      "concepts": [
+        "Motion planning",
+        "Trajectory",
+        "Geodesic",
+        "Mathematics",
+        "Computer science",
+        "Mathematical optimization",
+        "Boundary (topology)",
+        "Surface (topology)"
+      ],
+      "abstract": "This work presents a trajectory planning method based on composite Bernstein polynomials for autonomous systems navigating complex environments. The method is implemented in a symbolic optimization framework that enables continuous paths and precise control over trajectory shape. Trajectories are planned over a cost surface that encodes obstacles as continuous fields rather than discrete boundaries. Regions near obstacles are assigned higher costs, naturally encouraging the trajectory to maintain a safe distance while still allowing efficient routing through constrained spaces. The use of composite Bernstein polynomials preserves continuity while enabling fine control over local curvature to satisfy geodesic constraints. The symbolic representation supports exact derivatives, improving optimization efficiency. The method applies to both two- and three-dimensional environments and is suitable for ground, aerial, underwater, and space systems. In spacecraft trajectory planning, for example, it enables the generation of continuous, dynamically feasible trajectories with high numerical efficiency, making it well suited for orbital maneuvers, rendezvous and proximity operations, clut...",
+      "authors": [
+        "Nick Gorman",
+        "Gage MacLin",
+        "Maxwell Hammond",
+        "Venanzio Cichella"
+      ]
+    },
+    {
+      "title": "Transformer-Enabled Leg-Based Trajectory Generation for Autonomous Aircraft Near Airports",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3269",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Aeronautics",
+        "Transformer",
+        "Computer science",
+        "Engineering",
+        "Electrical engineering",
+        "Physics",
+        "Voltage"
+      ],
+      "abstract": "We present a Transformer-based trajectory generation method for autonomous aircraft operating in the vicinity of airports. The proposed model is designed to generate trajectories that adhere to standard traffic pattern procedures by generating each segment, or leg, of the pattern sequentially. This leg-by-leg approach allows the model to embed leg-specific behaviors into each portion of the trajectory, thus allowing the generation of trajectories that comply with established flight conventions. While the data-driven nature of the method allows it to learn complex patterns from flight data, it lacks inherent guarantees regarding safety or dynamic feasibility. Nevertheless, the trajectories produced serve as strong candidates for subsequent verification. In particular, they may be validated using geometric techniques or optimization-based methods, enabling the integration of learning-based trajectory generation with frameworks that provide strong guarantees.",
+      "authors": [
+        "Gage MacLin",
+        "Venanzio Cichella",
+        "Andrew Patterson",
+        "Irene M. Gregory"
+      ]
+    },
+    {
+      "title": "Coordinated Path Following of UAVs using Event-Triggered Communication over Networks with Digraph Topologies",
+      "publication_year": 2025,
+      "publication_date": "2025-07-08",
+      "doi": "https://doi.org/10.23919/acc63710.2025.11107623",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Network topology",
+        "Digraph",
+        "Computer science",
+        "Path (computing)",
+        "Computer network",
+        "Event (particle physics)",
+        "Distributed computing",
+        "Topology (electrical circuits)"
+      ],
+      "abstract": "This article presents a novel time-coordination algorithm based on event-triggered communication to ensure multiple UAVs progress along their desired paths in coordination with one another. In the proposed algorithm, a UAV transmits its progression information to its neighbor UAVs only when a decentralized trigger condition is satisfied. Consequently, it significantly reduces the volume of inter-vehicle communications required to achieve the goal compared with the existing algorithms based on continuous communication. With such intermittent communications, it is shown that a decentralized coordination controller guarantees exponential convergence of the coordination error to a neighborhood of zero. Furthermore, a lower bound on the difference between two consecutive event-triggered times is provided showing that the Zeno behavior is excluded with the proposed algorithm. Lastly, simulation results validate the efficacy of the proposed algorithm.",
+      "authors": [
+        "Hyungsoo Kang",
+        "Isaac Kaminer",
+        "Venanzio Cichella",
+        "Naira Hovakimyan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Prosenjit Bagchi",
+  "full_name": "Prosenjit Bagchi",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Rutgers University-New Brunswick",
+  "author_id": "A5049930474",
+  "works_count": 124,
+  "cited_by_count": 3763,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Blood properties and coagulation",
+      "count": 72
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 42
+    },
+    {
+      "topic": "Erythrocyte Function and Pathophysiology",
+      "count": 26
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 25
+    },
+    {
+      "topic": "Platelet Disorders and Treatments",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Mesoscale Simulation of Blood Flow in Small Vessels",
+      "publication_year": 2007,
+      "publication_date": "2007-01-05",
+      "doi": "https://doi.org/10.1529/biophysj.106.095042",
+      "venue": "Biophysical Journal",
+      "type": "article",
+      "cited_by_count": 291,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1529/biophysj.106.095042",
+      "concepts": [
+        "Mesoscale meteorology",
+        "Flow (mathematics)",
+        "Geology",
+        "Blood flow",
+        "Mechanics",
+        "Medicine",
+        "Cardiology",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Prosenjit Bagchi"
+      ]
+    },
+    {
+      "title": "Effect of turbulence on the drag and lift of a particle",
+      "publication_year": 2003,
+      "publication_date": "2003-10-16",
+      "doi": "https://doi.org/10.1063/1.1616031",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 261,
+      "is_oa": true,
+      "oa_url": "https://www.ideals.illinois.edu/items/738/bitstreams/3372/data.pdf",
+      "concepts": [
+        "Drag",
+        "Physics",
+        "Freestream",
+        "Turbulence",
+        "Mechanics",
+        "Drag coefficient",
+        "Direct numerical simulation",
+        "Reynolds number"
+      ],
+      "abstract": "A direct numerical simulation (DNS) is used to study the effect of a freestream isotropic turbulent flow on the drag and lift forces on a spherical particle. The particle diameter is about 1.5–10 times the Kolmogorov scale, the particle Reynolds number is about 60–600, and the freestream turbulence intensity is about 10%–25%. The isotropic turbulent field considered here is stationary, i.e., frozen in time. It is shown that the freestream turbulence does not have a substantial and systematic effect on the time-averaged mean drag. The standard drag correlation based on the instantaneous or mean relative velocity results in a reasonably accurate prediction of the mean drag obtained from the DNS. However, the accuracy of prediction of the instantaneous drag decreases with increasing particle size. For the smaller particles, the low frequency oscillations in the DNS drag are well captured by the standard drag, but for the larger particles significant differences exist even for the low frequency components. Inclusion of the added-mass and history forces, computed based on the fluid velocity at the center of the particle, does not improve the prediction. Different estimates of the flu...",
+      "authors": [
+        "Prosenjit Bagchi",
+        "S. Balachandar"
+      ]
+    },
+    {
+      "title": "Effect of free rotation on the motion of a solid sphere in linear shear flow at moderate Re",
+      "publication_year": 2002,
+      "publication_date": "2002-08-01",
+      "doi": "https://doi.org/10.1063/1.1487378",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 196,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Drag",
+        "Mechanics",
+        "Reynolds number",
+        "Lift (data mining)",
+        "Classical mechanics",
+        "Shear flow",
+        "Torque"
+      ],
+      "abstract": "The effect of free rotation on the drag and lift forces on a solid sphere in unbounded linear shear flow is investigated. The sphere Reynolds number, Re=|ur|d/ν, is in the range 0.5–200, where ur is the slip velocity. Direct numerical simulations of three-dimensional flow past an isolated sphere are performed using spectral methods. The sphere is allowed to rotate and translate freely in the shear flow in response to the hydrodynamic forces and torque acting on it. The effect of free rotation is studied in a systematic way by considering three sets of simulations. In the first set of simulations, we study how fast a pure rotational or translational motion of the sphere approaches steady state. The “history” effect of rotational and translational motions are compared. Results at high Re are found to be significantly different from the analytical prediction based on low Re theory. In steady simulations, the sphere is allowed to rotate in a torque-free condition. The torque-free rotation rate and the drag and lift forces under such a condition are reported. Comparisons are drawn with the forces on a nonrotating sphere. The effect of rotation is observed to be high in the range 5≲Re...",
+      "authors": [
+        "Prosenjit Bagchi",
+        "S. Balachandar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Predicting plexus-specific capillary hemodynamics and blood cell transport in human retina",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1152/physiol.2026.41.s1.2301446",
+      "venue": "Physiology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hemodynamics",
+        "Blood flow",
+        "Retina",
+        "Retinal",
+        "Diabetic retinopathy",
+        "Anatomy",
+        "Oxygen transport",
+        "Plexus"
+      ],
+      "abstract": "Study Objective: The retina is one of the most metabolically active tissue with highest oxygen consumption per weight. An intricate and multi-layered (i.e. plexus) network of capillary blood vessels nourish the retinal cells while minimally interfering with transmitted light. Different plexus nourish different layers of nerve cells and photoreceptors. During retinal diseases, such as diabetic retinopathy and age-related macular degeneration, different plexus are known to be affected differently. Yet, how the microcirculatory blood flow and hemodynamics differs in different capillary plexus remains unknown. The objective is to use a high-fidelity computational modeling study to predict how blood cell flow and capillary hemodynamics varies across different retinal plexus.Hypothesis: Microcirculatory blood flow and hemodynamics differ among different retinal vascular plexus which eventually leads to varying degree of vasculopathy in retinal diseases.Methodology: A high-fidelity 3D computational model is used to predict blood cell flow and capillary hemodynamics in three vascular plexus, namely, superficial (SVP), intermediate (ICP) and deep (DCP) plexus, of the macula of the human ...",
+      "authors": [
+        "Mithun Krishnan",
+        "Prosenjit Bagchi"
+      ]
+    },
+    {
+      "title": "High-fidelity computational modeling of blood cell transport and capillary hemodynamics in angiogenesis",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1152/physiol.2026.41.s1.2301333",
+      "venue": "Physiology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hemodynamics",
+        "Angiogenesis",
+        "Blood flow",
+        "Hematocrit",
+        "Blood vessel",
+        "Sprouting angiogenesis",
+        "Chemistry",
+        "Blood cell"
+      ],
+      "abstract": "Study Objective: To predict flow of blood cells and capillary hemodynamics and to understand their role in angiogenesis.Hypothesis: Red blood cell flow dynamics affects the growth and remodeling of angiogenic vasculature.Methodology: A high-fidelity 3D computational model is used to simulate flow of blood cells through microvascular networks in retinal angiogenesis. The model accurately resolves deformation of each individual blood cells in flow and accurately model the mouse retinal angiogenic vasculature as obtained from in vivo images. The model accurately predicts hemodynamic parameters, such as, blood cell velocity, hematocrit and 3D profiles of wall shear stress (wss) in every vessel of the angiogenic network.Data: The model simulates blood cell flow over nearly 700X500 μm 2 area containing hundreds of angiogenic vessels (dia. 2--30 μm, including vessel sprouts) and more than 3000 cells at any instant of time. We specifically focus within ~500 μm from the leading angiogenic front. Predicted cell velocity ranges from 0-5 mm/s, hematocrit 0-30%, and wss 0-120 dyn/cm 2 . Summary Results: We found that there are specific vascular pathways formed by multiple vessels that are ri...",
+      "authors": [
+        "Prosenjit Bagchi",
+        "Abhay Mohan"
+      ]
+    },
+    {
+      "title": "Influence of leukocyte adhesion on partitioning of healthy and diabetic red blood cells at vascular bifurcations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-29",
+      "doi": "https://doi.org/10.1016/j.bpj.2026.01.044",
+      "venue": "Biophysical Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.bpj.2026.01.044",
+      "concepts": [
+        "Diabetes mellitus",
+        "Asymmetry",
+        "Red blood cell",
+        "Adhesion",
+        "Chemistry",
+        "Internal medicine",
+        "Endocrinology",
+        "Blood flow"
+      ],
+      "abstract": "Hemorheological changes associated with diabetes include alteration in red blood cell (RBC) deformability, shape, and volume, and an increased number of adhered leukocytes (white blood cells [WBCs]). How such changes affect RBC distribution in capillary vessel networks is not fully known. Here, we undertake a 3D high-fidelity computational study of diabetic and healthy RBC partitioning in vascular bifurcations without and with an adherent WBC. We predict that without a WBC, the difference between healthy and diabetic RBC partitioning is small but subtle. While both exhibit disproportionate but regular partitioning, the sigmoid curves depicting diabetic RBCs could become concave-up. An adherent WBC is shown to cause significant asymmetry with RBCs, exhibiting reverse partitioning when it is located closer to the flow-dominant branch and highly disproportionate regular partitioning when it is located closer to the non-dominant branch. The effect of a WBC is more pronounced on diabetic RBCs. Using numerical data and a reduced-order theoretical model, it is found that such asymmetry in RBC partitioning strikingly differs from WBC-induced asymmetry in the flow-rate partitioning-the a...",
+      "authors": [
+        "Shane LeCompte",
+        "Prosenjit Bagchi"
+      ]
+    },
+    {
+      "title": "Analysis of Shear Stress in Microvasculature with White Blood Cells and Non-Newtonian Fluid Models",
+      "publication_year": 2025,
+      "publication_date": "2025-10-10",
+      "doi": "https://doi.org/10.1109/urtc68753.2025.11532984",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Shear stress",
+        "Biomedical engineering",
+        "Materials science",
+        "Stress (linguistics)",
+        "Shear (geology)",
+        "Blood flow",
+        "Chemistry",
+        "Hemodynamics"
+      ],
+      "abstract": "Blood is a complex substance with various properties throughout the circulatory system. This paper investigates the behavior of this substance in microvessels under twenty micrometers and their impacts on shear stress. Adaptive Optics imaging techniques and Python automation were used to accurately model a retinal network to be tested through computational fluid dynamics. Newtonian and non-Newtonian fluid models were simulated along with white blood cells (WBCs) to measure differences in shear stress, which has implications in novel drug and medication treatment. WBCs were found to drastically increase shear stress while non-Newtonian fluids saw a decrease, identifying vessel diameter as a key parameter for shear stress in non-Newtonian fluid models. Overall, high shear stress occurred in similar areas of bifurcations and sharp turns with differing magnitudes based on fluid models or the addition of WBCs.",
+      "authors": [
+        "Nirnay Bhattacharya",
+        "Dylan Cortegana",
+        "Zakary Kessler",
+        "Yashvi Patel",
+        "Giulia Zumpano",
+        "Patrick Pangilinan",
+        "Prosenjit Bagchi"
+      ]
+    },
+    {
+      "title": "Predicting red blood cell transport and capillary hemodynamics in angiogenic and tumor vascular networks in silico",
+      "publication_year": 2025,
+      "publication_date": "2025-10-06",
+      "doi": "https://doi.org/10.1016/j.bpj.2025.10.004",
+      "venue": "Biophysical Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.bpj.2025.10.004",
+      "concepts": [
+        "Microcirculation",
+        "Hemodynamics",
+        "Blood flow",
+        "Red blood cell",
+        "In silico",
+        "Chemistry",
+        "Angiogenesis",
+        "Pathology"
+      ],
+      "abstract": "Blood flow through capillary vessels in cancerous tissue plays a crucial role in disease progression and treatment. Unlike the microvasculature in healthy tissue, which is hierarchically well organized, a cancerous tissue is characterized by chaotic organization. A detailed quantification of blood cell transport and capillary hemodynamics in tumor microvasculature is lacking. Specifically, the relationship between tumor vascular geometric abnormalities, the dynamics of flowing blood cells, and the resulting blood flow anomalies at the vasculature scale is unknown. To fill this knowledge gap, we utilize a high-fidelity computational model of the flow of a deformable red blood cell (RBC) suspension through angiogenic and tumor microvasculatures in silico, built from in vivo/ex vivo images. We provide detailed quantitative distinctions between the healthy, angiogenic, and tumor microcirculation by predicting hemodynamic parameters that are difficult to experimentally measure but physiologically significant. These include the shape and dynamics of individual RBCs, the Fahraeus effect, blood viscosity, wall shear stress, and a 3D mapping of the RBC-depleted region near the vascular s...",
+      "authors": [
+        "Abhay Mohan",
+        "Prosenjit Bagchi"
+      ]
+    }
+  ]
+}

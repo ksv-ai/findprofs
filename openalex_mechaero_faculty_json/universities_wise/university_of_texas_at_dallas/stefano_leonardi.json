@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Stefano Leonardi",
+  "full_name": "Stefano Leonardi",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Texas at Dallas",
+  "author_id": "A5020876546",
+  "works_count": 237,
+  "cited_by_count": 4716,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 95
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 67
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 67
+    },
+    {
+      "topic": "Heat Transfer Mechanisms",
+      "count": 43
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 40
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Large-Eddy Simulation of Wind-Plant Aerodynamics",
+      "publication_year": 2012,
+      "publication_date": "2012-01-09",
+      "doi": "https://doi.org/10.2514/6.2012-537",
+      "venue": "50th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 339,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Large eddy simulation",
+        "Environmental science",
+        "Aerospace engineering",
+        "Wind power",
+        "Meteorology",
+        "Computer science",
+        "Marine engineering"
+      ],
+      "abstract": "In this work, we present results of a large-eddy simulation of the 48 multi-megawatt turbines composing the Lillgrund wind plant.Turbulent inflow wind is created by performing an atmospheric boundary layer precursor simulation, and turbines are modeled using a rotating, variable-speed actuator line representation.The motivation for this work is that few others have done large-eddy simulations of wind plants with a substantial number of turbines, and the methods for carrying out the simulations are varied.We wish to draw upon the strengths of the existing simulations and our growing atmospheric large-eddy simulation capability to create a sound methodology for performing this type of simulation.We used the OpenFOAM CFD toolbox to create our solver.The simulated time-averaged power production of the turbines in the plant agrees well with field observations, except with the sixth turbine and beyond in each wind-aligned.The power produced by each of those turbines is overpredicted by 25-40%.A direct comparison between simulated and field data is difficult because we simulate one wind direction with a speed and turbulence intensity characteristic of Lillgrund, but the field observati...",
+      "authors": [
+        "Matthew Churchfield",
+        "Sang Lee",
+        "Patrick Moriarty",
+        "Luis A. Martínez‐Tossas",
+        "Stefano Leonardi",
+        "Ganesh Vijayakumar",
+        "James G. Brasseur"
+      ]
+    },
+    {
+      "title": "Large eddy simulations of the flow past wind turbines: actuator line and disk modeling",
+      "publication_year": 2014,
+      "publication_date": "2014-04-10",
+      "doi": "https://doi.org/10.1002/we.1747",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 328,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.1747?download=true",
+      "concepts": [
+        "Wake",
+        "Actuator",
+        "Turbine",
+        "Inflow",
+        "Mechanics",
+        "Aerodynamics",
+        "Wind power",
+        "Large eddy simulation"
+      ],
+      "abstract": "Large eddy simulations of the flow through wind turbines have been carried out using actuator disk and actuator line models for the turbine rotor aerodynamics. In this study, we compare the performance of these two models in producing wind turbine wakes. We also examine parameters that strongly affect the performance of these models, namely, grid resolution and the way in which the actuator force is projected onto the flow field. The proper choice of these two parameters has not been adequately addressed in previous works. We see that as the grid is coarsened, the predicted power decreases. As the width of the body force projection function is increased, the predicted power increases. The actuator disk and actuator line models produce similar wake profiles and predict power within 1% of one another when subject to the same uniform inflow. The actuator line model is able to generate flow structures near the blades such as root and tip vortices which the actuator disk model does not, but in the far wake, the predicted mean wakes are very similar. In order to perform validation against experimental data, the actuator line model output was compared with data from the wind tunnel exp...",
+      "authors": [
+        "Luis A. Martínez‐Tossas",
+        "Matthew Churchfield",
+        "Stefano Leonardi"
+      ]
+    },
+    {
+      "title": "Effect of tower and nacelle on the flow past a wind turbine",
+      "publication_year": 2017,
+      "publication_date": "2017-07-14",
+      "doi": "https://doi.org/10.1002/we.2130",
+      "venue": "Wind Energy",
+      "type": "article",
+      "cited_by_count": 143,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nacelle",
+        "Wake",
+        "Turbine",
+        "Tower",
+        "Marine engineering",
+        "Aerospace engineering",
+        "Turbulence kinetic energy",
+        "Rotor (electric)"
+      ],
+      "abstract": "Abstract Large eddy simulations (LES) of the flow past a wind turbine with and without tower and nacelle have been performed at 2 tip speed ratios (TSR, ), λ=3 and 6, where the latter corresponds to design conditions. The turbine model is placed in a virtual wind tunnel to reproduce the “Blind test 1” experiment performed at the Norwegian University of Science and Technology (NTNU) closed‐loop wind tunnel. The wind turbine was modeled using the actuator line model for the rotor blades and the immersed boundary method for the tower and nacelle. The aim of the paper is to highlight the impact of tower and nacelle on the turbine wake. Therefore, a second set of simulations with the rotating blades only (neglecting the tower and nacelle) has been performed as reference. Present results are compared with the experimental measurements made at NTNU and numerical simulations available in the literature. The tower and nacelle not only produce a velocity deficit in the wake but they also affect the turbulent kinetic energy and the fluxes. The wake of the tower interacts with that generated by the turbine blades promoting the breakdown of the tip vortex and increasing the mean kinetic ener...",
+      "authors": [
+        "Christian Santoni",
+        "Kenneth Carrasquillo",
+        "Isnardo Arenas",
+        "Stefano Leonardi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Numerical simulations of an array of offshore turbines and its effect on the local circulation",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3224/2/022057",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3224/2/022057",
+      "concepts": [
+        "Wind stress",
+        "Geology",
+        "Vortex",
+        "Offshore wind power",
+        "Wake",
+        "Meteorology",
+        "Inflow",
+        "Turbine"
+      ],
+      "abstract": "Abstract A one-way numerical coupling of the ocean circulation and atmospheric flow is developed to study the effect of offshore wind farms on the ocean. Our in-house UTD-WF LES (Large Eddy Simulation) solver is used for the atmospheric boundary layer and the wind turbines, whereas FVCOM (Finite Volume Community Ocean Model) is used for the ocean domain. An idealized offshore wind farm, consisting of an array of 4 × 2 turbines and a specified constant depth of H = 30 m, is modeled. Two sets of simulations, one with a uniform inflow and another with a turbulent inflow, are performed. Results show that the wind flow patterns around the wind farm, which include the low-velocity wake regions behind the wind turbines and the induction zone in front of the wind turbine rotors, are projected into the ocean surface. These flow patterns generate large streamwise vortices spanning the depth of the ocean. Due to these vortices and the consequent upwelling and downwelling, the circulation and mixing underneath the ocean surface is increased. When turbulence is imposed at the inlet, these large vortices no longer retain their coherence but meander downstream of the wind farm.",
+      "authors": [
+        "Miguel A. Guzmán Hernández",
+        "John M. Pérez Medina",
+        "Umberto Ciri",
+        "Kianoosh Yousefi",
+        "Stefano Leonardi"
+      ]
+    },
+    {
+      "title": "Impact of wave phase speed on coherent structures in the wake of offshore wind turbines",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3224/3/032043",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3224/3/032043",
+      "concepts": [
+        "Wake",
+        "Vortex",
+        "Submarine pipeline",
+        "Mode (computer interface)",
+        "Wake turbulence",
+        "Surface wave",
+        "Wind wave",
+        "Geology"
+      ],
+      "abstract": "Abstract The aim of this study is to evaluate the influence of incoming flow and sea surface waves on the coherent structures that characterize the wake of the NREL 5-MW reference turbine. Dynamic Mode Decomposition (DMD) is used to extract the most dynamically relevant structures from three LES dataset at different wave speeds. DMD modes linked to the incoming structures, to the tip vortices and to the wave surface are observed. It is observed that an increasing wave speed accelerates wake recovery and shifts the frequency content of the coherent structures to higher frequency modes.",
+      "authors": [
+        "Fabio Spagnoletta",
+        "Felice Manganelli",
+        "P. De Palma",
+        "Stefano Leonardi",
+        "Stefania Cherubini"
+      ]
+    },
+    {
+      "title": "Appraisal and calibration of an aerodynamic moment correction in the actuator line model",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1063/5.0287656",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamic force",
+        "Aerodynamics",
+        "Drag",
+        "Wake",
+        "Moment (physics)",
+        "Actuator",
+        "Pitching moment"
+      ],
+      "abstract": "The Actuator Line Model (ALM) is commonly used for moving airfoil simulations since it allows for load predictions with reduced computational cost compared to simulations that resolve the airfoil geometry. We implement an aerodynamic moment correction in the ALM simulations, which involves introducing two additional opposite body forces of equal magnitude, applied at a distance such that they generate the corresponding pitching moment. The uncertain parameters are the moment regularization kernels for these forces, i.e., their Gaussian spreading and the distance between these forces and the aerodynamic center. In addition to these two parameters, the lift and drag regularization kernels, which were already present in the original version of the ALM, had to be adapted for the new force configuration. We performed a stochastic sensitivity analysis to assess the effect of the three uncertain parameters on the wake flow features for a simulation of the NACA0012 airfoil and benchmark them against a resolved simulation. Through a comparison with the latter, we also calibrate the ALM parameters. The calibrated moment correction improves the ALM wake predictions, particularly in the far...",
+      "authors": [
+        "Emanuele Luzzati",
+        "Alessandro Mariotti",
+        "Stefano Leonardi",
+        "Maria Vittoria Salvetti"
+      ]
+    },
+    {
+      "title": "Direct Numerical Simulations of turbulent channel flow roughened with 2D triangular bars: On the Effective Distribution parametrization",
+      "publication_year": 2025,
+      "publication_date": "2025-08-28",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2025.110015",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatfluidflow.2025.110015",
+      "concepts": [
+        "Parametrization (atmospheric modeling)",
+        "Turbulence",
+        "Mechanics",
+        "Channel (broadcasting)",
+        "Flow (mathematics)",
+        "Distribution (mathematics)",
+        "Materials science",
+        "Direct numerical simulation"
+      ],
+      "abstract": "Turbulent flows over rough surfaces are a common phenomenon in engineering applications, yet predicting how the roughness affects the turbulent flow remains a challenge. In the present paper, we expand the results of Bruno et al. (2024) on the new geometrical parameter, the Effective Distribution (ED). Specifically, the effect of roughness on turbulent intensities has been investigated. The ED demonstrates improved correlations with both drag and roughness function across a wide range of surface configurations, including irregular rough surfaces generated by random sinusoidal functions. A detailed analysis of the ED equation reveals that the contributions of higher pinnacles and the spacing between roughness elements, play a dominant role in capturing the impact of roughness on drag and turbulent intensities. To investigate this issue, a detailed analysis of turbulent intensities modification induced by the roughness is performed, thus showing the highest pinnacle’s role. These results emphasize the importance of considering these terms in the parametrization of rough surfaces.",
+      "authors": [
+        "F Bruno",
+        "Mauro De Marchis",
+        "Stefano Leonardi"
+      ]
+    },
+    {
+      "title": "Large Eddy Simulation of the IEA 15-MW Wind Turbine Using a Two-Way Coupled Fluid-Structure Interaction Model",
+      "publication_year": 2025,
+      "publication_date": "2025-07-22",
+      "doi": "https://doi.org/10.5194/wes-2025-120",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5194/wes-2025-120",
+      "concepts": [
+        "Turbine",
+        "Large eddy simulation",
+        "Mechanics",
+        "Fluid–structure interaction",
+        "Physics",
+        "Aerospace engineering",
+        "Environmental science",
+        "Engineering"
+      ],
+      "abstract": "Abstract. The aim of the work is studying the aeroelastic response of the 15 MW NREL-IEA large-scale wind turbine using a high-fidelity fluid-structure interaction solver that combines large-eddy simulation with a modal computational structural dynamics solver through a two-way coupling. The fluid solver employs the actuator line model to simulate the interaction between the turbine blades and the fluid and the immersed boundary method to model the presence of the tower and nacelle. The results are compared with those obtained by the OpenFAST software, which is a well-known numerical tool for engineering predictions. A series of simulations have been performed with and without the presence of the tower and nacelle to better understand the effects of these components on flow structures and structural deformations. The largest discrepancies among the solvers have been observed in correspondence with the blade passage in front of the tower, which induces an abrupt alteration in the local incidence angle of the flow. Moreover, by comparing the outcomes of different structural approximations, it has been established that taking into account the torsional degree of freedom considerabl...",
+      "authors": [
+        "Carlos Alejandro Di Bernardi",
+        "Stefania Cherubini",
+        "Felice Manganelli",
+        "Giacomo Della Posta",
+        "Stefano Leonardi",
+        "P. De Palma"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Paul Atzberger",
+  "full_name": "Paul J. Atzberger",
+  "department": "Department of Mathematics / Department of Mechanical Engineering",
+  "university": "University of California-Santa Barbara",
+  "author_id": "A5018833756",
+  "works_count": 105,
+  "cited_by_count": 1792,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Lipid Membrane Structure and Behavior",
+      "count": 21
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 19
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 18
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 16
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stochastic Eulerian Lagrangian methods for fluid–structure interactions with thermal fluctuations",
+      "publication_year": 2011,
+      "publication_date": "2011-01-15",
+      "doi": "https://doi.org/10.1016/j.jcp.2010.12.028",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 97,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1009.5648",
+      "concepts": [
+        "Statistical mechanics",
+        "Statistical physics",
+        "Eulerian path",
+        "Thermal fluctuations",
+        "Fluid mechanics",
+        "Computational fluid dynamics",
+        "Lagrangian mechanics",
+        "Stochastic differential equation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "Meshfree methods on manifolds for hydrodynamic flows on curved surfaces: A Generalized Moving Least-Squares (GMLS) approach",
+      "publication_year": 2020,
+      "publication_date": "2020-02-19",
+      "doi": "https://doi.org/10.1016/j.jcp.2020.109340",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2020.109340",
+      "concepts": [
+        "Mathematics",
+        "Discretization",
+        "Moving least squares",
+        "Manifold (fluid mechanics)",
+        "Applied mathematics",
+        "Curvature",
+        "Mathematical analysis",
+        "Geometry"
+      ],
+      "abstract": "",
+      "authors": [
+        "B. Groß",
+        "Nathaniel Trask",
+        "Paul Kuberry",
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "Hydrodynamic flows on curved surfaces: Spectral numerical methods for radial manifold shapes",
+      "publication_year": 2018,
+      "publication_date": "2018-06-06",
+      "doi": "https://doi.org/10.1016/j.jcp.2018.06.013",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2018.06.013",
+      "concepts": [
+        "Curvature",
+        "Gaussian curvature",
+        "Flow (mathematics)",
+        "Manifold (fluid mechanics)",
+        "Geometry",
+        "Galerkin method",
+        "Mathematics",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "B. Groß",
+        "Paul J. Atzberger"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Extending Neural Operators: Robust Handling of Functions Beyond the Training Set",
+      "publication_year": 2026,
+      "publication_date": "2026-03-04",
+      "doi": "https://doi.org/10.48550/arxiv.2603.03621",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2603.03621",
+      "concepts": [
+        "Hilbert space",
+        "Leverage (statistics)",
+        "Mathematics",
+        "Artificial neural network",
+        "Kernel (algebra)",
+        "Reproducing kernel Hilbert space",
+        "Representer theorem",
+        "Extension (predicate logic)"
+      ],
+      "abstract": "We develop a rigorous framework for extending neural operators to handle out-of-distribution input functions. We leverage kernel approximation techniques and provide theory for characterizing the input-output function spaces in terms of Reproducing Kernel Hilbert Spaces (RKHSs). We provide theorems on the requirements for reliable extensions and their predicted approximation accuracy. We also establish formal relationships between specific kernel choices and their corresponding Sobolev Native Spaces. This connection further allows the extended neural operators to reliably capture not only function values but also their derivatives. Our methods are empirically validated through the solution of elliptic partial differential equations (PDEs) involving operators on manifolds having point-cloud representations and handling geometric contributions. We report results on key factors impacting the accuracy and computational performance of the extension approaches.",
+      "authors": [
+        "Blaine Quackenbush",
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "Extending Neural Operators: Robust Handling of Functions Beyond the Training Set",
+      "publication_year": 2026,
+      "publication_date": "2026-03-04",
+      "doi": "http://arxiv.org/abs/2603.03621",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.03621",
+      "concepts": [
+        "Hilbert space",
+        "Leverage (statistics)",
+        "Mathematics",
+        "Artificial neural network",
+        "Kernel (algebra)",
+        "Reproducing kernel Hilbert space",
+        "Representer theorem",
+        "Extension (predicate logic)"
+      ],
+      "abstract": "We develop a rigorous framework for extending neural operators to handle out-of-distribution input functions. We leverage kernel approximation techniques and provide theory for characterizing the input-output function spaces in terms of Reproducing Kernel Hilbert Spaces (RKHSs). We provide theorems on the requirements for reliable extensions and their predicted approximation accuracy. We also establish formal relationships between specific kernel choices and their corresponding Sobolev Native Spaces. This connection further allows the extended neural operators to reliably capture not only function values but also their derivatives. Our methods are empirically validated through the solution of elliptic partial differential equations (PDEs) involving operators on manifolds having point-cloud representations and handling geometric contributions. We report results on key factors impacting the accuracy and computational performance of the extension approaches.",
+      "authors": [
+        "Blaine Quackenbush",
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "BPS2026 – Protein drift-diffusion in biologically active membranes with non-equilibrium fluctuations",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1016/j.bpj.2025.11.1629",
+      "venue": "Biophysical Journal",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Biological activity",
+        "Biological membrane",
+        "Membrane",
+        "Biophysics",
+        "Biochemistry",
+        "Membrane protein",
+        "Cell membrane"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "Protein drift-diffusion in membranes with non-equilibrium fluctuations arising from gradients in concentration or temperature",
+      "publication_year": 2025,
+      "publication_date": "2025-11-21",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1013678",
+      "venue": "PLoS Computational Biology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1013678&type=printable",
+      "concepts": [
+        "Thermal fluctuations",
+        "Brownian motion",
+        "Membrane",
+        "Biological system",
+        "Thermal",
+        "Statistical mechanics",
+        "Dynamics (music)",
+        "Temperature gradient"
+      ],
+      "abstract": "We investigate proteins within heterogeneous cell membranes where non-equilibrium phenomena arises from spatial variations in concentration and temperature. We develop simulation methods building on non-equilibrium statistical mechanics to obtain stochastic hybrid continuum-discrete descriptions which track individual protein dynamics, spatially varying concentration fluctuations, and thermal exchanges. We investigate biological mechanisms for protein positioning and patterning within membranes and factors in thermal gradient sensing. We also study the kinetics of Brownian motion of particles with temperature variations within energy landscapes arising from heterogeneous microstructures within membranes. The introduced approaches provide self-consistent models for studying biophysical mechanisms involving the drift-diffusion dynamics of individual proteins and energy exchanges and fluctuations between the thermal and mechanical parts of the system. The methods also can be used for studying related non-equilibrium effects in other biological systems and soft materials.",
+      "authors": [
+        "Dev Jasuja",
+        "Paul J. Atzberger"
+      ]
+    },
+    {
+      "title": "Magnus exponential integrators for stiff time-varying stochastic systems",
+      "publication_year": 2025,
+      "publication_date": "2025-11-13",
+      "doi": "https://doi.org/10.1016/j.physd.2025.135034",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dissipative system",
+        "Mathematics",
+        "Applied mathematics",
+        "Exponential function",
+        "Exponentiation",
+        "Dynamical systems theory",
+        "Numerical integration",
+        "Exponential integrator"
+      ],
+      "abstract": "",
+      "authors": [
+        "Dev Jasuja",
+        "Paul J. Atzberger"
+      ]
+    }
+  ]
+}

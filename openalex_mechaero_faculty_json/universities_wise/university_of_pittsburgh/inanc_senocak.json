@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Inanc Senocak",
+  "full_name": "Inanc Senocak",
+  "department": "Department of Mechanical Engineering and Materials Science",
+  "university": "University of Pittsburgh",
+  "author_id": "A5064341989",
+  "works_count": 116,
+  "cited_by_count": 2377,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 39
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 21
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 18
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 15
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 13
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Interfacial dynamics‐based modelling of turbulent cavitating flows, Part‐1: Model development and steady‐state computations",
+      "publication_year": 2004,
+      "publication_date": "2004-03-03",
+      "doi": "https://doi.org/10.1002/fld.692",
+      "venue": "International Journal for Numerical Methods in Fluids",
+      "type": "article",
+      "cited_by_count": 167,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Turbulence",
+        "Mechanics",
+        "Compressibility",
+        "Closure (psychology)",
+        "Vorticity",
+        "Turbulence kinetic energy",
+        "Baroclinity"
+      ],
+      "abstract": "Abstract The merits of transport equation‐based models are investigated by adopting an enhanced pressure‐based method for turbulent cavitating flows. An analysis of the mass and normal‐momentum conservation at a liquid–vapour interface is conducted in the context of homogeneous equilibrium flow theory, resulting in a new interfacial dynamics‐based cavitation model. The model offers direct interpretation of the empirical parameters in the existing transport‐equation‐based models adopted in the literature. This and three existing cavitation models are evaluated for flows around an axisymmetric cylindrical body and a planar hydrofoil, and through a convergent–divergent nozzle. Although all models considered provide qualitatively comparable wall pressure distributions in agreement with the experimental data, quantitative differences are observed in the closure region of the cavity, due to different compressibility characteristics of each cavitation model. In particular, the baroclinic effect of the vorticity transport equation plays a noticeable role in the closure region of the cavity, and contributes to the highest level of turbulent kinetic energy there. Copyright © 2004 John Wil...",
+      "authors": [
+        "Inanc Senocak",
+        "Wei Shyy"
+      ]
+    },
+    {
+      "title": "CUDA Implementation of a Navier-Stokes Solver on Multi-GPU Desktop Platforms for Incompressible Flows",
+      "publication_year": 2009,
+      "publication_date": "2009-01-05",
+      "doi": "https://doi.org/10.2514/6.2009-758",
+      "venue": "47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 162,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "CUDA",
+        "Solver",
+        "Computer science",
+        "Parallel computing",
+        "General-purpose computing on graphics processing units",
+        "Compressibility",
+        "Computational science",
+        "Navier–Stokes equations"
+      ],
+      "abstract": "Graphics processor units (GPU) that are traditionally designed for graphics rendering have emerged as massively-parallel \"co-processors\" to the central processing unit (CPU). Small-footprint desktop supercomputers with hundreds of cores that can deliver teraflops peak performance at the price of conventional workstations have been realized. A computational fluid dynamics (CFD) simulation capability with rapid computational turnaround time has the potential to transform engineering analysis and design optimization procedures. We describe the implementation of a Navier-Stokes solver for incompressible fluid flow using desktop platforms equipped with multi-GPUs. Specifically, NVIDIA’s Compute Unified Device Architecture (CUDA) programming model is used to implement the discretized form of the governing equations. The projection algorithm to solve the incompressible fluid flow equations is divided into distinct CUDA kernels, and a unique implementation that exploits the memory hierarchy of the CUDA programming model is suggested. Using a quad-GPU platform, we observe two orders of magnitude speedup relative to a serial CPU implementation. Our results demonstrate that multi-GPU deskt...",
+      "authors": [
+        "Julien Thibault",
+        "Inanc Senocak"
+      ]
+    },
+    {
+      "title": "Dynamics of attached turbulent cavitating flows",
+      "publication_year": 2001,
+      "publication_date": "2001-08-01",
+      "doi": "https://doi.org/10.1016/s0376-0421(01)00014-8",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 330,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cavitation",
+        "Supercavitation",
+        "Turbulence",
+        "Mechanics",
+        "Vortex",
+        "Trailing edge",
+        "Water tunnel",
+        "Leading edge"
+      ],
+      "abstract": "",
+      "authors": [
+        "Guoyu Wang",
+        "Inanc Senocak",
+        "Wei Shyy",
+        "Toshiaki IKOHAGI",
+        "Shuliang Cao"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Long-lived versus nocturnal stable atmospheric boundary layers: DNS characterisation, similarity theory, and regime classification",
+      "publication_year": 2025,
+      "publication_date": "2025-10-19",
+      "doi": "https://doi.org/10.48550/arxiv.2510.17046",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2510.17046",
+      "concepts": [
+        "Turbulence",
+        "Prandtl number",
+        "Physics",
+        "Turbulent Prandtl number",
+        "Mechanics",
+        "Turbulence kinetic energy",
+        "Stratification (seeds)",
+        "Buoyancy"
+      ],
+      "abstract": "The stable atmospheric boundary layer (SABL) is broadly classified into two subtypes: the nocturnal SABL, driven primarily by surface cooling, and the long-lived SABL, in which ambient stratification coexists with surface cooling and persists well beyond a single diurnal cycle. Despite its prevalence in polar regions and over open oceans, the long-lived SABL has received comparatively little attention, and a systematic direct numerical simulation (DNS) study distinguishing it from the nocturnal SABL has not previously been reported. Here we present DNS of long-lived SABLs at $Re_D=900$, contrasting weak and strong ambient stratification cases against a nocturnal SABL. A striking feature of the long-lived SABLs is the emergence of a multi-layered thermal structure -- including an intermediate layer of reduced static stability capped by a buoyancy inversion -- driven not by enhanced turbulent mixing, but by a stratification-induced reorganisation of the buoyancy field. Budget analyses identify a turbulent potential energy-centred transport mechanism absent in nocturnal SABLs, lending support to total-energy-based closure approaches. Assessment of an extended Monin--Obukhov similar...",
+      "authors": [
+        "Krishan Chand",
+        "Cheng‐Nian Xiao",
+        "Inanc Senocak"
+      ]
+    },
+    {
+      "title": "Instabilities of speaker-wire vortices in katabatic Prandtl slope flows",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.1063/5.0236503",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Prandtl number",
+        "Vortex",
+        "Mechanics",
+        "Katabatic wind",
+        "Kármán vortex street",
+        "Classical mechanics",
+        "Turbulence"
+      ],
+      "abstract": "Stationary counter-rotating longitudinal vortex pairs emerge from one-dimensional Prandtl slope flows under katabatic as well as anabatic conditions due to a linear instability when the imposed surface heat flux magnitude is sufficiently strong relative to the stable ambient stratification. For anabatic flows, these vortex pairs have been named speaker-wire vortices due to their unique topology and coherent dynamics. Under katabatic conditions and at the constant Prandtl number Pr=0.71, we find that the longitudinal vortices emerging at a range of slope angles possess a topology similar to the speaker-wire vortices in anabatic slope flows, while at the same time possessing unique differences in their dynamics. We establish the existence of both fundamental and subharmonic secondary instabilities of katabatic speaker-wire vortices depending on the slope angle for the most likely transverse base flow wavelength. Our results indicate that the dominant instability shifts from a fundamental to subharmonic mode with increasing slope angle. At shallow slopes, this dynamic contrast with the speaker-wire vortices in anabatic slope flows at the same angle for which the subharmonic instabi...",
+      "authors": [
+        "Cheng-Nian Xiao",
+        "Inanc Senocak"
+      ]
+    },
+    {
+      "title": "Instabilities of longitudinal vortex rolls in katabatic Prandtl slope flows",
+      "publication_year": 2023,
+      "publication_date": "2023-06-03",
+      "doi": "https://doi.org/10.48550/arxiv.2306.02013",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2306.02013",
+      "concepts": [
+        "Vortex",
+        "Physics",
+        "Instability",
+        "Katabatic wind",
+        "Prandtl number",
+        "Mechanics",
+        "Turbulence",
+        "Vortex shedding"
+      ],
+      "abstract": "Stationary counter-rotating longitudinal vortex pairs emerge from one-dimensional Prandtl slope flows under katabatic as well as anabatic conditions due to a linear instability when the imposed surface heat flux magnitude is sufficiently strong relative to the stable ambient stratification. For anabatic flows, these vortices have already been identified to exhibit an unique topology that bears a striking resemblance to speaker-wires since they stay coherent as a single unit without the presence of another vortex pair. Under katabatic conditions and at a constant Prandtl number, we find that the longitudinal vortices emerging at a range of different slope angles possess the similar topology as their anabatic counterparts. We determine the existence of both fundamental and subharmonic secondary instabilities depending on the slope angle for the most likely transverse base flow wavelength. Our results indicate that the most dominant instability shifts from a fundamental to subharmonic mode with increasing slope angle. At shallow slopes, this dynamic contrast with the speaker-wire vortices in anabatic slope flows at the same angle which for which the subharmonic instability is clear...",
+      "authors": [
+        "Cheng‐Nian Xiao",
+        "Inanc Senocak"
+      ]
+    },
+    {
+      "title": "An unusual bifurcation scenario in a stably stratified, valley-shaped enclosure heated from below",
+      "publication_year": 2023,
+      "publication_date": "2023-04-10",
+      "doi": "https://doi.org/10.48550/arxiv.2304.04715",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2304.04715",
+      "concepts": [
+        "Instability",
+        "Pitchfork bifurcation",
+        "Laminar flow",
+        "Perturbation (astronomy)",
+        "Bifurcation",
+        "Physics",
+        "Dimensionless quantity",
+        "Stratification (seeds)"
+      ],
+      "abstract": "We delineate the structure of steady laminar flows within a stably stratified, valley-shaped triangular cavity heated from below through linear stability analysis and Navier-Stokes simulations. We derive an exact solution to the quiescent conduction state, and characterize the flow via the stratification perturbation parameter, $Π_s$, which is a measure of the strength of the surface heat flux relative to the background stable stratification. Beyond a threshold value of $Π_s$, two unstable eigenmodes appear, one marked by a dominant central circulation, and the other one exhibiting dual circulations of equal strength. Through Navier-Stokes simulations, we confirm that the central-circulation eigenmode generates a pair of asymmetric steady states, whereas the dual-circulation eigenmode leads to distinct upslope and downslope symmetric steady states. Linear stability analysis and Navier-Stokes simulations jointly confirm the instability of the two symmetric steady states, both of which transition to the asymmetric steady state under a perturbation. Thus, for a given set of dimensionless parameters, the Navier-Stokes equations admit at least five possible steady-state solutions. Tw...",
+      "authors": [
+        "Patrick J. Stofanak",
+        "Cheng‐Nian Xiao",
+        "Inanc Senocak"
+      ]
+    },
+    {
+      "title": "Conditionally adaptive augmented Lagrangian method for physics-informed learning of forward and inverse problems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-03",
+      "doi": "https://doi.org/10.1016/j.cma.2026.118953",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.cma.2026.118953",
+      "concepts": [
+        "Augmented Lagrangian method",
+        "Inverse problem",
+        "Mathematics",
+        "Applied mathematics",
+        "Lagrangian",
+        "Inverse",
+        "Mathematical optimization",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qifeng Hu",
+        "Shamsulhaq Basir",
+        "Inanc Senocak"
+      ]
+    }
+  ]
+}

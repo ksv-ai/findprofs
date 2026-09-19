@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Silvia Ferrari",
+  "full_name": "Silvio Ferrari",
+  "department": "Sibley School of Mechanical and Aerospace Engineering / Center for Applied Mathematics",
+  "university": "Cornell University",
+  "author_id": "A5101849469",
+  "works_count": 380,
+  "cited_by_count": 3687,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Religious Freedom and Discrimination",
+      "count": 85
+    },
+    {
+      "topic": "American Constitutional Law and Politics",
+      "count": 64
+    },
+    {
+      "topic": "Religion and Society Interactions",
+      "count": 60
+    },
+    {
+      "topic": "Theology and Canon Law Studies",
+      "count": 50
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Smooth Function Approximation Using Neural Networks",
+      "publication_year": 2005,
+      "publication_date": "2005-01-01",
+      "doi": "https://doi.org/10.1109/tnn.2004.836233",
+      "venue": "IEEE Transactions on Neural Networks",
+      "type": "article",
+      "cited_by_count": 325,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Function approximation",
+        "Nonlinear system",
+        "Generalization",
+        "Feedforward neural network",
+        "Computer science",
+        "Activation function",
+        "Algebraic equation"
+      ],
+      "abstract": "An algebraic approach for representing multidimensional nonlinear functions by feedforward neural networks is presented. In this paper, the approach is implemented for the approximation of smooth batch data containing the function's input, output, and possibly, gradient information. The training set is associated to the network adjustable parameters by nonlinear weight equations. The cascade structure of these equations reveals that they can be treated as sets of linear systems. Hence, the training process and the network approximation properties can be investigated via linear algebra. Four algorithms are developed to achieve exact or approximate matching of input-output and/or gradient-based training sets. Their application to the design of forward and feedback neurocontrollers shows that algebraic training is characterized by faster execution speeds and better generalization properties than contemporary optimization techniques.",
+      "authors": [
+        "Silvio Ferrari",
+        "Robert F. Stengel"
+      ]
+    },
+    {
+      "title": "Information-Driven Sensor Path Planning by Approximate Cell Decomposition",
+      "publication_year": 2009,
+      "publication_date": "2009-02-09",
+      "doi": "https://doi.org/10.1109/tsmcb.2008.2008561",
+      "venue": "IEEE Transactions on Systems Man and Cybernetics Part B (Cybernetics)",
+      "type": "article",
+      "cited_by_count": 183,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Workspace",
+        "Motion planning",
+        "Computer science",
+        "Grid",
+        "Obstacle",
+        "Bounded function",
+        "Path (computing)",
+        "Robot"
+      ],
+      "abstract": "A methodology is developed for planning the sensing strategy of a robotic sensor deployed for the purpose of classifying multiple fixed targets located in an obstacle-populated workspace. Existing path planning techniques are not directly applicable to robots whose primary objective is to gather sensor measurements using a bounded field of view (FOV). This paper develops a novel approximate cell-decomposition method in which obstacles, targets, sensor's platform, and FOV are represented as closed and bounded subsets of an Euclidean workspace. The method constructs a connectivity graph with observation cells that is pruned and transformed into a decision tree from which an optimal sensing strategy can be computed. The effectiveness of the optimal sensing strategies obtained by this methodology is demonstrated through a mine-hunting application. Numerical experiments show that these strategies outperform shortest path, complete coverage, random, and grid search strategies, and are applicable to nonoverpass capable robots that must avoid targets as well as obstacles.",
+      "authors": [
+        "Chenghui Cai",
+        "Silvio Ferrari"
+      ]
+    },
+    {
+      "title": "Online Adaptive Critic Flight Control",
+      "publication_year": 2004,
+      "publication_date": "2004-09-01",
+      "doi": "https://doi.org/10.2514/1.12597",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 152,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Flight envelope",
+        "Heuristic",
+        "Artificial neural network",
+        "Controller (irrigation)",
+        "Computer science",
+        "Nonlinear system",
+        "Adaptive control"
+      ],
+      "abstract": "A nonlinear control system comprising a network of networks is taught by the use of a two-phase learning procedure realized through novel training techniques and an adaptive critic design. The neural network controller is trained algebraically, offline, by the observation that its gradients must equal corresponding linear gain matrices at chosen operating points. Online learning by a dual heuristic adaptive critic architecture optimizes performance incrementally over time by accounting for plant dynamics and nonlinear effects that are revealed during large, coupled motions. The method is implemented to control the six-degree-of-freedom simulation of a business jet aircraft over its full operating envelope. The result is a controller that improves its performance while unexpected conditions, such as unmodeled dynamics, parameter variations, and control failures, are experienced for the first time. I.",
+      "authors": [
+        "Silvio Ferrari",
+        "Robert F. Stengel"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Decentralized Information-driven Approach for Tracking Multiple Moving Targets with Multi-Robot Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-10",
+      "doi": "https://doi.org/10.1007/s10514-026-10249-4",
+      "venue": "Autonomous Robots",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10514-026-10249-4.pdf",
+      "concepts": [
+        "Computer science",
+        "Robot",
+        "Tracking (education)",
+        "Plan (archaeology)",
+        "Track (disk drive)",
+        "Mobile robot",
+        "Artificial intelligence",
+        "Control (management)"
+      ],
+      "abstract": "Abstract Significant advances in robot sensing and mobility have enabled the use of multi-robot networks to track multiple targets moving in an environment. Tracking moving targets that outnumber the size of the robot network involves the network to collaboratively assume a subset of targets to be tracked and plan the actions of the robots. This paper focuses on the scenario when the targets outnumber the robots in the network. The goal of the network is to assign targets to the robots and plan robot actions to track these assigned targets. This has to be done consistently as the robots and targets move in the environment to ensure the tracking performance is maximized. However, this problem, as shown in this paper, is NP-hard. This paper leverages decomposition theory to solve this problem efficiently in real-time in two stages. The first stage leverages inter-robot communication in the network to assign robots to targets, and the second stage, solved on each robot locally, optimizes the control to track the targets assigned to it. A novel decentralized approach, called bundle-based assignment, is presented to find adaptive and conflict-free target assignment in the first stage...",
+      "authors": [
+        "Junyi Dong",
+        "Sushrut Surve",
+        "C Liu",
+        "Kyung Rak Jang",
+        "Suming Qiu",
+        "Pingping Zhu",
+        "Alexandra Abad",
+        "Harleen Brar",
+        "Anna Scaglione",
+        "Silvio Ferrari"
+      ]
+    },
+    {
+      "title": "Religious Diversity and Promotion of Minority Rights, Do They Really Go Hand in Hand?",
+      "publication_year": 2026,
+      "publication_date": "2026-05-27",
+      "doi": "https://doi.org/10.3390/rel17060649",
+      "venue": "Religions",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/rel17060649",
+      "concepts": [
+        "Promotion (chess)",
+        "Political science",
+        "Diversification (marketing strategy)",
+        "Religious diversity",
+        "Minority rights",
+        "Religious discrimination",
+        "Diversity (politics)",
+        "Sociology"
+      ],
+      "abstract": "One might expect the promotion of religious minority rights to be linked to the growth of religious diversity. However, the data in the Atlas of Religious and Belief Minority Rights, on which this article is based, does not support this expectation, instead offering a more complex picture. Rather than promoting minority rights and associated legal differences, religious diversity provides religious minorities with a legal status similar to that of majority religious organisations, thereby fostering legal uniformity. After clarifying the notions of religious diversity and promotion of religious minority rights used in this article, the text briefly discusses the process of religious diversification and its impact on the legal systems of European Union countries. It then provides information on the Atlas project and examines how religious diversification affects the promotion of religious minority rights, how these rights are distributed among different religious minorities and the relationship between minority and majority rights. Finally, the article offers a possible explanation for the Atlas findings, focusing on the reluctance of EU states to accept legal pluralism.",
+      "authors": [
+        "Silvio Ferrari"
+      ]
+    },
+    {
+      "title": "Secularisation and Minority Rights—How Does Secularisation Affect the Rights of Religious and Belief Minorities?",
+      "publication_year": 2026,
+      "publication_date": "2026-03-25",
+      "doi": "https://doi.org/10.3390/rel17040413",
+      "venue": "Religions",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2077-1444/17/4/413/pdf?version=1774410400",
+      "concepts": [
+        "Secularization",
+        "State (computer science)",
+        "Affect (linguistics)",
+        "Political science",
+        "Sociology",
+        "Religious belief",
+        "Civil rights",
+        "Human rights"
+      ],
+      "abstract": "This article discusses the link between secularisation and the rights of religious and belief minorities. Using data from the Atlas of Religious or Belief Minority Rights, it measures the extent to which RBM rights are respected, promoted and restricted. Taking the number of ‘nones’ in a country as an indicator of the secularisation of its legal system, it examines the impact of secularisation on the promotion of religious minority rights and the equal treatment of minorities, as well as the gap between their rights and those of the majority. The article concludes that secularisation does not directly promote RBM rights. Instead, it reduces the disparity between the rights enjoyed by the various minorities and between them and the majority Church. Notably, there is a clear correlation between secularisation and the majority–minority rights gap: highly secularised states tend to reduce it, whereas less secularised states tend to widen it. In terms of equal treatment, a highly secularised state does not guarantee equal treatment of all RBMs. However, a less secularised state makes equal treatment even more difficult.",
+      "authors": [
+        "Silvio Ferrari",
+        "Rossella Bottoni",
+        "Cristiana Cianitto",
+        "Anna Parrilli",
+        "Alessia Passarelli",
+        "Ilaria Valenzi"
+      ]
+    },
+    {
+      "title": "Religion and religious minorities in public institutions",
+      "publication_year": 2025,
+      "publication_date": "2025-11-07",
+      "doi": "https://doi.org/10.4324/9781003152675-16",
+      "venue": "",
+      "type": "book-chapter",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Political science",
+        "Public institution",
+        "Institution",
+        "Public administration",
+        "Government (linguistics)",
+        "Sociology",
+        "Public policy",
+        "Public relations"
+      ],
+      "abstract": "",
+      "authors": [
+        "Silvio Ferrari",
+        "Alessia Passarelli",
+        "Ilaria Valenzi"
+      ]
+    },
+    {
+      "title": "Distributed Control of Mixed Human-Robot Teams (MHRT) for Cooperative Multi-target Tracking",
+      "publication_year": 2025,
+      "publication_date": "2025-11-01",
+      "doi": "https://doi.org/10.1007/978-3-032-04584-3_4",
+      "venue": "Springer proceedings in advanced robotics",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Robustness (evolution)",
+        "Leverage (statistics)",
+        "Computer science",
+        "Workspace",
+        "Human–robot interaction",
+        "Mobile robot",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sushrut Surve",
+        "Junyi Dong",
+        "Cong Liu",
+        "Kyung Rak Jang",
+        "Suming Qiu",
+        "Anna Scaglione",
+        "Silvio Ferrari"
+      ]
+    }
+  ]
+}

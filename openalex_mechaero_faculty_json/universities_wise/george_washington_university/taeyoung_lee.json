@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Taeyoung Lee",
+  "full_name": "Taeyoung Lee",
+  "department": "Mechanical & Aerospace Engineering",
+  "university": "George Washington University",
+  "author_id": "A5020132536",
+  "works_count": 278,
+  "cited_by_count": 6283,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 75
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 48
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 45
+    },
+    {
+      "topic": "Control and Dynamics of Mobile Robots",
+      "count": 44
+    },
+    {
+      "topic": "Dynamics and Control of Mechanical Systems",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Geometric tracking control of a quadrotor UAV on SE(3)",
+      "publication_year": 2010,
+      "publication_date": "2010-12-01",
+      "doi": "https://doi.org/10.1109/cdc.2010.5717652",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1392,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Euclidean group",
+        "Tracking (education)",
+        "Controller (irrigation)",
+        "Rigid body",
+        "Nonlinear system",
+        "Rotor (electric)",
+        "Degrees of freedom (physics and chemistry)"
+      ],
+      "abstract": "This paper provides new results for the tracking control of a quadrotor unmanned aerial vehicle (UAV). The UAV has four input degrees of freedom, namely the magnitudes of the four rotor thrusts, that are used to control the six translational and rotational degrees of freedom, and to achieve asymptotic tracking of four outputs, namely, three position variables for the vehicle center of mass and the direction of one vehicle body-fixed axis. A globally defined model of the quadrotor UAV rigid body dynamics is introduced as a basis for the analysis. A nonlinear tracking controller is developed on the special Euclidean group SE(3) and it is shown to have desirable closed loop properties that are almost global. Several numerical examples, including an example in which the quadrotor recovers from being initially upside down, illustrate the versatility of the controller.",
+      "authors": [
+        "Taeyoung Lee",
+        "Melvin Leok",
+        "N. Harris McClamroch"
+      ]
+    },
+    {
+      "title": "Exponential stability of an attitude tracking control system on SO(3) for large-angle rotational maneuvers",
+      "publication_year": 2011,
+      "publication_date": "2011-12-08",
+      "doi": "https://doi.org/10.1016/j.sysconle.2011.10.017",
+      "venue": "Systems & Control Letters",
+      "type": "article",
+      "cited_by_count": 291,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quaternion",
+        "Control theory (sociology)",
+        "Euler angles",
+        "Attitude control",
+        "Lyapunov function",
+        "Exponential stability",
+        "Mathematics",
+        "Euler's formula"
+      ],
+      "abstract": "",
+      "authors": [
+        "Taeyoung Lee"
+      ]
+    },
+    {
+      "title": "Robust Adaptive Attitude Tracking on ${\\rm SO}(3)$ With an Application to a Quadrotor UAV",
+      "publication_year": 2012,
+      "publication_date": "2012-08-30",
+      "doi": "https://doi.org/10.1109/tcst.2012.2209887",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 283,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Quaternion",
+        "Attitude control",
+        "Sylvester's law of inertia",
+        "Control theory (sociology)",
+        "Rigid body",
+        "Euler angles",
+        "Inertia",
+        "Tracking (education)"
+      ],
+      "abstract": "This brief describes robust adaptive tracking control systems for the attitude dynamics of a rigid body. Both the attitude dynamics and the proposed control system are globally expressed on the special orthogonal group, to avoid complexities and ambiguities associated with other attitude representations, such as Euler angles or quaternions. By designing an adaptive law for the inertia matrix of a rigid body, the proposed control system can asymptotically follow an attitude command without the knowledge of the inertia matrix, and it is extended to guarantee boundedness of tracking errors in the presence of unstructured disturbances. These are illustrated by the experimental results of the attitude dynamics of a quadrotor unmanned aerial vehicle.",
+      "authors": [
+        "Taeyoung Lee"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Max-Entropy Moment Filtering for Stochastic Hybrid Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-05-19",
+      "doi": "https://doi.org/10.48550/arxiv.2605.20411",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.20411",
+      "concepts": [
+        "Moment (physics)",
+        "Hybrid system",
+        "Kalman filter",
+        "Mathematics",
+        "Applied mathematics",
+        "Reset (finance)",
+        "Filter (signal processing)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Stochastic hybrid systems combine continuous-time stochastic dynamics with discrete reset events, producing intrinsically non-Gaussian and often multimodal uncertainty. A consistent propagation law must also account for boundary-induced probability flux across guard sets, making direct density propagation through hybrid Fokker-Planck equations expensive. We develop a hybrid extension of the Max-Entropy Moment Kalman Filter (MEM-KF) that performs filtering from partial statistical information by propagating a finite collection of moments through stochastic hybrid dynamics and reconstructing beliefs using moment-constrained maximum-entropy distributions. The key step is a moment propagation rule derived from Dynkin's formula with a jump-sum, in which reset effects appear as a boundary-flux correction over the guard set. This yields tractable moment dynamics without solving the underlying hybrid PDE. In a stochastic bouncing-ball example, the proposed method captures reset-induced non-Gaussianity through corrected moment equations while retaining the MEM-KF's optimization-based maximum-entropy representation.",
+      "authors": [
+        "Kaito Iwasaki",
+        "Tejaswi K. C.",
+        "Anthony Bloch",
+        "Maani Ghaffari",
+        "Taeyoung Lee"
+      ]
+    },
+    {
+      "title": "Max-Entropy Moment Filtering for Stochastic Hybrid Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-05-19",
+      "doi": "https://arxiv.org/abs/2605.20411",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.20411",
+      "concepts": [
+        "Moment (physics)",
+        "Hybrid system",
+        "Kalman filter",
+        "Mathematics",
+        "Applied mathematics",
+        "Reset (finance)",
+        "Filter (signal processing)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Stochastic hybrid systems combine continuous-time stochastic dynamics with discrete reset events, producing intrinsically non-Gaussian and often multimodal uncertainty. A consistent propagation law must also account for boundary-induced probability flux across guard sets, making direct density propagation through hybrid Fokker-Planck equations expensive. We develop a hybrid extension of the Max-Entropy Moment Kalman Filter (MEM-KF) that performs filtering from partial statistical information by propagating a finite collection of moments through stochastic hybrid dynamics and reconstructing beliefs using moment-constrained maximum-entropy distributions. The key step is a moment propagation rule derived from Dynkin's formula with a jump-sum, in which reset effects appear as a boundary-flux correction over the guard set. This yields tractable moment dynamics without solving the underlying hybrid PDE. In a stochastic bouncing-ball example, the proposed method captures reset-induced non-Gaussianity through corrected moment equations while retaining the MEM-KF's optimization-based maximum-entropy representation.",
+      "authors": [
+        "Kaito Iwasaki",
+        "Tejaswi K. C.",
+        "Anthony Bloch",
+        "Maani Ghaffari",
+        "Taeyoung Lee"
+      ]
+    },
+    {
+      "title": "The Score Kalman Filter",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://doi.org/10.48550/arxiv.2605.16644",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.16644",
+      "concepts": [
+        "Mathematics",
+        "Kalman filter",
+        "Moment (physics)",
+        "Algorithm",
+        "Nonlinear system",
+        "Partition (number theory)",
+        "Bayesian probability",
+        "Particle filter"
+      ],
+      "abstract": "A central obstacle in nonlinear Bayesian filtering is representing the belief distribution. Moment-based filters address this by propagating polynomial moments and reconstructing a density from them. Recent work completes the predict-update loop via the maximum-entropy (MaxEnt) principle, but each step requires the partition function and its gradient, both $n$-dimensional integrals whose cost scales exponentially, restricting the demonstrated MaxEnt moment filtering to $n \\le 4$. We avoid the partition function entirely by combining score matching with Stein's identity. In our setting, score matching reduces the density fit to a single linear solve whose coefficients are assembled directly from the propagated moments. The same parameters then drive Stein's identity to close the moment hierarchy during prediction and to recover posterior moments after each Bayesian update, keeping the full predict-update loop free of partition function evaluation. The resulting Score Kalman Filter (SKF) reduces to the classical information-form Kalman filter as a special case and performs every step through linear algebra. On nonlinear coupled-oscillator networks, the SKF runs through $n=20$ and ...",
+      "authors": [
+        "Kaito Iwasaki",
+        "Anthony Bloch",
+        "Taeyoung Lee",
+        "Maani Ghaffari"
+      ]
+    },
+    {
+      "title": "The Score Kalman Filter",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://arxiv.org/abs/2605.16644",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.16644",
+      "concepts": [
+        "Mathematics",
+        "Kalman filter",
+        "Moment (physics)",
+        "Algorithm",
+        "Nonlinear system",
+        "Partition (number theory)",
+        "Bayesian probability",
+        "Particle filter"
+      ],
+      "abstract": "A central obstacle in nonlinear Bayesian filtering is representing the belief distribution. Moment-based filters address this by propagating polynomial moments and reconstructing a density from them. Recent work completes the predict-update loop via the maximum-entropy (MaxEnt) principle, but each step requires the partition function and its gradient, both $n$-dimensional integrals whose cost scales exponentially, restricting the demonstrated MaxEnt moment filtering to $n \\le 4$. We avoid the partition function entirely by combining score matching with Stein's identity. In our setting, score matching reduces the density fit to a single linear solve whose coefficients are assembled directly from the propagated moments. The same parameters then drive Stein's identity to close the moment hierarchy during prediction and to recover posterior moments after each Bayesian update, keeping the full predict-update loop free of partition function evaluation. The resulting Score Kalman Filter (SKF) reduces to the classical information-form Kalman filter as a special case and performs every step through linear algebra. On nonlinear coupled-oscillator networks, the SKF runs through $n=20$ and ...",
+      "authors": [
+        "Kaito Iwasaki",
+        "Anthony Bloch",
+        "Taeyoung Lee",
+        "Maani Ghaffari"
+      ]
+    },
+    {
+      "title": "Transfer Operators for Stochastic Hybrid Systems on Manifolds with Guard-Induced Resets",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.48550/arxiv.2604.18706",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.18706",
+      "concepts": [
+        "Transfer operator",
+        "Hybrid system",
+        "Operator (biology)",
+        "Differentiable function",
+        "Mathematics",
+        "Observable",
+        "Applied mathematics",
+        "State (computer science)"
+      ],
+      "abstract": "This paper develops a transfer operator framework for stochastic hybrid systems with guard-induced resets, encompassing both the Koopman and Frobenius--Perron operators. Exploiting their duality, we derive a unified formulation in which observables and probability densities evolve under adjoint generators corresponding to the backward and forward Kolmogorov equations. The formulation is developed in a global and intrinsic manner on differentiable manifolds, ensuring consistency with the underlying geometric structure of the state space. In addition, we propose a finite volume computational scheme on manifolds that preserves total probability mass while accurately capturing fluxes across guards and reset-induced transfers. The proposed framework provides a unified and geometrically consistent approach to uncertainty propagation in stochastic hybrid systems, bridging continuous stochastic dynamics and hybrid transitions within a transfer operator perspective.",
+      "authors": [
+        "Tejaswi K. C.",
+        "William A. Clark",
+        "Taeyoung Lee"
+      ]
+    }
+  ]
+}

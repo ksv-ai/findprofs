@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Daigo Shishika",
+  "full_name": "Daigo Shishika",
+  "department": "Department of Mechanical Engineering",
+  "university": "George Mason University",
+  "author_id": "A5057044271",
+  "works_count": 96,
+  "cited_by_count": 838,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 46
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 25
+    },
+    {
+      "topic": "Military Defense Systems Analysis",
+      "count": 17
+    },
+    {
+      "topic": "Game Theory and Applications",
+      "count": 13
+    },
+    {
+      "topic": "Reinforcement Learning in Robotics",
+      "count": 12
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Cooperative Team Strategies for Multi-Player Perimeter-Defense Games",
+      "publication_year": 2020,
+      "publication_date": "2020-02-11",
+      "doi": "https://doi.org/10.1109/lra.2020.2972818",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 120,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1912.04342",
+      "concepts": [
+        "Computer science",
+        "Scalability",
+        "Curse of dimensionality",
+        "Decomposition",
+        "Perimeter",
+        "State (computer science)",
+        "Mathematical optimization",
+        "Theoretical computer science"
+      ],
+      "abstract": "This letter studies a variant of the multi-player reach-avoid game played between intruders and defenders with applications to perimeter defense. The intruder team tries to score by sending as many intruders as possible to the target area, while the defender team tries to minimize this score by intercepting them. Finding the optimal strategies of the game is challenging due to the high dimensionality of the joint state space. Existing works have proposed approximation methods to reduce the design of the defense strategy into assignment problems, however, they suffer from either suboptimal defender performance or computational complexity. Based on a novel decomposition method, this letter proposes a scalable (polynomial-time) assignment algorithm that accommodates cooperative behaviors and outperforms the existing defense strategies. For a certain class of initial configurations, we derive the exact score by showing that the lower bound provided by the intruder team matches the upper bound provided by the defender team, which also proves the optimality of the team strategies.",
+      "authors": [
+        "Daigo Shishika",
+        "James Paulos",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "Local-game Decomposition for Multiplayer Perimeter-defense Problem",
+      "publication_year": 2018,
+      "publication_date": "2018-12-01",
+      "doi": "https://doi.org/10.1109/cdc.2018.8618879",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 103,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Outcome (game theory)",
+        "Computer science",
+        "Decomposition",
+        "Curse of dimensionality",
+        "Sequential game",
+        "State (computer science)",
+        "Repeated game",
+        "Intrusion"
+      ],
+      "abstract": "This paper studies a multi-player game between intruders and defenders. The intruder team tries to score by sending as many intruders as possible to the target. The defender team tries to minimize this score by intercepting the intruders. Finding the strategies for both teams and estimating the outcome of the game is challenging due to the high dimensionality of the joint state space. The state-of-the-art method decomposes the game into two-player games and reduces the design of the defense strategy to an assignment problem, whose solution gives an upper bound on the score. We investigate the cooperative aspects of the multi-player game that are not captured in the aforementioned approach and propose a decomposition method that leads to the formation of local sub-teams. We use the method to design a cooperative-intrusion strategy that guarantees a lower bound on the score. The presented results enable a more accurate estimation of the game outcome, and are expected to be useful in the design and evaluation of defender-team strategies.",
+      "authors": [
+        "Daigo Shishika",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "A Review of Multi Agent Perimeter Defense Games",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "doi": "https://doi.org/10.1007/978-3-030-64793-3_26",
+      "venue": "Lecture notes in computer science",
+      "type": "conference-paper",
+      "cited_by_count": 64,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Perimeter",
+        "Scale (ratio)",
+        "Strengths and weaknesses",
+        "Swarm behaviour",
+        "Operations research",
+        "Point (geometry)",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daigo Shishika",
+        "Vijay Kumar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Deception and Counter Deception in Adversarial Graph Traversal Game",
+      "publication_year": 2026,
+      "publication_date": "2026-05-22",
+      "doi": "https://doi.org/10.48550/arxiv.2605.23129",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.23129",
+      "concepts": [
+        "Deception",
+        "Graph traversal",
+        "Adversarial system",
+        "Computer science",
+        "Oracle",
+        "Tree traversal",
+        "Adversary",
+        "Bounded function"
+      ],
+      "abstract": "We study deception in adversarial graph traversal, where a mobile agent seeks to reach a goal with minimum cost while an adversary alters edge costs to increase the total traversal cost. Unlike prior works that assume fixed observer-deceiver roles, we model this problem with two-sided incomplete information in which both players possess private information and update beliefs from observed actions. To solve the resulting indefinite-horizon game, we develop an adaptation of the Extensive-Form Double Oracle (XDO) algorithm. While the standard XDO algorithm is designed for finite games, the proposed adaptation ensures bounded computation despite endogenous game termination. We show that the proposed algorithm terminates in finite time and returns an epsilon-Nash equilibrium. Finally, we use Value of Information to characterize the deceptive and counter-deceptive behaviors that emerge from equilibrium strategies.",
+      "authors": [
+        "Violetta Rostobaya",
+        "James Berneburg",
+        "Daigo Shishika"
+      ]
+    },
+    {
+      "title": "Deception and Counter Deception in Adversarial Graph Traversal Game",
+      "publication_year": 2026,
+      "publication_date": "2026-05-22",
+      "doi": "https://arxiv.org/abs/2605.23129",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.23129",
+      "concepts": [
+        "Deception",
+        "Graph traversal",
+        "Adversarial system",
+        "Computer science",
+        "Oracle",
+        "Tree traversal",
+        "Adversary",
+        "Bounded function"
+      ],
+      "abstract": "We study deception in adversarial graph traversal, where a mobile agent seeks to reach a goal with minimum cost while an adversary alters edge costs to increase the total traversal cost. Unlike prior works that assume fixed observer-deceiver roles, we model this problem with two-sided incomplete information in which both players possess private information and update beliefs from observed actions. To solve the resulting indefinite-horizon game, we develop an adaptation of the Extensive-Form Double Oracle (XDO) algorithm. While the standard XDO algorithm is designed for finite games, the proposed adaptation ensures bounded computation despite endogenous game termination. We show that the proposed algorithm terminates in finite time and returns an epsilon-Nash equilibrium. Finally, we use Value of Information to characterize the deceptive and counter-deceptive behaviors that emerge from equilibrium strategies.",
+      "authors": [
+        "Violetta Rostobaya",
+        "James Berneburg",
+        "Daigo Shishika"
+      ]
+    },
+    {
+      "title": "Linear Programming Approach to Deceptive Path Planning Game with Goal Selection",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://doi.org/10.48550/arxiv.2605.16548",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.16548",
+      "concepts": [
+        "Computer science",
+        "Adversarial system",
+        "Inference",
+        "Oracle",
+        "Linear programming",
+        "Motion planning",
+        "Mathematical optimization",
+        "Deception"
+      ],
+      "abstract": "In adversarial settings, a mobile agent may strategically plan its motion to influence an opponent's inference about its intended goal. We study deceptive path planning in a scenario where a mobile agent aims to reach a privately selected goal while an adversarial observer allocates limited defensive resources based on the observed trajectory. Unlike classical path-planning and goal-recognition approaches that model observers as passive inference process, our game-theoretic formulation models them as strategic decision-makers. For the resulting dynamic asymmetric-information game, we develop an efficient solution method that combines a linear programming formulation with the Double Oracle algorithm. To evaluate performance, we introduce metrics that quantify both the risk and the effectiveness of deception and provide illustrative numerical examples.",
+      "authors": [
+        "Violetta Rostobaya",
+        "Yue Guan",
+        "James Berneburg",
+        "Daigo Shishika"
+      ]
+    },
+    {
+      "title": "Linear Programming Approach to Deceptive Path Planning Game with Goal Selection",
+      "publication_year": 2026,
+      "publication_date": "2026-05-15",
+      "doi": "https://arxiv.org/abs/2605.16548",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.16548",
+      "concepts": [
+        "Computer science",
+        "Adversarial system",
+        "Inference",
+        "Oracle",
+        "Linear programming",
+        "Motion planning",
+        "Mathematical optimization",
+        "Deception"
+      ],
+      "abstract": "In adversarial settings, a mobile agent may strategically plan its motion to influence an opponent's inference about its intended goal. We study deceptive path planning in a scenario where a mobile agent aims to reach a privately selected goal while an adversarial observer allocates limited defensive resources based on the observed trajectory. Unlike classical path-planning and goal-recognition approaches that model observers as passive inference process, our game-theoretic formulation models them as strategic decision-makers. For the resulting dynamic asymmetric-information game, we develop an efficient solution method that combines a linear programming formulation with the Double Oracle algorithm. To evaluate performance, we introduce metrics that quantify both the risk and the effectiveness of deception and provide illustrative numerical examples.",
+      "authors": [
+        "Violetta Rostobaya",
+        "Yue Guan",
+        "James Berneburg",
+        "Daigo Shishika"
+      ]
+    },
+    {
+      "title": "Asymmetric-Information Resource Allocation Games: An LP Approach to Purposeful Deception",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.48550/arxiv.2604.25070",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.25070",
+      "concepts": [
+        "Deception",
+        "Resource allocation",
+        "Computer science",
+        "Bayesian probability",
+        "Nash equilibrium",
+        "Stochastic game",
+        "Microeconomics",
+        "Game theory"
+      ],
+      "abstract": "In this work, we introduce the Deceptive Resource Allocation Game (DRAG), which studies purposeful deception within a Bayesian game framework. In DRAG, a Defender allocates resources across the true asset and several decoys to influence an Attacker's beliefs and actions, with the goal of diverting the Attacker away from the true asset. We seek to characterize purposeful deception, whereby the Defender deceives only when doing so improves its performance. To this end, we solve for the Perfect Bayesian Nash Equilibrium (PBNE) of the corresponding game. We show that, despite the coupled belief-policy interdependence, the problem admits an efficient, non-iterative linear programming formulation. Numerical results demonstrate that the resulting policies naturally balance effective allocation and belief manipulation, giving rise to purposeful and emergent deceptive behaviors.",
+      "authors": [
+        "Longxu Pan",
+        "Yue Guan",
+        "Daigo Shishika",
+        "Panagiotis Tsiotras"
+      ]
+    }
+  ]
+}

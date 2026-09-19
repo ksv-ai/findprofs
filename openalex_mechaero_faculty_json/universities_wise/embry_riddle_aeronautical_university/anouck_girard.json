@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Anouck Girard",
+  "full_name": "Anouck Girard",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5074685221",
+  "works_count": 346,
+  "cited_by_count": 4569,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 62
+    },
+    {
+      "topic": "Traffic control and management",
+      "count": 47
+    },
+    {
+      "topic": "Autonomous Vehicle Technology and Safety",
+      "count": 47
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 46
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Game Theoretic Modeling of Driver and Vehicle Interactions for Verification and Validation of Autonomous Vehicle Control Systems",
+      "publication_year": 2017,
+      "publication_date": "2017-07-26",
+      "doi": "https://doi.org/10.1109/tcst.2017.2723574",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 291,
+      "is_oa": true,
+      "oa_url": "https://repository.bilkent.edu.tr/bitstreams/5d512c53-540a-4ff5-9fff-0661ed9fc32e/download",
+      "concepts": [
+        "Control (management)",
+        "Vehicle dynamics",
+        "Control system",
+        "Fidelity",
+        "Computer science",
+        "Control engineering",
+        "Simulation",
+        "Relation (database)"
+      ],
+      "abstract": "Autonomous driving has been the subject of incre- ased interest in recent years both in industry and in academia. Serious efforts are being pursued to address legal, technical, and logistical problems and make autonomous cars a viable option for everyday transportation. One significant challenge is the time and effort required for the verification and validation of the decision and control algorithms employed in these vehicles to ensure a safe and comfortable driving experience. Hundreds of thousands of miles of driving tests are required to achieve a well calibrated control system that is capable of operating an autonomous vehicle in an uncertain traffic environment where interactions among multiple drivers and vehicles occur simultaneously. Traffic simulators where these interactions can be modeled and represented with reasonable fidelity can help to decrease the time and effort necessary for the development of the autonomous driving control algorithms by providing a venue where acceptable initial control calibrations can be achieved quickly and safely before actual road tests. In this paper, we present a game theoretic traffic model that can be used to: 1) test and compare va...",
+      "authors": [
+        "Nan Li",
+        "Dave W. Oyler",
+        "Mengxuan Zhang",
+        "Yıldıray Yıldız",
+        "Ilya Kolmanovsky",
+        "Anouck Girard"
+      ]
+    },
+    {
+      "title": "Border patrol and surveillance missions using multiple unmanned air vehicles",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1109/cdc.2004.1428713",
+      "venue": "2004 43rd IEEE Conference on Decision and Control (CDC) (IEEE Cat. No.04CH37601)",
+      "type": "conference-paper",
+      "cited_by_count": 287,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hierarchy",
+        "Architecture",
+        "Computer science",
+        "Layer (electronics)",
+        "Control (management)",
+        "Hierarchical control system",
+        "Distributed computing",
+        "Real-time computing"
+      ],
+      "abstract": "In this paper, we propose hierarchical control architecture for a system that does border or perimeter patrol using unmanned air vehicles (AUV). By control architecture we mean a specific way of organizing the motion control and navigation functions performed by the UAV. It is convenient to organize the functions into hierarchical layers. This way, a complex design problem is partitioned into a number of more manageable subproblems that are addressed in separate layers. This paper discusses vehicle control requirements and maps them onto layered control architecture. The formalization of the hierarchy is accomplished in terms of the specific functions accomplished by each layer and of the interfaces between layers. The implementation of the layers is discussed and illustrative examples are provided.",
+      "authors": [
+        "Anouck Girard",
+        "Adam Howell",
+        "J. Karl Hedrick"
+      ]
+    },
+    {
+      "title": "Pursuit–evasion games in the presence of obstacles",
+      "publication_year": 2015,
+      "publication_date": "2015-12-05",
+      "doi": "https://doi.org/10.1016/j.automatica.2015.11.018",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.automatica.2015.11.018",
+      "concepts": [
+        "Dominance (genetics)",
+        "Evasion (ethics)",
+        "Mathematical economics",
+        "Construct (python library)",
+        "Computer science",
+        "Pursuit-evasion",
+        "Mathematics",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Dave W. Oyler",
+        "Pierre T. Kabamba",
+        "Anouck Girard"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "MINT: Multimodal Imaging-to-Speech Knowledge Transfer for Early Alzheimer's Screening",
+      "publication_year": 2026,
+      "publication_date": "2026-02-27",
+      "doi": "https://doi.org/10.48550/arxiv.2602.23994",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.23994",
+      "concepts": [
+        "Computer science",
+        "Neuroimaging",
+        "Inference",
+        "Artificial intelligence",
+        "Population",
+        "Machine learning",
+        "Probabilistic logic",
+        "Redundancy (engineering)"
+      ],
+      "abstract": "Alzheimer's disease is a progressive neurodegenerative disorder in which mild cognitive impairment (MCI) precedes dementia. Structural MRI provides biomarkers but requires costly infrastructure, limiting population-scale deployment. Speech offers a non-invasive alternative, yet speech-only classifiers are developed independently of neuroimaging and lack biological grounding for CN-versus-MCI classification. We propose MINT (Multimodal Imaging-to-Speech Knowledge Transfer), a three-stage framework that transfers MRI-derived biomarker structure to speech during training. An MRI teacher defines a compact embedding space for CN-versus-MCI classification, while a residual projection head aligns speech representations to this space using a combined geometric loss. The frozen MRI classifier enables imaging-free inference. On ADNI-4, aligned speech achieves performance comparable to speech baselines, while multimodal fusion improves over MRI alone. Ablations identify dropout regularization and self-supervised pretraining as important design choices. To our knowledge, MINT is the first demonstration of MRI-to-speech knowledge transfer for early Alzheimer's screening without imaging at in...",
+      "authors": [
+        "Vrushank Ahire",
+        "Yogesh Kumar",
+        "Anouck Girard",
+        "M. A. Ganaie"
+      ]
+    },
+    {
+      "title": "MINT: Multimodal Imaging-to-Speech Knowledge Transfer for Early Alzheimer's Screening",
+      "publication_year": 2026,
+      "publication_date": "2026-02-27",
+      "doi": "https://arxiv.org/abs/2602.23994",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.23994",
+      "concepts": [
+        "Computer science",
+        "Neuroimaging",
+        "Inference",
+        "Artificial intelligence",
+        "Population",
+        "Machine learning",
+        "Probabilistic logic",
+        "Redundancy (engineering)"
+      ],
+      "abstract": "Alzheimer's disease is a progressive neurodegenerative disorder in which mild cognitive impairment (MCI) precedes dementia. Structural MRI provides biomarkers but requires costly infrastructure, limiting population-scale deployment. Speech offers a non-invasive alternative, yet speech-only classifiers are developed independently of neuroimaging and lack biological grounding for CN-versus-MCI classification. We propose MINT (Multimodal Imaging-to-Speech Knowledge Transfer), a three-stage framework that transfers MRI-derived biomarker structure to speech during training. An MRI teacher defines a compact embedding space for CN-versus-MCI classification, while a residual projection head aligns speech representations to this space using a combined geometric loss. The frozen MRI classifier enables imaging-free inference. On ADNI-4, aligned speech achieves performance comparable to speech baselines, while multimodal fusion improves over MRI alone. Ablations identify dropout regularization and self-supervised pretraining as important design choices. To our knowledge, MINT is the first demonstration of MRI-to-speech knowledge transfer for early Alzheimer's screening without imaging at in...",
+      "authors": [
+        "Vrushank Ahire",
+        "Yogesh Kumar",
+        "Anouck Girard",
+        "M. A. Ganaie"
+      ]
+    },
+    {
+      "title": "Safe Adaptive Cruise Control Under Perception Uncertainty: A Deep Ensemble and Conformal Tube Model Predictive Control Approach",
+      "publication_year": 2025,
+      "publication_date": "2025-12-09",
+      "doi": "https://doi.org/10.1109/cdc57313.2025.11312370",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Model predictive control",
+        "Cruise control",
+        "Probabilistic logic",
+        "Conformal map",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Computer science"
+      ],
+      "abstract": "Autonomous driving systems rely heavily on deep neural network-based perception to interpret their environment and support decision-making. To enhance robustness in these safety-critical settings, this paper proposes a Deep Ensemble of neural network regressors integrated with Conformal Prediction to estimate both vehicle states and associated perception uncertainties. Within the Adaptive Cruise Control framework, the method uses RGB image inputs to jointly predict states and generate non-uniform, probabilistically calibrated uncertainty bounds. A Conformal Tube Model Predictive Control scheme incorporates these uncertainty estimates to ensure probabilistic safety guarantees under exchangeability assumptions. Evaluations in a high-fidelity driving simulator demonstrate the algorithm’s effectiveness in maintaining safe following distances and accurate speed tracking, including under Out-Of-Distribution conditions.",
+      "authors": [
+        "Xiao Li",
+        "Anouck Girard",
+        "Ilya Kolmanovsky"
+      ]
+    },
+    {
+      "title": "Provably Safe Stein Variational Clarity-Aware Informative Planning",
+      "publication_year": 2025,
+      "publication_date": "2025-11-13",
+      "doi": "https://doi.org/10.48550/arxiv.2511.09836",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.09836",
+      "concepts": [
+        "Trajectory",
+        "Robot",
+        "Computer science",
+        "Planner",
+        "Entropy (arrow of time)",
+        "Representation (politics)",
+        "Artificial intelligence",
+        "Bayesian probability"
+      ],
+      "abstract": "Autonomous robots are increasingly deployed for information-gathering tasks in environments that vary across space and time. Planning informative and safe trajectories in such settings is challenging because information decays when regions are not revisited. Most existing planners model information as static or uniformly decaying, ignoring environments where the decay rate varies spatially; those that model non-uniform decay often overlook how it evolves along the robot's motion, and almost all treat safety as a soft penalty. In this paper, we address these challenges. We model uncertainty in the environment using clarity, a normalized representation of differential entropy from our earlier work that captures how information improves through new measurements and decays over time when regions are not revisited. Building on this, we present Stein Variational Clarity-Aware Informative Planning, a framework that embeds clarity dynamics within trajectory optimization and enforces safety through a low-level filtering mechanism based on our earlier gatekeeper framework for safety verification. The planner performs Bayesian inference-based learning via Stein variational inference, refin...",
+      "authors": [
+        "Kaleb Ben Naveed",
+        "Utkrisht Sahai",
+        "Anouck Girard",
+        "Dimitra Panagou"
+      ]
+    },
+    {
+      "title": "Constrained Spacecraft Rendezvous on Elliptic Orbits Using Time Shift Governors",
+      "publication_year": 2025,
+      "publication_date": "2025-09-26",
+      "doi": "https://doi.org/10.2514/1.g009122",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Control theory (sociology)",
+        "Rendezvous",
+        "Physics",
+        "Elliptic orbit",
+        "Computer science",
+        "Halo orbit",
+        "Orbit (dynamics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Taehyeun Kim",
+        "Anouck Girard",
+        "Ilya Kolmanovsky"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "faculty_name": "John Bennewitz",
+  "full_name": "John W. Bennewitz",
+  "department": "Department of Mechanical and Aerospace Engineering, Propulsion Research Center",
+  "university": "University of Alabama in Huntsville",
+  "author_id": "A5057043012",
+  "works_count": 64,
+  "cited_by_count": 1016,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 40
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 27
+    },
+    {
+      "topic": "Energetic Materials and Combustion",
+      "count": 27
+    },
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 21
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "MHz laser absorption spectroscopy via diplexed RF modulation for pressure, temperature, and species in rotating detonation rocket flows",
+      "publication_year": 2020,
+      "publication_date": "2020-07-25",
+      "doi": "https://doi.org/10.1007/s00340-020-07483-8",
+      "venue": "Applied Physics B",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Materials science",
+        "Absorption (acoustics)",
+        "Laser",
+        "Optics",
+        "Absorption spectroscopy",
+        "Quantum cascade laser",
+        "Atomic physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anil P. Nair",
+        "Daniel D. Lee",
+        "Daniel I. Pineda",
+        "Jason Kriesel",
+        "William A. Hargus",
+        "John W. Bennewitz",
+        "Stephen Danczyk",
+        "R. Mitchell Spearrin"
+      ]
+    },
+    {
+      "title": "Characterization of Detonation Wave Propagation in a Rotating Detonation Rocket Engine using Direct High-Speed Imaging",
+      "publication_year": 2018,
+      "publication_date": "2018-07-08",
+      "doi": "https://doi.org/10.2514/6.2018-4688",
+      "venue": "2018 Joint Propulsion Conference",
+      "type": "conference-paper",
+      "cited_by_count": 77,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Rocket engine",
+        "Characterization (materials science)",
+        "Aerospace engineering",
+        "Rocket (weapon)",
+        "Materials science",
+        "Physics",
+        "Acoustics"
+      ],
+      "abstract": "",
+      "authors": [
+        "John W. Bennewitz",
+        "Blaine R. Bigler",
+        "William A. Hargus",
+        "Stephen Danczyk",
+        "Richard D. Smith"
+      ]
+    },
+    {
+      "title": "Automated image processing method to quantify rotating detonation wave behavior",
+      "publication_year": 2019,
+      "publication_date": "2019-06-01",
+      "doi": "https://doi.org/10.1063/1.5067256",
+      "venue": "Review of Scientific Instruments",
+      "type": "article",
+      "cited_by_count": 71,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Detonation",
+        "Azimuth",
+        "Physics",
+        "Optics",
+        "Annulus (botany)",
+        "Explosive material",
+        "Acoustics",
+        "Mechanics"
+      ],
+      "abstract": "An image processing technique is developed to automatically determine both average and instantaneous detonation wave properties within a rotating detonation rocket engine (RDRE) using high-speed imaging. This method entails segmenting the imaged RDRE annulus into 200 azimuthal bins and tracking integrated pixel intensity in each bin. By combining individual pixel intensity temporal histories across the azimuthal bins, this provides what is termed a detonation surface that visualizes the propagation of the individual detonation fronts azimuthally around the annulus. Average detonation modal properties including wave speed Ūwv, operational frequency fdet, and the number of waves m are determined automatically through a two-dimensional Fourier analysis of the detonation surface data. Also, instantaneous wave speeds Uwv for each individual detonation are determined by taking the numerical derivative of each waves’ angular position temporal history from the detonation surface. This provides useful insight into wave-to-wave variability for an operating condition, as well as denoting modal transitions and mode stability. For the flow conditions investigated, the number of waves ranges ...",
+      "authors": [
+        "John W. Bennewitz",
+        "Blaine R. Bigler",
+        "Stephen A. Schumaker",
+        "William A. Hargus"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Toward Dual-Bandhead Laser Absorption of Carbon Dioxide for Time-Resolved Thermometry and Speciation in Detonation Waves",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1031",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Carbon dioxide",
+        "Detonation",
+        "Materials science",
+        "Genetic algorithm",
+        "Absorption (acoustics)",
+        "Analytical Chemistry (journal)",
+        "Laser",
+        "Absorption spectroscopy"
+      ],
+      "abstract": "",
+      "authors": [
+        "Krystal Corral Martinez",
+        "Benjamin Steavenson",
+        "Kyle L. Fetter",
+        "Blaine R. Bigler",
+        "Jason R. Burr",
+        "John W. Bennewitz",
+        "Daniel I. Pineda"
+      ]
+    },
+    {
+      "title": "On the Determination of Rotating Detonation Engine Wave Modes Using Limited Point Measurements",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2036",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Equidistant",
+        "Acoustics",
+        "Point (geometry)",
+        "Detonation",
+        "Range (aeronautics)",
+        "Engineering",
+        "Algorithm",
+        "Set (abstract data type)"
+      ],
+      "abstract": "A method to determine the average modal parameters in a rotating detonation engine (RDE) for a limited set of point measurements using the 2D discrete Fourier Transform (fast Fourier transform) is described, and a new sensor placement inspired by the field of compressed sensing is identified based on success of this method in predicting the wave count m and operating frequency f_det in a suite of synthetic case studies of steady-state RDE operation. The performance of this new, “prime” sensor placement is compared to the NASA SP-194 [1] and equidistant (uniform) sensor placements, which are both in use today for determining RDE modes using point measurements. For the synthetic case studies tested, the newly proposed sensor placement is demonstrated to outperform both the SP-194 and equidistant placements for each deployed sensor count between M = 2 and 5. The performance of the proposed prime sensor placement is comparable to the SP-194 recommendations for (co-)rotating wave modes, both with and without concern for the wave direction, and outperforms the SP-194 placement strategy for more complex wave modes. Both the newly proposed and SP-194 recommended sensor placements strong...",
+      "authors": [
+        "Kaito J. Durkee",
+        "Angelo Panettieri",
+        "Garrett R. Cobb",
+        "John W. Bennewitz"
+      ]
+    },
+    {
+      "title": "A Steam Engine for the Space Age: Thermodynamic Analysis of a Detonation Thruster With Water Electrolysis Propellant Generation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1400",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propellant",
+        "Detonation",
+        "Specific impulse",
+        "Aerospace engineering",
+        "Combustion chamber",
+        "Combustion",
+        "Nuclear engineering",
+        "Combustor"
+      ],
+      "abstract": "A thermodynamic model of a water electrolysis system is developed and integrated into a thermodynamic system model of a detonative combustion engine to enable the analysis of theoretical small-spacecraft detonation propulsion systems using water electrolysis for propellant generation. Due to the additional time required to generate propellants via electrolysis, these thrusters lend themselves well to infrequent, impulsive firings rather than sustained burns. Performance characteristics including specific impulse, energy efficiency, and a theoretical maximum impulse are identified for a representative nanosatellite-class spacecraft thruster with ideal and nonideal detonation combustion operation using an annular combustor with a plug nozzle and compared to deflagration operation using a traditional converging-diverging nozzle. The volume savings from stored liquid water propellant are also quantified compared to compressed gas tanks with equivalent thruster performance, with some configurations representing a volume reduction of multiple orders of magnitude. Results suggest that the in-space detonation thruster architectures characterized in this analysis are potentially attracti...",
+      "authors": [
+        "Justin Byers",
+        "Garrett R. Cobb",
+        "Kaito J. Durkee",
+        "John W. Bennewitz"
+      ]
+    },
+    {
+      "title": "Analytical Modeling of Unsteady Heat Transfer in Rotating Detonation Engines",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1640",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Heat flux",
+        "Mechanics",
+        "Heat transfer",
+        "Combustor",
+        "Materials science",
+        "Isothermal process",
+        "Combustion",
+        "Thermodynamics"
+      ],
+      "abstract": "An unsteady heat transfer model is proposed for quantifying heat flux and wall temperature profiles in a rotating detonation combustion environment. This work investigates the heat flux trends in rotating detonation combustors to provide higher accuracy than traditional rocket correlations and developed via first principles. It is demonstrated that a one-dimensional analysis is appropriate for describing the effective heat flux and wall temperature profile; this is due to the disparity in length and time scales between thermal diffusion and the wave arrival. Specifically, wall temperature fluctuations are ��(10 K) or less when heat flux amplitudes are below 10 MW/m² and operating frequencies above 10 kHz for typical combustor materials (e.g., GRCop-42, GRX-810, Inconel 718, silicon carbide). Additionally, as it is shown that fluctuations in wall temperatures are 2-3 orders of magnitude lower than the freestream values, isothermal walls provide excellent approximations for modeling the heat flux at realistic chamber conditions. This work therefore provides a framework for improved thermal characterization within the near-detonation region; this will help work towards the developm...",
+      "authors": [
+        "Garrett R. Cobb",
+        "Kaito J. Durkee",
+        "Jason R. Burr",
+        "D. K. Hollingsworth",
+        "John W. Bennewitz"
+      ]
+    },
+    {
+      "title": "Correction: Average Heat Flux Measurements in a Gaseous Detonation-Based Rocket Engine",
+      "publication_year": 2025,
+      "publication_date": "2025-01-06",
+      "doi": "https://doi.org/10.2514/6.2025-1978.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-1978.c1",
+      "concepts": [
+        "Detonation",
+        "Rocket engine",
+        "Aerospace engineering",
+        "Rocket (weapon)",
+        "Flux (metallurgy)",
+        "Heat flux",
+        "Nuclear engineering",
+        "Computer science"
+      ],
+      "abstract": "Correction NoticeEquation 5 should read:which now removes the incorrect factor of 𝜋/4 as was originally included.Regarding the reported heat flux values, the original discharge coefficient fit was not fully representative across the entirety of the expected pressure range.This has since been updated, which modified Figs.7 and 8 as follows:",
+      "authors": [
+        "Matthew Maybee",
+        "Michaela R. Hemming",
+        "Kaito J. Durkee",
+        "Justin Byers",
+        "Joseph Hernandez-McCloskey",
+        "Kunning G. Xu",
+        "John W. Bennewitz",
+        "Thomas W. Teasley"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "faculty_name": "Carlos Pantano-Rubino",
+  "full_name": "Carlos Pantano",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Southern California",
+  "author_id": "A5068581536",
+  "works_count": 178,
+  "cited_by_count": 3186,
+  "h_index": 27,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 68
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 67
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 47
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 22
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 15
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct simulation of non-premixed flame extinction in a methane–air jet with reduced chemistry",
+      "publication_year": 2004,
+      "publication_date": "2004-08-24",
+      "doi": "https://doi.org/10.1017/s0022112004000266",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 126,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Direct numerical simulation",
+        "Turbulence",
+        "Mechanics",
+        "Premixed flame",
+        "Scalar (mathematics)",
+        "Reynolds number",
+        "Jet (fluid)",
+        "Physics"
+      ],
+      "abstract": "A three-dimensional direct numerical simulation (DNS) study of a spatially evolving planar turbulent reacting jet is reported. Combustion of methane with air is modelled using a four-step reduced mechanism in the non-premixed regime. A total of eight chemical species are integrated in time along with the fluid mechanical fields. The solution of the compressible Navier–Stokes equations is obtained numerically for moderately low Mach number. A large computational grid, with 100 million grid points, is required in order to resolve the flame. The cold flow Reynolds number is 3000. The focus of the study is to investigate the dynamics of extinction fronts in three-dimensional turbulent flows. A novel data reduction and identification algorithm was developed to postprocess the large DNS database and extract the shape of the evolving flame surface including its edges and their propagation velocity. The joint probability density function (p.d.f.) of edge velocity and scalar dissipation was obtained and the results indicate that the three-dimensional flame edges propagate with a velocity that is largely controlled by the local rate of scalar dissipation, or equivalently in terms of the l...",
+      "authors": [
+        "Carlos Pantano"
+      ]
+    },
+    {
+      "title": "A study of compressibility effects in the high-speed turbulent shear layer using direct simulation",
+      "publication_year": 2002,
+      "publication_date": "2002-01-25",
+      "doi": "https://doi.org/10.1017/s0022112001006978",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 398,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Turbulence",
+        "Direct numerical simulation",
+        "Physics",
+        "Compressibility",
+        "Compressible flow",
+        "Supersonic speed"
+      ],
+      "abstract": "Direct simulations of the turbulent shear layer are performed for subsonic to supersonic Mach numbers. Fully developed turbulence is achieved with profiles of mean velocity and turbulence intensities that agree well with laboratory experiments. The thickness growth rate of the shear layer exhibits a large reduction with increasing values of the convective Mach number, M c . In agreement with previous investigations, it is found that the normalized pressure–strain term decreases with increasing M c , which leads to inhibited energy transfer from the streamwise to cross-stream fluctuations, to the reduced turbulence production observed in DNS, and, finally, to reduced turbulence levels as well as reduced growth rate of the shear layer. An analysis, based on the wave equation for pressure, with supporting DNS is performed with the result that the pressure–strain term decreases monotonically with increasing Mach number. The gradient Mach number, which is the ratio of the acoustic time scale to the flow distortion time scale, is shown explicitly by the analysis to be the key quantity that determines the reduction of the pressure–strain term in compressible shear flows. The physical e...",
+      "authors": [
+        "Carlos Pantano",
+        "S. Sarkar"
+      ]
+    },
+    {
+      "title": "A computational study of supersonic disk-gap-band parachutes using Large-Eddy Simulation coupled to a structural membrane",
+      "publication_year": 2010,
+      "publication_date": "2010-12-23",
+      "doi": "https://doi.org/10.1016/j.jfluidstructs.2010.11.007",
+      "venue": "Journal of Fluids and Structures",
+      "type": "article",
+      "cited_by_count": 101,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Supersonic speed",
+        "Large eddy simulation",
+        "Compressible flow",
+        "Drag",
+        "Physics",
+        "Wake"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kostas Karagiozis",
+        "Ramji Kamakoti",
+        "Fehmi Cirak",
+        "Carlos Pantano"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A numerical method for the multidimensional hydrodynamic model of flames propagating in closed vessels",
+      "publication_year": 2025,
+      "publication_date": "2025-06-23",
+      "doi": "https://doi.org/10.1016/j.combustflame.2025.114283",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2025.114283",
+      "concepts": [
+        "Mechanics",
+        "Physics",
+        "Classical mechanics"
+      ],
+      "abstract": "A numerical methodology has been developed to simulate the evolution of multidimensional premixed flames in closed vessels. The mathematical formulation is based on a hydrodynamic theory, wherein the flame is a surface of discontinuity that separates burned products from unburned gas. The flame front propagates into a mixture which is continuously compressed, causing a rise in pressure and temperature that affects the flow field and modifies the local burning rate. The latter depends on the voluminal stretch rate, which combines the effects of local variations in flame front curvature, flame thickness and hydrodynamic strain, and on the rate of the overall pressure rise. The burning rate is modulated by an effective pressure-dependent Markstein length, that exhibits a dependence on the extent of heat release and diffusion properties of the reactants, and decreases continuously as the pressure rises and the flame becomes thinner. A hybrid embedded-manifold/Navier–Stokes methodology is proposed to numerically solve this free-boundary hydrodynamic problem. It consists of two modules; the first involves solving the fluid dynamic equations and the second employs a level-set approach ...",
+      "authors": [
+        "Gautham Krishnan",
+        "Carlos Pantano",
+        "Moshe Matalon"
+      ]
+    },
+    {
+      "title": "Fluid-Structure Inflation Simulations of a Parachute With High-Speed Dynamic Reefing",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4655",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aerospace engineering",
+        "Engineering"
+      ],
+      "abstract": "The inflation of a round canopy equipped with a dynamic reefing mechanism consisting of a sombrero-like flexible structure (the slider) that is allowed to move along the suspension lines is investigated computationally. The Butler Parachute Systems high-speed parachute HX series is used as the model. Fluid-structure interaction simulations at low Mach numbers are employed to study inflation and post-inflation dynamics. This study focuses on the initial inflation and dynamics as the slider travels from its initial deployment location down along the suspension lines. An immersed-boundary method for compressible viscous flow and fluid-structure interaction algorithm is used in these simulations. The computational fluid dynamics uses structured adaptive mesh refinement and large-eddy simulation for computational efficiency of this high-Reynolds number flow. We will discuss drag evolution during inflation and post-inflation stages, suspension line loads, and selected validation with available experimental data. Furthermore, we will compare the performance of the system with and without a slider.",
+      "authors": [
+        "Carlos Pantano",
+        "Roberto Montanez"
+      ]
+    },
+    {
+      "title": "A parallel geometric contact algorithm for thin shell finite elements in explicit time integration",
+      "publication_year": 2024,
+      "publication_date": "2024-10-31",
+      "doi": "https://doi.org/10.1016/j.compstruc.2024.107567",
+      "venue": "Computers & Structures",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.compstruc.2024.107567",
+      "concepts": [
+        "Shell (structure)",
+        "Finite element method",
+        "Algorithm",
+        "Computer science",
+        "Parallel computing",
+        "Mathematics",
+        "Geometry",
+        "Computational science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qingquan Wang",
+        "Carlos Pantano"
+      ]
+    },
+    {
+      "title": "A regularized projection immersed boundary method for smooth boundary forces",
+      "publication_year": 2023,
+      "publication_date": "2023-10-20",
+      "doi": "https://doi.org/10.1016/j.jcp.2023.112571",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2023.112571",
+      "concepts": [
+        "Spurious relationship",
+        "Tikhonov regularization",
+        "Boundary (topology)",
+        "Immersed boundary method",
+        "Mathematics",
+        "Projection method",
+        "Projection (relational algebra)",
+        "Eulerian path"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hang Yu",
+        "Carlos Pantano"
+      ]
+    }
+  ]
+}

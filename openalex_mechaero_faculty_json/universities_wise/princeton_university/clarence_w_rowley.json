@@ -1,0 +1,269 @@
+{
+  "faculty_name": "Clarence W. Rowley",
+  "full_name": "Clarence W. Rowley",
+  "department": "Department of Mechanical and Aerospace Engineering / Program in Applied and Computational Mathematics",
+  "university": "Princeton University",
+  "author_id": "A5089973231",
+  "works_count": 294,
+  "cited_by_count": 18912,
+  "h_index": 52,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 127
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 110
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 73
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 31
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Spectral analysis of nonlinear flows",
+      "publication_year": 2009,
+      "publication_date": "2009-11-18",
+      "doi": "https://doi.org/10.1017/s0022112009992059",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2341,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Nonlinear system",
+        "Operator (biology)",
+        "Observable",
+        "Computation",
+        "Fourier transform",
+        "Flow (mathematics)",
+        "Applied mathematics"
+      ],
+      "abstract": "We present a technique for describing the global behaviour of complex nonlinear flows by decomposing the flow into modes determined from spectral analysis of the Koopman operator, an infinite-dimensional linear operator associated with the full nonlinear system. These modes, referred to as Koopman modes, are associated with a particular observable, and may be determined directly from data (either numerical or experimental) using a variant of a standard Arnoldi method. They have an associated temporal frequency and growth rate and may be viewed as a nonlinear generalization of global eigenmodes of a linearized system. They provide an alternative to proper orthogonal decomposition, and in the case of periodic data the Koopman modes reduce to a discrete temporal Fourier transform. The Arnoldi method used for computations is identical to the dynamic mode decomposition recently proposed by Schmid & Sesterhenn ( Sixty-First Annual Meeting of the APS Division of Fluid Dynamics , 2008), so dynamic mode decomposition can be thought of as an algorithm for finding Koopman modes. We illustrate the method on an example of a jet in crossflow, and show that the method captures the dominant fre...",
+      "authors": [
+        "Clarence W. Rowley",
+        "Igor Mezić",
+        "Shervin Bagheri",
+        "Philipp Schlatter",
+        "Dan S. Henningson"
+      ]
+    },
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "On dynamic mode decomposition: Theory and applications",
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "doi": "https://doi.org/10.3934/jcd.2014.1.391",
+      "venue": "Journal of Computational Dynamics",
+      "type": "article",
+      "cited_by_count": 1512,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3934/jcd.2014.1.391",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Nonlinear system",
+        "Computer science",
+        "Realization (probability)",
+        "Computation",
+        "Linear system",
+        "Linear dynamical system",
+        "Dimension (graph theory)"
+      ],
+      "abstract": "Originally introduced in the fluid mechanics community, dynamic mode decomposition (DMD) has emerged as a powerful tool for analyzing the dynamics of nonlinear systems. However, existing DMD theory deals primarily with sequential time series for which the measurement dimension is much larger than the number of measurements taken. We present a theoretical framework in which we define DMD as the eigendecomposition of an approximating linear operator. This generalizes DMD to a larger class of datasets, including nonsequential time series. We demonstrate the utility of this approach by presenting novel sampling strategies that increase computational efficiency and mitigate the effects of noise, respectively. We also introduce the concept of linear consistency, which helps explain the potential pitfalls of applying DMD to rank-deficient datasets, illustrating with examples. Such computations are not considered in the existing literature but can be understood using our more general framework. In addition, we show that our theory strengthens the connections between DMD and Koopman operator theory. It also establishes connections between DMD and other techniques, including the eigensyst...",
+      "authors": [
+        "Jonathan H. Tu",
+        "Clarence W. Rowley",
+        "Dirk M. Luchtenburg",
+        "Steven L. Brunton",
+        "J Nathan Kutz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Noise analysis of derivative-action biomolecular topologies",
+      "publication_year": 2026,
+      "publication_date": "2026-05-08",
+      "doi": "https://doi.org/10.64898/2026.05.06.723344",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.64898/2026.05.06.723344",
+      "concepts": [
+        "Network topology",
+        "Noise (video)",
+        "Computer science",
+        "Stability (learning theory)",
+        "Topology (electrical circuits)",
+        "Focus (optics)",
+        "Stochastic process",
+        "Signal processing"
+      ],
+      "abstract": "Abstract Temporal gradient sensing is a fundamental capability observed across diverse natural biological systems, contributing to the coordination of their functions. Harnessing this ability is also of significant interest in synthetic biology, particularly for sensing and control applications. In this work, we focus on a biomolecular topology that exemplifies a broader class of signal-differentiating architectures, while introducing a structural variant of it. We examine their behavior under both nominal and non-ideal conditions, accounting for stochastic noise arising from different sources. Our investigation includes scenarios where these topologies operate independently, as well as when embedded within minimal regulatory architectures based on negative as well as positive feedback. We analyze the stability of the resulting macroscopic dynamics—a prerequisite for practical deployment—and quantify stochastic fluctuations in system output, providing comparisons with the corresponding input/unregulated process. Importantly, our results demonstrate that signal differentiation can be effectively implemented in a biomolecular setting without incurring deleterious noise amplificati...",
+      "authors": [
+        "Emmanouil Alexis",
+        "Sebastián Espinel‐Ríos",
+        "Luca Laurenti",
+        "Luca Cardelli",
+        "Ioannis G. Kevrekidis",
+        "Clarence W. Rowley",
+        "José L. Avalos‬"
+      ]
+    },
+    {
+      "title": "Robust Multiplicative Control in Chemical Reaction Networks Extended Version",
+      "publication_year": 2026,
+      "publication_date": "2026-03-16",
+      "doi": "https://doi.org/10.64898/2026.03.15.711890",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/16/2026.03.15.711890.full.pdf",
+      "concepts": [
+        "Multiplicative function",
+        "Monomial",
+        "Stability (learning theory)",
+        "Computer science",
+        "Product (mathematics)",
+        "Control (management)",
+        "Robust control",
+        "Robustness (evolution)"
+      ],
+      "abstract": "Abstract Achieving complex multi-species control objectives is essential for engineering advanced autoregulated biomolecular devices. This paper addresses the problem of robust steady-state tracking for outputs defined as multiplicative combinations of biomolecular species concentrations. We first introduce a control architecture realized via chemical reaction networks that steers the product of two target species concentrations in the controlled network to a prescribed value. A robust stability analysis is provided for closed-loop system families with distinct structural characteristics. The proposed framework is also extended to a more general formulation capable of regulating arbitrary monomial outputs involving multiple species. Numerical simulations of representative examples corroborate the theoretical results and illustrate the effectiveness of our approach.",
+      "authors": [
+        "Emmanouil Alexis",
+        "Clarence W. Rowley",
+        "José L. Avalos‬"
+      ]
+    },
+    {
+      "title": "Robust Multiplicative Control in Chemical Reaction Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/lcsys.2026.3701086",
+      "venue": "IEEE Control Systems Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multiplicative function",
+        "Computer science",
+        "Mathematics",
+        "Control theory (sociology)",
+        "Stability (learning theory)",
+        "Control (management)",
+        "Applied mathematics",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Emmanouil Alexis",
+        "Clarence W. Rowley",
+        "José L. Avalos"
+      ]
+    },
+    {
+      "title": "Resolvent4py: A parallel Python package for analysis, model reduction and control of large-scale linear systems",
+      "publication_year": 2025,
+      "publication_date": "2025-08-09",
+      "doi": "https://doi.org/10.1016/j.softx.2025.102286",
+      "venue": "SoftwareX",
+      "type": "software-paper",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.softx.2025.102286",
+      "concepts": [
+        "Python (programming language)",
+        "Computer science",
+        "Programming language",
+        "Scale (ratio)",
+        "Reduction (mathematics)",
+        "Computational science",
+        "Parallel computing",
+        "Mathematics"
+      ],
+      "abstract": "In this paper, we present resolvent4py , a parallel Python package for the analysis, model reduction and control of large-scale linear systems with millions or billions of degrees of freedom. This package provides the user with a friendly Python-like experience (akin to that of well-established libraries such as numpy and scipy ), while enabling MPI-based parallelism through mpi4py , petsc4py and slepc4py . In turn, this allows for the development of streamlined and efficient Python code that can be used to solve several problems in fluid mechanics, solid mechanics, graph theory, molecular dynamics and several other fields.",
+      "authors": [
+        "Alberto Padovan",
+        "Vishal Anantharaman",
+        "Clarence W. Rowley",
+        "Blaine Vollmer",
+        "Tim Colonius",
+        "Daniel J. Bodony"
+      ]
+    },
+    {
+      "title": "Symmetry-reduced model reduction of shift-equivariant systems via operator inference",
+      "publication_year": 2025,
+      "publication_date": "2025-07-24",
+      "doi": "https://doi.org/10.48550/arxiv.2507.18780",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.18780",
+      "concepts": [
+        "Operator (biology)",
+        "Mathematics",
+        "Inference",
+        "Partial differential equation",
+        "Stability (learning theory)",
+        "Applied mathematics",
+        "Reduction (mathematics)",
+        "Algorithm"
+      ],
+      "abstract": "We consider data-driven reduced-order models of partial differential equations with shift equivariance. Shift-equivariant systems typically admit traveling solutions, and the main idea of our approach is to represent the solution in a traveling reference frame, in which it can be described by a relatively small number of basis functions. Existing methods for operator inference allow one to approximate a reduced-order model directly from data, without knowledge of the full-order dynamics. Our method adds additional terms to ensure that the reduced-order model not only approximates the spatially frozen profile of the solution, but also estimates the traveling speed as a function of that profile. We validate our approach using the Kuramoto-Sivashinsky equation, a one-dimensional partial differential equation that exhibits traveling solutions and spatiotemporal chaos. Results indicate that our method robustly captures traveling solutions, and exhibits improved numerical stability over the standard operator inference approach.",
+      "authors": [
+        "Shuai Yu",
+        "Clarence W. Rowley"
+      ]
+    }
+  ]
+}

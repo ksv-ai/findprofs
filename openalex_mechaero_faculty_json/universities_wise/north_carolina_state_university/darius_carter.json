@@ -1,0 +1,265 @@
+{
+  "faculty_name": "Darius Carter",
+  "full_name": "Darius Carter",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "North Carolina State University",
+  "author_id": "A5052298578",
+  "works_count": 16,
+  "cited_by_count": 105,
+  "h_index": 3,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 6
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 5
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 5
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 4
+    },
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Influence of the Ground, Ceiling, and Sidewall on Micro-Quadrotors",
+      "publication_year": 2020,
+      "publication_date": "2020-12-21",
+      "doi": "https://doi.org/10.2514/1.j059787",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ceiling (cloud)",
+        "Aerospace engineering",
+        "Thrust",
+        "Lift (data mining)",
+        "Ground effect (cars)",
+        "Computer science",
+        "Mechanics",
+        "Marine engineering"
+      ],
+      "abstract": "The growth of the micro-aerial vehicle (MAV) industry is outpacing our understanding of how MAVs behave in cluttered environments. Search and rescue and product delivery (two key MAV applications) occur in tight, confined spaces filled with complex obstacles. Our current understanding of how micro-quadrotors interact with boundaries is based primarily on helicopter models, which were designed for high-Reynolds-number single-rotor flows. To test how well existing near-boundary models apply to micro-quadrotors, the thrust forces and wakes of a micro-quadrotor near a ground, ceiling, and sidewall were measured. It is found that micro-quadrotors (like their larger counterparts) experience a large boost in lift near the ground/ceiling and a slight drop in lift near the sidewall. Particle image velocimetry is used to quantify the velocity around the rotors and evaluate the assumptions made by existing ground and ceiling models. Complex boundary-layer interactions were observed at low altitudes, especially when the quadrotor was tilted relative to the ground. Reduced-order modeling was also used to explore the safety implications of near ground/ceiling flight. Tradeoffs between safety ...",
+      "authors": [
+        "Darius Carter",
+        "Lauren Bouchard",
+        "Daniel Quinn"
+      ]
+    },
+    {
+      "title": "Exploiting Ground and Ceiling Effects on Autonomous UAV Motion Planning",
+      "publication_year": 2019,
+      "publication_date": "2019-06-01",
+      "doi": "https://doi.org/10.1109/icuas.2019.8798091",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 30,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ceiling (cloud)",
+        "Energy consumption",
+        "Leverage (statistics)",
+        "Computer science",
+        "Power consumption",
+        "Motion planning",
+        "Real-time computing",
+        "Simulation"
+      ],
+      "abstract": "Micro Aerial Vehicles (MAVs) and in particular quadrotors have gained a lot of attention because of their small size, stable, robust, and diverse sensing capabilities that make them perfect test beds in several safety critical operations. Shrinking these vehicles is desirable since agility increases. However, it entails smaller power sources and hence less flight time. Adding sensors on these systems also implies more energy consumption due to both the added weight and the supplied energy to the sensors. In this work, we build a framework to leverage the flow dynamic effects near surfaces to recognize grounds and ceilings during operations and to plan a trajectory while minimizing energy consumption. Our proposed framework leverages data from real experiments to model the behavior of the system near surfaces and graph theoretical approaches for energy efficient motion planning. As a result, this study indicates that i) we can detect surfaces during operations without the need of extra onboard sensors and ii) we can minimize energy consumption up to 15% when the system can fly near ground or ceiling surfaces. The proposed framework is validated with experimental results on a quad...",
+      "authors": [
+        "Shijie Gao",
+        "Carmelo Di Franco",
+        "Darius Carter",
+        "Daniel Quinn",
+        "Nicola Bezzo"
+      ]
+    },
+    {
+      "title": "Racial differences in immediate postpartum depression and suicidal ideation among women in a Midwestern delivery hospital",
+      "publication_year": 2020,
+      "publication_date": "2020-09-24",
+      "doi": "https://doi.org/10.1016/j.jadr.2020.100008",
+      "venue": "Journal of Affective Disorders Reports",
+      "type": "article",
+      "cited_by_count": 27,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2666915320300081/pdf",
+      "concepts": [
+        "Depression (economics)",
+        "Medicine",
+        "Suicidal ideation",
+        "Logistic regression",
+        "Edinburgh Postnatal Depression Scale",
+        "Postpartum depression",
+        "Center for Epidemiologic Studies Depression Scale",
+        "Depressive symptoms"
+      ],
+      "abstract": "This study aims to identify the prevalence of suicidal ideation (SI) and elevated depressive symptoms (depression) in the immediate postpartum period, defined as the first three days after delivery. This cross-sectional study includes 10,401 women screened for depressive symptoms using the Edinburgh Postnatal Depression Scale immediately after giving birth in a major delivery hospital in Illinois between 2012 and 2016. We used chi-square tests and logistic regression models to compare outcomes across demographic groups in the study. Of the women screened, 709 (7.7%) women had elevated depressive symptoms and 240 (2.3%) reported SI immediate postpartum period. We found significantly different rates of depressive symptoms and suicidal ideation across self-reported racial/ethnic groups. For depression, when compared to White women, Black and Asian women reported higher rates elevated depressive symptoms, but these differences were not significant in the adjusted logistic regression model. For SI, after adjustments, Asian women remained 8.98 times as likely and Black women 2.11 times as likely to report SI compared to their White counterparts. Results suggests that elevated depressi...",
+      "authors": [
+        "Karen M. Tabb",
+        "Wan-Jung Hsieh",
+        "Amelia R. Gavin",
+        "Mercy Eigbike",
+        "Alexandre Faisal‐Cury",
+        "Syahidatul Khafizah Mohd Hajaraih",
+        "Wenhao David Huang",
+        "Heidemarie K. Laurent",
+        "Darius Carter",
+        "Nichole Nidey",
+        "Kelli K. Ryckman",
+        "Kara Zivin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Tandem Rotor Wake Aerodynamics in Lateral Crossflow Wind Shear",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.2514/1.c038488",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Wake turbulence",
+        "Aerospace engineering",
+        "Aerodynamics",
+        "Vortex",
+        "Mechanics",
+        "Physics",
+        "Particle image velocimetry"
+      ],
+      "abstract": "The wake characteristics of multirotor air vehicles present the aerospace industry many challenges with respect to safety that arise when other air vehicles are flying in close proximity. It is important to be able to characterize and estimate the effects of rotor wake and tip vortices on an air vehicle flying in close proximity to another vehicle in question, with the added complexity of crossflow wind shear. The work presented in this paper aims to understand these interactions by way of an experimental aerodynamics approach utilizing a seven-hole 3-D velocity probe (7-HP) on a precise 2-D linear actuator for [Formula: see text] planes, and particle image velocimetry for [Formula: see text] planes. The results of this study indicate that crossflow shear has a favorable 6% increase in the decay rate of turbulence intensity in the wake of rotors in forward flight. With crossflow shear present, lateral tip vortex displacements in the wake were found to be present and varied from 0.1 to 0.6 [Formula: see text] depending on rotor geometry within the studied near-field domain. For purposes of aerodynamic stability, turbulence statistics and frequency analysis of tip vortices in the ...",
+      "authors": [
+        "Joseph A. Deneke",
+        "Darius Carter"
+      ]
+    },
+    {
+      "title": "Unsteady Tailplane Loads From the Wake of a Stalled Wing Using Concurrent PIV and Force Measurements",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1339",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Vortex shedding",
+        "Vortex",
+        "Aerodynamics",
+        "Mechanics",
+        "Wing",
+        "Physics",
+        "Lift (data mining)"
+      ],
+      "abstract": "This study experimentally investigates the unsteady aerodynamic loads imposed on a horizontal tailplane immersed in the wake of a stalled, finite wing. A low aspect ratio swept wing was tested at high angles of attack (20–30 degrees) which exhibited partial or full aerodynamic stall, and its wake structure was characterized through 7-hole probe measurements, timeaveraged PIV, and spectral analysis. The stalled wing was found to produce multiple vortex types that induce large flow angularities, high turbulence intensities, and distinct shedding frequencies in the 125–165 Hz range. By traversing the tailplane vertically through the vortical wake, this work quantifies the resulting lift, drag, and pitching-moment responses of the tailplane. Time-averaged results reveal strongly negative tailplane lift and nose-up pitching moments across all positions due to wake skew and downward momentum transfer produced by the front wing. Time-resolved PIV and load measurements showed that vortex impingement produces fluctuations in lift coefficient of 0.2 from the vortex shedding frequency bands. These findings provide new experimental insight into wing–tail aerodynamic interactions in stall, c...",
+      "authors": [
+        "Joseph A. Deneke",
+        "Darius Carter",
+        "Joseph X. Alonso"
+      ]
+    },
+    {
+      "title": "The Effect of Wingtip Geometry on Wake Vortex Dynamics for a Low Aspect Ratio Wing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0884",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Wingtip vortices",
+        "Vortex",
+        "Wing",
+        "Wake turbulence",
+        "Horseshoe vortex",
+        "Vorticity",
+        "Angle of attack"
+      ],
+      "abstract": "This study investigates how wingtip geometry influences wake vortex dynamics for a low aspect ratio swept wing using a combined experimental and computational approach. The study focuses on four different wingtip devices including a flat and store tip along with a blended and split winglet. Aerodynamic wake interrogation data were acquired through a high-resolution 7-hole probe wake survey technique with very high grid densities. S-PIV and CFD simulations were also used to characterize velocity deficits, induced flow turning, vortex structure, and vortex dissipation for use in future formation flight studies. While operating the wings all under the same lift coefficient, the wingtip devices generated drastically different wake topologies. Vorticity analyses showed that winglets significantly reduce swirl intensity and they exhibit greater vortex spreading. Flow-turning metrics revealed reduced induced angles beneficial for formation flight applications on winglets versus blunt tip geometries. The research presented in this study provides a new look into nearfield vortex behavior for diverse tip devices and supports future work on formation flight performance.",
+      "authors": [
+        "Joseph A. Deneke",
+        "Darius Carter",
+        "Ajay Pandya",
+        "Ella Heisterkamp"
+      ]
+    },
+    {
+      "title": "PIV and Load Measurements of a Rotor in a Building Wake",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2303",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle image velocimetry",
+        "Wake",
+        "Rotor (electric)",
+        "Flow (mathematics)",
+        "Airflow",
+        "Rotation (mathematics)",
+        "Vorticity",
+        "Inflow"
+      ],
+      "abstract": "This study investigated the effect of wind gusts on airflow in urban airspace and the resulting influence on a rotorcraft operating within this modified flow field. To study how buildings may alter and obstruct the flow field in city airspace, particle image velocimetry (PIV) measurements were taken in three separate planes. The PIV results showed that the flow fields were significantly shaped by the building rotation and flow speed. At the higher flow speed, the vorticity concentrations intensified, indicating that gusty conditions may significantly impact the severity of flow disturbances. Rotor loads data show that rotorcraft operating near buildings may see rapidly changing effective velocity and inflow angle at the rotor plane. The forces as a function of blade azimuth showed a leftward phase shift and reductions in peak magnitude with increasing building rotation angle. These findings suggest that as UAM and AAM operations develop further, it is significantly important to implement flight control strategies, improve predictions of local wind, and maybe design rotorcraft vehicles to be more tolerant of these unsteady environments.",
+      "authors": [
+        "John Gillespie",
+        "Darius Carter"
+      ]
+    },
+    {
+      "title": "Experimental Investigation into the Aerodynamic Mechanism for Annihilation of Limit Cycle Oscillations in an Aeroelastic Wing",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7270017",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7270017",
+      "concepts": [
+        "Aeroelasticity",
+        "Aerodynamics",
+        "Wing",
+        "Physics",
+        "Flow (mathematics)",
+        "Wake",
+        "Mechanics",
+        "Particle image velocimetry"
+      ],
+      "abstract": "",
+      "authors": [
+        "Joseph Deneke",
+        "Isa Gan",
+        "Michael Hughes",
+        "Tyler Kibble",
+        "Matthew Bryant",
+        "Darius Carter"
+      ]
+    }
+  ]
+}

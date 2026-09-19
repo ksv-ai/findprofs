@@ -1,0 +1,272 @@
+{
+  "faculty_name": "Aimy Wissa",
+  "full_name": "Aimy Wissa",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Princeton University",
+  "author_id": "A5076771658",
+  "works_count": 75,
+  "cited_by_count": 975,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 45
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 16
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 15
+    },
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 14
+    },
+    {
+      "topic": "Advanced Materials and Mechanics",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A crawling robot driven by multi-stable origami",
+      "publication_year": 2017,
+      "publication_date": "2017-08-17",
+      "doi": "https://doi.org/10.1088/1361-665x/aa721e",
+      "venue": "Smart Materials and Structures",
+      "type": "article",
+      "cited_by_count": 217,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1361-665X/aa721e/pdf",
+      "concepts": [
+        "Crawling",
+        "Kinematics",
+        "Hinge",
+        "Robot",
+        "Tensegrity",
+        "Folding (DSP implementation)",
+        "Compliant mechanism",
+        "Bistability"
+      ],
+      "abstract": "Abstract Using origami folding to construct and actuate mechanisms and machines offers attractive opportunities from small, scalable, and cheap robots to deployable adaptive structures. This paper presents the design of a bio-inspired origami crawling robot constructed by folding sheets of paper. The origami building block structure is based on the Kresling crease pattern (CP), a chiral tower with a polygonal base, which expands and contracts through coupled longitudinal and rotational motion similar to a screw. We design the origami to have multi-stable structural equilibria which can be tuned by changing the folding CP. Kinematic analysis of these structures based on rigid-plates and hinges at fold lines precludes the shape transformation associated with the bistability of the physical models. To capture the kinematics of the bi-stable origami, the panels’ deformation behavior is modeled utilizing principles of virtual folds. Virtual folds approximate material bending by hinged, rigid panels, which facilitates the development of a kinematic solution via rigid-plate rotation analysis. As such, the kinetics and stability of folded structures are investigated by assigning suitabl...",
+      "authors": [
+        "Alexander Pagano",
+        "Tongxi Yan",
+        "Brian Chien",
+        "Aimy Wissa",
+        "Sameh Tawfick"
+      ]
+    },
+    {
+      "title": "Insect-scale jumping robots enabled by a dynamic buckling cascade",
+      "publication_year": 2023,
+      "publication_date": "2023-01-23",
+      "doi": "https://doi.org/10.1073/pnas.2210651120",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 73,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.2210651120",
+      "concepts": [
+        "Jumping",
+        "Jump",
+        "Buckling",
+        "Robot",
+        "Actuator",
+        "Cascade",
+        "Power (physics)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Millions of years of evolution have allowed animals to develop unusual locomotion capabilities. A striking example is the legless-jumping of click beetles and trap-jaw ants, which jump more than 10 times their body length. Their delicate musculoskeletal system amplifies their muscles' power. It is challenging to engineer insect-scale jumpers that use onboard actuators for both elastic energy storage and power amplification. Typical jumpers require a combination of at least two actuator mechanisms for elastic energy storage and jump triggering, leading to complex designs having many parts. Here, we report the new concept of dynamic buckling cascading, in which a single unidirectional actuation stroke drives an elastic beam through a sequence of energy-storing buckling modes automatically followed by spontaneous impulsive snapping at a critical triggering threshold. Integrating this cascade in a robot enables jumping with unidirectional muscles and power amplification (JUMPA). These JUMPA systems use a single lightweight mechanism for energy storage and release with a mass of 1.6 g and 2 cm length and jump up to 0.9 m, 40 times their body length. They jump repeatedly by reengaging...",
+      "authors": [
+        "Yuzhe Wang",
+        "Qiong Wang",
+        "Mingchao Liu",
+        "Yimeng Qin",
+        "Liuyang Cheng",
+        "Ophelia Bolmin",
+        "Marianne Alleyne",
+        "Aimy Wissa",
+        "Ray H. Baughman",
+        "Dominic Vella",
+        "Sameh Tawfick"
+      ]
+    },
+    {
+      "title": "Bioinspired wingtip devices: a pathway to improve aerodynamic performance during low Reynolds number flight",
+      "publication_year": 2018,
+      "publication_date": "2018-02-01",
+      "doi": "https://doi.org/10.1088/1748-3190/aaac53",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 54,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Wingtip vortices",
+        "Aerospace engineering",
+        "Lift coefficient",
+        "Drag",
+        "Lift (data mining)",
+        "Lift-induced drag",
+        "Lift-to-drag ratio"
+      ],
+      "abstract": "Birds are highly capable and maneuverable fliers, traits not currently shared with current small unmanned aerial vehicles. They are able to achieve these flight capabilities by adapting the shape of their wings during flight in a variety of complex manners. One feature of bird wings, the primary feathers, separate to form wingtip gaps at the distal end of the wing. This paper presents bio-inspired wingtip devices with varying wingtip gap sizes, defined as the chordwise distance between wingtip devices, for operation in low Reynolds number conditions of Re = 100 000, where many bird species operate. Lift and drag data was measured for planar and nonplanar wingtip devices with the total wingtip gap size ranging from 0% to 40% of the wing's mean chord. For a planar wing with a gap size of 20%, the mean coefficient of lift in the pre-stall region is increased by 7.25%, and the maximum coefficient of lift is increased by 5.6% compared to a configuration with no gaps. The nonplanar wingtip device was shown to reduce the induced drag. The effect of wingtip gap sizes is shown to be independent of the planarity/nonplanarity of the wingtip device, thereby allowing designers to decouple th...",
+      "authors": [
+        "Michael K Lynch",
+        "Boris Atanasov Mandadzhiev",
+        "Aimy Wissa"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Locomotion Analysis of a Multisegment Origami-Enabled Robot",
+      "publication_year": 2026,
+      "publication_date": "2026-02-18",
+      "doi": "https://doi.org/10.1115/1.4071144",
+      "venue": "Journal of Mechanisms and Robotics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robot",
+        "Robustness (evolution)",
+        "Robot locomotion",
+        "Redundancy (engineering)",
+        "Computer science",
+        "Engineering",
+        "Control engineering",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Abstract Origami-enabled robots are scalable, compliant, and easy-to-fabricate soft robots. In this study, we investigate the locomotion of an origami-enabled multisegment robot. Such robots offer energetic advantages and enable complex missions by combining several simple robotic segments. This article evaluates the effect of actuation frequency and substrate friction on the straight-line locomotion of the single- and multisegment robots, and their ability to turn. Moreover, we report our evaluation of the multisegment robot’s robustness to failure when one or more segments are disabled. During straight-line locomotion, the one-segment system can crawl with minimal penalties on low-friction substrates. In contrast, the multisegment system, when the distribution of mass is even, is insensitive to both substrate friction and frequency. The turning locomotion results reveal trade-offs between efficiency and maneuverability. Systems with high efficiency during straight-line locomotion have reduced displacement and a high cost of transport (COT), a measure of the energy required for locomotion while turning. When a segment fails during straight-line motion, the robot can continue op...",
+      "authors": [
+        "Allison Earnhardt",
+        "Diaa Zekry",
+        "Juncal Arbelaiz",
+        "Yenan Shen",
+        "Naomi Ehrich Leonard",
+        "Aimy Wissa"
+      ]
+    },
+    {
+      "title": "From grasshoppers to gliders: evaluating the role of hindwing morphology in gliding flight",
+      "publication_year": 2026,
+      "publication_date": "2026-01-07",
+      "doi": "https://doi.org/10.1098/rsif.2025.0117",
+      "venue": "Journal of The Royal Society Interface",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1098/rsif.2025.0117",
+      "concepts": [
+        "Camber (aerodynamics)",
+        "Wing",
+        "Planform",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Flapping",
+        "Wing loading",
+        "Wingspan"
+      ],
+      "abstract": "Grasshoppers seamlessly alternate between flapping and gliding, adapting to changing conditions and conserving energy. This study examines the hindwings of the Schistocerca americana grasshoppers and determines the key elements of the wing features that can enable insect-scale flyers to use gliding as a mode of flight. Wing-specific elements include planform shape, camber profile and corrugation patterns. The study begins with a morphological study of S. americana hindwings and characterizes their aerodynamics through water channel experiments of grasshopper-inspired wing models. We then design, fabricate and evaluate, through flight testing, a grasshopper-inspired glider. Results reveal that while a corrugated wing model has the highest aerodynamic efficiency at low angles of attack, its aerodynamic efficiency decreases at higher angles of attack. In contrast, the glider with the wing model that captures the wing planform shape and has a simplified camber profile exhibits consistent aerodynamic efficiency across a wide range of angles of attack and repeatable flight performance. Therefore, we have identified that the wing planform and a simplified camber profile are key paramet...",
+      "authors": [
+        "Kyung Jun Paul Lee",
+        "Diaa Zekry",
+        "Ahmed K. Othman",
+        "Marianne Alleyne",
+        "Aimy Wissa"
+      ]
+    },
+    {
+      "title": "Click and Run: Investigation of Click Beetles’ Ultrafast Clicking Behavior As a Mechanism for Escape From Constraints",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.1115/smasis2025-167658",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Revolute joint",
+        "Mechanism (biology)",
+        "Kinematics",
+        "Computer science",
+        "Simulation",
+        "Clamping",
+        "Constraint (computer-aided design)",
+        "Stiffness"
+      ],
+      "abstract": "Abstract Click beetles (Coleoptera: Elateridae) have evolved a unique clicking mechanism that enables them to rapidly convert stored elastic potential energy into kinetic energy. However, the biological reason for why this mechanism evolved remains unclear. Several hypotheses have been proposed, such as self-righting, jumping away from threats, or deterring predators. We focused on studying the functionality of clicking as a means of escaping constraints. To investigate how the clicking mechanism influences interactions with the surrounding environment, we created a 3-dimensional dynamic simulation model. This model simplifies the beetle’s structure into several robotic components, including links, revolute joints, and torsional springs. We observed its response over time under various initial conditions and parameters, considering both prescribed and free joint movement. The simulation model showed that when fully constrained, forward and backward movement - and eventual escape - typically required multiple clicks. In contrast, in scenarios involving partial constraint, a single click frequently resulted in successful disengagement. This suggests that clicking plays a more impo...",
+      "authors": [
+        "Liyuan Zhang",
+        "Teagan Mathur",
+        "Aimy Wissa",
+        "Justin K. Yim",
+        "Marianne Alleyne"
+      ]
+    },
+    {
+      "title": "Characterization of Bio-Inspired Covert Flaps for Stability Control in Airborne Wind Energy Harvesting Kite",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.1115/smasis2025-167927",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Kite",
+        "Aerodynamics",
+        "Lift (data mining)",
+        "Aerospace engineering",
+        "Wind tunnel",
+        "Marine engineering",
+        "Wind power",
+        "Engineering"
+      ],
+      "abstract": "Abstract The Toyota Mothership project explores a cutting-edge high-altitude aerial platform inspired by a large-scale, advanced kite. This innovative concept aims to utilize exceptional endurance and station-keeping abilities for diverse missions, including communication relay, atmospheric data collection, and airborne wind energy generation. The Mothership kite is a multifunctional, flexible, and inflatable kite with an unconventional platform shape and cross-section profile. This study aims to use wind tunnel experiments to characterize the aerodynamics of the kite and investigate the efficacy of covert feather-inspired flight control effectors to ensure that the kite maintains stability for an extended flight duration and can perform the maneuver required for energy harvesting. By investigating the aerodynamics of the kite cross section as well as the effects of covert-inspired flaps on the upper and lower sides of the wing section, we: (1) characterize the aerodynamic forces and moments on the baseline configuration of an unconventional airfoil, (2) quantify the aerodynamic effects of covert-inspired flaps on an unconventional airfoil, and (3) determine the efficacy of cove...",
+      "authors": [
+        "Eveline Veloso",
+        "Diaa Zekry",
+        "Aimy Wissa"
+      ]
+    },
+    {
+      "title": "BlueGuppy: tunable kinematics enables maneuverability in a minimalist fish-like robot",
+      "publication_year": 2025,
+      "publication_date": "2025-07-22",
+      "doi": "https://doi.org/10.1088/1748-3190/adf2e9",
+      "venue": "Bioinspiration & Biomimetics",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1748-3190/adf2e9",
+      "concepts": [
+        "Underwater",
+        "Marine engineering",
+        "Thrust",
+        "Robot",
+        "Kinematics",
+        "Biomimetics",
+        "Coral reef",
+        "Propulsion"
+      ],
+      "abstract": "Aquatic ecosystems vital to biodiversity and climate change-such as coral reefs, kelp forests, and mangrove forests-are often cluttered with natural obstacles. To navigate these complex habitats, fish have evolved relatively small body sizes and outstanding maneuverability. In contrast, most unmanned underwater vehicles currently deployed for ocean monitoring are bulky and slow, limiting their ability to access these environments. Developing small and agile underwater robots that mimic native fish species provides a unique opportunity for automated sampling of dynamic aquatic ecosystems. In this paper, we present BlueGuppy, a miniature, low-cost, and untethered fish-like robot (9.5×2.4×3.0cm, 33.1 g) capable of maneuvering with a single actuator. It achieves swimming speeds of up to 2.8 body lengths per second and can execute tight turns with small circles 1.4 body lengths in radius. BlueGuppy can generate a net thrust even in the presence of an incoming flow, but the flow field around BlueGuppy only mirrors that of biological organisms when it is free-swimming, underscoring the importance of untethered robots for biomimetic research. We explored the maneuverability of BlueGuppy...",
+      "authors": [
+        "Hungtang Ko",
+        "Valeria Saro-Cortes",
+        "Brian Mmari",
+        "Di Ni",
+        "Aimy Wissa",
+        "Radhika Nagpal"
+      ]
+    }
+  ]
+}

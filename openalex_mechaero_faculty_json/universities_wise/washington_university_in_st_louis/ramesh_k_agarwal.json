@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Ramesh K. Agarwal",
+  "full_name": "Ramesh K. Agarwal",
+  "department": "Department of Mechanical Engineering and Materials Science",
+  "university": "Washington University in St. Louis",
+  "author_id": "A5001406774",
+  "works_count": 1105,
+  "cited_by_count": 14162,
+  "h_index": 60,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 258
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 239
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 151
+    },
+    {
+      "topic": "Cavitation Phenomena in Pumps",
+      "count": 98
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 91
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Theories and Applications of CFD–DEM Coupling Approach for Granular Flow: A Review",
+      "publication_year": 2021,
+      "publication_date": "2021-04-12",
+      "doi": "https://doi.org/10.1007/s11831-021-09568-9",
+      "venue": "Archives of Computational Methods in Engineering",
+      "type": "article",
+      "cited_by_count": 230,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Drag",
+        "Discrete element method",
+        "Aerodynamics",
+        "CFD-DEM",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mahmoud A. El‐Emam",
+        "Ling Zhou",
+        "Weidong Shi",
+        "Han Chen",
+        "Ling Bai",
+        "Ramesh K. Agarwal"
+      ]
+    },
+    {
+      "title": "The heat transfer enhancement techniques and their Thermal Performance Factor",
+      "publication_year": 2017,
+      "publication_date": "2017-10-11",
+      "doi": "https://doi.org/10.1016/j.bjbas.2017.10.001",
+      "venue": "Beni-Suef University Journal of Basic and Applied Sciences",
+      "type": "article",
+      "cited_by_count": 212,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2314853517300070/pdf",
+      "concepts": [
+        "Heat transfer enhancement",
+        "Heat transfer",
+        "Materials science",
+        "Laminar flow",
+        "Mechanical engineering",
+        "Boundary layer",
+        "Heat spreader",
+        "Mechanics"
+      ],
+      "abstract": "Heat transfer devices have been used for conversion and recovery of heat in many industrial and domestic applications. Over five decades, there has been concerted effort to develop design of heat exchanger that can result in reduction in energy requirement as well as material and other cost saving. Heat transfer enhancement techniques generally reduce the thermal resistance either by increasing the effective heat transfer surface area or by generating turbulence. Sometimes these changes are accompanied by an increase in the required pumping power which results in higher cost. The effectiveness of a heat transfer enhancement technique is evaluated by the Thermal Performance Factor which is a ratio of the change in the heat transfer rate to change in friction factor. Various types of inserts are used in many heat transfer enhancement devices. Geometrical parameters of the insert namely the width, length, twist ratio, twist direction, etc. affect the heat transfer. For example counter double twisted tape insert has TPF of more than 2 and combined twisted tape insert with wire coil can give a better performance in both laminar and turbulent flow compared to twisted tape and wire coi...",
+      "authors": [
+        "Chirag Maradiya",
+        "Jeetendra Vadher",
+        "Ramesh K. Agarwal"
+      ]
+    },
+    {
+      "title": "Beyond Navier–Stokes: Burnett equations for flows in the continuum–transition regime",
+      "publication_year": 2001,
+      "publication_date": "2001-10-01",
+      "doi": "https://doi.org/10.1063/1.1397256",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Knudsen number",
+        "Physics",
+        "Boltzmann equation",
+        "Statistical physics",
+        "Boundary value problem",
+        "Classical mechanics",
+        "Navier–Stokes equations",
+        "Mechanics"
+      ],
+      "abstract": "In hypersonic flows about space vehicles in low earth orbits or flows in microchannels of microelectromechanical devices, the local Knudsen number lies in the continuum–transition regime. Navier–Stokes equations are not adequate to model these flows since they are based on small deviation from local thermodynamic equilibrium. To model these flows, a number of extended hydrodynamics or generalized hydrodynamics models have been proposed over the past fifty years, along with the direct simulation Monte Carlo (DSMC) approach. One of these models is the Burnett equations which are obtained from the Chapman–Enskog expansion of the Boltzmann equation [with Knudsen number (Kn) as a small parameter] to O(Kn2). With the currently available computing power, it has been possible in recent years to numerically solve the Burnett equations. However, attempts at solving the Burnett equations have uncovered many physical and numerical difficulties with the Burnett model. As a result, several improvements to the conventional Burnett equations have been proposed in recent years to address both the physical and numerical issues; two of the most well known are the “augmented Burnett equations” and ...",
+      "authors": [
+        "Ramesh K. Agarwal",
+        "Keon-Young Yun",
+        "Ramesh Balakrishnan"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Extending WUADS Analysis and Design Capabilities to General Aviation Aircrafts With Piston and Turboprop Engines and Hydrogen Fuel",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4441",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turboprop",
+        "Piston (optics)",
+        "Engineering",
+        "Automotive engineering",
+        "Aviation",
+        "General aviation",
+        "Aeronautics",
+        "Mechanical engineering"
+      ],
+      "abstract": "The Washington University Aerospace Design Software (WUADS) is a Python-based conceptual aircraft design software for the analysis of subsonic commercial aircrafts. This paper presents modifications to WUADS enabling the analysis and design of general aviation (GA) aircraft. The updates include revised weight estimation methods as well as a modified method for estimating the performance of piston propeller and turbo-prop engines. For the weight estimation, the average of the GA versions of the Raymer, and NASA FLOPS methods are implemented for each component. The weight analysis accuracy is measured by comparing the gross takeoff weight calculated by WUADS to the published data. The engine performance is measured based on two metrics: the thrust specific fuel consumption (TSFC) and the maximum thrust. TSFC is calculated using the aircraft’s speed, engine efficiency, engine horsepower and fuel consumption rate. User-specified fuselage shaping and wing configuration is implemented to account for the general aviation drag changes. To evaluate the engine output calculations, the estimated aircraft range is compared to the published design ranges. The Cessna 172 Skyhawk, Piper PA-28-...",
+      "authors": [
+        "Natasha Igic",
+        "Ramesh K. Agarwal",
+        "Mike Kiely"
+      ]
+    },
+    {
+      "title": "Design and Analysis of Fuel-Cell Powered Short- to Medium-Range and Hydrogen Engine Powered Long-Range Aircraft Using WUADS Design Code",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4002",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Code (set theory)",
+        "Computer science",
+        "Automotive engineering",
+        "Engineering",
+        "Key (lock)",
+        "Systems engineering",
+        "Systems design",
+        "Mechanical engineering"
+      ],
+      "abstract": "This paper presents the extension and validation of hydrogen-propulsion modeling capabilities of the Washington University Aircraft Design Software (WUADS) for conceptual design of both hydrogen fuel-cell (HFC) and hydrogen combustion powered aircraft. The first effort focuses on the development of a comprehensive hydrogen fuel-cell propulsion module for WUADS, intended to model short- to medium-range aircraft where the fuel-cell systems provide the highest efficiency due to moderate cruise power and thermal-management demands. This extension introduces detailed subsystem models for the fuel-cell stack, air-management system, inverter, and electric motor to simulate energy conversion and power distribution within a fully electric hydrogen powered architecture. Preliminary results indicate that the code performs well and reproduces correct subsystem behavior relative to published data, although some quantitative differences remain due to scaling and correlation limitations. HFC aircraft validation cases are currently being conducted on CRJ 600 and Boeing 717-200 to assess performance, efficiency, and feasibility for future regional hydrogen-electric aircraft. The second validatio...",
+      "authors": [
+        "Duyen Nguyen",
+        "Mike Kiely",
+        "Ramesh K. Agarwal"
+      ]
+    },
+    {
+      "title": "Design and Optimization of Hydrogen-Powered Blended Wing Body Aircraft for Mid-Range Civil Transport",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4341",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Engineering",
+        "Wing",
+        "Marine engineering",
+        "Public transport",
+        "Computer science",
+        "Work (physics)",
+        "Structural engineering",
+        "Field (mathematics)"
+      ],
+      "abstract": "Globally, the aviation industry accounts for 2.5% of Carbon Dioxide (CO2) emissions into the atmosphere annually with the fastest growth of all modes of transportation since 2000. For the environmental health of our planet, it is critical that these emissions are reduced by use of alternate carbon free/neutral fuels which may require reconsideration of the design and propulsion systems of future generations of aircraft to slow global warming and preserve the global ecosystem. Current propulsion systems for commercial airliner jets make use of the combustion of kerosene-based Jet Fuel A to produce thrust by under-wing engines. This combustion releases multiple harmful gases into the atmosphere, most notably CO2 and nitrogen oxides (NOx), which last for decades in the air. In recent decades, there has been a great deal of emphasis on improving the efficiency of both the engine and the aircraft design for a wing-tube aircraft, e.g. the development of the RISE series of engines with an open fan by CFM International and GE Aerospace. For wing-tube aircraft, more advanced structural geometries have been developed that offer superior aerodynamic performance. Newer jet geometries such a...",
+      "authors": [
+        "Irtiza Nazim",
+        "Ramesh K. Agarwal",
+        "Christian Rice",
+        "Mark Holly"
+      ]
+    },
+    {
+      "title": "A Comprehensive Design Study of a Hydrogen-Powered Blended Wing Body Mid-Range Transport Aircraft",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4000",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Engineering",
+        "Wing",
+        "Marine engineering",
+        "Field (mathematics)",
+        "Computer science",
+        "Measure (data warehouse)",
+        "Airframe",
+        "Aeronautics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Levi Gingerich",
+        "Ramesh K. Agarwal",
+        "Christian Rice",
+        "Mark Holly",
+        "Mike Kiely"
+      ]
+    },
+    {
+      "title": "Modifications to WUADS General Aviation Analysis and Hydrogen Configurations",
+      "publication_year": 2026,
+      "publication_date": "2026-04-28",
+      "doi": "https://openscholarship.wustl.edu/eseundergraduate_research/58",
+      "venue": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerospace",
+        "General aviation",
+        "Aerospace engineering",
+        "Fuselage",
+        "Aviation",
+        "Engineering",
+        "Aeronautics",
+        "Range (aeronautics)"
+      ],
+      "abstract": "The Washington University Aerospace Design Software (WUADS) is a Python-based conceptual aircraft design software for the analysis of subsonic commercial aircrafts. This study presents modifications to WUADS furthering the design and analysis for general aviation (GA) aircrafts. The updates include user-specified fuselage shapes and wing configurations to account for general aviation drag changes. The Cessna 172 Skyhawk, Piper PA-28-161 Warrior II, Beechcraft Bonanza G36, Cessna-208 Grand Caravan and the Pilatus PC-12 were modeled to validate the new framework. All calculated weights were within a 4% error, and all range estimations were within a 5% error. Given growing concerns over carbon emissions, with aviation accounting for roughly 2–3% of the global carbon footprint, a method was designed for modeling a retrofitted hydrogen fuel cell engine in a Cessna-208 aircraft using zero-emission to assess feasibility and range.",
+      "authors": [
+        "Natasha C Igic",
+        "Mike Kiely",
+        "Ramesh K. Agarwal"
+      ]
+    }
+  ]
+}

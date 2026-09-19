@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Prashanta Dutta",
+  "full_name": "Prashanta Dutta",
+  "department": "School of Mechanical and Materials Engineering",
+  "university": "Washington State University",
+  "author_id": "A5085000036",
+  "works_count": 306,
+  "cited_by_count": 10460,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Microfluidic and Capillary Electrophoresis Applications",
+      "count": 94
+    },
+    {
+      "topic": "Microfluidic and Bio-sensing Technologies",
+      "count": 81
+    },
+    {
+      "topic": "Nanopore and Nanochannel Transport Studies",
+      "count": 42
+    },
+    {
+      "topic": "Electrowetting and Microfluidic Technologies",
+      "count": 28
+    },
+    {
+      "topic": "Fuel Cells and Related Materials",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Analytical Solution of Combined Electroosmotic/Pressure Driven Flows in Two-Dimensional Straight Channels: Finite Debye Layer Effects",
+      "publication_year": 2001,
+      "publication_date": "2001-03-22",
+      "doi": "https://doi.org/10.1021/ac001182i",
+      "venue": "Analytical Chemistry",
+      "type": "article",
+      "cited_by_count": 295,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Vorticity",
+        "Mechanics",
+        "Electro-osmosis",
+        "Helmholtz free energy",
+        "Pressure gradient",
+        "Velocity gradient",
+        "Displacement (psychology)"
+      ],
+      "abstract": "Analytical results for the velocity distribution, mass flow rate, pressure gradient, wall shear stress, and vorticity in mixed electroosmotic/pressure driven flows are presented for two-dimensional straight channel geometry. We particularly analyze the electric double-layer (EDL) region near the walls and define three new concepts based on the electroosmotic potential distribution. These are the effective EDL thickness, the EDL displacement thickness, and the EDL vorticity thickness. We show that imposing Helmholtz-Smoluchowski velocity at the edge of the EDL as the velocity matching condition between the EDL and the bulk flow region is incomplete under spatial bulk flow variations across the finite EDL. However, the Helmholtz-Smoluchowski velocity can be used as the appropriate slip velocity on the wall. We discuss the limitations of this approach in satisfying the global conservation laws.",
+      "authors": [
+        "Prashanta Dutta",
+        "Ali Beşkök"
+      ]
+    },
+    {
+      "title": "Analytical Solution of Time Periodic Electroosmotic Flows: Analogies to Stokes' Second Problem",
+      "publication_year": 2001,
+      "publication_date": "2001-09-29",
+      "doi": "https://doi.org/10.1021/ac015546y",
+      "venue": "Analytical Chemistry",
+      "type": "article",
+      "cited_by_count": 187,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Mechanics",
+        "Reynolds number",
+        "Electro-osmosis",
+        "Electric field",
+        "Stokes' law",
+        "Flow (mathematics)",
+        "Stokes flow"
+      ],
+      "abstract": "Analytical solutions of time periodic electroosmotic flows in two-dimensional straight channels are obtained as a function of a nondimensional parameter kappa, which is based on the electric double-layer (EDL) thickness, kinematic viscosity, and frequency of the externally applied electric field. A parametric study as a function of kappa reveals interesting physics, ranging from oscillatory \"pluglike\" flows to cases analogous to the oscillating flat plate in a semi-infinite flow domain (Stokes' second problem). The latter case differs from the Stokes' second solution within the EDL, since the flow is driven with an oscillatory electric field rather than an oscillating plate. The analogous case of plate oscillating with the Helmholtz-Smoluchowski velocity matches our analytical solution in the bulk flow region. This indicates that the instantaneous Helmholtz-Smoluchowski velocity is the appropriate electroosmotic slip condition even for high-frequency excitations. The velocity profiles for large kappa values show inflection points very near the walls with localized vorticity extrema that are stronger than the Stokes layers. This have the potential to result in low Reynolds number...",
+      "authors": [
+        "Prashanta Dutta",
+        "Ali Beşkök"
+      ]
+    },
+    {
+      "title": "Joule heating effects in electroosmotically driven microchannel flows",
+      "publication_year": 2004,
+      "publication_date": "2004-04-23",
+      "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2004.02.020",
+      "venue": "International Journal of Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 181,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nusselt number",
+        "Joule heating",
+        "Mechanics",
+        "Microchannel",
+        "Péclet number",
+        "Heat flux",
+        "Heat transfer",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Keisuke Horiuchi",
+        "Prashanta Dutta"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Levenberg-Marquardt Algorithm for Inverse Heat Transfer Problems: Parameters Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.5281/zenodo.20034591",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20034591",
+      "concepts": [
+        "Inverse problem",
+        "Maxima and minima",
+        "Heat flux",
+        "Convergence (economics)",
+        "Nonlinear system",
+        "Heat transfer",
+        "Boundary (topology)",
+        "Inverse"
+      ],
+      "abstract": "Inverse heat transfer problems in materials present significant computational challenges, requiring accurate estimation of unknown thermo-physical properties and boundary conditions from limited experimental measurements. Traditional optimization methods often struggle with ill-posed inverse problems, particularly when dealing with dual Neumann boundary conditions. This research applies to the Levenberg-Marquardt algorithm to solve an inverse heat transfer problem in a plane aluminum wall subjected to unknown heat flux on one boundary while the other side remains thermally insulated. The problem considers unsteady one-dimensional heat conduction with both constant and time-varying heat flux conditions. Using the Levenberg-Marquardt optimization technique, we successfully estimated the material's thermal diffusivity and the unknown boundary heat flux from sparse temperature measurements. The method was validated against analytical solutions for various scenarios including constant heat flux, and linearly varying heat flux. Our results demonstrate high accuracy in parameter estimation even with noisy experimental data, showing robust convergence characteristics. However, the algor...",
+      "authors": [
+        "Nazifa I. Ila",
+        "Prashanta Dutta"
+      ]
+    },
+    {
+      "title": "Levenberg-Marquardt Algorithm for Inverse Heat Transfer Problems: Parameters Estimation",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.5281/zenodo.20034590",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20034590",
+      "concepts": [
+        "Inverse problem",
+        "Maxima and minima",
+        "Heat flux",
+        "Convergence (economics)",
+        "Nonlinear system",
+        "Heat transfer",
+        "Boundary (topology)",
+        "Inverse"
+      ],
+      "abstract": "Inverse heat transfer problems in materials present significant computational challenges, requiring accurate estimation of unknown thermo-physical properties and boundary conditions from limited experimental measurements. Traditional optimization methods often struggle with ill-posed inverse problems, particularly when dealing with dual Neumann boundary conditions. This research applies to the Levenberg-Marquardt algorithm to solve an inverse heat transfer problem in a plane aluminum wall subjected to unknown heat flux on one boundary while the other side remains thermally insulated. The problem considers unsteady one-dimensional heat conduction with both constant and time-varying heat flux conditions. Using the Levenberg-Marquardt optimization technique, we successfully estimated the material's thermal diffusivity and the unknown boundary heat flux from sparse temperature measurements. The method was validated against analytical solutions for various scenarios including constant heat flux, and linearly varying heat flux. Our results demonstrate high accuracy in parameter estimation even with noisy experimental data, showing robust convergence characteristics. However, the algor...",
+      "authors": [
+        "Nazifa I. Ila",
+        "Prashanta Dutta"
+      ]
+    },
+    {
+      "title": "INVERSE HEAT TRANSFER PROBLEMS IN THERMAL ABLATION",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6369478",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6369478",
+      "concepts": [
+        "Inverse problem",
+        "Heat transfer",
+        "Artificial neural network",
+        "Heat flux",
+        "Mechanics",
+        "Thermal",
+        "Temperature measurement",
+        "Heat shield"
+      ],
+      "abstract": "",
+      "authors": [
+        "Prashanta Dutta",
+        "Md Shariful Islam"
+      ]
+    },
+    {
+      "title": "Design and Thermal Performance Optimization of a Graphite Crucible in an Induction Heating System",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7356863",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7356863",
+      "concepts": [
+        "Induction heating",
+        "Heat generation",
+        "Mechanics",
+        "Materials science",
+        "Cylinder",
+        "Heat transfer",
+        "Thermal",
+        "Current (fluid)"
+      ],
+      "abstract": "",
+      "authors": [
+        "D. Subhas Bose",
+        "Prashanta Dutta"
+      ]
+    },
+    {
+      "title": "Thermal Analysis of Induction Heating in Solid and Hollow Cylinders",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.5281/zenodo.20031122",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.20031122",
+      "concepts": [
+        "Induction heating",
+        "Materials science",
+        "Mechanics",
+        "Thermal",
+        "Heat generation",
+        "Thermal analysis",
+        "Amplitude",
+        "Electric heating"
+      ],
+      "abstract": "In industrial applications, induction heating is a widely adopted and energy-efficient technique for heating solid materials, relying on electromagnetic fields generated by alternating electric currents. In the present work, the temperature distribution resulting from induction heating in 3D cylindrical geometries is investigated numerically. An unsteady-state numerical model was developed using the finite volume method. The volumetric heat generation within both solid and hollow cylinders was evaluated separately using a simplified electromagnetic formulation derived from Maxwell’s equations. Cylinders with fixed dimensions and materials with temperature-dependent thermophysical properties were considered. The numerical model was validated independently for solid and hollow cylinders against experimental results obtained under identical operating conditions. The temperature distribution was analyzed in both domains along the radial direction at various time intervals. The results indicate that incorporating variable properties enhances the temperature at comparatively low electric power supply frequencies. On the other hand, constant property assumptions significantly underesti...",
+      "authors": [
+        "Debanik Bose",
+        "Prashanta Dutta"
+      ]
+    }
+  ]
+}

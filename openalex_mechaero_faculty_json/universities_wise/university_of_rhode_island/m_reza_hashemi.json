@@ -1,0 +1,256 @@
+{
+  "faculty_name": "M. Reza Hashemi",
+  "full_name": "M. Reza Hashemi",
+  "department": "Department of Ocean Engineering",
+  "university": "University of Rhode Island",
+  "author_id": "A5060805462",
+  "works_count": 122,
+  "cited_by_count": 3411,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 26
+    },
+    {
+      "topic": "Terahertz technology and applications",
+      "count": 25
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 25
+    },
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 22
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The role of tidal asymmetry in characterizing the tidal energy resource of Orkney",
+      "publication_year": 2014,
+      "publication_date": "2014-03-04",
+      "doi": "https://doi.org/10.1016/j.renene.2014.01.052",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 128,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Tidal power",
+        "Asymmetry",
+        "Marine energy",
+        "Range (aeronautics)",
+        "Tidal range",
+        "Tidal acceleration",
+        "Flood myth",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Simon P. Neill",
+        "M. Reza Hashemi",
+        "Matt Lewis"
+      ]
+    },
+    {
+      "title": "Significant performance enhancement in photoconductive terahertz optoelectronics by incorporating plasmonic contact electrodes",
+      "publication_year": 2013,
+      "publication_date": "2013-03-27",
+      "doi": "https://doi.org/10.1038/ncomms2638",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 542,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/ncomms2638.pdf",
+      "concepts": [
+        "Terahertz radiation",
+        "Photoconductivity",
+        "Optoelectronics",
+        "Plasmon",
+        "Materials science",
+        "Common emitter",
+        "Detector",
+        "Electrode"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christopher Berry",
+        "Navida Chun-han Wang",
+        "M. Reza Hashemi",
+        "M. Unlu",
+        "Mona Jarrahi"
+      ]
+    },
+    {
+      "title": "Resource assessment for future generations of tidal-stream energy arrays",
+      "publication_year": 2015,
+      "publication_date": "2015-03-10",
+      "doi": "https://doi.org/10.1016/j.energy.2015.02.038",
+      "venue": "Energy",
+      "type": "article",
+      "cited_by_count": 257,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.energy.2015.02.038",
+      "concepts": [
+        "Tidal range",
+        "Resource (disambiguation)",
+        "Environmental science",
+        "Tidal power",
+        "Current (fluid)",
+        "Range (aeronautics)",
+        "Marine energy",
+        "STREAMS"
+      ],
+      "abstract": "Tidal-stream energy devices currently require spring tide velocities ( SV ) in excess of 2.5 m/s and water depths in the range 25–50 m. The tidal-stream energy resource of the Irish Sea, a key strategic region for development, was analysed using a 3D hydrodynamic model assuming existing, and potential future technology. Three computational grid resolutions and two boundary forcing products were used within model configuration, each being extensively validated. A limited resource (annual mean of 4 TJ within a 90 km 2 extent) was calculated assuming current turbine technology, with limited scope for long-term sustainability of the industry. Analysis revealed that the resource could increase seven fold if technology were developed to efficiently harvest tidal-streams 20% lower than currently required ( SV > 2 m/s) and be deployed in any water depths greater than 25 m. Moreover, there is considerable misalignment between the flood and ebb current directions , which may reduce the practical resource. An average error within the assumption of rectilinear flow was calculated to be 20°, but this error reduced to ∼3° if lower velocity or deeper water sites were included. We found resourc...",
+      "authors": [
+        "Matthew Lewis",
+        "Simon P. Neill",
+        "Peter Robins",
+        "M. Reza Hashemi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "ASSESSMENT OF MULTI-FIDELITY HYDRODYNAMIC MODELS OF FLOATING WIND TURBINES IN EXTREME WAVE EVENTS",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1016/j.renene.2025.124639",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.23860/thesis-2553",
+      "concepts": [
+        "Marine engineering",
+        "Wave model",
+        "Computational fluid dynamics",
+        "Linearization",
+        "Wind wave",
+        "Flow (mathematics)",
+        "Wind wave model",
+        "Meteorology"
+      ],
+      "abstract": "The development of floating wind technology is becoming increasingly important, as it enables access to wind resources in deeper waters while minimizing environmental impacts such as seabed disturbance. Although numerical models are widely used in the design and control of floating platforms, further research is needed to identify models that balance computational efficiency with sufficient accuracy. This study compares the performance of several numerical modeling methods, including Navier–Stokes solvers, potential flow methods, and linear state-space models, in estimating the dynamics of floating offshore wind platforms under realistic irregular and focused wave conditions. For the standard VolturnUS-S platform, results show that fast linear state-space models lose accuracy under extreme wave conditions. In particular, for a 50-year return-period wave in the Gulf of Maine (Hs = 9.7 m), errors can exceed 50% in some degrees of freedom due to linearization of processes such as mooring. In contrast, potential flow models, when properly augmented with methods such as Morison’s elements and Wheeler stretching, lead to errors of only about 5% compared with high-fidelity CFD models. ...",
+      "authors": [
+        "Jacob Fontaine",
+        "M. Reza Hashemi",
+        "Bradford G. Knight",
+        "Jason Dahl"
+      ]
+    },
+    {
+      "title": "Derivation and analysis of lattice Boltzmann form of the mild slope equation",
+      "publication_year": 2024,
+      "publication_date": "2024-06-02",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2024.118202",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Lattice gas automaton",
+        "Mathematics",
+        "HPP model",
+        "Lattice (music)",
+        "Mathematical physics",
+        "Boltzmann equation",
+        "Statistical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohsen Rahimi",
+        "Seyed Mehrab Amiri",
+        "M. Reza Hashemi"
+      ]
+    },
+    {
+      "title": "Machine learning technique in the north zagros earthquake prediction",
+      "publication_year": 2024,
+      "publication_date": "2024-04-12",
+      "doi": "https://doi.org/10.1016/j.acags.2024.100163",
+      "venue": "Applied Computing and Geosciences",
+      "type": "article",
+      "cited_by_count": 19,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.acags.2024.100163",
+      "concepts": [
+        "Induced seismicity",
+        "Support vector machine",
+        "Artificial neural network",
+        "Earthquake prediction",
+        "Seismology",
+        "Geology",
+        "Machine learning",
+        "Scale (ratio)"
+      ],
+      "abstract": "Studying the changes in seismicity, and the potential of the occurrences of large earthquakes in a seismic zone is not only extremely important from the aspect of seismological research, but it is additionally significant in the decisions of crisis management. Since, nowadays Machine learning techniques have proven the high ability for analyzing information, and discovering the relations among the parameters, in this research were tested some of these techniques for the earthquake prediction. For analysis, the north Zagros seismic catalogue was selected. A region that is an active seismic zone, and large cities are located there. Moreover, nine seismic parameters were used to study the possibility of large earthquake prediction for 1 month using three different Machine Learning (ML) techniques (Artificial Neural Network (ANN), Random Forest, and Support Vector Machine (SVM)). The accuracy of prediction models was evaluated using four different statistical measures (recall, accuracy, precision, and F1-score). The results showed that the (ANN) method is more accurate than other methods. Based on three investigated methodologies, greater accuracy results have been produced to forec...",
+      "authors": [
+        "Salma Ommi",
+        "M. Reza Hashemi"
+      ]
+    },
+    {
+      "title": "Uncertainty of extreme wind and wave loads for marine renewable energy farms in hurricane-prone regions",
+      "publication_year": 2023,
+      "publication_date": "2023-11-07",
+      "doi": "https://doi.org/10.1016/j.renene.2023.119570",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://digitalcommons.uri.edu/gsofacpubs/1442",
+      "concepts": [
+        "Hindcast",
+        "Environmental science",
+        "Univariate",
+        "Extreme value theory",
+        "Significant wave height",
+        "Offshore wind power",
+        "Bivariate analysis",
+        "Meteorology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Boma Kresning",
+        "M. Reza Hashemi",
+        "Amin Shirvani",
+        "M. Javad Hashemi"
+      ]
+    },
+    {
+      "title": "Derivation and Analysis of Lattice Boltzmann Form of the Mild-Slope Equation",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4670365",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4670365",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Mathematical physics",
+        "Boltzmann equation",
+        "Lattice (music)",
+        "Statistical physics",
+        "Physics",
+        "HPP model",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohsen Rahimi",
+        "Seyed Mehrab Amiri",
+        "M. Reza Hashemi"
+      ]
+    }
+  ]
+}

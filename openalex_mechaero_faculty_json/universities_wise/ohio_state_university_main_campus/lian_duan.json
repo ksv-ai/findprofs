@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Lian Duan",
+  "full_name": "Lian Duan",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Ohio State University-Main Campus",
+  "author_id": "A5044214596",
+  "works_count": 194,
+  "cited_by_count": 3998,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 117
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 71
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 49
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 43
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct numerical simulation of hypersonic turbulent boundary layers. Part 2. Effect of wall temperature",
+      "publication_year": 2010,
+      "publication_date": "2010-05-13",
+      "doi": "https://doi.org/10.1017/s0022112010000959",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 379,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Adiabatic wall",
+        "Mach number",
+        "Physics",
+        "Mechanics",
+        "Hypersonic speed",
+        "Compressibility",
+        "Adiabatic process"
+      ],
+      "abstract": "In this paper, we perform direct numerical simulation (DNS) of turbulent boundary layers at Mach 5 with the ratio of wall-to-edge temperature T w / T δ from 1.0 to 5.4 (Cases M5T1 to M5T5). The influence of wall cooling on Morkovin's scaling, Walz's equation, the standard and modified strong Reynolds analogies, turbulent kinetic energy budgets, compressibility effects and near-wall coherent structures is assessed. We find that many of the scaling relations used to express adiabatic compressible boundary-layer statistics in terms of incompressible boundary layers also hold for non-adiabatic cases. Compressibility effects are enhanced by wall cooling but remain insignificant, and the turbulence dissipation remains primarily solenoidal. Moreover, the variation of near-wall streaks, iso-surface of the swirl strength and hairpin packets with wall temperature demonstrates that cooling the wall increases the coherency of turbulent structures. We present the mechanism by which wall cooling enhances the coherence of turbulence structures, and we provide an explanation of why this mechanism does not represent an exception to the weakly compressible hypothesis.",
+      "authors": [
+        "Lian Duan",
+        "Izaak Beekman",
+        "M. Pino Martı́n"
+      ]
+    },
+    {
+      "title": "Direct numerical simulation of hypersonic turbulent boundary layers. Part 3. Effect of Mach number",
+      "publication_year": 2011,
+      "publication_date": "2011-03-02",
+      "doi": "https://doi.org/10.1017/s0022112010005902",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 350,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Physics",
+        "Turbulence",
+        "Reynolds number",
+        "Mechanics",
+        "Compressibility",
+        "Scaling",
+        "Hypersonic speed"
+      ],
+      "abstract": "In this paper, we perform direct numerical simulations (DNS) of turbulent boundary layers with nominal free-stream Mach number ranging from 0.3 to 12. The main objective is to assess the scalings with respect to the mean and turbulence behaviours as well as the possible breakdown of the weak compressibility hypothesis for turbulent boundary layers at high Mach numbers ( M > 5). We find that many of the scaling relations, such as the van Driest transformation for mean velocity, Walz's relation, Morkovin's scaling and the strong Reynolds analogy, which are derived based on the weak compressibility hypothesis, remain valid for the range of free-stream Mach numbers considered. The explicit dilatation terms such as pressure dilatation and dilatational dissipation remain small for the present Mach number range, and the pressure–strain correlation and the anisotropy of the Reynolds stress tensor are insensitive to the free-stream Mach number. The possible effects of intrinsic compressibility are reflected by the increase in the fluctuations of thermodynamic quantities ( p ′ rms / p w , ρ′ rms / ρ , T ′ rms / T ) and turbulence Mach numbers ( M t , M ′ rms ), the existence of shocklets,...",
+      "authors": [
+        "Lian Duan",
+        "Izaak Beekman",
+        "M. Pino Martı́n"
+      ]
+    },
+    {
+      "title": "Direct Numerical Simulation Database for Supersonic and Hypersonic Turbulent Boundary Layers",
+      "publication_year": 2018,
+      "publication_date": "2018-10-01",
+      "doi": "https://doi.org/10.2514/1.j057296",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 276,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7802740",
+      "concepts": [
+        "Hypersonic speed",
+        "Supersonic speed",
+        "Direct numerical simulation",
+        "Aerospace engineering",
+        "Turbulence",
+        "Hypersonic flight",
+        "Mechanics",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "In this paper, we present a direct numerical simulation database of high-speed zero-pressure-gradient turbulent boundary layers developing spatially over a flat plate with nominal freestream Mach number ranging from 2.5 to 14 and wall-to-recovery temperature ranging from 0.18 to 1.0. The flow conditions of the DNS are representative of the operational conditions of the Purdue Mach 6 quiet tunnel, the Sandia Hypersonic Wind Tunnel at Mach 8, and the AEDC Hypervelocity Tunnel No. 9 at Mach 14. The DNS database is used to gauge the performance of compressibility transformations, including the classical Morkovin's scaling and strong Reynolds analogy as well as the newly proposed mean velocity and temperature scalings that explicitly account for wall heat flux. Several insights into the effect of direct compressibility are gained by inspecting the thermodynamic fluctuations and the Reynolds stress budget terms. Precomputed flow statistics, including Reynolds stresses and their budgets, will be available at the website of the NASA Langley Turbulence Modeling Resource, allowing other investigators to query any property of interest.",
+      "authors": [
+        "Chao Zhang",
+        "Lian Duan",
+        "Meelan M. Choudhari"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Change of global precipitation during strong El Niño under high-emission scenarios",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.1007/s11707-025-1206-6",
+      "venue": "Frontiers of Earth Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Teleconnection",
+        "Climatology",
+        "Precipitation",
+        "Coupled model intercomparison project",
+        "Environmental science",
+        "Middle latitudes",
+        "Atmospheric sciences",
+        "Atmospheric circulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Wenjun Sang",
+        "Yu Huang",
+        "Zhigang Cheng",
+        "Yaohui Li",
+        "Lian Duan",
+        "Wenwen Xu",
+        "Ruping Zhang"
+      ]
+    },
+    {
+      "title": "Objective Classification of Convective Precipitation in Chengdu Terminal Area Using a Self-Organizing Map and Its Impacts on Terminal Area Operations",
+      "publication_year": 2026,
+      "publication_date": "2026-04-21",
+      "doi": "https://doi.org/10.3390/atmos17040421",
+      "venue": "Atmosphere",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/atmos17040421",
+      "concepts": [
+        "Precipitation",
+        "Environmental science",
+        "Meteorology",
+        "Trough (economics)",
+        "Terminal (telecommunication)",
+        "Quantitative precipitation forecast",
+        "Convection",
+        "Synoptic scale meteorology"
+      ],
+      "abstract": "Based on hourly reanalysis data during 2010–2020, the Self-Organizing Map method is used to objectively classify convective precipitation events in the Chengdu terminal area. Combined with circulation background characteristics, the results are further grouped into three typical synoptic types. Among these three types, Type 1, characterized by a pattern with strong high pressure and abundant water vapor, yields the most intense precipitation. Type 2, a pattern with moderately strong high pressure and water vapor convergence, produces the second-highest precipitation. Type 3, associated with a low trough and weak water vapor conditions, has the weakest precipitation. Two indicators of the Weather Severity Index (WSI) and Node Coverage Index (NCI), respectively describing the coverage extent of heavy precipitation over the terminal area and over key arrival and departure nodes, are established and calculated based on heavy precipitation samples. The results show that Type 1 exhibits the highest WSI and NCI values, indicating the greatest potential impact. Type 2 displays a lower WSI than Type 1 but retains a relatively higher NCI, suggesting a more directionally biased impact, whe...",
+      "authors": [
+        "Haotian Li",
+        "Haoya Liu",
+        "Lian Duan",
+        "Ran Li",
+        "Yecheng Zhang",
+        "Xiaowei Hu"
+      ]
+    },
+    {
+      "title": "Aerodynamic Characteristics of Flat-Plate Delta Wing with Deflected Wing Tips",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.2514/1.c038565",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wing",
+        "Wing twist",
+        "Wing loading",
+        "Aerodynamics",
+        "Delta wing",
+        "Vortex lift",
+        "Angle of attack",
+        "Wind tunnel"
+      ],
+      "abstract": "The low-speed aerodynamic characteristics of a flat-plate delta wing with deflected wing tips rotated about the chord line are the focus of this study. The flat-plate delta wing used in this study has a leading-edge sweep of 60 deg, a rounded leading edge, and interchangeable wing-tip inserts mounted at two-thirds half-span that vary in deflection angles from [Formula: see text]. Wind-tunnel tests of the model were performed in the Eiffel-type subsonic wind tunnel at The Ohio State University’s Aerospace Research Center. The tests included measurements of aerodynamic forces and wing surface pressure, oil flow visualization, and global velocity measurement with particle image velocimetry. All tests were carried out at a Reynolds number of [Formula: see text] with respect to the mean aerodynamic chord. The results have shown that the deflected wing tips change the static longitudinal stability characteristics of the model from statically stable to statically unstable. The deflected wing tips were determined to be an effective way to change the longitudinal stability characteristics of the aircraft and increase its potential maneuverability, without negatively impacting the aircraf...",
+      "authors": [
+        "Colin W. Trussa",
+        "Clifford Whitfield",
+        "Lian Duan"
+      ]
+    },
+    {
+      "title": "Hypersonic boundary-layer transition over a circular cone in a Mach 8 digital wind tunnel",
+      "publication_year": 2025,
+      "publication_date": "2025-08-25",
+      "doi": "https://doi.org/10.1017/jfm.2025.369",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CE1CAA5174C271E43F1B80E8664926CA/S0022112025003696a.pdf/div-class-title-hypersonic-boundary-layer-transition-over-a-circular-cone-in-a-mach-8-digital-wind-tunnel-div.pdf",
+      "concepts": [
+        "Mach number",
+        "Hypersonic speed",
+        "Wind tunnel",
+        "Boundary layer",
+        "Hypersonic wind tunnel",
+        "Cone (formal languages)",
+        "Expansion tunnel",
+        "Mechanics"
+      ],
+      "abstract": "In conventional hypersonic wind tunnels, tunnel noise is dominated by acoustic radiation from turbulent nozzle-wall boundary layers, which can directly influence the boundary-layer transition (BLT) over the model in the test section. To offer new insights into BLT in conventional ground facilities, direct numerical simulations (DNS) were performed to simulate the receptivity and transition processes of a Mach 8 boundary layer over a nearly sharp $7^\\circ$ half-angle cone, with transition triggered by tunnel-like broadband free-stream acoustic disturbances radiated from the nozzle wall of the Sandia hypersonic wind tunnel at Mach 8 (Sandia HWT-8). The DNS captured all the stages of the transition to turbulence caused by tunnel noise, including the passage of broadband free-stream noise through the shock wave, the receptivity process leading to the generation of Mack’s second-mode waves, their nonlinear growth to saturation, the laminar breakdown to turbulence and the post-transitional, fully turbulent flow. The transition location predicted by DNS compared well with that of Pate’s theory and was also consistent with the locations of peak pressure fluctuations as measured in the S...",
+      "authors": [
+        "Mateus Schuabb",
+        "Lian Duan",
+        "Katya M. Casper",
+        "Ross Wagnild",
+        "Meelan M. Choudhari",
+        "Pedro Paredes"
+      ]
+    },
+    {
+      "title": "Effect of Reynolds number on a high-speed cold-wall turbulent boundary layer",
+      "publication_year": 2025,
+      "publication_date": "2025-08-07",
+      "doi": "https://doi.org/10.1017/jfm.2025.10296",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 4,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/47959F59ED3967B1666A766E1F074F1F/S0022112025102966a.pdf/div-class-title-effect-of-reynolds-number-on-a-high-speed-cold-wall-turbulent-boundary-layer-div.pdf",
+      "concepts": [
+        "Reynolds number",
+        "Turbulence",
+        "Physics",
+        "Boundary layer",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Magnetic Reynolds number",
+        "Reynolds stress equation model"
+      ],
+      "abstract": "Direct numerical simulation (DNS) of a Mach 4.9 zero-pressure-gradient turbulent boundary layer spatially developing over a cooled flat plate at wall-to-recovery temperature $T_w/T_r = 0.60$ is performed. Very long, streamwise contiguous domains are used in the DNS to achieve a wide continuous range of ‘useful’ friction Reynolds numbers of $1000 \\lesssim {Re}_\\tau \\lesssim 2500$ . The DNS datasets have been analysed to assess state-of-the-art compressibility scaling relations and turbulence modelling assumptions. The DNS data show a notable distinction in Reynolds number dependence between thermal and velocity fields. Although Reynolds stress and the budgets of turbulent kinetic energy have reached Reynolds number independence in the inner layer under semi-local scaling by ${Re}_\\tau \\simeq 1000$ , the budget terms for temperature variance and turbulent heat flux retain a clear Reynolds number dependence near the wall over a broader range up to ${Re}_\\tau \\simeq 1900$ . Such a stronger dependence of the thermal field on the Reynolds number may lead to inaccuracy in turbulence models that are calibrated on the basis of low-Reynolds-number data. Spectral and structural analysis su...",
+      "authors": [
+        "Logan Szajnecki",
+        "Dhiman Kumer Roy",
+        "Lian Duan",
+        "Nicholas J. Bisek"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "faculty_name": "Ching-Long Lin",
+  "full_name": "Ching‐Long Lin",
+  "department": "Department of Mechanical Engineering / IIHR—Hydroscience & Engineering",
+  "university": "University of Iowa",
+  "author_id": "A5006854308",
+  "works_count": 211,
+  "cited_by_count": 6332,
+  "h_index": 43,
+  "top_topics": [
+    {
+      "topic": "Inhalation and Respiratory Drug Delivery",
+      "count": 66
+    },
+    {
+      "topic": "Chronic Obstructive Pulmonary Disease (COPD) Research",
+      "count": 31
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 31
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 31
+    },
+    {
+      "topic": "Aerosol Filtration and Electrostatic Precipitation",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Mass preserving nonrigid registration of CT lung images using cubic B‐spline",
+      "publication_year": 2009,
+      "publication_date": "2009-08-17",
+      "doi": "https://doi.org/10.1118/1.3193526",
+      "venue": "Medical Physics",
+      "type": "article",
+      "cited_by_count": 208,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1118/1.3193526",
+      "concepts": [
+        "Image warping",
+        "Hounsfield scale",
+        "Image registration",
+        "Mathematics",
+        "Spline (mechanical)",
+        "Similarity (geometry)",
+        "Lung volumes",
+        "B-spline"
+      ],
+      "abstract": "The authors propose a nonrigid image registration approach to align two computed-tomography (CT)-derived lung datasets acquired during breath-holds at two inspiratory levels when the image distortion between the two volumes is large. The goal is to derive a three-dimensional warping function that can be used in association with computational fluid dynamics studies. In contrast to the sum of squared intensity difference (SSD), a new similarity criterion, the sum of squared tissue volume difference (SSTVD), is introduced to take into account changes in reconstructed Hounsfield units (scaled attenuation coefficient, HU) with inflation. This new criterion aims to minimize the local tissue volume difference within the lungs between matched regions, thus preserving the tissue mass of the lungs if the tissue density is assumed to be relatively constant. The local tissue volume difference is contributed by two factors: Change in the regional volume due to the deformation and change in the fractional tissue content in a region due to inflation. The change in the regional volume is calculated from the Jacobian value derived from the warping function and the change in the fractional tissue...",
+      "authors": [
+        "Youbing Yin",
+        "Eric A. Hoffman",
+        "Ching‐Long Lin"
+      ]
+    },
+    {
+      "title": "Large-eddy simulation of turbulent flow in a channel with rib roughness",
+      "publication_year": 2003,
+      "publication_date": "2003-04-25",
+      "doi": "https://doi.org/10.1016/s0142-727x(03)00002-x",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 199,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Eddy",
+        "Surface finish",
+        "Mechanics",
+        "Mean flow",
+        "Surface roughness",
+        "Flow (mathematics)",
+        "Large eddy simulation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jie Cui",
+        "V. C. Patel",
+        "Ching‐Long Lin"
+      ]
+    },
+    {
+      "title": "Regional Deposition of Particles in an Image-Based Airway Model: Large-Eddy Simulation and Left-Right Lung Ventilation Asymmetry",
+      "publication_year": 2010,
+      "publication_date": "2010-11-06",
+      "doi": "https://doi.org/10.1080/02786826.2010.517578",
+      "venue": "Aerosol Science and Technology",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": true,
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/02786826.2010.517578?needAccess=true&role=button",
+      "concepts": [
+        "Particle deposition",
+        "Lung",
+        "Airway",
+        "Ventilation (architecture)",
+        "Turbulence",
+        "Airflow",
+        "Large eddy simulation",
+        "Mechanics"
+      ],
+      "abstract": "Regional deposition and ventilation of particles by generation, lobe and lung during steady inhalation in a computed tomography (CT) based human airway model are investigated numerically. The airway model consists of a seven-generation human airway tree, with oral cavity, pharynx and larynx. The turbulent flow in the upper respiratory tract is simulated by large-eddy simulation. The flow boundary conditions at the peripheral airways are derived from CT images at two lung volumes to produce physiologically-realistic regional ventilation. Particles with diameter equal to or greater than 2.5 microns are selected for study because smaller particles tend to penetrate to the more distal parts of the lung. The current generational particle deposition efficiencies agree well with existing measurement data. Generational deposition efficiencies exhibit similar dependence on particle Stokes number regardless of generation, whereas deposition and ventilation efficiencies vary by lobe and lung, depending on airway morphology and airflow ventilation. In particular, regardless of particle size, the left lung receives a greater proportion of the particle bolus as compared to the right lung in s...",
+      "authors": [
+        "Andrew Lambert",
+        "Patrick T. O’Shaughnessy",
+        "Merryn H. Tawhai",
+        "Eric A. Hoffman",
+        "Ching‐Long Lin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Quantitative Computed Tomography Based Cluster Informed Assessment of Airway Resistance and Particle Deposition in Post-COVID-19 Lungs",
+      "publication_year": 2024,
+      "publication_date": "2024-04-30",
+      "doi": "https://doi.org/10.1164/ajrccm-conference.2024.209.1_meetingabstracts.a6473",
+      "venue": "",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Coronavirus disease 2019 (COVID-19)",
+        "Computed tomography",
+        "Cluster (spacecraft)",
+        "2019-20 coronavirus outbreak",
+        "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "Deposition (geology)",
+        "Airway",
+        "Particle (ecology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "X. Zhang",
+        "Fei Li",
+        "Prathish K. Rajaraman",
+        "Alejandro P. Comellas",
+        "Eric A. Hoffman",
+        "Ching‐Long Lin"
+      ]
+    },
+    {
+      "title": "Investigating distributions of inhaled aerosols in the lungs of post-COVID-19 clusters through a unified imaging and modeling approach",
+      "publication_year": 2024,
+      "publication_date": "2024-02-08",
+      "doi": "https://doi.org/10.1016/j.ejps.2024.106724",
+      "venue": "European Journal of Pharmaceutical Sciences",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ejps.2024.106724",
+      "concepts": [
+        "Airway resistance",
+        "Airway",
+        "Particle deposition",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Medicine",
+        "Cluster (spacecraft)",
+        "Internal medicine",
+        "Chemistry"
+      ],
+      "abstract": "BACKGROUND: Recent studies, based on clinical data, have identified sex and age as significant factors associated with an increased risk of long COVID. These two factors align with the two post-COVID-19 clusters identified by a deep learning algorithm in computed tomography (CT) lung scans: Cluster 1 (C1), comprising predominantly females with small airway diseases, and Cluster 2 (C2), characterized by older individuals with fibrotic-like patterns. This study aims to assess the distributions of inhaled aerosols in these clusters. METHODS: 140 COVID survivors examined around 112 days post-diagnosis, along with 105 uninfected, non-smoking healthy controls, were studied. Their demographic data and CT scans at full inspiration and expiration were analyzed using a combined imaging and modeling approach. A subject-specific CT-based computational model analysis was utilized to predict airway resistance and particle deposition among C1 and C2 subjects. The cluster-specific structure and function relationships were explored. RESULTS: In C1 subjects, distinctive features included airway narrowing, a reduced homothety ratio of daughter over parent branch diameter, and increased airway resi...",
+      "authors": [
+        "Xuan Zhang",
+        "Frank Li",
+        "Prathish K. Rajaraman",
+        "Alejandro P. Comellas",
+        "Eric A. Hoffman",
+        "Ching‐Long Lin"
+      ]
+    },
+    {
+      "title": "Transport and deposition of beclomethasone dipropionate drug aerosols with varying ethanol concentration in severe asthmatic subjects",
+      "publication_year": 2023,
+      "publication_date": "2023-03-09",
+      "doi": "https://doi.org/10.1016/j.ijpharm.2023.122805",
+      "venue": "International Journal of Pharmaceutics",
+      "type": "article",
+      "cited_by_count": 8,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijpharm.2023.122805",
+      "concepts": [
+        "Ethanol",
+        "Chemistry",
+        "Beclometasone dipropionate",
+        "Chlorofluorocarbon",
+        "Active ingredient",
+        "Airway",
+        "Solvent",
+        "Aerosol"
+      ],
+      "abstract": "This study aims to assess the effects of varying an ethanol co-solvent on the deposition of drug particles in severe asthmatic subjects with distinct airway structures and lung functions using computational fluid dynamics. The subjects were selected from two quantitative computed tomography imaging-based severe asthmatic clusters, differentiated by airway constriction in the left lower lobe. Drug aerosols were assumed to be generated from a pressurized metered-dose inhaler (MDI). The aerosolized droplet sizes were varied by increasing the ethanol co-solvent concentration in the MDI solution. The MDI formulation consists of 1,1,2,2-tetrafluoroethane (HFA-134a), ethanol, and beclomethasone dipropionate (BDP) as the active pharmaceutical ingredient. Since HFA-134a and ethanol are volatile, both substances evaporate rapidly under ambient conditions and trigger condensation of water vapor, increasing the size of aerosols that are predominantly composed of water and BDP. The average deposition fraction in intra-thoracic airways for severe asthmatic subjects with (or without) airway constriction increased from 37%±12 to 53.2%±9.4 (or from 20.7%± 4.6 to 34.7%±6.6) when the ethanol conce...",
+      "authors": [
+        "Prathish K. Rajaraman",
+        "Jiwoong Choi",
+        "Andrew Babiskin",
+        "Ross Walenga",
+        "Ching‐Long Lin"
+      ]
+    },
+    {
+      "title": "AdFair-CLIP: Adversarial Fair Contrastive Language-Image Pre-training for Chest X-Rays",
+      "publication_year": 2025,
+      "publication_date": "2025-09-18",
+      "doi": "https://doi.org/10.1007/978-3-032-04978-0_2",
+      "venue": "Lecture notes in computer science",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Adversarial system",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer security",
+        "Natural language processing",
+        "Linguistics",
+        "Law",
+        "Contrastive analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chenlang Yi",
+        "Zizhan Xiong",
+        "Qi Qi",
+        "Xiyuan Wei",
+        "Girish Bathla",
+        "Ching‐Long Lin",
+        "Bobak J. Mortazavi",
+        "Tianbao Yang"
+      ]
+    },
+    {
+      "title": "AdFair-CLIP: Adversarial Fair Contrastive Language-Image Pre-training for Chest X-rays",
+      "publication_year": 2025,
+      "publication_date": "2025-06-30",
+      "doi": "https://doi.org/10.48550/arxiv.2506.23467",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2506.23467",
+      "concepts": [
+        "Adversarial system",
+        "Generalization",
+        "Spurious relationship",
+        "Feature (linguistics)",
+        "Computer science",
+        "Intervention (counseling)",
+        "Reliability (semiconductor)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Contrastive Language-Image Pre-training (CLIP) models have demonstrated superior performance across various visual tasks including medical image classification. However, fairness concerns, including demographic biases, have received limited attention for CLIP models. This oversight leads to critical issues, particularly those related to race and gender, resulting in disparities in diagnostic outcomes and reduced reliability for underrepresented groups. To address these challenges, we introduce AdFair-CLIP, a novel framework employing adversarial feature intervention to suppress sensitive attributes, thereby mitigating spurious correlations and improving prediction fairness. We conduct comprehensive experiments on chest X-ray (CXR) datasets, and show that AdFair-CLIP significantly enhances both fairness and diagnostic accuracy, while maintaining robust generalization in zero-shot and few-shot scenarios. These results establish new benchmarks for fairness-aware learning in CLIP-based medical diagnostic models, particularly for CXR analysis.",
+      "authors": [
+        "Chenlang Yi",
+        "Xiong, Zizhan",
+        "Qi Qi",
+        "Xiyuan Wei",
+        "Girish Bathla",
+        "Ching‐Long Lin",
+        "Bobak J. Mortazavi",
+        "Tianbao Yang"
+      ]
+    }
+  ]
+}

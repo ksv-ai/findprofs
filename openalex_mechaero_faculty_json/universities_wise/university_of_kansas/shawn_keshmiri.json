@@ -1,0 +1,252 @@
+{
+  "faculty_name": "Shawn Keshmiri",
+  "full_name": "Shawn Keshmiri",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Kansas",
+  "author_id": "A5006497319",
+  "works_count": 77,
+  "cited_by_count": 1148,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 21
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 19
+    },
+    {
+      "topic": "Guidance and Control Systems",
+      "count": 17
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 12
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Robust and Adaptive Nonlinear Model Predictive Controller for Unsteady and Highly Nonlinear Unmanned Aircraft",
+      "publication_year": 2014,
+      "publication_date": "2014-12-19",
+      "doi": "https://doi.org/10.1109/tcst.2014.2377711",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Model predictive control",
+        "Nonlinear system",
+        "Robustness (evolution)",
+        "Aerodynamics",
+        "Weighting",
+        "Control engineering",
+        "Computer science"
+      ],
+      "abstract": "The nonlinear and unsteady nature of aircraft aerodynamics in the presence of adverse conditions and external disturbances, together with a limited range of flight variables makes the use of the linear control theory inadequate in such conditions. To address these constraints and significantly enhance aircraft control capabilities, this brief presents an adaptive framework for a robust nonlinear model predictive control (NMPC). Control algorithms are tested on a 1100-pound unmanned aerial system, with nonlinear, coupled, and unstable open-loop dynamics, subjected to environmental disturbances and measurement noise. Given the usual frequency content exclusion between disturbance and noise, this solution addresses the lack of robustness in model predictive control by the inclusion of frequency-dependent weighting matrices and a nonlinear version of the mixed sensitivity approach. Furthermore, real-time aerodynamic parameter estimation and predictive model updating is carried out by online adaptive artificial neural networks. Through assessment and validity of control algorithms, it is demonstrated that two originally competing control concepts, robustness and performance, are inte...",
+      "authors": [
+        "Gonzalo Garcia",
+        "Shawn Keshmiri",
+        "Thomas Stastny"
+      ]
+    },
+    {
+      "title": "Interchangeable Reinforcement-Learning Flight Controller for Fixed-Wing UASs",
+      "publication_year": 2024,
+      "publication_date": "2024-01-09",
+      "doi": "https://doi.org/10.1109/taes.2024.3351608",
+      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reinforcement learning",
+        "Flight simulator",
+        "Flight test",
+        "Controller (irrigation)",
+        "Computer science",
+        "Robustness (evolution)",
+        "Control theory (sociology)",
+        "Control engineering"
+      ],
+      "abstract": "Since designing aircraft flight controllers is complex, expensive, and time-consuming, the interchangeability of flight controllers between different aircraft platforms has been an active research area. This work presents the development of interchangeable, verifiable flight controllers for fixed-wing UASs. A model-free deep reinforcement learning (RL) algorithm — called PPO (Proximal Policy Optimization) — trains the RL-based control policy. Instead of using high-fidelity dynamic models, the RL policy-based controller is trained in simulation using an engineering-level dynamic model. The robustness of the flight controller toward uncertainty in the dynamic model is improved using randomization of the dynamic model. An aircraft's six degrees of freedom (6DoF) model is used in training to eliminate the heavy reliance of modern controllers on dynamic models, which are prone to the accuracy of the trim information. The idea of an interchangeable flight controller is developed by incorporating memory functions into the policy using long-short-term memory (LSTM), a variant of recurrent neural network (RNN) architecture. The developed flight controller is uniquely verified and validat...",
+      "authors": [
+        "Mozammal Chowdhury",
+        "Shawn Keshmiri"
+      ]
+    },
+    {
+      "title": "Collision and Obstacle Avoidance in Unmanned Aerial Systems Using Morphing Potential Field Navigation and Nonlinear Model Predictive Control",
+      "publication_year": 2014,
+      "publication_date": "2014-07-17",
+      "doi": "https://doi.org/10.1115/1.4028034",
+      "venue": "Journal of Dynamic Systems Measurement and Control",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Waypoint",
+        "Collision avoidance",
+        "Morphing",
+        "Obstacle avoidance",
+        "Model predictive control",
+        "Computer science",
+        "Control theory (sociology)",
+        "Nonlinear system"
+      ],
+      "abstract": "This paper presents a novel approach to collision and obstacle avoidance in fixed-wing unmanned aerial systems (UASs), vehicles with high speed and high inertia, operating in proximal or congested settings. A unique reformulation of classical artificial potential field (APF) navigational approaches, adaptively morphing the functions' shape considering six-degrees-of-freedom (6DOF) dynamic characteristics and constraints of fixed-wing aircraft, is fitted to an online predictive and prioritized waypoint planning algorithm for generation of evasive paths during abrupt encounters. The time-varying waypoint horizons output from the navigation unit are integrated into a combined guidance and nonlinear model predictive control scheme. Real-time avoidance capabilities are demonstrated in full nonlinear 6DOF simulation of a large unmanned aircraft showcasing evasion efficiency with respect to classical methods and collision free operation in a congested urban scenario.",
+      "authors": [
+        "Thomas Stastny",
+        "Gonzalo Garcia",
+        "Shawn Keshmiri"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Flight Test of Multi-Agent Aircraft Swarm for Polar Research",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1950",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Model predictive control",
+        "Control theory (sociology)",
+        "Aerodynamics",
+        "Flight test",
+        "Computer science",
+        "Engineering",
+        "Scalability"
+      ],
+      "abstract": "This work presents a model predictive formation-flight control framework for multi-agent uncrewed aerial systems (UAS) designed for high-resolution remote sensing in polar environments. Unlike existing approaches based on proportional–integral (PI) control, consensus protocols, or potential-field coordination, which generally lack predictive constraint handling and degrade in tightly spaced formations while suffering from slow and out-of-phase convergence, the proposed method leverages a model predictive control (MPC) architecture to explicitly regulate inter-vehicle spacing while each aircraft tracks predefined survey trajectories over rapidly changing glacier topography and environmental disturbances. The proposed controller leverages a model predictive control (MPC) architecture capable of explicitly enforcing the stringent geometric constraints demanded by multi-baseline IPR coherence. To ensure tight formation flight as the swarm follows prescribed survey lines over rapidly evolving glacier topography, the MPC computes optimal velocity perturbations that regulate longitudinal spacing while ensuring that commanded airspeeds remain within safe aerodynamic limits, thereby prev...",
+      "authors": [
+        "Megan Carlson",
+        "Justin Clough",
+        "Andrew Dodge",
+        "Shawn Keshmiri",
+        "Aaron Blevins"
+      ]
+    },
+    {
+      "title": "QP-MPC Based Guidance for Complex Path Following of Fixed-Wing Aerial Vehicles",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1949",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Model predictive control",
+        "Control theory (sociology)",
+        "Robustness (evolution)",
+        "Nonlinear system",
+        "Computer science",
+        "Payload (computing)",
+        "Linearization",
+        "Trajectory"
+      ],
+      "abstract": "Recent advances in autonomous aircraft guidance have produced a wide range of geometric, kinematic, and nonlinear control strategies, however, most modern approaches rely on fixed gains, simplified path parameterizations, or prior knowledge of the reference trajectory, limiting their ability to generalize to collision avoidance scenarios, nonlinear path following tasks, or disturbance-rich environments. Model Predictive Control (MPC) offers a powerful alternative by optimizing control inputs over a finite horizon and explicitly enforcing constraints on states, dynamics, and control effort. However, despite notable progress in real-time onboard MPC for autonomous aircraft, classical MPC formulations remain computationally intensive for payload- and power-constrained small fixed-wing aircraft with limited payload capacity, where size, weight, and energy restrictions severely limit onboard processing resources. This paper introduces a quadratic-program reformulation of model predictive control (QP-MPC) that enables real-time guidance for a payload-stringent small fixed-wing aircraft. By leveraging linearization along a receding trajectory manifold and converting the MPC problem int...",
+      "authors": [
+        "Andrew Dodge",
+        "Justin Clough",
+        "Jeffrey Xu",
+        "Shawn Keshmiri"
+      ]
+    },
+    {
+      "title": "A Robust Flight Controller Design: Investigating Guidance Failures Near TSS Heliport in Challenging Wind Conditions",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007899",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Aerodynamics",
+        "Control engineering",
+        "Control theory (sociology)",
+        "Engineering",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "With the imminent integration of Advanced Air Mobility (AAM) into the national airspace, ensuring the robustness of flight controllers in spatially congested metropolitan areas and in the presence of external disturbances is of paramount importance. The complex interaction between atmospheric turbulence and tall buildings further exacerbates the effects of wind disturbances, posing significant safety challenges to aircraft stability and trajectory tracking. This study employs the high-fidelity urban wind field model using Computational Fluid Dynamics (CFD) which captures wind variations in urban environments. This model quantifies wind shear intensity and vorticity distributions, which are critical factors affecting flight performance. The failure of an autonomous fixed-wing aircraft to maintain its intended flight path within permissible deviation limits under extreme wind conditions is investigated. To address these challenges, a robust flight control system is developed to enhance trajectory tracking performance and mitigate the adverse effects of wind on the path following. The proposed controller is designed to ensure reliable operation despite the unpredictability of urban...",
+      "authors": [
+        "Gulnihal Kucuksayacigil",
+        "Shawn Keshmiri",
+        "Mounir Chrit"
+      ]
+    },
+    {
+      "title": "Adaptive Optimal Path Following Guidance for Fixed-Wing Aerial Vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007874",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixed wing",
+        "Wing",
+        "Path (computing)",
+        "Computer science",
+        "Control theory (sociology)",
+        "Motion planning",
+        "Aerospace engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "A vast body of research exists on the guidance of autonomous unmanned aerial vehicles, with most approaches relying on geometric relationships and constant gains. While these methods can be optimized for predefined flight paths, they become suboptimal in dynamic scenarios requiring real-time guidance without prior knowledge, sharp turns, or significant variations in path length. This work introduces an optimal guidance algorithm with adaptive gains and inherent robustness to external disturbances. By defining the state weighting matrix as a function of cross-track errors, the proposed approach dynamically adjusts gains to minimize deviations. Additionally, incorporating an integral term into the state-space dynamic model ensures zero steady-state error. Lyapunov stability of the algorithm is demonstrated for all possible state weighting matrices. The algorithm is evaluated in a six-degree-of-freedom simulation environment and validated through real-world flight tests under high-wind conditions. Results demonstrate superior robustness and path-tracking performance compared to widely used proportional navigation methods, particularly in adverse environments.",
+      "authors": [
+        "Andrew Dodge",
+        "Adam Baruth",
+        "Shawn Keshmiri"
+      ]
+    },
+    {
+      "title": "Guaranteed Fixed-Wing UAS Lateral Safety Via Control Barrier Functions",
+      "publication_year": 2025,
+      "publication_date": "2025-05-14",
+      "doi": "https://doi.org/10.1109/icuas65942.2025.11007881",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fixed wing",
+        "Computer science",
+        "Wing",
+        "Engineering",
+        "Aerospace engineering"
+      ],
+      "abstract": "Despite the exponential and promising growth in urban air mobility, this sector faces multifaceted technological and societal challenges. Among the most critical is the development of safe, scalable collision avoidance systems capable of operating within the highly dynamic and congested airspace of metropolitan environments, where complex flight routes must navigate dense infrastructure, variable weather, and unpredictable traffic patterns. Traditional collision avoidance methods, such as potential field methods and TCAS, have limitations at low altitudes and in spatially congested metropolitan areas. This work presents a safety-critical control design using control barrier functions that not only guarantees safe operation but can also be applied to any existing system with minimal impact. Six degrees of freedom simulations show that the controller maintains the ego vehicle's safety across multiple scenarios and is capable of running in real-time for real-world implementation.",
+      "authors": [
+        "Jeffrey Xu",
+        "Jeb Marshall",
+        "Matthew Powers",
+        "Shawn Keshmiri"
+      ]
+    }
+  ]
+}

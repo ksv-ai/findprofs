@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Kiran Bhaganagar",
+  "full_name": "Kiran Bhaganagar",
+  "department": "Department of Mechanical, Aerospace, and Industrial Engineering",
+  "university": "University of Texas at San Antonio",
+  "author_id": "A5044471411",
+  "works_count": 105,
+  "cited_by_count": 1084,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 36
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 34
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 16
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 13
+    },
+    {
+      "topic": "Hydrology and Sediment Transport Processes",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The effects of mean atmospheric forcings of the stable atmospheric boundary layer on wind turbine wake",
+      "publication_year": 2015,
+      "publication_date": "2015-01-01",
+      "doi": "https://doi.org/10.1063/1.4907687",
+      "venue": "Journal of Renewable and Sustainable Energy",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://pubs.aip.org/aip/jrse/article-pdf/doi/10.1063/1.4907687/15867415/013124_1_online.pdf",
+      "concepts": [
+        "Planetary boundary layer",
+        "Wake",
+        "Turbulence kinetic energy",
+        "Thermal wind",
+        "Turbulence",
+        "Vortex",
+        "Atmospheric sciences",
+        "Mechanics"
+      ],
+      "abstract": "Interactions between the nocturnal atmospheric boundary layer (ABL) and wind turbines (WTs) can be complicated due to the presence of low level jets (LLJ), a region which creates wind speeds higher than geostrophic wind speed. A study has been performed to isolate the effect of mean forcings of the ABL on turbulence energetics and structures in the wake of WT. Large eddy simulation with an actuator line model has been used as a tool to simulate a full-scale 5-MW WT under two different realistic atmospheric states of the stable ABL corresponding to low- and high-stratification. The study clearly demonstrates that the large-scale forcings of thermally stratified atmospheric boundary characterized by shear- and buoyancy-driven turbulence significantly influence the wake structure of a wind turbine. For the WT in low-stratified ABL, the jets occur above the WT resulting in a strong mixed layer behind the WT. High turbulence results in a faster wake recovery. For the WT in high-stratified ABL, the jets occur near the hub-height resulting in an asymmetric wake structure. The jets confine the mixing to hub-height resulting in a slower wake recovery. Vertical shear causes the interactio...",
+      "authors": [
+        "Kiran Bhaganagar",
+        "Mithu Debnath"
+      ]
+    },
+    {
+      "title": "Implications of Stably Stratified Atmospheric Boundary Layer Turbulence on the Near-Wake Structure of Wind Turbines",
+      "publication_year": 2014,
+      "publication_date": "2014-09-02",
+      "doi": "https://doi.org/10.3390/en7095740",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1996-1073/7/9/5740/pdf?version=1426594102",
+      "concepts": [
+        "Wake",
+        "Turbulence",
+        "Wind shear",
+        "Planetary boundary layer",
+        "Wind gradient",
+        "Wind profile power law",
+        "Mechanics",
+        "Thermal wind"
+      ],
+      "abstract": "Turbulence structure in the wake behind a full-scale horizontal-axis wind turbine under the influence of real-time atmospheric inflow conditions has been investigated using actuator-line-model based large-eddy-simulations. Precursor atmospheric boundary layer (ABL) simulations have been performed to obtain mean and turbulence states of the atmosphere under stable stratification subjected to two different cooling rates. Wind turbine simulations have revealed that, in addition to wind shear and ABL turbulence, height-varying wind angle and low-level jets are ABL metrics that influence the structure of the turbine wake. Increasing stability results in shallower boundary layers with stronger wind shear, steeper vertical wind angle gradients, lower turbulence, and suppressed vertical motions. A turbulent mixing layer forms downstream of the wind turbines, the strength and size of which decreases with increasing stability. Height dependent wind angle and turbulence are the ABL metrics influencing the lateral wake expansion. Further, ABL metrics strongly impact the evolution of tip and root vortices formed behind the rotor. Two factors play an important role in wake meandering: tip vor...",
+      "authors": [
+        "Kiran Bhaganagar",
+        "Mithu Debnath"
+      ]
+    },
+    {
+      "title": "Effect of Roughness on Wall-Bounded Turbulence",
+      "publication_year": 2004,
+      "publication_date": "2004-07-01",
+      "doi": "https://doi.org/10.1023/b:appl.0000044407.34121.64",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 196,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Boundary layer",
+        "Turbulence kinetic energy",
+        "Mechanics",
+        "Vorticity",
+        "Surface finish",
+        "Reynolds stress",
+        "Reynolds number"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kiran Bhaganagar",
+        "John Kim",
+        "Gary N. Coleman"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Capturing extreme events in turbulence using an extreme variational autoencoder (xVAE)",
+      "publication_year": 2026,
+      "publication_date": "2026-05-27",
+      "doi": "https://doi.org/10.1007/s00521-026-12112-0",
+      "venue": "Neural Computing and Applications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00521-026-12112-0.pdf",
+      "concepts": [
+        "Autoencoder",
+        "Turbulence",
+        "Extreme value theory",
+        "Extreme environment",
+        "Statistical physics",
+        "Computer science",
+        "Physics",
+        "Mathematics"
+      ],
+      "abstract": "Abstract Turbulent flow fields are characterized by extreme events that are statistically intermittent and carry a significant amount of energy and physical importance. To emulate these flows, we introduce the extreme variational Autoencoder (xVAE), which embeds a max-infinitely divisible process with heavy-tailed distributions into a standard VAE framework, enabling accurate modeling of extreme events. xVAEs are neural network models that reduce system dimensionality by learning non-linear latent representations of data. We demonstrate the effectiveness of xVAE in large-eddy simulation data of wildland fire plumes, where intense heat release and complex plume-atmosphere interactions generate extreme turbulence. Comparisons with the vanilla VAE and the commonly used Proper Orthogonal Decomposition (POD) modes show that xVAE is more robust in capturing extreme values and enables simulation-based uncertainty quantification using variational Bayes. Additionally, xVAE facilitates analysis of the so-called copulas of fields to assess risks associated with rare events while rigorously accounting for uncertainty, such as simultaneous exceedances of high thresholds across multiple locat...",
+      "authors": [
+        "Likun Zhang",
+        "Kiran Bhaganagar",
+        "Christopher K. Wikle"
+      ]
+    },
+    {
+      "title": "Spatio-temporal Transformer-based modeling of multi-turbine wake effects for wind farm power forecasting",
+      "publication_year": 2026,
+      "publication_date": "2026-03-13",
+      "doi": "https://doi.org/10.1016/j.egyai.2026.100715",
+      "venue": "Energy and AI",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.egyai.2026.100715",
+      "concepts": [
+        "Turbine",
+        "Wake",
+        "Wind power",
+        "Emulation",
+        "Computer science",
+        "Marine engineering",
+        "Meteorology",
+        "Wind speed"
+      ],
+      "abstract": "Short-term wind power forecasting is vital to reserve scheduling and reliable grid operation. However, accuracy degrades in dense wind farms where turbine wake interactions introduce strong, direction-dependent spatial coupling. We present a lightweight spatio-temporal Transformer for turbine-level forecasting that explicitly learns wake superposition in a multi-source ( N -to-1) setting, where several upstream machines jointly influence a downstream target. For each upstream-downstream group, the model ingests operational power along with physically meaningful geometric descriptors (inter-turbine distance and encoded wind-referenced bearing and angle difference) to preserve directional periodicity. The model performs one-step-ahead ( τ = 1 ) prediction at a 10-minute resolution for all G = 45 downstream turbine groups and is evaluated on 1 year of 10-minute-interval data from an operating 86-turbine wind farm. Using 45 interaction groups with a practical 5-to-1 neighborhood instantiation, the proposed model delivers lower errors than representative machine learning baselines, achieving an MAE of ≈ 0 . 072918 MW during the peak-wake evaluation period and improving MAE by ≈ 3 . 7...",
+      "authors": [
+        "Gustavo Alberto Giraldo Echeverri",
+        "Rahmat Adesunkanmi",
+        "Carolina Ramirez Tamayo",
+        "Kiran Bhaganagar",
+        "Adel Alaeddini"
+      ]
+    },
+    {
+      "title": "Realistic Large-Eddy Simulation Study of the Atmospheric Boundary Layer During the Mosquito Wildland Fire and Its Control of Smoke Plume Transport",
+      "publication_year": 2026,
+      "publication_date": "2026-01-30",
+      "doi": "https://doi.org/10.3390/fire9020066",
+      "venue": "Fire",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2571-6255/9/2/66/pdf?version=1769785978",
+      "concepts": [
+        "Plume",
+        "Environmental science",
+        "Meteorology",
+        "Planetary boundary layer",
+        "Atmospheric sciences",
+        "Convective Boundary Layer",
+        "Turbulence",
+        "Convection"
+      ],
+      "abstract": "Large-eddy simulation (LES) within a weather research and forecasting (WRF) model coupled with an active scalar transport equation was used to simulate Atmospheric Boundary Layer conditions during the Mosquito fire, the largest wildland fire in California during September 2022. The simulations were conducted with realistic boundary conditions derived from the National Oceanic and Atmospheric Administration (NOAA) High Resolution Rapid Refresh (HRRR) model, with the aim of better understanding the two-way coupling between the ABL and plume dynamics. The terrain was extremely inhomogeneous, and the topography varied significantly within the numerical domain. Initially, LES of the smoke-free ABL was conducted on nested domains, and detailed ABL data were gathered from 8 to 9 September 2022. LES simulations were validated using four Automated Surface Observing System (ASOS) stations and NOAA meteorological (MET) observations, as well as NOAA met Twin Otter measurements, and the desired accuracy was established. The smoke plume was then released into the ABL at noon on 9 September 2022, and the plume simulations were conducted for a period of one hour following the release. During th...",
+      "authors": [
+        "Kiran Bhaganagar",
+        "Ralph A. Kahn",
+        "Sudheer R. Bhimireddy"
+      ]
+    },
+    {
+      "title": "Testing the Aerodynamic Efficiency of Albatross-Inspired Blades for Vertical-Axis Wind Turbines",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2822",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Wing",
+        "Marine engineering",
+        "Airfoil",
+        "Wind power",
+        "Drag",
+        "Aerospace engineering",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Horizontal Axis Wind Turbines (HAWTs) have been used for decades as a source of renewable energy, but they come with their fair share of issues, such as their size, cost, and sensitivity to external conditions. In recent years, Vertical Axis Wind Turbines (VAWTs) have been created as an alternative to alleviate some of these issues, however, their aerodynamic performance has yet to surpass the traditional HAWT design. While they can operate over a wider range of conditions than HAWTs, they suffer from lower aerodynamic efficiency. To combat this issue, a blade model that mimics the shape of an albatross wing was considered. Their wing shape is shown to be aerodynamically efficient compared to other bioinspired designs, and a key advantage its performance is not dependent on wing deformation, reducing overall design complexity. Additionally, albatross wing designs feature high lift to drag ratios and low pressure gradients across the wing, both of which contribute to their aerodynamic efficiency. Using SolidWorks for computer-aided design (CAD) and Converge computational fluid dynamics (CFD) for flow simulations, this study developed a bioinspired blade and evaluated its performa...",
+      "authors": [
+        "Smruthi Shashidhar",
+        "Kiran Bhaganagar"
+      ]
+    },
+    {
+      "title": "UrbanDRL-CFD: A Prospective Framework for Integrating Computational Fluid Dynamics and Deep Reinforcement Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.13140/rg.2.2.30205.73448",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.13140/rg.2.2.30205.73448",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Reinforcement learning",
+        "Stability (learning theory)",
+        "Artificial neural network",
+        "Dynamics (music)",
+        "Machine learning",
+        "Deep learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Quang V. Tran",
+        "Farzad Hashemi",
+        "Fazel Khayatian",
+        "Kiran Bhaganagar",
+        "Tobi Eniolu Morakinyo"
+      ]
+    }
+  ]
+}

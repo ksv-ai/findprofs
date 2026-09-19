@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Juan J. Alonso",
+  "full_name": "Juan J. Alonso",
+  "department": "Department of Aeronautics and Astronautics",
+  "university": "Stanford University",
+  "author_id": "A5018052257",
+  "works_count": 381,
+  "cited_by_count": 12697,
+  "h_index": 53,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 197
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 80
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 70
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 64
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 53
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "SU2: An Open-Source Suite for Multiphysics Simulation and Design",
+      "publication_year": 2015,
+      "publication_date": "2015-12-29",
+      "doi": "https://doi.org/10.2514/1.j053813",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 953,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multiphysics",
+        "Suite",
+        "Computer science",
+        "Computational science",
+        "Software suite",
+        "Extensibility",
+        "Software",
+        "Distributed computing"
+      ],
+      "abstract": "This paper presents the main objectives and a description of the SU2 suite, including the novel software architecture and open-source software engineering strategy. SU2 is a computational analysis and design package that has been developed to solve multiphysics analysis and optimization tasks using unstructured mesh topologies. Its unique architecture is well suited for extensibility to treat partial-differential-equation-based problems not initially envisioned. The common framework adopted enables the rapid implementation of new physics packages that can be tightly coupled to form a powerful ensemble of analysis tools to address complex problems facing many engineering communities. The framework is demonstrated on a number, solving both the flow and adjoint systems of equations to provide a high-fidelity predictive capability and sensitivity information that can be used for optimal shape design using a gradient-based framework, goal-oriented adaptive mesh refinement, or uncertainty quantification.",
+      "authors": [
+        "Thomas D. Economon",
+        "Francisco Palacios",
+        "Sean R. Copeland",
+        "Trent Lukaczyk",
+        "Juan J. Alonso"
+      ]
+    },
+    {
+      "title": "The complex-step derivative approximation",
+      "publication_year": 2003,
+      "publication_date": "2003-08-05",
+      "doi": "https://doi.org/10.1145/838250.838251",
+      "venue": "ACM Transactions on Mathematical Software",
+      "type": "article",
+      "cited_by_count": 746,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-01483287",
+      "concepts": [
+        "Automatic differentiation",
+        "Maintainability",
+        "Robustness (evolution)",
+        "Computer science",
+        "Implementation",
+        "Fortran",
+        "Python (programming language)",
+        "Algorithm"
+      ],
+      "abstract": "The complex-step derivative approximation and its application to numerical algorithms are presented. Improvements to the basic method are suggested that further increase its accuracy and robustness and unveil the connection to algorithmic differentiation theory. A general procedure for the implementation of the complex-step method is described in detail and a script is developed that automates its implementation. Automatic implementations of the complex-step method for Fortran and C/C++ are presented and compared to existing algorithmic differentiation tools. The complex-step method is tested in two large multidisciplinary solvers and the resulting sensitivities are compared to results given by finite differences. The resulting sensitivities are shown to be as accurate as the analyses. Accuracy, robustness, ease of implementation and maintainability make these complex-step derivative approximation tools very attractive options for sensitivity analysis.",
+      "authors": [
+        "Joaquim R. R. A. Martins",
+        "Peter Sturdza",
+        "Juan J. Alonso"
+      ]
+    },
+    {
+      "title": "CFD Vision 2030 Study: A Path to Revolutionary Computational Aerosciences",
+      "publication_year": 2014,
+      "publication_date": "2014-03-01",
+      "doi": "https://ntrs.nasa.gov/api/citations/20140003093/downloads/20140003093.pdf",
+      "venue": "NASA Technical Reports Server (NASA)",
+      "type": "article",
+      "cited_by_count": 678,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Aerospace",
+        "Systems engineering",
+        "Computer science",
+        "Grand Challenges",
+        "Aerospace engineering",
+        "Engineering",
+        "Operating system"
+      ],
+      "abstract": "This report documents the results of a study to address the long range, strategic planning required by NASA's Revolutionary Computational Aerosciences (RCA) program in the area of computational fluid dynamics (CFD), including future software and hardware requirements for High Performance Computing (HPC). Specifically, the Vision 2030 CFD study is to provide a knowledge-based forecast of the future computational capabilities required for turbulent, transitional, and reacting flow simulations across a broad Mach number regime, and to lay the foundation for the development of a future framework and/or environment where physics-based, accurate predictions of complex turbulent flows, including flow separation, can be accomplished routinely and efficiently in cooperation with other physics-based simulations to enable multi-physics analysis and design. Specific technical requirements from the aerospace industrial and scientific communities were obtained to determine critical capability gaps, anticipated technical challenges, and impediments to achieving the target CFD capability in 2030. A preliminary development plan and roadmap were created to help focus investments in technology dev...",
+      "authors": [
+        "Jeffrey P. Slotnick",
+        "Abdollah Khodadoust",
+        "Juan J. Alonso",
+        "David Darmofal",
+        "William Gropp",
+        "Elizabeth A. Lurie",
+        "Dimitri J. Mavriplis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Multi-fidelity aerodynamic surrogate modeling for conceptual design using graph neural networks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-15",
+      "doi": "https://doi.org/10.25740/cp141hk7861",
+      "venue": "Stanford Digital Repository",
+      "type": "dissertation",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.25740/cp141hk7861",
+      "concepts": [
+        "Computer science",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Aerodynamics",
+        "Conceptual design",
+        "Graph",
+        "Machine learning",
+        "Surrogate model"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yiren Shen",
+        "Juan J. Alonso",
+        "Kochenderfer, Mykel J., 1980-",
+        "Daniel Tartakovsky",
+        "Stanford University. School of Engineering.",
+        "Stanford University. Department of Aeronautics and Astronautics."
+      ]
+    },
+    {
+      "title": "Correction: A Comparison of Methodologies for Generating Design-Requirement-Driven Conceptual Aircraft Designs",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-2652.c1",
+      "venue": "",
+      "type": "erratum",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2026-2652.c1",
+      "concepts": [
+        "Computer science",
+        "Engineering",
+        "Systems engineering",
+        "Conceptual design",
+        "Component (thermodynamics)",
+        "Work (physics)",
+        "Engineering drawing",
+        "Key (lock)"
+      ],
+      "abstract": "",
+      "authors": [
+        "A. Ghiglino",
+        "Juan J. Alonso",
+        "Adam D. Cobb"
+      ]
+    },
+    {
+      "title": "Uncertainty Quantification of Machine Learning Models With Adaptive Sampling Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2023",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Machine learning",
+        "Artificial intelligence",
+        "Computer science",
+        "Uncertainty quantification",
+        "Deep learning",
+        "Surrogate model",
+        "Gaussian process",
+        "Field (mathematics)"
+      ],
+      "abstract": "Surrogate models of physical processes enable fast predictions in engineering contexts, reducing the time and resources spent during the online phase of many-query applications, including uncertainty quantification and optimization, among others. However, their effective use in design, design under uncertainty, or even as part of certification-by-analysis processes, requires that their predictions include some indication of how much they can be trusted. This requirement has led to substantial advances in the field of uncertainty-aware surrogate models, which return estimates of their own predictive uncertainty along with their predicted values. We compare seven different uncertainty-aware surrogate models, including Gaussian processes, deep learning methods, and various types of conformal prediction, on the basis of their ability to generate accurate and informative estimates of their own uncertainty. Our results show that deep learning based methods significantly outperform Gaussian processes even in the low-data regime, and that conformal prediction can effectively correct over-confidence in deep-learning-based surrogates. In the aerospace industry, collecting data on which to...",
+      "authors": [
+        "Arjun Shah",
+        "Juan J. Alonso"
+      ]
+    },
+    {
+      "title": "A Comparison of Methodologies for Generating Design-Requirement-Driven Conceptual Aircraft Designs",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2652",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Context (archaeology)",
+        "Conceptual design",
+        "Computer science",
+        "Relevance (law)",
+        "Generative grammar",
+        "Construct (python library)",
+        "Process (computing)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Traditional aircraft design techniques leveraging high-fidelity analyses are often limited by the prohibitive cost of design space exploration. Therefore, in the context of large design spaces and unconventional aircraft concepts, the use of machine learning to propose suitable designs represents an attractive solution for conceptual-stage exploration, a process termed generative design. In this paper, we construct a large dataset of narrow-body commercial airliner configurations, which we use to compare several generative machine learning techniques - including variational autoencoders (VAEs), normalizing flows, and diffusion models - to assess their ability to generate diverse, feasible, and realistic conceptual aircraft designs in a fraction of the time required to perform a full conceptual design. Preliminary results indicate that normalizing flows and diffusion models generate the more representative and diverse designs than VAEs. This study highlights how machine learning can support conceptual aircraft design, with relevance to unconventional configurations and sustainable aviation.",
+      "authors": [
+        "A. Ghiglino",
+        "Juan J. Alonso",
+        "Adam D. Cobb"
+      ]
+    },
+    {
+      "title": "WITHDRAWAL: A Space-Time Collocation Method for Solving Burger's Equation via Convex Relaxation",
+      "publication_year": 2025,
+      "publication_date": "2025-07-29",
+      "doi": "https://doi.org/10.2514/6.2025-3871.c1",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2025-3871.c1",
+      "concepts": [
+        "Collocation (remote sensing)",
+        "Relaxation (psychology)",
+        "Regular polygon",
+        "Space (punctuation)",
+        "Applied mathematics",
+        "Computer science",
+        "Mathematical optimization",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Daniel Berkenstock",
+        "Juan J. Alonso"
+      ]
+    }
+  ]
+}

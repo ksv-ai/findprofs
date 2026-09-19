@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Karolos Grigoriadis",
+  "full_name": "Karolos Grigoriadis",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Houston",
+  "author_id": "A5008167219",
+  "works_count": 339,
+  "cited_by_count": 6394,
+  "h_index": 37,
+  "top_topics": [
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 103
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 65
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 50
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 48
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 44
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Static output feedback—A survey",
+      "publication_year": 1997,
+      "publication_date": "1997-02-01",
+      "doi": "https://doi.org/10.1016/s0005-1098(96)00141-0",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 999,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Output feedback",
+        "Computer science",
+        "LTI system theory",
+        "Feedback control",
+        "Control theory (sociology)",
+        "Linear system",
+        "Control (management)",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vassilis L. Syrmos",
+        "Chaouki T. Abdallah",
+        "P. Dorato",
+        "Karolos Grigoriadis"
+      ]
+    },
+    {
+      "title": "Actuator Saturation Control",
+      "publication_year": 2002,
+      "publication_date": "2002-02-20",
+      "doi": "https://doi.org/10.1201/9780203910818",
+      "venue": "",
+      "type": "reference-entry",
+      "cited_by_count": 282,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Saturation (graph theory)",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Computer science",
+        "Mathematics",
+        "Artificial intelligence",
+        "Combinatorics"
+      ],
+      "abstract": "Compiling the most significant advances from nearly a decade of research, this reference compares and evaluates a wide variety of techniques for the design, analysis, and implementation of control methodologies for systems with actuator saturation. The book presents efficient computational algorithms and new control paradigms for application in the",
+      "authors": [
+        "Vikram Kapila",
+        "Karolos Grigoriadis"
+      ]
+    },
+    {
+      "title": "Low-order control design for LMI problems using alternating projection methods",
+      "publication_year": 1996,
+      "publication_date": "1996-08-01",
+      "doi": "https://doi.org/10.1016/0005-1098(96)00057-x",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 280,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Projection (relational algebra)",
+        "Convexity",
+        "Convergence (economics)",
+        "Control theory (sociology)",
+        "Mathematics",
+        "Controller (irrigation)",
+        "Mathematical optimization",
+        "Linear matrix inequality"
+      ],
+      "abstract": "",
+      "authors": [
+        "Karolos Grigoriadis",
+        "Robert E. Skelton"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Kharitonov-Based Frequency Domain Bounds for Parametric Uncertainty in an Aeroelastic System",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3735",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Frequency domain",
+        "Parametric statistics",
+        "Control theory (sociology)",
+        "Computer science",
+        "Domain (mathematical analysis)",
+        "Applied mathematics",
+        "Mathematics"
+      ],
+      "abstract": "A methodology based on Kharitonov’s theorem is proposed to assess the impact of parametric uncertainty on a nonlinear aeroelastic airfoil system with three degrees of freedom. The system is linearized at an operating point defined by air velocity and pitch angle, and uncertainty is introduced on a structural stiffness parameter. The Kharitonov polynomials are applied to bound the system uncertainty in the gain-phase plane (Nichols chart). The method's conservatism, due to the assumption of decoupled parameters, is analyzed. This approach provides a framework for designing robust active flutter control systems that maintain stability in the presence of uncertainty.",
+      "authors": [
+        "Paul Novoa",
+        "Matthew A. Franchek",
+        "Karolos Grigoriadis",
+        "Edwin E. Forster"
+      ]
+    },
+    {
+      "title": "Root Locus Approach to Determining Stability of an Uncertain Aeroelastic System",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3553",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Root locus",
+        "Aeroelasticity",
+        "Control theory (sociology)",
+        "Stability (learning theory)",
+        "Computer science",
+        "Mathematics",
+        "Engineering",
+        "Control system"
+      ],
+      "abstract": "A computationally efficient methodology is presented to identify the stability region(s) of a family of linearized models developed from a nonlinear three-degree-of-freedom aeroelastic airfoil model. The proposed method rewrites the Jacobian of the nonlinear aeroelastic model into a form lending itself to a root locus stability analysis concerning a structural stiffness parameter. The results from the root locus analysis are then mapped to regions in the airspeed and pitch angle plane. A quadratic Lyapunov stability analysis is also provided to benchmark these stability regions where stiffness is a function of pitch angle, varying the system parameter. The Lyapunov stability analysis is done multiple times with decreasing finite bounds on the parameter rate of change. The results are compared to the root locus results. It is determined that the root locus stability boundary also accurately captures the Lyapunov stability boundary for a small, bounded rate of change.",
+      "authors": [
+        "Paul Novoa",
+        "Matthew A. Franchek",
+        "Karolos Grigoriadis",
+        "Edwin E. Forster"
+      ]
+    },
+    {
+      "title": "Iterative SVM Approach for Aeroelastic Stability Analysis Under Parametric Uncertainty and Nonlinearities",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4870889",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "http://doi.org/10.2139/ssrn.4870889",
+      "concepts": [
+        "Aeroelasticity",
+        "Parametric statistics",
+        "Stability (learning theory)",
+        "Flutter",
+        "Control theory (sociology)",
+        "Support vector machine",
+        "Computer science",
+        "Mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Malek Rekik",
+        "Omar Khaled",
+        "Matthew A. Franchek",
+        "Karolos Grigoriadis",
+        "Yingjie Tang"
+      ]
+    },
+    {
+      "title": "LHS-GA Based H-Infinity Control for Robust Airfoil Flutter Suppression",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.1109/access.2024.3501682",
+      "venue": "IEEE Access",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1109/access.2024.3501682",
+      "concepts": [
+        "Airfoil",
+        "Flutter",
+        "Control theory (sociology)",
+        "H-infinity methods in control theory",
+        "Aerodynamics",
+        "Physics",
+        "Mathematics",
+        "Computer science"
+      ],
+      "abstract": "Presented is a controller design methodology for practical ASAF (Active Suppression of Airfoil Flutter) applications. The approach utilizes a heuristic evolutionary optimization Genetic Algorithm (GA) combined with Latin Hypercube Sampling (LHS) to synthesize a gain scheduling controller for a four-degree-of-freedom aeroelastic airfoil model, accounting for uncertainties and nonlinearities. The objective is to design a robust controller that effectively suppresses flutter while optimizing performance metrics, specifically time-domain constraints and settling time. The LHS-GA method bridges the gap between traditional frequency-domain approaches and computationally expensive online optimization methods. Unlike frequency-domain methods that rely on trial-and-error or conservative assumptions, LHS-GA automatically synthesizes a robust static controller by directly addressing time-domain constraints and performance metrics. It eliminates the need for online optimization, ensuring robust stability under parametric uncertainty. This novel approach provides a systematic and efficient solution for designing controllers, offering an alternative to online optimization control methods and ...",
+      "authors": [
+        "Malek Rekik",
+        "Omar Khaled",
+        "Karolos Grigoriadis",
+        "Matthew A. Franchek"
+      ]
+    },
+    {
+      "title": "Simultaneous State and Parameter Estimation Methods Based on Kalman Filters and Luenberger Observers: A Tutorial & Review",
+      "publication_year": 2025,
+      "publication_date": "2025-11-18",
+      "doi": "https://doi.org/10.3390/s25227043",
+      "venue": "Sensors",
+      "type": "article",
+      "cited_by_count": 16,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1424-8220/25/22/7043/pdf?version=1763472614",
+      "concepts": [
+        "Kalman filter",
+        "Alpha beta filter",
+        "Fast Kalman filter",
+        "Invariant extended Kalman filter",
+        "Control theory (sociology)",
+        "Extended Kalman filter",
+        "Ensemble Kalman filter",
+        "Computer science"
+      ],
+      "abstract": "Simultaneous state and parameter estimation is essential for control system design and dynamic modeling of physical systems. This capability provides critical real-time insight into system behavior, supports the discovery of underlying mechanisms, and facilitates adaptive control strategies. Surveyed in this review paper are two classes of state and parameter estimation methods: Kalman Filters and Luenberger Observers. The Kalman Filter framework, including its major variants such as the Extended Kalman Filter (EKF), Unscented Kalman Filter (UKF), Cubature Kalman Filter (CKF), and Ensemble Kalman Filter (EnKF), has been widely applied for joint and dual estimation in linear and nonlinear systems under uncertainty. In parallel, Luenberger observers, typically used in deterministic settings, offer alternative approaches through high-gain, sliding mode, and adaptive observer structures. This review focuses on the theoretical foundations, algorithmic developments, and application domains of these methods and provides a comparative analysis of their advantages, limitations, and practical relevance across diverse engineering scenarios.",
+      "authors": [
+        "Amal Chebbi",
+        "Matthew A. Franchek",
+        "Karolos Grigoriadis"
+      ]
+    }
+  ]
+}

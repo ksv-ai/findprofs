@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Robert J. Kee",
+  "full_name": "Robert J. Kee",
+  "department": "Department of Mechanical Engineering",
+  "university": "Colorado School of Mines",
+  "author_id": "A5058494124",
+  "works_count": 428,
+  "cited_by_count": 24705,
+  "h_index": 69,
+  "top_topics": [
+    {
+      "topic": "Advancements in Solid Oxide Fuel Cells",
+      "count": 99
+    },
+    {
+      "topic": "Fuel Cells and Related Materials",
+      "count": 76
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 62
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 60
+    },
+    {
+      "topic": "Catalytic Processes in Materials Science",
+      "count": 51
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Chemkin-II: A Fortran chemical kinetics package for the analysis of gas-phase chemical kinetics",
+      "publication_year": 1989,
+      "publication_date": "1989-09-01",
+      "doi": "https://doi.org/10.2172/5681118",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 3590,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/5681118",
+      "concepts": [
+        "CHEMKIN",
+        "Fortran",
+        "Subroutine",
+        "Interpreter",
+        "Computer science",
+        "Software",
+        "Chemical kinetics",
+        "Computational science"
+      ],
+      "abstract": "This document is the user's manual for the second-generation Chemkin package. Chemkin is a software package for whose purpose is to facilitate the formation, solution, and interpretation of problems involving elementary gas-phase chemical kinetics. It provides an especially flexible and powerful tool for incorporating complex chemical kinetics into simulations of fluid dynamics. The package consists of two major software components: an Interpreter and Gas-Phase Subroutine Library. The Interpreter is a program that reads a symbolic description of an elementary, user-specified chemical reaction mechanism. One output from the Interpreter is a data file that forms a link to the Gas-Phase Subroutine Library. This library is a collection of about 100 highly modular Fortran subroutines that may be called to return information on equation of state, thermodynamic properties, and chemical production rates.",
+      "authors": [
+        "Robert J. Kee",
+        "F.M. Rupley",
+        "James H. Miller"
+      ]
+    },
+    {
+      "title": "PREMIX :A F ORTRAN Program for Modeling Steady Laminar One-Dimensional Premixed Flames",
+      "publication_year": 1998,
+      "publication_date": "1998-01-01",
+      "doi": "https://www.ewp.rpi.edu/hartford/~ernesto/S2013/MMEES/Papers/ENERGY/4NaturalGas/PREMIX-1998-Sandia.pdf",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 1476,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Laminar flow",
+        "Fortran",
+        "Discretization",
+        "Convergence (economics)",
+        "Steady state (chemistry)",
+        "Boundary value problem",
+        "Combustor",
+        "Finite difference"
+      ],
+      "abstract": "This report documents a Fortran computer program that computes species and temperature profiles in steady-state burner-stabilized and freely propagating premixed laminar flames. The program accounts for finite rate chemical kinetics and multicomponent molecular transport. After stating the appropriate governing equations and boundary conditions, we discuss the finite difference discretization and the Newton method for solving the boundary value problem. Global convergence of this algorithm is aided by invoking time integration procedures when the Newton method has convergence difficulties. The program runs in conjunction with preprocessors for the chemical reaction mechanism and the transport properties. Transport property formulations include the option of using multicomponent or mixtureaveraged formulas for molecular diffusion. Discussion of two example problems illustrates many of the program's capabilities.",
+      "authors": [
+        "Robert J. Kee",
+        "Joseph F. Grcar",
+        "Mitchell D. Smooke",
+        "James A. Miller",
+        "Ellen Meeks"
+      ]
+    },
+    {
+      "title": "A FORTRAN COMPUTER CODE PACKAGE FOR THE EVALUATION OF GAS-PHASE, MULTICOMPONENT TRANSPORT PROPERTIES",
+      "publication_year": 1986,
+      "publication_date": "1986-12-01",
+      "doi": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.6983",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 1262,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Subroutine",
+        "Fortran",
+        "CHEMKIN",
+        "Computer science",
+        "Preprocessor",
+        "Diffusion",
+        "Code (set theory)",
+        "Software package"
+      ],
+      "abstract": "This report documents a Fortran computer code package that is used for the evaluation of gas-phase multicomponent viscosities, thermal conductivities, diffusion coefficients, and thermal diffusion coefficients. The package is in two parts. The first is a preprocessor that computes polynomial fits to the temperature dependent parts of the pure species viscosities and binary diffusion coefficients. The coefficients of these fits are passed to a library of subroutines via a linking file. Then, any subroutine from this library may be called to return either pure species properties or multicomponent gas mixture properties. This package uses the chemical kinetics package CHEMKIN, and transport property subroutines are designed to be used in conjunction with the CHEMKIN subroutine library. This package supersedes a previously-written transport property code package in which we used certain mixture averaging rules to compute mixture properties rather than the full multicomponent formulation. 3...",
+      "authors": [
+        "Robert J. Kee",
+        "G. Dixon-Lewis",
+        "J. Warnatz",
+        "Michael E. Coltrin",
+        "James A. Miller"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Defect Chemistry and Transport Properties of Lanthanum Cerate as an Electrolyte Membrane in Protonic Ceramic Electrolysis Cells",
+      "publication_year": 2026,
+      "publication_date": "2026-05-04",
+      "doi": "https://doi.org/10.1149/1945-7111/ae6829",
+      "venue": "Journal of The Electrochemical Society",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1149/1945-7111/ae6829",
+      "concepts": [
+        "Electrolysis",
+        "Electrolyte",
+        "High-temperature electrolysis",
+        "Lanthanum",
+        "Inorganic chemistry",
+        "Membrane",
+        "Polymer electrolyte membrane electrolysis",
+        "Chemistry"
+      ],
+      "abstract": "Lanthanum cerate La 2 Ce 2 O 7 (LCO) (or lanthanum-doped ceria Ce 0.5 La 0.5 O 2− δ , LDC50) can serve as a proton-conducting electrolyte membrane in fuel-cell or electrolysis applications. The primary purpose of this paper is to develop thermodynamic and transport properties, based on fits to previously published conductivity and water-uptake measurements. The properties include reaction enthalpies and entropies for three defect-incorporation reactions and four mobile charged-defect diffusion coefficients. In addition to protons and oxygen vacancies, the analysis considers two small polarons. The analysis is motivated, in part, by the application of LDC as a thin barrier layer in a dual-layer composite electrolysis membrane that protects a high proton-conductivity BaCe 0.7 Zr 0.1 Y 0.1 Yb 0.1 O 3− δ (BCZYYb7111) from degradation in high steam environments. The paper uses the best-fit LDC properties in a physics-based model to predict defect transport within LDC and composite LDC/BCZYYb membranes.",
+      "authors": [
+        "Huayang Zhu",
+        "Sandrine Ricote",
+        "Robert J. Kee"
+      ]
+    },
+    {
+      "title": "Friction-factor and Nusselt-number correlations for low-Reynolds-number flow in curved and helical rectangular channels",
+      "publication_year": 2026,
+      "publication_date": "2026-01-16",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2026.110255",
+      "venue": "International Journal of Heat and Fluid Flow",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ijheatfluidflow.2026.110255",
+      "concepts": [
+        "Flow (mathematics)",
+        "Mechanics",
+        "Physics",
+        "Materials science",
+        "Classical mechanics",
+        "Two-dimensional flow",
+        "Flow visualization",
+        "Open-channel flow"
+      ],
+      "abstract": "This paper derives friction-factor Re f and Nusselt-number Nu correlations for laminar, fully developed, parallel flow in curved rectangular channels. The correlations depend on the channel geometry as characterized by two dimensionless parameters—the channel aspect ratio α and the radius of curvature ξ ( 0 . 1 ≤ α ≤ 5 and 0 . 1 ≤ ξ ≤ 5 ). The analysis shows that the dimensionless correlations can be derived from an eigenvalue of the dimensionless conservation equations. The computational approach solves dimensionless circumferential momentum and thermal-energy equations with a high-resolution finite-element method. The analysis is restricted to parallel flow, with the circumferential velocity being the only velocity component (i.e., there are no radial and axial velocities). This assumption necessarily eliminates the possibility of Dean vortices, which are present in curved channels under flow circumstances that include high Reynolds numbers and small radius of curvature. The results are validated by comparisons with known limiting cases and with three-dimensional computational-fluid-dynamics simulations. The paper reports quantitative fits to the derived correlations (i.e., Re...",
+      "authors": [
+        "Robert J. Kee",
+        "Kasra Taghikhani",
+        "Huayang Zhu",
+        "Oyvind Nilsen"
+      ]
+    },
+    {
+      "title": "Not-So-Quick and Not-So-Dirty Solutions to Decarbonize Off- Road Vehicles",
+      "publication_year": 2025,
+      "publication_date": "2025-10-07",
+      "doi": "https://doi.org/10.1021/acsenergylett.5c02459",
+      "venue": "ACS Energy Letters",
+      "type": "editorial",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.5c02459?ref=article_openPDF",
+      "concepts": [
+        "Automotive engineering",
+        "Environmental science",
+        "Business",
+        "Process engineering",
+        "Computer science",
+        "Materials science",
+        "Work (physics)",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Aashutosh Mistry",
+        "Polina Brodsky",
+        "Andrea Brickey",
+        "Adam Duran",
+        "Eve M. Mozur",
+        "Rajavasanth Rajasegar",
+        "Gregory S. Jackson",
+        "Steven C. DeCaluwe",
+        "Robert J. Kee",
+        "Ryan O’Hayre",
+        "Alexandra M. Newman",
+        "Robert J. Braun",
+        "Morgan Bazilian",
+        "Neal P. Sullivan"
+      ]
+    },
+    {
+      "title": "Electrochemical Ammonia Synthesis in a Proton-Conducting Ceramic Cell: A Parameter Study of an Iron-Based Electrode",
+      "publication_year": 2025,
+      "publication_date": "2025-08-01",
+      "doi": "https://doi.org/10.1149/1945-7111/adfc9e",
+      "venue": "Journal of The Electrochemical Society",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1149/1945-7111/adfc9e",
+      "concepts": [
+        "Electrochemistry",
+        "Electrode",
+        "Ammonia",
+        "Electrochemical cell",
+        "Ceramic",
+        "Ammonia production",
+        "Proton",
+        "Materials science"
+      ],
+      "abstract": "Proton-conducting ceramic cells with a Ni-BaCe 0.8 Zr 0.1 Y 0.1 O 3− δ || BaCe 0.7 Zr 0.2 Y 0.1 O 3− δ || Fe/BaCe 0.7 Zr 0.2 Y 0.1 O 3− δ -backbone structure were studied in a dual-chamber setup to evaluate the effects of temperature, gas flow, voltage, and electrolyte thickness on electrochemical ammonia synthesis. Three gas feed configurations were tested to differentiate surface reaction mechanisms. Thermodynamic calculations were conducted to evaluate the experimental results in the context of equilibrium limitations. The results showed that proton transport through the electrolyte plays a minor role in the formation of ammonia, while production rates correlated more strongly with applied voltage than with current density. Ammonia synthesis appeared significantly limited by thermodynamics, making an increased hydrogen partial pressure at the cathode essential. A feed configuration supplying only nitrogen to the cathode was ineffective, whereas introducing hydrogen increased the ammonia formation rate from 1.42 × 10 −10 mol cm −2 s −1 to 3.23 × 10 −9 mol cm −2 s −1 at −1.4 V and 500 °C. When proton conduction was suppressed under the same conditions, the rate further increase...",
+      "authors": [
+        "Philipp Blanck",
+        "Étienne Martin",
+        "Daniel Schmider",
+        "Robert J. Kee",
+        "Julian Dailly",
+        "Olaf Deutschmann"
+      ]
+    },
+    {
+      "title": "A High Temperature Electrochemical Water-Gas Shift Process for Hydrogen Production Using a Mixed Ionic-and-Electronic Conductor (MIEC) without External Electrical Power",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.1149/ma2025-01442355mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conductor",
+        "Materials science",
+        "Ionic bonding",
+        "Electrochemistry",
+        "Hydrogen",
+        "Hydrogen production",
+        "Power (physics)",
+        "Power to gas"
+      ],
+      "abstract": "A zero-electricity electrolysis technology, eXEROTM, has been developed and demonstrated to provide a solution for industrial decarbonization. The process uses individual feed streams of H2O and CO to produce separated streams of H2 and CO2, without an external electrical power source. The core of this electrochemical process is a high temperature solid oxide cell (SOC) that uses a Mixed Ionic-and-Electronic Conductor (MIEC) membrane. The ambipolar conductivity of the MIEC membrane allows spontaneous red-ox reactions at the two electrodes, where the chemical potential difference across the membrane thermodynamically drives the process. For example, with an industrial off-gas that contains CO and CO2 flowing to the anode, steam at the cathode spontaneously dissociates into hydrogen molecules and oxygen ions. Oxygen ions are then transported through the MIEC membrane and oxidize the gaseous species on the anode side. This presentation provides a better understanding of the underpinning thermodynamics of the eXEROTM process and relevant material transport properties with an electrochemical model. Insights on best-case driving potentials, heterogenous catalysis, defect chemistry, an...",
+      "authors": [
+        "Ruofan Wang",
+        "Bryan M. Blackburn",
+        "Stefan Reinartz",
+        "John F. Evans",
+        "Neal P. Sullivan",
+        "Huayang Zhu",
+        "Robert J. Kee"
+      ]
+    }
+  ]
+}

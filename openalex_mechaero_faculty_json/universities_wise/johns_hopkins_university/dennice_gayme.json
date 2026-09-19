@@ -1,0 +1,261 @@
+{
+  "faculty_name": "Dennice Gayme",
+  "full_name": "Dennice F. Gayme",
+  "department": "Department of Mechanical Engineering",
+  "university": "Johns Hopkins University",
+  "author_id": "A5074209155",
+  "works_count": 199,
+  "cited_by_count": 4332,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 63
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 50
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 43
+    },
+    {
+      "topic": "Microgrid Control and Optimization",
+      "count": 35
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Grid-scale energy storage applications in renewable energy integration: A survey",
+      "publication_year": 2014,
+      "publication_date": "2014-08-20",
+      "doi": "https://doi.org/10.1016/j.enconman.2014.07.063",
+      "venue": "Energy Conversion and Management",
+      "type": "article",
+      "cited_by_count": 630,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Renewable energy",
+        "Energy storage",
+        "Dispatchable generation",
+        "Grid",
+        "Environmental economics",
+        "Distributed generation",
+        "Intermittent energy source",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Anya Castillo",
+        "Dennice F. Gayme"
+      ]
+    },
+    {
+      "title": "Adaptive VAR Control for Distribution Circuits With Photovoltaic Generators",
+      "publication_year": 2012,
+      "publication_date": "2012-02-14",
+      "doi": "https://doi.org/10.1109/tpwrs.2012.2183151",
+      "venue": "IEEE Transactions on Power Systems",
+      "type": "article",
+      "cited_by_count": 463,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "AC power",
+        "Photovoltaic system",
+        "Control theory (sociology)",
+        "Voltage optimisation",
+        "Voltage regulation",
+        "Voltage",
+        "Adaptive control",
+        "Volt-ampere reactive"
+      ],
+      "abstract": "We show how an adaptive control algorithm can improve the performance of distributed reactive power control in a radial distribution circuit with a high penetration of photovoltaic (PV) cells. The adaptive algorithm is designed to balance the need for power quality (voltage regulation) with the desire to minimize power loss. The adaptation law determines whether the objective function minimizes power losses or voltage regulation based on whether the voltage at each node remains close enough to the voltage at the substation. The reactive power is controlled through the inverter on the PV cells. The control signals are determined based on local instantaneous measurements of the real and reactive power at each node. We use the example of a single branch radial distribution circuit to demonstrate the ability of the adaptive scheme to effectively reduce voltage variations while simultaneously minimizing the power loss in the studied cases. Simulations verify that the adaptive schemes compares favorably with local and global schemes previously reported in the literature.",
+      "authors": [
+        "Hen‐Geul Yeh",
+        "Dennice F. Gayme",
+        "Steven H. Low"
+      ]
+    },
+    {
+      "title": "Modelling yawed wind turbine wakes: a lifting line approach",
+      "publication_year": 2018,
+      "publication_date": "2018-02-20",
+      "doi": "https://doi.org/10.1017/jfm.2018.75",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 219,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F4597AEAA6811B8BF9F3CEA7A6F6CFE7/S0022112018000757a.pdf/div-class-title-modelling-yawed-wind-turbine-wakes-a-lifting-line-approach-div.pdf",
+      "concepts": [
+        "Wake",
+        "Physics",
+        "Turbine",
+        "Mechanics",
+        "Transverse plane",
+        "Deflection (physics)",
+        "Vortex",
+        "Turbulence"
+      ],
+      "abstract": "Yawing wind turbines has emerged as an appealing method for wake deflection. However, the associated flow properties, including the magnitude of the transverse velocity associated with yawed turbines, are not fully understood. In this paper, we view a yawed turbine as a lifting surface with an elliptic distribution of transverse lift. Prandtl’s lifting line theory provides predictions for the transverse velocity and magnitude of the shed counter-rotating vortex pair known to form downstream of the yawed turbine. The streamwise velocity deficit behind the turbine can then be obtained using classical momentum theory. This new model for the near-disk inviscid region of the flow is compared to numerical simulations and found to yield more accurate predictions of the initial transverse velocity and wake skewness angle than existing models. We use these predictions as initial conditions in a wake model of the downstream evolution of the turbulent wake flow and compare predicted wake deflection with measurements from wind tunnel experiments.",
+      "authors": [
+        "Carl R. Shapiro",
+        "Dennice F. Gayme",
+        "Charles Meneveau"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modal triadic interaction informed restricted nonlinear models",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3230/1/012002",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3230/1/012002",
+      "concepts": [
+        "Nonlinear system",
+        "Resolvent",
+        "Statistical physics",
+        "Flow (mathematics)",
+        "Representation (politics)",
+        "Turbulence",
+        "Scale (ratio)",
+        "Energy (signal processing)"
+      ],
+      "abstract": "Abstract Turbulent flows involve high-dimensional nonlinear interactions across a range of spatial and temporal scales, and the need to capture such interactions makes them challenging to model and simulate. We present a resolvent-based framework to guide scale selection in reduced-order models of turbulence. Resolvent analysis offers a physics-based framework to decompose the Navier-Stokes equation into linear and nonlinear components and to identify the most amplified flow structures. Building on this framework, we introduce an energy exchange coefficient that directly quantifies nonlinear energy transfer between resolvent modes, enabling an energy-based ordering of triadic interactions in turbulent channel flow without relying on data-driven closures. Triads with large interaction coefficients are incorporated into the augmented restricted nonlinear (ARNL) model, which is a physics-based reduced-order representation that requires specification of streamwise flow scales permitted to interact nonlinearly (large-scales) and small-scale streamwise perturbations whose linear evolution is a function of these large scales. Resolvent-informed ARNL simulations are shown to produce nor...",
+      "authors": [
+        "Alexandra C. Risha",
+        "Emma Lenz",
+        "Bianca Viggiano",
+        "H. Jane Bae",
+        "Dennice F. Gayme"
+      ]
+    },
+    {
+      "title": "From Cut-In to Rated: Multi-Region Floating Offshore Wind Farm Control for Secondary Frequency Regulation",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "https://doi.org/10.48550/arxiv.2604.08240",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.08240",
+      "concepts": [
+        "Turbine",
+        "Offshore wind power",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Wind speed",
+        "Wind power",
+        "Engineering",
+        "Rotor (electric)"
+      ],
+      "abstract": "This paper describes a multi-region control framework for floating offshore wind farms. Specifically, we propose a novel generator torque controller that regulates rotor speed in Region 2, corresponding to wind speeds between the cut-in and rated values. In Region 3 (wind speeds at or above rated but below cut-out speed) we employ a PI-LQR for collective blade pitch. Control blending across the transitional wind speeds (Region 2.5) employs a sigmoid weighting function applied to the control variables. Two modeling paradigms are proposed for farm-level power tracking with rotor speed regularization: a nonlinear model predictive controller (NL-MPC) with a dynamic wake model, and a reduced order model predictive controller based on linear parameter varying turbine models with a time delay representation of wake advection (LPVTD-MPC). These approaches are evaluated over three wind inlet conditions using the PJM ancillary service certification criteria for participation in a secondary frequency regulation market. Results show that both approaches achieve scores of at least 89.9\\% for the three different testing scenarios, which are well above the qualification threshold of 75\\%. Howe...",
+      "authors": [
+        "Stephen Ampleman",
+        "Dennice F. Gayme"
+      ]
+    },
+    {
+      "title": "From Cut-In to Rated: Multi-Region Floating Offshore Wind Farm Control for Secondary Frequency Regulation",
+      "publication_year": 2026,
+      "publication_date": "2026-04-09",
+      "doi": "http://arxiv.org/abs/2604.08240",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.08240",
+      "concepts": [
+        "Turbine",
+        "Offshore wind power",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Wind speed",
+        "Wind power",
+        "Engineering",
+        "Rotor (electric)"
+      ],
+      "abstract": "This paper describes a multi-region control framework for floating offshore wind farms. Specifically, we propose a novel generator torque controller that regulates rotor speed in Region 2, corresponding to wind speeds between the cut-in and rated values. In Region 3 (wind speeds at or above rated but below cut-out speed) we employ a PI-LQR for collective blade pitch. Control blending across the transitional wind speeds (Region 2.5) employs a sigmoid weighting function applied to the control variables. Two modeling paradigms are proposed for farm-level power tracking with rotor speed regularization: a nonlinear model predictive controller (NL-MPC) with a dynamic wake model, and a reduced order model predictive controller based on linear parameter varying turbine models with a time delay representation of wake advection (LPVTD-MPC). These approaches are evaluated over three wind inlet conditions using the PJM ancillary service certification criteria for participation in a secondary frequency regulation market. Results show that both approaches achieve scores of at least 89.9\\% for the three different testing scenarios, which are well above the qualification threshold of 75\\%. Howe...",
+      "authors": [
+        "Stephen Ampleman",
+        "Dennice F. Gayme"
+      ]
+    },
+    {
+      "title": "Cross-Atlantic research agenda for scalable grid architectures and distributed flexibility",
+      "publication_year": 2026,
+      "publication_date": "2026-03-31",
+      "doi": "https://doi.org/10.1016/j.segy.2026.100236",
+      "venue": "Smart Energy",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.segy.2026.100236",
+      "concepts": [
+        "Interoperability",
+        "Flexibility (engineering)",
+        "Distributed computing",
+        "Computer science",
+        "Scalability",
+        "Distributed generation",
+        "Smart grid",
+        "Software deployment"
+      ],
+      "abstract": "Electric power systems are rapidly evolving into deeply digital, cyber–physical infrastructures in which large fleets of distributed energy resources must be coordinated as system-level flexibility across multiple spatial and temporal scales. Despite growing distributed energy resource deployment, existing grid and market architectures lack scalable, interoperable mechanisms to reliably translate device-level flexibility into grid-aware services, creating risks to reliability, affordability, and resilience at high penetration. We propose that scalable and reliable coordination of distributed energy resource-based flexibility in future power systems is fundamentally an architectural problem that can be addressed through laminar cyber–physical design using minimal, standardized interoperability interfaces that link device autonomy with system-level objectives. To assess this claim, we present and discuss a layered cyber–physical systems architecture and explicate its implementation through standards-based interfaces, Flexibility Functions, hierarchical control, and case studies spanning U.S. and Danish regulatory, market, and operational contexts. Empirical evidence from New York’...",
+      "authors": [
+        "Mads Almassalkhi",
+        "Henrik Madsen",
+        "Yury Dvorkin",
+        "Hasan Giray Oral",
+        "Dennice F. Gayme",
+        "Jakob Stoustrup",
+        "Rune Grønborg Junker",
+        "Tobias Ritschel",
+        "Shahab Tohidi",
+        "Razgar Ebrahimy",
+        "Bri-Mathias Hodge",
+        "Dakota Hamilton",
+        "Brian Vad Mathiesen"
+      ]
+    },
+    {
+      "title": "Surface Wave-Aerodynamic Roughness Length Model for Air–Sea Interactions",
+      "publication_year": 2026,
+      "publication_date": "2026-02-02",
+      "doi": "https://doi.org/10.1175/jas-d-25-0146.1",
+      "venue": "Journal of the Atmospheric Sciences",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Drag",
+        "Surface roughness",
+        "Mechanics",
+        "Roughness length",
+        "Drag coefficient",
+        "Parasitic drag",
+        "Inviscid flow",
+        "Wind speed"
+      ],
+      "abstract": "Abstract A new model to evaluate the equivalent hydrodynamic length or surface roughness, z 0 , of ocean waves is developed and tested. The proposed Surface Wave-Aerodynamic Roughness Length (SWARL) model requires maps of the wave surface height at consecutive times and the airflow characteristic Reynolds number as inputs. Pressure drag is accounted for by approximating the relative velocity in a frame moving with the local wave phase speed assuming ideal inviscid ramp flow. Drag from viscous and unresolved ripples is modeled using the standard equilibrium model. The SWARL model is tested using over 300 datasets for monochromatic and broad-spectrum wave surfaces. The model-predicted z 0 and drag coefficients are compared to measured values, as well as commonly used wave parameterization methods found in the literature. For datasets with well-characterized surfaces, the proposed model shows significantly better agreement with data compared to prior models. For data that did not include a full characterization of the wave fields (typically field data), the model yields predictions with accuracy similar to prior models. Results highlight that including detailed flow physics and ext...",
+      "authors": [
+        "Manuel Ayala",
+        "Dennice F. Gayme",
+        "Charles Meneveau"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "faculty_name": "Scott T. M. Dawson",
+  "full_name": "Scott T. M. Dawson",
+  "department": "Department of Mechanical, Materials, and Aerospace Engineering",
+  "university": "Illinois Institute of Technology",
+  "author_id": "A5088595213",
+  "works_count": 117,
+  "cited_by_count": 4426,
+  "h_index": 17,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 70
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 52
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 27
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 16
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modal Analysis of Fluid Flows: An Overview",
+      "publication_year": 2017,
+      "publication_date": "2017-10-31",
+      "doi": "https://doi.org/10.2514/1.j056060",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1898,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Finite element method",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Steven L. Brunton",
+        "Scott T. M. Dawson",
+        "Clarence W. Rowley",
+        "Tim Colonius",
+        "Beverley McKeon",
+        "Oliver T. Schmidt",
+        "Stanislav Gordeyev",
+        "Vassilios Theofilis",
+        "Lawrence Ukeiley"
+      ]
+    },
+    {
+      "title": "Model Reduction for Flow Analysis and Control",
+      "publication_year": 2016,
+      "publication_date": "2016-08-30",
+      "doi": "https://doi.org/10.1146/annurev-fluid-010816-060042",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 800,
+      "is_oa": true,
+      "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-fluid-010816-060042",
+      "concepts": [
+        "Dynamic mode decomposition",
+        "Nonlinear system",
+        "Computer science",
+        "Galerkin method",
+        "Projection (relational algebra)",
+        "Truncation (statistics)",
+        "Operator (biology)",
+        "Applied mathematics"
+      ],
+      "abstract": "Advances in experimental techniques and the ever-increasing fidelity of numerical simulations have led to an abundance of data describing fluid flows. This review discusses a range of techniques for analyzing such data, with the aim of extracting simplified models that capture the essential features of these flows, in order to gain insight into the flow physics, and potentially identify mechanisms for controlling these flows. We review well-developed techniques, such as proper orthogonal decomposition and Galerkin projection, and discuss more recent techniques developed for linear systems, such as balanced truncation and dynamic mode decomposition (DMD). We then discuss some of the methods available for nonlinear systems, with particular attention to the Koopman operator, an infinite-dimensional linear operator that completely characterizes the dynamics of a nonlinear system and provides an extension of DMD to nonlinear systems.",
+      "authors": [
+        "Clarence W. Rowley",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Modal Analysis of Fluid Flows: Applications and Outlook",
+      "publication_year": 2019,
+      "publication_date": "2019-10-15",
+      "doi": "https://doi.org/10.2514/1.j058462",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 643,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Modal analysis",
+        "Computational fluid dynamics",
+        "Modal",
+        "Fluid dynamics",
+        "Mechanics",
+        "Computer science",
+        "Geology",
+        "Finite element method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kunihiko Taira",
+        "Maziar S. Hemati",
+        "Steven L. Brunton",
+        "Yiyang Sun",
+        "Karthik Duraisamy",
+        "Shervin Bagheri",
+        "Scott T. M. Dawson",
+        "C. Yeh"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Analysis of temporal separation through time-localized resolvent forcing and response modes",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3230/1/012008",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/1742-6596/3230/1/012008/pdf",
+      "concepts": [
+        "Resolvent",
+        "Forcing (mathematics)",
+        "Separation (statistics)",
+        "Amplitude",
+        "Mathematics",
+        "Operator (biology)",
+        "Resolvent formalism",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Abstract We investigate transient separation using turbulent Couette-Poiseuille (C-P) flow subjected to a sudden strong adverse pressure gradient (APG). Using a space-time resolvent framework constructed around the time-varying mean flow, we identify spatiotemporal forcing modes that are optimally amplified by the linearized Navier-Stokes operator, along with their corresponding response modes. Our analysis shows that different streamwise and spanwise scales are preferentially amplified in different temporal regions of the flow, with the trends consistent with statistics computed from direct numerical simulations. Time-localized resolvent modes also indicate the causal relationship between forcing and response modes, characterized by a temporal delay between their amplitude peaks. Time-windowed analysis of the resolvent operator reveals how linear amplification evolves over time, linking distinct time scales to different spatial scales throughout the separation event. We further show that a reduced-order model featuring a small number of space-time resolvent modes can be used as a simplified model for unsteady separation events, with a three-mode model capable of accurately capt...",
+      "authors": [
+        "Micah Nishimoto",
+        "M.-S. Tsai",
+        "H. Jane Bae",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Nonlinear extensions and coordinate selection for operator-based causality analysis, with application to chaotic wake flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3230/1/012014",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3230/1/012014",
+      "concepts": [
+        "Nonlinear system",
+        "Interpretability",
+        "Causality (physics)",
+        "Curse of dimensionality",
+        "Mathematics",
+        "Quadratic equation",
+        "Chaotic",
+        "Applied mathematics"
+      ],
+      "abstract": "Abstract Causality analysis in fluid dynamics remains challenging due to the high dimensionality and nonlinearity of the underlying dynamics. Data-driven techniques, such as transfer entropy can often require large datasets for converged results, and produce outputs sensitive to variable choice, limiting interpretability and accuracy. Here, we seek to exploit the knowledge and structure of the governing equations to develop more robust causality analysis tools. We first discuss Linear Operator-based Causality Analysis (LOCA), where causal interactions can be inferred from the linearized governing equations. Building on this foundation, we next introduce a nonlinear extension to this methodology that incorporates quadratic interactions, allowing us to isolate and quantify the individual causal contributions of both linear and nonlinear terms. We apply this method upon the chaotic wake behind a pair of bluff bodies to demonstrate and compare its performance with nonlinear extensions to Granger causality analysis. In doing so, we assess the use of different variants of proper orthogonal decomposition (POD) for selecting variables for causality analysis, where we find that Hilbert a...",
+      "authors": [
+        "Victor Jimenez",
+        "Soledad Le Clainche",
+        "Ankit Srivastava",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Observer-based neural networks for flow estimation and control",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.1017/jfm.2026.11464",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Artificial neural network",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Flow (mathematics)",
+        "Noise (video)",
+        "Cylinder",
+        "Set (abstract data type)"
+      ],
+      "abstract": "Neural network observers (NNOs) are proposed for online estimation of fluid flows, addressing a key challenge in flow control: obtaining flow states online from a limited set of sparse and noisy sensor data. For this task, we propose a generalisation of the classical Luenberger observer. In the present framework, the estimation loop is composed of subsystems modelled as neural networks (NNs). By combining flow information from selected probes and a neural network surrogate model (NNSM) of the flow system, we train NNOs capable of fusing information to provide the best estimation of the states, that can in turn be fed back to a neural network controller (NNC). The NNO capabilities are demonstrated for three nonlinear dynamical systems. First, a variation of the Kuramoto–Sivashinsky (KS) equation with control inputs is studied, where variables are sparsely probed. We show that the NNO is able to track states even when probes are contaminated with random noise or with sensors at insufficient sample rates to match the control time step. Then, a confined cylinder flow is investigated, where velocity signals along the cylinder wake are estimated by using a small set of wall pressure s...",
+      "authors": [
+        "Tarcísio Déda",
+        "Brener Ramos",
+        "William Wolf",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Learning Parameterized Coarse Mesh Dynamics of a Confined Cylinder Flow With Graph Neural Networks",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0089",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Computer science",
+        "Flow (mathematics)",
+        "Artificial neural network",
+        "Benchmark (surveying)",
+        "Cylinder",
+        "Vortex shedding",
+        "Algorithm"
+      ],
+      "abstract": "Reduced-order models (ROMs) play a crucial role in making high-fidelity flow simulations computationally tractable for tasks such as optimization and control. In this work, we investigate a graph-based ROM using MeshGraphNets, a Graph Neural Network (GNN) architecture designed to learn physical dynamics on unstructured meshes. As a test case, we consider the unsteady flow past a confined cylinder across Reynolds numbers ranging from 100 to 1000, a canonical benchmark that exhibits increasingly complex vortex shedding behavior. Unlike prior studies that rely on fine-resolution meshes, we deploy the model on a significantly coarsened mesh with nodes placed near the cylinder wall as well as at sensor-relevant locations, and propose a metric based on the Earth Mover's Distance (EMD) in order to efficiently compare different test cases. Despite the coarse spatial and temporal resolution, the model captures key unsteady features such as drag fluctuations and reproduces spectral characteristics at sensor locations. We also identify regions in parameter space where prediction accuracy degrades, motivating strategies for dataset partitioning that substantially increase model performance....",
+      "authors": [
+        "Brener L. O. Ramos",
+        "William Wolf",
+        "Scott T. M. Dawson"
+      ]
+    },
+    {
+      "title": "Real-time Flow Estimation via Limited Sensor Data Using Closed-Loop Neural Networks Observers",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1139",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Artificial neural network",
+        "Set (abstract data type)",
+        "Control theory (sociology)",
+        "Computer science",
+        "Work (physics)",
+        "Flow (mathematics)",
+        "Artificial intelligence",
+        "Pressure sensor"
+      ],
+      "abstract": "This work presents results on the application of neural network observers trained in closed-loop. A recurrent training approach is proposed in a setup similar to the classic discrete-time Luenberger observer. Results for a controlled Lorenz system are presented, where the states are estimated from a set of real-time measurements. A confined cylinder flow is also investigated, where velocity signals at the wake are estimated from a set of wall pressure probes, enabling feedback control using neural network controllers.",
+      "authors": [
+        "Tarcísio D. Oliveira",
+        "William Wolf",
+        "Scott T. M. Dawson"
+      ]
+    }
+  ]
+}

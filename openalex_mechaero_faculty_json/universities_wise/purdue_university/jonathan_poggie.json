@@ -1,0 +1,250 @@
+{
+  "faculty_name": "Jonathan Poggie",
+  "full_name": "Jonathan Poggie",
+  "department": "School of Aeronautics and Astronautics",
+  "university": "Purdue University",
+  "author_id": "A5081530885",
+  "works_count": 227,
+  "cited_by_count": 2762,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 120
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 119
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 84
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 59
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 42
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Magnetic control of flow past a blunt body: Numerical validation and exploration",
+      "publication_year": 2002,
+      "publication_date": "2002-05-01",
+      "doi": "https://doi.org/10.1063/1.1465424",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 139,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Heat transfer",
+        "Magnetic field",
+        "Stagnation point",
+        "Classical mechanics",
+        "Mach number",
+        "Magnetic dipole"
+      ],
+      "abstract": "Computational and theoretical studies of a Mach 5 flow over a hemisphere were carried out to validate a new computer code for magnetogasdynamic simulation, and to examine the possibility of heat transfer mitigation through magnetic control. Sample calculations were made using a local solution developed by W. B. Bush [J. Aerosp. Sci. 25, 685 (1958); 28, 610 (1961)] for the stagnation point flow over an axisymmetric blunt body with an imposed dipole magnetic field. Numerical computations, which obviated many of the simplifications inherent in the Bush theory, were carried out employing the low magnetic Reynolds number approximation. Both models indicate that an imposed dipole field can slow the flow in the conductive shock layer and consequently reduce the wall heat flux in the vicinity of the stagnation point. The theoretical model predicts a slightly higher level of heat transfer than that obtained computationally, but there is good agreement between the two models in the fractional change in heat transfer with increasing strength of the applied magnetic field. For both models, nonuniform electrical conductivity was found to reduce the effectiveness of a given applied field. Mag...",
+      "authors": [
+        "Jonathan Poggie",
+        "Datta V. Gaitonde"
+      ]
+    },
+    {
+      "title": "Resolution effects in compressible, turbulent boundary layer simulations",
+      "publication_year": 2015,
+      "publication_date": "2015-08-01",
+      "doi": "https://doi.org/10.1016/j.compfluid.2015.07.015",
+      "venue": "Computers & Fluids",
+      "type": "article",
+      "cited_by_count": 137,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Direct numerical simulation",
+        "Wavenumber",
+        "Boundary layer",
+        "Turbulence",
+        "Reynolds number",
+        "Boundary layer thickness",
+        "Physics",
+        "Mach number"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jonathan Poggie",
+        "Nicholas J. Bisek",
+        "Ryan Gosse"
+      ]
+    },
+    {
+      "title": "Numerical simulation of nanosecond-pulse electrical discharges",
+      "publication_year": 2012,
+      "publication_date": "2012-11-29",
+      "doi": "https://doi.org/10.1088/0963-0252/22/1/015001",
+      "venue": "Plasma Sources Science and Technology",
+      "type": "article",
+      "cited_by_count": 100,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/0963-0252/22/1/015001/pdf",
+      "concepts": [
+        "Atomic physics",
+        "Excited state",
+        "Nanosecond",
+        "Plasma",
+        "Thermalisation",
+        "Physics",
+        "Mechanics",
+        "Chemistry"
+      ],
+      "abstract": "Recent experiments with a nanosecond-pulse, dielectric barrier discharge at the stagnation point of a Mach 5 cylinder flow have demonstrated the formation of weak shock waves near the electrode edge, which propagate upstream and perturb the bow shock. This is a promising means of flow control, and understanding the detailed physics of the conversion of electrical energy into gas motion will aid in the design of efficient actuators based on the concept. In this work, a simplified configuration with planar symmetry was chosen as a vehicle to develop a physics-based model of nanosecond-pulse discharges, including realistic air kinetics, electron energy transport, and compressible bulk gas flow. A reduced plasma kinetic model (23 species and 50 processes) was developed to capture the dominant species and reactions for energy storage and thermalization in the discharge. The kinetic model included electronically and vibrationally excited species, and several species of ions and ground state neutrals. The governing equations included the Poisson equation for the electric potential, diffusion equations for each neutral species, conservation equations for each charged species, and mass-a...",
+      "authors": [
+        "Jonathan Poggie",
+        "Igor Adamovich",
+        "Nicholas J. Bisek",
+        "Munetake Nishihara"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Large-Eddy Simulation of an Axisymmetric Shock-Wave/Boundary-Layer Interaction at Mach 2.5",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2519",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Mechanics",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Boundary layer",
+        "Rotational symmetry",
+        "Physics",
+        "Reynolds number"
+      ],
+      "abstract": "Implicit large-eddy simulation (ILES) of a turbulent, axisymmetric, shock-wave/boundary- layer interaction was performed at Mach 2.5. The simulation was performed to compare to recent experimental work completed at NASA Glenn Research Center (GRC) under the Turbulent Computational Fluid Dynamics Validation Experiment (TCFDVE). The circular test section of the TCFDVE allows shock-wave/boundary-layer interactions to be studied without corner effects. The ILES was completed using a low-dissipation, hybrid advection scheme available in VULCAN-CFD which blends a fourth-order symmetric reconstruction with a third-order upwind-biased MUSCL scheme. The method of recycling/rescaling was used to generate a scale-resolved turbulent boundary layer. To save on computational cost, a Reynolds-averaged Navier-Stokes (RANS) solution was imposed at some boundary conditions. Comparison to experimental data showed promising results. PIV, Pitot, wall static pressure taps, and hot-wire data were used for comparison. With significant computational resource allocation, the current two billion point ILES simulation was run at an experimental Reynolds number for approximately 102 cycles of the dominant l...",
+      "authors": [
+        "Layton W. Howerton",
+        "Gregory A. Blaisdell",
+        "Jonathan Poggie"
+      ]
+    },
+    {
+      "title": "Hardware-Agnostic Compact Difference Schemes in C++/Kokkos for High-Order CFD",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2518",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Speedup",
+        "Computer science",
+        "Parallel computing",
+        "Solver",
+        "Computational science",
+        "Fortran",
+        "Interpolation (computer graphics)",
+        "Porting"
+      ],
+      "abstract": "A hardware-agnostic implementation of compact finite difference schemes is presented using the Kokkos programming model, targeting both CPUs (OpenMP) and GPUs (CUDA, HIP) without code duplication. The parallel cyclic reduction (PCR) algorithm achieves significant speedup over the sequential Thomas algorithm on GPUs for large three dimensional grids. For time dependent problems, naive plane by plane execution incurs substantial kernel launch and memory initialization overhead. This is mitigated through a fully batched execution that solves transverse tridiagonal systems simultaneously, yielding up to two orders of magnitude speedup in GPU execution time. The results highlight the necessity of algorithm level redesign when porting legacy Fortran solvers to accelerator architectures. Cross platform numerical solutions agree within machine precision across all CPU and GPU backends, indicating deterministic solver behavior. Comprehensive validation through method of manufactured solutions confirms design order spatial convergence (rates approaching 6.0 for sixth order schemes) and fourth order temporal accuracy with RK4 integration across heat equation, Burgers equation, and isentrop...",
+      "authors": [
+        "Sana Nazir",
+        "Jonathan Poggie"
+      ]
+    },
+    {
+      "title": "Video: High-Fidelity Simulation of a Supersonic Turbulent Boundary Layer",
+      "publication_year": 2025,
+      "publication_date": "2025-11-23",
+      "doi": "https://doi.org/10.1103/aps.dfd.2025.gfm.v048",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/aps.dfd.2025.gfm.v048",
+      "concepts": [
+        "Supersonic speed",
+        "Boundary layer",
+        "Mechanics",
+        "Physics",
+        "Turbulence",
+        "Blasius boundary layer",
+        "Materials science",
+        "Layer (electronics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jonathan Gaskins",
+        "Jonathan Poggie",
+        "Gregory Allan. Blaisdell"
+      ]
+    },
+    {
+      "title": "Video: High-Fidelity Simulation of a Supersonic Turbulent Boundary Layer over a Wavy Wall",
+      "publication_year": 2025,
+      "publication_date": "2025-11-23",
+      "doi": "https://doi.org/10.1103/aps.dfd.2025.gfm.v053",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/aps.dfd.2025.gfm.v053",
+      "concepts": [
+        "Supersonic speed",
+        "Boundary layer",
+        "Mechanics",
+        "Materials science",
+        "Turbulence",
+        "Layer (electronics)",
+        "Boundary (topology)",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jonathan Gaskins",
+        "Jonathan Poggie",
+        "Gregory Allan. Blaisdell"
+      ]
+    },
+    {
+      "title": "Shock-Wave/Boundary-Layer Interaction in Hypersonic Flow over a Missile Configuration",
+      "publication_year": 2025,
+      "publication_date": "2025-07-31",
+      "doi": "https://doi.org/10.2514/1.a36312",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Boundary layer",
+        "Shock wave",
+        "Aerospace engineering",
+        "Shock (circulatory)",
+        "Missile",
+        "Mechanics",
+        "Hypersonic flow"
+      ],
+      "abstract": "Hypersonic flow over axisymmetric bodies with four evenly spaced fins was investigated computationally. The test conditions encompassed a freestream Mach number of 5.9 and Reynolds numbers based on body length of [Formula: see text] and [Formula: see text], resulting in shock-wave/boundary-layer interactions in the presence of laminar–turbulent transition. The test article was the High-Speed Army Reference Vehicle, a set of generic configurations for research on missilelike bodies. Steady-flow computations employing the Menter Shear Stress Transport turbulence model and one-equation transition model were performed for angles of attack between 0.0 and 7.0-deg. The predicted heat flux was compared with experimental measurements obtained at Texas A&M University. As the angle of attack was increased, complex vortex interactions and shock-wave/boundary-layer interactions were observed in the region between the fins.",
+      "authors": [
+        "Matthew D. Dean",
+        "Jonathan Poggie"
+      ]
+    }
+  ]
+}

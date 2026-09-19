@@ -1,0 +1,253 @@
+{
+  "faculty_name": "Johan Larsson",
+  "full_name": "Johan Larsson",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Maryland-College Park",
+  "author_id": "A5052059941",
+  "works_count": 160,
+  "cited_by_count": 5530,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 124
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 101
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 36
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 31
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 25
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Large eddy simulation with modeled wall-stress: recent progress and future directions",
+      "publication_year": 2015,
+      "publication_date": "2015-11-16",
+      "doi": "https://doi.org/10.1299/mer.15-00418",
+      "venue": "Mechanical Engineering Reviews",
+      "type": "article",
+      "cited_by_count": 532,
+      "is_oa": true,
+      "oa_url": "https://www.jstage.jst.go.jp/article/mer/3/1/3_15-00418/_pdf",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Focus (optics)",
+        "Detached eddy simulation",
+        "Turbulence",
+        "Large eddy simulation",
+        "Stress (linguistics)",
+        "Berlin wall",
+        "Computer science"
+      ],
+      "abstract": "The paper provides a brief introduction to the near-wall problem of LES and how it can be solved through modeling of the near-wall turbulence. The distinctions and key differences between different approaches are emphasized, both in terms of fidelity (LES, wall-modeled LES, and DES) and in terms of different wall-modeled LES approaches (hybrid LES/RANS and wall-stress-models). The focus is on approaches that model the wall-stress directly, i.e., methods for which the LES equations are formally solved all the way down to the wall. Progress over the last decade is reviewed, and the most important and promising directions for future research are discussed.",
+      "authors": [
+        "Johan Larsson",
+        "Soshi Kawai",
+        "Julien Bodart",
+        "Iván Bermejo-Moreno"
+      ]
+    },
+    {
+      "title": "Mean velocity scaling for compressible wall turbulence with heat transfer",
+      "publication_year": 2016,
+      "publication_date": "2016-02-01",
+      "doi": "https://doi.org/10.1063/1.4942022",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 343,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mach number",
+        "Scaling",
+        "Supersonic speed",
+        "Turbulence",
+        "Mechanics",
+        "Boundary layer",
+        "Adiabatic process"
+      ],
+      "abstract": "The current state-of-the-art in accounting for mean property variations in compressible turbulent wall-bounded flows is the Van Driest transformation, which is inaccurate for non-adiabatic walls. An alternative transformation is derived, based on arguments about log-layer scaling and near-wall momentum conservation. The transformation is tested on supersonic turbulent channel flows and boundary layers, and it is found to produce an excellent collapse of the mean velocity profile at different Reynolds numbers, Mach numbers, and rates of wall heat transfer. In addition, the proposed transformation mathematically derives the semi-local scaling of the wall-normal coordinate and unifies the scaling of the velocity, the Reynolds stresses, and the wall-normal coordinate.",
+      "authors": [
+        "A. Trettel",
+        "Johan Larsson"
+      ]
+    },
+    {
+      "title": "Direct numerical simulation of canonical shock/turbulence interaction",
+      "publication_year": 2009,
+      "publication_date": "2009-12-01",
+      "doi": "https://doi.org/10.1063/1.3275856",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 225,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Shock (circulatory)",
+        "Turbulence",
+        "Mach number",
+        "Mechanics",
+        "Oblique shock",
+        "Reynolds number",
+        "Vorticity"
+      ],
+      "abstract": "A set of direct numerical simulations of isotropic turbulence passing through a nominally normal shock wave is presented. Upstream of the shock, the microscale Reynolds number is 40, the mean Mach number is 1.3–6.0, and the turbulence Mach number is 0.16–0.38. It is shown that the Kolmogorov scale decreases during the shock interaction, which implies that the grid resolution needed to resolve the viscous dissipation is finer than that used in previous studies. This leads to some qualitative differences with previous work, e.g., a rapid increase in the streamwise vorticity variance behind the shock and large anisotropy of the postshock Reynolds stresses. The instantaneous structure of the shock/turbulence interaction is examined using averages conditioned on the instantaneous shock strength. For locally strong compressions, the flow is characterized by overcompression, followed by an expansion. At points where the shock is locally weak, the profiles differ qualitatively depending on the strength of the incoming turbulence relative to the strength of the shock, as measured by the turbulence and mean Mach numbers, respectively. In the wrinkled shock regime, these profiles are disco...",
+      "authors": [
+        "Johan Larsson",
+        "Sanjiva K. Lele"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Fluid Dynamics for Virtual Molecules: An Engineering Guide to the Principles & Assumptions Underpinning Turbulence Modelling Part 2: LES",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://elib.dlr.de/225587/",
+      "venue": "elib (German Aerospace Center)",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Underpinning",
+        "Turbulence",
+        "Scope (computer science)",
+        "Session (web analytics)",
+        "Computational fluid dynamics",
+        "Dynamics (music)",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "This talk provides an overview of the presentation materials prepared for the AIAA SciTech 2026 Special Session \"Meet the Turbulence Modellers\", organized under the auspices of the Integrated Collaborative Experimentation (ICE) Technical Activity Group 1 (TAG-1). The session sought to create a common conceptual framework between turbulence measurers and turbulence modellers in support of advancing verification and validation (V&V) for computational fluid dynamics (CFD). The accompanying slides, titled Fluid Dynamics for Virtual Molecules: An Engineering Guide to the Principles and Assumptions Underpinning Turbulence Modelling (Part II: LES), present an accessible narrative of the foundations and limitations of scale-resolving simulations method, Large-Eddy Simulation (LES) and Wall-Models used for LES. This talk summarizes the underlying modeling concepts with the goal of helping engineers and researchers outside the CFD community understand the conceptual basis and scope of modern turbulence models.",
+      "authors": [
+        "Xiang Yang",
+        "Johan Larsson",
+        "Tobias Knopp",
+        "BRIAN SMITH",
+        "George Coombes",
+        "Nigel Taylor"
+      ]
+    },
+    {
+      "title": "Comparative optimization of hypersonic waveriders using analytical and computational methods",
+      "publication_year": 2026,
+      "publication_date": "2026-01-15",
+      "doi": "https://doi.org/10.1016/j.ast.2026.111703",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ast.2026.111703",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Mach number",
+        "Computer science",
+        "Trajectory",
+        "Flow (mathematics)",
+        "Hypersonic speed",
+        "Euler equations"
+      ],
+      "abstract": "• Waverider optimization via lower-surface polynomials and leading edge perturbations • GPU-accelerated CFD workflow for waverider optimization and trajectory analysis • Waverider optimization using analytical models and high-fidelity CFD • Key differences revealed between analytical and CFD-based optimization • Waveriders geometries optimized using different aero-performance models, Euler CFD flow fields at Mach 6.85, 25 km altitude. This work presents a methodology for designing waverider geometries that incorporate leading edge rounding and parameterized surface perturbations, and evaluates their performance using two distinct aerodynamic prediction approaches: a reduced-order analytical/empirical model and a GPU-based Euler CFD solver, both applied with an empirical approach to estimate the viscous contributions. Geometry optimization was performed using a global pattern search algorithm, and optimal trajectories were computed using a direct collocation method to assess the impact of aerodynamic modeling fidelity on mission performance. Cross-comparisons between these aerodynamic performance prediction methods revealed that CFD-based optimization produces geometries that cap...",
+      "authors": [
+        "John Jessen",
+        "Johan Larsson",
+        "Christoph Brehm"
+      ]
+    },
+    {
+      "title": "Scaling of wall pressure and the streamwise turbulence intensity peak in compressible wall flows",
+      "publication_year": 2026,
+      "publication_date": "2026-01-15",
+      "doi": "https://doi.org/10.1017/jfm.2025.11096",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A0F161A95465B3FEA0C3652BCB1A91B/S0022112025110963a.pdf/div-class-title-scaling-of-wall-pressure-and-the-streamwise-turbulence-intensity-peak-in-compressible-wall-flows-div.pdf",
+      "concepts": [
+        "Scaling",
+        "Compressibility",
+        "Turbulence",
+        "Physics",
+        "Mechanics",
+        "Mach number",
+        "Reynolds number",
+        "Compressible flow"
+      ],
+      "abstract": "This paper develops scaling laws for wall-pressure root mean square and the streamwise turbulence intensity peak, accounting for both variable-property and intrinsic compressibility effects – those associated with changes in fluid volume due to pressure variations. To develop such scaling laws, we express the target quantities as an expansion series in powers of an appropriately defined Mach number. The leading-order term is represented using the scaling relations developed for incompressible flows, but with an effective Reynolds number. Higher-order terms capture intrinsic compressibility effects and are modelled as constant coefficients, calibrated using flow cases specifically designed to isolate these effects. The resulting scaling relations are shown to be accurate for a wide range of turbulent channel flows and boundary layers.",
+      "authors": [
+        "Asif Manzoor Hasan",
+        "Pedro Costa",
+        "Johan Larsson",
+        "Rene Pecnik"
+      ]
+    },
+    {
+      "title": "Wall-bounded turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-08-22",
+      "doi": "https://doi.org/10.1016/b978-0-44-318785-8.00015-8",
+      "venue": "Elsevier eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Bounded function",
+        "Physics",
+        "Mechanics",
+        "Mathematics",
+        "Mathematical analysis"
+      ],
+      "abstract": "",
+      "authors": [
+        "Johan Larsson",
+        "Sergio Pirozzoli"
+      ]
+    },
+    {
+      "title": "Intrinsic compressibility effects in near-wall turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-03-07",
+      "doi": "https://doi.org/10.1017/jfm.2024.1238",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 19,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EBB3BF2F392F2A39BB3B1A49847474D4/S0022112024012382a.pdf/div-class-title-intrinsic-compressibility-effects-in-near-wall-turbulence-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Compressibility",
+        "Mechanics",
+        "K-epsilon turbulence model",
+        "Physics",
+        "Materials science",
+        "Classical mechanics"
+      ],
+      "abstract": "The impact of intrinsic compressibility effects – changes in fluid volume due to pressure variations – on high-speed wall-bounded turbulence has often been overlooked or incorrectly attributed to mean property variations. To quantify these intrinsic compressibility effects unambiguously, we perform direct numerical simulations of compressible turbulent channel flows with nearly uniform mean properties. Our simulations reveal that intrinsic compressibility effects yield a significant upward shift in the logarithmic mean velocity profile that can be attributed to the reduction in the turbulent shear stress. This reduction stems from the weakening of the near-wall quasi-streamwise vortices. In turn, we attribute this weakening to the spontaneous opposition of sweeps and ejections from the near-wall expansions and contractions of the fluid, and provide a theoretical explanation for this mechanism. Our results also demonstrate that intrinsic compressibility effects play a crucial role in the increase in inner-scaled streamwise turbulence intensity in compressible flows, as compared with incompressible flows, which was previously regarded to be an effect of mean property variations al...",
+      "authors": [
+        "Asif Manzoor Hasan",
+        "Pedro Costa",
+        "Johan Larsson",
+        "Sergio Pirozzoli",
+        "René Pecnik"
+      ]
+    }
+  ]
+}

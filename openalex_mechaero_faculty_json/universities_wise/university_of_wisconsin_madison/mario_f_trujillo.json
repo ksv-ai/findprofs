@@ -1,0 +1,246 @@
+{
+  "faculty_name": "Mario F. Trujillo",
+  "full_name": "Mario F. Trujillo",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Wisconsin-Madison",
+  "author_id": "A5018648551",
+  "works_count": 81,
+  "cited_by_count": 2815,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 49
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 23
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 11
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 11
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The effect of nozzle internal flow on spray atomization",
+      "publication_year": 2019,
+      "publication_date": "2019-09-20",
+      "doi": "https://doi.org/10.1177/1468087419875843",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nozzle",
+        "Body orifice",
+        "Mechanics",
+        "Turbulence",
+        "Weber number",
+        "Turbulence kinetic energy",
+        "Geometry",
+        "Jet (fluid)"
+      ],
+      "abstract": "The effect of nozzle surface features on the overall atomization behavior of a liquid jet is analyzed in the present computational work by adopting three representative geometries, namely a single X-ray tomography scan of the Engine Combustion Network’s Spray A nozzle (Unprocessed), a spline reconstruction of multiple scans (Educated), and a purely external flow configuration. The latter configuration is often used in fundamental jet atomization studies. Numerically, the two-phase flow is solved based on algebraic volume-of-fluid methodology utilizing the OpenFoam solver, interFoam. Quantitative characterization of the surface features concerning the first two geometries reveals that while both of them have similar levels of cylindrical asymmetries, the nozzle configuration pertaining to the Unprocessed geometry has much larger surface features along the streamwise direction than the Educated geometry. This produces for the Unprocessed configuration a much larger degree of non-axial velocity components in the flow exiting the orifice and also a more pronounced disturbance of the liquid surface in the first few diameters downstream of the nozzle orifice. Furthermore, this heighte...",
+      "authors": [
+        "Arpit Agarwal",
+        "Mario F. Trujillo"
+      ]
+    },
+    {
+      "title": "Modelling and experiment of impingement and atomization of a liquid spray on a wall",
+      "publication_year": 2000,
+      "publication_date": "2000-02-01",
+      "doi": "https://doi.org/10.1243/1468087001545281",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 113,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spray characteristics",
+        "Mechanics",
+        "Materials science",
+        "Particle (ecology)",
+        "Break-Up",
+        "Surface roughness",
+        "Spray nozzle",
+        "Nozzle"
+      ],
+      "abstract": "An experimental and computational investigation of spray impingement on a flat surface is presented. Different angles of incidence are studied, namely 30, 45 and 60°C measured from the normal to the surface. Back-lit photographs of the wall spray taken at various times during the impingement period give a qualitative view of the secondary atomization process. A stochastic model based on the sampling of velocity and size distributions of secondary droplets is used to simulate the creation of incident droplet fragments created by the numerous splashing events occurring during the impingement period. Size characteristics of the secondary droplet cloud are computed at various points in the impingement region and these are compared against phase/Doppler particle analyser (P/DPA) measurements yielding reasonable agreement. The effect of surface roughness is incorporated into the model and is found to play a major role in affecting the splashing threshold and the sizes of splashing fragments. The secondary droplet distributions are virtually unchanged among the different angles of incidence. This behaviour is explained by considering the shift in the splashing droplet distribution as a...",
+      "authors": [
+        "Mario F. Trujillo",
+        "W. S. Mathews",
+        "C. F. Lee",
+        "James E. Peters"
+      ]
+    },
+    {
+      "title": "Thermal boundary layer analysis corresponding to droplet train impingement",
+      "publication_year": 2012,
+      "publication_date": "2012-11-01",
+      "doi": "https://doi.org/10.1063/1.4766195",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nusselt number",
+        "Péclet number",
+        "Reynolds number",
+        "Physics",
+        "Boundary layer",
+        "Mechanics",
+        "Heat transfer",
+        "Thermodynamics"
+      ],
+      "abstract": "Simulations of droplet train impingement on a pre-wetted solid surface heated from below are used to study the thermal boundary layer behavior over a parameter space which includes variations in Reynolds, Peclet, and Weber numbers, as well as variations in inter-droplet spacing and initial liquid film thickness. Computationally, a modified version of the Volume-of-Fluid method is developed and employed in this study. The solver is validated against closed form solutions and additional experimental data from the literature. In combination with the simulations, an analytical representation is also developed and compared to the computations yielding favorable agreement. Results show that the boundary layer thickness is mostly affected by changes in inter-droplet spacing, Reynolds, and Peclet number, and influenced minimally by variations in Weber number and initial film thickness. In fact, it is explicitly demonstrated in the analysis that the impact velocity has the greatest effect in local heat transfer. An analytical expression for the Nusselt number radial profile is also developed. It shows that the Nusselt number scales as ∼ Re1/2, and its radial dependence is \\documentclass[...",
+      "authors": [
+        "Mario F. Trujillo",
+        "Steven R. Lewis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "The near-field liquid dispersion model under evaporating and chemically reacting conditions",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.1177/14680874251396598",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Work (physics)",
+        "Dispersion (optics)",
+        "Ignition system",
+        "Mechanics",
+        "Materials science",
+        "Liquid fuel",
+        "Combustion",
+        "Thermodynamics"
+      ],
+      "abstract": "Conventional Lagrangian-Eulerian (LE) fuel spray simulations have difficulty capturing the near-field liquid dispersion characteristics. To address this problem, a new Near-field Lagrangian Dispersion Model (NFLDM) has been recently developed and validated exclusively against Volume-of-Fluid (VoF) numerical data. The present work expands the evaluation of the NFLDM to include additional projected mass density assessment with experimental data. Additionally, the work now considers the effects of vaporization, heat transfer, and combustion. The results show that in the near field, there is a considerable improvement with NFLDM over traditional LE calculations in terms of spatial liquid distribution. However, in more macroscopic validation exercises, such as ignition time delay and vapor penetration time history, NFLDM performs very similarly to conventional LE calculations. Reasons for this trend are provided in the conclusions.",
+      "authors": [
+        "Michael A. Mason",
+        "Mario F. Trujillo"
+      ]
+    },
+    {
+      "title": "A two-stage droplet breakup model based on the maximum entropy formalism",
+      "publication_year": 2025,
+      "publication_date": "2025-12-01",
+      "doi": "https://doi.org/10.1063/5.0293501",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Breakup",
+        "Physics",
+        "Formalism (music)",
+        "Drop (telecommunication)",
+        "Mechanics",
+        "Weber number",
+        "Break-Up",
+        "Classical mechanics"
+      ],
+      "abstract": "The maximum entropy formalism (MEF) is employed to develop a model for predicting the size and velocity distributions of daughter droplets resulting from the breakup of an isolated droplet. In this work, the single-stage MEF model developed in Kuo and Trujillo [Phys. Fluids 34(1), 013315 (2022)] is revisited and improved upon by extending it to a two-stage MEF breakup model. This extension is based on the observation of two distinct morphological stages of breakup of the parent droplet, which lead to two distinct contributions to the daughter droplet distributions. The two-stage MEF model yields enhanced predictions of the size and velocity distributions of daughter droplets under conditions characterized by low Ohnesorge numbers (<0.1) and Weber numbers ranging from near-critical (12.6) to 350, compared with the single-stage MEF model. For cases with very high Weber numbers (>350), and cases with high Ohnesorge numbers (>0.1), the single-stage MEF is shown to be sufficient in predicting droplet size distributions. Finally, the two-stage MEF model is shown to improve velocity distribution predictions by accounting for the non-uniform breakup and deceleration of the parent drople...",
+      "authors": [
+        "Ahmad Faraz Badar",
+        "Mario F. Trujillo"
+      ]
+    },
+    {
+      "title": "A near-field Lagrangian dispersion model for fuel sprays",
+      "publication_year": 2025,
+      "publication_date": "2025-03-23",
+      "doi": "https://doi.org/10.1177/14680874251321215",
+      "venue": "International Journal of Engine Research",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mechanics",
+        "Volume of fluid method",
+        "Dispersion (optics)",
+        "Turbulence",
+        "Range (aeronautics)",
+        "Physics",
+        "Flow (mathematics)",
+        "Materials science"
+      ],
+      "abstract": "Given that conventional Lagrangian-Eulerian (LE) computations of sprays are typically performed with the near-field region almost completely unresolved, key physics associated with radial dispersion are not well captured. A new Near-field Lagrangian Dispersion Model (NFLDM) is presented to improve stochastic radial dispersion of the liquid phase. This Langevin-based model employs self-similar representations of mean velocity and Reynolds stress fields obtained from Volume-of-Fluid (VoF) simulations. A data-fitted self-similarity model is developed using VoF results from a range of spray simulations employing 2–4.5 MPa ambient pressure, multiple injection velocities, injections of n-dodecane and methanol, and the Engine Combustion Network Spray-A and Spray-D nozzle geometries. The NFLDM is first compared against the conventional LE model, where a given spray angle is typically imposed. In addition to correctly predicting the variation of liquid dispersion as a function of distance downstream of the injector, the NFLDM yields an approximate 50% reduction of error in comparison to the conventional LE treatment. It is shown that the radial transport of liquid in the near field is go...",
+      "authors": [
+        "Michael A Mason",
+        "Mario F. Trujillo"
+      ]
+    },
+    {
+      "title": "Quantifying a common inconsistency in RANS-VoF modeling of water and oil core annular flow",
+      "publication_year": 2024,
+      "publication_date": "2024-10-09",
+      "doi": "https://doi.org/10.1016/j.ijmultiphaseflow.2024.105008",
+      "venue": "International Journal of Multiphase Flow",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds-averaged Navier–Stokes equations",
+        "Volume of fluid method",
+        "Mechanics",
+        "Core (optical fiber)",
+        "Flow (mathematics)",
+        "Materials science",
+        "Environmental science",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hirthick K. Nagarajan",
+        "Mario F. Trujillo"
+      ]
+    },
+    {
+      "title": "Insights into primary liquid atomization",
+      "publication_year": 2024,
+      "publication_date": "2024-05-03",
+      "doi": "https://doi.org/10.1016/j.sctalk.2024.100357",
+      "venue": "Science Talks",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.sctalk.2024.100357",
+      "concepts": [
+        "Instability",
+        "Nozzle",
+        "Body orifice",
+        "Mechanics",
+        "Jet (fluid)",
+        "Wavelength",
+        "Core (optical fiber)",
+        "Boundary layer"
+      ],
+      "abstract": "Previous work employing Volume-of-Fluid simulations of high-speed liquid injection has shown that the most unstable modes obtained from instability theory are not the ones responsible for fragmenting the liquid core. Their associated wavelength is much smaller than the liquid jet diameter; hence, their action is limited to stripping the jet surface leaving the liquid core intact. A much larger sinuous mode develops many diameters downstream of the nozzle orifice, and it is ultimately responsible for fragmenting the liquid jet. The genesis of this sinuous mode is studied in the present work by focusing our attention first on its 2D manifestation. By employing a spatial instability analysis based on a two-phase Orr-Sommerfeld system, it is discovered that as the gas boundary layer grows, the peak growth rate obtained from the dispersion curve shifts to a new maximum located at a much larger wavelength. And this much larger wavelength coincides directly with the onset of atomizing sinuous mode. It is shown that the smaller varicose or sinuous modes do not contribute in a significant way. A subsequent analysis is presented where it is shown that the pressure fluctuations in the gas ...",
+      "authors": [
+        "Mario F. Trujillo",
+        "Mohan Ananth"
+      ]
+    }
+  ]
+}

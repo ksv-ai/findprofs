@@ -1,0 +1,294 @@
+{
+  "faculty_name": "Baskar Ganapathysubramanian",
+  "full_name": "Baskar Ganapathysubramanian",
+  "department": "Department of Mechanical Engineering",
+  "university": "Iowa State University",
+  "author_id": "A5011704511",
+  "works_count": 448,
+  "cited_by_count": 9556,
+  "h_index": 48,
+  "top_topics": [
+    {
+      "topic": "Smart Agriculture and AI",
+      "count": 59
+    },
+    {
+      "topic": "Organic Electronics and Photovoltaics",
+      "count": 35
+    },
+    {
+      "topic": "Remote Sensing in Agriculture",
+      "count": 35
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 33
+    },
+    {
+      "topic": "Machine Learning in Materials Science",
+      "count": 33
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "An explainable deep machine vision framework for plant stress phenotyping",
+      "publication_year": 2018,
+      "publication_date": "2018-04-16",
+      "doi": "https://doi.org/10.1073/pnas.1716999115",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "type": "article",
+      "cited_by_count": 563,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1073/pnas.1716999115",
+      "concepts": [
+        "Artificial intelligence",
+        "Identification (biology)",
+        "Abiotic component",
+        "Computer science",
+        "Machine learning",
+        "Abiotic stress",
+        "Pattern recognition (psychology)",
+        "Biology"
+      ],
+      "abstract": "(L.) Merr.] with remarkable accuracy. We also present an explanation mechanism, using the top-K high-resolution feature maps that isolate the visual symptoms used to make predictions. This unsupervised identification of visual symptoms provides a quantitative measure of stress severity, allowing for identification (type of foliar stress), classification (low, medium, or high stress), and quantification (stress severity) in a single framework without detailed symptom annotation by experts. We reliably identified and classified several biotic (bacterial and fungal diseases) and abiotic (chemical injury and nutrient deficiency) stresses by learning from over 25,000 images. The learned model is robust to input image perturbations, demonstrating viability for high-throughput deployment. We also noticed that the learned model appears to be agnostic to species, seemingly demonstrating an ability of transfer learning. The availability of an explainable model that can consistently, rapidly, and accurately identify and quantify foliar stresses would have significant implications in scientific research, plant breeding, and crop production. The trained model could be deployed in mobile plat...",
+      "authors": [
+        "Sambuddha Ghosal",
+        "David Blystone",
+        "Asheesh K. Singh",
+        "Baskar Ganapathysubramanian",
+        "Arti Singh",
+        "Soumik Sarkar"
+      ]
+    },
+    {
+      "title": "Sparse grid collocation schemes for stochastic natural convection problems",
+      "publication_year": 2007,
+      "publication_date": "2007-01-11",
+      "doi": "https://doi.org/10.1016/j.jcp.2006.12.014",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 407,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Sparse grid",
+        "Collocation (remote sensing)",
+        "Uncertainty quantification",
+        "Partial differential equation",
+        "Stochastic partial differential equation",
+        "Mathematical optimization",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Baskar Ganapathysubramanian",
+        "Nicholas Zabaras"
+      ]
+    },
+    {
+      "title": "Nanoscale control of internal inhomogeneity enhances water transport in desalination membranes",
+      "publication_year": 2020,
+      "publication_date": "2020-12-31",
+      "doi": "https://doi.org/10.1126/science.abb8518",
+      "venue": "Science",
+      "type": "article",
+      "cited_by_count": 398,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Desalination",
+        "Membrane",
+        "Polyamide",
+        "Nanoscopic scale",
+        "Materials science",
+        "Chemical engineering",
+        "Permeability (electromagnetism)",
+        "Selectivity"
+      ],
+      "abstract": "Biological membranes can achieve remarkably high permeabilities, while maintaining ideal selectivities, by relying on well-defined internal nanoscale structures in the form of membrane proteins. Here, we apply such design strategies to desalination membranes. A series of polyamide desalination membranes-which were synthesized in an industrial-scale manufacturing line and varied in processing conditions but retained similar chemical compositions-show increasing water permeability and active layer thickness with constant sodium chloride selectivity. Transmission electron microscopy measurements enabled us to determine nanoscale three-dimensional polyamide density maps and predict water permeability with zero adjustable parameters. Density fluctuations are detrimental to water transport, which makes systematic control over nanoscale polyamide inhomogeneity a key route to maximizing water permeability without sacrificing salt selectivity in desalination membranes.",
+      "authors": [
+        "Tyler E. Culp",
+        "Biswajit Khara",
+        "Kaitlyn P. Brickey",
+        "Michael Geitner",
+        "Tawanda J. Zimudzi",
+        "Jeffrey D. Wilbur",
+        "Steven Jons",
+        "Abhishek Roy",
+        "Mou Paul",
+        "Baskar Ganapathysubramanian",
+        "Andrew L. Zydney",
+        "Manish Kumar",
+        "Enrique D. Gomez"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Neural-Network-based Viscosity Closure for Non-Newtonian Multiphase Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-28",
+      "doi": "https://doi.org/10.48550/arxiv.2605.30659",
+      "venue": "Iowa State University Digital Repository (Iowa State University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://dr.lib.iastate.edu/handle/20.500.12876/107052",
+      "concepts": [
+        "Solver",
+        "Rheometry",
+        "Computer science",
+        "Viscosity",
+        "Finite element method",
+        "Artificial neural network",
+        "Multiphysics",
+        "Mechanics"
+      ],
+      "abstract": "Materials used in polymer-based additive manufacturing processes, such as Digital Light Processing (DLP) and direct ink writing (DIW), typically exhibit non-Newtonian rheology. Carreau-Yasuda and power-law models describe basic shear-thinning and shear-thickening behavior well, but applying them to a new material requires choosing a functional form, deriving it, and re-implementing it inside the flow solver. We present a deployment workflow in which a neural network trained on experimental rheometry data serves as the viscosity closure inside a Cahn-Hilliard-Navier-Stokes (CHNS) finite element solver. The learned closure is generalized Newtonian: viscosity depends only on the local shear rate at the current instant. Lipschitz regularization during training produces smooth viscosity predictions, and the trained network is exported in the Open Neural Network Exchange (ONNX) format and queried by the solver at runtime via the ONNX runtime, without solver modification or network reimplementation. The framework is built on a parallel octree-based adaptive mesh refinement infrastructure that concentrates resolution at the fluid interface. We validate the CHNS solver against benchmark ...",
+      "authors": [
+        "Suresh Murugaiyan",
+        "Claire L. Nelson",
+        "Dhruv Gamdha",
+        "Austin Cunniff",
+        "Cheng-Hau Yang",
+        "Abraham Wiletsky",
+        "Kaitlyn W. Dilley",
+        "Patrick Babb",
+        "Andrew Rhode",
+        "Christopher M. Bates",
+        "Angela A. Pitenis",
+        "Michael L. Chabinyc",
+        "Adarsh Krishnamurthy",
+        "Baskar Ganapathysubramanian"
+      ]
+    },
+    {
+      "title": "Neural-Network-based Viscosity Closure for Non-Newtonian Multiphase Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-05-28",
+      "doi": "https://arxiv.org/abs/2605.30659",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.30659",
+      "concepts": [
+        "Solver",
+        "Rheometry",
+        "Computer science",
+        "Viscosity",
+        "Finite element method",
+        "Artificial neural network",
+        "Multiphysics",
+        "Mechanics"
+      ],
+      "abstract": "Materials used in polymer-based additive manufacturing processes, such as Digital Light Processing (DLP) and direct ink writing (DIW), typically exhibit non-Newtonian rheology. Carreau-Yasuda and power-law models describe basic shear-thinning and shear-thickening behavior well, but applying them to a new material requires choosing a functional form, deriving it, and re-implementing it inside the flow solver. We present a deployment workflow in which a neural network trained on experimental rheometry data serves as the viscosity closure inside a Cahn-Hilliard-Navier-Stokes (CHNS) finite element solver. The learned closure is generalized Newtonian: viscosity depends only on the local shear rate at the current instant. Lipschitz regularization during training produces smooth viscosity predictions, and the trained network is exported in the Open Neural Network Exchange (ONNX) format and queried by the solver at runtime via the ONNX runtime, without solver modification or network reimplementation. The framework is built on a parallel octree-based adaptive mesh refinement infrastructure that concentrates resolution at the fluid interface. We validate the CHNS solver against benchmark ...",
+      "authors": [
+        "Suresh Murugaiyan",
+        "Claire L. Nelson",
+        "Dhruv Gamdha",
+        "Austin Cunniff",
+        "Cheng-Hau Yang",
+        "Abraham Wiletsky",
+        "Kaitlyn W. Dilley",
+        "Patrick Babb",
+        "Andrew Rhode",
+        "Christopher M. Bates",
+        "Angela A. Pitenis",
+        "Michael L. Chabinyc",
+        "Adarsh Krishnamurthy",
+        "Baskar Ganapathysubramanian"
+      ]
+    },
+    {
+      "title": "A High Throughput Framework for Large Scale Building Energy Simulation: From Real-Time Alerts to AI-Ready Surrogates",
+      "publication_year": 2026,
+      "publication_date": "2026-05-14",
+      "doi": "https://doi.org/10.26868/30680611.2026.1334",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://publications.ibpsa.org/proceedings/simbuild/2026/papers/simbuild2026_1334.pdf",
+      "concepts": [
+        "Computer science",
+        "Workflow",
+        "Orchestration",
+        "Cloud computing",
+        "Scheduling (production processes)",
+        "Building energy simulation",
+        "Scale (ratio)",
+        "Distributed computing"
+      ],
+      "abstract": "High-fidelity building energy simulation (BES) tools such as EnergyPlus are costly to scale for optimization, urban modeling, and Artificial Intelligence (AI) workflows due to non-differentiability and orchestration overheads. We present a portable high-throughput computing (HTC) framework that distributes and monitors EnergyPlus ensembles across heterogeneous backends (on-premises clusters, national facilities, and cloud services) with fault-tolerant scheduling and an AI-ready data layer. One backbone supports real-time heat-event re-simulation for neighborhood alerts and dataset creation for training differentiable surrogates and inverse models. Benchmarks show near-linear wall-time reductions to resource limits and reproducible outputs. Coupling portability, fault-tolerance, and standardized interfaces, the framework democratizes large-scale AI-ready EnergyPlus studies.",
+      "authors": [
+        "Vishal Muralidharan",
+        "Ulrike Passe",
+        "Baskar Ganapathysubramanian"
+      ]
+    },
+    {
+      "title": "ADKO: Agentic Decentralized Knowledge Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-05-08",
+      "doi": "https://doi.org/10.48550/arxiv.2605.07863",
+      "venue": "Iowa State University Digital Repository (Iowa State University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.07863",
+      "concepts": [
+        "Computer science",
+        "Regret",
+        "Pruning",
+        "Differential privacy",
+        "Artificial intelligence",
+        "Process (computing)",
+        "Gaussian process",
+        "Machine learning"
+      ],
+      "abstract": "We present Agentic Decentralized Knowledge Optimization (ADKO), a framework for collaborative black-box optimization across autonomous agents that achieves sample efficiency, privacy preservation, heterogeneous-objective handling, and communication efficiency. Each agent maintains a private Gaussian Process (GP) surrogate trained on local data and communicates only through knowledge tokens-compact, lossy summaries containing directional signals, advantage scores, and optional language-model (LM) insights-without sharing raw data or model parameters. ADKO unifies GP-Upper Confidence Bound (GP-UCB), parallel Bayesian optimization, decentralized learning, and LM-guided discovery. We provide the first formal analysis of dual information loss: token compression, quantified via mutual-information-based fidelity, and LM approximation error, decomposed into bias and stochastic noise. Our main result shows cumulative regret decomposes into GP error, LM bias, LM noise, and compression loss, with necessary and sufficient conditions for sublinear regret. We also propose fidelity-aware token pruning to preserve high-information tokens under memory budget. Experiments on neural architecture s...",
+      "authors": [
+        "Lucas Nerone Rillo",
+        "Zhanhong Jiang",
+        "Nastaran Saadati",
+        "Aditya Balu",
+        "Baskar Ganapathysubramanian",
+        "Chinmay Hegde",
+        "Soumik Sarkar"
+      ]
+    },
+    {
+      "title": "ADKO: Agentic Decentralized Knowledge Optimization",
+      "publication_year": 2026,
+      "publication_date": "2026-05-08",
+      "doi": "https://arxiv.org/abs/2605.07863",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.07863",
+      "concepts": [
+        "Computer science",
+        "Regret",
+        "Pruning",
+        "Differential privacy",
+        "Artificial intelligence",
+        "Process (computing)",
+        "Gaussian process",
+        "Machine learning"
+      ],
+      "abstract": "We present Agentic Decentralized Knowledge Optimization (ADKO), a framework for collaborative black-box optimization across autonomous agents that achieves sample efficiency, privacy preservation, heterogeneous-objective handling, and communication efficiency. Each agent maintains a private Gaussian Process (GP) surrogate trained on local data and communicates only through knowledge tokens-compact, lossy summaries containing directional signals, advantage scores, and optional language-model (LM) insights-without sharing raw data or model parameters. ADKO unifies GP-Upper Confidence Bound (GP-UCB), parallel Bayesian optimization, decentralized learning, and LM-guided discovery. We provide the first formal analysis of dual information loss: token compression, quantified via mutual-information-based fidelity, and LM approximation error, decomposed into bias and stochastic noise. Our main result shows cumulative regret decomposes into GP error, LM bias, LM noise, and compression loss, with necessary and sufficient conditions for sublinear regret. We also propose fidelity-aware token pruning to preserve high-information tokens under memory budget. Experiments on neural architecture s...",
+      "authors": [
+        "Lucas Nerone Rillo",
+        "Zhanhong Jiang",
+        "Nastaran Saadati",
+        "Aditya Balu",
+        "Baskar Ganapathysubramanian",
+        "Chinmay Hegde",
+        "Soumik Sarkar"
+      ]
+    }
+  ]
+}

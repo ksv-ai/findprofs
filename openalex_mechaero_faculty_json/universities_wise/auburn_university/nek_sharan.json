@@ -1,0 +1,248 @@
+{
+  "faculty_name": "Nek Sharan",
+  "full_name": "Nek Sharan",
+  "department": "Department of Aerospace Engineering",
+  "university": "Auburn University",
+  "author_id": "A5083776721",
+  "works_count": 34,
+  "cited_by_count": 119,
+  "h_index": 5,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 19
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 11
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 10
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 8
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turbulent shear-layer mixing: initial conditions, and direct-numerical and large-eddy simulations",
+      "publication_year": 2019,
+      "publication_date": "2019-08-19",
+      "doi": "https://doi.org/10.1017/jfm.2019.591",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 35,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Unicode",
+        "Reynolds number",
+        "Scalar (mathematics)",
+        "Physics",
+        "Turbulence",
+        "Mechanics",
+        "Direct numerical simulation",
+        "Large eddy simulation"
+      ],
+      "abstract": "Aspects of turbulent shear-layer mixing are investigated over a range of shear-layer Reynolds numbers, $Re_{\\unicode[STIX]{x1D6FF}}=\\unicode[STIX]{x0394}U\\unicode[STIX]{x1D6FF}/\\unicode[STIX]{x1D708}$ , based on the shear-layer free-stream velocity difference, $\\unicode[STIX]{x0394}U$ , and mixing-zone thickness, $\\unicode[STIX]{x1D6FF}$ , to probe the role of initial conditions in mixing stages and the evolution of the scalar-field probability density function (p.d.f.) and variance. Scalar transport is calculated for unity Schmidt numbers, approximating gas-phase diffusion. The study is based on direct-numerical simulation (DNS) and large-eddy simulation (LES), comparing different subgrid-scale (SGS) models for incompressible, uniform-density, temporally evolving forced shear-layer flows. Moderate-Reynolds-number DNS results help assess and validate LES SGS models in terms of scalar-spectrum and mixing estimates, as well as other metrics, to $Re_{\\unicode[STIX]{x1D6FF}}\\lesssim 3.3\\times 10^{4}$ . High-Reynolds-number LES investigations to $Re_{\\unicode[STIX]{x1D6FF}}\\lesssim 5\\times 10^{5}$ help identify flow parameters and conditions that influence the evolution of scalar var...",
+      "authors": [
+        "Nek Sharan",
+        "Georgios Matheou",
+        "Paul E. Dimotakis"
+      ]
+    },
+    {
+      "title": "Time-stable overset grid method for hyperbolic problems using summation-by-parts operators",
+      "publication_year": 2018,
+      "publication_date": "2018-02-07",
+      "doi": "https://doi.org/10.1016/j.jcp.2018.01.049",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 29,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2018.01.049",
+      "concepts": [
+        "Summation by parts",
+        "Grid",
+        "Interpolation (computer graphics)",
+        "Norm (philosophy)",
+        "Mathematics",
+        "Partial differential equation",
+        "Applied mathematics",
+        "Stability (learning theory)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nek Sharan",
+        "Carlos Pantano",
+        "Daniel J. Bodony"
+      ]
+    },
+    {
+      "title": "Mixing, scalar boundedness, and numerical dissipation in large-eddy simulations",
+      "publication_year": 2018,
+      "publication_date": "2018-05-09",
+      "doi": "https://doi.org/10.1016/j.jcp.2018.05.005",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 18,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2018.05.005",
+      "concepts": [
+        "Dissipation",
+        "Scalar (mathematics)",
+        "Turbulence",
+        "Large eddy simulation",
+        "Discretization",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Mixing (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nek Sharan",
+        "Georgios Matheou",
+        "Paul E. Dimotakis"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Curvilinear Moving Overset Method for High-order Non-dissipative Schemes",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://doi.org/10.48550/arxiv.2606.17448",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.17448",
+      "concepts": [
+        "Inviscid flow",
+        "Curvilinear coordinates",
+        "Mathematics",
+        "Eigenvalues and eigenvectors",
+        "Flow (mathematics)",
+        "Mathematical analysis",
+        "Stability (learning theory)",
+        "Scalar (mathematics)"
+      ],
+      "abstract": "This paper presents a non-dissipative, high-order, moving overset method for curvilinear grids to simulate unsteady compressible flows in complex geometries with moving components. Centered finite-difference schemes that are up to sixth-order accurate in the interior are used with a weak moving overset interface treatment. The novel aspects of the proposed approach compared to conventional overset methods are: (i) instead of overwriting all conservative or primitive variables at the interface (or fringe) points with the interpolated values, a characteristic decomposition is performed and only the incoming characteristic variables are imposed for inviscid flows, consistent with the hyperbolic character of the Euler equations; for viscous flows, the viscous fluxes are imposed in addition to the incoming characteristics variables, (ii) instead of using multiple layers of fringe points at the interface, the proposed approach ensures high-order accuracy and stability with a single layer, thus minimizing the parallel communication costs at each timestep, and (iii) the proposed approach ensures long time stability with non-dissipative schemes without introducing artificial dissipation ...",
+      "authors": [
+        "Minhazul Islam",
+        "Nek Sharan"
+      ]
+    },
+    {
+      "title": "Curvilinear Moving Overset Method for High-order Non-dissipative Schemes",
+      "publication_year": 2026,
+      "publication_date": "2026-06-16",
+      "doi": "https://arxiv.org/abs/2606.17448",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.17448",
+      "concepts": [
+        "Inviscid flow",
+        "Curvilinear coordinates",
+        "Mathematics",
+        "Eigenvalues and eigenvectors",
+        "Flow (mathematics)",
+        "Mathematical analysis",
+        "Stability (learning theory)",
+        "Scalar (mathematics)"
+      ],
+      "abstract": "This paper presents a non-dissipative, high-order, moving overset method for curvilinear grids to simulate unsteady compressible flows in complex geometries with moving components. Centered finite-difference schemes that are up to sixth-order accurate in the interior are used with a weak moving overset interface treatment. The novel aspects of the proposed approach compared to conventional overset methods are: (i) instead of overwriting all conservative or primitive variables at the interface (or fringe) points with the interpolated values, a characteristic decomposition is performed and only the incoming characteristic variables are imposed for inviscid flows, consistent with the hyperbolic character of the Euler equations; for viscous flows, the viscous fluxes are imposed in addition to the incoming characteristics variables, (ii) instead of using multiple layers of fringe points at the interface, the proposed approach ensures high-order accuracy and stability with a single layer, thus minimizing the parallel communication costs at each timestep, and (iii) the proposed approach ensures long time stability with non-dissipative schemes without introducing artificial dissipation ...",
+      "authors": [
+        "Minhazul Islam",
+        "Nek Sharan"
+      ]
+    },
+    {
+      "title": "Multiscale Computation of Plume Expansion in Continuum and Rarefied Regimes",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1132",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plume",
+        "Mechanics",
+        "Computation",
+        "Physics",
+        "Jet (fluid)",
+        "Solver",
+        "Statistical physics",
+        "Parametric statistics"
+      ],
+      "abstract": "The plume expansion in rarefied ambient conditions exhibits significantly different shock dynamics and flow statistics compared to the expansion in the earth's atmospheric conditions. In particular, the plume flow in transitional regimes (Knudsen number between continuum and free-molecular flows) remains poorly understood. Numerical prediction of such flows is complicated because of the challenge of selecting appropriate governing equations that balance accuracy and computational cost across regimes. To address the challenge, the present study adapts the Unified Gas Kinetic Wave-Particle (UGKWP) method for plume (or jet) flows ranging from continuum to weakly rarefied regimes. The solver is first validated in the continuum regime through comparisons with the well-characterized underexpanded jet flows, followed by a parametric study of planar underexpanded jets over a range of pressure ratios to examine the transition from shock-train to Mach-cell structures. To assess performance in the rarefied regime, the UGKWP method is further evaluated against the vacuum-plume configuration from the literature. The results demonstrate the capability of the developed framework to model multi...",
+      "authors": [
+        "Ganesh Dhungana",
+        "Nek Sharan"
+      ]
+    },
+    {
+      "title": "Non-Dissipative Moving Overset Grid Framework for Unsteady Aerodynamics",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1133",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Inviscid flow",
+        "Aerodynamics",
+        "Grid",
+        "Computer science",
+        "Flow (mathematics)",
+        "Curvilinear coordinates",
+        "Vortex",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Flow-structure interactions in applications, such as bio-inspired flight, wing flutter, and rotor flows, are driven by transient vortical structures that interact, merge, and reorganize. Accurately resolving the dynamics of these flow structures is key to understanding and predicting the aerodynamic performance in those applications. The wide range of spatial and temporal scales motivates the use of high-order non-dissipative methods in computational studies. Moreover, moving-body flow problems are commonly handled using body-conforming overset grids due to their flexibility in managing complex, multi-body configurations. Existing unsteady flow simulations using overset grids typically require artificial dissipation or low-pass spatial filtering to ensure long-time numerical stability. Such treatments can nonphysically alter critical flow features and dampen vortical structures and shear turbulence in the wake. A high-order scheme without any artificial dissipation avoids undesirable damping, thereby helping obtain an accurate resolution of the flow structures. This paper proposes and investigates a high-order non-dissipative moving overset grid approach in a generalized curvili...",
+      "authors": [
+        "Minhazul Islam",
+        "Vrishank Raghav",
+        "Nek Sharan"
+      ]
+    },
+    {
+      "title": "Numerical Investigation of the Afterbody Effects on Flow-Induced Vibration",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1051",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Curvature",
+        "Mechanics",
+        "Vortex",
+        "Wake",
+        "Vibration",
+        "Mathematics",
+        "Vorticity",
+        "Geometry"
+      ],
+      "abstract": "Modeling and prediction of flow-induced vibration (FIV) of non-canonical bluff bodies is challenging because their responses can depart from classical vortex-induced vibration (VIV) and galloping. While canonical configurations such as circular cylinders and square cylinders at zero angle of attack exhibit well-defined VIV and galloping responses, respectively, structures with modified forebody–afterbody combinations can show hybrid or transitional behavior. In this study, we isolate the role of afterbody by considering a two-dimensional bluff body with a fixed circular forebody and a super-ellipsoidal afterbody of varying curvature �� and a fixed aspect ratio. The flow equations are solved in a non-inertial frame attached to the oscillating cylinder, coupled to a single degree-of-freedom spring–mass–damper system, using a high-order in-house solver on an overset curvilinear grid. The simulations show that low-curvature afterbodies (�� ≈ 1.0 − 1.5) produce a galloping response, high-curvature afterbodies (�� ≳ 1.7) exhibit the classical VIV, and an intermediate curvature (�� ≈ 1.6) yields a mixed VIV–galloping regime. Analysis of vorticity fields, wake modes, energy-transfer met...",
+      "authors": [
+        "Uday Shanker Howlader",
+        "Nek Sharan"
+      ]
+    }
+  ]
+}

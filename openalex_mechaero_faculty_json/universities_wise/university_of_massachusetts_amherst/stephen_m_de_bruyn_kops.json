@@ -1,0 +1,262 @@
+{
+  "faculty_name": "Stephen M. de Bruyn Kops",
+  "full_name": "Stephen M. de Bruyn Kops",
+  "department": "Department of Mechanical and Industrial Engineering",
+  "university": "University of Massachusetts Amherst",
+  "author_id": "A5010817082",
+  "works_count": 67,
+  "cited_by_count": 924,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 35
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 26
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 18
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 9
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 8
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct numerical simulation of laboratory experiments in isotropic turbulence",
+      "publication_year": 1998,
+      "publication_date": "1998-09-01",
+      "doi": "https://doi.org/10.1063/1.869733",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 96,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Turbulence",
+        "Isotropy",
+        "Massively parallel",
+        "Direct numerical simulation",
+        "Computer simulation",
+        "Flow (mathematics)",
+        "Mechanics"
+      ],
+      "abstract": "Massively parallel computers are now large enough to support accurate direct numerical simulations (DNSs) of laboratory experiments on isotropic turbulence, providing researchers with a full description of the flow field as a function of space and time. The high accuracy of the simulations is demonstrated by their agreement with the underlying laboratory experiment and on checks of numerical accuracy. In order to simulate the experiments, requirements for the largest and smallest length scales computed must be met. Furthermore, an iterative technique is developed in order to initialize the larger length scales in the flow. Using these methods, DNS is shown to accurately simulate isotropic turbulence decay experiments such as those of Comte-Bellot and Corrsin [J. Fluid Mech. 48, 273 (1971)].",
+      "authors": [
+        "Stephen M. de Bruyn Kops",
+        "James J. Riley"
+      ]
+    },
+    {
+      "title": "Turbulent/non-turbulent interfaces in wakes in stably stratified fluids",
+      "publication_year": 2016,
+      "publication_date": "2016-05-16",
+      "doi": "https://doi.org/10.1017/jfm.2016.285",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 60,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Enstrophy",
+        "Turbulence",
+        "Kolmogorov microscales",
+        "Mechanics",
+        "Turbulence kinetic energy",
+        "Buoyancy",
+        "Physics",
+        "Stratified flows"
+      ],
+      "abstract": "We report on a study, employing direct numerical simulations, of the turbulent/non-turbulent interface of a wake in a stably stratified fluid. It is found that thresholds for both enstrophy and potential enstrophy are needed to identify the interface. Using conditional averaging relative to the location of the interface, various quantities of interest are examined. The thickness of the interface is found to scale with the Kolmogorov scale. From an examination of the Ozmidov and Kolmogorov length scales as well as the buoyancy Reynolds number, it is found that the buoyancy Reynolds number decreases and becomes of order 1 near the interface, indicating the suppression of the turbulence there by the stable stratification. Finally the overall rate of loss of energy due to internal wave radiation is found to be comparable to the overall rate of loss due to turbulent kinetic energy dissipation.",
+      "authors": [
+        "Tomoaki Watanabe",
+        "James J. Riley",
+        "Stephen M. de Bruyn Kops",
+        "Peter Diamessis",
+        "Qi Zhou"
+      ]
+    },
+    {
+      "title": "The effects of stable stratification on the decay of initially isotropic homogeneous turbulence",
+      "publication_year": 2018,
+      "publication_date": "2018-12-11",
+      "doi": "https://doi.org/10.1017/jfm.2018.888",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Froude number",
+        "Turbulence",
+        "Physics",
+        "Scaling",
+        "Stratification (seeds)",
+        "Buoyancy",
+        "Stratified flows",
+        "Mechanics"
+      ],
+      "abstract": "We report on direct numerical simulations of the decay of initially isotropic, homogeneous turbulence subject to the application of stable density stratification. Flows were simulated for three different initial Reynolds numbers, but for the same initial Froude number. We find that the flows pass through three different dynamical regimes as they decay, depending on the local values of the Froude number and activity parameter. These regimes are analogous to those seen in the experimental study of Spedding (J. Fluid Mech., vol. 337, 1997, pp. 283–301) for the wake of a sphere. The flows initially decay with little influence of stratification, up to approximately one buoyancy period, when the local Froude number has dropped below 1. At this point the flows have adjusted to the density stratification, and, if the activity parameter is large enough, begin to decay at a slower rate and spread horizontally at a faster rate, consistent with the predictions of Davidson (J. Fluid Mech., vol. 663, 2010, pp. 268–292) and the scaling arguments of Billant & Chomaz (Phys. Fluids, vol. 13, 2001, pp. 1645–1651). We refer to this second regime as the stratified turbulence regime. As the flows con...",
+      "authors": [
+        "Stephen M. de Bruyn Kops",
+        "James J. Riley"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Impact of alignments between fluctuating and mean density gradients on the scale-dependent energetics of stably stratified turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://doi.org/10.48550/arxiv.2606.14227",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.14227",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Dissipation",
+        "Energetics",
+        "Kinetic energy",
+        "Turbulence kinetic energy",
+        "Stratified flows",
+        "Buoyancy"
+      ],
+      "abstract": "Non-trivial alignments between vorticity and the strain-rate tensor play an important role in the evolution of velocity gradients and the energy cascade in isotropic turbulence. Here we explore how alignments between the fluctuating and mean density gradients impact the mechanisms governing the turbulent kinetic energy (TKE) and available potential energy (APE) across scales in stably stratified turbulence. This is motivated by analytical results that demonstrate a connection between them, and is conducted using direct numerical simulations (DNS) of statistically stationary, stably stratified turbulence for $Pr = 1, 7, 50$ in the strongly stratified regime. After demonstrating how the gradient field alignments depend on scale and $Pr$, we show that the alignments are intimately connected to the reversal of the buoyancy flux at small-scales, and that regions of strong alignment and misalignment correspond to regions where the horizontal TKE inter-scale flux becomes weak. The same is also true of the APE flux, except that at larger scales, regions of strong alignment are associated with an upscale APE flux. The TKE and APE dissipation rates, and the mixing coefficient also show a ...",
+      "authors": [
+        "Soumak Bhattacharjee",
+        "Stephen M. de Bruyn Kops",
+        "Andrew D. Bragg"
+      ]
+    },
+    {
+      "title": "Impact of alignments between fluctuating and mean density gradients on the scale-dependent energetics of stably stratified turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-06-12",
+      "doi": "https://arxiv.org/abs/2606.14227",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.14227",
+      "concepts": [
+        "Turbulence",
+        "Physics",
+        "Dissipation",
+        "Energetics",
+        "Kinetic energy",
+        "Turbulence kinetic energy",
+        "Stratified flows",
+        "Buoyancy"
+      ],
+      "abstract": "Non-trivial alignments between vorticity and the strain-rate tensor play an important role in the evolution of velocity gradients and the energy cascade in isotropic turbulence. Here we explore how alignments between the fluctuating and mean density gradients impact the mechanisms governing the turbulent kinetic energy (TKE) and available potential energy (APE) across scales in stably stratified turbulence. This is motivated by analytical results that demonstrate a connection between them, and is conducted using direct numerical simulations (DNS) of statistically stationary, stably stratified turbulence for $Pr = 1, 7, 50$ in the strongly stratified regime. After demonstrating how the gradient field alignments depend on scale and $Pr$, we show that the alignments are intimately connected to the reversal of the buoyancy flux at small-scales, and that regions of strong alignment and misalignment correspond to regions where the horizontal TKE inter-scale flux becomes weak. The same is also true of the APE flux, except that at larger scales, regions of strong alignment are associated with an upscale APE flux. The TKE and APE dissipation rates, and the mixing coefficient also show a ...",
+      "authors": [
+        "Soumak Bhattacharjee",
+        "Stephen M. de Bruyn Kops",
+        "Andrew D. Bragg"
+      ]
+    },
+    {
+      "title": "Tensor network compression using fluid dynamics as a testbed: Analytical foundations in one dimension",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.48550/arxiv.2606.17064",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.17064",
+      "concepts": [
+        "Lossless compression",
+        "Lossy compression",
+        "Data compression",
+        "Tensor (intrinsic definition)",
+        "Algorithm",
+        "Scaling",
+        "Mathematics",
+        "Data compression ratio"
+      ],
+      "abstract": "High performance computers produce extreme-scale data sets that require sampling or compression if they are to be used to their full potential. Existing data compression techniques typically exploit features such as sparsity in the data, homogeneity in the data, or {\\it a priori} knowledge of what subsets of data are of most interest. Fluid dynamics data in general do not exhibit these features and so are attractive test beds for generic compression techniques that are objective, robust, and tuneable with respect to information lost due to compression. Presented here is a method based on tensor networks, specifically matrix product states or tensor trains, that meets these requirements. The method is demonstrated for compression in one-dimension and is extensible to higher dimensionality. Lossless compression is demonstrated for random Fourier series for sufficiently high bond dimension of the tensor network, with the memory required to store the tensor network scaling directly proportional to the bond dimension. The lossy compression exhibited at lower bond dimension can be well within the relative error of many fluid simulations. The compression algorithm is tested for the tim...",
+      "authors": [
+        "Matthew D. Horner",
+        "Callum W. Duncan",
+        "Oliver T. Brown",
+        "Stephen M. de Bruyn Kops",
+        "M. S. Meena"
+      ]
+    },
+    {
+      "title": "Tensor network compression using fluid dynamics as a testbed: Analytical foundations in one dimension",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://arxiv.org/abs/2606.17064",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.17064",
+      "concepts": [
+        "Lossless compression",
+        "Lossy compression",
+        "Data compression",
+        "Tensor (intrinsic definition)",
+        "Algorithm",
+        "Scaling",
+        "Mathematics",
+        "Data compression ratio"
+      ],
+      "abstract": "High performance computers produce extreme-scale data sets that require sampling or compression if they are to be used to their full potential. Existing data compression techniques typically exploit features such as sparsity in the data, homogeneity in the data, or {\\it a priori} knowledge of what subsets of data are of most interest. Fluid dynamics data in general do not exhibit these features and so are attractive test beds for generic compression techniques that are objective, robust, and tuneable with respect to information lost due to compression. Presented here is a method based on tensor networks, specifically matrix product states or tensor trains, that meets these requirements. The method is demonstrated for compression in one-dimension and is extensible to higher dimensionality. Lossless compression is demonstrated for random Fourier series for sufficiently high bond dimension of the tensor network, with the memory required to store the tensor network scaling directly proportional to the bond dimension. The lossy compression exhibited at lower bond dimension can be well within the relative error of many fluid simulations. The compression algorithm is tested for the tim...",
+      "authors": [
+        "Matthew D. Horner",
+        "Callum W. Duncan",
+        "Oliver T. Brown",
+        "Stephen M. de Bruyn Kops",
+        "Muralikrishnan Gopalakrishnan Meena"
+      ]
+    },
+    {
+      "title": "Pixel-Resolved Long-Context Learning for Turbulence at Exascale: Resolving Small-scale Eddies Toward the Viscous Limit",
+      "publication_year": 2026,
+      "publication_date": "2026-05-25",
+      "doi": "https://doi.org/10.1109/ipdps65963.2026.00039",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2507.16697",
+      "concepts": [
+        "Multiphysics",
+        "Turbulence",
+        "Scalability",
+        "Scaling",
+        "Computer science",
+        "Grid",
+        "Computational science",
+        "Dissipative system"
+      ],
+      "abstract": "Turbulence plays a crucial role in multiphysics applications, including aerodynamics, fusion, and combustion. Accurately capturing turbulence's multiscale characteristics is essential for reliable predictions of multiphysics interactions, but remains a grand challenge even for exascale supercomputers and advanced deep learning models. The extreme-resolution data required to represent turbulence, ranging from billions to trillions of grid points, pose prohibitive computational costs for models based on architectures like vision transformers. To address this challenge, we introduce a multiscale hierarchical Turbulence Transformer that reduces sequence length from billions to a few millions and a novel RingX sequence parallelism approach that enables scalable long-context learning. We perform scaling and science runs on the Frontier supercomputer. Our approach demonstrates excellent performance up to 1.1 EFLOPS on 32,768 AMD GPUs, with a scaling efficiency of 94%. To our knowledge, this is the first AI model for turbulence that can capture small-scale eddies down to the dissipative range.",
+      "authors": [
+        "Junqi Yin",
+        "Mijanur Palash",
+        "M. Paul Laiu",
+        "Muralikrishnan Gopalakrishnan Meena",
+        "John Gounley",
+        "Stephen M. de Bruyn Kops",
+        "Feiyi Wang",
+        "Ramanan Sankaran",
+        "Pei Zhang"
+      ]
+    }
+  ]
+}

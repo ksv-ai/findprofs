@@ -1,0 +1,272 @@
+{
+  "faculty_name": "Meng Wang",
+  "full_name": "Meng Wang",
+  "department": "Department of Aerospace and Mechanical Engineering",
+  "university": "University of Notre Dame",
+  "author_id": "A5100377147",
+  "works_count": 1467,
+  "cited_by_count": 45588,
+  "h_index": 108,
+  "top_topics": [
+    {
+      "topic": "Advanced Image and Video Retrieval Techniques",
+      "count": 271
+    },
+    {
+      "topic": "Multimodal Machine Learning Applications",
+      "count": 172
+    },
+    {
+      "topic": "Image Retrieval and Classification Techniques",
+      "count": 155
+    },
+    {
+      "topic": "Video Analysis and Summarization",
+      "count": 138
+    },
+    {
+      "topic": "Human Pose and Action Recognition",
+      "count": 128
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "LightGCN",
+      "publication_year": 2020,
+      "publication_date": "2020-07-25",
+      "doi": "https://doi.org/10.1145/3397271.3401063",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 4409,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Collaborative filtering",
+        "Convolution (computer science)",
+        "Graph",
+        "Recommender system",
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Machine learning"
+      ],
+      "abstract": "Graph Convolution Network (GCN) has become new state-of-the-art for collaborative filtering. Nevertheless, the reasons of its effectiveness for recommendation are not well understood. Existing work that adapts GCN to recommendation lacks thorough ablation analyses on GCN, which is originally designed for graph classification tasks and equipped with many neural network operations. However, we empirically find that the two most common designs in GCNs -- feature transformation and nonlinear activation -- contribute little to the performance of collaborative filtering. Even worse, including them adds to the difficulty of training and degrades recommendation performance.",
+      "authors": [
+        "Xiangnan He",
+        "Kuan Deng",
+        "Xiang Wang",
+        "Yan Li",
+        "Yongdong Zhang",
+        "Meng Wang"
+      ]
+    },
+    {
+      "title": "3-D Object Retrieval and Recognition With Hypergraph Analysis",
+      "publication_year": 2012,
+      "publication_date": "2012-08-15",
+      "doi": "https://doi.org/10.1109/tip.2012.2199502",
+      "venue": "IEEE Transactions on Image Processing",
+      "type": "article",
+      "cited_by_count": 645,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypergraph",
+        "Object (grammar)",
+        "Computer science",
+        "Cognitive neuroscience of visual object recognition",
+        "Vertex (graph theory)",
+        "Artificial intelligence",
+        "Pattern recognition (psychology)",
+        "Set (abstract data type)"
+      ],
+      "abstract": "View-based 3-D object retrieval and recognition has become popular in practice, e.g., in computer aided design. It is difficult to precisely estimate the distance between two objects represented by multiple views. Thus, current view-based 3-D object retrieval and recognition methods may not perform well. In this paper, we propose a hypergraph analysis approach to address this problem by avoiding the estimation of the distance between objects. In particular, we construct multiple hypergraphs for a set of 3-D objects based on their 2-D views. In these hypergraphs, each vertex is an object, and each edge is a cluster of views. Therefore, an edge connects multiple vertices. We define the weight of each edge based on the similarities between any two views within the cluster. Retrieval and recognition are performed based on the hypergraphs. Therefore, our method can explore the higher order relationship among objects and does not use the distance between objects. We conduct experiments on the National Taiwan University 3-D model dataset and the ETH 3-D object collection. Experimental results demonstrate the effectiveness of the proposed method by comparing with the state-of-the-art me...",
+      "authors": [
+        "Yue Gao",
+        "Meng Wang",
+        "Dacheng Tao",
+        "Rongrong Ji",
+        "Qionghai Dai"
+      ]
+    },
+    {
+      "title": "Revisiting Graph Based Collaborative Filtering: A Linear Residual Graph Convolutional Network Approach",
+      "publication_year": 2020,
+      "publication_date": "2020-04-03",
+      "doi": "https://doi.org/10.1609/aaai.v34i01.5330",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "conference-paper",
+      "cited_by_count": 635,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1609/aaai.v34i01.5330",
+      "concepts": [
+        "Computer science",
+        "Collaborative filtering",
+        "Recommender system",
+        "Graph",
+        "Residual",
+        "Smoothing",
+        "Theoretical computer science",
+        "Bipartite graph"
+      ],
+      "abstract": "Graph Convolutional Networks~(GCNs) are state-of-the-art graph based representation learning models by iteratively stacking multiple layers of convolution aggregation operations and non-linear activation operations. Recently, in Collaborative Filtering~(CF) based Recommender Systems~(RS), by treating the user-item interaction behavior as a bipartite graph, some researchers model higher-layer collaborative signals with GCNs. These GCN based recommender models show superior performance compared to traditional works. However, these models suffer from training difficulty with non-linear activations for large user-item graphs. Besides, most GCN based models could not model deeper layers due to the over smoothing effect with the graph convolution operation. In this paper, we revisit GCN based CF models from two aspects. First, we empirically show that removing non-linearities would enhance recommendation performance, which is consistent with the theories in simple graph convolutional networks. Second, we propose a residual network structure that is specifically designed for CF with user-item interaction modeling, which alleviates the over smoothing problem in graph convolution aggrega...",
+      "authors": [
+        "Lei Chen",
+        "Le Wu",
+        "Richang Hong",
+        "Kun Zhang",
+        "Meng Wang"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Temperature Correction of Fast-Response Pressure Sensitive Paint Measurement in High Speed Flow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-981-95-3037-3_38",
+      "venue": "Lecture notes in mechanical engineering",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Wind tunnel",
+        "Sensitivity (control systems)",
+        "Temperature measurement",
+        "Atmospheric pressure",
+        "Pressure measurement",
+        "Flow (mathematics)",
+        "Materials science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Zhaonan Xu",
+        "Meng Wang",
+        "Ronghuan Zhao",
+        "Haoying Zhong"
+      ]
+    },
+    {
+      "title": "Generating Realistic Human Mobility Data with Hybrid Large Language Model Agent",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.1145/3770854.3785685",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1145/3770854.3785685",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Multi-agent system",
+        "Key (lock)",
+        "Agent-based model",
+        "Data modeling",
+        "Component (thermodynamics)",
+        "Intelligent agent"
+      ],
+      "abstract": "",
+      "authors": [
+        "Chenyang Shao",
+        "Bingbing Fan",
+        "Jingtao Ding",
+        "Yuan Yuan",
+        "Meng Wang",
+        "Fengli Xu"
+      ]
+    },
+    {
+      "title": "Multi-Agent Debate based Concept Augmentation for Enhanced Cognitive Diagnosis",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.1145/3770854.3780196",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1145/3770854.3780196",
+      "concepts": [
+        "Computer science",
+        "Artificial intelligence",
+        "Cognition",
+        "Pairwise comparison",
+        "Machine learning",
+        "Process (computing)",
+        "Reliability (semiconductor)",
+        "Quality (philosophy)"
+      ],
+      "abstract": "Cognitive Diagnosis (CD) models are constrained by the data quality of students' response logs. Recent advancements in Large Language Model (LLM) based data augmentation show promise for enhancing CD. However, ensuring the reliability and accuracy of LLM-generated annotations remains a significant challenge. In this paper, we propose Multi-Agent based Concept Augmentation for Cognitive Diagnosis (MACA-CD), a novel approach that enhances CD by generating and fusing reliable concept descriptions and relations based solely on concept names. MACA-CD consists of two main components: (1) a Multi-Agent Debate (MAD) based concept augmentation process that generates diverse and reliable concept descriptions and relations, reducing reliance on behavioral data. For concept descriptions, two agents generate outputs that include definitions, core features, and real-world applications, and continue debating until a judge agent determines that consensus has been reached. Concept relations are then identified using a Breadth-First Search approach to efficiently and progressively uncover relationships based on concept descriptions, with each step carried out by MAD. (2) a concept augmentation-en...",
+      "authors": [
+        "Pengyang Shao",
+        "Lei Chen",
+        "Fei Liu",
+        "Yonghui Yang",
+        "Xun Yang",
+        "Meng Wang"
+      ]
+    },
+    {
+      "title": "FrePL: Frequency-guided Pseudo-labeling for Semi-supervised Remote Physiological Measurement",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1007/s11633-025-1621-x",
+      "venue": "Machine Intelligence Research",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Photoplethysmogram",
+        "Artificial intelligence",
+        "Thresholding",
+        "Discriminative model",
+        "Benchmark (surveying)",
+        "Consistency (knowledge bases)",
+        "Coherence (philosophical gambling strategy)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Qi Li",
+        "Wei Qian",
+        "Dan Guo",
+        "Meng Wang"
+      ]
+    },
+    {
+      "title": "Scan-Invariant Mamba With Differentiated Sequence Contrastive Learning in Computational Pathology",
+      "publication_year": 2026,
+      "publication_date": "2026-02-27",
+      "doi": "https://doi.org/10.1109/tmi.2026.3668909",
+      "venue": "IEEE Transactions on Medical Imaging",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Discriminative model",
+        "Computer science",
+        "Sequence (biology)",
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "Pattern recognition (psychology)",
+        "Code (set theory)",
+        "Sequence learning"
+      ],
+      "abstract": "Multiple instance learning (MIL) is a commonly used paradigm for histopathological analysis due to the ultra-high resolution and coarse-grained labels of Whole Slide Images (WSIs). Recent studies apply Mamba architecture to WSI classification by modeling MIL as long-sequence tasks, but a key discrepancy remains: Mamba's output is sensitive to scanning modes, whereas MIL requires scan-invariant predictions. To address this problem, we propose Scan-invariant Mamba with Differentiated Sequence Contrastive Learning (SMDC-MIL), a novel Mamba-based MIL approach enabling bag-level feature learning independent of input modes. Our method mitigates scanning-mode impacts and adapts Mamba to learn the bag discrimination features that are independent of the input mode via two innovations: 1) a differentiated sequence generation mechanism that employs instance rearrangement, augmentation, and masking to simulate real-world scanning variations by maximizing differences in sequence order, length, and composition from the same WSI; and 2) a differentiated sequence contrastive learning architecture that enforces consistent bag-level representations and predictions across diverse sequences using t...",
+      "authors": [
+        "Sheng Huang",
+        "Xin Zhang",
+        "Xiang Zhu",
+        "B Z Liu",
+        "Fengtao Zhou",
+        "Kang Li",
+        "Hao Chen",
+        "Meng Wang"
+      ]
+    }
+  ]
+}

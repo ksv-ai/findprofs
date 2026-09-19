@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Guang Lin",
+  "full_name": "Guang Lin",
+  "department": "Department of Mathematics / School of Mechanical Engineering",
+  "university": "Purdue University",
+  "author_id": "A5078138445",
+  "works_count": 399,
+  "cited_by_count": 6859,
+  "h_index": 44,
+  "top_topics": [
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 78
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 67
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 39
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 22
+    },
+    {
+      "topic": "Power System Optimization and Stability",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "EEG-based emotion recognition using 4D convolutional recurrent neural network",
+      "publication_year": 2020,
+      "publication_date": "2020-09-14",
+      "doi": "https://doi.org/10.1007/s11571-020-09634-1",
+      "venue": "Cognitive Neurodynamics",
+      "type": "article",
+      "cited_by_count": 248,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7568753",
+      "concepts": [
+        "Computer science",
+        "Convolutional neural network",
+        "Electroencephalography",
+        "Artificial intelligence",
+        "Recurrent neural network",
+        "Pattern recognition (psychology)",
+        "Emotion recognition",
+        "Deep learning"
+      ],
+      "abstract": "",
+      "authors": [
+        "Fangyao Shen",
+        "Guojun Dai",
+        "Guang Lin",
+        "Jianhai Zhang",
+        "Wanzeng Kong",
+        "Hong Zeng"
+      ]
+    },
+    {
+      "title": "Compressive sensing based machine learning strategy for characterizing the flow around a cylinder with limited pressure measurements",
+      "publication_year": 2013,
+      "publication_date": "2013-12-01",
+      "doi": "https://doi.org/10.1063/1.4836815",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Physics",
+        "Cylinder",
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Norm (philosophy)",
+        "Algorithm"
+      ],
+      "abstract": "Compressive sensing is used to determine the flow characteristics around a cylinder (Reynolds number and pressure/flow field) from a sparse number of pressure measurements on the cylinder. Using a supervised machine learning strategy, library elements encoding the dimensionally reduced dynamics are computed for various Reynolds numbers. Convex L1 optimization is then used with a limited number of pressure measurements on the cylinder to reconstruct, or decode, the full pressure field and the resulting flow field around the cylinder. Aside from the highly turbulent regime (large Reynolds number) where only the Reynolds number can be identified, accurate reconstruction of the pressure field and Reynolds number is achieved. The proposed data-driven strategy thus achieves encoding of the fluid dynamics using the L2 norm, and robust decoding (flow field reconstruction) using the sparsity promoting L1 norm.",
+      "authors": [
+        "Ido Bright",
+        "Guang Lin",
+        "J. Nathan Kutz"
+      ]
+    },
+    {
+      "title": "Multi-output separable Gaussian process: Towards an efficient, fully Bayesian paradigm for uncertainty quantification",
+      "publication_year": 2013,
+      "publication_date": "2013-02-07",
+      "doi": "https://doi.org/10.1016/j.jcp.2013.01.011",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 178,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Gaussian process",
+        "Covariance",
+        "Algorithm",
+        "Computer science",
+        "Kronecker product",
+        "Measure (data warehouse)",
+        "Covariance matrix"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ilias Bilionis",
+        "Nicholas Zabaras",
+        "Bledar A. Konomi",
+        "Guang Lin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Machine Learning Inverse Design Reveals a Double Narrow-Band Absorption Approach for Effective Colored Radiative Cooling Paints",
+      "publication_year": 2026,
+      "publication_date": "2026-06-22",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c01941",
+      "venue": "Nano Letters",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Monte Carlo method",
+        "Inverse",
+        "Radiative cooling",
+        "Radiative transfer",
+        "Subtractive color",
+        "Colored",
+        "Absorption (acoustics)",
+        "Computer science"
+      ],
+      "abstract": "Colored radiative cooling paints offer immense potential for aesthetic thermal management. However, previous studies have been limited to either intuition-driven forward designs that are too expensive to yield non-intuitive optimal designs or to optimizations only at the level of idealized optical spectra. We present a machine-learning-enabled inverse design framework for generating paint formulations with optimal cooling performance and desired color. By integration of photon Monte Carlo simulations with surrogate modeling, this approach bridges the gap between theoretical spectra and physical realization. Our approach uncovers a non-intuitive “double narrow-band absorption” strategy that reduces solar heating power by up to 193 and 37 W/m 2 compared to conventional additive and single-band subtractive strategies, respectively. A systematic exploration of the HSL color space reveals that 24% of colors can achieve daytime subambient cooling when realistic material limitations are considered. This automated pipeline provides practical guidelines for designing high-performance, aesthetically tailored radiative cooling coatings.",
+      "authors": [
+        "Ziqi Guo",
+        "Dudong Feng",
+        "Daniel Carne",
+        "Guang Lin",
+        "Xiulin Ruan"
+      ]
+    },
+    {
+      "title": "Conformalized-KANs: uncertainty quantification with coverage guarantees for Kolmogorov–Arnold Networks (KANs) in scientific machine learning",
+      "publication_year": 2026,
+      "publication_date": "2026-05-28",
+      "doi": "https://doi.org/10.1088/2632-2153/ae7495",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/2632-2153/ae7495",
+      "concepts": [
+        "Sociology"
+      ],
+      "abstract": "Abstract This paper explores uncertainty quantification (UQ) methods in the context of Kolmogorov–Arnold Networks (KANs). We apply an ensemble approach to KANs to obtain a heuristic measure of UQ, enhancing interpretability and robustness in modeling complex functions. However, particularly in data-limited and complex scientific settings, ensemble-based uncertainty estimates, as is the case for many UQ methods, are sensitive to implicit distributional assumptions and do not provide formal coverage guarantees. Building on this, we develop conformalized-KANs, a conformal UQ framework for KANs that combines ensemble-based uncertainty estimates with split conformal prediction to generate calibrated prediction intervals with formal coverage guarantees. Numerical experiments are conducted to evaluate the effectiveness of these methods, focusing particularly on the robustness and accuracy of the prediction intervals under various hyperparameter settings. We further show that this framework extends naturally to recent KAN variants, including finite basis KANs and multi-fidelity KANs. The results demonstrate the potential of our approaches to improve the reliability and applicability of ...",
+      "authors": [
+        "Amirhossein Mollaali",
+        "Christian Moya",
+        "Amanda A. Howard",
+        "Alexander Heinlein",
+        "Panos Stinis",
+        "Guang Lin"
+      ]
+    },
+    {
+      "title": "LegONet: Plug-and-Play Structure-Preserving Neural Operator Blocks for Compositional PDE Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.21203/rs.3.rs-9067223/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-9067223/latest.pdf",
+      "concepts": [
+        "Modular design",
+        "Boundary (topology)",
+        "Operator (biology)",
+        "Computer science",
+        "Block (permutation group theory)",
+        "Stability (learning theory)",
+        "Algorithm",
+        "Artificial neural network"
+      ],
+      "abstract": "",
+      "authors": [
+        "Guang Lin",
+        "J Zhang",
+        "Yueqi Wang"
+      ]
+    },
+    {
+      "title": "BLADE: Bayesian Langevin active discovery with replica exchange for identification of complex systems",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1088/2632-2153/ae5b36",
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/2632-2153/ae5b36",
+      "concepts": [
+        "Computer science",
+        "Robustness (evolution)",
+        "Machine learning",
+        "Artificial intelligence",
+        "Bayesian probability",
+        "Probabilistic logic",
+        "Uncertainty quantification",
+        "Identification (biology)"
+      ],
+      "abstract": "Abstract Traditional methods for system discovery frequently struggle with efficient data usage and uncertainty quantification. Identifying the governing equations of complex dynamical systems from data presents a significant challenge in scientific discovery, especially when high-quality measurements are scarce and expensive to obtain. To overcome these limitations, we propose B ayesian L angevin A ctive D iscovery with Replica E xchange for Identification of Complex Systems (BLADE), a novel Bayesian framework that combines replica-exchange stochastic gradient Langevin Monte Carlo with active learning (AL). By balancing gradient-driven exploration and exploitation in coefficient space, BLADE provides probabilistic parameter estimation and principled uncertainty quantification. Faced with data scarcity, the probabilistic foundation of BLADE further facilitates the integration of AL through a hybrid acquisition strategy that combines predictive uncertainty with space-filling design, enabling efficient selection of informative samples. Across benchmark systems, BLADE reduces measurement requirements by roughly 60% for Lotka–Volterra and 40% for Burgers’ equation relative to random...",
+      "authors": [
+        "Cindy Xiangrui Kong",
+        "Haoyang Zheng",
+        "Guang Lin"
+      ]
+    },
+    {
+      "title": "Muon with Spectral Guidance: Efficient Optimization for Scientific Machine Learning",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6446627",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6446627",
+      "concepts": [
+        "Stability (learning theory)",
+        "Artificial neural network",
+        "Mathematics",
+        "Benchmark (surveying)",
+        "Convergence (economics)",
+        "Scalar (mathematics)",
+        "Algorithm",
+        "Applied mathematics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Binghang Lu",
+        "J. Zhang",
+        "Guang Lin"
+      ]
+    }
+  ]
+}

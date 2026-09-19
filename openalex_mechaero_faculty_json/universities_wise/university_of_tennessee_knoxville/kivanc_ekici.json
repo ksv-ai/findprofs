@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Kivanc Ekici",
+  "full_name": "Kivanc Ekici",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Tennessee-Knoxville",
+  "author_id": "A5049854190",
+  "works_count": 127,
+  "cited_by_count": 1560,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 66
+    },
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 47
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 36
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 18
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Nonlinear Analysis of Unsteady Flows in Multistage Turbomachines Using Harmonic Balance",
+      "publication_year": 2007,
+      "publication_date": "2007-04-11",
+      "doi": "https://doi.org/10.2514/1.22888",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 119,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Harmonic balance",
+        "Nonlinear system",
+        "Mechanics",
+        "Computational fluid dynamics",
+        "Harmonic analysis",
+        "Harmonic",
+        "Physics",
+        "Mathematics"
+      ],
+      "abstract": "A harmonic balance technique for the analysis of two-dimensional linear (small-disturbance) and nonlinear unsteady flows in multistage turbomachines is presented. The present method uses a mixed time-domain/frequency-domain approach that allows one to compute the unsteady aerodynamic response of multistage machines to both blade vibration (the flutter problem) and wake interaction (the forced response problem). In general, the flowfield may have multiple excitation frequencies that are not integer multiples of each other, so that the unsteady flow is (sometimes) aperiodic in time. Using our approach, we model each blade row using a computational grid spanning a single blade passage. In each blade row, we store several subtime level solutions. For flows that are periodic in time, these subtime levels span a single time period. For aperiodic flows, the temporal period spanned by these subtime level solutions is sufficiently long to sample the relevant discrete frequencies contained in the aperiodic flow. In both cases, these subtime level solutions are related to each other through the time-derivative terms in the Euler or Navier-Stokes equations and boundary conditions; complex p...",
+      "authors": [
+        "Kivanc Ekici",
+        "Kenneth C. Hall"
+      ]
+    },
+    {
+      "title": "Harmonic Balance Analysis of Limit Cycle Oscillations in Turbomachinery",
+      "publication_year": 2011,
+      "publication_date": "2011-07-01",
+      "doi": "https://doi.org/10.2514/1.j050858",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 68,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbomachinery",
+        "Harmonic balance",
+        "Computational fluid dynamics",
+        "Aeroelasticity",
+        "Aerodynamics",
+        "Solver",
+        "Nonlinear system",
+        "Control theory (sociology)"
+      ],
+      "abstract": "A harmonic balance technique for the analysis of limit cycle oscillations of turbomachinery blades is presented. This method couples a computational fluid dynamics model to a single-degree-of-freedom structural dynamic model of the turbomachinery blades. The computational fluid dynamics solver uses a nonlinear frequency-domain (harmonic balance) approach that allows one to model the blade row of a turbomachine on a computational grid spanning a single blade passage. Using the harmonic balance approach, several solutions, each one corresponding to a different subtime level of the periodic unsteady flow, are computed simultaneously. These subtime-level solutions are coupled to each other in the computational field by a spectral approximation of the time-derivative term in the Navier―Stokes equation and also by application of far-field and periodic boundary conditions. The structural dynamic model is based on a similar approach in which a single vibratory mode of interest is modeled using the harmonic balance technique. The two solvers are coupled together through the upwash condition on the surface of the blade and the resulting generalized aerodynamic forces. In the proposed appr...",
+      "authors": [
+        "Kivanc Ekici",
+        "Kenneth C. Hall"
+      ]
+    },
+    {
+      "title": "Multistage Coupling for Unsteady Flows in Turbomachinery",
+      "publication_year": 2005,
+      "publication_date": "2005-03-01",
+      "doi": "https://doi.org/10.2514/1.8520",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 47,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbomachinery",
+        "Coupling (piping)",
+        "Mechanics",
+        "Physics",
+        "Aerospace engineering",
+        "Computational fluid dynamics",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Flow (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kenneth C. Hall",
+        "Kivanc Ekici"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "FLEET Velocimetry Measurements of Boundary Layer Transition on a Hollow Cylinder in Mach 7 Flow",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0473",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Mach number",
+        "Hypersonic speed",
+        "Mechanics",
+        "Cylinder",
+        "Hypersonic flow",
+        "Flow (mathematics)",
+        "Interferometry"
+      ],
+      "abstract": "Femtosecond laser electronic excitation tagging (FLEET) velocimetry, IR thermography, and focused laser differential interferometry (FLDI) measurements of the transitional boundary layer region on a hollow-cylinder model in Mach 7 flow were done and compared with a recently developed Reynolds-Averaged Navier-Stokes (RANS) compatible transition model developed by researchers at NASA LaRC that was incorporated into a finite volume solver. Specifically, comparisons are made by means of skin-friction, surface heating, velocity profile shape factor, and more in the spirit of assessing the performance of such transition models. The favorable agreement between the CFD and experimental results provides the first independent assessment of this data-driven transition model. Furthermore, the presented velocity profile measurements represent some of the most comprehensive results for a hypersonic transitional boundary layer to date.",
+      "authors": [
+        "Nicholas Webber",
+        "Neel Reeves",
+        "Sophia Edwards",
+        "Kivanc Ekici",
+        "Mark Gragston"
+      ]
+    },
+    {
+      "title": "Torus Time-Spectral Method for Quasi-Periodic Problems",
+      "publication_year": 2025,
+      "publication_date": "2025-12-15",
+      "doi": "https://doi.org/10.48550/arxiv.2512.13631",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.13631",
+      "concepts": [
+        "Torus",
+        "Mathematics",
+        "Nonlinear system",
+        "Invariant (physics)",
+        "Convergence (economics)",
+        "Mathematical analysis",
+        "Spectral method",
+        "Collocation (remote sensing)"
+      ],
+      "abstract": "Quasi-periodic trajectories with two or more incommensurate frequencies are ubiquitous in nonlinear dynamics, yet the classical Fourier-based time-spectral method is tied to strictly periodic responses. We introduce a torus time-spectral method that lifts the governing equations to an extended angular phase space, applies double-Fourier collocation on the invariant torus, and solves for the state. The formulation exhibits spectral convergence for quasi-periodic problem which we give a rigorous mathematical proof and also verify numerically. We demonstrate the approach on Duffing oscillators and a nonlinear Klein-Gordon system, documenting spectral error decay on the torus and tight agreement with time-accurate integrations while using modest frequency grids. The method extends naturally to higher-dimensional tori and offers a computationally efficient framework for analyzing quasi-periodic phenomena in fluid mechanics, plasma physics, celestial mechanics, and other domains where multi-frequency dynamics arise.",
+      "authors": [
+        "Sailing He",
+        "Hang Li",
+        "Kivanc Ekici"
+      ]
+    },
+    {
+      "title": "Vortex-Induced Vibration Predictions of a Circular Cylinder Using an Efficient Pseudo-Time Code-Coupling Approach",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.3390/fluids10070182",
+      "venue": "Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/fluids10070182",
+      "concepts": [
+        "Coupling (piping)",
+        "Cylinder",
+        "Physics",
+        "Vortex",
+        "Vibration",
+        "Code (set theory)",
+        "Mechanics",
+        "Acoustics"
+      ],
+      "abstract": "Presented in this work is a harmonic balance (HB)-based pseudo-time code-coupling approach applied to a one-degree-of-freedom vortex-induced vibration (VIV) problem of a circular cylinder in a low-Reynolds-number laminar flow regime. Unlike physical time coupling used in traditional time-accurate methods, this novel approach updates both of the fluid and structure fields by integrating respective HB forms of governing equations in pseudo-time, and then couples the two fields in pseudo-time using a partitioned approach. A separate procedure is adopted to determine the VIV frequency at every code-coupling iteration, which enables the simultaneous convergence of variables of both fields in a single run of the solver. For the cases considered here, lock-in vibrations are predicted over a range of Reynolds numbers, inside and outside the resonant range. The results are verified by a time-accurate method and also validated against earlier experimental data, demonstrating the efficiency and robustness of the pseudo-time code-coupling approach.",
+      "authors": [
+        "Hang Li",
+        "Kivanc Ekici"
+      ]
+    },
+    {
+      "title": "Natural laminar flow airfoil design via adjoint-based transition onset delay",
+      "publication_year": 2024,
+      "publication_date": "2024-01-05",
+      "doi": "https://doi.org/10.1016/j.ast.2023.108854",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ast.2023.108854",
+      "concepts": [
+        "Airfoil",
+        "NACA airfoil",
+        "Laminar flow",
+        "Mathematics",
+        "Lift coefficient",
+        "Mechanics",
+        "Boundary layer",
+        "Turbulence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Reza Djeddi",
+        "Kivanc Ekici"
+      ]
+    },
+    {
+      "title": "Novel angular momentum-preserving finite volume method for nonlinear elastodynamic modeling",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119004",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Mathematical analysis",
+        "Finite element method",
+        "Mathematics",
+        "Physics",
+        "Finite volume method",
+        "Classical mechanics",
+        "Finite difference method"
+      ],
+      "abstract": "",
+      "authors": [
+        "Burak Cona",
+        "Stephanie TerMaath",
+        "Kivanc Ekici"
+      ]
+    }
+  ]
+}

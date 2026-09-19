@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Tamer Zaki",
+  "full_name": "Tamer A. Zaki",
+  "department": "Department of Mechanical Engineering",
+  "university": "Johns Hopkins University",
+  "author_id": "A5040500034",
+  "works_count": 279,
+  "cited_by_count": 5056,
+  "h_index": 42,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 210
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 43
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 40
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 39
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Mode interaction and the bypass route to transition",
+      "publication_year": 2005,
+      "publication_date": "2005-05-18",
+      "doi": "https://doi.org/10.1017/s0022112005003800",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 220,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Superposition principle",
+        "Laminar flow",
+        "Physics",
+        "Boundary layer",
+        "Coupling (piping)",
+        "Mode (computer interface)",
+        "Inlet",
+        "Mode coupling"
+      ],
+      "abstract": "The manner by which external vortical disturbances penetrate the laminar boundary layer and induce transition is explored. Linear theory suggests that the well-known Klebanoff mode precursor to transition can be understood as a superposition of Squire continuous modes. Shear sheltering influences the ability of free-stream disturbances to generate a packet of Squire modes. A coupling coefficient between continuous spectrum spectrum Orr–Sommerfeld and Squire modes is used to characterize the interaction. Full numerical simulations with prescribed modes at the inlet substantiate this approach. With two weakly coupled modes at the inlet, the boundary layer is little perturbed; with two strongly coupled modes, Klebanoff modes are produced; with one strongly coupled and one weakly coupled high-frequency mode, the complete transition process is simulated.",
+      "authors": [
+        "Tamer A. Zaki",
+        "Paul A. Durbin"
+      ]
+    },
+    {
+      "title": "DeepM&Mnet: Inferring the electroconvection multiphysics fields based on operator approximation by neural networks",
+      "publication_year": 2021,
+      "publication_date": "2021-03-23",
+      "doi": "https://doi.org/10.1016/j.jcp.2021.110296",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 216,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0021999121001911?via%3Dihub",
+      "concepts": [
+        "Multiphysics",
+        "Computer science",
+        "Nonlinear system",
+        "Artificial neural network",
+        "Field (mathematics)",
+        "Benchmark (surveying)",
+        "Scalar (mathematics)",
+        "Algorithm"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shengze Cai",
+        "Zhicheng Wang",
+        "Lu Lu",
+        "Tamer A. Zaki",
+        "George Em Karniadakis"
+      ]
+    },
+    {
+      "title": "From Streaks to Spots and on to Turbulence: Exploring the Dynamics of Boundary Layer Transition",
+      "publication_year": 2013,
+      "publication_date": "2013-09-17",
+      "doi": "https://doi.org/10.1007/s10494-013-9502-8",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 175,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Instability",
+        "Streak",
+        "Boundary layer",
+        "Physics",
+        "Turbulence",
+        "Mechanics",
+        "Population",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tamer A. Zaki"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Mitigating adjoint chaos in wall turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://doi.org/10.48550/arxiv.2606.25399",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.25399",
+      "concepts": [
+        "Turbulence",
+        "Mathematics",
+        "Sensitivity (control systems)",
+        "Perturbation (astronomy)",
+        "Position (finance)",
+        "Control theory (sociology)",
+        "Reynolds number",
+        "Data assimilation"
+      ],
+      "abstract": "Estimating past events in wall turbulence based solely on surface measurements and first principles is an ill-posed problem that is complicated by chaos. The sensitivity of a measurement to the earlier flow state is described by the adjoint Navier-Stokes equations, which are solved in reverse time starting from the measurement kernel at the sensing position and time. The resulting adjoint field is the spatio-temporal domain of dependence (DOD) of the sensor, which is a dual to the concept of the domain of influence (DOI) of an actuator in the linearized forward equations. In channel turbulence, the energy of each adjoint realization grows exponentially in backward time according to the Lyapunov exponent, even though the energy of the ensemble average should decay. We introduce a linear eddy-viscosity closure model in the ensemble-averaged adjoint equations, and directly compute the mean DOD and compare our prediction to the ensemble average. Furthermore, we demonstrate that the DOD of a wall-stress measurement and the DOI resulting from a wall-stress perturbation exhibit respective universal behaviors across Reynolds numbers. However, their spatio-temporal structures differ qual...",
+      "authors": [
+        "Qi Wang",
+        "Tamer A. Zaki"
+      ]
+    },
+    {
+      "title": "Mitigating adjoint chaos in wall turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-06-24",
+      "doi": "https://arxiv.org/abs/2606.25399",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.25399",
+      "concepts": [
+        "Turbulence",
+        "Mathematics",
+        "Sensitivity (control systems)",
+        "Perturbation (astronomy)",
+        "Position (finance)",
+        "Control theory (sociology)",
+        "Reynolds number",
+        "Data assimilation"
+      ],
+      "abstract": "Estimating past events in wall turbulence based solely on surface measurements and first principles is an ill-posed problem that is complicated by chaos. The sensitivity of a measurement to the earlier flow state is described by the adjoint Navier-Stokes equations, which are solved in reverse time starting from the measurement kernel at the sensing position and time. The resulting adjoint field is the spatio-temporal domain of dependence (DOD) of the sensor, which is a dual to the concept of the domain of influence (DOI) of an actuator in the linearized forward equations. In channel turbulence, the energy of each adjoint realization grows exponentially in backward time according to the Lyapunov exponent, even though the energy of the ensemble average should decay. We introduce a linear eddy-viscosity closure model in the ensemble-averaged adjoint equations, and directly compute the mean DOD and compare our prediction to the ensemble average. Furthermore, we demonstrate that the DOD of a wall-stress measurement and the DOI resulting from a wall-stress perturbation exhibit respective universal behaviors across Reynolds numbers. However, their spatio-temporal structures differ qual...",
+      "authors": [
+        "Qi Wang",
+        "Tamer A. Zaki"
+      ]
+    },
+    {
+      "title": "Assimilation of wall-pressure measurements in direct numerical simulations of high-speed flow over a cone–flare geometry",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.1017/jfm.2026.11684",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33621E0A2BF33028507275AFA47A6259/S002211202611684Xa.pdf/div-class-title-assimilation-of-wall-pressure-measurements-in-direct-numerical-simulations-of-high-speed-flow-over-a-cone-flare-geometry-div.pdf",
+      "concepts": [
+        "Mechanics",
+        "Data assimilation",
+        "Mach number",
+        "Computation",
+        "Flow (mathematics)",
+        "Instability",
+        "Separation (statistics)",
+        "Computer simulation"
+      ],
+      "abstract": "Ensemble-variational (EnVar) assimilation of wall-pressure measurements in direct numerical simulations of Mach 6 flow over a cone–flare is performed. The experimental data include pressure spectra and intensities from seven wall-mounted PCB sensors positioned upstream, within and downstream of the separation region induced by the compression corner. Assimilation of the first two sensors only, all upstream of separation, is insufficient to accurately predict the downstream flow. Assimilating all the sensor data is shown to be essential to correctly predict separation onset and the downstream wall-pressure data. Similar to the experiments, the assimilated flow features intense rope-like structures in the attached region. The simulations additionally predict a localised amplification of disturbances beneath the separation shock, where experimental data are not available. This amplification results from the interaction of the boundary-layer instability modes with the compression shock. The simulations also capture the sharp decrease in wall-pressure intensity across separation, and the amplification of low-frequency three-dimensional disturbances within the recirculation bubble. Ad...",
+      "authors": [
+        "Pierluigi Morra",
+        "Brett Tillman",
+        "Stuart J. Laurence",
+        "Tamer A. Zaki"
+      ]
+    },
+    {
+      "title": "Neural ensemble Kalman filter: Data assimilation for compressible flows with shocks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-17",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115136",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2026.115136",
+      "concepts": [
+        "Data assimilation",
+        "Ensemble Kalman filter",
+        "Spurious relationship",
+        "Artificial neural network",
+        "Nonlinear system",
+        "Computer science",
+        "Algorithm",
+        "Kalman filter"
+      ],
+      "abstract": "Data assimilation (DA) for compressible flows with shocks is challenging because many classical DA methods generate spurious oscillations and nonphysical features near uncertain shocks. We focus here on the ensemble Kalman filter (EnKF). We show that the poor performance of the EnKF may be attributed to the bimodal forecast distribution that can arise in the vicinity of an uncertain shock location; this violates the assumptions underpinning the EnKF, which assume a forecast which is close to Gaussian. To address this issue we introduce the new neural EnKF . The basic idea is to systematically embed neural function approximations within ensemble DA by mapping the forecast ensemble of shocked flows to the parameter space (weights and biases) of a deep neural network (NN) and to subsequently perform DA in that space. The nonlinear mapping encodes sharp and smooth flow features in an ensemble of NN parameters. Neural EnKF updates are therefore well-behaved only if the NN parameters vary smoothly within the neural representation of the forecast ensemble. We show that such a smooth variation of network parameters can be enforced via physics-informed transfer learning, and demonstrate ...",
+      "authors": [
+        "Xu‐Hui Zhou",
+        "Lorenzo Beronilla",
+        "Michael K. Sleeman",
+        "Hangchuan Hu",
+        "Matthias Morzfeld",
+        "Andrew M. Stuart",
+        "Tamer A. Zaki"
+      ]
+    },
+    {
+      "title": "Feature-preserving Latent-EnKF for Data Assimilation of Flows with Shocks",
+      "publication_year": 2026,
+      "publication_date": "2026-06-10",
+      "doi": "https://doi.org/10.48550/arxiv.2606.12559",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.12559",
+      "concepts": [
+        "Spurious relationship",
+        "Data assimilation",
+        "Ensemble Kalman filter",
+        "Classification of discontinuities",
+        "Shock (circulatory)",
+        "Gaussian",
+        "Kalman filter",
+        "Feature (linguistics)"
+      ],
+      "abstract": "The ensemble Kalman filter (EnKF) is widely adopted for sequential data assimilation, but fails for solutions with discontinuities, such as shocks in compressible flows. Uncertainty in shock location induces multimodal ensemble statistics that violate the Gaussian assumptions underlying the EnKF, producing large-scale spurious oscillations in the analysis state. We introduce a feature-preserving latent-EnKF that performs the ensemble update in a learned low-dimensional latent space, where shock and flow features admit a smooth manifold representation, thereby preserving sharp features during EnKF analysis. The updated latent state is mapped back to physical state through a shared decoder for all ensemble members. The algorithm eliminates the member-specific ordered training and positivity flooring used in prior approaches. Numerical experiments on a Sod shock tube and Mach 2 shock interaction with a 2D cylinder, using sparse and noisy observations, show accurate feature recovery of shocks and contact discontinuities without spurious oscillations.",
+      "authors": [
+        "Hemanth Chandravamsi",
+        "Hangchuan Hu",
+        "Ponkrshnan Thiagarajan",
+        "Tamer A. Zaki"
+      ]
+    }
+  ]
+}

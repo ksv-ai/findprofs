@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Sven Schmitz",
+  "full_name": "Sven Schmitz",
+  "department": "Department of Aerospace Engineering",
+  "university": "Pennsylvania State University-Main Campus",
+  "author_id": "A5064060241",
+  "works_count": 179,
+  "cited_by_count": 1693,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 48
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 46
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 40
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 36
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Guidelines for Volume Force Distributions Within Actuator Line Modeling of Wind Turbines on Large-Eddy Simulation-Type Grids",
+      "publication_year": 2013,
+      "publication_date": "2013-12-13",
+      "doi": "https://doi.org/10.1115/1.4026252",
+      "venue": "Journal of Solar Energy Engineering",
+      "type": "article",
+      "cited_by_count": 163,
+      "is_oa": true,
+      "oa_url": "https://asmedigitalcollection.asme.org/solarenergyengineering/article-pdf/136/3/031003/6869367/sol_136_03_031003.pdf",
+      "concepts": [
+        "Actuator",
+        "Detached eddy simulation",
+        "Computational fluid dynamics",
+        "Rotor (electric)",
+        "Large eddy simulation",
+        "Wake",
+        "Turbine",
+        "Turbine blade"
+      ],
+      "abstract": "Abstract The objective of this work is to develop and test a set of general guidelines for choosing parameters to be used in the state-of-the-art actuator line method (ALM) for modeling wind turbine blades in computational fluid dynamics (CFD). The actuator line method is being increasingly used for the computation of wake interactions in large wind farms in which fully blade-resolving simulations are expensive and require complicated rotating meshes. The focus is on actuator line behavior using fairly isotropic grids of low aspect ratio typically used for large-eddy simulation (LES). Forces predicted along the actuator lines need to be projected onto the flow field as body forces, and this is commonly accomplished using a volumetric projection. In this study, particular attention is given to the spanwise distribution of the radius of this projection. A new method is proposed where the projection radius varies along the blade span following an elliptic distribution. The proposed guidelines for actuator line parameters are applied to the National Renewable Energy Laboratory's (NREL's) Phase VI rotor and the NREL 5-MW turbine. Results obtained are compared with available data and ...",
+      "authors": [
+        "Pankaj Jha",
+        "Matthew Churchfield",
+        "Patrick Moriarty",
+        "Sven Schmitz"
+      ]
+    },
+    {
+      "title": "Dragonfly: A rotorcraft lander concept for scientific exploration at titan",
+      "publication_year": 2018,
+      "publication_date": "2018-10-01",
+      "doi": "https://pennstate.pure.elsevier.com/en/publications/dragonfly-a-rotorcraft-lander-concept-for-scientific-exploration-",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 157,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Titan (rocket family)",
+        "Astrobiology",
+        "Aeronautics",
+        "Dragonfly",
+        "Engineering",
+        "Geology",
+        "Physics",
+        "Paleontology"
+      ],
+      "abstract": "",
+      "authors": [
+        "R. D. Lorenz",
+        "E. P. Turtle",
+        "Jason W. Barnes",
+        "M. G. Trainer",
+        "Douglas Adams",
+        "Kenneth Hibbard",
+        "Colin Sheldon",
+        "K. Zacny",
+        "P. N. Peplowski",
+        "D. J. Lawrence",
+        "M. A. Ravine",
+        "T. G. McGee",
+        "Kristin S. Sotzen",
+        "Shannon MacKenzie",
+        "Jack W. Langelaan",
+        "Sven Schmitz",
+        "Lawrence Wolfarth",
+        "P. Bedini"
+      ]
+    },
+    {
+      "title": "Scaled ice accretion experiments on a rotating wind turbine blade",
+      "publication_year": 2012,
+      "publication_date": "2012-07-20",
+      "doi": "https://doi.org/10.1016/j.jweia.2012.06.001",
+      "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+      "type": "article",
+      "cited_by_count": 119,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Icing",
+        "Icing conditions",
+        "Hard rime",
+        "Wind tunnel",
+        "Turbine",
+        "Inflow",
+        "Marine engineering",
+        "Chord (peer-to-peer)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yiqiang Han",
+        "José Palacios",
+        "Sven Schmitz"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Flow asymmetry over a body of revolution",
+      "publication_year": 2026,
+      "publication_date": "2026-03-30",
+      "doi": "https://doi.org/10.1017/jfm.2026.11221",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BC786DDF7AE121731934C7AC67159B36/S002211202611221Xa.pdf/div-class-title-flow-asymmetry-over-a-body-of-revolution-div.pdf",
+      "concepts": [
+        "Asymmetry",
+        "Physics",
+        "Reynolds number",
+        "Wake",
+        "Turbulence",
+        "Mechanics",
+        "Flow (mathematics)",
+        "Reynolds stress"
+      ],
+      "abstract": "This paper investigates the mean flow asymmetry about the meridional plane in crossflow over a 6 : 1 prolate spheroid using high-fidelity numerical simulations. A series of direct numerical simulations are performed at diameter-based Reynolds number $\\textit{Re}_{\\!D} = 3.0 \\times 10^3$ over a range of angles of attack. We identify a critical angle of attack for the onset of mean flow asymmetry between $40^\\circ$ and $42^\\circ$ . In cases where asymmetry eventually develops, the flow initially remains symmetric for an extended period before turbulent fluctuations in the wake perturb the symmetry. As wake turbulence becomes more vigorous at higher Reynolds numbers, this observation suggests a reduced critical angle of attack – an expectation confirmed by simulations at $\\textit{Re}_{\\!D} = 6.0 \\times 10^3$ . To investigate the mechanism responsible for the asymmetry, we propose a new measure of mean asymmetry and derive a corresponding transport equation from the Navier–Stokes equations. This formulation identifies the production and destruction terms governing the evolution of asymmetry. Our analysis of the equation reveals that the generation mechanism is primarily inviscid, su...",
+      "authors": [
+        "Samuel M. Johnson",
+        "Sven Schmitz",
+        "Xiang I.A. Yang",
+        "Thomas S. Chyczewski"
+      ]
+    },
+    {
+      "title": "NASA Dragonfly Mission: Coaxial Rotor Test and CFD Prediction",
+      "publication_year": 2026,
+      "publication_date": "2026-03-06",
+      "doi": "https://doi.org/10.4050/jahs.71.032004",
+      "venue": "Journal of the American Helicopter Society",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotor (electric)",
+        "Computational fluid dynamics",
+        "Coaxial",
+        "Performance prediction",
+        "Airfoil",
+        "Helicopter rotor",
+        "Aerospace engineering",
+        "Transonic"
+      ],
+      "abstract": "A fixed-pitch speed-controlled coaxial rotor system (Dragonfly Phase B*) was tested in the NASA Langley Transonic Dynamics Tunnel. The primary objective of the test was to experimentally measure rotor performance of a candidate full-scale flight rotor for the Dragonfly program, NASA's 4th New Frontiers Mission, in an atmosphere as close as possible to that on Saturn's largest moon, Titan. The heavy gas (R-134a) test setup provided Ma-scaled data at one-third chord-based Reynolds number when compared to Titan. These data serve as a validation anchor for computational fluid dynamics performance tables used by the Dragonfly team to predict rotor performance on Titan. The present work provides a thorough validation study of coaxial rotor performance estimation with an accuracy of order 5-10% over the primary flight envelope using an efficient hybrid blade element momentum theory with unsteady Reynolds-averaged Navier–Stokes (BEMT-URANS) flow solver, RotCFD. Airfoil lookup tables were generated in OVERFLOW. The computational performance matrix con-sisted of more than 1500 cases total, including hover, climb, edgewise flight, descent, and vortex ring state. Significant effort was devo...",
+      "authors": [
+        "Sven Schmitz",
+        "Jason Cornelius",
+        "Gracelyne Allred",
+        "Jose Palacios",
+        "Richard Heisler",
+        "Bernadine Juliano",
+        "Gino Perrotta",
+        "Felipe Ruiz"
+      ]
+    },
+    {
+      "title": "Near-Field Computational Fluid Dynamics Method for Wave Drag Decomposition",
+      "publication_year": 2026,
+      "publication_date": "2026-02-16",
+      "doi": "https://doi.org/10.2514/1.j066250",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Transonic",
+        "Wave drag",
+        "Drag",
+        "Physics",
+        "Drag coefficient",
+        "Mechanics",
+        "Classical mechanics",
+        "Compressibility"
+      ],
+      "abstract": "Partial-pressure fields have shown the capabilities to decompose drag into relevant sources. In transonic flow, they may be used in combination with classical far-field integrals to derive wave drag. The original method is reliant on both accurate near-field and far-field grids, making it less advantageous than classical far-field wave drag integrals. In the present work, a new method was developed to predict wave drag by solely using a near-field analysis. The method uses both partial-pressure fields and lifting-line theory. The theory was derived and applied to a total of four cases on the ONERA M6 wing, including three transonic cases, one of which was a special zero-lift case, and a subsonic compressible case. A comparison of resulting wave drag results was conducted between the new method, classical far-field decompositions, and the original hybrid partial-pressure field method.",
+      "authors": [
+        "Pierce L. Hart",
+        "Anja Vogel",
+        "Freya Bradley",
+        "Sven Schmitz"
+      ]
+    },
+    {
+      "title": "Dragonfly Rotor Optimization Using Machine Learning Applied to an OVERFLOW-Generated Airfoil Database",
+      "publication_year": 2026,
+      "publication_date": "2026-01-07",
+      "doi": "https://doi.org/10.4050/jahs.71.022001",
+      "venue": "Journal of the American Helicopter Society",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Multirotor",
+        "Airfoil",
+        "Dragonfly",
+        "Computer science",
+        "Helicopter rotor",
+        "Rotor (electric)",
+        "Spacecraft",
+        "Aerodynamics"
+      ],
+      "abstract": "NASA’s fourth New Frontiers Mission is the Titan Dragonfly relocatable lander. This coaxial quadrotor vehicle is scheduled to launch on a rocket in 2028 with the goal of exploring Titan’s prebiotic chemistry and habitability. The multirotor design for this unique application has evolved to meet constraints such as Titan’s cryogenic atmosphere at 95 K (−288°F), gravity 14% that of Earth’s, atmospheric density 4.4 times of Earth’s standard sea level, and the inability to test the entire system under these conditions until the first flight on Titan. This paper focuses on rotor design aspects of the Dragonfly lander and introduces a framework for multirotor design optimization considering multiple flight conditions. A new OVERFLOW Machine Learning Airfoil Performance (PALMO) database is first presented. PALMO is then incorporated into a Bayesian optimization framework and applied to a four-rotor system (one side of the Dragonfly lander). Training data are generated on each iteration of the optimization using the CAMRAD-II comprehensive analysis to evaluate rotor designs over the planned mission profile. An optimal design for the four-rotor system was found with approximately 900 rot...",
+      "authors": [
+        "Jason Cornelius",
+        "Sven Schmitz"
+      ]
+    },
+    {
+      "title": "A Near-Field CFD Method for Wave Drag Decomposition",
+      "publication_year": 2025,
+      "publication_date": "2025-07-16",
+      "doi": "https://doi.org/10.2514/6.2025-3430",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Drag",
+        "Mechanics",
+        "Computer science",
+        "Field (mathematics)",
+        "Marine engineering",
+        "Decomposition",
+        "Aerospace engineering"
+      ],
+      "abstract": "Partial-Pressure Fields have shown the capabilities to decompose drag into relevant sources. In transonic flow, they may be used in combination with classical far-field integrals to derive wave drag. The original method presented (Hart, P. L., and Schmitz, S., “Drag Decomposition using Partial-Pressure Fields: ONERA M6 Wing,” AIAA Journal, Vol. 60, No. 5, 2022 pp. 2941–2951) is reliant on both an accurate near-field and far-field grids, making it less advantageous than classical far-field wave drag integrals. In the present work, a new method was developed to predict wave drag solely using a near-field analysis. The method utilizes both partial-pressure fields and lifting-line theory. The theory behind this method is demonstrated, and applied to a total of four cases on the ONERA M6 wing, including three transonic cases, one of which is a special zero lift case, and a subsonic compressible case. A comparison of resulting wave drag results is conducted between the new method, classical far-field decompositions, and the original hybrid partial-pressure field method.",
+      "authors": [
+        "Pierce L. Hart",
+        "Anja Vogel",
+        "Freya Bradley",
+        "Sven Schmitz"
+      ]
+    }
+  ]
+}

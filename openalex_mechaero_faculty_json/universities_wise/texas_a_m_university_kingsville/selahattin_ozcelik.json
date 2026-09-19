@@ -1,0 +1,246 @@
+{
+  "faculty_name": "Selahattin Ozcelik",
+  "full_name": "Selahattin Özçelik",
+  "department": "Department of Mechanical and Industrial Engineering",
+  "university": "Texas A&M University-Kingsville",
+  "author_id": "A5006553853",
+  "works_count": 61,
+  "cited_by_count": 434,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 16
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 12
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 8
+    },
+    {
+      "topic": "Wave and Wind Energy Systems",
+      "count": 7
+    },
+    {
+      "topic": "Welding Techniques and Residual Stresses",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Review on Dynamics of Offshore Floating Wind Turbine Platforms",
+      "publication_year": 2021,
+      "publication_date": "2021-09-22",
+      "doi": "https://doi.org/10.3390/en14196026",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 105,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/en14196026",
+      "concepts": [
+        "Offshore wind power",
+        "Turbine",
+        "Marine engineering",
+        "Wind power",
+        "Aerodynamics",
+        "Renewable energy",
+        "Wake",
+        "Engineering"
+      ],
+      "abstract": "This paper presents a literature review of the dynamics of offshore floating wind turbine platforms. When moving further offshore, there is an increase in the capacity of wind power. Generating power from renewable resources is enhanced through the extraction of wind energy from an offshore deep-water wind resource. Mounting the turbine on a platform that is not stable brings another difficulty to wind turbine modeling. There is a need to introduce platforms that are more effective to capture this energy, because of the complex dynamics and control of these platforms. This paper highlights the historical developments and progresses in the design of different types of offshore floating wind turbine platforms needed for harvesting the energy from offshore winds. The relative advantages and disadvantages of the platform types with the design challenges are discussed. The major types of floating platforms included in this study are tension leg platform (TLP) type, spar type, and semisubmersible type. This study reviews the previous work on the dynamics of the floating platforms for a single turbine and multiple turbines under various operating environmental conditions. The numerical...",
+      "authors": [
+        "Srikanth Bashetty",
+        "Selahattin Özçelik"
+      ]
+    },
+    {
+      "title": "Design of a Robust Adaptive Controller for the Pitch and Torque Control of Wind Turbines",
+      "publication_year": 2020,
+      "publication_date": "2020-03-05",
+      "doi": "https://doi.org/10.3390/en13051195",
+      "venue": "Energies",
+      "type": "article",
+      "cited_by_count": 31,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/1996-1073/13/5/1195/pdf?version=1583412399",
+      "concepts": [
+        "Control theory (sociology)",
+        "Blade pitch",
+        "Turbine",
+        "Wind speed",
+        "Torque",
+        "Wind power",
+        "Pitch control",
+        "Aerodynamics"
+      ],
+      "abstract": "In this paper, robust adaptive control is designed for pitch and torque control of the wind turbines operating under turbulent wind conditions. The dynamics of the wind turbine are formulated by considering the five degrees of freedom system (rotor angle, gearbox angle, generator angle, flap-wise deflection of the rotor blade, and axial displacement of the nacelle). The controller is designed to maintain the rotor speed, maximize the aerodynamic efficiency of the wind turbine, and reduce the loads due to high wind speeds. Gaussian probability distribution function is used for approximating the wind speed, which is given as the disturbance input to the plant. The adaptive control algorithm is implemented to 2 MW and 5 MW wind turbines to test the robustness of the controller for varying parameters. The simulation is carried out using MATLAB/Simulink for three cases, namely pitch control, torque control, and the combined case. A case study is done to validate the proposed adaptive control using real wind speed data. In all the cases, the results indicate that the rotor speed follows the reference speed and show that the designed controller gives a satisfactory performance under va...",
+      "authors": [
+        "Srikanth Bashetty",
+        "Joaquin I. Guillamon",
+        "Shanmukha S. Mutnuri",
+        "Selahattin Özçelik"
+      ]
+    },
+    {
+      "title": "Design-Oriented Enhanced Robotics Curriculum",
+      "publication_year": 2012,
+      "publication_date": "2012-11-14",
+      "doi": "https://doi.org/10.1109/te.2012.2220775",
+      "venue": "IEEE Transactions on Education",
+      "type": "article",
+      "cited_by_count": 26,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robotics",
+        "Artificial intelligence",
+        "Educational robotics",
+        "Curriculum",
+        "Outreach",
+        "Robot",
+        "Computer science",
+        "Engineering"
+      ],
+      "abstract": "This paper presents an innovative two-course, laboratory-based, and design-oriented robotics educational model. The robotics curriculum exposed senior-level undergraduate students to major robotics concepts, and enhanced the student learning experience in hybrid learning environments by incorporating the IEEE Region-5 annual robotics competition with open-ended design challenges, by establishing a robotics club, and by implementing a K-12 mentorship program. A four-faculty team developed two elective courses in which the theoretical concepts underlying the robotics design competition topics were supported with corresponding laboratory activities. Students took the courses sequentially. They were formed into diverse teams, whose performance was assessed via weekly team presentations and participation in an outreach day. The best robot design teams participated in the IEEE Region-5 competitions. All students participated in a service-learning activity, acting as mentors during local K-12 robotics competitions while enhancing their own robotics comprehension. The robotics curriculum's two-year evaluation results illustrate the consistent efficacy of the curriculum during the projec...",
+      "authors": [
+        "Muhittin Yilmaz",
+        "Selahattin Özçelik",
+        "Nuri Yilmazer",
+        "Reza Nekovei"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An Overview of Analysis and Adaptive Pitch Control of an Offshore Floating Multi-Wind-Turbine Platform",
+      "publication_year": 2025,
+      "publication_date": "2025-02-12",
+      "doi": "https://doi.org/10.5772/intechopen.1008864",
+      "venue": "IntechOpen eBooks",
+      "type": "book-chapter",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.intechopen.com/citation-pdf-url/1194725",
+      "concepts": [
+        "Offshore wind power",
+        "Turbine",
+        "Marine engineering",
+        "Submarine pipeline",
+        "Engineering",
+        "Environmental science",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "This chapter outlines the findings of research focused on the creation of a new semi-submersible Offshore Floating Multi-Wind-Turbine Platform (OFFWIND). The primary concerns addressed involve modeling the aerodynamic forces caused by wind speed on the turbines, as well as the hydrodynamic forces resulting from wind and wave interactions on the entire system. To simulate the rotation of the rotors on the five wind turbines placed on the platform, a multiple-moving reference frame combined with a sliding mesh technique is employed. The evaluation of pressure, velocity, and turbulence intensity contours of the OFFWIND is conducted, particularly concentrating on the downstream turbine which operates in the partial wake of the turbines located upstream. The aerodynamic forces acting on the wind turbines are assessed to analyze their aerodynamic efficiency. The determined aerodynamic loads are integrated with the hydrodynamic forces to assess the platform’s movements in response to wind and wave conditions. An adaptive control algorithm has been developed for blade pitch control. The performance of the adaptive control is evaluated against a standard Proportional-Integral (PI) contro...",
+      "authors": [
+        "Srikanth Bashetty",
+        "Selahattin Özçelik"
+      ]
+    },
+    {
+      "title": "Comparative Evaluation of PID, MPC and Fuzzy Logic Control Strategies for Energy Transfer Stations in District Cooling Networks",
+      "publication_year": 2024,
+      "publication_date": "2024-12-10",
+      "doi": "https://doi.org/10.20944/preprints202412.0796.v1",
+      "venue": "Preprints.org",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.20944/preprints202412.0796.v1",
+      "concepts": [
+        "Setpoint",
+        "PID controller",
+        "Overshoot (microwave communication)",
+        "Control theory (sociology)",
+        "Settling time",
+        "Model predictive control",
+        "Fuzzy logic",
+        "Temperature control"
+      ],
+      "abstract": "Energy transfer stations (ETS) play a vital role in district cooling networks by facilitating thermal energy transfer between central chilled water plants and connected buildings. Effective control of ETS is crucial to maintain optimal temperature conditions and energy efficiency. However, traditional proportional-integral-derivative (PID) control may not always provide robust performance under changing operating conditions. This study aimed to evaluate and compare the control performances of PID, model predictive control (MPC), and fuzzy logic control (FLC) for an ETS process. A dynamic model of an ETS system incorporating a plate heat exchanger, control valve, temperature sensors and disturbances was developed. PID, MPC and FLC controllers were designed and tuned using the model. Controller performances were assessed through simulation-based experiments under setpoint changes and disturbances. Performance metrics such as rise time, settling time, overshoot, peak time and integral error were analyzed. Results showed that the MPC approach achieved the fastest rise time and lowest overshoot compared to PID and FLC. Meanwhile, FLC offered more robust control with minimal variation...",
+      "authors": [
+        "Mashhood Zafar",
+        "Selahattin Özçelik"
+      ]
+    },
+    {
+      "title": "Design and Comparison of Various Controllers for a Two-Tank Liquid-Level System",
+      "publication_year": 2024,
+      "publication_date": "2024-02-06",
+      "doi": "https://doi.org/10.18260/1-2-620-39788",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "PID controller",
+        "Robustness (evolution)",
+        "MATLAB",
+        "Differential equation",
+        "Control system",
+        "Derivative (finance)",
+        "Computer science"
+      ],
+      "abstract": "In this paper, we studied various methods of control system design for a two-tank liquid level process.A mathematical model for the system in terms of a set of differential equations is derived and the system parameters are allowed to vary within 50% from their nominal values during operation.Proportional Derivative (PD), Proportional, Derivative and Integral (PID), State-Feedback, and State Feedback with Integral Control actions are designed using the principles of control theory.Comparisons between performances of controllers are made.Robustness of controllers is also studied.MATLAB and Simulink are used for analysis and design of controllers as well as simulations.Based on the system parameters and their variations, 16 extreme cases are determined along with a nominal case.Simulations are performed for all extreme cases with a nominal case.",
+      "authors": [
+        "Selahattin Özçelik",
+        "R. Sosa",
+        "M.A. Faruqi",
+        "M. Abudiab"
+      ]
+    },
+    {
+      "title": "Effective Ethics Education",
+      "publication_year": 2024,
+      "publication_date": "2024-02-06",
+      "doi": "https://doi.org/10.18260/1-2-620-39789",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Engineering ethics",
+        "Engineering"
+      ],
+      "abstract": "Ethics Education in undergraduate programs may not be very effective for many students.This is due to many misconceptions that the students have developed from personal experiences.These misconceptions prevent them from responding to value dilemmas.A new approach is presented in this work.This approach, which is known as the effective learning approach (ELA) is more effective than the traditional approach in helping students recognize these misconceptions and modify their analyses.An ELA for ethics education is presented.This approach should lead to more effective teaching of ethics in our programs.",
+      "authors": [
+        "Selahattin Özçelik",
+        "M.A. Faruqi",
+        "M. A. Abudiab"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence in Breast Imaging: Opportunities, Challenges, and Legal–Ethical Considerations",
+      "publication_year": 2023,
+      "publication_date": "2023-12-29",
+      "doi": "https://doi.org/10.5152/eurasianjmed.2023.23360",
+      "venue": "Eurasian Journal of Medicine",
+      "type": "article",
+      "cited_by_count": 13,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5152/eurasianjmed.2023.23360",
+      "concepts": [
+        "Transparency (behavior)",
+        "Transformative learning",
+        "Autonomy",
+        "Breast cancer",
+        "Intellectual property",
+        "Engineering ethics",
+        "Business",
+        "Political science"
+      ],
+      "abstract": "This review explores the transformative impact of artificial intelligence (AI) in breast imaging, driven by a global rise in breast cancer cases. Propelled by deep learning techniques, AI shows promise in refining diagnostic processes, yet adoption rates vary. Its ability to manage extensive datasets and process multidimensional information holds potential for advancing precision medicine in breast cancer research. However, integration faces challenges, from data-related obstacles to ensuring transparency and trust in decision-making. Legal considerations, including the formation of AI teams and intellectual property protection, influence health care's adoption of AI. Ethical dimensions underscore the need for responsible AI implementation, emphasizing autonomy, well-being, safety, transparency, and accessibility. Establishing a robust legal and ethical framework is crucial for conscientiously deploying AI, ensuring positive impacts on patient safety and treatment efcacy. As nations and organizations aspire to engage in global competition, not merely as consumers, the review highlights the critical importance of developing legal regulations. A comprehensive approach, from AI tea...",
+      "authors": [
+        "İrmak Durur-Subasi",
+        "Selahattin Özçelik"
+      ]
+    }
+  ]
+}

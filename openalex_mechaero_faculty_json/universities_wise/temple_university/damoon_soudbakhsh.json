@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Damoon Soudbakhsh",
+  "full_name": "Damoon Soudbakhsh",
+  "department": "Department of Mechanical Engineering",
+  "university": "Temple University",
+  "author_id": "A5035570579",
+  "works_count": 76,
+  "cited_by_count": 770,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Advanced Battery Technologies Research",
+      "count": 26
+    },
+    {
+      "topic": "Advancements in Battery Materials",
+      "count": 17
+    },
+    {
+      "topic": "Vehicle Dynamics and Control Systems",
+      "count": 11
+    },
+    {
+      "topic": "Autonomous Vehicle Technology and Safety",
+      "count": 10
+    },
+    {
+      "topic": "Fault Detection and Control Systems",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The impact of lightweighting and battery technologies on the sustainability of electric vehicles: A comprehensive life cycle assessment",
+      "publication_year": 2024,
+      "publication_date": "2024-09-29",
+      "doi": "https://doi.org/10.1016/j.eiar.2024.107668",
+      "venue": "Environmental Impact Assessment Review",
+      "type": "article",
+      "cited_by_count": 60,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Life-cycle assessment",
+        "Sustainability",
+        "Battery (electricity)",
+        "Engineering",
+        "Automotive engineering",
+        "Environmental science",
+        "Environmental impact assessment",
+        "Battery pack"
+      ],
+      "abstract": "",
+      "authors": [
+        "Omidreza Ahmadzadeh",
+        "Renato Rodriguez",
+        "Jonah Getz",
+        "Samy Panneerselvam",
+        "Damoon Soudbakhsh"
+      ]
+    },
+    {
+      "title": "Vehicle Collision Avoidance Maneuvers With Limited Lateral Acceleration Using Optimal Trajectory Control",
+      "publication_year": 2013,
+      "publication_date": "2013-05-13",
+      "doi": "https://doi.org/10.1115/1.4023943",
+      "venue": "Journal of Dynamic Systems Measurement and Control",
+      "type": "article",
+      "cited_by_count": 46,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Acceleration",
+        "Trajectory",
+        "Control theory (sociology)",
+        "Trajectory optimization",
+        "Collision avoidance",
+        "Obstacle avoidance",
+        "Controller (irrigation)",
+        "Optimal control"
+      ],
+      "abstract": "In this paper, the possibility of performing severe collision avoidance maneuvers using trajectory optimization is investigated. A two degree of freedom vehicle model was used to represent dynamics of the vehicle. First, a linear tire model was used to calculate the required steering angle to perform the desired evasive maneuver, and a neighboring optimal controller was designed. Second, direct trajectory optimization algorithm was used to find the optimal trajectory with a nonlinear tire model. To evaluate the results, the calculated steering angles were fed to a full vehicle dynamics model. It was shown that the neighboring optimal controller was able to accommodate the introduced disturbances. Comparison of the resultant trajectories with other desired trajectories showed that it results in a lower lateral acceleration profile and a smaller maximum lateral acceleration; thus the time to perform an obstacle avoidance maneuver can be reduced using this method. A simulation case study of a limited lateral acceleration with constrained direct trajectory optimization shows that using the proposed trajectory optimization technique requires less time than that of trapezoidal acceler...",
+      "authors": [
+        "Damoon Soudbakhsh",
+        "Azim Eskandarian",
+        "David Chichka"
+      ]
+    },
+    {
+      "title": "A delay-aware cyber-physical architecture for wide-area control of power systems",
+      "publication_year": 2017,
+      "publication_date": "2017-02-15",
+      "doi": "https://doi.org/10.1016/j.conengprac.2016.12.012",
+      "venue": "Control Engineering Practice",
+      "type": "article",
+      "cited_by_count": 45,
+      "is_oa": true,
+      "oa_url": "http://hdl.handle.net/1721.1/97541",
+      "concepts": [
+        "Electric power system",
+        "Networked control system",
+        "Computer science",
+        "Cyber-physical system",
+        "Controller (irrigation)",
+        "Control (management)",
+        "Power (physics)",
+        "Control system"
+      ],
+      "abstract": "",
+      "authors": [
+        "Damoon Soudbakhsh",
+        "Aranya Chakrabortty",
+        "Anuradha M. Annaswamy"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A framework for temperature-dependent mechanical modeling of lithium-ion cells",
+      "publication_year": 2026,
+      "publication_date": "2026-04-01",
+      "doi": "https://doi.org/10.1016/j.est.2026.121819",
+      "venue": "Journal of Energy Storage",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.est.2026.121819",
+      "concepts": [
+        "Crashworthiness",
+        "Thermal",
+        "Battery (electricity)",
+        "Operating temperature",
+        "Materials science",
+        "Mechanical system",
+        "Indentation",
+        "Mechanical engineering"
+      ],
+      "abstract": "Mechanical abuse of lithium-ion batteries can induce internal short circuits and thermal runaway, yet most mechanical integrity models neglect the influence of cell operating temperature and assume room-temperature behavior. In this work, hemispherical indentation experiments were conducted at multiple operating temperatures (0 °C, 25 °C, and 45 °C) to quantify temperature- and rate-dependent mechanical response. The results show that the peak force prior to short-circuit initiation varies by up to ∼33% across the investigated operating temperature range. Building on these observations, a coupled electrochemical–thermal–mechanical framework is developed in which state-of-charge- and rate-dependent thermal profiles obtained from electrochemical simulations are mapped into temperature-dependent mechanical integrity models. The framework captures spatial temperature non-uniformity within the cell and enables higher-fidelity prediction of short-circuit onset under realistic operating conditions. Although demonstrated at the single-cell level, the homogenized modeling approach is directly extensible to module- and pack-level simulations, providing a practical pathway toward improved ...",
+      "authors": [
+        "Mohammad Mehdi Keshavarzi",
+        "Omidreza Ahmadzadeh",
+        "Pierre L'Eplattenier",
+        "Iñaki Çaldichoury",
+        "Damoon Soudbakhsh",
+        "Elham Sahraei"
+      ]
+    },
+    {
+      "title": "Longitudinal omics data analysis: approaches and applications",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1016/j.csbj.2026.01.001",
+      "venue": "Computational and Structural Biotechnology Journal",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.csbj.2026.01.001",
+      "concepts": [
+        "Frequentist inference",
+        "Computer science",
+        "Bayesian probability",
+        "Longitudinal data",
+        "Omics",
+        "Categorization",
+        "Data science",
+        "Data mining"
+      ],
+      "abstract": "Longitudinal omics data (LOD) analysis is essential for understanding the dynamics of biological processes and disease progression over time. This review explores various statistical and computational approaches for analyzing such data, emphasizing their applications and limitations. The main characteristics of longitudinal data, such as imbalance, high-dimensionality, and non-Gaussianity are discussed for modeling and hypothesis testing. We discuss the properties of linear mixed models (LMM) and generalized linear mixed models (GLMM) as foundational tools in LOD analyses and highlight their extensions to handle the obstacles in the frequentist and Bayesian frameworks. We differentiate dynamic data analysis between time-course and longitudinal analyses, covering functional data analysis (FDA) and replication constraints. We explore classification techniques, single-cell studies as exemplary omics longitudinal studies, survival modeling, and multivariate methods for clinical/biomarker-based applications. Emerging topics, including data integration, clustering, and network-based modeling, are also discussed. We categorize the state-of-the-art approaches applicable to omics data, h...",
+      "authors": [
+        "Ali Reza Taheriyoun",
+        "Allen Ross",
+        "Abolfazl Safikhani",
+        "Damoon Soudbakhsh",
+        "Ali Rahnavard"
+      ]
+    },
+    {
+      "title": "A Mathematical Framework for Explicit Data-Driven Discovery of Governing Equations for Distributed Parameter Battery Energy Storage Systems",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.48321/d166e0cec4",
+      "venue": "California Digital Library",
+      "type": "other",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48321/d166e0cec4",
+      "concepts": [
+        "Computer science",
+        "Nonlinear system",
+        "State (computer science)",
+        "Energy storage",
+        "Battery (electricity)",
+        "Control engineering",
+        "State of charge",
+        "Energy (signal processing)"
+      ],
+      "abstract": "This proposal aims to create modeling techniques for Battery Energy Storage Systems (BESS). As BESS become ubiquitous in modern applications, accurate models are critical for ensuring safety and enhancing the performance of current and emerging BESS technology. These systems exhibit complex, nonlinear dynamics that evolve in response to environmental conditions, such as State of Charge (SOC), charge/discharge rates, and State of Health (aging). Consequently, current modeling techniques struggle to keep pace with these rapidly changing technologies.",
+      "authors": [
+        "Damoon Soudbakhsh"
+      ]
+    },
+    {
+      "title": "Bootstrap-Based Sparse Modeling for Temperature-Dependent State-of-Charge Prediction of Batteries",
+      "publication_year": 2025,
+      "publication_date": "2025-11-14",
+      "doi": "https://doi.org/10.1115/1.4070401",
+      "venue": "ASME Letters in Dynamic Systems and Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Bootstrapping (finance)",
+        "Computer science",
+        "Battery (electricity)",
+        "Set (abstract data type)",
+        "Process (computing)",
+        "Data set",
+        "Statistical model",
+        "Data modeling"
+      ],
+      "abstract": "Abstract Data-driven modeling of complex systems, such as Li-ion batteries with explicit terms, has shown promising results. However, these methods typically work on a single dataset and are sensitive to noise. Here, we present a physics-informed and temperature-dependent data-driven model of Li-ion batteries by aggregating experimental data collected at various operating conditions using statistical bootstrapping techniques. The modeling process starts by creating a set of bootstrapped samples and including terms based on first principles and temperature-related terms in the model library. Then, multiple models were created using the bootstrapped data and aggregated into an ensemble with improved accuracy and robustness. The final model takes the median of the coefficients of the bootstrapped models and has temperature as a model input. We conducted several experiments to create the dataset for developing and validating the novel temperature-dependent battery model. The experiments included charging a Li-ion cell with a constant-current-constant-voltage algorithm and discharging it with custom and standard driving profiles at various temperatures from −10 °C to 40 °C. The basel...",
+      "authors": [
+        "Omidreza Ahmadzadeh",
+        "Renato Rodriguez",
+        "Gangho Kim",
+        "Damoon Soudbakhsh"
+      ]
+    },
+    {
+      "title": "Using Time Constants of Batteries for Health and Safety Monitoring",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.1149/ma2025-015542mtgabs",
+      "venue": "ECS Meeting Abstracts",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Environmental science"
+      ],
+      "abstract": "The demand for advanced energy storage systems, such as Li-ion batteries, has grown significantly in recent years. However, these batteries pose substantial safety risks if their structural integrity is compromised. Current methods are insufficient for accurately assessing battery safety for continued use in dynamic applications, such as electric vehicles (EVs), or for repurposing in stationary applications, like grid storage. Most prior research has focused on detecting imminent short circuits, but identifying pre-short circuit conditions has proven challenging, as compromised cells often exhibit negligible differences in voltage or capacity compared to intact ones. This study introduces a novel approach to assessing damage in Li-ion batteries by analyzing their dynamic electrical responses. Specifically, we utilize electrochemical impedance spectroscopy (EIS) and characterize the batteries' time constants and polarizations through an innovative formulation of the distribution of relaxation times (DRT). The DRT method converts EIS frequency-domain data into the time-constant domain using the Fredholm integral of the first kind. A key output of our algorithm is the identificatio...",
+      "authors": [
+        "Damoon Soudbakhsh",
+        "Elham Sahraei",
+        "Mohsen Derakhshan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Haiyang Chao",
+  "full_name": "Haiyang Chao",
+  "department": "Department of Aerospace Engineering",
+  "university": "University of Kansas",
+  "author_id": "A5057060512",
+  "works_count": 106,
+  "cited_by_count": 2297,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 40
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 18
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 17
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 16
+    },
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Autopilots for Small Fixed-Wing Unmanned Air Vehicles: A Survey",
+      "publication_year": 2007,
+      "publication_date": "2007-08-01",
+      "doi": "https://doi.org/10.1109/icma.2007.4304064",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 155,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Autopilot",
+        "Viewpoints",
+        "Fixed wing",
+        "Control system",
+        "Software",
+        "Control engineering",
+        "Aerospace engineering",
+        "Computer science"
+      ],
+      "abstract": "This paper presents a survey of the autopilot systems for small fixed-wing unmanned air vehicles (UAVs). The UAV flight control basics are introduced first. The radio control system and autopilot control system are then explained from both hardware and software viewpoints. Several typical commercial off-the-shelf autopilot packages are compared in detail. In addition, some research autopilot systems are introduced. Finally, conclusions are made with a summary of the current autopilot market and a remark on the future development.This paper presents a survey of the autopilot systems for small fixed-wing unmanned air vehicles (UAVs). The UAV flight control basics are introduced first. The radio control system and autopilot control system are then explained from both hardware and software viewpoints. Several typical commercial off-the-shelf autopilot packages are compared in detail. In addition, some research autopilot systems are introduced. Finally, conclusions are made with a summary of the current autopilot market and a remark on the future development.",
+      "authors": [
+        "Haiyang Chao",
+        "Yongcan Cao",
+        "YangQuan Chen"
+      ]
+    },
+    {
+      "title": "Lateral directional fractional order (PI) α control of a small fixed-wing unmanned aerial vehicles: controller designs and flight tests",
+      "publication_year": 2011,
+      "publication_date": "2011-11-21",
+      "doi": "https://doi.org/10.1049/iet-cta.2010.0314",
+      "venue": "IET Control Theory and Applications",
+      "type": "article",
+      "cited_by_count": 85,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "PID controller",
+        "Control theory (sociology)",
+        "Fixed wing",
+        "Phase margin",
+        "Robustness (evolution)",
+        "Control system",
+        "Controller (irrigation)",
+        "Channel (broadcasting)"
+      ],
+      "abstract": "In this study, a fractional order (PI)λ controller is developed and implemented to improve the flight control performance and robustness of a small fixed-wing unmanned aerial vehicle (UAV). The decoupled roll-channel control is realised under certain conditions and tested using the designed controllers in this study. The inner closed-loop system of the roll-channel is approximately identified as a first-order plus time delay model using the flight test data. For comparison purpose, an integer-order PI controller is designed following the modified Ziegler–Nichols (MZNs) tuning rule, based on this identified roll-channel control model. According to three design pre-specifications, the integer-order proportional integral derivative (PID), fractional-order PIλ and (PI)λ controllers are designed for the roll-channel flight control system of a small fixed-wing UAV. These three designed controllers share the same gain crossover frequency and phase margin settings for fair comparisons. From both simulation and real flight experiments, the two designed fractionalorder controllers outperform the MZNs PI and the designed integer-order PID controllers. The designed (PI)λ controller can achi...",
+      "authors": [
+        "Ying Luo",
+        "Haiyang Chao",
+        "Long Di",
+        "YangQuan Chen"
+      ]
+    },
+    {
+      "title": "UAV Attitude, Heading, and Wind Estimation Using GPS/INS and an Air Data System",
+      "publication_year": 2013,
+      "publication_date": "2013-08-15",
+      "doi": "https://doi.org/10.2514/6.2013-5201",
+      "venue": "AIAA Guidance, Navigation, and Control (GNC) Conference",
+      "type": "conference-paper",
+      "cited_by_count": 69,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Global Positioning System",
+        "Heading (navigation)",
+        "Estimation",
+        "Attitude and heading reference system",
+        "Computer science",
+        "Geodesy",
+        "Wind speed",
+        "Remote sensing"
+      ],
+      "abstract": "A new attitude, heading, and wind estimation algorithm is proposed, which incorporates measurements from an air data system to properly relate predicted attitude information with aircraft velocity information. Experimental Unmanned Aerial Vehicle (UAV) flight data was used to validate the proposed approach. The experimental results demonstrated effective estimation of the roll, pitch, yaw, and heading angles, and provided a smoothed estimate of the angle of attack and sideslip angles. The wind estimation results were validated with respect to measurments provided by a local weather station. It was shown that this new method of attitude estimation is effective in distinguishing the yaw and heading angles of the aircraft, properly regulating the attitude estimates with air data system measurements, and provding a reasonable estimate of the local wind field.",
+      "authors": [
+        "Matthew B. Rhudy",
+        "Trenton Larrabee",
+        "Haiyang Chao",
+        "Yu Gu",
+        "Marcello Napolitano"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Sensing and Estimation of Fire-Induced Wind Field Using Small UAS",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2286",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Acceleration",
+        "Environmental science",
+        "Wind speed",
+        "Meteorology",
+        "Waypoint",
+        "Range (aeronautics)",
+        "Kalman filter"
+      ],
+      "abstract": "Wildland fire may greatly affect the nearby and surrounding wind fields, by creating strong inflows, updrafts, downdrafts, and vortices. It may create challenging operating conditions for manned and unmanned aircraft. This paper presents a method to sense and estimate fire-induced wind fields using small fixed-wing UAS equipped with standard avionics, including a conventional pitot-tube. A novel model-aided extended Kalman filter (EKF) is developed to simultaneously estimate the air-relative velocity components, 3D wind velocities, and corresponding wind accelerations along the flight trajectory using onboard sensor measurements and the UAS dynamic model. The estimated wind velocity and acceleration can be used to identify gust parameters (e.g., updraft velocity, gust period, horizontal wind shear), characterize plume structure, and support data-driven modeling of fire-generated updrafts and downdrafts. The performance of the estimation filter is first validated using simulation data over one-minus-cosine type updraft field. The filter is then further validated using a prescribed fire dataset where a KHawk Zephyr3 UAS was flown near and through fire-generated plumes at an altitu...",
+      "authors": [
+        "Mosarruf H. Shawon",
+        "Matthew B. Rhudy",
+        "Justin Matt",
+        "Huixuan Wu",
+        "Haiyang Chao"
+      ]
+    },
+    {
+      "title": "Frequency Domain System Identification of a Small Flying-Wing UAS",
+      "publication_year": 2025,
+      "publication_date": "2025-03-24",
+      "doi": "https://doi.org/10.31224/4464",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://engrxiv.org/preprint/download/4464/7762/6407",
+      "concepts": [
+        "Frequency domain",
+        "Control theory (sociology)",
+        "System identification",
+        "Identification (biology)",
+        "Wing",
+        "State-space representation",
+        "Stability derivatives",
+        "Computer science"
+      ],
+      "abstract": "This paper focuses on system identification of a small, flying-wing UAS using the frequency response method. A flight test procedure is designed to address the unique challenges encountered when conducting system identification for a small flying-wing UAS with elevon controls. These challenges include increased susceptibility to atmospheric disturbances, limited yaw maneuverability, and visual line-of-sight safety requirements. Frequency sweeps are used as control inputs to excite the longitudinal and lateral-directional dynamics over a designed frequency range. Reduced-order transfer functions are first identified to gain initial information on key dynamics and to provide comparison with different models. Then, decoupled longitudinal and lateral-directional state space models are identified from flight data. The models are validated in the time-domain through comparison with doublet maneuver flight data, showing an excellent fit between the dynamic models and flight data. Finally, nondimensional stability and control derivatives and their confidence intervals are computed from the state space models for comparison with other modeling methods.",
+      "authors": [
+        "Justin Matt",
+        "Steven G. Hagerott",
+        "Benjamin C. Svoboda",
+        "Harold P. Flanagan",
+        "Haiyang Chao"
+      ]
+    },
+    {
+      "title": "Longitudinal System Identification for a Small Flying-Wing UAS",
+      "publication_year": 2025,
+      "publication_date": "2025-03-24",
+      "doi": "https://doi.org/10.31224/4463",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://engrxiv.org/preprint/download/4463/7761/6406",
+      "concepts": [
+        "Control theory (sociology)",
+        "Throttle",
+        "Stability derivatives",
+        "Trim",
+        "Elevator",
+        "Longitudinal static stability",
+        "Deflection (physics)",
+        "System identification"
+      ],
+      "abstract": "This paper focuses on identification of the bare-airframe, longitudinal dynamics of a small, flying-wing UAS, including both the short-period and phugoid modes. Servo dynamics from commanded to real control surface deflection angles are first identified, which is important for UAS equipped with low-bandwidth servos. A flight test procedure is developed for longitudinal system identification that includes the collection of trim data, elevator and throttle frequency sweep data, doublet data, and phugoid oscillation data. Throttle and elevator frequency sweep data is used to generate longitudinal frequency responses. Trim data is used to compute the longitudinal speed stability derivatives. Then, a multi-input, multi-output state space model is identified by holding the longitudinal speed stability derivatives constant and fitting the remaining parameters to the measured frequency responses. The identified model is shown to accurately represent the UAS response to elevator deflection and electric motor rotational speed. The identified phugoid mode dynamics show excellent agreement with results obtained from the time-history phugoid oscillation data. Finally, nondimensional stabilit...",
+      "authors": [
+        "Justin Matt",
+        "Haiyang Chao",
+        "Mosarruf H. Shawon",
+        "Steven G. Hagerott",
+        "Benjamin C. Svoboda"
+      ]
+    },
+    {
+      "title": "Efficient Frequency Response Identification for Small Fixed-Wing UAS Using Closed-Loop Flight Data",
+      "publication_year": 2025,
+      "publication_date": "2025-03-24",
+      "doi": "https://doi.org/10.31224/4461",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://engrxiv.org/preprint/download/4461/7759/6404",
+      "concepts": [
+        "Airframe",
+        "Control theory (sociology)",
+        "Noise (video)",
+        "Flight test",
+        "Flight simulator",
+        "Frequency response",
+        "Computer science",
+        "Stability (learning theory)"
+      ],
+      "abstract": "In this paper, a method to identify bare-airframe, closed-loop, and broken-loop frequency responses from a single set of closed-loop flight data is presented. This approach is particularly useful for small unmanned aircraft, which face unique challenges during system identification flight tests, such as flight safety, open-loop stability, considerable pilot workload during frequency sweep maneuvers, and non-trivial disturbances from atmospheric turbulence. Closed-loop flight testing can address many of these challenges as it improves the stability, repeatability, and flexibility of flight testing, which can lead to higher data quality. The proposed method is demonstrated using simulated data of a small, flying-wing UAS operating in closed-loop in strong turbulence. Frequency responses are identified using a joint input-output method, which prevents bias errors caused by noise feedback. The bare-airframe, closed-loop, and broken-loop frequency responses are identified from one data set with excellent agreement with the simulation truth over a wide frequency range. The example demonstrates the effectiveness of this approach to improve results and reduce flight testing time for sma...",
+      "authors": [
+        "Justin Matt",
+        "Haiyang Chao"
+      ]
+    },
+    {
+      "title": "Evaluation and Analysis of ArduPilot Automatic Tuning Algorithm for the Roll Tracking Controller of a Small UAS",
+      "publication_year": 2025,
+      "publication_date": "2025-03-24",
+      "doi": "https://doi.org/10.31224/4462",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://engrxiv.org/preprint/download/4462/7760/6405",
+      "concepts": [
+        "Tracking (education)",
+        "Computer science",
+        "Controller (irrigation)",
+        "Control theory (sociology)",
+        "Algorithm",
+        "Artificial intelligence",
+        "Control (management)",
+        "Psychology"
+      ],
+      "abstract": "PID controllers are widely used for UAS flight control, and tuning of the control law is crucial to the success of a flight mission. In this paper, the automatic tuning process onboard the popular ArduPilot autopilot was examined, analyzed, and validated in both simulation and UAS flight test, considering both time domain and frequency domain controller specifications. The autotune algorithm was first implemented in MATLAB and simulated with a PID and PD controller using identified KHawk UAS lateral dynamic models. The results were further compared with fight test data. Frequency domain analysis showed the effectiveness of the autotune algorithm, as most of the autotuned controllers, except those with very aggressive gain sets, demonstrated performance comparable to controllers designed using a model-based approach. Specifically, the autotuned controllers showed high stability margins and desirable disturbance rejection capability.",
+      "authors": [
+        "Justin Matt",
+        "Harold P. Flanagan",
+        "Haiyang Chao"
+      ]
+    }
+  ]
+}

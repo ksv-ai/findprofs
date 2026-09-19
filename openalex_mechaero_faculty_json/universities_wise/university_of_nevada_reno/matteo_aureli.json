@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Matteo Aureli",
+  "full_name": "Matteo Aureli",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Nevada, Reno",
+  "author_id": "A5031158953",
+  "works_count": 69,
+  "cited_by_count": 1840,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Dielectric materials and actuators",
+      "count": 19
+    },
+    {
+      "topic": "Advanced Sensor and Energy Harvesting Materials",
+      "count": 18
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 16
+    },
+    {
+      "topic": "Vibration and Dynamic Analysis",
+      "count": 12
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 7
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Low frequency and large amplitude oscillations of cantilevers in viscous fluids",
+      "publication_year": 2010,
+      "publication_date": "2010-04-19",
+      "doi": "https://doi.org/10.1063/1.3405720",
+      "venue": "Applied Physics Letters",
+      "type": "article",
+      "cited_by_count": 95,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cantilever",
+        "Amplitude",
+        "Oscillation (cell signaling)",
+        "Vibration",
+        "Mechanics",
+        "Physics",
+        "Vortex",
+        "Nonlinear system"
+      ],
+      "abstract": "We study nonlinear vibrations of cantilever beams oscillating in viscous fluids. A handleable expression for the inertial and damping loads due to the encompassing fluid is proposed. We expand on the canonical viscous diffusion theory by incorporating vortex shedding effects at large oscillation amplitudes. Comparison with experimental results on underwater low frequency and large amplitude oscillations of cantilevers is reported. The approach is applicable to the analysis of ionic polymer metal composites vibrating underwater.",
+      "authors": [
+        "Matteo Aureli",
+        "Maurizio Porfiri"
+      ]
+    },
+    {
+      "title": "Free-Locomotion of Underwater Vehicles Actuated by Ionic Polymer Metal Composites",
+      "publication_year": 2009,
+      "publication_date": "2009-09-30",
+      "doi": "https://doi.org/10.1109/tmech.2009.2030887",
+      "venue": "IEEE/ASME Transactions on Mechatronics",
+      "type": "article",
+      "cited_by_count": 301,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thrust",
+        "Underwater",
+        "Vibration",
+        "Added mass",
+        "Lift (data mining)",
+        "Materials science",
+        "Computer science",
+        "Marine engineering"
+      ],
+      "abstract": "In this paper, we develop a modeling framework for studying free-locomotion of biomimetic underwater vehicles propelled by vibrating ionic polymer metal composites (IPMCs). The motion of the vehicle body is described using rigid body dynamics in fluid environments. Hydrodynamic effects, such as added mass and damping, are included in the model to enable a thorough description of the vehicle's surge, sway, and yaw motions. The time-varying actions exerted by the vibrating IPMC on the vehicle body, including thrust, lift, and moment, are estimated by combining force and vibration measurements with reduced order modeling based on modal analysis. The model predictions are validated through experimental results on a miniature remotely controlled fish-like robotic swimmer.",
+      "authors": [
+        "Matteo Aureli",
+        "Vladislav Kopman",
+        "Maurizio Porfiri"
+      ]
+    },
+    {
+      "title": "Energy harvesting from base excitation of ionic polymer metal composites in fluid environments",
+      "publication_year": 2009,
+      "publication_date": "2009-11-19",
+      "doi": "https://doi.org/10.1088/0964-1726/19/1/015003",
+      "venue": "Smart Materials and Structures",
+      "type": "article",
+      "cited_by_count": 203,
+      "is_oa": true,
+      "oa_url": "https://iopscience.iop.org/article/10.1088/0964-1726/19/1/015003/pdf",
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Vibration",
+        "Energy harvesting",
+        "Mechanics",
+        "Acoustics",
+        "Energy (signal processing)",
+        "Physics"
+      ],
+      "abstract": "In this paper, we analytically and experimentally study the energy harvesting capability of submerged ionic polymer metal composites (IPMCs). We consider base excitation of an IPMC strip that is shunted with an electric impedance and immersed in a fluid environment. We develop a modeling framework to predict the energy scavenged from the IPMC vibration as a function of the excitation frequency range, the constitutive and geometric properties of the IPMC, and the electric shunting load. The mechanical vibration of the IPMC strip is modeled through Kirchhoff–Love plate theory. The effect of the encompassing fluid on the IPMC vibration is described by using a linearized solution of the Navier–Stokes equations, that is traditionally considered in modeling atomic force microscope cantilevers. The dynamic chemo-electric response of the IPMC is described through the Poisson–Nernst–Planck model, in which the effect of mechanical deformations of the backbone polymer is accounted for. We present a closed-form solution for the current flowing through the IPMC strip as a function of the voltage across its electrodes and its deformation. We use modal analysis to establish a handleable expres...",
+      "authors": [
+        "Matteo Aureli",
+        "Chekema Prince",
+        "Maurizio Porfiri",
+        "Sean D. Peterson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Bio-inspired shape-morphing actuation of a heaving plate: An experimental study to explore its flow physics and hydrodynamic performance",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.1063/5.0324175",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Mechanics",
+        "Vortex",
+        "Particle image velocimetry",
+        "Vortex shedding",
+        "Classical mechanics",
+        "Flow (mathematics)",
+        "Drag"
+      ],
+      "abstract": "In this study, we present a comprehensive experimental investigation of the effect of shape-morphing on the flow physics of a submerged heaving plate in a quiescent, incompressible, Newtonian viscous fluid. Motivated by bio-inspired underwater swimmers that change body shape to optimize fluid–structure interactions (FSI), shape-morphing is explored here as a mechanism for adaptive hydrodynamic performance via modulation of vortex shedding and convection patterns. Shape-morphing is implemented on a robotic platform comprising a heaving plate actuated to produce dynamic changes of its cross section in phase with a rigid oscillation. To inform the experiments, a boundary element method model is first used to study an idealized shape-morphing heaver under linear hydrodynamic conditions, isolating how shape-morphing interacts with heaving motion to reduce force and power. Through a systematic experimental campaign conducted on our shape-morphing robot, we analyze both qualitative flow features, such as vortex dynamics and symmetry breaking, and quantitative aspects of the hydrodynamic forces, employing particle image velocimetry and direct measurements via a load cell. Results show t...",
+      "authors": [
+        "Burak Gülsaçan",
+        "Anna Zueva",
+        "Matteo Aureli"
+      ]
+    },
+    {
+      "title": "Effect of orifice thickness-to-diameter ratio on turbulent orifice flow: An experimental and numerical investigation",
+      "publication_year": 2023,
+      "publication_date": "2023-12-28",
+      "doi": "https://doi.org/10.1016/j.icheatmasstransfer.2023.107213",
+      "venue": "International Communications in Heat and Mass Transfer",
+      "type": "article",
+      "cited_by_count": 14,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Body orifice",
+        "Turbulence",
+        "Vena contracta",
+        "Mechanics",
+        "Particle image velocimetry",
+        "Reynolds number",
+        "Turbulence kinetic energy",
+        "Reynolds stress"
+      ],
+      "abstract": "",
+      "authors": [
+        "Burak Gülsaçan",
+        "Nehir Tokgöz",
+        "Enver Karakas",
+        "Matteo Aureli",
+        "Cahit A. Evrensel"
+      ]
+    },
+    {
+      "title": "Underwater oscillations of rigid plates with H-shaped cross sections: An experimental study to explore their flow physics",
+      "publication_year": 2023,
+      "publication_date": "2023-03-01",
+      "doi": "https://doi.org/10.1063/5.0141889",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Physics",
+        "Vortex",
+        "Mechanics",
+        "Vortex shedding",
+        "Particle image velocimetry",
+        "Oscillation (cell signaling)",
+        "Stratified flows",
+        "Classical mechanics"
+      ],
+      "abstract": "In this work, we present a comprehensive experimental study on the problem of harmonic oscillations of rigid plates with H-shaped cross sections submerged in a quiescent, Newtonian, incompressible, viscous fluid environment. Motivated by recent results on the minimization of hydrodynamic damping for transversely oscillating flat plates, we conduct a detailed qualitative and quantitative experimental investigation of the flow physics created by the presence of the flanges, that is, the vertical segments in the plate cross section. Specifically, the main goal is to elucidate the effect of flange size on various aspects of fluid–structure interaction, by primarily investigating the dynamics of vortex shedding and convection. We perform particle image velocimetry experiments over a broad range of oscillation amplitudes, frequencies, and flange size-to-width ratios by leveraging the identification of pathlines, vortex shedding and dynamics, distinctive hydrodynamic regimes, and steady streaming. The fundamental contributions of this work include novel hydrodynamic regime phase diagrams demonstrating the effect of flange ratio on regime transitions, and in the investigation of their r...",
+      "authors": [
+        "Burak Gülsaçan",
+        "Matteo Aureli"
+      ]
+    },
+    {
+      "title": "Selective energy and enstrophy modification of two-dimensional decaying turbulence",
+      "publication_year": 2023,
+      "publication_date": "2023-01-31",
+      "doi": "https://doi.org/10.1017/jfm.2022.1094",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2108.01137",
+      "concepts": [
+        "Enstrophy",
+        "Inviscid flow",
+        "Turbulence",
+        "Physics",
+        "Turbulence kinetic energy",
+        "Wavenumber",
+        "Isotropy",
+        "Statistical physics"
+      ],
+      "abstract": "In two-dimensional decaying homogeneous isotropic turbulence, kinetic energy and enstrophy are respectively transferred to larger and smaller scales. In such spatiotemporally complex dynamics, it is challenging to identify the important flow structures that govern this behaviour. We propose and employ numerically two flow-modification strategies that leverage the inviscid global conservation of energy and enstrophy to design external forcing inputs that change these quantities selectively and simultaneously, and drive the system towards steady-state or other late-stage behaviour. One strategy employs only local flow field information, while the other is global. We observe various flow structures excited by these inputs and compare them with recent literature. Energy modification is characterized by the excitation of smaller wavenumber structures in the flow than enstrophy modification.",
+      "authors": [
+        "Aditya Nair",
+        "James Hanna",
+        "Matteo Aureli"
+      ]
+    },
+    {
+      "title": "Effect of Orifice Thickness-to-Diameter Ratio on Turbulent Orifice Flow: An Experimental and Numerical Investigation",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.4509322",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.4509322",
+      "concepts": [
+        "Body orifice",
+        "Vena contracta",
+        "Turbulence",
+        "Mechanics",
+        "Particle image velocimetry",
+        "Turbulence kinetic energy",
+        "Reynolds number",
+        "Reynolds stress"
+      ],
+      "abstract": "",
+      "authors": [
+        "Burak Gülsaçan",
+        "Nehir Tokgöz",
+        "Enver Karakas",
+        "Matteo Aureli",
+        "Cahit A. Evrensel"
+      ]
+    }
+  ]
+}

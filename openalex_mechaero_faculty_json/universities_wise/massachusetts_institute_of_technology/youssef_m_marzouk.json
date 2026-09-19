@@ -1,0 +1,244 @@
+{
+  "faculty_name": "Youssef M. Marzouk",
+  "full_name": "Youssef Marzouk",
+  "department": "Department of Aeronautics and Astronautics / CCSE",
+  "university": "Massachusetts Institute of Technology",
+  "author_id": "A5071702167",
+  "works_count": 335,
+  "cited_by_count": 6194,
+  "h_index": 38,
+  "top_topics": [
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 78
+    },
+    {
+      "topic": "Markov Chains and Monte Carlo Methods",
+      "count": 74
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 67
+    },
+    {
+      "topic": "Statistical Methods and Inference",
+      "count": 42
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stochastic spectral methods for efficient Bayesian solution of inverse problems",
+      "publication_year": 2006,
+      "publication_date": "2006-11-28",
+      "doi": "https://doi.org/10.1016/j.jcp.2006.10.010",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 469,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Bayesian probability",
+        "Monte Carlo method",
+        "Applied mathematics",
+        "Inverse problem",
+        "Mathematics",
+        "Bayesian inference",
+        "Mathematical optimization"
+      ],
+      "abstract": "",
+      "authors": [
+        "Youssef Marzouk",
+        "Habib N. Najm",
+        "Larry A. Rahn"
+      ]
+    },
+    {
+      "title": "Simulation-based optimal Bayesian experimental design for nonlinear systems",
+      "publication_year": 2012,
+      "publication_date": "2012-09-04",
+      "doi": "https://doi.org/10.1016/j.jcp.2012.08.013",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 464,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1108.4146",
+      "concepts": [
+        "Mathematical optimization",
+        "Computer science",
+        "Nonlinear system",
+        "Bayesian inference",
+        "Inference",
+        "Monte Carlo method",
+        "Polynomial chaos",
+        "Bayesian probability"
+      ],
+      "abstract": "",
+      "authors": [
+        "Xun Huan",
+        "Youssef Marzouk"
+      ]
+    },
+    {
+      "title": "Dimensionality reduction and polynomial chaos acceleration of Bayesian inference in inverse problems",
+      "publication_year": 2008,
+      "publication_date": "2008-12-09",
+      "doi": "https://doi.org/10.1016/j.jcp.2008.11.024",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 430,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polynomial chaos",
+        "Applied mathematics",
+        "Dimensionality reduction",
+        "Mathematics",
+        "Curse of dimensionality",
+        "Inverse problem",
+        "Bayesian probability",
+        "Context (archaeology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Youssef Marzouk",
+        "Habib N. Najm"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Preserving linear invariants in ensemble filtering methods",
+      "publication_year": 2026,
+      "publication_date": "2026-05-21",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115048",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.jcp.2026.115048",
+      "concepts": [
+        "Computer science",
+        "Mathematics",
+        "Artificial intelligence"
+      ],
+      "abstract": "Data assimilation combines dynamical models with observations to improve state estimates. Ensemble filters sequentially assimilate observations by updating a set of samples over time, alternating between a forecast and an analysis step. Accurate and robust predictions often require preserving critical invariants such as mass, stoichiometric balance of chemical species, and electrical charge. While modern numerical solvers maintain these invariants, existing invariant-preserving analysis steps are limited to Gaussian settings. Furthermore, they can be incompatible with regularization techniques such as inflation and covariance tapering. In this work, we focus on preserving linear invariants in non-Gaussian filtering problems. Leveraging tools from measure transport theory, we introduce a novel class of nonlinear ensemble filters that preserve any desired linear invariants. Notably, we recover a constrained formulation of the Kalman filter for the special case of the Gaussian setting. We also demonstrate how to combine preserving invariants with regularization techniques in the ensemble Kalman filter. Numerical experiments illustrate the benefits of preserving linear invariants in...",
+      "authors": [
+        "Mathieu Le Provost",
+        "Jan Glaubitz",
+        "Youssef Marzouk"
+      ]
+    },
+    {
+      "title": "To discretize continually: Mean shift interacting particle systems for Bayesian inference",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.48550/arxiv.2605.14142",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2605.14142",
+      "concepts": [
+        "Mathematics",
+        "Discretization",
+        "Bayesian probability",
+        "Particle filter",
+        "Bayesian inference",
+        "Algorithm",
+        "Applied mathematics",
+        "Inference"
+      ],
+      "abstract": "Integration against a probability distribution given its unnormalized density is a central task in Bayesian inference and other fields. We introduce new methods for approximating such expectations with a small set of weighted samples -- i.e., a quadrature rule -- constructed via an interacting particle system that minimizes maximum mean discrepancy (MMD) to the target distribution. These methods extend the classical mean shift algorithm, as well as recent algorithms for optimal quantization of empirical distributions, to the case of continuous distributions. Crucially, our approach creates dynamics for MMD minimization that are invariant to the unknown normalizing constant; they also admit both gradient-free and gradient-informed implementations. The resulting mean shift interacting particle systems converge quickly, capture anisotropy and multi-modality, avoid mode collapse, and scale to high dimensions. We demonstrate their performance on a wide range of benchmark sampling problems, including multi-modal mixtures, Bayesian hierarchical models, PDE-constrained inverse problems, and beyond.",
+      "authors": [
+        "Ayoub Belhadji",
+        "Daniel Sharp",
+        "Youssef Marzouk"
+      ]
+    },
+    {
+      "title": "To discretize continually: Mean shift interacting particle systems for Bayesian inference",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://arxiv.org/abs/2605.14142",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.14142",
+      "concepts": [
+        "Mathematics",
+        "Discretization",
+        "Bayesian probability",
+        "Particle filter",
+        "Bayesian inference",
+        "Algorithm",
+        "Applied mathematics",
+        "Inference"
+      ],
+      "abstract": "Integration against a probability distribution given its unnormalized density is a central task in Bayesian inference and other fields. We introduce new methods for approximating such expectations with a small set of weighted samples -- i.e., a quadrature rule -- constructed via an interacting particle system that minimizes maximum mean discrepancy (MMD) to the target distribution. These methods extend the classical mean shift algorithm, as well as recent algorithms for optimal quantization of empirical distributions, to the case of continuous distributions. Crucially, our approach creates dynamics for MMD minimization that are invariant to the unknown normalizing constant; they also admit both gradient-free and gradient-informed implementations. The resulting mean shift interacting particle systems converge quickly, capture anisotropy and multi-modality, avoid mode collapse, and scale to high dimensions. We demonstrate their performance on a wide range of benchmark sampling problems, including multi-modal mixtures, Bayesian hierarchical models, PDE-constrained inverse problems, and beyond.",
+      "authors": [
+        "Ayoub Belhadji",
+        "Daniel Sharp",
+        "Youssef Marzouk"
+      ]
+    },
+    {
+      "title": "Data Curation for Machine Learning Interatomic Potentials by Determinantal Point Processes",
+      "publication_year": 2026,
+      "publication_date": "2026-03-23",
+      "doi": "http://arxiv.org/abs/2603.22160",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.22160",
+      "concepts": [
+        "Bottleneck",
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Robustness (evolution)",
+        "Training set",
+        "Data point",
+        "Task (project management)"
+      ],
+      "abstract": "The development of machine learning interatomic potentials faces a critical computational bottleneck with the generation and labeling of useful training datasets. We present a novel application of determinantal point processes (DPPs) to the task of selecting informative subsets of atomic configurations to label with reference energies and forces from costly quantum mechanical methods. Through experiments with hafnium oxide data, we show that DPPs are competitive with existing approaches to constructing compact but diverse training sets by utilizing kernels of molecular descriptors, leading to improved accuracy and robustness in machine learning representations of molecular systems. Our work identifies promising directions to employ DPPs for unsupervised training data curation with heterogeneous or multimodal data, or in online active learning schemes for iterative data augmentation during molecular dynamics simulation.",
+      "authors": [
+        "Joanna Zou",
+        "Youssef Marzouk"
+      ]
+    },
+    {
+      "title": "Learning Paths for Dynamic Measure Transport: A Control Perspective",
+      "publication_year": 2025,
+      "publication_date": "2025-11-05",
+      "doi": "https://doi.org/10.48550/arxiv.2511.03797",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.03797",
+      "concepts": [
+        "Measure (data warehouse)",
+        "Perspective (graphical)",
+        "Smoothness",
+        "Process (computing)",
+        "Control (management)",
+        "Gaussian process",
+        "Computer science",
+        "Mathematical optimization"
+      ],
+      "abstract": "We bring a control perspective to the problem of identifying paths of measures for sampling via dynamic measure transport (DMT). We highlight the fact that commonly used paths may be poor choices for DMT and connect existing methods for learning alternate paths to mean-field games. Based on these connections we pose a flexible family of optimization problems for identifying tilted paths of measures for DMT and advocate for the use of objective terms which encourage smoothness of the corresponding velocities. We present a numerical algorithm for solving these problems based on recent Gaussian process methods for solution of partial differential equations and demonstrate the ability of our method to recover more efficient and smooth transport models compared to those which use an untilted reference path.",
+      "authors": [
+        "Aimee Maurais",
+        "Bamdad Hosseini",
+        "Youssef Marzouk"
+      ]
+    }
+  ]
+}

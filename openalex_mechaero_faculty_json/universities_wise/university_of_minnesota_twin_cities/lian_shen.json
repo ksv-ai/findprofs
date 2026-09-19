@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Lian Shen",
+  "full_name": "Lian Shen",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Minnesota-Twin Cities",
+  "author_id": "A5091431846",
+  "works_count": 328,
+  "cited_by_count": 4874,
+  "h_index": 36,
+  "top_topics": [
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 127
+    },
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 70
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 66
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 52
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 48
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "The surface layer for free-surface turbulent flows",
+      "publication_year": 1999,
+      "publication_date": "1999-05-10",
+      "doi": "https://doi.org/10.1017/s0022112099004590",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 115,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Froude number",
+        "Free surface",
+        "Mechanics",
+        "Vorticity",
+        "Turbulence",
+        "Boundary layer",
+        "Vortex",
+        "Physics"
+      ],
+      "abstract": "Direct numerical simulation (DNS) is used to examine low Froude number free-surface turbulence (FST) over a two-dimensional mean shear flow. The Navier–Stokes equations are solved using a finite-difference scheme with a grid resolution of 1283. Twenty separate simulations are conducted to calculate the statistics of the flow. Based on the velocity deficit and the vertical extent of the shear of the mean flow, the Reynolds number is 1000 and the Froude number is 0.7. We identify conceptually and numerically the surface layer, which is a thin region adjacent to the free surface characterized by fast variations of the horizontal vorticity components. This surface layer is caused by the dynamic zero-stress boundary conditions at the free surface and lies inside a thicker blockage (or ‘source’) layer, which is due to the kinematic boundary condition at the free surface. The importance of the outer blockage layer is manifested mainly in the redistribution of the turbulence intensity, i.e. in the increase of the horizontal velocity fluctuations at the expense of the vertical velocity fluctuation. A prominent feature of FST is vortex connections to the free surface which occur inside th...",
+      "authors": [
+        "Lian Shen",
+        "Xiang Zhang",
+        "Dick K. P. Yue",
+        "George S. Triantafyllou"
+      ]
+    },
+    {
+      "title": "Simulation-based study of COVID-19 outbreak associated with air-conditioning in a restaurant",
+      "publication_year": 2021,
+      "publication_date": "2021-02-01",
+      "doi": "https://doi.org/10.1063/5.0040188",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 159,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7976041",
+      "concepts": [
+        "Aerosol",
+        "Airflow",
+        "Airborne transmission",
+        "Environmental science",
+        "Meteorology",
+        "Computational fluid dynamics",
+        "Transmission (telecommunications)",
+        "Coronavirus disease 2019 (COVID-19)"
+      ],
+      "abstract": "COVID-19 has shown a high potential of transmission via virus-carrying aerosols as supported by growing evidence. However, detailed investigations that draw direct links between aerosol transport and virus infection are still lacking. To fill in the gap, we conducted a systematic computational fluid dynamics (CFD)-based investigation of indoor airflow and the associated aerosol transport in a restaurant setting, where likely cases of airflow-induced infection of COVID-19 caused by asymptomatic individuals were widely reported by the media. We employed an advanced in-house large eddy simulation solver and other cutting-edge numerical methods to resolve complex indoor processes simultaneously, including turbulence, flow-aerosol interplay, thermal effect, and the filtration effect by air conditioners. Using the aerosol exposure index derived from the simulation, we are able to provide a spatial map of the airborne infection risk under different settings. Our results have shown a remarkable direct linkage between regions of high aerosol exposure index and the reported infection patterns in the restaurant, providing strong support to the airborne transmission occurring in this widely...",
+      "authors": [
+        "Han Liu",
+        "Sida He",
+        "Lian Shen",
+        "Jiarong Hong"
+      ]
+    },
+    {
+      "title": "Dynamic modelling of sea-surface roughness for large-eddy simulation of wind over ocean wavefield",
+      "publication_year": 2013,
+      "publication_date": "2013-05-30",
+      "doi": "https://doi.org/10.1017/jfm.2013.215",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 102,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Surface roughness",
+        "Large eddy simulation",
+        "Wind wave",
+        "Surface finish",
+        "Mechanics",
+        "Surface wave",
+        "Geology",
+        "Physics"
+      ],
+      "abstract": "Abstract Wind blowing over the ocean surface can be treated as a turbulent boundary layer over a multiscale rough surface with moving roughness elements, the waves. Large-eddy simulation (LES) of such flows is challenging because LES resolves wind–wave interactions only down to the grid scale, $\\Delta $ , while the effects of subgrid-scale (SGS) waves on the wind need to be modelled. Usually, a surface-layer model based on the law of the wall is used; but the surface roughness has been known to depend on the local wind and wave conditions and is difficult to parameterize. In this study, a dynamic model for the SGS sea-surface roughness is developed, with the roughness corresponding to the SGS waves expressed as ${\\alpha }_{w} \\hspace{0.167em} { \\sigma }_{\\eta }^{\\Delta } $ . Here, ${ \\sigma }_{\\eta }^{\\Delta } $ is the effective amplitude of the SGS waves, modelled as a weighted integral of the SGS wave spectrum based on the geometric and kinematic properties of the waves for which five candidate expressions are examined. Moreover, ${\\alpha }_{w} $ is an unknown dimensionless model coefficient determined dynamically based on the first-principles constraint that the total surface...",
+      "authors": [
+        "Di Yang",
+        "Charles Meneveau",
+        "Lian Shen"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Resolvent model-based analyses of coherent structures in Langmuir turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-11-10",
+      "doi": "https://doi.org/10.1017/jfm.2025.10830",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8C97BB060923CA422582EAA5EAAED855/S0022112025108306a.pdf/div-class-title-resolvent-model-based-analyses-of-coherent-structures-in-langmuir-turbulence-div.pdf",
+      "concepts": [
+        "Langmuir Turbulence",
+        "Physics",
+        "Turbulence",
+        "Resolvent",
+        "Harmonic",
+        "Turbulence modeling",
+        "Classical mechanics",
+        "Langmuir"
+      ],
+      "abstract": "We present an analysis of the coherent structures in Langmuir turbulence, a state of the ocean surface boundary layer driven by the interactions between water waves and wind-induced shear, via a resolvent framework. Langmuir turbulence is characterised by multiscale vortical structures, notably counter-rotating roll pairs known as Langmuir circulations. While classic linear stability analyses of the Craik–Leibovich equations have revealed key instability mechanisms underlying Langmuir circulations, the vortical rolls characteristic of Langmuir turbulence, the present work incorporates the turbulent mean state and varying eddy viscosity using data from large-eddy simulations (LES) to investigate the turbulence dynamics of fully developed Langmuir turbulence. Scale-dependent resolvent analyses reveal a new formation mechanism of two-dimensional circulating rolls and three-dimensional turbulent coherent vortices through linear amplification of sustained harmonic forcing. Moreover, the integrated energy spectra predicted by the principal resolvent modes in response to broadband harmonic forcing capture the dominant spanwise length scales that are consistent with the LES data. These ...",
+      "authors": [
+        "Anqing Xuan",
+        "Lian Shen"
+      ]
+    },
+    {
+      "title": "A parallel algorithm for detection and tracking of non-binary fragmentation and coalescence of droplets and bubbles in numerical simulations of multiphase flows",
+      "publication_year": 2025,
+      "publication_date": "2025-10-15",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114441",
+      "venue": "Journal of Computational Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Coalescence (physics)",
+        "Binary number",
+        "Algorithm",
+        "Bounding overwatch",
+        "Mechanics",
+        "Physics",
+        "Statistical physics",
+        "Compressibility"
+      ],
+      "abstract": "",
+      "authors": [
+        "Saswata Basak",
+        "Umberto C. bitencourt",
+        "Qiang Gao",
+        "Grant B. Deane",
+        "M. Dale Stokes",
+        "Lian Shen"
+      ]
+    },
+    {
+      "title": "Hydrodynamics of an actively heaving flexible foil under an incident surface wave",
+      "publication_year": 2025,
+      "publication_date": "2025-10-14",
+      "doi": "https://doi.org/10.1017/jfm.2025.10705",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "FOIL method",
+        "Flapping",
+        "Mechanics",
+        "Acoustics",
+        "Physics",
+        "Propulsion",
+        "Phase difference",
+        "Surface wave"
+      ],
+      "abstract": "We numerically investigate the hydrodynamics of an actively heaving flexible foil flapping under a wave surface. The coupled level set and volume-of-fluid method is used to capture the air–water interface, and the immersed-boundary method is used to capture the fluid–structure interaction. A sinusoidal heaving motion is imposed at the foil’s leading edge, and its posterior parts oscillate passively according to its flexible characteristics, allowing dynamic interactions with the wave-induced flow. The propulsive performance of the foil is examined for the influence of three main factors: the ratio of the heaving frequency ( $f_{\\!f}$ ) to the wave frequency ( $f_w$ ), the phase difference between the heaving motion and the incident wave ( $\\mathit \\varPhi$ ) and the submergence depth of the foil ( $D$ ). At $\\mathit \\varPhi = 0$ , the results reveal that the propulsion of the flexible foil benefits from flapping near the wave surface when $f_{\\!f}/f_w = 0.5$ , and the propulsive efficiency is optimised at $D/L = 1$ , where $L$ is the foil’s length. However, when $f_{\\!f}/f_w$ = 1.0 and 2.0, the propulsion of the flexible foil is hindered near the wave surface. This hydrodynamic ...",
+      "authors": [
+        "S. Ji",
+        "Sung Goon Park",
+        "Ming Li",
+        "Lian Shen"
+      ]
+    },
+    {
+      "title": "A Simple Parameterization for the Inland Coastal Aerodynamic Roughness Length within Onshore Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-10-09",
+      "doi": "https://doi.org/10.21203/rs.3.rs-7706083/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-7706083/latest.pdf",
+      "concepts": [
+        "Roughness length",
+        "Turbulence",
+        "Drag",
+        "Flow (mathematics)",
+        "Aerodynamics",
+        "Meteorology",
+        "Environmental science",
+        "Geology"
+      ],
+      "abstract": "",
+      "authors": [
+        "James Hlywiak",
+        "J. B. Singh",
+        "Jesus Ruiz‐Plancarte",
+        "David D. Flagg",
+        "Ryan Yamaguchi",
+        "David G. Ortiz‐Suslow",
+        "James D. Doyle",
+        "Qing Wang",
+        "Lian Shen",
+        "Xiaodong Hong"
+      ]
+    },
+    {
+      "title": "Resolvent model-based analyses of coherent structures in Langmuir turbulence",
+      "publication_year": 2025,
+      "publication_date": "2025-08-20",
+      "doi": "https://doi.org/10.48550/arxiv.2508.14773",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2508.14773",
+      "concepts": [
+        "Langmuir Turbulence",
+        "Turbulence",
+        "Physics",
+        "Resolvent",
+        "Harmonic",
+        "Langmuir",
+        "Classical mechanics",
+        "Turbulence modeling"
+      ],
+      "abstract": "We present an analysis of the coherent structures in Langmuir turbulence, a state of the ocean surface boundary layer driven by the interactions between water waves and wind-induced shear, via a resolvent framework. Langmuir turbulence is characterised by multiscale vortical structures, notably counter-rotating roll pairs known as Langmuir circulations. While classic linear stability analyses of the Craik-Leibovich equations have revealed key instability mechanisms underlying Langmuir circulations, the vortical rolls characteristic of Langmuir turbulence, the present work incorporates the turbulent mean state and varying eddy viscosity using data from large-eddy simulation (LES) to investigate the turbulence dynamics of fully developed Langmuir turbulence. Scale-dependent resolvent analyses reveal a new formation mechanism of two-dimensional circulating rolls and three-dimensional turbulent coherent vortices through linear amplification of sustained harmonic forcing. Moreover, the integrated energy spectra predicted by the principal resolvent modes in response to broadband harmonic forcing capture the dominant spanwise length scales that are consistent with the LES data. These r...",
+      "authors": [
+        "Anqing Xuan",
+        "Lian Shen"
+      ]
+    }
+  ]
+}

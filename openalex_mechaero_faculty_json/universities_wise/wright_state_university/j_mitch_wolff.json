@@ -1,0 +1,259 @@
+{
+  "faculty_name": "J. Mitch Wolff",
+  "full_name": "Mitch Wolff",
+  "department": "Department of Mechanical and Materials Engineering",
+  "university": "Wright State University",
+  "author_id": "A5003916352",
+  "works_count": 121,
+  "cited_by_count": 824,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Turbomachinery Performance and Optimization",
+      "count": 41
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 31
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 21
+    },
+    {
+      "topic": "Real-time simulation and control systems",
+      "count": 16
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Experimental Investigation of Total Pressure Loss Development in a Highly Loaded Low-Pressure Turbine Cascade",
+      "publication_year": 2017,
+      "publication_date": "2017-11-13",
+      "doi": "https://doi.org/10.1115/1.4038413",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 52,
+      "is_oa": true,
+      "oa_url": "https://corescholar.libraries.wright.edu/mme/538",
+      "concepts": [
+        "Mechanics",
+        "Turbulence",
+        "Turbine",
+        "Total pressure",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Detached eddy simulation",
+        "Turbine blade",
+        "Vorticity"
+      ],
+      "abstract": "Improvements in turbine design methods have resulted in the development of blade profiles with both high lift and good Reynolds lapse characteristics. An increase in aerodynamic loading of blades in the low-pressure turbine (LPT) section of aircraft gas turbine engines has the potential to reduce engine weight or increase power extraction. Increased blade loading means larger pressure gradients and increased secondary losses near the endwall. Prior work has emphasized the importance of reducing these losses if highly loaded blades are to be utilized. The present study analyzes the secondary flow field of the front-loaded low-pressure turbine blade designated L2F with and without blade profile contouring at the junction of the blade and endwall. The current work explores the loss production mechanisms inside the LPT cascade. Stereoscopic particle image velocimetry (SPIV) data and total pressure loss data are used to describe the secondary flow field. The flow is analyzed in terms of total pressure loss, vorticity, Q-Criterion, turbulent kinetic energy, and turbulence production. The flow description is then expanded upon using an implicit large eddy simulation (ILES) of the flow ...",
+      "authors": [
+        "Philip S. Bear",
+        "Mitch Wolff",
+        "Andreas Groß",
+        "Christopher R. Marks",
+        "Rolf Sondergaard"
+      ]
+    },
+    {
+      "title": "Reynolds Number Effects on the Secondary Flow of Profile Contoured Low Pressure Turbines",
+      "publication_year": 2016,
+      "publication_date": "2016-01-02",
+      "doi": "https://doi.org/10.2514/6.2016-0114",
+      "venue": "54th AIAA Aerospace Sciences Meeting",
+      "type": "conference-paper",
+      "cited_by_count": 32,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Flow (mathematics)",
+        "Mechanics",
+        "Computer science",
+        "Physics",
+        "Turbulence"
+      ],
+      "abstract": "Low pressure turbine profiles with high aerodynamic loading can suffer from poor midspan performance at lower Reynolds number. Studies have shown that forward loading can mitigate the low Reynolds number lapse in performance at midspan, but concerns remain about increased secondary loss from front loading profiles. The effect of Reynolds number on low pressure turbine secondary flow losses are considered here. The front loaded L2F profile is studied experimentally in a low speed linear cascade. Several different geometric contours are used to modify the shape of the blade near the endwall, which decreases passage total pressure loss. Profile contouring is accomplished by placing an endwall glove over the blade at the blade to endwall junction. Performance of each profile is compared versus Reynolds number and boundary layer parameters. Translation of dominate secondary loss flow features were tracked using surface oil flow visualization, and their movement in the passage is related to changes in passage total pressure loss. Measurements showed that the lift off-line of the passage vortex moved downstream as Reynolds number decreased, and passage total pressure loss increased.",
+      "authors": [
+        "Christopher R. Marks",
+        "Rolf Sondergaard",
+        "Philip S. Bear",
+        "Mitch Wolff"
+      ]
+    },
+    {
+      "title": "Experimental Comparison of DBD Plasma Actuators for Low Reynolds Number Separation Control",
+      "publication_year": 2012,
+      "publication_date": "2012-10-30",
+      "doi": "https://doi.org/10.1115/1.4006517",
+      "venue": "Journal of Turbomachinery",
+      "type": "article",
+      "cited_by_count": 18,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Plasma actuator",
+        "Reynolds number",
+        "Airfoil",
+        "Mechanics",
+        "Flow separation",
+        "Freestream",
+        "Flow control (data)",
+        "Actuator"
+      ],
+      "abstract": "This paper presents experimental work comparing several Dielectric Barrier Discharge (DBD) plasma actuator configurations for low Reynolds number separation control. Actuators studied here are being investigated for use in a closed loop separation control system. The plasma actuators were fabricated in the U.S. Air Force Research Laboratory Propulsion Directorate’s thin film laboratory and applied to a low Reynolds number airfoil that exhibits similar suction surface behavior to those observed on Low Pressure (LP) Turbine blades. In addition to typical asymmetric arrangements producing downstream jets, one electrode configurations was designed to produce an array of off axis jets, and one produced a spanwise array of linear vertical jets in order to generate vorticity and improved boundary layer to freestream mixing. The actuators were installed on an airfoil and their performance compared by flow visualization, surface stress sensitive film (S3F), and drag measurements. The experimental data provides a clear picture of the potential utility of each design. Experiments were carried out at four Reynolds numbers, 1.4 × 105, 1.0 × 105, 6.0 × 104, and 5.0 × 104 at a-1.5 deg angle of...",
+      "authors": [
+        "Christopher R. Marks",
+        "Rolf Sondergaard",
+        "Mitch Wolff",
+        "Rich Anthony"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "A polar turbulence invariant map with applicability to realisable machine learning turbulence models",
+      "publication_year": 2025,
+      "publication_date": "2025-09-08",
+      "doi": "https://doi.org/10.1017/jfm.2025.10488",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 6,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B24EC21BDAC7F4F326B05E4169C52B7E/S0022112025104886a.pdf/div-class-title-a-polar-turbulence-invariant-map-with-applicability-to-realisable-machine-learning-turbulence-models-div.pdf",
+      "concepts": [
+        "Turbulence",
+        "Invariant (physics)",
+        "Polar coordinate system",
+        "Coordinate system",
+        "Algorithm",
+        "K-epsilon turbulence model",
+        "Physics",
+        "Anisotropy"
+      ],
+      "abstract": "Invariant maps are a useful tool for turbulence modelling, and the rapid growth of machine learning-based turbulence modelling research has led to renewed interest in them. They allow different turbulent states to be visualised in an interpretable manner and provide a mathematical framework to analyse or enforce realisability. Current invariant maps, however, are limited in machine learning models by the need for costly coordinate transformations and eigendecomposition at each point in the flow field. This paper introduces a new polar invariant map based on an angle that parametrises the relationship of the principal anisotropic stresses, and a scalar that describes the anisotropy magnitude relative to a maximum value. The polar invariant map reframes realisability in terms of a limiting anisotropy magnitude, allowing for new and simplified approaches to enforcing realisability that do not require coordinate transformations or explicit eigendecomposition. Potential applications to machine learning-based turbulence modelling include post-processing corrections for realisability, realisability-informed training, turbulence models with adaptive coefficients and general tensor basis...",
+      "authors": [
+        "James G. Wnek",
+        "Christopher R. Schrock",
+        "Eric M. Wolf",
+        "Mitch Wolff"
+      ]
+    },
+    {
+      "title": "On the Use of Machine Learning to Classify Laminar Separation Bubbles",
+      "publication_year": 2025,
+      "publication_date": "2025-06-16",
+      "doi": "https://doi.org/10.1115/gt2025-153777",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reynolds number",
+        "Laminar flow",
+        "Lift (data mining)",
+        "Mechanics",
+        "Airfoil",
+        "Work (physics)",
+        "Computer science",
+        "Bubble"
+      ],
+      "abstract": "Abstract In this work, large-eddy simulations (LES) are used to study a laminar separation bubble (LSB) that develops along the suction surface of a new high-lift, high-work low-pressure turbine blade at low Reynolds numbers. It is shown that the LSB bursts (i.e., transitions from short to long) over a critical range of Reynolds numbers and the effect of bursting on transition and vortex shedding is examined. The results of this work make clear that long LSBs are not just longer versions of short LSBs; they are phenomena unto themselves. Typically, pressure is used to differentiate between short and log LSBs. As a rule of thumb, an LSB is said to be long if it has a “large” effect on the pressure distribution and short if it has a “small” effect on the pressure distribution — “large” and “small” being subjective terms. This work proposes using machine learning to make this determination more objective. A machine learning model is trained to differentiate between long and short LSBs based on pressure. The final model is demonstrated to perform well; not only does the model successfully classify the LSB over a range of Reynolds numbers, but it removes much of the ambiguity in doin...",
+      "authors": [
+        "Jared Kerestes",
+        "Christopher R. Marks",
+        "Mitch Wolff",
+        "John P. Clark"
+      ]
+    },
+    {
+      "title": "Fuel Pump Power and Thermal Conceptual Design Investigation for a High Speed Vehicle",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2633",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Automotive engineering",
+        "Power (physics)",
+        "Conceptual design",
+        "Thermal",
+        "Computer science",
+        "Engineering",
+        "Mechanical engineering",
+        "Physics"
+      ],
+      "abstract": "The design of a high-speed vehicle presents new challenges when compared to a lower speeds. At high speeds, there is no turbine or other rotating component within the propulsion system to generate electrical power, and or drive the fuel pump, necessitating an alternative means to turn the device to sustain thrust. As it is desirable to consider the power generation system earlier in the conceptual design process of high-speed vehicles, a means by which the power requirements of a generic geometry can be acquired quickly must be obtained, which for high speeds includes the power requirements of the fuel pump. In prior work, a conceptual design level 6DOF simulation was created to model the power and thermal requirements of high-speed vehicle subsystems. This work expands the previous work by implementing a fuel pump driven by an electric motor. The pump; modeled as a variable displacement pump, and motor are modeled and controlled in the developed SIMULINK model. A power and thermal analysis was performed for the entire subsystem and the profiles for each were extracted from the SIMULNK model. Upon simulation, both the power and thermal profiles for the fuel pump and motor subsys...",
+      "authors": [
+        "Jacob H. Jadischke",
+        "José Camberos",
+        "Ramana V. Grandhi",
+        "Danielle Hollon",
+        "Mitch Wolff"
+      ]
+    },
+    {
+      "title": "An Investigation of Feature Importance for Turbulence Anisotropy Predictions in the Periodic Hills Case",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1279",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Anisotropy",
+        "Turbulence",
+        "Feature (linguistics)",
+        "Statistical physics",
+        "Physics",
+        "Geology",
+        "Computer science",
+        "Meteorology"
+      ],
+      "abstract": "The accurate modeling of turbulence is critical to CFD applications, yet standard eddy viscosity models are known to be deficient in predicting separated flows. Data-driven corrections or predictions of the turbulence anisotropy provide a potential way to improve the accuracy of RANS simulations, and feature selection is an important component of these efforts. In this work, the turbulence anisotropy tensor was obtained for the parametric periodic hills case from DNS data for three different hill slopes. A barycentric mapping was used to visualize the anisotropy tensor as a convex combination of 1D, 2D-axisymmetric, and isotropic states of turbulence. A random forest model was then used to correlate mean flow features with the barycentric coordinates. The relative importance of the input features was evaluated using the Pearson correlation coefficient, Kendall correlation coefficient, and permutation importance measures. The results of this research can help inform approaches to selecting input features for data-driven turbulence modeling.",
+      "authors": [
+        "James G. Wnek",
+        "Mitch Wolff",
+        "Eric M. Wolf",
+        "Christopher R. Schrock"
+      ]
+    },
+    {
+      "title": "Actuation Frequencies for Laminar Separation Control of an Eppler 387 Airfoil",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1869",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://corescholar.libraries.wright.edu/mme/637",
+      "concepts": [
+        "Airfoil",
+        "Laminar flow",
+        "Separation (statistics)",
+        "Control theory (sociology)",
+        "Materials science",
+        "Acoustics",
+        "Control (management)",
+        "Physics"
+      ],
+      "abstract": "A variety of aerodynamic devices operate at low Reynolds number conditions, such as unmanned aerial vehicles and low-pressure turbines in gas turbine engines. At low Reynolds numbers, many airfoils experience laminar boundary layer separation as the flow lacks the energy to overcome the adverse pressure gradient. Researchers have documented a variety of methods which can suppress laminar separation, and now focus on ways to reduce energy requirements to provide effective flow control. Energy requirements of active methods can be improved through the actuator location and by pulsing at frequencies which exploit natural instabilities in the flow. In a study by Gross et al. (Gross, Marks, and Sondergaard, 2024, \"Laminar Separation Control for Eppler 387 Airfoil Based on Resolvent Analysis,\" AIAA J., 62:4, 1487-1502) a resolvent analysis was used to determine an optimal actuation frequency and location to reduce the laminar boundary layer separation bubble on an Eppler 387 airfoil. The gain curve provides a narrow range of frequencies which should provide significant \"no-cost\" amplification exploited by the actuators. A subsequent numerical flow control study showed a 20%, and 4% in...",
+      "authors": [
+        "Vincent R. Sheeler",
+        "Mitch Wolff",
+        "Christopher R. Marks"
+      ]
+    }
+  ]
+}

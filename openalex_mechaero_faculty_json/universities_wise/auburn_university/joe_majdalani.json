@@ -1,0 +1,112 @@
+{
+  "faculty_name": "Joe Majdalani",
+  "full_name": "Joe Majdalani",
+  "department": "Department of Aerospace Engineering",
+  "university": "Auburn University",
+  "author_id": "A5110196700",
+  "works_count": 14,
+  "cited_by_count": 99,
+  "h_index": 6,
+  "top_topics": [
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 10
+    },
+    {
+      "topic": "Spacecraft and Cryogenic Technologies",
+      "count": 9
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 8
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 5
+    },
+    {
+      "topic": "Cyclone Separators and Fluid Dynamics",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Exact Eulerian Solutions of the Cylindrical Bidirectional Vortex",
+      "publication_year": 2009,
+      "publication_date": "2009-08-02",
+      "doi": "https://doi.org/10.2514/6.2009-5307",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 26,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Eulerian path",
+        "Mechanics",
+        "Computer science",
+        "Physics",
+        "Theoretical physics",
+        "Lagrangian"
+      ],
+      "abstract": "*In this work, new types of Eulerian motions are investigated as potential flow candidates for describing the bidirectional vortex field in a right-cylindrical chamber. These basic solutions apply to industrial cyclone separators and to idealized representations of either liquid or hybrid rocket engines. The latter correspond to a bidirectional vortex chamber with weak sidewall permeability. As usual, we take the bulk motion to be isentropic along streamlines, with no concern for reactions, heat transfer, viscosity, compressibility, or unsteadiness. Our mathematical approach is anchored on the cylindrical Bragg-Hawthorne equation which is concurrently applied in its spherical form to the treatment of the conical cyclone (Barber, T. A., and Majdalani, J., “Exact Eulerian Solution of the Conical Bidirectional Vortex,” AIAA Paper 2009-5306, August 2009). Among the unique characteristics of the new solutions, we cite the axial dependence of the swirl velocity, the Trkalian and Beltramian characters of the helical motions, the appreciable sensitivity to the outlet radius, the alternate location of the mantle, and the increased axial and radial velocity magnitudes, including the rate ...",
+      "authors": [
+        "Joe Majdalani"
+      ]
+    },
+    {
+      "title": "Exact Eulerian Solution of the Conical Bidirectional Vortex",
+      "publication_year": 2009,
+      "publication_date": "2009-08-02",
+      "doi": "https://doi.org/10.2514/6.2009-5306",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 16,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vortex",
+        "Conical surface",
+        "Mechanics",
+        "Physics",
+        "Inviscid flow",
+        "Classical mechanics",
+        "Conservative vector field",
+        "Compressibility"
+      ],
+      "abstract": "*† In this study, an exact Eulerian solution is derived for the bidirectional vortex in a conical chamber. Our model is applicable to idealized representations of cyclone separators and liquid rocket engines with slowly expanding chamber cross-sections. The bulk fluid motion is assumed to be nonreactive, steady, rotational, inviscid, and incompressible. Our approach is founded on the Bragg-Hawthorne equation and seeks to overcome some of the deficiencies encountered by Bloor and Ingham (Bloor, M. I. G., and Ingham, D. B., “The Flow in Industrial Cyclones,” Journal of Fluid Mechanics, Vol. 178, 1987, pp. 507-519). Despite inevitable similarities with Bloor and Ingham’s model, ours is constructed using a judicious framework that connects the solution to the swirl number and the cone divergence angle. In consequence, a self-similar formulation is produced that is independent of the cone’s finite body length. This enables us able to characterize the problem by providing closed-form representations for the principal variables of flow motion. Among the parameters of interest, the mantle divergence angle and the maximum latitudinal velocity are obtained explicitly. The mantle consists ...",
+      "authors": [
+        "Timothy Barber",
+        "Joe Majdalani"
+      ]
+    },
+    {
+      "title": "Evaluation of CFD Codes for Hypersonic Flow Modeling",
+      "publication_year": 2010,
+      "publication_date": "2010-07-25",
+      "doi": "https://doi.org/10.2514/6.2010-7184",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 13,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computational fluid dynamics",
+        "Computer science",
+        "Hypersonic flow",
+        "Hypersonic speed",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Mechanics",
+        "Engineering"
+      ],
+      "abstract": "The intent of this study is to evaluate existing gaps in computational fluid dynamics (CFD) technology with an emphasis on hypersonic flow modeling. The importance of validation is highlighted, especially with respect to the dearth of available hypersonic flow data. Modeling challenges relevant to hypersonic air-breathing propulsion, such as multi-phase flow and turbulent mixing, are discussed and areas for continued research are identified. Two specialized codes (DPLR and VULCAN) and two general purpose solvers (CFD++ and FLUENT) are also reviewed for use in hypersonic applications.",
+      "authors": [
+        "Brian A. Maicke",
+        "Timothy Barber",
+        "Joe Majdalani"
+      ]
+    }
+  ],
+  "recent_works": []
+}

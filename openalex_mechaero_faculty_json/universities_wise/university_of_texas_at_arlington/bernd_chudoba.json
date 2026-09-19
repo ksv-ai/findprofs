@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Bernd Chudoba",
+  "full_name": "Bernd Chudoba",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Texas at Arlington",
+  "author_id": "A5058534544",
+  "works_count": 113,
+  "cited_by_count": 386,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Rocket and propulsion systems research",
+      "count": 46
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 37
+    },
+    {
+      "topic": "Spacecraft Design and Technology",
+      "count": 20
+    },
+    {
+      "topic": "Space Exploration and Technology",
+      "count": 19
+    },
+    {
+      "topic": "Technology Assessment and Management",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Investigating the Legacy of Air-Breathing and Rocket Propulsion Systems",
+      "publication_year": 2020,
+      "publication_date": "2020-08-17",
+      "doi": "https://doi.org/10.2514/6.2020-3916",
+      "venue": "AIAA Propulsion and Energy 2020 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 9,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scramjet",
+        "Ramjet",
+        "Aerospace engineering",
+        "Propulsion",
+        "Aeronautics",
+        "Rocket (weapon)",
+        "Systems engineering",
+        "Hypersonic speed"
+      ],
+      "abstract": "Resurgence of interest in hypersonic and space-access vehicles increases the demand for an educated workforce. A valuable approach to immediately educate a new generation of engineers is simply to remember the past. The objective of this paper is to present the historical development of high-speed airbreathing and rocket propulsion systems. These systems include the ramjet, scramjet, rocket, and combined cycle engines. It is observed that a readily available comprehensive accounting of said systems in a singular location is absent. Additionally, due to the nature of these high-speed systems, information is often classified or restricted; as such, this paper solely focuses on information publicly available. A study of this type is approached from two avenues. First, a chronological accounting of both U.S. and international high-speed programs. Second, a data driven analytical accounting of said programs to arrive at propulsion and vehicle design regressions. This paper presents the first step- the chronological accounting. A comprehensive database of ramjet, scramjet, rockets, and combined cycle systems has been assembled and analyzed for technology evolution. The findings of the...",
+      "authors": [
+        "Jennifer P. Jones",
+        "Lauren Kuffel",
+        "Elida Sorto-Ramos",
+        "Kiarash Seyed Alavi",
+        "Thomas McCall",
+        "Bernd Chudoba"
+      ]
+    },
+    {
+      "title": "Sizing of a Fully Integrated Hypersonic Commercial Airliner",
+      "publication_year": 2011,
+      "publication_date": "2011-11-01",
+      "doi": "https://doi.org/10.2514/1.c000205",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 15,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Sizing",
+        "Hypersonic speed",
+        "Aerospace engineering",
+        "Aerodynamics",
+        "Propulsion",
+        "Context (archaeology)",
+        "Supersonic speed",
+        "Mach number"
+      ],
+      "abstract": "A study was conducted to demonstrate an approach to sizing of a fully integrated hypersonic commercial airliner, which was based on the parametric sizing methodology. It consisted of defining a set of equations that relates mission requirements to geometry, aerodynamic, and propulsion efficiencies, which were solved simultaneously. The next step involved identifying the final configuration of a wholly integrated hypersonic vehicle with trimming, control surfaces, and an integrated propulsion system. Vehicle weights, along with volumes and aerodynamic efficiencies were iterated until all weights converge and the thrust required to climb and cruise was met by engines specification.",
+      "authors": [
+        "Antonella Ingenito",
+        "Stefano Gulli",
+        "C. Bruno",
+        "G. Colemann",
+        "Bernd Chudoba",
+        "Paul Czysz"
+      ]
+    },
+    {
+      "title": "Future Spacecraft Propulsion Systems and Integration",
+      "publication_year": 2017,
+      "publication_date": "2017-08-31",
+      "doi": "https://doi.org/10.1007/978-3-662-54744-1",
+      "venue": "",
+      "type": "book",
+      "cited_by_count": 39,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propulsion",
+        "Spacecraft",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Systems engineering",
+        "Spacecraft propulsion",
+        "In-space propulsion technologies",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paul Czysz",
+        "Claudio Bruno",
+        "Bernd Chudoba"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Definition and Application of a Conceptual Design Architecture for a Two-Stage-to-Orbit All-Body Reusable Vehicle",
+      "publication_year": 2026,
+      "publication_date": "2026-05-13",
+      "doi": "https://doi.org/10.2514/6.2026-3006",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Systems engineering",
+        "Conceptual design",
+        "Architecture",
+        "Software engineering",
+        "Component (thermodynamics)",
+        "Engineering",
+        "Systems architecture"
+      ],
+      "abstract": "The Nautilus vehicle concept is developed through a systematic, multidisciplinary conceptual design process executed by Pyxis Aerospace. Beginning with project initiation, the team establishes mission justification, operational requirements, and key vehicle functionalities. Parametric sizing implements an iterating-converging sizing logic derived from Hypersonic Convergence budget equations, which is verified against Falcon 9 and Starship to ensure realistic outputs and valid gross parameters. Configuration layout translates these parameters into an integrated geometry and internal arrangement, guided by multidisciplinary considerations along the mission flight plan. Configuration evaluation refines the design through performance assessment, cost estimation, and updated solution space generation. The resulting Nautilus configuration provides a well-integrated, feasible concept that satisfies mission requirements. Design decisions made throughout conceptual design establish a robust foundation for higher-fidelity analyses.",
+      "authors": [
+        "Joshua S. Velez",
+        "Thomas L. Ledford",
+        "Cody Harris",
+        "Bernd Chudoba"
+      ]
+    },
+    {
+      "title": "Advancing early-phase conceptual design tool (AVDS) with propulsion-airframe integration: methodology and verification",
+      "publication_year": 2026,
+      "publication_date": "2026-04-29",
+      "doi": "https://doi.org/10.1108/aeat-01-2025-0015",
+      "venue": "Aircraft Engineering and Aerospace Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Conceptual design",
+        "Systems engineering",
+        "Computer science",
+        "Flexibility (engineering)",
+        "Aerospace",
+        "Robustness (evolution)",
+        "Sizing",
+        "Design tool"
+      ],
+      "abstract": "Purpose This study aims to develop and present the methodologies for integrating propulsion–airframe integration effects at the early conceptual design phase by enhancing the existing Aerospace Vehicle Design Synthesis Parametric Sizing (AVDSPS) methodology. Design/methodology/approach This study introduces two distinct processes to address propulsion–airframe integration at the early conceptual design level by tailoring the existing AVDS synthesis methodology. Three different vehicle configurations, Concorde, XB-70 and Sänger, are used as case studies for verification of the developed processes. Findings The successful integration of the proposed methods to effectively incorporate propulsion–airframe integration effects into the AVDS framework shows the capability, modularity and flexibility of the AVDS framework. Furthermore, results from case studies are within acceptable error margins, confirming the robustness of the proposed methods. The approaches provide increased design accuracy and flexibility, enabling better-informed early-phase decisions. Originality/value Propulsion–airframe integration effects into the design have traditionally been limited to high-fidelity analys...",
+      "authors": [
+        "Harinkumar Patel",
+        "Bernd Chudoba"
+      ]
+    },
+    {
+      "title": "Hypersonic Point-to-Point Transportation Benchmark Study (Boost-Glide Versus Cruise): Methodology",
+      "publication_year": 2025,
+      "publication_date": "2025-06-18",
+      "doi": "https://doi.org/10.2514/1.a36296",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cruise",
+        "Aerospace engineering",
+        "Takeoff",
+        "Mach number",
+        "Space launch",
+        "Propulsion",
+        "Hypersonic speed",
+        "Point (geometry)"
+      ],
+      "abstract": "No public domain study exists that performs a comprehensive comparison between the boost-glide and cruise flight modes. This study intends to bridge part of this gap by generating solution spaces of boost-glide and cruiser point designs for varying mission and geometry parameters. A limited trade space exploration is performed, where the two flight modes are compared based on vehicle size, weight, industry capability level, and direct operating cost to identify any advantages and disadvantages. The typical definition of “boost-glide” has been broadened such that both the cruiser and boost-glide vehicles in this study are single stage and have horizontal takeoff and landing capability. This is an “extreme” case comparison. The cruisers are purely airbreathing and the boost-glide vehicles combine airbreathing and rocket propulsion systems. Both use liquid hydrogen fuel. They are sized for ranges up to 11,000 nmi, cruise Mach up to Mach 12, and payload up to 55,000 lb. This paper discusses 1) the background of the cruiser versus boost-glide comparison, 2) the cruiser and boost-glide vehicle sizing process, 3) the disciplinary methods, and 4) the study definition and assumptions. A ...",
+      "authors": [
+        "Ian Maynard",
+        "Harinkumar Patel",
+        "Bernd Chudoba"
+      ]
+    },
+    {
+      "title": "Solution Space Screening of a Hypersonic Endurance Demonstrator",
+      "publication_year": 2025,
+      "publication_date": "2025-02-27",
+      "doi": "https://doi.org/10.18260/1-2-1153-52620",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://ntrs.nasa.gov/api/citations/20120016437/downloads/20120016437.pdf",
+      "concepts": [
+        "Sizing",
+        "Procurement",
+        "Hypersonic speed",
+        "Conceptual design",
+        "Parametric statistics",
+        "Systems engineering",
+        "Focus (optics)",
+        "Computer science"
+      ],
+      "abstract": "This report documents a parametric sizing study performed to develop a program strategy for research and development and procurement of a feasible next-generation hypersonic air-breathing endurance demonstrator. Overall project focus has been on complementing technical and managerial decision-making during the earliest conceptual design phase towards minimization of operational, technical, and managerial risks.",
+      "authors": [
+        "Amit Oza",
+        "Gary Coleman",
+        "Lex Gonzalez",
+        "Bernd Chudoba",
+        "Paul Czsyz"
+      ]
+    },
+    {
+      "title": "Reverse Engineering through Simulation of a Conceptual Design Process of Supermarine Spitfire",
+      "publication_year": 2025,
+      "publication_date": "2025-02-27",
+      "doi": "https://doi.org/10.18260/1-2-1153-52586",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://peer.asee.org/52586.pdf",
+      "concepts": [
+        "Aerodynamics",
+        "Conceptual design",
+        "Stability (learning theory)",
+        "Process (computing)",
+        "Computer science",
+        "Reverse engineering",
+        "Capstone",
+        "Systems engineering"
+      ],
+      "abstract": "This paper is a report documenting the experience of participating in a Senior Design Capstone course in which the Supermarine Spitfire Mk Vb was reversed engineered.Instituting multidisciplinary analysis, first order estimations, and calculations, the design team verified the flight capabilities of the Spitfire.The final focus of this engineering was to incorporate a synthesis of all the major disciplines through Lawrence Loftin's Subsonic Aircraft: Evolution and the Matching of Size to Performance.A brief discussion of this rapid iteration process is described below and results in a sanity check for the conceptual design and reverse engineering process by creating a solution space for a typical WWII fighter mission.Proving that the Spitfire's match point lies within the admissible range of design is confirmation for the reverse engineering tools used.Through reading this report one can begin to understand the complexity of conceptual designing an airplane and the adaptation of tools used for unconventional aircrafts.This includes the aerodynamic calculations using the United States Air Force DATCOM+ tool and the modification for an elliptical wing planform.From these results a...",
+      "authors": [
+        "George Kitamura",
+        "Kristin Milam",
+        "Elvin Hii",
+        "Chris Kniffin",
+        "Alexander Graves",
+        "Amit Oza",
+        "Bernd Chudoba"
+      ]
+    }
+  ]
+}

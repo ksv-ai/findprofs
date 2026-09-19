@@ -1,0 +1,255 @@
+{
+  "faculty_name": "Subhrajit Bhattacharya",
+  "full_name": "Subhrajit Bhattacharya",
+  "department": "Department of Mechanical Engineering and Mechanics",
+  "university": "Lehigh University",
+  "author_id": "A5101463763",
+  "works_count": 121,
+  "cited_by_count": 3049,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 62
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 20
+    },
+    {
+      "topic": "Control and Dynamics of Mobile Robots",
+      "count": 16
+    },
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 14
+    },
+    {
+      "topic": "VLSI and Analog Circuit Testing",
+      "count": 14
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Planning Dynamically Feasible Trajectories for Quadrotors Using Safe Flight Corridors in 3-D Complex Environments",
+      "publication_year": 2017,
+      "publication_date": "2017-02-07",
+      "doi": "https://doi.org/10.1109/lra.2017.2663526",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 570,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Motion planning",
+        "Computer science",
+        "Linear inequality",
+        "Robot",
+        "Mathematical optimization",
+        "Trajectory",
+        "Polyhedron",
+        "Artificial intelligence"
+      ],
+      "abstract": "There is extensive literature on using convex optimization to derive piece-wise polynomial trajectories for controlling differential flat systems with applications to three-dimensional flight for Micro Aerial Vehicles. In this work, we propose a method to formulate trajectory generation as a quadratic program (QP) using the concept of a Safe Flight Corridor (SFC). The SFC is a collection of convex overlapping polyhedra that models free space and provides a connected path from the robot to the goal position. We derive an efficient convex decomposition method that builds the SFC from a piece-wise linear skeleton obtained using a fast graph search technique. The SFC provides a set of linear inequality constraints in the QP allowing real-time motion planning. Because the range and field of view of the robot's sensors are limited, we develop a framework of Receding Horizon Planning , which plans trajectories within a finite footprint in the local map, continuously updating the trajectory through a re-planning process. The re-planning process takes between 50 to 300 ms for a large and cluttered map. We show the feasibility of our approach, its completeness and performance, with applic...",
+      "authors": [
+        "Sikang Liu",
+        "Michael Watterson",
+        "Kartik Mohta",
+        "Ke Sun",
+        "Subhrajit Bhattacharya",
+        "Camillo J. Taylor",
+        "Vijay Kumar"
+      ]
+    },
+    {
+      "title": "Spherical rolling robot: a design and motion planning studies",
+      "publication_year": 2000,
+      "publication_date": "2000-01-01",
+      "doi": "https://doi.org/10.1109/70.897794",
+      "venue": "IEEE Transactions on Robotics and Automation",
+      "type": "article",
+      "cited_by_count": 234,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonholonomic system",
+        "Robot",
+        "Ball (mathematics)",
+        "Computer science",
+        "Motion planning",
+        "Robot kinematics",
+        "Simulation",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Describes a prototype and analytical studies of a spherical rolling robot, a new design of a nonholonomic robot system. The spherical robot is driven by two remotely controlled, internally mounted rotors that induce the ball to roll and spin on a flat surface. It is tracked on the plane by an overhead camera. A mathematical model of the robot's motion was developed using the nonholonomic constraints on its motion. For a number of simple motions, it is shown experimentally that the model agrees well with the results. Methods were developed for planning feasible, minimum time and minimum energy trajectories for the robot. These methods are illustrated both by mathematical simulation and hardware experiments.",
+      "authors": [
+        "Subhrajit Bhattacharya",
+        "Sunil K. Agrawal"
+      ]
+    },
+    {
+      "title": "Topological constraints in search-based robot path planning",
+      "publication_year": 2012,
+      "publication_date": "2012-06-19",
+      "doi": "https://doi.org/10.1007/s10514-012-9304-1",
+      "venue": "Autonomous Robots",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Motion planning",
+        "Homotopy",
+        "Homology (biology)",
+        "Robot",
+        "Euclidean geometry",
+        "Topology (electrical circuits)",
+        "Theoretical computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Subhrajit Bhattacharya",
+        "Maxim Likhachev",
+        "Vijay Kumar"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "From Ellipsoids to Midair Control of Dynamic Hitches",
+      "publication_year": 2026,
+      "publication_date": "2026-02-08",
+      "doi": "https://doi.org/10.48550/arxiv.2602.08116",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.08116",
+      "concepts": [
+        "Context (archaeology)",
+        "Kinematics",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Computer science",
+        "Constraint (computer-aided design)",
+        "Position (finance)",
+        "Engineering"
+      ],
+      "abstract": "The ability to manipulate and interlace cables using aerial vehicles can greatly improve aerial transportation tasks. Such interlacing cables create hitches by winding two or more cables around each other, which can enclose payloads or can further develop into knots. Dynamic modeling and control of such hitches are key to mastering inter-cable interactions in the context of cable-suspended aerial manipulation. This paper introduces an ellipsoid-based kinematic model to connect the geometric nature of a hitch created by two cables and the dynamics of the hitch driven by four aerial vehicles, which reveals the control-affine form of the system. As the constraint for maintaining tension of a cable is also control-affine, we design a quadratic programming-based controller that combines Control Lyapunov and High-Order Control Barrier Functions (CLF-HOCBF-QP) to precisely track a desired hitch position and system shape while enforcing safety constraints like cable tautness. We convert desired geometric reference configurations into target robot positions and introduce a composite error into the Lyapunov function to ensure a relative degree of one to the input. Numerical simulations va...",
+      "authors": [
+        "Jiawei Xu",
+        "Subhrajit Bhattacharya",
+        "David Saldaña"
+      ]
+    },
+    {
+      "title": "From Ellipsoids to Midair Control of Dynamic Hitches",
+      "publication_year": 2026,
+      "publication_date": "2026-02-08",
+      "doi": "http://arxiv.org/abs/2602.08116",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.08116",
+      "concepts": [
+        "Context (archaeology)",
+        "Kinematics",
+        "Control theory (sociology)",
+        "Controller (irrigation)",
+        "Computer science",
+        "Constraint (computer-aided design)",
+        "Position (finance)",
+        "Engineering"
+      ],
+      "abstract": "The ability to manipulate and interlace cables using aerial vehicles can greatly improve aerial transportation tasks. Such interlacing cables create hitches by winding two or more cables around each other, which can enclose payloads or can further develop into knots. Dynamic modeling and control of such hitches are key to mastering inter-cable interactions in the context of cable-suspended aerial manipulation. This paper introduces an ellipsoid-based kinematic model to connect the geometric nature of a hitch created by two cables and the dynamics of the hitch driven by four aerial vehicles, which reveals the control-affine form of the system. As the constraint for maintaining tension of a cable is also control-affine, we design a quadratic programming-based controller that combines Control Lyapunov and High-Order Control Barrier Functions (CLF-HOCBF-QP) to precisely track a desired hitch position and system shape while enforcing safety constraints like cable tautness. We convert desired geometric reference configurations into target robot positions and introduce a composite error into the Lyapunov function to ensure a relative degree of one to the input. Numerical simulations va...",
+      "authors": [
+        "Jiawei Xu",
+        "Subhrajit Bhattacharya",
+        "David Saldaña"
+      ]
+    },
+    {
+      "title": "From Hitch to Lift: Autonomous Cable Interlacing by Multi-UAV Teams for Aerial Grasping and Transportation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/tro.2026.3677011",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interlacing",
+        "Scalability",
+        "Tying",
+        "Computer science",
+        "Pipeline (software)",
+        "Object (grammar)",
+        "Grippers",
+        "Artificial intelligence"
+      ],
+      "abstract": "The use of cables in aerial manipulation offers a lightweight and flexible alternative to rigid grasping mechanisms. However, achieving autonomous tying and secure transportation of objects with cables remains a significant challenge. In this work, we present a novel method for autonomously securing and transporting objects using multi-layer hitches formed in midair by a team of aerial robots. Building upon prior work on polygonal hitch formation, we extend the framework to include layered cable interlacing that increases frictional grip and enables secure object grasping. We introduce two new manipulation actions: multi-layer tying and autonomous object release, completing the pipeline for aerial grasping and transportation. We develop a capstan-based analytical model that establishes an exponential scaling law for the effect of cable layers and provides a conservative guideline. The formation algorithm operates in parallel, ensuring scalability to large teams with constant execution time. We validate our system through simulation and hardware experiments, demonstrating fully autonomous object tying, lifting, and releasing using cables alone without human intervention.",
+      "authors": [
+        "Diego S. D’Antonio",
+        "Tongshu Wu",
+        "Subhrajit Bhattacharya",
+        "David Saldaña"
+      ]
+    },
+    {
+      "title": "Topological Coverage Control in Mobile Sensor Networks Using Weighted Combinatorial Laplacian",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.5220/0015001000004094",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5220/0015001000004094",
+      "concepts": [
+        "Wireless sensor network",
+        "Computer science",
+        "Topology (electrical circuits)",
+        "Control (management)",
+        "Laplace operator",
+        "Mathematics",
+        "Algorithm",
+        "Topology control"
+      ],
+      "abstract": "",
+      "authors": [
+        "Shunsaku Yadokoro",
+        "Subhrajit Bhattacharya"
+      ]
+    },
+    {
+      "title": "Distributed Optimization of Bivariate Polynomial Graph Spectral Functions via Subgraph Optimization",
+      "publication_year": 2025,
+      "publication_date": "2025-11-14",
+      "doi": "https://doi.org/10.48550/arxiv.2511.11517",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.11517",
+      "concepts": [
+        "Mathematics",
+        "Disjoint sets",
+        "Quadratic equation",
+        "Graph",
+        "Pairwise comparison",
+        "Mathematical optimization",
+        "Polynomial",
+        "Upper and lower bounds"
+      ],
+      "abstract": "We study distributed optimization of finite-degree polynomial Laplacian spectral objectives under fixed topology and a global weight budget, targeting the collective behavior of the entire spectrum rather than a few extremal eigenvalues. By re-formulating the global cost in a bilinear form, we derive local subgraph problems whose gradients approximately align with the global descent direction via an SVD-based test on the \\(ZC\\) matrix. This leads to an iterate-and-embed scheme over disjoint 1-hop neighborhoods that preserves feasibility by construction (positivity and budget) and scales to large geometric graphs. For objectives that depend on pairwise eigenvalue differences \\(h(λ_i-λ_j)\\), we obtain a quadratic upper bound in the degree vector, which motivates a ``warm-start'' by degree-regularization. The warm start uses randomized gossip to estimate global average degree, accelerating subsequent local descent while maintaining decentralization, and realizing $\\sim95\\%{}$ of the performance with respect to centralized optimization. We further introduce a learning-based proposer that predicts one-shot edge updates on maximal 1-hop embeddings, yielding immediate objective reducti...",
+      "authors": [
+        "J. Liu",
+        "Nicolas Kozachuk",
+        "Subhrajit Bhattacharya"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "faculty_name": "Kenneth Granlund",
+  "full_name": "Kenneth Granlund",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "North Carolina State University",
+  "author_id": "A5071382594",
+  "works_count": 124,
+  "cited_by_count": 1767,
+  "h_index": 19,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 71
+    },
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 46
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 39
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 20
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding",
+      "publication_year": 2014,
+      "publication_date": "2014-06-23",
+      "doi": "https://doi.org/10.1017/jfm.2014.297",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 276,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Vortex shedding",
+        "Reynolds number",
+        "Physics",
+        "Leading edge",
+        "Vortex",
+        "Vorticity",
+        "Kármán vortex street"
+      ],
+      "abstract": "Abstract Unsteady aerofoil flows are often characterized by leading-edge vortex (LEV) shedding. While experiments and high-order computations have contributed to our understanding of these flows, fast low-order methods are needed for engineering tasks. Classical unsteady aerofoil theories are limited to small amplitudes and attached leading-edge flows. Discrete-vortex methods that model vortex shedding from leading edges assume continuous shedding, valid only for sharp leading edges, or shedding governed by ad-hoc criteria such as a critical angle of attack, valid only for a restricted set of kinematics. We present a criterion for intermittent vortex shedding from rounded leading edges that is governed by a maximum allowable leading-edge suction. We show that, when using unsteady thin aerofoil theory, this leading-edge suction parameter (LESP) is related to the $\\def \\xmlpi #1{}\\def \\mathsfbi #1{\\boldsymbol {\\mathsf {#1}}}\\let \\le =\\leqslant \\let \\leq =\\leqslant \\let \\ge =\\geqslant \\let \\geq =\\geqslant \\def \\Pr {\\mathit {Pr}}\\def \\Fr {\\mathit {Fr}}\\def \\Rey {\\mathit {Re}}A_0$ term in the Fourier series representing the chordwise variation of bound vorticity. Furthermore, for any...",
+      "authors": [
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam",
+        "Kenneth Granlund",
+        "Michael Ol",
+        "Jack R. Edwards"
+      ]
+    },
+    {
+      "title": "Unsteady force generation and vortex dynamics of pitching and plunging aerofoils",
+      "publication_year": 2012,
+      "publication_date": "2012-08-06",
+      "doi": "https://doi.org/10.1017/jfm.2012.318",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 224,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Strouhal number",
+        "Physics",
+        "Reynolds number",
+        "Angle of attack",
+        "Airfoil",
+        "Vortex",
+        "Mechanics",
+        "Lift (data mining)"
+      ],
+      "abstract": "Abstract Experimental studies of the flow topology, leading-edge vortex dynamics and unsteady force produced by pitching and plunging flat-plate aerofoils in forward flight at Reynolds numbers in the range 5000–20 000 are described. We consider the effects of varying frequency and plunge amplitude for the same effective angle-of-attack time history. The effective angle-of-attack history is a sinusoidal oscillation in the range $\\ensuremath{-} 6$ to $2{2}^{\\ensuremath{\\circ} } $ with mean of ${8}^{\\ensuremath{\\circ} } $ and amplitude of $1{4}^{\\ensuremath{\\circ} } $ . The reduced frequency is varied in the range 0.314–1.0 and the Strouhal number range is 0.10–0.48. Results show that for constant effective angle of attack, the flow evolution is independent of Strouhal number, and as the reduced frequency is increased the leading-edge vortex (LEV) separates later in phase during the downstroke. The LEV trajectory, circulation and area are reported. It is shown that the effective angle of attack and reduced frequency determine the flow evolution, and the Strouhal number is the main parameter determining the aerodynamic force acting on the aerofoil. At low Strouhal numbers, the lift ...",
+      "authors": [
+        "Yeon Sik Baik",
+        "Luis P. Bernal",
+        "Kenneth Granlund",
+        "Michael Ol"
+      ]
+    },
+    {
+      "title": "An unsteady airfoil theory applied to pitching motions validated against experiment and computation",
+      "publication_year": 2013,
+      "publication_date": "2013-01-15",
+      "doi": "https://doi.org/10.1007/s00162-012-0292-8",
+      "venue": "Theoretical and Computational Fluid Dynamics",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Inviscid flow",
+        "Vortex",
+        "Mechanics",
+        "Reynolds number",
+        "Angle of attack",
+        "Vorticity",
+        "Vortex shedding"
+      ],
+      "abstract": "",
+      "authors": [
+        "Kiran Ramesh",
+        "Ashok Gopalarathnam",
+        "Jack R. Edwards",
+        "Michael Ol",
+        "Kenneth Granlund"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Analysis and Experimental Validation of a Low-Complexity Enhanced Orientation-Based Controller for Tethered Energy-Harvesting Systems",
+      "publication_year": 2025,
+      "publication_date": "2025-04-28",
+      "doi": "https://doi.org/10.1109/tcst.2025.3558870",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://repository.tudelft.nl/file/File_9ec01f16-e73f-4c56-875a-e3a991d4c9ba",
+      "concepts": [
+        "Orientation (vector space)",
+        "Controller (irrigation)",
+        "Energy harvesting",
+        "Energy (signal processing)",
+        "Computer science",
+        "Biological system",
+        "Mathematics",
+        "Biology"
+      ],
+      "abstract": "In this work, a methodology for controlling the flight of an underwater energy-harvesting kite, termed enhanced orientation-based control, is presented. This control technique is shown to perform comparably to more complex, hierarchical path-following control approaches that rely upon expensive and unreliable localization sensors while performing significantly better than simple orientation-based controllers that possess a comparable degree of complexity. The periodic closed-loop stability of a kite utilizing the proposed controller is validated in a low-order simulation framework. From there, the performance of the proposed controller is benchmarked against established control techniques via a medium-fidelity simulation environment. Finally, the efficacy of the proposed controller design is demonstrated experimentally based on two testing results on a scaled prototype kite.",
+      "authors": [
+        "Jacob Fine",
+        "Peter Newell",
+        "Kavin Govindarajan",
+        "Carson M. McGuire",
+        "Paul C. Paris",
+        "Gabriel Matthias",
+        "Mary Maceda",
+        "Jeremy Baxter",
+        "Kenneth Granlund",
+        "Matthew Bryant",
+        "Christopher Vermillion"
+      ]
+    },
+    {
+      "title": "A low-order modeling approach for analyzing the performance of coaxial, counter-rotating ocean current turbines: The equivalent single rotor model",
+      "publication_year": 2024,
+      "publication_date": "2024-12-29",
+      "doi": "https://doi.org/10.1016/j.renene.2024.122281",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Coaxial",
+        "Rotor (electric)",
+        "Current (fluid)",
+        "Engineering",
+        "Mechanical engineering",
+        "Electrical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "J. Karpiński",
+        "C A Ramm",
+        "Peyman Razi",
+        "Kenneth Granlund",
+        "Matthew Bryant",
+        "Andre P. Mazzoleni",
+        "Praveen Ramaprabhu"
+      ]
+    },
+    {
+      "title": "Technoeconomic optimization of coaxial hydrokinetic turbines",
+      "publication_year": 2024,
+      "publication_date": "2024-12-10",
+      "doi": "https://doi.org/10.1016/j.renene.2024.122041",
+      "venue": "Renewable Energy",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Coaxial",
+        "Marine engineering",
+        "Environmental science",
+        "Aerospace engineering",
+        "Engineering",
+        "Computer science",
+        "Mechanical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mehedi Hassan",
+        "Matthew Bryant",
+        "Andre P. Mazzoleni",
+        "Kenneth Granlund"
+      ]
+    },
+    {
+      "title": "Radially-azimuthally discretized blade-element momentum theory for skewed coaxial turbines",
+      "publication_year": 2024,
+      "publication_date": "2024-12-06",
+      "doi": "https://doi.org/10.1016/j.oceaneng.2024.119940",
+      "venue": "Ocean Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Blade element momentum theory",
+        "Blade (archaeology)",
+        "Blade element theory",
+        "Coaxial",
+        "Physics",
+        "Momentum (technical analysis)",
+        "Discretization",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vinson Oliver Williams",
+        "Saurabh Agrawal",
+        "Kenneth Granlund",
+        "Andre P. Mazzoleni",
+        "Matthew Bryant"
+      ]
+    },
+    {
+      "title": "Marine Hydrokinetic Farm Optimization for Coaxial Dual-Rotor Turbines",
+      "publication_year": 2024,
+      "publication_date": "2024-07-22",
+      "doi": "https://doi.org/10.1109/joe.2024.3393538",
+      "venue": "IEEE Journal of Oceanic Engineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Marine engineering",
+        "Rotor (electric)",
+        "Coaxial",
+        "Dual (grammatical number)",
+        "Engineering",
+        "Aerospace engineering",
+        "Environmental science",
+        "Acoustics"
+      ],
+      "abstract": "This article focuses on the optimization of marine hydrokinetic farms of coaxial dual-rotor turbines with wake interaction. To perform the optimization, we introduce a new analytical wake model for this turbine configuration and validate it herein. The proposed model predicts the wake velocity deficit in the near- and far-wake of the turbine in terms of the diameters and axial induction factors of the upstream and downstream rotors and the location of the near-wake boundary. It is derived by utilizing mass- and momentum balancing in the near- and far-wake control volumes, supplemented by the application of Bernoulli's principle along pertinent streamlines. The analytical prediction is compared with computational simulation results for different flow conditions to find good agreement between them. The optimization problem is solved by the implementation of a genetic algorithm, which is developed based on the wake model. The algorithm maximizes farm efficiency by minimizing the wake interactions among the turbines. The influence of different parameters of the algorithm on its overall performance and efficiency is investigated to discover that a perfect integration among the parame...",
+      "authors": [
+        "Mehedi Hassan",
+        "Matthew Bryant",
+        "Andre P. Mazzoleni",
+        "Praveen Ramaprabhu",
+        "Kenneth Granlund"
+      ]
+    }
+  ]
+}

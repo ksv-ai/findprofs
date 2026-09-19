@@ -1,0 +1,256 @@
+{
+  "faculty_name": "James Coder",
+  "full_name": "James G. Coder",
+  "department": "Department of Aerospace Engineering",
+  "university": "Pennsylvania State University-Main Campus",
+  "author_id": "A5000763062",
+  "works_count": 130,
+  "cited_by_count": 1194,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 95
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 84
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 24
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 19
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Computational Fluid Dynamics Compatible Transition Modeling Using an Amplification Factor Transport Equation",
+      "publication_year": 2014,
+      "publication_date": "2014-04-21",
+      "doi": "https://doi.org/10.2514/1.j052905",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 222,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Computational fluid dynamics",
+        "Aerodynamics",
+        "Solver",
+        "Wind tunnel",
+        "Turbulence",
+        "Mechanics",
+        "Laminar flow"
+      ],
+      "abstract": "A new laminar–turbulent transition model for low-turbulence external aerodynamic applications is presented that incorporates linear stability theory in a manner compatible with modern computational fluid dynamics solvers. The model uses a new transport equation that describes the growth of the maximum Tollmien–Schlichting instability amplitude in the presence of a boundary layer. To avoid the need for integration paths and nonlocal operations, a locally defined nondimensional pressure-gradient parameter is used that serves as an estimator of the integral boundary-layer properties. The model has been implemented into the OVERFLOW 2.2f solver. Comparisons of predictions using the new model with high-quality wind-tunnel measurements of airfoil section characteristics confirm the predictive qualities of the model, as well as its improvement over the current state of the art in computational fluid dynamics transition modeling at approximately half the computational expense.",
+      "authors": [
+        "James G. Coder",
+        "Mark D. Maughmer"
+      ]
+    },
+    {
+      "title": "Comparisons of Theoretical Methods for Predicting Airfoil Aerodynamic Characteristics",
+      "publication_year": 2014,
+      "publication_date": "2014-01-01",
+      "doi": "https://doi.org/10.2514/1.c032232",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 80,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Aerodynamics",
+        "Boundary layer",
+        "Computational fluid dynamics",
+        "Solver",
+        "Lift coefficient",
+        "Lift (data mining)",
+        "Turbulence"
+      ],
+      "abstract": "A number of airfoils have been tested in the Pennsylvania State University low-speed low-turbulence wind tunnel, and the results of these tests are compared with those predicted using several well-known theoretical methods. The theoretical methods used are the potential-flow/integral boundary-layer methods XFOIL 6.96 and PROFIL07 and the Reynolds-averaged Navier–Stokes solver OVERFLOW 2.2e. This version of the OVERFLOW solver contains an implementation of the transitional shear-stress transport turbulence model developed by Langtry and Menter (“Correlation-Based Transition Modeling for Unstructured Parallelized Computational Fluid Dynamics Codes,” AIAA Journal, Vol. 47, No. 12, 2009, pp. 2894–2906). This model is capable of capturing the influence of transition on the flowfield through a local-correlation method. The airfoils considered for this study are the E 387, S805, PSU 94-097, HTR1555, S903, and S824. Although none of the theoretical methods considered were consistently the best overall, all codes predicted the drag well in the low-drag regions of these airfoils and the codes incorporating integral boundary-layer methods generally agreed better with the experimental data....",
+      "authors": [
+        "James G. Coder",
+        "Mark D. Maughmer"
+      ]
+    },
+    {
+      "title": "Experimental Investigation into the Effect of Gurney Flaps on Various Airfoils",
+      "publication_year": 2013,
+      "publication_date": "2013-06-20",
+      "doi": "https://doi.org/10.2514/1.c032203",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 68,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Lift coefficient",
+        "Aerodynamics",
+        "Lift (data mining)",
+        "Angle of attack",
+        "Lift-to-drag ratio",
+        "Wing",
+        "Aerodynamic center"
+      ],
+      "abstract": "The aerodynamic effects of the application of Gurney flaps of different heights and chordwise locations to five airfoils have been investigated in the Pennsylvania State University low-speed, low-turbulence wind tunnel. The effectiveness of each Gurney flap/airfoil combination is measured by the change in the maximum lift coefficient of the airfoil. When grouped by flap height and plotted against chordwise location, there is considerable scatter in the data, indicating that the effectiveness of the Gurney flap is strongly influenced by airfoil shape. Two anomalous cases are considered in detail. In the first case, the increase in is considerably different for two airfoils with the addition of a Gurney flap having the same height and mounted at the same chordwise location. The second case is one in which a Gurney flap of a specific height and mounting location is found to increase on one airfoil and decrease it on another. For these cases, pressure distributions, lift curves, and drag polars are provided. An explanation for the mechanism for the change in lift due to a Gurney flap is presented.",
+      "authors": [
+        "Julia A. Cole",
+        "Bernardo Vieira",
+        "James G. Coder",
+        "Amandeep Premi",
+        "Mark D. Maughmer"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Characterization of Hypersonic Waverider Wake With Spectral Proper Orthogonal Decomposition",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4398",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Proper orthogonal decomposition",
+        "Characterization (materials science)",
+        "Hypersonic speed",
+        "Mechanics",
+        "Materials science",
+        "Aerospace engineering",
+        "Decomposition"
+      ],
+      "abstract": "As the maturity and deployment of hypersonic missiles progress, the need arises to better characterize all aspects of these systems. This paper analyzes of the wake structure formed by a lift generating hypersonic waverider. To perform such an analysis the HPCMP CREATETM-AV Kestrel Flow Solver was utilized due to its combination of robustness and physical accuracy even in these extreme conditions. A representative geometry was generated for simulation at Mach 5 with an altitude of 15 km. Convergence and time sensitivity analyses were performed before running full simulations. The application of time averaging and spectral proper orthogonal decomposition (SPOD) on chord-wise normal plane sections was utilized to gain insight into wake dynamics. This analysis has revealed a double vortex wake structure with the primary wingtip vortex developing larger fluctuations as it travels into the far wake region and interacts with turbulent structures in the flow. Circulation strength of the primary trailing wake vortex was found to be in line with potential flow predictions. The fluctuations of the main vortex present a coherent, yet multi-tonal structure in SPOD. At higher angles of attac...",
+      "authors": [
+        "Nicholas J. Giampetro",
+        "Jules W. Lindau",
+        "James G. Coder"
+      ]
+    },
+    {
+      "title": "The Conjugate Unscented Transform for Uncertainty Quantification of the Spalart-Allmaras Turbulence Model",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4146",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Uncertainty quantification",
+        "Applied mathematics",
+        "Mathematics",
+        "Computer science",
+        "Turbulence",
+        "Unscented transform",
+        "Control theory (sociology)",
+        "Noise (video)"
+      ],
+      "abstract": "An approach for quantifying uncertainty within the Spalart-Allmaras turbulence model is presented. The non-intrusive approach employs the Conjugate Unscented Transform (CUT) to estimate statistical moments of the turbulence model output. Additionally, the method captures the nonlinear response of the Spalart-Allmaras turbulence model to parametric uncertainty with high accuracy and reduced computational cost compared to other methods. The methodology is evaluated against traditional stochastic techniques, such as Latin Hypercube Sampling and Monte Carlo sampling. Convergence studies of each sampling technique are conducted and compared to a reference Monte Carlo sample set. The performance of the CUT framework against the other techniques is demonstrated through basic test cases due to their low computational cost. The results of the study show that CUT provides an accurate and computationally efficient technique, achieving performance comparable to the reference Monte Carlo set with significantly fewer samples.",
+      "authors": [
+        "Samuel Gosin",
+        "Ryan B. Glenn",
+        "Christopher J. Axten",
+        "James G. Coder",
+        "Puneet Singla"
+      ]
+    },
+    {
+      "title": "CFD Transition Model Calibration for Transonic, Natural-Laminar-Flow Applications",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4163",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Calibration",
+        "Computational fluid dynamics",
+        "Mechanics",
+        "Environmental science",
+        "Computer science",
+        "Physics",
+        "Materials science",
+        "Mechanical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christopher J. Axten",
+        "James G. Coder",
+        "Thomas R. Wayman",
+        "Donald Freund",
+        "Anja Vogel",
+        "Neal Pfeiffer"
+      ]
+    },
+    {
+      "title": "Ice Accretion Prediction and Experimental Validation for a Slotted Natural-Laminar-Flow Airfoil",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4147",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Geology",
+        "Airfoil",
+        "Remote sensing",
+        "Accretion (finance)",
+        "Geodesy",
+        "Meteorology",
+        "Geophysics",
+        "Numerical models"
+      ],
+      "abstract": "",
+      "authors": [
+        "Pierce Hart",
+        "Jason Borden",
+        "James G. Coder",
+        "Tom Wayman"
+      ]
+    },
+    {
+      "title": "Transonic wind-tunnel testing of a slotted, natural-laminar-flow wing at full-scale conditions",
+      "publication_year": 2026,
+      "publication_date": "2026-03-10",
+      "doi": "https://doi.org/10.1007/s13272-026-00956-0",
+      "venue": "CEAS Aeronautical Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s13272-026-00956-0.pdf",
+      "concepts": [
+        "Airfoil",
+        "Wind tunnel",
+        "Transonic",
+        "Aerospace engineering",
+        "Mach number",
+        "Wing",
+        "Engineering",
+        "Subsonic and transonic wind tunnel"
+      ],
+      "abstract": "Abstract A semi-span wing based on the slotted, natural-laminar-flow (SNLF) airfoil concept was experimentally tested in the NASA Ames Unitary Plan Wind Tunnel 11-ft transonic test section to validate the viability of SNLF for commercial transport applications. The model is based on the S207, SNLF airfoil, which was designed in tandem with a transonic, truss-braced wing (TTBW) aircraft as part of a NASA-funded University Leadership Initiative project. The wind-tunnel model itself is a constant-chord, constant-sweep to emphasize the airfoil aerodynamics. Pressure orifices were included in the model and distributed between the fore and aft elements. Total force and moment measurements were collected using a floor balance. Transition locations were measured using IR thermography, facilitated by the model being coated with a high-emissivity black paint with a fine surface finish. The capabilities of the wind tunnel allowed for testing at Reynolds and Mach numbers exceeding those expected for the reference TTBW aircraft, which is notable for ground testing. It was found that the model achieved extensive runs of laminar flow around its design point, validating the concept at flight-re...",
+      "authors": [
+        "James G. Coder"
+      ]
+    }
+  ]
+}

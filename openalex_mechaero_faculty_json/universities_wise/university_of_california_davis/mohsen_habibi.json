@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Mohsen Habibi",
+  "full_name": "Mohsen Habibi",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Davis",
+  "author_id": "A5043573145",
+  "works_count": 41,
+  "cited_by_count": 948,
+  "h_index": 14,
+  "top_topics": [
+    {
+      "topic": "Advanced machining processes and optimization",
+      "count": 21
+    },
+    {
+      "topic": "Manufacturing Process and Optimization",
+      "count": 15
+    },
+    {
+      "topic": "Advanced Measurement and Metrology Techniques",
+      "count": 12
+    },
+    {
+      "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 6
+    },
+    {
+      "topic": "Gear and Bearing Dynamics Analysis",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Direct sound printing",
+      "publication_year": 2022,
+      "publication_date": "2022-04-06",
+      "doi": "https://doi.org/10.1038/s41467-022-29395-1",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 94,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41467-022-29395-1.pdf",
+      "concepts": [
+        "Sound (geography)",
+        "Computer science",
+        "Acoustics",
+        "Physics"
+      ],
+      "abstract": "Photo- and thermo-activated reactions are dominant in Additive Manufacturing (AM) processes for polymerization or melting/deposition of polymers. However, ultrasound activated sonochemical reactions present a unique way to generate hotspots in cavitation bubbles with extraordinary high temperature and pressure along with high heating and cooling rates which are out of reach for the current AM technologies. Here, we demonstrate 3D printing of structures using acoustic cavitation produced directly by focused ultrasound which creates sonochemical reactions in highly localized cavitation regions. Complex geometries with zero to varying porosities and 280 μm feature size are printed by our method, Direct Sound Printing (DSP), in a heat curing thermoset, Poly(dimethylsiloxane) that cannot be printed directly so far by any method. Sonochemiluminescnce, high speed imaging and process characterization experiments of DSP and potential applications such as remote distance printing are presented. Our method establishes an alternative route in AM using ultrasound as the energy source.",
+      "authors": [
+        "Mohsen Habibi",
+        "Shervin Foroughi",
+        "Vahid Karamzadeh",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Holographic direct sound printing",
+      "publication_year": 2024,
+      "publication_date": "2024-08-06",
+      "doi": "https://doi.org/10.1038/s41467-024-50923-8",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41467-024-50923-8.pdf",
+      "concepts": [
+        "Holography",
+        "3D printing",
+        "Acoustic holography",
+        "Computer science",
+        "Process (computing)",
+        "Voxel",
+        "Acoustics",
+        "Materials science"
+      ],
+      "abstract": "Direct sound printing (DSP), an alternative additive manufacturing process driven by sonochemical polymerization, has traditionally been confined to a single acoustic focal region, resulting in a voxel-by-voxel printing approach. To overcome this limitation, we introduce holographic direct sound printing (HDSP), where acoustic holograms, storing cross-sectional images of the desired parts, pattern acoustic waves to induce regional cavitation bubbles and on-demand regional polymerization. HDSP outperforms DSP in terms of printing speed by one order of magnitude and yields layerless printed structures. In our HDSP implementation, the hologram remains stationary while the printing platform moves along a three-dimensional path using a robotic arm. We present sono-chemiluminescence and high-speed imaging experiments to thoroughly investigate HDSP and demonstrate its versatility in applications such as remote ex-vivo in-body printing and complex robot trajectory planning. We showcase multi-object and multi-material printing and provide a comprehensive process characterization, including the effects of hologram design and manufacturing on the HDSP process, polymerization progression tr...",
+      "authors": [
+        "Mahdi Derayatifar",
+        "Mohsen Habibi",
+        "Rama Bhat",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Virtual machining considering dimensional, geometrical and tool deflection errors in three-axis CNC milling machines",
+      "publication_year": 2014,
+      "publication_date": "2014-05-29",
+      "doi": "https://doi.org/10.1016/j.jmsy.2014.04.007",
+      "venue": "Journal of Manufacturing Systems",
+      "type": "article",
+      "cited_by_count": 107,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Machining",
+        "Deflection (physics)",
+        "Machine tool",
+        "Virtual machining",
+        "Numerical control",
+        "Mechanical engineering",
+        "Cnc milling",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mohsen Soori",
+        "Behrooz Arezoo",
+        "Mohsen Habibi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Proximal sound printing: direct 3D printing of microstructures on polymers",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.1038/s41378-025-01035-w",
+      "venue": "Microsystems & Nanoengineering",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41378-025-01035-w.pdf",
+      "concepts": [
+        "Polydimethylsiloxane",
+        "3D printing",
+        "Microfluidics",
+        "Materials science",
+        "Soft lithography",
+        "Thermosetting polymer",
+        "Nanotechnology",
+        "Aperture (computer memory)"
+      ],
+      "abstract": "Proximal Sound Printing (PSP) is a new class of additive manufacturing (AM) processes where on-demand polymerization occurs through ultrasound waves interacting with printing material right at the proximity of the acoustic aperture by inducing cavitation. Despite recent developments in sound-based AM techniques, inherent practical limitations still remain, such as low resolution and repeatability, as well as the inability to print multi-material structures. PSP overcomes these limitations, enhancing resolution tenfold, reducing printing power fourfold, and decreasing maximum acoustic streaming velocity 1600 times compared to common sound-based printing methods, enhancing repeatability and resolution. PSP offers greater versatility than existing methods in modulating feature size through printing aperture tuning. This capability is particularly valuable for fabricating microsystems, where high-resolution patterning and material integrity are essential. Furthermore, PSP enables the direct printing of heat-curing materials such as polydimethylsiloxane (PDMS), a widely used thermoset in microfluidics and soft lithography, without altering its native formulation. The PSP process is e...",
+      "authors": [
+        "Shervin Foroughi",
+        "Mohsen Habibi",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Holographic direct sound printing",
+      "publication_year": 2024,
+      "publication_date": "2024-08-06",
+      "doi": "https://doi.org/10.1038/s41467-024-50923-8",
+      "venue": "Nature Communications",
+      "type": "article",
+      "cited_by_count": 56,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s41467-024-50923-8.pdf",
+      "concepts": [
+        "Holography",
+        "3D printing",
+        "Acoustic holography",
+        "Computer science",
+        "Process (computing)",
+        "Voxel",
+        "Acoustics",
+        "Materials science"
+      ],
+      "abstract": "Direct sound printing (DSP), an alternative additive manufacturing process driven by sonochemical polymerization, has traditionally been confined to a single acoustic focal region, resulting in a voxel-by-voxel printing approach. To overcome this limitation, we introduce holographic direct sound printing (HDSP), where acoustic holograms, storing cross-sectional images of the desired parts, pattern acoustic waves to induce regional cavitation bubbles and on-demand regional polymerization. HDSP outperforms DSP in terms of printing speed by one order of magnitude and yields layerless printed structures. In our HDSP implementation, the hologram remains stationary while the printing platform moves along a three-dimensional path using a robotic arm. We present sono-chemiluminescence and high-speed imaging experiments to thoroughly investigate HDSP and demonstrate its versatility in applications such as remote ex-vivo in-body printing and complex robot trajectory planning. We showcase multi-object and multi-material printing and provide a comprehensive process characterization, including the effects of hologram design and manufacturing on the HDSP process, polymerization progression tr...",
+      "authors": [
+        "Mahdi Derayatifar",
+        "Mohsen Habibi",
+        "Rama Bhat",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Printing of Cantilevers and Millifluidic Devices Using Ultrasound Waves",
+      "publication_year": 2024,
+      "publication_date": "2024-04-11",
+      "doi": "https://doi.org/10.1089/3dp.2023.0174",
+      "venue": "3D Printing and Additive Manufacturing",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://pubmed.ncbi.nlm.nih.gov/40538575/",
+      "concepts": [
+        "Cantilever",
+        "Materials science",
+        "Acoustics",
+        "Ultrasound",
+        "Optoelectronics",
+        "Nanotechnology",
+        "Composite material",
+        "Physics"
+      ],
+      "abstract": "Direct sound printing (DSP) is a recent development in additive manufacturing processes using sound waves, in which cavitation bubbles created by a focused ultrasound field polymerize the liquid resin via the sonochemistry route. This article presents the first attempt to create functional parts, such as cantilevers and millifluidic systems in polydimethylsiloxane using DSP. The numerical simulations of acoustic propagation in the DSP and possible high-pressure zones in different media during the process are presented. The printed parts were characterized, and porosity analyses of the printed parts and postprocessing of the ultrasound source motion were performed.",
+      "authors": [
+        "Shervin Foroughi",
+        "Shervin Foroughi",
+        "Vahid Karamzadeh",
+        "Vahid Karamzadeh",
+        "Mohsen Habibi",
+        "Muthukumaran Packirisamy",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Remote distance prinitng by direct sound printing and its applications",
+      "publication_year": 2025,
+      "publication_date": "2025-10-01",
+      "doi": "https://doi.org/10.1121/10.0041270",
+      "venue": "The Journal of the Acoustical Society of America",
+      "type": "conference-abstract",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fabrication",
+        "3D printing",
+        "Materials science",
+        "Fused deposition modeling",
+        "Self-healing hydrogels",
+        "Prepolymer",
+        "Opacity",
+        "Fused filament fabrication"
+      ],
+      "abstract": "Direct Sound Printing (DSP) is an emerging additive manufacturing modality that utilizes focused or patterned ultrasound to induce localized chemical reactions for polymerization of monomeric or prepolymer solutions. This method enables volumetric feature formation beyond the line-of-sight of conventional optical or mechanical deposition systems, allowing fabrication through optically opaque barriers and within sealed or inaccessible domains. In this study, we investigate DSP for Remote Distance Printing (RDP) at operational ranges up to several centimeters from the acoustic source, with spatial control achieved via acoustic beam shaping and dynamic focal steering. The effects of ultrasound frequency, peak negative pressure, and exposure time on polymerization rate, voxel resolution, and mechanical integrity of the printed features are quantified. Material systems compatible with DSP, including PEGDA- and GelMA-based hydrogels and sonosensitive polymers, are examined for biocompatibility and structural fidelity. Demonstrations include deep-tissue scaffold fabrication within surrogate tissue phantoms and structural reinforcement in enclosed components. These results establish DSP...",
+      "authors": [
+        "Mohsen Habibi",
+        "Anis Askari",
+        "Shervin Foroughi",
+        "Muthukumaran Packirisamy"
+      ]
+    },
+    {
+      "title": "Penalization and deep learning algorithms in Holographic Direct Sound Printing to improve print uniformity",
+      "publication_year": 2025,
+      "publication_date": "2025-04-10",
+      "doi": "https://doi.org/10.1016/j.addma.2025.104782",
+      "venue": "Additive manufacturing",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Holography",
+        "Sound (geography)",
+        "Algorithm",
+        "Acoustics",
+        "Optics",
+        "Computer science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Mahdi Derayatifar",
+        "Mohsen Habibi",
+        "Rama Bhat",
+        "Muthukumaran Packirisamy"
+      ]
+    }
+  ]
+}

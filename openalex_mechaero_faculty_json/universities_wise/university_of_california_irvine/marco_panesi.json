@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Marco Panesi",
+  "full_name": "Marco Panesi",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Irvine",
+  "author_id": "A5071159349",
+  "works_count": 288,
+  "cited_by_count": 3967,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 204
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 83
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 41
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 41
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 25
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Boltzmann rovibrational collisional coarse-grained model for internal energy excitation and dissociation in hypersonic flows",
+      "publication_year": 2014,
+      "publication_date": "2014-02-05",
+      "doi": "https://doi.org/10.1103/physreve.89.023001",
+      "venue": "Physical Review E",
+      "type": "article",
+      "cited_by_count": 116,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotational–vibrational spectroscopy",
+        "Physics",
+        "Internal energy",
+        "Non-equilibrium thermodynamics",
+        "Dissociation (chemistry)",
+        "Boltzmann equation",
+        "Nozzle",
+        "Direct simulation Monte Carlo"
+      ],
+      "abstract": "A Boltzmann rovibrational collisional coarse-grained model is proposed to reduce a detailed kinetic mechanism database developed at NASA Ames Research Center for internal energy transfer and dissociation in N(2)-N interactions. The coarse-grained model is constructed by lumping the rovibrational energy levels of the N(2) molecule into energy bins. The population of the levels within each bin is assumed to follow a Boltzmann distribution at the local translational temperature. Excitation and dissociation rate coefficients for the energy bins are obtained by averaging the elementary rate coefficients. The energy bins are treated as separate species, thus allowing for non-Boltzmann distributions of their populations. The proposed coarse-grained model is applied to the study of nonequilibrium flows behind normal shock waves and within converging-diverging nozzles. In both cases, the flow is assumed inviscid and steady. Computational results are compared with those obtained by direct solution of the master equation for the rovibrational collisional model and a more conventional multitemperature model. It is found that the proposed coarse-grained model is able to accurately resolve th...",
+      "authors": [
+        "Alessandro Munafò",
+        "Marco Panesi",
+        "Thierry Magin"
+      ]
+    },
+    {
+      "title": "Electronic Excitation of Atoms and Molecules for the FIRE II Flight Experiment",
+      "publication_year": 2011,
+      "publication_date": "2011-07-01",
+      "doi": "https://doi.org/10.2514/1.50033",
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "type": "article",
+      "cited_by_count": 115,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Excited state",
+        "Atomic physics",
+        "Excitation",
+        "Diatomic molecule",
+        "Physics",
+        "Boltzmann constant",
+        "Relaxation (psychology)",
+        "Kinetic energy"
+      ],
+      "abstract": "An accurate investigation of the behavior of electronically excited states of atoms and molecules in the postshock relaxation zone of a trajectory point of the Flight Investigation of Reentry Environment 2 (FIRE II) flight experiment is carried out by means of a one-dimensional flow solver coupled to a collisional-radiative model. The model accounts for thermal nonequilibrium between the translational energy mode of the gas and the vibrational energy mode of individual molecules. Furthermore, electronic states of atoms and molecules are treated as separate species, allowing for non-Boltzmann distributions of their populations. In the rapidly ionizing regime behind a strong shock wave, the high-lying bound electronic states of atoms are depleted. This leads to the electronic energy level populations of atoms departing from the Boltzmann distributions. For molecular species, departures from Boltzmann equilibrium are limited to a narrow zone close to the shock front. A comparison with the recent model derived by Park (Park, C. \"Parameters for Electronic Excitation of Diatomic Molecules 1. Electron-Impact Processes,\" 46th AIAA Aerospace Sciences Meeting and Exhibit, Reno, NV, AIAA P...",
+      "authors": [
+        "Marco Panesi",
+        "Thierry Magin",
+        "Anne Bourdon",
+        "Arnaud Bultel",
+        "Olivier Chazot"
+      ]
+    },
+    {
+      "title": "Rovibrational internal energy transfer and dissociation of $\\mathbf { \\rm N_2(^1\\Sigma _g^+)-\\rm N(^4S_u)}$N2(1Σg+)−N(4Su) system in hypersonic flows",
+      "publication_year": 2013,
+      "publication_date": "2013-01-28",
+      "doi": "https://doi.org/10.1063/1.4774412",
+      "venue": "The Journal of Chemical Physics",
+      "type": "article",
+      "cited_by_count": 254,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rotational–vibrational spectroscopy",
+        "Chemistry",
+        "Master equation",
+        "Dissociation (chemistry)",
+        "Atomic physics",
+        "Relaxation (psychology)",
+        "Thermodynamics",
+        "Isothermal process"
+      ],
+      "abstract": "A rovibrational collisional model is developed to study energy transfer and dissociation of N(2)((1)Σ(g)(+)) molecules interacting with N((4)S(u)) atoms in an ideal isochoric and isothermal chemical reactor. The system examined is a mixture of molecular nitrogen and a small amount of atomic nitrogen. This mixture, initially at room temperature, is heated by several thousands of degrees Kelvin, driving the system toward a strong non-equilibrium condition. The evolution of the population densities of each individual rovibrational level is explicitly determined via the numerical solution of the master equation for temperatures ranging from 5000 to 50,000 K. The reaction rate coefficients are taken from an ab initio database developed at NASA Ames Research Center. The macroscopic relaxation times, energy transfer rates, and dissociation rate coefficients are extracted from the solution of the master equation. The computed rotational-translational (RT) and vibrational-translational (VT) relaxation times are different at low heat bath temperatures (e.g., RT is about two orders of magnitude faster than VT at T = 5000 K), but they converge to a common limiting value at high temperature....",
+      "authors": [
+        "Marco Panesi",
+        "Richard L. Jaffe",
+        "David W. Schwenke",
+        "Thierry Magin"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Computational Analysis of Plasma Jet Flow Over a Wedge Geometry in the PlasmatronX ICP Facility",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4201",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wedge (geometry)",
+        "Mechanics",
+        "Geometry",
+        "Materials science",
+        "Flow (mathematics)",
+        "Geology",
+        "Jet (fluid)",
+        "Physics"
+      ],
+      "abstract": "This study investigates gas–surface interaction (GSI) phenomena in a high-enthalpy plasma jet impinging on a graphite wedge. The computational setup replicates the operating conditions of the PlasmatronX inductively coupled plasma (ICP) facility at the University of Illinois Urbana–Champaign. A coupled magneto–gasdynamics solver (HEGEL) and electromagnetic solver (FLUX), together with the PLATO thermochemical library, are used to model the non local thermodynamic equilibrium (NLTE) flow. GSI boundary conditions are implemented to account for surface reactions that produce ablative species (C, CN, CO, and CO2). Simulations are performed under ICP conditions of 20,000 Pa, 55 kW and 308 Pa, 300 kW, using a straight and a converging-diverging nozzle to generate subsonic and supersonic plasma jets, respectively, which subsequently impinge on the wedge. In addition, an uncoupled material-response analysis is conducted using the PATO solver to assess the thermal response under the extracted flow conditions.",
+      "authors": [
+        "Abhyudaya Singh",
+        "Alessandro Munafò",
+        "Kelly Stephani",
+        "Marco Panesi"
+      ]
+    },
+    {
+      "title": "Influence of Surface Chemistry on Coupled CFD-Radiation Simulations for Hypersonic Atmospheric Entry",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4134",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Chemistry",
+        "Surface (topology)",
+        "Materials science",
+        "Aerosol",
+        "Hypersonic speed",
+        "Atmospheric chemistry",
+        "Atmosphere (unit)",
+        "Hypersonic flight"
+      ],
+      "abstract": "",
+      "authors": [
+        "Alessandro Meini",
+        "Sung Min Jo",
+        "Marco Panesi"
+      ]
+    },
+    {
+      "title": "Low-density ablator response to induction plasmatron aerothermal environments",
+      "publication_year": 2026,
+      "publication_date": "2026-05-27",
+      "doi": "https://doi.org/10.21203/rs.3.rs-9612409/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.researchsquare.com/article/rs-9612409/latest.pdf",
+      "concepts": [
+        "Plasmatron",
+        "Charring",
+        "Atmospheric entry",
+        "Materials science",
+        "Heat shield",
+        "Titan (rocket family)",
+        "Ablation",
+        "Hypersonic flight"
+      ],
+      "abstract": "",
+      "authors": [
+        "Sreevishnu Oruganti",
+        "Lorenzo Capponi",
+        "Benjamin Ringel",
+        "Trey Oldham",
+        "Marco Panesi",
+        "Gregory Elliott",
+        "Sergio Fraile Izquierdo",
+        "Nagi Mansour",
+        "Francesco Panerai"
+      ]
+    },
+    {
+      "title": "Impact of non-equilibrium radiation in a high-enthalpy inductively coupled plasma wind tunnel",
+      "publication_year": 2026,
+      "publication_date": "2026-05-24",
+      "doi": "https://doi.org/10.1016/j.ast.2026.113508",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2605.25060",
+      "concepts": [
+        "Radiative transfer",
+        "Plasmatron",
+        "Plasma",
+        "Radiative cooling",
+        "Computational physics",
+        "Magnetohydrodynamic drive",
+        "Radiation",
+        "Atmospheric radiative transfer codes"
+      ],
+      "abstract": "High-power inductively coupled plasma (ICP) wind tunnels are widely used to reproduce high-enthalpy environments relevant to atmospheric entry and hypersonic testing. Despite their importance, radiative heat transfer in ICP facilities is commonly neglected or modeled using simplified optically thin assumptions, and the impact of non-equilibrium radiation on plasma dynamics remains poorly quantified. In this work, a loosely coupled, multi-physics framework is developed to systematically investigate radiative cooling effects in the 350 kW Plasmatron X facility at the University of Illinois Urbana-Champaign. The approach self-consistently couples a magnetohydrodynamic plasma framework with a spectral radiative transport solver, eliminating the need for optically thin or empirical models. Simulations are performed for nitrogen and air plasmas over a wide range of operating pressures (1-101 kPa) and powers (100-350 kW). The results reveal a strong pressure dependence of radiative losses, with radiation contributing negligibly at low pressures, but becoming a dominant energy sink at elevated pressures. At atmospheric pressure, radiative losses account for up to approximately 32% and 2...",
+      "authors": [
+        "Sanjeev Kumar",
+        "Sung Min Jo",
+        "Alessandro Munafò",
+        "Marco Panesi"
+      ]
+    },
+    {
+      "title": "From Coils to Surface Recession: Multiphysics Simulation of Ablation in ICP Wind Tunnels",
+      "publication_year": 2026,
+      "publication_date": "2026-02-17",
+      "doi": "https://doi.org/10.48550/arxiv.2602.15500",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.15500",
+      "concepts": [
+        "Plasmatron",
+        "Space Shuttle thermal protection system",
+        "Supersonic speed",
+        "Mechanics",
+        "Plasma",
+        "Multiphysics",
+        "Heat shield",
+        "Aerospace engineering"
+      ],
+      "abstract": "This work presents a multi-solver, coupled computational framework for predicting the thermo-chemical material response of thermal protection systems in inductively coupled plasma (ICP) wind tunnels. The framework integrates a high-fidelity Navier-Stokes plasma solver, an electromagnetic field solver, and a discontinuous-Galerkin material response solver using a partitioned coupling strategy. This enables an ab initio, end-to-end simulation of the 350 kW Plasmatron X facility at the University of Illinois Urbana-Champaign (UIUC), including plasma generation, electromagnetic heating, near-wall thermochemistry, and time-accurate material ablation. The model captures key ICP physics such as vortex-mode recirculation, Joule-heating-driven plasma formation, and Lorentz-force-induced flow confinement, and accurately predicts the transition from subsonic to supersonic jet behavior at low pressures. Validation against cold-wall calorimetry shows that predicted stagnation-point cold-wall heat fluxes fall well within experimental uncertainty, while coupled ablation simulations accurately reproduce measured stagnation temperature histories and recession rates with errors below 12% and 10%,...",
+      "authors": [
+        "Sanjeev Kumar",
+        "Alessandro Munafò",
+        "Blaine Vollmer",
+        "Massimo Franco",
+        "Kelly A. Stephani",
+        "Daniel J. Bodony",
+        "Marco Panesi"
+      ]
+    }
+  ]
+}

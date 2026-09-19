@@ -1,0 +1,290 @@
+{
+  "faculty_name": "Joseph Kuehl",
+  "full_name": "Joseph Kuehl",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Delaware",
+  "author_id": "A5029343690",
+  "works_count": 84,
+  "cited_by_count": 886,
+  "h_index": 18,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 36
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 34
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 19
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 15
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "JoKHeR: NPSE Simulations of Hypersonic Crossflow Instability",
+      "publication_year": 2012,
+      "publication_date": "2012-01-09",
+      "doi": "https://doi.org/10.2514/6.2012-921",
+      "venue": "50th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition",
+      "type": "conference-paper",
+      "cited_by_count": 55,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Mach number",
+        "Instability",
+        "Physics",
+        "Nonlinear system",
+        "Mechanics",
+        "Vortex",
+        "Supersonic speed"
+      ],
+      "abstract": "Transition prediction and control are critical enablers for hypersonic ight and there is a need for physics-based approaches, especially for three-dimensional (3-D) boundary layers. A nonlinear parabolized stability equation (NPSE) capability for quasi 3-D geometries, called JoKHeR, has been developed. The NPSE approach for modeling stability and transition is particularly attractive since it includes curvature, nonparallel, and nonlinear e ects at a fraction of the resources required for a direct numerical simulation (DNS). Results for the cross ow instability on the much studied 7 degree half angle cone yawed to 6 degrees at Mach 6 are presented. Steady basic state calculations are obtained with Pointwise and GASP. New methods for determining cross ow vortex trajectories as well as wave number variations along the trajectory are proposed. Veri cation with prior results including a DNS is shown.",
+      "authors": [
+        "Joseph Kuehl",
+        "Eduardo Pérez",
+        "Helen L. Reed"
+      ]
+    },
+    {
+      "title": "History and Progress of Boundary-Layer Transition on a Mach-6 Flared Cone",
+      "publication_year": 2019,
+      "publication_date": "2019-02-08",
+      "doi": "https://doi.org/10.2514/1.a34285",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 81,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Cone (formal languages)",
+        "Boundary layer",
+        "Angle of attack",
+        "Aerospace engineering",
+        "Mach wave",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "Results from experimental, theoretical, and computational efforts are combined in a comprehensive review to summarize the improved understanding of the underlying physical mechanisms causing second-mode dominated laminar–turbulent transition on a 3 m circular-arc flared cone for the Boeing/U.S. Air Force Office of Scientific Research Mach 6 Quiet Tunnel (BAM6QT) conditions. Qualitatively similar patterns of streamwise streaks have been observed in experiments, using temperature sensitive paint, and in high-resolved “controlled” breakdown direct numerical simulations (DNS). The experimental and computational results using nonlinear parabolized stability equations (NPSEs) and DNS revealed that the maximum second-mode pressure fluctuation reaches extremely large values (30–60% of the surface pressure) before the breakdown to turbulence. These values are significantly higher as compared to what has been observed in incompressible flow, therefore providing an explanation for an elongated transition/breakdown regime in high-speed compressible flow. A sudden spectral broadening in the disturbance content has been observed in the three different approaches once the primary wave saturate...",
+      "authors": [
+        "Brandon C. Chynoweth",
+        "Steven P. Schneider",
+        "Christoph Hader",
+        "Hermann F. Fasel",
+        "Armani Batista",
+        "Joseph Kuehl",
+        "Thomas J. Juliano",
+        "Bradley M. Wheaton"
+      ]
+    },
+    {
+      "title": "Boundary-layer instability and transition on a flared cone in a Mach 6 quiet wind tunnel",
+      "publication_year": 2013,
+      "publication_date": "2013-01-01",
+      "doi": "https://doi.org/10.1504/ijesms.2013.052386",
+      "venue": "International Journal of Engineering Systems Modelling and Simulation",
+      "type": "article",
+      "cited_by_count": 42,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mach number",
+        "Wind tunnel",
+        "Boundary layer",
+        "Hypersonic speed",
+        "Instability",
+        "Mechanics",
+        "Physics",
+        "Boundary layer thickness"
+      ],
+      "abstract": "Measurements of boundary-layer transition location and boundary layer profiles on a sharp-tipped 5º-half-angle flared cone were made in a low-disturbance Mach 6 wind tunnel. Uncalibrated boundary-layer profiles of mean and fluctuating voltage representative of mass flux are obtained using constant temperature hot-wire anemometry at several axial locations, and are notionally compared with preliminary simulations. Spectral energy content is observed between 250 and 310 kHz – the first measurements of frequencies typical of the second mode instability at Texas A&M. Growth of this high-frequency content is compared with N-factor results from linear parabolised stability equation (LPSE) computations. Possible sources of disagreement between the experimental and computed frequencies for second-mode growth are discussed, as are future improvements to the hotwire anemometry technique. Nevertheless, the successful measurement of high-frequency content highlighted here constitutes an important step toward acquisition of calibrated measurements of hypersonic boundary-layer instabilities to be used as code validation.",
+      "authors": [
+        "Jerrod W. Hofferth",
+        "William S. Saric",
+        "Joseph Kuehl",
+        "Eduardo Pérez",
+        "Travis S. Kocian",
+        "Helen L. Reed"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Stability Analysis for High-Enthalpy Cone Experiments in HELM and HIEST Facilities",
+      "publication_year": 2026,
+      "publication_date": "2026-02-22",
+      "doi": "https://doi.org/10.2514/1.j064249",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stability (learning theory)",
+        "Aerospace",
+        "Expansion tunnel",
+        "Focus (optics)",
+        "Shock (circulatory)",
+        "Mechanics",
+        "Enthalpy",
+        "Aerospace engineering"
+      ],
+      "abstract": "In the present paper, several boundary-layer stability codes are compared, based on hypersonic, high-enthalpy boundary-layer flows around two different blunted cones: a 7 deg and a 10.9 deg half-angle blunted cone. One part of the code-to-code comparison, which is conducted between seven different codes, assesses the influence of different numerical approaches for the second-mode instability. The focus of the paper characterizes the role of the high-temperature gas effects on the second mode. The experimental test cases for the comparison are provided by two high-enthalpy wind-tunnel facilities: the High Enthalpy Shock Tunnel (HIEST) of Japan Aerospace Exploration Agency (JAXA) and the High-Enthalpy Laboratory Munich (HELM) of the University of Bundeswehr Munich. Analyses between the various computational stability codes and experimental measurements are performed, quantifying the high-temperature gas effects and the influence of uncertainties (e.g., small mean-flow or wall-temperature variations). A comparison between air and [Formula: see text] test gases is also performed.",
+      "authors": [
+        "Viola Wartemann",
+        "Joseph Kuehl",
+        "Tony Liang",
+        "Sulav Kafle",
+        "Hideyuki Tanno",
+        "Jean-Philippe Brazier",
+        "Helene Gaible",
+        "Sean D. Dungan",
+        "Joel Anthony McQuaid",
+        "Vincenzo Russo",
+        "Christoph Brehm",
+        "Xiaowen Wang",
+        "Ethan S. Beyak",
+        "Christian Mundt",
+        "Tobias Sander",
+        "Jan-Erik Brune",
+        "Lukas Jakobs",
+        "Joseph S. Jewell"
+      ]
+    },
+    {
+      "title": "Separation and Transition on a Cone-Cylinder-Flare: Computational Investigations",
+      "publication_year": 2025,
+      "publication_date": "2025-06-02",
+      "doi": "https://doi.org/10.2514/1.j064221",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 10,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Mechanics",
+        "Boundary layer",
+        "Flow separation",
+        "Physics",
+        "Instability",
+        "Mach number",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Baseflow computation and stability analysis were conducted for hypersonic flow over a cone-cylinder-flare (CCF) geometry for conditions that correspond to the experimental runs carried out in three wind tunnels. Owing to the presence of an attached boundary layer, a separation bubble induced by a shock–boundary-layer interaction, and a reattachment region, the chosen flow configuration is physically rich. The complexity of this flowfield encompasses a combination of convective instabilities developing on the cone, global instabilities in the separation bubble, and shear-layer modes and streaks in the reattachment region. Thus, the selected CCF configuration provides the opportunity for a comprehensive comparison of the currently available methodologies for analyzing boundary-layer instabilities. Various tools are used for the analysis, including global stability codes as well as convective instability analyses based on a local theory, a weakly nonparallel analysis, and tools that are applicable to strongly nonparallel flows. The paper presents a comparison of the convective instability characteristics based on different methodologies, such as linear stability theory, the harmoni...",
+      "authors": [
+        "Clément Caillaud",
+        "Anton Scholten",
+        "Joseph Kuehl",
+        "Pedro Paredes",
+        "Mathieu Lugrin",
+        "Sébastien Esquieu",
+        "Fei Li",
+        "Meelan M. Choudhari",
+        "Elizabeth K. Benitez",
+        "Matthew P. Borg",
+        "Zachary A. McDaniel",
+        "Joseph S. Jewell"
+      ]
+    },
+    {
+      "title": "High-Enthalpy Effects on Hypersonic Boundary-Layer Transition: Experimental and Numerical Comparison",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.2514/1.j064456",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Hypersonic speed",
+        "Stagnation enthalpy",
+        "Boundary layer",
+        "Enthalpy",
+        "Mechanics",
+        "Materials science",
+        "Hypersonic flight",
+        "Thermodynamics"
+      ],
+      "abstract": "In this paper, results from two experiments performed at California Institute of Technology’s T5 free-piston reflected shock tunnel are compared to numerical stability computations conducted using various stability analysis tools. The goal of this comparison is to begin understanding the range of boundary-layer transition predictability using different stability approaches for high-enthalpy flows. The analysis is focused on the physics of the second-mode instability at high enthalpy and the role of high-temperature effects. Although the stability solvers considering thermochemical nonequilibrium were best at estimating the measured second-mode frequency ([Formula: see text] for shot 2990, [Formula: see text] for shot 3019), they overpredicted the most amplified frequency by approximately 16–23%. A moderate spread in the predicted most amplified frequency was also observed between the different solvers. The solvers estimated a most amplified frequency range of approximately 1450–1550 kHz for shot 2990 and approximately 1525–1650 kHz for shot 3019. There was also significant inconsistency observed in predicting the peak [Formula: see text]-factor magnitude, ranging from [Formula: ...",
+      "authors": [
+        "Ahsan Hameed",
+        "Nick J. Parziale",
+        "Joseph Kuehl",
+        "Tony Liang",
+        "Kevin Graziose",
+        "Christoph Brehm",
+        "Sean D. Dungan",
+        "Jean-Philippe Brazier",
+        "Laura A. Paquin"
+      ]
+    },
+    {
+      "title": "Nonlinear Stability Analysis of High-Enthalpy Hypersonic Boundary Layers",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0078",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Nonlinear system",
+        "Stability (learning theory)",
+        "Enthalpy",
+        "Hypersonic speed",
+        "Boundary (topology)",
+        "Materials science",
+        "Boundary value problem",
+        "Thermodynamics"
+      ],
+      "abstract": "The focus of this study is to investigate the sensitivity of high enthalpy hypersonic boundary layer flows to non-linearity. Physical phenomena like non-linear saturation, non-linear detuning, and energy frequency shifting are significant for accurately comparing experimental and numerical results. A 5-degree half-angle straight cone model with 2 mm nose bluntness and 293.2 K wall temperature at free-stream Mach 5.13 with air as test gas and enthalpy of 8.86 MJ/kg at reservoir conditions is considered for this study. In the strong nonlinear case, mean flow distortion tends to detune high-frequency disturbances . An increase in mean flow distortion (MFD), accounting for nonlinearity effects arising from the second mode and its harmonics, shifts high-frequency disturbances toward lower frequencies, around 100-150 kHz.The JoKHeR code package, incorporating nonlinear parabolized stability equations, is employed for the analysis.",
+      "authors": [
+        "Sulav Kafle",
+        "Joseph Kuehl"
+      ]
+    },
+    {
+      "title": "Numerical Investigation of Wall Temperature Effects on Hypersonic Modal Flow Instabilities in Double Cone and Cone-Cylinder Flare Separation Bubble",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-0308",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Cone (formal languages)",
+        "Hypersonic flow",
+        "Bubble",
+        "Separation (statistics)",
+        "Mechanics",
+        "Cylinder",
+        "Modal",
+        "Physics"
+      ],
+      "abstract": "Wall temperature variations significantly influence the stability and transition dynamics of hypersonic boundary layers. This study numerically investigates the stability response to thermal gradients, with wall temperatures ranging from 262 K to 362 K, for double-cone and cone-cylinder-flare (CCF) geometries. The CCF geometry, modeled using data from the Research Task Group NATO-AVT-346, consists of a 5° half-angle cone followed by a 147.3 mm cylindrical section and a 12° flare, with the sharp-nosed variant (0.1 mm nose radius) analyzed to emphasize instability mechanisms such as the first and second Mack modes. For the double cone, modeled after the ROTEX-T flight-test vehicle (457.31 mm in length, 1 mm nose radius, and 7° half-angle) at Mach 5.7, flow conditions were representative of the AFOSR-Notre Dame Large Mach 6 Quiet Wind Tunnel. Heating the entire wall stabilized second-mode instabilities while amplifying the first mode, particularly within the separation bubble. In contrast, for the CCF geometry, wall heating upstream of the separation bubble consistently stabilized both first- and second-mode instabilities throughout the flowfield. Numerical stability analyses were ...",
+      "authors": [
+        "Moaz Bilto",
+        "Tony Liang",
+        "Sulav Kafle",
+        "Joseph Kuehl"
+      ]
+    }
+  ]
+}

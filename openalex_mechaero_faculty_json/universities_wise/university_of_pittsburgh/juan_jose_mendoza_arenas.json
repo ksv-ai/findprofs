@@ -1,0 +1,275 @@
+{
+  "faculty_name": "Juan Jose Mendoza-Arenas",
+  "full_name": "J. J. Mendoza‐Arenas",
+  "department": "Department of Mechanical Engineering and Materials Science",
+  "university": "University of Pittsburgh",
+  "author_id": "A5043433729",
+  "works_count": 42,
+  "cited_by_count": 449,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Quantum many-body systems",
+      "count": 25
+    },
+    {
+      "topic": "Quantum and electron transport phenomena",
+      "count": 16
+    },
+    {
+      "topic": "Physics of Superconductivity and Magnetism",
+      "count": 12
+    },
+    {
+      "topic": "Cold Atom Physics and Bose-Einstein Condensates",
+      "count": 11
+    },
+    {
+      "topic": "Advanced Thermodynamics and Statistical Mechanics",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Asymmetry in energy versus spin transport in certain interacting disordered systems",
+      "publication_year": 2019,
+      "publication_date": "2019-03-22",
+      "doi": "https://doi.org/10.1103/physrevb.99.094435",
+      "venue": "Physical review. B./Physical review. B",
+      "type": "article",
+      "cited_by_count": 41,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevB.99.094435",
+      "concepts": [
+        "Condensed matter physics",
+        "Magnetization",
+        "Spin (aerodynamics)",
+        "Physics",
+        "Asymmetry",
+        "Anisotropy",
+        "Spin diffusion",
+        "Non-equilibrium thermodynamics"
+      ],
+      "abstract": "We study energy transport in disordered $XXZ$ spin-1/2 chains driven to nonequilibrium configurations by thermal reservoirs of different temperatures at the boundaries, using large-scale matrix product simulations. In particular we discuss the transition between diffusive and subdiffusive transport in sectors of zero and finite magnetization at high temperature. At large anisotropies we find that diffusive energy transport prevails over a large range of disorder strengths, which is in contrast to spin transport that is subdiffusive in the same regime for weak disorder. However, at finite magnetization both energy and spin currents decay as a function of the system size with the same exponent. We conclude that diffusion of energy is much more pervasive than that of magnetization in these disordered spin-1/2 systems, and occurs across a significant range of the interaction-disorder parameter phase space. We support the existence of this asymmetry, reminiscent of that in the clean limit, by an analytical estimation of diffusion constants for weak disorder.",
+      "authors": [
+        "J. J. Mendoza‐Arenas",
+        "Marko Žnidarič",
+        "Vipin Kerala Varma",
+        "John Goold",
+        "Stephen R. L. Clark",
+        "Antonello Scardicchio"
+      ]
+    },
+    {
+      "title": "Beyond mean-field bistability in driven-dissipative lattices: Bunching-antibunching transition and quantum simulation",
+      "publication_year": 2016,
+      "publication_date": "2016-02-16",
+      "doi": "https://doi.org/10.1103/physreva.93.023821",
+      "venue": "Physical Review A",
+      "type": "article",
+      "cited_by_count": 89,
+      "is_oa": true,
+      "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevA.93.023821",
+      "concepts": [
+        "Bistability",
+        "Ansatz",
+        "Dissipative system",
+        "Statistical physics",
+        "Physics",
+        "Quantum",
+        "Matrix product state",
+        "Mean field theory"
+      ],
+      "abstract": "In the present work we investigate the existence of multiple nonequilibrium steady states in a coherently driven $XY$ lattice of dissipative two-level systems. A commonly used mean-field ansatz, in which spatial correlations are neglected, predicts a bistable behavior with a sharp shift between low- and high-density states. In contrast one-dimensional matrix product methods reveal these effects to be artifacts of the mean-field approach, with both disappearing once correlations are taken fully into account. Instead, a bunching-antibunching transition emerges. This indicates that alternative approaches should be considered for higher spatial dimensions, where classical simulations are currently infeasible. Thus we propose a circuit QED quantum simulator implementable with current technology to enable an experimental investigation of the model considered.",
+      "authors": [
+        "J. J. Mendoza‐Arenas",
+        "Stephen R. L. Clark",
+        "Simone Felicetti",
+        "G. Romero",
+        "E. Solano",
+        "Dimitris G. Angelakis",
+        "Dieter Jaksch"
+      ]
+    },
+    {
+      "title": "Heat transport in the X X Z spin chain: from ballistic to diffusive regimes and dephasing enhancement",
+      "publication_year": 2013,
+      "publication_date": "2013-07-16",
+      "doi": "https://doi.org/10.1088/1742-5468/2013/07/p07007",
+      "venue": "Journal of Statistical Mechanics Theory and Experiment",
+      "type": "article",
+      "cited_by_count": 78,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/1303.6353",
+      "concepts": [
+        "Dephasing",
+        "Condensed matter physics",
+        "Physics",
+        "Heat current",
+        "Scaling",
+        "Master equation",
+        "Non-equilibrium thermodynamics",
+        "Work (physics)"
+      ],
+      "abstract": "10.1088/1742-5468/2013/07/P07007",
+      "authors": [
+        "J. J. Mendoza‐Arenas",
+        "Sarah Al-Assam",
+        "Stephen R. L. Clark",
+        "Dieter Jaksch"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Simulating quantum turbulence with matrix-product states",
+      "publication_year": 2026,
+      "publication_date": "2026-04-22",
+      "doi": "https://doi.org/10.1103/x5xg-whh1",
+      "venue": "Physical Review Applied",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/x5xg-whh1",
+      "concepts": [
+        "Physics",
+        "Product (mathematics)",
+        "Turbulence",
+        "Quantum",
+        "Statistical physics",
+        "Matrix (chemical analysis)",
+        "Quantum mechanics",
+        "Classical mechanics"
+      ],
+      "abstract": "Quantum turbulence spans length scales from the system size L to the healing length ξ , making direct numerical simulations (DNS) of the Gross-Pitaevskii (GP) equation computationally expensive when L ≫ ξ . We present a matrix-product state (MPS) solver for the GP equation that efficiently compresses the wavefunction by truncating weak interlength-scale correlations. This approach reduces memory usage by factors ranging from 10 × to over 10 000 × compared to DNS. We benchmark our approach on nonlinear excitations, namely dark solitons (1D) and quantized vortices (2D, 3D), capturing key dynamics such as Kelvin-wave propagation and vortex-ring emission in the case of vortex-line reconnection. For turbulent states composed of multiple nonlinear excitations, we find that the memory compression of the MPS representation is directly proportional to the soliton or vortex densities. We also accurately reproduce established results from two-point correlation functions and energy spectra, where we recover the incompressible kinetic energy spectrum with little memory overhead. These results demonstrate the representative capabilities of the MPS ansatz for quantum turbulence and pave the wa...",
+      "authors": [
+        "Felipe Gómez-Lozada",
+        "Nicolas Perico-García",
+        "Nikita Gourianov",
+        "Hayder Salman",
+        "J. J. Mendoza‐Arenas"
+      ]
+    },
+    {
+      "title": "Matrix Product State Simulation of Reacting Shear Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-12-15",
+      "doi": "https://doi.org/10.48550/arxiv.2512.13661",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.13661",
+      "concepts": [
+        "Ansatz",
+        "Statistical physics",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Reynolds number",
+        "Matrix multiplication"
+      ],
+      "abstract": "Direct numerical simulation (DNS) of turbulent reactive flows has been the subject of significant research interest for several decades. Accurate prediction of the effects of turbulence on the rate of reactant conversion, and the subsequent influence of chemistry on hydrodynamics remain a challenge in combustion modeling. The key issue in DNS is to account for the wide range of temporal and spatial physical scales that are caused by complex interactions of turbulence and chemistry. In this work, a new computational methodology is developed that is shown to provide a viable alternative to DNS. The framework is the matrix product state (MPS), a form of tensor network (TN) as used in computational many body physics. The MPS is a well-established ansatz for efficiently representing many types of quantum states in condensed matter systems, allowing for an exponential compression of the required memory compared to exact diagonalization methods. Due to the success of MPS in quantum physics, the ansatz has been adapted to problems outside its historical domain, notably computational fluid dynamics. Here, the MPS is used for computational simulation of a shear flow under non-reacting and...",
+      "authors": [
+        "Robert Pinkston",
+        "Nikita Gourianov",
+        "Hirad Alipanah",
+        "Peyman Givi",
+        "Dieter Jaksch",
+        "J. J. Mendoza‐Arenas"
+      ]
+    },
+    {
+      "title": "Provably Efficient Quantum Algorithms for Solving Nonlinear Differential Equations Using Multiple Bosonic Modes Coupled with Qubits",
+      "publication_year": 2025,
+      "publication_date": "2025-11-13",
+      "doi": "https://doi.org/10.48550/arxiv.2511.09939",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2511.09939",
+      "concepts": [
+        "Nonlinear system",
+        "Linearization",
+        "Qubit",
+        "Quantum computer",
+        "Quantum",
+        "Algorithm",
+        "Dissipative system",
+        "Quantum algorithm"
+      ],
+      "abstract": "Quantum computers have long been expected to efficiently solve complex classical differential equations. Most digital, fault-tolerant approaches use Carleman linearization to map nonlinear systems to linear ones and then apply quantum linear-system solvers. However, provable speedups typically require digital truncation and full fault tolerance, rendering such linearization approaches challenging to implement on current hardware. Here we present an analog, continuous-variable algorithm based on coupled bosonic modes with qubit-based adaptive measurements that avoids Hilbert-space digitization. This method encodes classical fields as coherent states and, via Kraus-channel composition derived from the Koopman-von Neumann (KvN) formalism, maps nonlinear evolution to linear dynamics. Unlike many analog schemes, the algorithm is provably efficient: advancing a first-order, $L$-grid point, $d$-dimensional, order-$K$ spatial-derivative, degree-$r$ polynomial-nonlinearity, strongly dissipative partial differential equations (PDEs) for $T$ time steps costs $\\mathcal{O}\\left(T(\\log L + d r \\log K)\\right)$. The capability of the scheme is demonstrated by using it to simulate the one-dimens...",
+      "authors": [
+        "Yu Gan",
+        "Hirad Alipanah",
+        "Jinglei Cheng",
+        "Zeguan Wu",
+        "Guangyi Li",
+        "J. J. Mendoza‐Arenas",
+        "Peyman Givi",
+        "Mujeeb R. Malik",
+        "Brian J. McDermott",
+        "Junyu Liu"
+      ]
+    },
+    {
+      "title": "Ground state of a mixture of SU(3) fermions and scalar bosons",
+      "publication_year": 2025,
+      "publication_date": "2025-05-27",
+      "doi": "https://doi.org/10.1103/physreva.111.053316",
+      "venue": "Physical Review A",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Fermion",
+        "Boson",
+        "Physics",
+        "Scalar (mathematics)",
+        "Ground state",
+        "Particle physics",
+        "Scalar boson",
+        "Mathematical physics"
+      ],
+      "abstract": "We explore a system composed of scalar bosons and $\\mathrm{SU}(3)$ fermions in one dimension. Considering only local intra- and interspecies interactions, the system is described by the Bose-Fermi-Hubbard Hamiltonian, which is studied using the density-matrix renormalization-group method. In addition to the common gapless and mixed-Mott-insulator phases, we identify unknown gapped states, in which bosons couple with some or all flavors of fermions. We unveil different flavor-selective states characterized by itinerant fermions that coexist with an insulator state in which the bosons connect with only one- or two-flavor fermions. The states reported here could be implemented in cold-atom experiments.",
+      "authors": [
+        "J. Silva‐Valencia",
+        "J. J. Mendoza‐Arenas"
+      ]
+    },
+    {
+      "title": "Dephasing-assisted transport in a tight-binding chain with a linear potential",
+      "publication_year": 2024,
+      "publication_date": "2024-10-22",
+      "doi": "https://doi.org/10.3389/fphy.2024.1474018",
+      "venue": "Frontiers in Physics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2024.1474018/pdf",
+      "concepts": [
+        "Dephasing",
+        "Chain (unit)",
+        "Tight binding",
+        "Statistical physics",
+        "Physics",
+        "Chemical physics",
+        "Condensed matter physics",
+        "Quantum mechanics"
+      ],
+      "abstract": "An environment interacting with a quantum system can enhance transport through the suppression of quantum effects responsible for localization. In this paper, we study the interplay between bulk dephasing and a linear potential in a boundary-driven tight-binding chain. A linear potential induces Wannier-Stark localization in the absence of noise, while dephasing induces diffusive transport in the absence of a tilt. We derive an approximate expression for the steady-state current as a function of both dephasing and tilt which closely matches the exact solution for a wide range of parameters. From it, we find that the maximum current occurs for a dephasing rate equal to the period of Bloch oscillations in the Wannier-Stark localized system. We also find that the current displays a maximum as a function of the system size, provided that the total potential tilt across the chain remains constant. Our results can be verified in current experimental platforms and represents a step forward in analytical studies of environment-assisted transport.",
+      "authors": [
+        "Samuel L. Jacob",
+        "Laetitia P. Bettmann",
+        "Artur M. Lacerda",
+        "Krissia Zawadzki",
+        "Stephen R. L. Clark",
+        "John Goold",
+        "J. J. Mendoza‐Arenas"
+      ]
+    }
+  ]
+}

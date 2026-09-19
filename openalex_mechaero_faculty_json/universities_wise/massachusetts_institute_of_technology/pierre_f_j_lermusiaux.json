@@ -1,0 +1,272 @@
+{
+  "faculty_name": "Pierre F. J. Lermusiaux",
+  "full_name": "Pierre F. J. Lermusiaux",
+  "department": "Department of Mechanical Engineering",
+  "university": "Massachusetts Institute of Technology",
+  "author_id": "A5062670983",
+  "works_count": 298,
+  "cited_by_count": 7598,
+  "h_index": 50,
+  "top_topics": [
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 150
+    },
+    {
+      "topic": "Underwater Acoustics Research",
+      "count": 63
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 56
+    },
+    {
+      "topic": "Underwater Vehicles and Communication Systems",
+      "count": 35
+    },
+    {
+      "topic": "Reservoir Engineering and Simulation Methods",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Dynamically orthogonal field equations for continuous stochastic dynamical systems",
+      "publication_year": 2009,
+      "publication_date": "2009-09-25",
+      "doi": "https://doi.org/10.1016/j.physd.2009.09.017",
+      "venue": "Physica D Nonlinear Phenomena",
+      "type": "article",
+      "cited_by_count": 260,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stochastic partial differential equation",
+        "Mathematics",
+        "Stochastic differential equation",
+        "Dynamical systems theory",
+        "Applied mathematics",
+        "Partial differential equation",
+        "Differential equation",
+        "Independent equation"
+      ],
+      "abstract": "",
+      "authors": [
+        "Themistoklis P. Sapsis",
+        "Pierre F. J. Lermusiaux"
+      ]
+    },
+    {
+      "title": "Path Planning of Autonomous Underwater Vehicles for Adaptive Sampling Using Mixed Integer Linear Programming",
+      "publication_year": 2008,
+      "publication_date": "2008-10-01",
+      "doi": "https://doi.org/10.1109/joe.2008.2002105",
+      "venue": "IEEE Journal of Oceanic Engineering",
+      "type": "article",
+      "cited_by_count": 232,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mathematical optimization",
+        "Adaptive sampling",
+        "Motion planning",
+        "Path (computing)",
+        "Computer science",
+        "Sampling (signal processing)",
+        "Integer programming",
+        "Linear programming"
+      ],
+      "abstract": "The goal of adaptive sampling in the ocean is to predict the types and locations of additional ocean measurements that would be most useful to collect. Quantitatively, what is most useful is defined by an objective function and the goal is then to optimize this objective under the constraints of the available observing network. Examples of objectives are better oceanic understanding, to improve forecast quality, or to sample regions of high interest. This work provides a new path-planning scheme for the adaptive sampling problem. We define the path-planning problem in terms of an optimization framework and propose a method based on mixed integer linear programming (MILP). The mathematical goal is to find the vehicle path that maximizes the line integral of the uncertainty of field estimates along this path. Sampling this path can improve the accuracy of the field estimates the most. While achieving this objective, several constraints must be satisfied and are implemented. They relate to vehicle motion, intervehicle coordination, communication, collision avoidance, etc. The MILP formulation is quite powerful to handle different problem constraints and flexible enough to allow eas...",
+      "authors": [
+        "Namik Kemal Yilmaz",
+        "Constantinos Evangelinos",
+        "Pierre F. J. Lermusiaux",
+        "Nicholas M. Patrikalakis"
+      ]
+    },
+    {
+      "title": "Data Assimilation via Error Subspace Statistical Estimation.Part I: Theory and Schemes",
+      "publication_year": 1999,
+      "publication_date": "1999-07-01",
+      "doi": "https://doi.org/10.1175/1520-0493(1999)127<1385:davess>2.0.co;2",
+      "venue": "Monthly Weather Review",
+      "type": "article",
+      "cited_by_count": 204,
+      "is_oa": true,
+      "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/127/7/1520-0493_1999_127_1385_davess_2.0.co_2.pdf",
+      "concepts": [
+        "Data assimilation",
+        "Subspace topology",
+        "Smoothing",
+        "Covariance",
+        "Mathematical optimization",
+        "Nonlinear system",
+        "Dimension (graph theory)",
+        "Algorithm"
+      ],
+      "abstract": "A rational approach is used to identify efficient schemes for data assimilation in nonlinear ocean-atmosphere models.The conditional mean, a minimum of several cost functionals, is chosen for an optimal estimate.After stating the present goals and describing some of the existing schemes, the constraints and issues particular to ocean-atmosphere data assimilation are emphasized.An approximation to the optimal criterion satisfying the goals and addressing the issues is obtained using heuristic characteristics of geophysical measurements and models.This leads to the notion of an evolving error subspace, of variable size, that spans and tracks the scales and processes where the dominant errors occur.The concept of error subspace statistical estimation (ESSE) is defined.In the present minimum error variance approach, the suboptimal criterion is based on a continued and energetically optimal reduction of the dimension of error covariance matrices.The evolving error subspace is characterized by error singular vectors and values, or in other words, the error principal components and coefficients.Schemes for filtering and smoothing via ESSE are derived.The data-forecast melding minimizes...",
+      "authors": [
+        "Pierre F. J. Lermusiaux",
+        "Allan R. Robinson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Guided Unconditional and Conditional Generative Models for Super‐Resolution and Inference of Quasi‐Geostrophic Turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1029/2025ms005324",
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2025ms005324",
+      "concepts": [
+        "Inference",
+        "Probabilistic logic",
+        "Algorithm",
+        "Turbulence",
+        "Computer science",
+        "Sensitivity (control systems)",
+        "Generative model",
+        "Mathematics"
+      ],
+      "abstract": "Abstract Typically, numerical simulations of Earth systems are coarse, and Earth observations are sparse and gappy. We apply four generative diffusion modeling approaches to super‐resolution and inference of forced two‐dimensional quasi‐geostrophic turbulence on the ‐plane from coarse, sparse, and gappy observations. Two guided approaches minimally adapt a pre‐trained unconditional model: SDEdit modifies the initial condition, and Diffusion Posterior Sampling (DPS) modifies the reverse diffusion process's score. Two conditional approaches, a vanilla variant and classifier‐free guidance, require training with paired high‐resolution and observation data. We consider multiple test cases spanning: two regimes, eddy and anisotropic‐jet turbulence; two Reynolds numbers, and ; and two observation types, coarse‐resolution fields and coarse, sparse and gappy observations. Our comprehensive skill metrics include norms of the reconstructed vorticity fields, turbulence statistical quantities, and quantifications of the super‐resolved probabilistic ensembles and their errors. We also study the sensitivity to tuning parameters such as guidance strength. Results show that the generated super‐r...",
+      "authors": [
+        "Anantha Babu",
+        "Akhil Sadam",
+        "Pierre F. J. Lermusiaux"
+      ]
+    },
+    {
+      "title": "Guided Unconditional and Conditional Generative Models for Super‐Resolution and Inference of Quasi‐Geostrophic Turbulence",
+      "publication_year": 2026,
+      "publication_date": "2026-03-01",
+      "doi": "https://doi.org/10.1029/2025ms005324",
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1029/2025ms005324",
+      "concepts": [
+        "Computer science",
+        "Inference",
+        "Probabilistic logic",
+        "Turbulence",
+        "Algorithm",
+        "Uncertainty quantification",
+        "Bayesian inference",
+        "Inverse problem"
+      ],
+      "abstract": "Abstract Typically, numerical simulations of Earth systems are coarse, and Earth observations are sparse and gappy. We apply four generative diffusion modeling approaches to super‐resolution and inference of forced two‐dimensional quasi‐geostrophic turbulence on the ‐plane from coarse, sparse, and gappy observations. Two guided approaches minimally adapt a pre‐trained unconditional model: SDEdit modifies the initial condition, and Diffusion Posterior Sampling (DPS) modifies the reverse diffusion process's score. Two conditional approaches, a vanilla variant and classifier‐free guidance, require training with paired high‐resolution and observation data. We consider multiple test cases spanning: two regimes, eddy and anisotropic‐jet turbulence; two Reynolds numbers, and ; and two observation types, coarse‐resolution fields and coarse, sparse and gappy observations. Our comprehensive skill metrics include norms of the reconstructed vorticity fields, turbulence statistical quantities, and quantifications of the super‐resolved probabilistic ensembles and their errors. We also study the sensitivity to tuning parameters such as guidance strength. Results show that the generated super‐r...",
+      "authors": [
+        "Anantha Babu",
+        "Akhil Sadam",
+        "Pierre F. J. Lermusiaux"
+      ]
+    },
+    {
+      "title": "Ocean dynamics in 2025: overview and thank you to reviewers",
+      "publication_year": 2026,
+      "publication_date": "2026-01-23",
+      "doi": "https://doi.org/10.1007/s10236-026-01774-y",
+      "venue": "Ocean Dynamics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10236-026-01774-y.pdf",
+      "concepts": [
+        "Geology",
+        "Ocean dynamics",
+        "Oceanography",
+        "Dynamics (music)",
+        "Meteorology",
+        "Climatology",
+        "Remote sensing",
+        "Field (mathematics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tal Ezer",
+        "Antonio Bonaduce",
+        "Diego Bruciaferri",
+        "Sandro Carniel",
+        "Chabchoub Amin",
+        "W. Bryce Corlett",
+        "Ricardo de Camargo",
+        "Sheila N. Estrada-Allis",
+        "Oliver B. Fringer",
+        "Avijit Gangopadhyay",
+        "Guoping Gao",
+        "Tsubasa Kodaira",
+        "Pierre F. J. Lermusiaux",
+        "Zhiyu Liu",
+        "Yasumasa Miyazawa",
+        "Andrea Piñones",
+        "Juan-Manuel Sayol",
+        "Emil Stanev",
+        "Chaojiao Sun",
+        "Christoph Volker",
+        "Jia Wang",
+        "Fanghua Xu"
+      ]
+    },
+    {
+      "title": "Subduction Driven by Mesoscale Front Evolution and Submesoscale Cyclonic Eddy Generation",
+      "publication_year": 2025,
+      "publication_date": "2025-09-04",
+      "doi": "https://doi.org/10.22541/essoar.175700059.92100222/v1",
+      "venue": "",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mesoscale meteorology",
+        "Subduction",
+        "Geology",
+        "Front (military)",
+        "Climatology",
+        "Seismology",
+        "Oceanography",
+        "Tectonics"
+      ],
+      "abstract": "Mesoscale and submesoscale features with Rossby and Richardson numbers near unity indicate a breakdown of geostrophic balance. This gives rise to ageostrophic flows that drive circulation across density gradients and produce vertical motions, transporting heat and biogeochemical tracers below the mixed layer. During winter 2022, high-resolution multiplatform in situ observations and realistic numerical simulations captured the evolution of mesoscale and submesoscale features in the northwestern Mediterranean Sea. A mesoscale front in the Balearic Sea was observed progressing from intensification to decay, culminating in the formation of two submesoscale cyclonic frontal eddies (SCEs). These formed as the front elongated and interacted with a mesoscale ridge, illustrating the dynamic interplay between mesoscale and submesoscale processes. The front intensified due to strain-induced frontogenesis. A strong down-front wind event triggered submesoscale instabilities and the nonlinear Ekman effect, enhancing vertical motions through an ageostrophic secondary circulation and contributing to restratification. As the front weakened, isopycnal slopes flattened, and energy cascaded toward...",
+      "authors": [
+        "Máximo García-Jove",
+        "Baptiste Mourre",
+        "Nikolaos Zarokanellos",
+        "Pierre F. J. Lermusiaux",
+        "Patrick J. Haley",
+        "Chris Mirabito",
+        "Daniel L. Rudnick",
+        "Joaquı́n Tintoré"
+      ]
+    },
+    {
+      "title": "Maximizing Seaweed Growth on Autonomous Farms: A Dynamic Programming Approach for Underpowered Systems Operating in Uncertain Ocean Currents",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1109/lra.2025.3604727",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Environmental science"
+      ],
+      "abstract": "Seaweed biomass presents a substantial opportunity for climate mitigation, yet to realize its potential, farming must be expanded to the vast open oceans. However, in the open ocean neither anchored farming nor floating farms with powerful engines are economically viable. Thus, a potential solution are farms that operate bygoing with the flow, utilizing minimal propulsion to strategically leverage beneficial ocean currents. In this work, we focus on low-power autonomous seaweed farms and design controllers that maximize seaweed growth by taking advantage of ocean currents. We first introduce a Dynamic Programming (DP) formulation to solve for the growth-optimal value function when the true currents are known. However, in reality only short-term imperfect forecasts with increasing uncertainty are available. Hence, we present three additional extensions. Firstly, we use frequent replanning to mitigate forecast errors. Second, to optimize for long-term growth, we extend the value function beyond the forecast horizon by estimating the expected future growth based on seasonal average currents. Lastly, we introduce a discounted finite-time DP formulation to account for the increasing ...",
+      "authors": [
+        "Matthias Killer",
+        "Marius Wiggert",
+        "Hanna Krasowski",
+        "Manan Doshi",
+        "Pierre F. J. Lermusiaux",
+        "Claire J. Tomlin"
+      ]
+    }
+  ]
+}

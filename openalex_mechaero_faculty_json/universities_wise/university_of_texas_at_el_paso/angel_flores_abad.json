@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Angel Flores-Abad",
+  "full_name": "Ángel Flores-Abad",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Texas at El Paso",
+  "author_id": "A5060171293",
+  "works_count": 61,
+  "cited_by_count": 1848,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 27
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 15
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 12
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 12
+    },
+    {
+      "topic": "Spacecraft Design and Technology",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A review of space robotics technologies for on-orbit servicing",
+      "publication_year": 2014,
+      "publication_date": "2014-03-29",
+      "doi": "https://doi.org/10.1016/j.paerosci.2014.03.002",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 1344,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Robotics",
+        "Systems engineering",
+        "Computer science",
+        "Aerospace engineering",
+        "Space exploration",
+        "Kinematics",
+        "Orbit (dynamics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ángel Flores-Abad",
+        "Ou Ma",
+        "Khanh Pham",
+        "Steve Ulrich"
+      ]
+    },
+    {
+      "title": "Use of industrial robots for hardware-in-the-loop simulation of satellite rendezvous and docking",
+      "publication_year": 2012,
+      "publication_date": "2012-08-30",
+      "doi": "https://doi.org/10.1016/j.actaastro.2012.08.003",
+      "venue": "Acta Astronautica",
+      "type": "article",
+      "cited_by_count": 83,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Rendezvous",
+        "Robot",
+        "Hardware-in-the-loop simulation",
+        "Simulation",
+        "Spacecraft",
+        "Impedance control",
+        "Docking (animal)",
+        "Control engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ou Ma",
+        "Ángel Flores-Abad",
+        "Toralf Boge"
+      ]
+    },
+    {
+      "title": "Optimal Capture of a Tumbling Object in Orbit Using a Space Manipulator",
+      "publication_year": 2016,
+      "publication_date": "2016-10-04",
+      "doi": "https://doi.org/10.1007/s10846-016-0417-1",
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "type": "article",
+      "cited_by_count": 57,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Trajectory",
+        "Base (topology)",
+        "Control theory (sociology)",
+        "Orbit (dynamics)",
+        "Space debris",
+        "Robotic spacecraft",
+        "Boundary (topology)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ángel Flores-Abad",
+        "Lin Zhang",
+        "Zheng Wei",
+        "Ou Ma"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Efficient, Covariance-Constrained Sensor Fusion Through Observation Decimation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1451",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Decimation",
+        "Kalman filter",
+        "Estimator",
+        "Covariance",
+        "Control theory (sociology)",
+        "Extended Kalman filter",
+        "State vector",
+        "Sensor fusion"
+      ],
+      "abstract": "Spacecraft operate under limited on-board resources resulting from size, weight and power (SWap) requirements. These on-board limitations include limited data processing capability. As spacecraft operations complexity grows so does the reliance in system to accurately provide the internal state of these systems from sensor data. Estimators used to reconstruct the internal state of a system rely in sensor data assimilation to produce accurate state reconstruction. We explore estimators for linear systems that reduce the amount of data they need to assimilate while keeping a desired level of performance in the reconstruction of the internal state of a system. As a measure of estimator performance, we employ the state covariance. We use the discrete algebraic Riccati equation to predict the steady state covariance of a Kalman Filter implementation of a linear system. To perform data assimilation reduction, we implement a measurement update decimation that depends on the desired level of estimator performance. To test this approach, we implement a Kalman Filter to an arbitrarily large linear system that implements the maximum allowable measurement update decimation while maintaining...",
+      "authors": [
+        "Andres Enriquez Fernandez",
+        "E. Blasch",
+        "Ángel Flores-Abad",
+        "John Bird"
+      ]
+    },
+    {
+      "title": "Guiding Lunar Landers: Harnessing Neural Networks for Dynamic Flight Control with Adaptive Inertia and Mass Characteristics",
+      "publication_year": 2024,
+      "publication_date": "2024-05-07",
+      "doi": "https://doi.org/10.3390/aerospace11050370",
+      "venue": "Aerospace",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.3390/aerospace11050370",
+      "concepts": [
+        "Control theory (sociology)",
+        "Thrust",
+        "Inertia",
+        "PID controller",
+        "Propulsion",
+        "Propellant",
+        "Computer science",
+        "Controller (irrigation)"
+      ],
+      "abstract": "The autonomous control of landing procedures can provide the efficiency and precision that are vital for the successful, safe completion of space operations missions. Controlling a lander with this precision is challenging because the propellants, which will be expended during the operations, represent a significant fraction of the lander’s mass. The mass variation of each tank profoundly influences the inertia and mass characteristics as thrust is generated and complicates the precise control of the lander state. This factor is a crucial consideration in our research and methodology. The dynamics model for our lander was developed where the mass, inertia, and center of mass (COM) vary with time. A feed-forward neural network (NN) is incorporated into the dynamics to capture the time-varying inertia tensor and COM. Moreover, the propellant takes time to travel through the feed lines from the storage tanks to the engine; also, the solenoid valves require time to open and close. Therefore, there are time delays between the actuator and the engine response. To take into account these sources of variations, a combined time delay is also included in the control loop to evaluate the e...",
+      "authors": [
+        "Angel Ortega",
+        "Andres Enriquez-Fernandez",
+        "Cristina González",
+        "Ángel Flores-Abad",
+        "Ahsan Choudhuri",
+        "Afroza Shirin"
+      ]
+    },
+    {
+      "title": "Digitally-assisted Development of a Space Robotic Arm for Small Satellites Applications",
+      "publication_year": 2023,
+      "publication_date": "2023-10-17",
+      "doi": "https://doi.org/10.2514/6.2023-4680",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robotic arm",
+        "Systems engineering",
+        "Cloud computing",
+        "Computer science",
+        "Embedded system",
+        "Engineering",
+        "Simulation",
+        "Operating system"
+      ],
+      "abstract": "In-space servicing, assembly, and manufacturing (ISAM) expands space-based capabilities by extending satellite lifespans and decoupling spacecraft design from launch vehicle constraints. Robotic systems are proposed to support multiple aspects of ISAM missions, from capture and manipulation to manufacturing and repair. Consequently, the rapid development and testing of diverse robotic platforms is imperative to meet the evolving demands of the new space enterprise. This paper proposes a digital engineering framework to expedite the design, development, testing, and operation analysis of space robotic platforms. Digital engineering design tools are employed to optimize design for space environment operations; additionally, traditional manufacturing methods are streamlined with integrated wireless communication; IoT (Internet of thing) capabilities enable cloud-based modification to adjust to dynamic design requirements. Leveraging Amazon Web Services cloud-based servers, a digital twin of the robotic arm will be developed to assist the project's life cycle, from design to evaluation and test. AWS IoT communication protocols enable near real-time transmission of robotic arm sensor...",
+      "authors": [
+        "Juan Molinar",
+        "Julio Garcia",
+        "Roberto Robles",
+        "Christopher Mendoza",
+        "Julio Reyes",
+        "Ahsan Choudhuri",
+        "Ángel Flores-Abad"
+      ]
+    },
+    {
+      "title": "Mass Varying Lunar Lander Dynamics Model with Time Delay",
+      "publication_year": 2023,
+      "publication_date": "2023-01-19",
+      "doi": "https://doi.org/10.2514/6.2023-0730",
+      "venue": "AIAA SCITECH 2023 Forum",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Thrust",
+        "Gimbal",
+        "Aerospace engineering",
+        "Propellant",
+        "Control theory (sociology)",
+        "Propulsion",
+        "Computer science",
+        "Attitude control"
+      ],
+      "abstract": "View Video Presentation: https://doi.org/10.2514/6.2023-0730.vid Autonomous landing systems will be essential for providing scientific and logistical support to future long-duration lunar outposts envisioned by NASA and commercial entities. These systems must very precisely control their attitude to land with the precision required for consumable resupply and to deliver scientific equipment. Controlling a lander with this precision is challenging because the propellant which will be expended during the landing maneuver represents a significant fraction of the lander's mass. The mass properties of the lander (mass, inertia, and center of mass) will thus change significantly during the maneuver, complicating precise control of the lander state. Moreover, the propellant takes time to travel through the feed lines from storage tanks to the engine and solenoid valves also require time to open and close. Therefore, there are time delays between the actuator and the engine response. To consider these sources of variations, a control-oriented model for a lunar lander is developed where a time-varying mass, and center of mass (COM) are modeled in the dynamics. A combined time delay is al...",
+      "authors": [
+        "Andres Enriquez Fernandez",
+        "Afroza Shirin",
+        "Ángel Flores-Abad"
+      ]
+    },
+    {
+      "title": "Autonomous aerial system for intelligent close-quarter inspection",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.1007/s41315-026-00537-8",
+      "venue": "International Journal of Intelligent Robotics and Applications",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s41315-026-00537-8.pdf",
+      "concepts": [
+        "Global Positioning System",
+        "Payload (computing)",
+        "Convolutional neural network",
+        "Computer science",
+        "Process (computing)",
+        "Real-time computing",
+        "Artificial intelligence",
+        "Visual odometry"
+      ],
+      "abstract": "Autonomous systems are an essential step toward the industry of the future because they can optimize risky and repetitive tasks such as structural maintenance inspections and without risking human personnel. Micro-aerial vehicles (MAVs) are the ideal platform to reach elevated and confined spaces, but they require robust navigation capabilities. There are currently two main limitations to making structural inspections a mainstream technology: most of the cutting-edge inspection systems today are semi-autonomous and are vulnerable to degraded signals as they rely on Global Positioning System (GPS) for navigation. We propose a novel inspection system for industrial structures that overcomes the limitations of GPS-denied conditions by utilizing a combination of GPS and visual-inertial odometry (VIO), or exclusively VIO depending on the signal quality. A thermo-visual payload enables online multi-spectral image acquisition, and a customized convolutional neural network (CNN) architecture is trained using acquired data to intelligently detect rust and surface cracks through online inference. We explore a new paradigm for autonomous navigation inspired by computer-aided manufacturing ...",
+      "authors": [
+        "Julio A. Reyes‐Munoz",
+        "Angel G. Ortega",
+        "Mst Mousumi Rizia",
+        "Ahsan Choudhuri",
+        "Ángel Flores-Abad"
+      ]
+    }
+  ]
+}

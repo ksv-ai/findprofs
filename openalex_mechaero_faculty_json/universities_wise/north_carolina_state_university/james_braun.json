@@ -1,0 +1,272 @@
+{
+  "faculty_name": "James Braun",
+  "full_name": "James E. Braun",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "North Carolina State University",
+  "author_id": "A5080584548",
+  "works_count": 456,
+  "cited_by_count": 9794,
+  "h_index": 49,
+  "top_topics": [
+    {
+      "topic": "Refrigeration and Air Conditioning Technologies",
+      "count": 204
+    },
+    {
+      "topic": "Building Energy and Comfort Optimization",
+      "count": 172
+    },
+    {
+      "topic": "Heat Transfer and Optimization",
+      "count": 69
+    },
+    {
+      "topic": "Heat Transfer and Boiling Studies",
+      "count": 65
+    },
+    {
+      "topic": "Advanced Thermodynamic Systems and Engines",
+      "count": 50
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Reducing energy costs and peak electrical demand through optimal control of building thermal storage",
+      "publication_year": 1990,
+      "publication_date": "1990-01-01",
+      "doi": "http://drrc.lbl.gov/sites/all/files/dbc-paper90.pdf",
+      "venue": "",
+      "type": "article",
+      "cited_by_count": 360,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Offset (computer science)",
+        "Peak demand",
+        "Automotive engineering",
+        "Occupancy",
+        "Load shifting",
+        "Cooling load",
+        "Thermal energy storage",
+        "Environmental science"
+      ],
+      "abstract": "This paper describes an investigation into the use of building thermal capacitance as a means of reducing the operating costs associated with maintaining adequate comfort conditions in buildings (termed dynamic building control). The state of the building thermal storage can be controlled through variations of the zone temperatures over time within the thermal comfort region. The primary opportunities in varying zone setpoints in an optimal fashion are associated with shifting cooling loads from daytime to nighttime to (1) reduce peak electrical demands, (2) take advantage of low nighttime electrical rates, (3) offset mechanical cooling with free cooling at night, and (4) enhance equipment operation at more favorable part-load conditions. The approach utilized in this study was to apply dynamic optimization techniques to computer simulations of buildings and their associated cooling systems for a range of conditions in order to determine the maximum possible savings. Results indicate that both energy costs and peak electrical use can be significantly reduced through optimal structures. However, the cost savings depend upon several factors, including (1) utility rate structure, (...",
+      "authors": [
+        "James E. Braun"
+      ]
+    },
+    {
+      "title": "An Inverse Gray-Box Model for Transient Building Load Prediction",
+      "publication_year": 2002,
+      "publication_date": "2002-01-01",
+      "doi": "https://doi.org/10.1080/10789669.2002.10391290",
+      "venue": "Science and Technology for the Built Environment",
+      "type": "article",
+      "cited_by_count": 333,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Black box",
+        "White box",
+        "Transient (computer programming)",
+        "Artificial neural network",
+        "Computer science",
+        "Nonlinear system",
+        "Cooling load",
+        "Inverse"
+      ],
+      "abstract": "Lower costs and improved performance of sensors, controllers, and networking is leading to the development of smart building features, such as continuous performance monitoring, automated diagnostics, and optimal supervisory control. For some of these applications, it is important to be able to predict transient cooling and heating requirements for the building using inverse models that are trained using on-site data. Existing inverse models for transient building loads range from purely empirical or “black-box” models to purely physical or “white-box” models. Generally, black-box (e.g., neural network) models require a significant amount of training data and may not always reflect the actual physical behavior, whereas white-box (e.g., finite difference) models require specification of many physical parameters. This paper presents a hybrid or “gray-box” modeling approach that uses a transfer function with parameters that are constrained to satisfy a simple physical representation for energy flows in the building structure. A robust method is also presented for training parameters of the constrained model, wherein initial values of and bounds on physical parameters are estimated ...",
+      "authors": [
+        "James E. Braun",
+        "Nitin Dutt Chaturvedi"
+      ]
+    },
+    {
+      "title": "Load Control Using Building Thermal Mass",
+      "publication_year": 2003,
+      "publication_date": "2003-08-01",
+      "doi": "https://doi.org/10.1115/1.1592184",
+      "venue": "Journal of Solar Energy Engineering",
+      "type": "article",
+      "cited_by_count": 282,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Occupancy",
+        "Thermal mass",
+        "Schedule",
+        "Control (management)",
+        "Computer science",
+        "Architectural engineering",
+        "Thermal",
+        "Cooling load"
+      ],
+      "abstract": "This paper provides an overview of research related to use of building thermal mass for shifting and reducing peak cooling loads in commercial buildings. The paper presents background on the concept and the problem of optimizing zone temperature setpoints and provides specific results that have been obtained through simulations, controlled laboratory testing, and field studies. The studies have demonstrated significant savings potential for use of building thermal mass in commercial buildings. However, the savings are sensitive to many factors, including utility rates, type of equipment, occupancy schedule, building construction, climate conditions, and control strategy. The paper also attempts to provide an assessment of the state of the art in load control using building thermal mass and to identify the steps necessary to achieve widespread application of appropriate control strategies.",
+      "authors": [
+        "James E. Braun"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Assessing the Performance of Air-Source Heat Pumps in a Residential Community Testbed",
+      "publication_year": 2026,
+      "publication_date": "2026-04-06",
+      "doi": "https://doi.org/10.63044/w26lee55",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Testbed",
+        "Engineering",
+        "Environmental science",
+        "Computer science",
+        "Architectural engineering",
+        "Work (physics)",
+        "Automotive engineering",
+        "Systems engineering"
+      ],
+      "abstract": "Hyeongseok Lee, Feng Wu, Hemanth Devarapalli, James E. Braun, and Panagiota Karava",
+      "authors": [
+        "Hyeongseok Lee",
+        "Feng Wu",
+        "Hemanth Devarapalli",
+        "James E. Braun",
+        "Panagiota Karava"
+      ]
+    },
+    {
+      "title": "Simplified 2D Tools for RDRE Doublet Simulations",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1828",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Mixing (physics)",
+        "Injector",
+        "Detonation",
+        "Process (computing)",
+        "Set (abstract data type)",
+        "Matrix (chemical analysis)",
+        "Computer science",
+        "Key (lock)"
+      ],
+      "abstract": "The objective of this paper is to develop and apply two simplified methods for RDRE doublet studies, specifically two-dimensional numerical simulations that rapidly iterate over sweeps of doublet geometries with changing inlet conditions. This is first completed by automating a single doublet in a non-chemistry environment for a test matrix of injector impingement angle and stiffness. This process involves creating the geometry in MATLAB, building a mesh in ANSYS ICEM CFD, simulating the case in ICFD++ , and post-processing the data in Tecplot. Cases are quantified based on their discharge coefficient, recovery rate, and an identified mixing parameter. Results from an initial feed pressure-impingement angle test matrix are discussed, with higher feed pressures and impingement angles generally resulting in better mixing and faster recovery. The second method applies a real detonation wave to a set of doublets. This simulation includes the complexity of chemistry and mixing. Discharge coefficient and recovery rates are also tracked via this method. Preliminary results demonstrate that these methods can accurately track key physics and are much less computationally intensive than a...",
+      "authors": [
+        "Madeline McDaniel",
+        "William Stigliano",
+        "Lian Yale",
+        "James E. Braun"
+      ]
+    },
+    {
+      "title": "Operation Characteristics of a Prototype Vapor-Injected Reciprocating Compressor for Use in a Multi-evaporator Domestic Refrigerator/Freezer",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/978-3-032-04102-9_15",
+      "venue": "Springer proceedings in energy",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Reciprocating compressor",
+        "Gas compressor",
+        "Reciprocating motion",
+        "Refrigerant",
+        "Suction",
+        "Engineering",
+        "Compression (physics)",
+        "Work (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Changkuan Liang",
+        "Haotian Liu",
+        "James E. Braun",
+        "Eckhard A. Groll",
+        "Davide Ziviani"
+      ]
+    },
+    {
+      "title": "A Smart Energy Assistant to Assess and Improve the Field Performance of Air-source Heat Pumps in Cold Climates",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7071715",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7071715",
+      "concepts": [
+        "Thermostat",
+        "Thermal comfort",
+        "Electricity",
+        "Control (management)",
+        "Field (mathematics)",
+        "Engineering",
+        "Environmental science",
+        "Automotive engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hyeongseok Lee",
+        "Jaehyun Go",
+        "Hemanth Devarapalli",
+        "Denison Guvenoz",
+        "Elisa Quaresma Ragone",
+        "Nadine Amr Mahmoud Amin",
+        "Jiayu Geng",
+        "Tianyi Li",
+        "Rebecca E. Ciez",
+        "Torsten Reimer",
+        "Julia Taylor Rayz",
+        "James E. Braun",
+        "Panagiota Karava"
+      ]
+    },
+    {
+      "title": "A Smart Energy Assistant to Assess and Improve the Field Performance of Air-source Heat Pumps in Cold Climates",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.7071717",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.7071717",
+      "concepts": [
+        "Thermostat",
+        "Thermal comfort",
+        "Electricity",
+        "Control (management)",
+        "Field (mathematics)",
+        "Engineering",
+        "Environmental science",
+        "Automotive engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hyeongseok Lee",
+        "Jaehyun Go",
+        "Hemanth Devarapalli",
+        "Denison Guvenoz",
+        "Elisa Quaresma Ragone",
+        "Nadine Amr Mahmoud Amin",
+        "Jiayu Geng",
+        "Tianyi Li",
+        "Rebecca E. Ciez",
+        "Torsten Reimer",
+        "Julia Taylor Rayz",
+        "James E. Braun",
+        "Panagiota Karava"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "faculty_name": "Peyman Givi",
+  "full_name": "Peyman Givi",
+  "department": "Department of Mechanical Engineering and Materials Science",
+  "university": "University of Pittsburgh",
+  "author_id": "A5078398236",
+  "works_count": 217,
+  "cited_by_count": 4169,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 127
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 89
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 48
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 40
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Filtered density function for large eddy simulation of turbulent reacting flows",
+      "publication_year": 1998,
+      "publication_date": "1998-02-01",
+      "doi": "https://doi.org/10.1063/1.869537",
+      "venue": "Physics of Fluids",
+      "type": "article",
+      "cited_by_count": 469,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Large eddy simulation",
+        "Physics",
+        "Monte Carlo method",
+        "Scalar (mathematics)",
+        "Convection–diffusion equation",
+        "Turbulence",
+        "Direct numerical simulation",
+        "Statistical physics"
+      ],
+      "abstract": "A methodology termed the “filtered density function” (FDF) is developed and implemented for large eddy simulation (LES) of chemically reacting turbulent flows. In this methodology, the effects of the unresolved scalar fluctuations are taken into account by considering the probability density function (PDF) of subgrid scale (SGS) scalar quantities. A transport equation is derived for the FDF in which the effect of chemical reactions appears in a closed form. The influences of scalar mixing and convection within the subgrid are modeled. The FDF transport equation is solved numerically via a Lagrangian Monte Carlo scheme in which the solutions of the equivalent stochastic differential equations (SDEs) are obtained. These solutions preserve the Itô-Gikhman nature of the SDEs. The consistency of the FDF approach, the convergence of its Monte Carlo solution and the performance of the closures employed in the FDF transport equation are assessed by comparisons with results obtained by direct numerical simulation (DNS) and by conventional LES procedures in which the first two SGS scalar moments are obtained by a finite difference method (LES-FD). These comparative assessments are conduct...",
+      "authors": [
+        "P. J. Colucci",
+        "Farhad Jaberi",
+        "Peyman Givi",
+        "Stephen B. Pope"
+      ]
+    },
+    {
+      "title": "Filtered mass density function for large-eddy simulation of turbulent reacting flows",
+      "publication_year": 1999,
+      "publication_date": "1999-12-25",
+      "doi": "https://doi.org/10.1017/s0022112099006643",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 343,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Large eddy simulation",
+        "Probability density function",
+        "Physics",
+        "Monte Carlo method",
+        "Convection–diffusion equation",
+        "Scalar (mathematics)",
+        "Turbulence",
+        "Statistical physics"
+      ],
+      "abstract": "A methodology termed the ‘filtered mass density function’ (FMDF) is developed and implemented for large-eddy simulation (LES) of variable-density chemically reacting turbulent flows at low Mach numbers. This methodology is based on the extension of the ‘filtered density function’ (FDF) scheme recently proposed by Colucci et al. (1998) for LES of constant-density reacting flows. The FMDF represents the joint probability density function of the subgrid-scale (SGS) scalar quantities and is obtained by solution of its modelled transport equation. In this equation, the effect of chemical reactions appears in a closed form and the influences of SGS mixing and convection are modelled. The stochastic differential equations (SDEs) which yield statistically equivalent results to those of the FMDF transport equation are derived and are solved via a Lagrangian Monte Carlo scheme. The consistency, convergence, and accuracy of the FMDF and the Monte Carlo solution of its equivalent SDEs are assessed. In non-reacting flows, it is shown that the filtered results via the FMDF agree well with those obtained by the ‘conventional’ LES in which the finite difference solution of the transport equatio...",
+      "authors": [
+        "Farhad Jaberi",
+        "P. J. Colucci",
+        "S. James",
+        "Peyman Givi",
+        "Stephen B. Pope"
+      ]
+    },
+    {
+      "title": "Model-free simulations of turbulent reactive flows",
+      "publication_year": 1989,
+      "publication_date": "1989-01-01",
+      "doi": "https://doi.org/10.1016/0360-1285(89)90006-3",
+      "venue": "Progress in Energy and Combustion Science",
+      "type": "article",
+      "cited_by_count": 263,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Turbulence",
+        "Context (archaeology)",
+        "Computational fluid dynamics",
+        "Computer science",
+        "Statistical physics",
+        "Computational model",
+        "Variety (cybernetics)",
+        "Work (physics)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Peyman Givi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physics-enhanced Neural Operator: An Application in Simulating Turbulent Transport",
+      "publication_year": 2026,
+      "publication_date": "2026-04-20",
+      "doi": "https://doi.org/10.1145/3770854.3780216",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1145/3770854.3780216",
+      "concepts": [
+        "Computer science",
+        "Turbulence",
+        "Flow (mathematics)",
+        "Range (aeronautics)",
+        "Artificial neural network",
+        "Direct numerical simulation",
+        "Physical system",
+        "Computer simulation"
+      ],
+      "abstract": "Accurate simulation of turbulent flows is of immense importance in a variety of scientific and engineering fields. Within the realm of turbulent flow simulation, direct numerical simulation (DNS) is widely considered to be the most reliable approach, but it is prohibitively expensive and thus has limited applicability to long-term and fine-scale simulation over various configurations. Given the pressing need for efficient simulation, there is an increasing interest in building machine learning models for simulating turbulence, either by reconstructing DNS from alternative low-fidelity simulations or sequentially predicting DNS from historical data. However, conventional machine learning models are not designed for capturing complex spatio-temporal characteristics of turbulent flows. This results in their limited performance and generalizability, especially when applied to complex flow data and various flow configurations. This paper presents a novel physics-enhanced neural operator (PENO) that efficiently models the complex flow dynamics while leveraging physical knowledge of partial differential equations (PDEs) to enhance the simulation process. We further introduce a self-aug...",
+      "authors": [
+        "Shengyu Chen",
+        "Peyman Givi",
+        "Can Zheng",
+        "Xiaowei Jia"
+      ]
+    },
+    {
+      "title": "PEST: Physics-Enhanced Swin Transformer for 3D Turbulence Simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-09",
+      "doi": "https://doi.org/10.48550/arxiv.2602.10150",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.10150",
+      "concepts": [
+        "Turbulence",
+        "Computer science",
+        "High fidelity",
+        "Transformer",
+        "Regularization (linguistics)",
+        "Fidelity",
+        "Residual",
+        "Autoregressive model"
+      ],
+      "abstract": "Accurate simulation of turbulent flows is fundamental to scientific and engineering applications. Direct numerical simulation (DNS) offers the highest fidelity but is computationally prohibitive, while existing data-driven alternatives struggle with stable long-horizon rollouts, physical consistency, and faithful simulation of small-scale structures. These challenges are particularly acute in three-dimensional (3D) settings, where the cubic growth of spatial degrees of freedom dramatically amplifies computational cost, memory demand, and the difficulty of capturing multi-scale interactions. To address these challenges, we propose a Physics-Enhanced Swin Transformer (PEST) for 3D turbulence simulation. PEST leverages a window-based self-attention mechanism to effectively model localized PDE interactions while maintaining computational efficiency. We introduce a frequency-domain adaptive loss that explicitly emphasizes small-scale structures, enabling more faithful simulation of high-frequency dynamics. To improve physical consistency, we incorporate Navier--Stokes residual constraints and divergence-free regularization directly into the learning objective. Extensive experiments o...",
+      "authors": [
+        "Yilong Dai",
+        "Shengyu Chen",
+        "Xiaowei Jia",
+        "Peyman Givi",
+        "Runlong Yu"
+      ]
+    },
+    {
+      "title": "PEST: Physics-Enhanced Swin Transformer for 3D Turbulence Simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-09",
+      "doi": "http://arxiv.org/abs/2602.10150",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.10150",
+      "concepts": [
+        "Turbulence",
+        "Computer science",
+        "High fidelity",
+        "Transformer",
+        "Regularization (linguistics)",
+        "Fidelity",
+        "Residual",
+        "Autoregressive model"
+      ],
+      "abstract": "Accurate simulation of turbulent flows is fundamental to scientific and engineering applications. Direct numerical simulation (DNS) offers the highest fidelity but is computationally prohibitive, while existing data-driven alternatives struggle with stable long-horizon rollouts, physical consistency, and faithful simulation of small-scale structures. These challenges are particularly acute in three-dimensional (3D) settings, where the cubic growth of spatial degrees of freedom dramatically amplifies computational cost, memory demand, and the difficulty of capturing multi-scale interactions. To address these challenges, we propose a Physics-Enhanced Swin Transformer (PEST) for 3D turbulence simulation. PEST leverages a window-based self-attention mechanism to effectively model localized PDE interactions while maintaining computational efficiency. We introduce a frequency-domain adaptive loss that explicitly emphasizes small-scale structures, enabling more faithful simulation of high-frequency dynamics. To improve physical consistency, we incorporate Navier--Stokes residual constraints and divergence-free regularization directly into the learning objective. Extensive experiments o...",
+      "authors": [
+        "Yilong Dai",
+        "Shengyu Chen",
+        "Xiaowei Jia",
+        "Peyman Givi",
+        "Runlong Yu"
+      ]
+    },
+    {
+      "title": "Matrix Product State Simulation of Reacting Shear Flows",
+      "publication_year": 2025,
+      "publication_date": "2025-12-15",
+      "doi": "https://doi.org/10.48550/arxiv.2512.13661",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2512.13661",
+      "concepts": [
+        "Ansatz",
+        "Statistical physics",
+        "Turbulence",
+        "Computational fluid dynamics",
+        "Direct numerical simulation",
+        "Mechanics",
+        "Reynolds number",
+        "Matrix multiplication"
+      ],
+      "abstract": "Direct numerical simulation (DNS) of turbulent reactive flows has been the subject of significant research interest for several decades. Accurate prediction of the effects of turbulence on the rate of reactant conversion, and the subsequent influence of chemistry on hydrodynamics remain a challenge in combustion modeling. The key issue in DNS is to account for the wide range of temporal and spatial physical scales that are caused by complex interactions of turbulence and chemistry. In this work, a new computational methodology is developed that is shown to provide a viable alternative to DNS. The framework is the matrix product state (MPS), a form of tensor network (TN) as used in computational many body physics. The MPS is a well-established ansatz for efficiently representing many types of quantum states in condensed matter systems, allowing for an exponential compression of the required memory compared to exact diagonalization methods. Due to the success of MPS in quantum physics, the ansatz has been adapted to problems outside its historical domain, notably computational fluid dynamics. Here, the MPS is used for computational simulation of a shear flow under non-reacting and...",
+      "authors": [
+        "Robert Pinkston",
+        "Nikita Gourianov",
+        "Hirad Alipanah",
+        "Peyman Givi",
+        "Dieter Jaksch",
+        "J. J. Mendoza‐Arenas"
+      ]
+    },
+    {
+      "title": "On-the-fly reduced-order modelling for skeletal reduction of gasoline surrogate combustion",
+      "publication_year": 2025,
+      "publication_date": "2025-10-07",
+      "doi": "https://doi.org/10.1080/13647830.2025.2567377",
+      "venue": "Combustion Theory and Modelling",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustion",
+        "Reduction (mathematics)",
+        "Gasoline",
+        "Environmental science",
+        "Chemistry",
+        "Process engineering",
+        "Waste management",
+        "Materials science"
+      ],
+      "abstract": "Skeletal reaction models are derived for a four-component gasoline surrogate model via a novel fully automated instantaneous local sensitivity analysis technique. This technique provides a direct approach for model reduction of large systems; in contrast to previous/ current methods constructed by ‘hands-on manipulation.’ The sensitivities of the species mass fractions and the temperature with respect to the reaction rates are estimated by a reduced-order modelling (ROM) methodology. Termed ‘implicit time-dependent basis CUR (implicit TDB-CUR),’ this methodology is based on the CUR matrix decomposition and incorporates implicit time integration to evolve the bases. The estimated sensitivities are subsequently analysed to develop skeletal reaction models with a fully automated procedure. The 1389-species gasoline surrogate model developed at Lawrence Livermore National Laboratory (LLNL) is selected as the detailed kinetics model. The skeletal reduction procedure is applied to this model in a zero-dimensional constant-pressure reactor over a wide range of initial conditions. The performances of the resulting models are evaluated by comparison against the results produced by the LL...",
+      "authors": [
+        "Yinmin Liu",
+        "Hessam Babaee",
+        "Peyman Givi",
+        "Daniel Livescu",
+        "Arash G. Nouri"
+      ]
+    }
+  ]
+}

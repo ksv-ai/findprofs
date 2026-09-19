@@ -1,0 +1,268 @@
+{
+  "faculty_name": "Daniel Foti",
+  "full_name": "Daniel Foti",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Memphis",
+  "author_id": "A5032566975",
+  "works_count": 56,
+  "cited_by_count": 495,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 19
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 19
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 13
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 12
+    },
+    {
+      "topic": "Advanced Battery Technologies Research",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Flame and Flow Topologies in an Annular Swirling Flow",
+      "publication_year": 2014,
+      "publication_date": "2014-02-18",
+      "doi": "https://doi.org/10.1080/00102202.2014.882916",
+      "venue": "Combustion Science and Technology",
+      "type": "article",
+      "cited_by_count": 107,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Mechanics",
+        "Particle image velocimetry",
+        "Nozzle",
+        "Vortex",
+        "Flow (mathematics)",
+        "Materials science",
+        "Flame structure"
+      ],
+      "abstract": "This article describes an investigation of flame shapes and flow configurations in a premixed, swirl-stabilized dump combustor. High swirl, annular nozzle flows of this nature enable a variety of different flame configurations and heat release distributions with their associated flow fields. These differences are significant, since each of these configurations, in turn, has different thermoacoustic sensitivities and influences on combustor emissions, nozzle lifetime, and liner heating. These different configurations arise because multiple flame stabilization locations are present, associated with the inner and outer shear layers of the annulus, and the stagnation point of the vortex breakdown region. We present results from high-speed luminosity imaging, particle image velocimetry (PIV), and OH-planar laser induced fluorescence (PLIF) to illustrate time-averaged and instantaneous flame shapes and flow fields associated with the different configuration “families.” Selected cases are compared with large eddy simulations (LES). Particular emphasis is given to the distinctly different flame and flow topologies that exist in these flows, and their sensitivity to geometric (such as ce...",
+      "authors": [
+        "Ianko Chterev",
+        "C. W. Foley",
+        "Daniel Foti",
+        "Stan Kostka",
+        "Andrew W. Caswell",
+        "Naibo Jiang",
+        "Amy Lynch",
+        "David R. Noble",
+        "Suresh Menon",
+        "Jerry Seitzman",
+        "Tim Lieuwen"
+      ]
+    },
+    {
+      "title": "Coherent vorticity dynamics and dissipation in a utility-scale wind turbine wake with uniform inflow",
+      "publication_year": 2021,
+      "publication_date": "2021-07-01",
+      "doi": "https://doi.org/10.1016/j.taml.2021.100292",
+      "venue": "Theoretical and Applied Mechanics Letters",
+      "type": "article",
+      "cited_by_count": 15,
+      "is_oa": true,
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2095034921000994/pdf",
+      "concepts": [
+        "Enstrophy",
+        "Vorticity",
+        "Vortex",
+        "Physics",
+        "Vortex stretching",
+        "Turbulence",
+        "Wake",
+        "Dissipation"
+      ],
+      "abstract": "The vorticity dynamics and its relationship to dissipation in the wake of a utility-scale wind turbine are investigated through large-eddy simulation. The vorticity dynamics is assessed through the enstrophy, which is related to the turbulent dissipation. The averaged enstrophy and turbulent dissipation are shown to be quantitatively similar in the wake. Using temporal phase averaging, the vorticity fluctuations are decomposed into coherent and random fluctuations with respect to the frequency of the tip vortices. The enstrophy in the tip vortices is dominated by coherent fluctuations, while the coherent fluctuations of root vortices are immediately saturated by the random vorticity fluctuations of the unstable hub vortex. The coherent strain rate has significant differences compared to the coherent enstrophy within one diameter downwind of blade tip, but the random enstrophy and strain rate are relatively similar. Differences in coherent enstrophy and strain rate decrease further from the rotor.",
+      "authors": [
+        "Daniel Foti"
+      ]
+    },
+    {
+      "title": "On the use of spires for generating inflow conditions with energetic coherent structures in large eddy simulation",
+      "publication_year": 2017,
+      "publication_date": "2017-04-26",
+      "doi": "https://doi.org/10.1080/14685248.2017.1316852",
+      "venue": "Journal of Turbulence",
+      "type": "article",
+      "cited_by_count": 11,
+      "is_oa": true,
+      "oa_url": "http://mediatum.ub.tum.de/node?id=1434750",
+      "concepts": [
+        "Turbulence",
+        "Inflow",
+        "Boundary layer",
+        "Large eddy simulation",
+        "Planetary boundary layer",
+        "Meteorology",
+        "Physics",
+        "Mechanics"
+      ],
+      "abstract": "While it has long been a practice to place spires near the inlet of a wind tunnel to quickly develop a turbulent boundary layer with similarities to an atmospheric boundary layer, this has not been the case for creating turbulent boundary layer inflow in large eddy simulations (LESs) of turbulent flows. We carry out LES with the curvilinear immersed boundary method to simulate the flow in a wind tunnel with a series of spires in order to investigate the feasibility of numerically developing inflow conditions from a precursory spire LES and assessing the similarities of the turbulence statistics to those of an atmospheric boundary layer. The simulated mean velocity field demonstrates that a turbulent boundary layer with height equal to the spire height develops very quickly, within five spire heights downstream. The major attribute of using spires for precursory simulations is the spatially evolving coherent structures that form downstream of the spires offering a range of length scales at both the vertical and streamwise directions allowing multiple turbulent inflow conditions to be extracted from a single simulation. While the distribution of length scales far from the spires r...",
+      "authors": [
+        "Daniel Foti",
+        "Xiaolei Yang",
+        "Filippo Campagnolo",
+        "David Maniaci",
+        "Fotis Sotiropoulos"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Optical Turbulence Profile Modeling in the Atmospheric Boundary Layer: A Random Forest Regression Approach",
+      "publication_year": 2026,
+      "publication_date": "2026-02-01",
+      "doi": "https://doi.org/10.1029/2025rs008369",
+      "venue": "Radio Science",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Planetary boundary layer",
+        "Radiosonde",
+        "Atmospheric instability",
+        "Environmental science",
+        "Depth sounding",
+        "Meteorology",
+        "Atmospheric sciences",
+        "Surface layer"
+      ],
+      "abstract": "Abstract Imaging and targeting missions parallel or at an angle to the surface are impacted by spatial variations in the refractive index structure function coefficient in the atmospheric boundary layer. However, measuring and modeling in both the vertical and transverse directions in the atmospheric boundary layer remains difficult. Using a suite of atmospheric and surface measurements available through the DOE Atmospheric Radiation Measurement Facility Southern Great Plains near Lamont, Oklahoma, including radiosonde soundings, high‐acquisition‐rate meteorological towers, and an eddy covariance tower, we investigate the influence and importance of surface and atmospheric measurements on within the atmospheric boundary layer. Over a three‐year period from Apr 2020—Apr 2023, corresponding to 3,000 soundings, vertical profiles of in the boundary layer and surface‐based obtained from the meteorological towers are correlated and classified by atmospheric stability and surface fluxes. Vertical profiles are decomposed into an average profile, based on the Hufnagel‐Valley model, and a fluctuation profile, based on sounding statistics. Random forest regression is used to aggregate the ...",
+      "authors": [
+        "Apratim Dasgupta",
+        "Christopher Cicalla",
+        "Bryan Mendoza",
+        "Daniel Foti"
+      ]
+    },
+    {
+      "title": "Scale Characterization of Jet Formation of Arrays of Multi-Source Wind Generators With Measurements and Large-Eddy Simulation",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1152",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Turbulence",
+        "Modular design",
+        "Scaling",
+        "Aerospace engineering",
+        "Planetary boundary layer",
+        "Scale (ratio)",
+        "Flow (mathematics)"
+      ],
+      "abstract": "Small unmanned and autonomous aerial vehicles are often required to operate within the turbulent atmospheric boundary layer and other degraded environments, where local turbulent behavior can strongly influence stability, control, and navigational performance. Despite the operational importance of these degraded environments, systematic studies of the associated aerodynamic challenges remain limited. One reason is the lack of suitable laboratory settings for repeatable and robust testing of atmospheric like wind conditions. This experimental and computational work characterizes baseline conditions of a modular multi-source wind-generation system that can be used to simulate flight relevant atmospheric conditions. Through complimentary large-eddy simulations and experimental measurements, the jet-formation mechanisms and scaling behavior of the fan array wind generation system are quantified. Important non-dimensional scaling behavior of fan arrays, are quantified, enabling estimation of test regions. The study further investigates how array configuration and the effect of resisting elements influence downwind flow development, offering guidance for the design and optimization of...",
+      "authors": [
+        "Md. Rafi Ur Rahman",
+        "Christopher Dougherty",
+        "Devon Robinson",
+        "Shreyas Narsipur",
+        "Chris White",
+        "Daniel Foti",
+        "Eddie L. Jacobs"
+      ]
+    },
+    {
+      "title": "Assessment and Comparison of Fan Array Wind Tunnel Facilities",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-2307",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wind tunnel",
+        "Turbulence",
+        "Marine engineering",
+        "Flow (mathematics)",
+        "Meteorology",
+        "Reynolds-averaged Navier–Stokes equations",
+        "Jet (fluid)",
+        "Inlet"
+      ],
+      "abstract": "A fan array wind tunnel (FAWT) is a relatively new testing equipment that bridges the gap in size between traditional, enclosed wind tunnels and outdoor field tests. These ``meso''-scale facilities produce open test sections and can be dynamically programmed to produce arbitrary wind profiles and inhomogeneous turbulent flow fields that can simulate the atmospheric flows. Unlike field testing, wind profiles produced by the convergence of an array of fan jets are repeatable. While FAWTs have an open test section, they are often placed inside a large laboratory facility, which affects the flow, circulation, and flow rates through the fans, test section, and the surrounding space. Due to the length scales of laboratories, we employ Reynolds Averaged Navier-Stokes (RANS) simulations with actuator-based parameterization for individual fan outputs to investigate three facilities and their configurations of the FAWT: California Institute of Technology, the University of Memphis, and Mississippi State University. While all facilities have high-bay ceilings and retractable, large garage doors, large recirculation zones develop in corners, and the test section jet responds to the facility...",
+      "authors": [
+        "Mahtab Rahmati",
+        "Md. Rafi Ur Rahman",
+        "Reza Nouri",
+        "Christopher Dougherty",
+        "Devon Robinson",
+        "Shreyas Narsipur",
+        "Chris White",
+        "Daniel Foti",
+        "Eddie L. Jacobs"
+      ]
+    },
+    {
+      "title": "URANS and LES driven design of a high Reynolds number hydrofoil experiment",
+      "publication_year": 2025,
+      "publication_date": "2025-09-01",
+      "doi": "https://doi.org/10.1016/j.rineng.2025.106905",
+      "venue": "Results in Engineering",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.rineng.2025.106905",
+      "concepts": [
+        "Reynolds number",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Mechanics",
+        "Physics",
+        "Engineering",
+        "Turbulence"
+      ],
+      "abstract": "Full-scale experiments of a naval hydrofoil under cavitating flow conditions in erosive regimes are challenging due to the high dynamic loads. An a priori computational design of experiments is performed to assess the forces and map the cavitation regimes across a wide parameter space prior to full-scale experiments at Reynolds numbers exceeding 1 × 10 7 in the U.S. Navy's William B. Morgan Large Cavitation Channel. We employ both a computationally expedient unsteady Reynolds-Averaged Navier–Stokes model and high-fidelity large-eddy simulation to explore the effects of angle of attack, cavitation number, and Reynolds number on the cavitating flow. The former is used to efficiently sweep the parameter space and map the cavitation regimes, while the latter is reserved for pertinent dynamic conditions where experiments are desired. Both simulation methodologies effectively capture key quantities of interest, such as cavity length, drag, lift, and moment coefficients, when compared to concurrent scaled experiments and full-scale tests conducted only after the design was finalized. Statistical and spectral analyses of global quantities are used to identify four distinct cavitation re...",
+      "authors": [
+        "Reza Nouri",
+        "Daniel Foti"
+      ]
+    },
+    {
+      "title": "Effect of upwind turbulence length scales on wind turbine wake meandering",
+      "publication_year": 2025,
+      "publication_date": "2025-06-10",
+      "doi": "https://doi.org/10.1103/physrevfluids.10.064611",
+      "venue": "Physical Review Fluids",
+      "type": "article",
+      "cited_by_count": 5,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Turbulence",
+        "Meteorology",
+        "Turbine",
+        "Geology",
+        "Environmental science",
+        "Mechanics",
+        "Atmospheric sciences"
+      ],
+      "abstract": "Two distinct hypotheses, related to upwind and turbine scales, for the formation of wake meandering ---the large-scale, periodic oscillating motion of the far wake of a wind turbine ---are tested via LES by varying the incoming scales. Wake meandering is observed throughout the range of scales but exhibits variation in turbulence and spectral characteristics. Two wake meandering scales are observed: (1) turbine influenced scale with regular Strouhal number, St \\ensuremath{\\approx} 0.3 and corresponding harmonics, with a similar wake center distribution across all upwind conditions, and (2) upwind produced scale if low upwind scales are present, St 0.1 with irregular wake center distributions.",
+      "authors": [
+        "Dinesh Kumar Kinjangi",
+        "Daniel Foti"
+      ]
+    }
+  ]
+}

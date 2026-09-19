@@ -1,0 +1,80 @@
+{
+  "faculty_name": "Hever Moncayo",
+  "full_name": "Moncayo. Hever",
+  "department": "Department of Aerospace Engineering",
+  "university": "Embry-Riddle Aeronautical University",
+  "author_id": "A5092115716",
+  "works_count": 1,
+  "cited_by_count": 3,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Indoor and Outdoor Localization Technologies",
+      "count": 1
+    },
+    {
+      "topic": "Target Tracking and Data Fusion in Sensor Networks",
+      "count": 1
+    },
+    {
+      "topic": "Inertial Sensor and Navigation",
+      "count": 1
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Q-Learning Model Covariance Adaptation of Rao-Blackwellized Particle Filtering in Airborne Geomagnetic Navigation",
+      "publication_year": 2023,
+      "publication_date": "2023-04-24",
+      "doi": "https://doi.org/10.1109/plans53410.2023.10140131",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle filter",
+        "Global Positioning System",
+        "Earth's magnetic field",
+        "Covariance",
+        "Kalman filter",
+        "Computer science",
+        "Inertial navigation system",
+        "Artificial intelligence"
+      ],
+      "abstract": "Over the last decades the Geomagnetic navigation problem has been on the scope as a possible candidate for alternatives to Global Positioning System (GPS) in cases when the GPS has interference or cannot be accessed. Furthermore, navigation methodologies based on magnetic fields still faces development challenges due to its complex characterisation, resulting yet in poor localization performance compared to its GPS counterpart. The following research effort the introduces a machine learning techniques as support for a proposed geomagnetic navigation algorithm for it estimation enhancement specifically for GPS denied environments or dead-reckogning applications. The estimation architecture described in this document uses the magnetic information provided by the airborne surveys of the concentrations of geomagnetic anomalies in the Earth surface and establishes a probability correlation of magnetic measurements and the area by means of a Rao-Blackwellized Particle Filter (RBPF). Furthermore, this research focuses its analysis over the error correction of the Inertial Navigation System (INS) when an adaptive state covariance parameter is obtained and used by means of Reinforcement ...",
+      "authors": [
+        "Cuenca. Andrei",
+        "Moncayo. Hever"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Q-Learning Model Covariance Adaptation of Rao-Blackwellized Particle Filtering in Airborne Geomagnetic Navigation",
+      "publication_year": 2023,
+      "publication_date": "2023-04-24",
+      "doi": "https://doi.org/10.1109/plans53410.2023.10140131",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 3,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Particle filter",
+        "Global Positioning System",
+        "Earth's magnetic field",
+        "Covariance",
+        "Kalman filter",
+        "Computer science",
+        "Inertial navigation system",
+        "Artificial intelligence"
+      ],
+      "abstract": "Over the last decades the Geomagnetic navigation problem has been on the scope as a possible candidate for alternatives to Global Positioning System (GPS) in cases when the GPS has interference or cannot be accessed. Furthermore, navigation methodologies based on magnetic fields still faces development challenges due to its complex characterisation, resulting yet in poor localization performance compared to its GPS counterpart. The following research effort the introduces a machine learning techniques as support for a proposed geomagnetic navigation algorithm for it estimation enhancement specifically for GPS denied environments or dead-reckogning applications. The estimation architecture described in this document uses the magnetic information provided by the airborne surveys of the concentrations of geomagnetic anomalies in the Earth surface and establishes a probability correlation of magnetic measurements and the area by means of a Rao-Blackwellized Particle Filter (RBPF). Furthermore, this research focuses its analysis over the error correction of the Inertial Navigation System (INS) when an adaptive state covariance parameter is obtained and used by means of Reinforcement ...",
+      "authors": [
+        "Cuenca. Andrei",
+        "Moncayo. Hever"
+      ]
+    }
+  ]
+}

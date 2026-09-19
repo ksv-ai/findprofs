@@ -1,0 +1,251 @@
+{
+  "faculty_name": "Paulo C. Lozano",
+  "full_name": "Paulo Lozano",
+  "department": "Department of Aeronautics and Astronautics",
+  "university": "Massachusetts Institute of Technology",
+  "author_id": "A5073378998",
+  "works_count": 139,
+  "cited_by_count": 2983,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 112
+    },
+    {
+      "topic": "Mass Spectrometry Techniques and Applications",
+      "count": 65
+    },
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 31
+    },
+    {
+      "topic": "Microfluidic and Capillary Electrophoresis Applications",
+      "count": 29
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Ionic liquid ion sources: characterization of externally wetted emitters",
+      "publication_year": 2004,
+      "publication_date": "2004-09-24",
+      "doi": "https://doi.org/10.1016/j.jcis.2004.08.132",
+      "venue": "Journal of Colloid and Interface Science",
+      "type": "article",
+      "cited_by_count": 248,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Ionic liquid",
+        "Ion",
+        "Tungsten",
+        "Chemical physics",
+        "Materials science",
+        "Ionic bonding",
+        "Wetting",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Paulo Lozano",
+        "Manuel Martı́nez-Sánchez"
+      ]
+    },
+    {
+      "title": "Emission Characteristics of Passively Fed Electrospray Microthrusters with Propellant Reservoirs",
+      "publication_year": 2017,
+      "publication_date": "2017-01-31",
+      "doi": "https://doi.org/10.2514/1.a33531",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 182,
+      "is_oa": true,
+      "oa_url": "https://dspace.mit.edu/bitstream/1721.1/108538/2/Krejci-et-al--iEPS%20characteristics-JSR2017.pdf",
+      "concepts": [
+        "Propellant",
+        "Specific impulse",
+        "Thrust",
+        "Common emitter",
+        "Impulse (physics)",
+        "Aerospace engineering",
+        "Materials science",
+        "Ion thruster"
+      ],
+      "abstract": "The characterization of a miniaturized ionic liquid electrospray thruster for nanosatellite applications is presented. The thruster investigated features an emitter array of 480 emitter tips per square centimeter and a propellant tank with an entirely passive propellant supply; it is operated at a power level of less than 0.15 W. The paper presents energy- and mass-resolving beam spectroscopy of the packaged thruster system, as well as two independent thrust measurements. This allows derivation of thruster performance parameters under realistic firing conditions, including individual thruster efficiency contributions, specific impulse, and thrust. The total thruster efficiencies of 36%; specific impulse of , including all losses; and thrust of are presented at emission currents of for a device of . The current emission data without current decay of are presented with a maximum of 172 h.",
+      "authors": [
+        "David Krejci",
+        "Fernando Mier-Hicks",
+        "Robert E. Thomas",
+        "Thomas Haag",
+        "Paulo Lozano"
+      ]
+    },
+    {
+      "title": "Space Propulsion Technology for Small Spacecraft",
+      "publication_year": 2018,
+      "publication_date": "2018-01-09",
+      "doi": "https://doi.org/10.1109/jproc.2017.2778747",
+      "venue": "Proceedings of the IEEE",
+      "type": "article",
+      "cited_by_count": 175,
+      "is_oa": true,
+      "oa_url": "https://orcid.org/0000-0003-4278-8951",
+      "concepts": [
+        "Propulsion",
+        "Spacecraft",
+        "Spacecraft propulsion",
+        "In-space propulsion technologies",
+        "Aerospace engineering",
+        "Ion thruster",
+        "Orbit (dynamics)",
+        "Miniaturization"
+      ],
+      "abstract": "As small satellites become more popular and capable, strategies to provide in-space propulsion increase in importance. Applications range from orbital changes and maintenance, attitude control and desaturation of reaction wheels to drag compensation and de-orbit at spacecraft end-of-life. Space propulsion can be enabled by chemical or electric means, each having different performance and scalability properties. The purpose of this review is to describe the working principles of space propulsion technologies proposed so far for small spacecraft. Given the size, mass, power, and operational constraints of small satellites, not all types of propulsion can be used and very few have seen actual implementation in space. Emphasis is given in those strategies that have the potential of miniaturization to be used in all classes of vehicles, down to the popular 1-L, 1-kg CubeSats and smaller.",
+      "authors": [
+        "David Krejci",
+        "Paulo Lozano"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Performance Characterization of Electrospray Thrusters with Energetic Ionic Liquid Monopropellant",
+      "publication_year": 2026,
+      "publication_date": "2026-06-01",
+      "doi": "https://doi.org/10.2514/1.b40175",
+      "venue": "Journal of Propulsion and Power",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propellant",
+        "Specific impulse",
+        "Monopropellant",
+        "Materials science",
+        "Propulsion",
+        "Aerospace engineering",
+        "Mass flow rate",
+        "Thrust"
+      ],
+      "abstract": "This work characterizes a passively fed porous electrospray thruster firing Advanced Spacecraft Energetic Non-Toxic propellant (ASCENT, formerly AF-M315E), an energetic ionic liquid monopropellant. Results on thruster current–voltage characteristics, angular beam divergence, plume energy spectra, plume mass spectra, direct thrust measurements, and long-duration testing are reported. The propulsive performance is assessed via indirect and direct methods across multiple units. ASCENT is found to provide a thrust-to-power ratio of [Formula: see text], a specific impulse of 600 s, and a total efficiency of 15%. The direct and indirect measurements of mass flow rate show significant disagreement, suggesting the presence of additional mass loss mechanisms. No failure modes, significant current decay, or degradation was observed over multiple thruster units up to [Formula: see text] firing time. These data can be used to advance the development of an ASCENT-fueled multimode chemical-electrospray propulsion system.",
+      "authors": [
+        "Amelia Bruno",
+        "Matthew N. Corrado",
+        "Paulo Lozano"
+      ]
+    },
+    {
+      "title": "Control of Decommissioned Satellites and Space Debris Using CubeSats with Ion Electrospray Engines",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0197",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2608.30215",
+      "concepts": [
+        "Space debris",
+        "Satellite",
+        "Aerospace engineering",
+        "Geocentric orbit",
+        "Remote sensing",
+        "Low earth orbit",
+        "Environmental science",
+        "Orbit (dynamics)"
+      ],
+      "abstract": "The emergence of the New Space era has led to a rapidly increasing number of satellites in Low Earth Orbit (LEO). Consequently, more stringent deorbiting requirements have recently been imposed to avoid the Kessler syndrome in LEO. This has resulted in the proposal of new concepts for space debris removal, including attaching CubeSats to space debris as a promising mitigation strategy. The initial phase of this strategy involves stabilizing and controlling the debris' attitude. This paper proposes an attitude control design for decommissioned satellites using attached CubeSats with staged ion electrospray engines (iESE). The compact design of iESE combined with staging provides increased reliability and mission durations. The large uncertainty in the dynamics of the combined system, i.e. satellite and attached CubeSats, poses a significant challenge to the control design. The approach taken here uses the robust control framework, specifically $\\mu$-synthesis, to tackle this challenge. The feasibility of the approach is demonstrated on a decommissioned satellite with multiple flexile appendages.",
+      "authors": [
+        "Felix Biertümpfel",
+        "Peter Seiler",
+        "Paulo Lozano",
+        "Harald Pfifer"
+      ]
+    },
+    {
+      "title": "Potential Ionic Liquid Characterization and Testing for Ion Electrospray Thrusters",
+      "publication_year": 2025,
+      "publication_date": "2025-09-17",
+      "doi": "https://doi.org/10.1109/tps.2025.3606213",
+      "venue": "IEEE Transactions on Plasma Science",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Materials science",
+        "Ionic liquid",
+        "Ion",
+        "Electrospray",
+        "Ion thruster",
+        "Characterization (materials science)",
+        "Ion beam",
+        "Ion current"
+      ],
+      "abstract": "Ion electrospray propulsion is a highly effective electric propulsion technology for CubeSats and other small satellites in which ionic liquids (ILs) are used as propellants for their unique properties. There is a wide range of unexplored ILs with fascinating attributes, and making the right choice is key to maximizing the ion electrospray thrusters’ (IETs’) performance. In this work, four novel ILs were tested and characterized: 1-ethyl-3-methylimidazolium phosphate (EMI-PO4), N-methyl-N-butylpyrrolidinium dicyanamide (MBPyrro-DCA), Triethylsulfonium bis(trifluoromethylsulfonyl)imide ($S_{222}$-TFSI), and 1-ethyl-3-methylimidazolium trifluoromethanesulfonate (EMI-TfO). These were selected for their exceptional properties, such as high viscosity, density, and conductivity, double ion presence, absence of fluorine, symmetry/asymmetry of their ions, surface tension (ST), and ion masses. Carbon xerogel and glass fiber emitter arrays were successfully employed in this research. The tests performed for the characterization were emission current and interception, energy distribution, spatial beam distribution, and mass distribution. The results were compared with 1-ethyl-3-methylimida...",
+      "authors": [
+        "Jon García Urbieta",
+        "Paulo Lozano"
+      ]
+    },
+    {
+      "title": "High-resolution direct thrust characterization of electrospray thrusters with EMI-BF4 at different temperatures and polarities",
+      "publication_year": 2025,
+      "publication_date": "2025-06-23",
+      "doi": "https://doi.org/10.1007/s44205-025-00149-7",
+      "venue": "Journal of Electric Propulsion",
+      "type": "article",
+      "cited_by_count": 7,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44205-025-00149-7.pdf",
+      "concepts": [
+        "EMI",
+        "Characterization (materials science)",
+        "Electrospray",
+        "Thrust",
+        "Resolution (logic)",
+        "Aerospace engineering",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "Abstract Electrospray thrusters have garnered significant attention throughout the years as an exceptional propulsion technology for nano- and picosatellites due to their efficiency and precise thrust control. They operate on the principle of electrostatically accelerating charged particles (liquid droplets, pure ions or their mixtures) from ionic liquids and other low-volatility propellants, which are extracted from a Taylor-cone formation on top of porous emitter arrays. In this work we characterized the thrust performance of electrospray thrusters with the ionic liquid 1-ethyl-3-methylimidazoliumtetrafluoroborate (EMI-BF 4 ) as well as an attempt with an acetate-based ionic liquid. The arrays were operated at different polarities and at elevated temperatures of up to 43 °C which led to a decrease in viscosity and enhanced current emission for EMI-BF 4 with a factor of 1.43 at equal voltage levels. Temperature related effects resulted in a thrust difference of 3% between the maximum and minimum temperature throughout the tested current range. Thrust measurements for emission currents between 10 µA and 200 µA revealed a detectable and temperature independent difference between ...",
+      "authors": [
+        "O. Neunzig",
+        "Paulo Lozano",
+        "Martin Tajmar"
+      ]
+    },
+    {
+      "title": "Design and testing of flat-panel pixel electrospray thrusters",
+      "publication_year": 2025,
+      "publication_date": "2025-04-30",
+      "doi": "https://doi.org/10.1007/s44205-025-00131-3",
+      "venue": "Journal of Electric Propulsion",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44205-025-00131-3.pdf",
+      "concepts": [
+        "Flat panel",
+        "Electrospray",
+        "Pixel",
+        "Engineering",
+        "Materials science",
+        "Computer graphics (images)",
+        "Optics",
+        "Computer science"
+      ],
+      "abstract": "Abstract Electrospray thrusters are a promising form of electric propulsion due to their compactness and high mass efficiency, making them advantageous in most mission scenarios, especially for small spacecraft. These thrusters operate through the emission of charged particles from an electrically-conductive liquid flowing inside an array of capillaries or sharp permeable structures from applying a potential difference between the liquid and a downstream extractor electrode. Emission is most efficient when operated in the pure ionic regime (PIR), with recent designs utilizing sharp porous structures to transport the liquid and provide electric field enhancement to induce ion evaporation. However, these structures are often difficult to manufacture uniformly at the scales required to ensure stable PIR emission. Existing electrospray thrusters also suffer in reliability due to the monolithic nature of their extractor design, which is prone to induce full array failure upon the shortage of a single emitter structure. These issues can be mitigated by a design that utilizes (1) a flat-panel array configuration, where the geometry and arrangement of each emitter element meets the phys...",
+      "authors": [
+        "Catherine Nachtigal",
+        "Paulo Lozano"
+      ]
+    }
+  ]
+}

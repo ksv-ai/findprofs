@@ -1,0 +1,258 @@
+{
+  "faculty_name": "Michael Zavlanos",
+  "full_name": "Michael M. Zavlanos",
+  "department": "Thomas Lord Department of Mechanical Engineering and Materials Science",
+  "university": "Duke University",
+  "author_id": "A5080808780",
+  "works_count": 225,
+  "cited_by_count": 5979,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Distributed Control Multi-Agent Systems",
+      "count": 86
+    },
+    {
+      "topic": "Reinforcement Learning in Robotics",
+      "count": 29
+    },
+    {
+      "topic": "Formal Methods in Verification",
+      "count": 28
+    },
+    {
+      "topic": "Advanced Bandit Algorithms Research",
+      "count": 24
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 23
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Graph-theoretic connectivity control of mobile robot networks",
+      "publication_year": 2011,
+      "publication_date": "2011-07-13",
+      "doi": "https://doi.org/10.1109/jproc.2011.2157884",
+      "venue": "Proceedings of the IEEE",
+      "type": "article",
+      "cited_by_count": 422,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Algebraic connectivity",
+        "Computer science",
+        "Algebraic graph theory",
+        "Flocking (texture)",
+        "Spectral graph theory",
+        "Network topology",
+        "Adjacency matrix",
+        "Distributed computing"
+      ],
+      "abstract": "We provide a theoretical framework for controlling graph connectivity in mobile robot networks. We discuss proximity-based communication models composed of disk-based or uniformly-fading-signal-strength communication links. A graph-theoretic definition of connectivity is provided, as well as an equivalent definition based on algebraic graph theory, which employs the adjacency and Laplacian matrices of the graph and their spectral properties. Based on these results, we discuss centralized and distributed algorithms to maintain, increase, and control connectivity in mobile robot networks. The various approaches discussed in this paper range from convex optimization and subgradient-descent algorithms, for the maximization of the algebraic connectivity of the network, to potential fields and hybrid systems that maintain communication links or control the network topology in a least restrictive manner. Common to these approaches is the use of mobility to control the topology of the underlying communication network. We discuss applications of connectivity control to multirobot rendezvous, flocking and formation control, where so far, network connectivity has been considered an assumpt...",
+      "authors": [
+        "Michael M. Zavlanos",
+        "Magnus Egerstedt",
+        "George J. Pappas"
+      ]
+    },
+    {
+      "title": "Potential Fields for Maintaining Connectivity of Mobile Networks",
+      "publication_year": 2007,
+      "publication_date": "2007-08-01",
+      "doi": "https://doi.org/10.1109/tro.2007.900642",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 352,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Computer science",
+        "Laplacian matrix",
+        "Property (philosophy)",
+        "Class (philosophy)",
+        "Differentiable function",
+        "Laplace operator",
+        "Distributed computing",
+        "Motion (physics)"
+      ],
+      "abstract": "The control of mobile networks of multiple agents raises fundamental and novel problems in controlling the structure of the resulting dynamic graphs. In this paper, we consider the problem of controlling a network of agents so that the resulting motion always preserves the connectivity property of the network. In particular, the connectivity condition is translated to differentiable constraints on individual agent motion by considering the dynamics of the Laplacian matrix and its spectral properties. Artificial potential fields are then used to drive the agents to configurations away from the undesired space of disconnected networks while avoiding collisions with each other. We conclude by illustrating a class of interesting problems that can be achieved while preserving connectivity constraints.",
+      "authors": [
+        "Michael M. Zavlanos",
+        "George J. Pappas"
+      ]
+    },
+    {
+      "title": "Distributed Connectivity Control of Mobile Networks",
+      "publication_year": 2008,
+      "publication_date": "2008-12-01",
+      "doi": "https://doi.org/10.1109/tro.2008.2006233",
+      "venue": "IEEE Transactions on Robotics",
+      "type": "article",
+      "cited_by_count": 349,
+      "is_oa": true,
+      "oa_url": "https://repository.upenn.edu/bitstreams/c0d512a8-0c4c-4ebd-a576-d085273c277f/download",
+      "concepts": [
+        "Algebraic connectivity",
+        "Computer science",
+        "Distributed computing",
+        "Network topology",
+        "Theoretical computer science",
+        "Gossip",
+        "Graph theory",
+        "Graph"
+      ],
+      "abstract": "Control of mobile networks raises fundamental and novel problems in controlling the structure of the resulting dynamic graphs. In particular, in applications involving mobile sensor networks and multiagent systems, a great new challenge is the development of distributed motion algorithms that guarantee connectivity of the overall network. Motivated by the inherently discrete nature of graphs as combinatorial objects, we address this challenge using a key control decomposition. First, connectivity control of the network structure is performed in thediscretespace of graphs and relies on local estimates of the network topology used, along with algebraic graph theory, to verify link deletions with respect to connectivity. Tie breaking, when multiple such link deletions can violate connectivity, is achieved by means of gossip algorithms and distributed market-based control. Second, motion control is performed in thecontinuousconfiguration space, where nearest-neighbor potential fields are used to maintain existing links in the network. Integration of the earlier controllers results in a distributed, multiagent, hybrid system, for which we show that the resulting motion always ensures...",
+      "authors": [
+        "Michael M. Zavlanos",
+        "George J. Pappas"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "One Size does not Fit All: Heterogeneous Latent Space Alignment for Unsupervised Domain Adaptation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://doi.org/10.48550/arxiv.2606.21415",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2606.21415",
+      "concepts": [
+        "Autoencoder",
+        "Computer science",
+        "Artificial intelligence",
+        "Domain adaptation",
+        "Leverage (statistics)",
+        "Domain (mathematical analysis)",
+        "Machine learning",
+        "Adaptation (eye)"
+      ],
+      "abstract": "Domain shift remains a major obstacle to the reliable deployment of machine learning models in high-stakes environments such as healthcare. While Domain adaptation aims to mitigate these effects, existing approaches suffer from limited expressiveness of latent representations and a reliance on handcrafted, static augmentations. In this work, we address these limitations by proposing a novel deep learning architecture for Unsupervised Domain Adaptation (UDA), specifically optimized for medical image segmentation. Our framework, ADualVUOT, integrates a dual-encoder Variational Autoencoder (VAE) with Continuous Normalizing Flows (CNFs) to increase modeling flexibility and posterior expressiveness. To achieve domain alignment, we leverage Unbalanced Optimal Transport (UOT) through the Gaussian-Gromov-Wasserstein (GGW) distance, which handles structural and topological discrepancies between domains. Furthermore, we incorporate an adversarial augmentation scheme to synthesize worst-case compositions, thus enhancing model robustness. Extensive experiments on medical imaging benchmarks show significant gains over prior OT-based approaches.",
+      "authors": [
+        "Evangelia Koskinioti",
+        "Yi Shen",
+        "Georgios Stamou",
+        "Michael M. Zavlanos"
+      ]
+    },
+    {
+      "title": "One Size does not Fit All: Heterogeneous Latent Space Alignment for Unsupervised Domain Adaptation",
+      "publication_year": 2026,
+      "publication_date": "2026-06-19",
+      "doi": "https://arxiv.org/abs/2606.21415",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2606.21415",
+      "concepts": [
+        "Autoencoder",
+        "Computer science",
+        "Artificial intelligence",
+        "Domain adaptation",
+        "Leverage (statistics)",
+        "Domain (mathematical analysis)",
+        "Machine learning",
+        "Adaptation (eye)"
+      ],
+      "abstract": "Domain shift remains a major obstacle to the reliable deployment of machine learning models in high-stakes environments such as healthcare. While Domain adaptation aims to mitigate these effects, existing approaches suffer from limited expressiveness of latent representations and a reliance on handcrafted, static augmentations. In this work, we address these limitations by proposing a novel deep learning architecture for Unsupervised Domain Adaptation (UDA), specifically optimized for medical image segmentation. Our framework, ADualVUOT, integrates a dual-encoder Variational Autoencoder (VAE) with Continuous Normalizing Flows (CNFs) to increase modeling flexibility and posterior expressiveness. To achieve domain alignment, we leverage Unbalanced Optimal Transport (UOT) through the Gaussian-Gromov-Wasserstein (GGW) distance, which handles structural and topological discrepancies between domains. Furthermore, we incorporate an adversarial augmentation scheme to synthesize worst-case compositions, thus enhancing model robustness. Extensive experiments on medical imaging benchmarks show significant gains over prior OT-based approaches.",
+      "authors": [
+        "Evangelia Koskinioti",
+        "Yi Shen",
+        "Georgios Stamou",
+        "Michael M. Zavlanos"
+      ]
+    },
+    {
+      "title": "Risk-averse learning with non-stationary distributions",
+      "publication_year": 2026,
+      "publication_date": "2026-05-18",
+      "doi": "https://doi.org/10.1016/j.automatica.2026.113060",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2404.02988",
+      "concepts": [
+        "Economics",
+        "Econometrics",
+        "Mathematical economics",
+        "Mathematics",
+        "Computer science"
+      ],
+      "abstract": "",
+      "authors": [
+        "Siyi Wang",
+        "Zifan Wang",
+        "Xinlei Yi",
+        "Michael M. Zavlanos",
+        "Karl Henrik Johansson",
+        "Sandra Hirche"
+      ]
+    },
+    {
+      "title": "Efficient Tail-Aware Generative Optimization via Flow Model Fine-Tuning",
+      "publication_year": 2026,
+      "publication_date": "2026-02-18",
+      "doi": "https://doi.org/10.48550/arxiv.2602.16796",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2602.16796",
+      "concepts": [
+        "CVAR",
+        "Mathematical optimization",
+        "Leverage (statistics)",
+        "Computer science",
+        "Reliability (semiconductor)",
+        "Process (computing)",
+        "Flow (mathematics)",
+        "Dual (grammatical number)"
+      ],
+      "abstract": "Fine-tuning pre-trained diffusion and flow models to optimize downstream utilities is central to real-world deployment. Existing entropy-regularized methods primarily maximize expected reward, providing no mechanism to shape tail behavior. However, tail control is often essential: the lower tail determines reliability by limiting low-reward failures, while the upper tail enables discovery by prioritizing rare, high-reward outcomes. In this work, we present Tail-aware Flow Fine-Tuning (TFFT), a principled and efficient distributional fine-tuning algorithm based on the Conditional Value-at-Risk (CVaR). We address two distinct tail-shaping goals: right-CVaR for seeking novel samples in the high-reward tail and left-CVaR for controlling worst-case samples in the low-reward tail. Unlike prior approaches that rely on non-linear optimization, we leverage the variational dual formulation of CVaR to decompose it into a decoupled two-stage procedure: a lightweight one-dimensional threshold optimization step, and a single entropy-regularized fine-tuning process via a specific pseudo-reward. This decomposition achieves CVaR fine-tuning efficiently with computational cost comparable to stand...",
+      "authors": [
+        "Zifan Wang",
+        "Riccardo De Santi",
+        "Xiaoyu Mo",
+        "Michael M. Zavlanos",
+        "Andreas Krause",
+        "Karl Henrik Johansson"
+      ]
+    },
+    {
+      "title": "Efficient Tail-Aware Generative Optimization via Flow Model Fine-Tuning",
+      "publication_year": 2026,
+      "publication_date": "2026-02-18",
+      "doi": "http://arxiv.org/abs/2602.16796",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2602.16796",
+      "concepts": [
+        "CVAR",
+        "Mathematical optimization",
+        "Leverage (statistics)",
+        "Computer science",
+        "Reliability (semiconductor)",
+        "Process (computing)",
+        "Flow (mathematics)",
+        "Dual (grammatical number)"
+      ],
+      "abstract": "Fine-tuning pre-trained diffusion and flow models to optimize downstream utilities is central to real-world deployment. Existing entropy-regularized methods primarily maximize expected reward, providing no mechanism to shape tail behavior. However, tail control is often essential: the lower tail determines reliability by limiting low-reward failures, while the upper tail enables discovery by prioritizing rare, high-reward outcomes. In this work, we present Tail-aware Flow Fine-Tuning (TFFT), a principled and efficient distributional fine-tuning algorithm based on the Conditional Value-at-Risk (CVaR). We address two distinct tail-shaping goals: right-CVaR for seeking novel samples in the high-reward tail and left-CVaR for controlling worst-case samples in the low-reward tail. Unlike prior approaches that rely on non-linear optimization, we leverage the variational dual formulation of CVaR to decompose it into a decoupled two-stage procedure: a lightweight one-dimensional threshold optimization step, and a single entropy-regularized fine-tuning process via a specific pseudo-reward. This decomposition achieves CVaR fine-tuning efficiently with computational cost comparable to stand...",
+      "authors": [
+        "Zifan Wang",
+        "Riccardo De Santi",
+        "Xiaoyu Mo",
+        "Michael M. Zavlanos",
+        "Andreas Krause",
+        "Karl Henrik Johansson"
+      ]
+    }
+  ]
+}

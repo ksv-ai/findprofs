@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Claire Grégoire",
+  "full_name": "Claire M. Grégoire",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of Florida",
+  "author_id": "A5061105302",
+  "works_count": 47,
+  "cited_by_count": 681,
+  "h_index": 13,
+  "top_topics": [
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 32
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 17
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 17
+    },
+    {
+      "topic": "Atmospheric chemistry and aerosols",
+      "count": 10
+    },
+    {
+      "topic": "Catalytic Processes in Materials Science",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Experimental Investigation of the Combustion Properties of an Average Thermal Runaway Gas Mixture from Li-Ion Batteries",
+      "publication_year": 2022,
+      "publication_date": "2022-02-23",
+      "doi": "https://doi.org/10.1021/acs.energyfuels.1c04057",
+      "venue": "Energy & Fuels",
+      "type": "article",
+      "cited_by_count": 61,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustion",
+        "Thermal runaway",
+        "Ignition system",
+        "Thermodynamics",
+        "Thermal",
+        "Nuclear engineering",
+        "Mechanics",
+        "Chemistry"
+      ],
+      "abstract": "To assess the fire hazard associated with venting gases coming from a lithium-ion battery during a thermal runaway, a mixture representative of such venting gas was determined by averaging 40 gas compositions presented in the literature. The final mixture is composed of C 3 H 8, C 2 H 6, C 2 H 4, CH 4, H 2, CO, and CO 2 . The combustion properties of this mixture were determined using various combustion devices: shock tubes for ignition delay time measurements in air and for H 2 O time histories in very dilute mixtures (99% Ar), as well as a closed bomb to measure the laminar flame speeds. Experiments were performed at around atmospheric pressure and for several equivalence ratios in all cases. Several detailed kinetics models from the literature were assessed against the data generated with this very complex mixture, and it was found that modern detailed kinetics mechanisms were capable of appropriately predicting the combustion properties of thermal runaway gases from a battery in most cases, with the NUIGMech 1.1 model being the most accurate. A numerical analysis was conducted with the two most modern models to explain the results and highlight the most important reactions.",
+      "authors": [
+        "Olivier Mathieu",
+        "Claire M. Grégoire",
+        "Mattias A. Turner",
+        "Darryl J. Mohr",
+        "Sulaiman A. Alturaifi",
+        "James C. Thomas",
+        "Eric L. Petersen"
+      ]
+    },
+    {
+      "title": "Experimental and chemical kinetic modeling study of ethylene carbonate oxidation: A lithium-ion battery electrolyte surrogate model",
+      "publication_year": 2024,
+      "publication_date": "2024-02-11",
+      "doi": "https://doi.org/10.1016/j.combustflame.2024.113333",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 32,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2024.113333",
+      "concepts": [
+        "Ethylene carbonate",
+        "Dimethyl carbonate",
+        "Electrolyte",
+        "Diethyl carbonate",
+        "Chemistry",
+        "Pyrolysis",
+        "Analytical Chemistry (journal)",
+        "Carbonate"
+      ],
+      "abstract": "Fire-risk assessment of lithium-ion batteries (LIBs) is an urgent task as the number and size of products using LIBs are both increasing. LIB electrolyte solvents consist of mixtures of flammable carbonate esters, such as ethylene carbonate (EC), dimethyl carbonate (DMC), ethyl methyl carbonate (EMC), and diethyl carbonate (DEC). This study aims to report the first EC combustion experiments (ignition delay time (IDT), CO laser absorption, and laminar flame speed measurements), and to provide a LIB electrolyte surrogate model that covers EC, DMC, EMC, and DEC pyrolysis and oxidation. The IDT and CO measurements were performed in a shock tube for EC/O2 mixtures, diluted with 95% Ar and 99.7% He/Ar, respectively, at equivalence ratios (ϕ) of 0.5, 1.0, and 2.0, a temperature range of 1228–1717 K, and at near-atmospheric pressures. Laminar flame speeds were measured in a closed vessel for H2/air mixtures seeded with 0.5% EC, at an initial temperature of 423 K and at atmospheric pressure. The LIB electrolyte surrogate model was constructed by implementing the EC oxidation sub-mechanism to our EC pyrolysis model with updates in the base mechanism. Experimental IDTs show little equivale...",
+      "authors": [
+        "Keisuke Kanayama",
+        "Claire M. Grégoire",
+        "Sean P. Cooper",
+        "Yousef M. Almarzooq",
+        "Eric L. Petersen",
+        "Olivier Mathieu",
+        "Kaoru Maruta",
+        "Hisashi Nakamura"
+      ]
+    },
+    {
+      "title": "Experimental Kinetics Study on Diethyl Carbonate Oxidation",
+      "publication_year": 2023,
+      "publication_date": "2023-06-01",
+      "doi": "https://doi.org/10.3390/fuels4020015",
+      "venue": "Fuels",
+      "type": "article",
+      "cited_by_count": 20,
+      "is_oa": true,
+      "oa_url": "https://www.mdpi.com/2673-3994/4/2/15/pdf?version=1685596495",
+      "concepts": [
+        "Shock tube",
+        "Combustion",
+        "Ignition system",
+        "Laminar flow",
+        "Thermodynamics",
+        "Equivalence ratio",
+        "Isentropic process",
+        "Analytical Chemistry (journal)"
+      ],
+      "abstract": "Diethyl carbonate (DEC) is a common component of the liquid electrolyte in lithium ion batteries (LIBs). As such, understanding DEC combustion chemistry is imperative to improving chemical kinetic modeling of LIB fires. To this end, a comprehensive experimental study was conducted to collect ignition delay times, CO time histories, and laminar flame speeds during DEC combustion. Ignition delay times were collected using a heated shock tube at real fuel–air conditions for three equivalence ratios (ϕ = 0.5, 1.0, and 2.0) near atmospheric pressure and for temperatures between 1182 and 1406 K. Another shock tube was used to collect CO time histories using a laser absorption diagnostic. These experiments were conducted for the same equivalence ratios, but highly diluted in argon and helium (79.25% Ar + 20% He) at an average pressure of 1.27 atm and a temperature range of 1236–1669 K. Finally, a heated constant-volume vessel was used to collect laminar flame speeds of DEC at an initial temperature and pressure of 403 K and 1 atm, respectively, for equivalence ratios between 0.79 and 1.38. The results are compared with different mechanisms from the literature. Good agreement is seen fo...",
+      "authors": [
+        "Sean P. Cooper",
+        "Claire M. Grégoire",
+        "Yousef M. Almarzooq",
+        "Eric L. Petersen",
+        "Olivier Mathieu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Chemical Kinetics Study of Ammonium Perchlorate/Hydroxyl-Terminated Polybutadiene Surrogate Mixtures",
+      "publication_year": 2026,
+      "publication_date": "2026-05-31",
+      "doi": "https://doi.org/10.2514/1.j066736",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Polybutadiene",
+        "Equivalence ratio",
+        "Chemistry",
+        "Chlorine",
+        "Combustion",
+        "Chemical kinetics",
+        "Chemical reaction",
+        "Equivalence (formal languages)"
+      ],
+      "abstract": "The key features of the gas-phase combustion behavior of ammonium perchlorate/hydroxyl-terminated polybutadiene (AP/HTPB) can be represented by a surrogate mixture of ammonia ([Formula: see text]), hydrocarbon ([Formula: see text]), and chlorine precursors ([Formula: see text] or [Formula: see text]). New measurements of chlorinated species (HCl) and CO (Carbon Monoxide) time-history profiles were performed in shock tubes using laser absorption diagnostics. The experiments were carried out for [Formula: see text] and 0.1 [Formula: see text] [Formula: see text] oxidation at an equivalence ratio ([Formula: see text]) of 1.0 in 99.5% He/Ar with temperatures ranging from 1460 to 2340 K, and near-atmospheric pressure. Both [Formula: see text] and [Formula: see text] provided Cl radicals successfully via the reactions [Formula: see text], [Formula: see text], and [Formula: see text]. Consequently, the Cl interactions were directly observed with [Formula: see text] and [Formula: see text], such as [Formula: see text] and [Formula: see text]. Additionally, the 0.1 [Formula: see text] [Formula: see text] mixture exhibited two major reaction pathways: 1) from the precursor [Formula: see t...",
+      "authors": [
+        "Claire M. Grégoire",
+        "Eric L. Petersen"
+      ]
+    },
+    {
+      "title": "An experimental, theoretical and modeling study of the pyrolysis and oxidation of propan-1-ol using CO time-history measurements behind reflected shock waves",
+      "publication_year": 2026,
+      "publication_date": "2026-05-12",
+      "doi": "https://doi.org/10.1016/j.combustflame.2026.115033",
+      "venue": "Combustion and Flame",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.combustflame.2026.115033",
+      "concepts": [
+        "Pyrolysis",
+        "Shock wave",
+        "Materials science",
+        "Shock (circulatory)",
+        "Thermodynamics",
+        "Chemistry",
+        "Carbon monoxide",
+        "Chemical engineering"
+      ],
+      "abstract": "The pyrolysis and oxidation of propan-1-ol were investigated in this work, providing new experimental data that highlight the limitations of the most recent detailed kinetic mechanisms available in the literature. The new data, obtained near atmospheric pressure, consist of shock-tube CO time-history profiles measured behind reflected shock waves using laser absorption diagnostics near 4.6 μm. Pyrolysis experiments were conducted with mixtures of propan-1-ol highly diluted in He/Ar (20/79.75%) within a temperature range of 1217 to 1592 K. Oxidation was studied at three different equivalence ratios, φ = 0.5, 1, and 2, using highly diluted mixtures of propan-1-ol/O 2 / He/Ar (20/79.5% He/Ar) over a temperature range of 1284 to 1696 K. Under these high-temperature conditions, accounting for the pressure dependency of the rate constants of unimolecular initiation reactions (including dehydration) is of paramount importance. Channel-specific rate constants were therefore theoretically determined using variable reaction coordinate transition state theory in the temperature and pressure ranges of interest for propan-1-ol pyrolysis and combustion. These theoretical results, together wit...",
+      "authors": [
+        "Claire M. Grégoire",
+        "O. Clément",
+        "Olivier Mathieu",
+        "Eric L. Petersen",
+        "Maristella Di Teodoro",
+        "Sarah N. Elliott",
+        "Carlo Cavallotti",
+        "Zeynep Serinyel",
+        "Guillaume Dayma"
+      ]
+    },
+    {
+      "title": "A Shock‐Tube Study of the HCl + M → H + Cl + M (M = Ar) Rate Constant Using HCl Laser Absorption Near 3.3 µm",
+      "publication_year": 2026,
+      "publication_date": "2026-03-17",
+      "doi": "https://doi.org/10.1002/kin.70051",
+      "venue": "International Journal of Chemical Kinetics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1002/kin.70051",
+      "concepts": [
+        "Chemistry",
+        "Reaction rate constant",
+        "Shock tube",
+        "Analytical Chemistry (journal)",
+        "Chlorine",
+        "Shock wave",
+        "Rate equation",
+        "Propellant"
+      ],
+      "abstract": "ABSTRACT Hydrogen chlorine (HCl) is an important combustion intermediate during plastic (municipal waste) and composite propellant (aerospace) combustion, but the understanding of its high‐temperature chemistry is still evolving. In this study, the pyrolysis of 0.5% HCl in Ar was investigated behind reflected shock waves in a shock tube at temperatures ranging from 2290 to 3490 K and pressures from 0.7 to 3.6 atm. A laser source was set to access the R(8) transition line of H 35 Cl in the fundamental band near 3.3 µm at the specific wavelength of 3045.06 cm −1 . Numerical predictions using chemical kinetics mechanisms from the literature did not capture well the decomposition behavior of HCl in our conditions. According to these models, the most sensitive reaction HCl + M H + Cl + M (M = Ar) could be isolated, and its rate constant was retrieved from the experimental measurements. A pressure dependence was observed over the range of pressures covered. The present study measured the bimolecular reaction rate of the title reaction ( k 1.5 atm in cm 3 ·mol −1 ·s −1 , T in K, R = 1.987 cal·mol −1 ·K −1 ) as: valid near 1.5 atm, as well as ( k <1 atm in cm 3 ·mol −1 ·s −1 ): and ( k ...",
+      "authors": [
+        "Claire M. Grégoire",
+        "Olivier Mathieu",
+        "Eric L. Petersen"
+      ]
+    },
+    {
+      "title": "Shock-Tube Spectroscopic CO Measurements and Kinetics Modeling of Rocket Propellants",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1811",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Propellant",
+        "Ammonium perchlorate",
+        "Chlorine",
+        "Combustion",
+        "Kinetics",
+        "Chemistry",
+        "Thermal decomposition",
+        "Chemical kinetics"
+      ],
+      "abstract": "Propellants based on Ammonium Perchlorate (AP)/Hydroxyl-Terminated PolyButadiene (HTPB) are extensively used in aerospace propulsion applications. The key features of the gas-phase combustion chemistry behavior of AP/HTPB can be represented by a surrogate mixture of ammonia (NH3), hydrocarbon (CH4), and chlorine precursors (CHCl3 or CCl4). This study aimed to understand the interactions between NH3-CH4-Cl and CH4-Cl, where the chlorine is produced via the thermal decomposition of CHCl3 and CCl4, respectively. New measurements of CO time-history profiles were performed in a shock tube using a CO laser absorption diagnostic, the P(20) transition line centered at 2059.91 cm-1. The experiments were carried out for CHCl3/CH4/NH3 and 0.1 CCl4/0.9 CH4 oxidation at an equivalence ratio (ɸ) of 1.0 in 99.5% He/Ar with temperatures ranging from 1460 to 2130 K, and near atmospheric pressure. This CO quantification is a continuation by the present authors to collect unique target data to develop and validate the detailed chemical kinetics mechanisms that are much required for understanding and modeling the AP/HTPB combustion process. While both precursors produce COCl2 via CHCl3 → CCl2 → COC...",
+      "authors": [
+        "Claire M. Grégoire",
+        "Eric L. Petersen"
+      ]
+    },
+    {
+      "title": "Assessment of detailed kinetics models for CO formation in ethylene combustion via time-resolved laser absorption",
+      "publication_year": 2025,
+      "publication_date": "2025-09-05",
+      "doi": "https://doi.org/10.1016/j.fuel.2025.136641",
+      "venue": "Fuel",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.fuel.2025.136641",
+      "concepts": [
+        "Kinetics",
+        "Combustion",
+        "Ethylene",
+        "Absorption (acoustics)",
+        "Laser",
+        "Materials science",
+        "Chemistry",
+        "Thermodynamics"
+      ],
+      "abstract": "The oxidation of C 2 H 4 was studied in a shock tube by tracking CO time histories using a laser absorption diagnostic in highly diluted mixtures. Experiments were conducted over a wide temperature range at near-atmospheric pressure for three equivalence ratios (ϕ = 0.5, 1.0, and 2.0). Key parameters related to CO formation timing and concentration were extracted from the time-resolved CO profiles. The results were compared with several modern detailed kinetics models from the literature revealing that, despite the many studies available on C 2 H 4 combustion chemistry, CO time histories can be used to further improve the next generation of model predictions of C 2 H 4 oxidation. Notably, the ranking of model performance based on absolute relative error was broadly consistent with findings from recent studies involving more diverse datasets and conditions. This work highlights the advantages of using species time histories—rather than relying solely on global metrics such as ignition delay times—for kinetics model validation and development. A strong feature of the current measurements is the ability to isolate the changing chemical kinetics within specific time intervals over t...",
+      "authors": [
+        "Olivier Mathieu",
+        "Claire M. Grégoire",
+        "Eric L. Petersen"
+      ]
+    }
+  ]
+}

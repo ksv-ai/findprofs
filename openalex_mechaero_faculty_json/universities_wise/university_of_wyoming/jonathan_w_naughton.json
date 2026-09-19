@@ -1,0 +1,254 @@
+{
+  "faculty_name": "Jonathan W. Naughton",
+  "full_name": "Jonathan Naughton",
+  "department": "Department of Mechanical Engineering / Wind Energy Research Center",
+  "university": "University of Wyoming",
+  "author_id": "A5038476460",
+  "works_count": 260,
+  "cited_by_count": 3749,
+  "h_index": 22,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 123
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 53
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 48
+    },
+    {
+      "topic": "Wind Energy Research and Development",
+      "count": 47
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 47
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Multi-time-delay LSE-POD complementary approach applied to unsteady high-Reynolds-number near wake flow",
+      "publication_year": 2010,
+      "publication_date": "2010-02-08",
+      "doi": "https://doi.org/10.1007/s00348-010-0821-4",
+      "venue": "Experiments in Fluids",
+      "type": "article",
+      "cited_by_count": 122,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wake",
+        "Reynolds number",
+        "Point of delivery",
+        "Particle image velocimetry",
+        "Robustness (evolution)",
+        "Computational fluid dynamics",
+        "Proper orthogonal decomposition",
+        "Algorithm"
+      ],
+      "abstract": "",
+      "authors": [
+        "Vibhav Durgesh",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Review of rotating wing dynamic stall: Experiments and flow control",
+      "publication_year": 2023,
+      "publication_date": "2023-02-01",
+      "doi": "https://doi.org/10.1016/j.paerosci.2023.100887",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 75,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.paerosci.2023.100887",
+      "concepts": [
+        "Stall (fluid mechanics)",
+        "Airfoil",
+        "Wing",
+        "Engineering",
+        "Computer science",
+        "Aerospace engineering",
+        "Control theory (sociology)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Dynamic stall has been a technical challenge and a fluid dynamical subject of interest for more than fifty years; but in the last decade significant advances have been made in the understanding, prediction, modeling, and control of dynamic stall on rotors. This paper provides a summary of the state of the art of dynamic stall experiments and future directions in the understanding of dynamic stall on rotors. Experimental data sets are discussed, as well the direction of future research for control of dynamic stall. Coordinated testing between airfoils and rotating blades, as well as close integration between computational and experimental studies were found to be productive approaches. Advanced analysis methods, including statistical methods , modal representations, and artificial intelligence methods have led to significant advances in the understanding of dynamic stall. Investigations of dynamic stall control devices have allowed many useful targeted investigations of the transition to separated flow , but have not yet resulted in a commercially implemented device.",
+      "authors": [
+        "Anthony Gardner",
+        "Anya R. Jones",
+        "Karen Mülleners",
+        "Jonathan Naughton",
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "An experimental study of compressible turbulent mixing enhancement in swirling jets",
+      "publication_year": 1997,
+      "publication_date": "1997-01-10",
+      "doi": "https://doi.org/10.1017/s0022112096003679",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 86,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Entrainment (biomusicology)",
+        "Mechanics",
+        "Turbulence",
+        "Compressibility",
+        "Mixing (physics)",
+        "Jet (fluid)",
+        "Vorticity",
+        "Physics"
+      ],
+      "abstract": "Compressible jets with various amounts of swirl and compressibility are investigated experimentally. The mixing-layer growth rate is obtained from time-averaged images of the mixing layer using the planar laser scattering (PLS) technique, and the swirl is quantified with laser Doppler velocimetry and intrusive probes. The results conclusively demonstrate that the addition of swirl to the jet increases entrainment by up to 60% compared to a corresponding non-swirling case. Instantaneous PLS images reveal modified turbulent structure in the mixing layer of the swirling-jet cases. In particular, analysis of these images indicates that both the spatial extent and amplitude of the largest turbulent fluctuations are increased when swirl is added. Based upon these results, a parameter β that correlates the observed growth-rate enhancement is proposed. This parameter is derived assuming that the streamwise vorticity, generated in the mixing layer by the addition of small amounts of swirl, causes additional turbulent mixing that increases the growth rate. When the available growth-rate data for swirling jets are plotted against this parameter, they collapse to a single curve with increas...",
+      "authors": [
+        "Jonathan Naughton",
+        "Louis N. Cattafesta",
+        "Gary S. Settles"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Experimental Evaluation of the Cycle-to-Cycle Variations Observed in Dynamic Stall",
+      "publication_year": 2025,
+      "publication_date": "2025-11-19",
+      "doi": "https://doi.org/10.2514/1.j065126",
+      "venue": "AIAA Journal",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Stall (fluid mechanics)",
+        "Airfoil",
+        "Aerodynamics",
+        "Mechanics",
+        "Angle of attack",
+        "Flow separation",
+        "Amplitude",
+        "Dynamic pressure"
+      ],
+      "abstract": "Dynamic stall, an unsteady aerodynamic phenomenon characterized by rapid changes in incoming flow direction, is a subject with significant implications for rotorcraft flight and wind energy generation. Traditional experimental research in this field involves pitching or plunging an airfoil through hundreds of cycles and phase averaging the resulting unsteady pressure data. This approach is appropriate when data at all times during a cycle can be roughly approximated by the cycle ensemble average. Recent studies, however, have demonstrated that downstroke flow behavior may sometimes be statistically multimodal, which would inhibit the use of phase averages for effective analysis. The objective of this study is to understand the nature of cycle-to-cycle variations through a parametric survey involving surface pressure measurements. An array of experimental data was collected for various airfoil pitching schedules on an SC1094R8 model. Parameters that varied in the study included the mean and amplitude angles of oscillation and the oscillation frequency. The effect of each of these parameters on stall sensitivity is considered, along with the influence of cycle-to-cycle variations ...",
+      "authors": [
+        "Tanner Harms",
+        "Pourya Nikoueeyan",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Impact of Swirl on the Round Wake",
+      "publication_year": 2025,
+      "publication_date": "2025-05-01",
+      "doi": "https://doi.org/10.1088/1742-6596/3016/1/012010",
+      "venue": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1088/1742-6596/3016/1/012010",
+      "concepts": [
+        "Wake",
+        "Mechanics",
+        "Environmental science",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Physics",
+        "Engineering"
+      ],
+      "abstract": "Abstract The influence of swirl on axisymmetric wakes is a critical area of study, with significant implications for both practical applications, such as wind turbine wakes, and fundamental fluid dynamics research, where even small changes in the mean flow can lead to substantial alterations in turbulence characteristics. Despite its importance, this topic has received limited attention in the literature. This study examines the influence of swirl on the downstream development of a controlled, rotationally symmetric wake. The wake was generated using a rotating porous disk mounted in a wind tunnel, and the flow field was measured using stereoscopic PIV across various swirl strengths. The results suggest that swirl begins to influence the wake at swirl numbers around 0.07, with its effects saturating at swirl numbers exceeding 0.2.",
+      "authors": [
+        "Mostafa Ojaghloo",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Modal Characterization of Wakes With Swirl",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2759",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Characterization (materials science)",
+        "Modal",
+        "Computer science",
+        "Materials science",
+        "Nanotechnology",
+        "Composite material"
+      ],
+      "abstract": "Understanding the effect of swirl on axisymmetric wakes is essential for both practical applications and fundamental research. Swirling flows exhibit different instabilities than their non-swirling counterparts. If better understood, this different instability can potentially be exploited to control these flows in various applications. To better understand the impacts of rotation on the wake, this study employs SPIV measurements of the wake behind a rotating porous disk, taken at a cross-plane located three diameters downstream, as input for Proper Orthogonal Decomposition (POD) analysis. The findings indicate that swirl has a significant impact on both single-point and two-point statistics, that alters the POD results significantly. Specifically, adding swirl to the flow results in an energy redistribution towards lower order modes and creates a rotation in the mode shapes, suggesting changes in the flow’s turbulence structure.",
+      "authors": [
+        "Mostafa Ojaghloo",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Wind Energy Instrumentation Development Roadmap",
+      "publication_year": 2024,
+      "publication_date": "2024-10-22",
+      "doi": "https://doi.org/10.2172/3012169",
+      "venue": "",
+      "type": "report",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://www.osti.gov/servlets/purl/3012169",
+      "concepts": [
+        "Instrumentation (computer programming)",
+        "Process (computing)",
+        "Systems engineering",
+        "Mesoscale meteorology",
+        "Field (mathematics)",
+        "Work (physics)",
+        "Engineering",
+        "sort"
+      ],
+      "abstract": "The instrumentation development roadmap provides a guide on which measurements, and instruments, are important for future field campaigns to meet both the science objects and validation plans for their successful execution. The roadmap ensures the measurements are of sufficient type and resolution to meet science objectives and validation needs essential to the campaigns. The roadmap includes measurement categories ranging from instruments that need to be created to existing instruments essential to the field campaigns. The creation of the instrumentation development roadmap builds upon the previous Atmospheric to Electrons (A2e) validation work and formation of the American WAKE experimeNt (AWAKEN) science objectives. A process was created that maps between the (1) instrument measurement categories, (2) physical phenomena important to wind turbines, wind plants, and meso-scale forcing, (3) AWAKEN science objectives, and (4) near-term validation requirements for high-fidelity models (HFM). This document outlines the process that was developed in mapping between these dimensions of criteria as well as which measurement categories are most important for capturing the AWAKEN scienc...",
+      "authors": [
+        "USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
+        "T. Herges",
+        "USDOE National Nuclear Security Administration (NNSA)",
+        "David Maniaci",
+        "Mithu Debnath",
+        "Rebecca Fao",
+        "Nicholas Hamilton",
+        "Raghavendra Krishnamurthy",
+        "Jonathan Naughton"
+      ]
+    },
+    {
+      "title": "Skin Friction Measurement on a Swept NACA 0015 Wing Using Oil Film Interferometry",
+      "publication_year": 2024,
+      "publication_date": "2024-07-27",
+      "doi": "https://doi.org/10.2514/6.2024-4272",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Interferometry",
+        "Materials science",
+        "Wing",
+        "Optics",
+        "Aerospace engineering",
+        "Engineering",
+        "Physics"
+      ],
+      "abstract": "An application of oil film interferometry (OFI) to measure skin friction on the 3D flow over an NACA 0015 airfoil with 30° of sweep is presented. Local flow direction must be known to apply OFI to complex 3D flows such as this. A recently developed surface flow vector extraction method was integrated into the OFI analysis algorithm. Surface flow vectors were used to calculate the surface streamlines and hence provided local flow direction to the OFI analysis. After calibration using photogrammetry, the surface flow vectors also enabled decomposition of the skin friction coefficient into different components (such as chordwise and spanwise). The presented method successfully measured skin friction at locations with different flow characteristics such as high skin friction regions, strong spanwise flow regions, and 3D flow separated regions. In the current OFI analysis, multiple interferogram images acquired at different times were analyzed for the same location. The multiple interferogram analysis enabled averaging, which reduced the scatter in the skin friction data. The results presented herein demonstrate the capability of the current approach, thereby extending OFI skin frict...",
+      "authors": [
+        "Mehti Köklü",
+        "Dan Neuhart",
+        "LaTunia G. Pack Melton",
+        "Jonathan Naughton"
+      ]
+    }
+  ]
+}

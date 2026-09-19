@@ -1,0 +1,259 @@
+{
+  "faculty_name": "Christina Harvey",
+  "full_name": "Christina Harvey",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Davis",
+  "author_id": "A5046867764",
+  "works_count": 55,
+  "cited_by_count": 592,
+  "h_index": 9,
+  "top_topics": [
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 46
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 31
+    },
+    {
+      "topic": "Aeroelasticity and Vibration Control",
+      "count": 14
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 10
+    },
+    {
+      "topic": "Avian ecology and behavior",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Gull-inspired joint-driven wing morphing allows adaptive longitudinal flight control",
+      "publication_year": 2021,
+      "publication_date": "2021-06-01",
+      "doi": "https://doi.org/10.1098/rsif.2021.0132",
+      "venue": "Journal of The Royal Society Interface",
+      "type": "article",
+      "cited_by_count": 38,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8187025",
+      "concepts": [
+        "Morphing",
+        "Wing",
+        "Bird flight",
+        "Aerodynamics",
+        "Wing configuration",
+        "Longitudinal static stability",
+        "Computer science",
+        "Joint (building)"
+      ],
+      "abstract": "Birds dynamically adapt to disparate flight behaviours and unpredictable environments by actively manipulating their skeletal joints to change their wing shape. This in-flight adaptability has inspired many unmanned aerial vehicle (UAV) wings, which predominately morph within a single geometric plane. By contrast, avian joint-driven wing morphing produces a diverse set of non-planar wing shapes. Here, we investigated if joint-driven wing morphing is desirable for UAVs by quantifying the longitudinal aerodynamic characteristics of gull-inspired wing-body configurations. We used a numerical lifting-line algorithm (MachUpX) to determine the aerodynamic loads across the range of motion of the elbow and wrist, which was validated with wind tunnel tests using three-dimensional printed wing-body models. We found that joint-driven wing morphing effectively controls lift, pitching moment and static margin, but other mechanisms are required to trim. Within the range of wing extension capability, specific paths of joint motion (trajectories) permit distinct longitudinal flight control strategies. We identified two unique trajectories that decoupled stability from lift and pitching moment g...",
+      "authors": [
+        "Christina Harvey",
+        "Vikram B. Baliga",
+        "Cory D. Goates",
+        "Douglas F. Hunsaker",
+        "Daniel J. Inman"
+      ]
+    },
+    {
+      "title": "A review of avian-inspired morphing for UAV flight control",
+      "publication_year": 2022,
+      "publication_date": "2022-04-21",
+      "doi": "https://doi.org/10.1016/j.paerosci.2022.100825",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 171,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.paerosci.2022.100825",
+      "concepts": [
+        "Morphing",
+        "Wing",
+        "Computer science",
+        "Camber (aerodynamics)",
+        "Aerospace engineering",
+        "Engineering",
+        "Artificial intelligence"
+      ],
+      "abstract": "",
+      "authors": [
+        "Christina Harvey",
+        "Lawren L. Gamble",
+        "Christian R. Bolander",
+        "Douglas F. Hunsaker",
+        "James J. Joo",
+        "Daniel J. Inman"
+      ]
+    },
+    {
+      "title": "Wing morphing allows gulls to modulate static pitch stability during gliding",
+      "publication_year": 2019,
+      "publication_date": "2019-01-01",
+      "doi": "https://doi.org/10.1098/rsif.2018.0641",
+      "venue": "Journal of The Royal Society Interface",
+      "type": "article",
+      "cited_by_count": 81,
+      "is_oa": true,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6364660",
+      "concepts": [
+        "Wing",
+        "Longitudinal static stability",
+        "Angle of attack",
+        "Camber (aerodynamics)",
+        "Morphing",
+        "Stability derivatives",
+        "Wind tunnel",
+        "Wing twist"
+      ],
+      "abstract": "A gliding bird's ability to stabilize its flight path is as critical as its ability to produce sufficient lift. In flight, birds often morph the shape of their wings, but the consequences of avian wing morphing on flight stability are not well understood. Here, we investigate how morphing the gull elbow joint in gliding flight affects their static pitch stability. First, we combined observations of freely gliding gulls and measurements from gull wing cadavers to identify the wing configurations used during gliding flight. These measurements revealed that, as wind speed and gusts increased, gulls flexed their elbows to adopt wing shapes characterized by increased spanwise camber. To determine the static pitch stability characteristics of these wing shapes, we prepared gull wings over the anatomical elbow range and measured the developed pitching moments in a wind tunnel. Wings prepared with extended elbow angles had low spanwise camber and high passive stability, meaning that mild perturbations could be negated without active control. Wings with flexed elbow angles had increased spanwise camber and reduced static pitch stability. Collectively, these results demonstrate that glidi...",
+      "authors": [
+        "Christina Harvey",
+        "Vikram B. Baliga",
+        "Philippe Lavoie",
+        "Douglas L. Altshuler"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Tuning for feather loss: wing–tail kinematic adjustments of a moulting red-tailed hawk during perching flight",
+      "publication_year": 2026,
+      "publication_date": "2026-06-17",
+      "doi": "https://doi.org/10.1098/rsif.2025.1082",
+      "venue": "Journal of The Royal Society Interface",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1098/rsif.2025.1082",
+      "concepts": [
+        "Bird flight",
+        "Wing",
+        "Feather",
+        "Kinematics",
+        "Flight feather",
+        "Moulting",
+        "Biology",
+        "Thrust"
+      ],
+      "abstract": "Birds periodically replace feathers through a process known as moult, often resulting in gaps in their wings or tail; however, many birds must retain locomotive capabilities even when moulting, such as perching. Although moult is known to affect flight performance, the compensatory strategies used by birds to adapt to moult-based changes remain underexplored. Using high-speed imaging, we extracted the wing and tail kinematics of a red-tailed hawk (Buteo jamaicensis), during moult and while fully feathered, as it performed a perching manoeuvre from three different heights. Our results show that the hawk adjusted its wing and tail kinematics to generate similar time-averaged force-to-weight ratios across trials for both feather conditions. However, during the first downstroke after take-off from all heights, the hawk used a significantly larger tail incidence angle and produced higher thrust during moult. Together, these observations suggest that moult only subtly alters time-averaged normalized aerodynamic forces, yet influences the timing of force production within the wingbeat cycle. This study contributes empirical evidence on how a moulting hawk can compensate for morphologic...",
+      "authors": [
+        "A.A. Martinez",
+        "Michelle G. Hawkins",
+        "Christina Harvey"
+      ]
+    },
+    {
+      "title": "Experimental Study of Dynamic Stall of Porous Avian-Inspired Airfoils",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4555",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Airfoil",
+        "Stall (fluid mechanics)",
+        "Porosity",
+        "Materials science",
+        "Mechanics",
+        "Geology",
+        "Aerodynamics",
+        "Structural engineering"
+      ],
+      "abstract": "Bird wings have an impermeable leading edge formed by tissues and bones, while the trailing edge is formed by porous feathers. Despite this, previous research on avian aerodynamics usually assumes that the wing is impermeable and focuses on the effect of the airfoil and planform shape on flow properties. We hypothesized that if the feather permeability allows airflow through the wing surface, it may alter vortex formation during dynamic stall, a kinematic effect that likely occurs during landing maneuvers. In this study, we tested our hypothesis by quantifying the effect of avian-like permeability on vortex formation during dynamic stall for avian-like airfoils. Avian-like permeability was quantified by measuring the airflow resistance of secondary feathers from three species: a peregrine falcon (Falco peregrinus), barn owl (Tyto alba), and red-tailed hawk (Buteo jamaicensis). These measurements established a bio-informed permeability range that represents a lower and upper bound for the airflow through avian feathers. To represent this measured avian-like permeability, we 3D-printed equally spaced holes of various sizes on an avian airfoil (peregrine falcon) from half chord to ...",
+      "authors": [
+        "Francisco A. Jackson",
+        "John Hrynuk",
+        "Christina Harvey"
+      ]
+    },
+    {
+      "title": "Longitudinal Linear Parameter Varying System Modeling and Analysis of an Avian-Inspired Tail Morphing UAV",
+      "publication_year": 2026,
+      "publication_date": "2026-06-04",
+      "doi": "https://doi.org/10.2514/6.2026-4380",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Morphing",
+        "Computer science",
+        "Systems modeling",
+        "System dynamics",
+        "Control theory (sociology)",
+        "Linear system",
+        "System identification",
+        "Control system"
+      ],
+      "abstract": "Birds change their shape in flight, known as morphing, altering their aerodynamic forces and moments, and increasing control authority, adaptability, and maneuverability. Although research focus is often on morphing wings, birds regularly morph by changing the area and orientation of their tail as well. Tail morphing has been associated with flight trajectory control and the execution of rapid maneuvers. As such, engineers have recently developed robotic analogs of these tails as promising control effectors for agile bio-inspired uncrewed aerial vehicles (UAVs). However, all forms of morphing increase system dimensionality, making it more difficult to interpret and optimize designs across flight conditions and configurations. Here, we developed a longitudinal Linear Parameter Varying (LPV) system that models an avian-inspired morphing tail UAV. This approach preserves interpretability while accounting for the influence of a morphing tail and modeling nonlinear dynamics. This LPV model was built with aerodynamic data of our morphing UAV obtained from a custom geometric modeling tool and rapid open-source aerodynamic simulations, corrected with experimental wind tunnel data. These...",
+      "authors": [
+        "Kaleb Bordner",
+        "Cooper Cook",
+        "Todd C. Henry",
+        "Kevin P. Haughn",
+        "Christina Harvey"
+      ]
+    },
+    {
+      "title": "Supplementary material - Data analysis from Tuning for feather loss: wing–tail kinematic adjustments of a moulting red-tailed hawk during perching flight",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.6084/m9.figshare.32144738.v1",
+      "venue": "Figshare",
+      "type": "supplementary-materials",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32144738.v1",
+      "concepts": [
+        "Feather",
+        "Kinematics",
+        "Moulting",
+        "Flight feather",
+        "Biology",
+        "Ecology",
+        "Geology",
+        "Environmental science"
+      ],
+      "abstract": "Supplementary_material_rsif-2025-1082.pdf",
+      "authors": [
+        "A.A. Martinez",
+        "Michelle Hawkins",
+        "Christina Harvey"
+      ]
+    },
+    {
+      "title": "Supplementary material - Data analysis from Tuning for feather loss: wing–tail kinematic adjustments of a moulting red-tailed hawk during perching flight",
+      "publication_year": 2026,
+      "publication_date": "2026-05-01",
+      "doi": "https://doi.org/10.6084/m9.figshare.32144738",
+      "venue": "Figshare",
+      "type": "supplementary-materials",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.6084/m9.figshare.32144738",
+      "concepts": [
+        "Feather",
+        "Kinematics",
+        "Moulting",
+        "Flight feather",
+        "Biology",
+        "Ecology",
+        "Geology",
+        "Environmental science"
+      ],
+      "abstract": "Supplementary_material_rsif-2025-1082.pdf",
+      "authors": [
+        "A.A. Martinez",
+        "Michelle Hawkins",
+        "Christina Harvey"
+      ]
+    }
+  ]
+}

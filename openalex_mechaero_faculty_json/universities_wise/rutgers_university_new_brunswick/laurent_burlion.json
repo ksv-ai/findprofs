@@ -1,0 +1,260 @@
+{
+  "faculty_name": "Laurent Burlion",
+  "full_name": "Laurent Burlion",
+  "department": "Department of Mechanical and Aerospace Engineering",
+  "university": "Rutgers University-New Brunswick",
+  "author_id": "A5091832524",
+  "works_count": 137,
+  "cited_by_count": 1008,
+  "h_index": 16,
+  "top_topics": [
+    {
+      "topic": "Adaptive Control of Nonlinear Systems",
+      "count": 49
+    },
+    {
+      "topic": "Advanced Control Systems Optimization",
+      "count": 34
+    },
+    {
+      "topic": "Stability and Control of Uncertain Systems",
+      "count": 26
+    },
+    {
+      "topic": "Control Systems and Identification",
+      "count": 21
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Using exponential time-varying gains for sampled-data stabilization and estimation",
+      "publication_year": 2016,
+      "publication_date": "2016-02-04",
+      "doi": "https://doi.org/10.1016/j.automatica.2016.01.048",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 101,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-01426572",
+      "concepts": [
+        "Exponential stability",
+        "Mathematics",
+        "Ode",
+        "Nonlinear system",
+        "Stability (learning theory)",
+        "Control theory (sociology)",
+        "Applied mathematics",
+        "Exponential growth"
+      ],
+      "abstract": "",
+      "authors": [
+        "Tarek Ahmed‐Ali",
+        "Emilia Fridman",
+        "F. Giri",
+        "Laurent Burlion",
+        "Françoise Lamnabhi‐Lagarrigue"
+      ]
+    },
+    {
+      "title": "Overview of linear time‐invariant interval observer design: towards a non‐smooth optimisation‐based approach",
+      "publication_year": 2016,
+      "publication_date": "2016-03-16",
+      "doi": "https://doi.org/10.1049/iet-cta.2015.0742",
+      "venue": "IET Control Theory and Applications",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://hal.science/hal-01345321",
+      "concepts": [
+        "Control theory (sociology)",
+        "Observer (physics)",
+        "Interval (graph theory)",
+        "Transformation (genetics)",
+        "State vector",
+        "LTI system theory",
+        "Computer science",
+        "Coordinate system"
+      ],
+      "abstract": "Some applications in control require the state vector of a system to be expressed in the appropriate coordinates so as to satisfy to some mathematical properties which constrain the studied system dynamics. This is the case with the theory of linear interval observers which are trivial to implement on cooperative systems, a rather limited class of control systems. The available literature shows how to enforce this limiting cooperativity condition for any considered system through a state‐coordinate transformation. This study proposes an overview of the existing numerical techniques to determine such a transformation. It is shown that in spite of being practical, these techniques have some limitations. Consequently, a reformulation of the problem is proposed so as to apply non‐smooth control design techniques. A solution is obtained in both the continuous‐ and discrete‐time frameworks. Interestingly, the new method allows to formulate additional control constraints. Simulations are performed on three examples.",
+      "authors": [
+        "Emmanuel Chambon",
+        "Laurent Burlion",
+        "Pierre Apkarian"
+      ]
+    },
+    {
+      "title": "Adaptive Observer for a Class of Parabolic PDEs",
+      "publication_year": 2015,
+      "publication_date": "2015-11-17",
+      "doi": "https://doi.org/10.1109/tac.2015.2500237",
+      "venue": "IEEE Transactions on Automatic Control",
+      "type": "article",
+      "cited_by_count": 66,
+      "is_oa": true,
+      "oa_url": "https://centralesupelec.hal.science/hal-01260172/document",
+      "concepts": [
+        "Parabolic partial differential equation",
+        "Class (philosophy)",
+        "Observer (physics)",
+        "Mathematics",
+        "Applied mathematics",
+        "Control theory (sociology)",
+        "Computer science",
+        "Mathematical analysis"
+      ],
+      "abstract": "The problem of state observation, based on spatially-sampled output measurements, is addressed for a class of infinite dimensional systems, modelled by a semi-linear heat equation augmented with a structured uncertain part involving a set of unknown parameters. An adaptive observer is designed that provides online estimates of the system (spatially distributed) state and unknown parameters based on sampled data (in space). Sufficient conditions for the observer to be exponentially convergent are established. These include an ad-hoc persistent excitation condition as well as a condition on how the observer gain must be selected in relation with the space sampling interval.",
+      "authors": [
+        "Tarek Ahmed‐Ali",
+        "Fouad Giri",
+        "Miroslav Krstić",
+        "F Lamnabhi-Lagarrigue",
+        "Laurent Burlion"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Spill-free liquid container handling using deep reinforcement learning agents in feedback control",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.1007/s10489-025-07041-9",
+      "venue": "Applied Intelligence",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Slosh dynamics",
+        "Computer science",
+        "Reinforcement learning",
+        "Control theory (sociology)",
+        "Robustness (evolution)",
+        "Linear-quadratic regulator",
+        "Underactuation",
+        "Adaptability"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ashish Kumar Shakya",
+        "Mike Fogel",
+        "G. N. Pillai",
+        "Laurent Burlion",
+        "Sohom Chakrabarty"
+      ]
+    },
+    {
+      "title": "Slosh attenuation via Reference Governor-based adaptive control for space operations under actuators constraints",
+      "publication_year": 2025,
+      "publication_date": "2025-06-18",
+      "doi": "https://doi.org/10.1016/j.ifacsc.2025.100321",
+      "venue": "IFAC Journal of Systems and Control",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.ifacsc.2025.100321",
+      "concepts": [
+        "Attenuation",
+        "Control theory (sociology)",
+        "Actuator",
+        "Governor",
+        "Slosh dynamics",
+        "Control engineering",
+        "Computer science",
+        "Control (management)"
+      ],
+      "abstract": "This paper deals with satellite attitude control in the presence of actuator constraints and unmodelled disturbances. A model reference adaptive control law enhances the satellite control strategy to compensate for the perturbations and ensure precise user-defined closed-loop system performance. This result is consequently employed to build a scalar robust reference governor to enforce the system constraints with limited conservatism. The methodology is illustrated on a single-axis satellite in the presence of sloshing and flexible appendages disturbances, and equipped with reaction wheels subject to torque and angular momentum saturation.",
+      "authors": [
+        "Guido Magnani",
+        "Mario Cassaro",
+        "Jean‐Marc Biannic",
+        "Hélène Evain",
+        "Laurent Burlion"
+      ]
+    },
+    {
+      "title": "Interval contractor-based reference governor for a class of uncertain nonlinear systems",
+      "publication_year": 2025,
+      "publication_date": "2025-06-09",
+      "doi": "https://doi.org/10.1016/j.automatica.2025.112407",
+      "venue": "Automatica",
+      "type": "article",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1016/j.automatica.2025.112407",
+      "concepts": [
+        "Governor",
+        "Class (philosophy)",
+        "Nonlinear system",
+        "Interval (graph theory)",
+        "Control theory (sociology)",
+        "Control engineering",
+        "Mathematics",
+        "Computer science"
+      ],
+      "abstract": "This paper proposes a novel interval contractor-based reference governor design for a class of nonlinear systems containing both polynomial terms and unknown constant parameters which are valued in known bounded intervals. The reference governor ensures that input and state polynomial constraints are satisfied, despite uncertainties in the model and constraints. Its synthesis computes a maximal output admissible set (or MOAS), and requires adding new components to the state vector. It also uses interval analysis methods to shrink the bounds for the uncertain parameters over time. The MOAS computations are performed offline using a grid of the uncertain parameter bounds. Then, the reference governor is computed online by combining bisection algorithms and interval contractors.",
+      "authors": [
+        "Rick Schieni",
+        "Michael Malisoff",
+        "Laurent Burlion"
+      ]
+    },
+    {
+      "title": "Nanosatellite Design Considerations for a Mission to Explore the Propellant Sloshing Problem",
+      "publication_year": 2024,
+      "publication_date": "2024-12-30",
+      "doi": "https://doi.org/10.48550/arxiv.2412.20659",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2412.20659",
+      "concepts": [
+        "Slosh dynamics",
+        "Propellant",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Engineering",
+        "Systems engineering",
+        "Computer science"
+      ],
+      "abstract": "Sloshing Platform for In-Orbit Controller Experimentation is an ambitious, student run mission to design and fly a cubesat to study fluid sloshing in spacecraft. The project will examine zero-g propellant sloshing from an experimental standpoint. Despite the small size and limited payload capacity, we intend to use the cubesat platform to mimic larger spacecraft and implement novel detection and computer vision methods in our analysis. Many modern spacecraft rely on propellant-filled tanks to perform attitude control and station-keeping maneuvers. When a large percentage of the spacecraft's mass is comprised of liquid propellant, sloshing becomes a critical aspect of spacecraft attitude control and stability. The mission will study the tank/fluid dynamics using new methods to gain an enhanced understanding of low-gravity fluid disturbance effects and improve simulations using equivalent mechanical models (EMMs). Active control of the fluid leading to the reduction of propellant slosh settling times will improve the maneuverability and performance of spacecraft. This paper will focus on satellite payload research and design requirements used to inform other aspects of the SPICEsa...",
+      "authors": [
+        "Michael Fogel",
+        "Snigdha Sushil Mishra",
+        "Laurent Burlion"
+      ]
+    },
+    {
+      "title": "Quadrotor Flight Envelope Protection with Trajectory and Yaw Tracking",
+      "publication_year": 2024,
+      "publication_date": "2024-10-28",
+      "doi": "https://doi.org/10.2514/1.g008048",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://repository.lsu.edu/mathematics_pubs/1536",
+      "concepts": [
+        "Trajectory",
+        "Control theory (sociology)",
+        "Tracking (education)",
+        "Envelope (radar)",
+        "Yaw",
+        "Flight envelope",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "This study proposes a reference governor control strategy to ensure that a quadrotor drone follows a planar trajectory while respecting the prescribed safety constraints. These constraints, including polynomial constraints accounting for aerodynamic and gyroscopic effects, were transformed into linear constraints using novel state-space augmentation. This allows for the design of a reference governor, which is designed to safeguard the drone’s flight envelope by adjusting the reference trajectory during trajectory tracking while also ensuring yaw tracking with lower priority than position tracking, especially when constraints are at risk of being violated. This study also presents simulations that illustrate the effectiveness of the proposed algorithms.",
+      "authors": [
+        "Rick Schieni",
+        "Agam Modasiya",
+        "Michael Malisoff",
+        "Laurent Burlion"
+      ]
+    }
+  ]
+}

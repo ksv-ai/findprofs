@@ -1,0 +1,257 @@
+{
+  "faculty_name": "Hoang-Vu Phan",
+  "full_name": "Hoang Vu Phan",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Nevada, Reno",
+  "author_id": "A5024622489",
+  "works_count": 65,
+  "cited_by_count": 1862,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Biomimetic flight and propulsion mechanisms",
+      "count": 58
+    },
+    {
+      "topic": "Robotic Locomotion and Control",
+      "count": 20
+    },
+    {
+      "topic": "Aerospace Engineering and Energy Systems",
+      "count": 20
+    },
+    {
+      "topic": "Micro and Nano Robotics",
+      "count": 15
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 11
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Clap-and-fling mechanism in a hovering insect-like two-winged flapping-wing micro air vehicle",
+      "publication_year": 2016,
+      "publication_date": "2016-12-01",
+      "doi": "https://doi.org/10.1098/rsos.160746",
+      "venue": "Royal Society Open Science",
+      "type": "article",
+      "cited_by_count": 67,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1098/rsos.160746",
+      "concepts": [
+        "Flapping",
+        "Drag",
+        "Wing",
+        "Mechanism (biology)",
+        "Aerodynamic force",
+        "Wake",
+        "Computational fluid dynamics",
+        "Mechanics"
+      ],
+      "abstract": "This study used numerical and experimental approaches to investigate the role played by the clap-and-fling mechanism in enhancing force generation in hovering insect-like two-winged flapping-wing micro air vehicle (FW-MAV). The flapping mechanism was designed to symmetrically flap wings at a high flapping amplitude of approximately 192°. The clap-and-fling mechanisms were thereby implemented at both dorsal and ventral stroke reversals. A computational fluid dynamic (CFD) model was constructed based on three-dimensional wing kinematics to estimate the force generation, which was validated by the measured forces using a 6-axis load cell. The computed forces proved that the CFD model provided reasonable estimation with differences less than 8%, when compared with the measured forces. The measurement indicated that the clap and flings at both the stroke reversals augmented the average vertical force by 16.2% when compared with the force without the clap-and-fling effect. In the CFD simulation, the clap and flings enhanced the vertical force by 11.5% and horizontal drag force by 18.4%. The observations indicated that both the fling and the clap contributed to the augmented vertical f...",
+      "authors": [
+        "Hoang Vu Phan",
+        "Thi Kim Loan Au",
+        "Hoon Cheol Park"
+      ]
+    },
+    {
+      "title": "Insect-inspired, tailless, hover-capable flapping-wing robots: Recent progress, challenges, and future directions",
+      "publication_year": 2019,
+      "publication_date": "2019-09-13",
+      "doi": "https://doi.org/10.1016/j.paerosci.2019.100573",
+      "venue": "Progress in Aerospace Sciences",
+      "type": "article",
+      "cited_by_count": 203,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Flapping",
+        "Insect flight",
+        "Crawling",
+        "Aerospace engineering",
+        "Actuator",
+        "Takeoff",
+        "Propulsion",
+        "Wing"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hoang Vu Phan",
+        "Hoon Cheol Park"
+      ]
+    },
+    {
+      "title": "Towards the Long-Endurance Flight of an Insect-Inspired, Tailless, Two-Winged, Flapping-Wing Flying Robot",
+      "publication_year": 2020,
+      "publication_date": "2020-06-25",
+      "doi": "https://doi.org/10.1109/lra.2020.3005127",
+      "venue": "IEEE Robotics and Automation Letters",
+      "type": "article",
+      "cited_by_count": 111,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2005.06715",
+      "concepts": [
+        "Wing",
+        "Robot",
+        "Lift (data mining)",
+        "Payload (computing)",
+        "Flapping",
+        "Simulation",
+        "Aerodynamics",
+        "Engineering"
+      ],
+      "abstract": "A hover-capable insect-inspired flying robot that can remain long in the air has shown its potential use for both confined indoor and outdoor applications to complete assigned tasks. In this letter, we report improvements in the flight endurance of our 15.8 g robot, named KUBeetle-S, using a low-voltage power source. The robot is equipped with a simple but effective control mechanism that can modulate the stroke plane for attitude stabilization and control. Due to the demand for extended flight, we performed a series of experiments on the lift generation and power requirement of the robot with different stroke amplitudes and wing areas. We show that a larger wing with less inboard wing area improves the lift-to-power ratio and produces a peak lift-to-weight ratio of 1.34 at 3.7 V application. Flight tests show that the robot employing the selected wing could hover for 8.8 minutes. Moreover, the robot could perform maneuvers in any direction, fly outdoors, and carry payload, demonstrating its ability to enter the next phase of autonomous flight.",
+      "authors": [
+        "Hoang Vu Phan",
+        "Steven Aurecianus",
+        "Thi Kim Loan Au",
+        "Taesam Kang",
+        "Hoon Cheol Park"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Fast ground-to-air transition with avian-inspired multifunctional legs",
+      "publication_year": 2024,
+      "publication_date": "2024-12-03",
+      "doi": "https://doi.org/10.48550/arxiv.2412.02389",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2412.02389",
+      "concepts": [
+        "Transition (genetics)",
+        "Common ground",
+        "Biology",
+        "Communication",
+        "Psychology",
+        "Gene",
+        "Biochemistry"
+      ],
+      "abstract": "Most birds can navigate seamlessly between aerial and terrestrial environments. Whereas the forelimbs evolved into wings primarily for flight, the hindlimbs serve diverse functions such as walking, hopping, and leaping, and jumping take-off for transitions into flight. These capabilities have inspired engineers to aim for similar multi-modality in aerial robots, expanding their range of applications across diverse environments. However, challenges remain in reproducing multi-modal locomotion, across gaits with distinct kinematics and propulsive characteristics, such as walking and jumping, while preserving lightweight mass for flight. This tradeoff between mechanical complexity and versatility limits most existing aerial robots to only one additional locomotor mode. Here, we overcome the complexity-versatility tradeoff with RAVEN (Robotic Avian-inspired Vehicle for multiple ENvironments), which uses its bird-inspired multi-functional legs to jump rapidly into flight, walk on ground and hop over obstacles and gaps similar to the multi-modal locomotion of birds. We show that jumping for take-off contributes substantially to initial flight take-off speed and, remarkably, that it is...",
+      "authors": [
+        "Won Dong Shin",
+        "Hoang Vu Phan",
+        "Monica A. Daley",
+        "Auke Jan Ijspeert",
+        "Dario Floreano"
+      ]
+    },
+    {
+      "title": "A twist of the tail in turning maneuvers of bird-inspired drones",
+      "publication_year": 2024,
+      "publication_date": "2024-11-20",
+      "doi": "https://doi.org/10.1126/scirobotics.ado3890",
+      "venue": "Science Robotics",
+      "type": "article",
+      "cited_by_count": 30,
+      "is_oa": true,
+      "oa_url": "https://infoscience.epfl.ch/bitstreams/c754848d-9815-42de-a081-f80bb885ed3d/download",
+      "concepts": [
+        "Wing",
+        "Morphing",
+        "Aileron",
+        "Wing twist",
+        "Aerospace engineering",
+        "Flight control surfaces",
+        "Angle of attack",
+        "Twist"
+      ],
+      "abstract": "A banked turn is a common flight maneuver observed in birds and aircraft. To initiate the turn, whereas traditional aircraft rely on the wing ailerons, most birds use a variety of asymmetric wing-morphing control techniques to roll their bodies and thus redirect the lift vector to the direction of the turn. Nevertheless, when searching for prey, soaring raptors execute steady banked turns without exhibiting observable wing movements apart from the tail twisting around the body axis. Although tail twisting can compensate for adverse yaw, functioning similarly to the vertical tail in aircraft, how raptors use only tail twisting to perform banked turns is still not well understood. Here, we developed and used a raptor-inspired feathered drone to find that the proximity of the tail to the wings causes asymmetric wing-induced flows over the twisted tail and thus lift asymmetry, resulting in both roll and yaw moments sufficient to coordinate banked turns. Moreover, twisting the tail induces a nose-up pitch moment that increases the angle of attack of the wings, thereby generating more lift to compensate for losses caused by the banking motion. Flight experiments confirm the effectiven...",
+      "authors": [
+        "Hoang Vu Phan",
+        "Dario Floreano"
+      ]
+    },
+    {
+      "title": "Passive wing deployment and retraction in beetles and flapping microrobots",
+      "publication_year": 2024,
+      "publication_date": "2024-07-31",
+      "doi": "https://doi.org/10.1038/s41586-024-07755-9",
+      "venue": "Nature",
+      "type": "article",
+      "cited_by_count": 57,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2407.18180",
+      "concepts": [
+        "Wing",
+        "Flapping",
+        "Bird flight",
+        "Pectoral muscle",
+        "Software deployment",
+        "Aeronautics",
+        "Wing loading",
+        "Biology"
+      ],
+      "abstract": "",
+      "authors": [
+        "Hoang Vu Phan",
+        "Hoon Cheol Park",
+        "Dario Floreano"
+      ]
+    },
+    {
+      "title": "Crash-perching on vertical poles with a hugging-wing robot",
+      "publication_year": 2024,
+      "publication_date": "2024-07-12",
+      "doi": "https://doi.org/10.1038/s44172-024-00241-0",
+      "venue": "Communications Engineering",
+      "type": "article",
+      "cited_by_count": 16,
+      "is_oa": true,
+      "oa_url": "https://www.nature.com/articles/s44172-024-00241-0.pdf",
+      "concepts": [
+        "Crash",
+        "Wing",
+        "Robot",
+        "Computer science",
+        "Aeronautics",
+        "Environmental science",
+        "Geology",
+        "Artificial intelligence"
+      ],
+      "abstract": "Abstract Perching with winged Unmanned Aerial Vehicles has often been solved by means of complex control or intricate appendages. Here, we present a method that relies on passive wing morphing for crash-landing on trees and other types of vertical poles. Inspired by the adaptability of animals’ and bats’ limbs in gripping and holding onto trees, we design dual-purpose wings that enable both aerial gliding and perching on poles. With an upturned nose design, the robot can passively reorient from horizontal flight to vertical upon a head-on crash with a pole, followed by hugging with its wings to perch. We characterize the performance of reorientation and perching in terms of impact speed and angle, pole material, and size. The robot robustly reorients at impact angles above 15° and speeds of 3 m ⋅ s−1 to 9 m ⋅ s−1, and can hold onto various pole types larger than 28% of its wingspan in diameter. We demonstrate crash-perching on tree trunks with an overall success rate of 73%. The method opens up new possibilities for the use of aerial robots in applications such as inspection, maintenance, and biodiversity conservation.",
+      "authors": [
+        "Mohammad Askari",
+        "Michele Benciolini",
+        "Hoang Vu Phan",
+        "William J. Stewart",
+        "Auke Jan Ijspeert",
+        "Dario Floreano"
+      ]
+    },
+    {
+      "title": "Crash-perching on vertical poles with a hugging-wing robot",
+      "publication_year": 2024,
+      "publication_date": "2024-02-03",
+      "doi": "https://doi.org/10.48550/arxiv.2402.02092",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 2,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2402.02092",
+      "concepts": [
+        "Crash",
+        "Computer science",
+        "Geology",
+        "Aeronautics",
+        "Engineering",
+        "Programming language"
+      ],
+      "abstract": "Perching with winged Unmanned Aerial Vehicles has often been solved by means of complex control or intricate appendages. Here, we present a simple yet novel method that relies on passive wing morphing for crash-landing on trees and other types of vertical poles. Inspired by the adaptability of animals' and bats' limbs in gripping and holding onto trees, we design dual-purpose wings that enable both aerial gliding and perching on poles. With an upturned nose design, the robot can passively reorient from horizontal flight to vertical upon a head-on crash with a pole, followed by hugging with its wings to perch. We characterize the performance of reorientation and perching in terms of impact speed and angle, pole material, and size. The robot robustly reorients at impact angles above 15° and speeds of 3 m/s to 9 m/s, and can hold onto various pole types larger than 28% of its wingspan in diameter. We demonstrate crash-perching on tree trunks with an overall success rate of 71%. The method opens up new possibilities for the use of aerial robots in applications such as inspection, maintenance, and biodiversity conservation.",
+      "authors": [
+        "Mohammad Askari",
+        "Michele Benciolini",
+        "Hoang Vu Phan",
+        "William J. Stewart",
+        "Auke Jan Ijspeert",
+        "Dario Floreano"
+      ]
+    }
+  ]
+}

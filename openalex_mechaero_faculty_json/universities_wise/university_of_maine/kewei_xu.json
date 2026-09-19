@@ -1,0 +1,267 @@
+{
+  "faculty_name": "Kewei Xu",
+  "full_name": "Kewei Xu",
+  "department": "Department of Mechanical Engineering",
+  "university": "University of Maine",
+  "author_id": "A5100440755",
+  "works_count": 576,
+  "cited_by_count": 12629,
+  "h_index": 53,
+  "top_topics": [
+    {
+      "topic": "Metal and Thin Film Mechanics",
+      "count": 149
+    },
+    {
+      "topic": "Graphene research and applications",
+      "count": 104
+    },
+    {
+      "topic": "Copper Interconnects and Reliability",
+      "count": 70
+    },
+    {
+      "topic": "Diamond and Carbon-based Materials Research",
+      "count": 59
+    },
+    {
+      "topic": "Microstructure and mechanical properties",
+      "count": 57
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Calculation of the surface energy of FCC metals with modified embedded-atom method",
+      "publication_year": 2004,
+      "publication_date": "2004-05-01",
+      "doi": "https://doi.org/10.1016/j.apsusc.2003.09.050",
+      "venue": "Applied Surface Science",
+      "type": "article",
+      "cited_by_count": 300,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Atom (system on chip)",
+        "Surface (topology)",
+        "Materials science",
+        "Surface energy",
+        "Atomic physics",
+        "Analytical Chemistry (journal)",
+        "Chemistry",
+        "Composite material"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jian‐Min Zhang",
+        "Fei Ma",
+        "Kewei Xu"
+      ]
+    },
+    {
+      "title": "A first-principles study on gas sensing properties of graphene and Pd-doped graphene",
+      "publication_year": 2015,
+      "publication_date": "2015-04-02",
+      "doi": "https://doi.org/10.1016/j.apsusc.2015.03.068",
+      "venue": "Applied Surface Science",
+      "type": "article",
+      "cited_by_count": 286,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Graphene",
+        "Adsorption",
+        "Dopant",
+        "Molecule",
+        "Doping",
+        "Materials science",
+        "Density functional theory",
+        "Chemical physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ling Ma",
+        "Jian‐Min Zhang",
+        "Kewei Xu",
+        "Vincent Ji"
+      ]
+    },
+    {
+      "title": "Structure and in vitro bioactivity of titania-based films by micro-arc oxidation",
+      "publication_year": 2003,
+      "publication_date": "2003-04-07",
+      "doi": "https://doi.org/10.1016/s0257-8972(03)00016-1",
+      "venue": "Surface and Coatings Technology",
+      "type": "article",
+      "cited_by_count": 235,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Anatase",
+        "Simulated body fluid",
+        "Rutile",
+        "Materials science",
+        "Electrolyte",
+        "Titanium",
+        "Apatite",
+        "Chemical engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yong Han",
+        "Seong‐Hyeon Hong",
+        "Kewei Xu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Study on the mechanical properties and fracture mechanism of granite with different rock bridge angles after ultra-low temperature treatment",
+      "publication_year": 2026,
+      "publication_date": "2026-05-02",
+      "doi": "https://doi.org/10.1016/j.engfracmech.2026.112223",
+      "venue": "Engineering Fracture Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.5436745",
+      "concepts": [
+        "Materials science",
+        "Fracture (geology)",
+        "Composite material",
+        "Ductility (Earth science)",
+        "Fractal dimension",
+        "Ultimate tensile strength",
+        "Geotechnical engineering",
+        "Intergranular fracture"
+      ],
+      "abstract": "",
+      "authors": [
+        "Na Chen",
+        "Kewei Xu",
+        "Man Li",
+        "Boyu Jia",
+        "Zhixiong Luo"
+      ]
+    },
+    {
+      "title": "Zhou2020 — 7-day motor imagery BCI EEG dataset (repackaged)",
+      "publication_year": 2026,
+      "publication_date": "2026-03-12",
+      "doi": "https://doi.org/10.5281/zenodo.18988317",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18988317",
+      "concepts": [
+        "Brain–computer interface",
+        "Electroencephalography",
+        "Computer science",
+        "Motor imagery",
+        "Decoding methods",
+        "Speech recognition",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "abstract": "Re-hosted EEG data from Zhou et al. (2021), originally deposited on IEEE DataPort (DOI: 10.21227/f1c7-7x89) under a CC BY 4.0 license. The original multi-subject ZIP archives have been split into per-subject ZIPs with a clean session/run directory structure. Paper Q. Zhou, J. Lin, L. Yao, Y. Wang, Y. Han, K. Xu, “Relative Power Correlates With the Decoding Performance of Motor Imagery Both Across Time and Subjects,” Frontiers in Human Neuroscience, 15, 701091, 2021.DOI: 10.3389/fnhum.2021.701091 Paradigm TaskMotor imagery, 4 classes: left hand, right hand, both feet, idleTrials40 per run (10 per class), 6 runs per sessionTiming3 s rest → 1 s arrow cue → 5 s MI → restEventsGDF codes in MarkOnSignal: 769=left, 770=right, 771=feet, 780=idle; 786=cue, 800=trial endFeedbackNone (offline) Participants 20 healthy subjects, mean age 23.2 Sex: 11 male, 9 female All right-handed, BCI-naive S-subjects (S01–S12): 41 EEG + 4 EOG channels A-subjects (S13–S20, originally A1–A8): 26 EEG + 2 EOG channels Recording setup ParameterValueSystemNeuroscan SynAmps2Sampling rate500 HzReferenceVertex (Cz)GroundAFzFilters0.5–100 Hz bandpass, 50 Hz notchFormatNeuroscan NSsignal NPZ ZIP structure S01.zip/ s...",
+      "authors": [
+        "Qing Zhou",
+        "Jiafan Lin",
+        "Lin Yao",
+        "Yueming Wang",
+        "Yan Han",
+        "Kewei Xu"
+      ]
+    },
+    {
+      "title": "Zhou2020 — 7-day motor imagery BCI EEG dataset (repackaged)",
+      "publication_year": 2026,
+      "publication_date": "2026-03-12",
+      "doi": "https://doi.org/10.5281/zenodo.18988316",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "type": "dataset",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.5281/zenodo.18988316",
+      "concepts": [
+        "Brain–computer interface",
+        "Electroencephalography",
+        "Computer science",
+        "Motor imagery",
+        "Decoding methods",
+        "Speech recognition",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "abstract": "Re-hosted EEG data from Zhou et al. (2021), originally deposited on IEEE DataPort (DOI: 10.21227/f1c7-7x89) under a CC BY 4.0 license. The original multi-subject ZIP archives have been split into per-subject ZIPs with a clean session/run directory structure. Paper Q. Zhou, J. Lin, L. Yao, Y. Wang, Y. Han, K. Xu, “Relative Power Correlates With the Decoding Performance of Motor Imagery Both Across Time and Subjects,” Frontiers in Human Neuroscience, 15, 701091, 2021.DOI: 10.3389/fnhum.2021.701091 Paradigm TaskMotor imagery, 4 classes: left hand, right hand, both feet, idleTrials40 per run (10 per class), 6 runs per sessionTiming3 s rest → 1 s arrow cue → 5 s MI → restEventsGDF codes in MarkOnSignal: 769=left, 770=right, 771=feet, 780=idle; 786=cue, 800=trial endFeedbackNone (offline) Participants 20 healthy subjects, mean age 23.2 Sex: 11 male, 9 female All right-handed, BCI-naive S-subjects (S01–S12): 41 EEG + 4 EOG channels A-subjects (S13–S20, originally A1–A8): 26 EEG + 2 EOG channels Recording setup ParameterValueSystemNeuroscan SynAmps2Sampling rate500 HzReferenceVertex (Cz)GroundAFzFilters0.5–100 Hz bandpass, 50 Hz notchFormatNeuroscan NSsignal NPZ ZIP structure S01.zip/ s...",
+      "authors": [
+        "Qing Zhou",
+        "Jiafan Lin",
+        "Lin Yao",
+        "Yueming Wang",
+        "Yan Han",
+        "Kewei Xu"
+      ]
+    },
+    {
+      "title": "Leveraging explainable AI in the design of carbon composites with high thermal conductivity for thermal management",
+      "publication_year": 2026,
+      "publication_date": "2026-03-09",
+      "doi": "https://doi.org/10.1007/s42114-026-01709-7",
+      "venue": "Advanced Composites and Hybrid Materials",
+      "type": "article",
+      "cited_by_count": 1,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1007/s42114-026-01709-7",
+      "concepts": [
+        "Thermal conductivity",
+        "Materials science",
+        "Thermal",
+        "Composite material",
+        "Filler (materials)",
+        "Carbon fibers",
+        "Finite element method",
+        "Work (physics)"
+      ],
+      "abstract": "Achieving high thermal conductivity in polymer composites with low filler loading is crucial for thermal management. Constructing continuous and directional carbon networks has emerged as a promising strategy to enhance thermal conductivity. However, challenges remain, including the absence of accurate predictive models and explainable optimization strategies. In this study, we propose a design methodology leveraging explainable AI to optimize geometric patterns formed by carbon fillers, with a focus on sub-10 wt% carbon content. High-throughput finite element simulations are employed to generate datasets for prediction models, which incorporated variables including filler content, interfacial conductivity, connectivity, and gap distance. Symbolic regression yields predictive equations for thermal conductivity with high accuracy (R 2 > 0.99), and SHAP analysis identifies the filler connectivity and content as key determinants. As a proof of concept, graphene-based composites with continuous and directional networks achieve thermal conductivities exceeding 33 W m − 1 K − 1 , demonstrating that sub-10 wt% carbon fillers can reach high thermal conductivities, achieving high directi...",
+      "authors": [
+        "Taichuan Li",
+        "Lei Li",
+        "Kewei Xu",
+        "Yanqing Wang",
+        "Chaoyang Zhang",
+        "Xin Huang"
+      ]
+    },
+    {
+      "title": "Confidence-Gated Phase-Amplitude Coupling: A Robust and Real-Time Algorithm for Closed-Loop Neurostimulation",
+      "publication_year": 2026,
+      "publication_date": "2026-02-23",
+      "doi": "https://doi.org/10.1109/bci69045.2026.11435040",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Neurostimulation",
+        "Computer science",
+        "Algorithm",
+        "Sigmoid function",
+        "Normalization (sociology)",
+        "Sensitivity (control systems)",
+        "Control theory (sociology)"
+      ],
+      "abstract": "Abnormal phase–amplitude coupling (PAC) is a promising biomarker for closed-loop neurostimulation in epilepsy, but robust real-time detection remains challenging. Conventional metrics trade off sensitivity and specificity in low signal-to-noise ratio (SNR) conditions, while statistical normalization methods often introduce prohibitive latency. We presented Confidence-Gated PAC (CG-PAC), a real-time framework that fuses instantaneous signal energy with normalized PAC estimates via a baseline-calibrated Sigmoid gating function. CG-PAC suppresses noise-induced artifacts while preserving genuine coupling. In simulations spanning a range of SNRs and in chronic rat local field potential (LFP) recordings, CG-PAC demonstrated improved robustness and temporal consistency compared to existing methods, achieving an area under the receiver operating characteristic curve (AUROC) of 0.90 for seizure prediction 20–30 s prior to onset. These results highlight CG-PAC as a practical solution for real-time PAC tracking in closed-loop neurostimulation systems.",
+      "authors": [
+        "Hao Wang",
+        "Yuting Sun",
+        "Qixiang Sun",
+        "Xiang Gao",
+        "Fan Zhou",
+        "Kewei Xu"
+      ]
+    }
+  ]
+}

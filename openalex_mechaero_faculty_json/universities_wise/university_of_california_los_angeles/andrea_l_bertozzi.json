@@ -1,0 +1,264 @@
+{
+  "faculty_name": "Andrea L. Bertozzi",
+  "full_name": "Andrea L. Bertozzi",
+  "department": "Department of Mathematics / Department of Mechanical and Aerospace Engineering",
+  "university": "University of California-Los Angeles",
+  "author_id": "A5090707978",
+  "works_count": 505,
+  "cited_by_count": 19595,
+  "h_index": 73,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Thin Films",
+      "count": 78
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 48
+    },
+    {
+      "topic": "Mathematical and Theoretical Epidemiology and Ecology Models",
+      "count": 34
+    },
+    {
+      "topic": "Mathematical Biology Tumor Growth",
+      "count": 31
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Navier-stokes, fluid dynamics, and image and video inpainting",
+      "publication_year": 2005,
+      "publication_date": "2005-08-24",
+      "doi": "https://doi.org/10.1109/cvpr.2001.990497",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1056,
+      "is_oa": true,
+      "oa_url": "https://conservancy.umn.edu/bitstreams/bfc8bf36-e481-41fc-adeb-de99ec2fba45/download",
+      "concepts": [
+        "Inpainting",
+        "Stream function",
+        "Computer vision",
+        "Vector field",
+        "Computer science",
+        "Image (mathematics)",
+        "Boundary (topology)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Image inpainting involves filling in part of an image or video using information from the surrounding area. Applications include the restoration of damaged photographs and movies and the removal of selected objects. We introduce a class of automated methods for digital inpainting. The approach uses ideas from classical fluid dynamics to propagate isophote lines continuously from the exterior into the region to be inpainted. The main idea is to think of the image intensity as a 'stream function for a two-dimensional incompressible flow. The Laplacian of the image intensity plays the role of the vorticity of the fluid; it is transported into the region to be inpainted by a vector field defined by the stream function. The resulting algorithm is designed to continue isophotes while matching gradient vectors at the boundary of the inpainting region. The method is directly based on the Navier-Stokes equations for fluid dynamics, which has the immediate advantage of well-developed theoretical and numerical results. This is a new approach for introducing ideas from computational fluid dynamics into problems in computer vision and image analysis.",
+      "authors": [
+        "Marcelo Bertalmı́o",
+        "Andrea L. Bertozzi",
+        "Guillermo Sapiro"
+      ]
+    },
+    {
+      "title": "Vorticity and Incompressible Flow",
+      "publication_year": 2001,
+      "publication_date": "2001-11-26",
+      "doi": "https://doi.org/10.1017/cbo9780511613203",
+      "venue": "Cambridge University Press eBooks",
+      "type": "book",
+      "cited_by_count": 1977,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Vorticity",
+        "Incompressible flow",
+        "Compressibility",
+        "Flow (mathematics)",
+        "Graduate students",
+        "Vorticity equation",
+        "Vortex",
+        "Mathematical theory"
+      ],
+      "abstract": "This book is a comprehensive introduction to the mathematical theory of vorticity and incompressible flow ranging from elementary introductory material to current research topics. While the contents center on mathematical theory, many parts of the book showcase the interaction between rigorous mathematical theory, numerical, asymptotic, and qualitative simplified modeling, and physical phenomena. The first half forms an introductory graduate course on vorticity and incompressible flow. The second half comprises a modern applied mathematics graduate course on the weak solution theory for incompressible flow.",
+      "authors": [
+        "Andrew J. Majda",
+        "Andrea L. Bertozzi"
+      ]
+    },
+    {
+      "title": "Swarming Patterns in a Two-Dimensional Kinematic Model for Biological Groups",
+      "publication_year": 2004,
+      "publication_date": "2004-01-01",
+      "doi": "https://doi.org/10.1137/s0036139903437424",
+      "venue": "SIAM Journal on Applied Mathematics",
+      "type": "article",
+      "cited_by_count": 525,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Length scale",
+        "Population",
+        "Statistical physics",
+        "Compressibility",
+        "Physics",
+        "Classical mechanics",
+        "Scale (ratio)",
+        "Mechanics"
+      ],
+      "abstract": "We construct a continuum model for the motion of biological organisms experiencing social interactions and study its pattern-forming behavior. The model takes the form of a conservation law in two spatial dimensions. The social interactions are modeled in the velocity term, which is nonlocal in the population density and includes a parameter that controls the interaction length scale. The dynamics of the resulting partial integrodifferential equation may be uniquely decomposed into incompressible motion and potential motion. For the purely incompressible case, the model resembles one for fluid dynamical vortex patches. There exist solutions which have constant population density and compact support for all time. Numerical simulations produce rotating structures which have circular cores and spiral arms and are reminiscent of naturally observed phenomena such as ant mills. The sign of the social interaction term determines the direction of the rotation, and the interaction length scale affects the degree of spiral formation. For the purely potential case, the model resembles a nonlocal (forwards or backwards) porous media equation. The sign of the social interaction term controls...",
+      "authors": [
+        "Chad M. Topaz",
+        "Andrea L. Bertozzi"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Video: Transient Segregation Dynamics of Bidisperse Particle-Laden Flow on an Incline",
+      "publication_year": 2025,
+      "publication_date": "2025-11-23",
+      "doi": "https://doi.org/10.1103/aps.dfd.2025.gfm.v026",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1103/aps.dfd.2025.gfm.v026",
+      "concepts": [
+        "Mechanics",
+        "Flow (mathematics)",
+        "Dynamics (music)",
+        "Transient (computer programming)",
+        "Transient flow",
+        "Work (physics)",
+        "Materials science",
+        "Physics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Yolanda Ba",
+        "Yifan Gu",
+        "Lingyun Ding",
+        "Tao Liu",
+        "Qitong Luan",
+        "Andrea L. Bertozzi"
+      ]
+    },
+    {
+      "title": "The 'Brazil-nut effect' in bidisperse particle laden flow on an incline",
+      "publication_year": 2025,
+      "publication_date": "2025-05-30",
+      "doi": "https://doi.org/10.48550/arxiv.2505.24114",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2505.24114",
+      "concepts": [
+        "Mechanics",
+        "Particle (ecology)",
+        "Volume (thermodynamics)",
+        "Range (aeronautics)",
+        "Flow (mathematics)",
+        "Front (military)",
+        "Shock (circulatory)",
+        "Lubrication"
+      ],
+      "abstract": "We study bidisperse suspensions -- suspensions where there are two particle species of the same density but different sizes -- of a viscous fluid on an incline. We use a lubrication theory/thin film model to form a hyperbolic system of three conservation laws for the height and particle volume fractions. The model predicts, over a range of parameters, that the larger particles rise to the top of the layer, consistent with the well-known `Brazil-nut effect' for granular media. The model predicts well-separated fronts of the two species of particles, behind a clear fluid front, at lower inclination angles and volume fractions. This corresponds to a triple shock structure in the system of conservations. At higher inclination angles and volume fractions the particles congregate at a high concentration at the leading front corresponding to a singular shock in the model. We find excellent agreement between theory and experiments in terms of the overall dynamic structures as the parameters vary.",
+      "authors": [
+        "Jack Luong",
+        "Sarah C. Burnett",
+        "Andrea L. Bertozzi"
+      ]
+    },
+    {
+      "title": "Deep learning-assisted modeling for χ(2) nonlinear optics",
+      "publication_year": 2026,
+      "publication_date": "2026-05-06",
+      "doi": "https://doi.org/10.1117/1.ap.8.3.036004",
+      "venue": "Advanced Photonics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1117/1.ap.8.3.036004",
+      "concepts": [
+        "Physics",
+        "Optics",
+        "Nonlinear system",
+        "Computer science",
+        "Geometrical optics",
+        "Noise (video)",
+        "Nonlinear optics",
+        "Physical optics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Jack Hirschman",
+        "Erfan Abedi",
+        "Minyang Wang",
+        "Hao Zhang",
+        "Abhimanyu Borthakur",
+        "J W Baker",
+        "Andrea L. Bertozzi",
+        "Randy Lemons",
+        "Sergio Carbajo"
+      ]
+    },
+    {
+      "title": "Macroscopic Traffic Flow Network Modeling For Wildfire Evacuation: A Game-Theoretic Junction Optimization Approach with Application to Lahaina Fire",
+      "publication_year": 2026,
+      "publication_date": "2026-03-30",
+      "doi": "http://arxiv.org/abs/2603.29055",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2603.29055",
+      "concepts": [
+        "Flow network",
+        "Computer science",
+        "Scalar (mathematics)",
+        "Mathematical optimization",
+        "Conservation law",
+        "Optimization problem",
+        "Constraint (computer-aided design)",
+        "Mathematical model"
+      ],
+      "abstract": "The 2023 Lahaina wildfire killed 102 people on a peninsula served by a single two-lane highway, making exit lane capacity the binding constraint on evacuation time. We model the evacuation as a system of hyperbolic scalar conservation laws on a directed graph with game-theoretic junction conditions that maximize total network flux, an evacuation-calibrated piecewise linear-quadratic flux function, and a loss-driven optimization framework that tunes traffic distribution toward priority corridors. Analytical results on a toy network and numerical simulations of the Lahaina road network reveal a phase transition in exit lane capacity. Additional lanes improve throughput linearly until a computable critical threshold, beyond which no route optimization yields further benefit. For Lahaina, reversing one southbound lane captures nearly all achievable improvement, and a fourth lane can be reserved for emergency vehicles with negligible impact on civilian clearance time. These results provide a rigorous mathematical basis for contraflow recommendations in wildland-urban interface evacuations.",
+      "authors": [
+        "Annie Lu",
+        "Hong Tan",
+        "Alexander Xue",
+        "Alice Koniges",
+        "Andrea L. Bertozzi"
+      ]
+    },
+    {
+      "title": "Numerical analysis of a floating Airborne Wind Energy farm with shared-mooring",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "doi": "https://doi.org/10.2139/ssrn.6428510",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.2139/ssrn.6428510",
+      "concepts": [
+        "Marine engineering",
+        "Nonlinear system",
+        "Rope",
+        "Nacelle",
+        "Mooring",
+        "Renewable energy",
+        "Offshore wind power",
+        "Engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Andrea L. Bertozzi",
+        "Bruno Paduano",
+        "Francesco Niosi",
+        "Mattia Alborghetti",
+        "Lorenzo Fagiano",
+        "Giovanni Bracco"
+      ]
+    }
+  ]
+}

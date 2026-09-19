@@ -1,0 +1,249 @@
+{
+  "faculty_name": "Ehsan Taheri",
+  "full_name": "Ehsan Taheri",
+  "department": "Department of Aerospace Engineering",
+  "university": "Auburn University",
+  "author_id": "A5014636068",
+  "works_count": 120,
+  "cited_by_count": 1869,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Spacecraft Dynamics and Control",
+      "count": 86
+    },
+    {
+      "topic": "Space Satellite Systems and Control",
+      "count": 46
+    },
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 42
+    },
+    {
+      "topic": "Aerospace Engineering and Control Systems",
+      "count": 41
+    },
+    {
+      "topic": "Robotic Path Planning Algorithms",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Generic Smoothing for Optimal Bang-Off-Bang Spacecraft Maneuvers",
+      "publication_year": 2018,
+      "publication_date": "2018-09-14",
+      "doi": "https://doi.org/10.2514/1.g003604",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 168,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Spacecraft",
+        "Trajectory optimization",
+        "Aerospace",
+        "Optimal control",
+        "Smoothing",
+        "Thrust",
+        "Computer science",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ehsan Taheri",
+        "John L. Junkins"
+      ]
+    },
+    {
+      "title": "Enhanced Smoothing Technique for Indirect Optimization of Minimum-Fuel Low-Thrust Trajectories",
+      "publication_year": 2016,
+      "publication_date": "2016-09-21",
+      "doi": "https://doi.org/10.2514/1.g000379",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "type": "article",
+      "cited_by_count": 142,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory optimization",
+        "Initialization",
+        "Smoothing",
+        "Mathematical optimization",
+        "Optimal control",
+        "Rendezvous",
+        "Mathematics",
+        "Thrust"
+      ],
+      "abstract": "Indirect methods used for solving optimal-control problems, when combined with proper initialization and homotopy approaches, remain attractive for space trajectory optimization, as they are able to achieve fast convergence to a solution of the necessary conditions. In this paper, the extended logarithmic-smoothing technique is revisited and integrated with an indirect method to efficiently generate minimum-fuel time-fixed low-thrust rendezvous trajectories. This approach is considered for three cases, in which equations of motion are expressed in terms of Cartesian, spherical, and modified equinoctial coordinates. In addition, the paper addresses the calculation of the Jacobian matrix of the constraints via an implementation of the state-transition-matrix approach, which avoids the discontinuities of the control along the trajectory. The application of the method to two interplanetary missions from Earth to Mars and to asteroid Dionysus is demonstrated. It is shown that, by exploiting the state transition matrix and the homotopy method, the optimal-control problem becomes amenable to numerical treatment. The numerical results are compared in terms of the percent of converged ca...",
+      "authors": [
+        "Ehsan Taheri",
+        "Ilya Kolmanovsky",
+        "Ella Atkins"
+      ]
+    },
+    {
+      "title": "Initial three-dimensional low-thrust trajectory design",
+      "publication_year": 2015,
+      "publication_date": "2015-12-12",
+      "doi": "https://doi.org/10.1016/j.asr.2015.11.034",
+      "venue": "Advances in Space Research",
+      "type": "article",
+      "cited_by_count": 104,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Trajectory",
+        "Thrust",
+        "Acceleration",
+        "Position (finance)",
+        "Fourier series",
+        "Computer science",
+        "Trajectory optimization",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Ehsan Taheri",
+        "Ossama Abdelkhalik"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Robust Aerocapture Trajectory Optimization Under Atmospheric Density Uncertainty",
+      "publication_year": 2026,
+      "publication_date": "2026-05-24",
+      "doi": "https://doi.org/10.2514/1.a36525",
+      "venue": "Journal of Spacecraft and Rockets",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Control theory (sociology)",
+        "Trajectory",
+        "Trajectory optimization",
+        "Computer science",
+        "Dimension (graph theory)",
+        "Sensitivity (control systems)",
+        "Mathematical optimization",
+        "Monte Carlo method"
+      ],
+      "abstract": "Aerocapture maneuvers can significantly increase mission design flexibility. Although prior work based on the longitudinal dynamics has established that a bang/bang control profile using bank angle modulation is optimal for minimizing the postaerocapture insertion [Formula: see text], the optimal solution is sensitive to atmospheric uncertainties. This study investigates robust three-degrees-of-freedom (i.e., lateral/longitudinal) aerocapture trajectories under atmospheric density variations. The primer vector theory reveals that the coupled lateral/longitudinal dynamics results in a regularized bang/bang profile. First, using direct collocation, a nonstandard formulation of the desensitized aerocapture problem is developed that reduces the problem dimension using the global sensitivity analysis and enhances numerical accuracy in cost evaluation through state augmentation. The proposed desensitized optimization framework is applied to derive robust trajectories, which maintains a regularized bang/bang profile, with more than one switch in bank angle. The key finding of this paper is that aerocapture trajectories can be made more robust to atmospheric density uncertainty by emplo...",
+      "authors": [
+        "Pardha Sai Chadalavada",
+        "Rohan Deshmukh",
+        "Soumyo Dutta",
+        "Ehsan Taheri"
+      ]
+    },
+    {
+      "title": "Eigendecomposition parameterization of penalty matrices for enhanced control design: Aerospace applications",
+      "publication_year": 2026,
+      "publication_date": "2026-03-11",
+      "doi": "https://doi.org/10.1016/j.ast.2026.112047",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Diagonal",
+        "Mathematical optimization",
+        "Control theory (sociology)",
+        "Eigendecomposition of a matrix",
+        "Linear-quadratic regulator",
+        "Particle swarm optimization",
+        "Optimization problem",
+        "Optimal control"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nicholas P. Nurre",
+        "Ehsan Taheri"
+      ]
+    },
+    {
+      "title": "WITHDRAWAL: On the Pointing-Constrained Fuel-Optimal Powered Descent Problem",
+      "publication_year": 2026,
+      "publication_date": "2026-01-12",
+      "doi": "https://doi.org/10.2514/6.2026-0831.c1",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2026-0831.c1",
+      "concepts": [
+        "Mathematics",
+        "Computer science",
+        "Descent (aeronautics)",
+        "Algorithm",
+        "Sequence (biology)",
+        "Artificial intelligence",
+        "Trajectory",
+        "Set (abstract data type)"
+      ],
+      "abstract": "",
+      "authors": [
+        "Nicholas P. Nurre",
+        "Ehsan Taheri"
+      ]
+    },
+    {
+      "title": "WITHDRAWN: On the Pointing-Constrained Fuel-Optimal Powered Descent Problem",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-0831",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Constraint (computer-aided design)",
+        "Descent (aeronautics)",
+        "Mathematics",
+        "Mathematical optimization",
+        "Piecewise",
+        "Limit (mathematics)",
+        "Control theory (sociology)",
+        "Algebraic number"
+      ],
+      "abstract": "This paper presents theoretical advancements to the three degree-of-freedom (3DOF) powered descent guidance (PDG) problem. A common constraint in the 3DOF PDG problem is the pointing constraint, i.e., an angular limit on the direction of the thrust steering vector constraining it to lie within a cone. New insights are gained into this control-only inequality constraint by analyzing the pointing constraint switching function, whose sign governs its activation. It is shown this constraint will become active at most once on extremals. Moreover, the switch time, should it occur, from active to inactive (or inactive to active) arcs on admissible solutions can be calculated in closed-form. Closed-form solutions to the state and costate ordinary differential equations (including the mass costate) are also derived when this constraint is active. These results can be used to extend fast guidance algorithms based on solving the piecewise algebraic root finding problem, resulting from the necessary conditions of optimality.",
+      "authors": [
+        "Nicholas P. Nurre",
+        "Ehsan Taheri"
+      ]
+    },
+    {
+      "title": "Desensitized Aerocapture Terminal Guidance",
+      "publication_year": 2026,
+      "publication_date": "2026-01-08",
+      "doi": "https://doi.org/10.2514/6.2026-1376",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Robustness (evolution)",
+        "Control theory (sociology)",
+        "Terminal (telecommunication)",
+        "Trajectory",
+        "Computer science",
+        "Sensitivity (control systems)",
+        "Terminal guidance",
+        "Monte Carlo method"
+      ],
+      "abstract": "In traditional aerocapture terminal guidance, feedback gains are computed with respect to a nominal optimal trajectory determined a priori. In contrast, desensitized aerocapture terminal guidance simultaneously optimizes both the reference trajectory and feedback gains by minimizing sensitivity terms that depend on the feedback gains themselves. Previous studies have demonstrated that aerocapture performance exhibits significant sensitivity to uncertainties in atmospheric density and initial state conditions, particularly initial velocity and flight-path angle. This study develops a desensitized aerocapture terminal guidance approach designed to enhance robustness against dynamic perturbations. The performance and robustness of the desensitized aerocapture terminal guidance is evaluated through Monte Carlo analysis conducted within the Program to Optimize Simulated Trajectories-II (POST2).",
+      "authors": [
+        "Pardhasai Chadalavada",
+        "Rohan Deshmukh",
+        "Soumyo Dutta",
+        "Ehsan Taheri"
+      ]
+    }
+  ]
+}
