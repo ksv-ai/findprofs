@@ -7,7 +7,7 @@ separate_math_to_new_workbook.py
    - S.N. re-numbered 1 to N
    - Top row frozen (A2), AutoFilter enabled, proper column widths, full styling and colors preserved.
 
-2. From 'OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx':
+2. From 'OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx':
    - Removes the 'Mathematics & Comp Math' worksheet tab entirely.
    - Removes all purely Math faculty from 'Master - All Live Verified'
      (faculty cross-appointed in Mech or Aero remain in Master).
@@ -20,7 +20,7 @@ from pathlib import Path
 import openpyxl
 from openpyxl.utils import get_column_letter
 
-ORIGINAL_EXCEL = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+ORIGINAL_EXCEL = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 MATH_EXCEL = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_MATHEMATICS_COMPMATH.xlsx")
 
 def copy_cell(src, dst):

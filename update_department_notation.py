@@ -18,7 +18,7 @@ import openpyxl
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from openpyxl.utils import get_column_letter
 
-EXCEL_MASTER = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+EXCEL_MASTER = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 CSV_PATH = Path(r"d:\Others\findprofs\faculty_status_audit.csv")
 XLSX_PATH = Path(r"d:\Others\findprofs\faculty_status_audit.xlsx")
 

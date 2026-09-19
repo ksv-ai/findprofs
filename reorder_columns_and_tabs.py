@@ -18,7 +18,7 @@ from copy import copy
 import openpyxl
 
 # ── File configuration ────────────────────────────────────────────────────────
-EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 
 # ── 1. Column Renaming Rule ───────────────────────────────────────────────────
 # "Old Header Name": "New Header Name"

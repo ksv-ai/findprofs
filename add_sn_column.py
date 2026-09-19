@@ -2,7 +2,7 @@
 add_sn_column.py
 ================
 Inserts 'S.N.' as the very first column (Column 1) across all sheets in:
-  OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx
+  OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx
 
 Numbers the rows 1, 2, 3, ... sequentially per sheet.
 Preserves freeze panes (A2 or B2), formatting, autofilters, and column widths.
@@ -13,7 +13,7 @@ from pathlib import Path
 import openpyxl
 from openpyxl.utils import get_column_letter
 
-EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 
 def main():
     print(f"Loading workbook: {EXCEL_PATH}")

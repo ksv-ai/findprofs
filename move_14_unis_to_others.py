@@ -18,7 +18,7 @@ from pathlib import Path
 import openpyxl
 from openpyxl.utils import get_column_letter
 
-EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+EXCEL_PATH = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 
 TARGET_UNIS = [
     "Baylor University",

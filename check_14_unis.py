@@ -20,7 +20,7 @@ NEW_TARGET_UNIS = [
     "University of Denver",
 ]
 
-wb = openpyxl.load_workbook('OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx')
+wb = openpyxl.load_workbook('OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx')
 master_ws = wb['Master - All Live Verified']
 
 all_master_unis = {str(master_ws.cell(r, 2).value or '').strip() for r in range(2, master_ws.max_row + 1)}

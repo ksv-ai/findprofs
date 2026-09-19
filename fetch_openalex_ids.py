@@ -2,7 +2,7 @@
 fetch_openalex_ids.py
 =====================
 Fetches OpenAlex Author IDs for every faculty member in:
-  OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx
+  OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx
 
 Strategy (in order of priority):
   1. Search OpenAlex by display_name + institution affiliation
@@ -34,7 +34,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 # -- Config ------------------------------------------------------------------
-XLSX_PATH   = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_CFD_AERO_COMPMATH.xlsx")
+XLSX_PATH   = Path(r"d:\Others\findprofs\OpenalexID_R1_FACULTY_RESEARCH_AERO_MECH.xlsx")
 LOG_CSV     = Path(r"d:\Others\findprofs\openalex_id_issues.csv")
 BASE_URL    = "https://api.openalex.org/authors"
 API_KEY     = "NzjuLll4FIEV5HFS2mCK4g"   # third key - fresh budget
