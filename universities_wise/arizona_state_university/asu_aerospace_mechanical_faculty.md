@@ -117,7 +117,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Clustering in Euler–Euler and Euler–Lagrange simulations of unbounded homogeneous particle-laden shear" [Journal of Fluid Mechanics] (2018, 40 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2018.796)
   2. "Accelerated decay of a Lamb–Oseen vortex tube laden with inertial particles in Eulerian–Lagrangian simulations" [Journal of Fluid Mechanics] (2022, 22 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2022.50)
   3. "Reynolds number scaling of burning rates in spherical turbulent premixed flames" [Journal of Fluid Mechanics] (2020, 20 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2020.784)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "Modelling the wall slip in large eddy simulations with immersed boundaries" [Journal of Fluid Mechanics] (2026) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2026.11788)
   2. "Dynamics of an oscillatory boundary layer over a sediment bed in Euler–Lagrange simulations" [Journal of Fluid Mechanics] (2025) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.10809)
   3. "Modeling the wall-slip in large eddy simulations with immersed boundaries" [arXiv (Cornell University)] (2025) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2510.27029)
@@ -143,6 +143,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 
 - **Research Categorization**: **🔵 Tier 1: Core Aero / Fluids / Propulsion**
 - **Matched Research Keywords (6)**: `aerospace, computational fluid dynamics, fluid dynamics, fluid mechanics, guidance, multiphase flow`
+- **Top Research Topics (Topic & Pub Count)**: `Fluid Dynamics and Thin Films (12) | Rheology and Fluid Dynamics Studies (11) | Hydraulic Fracturing and Reservoir Analysis (7)`
 - **Office Location**: ENGRC 361 (TEMPE, AZ 85287-6106)
 - **Education & Degrees**: Ph.D. Fluid Mechanics, University of Minnesota 1990 | B.S. Mechanics, Peking University, China 1982
 - **Bio / Summary**: Chen’s research interests include multiphase flows, drag reduction, airplane de-icing, interfacial instabilities and flow in porous media.
@@ -167,6 +168,16 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
 - 📖 **Paper 2 Abstract**:
   > The hydrodynamic stability of core-annular flow in pipes is analysed using linear stability theory for viscous bicomponent fluid systems. Attention is confined to the practical case of lubricated pipelining where a viscous oil core is lubricated by a less viscous water annulus. Upper and lower branches of the neutral stability curve are identified in the Reynolds number versus wavenumber plane. Below a critical Reynolds number, capillary interfacial tension destabilizes long waves into emulsified slugs; however, shear stabilization suppresses capillary growth at intermediate Reynolds numbers, opening a robust stability window where pumping power is reduced by over 80%.
 
+- 🌟 **Top Cited Papers (Landmark Research)**:
+  1. "Lubricated pipelining: stability of core-annular flow" [Journal of Fluid Mechanics] (1989, 202 cites) — [🔗 DOI Link](https://doi.org/10.1017/s0022112089000960)
+  2. "Lubricated pipelining: stability of core—annular flow. Part 5. Experiments and comparison with theory" [Journal of Fluid Mechanics] (1992, 163 cites) — [🔗 DOI Link](https://doi.org/10.1017/s0022112092000041)
+  3. "Pool-boiling enhancement by novel metallic nanoporous surface" [Experimental Thermal and Fluid Science] (2012, 112 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.expthermflusci.2012.06.008)
+- 🔬 **Recent Papers (2023–2026)**:
+  1. "Heterogeneous Feature Knowledge Distillation based on Enhanced Feature Projector Correlation" [Neural Networks] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.neunet.2025.108409)
+  2. "Deep learning and multi-omics reveal programmed cell death-associated diagnostic signatures and prognostic biomarkers in gastric cancer" [Frontiers in Immunology] (2025) — [🔗 DOI Link](https://doi.org/10.3389/fimmu.2025.1690200)
+  3. "Research on flexible job shop scheduling based on deep reinforcement learning with transformer-graph neural network" [Journal of Control and Decision] (2025) — [🔗 DOI Link](https://doi.org/10.1080/23307706.2025.2557020)
+  4. "Astra: Toward General-Purpose Mobile Robots via Hierarchical Multimodal Learning" [arXiv (Cornell University)] (2025) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2506.06205)
+  5. "Optimizing the flexible job shop scheduling problem via deep reinforcement learning with mean multichannel graph attention" [Applied Soft Computing] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.asoc.2025.113128)
 - 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 384: Adv Math Methods for Engineers | MAE 501: Linear Algebra in Engineering`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -211,7 +222,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Discrete-vortex method with novel shedding criterion for unsteady aerofoil flows with intermittent leading-edge vortex shedding" [Journal of Fluid Mechanics] (2014, 276 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2014.297)
   2. "A Survey of Design Techniques for Conversational Agents" [Communications in computer and information science] (2017, 166 cites) — [🔗 DOI Link](https://doi.org/10.1007/978-981-10-6544-6_31)
   3. "An unsteady airfoil theory applied to pitching motions validated against experiment and computation" [Theoretical and Computational Fluid Dynamics] (2013, 122 cites) — [🔗 DOI Link](https://doi.org/10.1007/s00162-012-0292-8)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "Closed-form unsteady thin-airfoil theory for high-amplitude problems" [Aerospace Science and Technology] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.ast.2026.112983)
   2. "Closed-form unsteady thin-airfoil theory for high-amplitude problems" [SSRN Electronic Journal] (2026) — [🔗 DOI Link](https://doi.org/10.2139/ssrn.6438821)
   3. "Design Optimization of a Pico Hydroelectric Turbine Using Computational Fluid Dynamics" (2025) — [🔗 DOI Link](https://doi.org/10.1109/icmic66299.2025.11257765)
@@ -262,7 +273,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "An investigation into the hydrodynamics of a flexible riser undergoing vortex-induced vibration" [Journal of Fluids and Structures] (2016, 178 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jfluidstructs.2016.03.006)
   2. "Theoretical and numerical analysis of bending behavior of unbonded flexible risers" [Marine Structures] (2015, 42 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.marstruc.2015.10.001)
   3. "Experimental investigation of the response performance of VIV on a flexible riser with helical strakes" [Ships and Offshore Structures] (2014, 39 cites) — [🔗 DOI Link](https://doi.org/10.1080/17445302.2014.962788)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2609.15001)
   2. "HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://arxiv.org/abs/2609.15001)
   3. "Graph neural network-based aquaculture net modeling and inference — A frequency domain approach" [Ocean Engineering] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.oceaneng.2026.127799)
@@ -320,7 +331,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Cross-stream stereoscopic particle image velocimetry of a modified turbulent boundary layer over directional surface pattern" [Journal of Fluid Mechanics] (2017, 120 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2016.879)
   2. "The transition to turbulence in shock-driven mixing: effects of Mach number and initial conditions" [Journal of Fluid Mechanics] (2019, 77 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2019.330)
   3. "Numerical analyses of high temperature dense, granular flows coupled to high temperature flow property measurements for solar thermal energy storage" [Solar Energy] (2020, 25 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.solener.2020.10.085)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "Bleeding flow characteristics downstream of isotropic porous square cylinders" [Journal of Fluid Mechanics] (2026) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.11073)
   2. "Coherent organisation of passive scalar from a point source in a turbulent boundary layer" [Journal of Fluid Mechanics] (2025) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2025.10926)
   3. "Turbulent/non-turbulent interface in Rayleigh–Taylor flows" [Journal of Turbulence] (2025) — [🔗 DOI Link](https://doi.org/10.1080/14685248.2025.2489451)
@@ -372,7 +383,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Modeling Primary Atomization" [Annual Review of Fluid Mechanics] (2008, 440 cites) — [🔗 DOI Link](https://doi.org/10.1146/annurev.fluid.40.111406.102200)
   2. "A balanced force refined level set grid method for two-phase flows on unstructured flow solver grids" [Journal of Computational Physics] (2007, 316 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2007.11.002)
   3. "A parallel Eulerian interface tracking/Lagrangian point particle multi-scale coupling procedure" [Journal of Computational Physics] (2009, 235 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2009.10.009)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "A high-fidelity methodology for particle-resolved direct numerical simulations" [International Journal of Multiphase Flow] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.ijmultiphaseflow.2025.105175)
   2. "BPS2025 - Liquid nano-sheet sample delivery for femtosecond solution X-ray scattering" [Biophysical Journal] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.bpj.2024.11.838)
   3. "Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method" [Journal of Computational Physics] (2025) — [🔗 DOI Link](https://doi.org/10.1016/j.jcp.2025.113765)
@@ -421,6 +432,8 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Adjoint-based control of loud events in a turbulent jet" [Journal of Fluid Mechanics] (2014, 46 cites) — [🔗 DOI Link](https://doi.org/10.1017/jfm.2013.654)
   2. "LES Investigation of a Mach 1.3 Jet With and Without Plasma Actuators" [47th AIAA Aerospace Sciences Meeting including The New Horizons Forum and Aerospace Exposition] (2009, 38 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2009-290)
   3. "A High-Order, Overset-Mesh Algorithm for Adjoint-Based Optimization for Aeroacoustics Control" (2010, 21 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2010-3818)
+- 🔬 **Recent Papers (2023–2026)**:
+  1. "Parametric study of a projectile launched by a compressed air cannon" [Journal of Mechanical Science and Technology] (2023) — [🔗 DOI Link](https://doi.org/10.1007/s12206-023-1029-x)
 - 📚 **Courses Taught**: `MAE 242: Intro to Fluid Mechanics | MAE 593: Applied Project | MAE 598: Special Topics`
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
@@ -466,7 +479,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "A review of energy storage technologies for demand-side management in industrial facilities" [Journal of Cleaner Production] (2021, 100 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.jclepro.2021.127322)
   2. "Techno-Economic Assessment of CHP Systems in Wastewater Treatment Plants" [Environments] (2020, 78 cites) — [🔗 DOI Link](https://doi.org/10.3390/environments7100074)
   3. "Thermodynamic and emission analysis of a hydrogen/methane fueled gas turbine" [Energy Conversion and Management X] (2023, 50 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.ecmx.2023.100394)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "Multi-year assessment of energy storage capacity for a carbon-neutral grid in Arizona and the impact of wind energy integration" [Renewable Energy] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.renene.2026.126276)
   2. "Analysis of gas turbines with diffusion, premixed and rich-quench-lean combustor designs utilizing ternary CH4/H2/NH3 fuel blends" [Energy Conversion and Management] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.enconman.2026.121736)
   3. "Micro-scale thermal partial oxidation reformer and integrated solid oxide fuel cell operating with jet fuel" [Journal of Power Sources] (2026) — [🔗 DOI Link](https://doi.org/10.1016/j.jpowsour.2026.240198)
@@ -518,7 +531,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "The formation and fate of internal waves in the South China Sea" [Nature] (2015, 739 cites) — [🔗 DOI Link](https://doi.org/10.1038/nature14399)
   2. "Generalized Smagorinsky model for anisotropic grids" [Physics of Fluids A Fluid Dynamics] (1993, 282 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.858537)
   3. "Numerical simulation of pulsating turbulent channel flow" [Physics of Fluids] (2001, 211 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.1359766)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "A Versatile Laboratory Approach to Reproduce and Analyze Internal Ocean Wave Dynamics" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](https://doi.org/10.48550/arxiv.2603.13512)
   2. "A Versatile Laboratory Approach to Reproduce and Analyze Internal Ocean Wave Dynamics" [arXiv (Cornell University)] (2026) — [🔗 DOI Link](http://arxiv.org/abs/2603.13512)
   3. "Lagrangian geometry of flows" [Physical Review Fluids] (2026) — [🔗 DOI Link](https://doi.org/10.1103/q2fw-vgrr)
@@ -567,7 +580,7 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   1. "Theoretical prediction of turbulent skin friction on geometrically complex surfaces" [Physics of Fluids] (2009, 78 cites) — [🔗 DOI Link](https://doi.org/10.1063/1.3241993)
   2. "Turbulent Drag Reduction Using Sinusoidal Riblets With Triangular Cross-Section" [38th Fluid Dynamics Conference and Exhibit] (2008, 56 cites) — [🔗 DOI Link](https://doi.org/10.2514/6.2008-3745)
   3. "Pressure loss reduction in hydrogen pipelines by surface restructuring" [International Journal of Hydrogen Energy] (2009, 46 cites) — [🔗 DOI Link](https://doi.org/10.1016/j.ijhydene.2009.08.035)
-- 🔬 **Recent Papers (2024–2026)**:
+- 🔬 **Recent Papers (2023–2026)**:
   1. "Correction: Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483.c1)
   2. "Using Streamwise and Spanwise Shear Stress Components in Wall-Sensing Drag Reduction Control of Turbulent Channel Flow" (2026) — [🔗 DOI Link](https://doi.org/10.2514/6.2026-4483)
   3. "Inflectional Instability of Linearized Incompressible Euler Equations via Linear Partial Inequality Tests" (2025) — [🔗 DOI Link](https://doi.org/10.1109/cdc57313.2025.11312828)
@@ -617,6 +630,10 @@ This section organizes all faculty into 4 authoritative tiers to optimize cold o
   2. "Scopes and Challenges of Dual-Doppler Lidar Wind Measurements—An Error Analysis" [Journal of Atmospheric and Oceanic Technology] (2013, 114 cites) — [🔗 DOI Link](https://doi.org/10.1175/jtech-d-12-00244.1)
   3. "Turbulent flow over a wavy surface: Neutral case" [Journal of Geophysical Research Atmospheres] (2001, 85 cites) — [🔗 DOI Link](https://doi.org/10.1029/2000jc900133)
 - 📚 **Courses Taught**: `MAE 579: Wind Energy | MAE 242: Intro to Fluid Mechanics | MAE 593: Applied Project`
+
+#### 💡 Lab Intelligence & Active Openings
+- 💰 **Funding Sponsors**: DOE, NASA
+- 🚀 **Active Research Thrust**: Environmental Remote SensingGroup
 
 [⬆️ Back to Top](#-quick-directory-index-ranked-by-matched-keywords)
 

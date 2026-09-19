@@ -70,7 +70,7 @@ COLUMNS_CONFIG = [
     "Flagship Paper DOI",
     "Physical Finding",
     "Latest Paper / Publication",
-    "Recent Papers (2024-2026)",
+    "Recent Papers (2023-2026)",
     "Top Cited Papers",
     "Courses Taught",
     "Recent Awards / Honors",
@@ -744,8 +744,8 @@ def fetch_academic_scholar_intel(name: str) -> Tuple[str, str, str]:
                         if papers_list:
                             top_papers_str = " | ".join(papers_list)
 
-                    # 2. Top 5 Recent Papers from 2024-2026 with Journal, Year, and DOI URL
-                    recent_url = f"https://api.openalex.org/works?filter=author.id:{auth_id},publication_year:2024-2026&sort=publication_date:desc&per_page=5&api_key={OPENALEX_API_KEY}"
+                    # 2. Top 5 Recent Papers from 2023-2026 with Journal, Year, and DOI URL
+                    recent_url = f"https://api.openalex.org/works?filter=author.id:{auth_id},publication_year:2023-2026&sort=publication_date:desc&per_page=5&api_key={OPENALEX_API_KEY}"
                     r_res = requests.get(recent_url, timeout=10)
                     if r_res.status_code == 200:
                         r_works = r_res.json().get("results", [])
@@ -1307,7 +1307,7 @@ def scrape_asu(scraper: cloudscraper.CloudScraper) -> List[Dict[str, Any]]:
             if papers_intel:
                 prof["Top Cited Papers"] = papers_intel
             if recent_intel:
-                prof["Recent Papers (2024-2026)"] = recent_intel
+                prof["Recent Papers (2023-2026)"] = recent_intel
 
             # Enrich Tier 1 Core Aero faculty with Dual Flagship Papers, Tech Stack & Tripartite Physical Finding
             pillars = COLD_EMAIL_PILLARS.get(prof["Name"], {})
@@ -1628,7 +1628,7 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
 
         scholar_tags = f.get("Google Scholar Tags", "")
         top_cited = f.get("Top Cited Papers", "")
-        recent_papers = f.get("Recent Papers (2024-2026)", "")
+        recent_papers = f.get("Recent Papers (2023-2026)", "")
 
         # Overview Table
         lines.append(f"- **Research Categorization**: **{tier_cat}**")
@@ -1714,7 +1714,7 @@ def export_to_markdown(faculty_list: List[Dict], md_path: str):
                     lines.append(f"  {p_idx}. {p_entry}")
 
         if recent_papers:
-            lines.append("- 🔬 **Recent Papers (2024–2026)**:")
+            lines.append("- 🔬 **Recent Papers (2023–2026)**:")
             for p_idx, p_entry in enumerate(recent_papers.split(" | "), 1):
                 p_entry = p_entry.strip()
                 if "[DOI: " in p_entry:
