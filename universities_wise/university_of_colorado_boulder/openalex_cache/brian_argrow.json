@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Brian Argrow",
+  "full_name": "Brian Argrow",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5088395268",
+  "works_count": 217,
+  "cited_by_count": 3040,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 46
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 44
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 43
+    },
+    {
+      "topic": "Aerospace and Aviation Technology",
+      "count": 38
+    },
+    {
+      "topic": "Air Traffic Management and Optimization",
+      "count": 32
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Overview of Small Fixed-Wing Unmanned Aircraft for Meteorological Sampling",
+      "doi": "https://doi.org/10.1175/jtech-d-13-00236.1",
+      "publication_year": 2014,
+      "cited_by_count": 179,
+      "venue": "Journal of Atmospheric and Oceanic Technology",
+      "abstract": "Abstract Sampling the atmospheric boundary layer with small unmanned aircraft is a difficult task requiring informed selection of sensors and algorithms that are suited to the particular platform and mission. Many factors must be considered during the design process to ensure the desired measurement accuracy and resolution is achieved, as is demonstrated through an examination of previous and current efforts. A taxonomy is developed from these approaches and is used to guide a review of the systems that have been employed to make in situ wind and thermodynamic measurements, along with the campaigns that have employed them. Details about the airframe parameters, estimation algorithms, sensors, and calibration methods are given."
+    },
+    {
+      "title": "Ad Hoc UAV Ground Network (AUGNet)",
+      "doi": "https://doi.org/10.2514/6.2004-6321",
+      "publication_year": 2004,
+      "cited_by_count": 159,
+      "venue": "",
+      "abstract": "This paper describes an implementation of a wireless mobile ad hoc network with radio nodes mounted at fixed sites, on ground vehicles, and in small (10kg) UAVs. The ad hoc networking allows any two nodes to communicate either directly or through an arbitrary number of other nodes which act as relays. We envision two scenarios for this type of network. In the first, the UAV acts as a prominent radio node that connects disconnected ground radios. In the second, the networking enables groups of UAVs to communicate with each other to extend small UAVs ' operational scope and range. The network consists of mesh network radios assembled from low-cost commercial off the shelf components. The radio is an IEEE 802.11b (WiFi) wireless interface and is controlled by an embedded computer. The network protocol is an implementation of the Dynamic Source Routing ad hoc networking protocol. The radio is mounted either in an environmental enclosure for outdoor fixed and vehicle mounting or directly in our custom built UAVs. A monitoring architecture has been embedded into the radios for detailed performance characterization and analysis. This paper describes these components and performance results measured at an outdoor test range. I."
+    },
+    {
+      "title": "Bulk Viscosity: Past to Present",
+      "doi": "https://doi.org/10.2514/2.6443",
+      "publication_year": 1999,
+      "cited_by_count": 144,
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "abstract": "A review of the concept of a bulk viscosity coefficient β is presented, involving a discussion of theoretical approaches and a summary of existing experimental data. Two independent viscosity coefficients μ and A are obtained in the viscous stress tensor as a result of the isotropic Newtonian assumption. Hence, all solutions of the Navier-Stokes equations must make an assumption regarding the functional form of A. With β=λ+2/3μ by definition, the assumption is often arbitrarily made that the two viscosity coefficients are not independent, with β =0. This assumption has been shown to be valid only for dilute monatomic gases and is equivalent to stating that dilatational flowfield effects are not significant. Theoretical approaches for quantifying β are classified according to whether the subject fluid is dilute or dense. Experimental methods used to estimate bulk viscosity are described. Existing experimental data are summarized for each fluid classification, and issues related to using these data for dilatational flows in local thermodynamic equilibrium are addressed"
+    },
+    {
+      "title": "Semiempirical Model for Satellite Energy-Accommodation Coefficients",
+      "doi": "https://doi.org/10.2514/1.49330",
+      "publication_year": 2010,
+      "cited_by_count": 137,
+      "venue": "Journal of Spacecraft and Rockets",
+      "abstract": "Covers advancements in spacecraft and tactical and strategic missile systems, including subsystem design and application, mission design and analysis, materials and structures, developments in space sciences, space processing and manufacturing, space operations, and applications of space technologies to other fields."
+    },
+    {
+      "title": "Development of Community, Capabilities, and Understanding through Unmanned Aircraft-Based Atmospheric Research: The LAPSE-RATE Campaign",
+      "doi": "https://doi.org/10.1175/bams-d-19-0050.1",
+      "publication_year": 2019,
+      "cited_by_count": 103,
+      "venue": "Bulletin of the American Meteorological Society",
+      "abstract": "ABSTRACT Because unmanned aircraft systems (UAS) offer new perspectives on the atmosphere, their use in atmospheric science is expanding rapidly. In support of this growth, the International Society for Atmospheric Research Using Remotely-Piloted Aircraft (ISARRA) has been developed and has convened annual meetings and “flight weeks.” The 2018 flight week, dubbed the Lower Atmospheric Profiling Studies at Elevation–A Remotely-Piloted Aircraft Team Experiment (LAPSE-RATE), involved a 1-week deployment to Colorado’s San Luis Valley. Between 14 and 20 July 2018 over 100 students, scientists, engineers, pilots, and outreach coordinators conducted an intensive field operation using unmanned aircraft and ground-based assets to develop datasets, community, and capabilities. In addition to a coordinated “Community Day” which offered a chance for groups to share their aircraft and science with the San Luis Valley community, LAPSE-RATE participants conducted nearly 1,300 research flights totaling over 250 flight hours. The measurements collected have been used to advance capabilities (instrumentation, platforms, sampling techniques, and modeling tools), conduct a detailed system intercomparison study, develop new collaborations, and foster community support for the use of UAS in atmospheric science."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Comment on essd-2026-134",
+      "doi": "https://doi.org/10.5194/essd-2026-134-cc1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Abstract. RAAVEN (Robust Autonomous Airborne Vehicle - Endurant and Nimble) uncrewed aircraft systems (UAS) were deployed in and around supercell thunderstorms during the Targeted Observation by Radars and UAS of Supercells (TORUS) and TORUS Left Flank Intensive Experiment (TORUS-LItE) field campaigns. On-board sensors measured temperature, humidity, pressure, and wind. Despite extensive predeployment testing, the demanding environments where data collection occurred presented numerous challenges to data quality. In this article, extensive quality control procedures adopted for these data are described. Many of these procedures aim to quantify data-quality uncertainty, in lieu of correcting questionable data. Procedures address the dependency of estimated wind on aircraft manoeuvring, periodically faulty sensors, questionable data induced by sensor wetting in rain, and sensor hysteresis and bias. Bulk data statistics are also presented, in part to assert data quality but also to highlight unique qualities of UAS data collected during TORUS and TORUS-LItE."
+    },
+    {
+      "title": "RAAVEN data processing for TORUS and TORUS-LItE",
+      "doi": "https://doi.org/10.5194/essd-2026-134",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Earth System Science Data Discussions",
+      "abstract": "Abstract. RAAVEN (Robust Autonomous Airborne Vehicle - Endurant and Nimble) uncrewed aircraft systems (UAS) were deployed in and around supercell thunderstorms during the Targeted Observation by Radars and UAS of Supercells (TORUS) and TORUS Left Flank Intensive Experiment (TORUS-LItE) field campaigns. On-board sensors measured temperature, humidity, pressure, and wind. Despite extensive predeployment testing, the demanding environments where data collection occurred presented numerous challenges to data quality. In this article, extensive quality control procedures adopted for these data are described. Many of these procedures aim to quantify data-quality uncertainty, in lieu of correcting questionable data. Procedures address the dependency of estimated wind on aircraft manoeuvring, periodically faulty sensors, questionable data induced by sensor wetting in rain, and sensor hysteresis and bias. Bulk data statistics are also presented, in part to assert data quality but also to highlight unique qualities of UAS data collected during TORUS and TORUS-LItE."
+    },
+    {
+      "title": "CFD-Enhanced Calibration of a Multihole Probe for Small Uncrewed Aircraft Systems",
+      "doi": "https://doi.org/10.1175/jtech-d-24-0125.1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Atmospheric and Oceanic Technology",
+      "abstract": "Abstract A robust calibration method with a 9-hole probe (9HP) for inertial wind vector measurements from a small uncrewed aircraft system (sUAS) is presented. Calibration accuracy is improved by using computational fluid dynamics (CFD) to estimate corrections, such as those for test section blockage, that are generally applied in wind tunnel testing. A method for estimating experimental bias is presented to account for flow variations over the pressure taps as the 9HP is repositioned in the test section. Installation effects from flow over the airframe and upwash produced by the wings are estimated from CFD simulations of the entire airframe at the expected cruise speed. An initial CFD analysis has demonstrated a quantifiable linear relationship between the measured and actual angle of attack as measured from the relative wind frame. The objective of these additional steps is to increase the accuracy of 9HP calibration. Significance Statement Multihole probes (MHPs) are flown on small uncrewed aircraft systems (sUAS) to gather precise atmospheric measurements deriving inertial wind. This study demonstrates that MHP calibration accuracy can be enhanced by using computational fluid dynamics (CFD) to characterize the flow field around a probe. CFD analysis can offer corrections to address wind tunnel blockage effects observed during calibration and upwash effects observed during flight."
+    },
+    {
+      "title": "TORUS-LItE: RAAVEN UAS Data. Version 1.0",
+      "doi": "https://doi.org/10.26023/e5pj-5cn7-vq0t",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Earth Observing Laboratory",
+      "abstract": "Flight level meteorological and aircraft state data from the University of Colorado RAAVEN (Robust Autonomous Aerial Vehicle - Endurant and Nimble) sUAS (small Unmanned Aircraft System) platform that flew during the TORUS-LItE (Targeted Observations using Radars and UAS in Supercells Left Flank Intensive Experiment ) campaign over the plains region of the United States. The UAS flew near inflow and left flank missions in and around supercell thunderstorms."
+    },
+    {
+      "title": "Targeted Observation by Radars and UAS of Supercells: TORUS",
+      "doi": "https://doi.org/10.1175/bams-d-23-0265.1",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Bulletin of the American Meteorological Society",
+      "abstract": "Abstract Targeted Observation by Radars and Uncrewed Aircraft Aystems (UAS) of Supercells (TORUS) aimed to improve the conceptual model of supercell thunderstorms through advancing the understanding of the role of storm-generated airmass boundaries and coherent structures in the development of near-surface rotation. Research questions guiding the field phase of TORUS focused on left-flank vertical vorticity sheets, streamwise vorticity currents, left-flank convergence boundaries, and rear-flank internal surges. Research questions also aimed to address the relationship between inflow modification and supercell characteristics. Across three field seasons (2019, 2022, and 2023), data on 46 supercell thunderstorms were collected through coordinated deployments of radars, lidars, mobile mesonets, UAS, manned aircraft, radiosondes, and swarmsondes. More than 200 scientists and engineers (many of whom were students) participated in the TORUS field deployments. The scientific motivation for TORUS, experiment design, and examples of data/analysis are presented in this article. Significance Statement Targeted Observation by Radars and Uncrewed Aircraft Systems (UAS) of Supercells (TORUS) was a collaborative research project funded by the National Science Foundation and the National Oceanic and Atmospheric Administration to advance understanding of supercells. TORUS involved more than 200 scientists and engineers (many of whom were students) who led data collection on 46 supercell thunderstorms across three field seasons. This effort constituted the most deployments of UAS within supercells and, on 17 May 2019, likely yielded the longest continuous airborne multi-Doppler radar sampling of a Great Plains supercell ever conducted."
+    },
+    {
+      "title": "Autonomous Uncrewed Aircraft for Mobile Operations in Severe Weather",
+      "doi": "https://doi.org/10.1007/978-3-031-94895-4_14",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Lecture notes in computer science",
+      "abstract": ""
+    },
+    {
+      "title": "Studying Aerosol, Clouds, and Air Quality in the Coastal Urban Environment of Southeastern Texas",
+      "doi": "https://doi.org/10.1175/bams-d-23-0331.1",
+      "publication_year": 2025,
+      "cited_by_count": 5,
+      "venue": "Bulletin of the American Meteorological Society",
+      "abstract": "Abstract A multi-agency succession of field campaigns was conducted in southeastern Texas during July 2021 through October 2022 to study the complex interactions of aerosols, clouds and air pollution in the coastal urban environment. As part of the Tracking Aerosol Convection interactions Experiment (TRACER), the TRACER- Air Quality (TAQ) campaign the Experiment of Sea Breeze Convection, Aerosols, Precipitation and Environment (ESCAPE) and the Convective Cloud Urban Boundary Layer Experiment (CUBE), a combination of ground-based supersites and mobile laboratories, shipborne measurements and aircraft-based instrumentation were deployed. These diverse platforms collected high-resolution data to characterize the aerosol microphysics and chemistry, cloud and precipitation micro- and macro-physical properties, environmental thermodynamics and air quality-relevant constituents that are being used in follow-on analysis and modeling activities. We present the overall deployment setups, a summary of the campaign conditions and a sampling of early research results related to: (a) aerosol precursors in the urban environment, (b) influences of local meteorology on air pollution, (c) detailed observations of the sea breeze circulation, (d) retrieved supersaturation in convective updrafts, (e) characterizing the convective updraft lifecycle, (f) variability in lightning characteristics of convective storms and (g) urban influences on surface energy fluxes. The work concludes with discussion of future research activities highlighted by the TRACER model-intercomparison project to explore the representation of aerosol-convective interactions in high-resolution simulations."
+    },
+    {
+      "title": "ICECHIP: Hail-Swath and Cold-Pool Observations with CU RAAVEN UAS. Version 1.0",
+      "doi": "https://doi.org/10.26023/hgj2-sbkn-2p0r",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Earth Observing Laboratory",
+      "abstract": "Aerial footage and state parameters from hail swath survey flights conducted by the University of Colorado Boulder RAAVEN (Robust Autonomous Airborne Vehicle - Endurant and Nimble) uncrewed aircraft system (UAS) as it was deployed in and around hailstorms during the 2025 In-situ Collaborative Experiment for Collection of Hail In the Plains (ICECHIP) field campaign. The state parameters include position, temperature, relative humidity, static pressure and winds. There were front-facing and downward-facing cameras on the aircraft. There is also ground-level footage from a tracker vehicle."
+    },
+    {
+      "title": "“A Good Bot Always Knows Its Limitations”: Assessing Autonomous System Decision-Making Competencies through Factorized Machine Self-Confidence",
+      "doi": "https://doi.org/10.1145/3732794",
+      "publication_year": 2025,
+      "cited_by_count": 4,
+      "venue": "ACM Transactions on Human-Robot Interaction",
+      "abstract": "How can intelligent machines assess their competency to complete a task? This question has come into focus for autonomous systems that algorithmically make decisions under uncertainty. We argue that machine self-confidence—a form of meta-reasoning based on self-assessments of system knowledge about the state of the world, itself, and ability to reason about and execute tasks—leads to many computable and useful competency indicators for such agents. This article presents our body of work, so far, on this concept in the form of the Factorized Machine Self-Confidence (FaMSeC) framework, which holistically considers several major factors driving competency in algorithmic decision-making: outcome assessment, solver quality, model quality, alignment quality, and past experience. In FaMSeC, self-confidence indicators are derived via “problem-solving statistics” embedded in Markov Decision Process solvers and related approaches. These statistics come from evaluating probabilistic exceedance margins in relation to certain outcomes and associated competency standards specified by an evaluator. Once designed, and evaluated, the statistics can be easily incorporated into autonomous agents and serve as indicators of competency. We include detailed descriptions and examples for Markov Decision Process agents and show how outcome assessment and solver quality factors can be found for a range of tasking contexts through novel use of meta-utility functions, behavior simulations, and surrogate prediction models. Numerical evaluations are performed to demonstrate that FaMSeC indicators perform as desired (references to human subject studies beyond the scope of this article are provided)."
+    },
+    {
+      "title": "Deployment of a Fixed-Wing Small Uncrewed Aircraft System for Urban Traffic–Related Air Pollution Assessment",
+      "doi": "https://doi.org/10.1175/jtech-d-24-0042.1",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Journal of Atmospheric and Oceanic Technology",
+      "abstract": "Abstract Existing motor vehicle pollutant measurement techniques, including those that employ ground-based and multirotor small uncrewed aircraft system (sUAS) methods, can accurately measure traffic-related air pollution (TRAP) concentrations at a single location. However, these techniques often lack the mobility to assess pollutant trends across a large horizontal area. Fixed-wing sUAS represents an alternative instrument platform compared to ground-based systems and multirotor sUAS, as fixed-wing sUASs are able to carry air pollutant monitor payloads, have extended endurance, and offer expansive three-dimensional ranges across a field site. To demonstrate the utility of fixed-wing sUAS for urban TRAP assessment, we conducted two flights using a Super Robust Autonomous Aerial Vehicle–Endurant Nimble (RAAVEN) sUAS [University of Colorado (CU) Boulder] at a large field site adjacent to a major highway in Erie, Colorado. Concentrations of solid particulate matter (PM10) and gas-phase (carbon monoxide) pollutants displayed decay as a function of altitude. During the morning flight, PM10 concentrations decreased from 19.0 μg m−3 at ground level to a minimum concentration of 14.3 μg m−3 at 90 m above ground level. During the afternoon flight, concentrations of PM10 displayed minimal vertical stratification, ranging from 8.9 at ground level to 10.0 μg m−3 at 45 m above ground level. Similarly, pollutants displayed decreasing concentrations as the horizontal distance from the roadway increased. Concentrations of TRAP may be significantly elevated in the area both above and beyond roadways, which contribute to additional pollutant exposure from on-road pollution sources. This study demonstrated that the general behavior of TRAP in near-road environments and that the use of fixed-wing sUAS are viable option for urban air quality measurements. Significance Statement This study represents one of the first uses of a fixed-wing small uncrewed aircraft system (sUAS) to assess near-roadside concentrations of traffic-related air pollution (TRAP) in urbanized areas. We found that local meteorology, including local wind and solar radiation, had a substantial influence on the concentrations of common air pollutants, including particulate matter, black carbon, carbon monoxide, and carbon dioxide. Furthermore, we found large-scale spatiotemporal variation in pollutant concentrations as a function of the vertical and horizontal distance from the highway, indicating that diminished spatial variation employed in multirotor sUAS studies may not be sufficient to fully assess TRAP in roadside environments."
+    }
+  ]
+}

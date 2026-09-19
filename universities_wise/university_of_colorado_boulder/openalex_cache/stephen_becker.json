@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Stephen Becker",
+  "full_name": "Stephen Becker",
+  "department": "Applied Mathematics",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5086042756",
+  "works_count": 151,
+  "cited_by_count": 4794,
+  "h_index": 23,
+  "top_topics": [
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 57
+    },
+    {
+      "topic": "Stochastic Gradient Optimization Techniques",
+      "count": 22
+    },
+    {
+      "topic": "Tensor decomposition and applications",
+      "count": 10
+    },
+    {
+      "topic": "Statistical Methods and Inference",
+      "count": 9
+    },
+    {
+      "topic": "Advanced Optimization Algorithms Research",
+      "count": 9
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Quantum State Tomography via Compressed Sensing",
+      "doi": "https://doi.org/10.1103/physrevlett.105.150401",
+      "publication_year": 2010,
+      "cited_by_count": 1138,
+      "venue": "Physical Review Letters",
+      "abstract": "We establish methods for quantum state tomography based on compressed sensing. These methods are specialized for quantum states that are fairly pure, and they offer a significant performance improvement on large quantum systems. In particular, they are able to reconstruct an unknown density matrix of dimension d and rank r using O(rdlog²d) measurement settings, compared to standard methods that require d² settings. Our methods have several features that make them amenable to experimental implementation: they require only simple Pauli measurements, use fast convex optimization, are stable against noise, and can be applied to states that are only approximately low rank. The acquired data can be used to certify that the state is indeed close to pure, so no a priori assumptions are needed."
+    },
+    {
+      "title": "NESTA: A Fast and Accurate First-Order Method for Sparse Recovery",
+      "doi": "",
+      "publication_year": 2009,
+      "cited_by_count": 927,
+      "venue": "",
+      "abstract": "Accurate signal recovery or image reconstruction from indirect and possibly undersampled data is a topic of considerable interest; for example, the literature in the recent field of compressed sensing is already quite immense. Inspired by recent breakthroughs in the development of novel first-order methods in convex optimization, most notably Nesterov’s smoothing technique, this paper introduces a fast and accurate algorithm for solving common recovery problems in signal processing. In the spirit of Nesterov’s work, one of the key ideas of this algorithm is a subtle averaging of sequences of iterates, which has been shown to improve the convergence properties of standard gradient-descent algorithms. This paper demonstrates that this approach is ideally suited for solving large-scale compressed sensing reconstruction problems as 1) it is computationally efficient, 2) it is accurate and returns solutions with several correct digits, 3) it is flexible and amenable to many kinds of reconstruction problems, and 4) it is robust in the sense that its excellent performance across a wide range of problems does not depend on the fine tuning of several parameters. Comprehensive numerical experiments on realistic signals exhibiting a large dynamic range show that this algorithm compares favorably with recently proposed state-of-the-art methods. We also apply the algorithm to solve other problems for which there are fewer alternatives, such as total-variation minimization, and"
+    },
+    {
+      "title": "Improving the convergence of back-propagation learning with second-order methods",
+      "doi": "",
+      "publication_year": 1989,
+      "cited_by_count": 330,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "Convex Optimization for Big Data: Scalable, randomized, and parallel algorithms for big data analytics",
+      "doi": "https://doi.org/10.1109/msp.2014.2329397",
+      "publication_year": 2014,
+      "cited_by_count": 308,
+      "venue": "IEEE Signal Processing Magazine",
+      "abstract": "This article reviews recent advances in convex optimization algorithms for big data, which aim to reduce the computational, storage, and communications bottlenecks. We provide an overview of this emerging field, describe contemporary approximation techniques such as first-order methods and randomization for scalability, and survey the important role of parallel and distributed computation. The new big data algorithms are based on surprisingly simple principles and attain staggering accelerations even on classical problems."
+    },
+    {
+      "title": "A 48 m.y. history of fracture opening, temperature, and fluid pressure: Cretaceous Travis Peak Formation, East Texas basin",
+      "doi": "https://doi.org/10.1130/b30067.1",
+      "publication_year": 2010,
+      "cited_by_count": 233,
+      "venue": "Geological Society of America Bulletin",
+      "abstract": "Research Article| July 01, 2010 A 48 m.y. history of fracture opening, temperature, and fluid pressure: Cretaceous Travis Peak Formation, East Texas basin S.P. Becker; S.P. Becker * 1Bureau of Economic Geology, The University of Texas at Austin, University Station Box X, Austin, Texas 78713-8924, USA *Current address: ExxonMobil Upstream Research Company, P.O. Box 2189, Houston, Texas 77252-2189, USA. Search for other works by this author on: GSW Google Scholar P. Eichhubl; P. Eichhubl † 1Bureau of Economic Geology, The University of Texas at Austin, University Station Box X, Austin, Texas 78713-8924, USA †E-mail: peter.eichhubl@beg.utexas.edu Search for other works by this author on: GSW Google Scholar S.E. Laubach; S.E. Laubach 1Bureau of Economic Geology, The University of Texas at Austin, University Station Box X, Austin, Texas 78713-8924, USA Search for other works by this author on: GSW Google Scholar R.M. Reed; R.M. Reed 1Bureau of Economic Geology, The University of Texas at Austin, University Station Box X, Austin, Texas 78713-8924, USA Search for other works by this author on: GSW Google Scholar R.H. Lander; R.H. Lander 2Geocosm LLC, 3311 San Mateo Drive, Austin, Texas 78738, USA Search for other works by this author on: GSW Google Scholar R.J. Bodnar R.J. Bodnar 3Department of Geosciences, 4044 Derring Hall, Virginia Tech, Blacksburg, Virginia 24061, USA Search for other works by this author on: GSW Google Scholar GSA Bulletin (2010) 122 (7-8): 1081–1093. https://doi.org/10.1130/B30067.1 Article history received: 05 Apr 2009 rev-recd: 03 Aug 2009 accepted: 24 Aug 2009 first online: 08 Mar 2017 Cite View This Citation Add to Citation Manager Share Icon Share Facebook Twitter LinkedIn MailTo Tools Icon Tools Get Permissions Search Site Citation S.P. Becker, P. Eichhubl, S.E. Laubach, R.M. Reed, R.H. Lander, R.J. Bodnar; A 48 m.y. history of fracture opening, temperature, and fluid pressure: Cretaceous Travis Peak Formation, East Texas basin. GSA Bulletin 2010;; 122 (7-8): 1081–1093. doi: https://doi.org/10.1130/B30067.1 Download citation file: Ris (Zotero) Refmanager EasyBib Bookends Mendeley Papers EndNote RefWorks BibTex toolbar search Search Dropdown Menu toolbar search search input Search input auto suggest filter your search All ContentBy SocietyGSA Bulletin Search Advanced Search Abstract Quartz cement bridges across opening-mode fractures of the Cretaceous Travis Peak Formation provide a textural and fluid inclusion record of incremental fracture opening during the burial evolution of this low-porosity sandstone. Incremental crack-seal fracture opening is inferred based on the banded structure of quartz cement bridges, consisting of up to 700 cement bands averaging ∼5 μm in thickness as observed with scanning electron microscope–cathodoluminescence. Crack-seal layers contain assemblages of aqueous two-phase fluid inclusions. Based on fluid inclusion microthermometry and Raman microprobe analyses, we determined that these inclusions contain methane-saturated brine trapped over temperatures ranging from ∼130°C to ∼154°C. Using textural crosscutting relations of quartz growth increments to infer the sequence of cement growth, we reconstructed the fluid temperature and pore-fluid pressure evolution during fracture opening. In combination with published burial evolution models, this reconstruction indicates that fracture opening started at ca. 48 Ma and above-hydrostatic pore-fluid pressure conditions, and continued under steadily declining pore-fluid pressure during partial exhumation until present times. Individual fractures opened over an ∼48 m.y. time span at rates of 16–23 μm/m.y. These rates suggest that fractures can remain hydraulically active over geologically long times in deep basinal settings. You do not have access to this content, please speak to your institutional administrator if you feel you should have access."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Spatiotemporal tensor reconstruction for echocardiography: Effects of multidimensional structure and motion",
+      "doi": "https://doi.org/10.1121/10.0044876",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "The Journal of the Acoustical Society of America",
+      "abstract": "It is a common desire to break traditional limits of sampling, circumventing Nyquist requirements using advanced statistical algorithms. In cardiac ultrasound imaging, reducing the number of transmissions per frame, thereby breaking spatial sampling restrictions, enables capturing faster moving structures or larger fields of view. However, the spatial and temporal image properties that may enable such acceleration have been underexplored in the ultrasound literature. This work provides a fundamental study of the structure of ultrasound images using simulations, phantoms, and in vivo cardiac data to quantify tensor rank and spatial/temporal roughness and explores the implications for tensor completion algorithms. Although low-rank reconstruction is a powerful approach that has been previously applied in this context, these data do not appear to be sufficiently low-rank for high-quality reconstructions. Two methods relying on local information-inverse distance-weighted (IDW) interpolation and the fast multiway delay-embedding transform-demonstrate significantly more accurate reconstruction (e.g., structured similarity index measure 0.76 vs 0.67 at 25% sampling and 0.63 vs 0.38 at 10% sampling for IDW versus low-rank reconstruction). Roughness in both space and time is shown to inversely correlate with tensor completion success. Motion compensation is shown to reduce both temporal roughness and rank, improving tensor completion."
+    },
+    {
+      "title": "In situ training of implicit neural compressors for scientific simulations via sketch-based regularization",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115245",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "SPIRiT Regularization: Parallel MRI with a Combination of Sensitivity Encoding and Linear Predictability",
+      "doi": "https://doi.org/10.1007/s00723-026-01862-8",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Applied Magnetic Resonance",
+      "abstract": ""
+    },
+    {
+      "title": "Generating entangled steady states in multistable open quantum systems via initial state control",
+      "doi": "https://doi.org/10.1103/s8kc-crf3",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Physical Review Research",
+      "abstract": "Entanglement underpins the power of quantum technologies, yet it is fragile and typically destroyed by dissipation. Paradoxically, the same dissipation, when carefully engineered, can drive a system toward robust entangled steady states. However, this engineering task is nontrivial, as dissipative many-body systems are complex, particularly when they support multiple steady states. Here, we derive analytic expressions that predict how the steady state of a system evolving under a Lindblad equation depends on the initial state, without requiring integration of the dynamics. These results extend Refs. [V. V. Albert and L. Jiang, ; V. V. Albert , ], showing that while the steady-state manifold is determined by the Liouvillian kernel, the weights within it depend on both the Liouvillian and the initial state. We identify a special class of Liouvillians for which the steady state depends only on the initial overlap with the kernel. Our framework provides analytical insight and a computationally efficient tool for predicting steady states in open quantum systems. As an application, we propose schemes to generate metrologically useful entangled steady states in spin ensembles via balanced collective decay."
+    },
+    {
+      "title": "In Situ Training of Implicit Neural Compressors for Scientific Simulations via Sketch-Based Regularization",
+      "doi": "https://doi.org/10.2139/ssrn.6203133",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    },
+    {
+      "title": "Rigorous maximum-likelihood estimation for quantum states",
+      "doi": "https://doi.org/10.1103/j5gh-hmtw",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Physical Review A",
+      "abstract": "Existing quantum state tomography methods are limited in scalability due to their high computation and memory demands, making them impractical for the recovery of large quantum states. In this work, we address these limitations by reformulating the maximum likelihood estimation problem using the Burer--Monteiro factorization, resulting in a nonconvex but low-rank parametrization of the density matrix. We derive a fully unconstrained formulation by analytically eliminating the trace-one and positive-semidefinite constraints, thereby avoiding the need for projection steps during optimization. Furthermore, we determine the Lagrange multiplier associated with the unit-trace constraint a priori, reducing computational overhead. The resulting formulation is amenable to scalable first-order optimization, and we demonstrate its tractability using the limited-memory Broyden-Fletcher-Goldfarb-Shanno method. Importantly, we also propose a low-memory version of the above algorithm to fully recover certain large quantum states with Pauli-based positive-operator-value measurements. Our low-memory algorithm avoids explicitly forming any density matrix, and does not require the density matrix to have a matrix product state or other tensor structure. For a fixed number of measurements and fixed rank, our algorithm requires just $O(d{log}_{2}d)$ complexity per iteration to recover a $d\\ifmmode\\times\\else\\texttimes\\fi{}d$ density matrix. Additionally, we derive a useful error bound that can be used to give a rigorous termination criterion. We numerically demonstrate that our method is competitive with state-of-the-art algorithms for moderately sized problems, and then demonstrate that our method can solve a 20-qubit problem on a laptop in under 5 hours."
+    },
+    {
+      "title": "Evaluation of data driven low-rank matrix factorization for accelerated solutions of the Vlasov equation",
+      "doi": "https://doi.org/10.1371/journal.pone.0325304",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "PLoS ONE",
+      "abstract": "Low-rank methods have shown success in accelerating simulations of a collisionless plasma described by the Vlasov equation, but still rely on computationally costly linear algebra every time step. We propose a data-driven factorization method using artificial neural networks, specifically with convolutional layer architecture, that trains on existing simulation data. At inference time, the model outputs a low-rank decomposition of the distribution field of the charged particles, and we demonstrate that this step is faster than the standard linear algebra technique. Numerical experiments show that the method achieves comparable reconstruction accuracy for interpolation tasks, generalizing to unseen test data in a manner beyond just memorizing training data; patterns in factorization also inherently followed the same numerical trend as those within algebraic methods (e.g., truncated singular-value decomposition). However, when training on the first 70% of a time-series data and testing on the remaining 30%, the method fails to meaningfully extrapolate. Despite this limiting result, the technique may have benefits for simulations in a statistical steady-state or otherwise showing temporal stability. These results suggest that while the model offers a computationally efficient alternative for datasets with temporal stability, its current formulation is best suited for interpolation rather than for predicting future states in time-evolving systems. This study thus lays the groundwork for further refinement of neural network-based approaches to low-rank matrix factorization in high-dimensional plasma simulations."
+    },
+    {
+      "title": "Dependence of parallel imaging with linear predictability on the undersampling direction",
+      "doi": "https://doi.org/10.1117/1.jei.34.2.023031",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Journal of Electronic Imaging",
+      "abstract": "Parallel imaging with linear predictability takes advantage of information present in multiple receive coils to accurately reconstruct the image with fewer samples. Commonly used algorithms based on linear predictability include GRAPPA and SPIRiT. We present a sufficient condition for an accurate reconstruction based on the direction of undersampling and the arrangement of the sensing coils. We show, with examples, that the quality of the reconstruction can be high or low for the same data based on whether this condition is met or not met, respectively. We also propose a metric—the acceleration direction metric (ADM)—that uses a fully sampled region centered on the 0 frequency to identify which direction(s) of undersampling would allow for a good-quality image reconstruction prior to full data collection."
+    },
+    {
+      "title": "Aligning to What? Limits to RLHF Based Alignment",
+      "doi": "https://doi.org/10.48550/arxiv.2503.09025",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) is increasingly used to align large language models (LLMs) with human preferences. However, the effectiveness of RLHF in addressing underlying biases remains unclear. This study investigates the relationship between RLHF and both covert and overt biases in LLMs, particularly focusing on biases against African Americans. We applied various RLHF techniques (DPO, ORPO, and RLOO) to Llama 3 8B and evaluated the covert and overt biases of the resulting models using matched-guise probing and explicit bias testing. We performed additional tests with DPO on different base models and datasets; among several implications, we found that SFT before RLHF calcifies model biases. Additionally, we extend the tools for measuring biases to multi-modal models. Through our experiments we collect evidence that indicates that current alignment techniques are inadequate for nebulous tasks such as mitigating covert biases, highlighting the need for capable datasets, data curating techniques, or alignment tools."
+    },
+    {
+      "title": "WENDy for Nonlinear-in-Parameters ODEs",
+      "doi": "https://doi.org/10.48550/arxiv.2502.08881",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The Weak-form Estimation of Non-linear Dynamics (WENDy) framework is a recently developed approach for parameter estimation and inference of systems of ordinary differential equations (ODEs). Prior work demonstrated WENDy to be robust, computationally efficient, and accurate, but only works for ODEs which are linear-in-parameters. In this work, we derive a novel extension to accommodate systems of a more general class of ODEs that are nonlinear-in-parameters. Our new WENDy-MLE algorithm approximates a maximum likelihood estimator via local non-convex optimization methods. This is made possible by the availability of analytic expressions for the likelihood function and its first and second order derivatives. WENDy-MLE has better accuracy, a substantially larger domain of convergence, and is often faster than other weak form methods and the conventional output error least squares method. Moreover, we extend the framework to accommodate data corrupted by multiplicative log-normal noise. The WENDy.jl algorithm is efficiently implemented in Julia. In order to demonstrate the practical benefits of our approach, we present extensive numerical results comparing our method, other weak form methods, and output error least squares on a suite of benchmark systems of ODEs in terms of accuracy, precision, bias, and coverage."
+    }
+  ]
+}

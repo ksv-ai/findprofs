@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Greg Rieker",
+  "full_name": "Gregory B. Rieker",
+  "department": "Paul M. Rady Mechanical Engineering",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5060867004",
+  "works_count": 217,
+  "cited_by_count": 3512,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Spectroscopy and Laser Applications",
+      "count": 130
+    },
+    {
+      "topic": "Advanced Fiber Laser Technologies",
+      "count": 75
+    },
+    {
+      "topic": "Atmospheric and Environmental Gas Dynamics",
+      "count": 48
+    },
+    {
+      "topic": "Atmospheric Ozone and Climate",
+      "count": 27
+    },
+    {
+      "topic": "Mass Spectrometry Techniques and Applications",
+      "count": 24
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Calibration-free wavelength-modulation spectroscopy for measurements of gas temperature and concentration in harsh environments",
+      "doi": "https://doi.org/10.1364/ao.48.005546",
+      "publication_year": 2009,
+      "cited_by_count": 579,
+      "venue": "Applied Optics",
+      "abstract": "We present a practical implementation of calibration-free wavelength-modulation spectroscopy with second harmonic detection (WMS-2f) for measurements of gas temperature and concentration in harsh environments. The method is applicable to measurements using lasers with synchronous wavelength and intensity modulation (such as injection current-tuned diode lasers). The key factors that enable measurements without the on-site calibration normally associated with WMS are (1) normalization of the WMS-2f signal by the first harmonic (1f) signal to account for laser intensity, and (2) the inclusion of laser-specific tuning characteristics in the spectral-absorption model that is used to compare with measured 1f-normalized, WMS-2f signals to infer gas properties. The uncertainties associated with the calibration-free WMS method are discussed, with particular emphasis on the influence of pressure and optical depth on the WMS signals. Many of these uncertainties are also applicable to calibrated WMS measurements. An example experimental setup that combines six tunable diode laser sources between 1.3 and 2.0 mum into one probe beam for measurements of temperature, H(2)O, and CO(2) is shown. A hybrid combination of wavelength and frequency demultiplexing is used to distinguish among the laser signals, and the optimal set of laser-modulation waveforms is presented. The system is demonstrated in the harsh environment of a ground-test scramjet combustor. A comparison of direct absorption and 1f-normalized, WMS-2f shows a factor of 4 increase in signal-to-noise ratio with the WMS technique for measurements of CO(2) in the supersonic flow. Multidimensional computational fluid-dynamics (CFD) calculations are compared with measurements of temperature and H(2)O using a simple method that accounts for the influence of line-of-sight (LOS) nonuniformity on the absorption measurements. The comparisons show the ability of the LOS calibration-free technique to gain useful information about multidimensional CFD models."
+    },
+    {
+      "title": "Extension of wavelength-modulation spectroscopy to large modulation depth for diode laser absorption measurements in high-pressure gases",
+      "doi": "https://doi.org/10.1364/ao.45.001052",
+      "publication_year": 2006,
+      "cited_by_count": 325,
+      "venue": "Applied Optics",
+      "abstract": "Tunable diode laser absorption measurements at high pressures by use of wavelength-modulation spectroscopy (WMS) require large modulation depths for optimum detection of molecular absorption spectra blended by collisional broadening or dense spacing of the rovibrational transitions. Diode lasers have a large and nonlinear intensity modulation when the wavelength is modulated over a large range by injection-current tuning. In addition to this intensity modulation, other laser performance parameters are measured, including the phase shift between the frequency modulation and the intensity modulation. Following published theory, these parameters are incorporated into an improved model of the WMS signal. The influence of these nonideal laser effects is investigated by means of wavelength-scanned WMS measurements as a function of bath gas pressure on rovibrational transitions of water vapor near 1388 nm. Lock-in detection of the magnitude of the 2f signal is performed to remove the dependence on detection phase. We find good agreement between measurements and the improved model developed for the 2f component of the WMS signal. The effects of the nonideal performance parameters of commercial diode lasers are especially important away from the line center of discrete spectra, and these contributions become more pronounced for 2f signals with the large modulation depths needed for WMS at elevated pressures."
+    },
+    {
+      "title": "Regional trace-gas source attribution using a field-deployed dual frequency comb spectrometer",
+      "doi": "https://doi.org/10.1364/optica.5.000320",
+      "publication_year": 2018,
+      "cited_by_count": 205,
+      "venue": "Optica",
+      "abstract": "Identification and quantification of trace-gas sources is a major challenge for understanding and regulating air quality and greenhouse gas emissions. Current approaches provide either continuous but localized monitoring, or quasi-instantaneous \"snapshot-in-time\" regional monitoring. There is a need for emissions detection that provides both continuous and regional coverage, because sources and sinks can be episodic and spatially variable. We field deploy a dual frequency comb laser spectrometer for the first time, enabling an observing system that provides continuous detection of trace-gas sources over multiple-square-kilometer regions. Field tests simulating methane emissions from oil and gas production demonstrate detection and quantification of a 1.6 g min(-1) source (less than the average emissions from a small pneumatic controller) from a distance of 1 kin, and the ability to discern two leaks among a field of many potential sources. The technology achieves the goal of detecting, quantifying, and attributing emissions sources continuously through time, over large areas, and at emissions rates similar to 1000 x lower than current regional approaches. It therefore provides a useful tool for monitoring and mitigating undesirable sources and doses a major information gap in the atmospheric sciences. (C) 2018 Optical Society of America under the terms of the OSA Open Access Publishing Agreement"
+    },
+    {
+      "title": "Near-infrared diode laser absorption diagnostic for temperature and water vapor in a scramjet combustor",
+      "doi": "https://doi.org/10.1364/ao.44.006701",
+      "publication_year": 2005,
+      "cited_by_count": 158,
+      "venue": "Applied Optics",
+      "abstract": "Tunable diode laser absorption measurements of gas temperature and water concentration were made at the exit of a model scramjet combustor fueled on JP-7. Multiplexed, fiber-coupled, near-infrared distributed feedback lasers were used to probe three water vapor absorption features in the 1.34-1.47 microm spectral region (2v1 and vl + v3 overtone bands). Ratio thermometry was performed using direct-absorption wavelength scans of isolated features at a 4-kHz repetition rate, as well as 2f wavelength modulation scans at a 2-kHz scan rate. Large signal-to-noise ratios demonstrate the ability of the optimally engineered optical hardware to reject beam steering and vibration noise. Successful measurements were made at full combustion conditions for a variety of fuel/air equivalence ratios and at eight vertical positions in the duct to investigate spatial uniformity. The use of three water vapor absorption features allowed for preliminary estimates of temperature distributions along the line of sight. The improved signal quality afforded by 2f measurements, in the case of weak absorption, demonstrates the utility of a scanned wavelength modulation strategy in such situations."
+    },
+    {
+      "title": "Rapid measurements of temperature and H2O concentration in IC engines with a spark plug-mounted diode laser sensor",
+      "doi": "https://doi.org/10.1016/j.proci.2006.07.158",
+      "publication_year": 2006,
+      "cited_by_count": 128,
+      "venue": "Proceedings of the Combustion Institute",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Quantifying area-source methane fluxes with path-averaged laser beam concentration measurements and Bayesian inversion",
+      "doi": "https://doi.org/10.5194/egusphere-2026-3516",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Abstract. Accurate quantification of diffuse, area-source methane emissions remains a key challenge in closing the gap between bottom-up and top-down estimates of the global methane budget. Existing measurement approaches are limited by spatial coverage and ability to interrogate diffuse sources in the presence of a time-varying background concentration. Here, we present a framework combining kilometer-scale path-averaged laser beam concentration measurements with an analytical Bayesian inverse modeling approach to simultaneously retrieve spatially distributed area-source methane fluxes and a time-varying background concentration, without requiring direct background subtraction. We evaluate the system through an Observing System Simulation Experiment (OSSE) using real meteorological data, realistic instrument and transport model error, and a representative laser beam geometry observing three distinct but diffuse area sources. The inversion framework accurately retrieves weekly average emission rates across a wide range of flux magnitudes, with well-constrained estimates achievable for near-beam sources at median concentration enhancements as low as 1 ppb above background. We demonstrate the utility of running an ensemble of inversions to provide more robust emission estimates in the presence of uncertain prior flux distribution parameters. The system maintains accuracy within 10 % flux sources characterized in the prior even when a nearby emitting source is not represented in the prior estimate. This framework expands the conditions over which path-averaged laser concentration measurements can be used for area-source emission quantification and provides a pathway for optimizing future real-world deployments."
+    },
+    {
+      "title": "Supplementary material to \"Evaluation of area-source methane-emission quantification by Uncrewed Aerial Systems using Gauss’s law\"",
+      "doi": "https://doi.org/10.5194/egusphere-2026-3109-supplement",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "Evaluation of area-source methane-emission quantification by Uncrewed Aerial Systems using Gauss’s law",
+      "doi": "https://doi.org/10.5194/egusphere-2026-3109",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Abstract. Quantifying methane emissions from lakes and wetlands remains a persistent challenge. Existing measurement approaches commonly sample only at distinct points (chambers) or integrate over poorly defined and meteorology-dependent footprints (eddy covariance, flux-gradient methods). A different framework for methane-flux estimation from lakes and wetlands entails an aerial cylindrical mass-balance technique in which an aircraft with methane and wind sensors circumscribes a methane source. This creates a control volume, allowing for the enclosed flux to be determined with Gauss's divergence theorem. The suitability of this methodology has not been evaluated for uncrewed aerial systems (UAS). We conducted an observing system simulation experiment (OSSE) that coupled a Gaussian-plume forward model with a simulated Gaussian cylindrical-flux estimation over an idealized methane-emitting lake. Across three experiments, we tested the effects of (i) receptor (points of collocated methane and wind measurements) grid resolution, (ii) methane contamination from a nearby upwind lake, and (iii) the effects of sampling under evolving atmospheric stability, on retrieval accuracy and precision. We introduce nondimensional variables to represent the estimation error from these three effects for a broader set of system configurations. Vertical-receptor resolution was the dominant control on retrieval accuracy, while azimuthal resolution primarily affected precision relative to the vertical resolution. When a nearby lake (~0.1–10 km) with an upwind-methane source was introduced to the simulation, this induced a systematic negative bias compared to the true methane flux. Under prescribed atmospheric-stability transitions, retrieval accuracy degraded monotonically with increased mission duration, with the shortest flights (30 min) preserving the highest flux retrieval accuracy across all stability transitions tested. This is because shorter flights more closely capture a snapshot of the environment before changes in the atmosphere can occur, which can skew methane-flux estimates. However, repeating short flights and averaging the resulting source-flux retrievals improved precision over single flights even across longer (12 h) atmospheric stability transitions. Within our nondimensional framework, signal-to-noise increased retrieval accuracy, but by an amount that was determined by the geometry of the measured lake and observations. The OSSE framework presented here provides a quantitative basis for planning UAS methane-flux-measurement campaigns using cylindrical mass-balance over lakes, wetlands, and possibly other heterogeneous natural methane sources."
+    },
+    {
+      "title": "Mid-infrared dual-comb spectroscopy via continuous-wave optical parametric oscillation",
+      "doi": "https://doi.org/10.1063/5.0326939",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "APL Photonics",
+      "abstract": "Dual-comb spectroscopy has demonstrated remarkable capabilities for rapid and sensitive measurements; however, challenges still exist in generating high-power, mutually coherent mid-infrared combs. Here, we demonstrate that a pair of mode-locked near-infrared frequency combs can be spectrally translated via a continuous-wave optical parametric oscillator. The pair of spectrally translated combs exhibited high mutual coherence, powers per comb tooth in excess of hundreds of microwatts, and were tunable between 4 and 5 μm. Here, we employed this spectrometer to record atmospheric carbon dioxide spectra over an open path. The flexible nature of this approach provides a robust path for the spectral translation of mode-locked combs, achieving spectral bandwidths limited only by the phase matching bandwidth of the optical parametric oscillator. Furthermore, it holds significant promise for applications in chemical kinetics, remote sensing, combustion science, and precision spectroscopy, where the combination of high powers, broad bandwidths, high resolution, and high measurement rates are enabling."
+    },
+    {
+      "title": "UAS Gauss OSSE publication companion",
+      "doi": "https://doi.org/10.5281/zenodo.20448712",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "UAS Gauss OSSE publication companion",
+      "doi": "https://doi.org/10.5281/zenodo.20448713",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "High-speed thermal imaging of disk-shaped firebrands in a wind tunnel",
+      "doi": "https://doi.org/10.1016/j.firesaf.2026.104707",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Fire Safety Journal",
+      "abstract": ""
+    },
+    {
+      "title": "Fast mid-infrared dual comb spectroscopy from a single cw-OPO",
+      "doi": "https://doi.org/10.1117/12.3079362",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Mid-infrared tunable laser absorption spectroscopy is used for experiments in chemical kinetics, combustion diagnostics, and hypersonic flow. In these applications spectra evolve rapidly, demanding a fast acquisition rate. Wider spectral coverage per acquisition reveals more absorption features of the target species or multiple species. However, typically spectral coverage decreases with faster acquisition. We improve the speed or spectral bandwidth by 1-3 orders of magnitude compared to the state of the art. A near-infrared dual comb is used to pump a singly-resonant continuous-wave optical parametric oscillator (OPO). The resonant OPO signal is single frequency, so the OPO spectrally translates the pump spectrum to its non-resonant mid-infrared idler output. Using an electro-optic dual comb pump we achieve extremely fast acquisition (1 cm-1 at 50 MHz), and using a dual mode-locked fiber comb pump we demonstrate wide spectral coverage (> 10 cm-1 at 10 kHz), all with > 1 Watt optical power."
+    },
+    {
+      "title": "Access to Monitoring Data Reduces Methane Emissions at Operational Oil and Gas Facilities",
+      "doi": "https://doi.org/10.1021/acsestair.5c00381",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "ACS ES&T Air",
+      "abstract": "Methane emissions from the oil and gas supply chains pose a mitigation opportunity. Studies have assessed methane emission measurement systems but have not quantified the effect on methane emissions of oil and gas operator access to methane emission data. In this study, methane emissions were measured with and without operator access to real-time methane emission data (“data-on” and “data-off”) and fugitive emission alerts (“alert-on” and “alert-off”). In two U.S. producing basins, 46 wellsite, processing, and production facilities were monitored for 10 months. In Basin 1, average emission rates decreased nonsignificantly by 7% after alerts were turned on (data-on/alert-off to data-on/alert-on mode). In Basin 2, emissions decreased by 39% after alerts were turned on (at the transition from data-on/alert-off to data-on/alert-on). When both data and alerts were turned off for the operator (data-on/alert-on to data-off/alert-off), emissions were reversed, increasing by 85%. Wellsites emitted disproportionately more than facilities. Basin 1 sites exhibited a more coherent site design than Basin 2. These findings suggest that operator access to continuous methane monitoring data and site-specific alerts at oil and gas production sites may correlate with reduced methane emissions, particularly for assets with heterogeneous equipment vintages and design. Longer periods of study will help to solidify these findings."
+    },
+    {
+      "title": "Validation Testing of Continuous Laser Methane Monitoring at Operational Oil and Gas Production Facilities",
+      "doi": "https://doi.org/10.3390/atmos16121409",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Atmosphere",
+      "abstract": "Methane emissions at oil and gas facilities can be measured in real time with continuous monitoring systems that alert operators of upset conditions, including fugitive emissions. We report on extensive operator field testing of a continuous laser monitoring system in ~year-long deployments at 46 oil and gas sites in two U.S. basins. The operator assessed periods of non-alerts with daily optical gas imaging sweeps to confirm emission status. Detection precision was 98% and false positive and negative rates were 3%. Quantification of challenge-controlled release tests at active oil and gas sites yielded a measured versus true emissions curve with slope = 1.2, R2 = 0.90. Repeatability test measurements of four production facilities with two different laser systems showed 33.9% average quantification agreement. Separate third-party blind controlled release testing at two state-of-the-art test facilities yielded 100% true positive rate (0 false negatives). Combining the third-party blind tests with field tests, emission rate quantification uncertainty was +/−41% across five orders of magnitude. These varied evaluation approaches validate the measurement system and operator integration of data for measurement and monitoring of upstream oil and gas emissions and demonstrate a test regime for vetting of monitoring and measurement technologies in active oil and gas operations."
+    }
+  ]
+}

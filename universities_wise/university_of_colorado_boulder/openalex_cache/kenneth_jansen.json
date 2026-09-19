@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Kenneth Jansen",
+  "full_name": "Kenneth E. Jansen",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5069574368",
+  "works_count": 273,
+  "cited_by_count": 7973,
+  "h_index": 40,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 134
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 75
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 45
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 37
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A generalized-α method for integrating the filtered Navier–Stokes equations with a stabilized finite element method",
+      "doi": "https://doi.org/10.1016/s0045-7825(00)00203-6",
+      "publication_year": 2000,
+      "cited_by_count": 810,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Large Eddy Simulation and the variational multiscale method",
+      "doi": "https://doi.org/10.1007/s007910050051",
+      "publication_year": 2000,
+      "cited_by_count": 710,
+      "venue": "Computing and Visualization in Science",
+      "abstract": ""
+    },
+    {
+      "title": "Outflow boundary conditions for three-dimensional finite element modeling of blood flow and pressure in arteries",
+      "doi": "https://doi.org/10.1016/j.cma.2005.04.014",
+      "publication_year": 2005,
+      "cited_by_count": 646,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Patient-Specific Modeling of Blood Flow and Pressure in Human Coronary Arteries",
+      "doi": "https://doi.org/10.1007/s10439-010-0083-6",
+      "publication_year": 2010,
+      "cited_by_count": 636,
+      "venue": "Annals of Biomedical Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "A coupled momentum method for modeling blood flow in three-dimensional deformable arteries",
+      "doi": "https://doi.org/10.1016/j.cma.2005.11.011",
+      "publication_year": 2006,
+      "cited_by_count": 547,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Benchmarking of Finite Element and Finite Volume Solvers for Nonequilibrium Turbulent Flow at Mach 11",
+      "doi": "https://doi.org/10.2514/6.2026-4548",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This work presents a code-to-code comparison between two high-performance solvers for hypersonic, turbulent flow in thermochemical nonequilibrium: PHASTA, a continuous-Galerkin finite element solver with a more mature turbulence simulation track record, and LeMANS, a finite volume solver with a more mature track record in high-enthalpy aerothermodynamics. Both codes solve the same governing equations and are applied to Mach 11 flow over a two-dimensional diamond airfoil at 24 km altitude using identical boundary conditions, turbulence modeling, and gas chemistry. Agreement between solvers in the stagnation region, including shock structure, temperature, and shock standoff distance, demonstrates consistent prediction of bulk flow physics and provides verification of the thermochemical nonequilibrium modeling in PHASTA. Strong agreement in wall shear stress, drag, and qualitative boundary-layer profiles further indicates consistent predictions of near-wall momentum transport, effectively serving as a verification of the turbulence modeling in both solvers under thermochemical nonequilibrium conditions. While stagnation-point heat flux exhibits differences exceeding 10%, wall heat flux within the boundary layer shows convergent behavior with modest differences that decrease downstream, indicating that heat transfer near the leading edge remains sensitive to numerical formulation and treatment. Differences observed on coarse meshes diminish with refinement, indicating that they are primarily resolution-driven. In addition, solution-adaptive mesh refinement reduces the element count by approximately 35\\% while maintaining resolution of key flow features. In the absence of high-fidelity reference data, this study provides a code-to-code benchmark and highlights the importance of mesh design in hypersonic simulations."
+    },
+    {
+      "title": "Reynolds Number Dependency in Compressible Crossflow-Jet Problems",
+      "doi": "https://doi.org/10.2514/6.2025-1953",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "",
+      "abstract": "Compressible jets transversely issuing into a spatially-developing turbulent boundary layer (SDTBL) are one of the most challenging types of three-dimensional flows due to their thermal-fluid complexity and technological applications; for instance, film cooling of turbine blades, fuel, or dilution air injection in gas turbine engines, thrust vector control, just to name a few. The ability to control a flow field in such a way as to enhance thermal efficiency is of crucial relevance in aerospace and other engineering applications. We seek to perform Direct Numerical Simulation (DNS) with high spatial and temporal resolution of compressible jets in crossflow at low ("
+    },
+    {
+      "title": "Direct numerical simulation of two boundary layers with the same pressure distribution but different surface curvatures",
+      "doi": "https://doi.org/10.48550/arxiv.2409.00555",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "A pair of Direct Numerical Simulations is used to investigate curvature and pressure effects. One has a Gaussian test bump and a straight opposite wall, while the other has a straight test wall and a blowing/suction distribution on an opposite porous boundary, adjusted to produce the same pressure distribution. The calculation of the transpiration distribution is made in potential flow, ignoring the boundary layer. This problem of specifying a pressure distribution is known to be ill-posed for short waves. We address this issue by considering a pressure distribution that is very smooth compared with the distance from wall to opposite boundary. It is also ill-posed once separation occurs. The pressure distribution of the viscous flow nevertheless ended up very close to the specified one, upstream of separation, and comparisons are confined to that region. In the entry region the boundary layers have essentially the same thicknesses and are well-developed turbulence-wise, which is essential for a valid comparison. The focus is on the attached flow in the favorable and adverse gradients. The convex curvature is strong enough compared with the boundary-layer thickness to make the strain-rate tensor drop to near zero over the top of the bump. An intense internal layer forms in the favorable gradient, an order of magnitude thinner than the incoming boundary layer. The effect of curvature follows expectations: concave curvature moderately raises the skin friction, although without creating Gortler vortices, and convex curvature reduces it. The pressure gradient still dominates the physics. Common turbulence models unfortunately over-predict the skin friction in both flows near its peak, and under-predict the curvature effect even when curvature corrections are included."
+    },
+    {
+      "title": "Modeling Thermochemical Nonequilibrium With the Continuous Galerkin Finite Element Flow Solver PHASTA",
+      "doi": "https://doi.org/10.2514/6.2024-4367",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This paper aims to introduce developments within the PHASTA flow solver that are needed for applications in hypersonic CFD research. The PHASTA formulation is described and unit tests are performed that serve to validate new features that enable the simulation of thermochemical nonequilibrium. These features include a multi-species reacting flow module, a two-temperature formulation that includes a model for vibrational temperature, a model for mass diffusion, and the Spalart-Allmaras RANS turbulence model. The code accurately predicts the physics for simple problems but requires further development for more complex flows that represent real-world engineering problems."
+    },
+    {
+      "title": "Unsteady Pressure Gradients in Wind Tunnels with Time-Varying Freestreams",
+      "doi": "https://doi.org/10.2514/1.j063971",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "AIAA Journal",
+      "abstract": ""
+    },
+    {
+      "title": "A streamline coordinate analysis of a turbulent boundary layer subject to pressure gradients and curvature on the windward side of a bump",
+      "doi": "https://doi.org/10.1017/jfm.2024.199",
+      "publication_year": 2024,
+      "cited_by_count": 14,
+      "venue": "Journal of Fluid Mechanics",
+      "abstract": "Direct numerical simulation (DNS) of a turbulent boundary layer over the Gaussian (Boeing) bump is performed. This boundary layer exhibits a series of adverse and favourable pressure gradients and convex and concave curvature effects before separating. These effects on turbulent boundary layers are characterised and compared with a lower-Reynolds-number flow over the same geometry. The momentum budgets are analysed in the streamline-aligned coordinate system upstream of the separation region. These momentum budgets allow the simplification of equations to facilitate an integral analysis. Integral-analysis-based approximations for Reynolds stresses in the inner and outer regions of the boundary layer are also formulated. The shear and wall-normal Reynolds stress profiles normalised by these approximations exhibit a better collapse compared with friction velocity and Zagarola–Smits normalisations in the strong favourable pressure gradient region and in the mild adverse pressure region that precedes it in this flow. Simplification of these Reynolds stress approximations along with results from the DNS are used to obtain semi-empirical approximations that are able to provide stress closure in terms of wall solution fields for the turbulent boundary layer under consideration."
+    },
+    {
+      "title": "Aerodynamic Performance of a Finite-Span Wing in a Time-Varying Freestream",
+      "doi": "https://doi.org/10.2514/1.j062710",
+      "publication_year": 2024,
+      "cited_by_count": 8,
+      "venue": "AIAA Journal",
+      "abstract": "The current study analyzes the dynamic response of a NACA 0015 finite-span wing to a time-varying freestream in an unsteady wind tunnel at a mean Reynolds number of [Formula: see text]. The aerodynamic response of the wing can be categorized based on the angle of attack and the degree of flow separation on the suction side of the wing. When the suction side is dominated by separated flow, either at low angles of attack with long laminar separation bubbles or at high, poststall, angles of attack, the lift is enhanced by the favorable pressure gradient during freestream acceleration and decremented by the adverse pressure gradient during freestream deceleration. In these cases, the sectional lift coefficient is shown to oscillate by as much as [Formula: see text] due to the unsteady pressure gradient. Comparatively, regions of attached flow on the wing surface remain largely unaffected by the time-varying conditions, regardless of the reduced frequency. Discrepancies between the measured lift and the estimated response from Isaacs’s theory demonstrate that the coupling between the viscous flow separation and the unsteady conditions dominates the unsteady aerodynamic response."
+    },
+    {
+      "title": "Invariant data-driven subgrid stress modeling on anisotropic grids for large eddy simulation",
+      "doi": "https://doi.org/10.1016/j.cma.2024.116807",
+      "publication_year": 2024,
+      "cited_by_count": 17,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Investigation of the Developing Jet from an Open Test Section Wind Tunnel",
+      "doi": "https://doi.org/10.2514/6.2024-2551",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "The convective nature of unsteady gusts in open test section wind tunnels offer distinct testing advantages in contrast to closed test sections where the disturbances travel at the speed of sound. Matching such configurations in computational studies brings specific challenges in terms of domain, boundary conditions, and the scales that must be resolved. This study focuses on the validation of a high-fidelity simulation of an open test section low-speed unsteady wind tunnel facility and analysis of the resulting flow physics. Results from a Delayed Detached Eddy Simulation matching the entire wind tunnel facility are compared to experimental measurements at steady and unsteady conditions. After validating the computational setup, further analysis of the behaviors of the velocity fields and shear layer dynamics in the wind tunnel setup are investigated which are impractical to measure experimentally. The simulation results allow for a more complete understanding of the overall setup, including the physical effects which need to be taken into account when testing in unsteady conditions and the coupling of velocity fluctuations in the jet core to structures in the shear layers."
+    },
+    {
+      "title": "Modeling Thermochemical Nonequilibrium with the Continuous Galerkin Finite Element Flow Solver PHASTA",
+      "doi": "",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "CU Scholar (University of Colorado Boulder)",
+      "abstract": "This paper aims to introduce developments within the PHASTA flow solver that are needed for applications in hypersonic CFD research. The PHASTA formulation is described and unit tests are performed that serve to validate new features that enable the simulation of thermochemical nonequilibrium. These features include a multi-species reacting flow module, a two-temperature formulation that includes a model for vibrational temperature, a model for mass diffusion, and the Spalart-Allmaras RANS turbulence model. The code accurately predicts the physics for simple problems but requires further development for more complex flows that represent real-world engineering problems."
+    }
+  ]
+}

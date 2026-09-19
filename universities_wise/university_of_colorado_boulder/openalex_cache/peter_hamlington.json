@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Peter Hamlington",
+  "full_name": "Peter E. Hamlington",
+  "department": "Paul M. Rady Mechanical Engineering",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5080791181",
+  "works_count": 215,
+  "cited_by_count": 2201,
+  "h_index": 25,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 68
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 60
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 38
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 36
+    },
+    {
+      "topic": "Fire dynamics and safety research",
+      "count": 21
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Interactions between turbulence and flames in premixed reacting flows",
+      "doi": "https://doi.org/10.1063/1.3671736",
+      "publication_year": 2011,
+      "cited_by_count": 183,
+      "venue": "Physics of Fluids",
+      "abstract": "The interactions between turbulence and flames in premixed reacting flows are studied for a broad range of turbulence intensities by analyzing scalar (reactant mass-fraction) gradient, vorticity, and strain rate fields. The analysis is based on fully compressible, three-dimensional numerical simulations of H2-air combustion in an unconfined domain. For low turbulence intensities, a flame reconstruction method based on the scalar gradient shows that the internal flame structure is similar to that of a laminar flame, while the magnitudes of the vorticity and strain rate are suppressed by heat release and there is substantial anisotropy in the orientation of intense vortical structures. As the turbulence intensity increases, the local flame orientation becomes increasingly isotropic, and the flame preheat zone is substantially broadened. There is, however, relatively little broadening of the reaction zone, even for high intensities. At high turbulence intensities, the vorticity and strain rate are only weakly affected by the flame, and their interactions with the scalar gradient are similar to those found in nonreacting turbulence. A decomposition of the total strain rate into components due to turbulence and the flame shows that vorticity suppression depends on the relative alignment between vorticity and the flame surface normal. This effect is used to explain the anisotropy of intense vortices at low intensities. The decomposition also reveals the separate effects of turbulent and dilatational straining on the flame width."
+    },
+    {
+      "title": "The form and orientation of Langmuir cells for misaligned winds and waves",
+      "doi": "https://doi.org/10.1029/2011jc007516",
+      "publication_year": 2012,
+      "cited_by_count": 180,
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "abstract": "Large eddy simulations of the Craik‐Leibovich equations are used to assess the effect of misaligned Stokes drift and wind direction on Langmuir cells in the ocean mixed layer. Misalignments from 0° to 135° are examined and Langmuir turbulence structures are evident in all cases. The Stokes drift is modeled using a broadband empirical spectrum, and cases with and without the Coriolis effect, wind waves, and an initial mixed layer are examined. The expected scaling for the vertical velocity variance is recovered in the aligned simulations and is adapted here to the misaligned cases. The adjusted scaling projects the friction velocity (aligned with the wind stress) into the dominant axial direction of the Langmuir cells. The turbulent Langmuir number is generalized through a similar projection into the axial direction of the Langmuir cells, which reduces its value in realistic conditions. For known Langmuir cell orientations, the strength of Langmuir turbulence for misaligned cases can be estimated using the projected Langmuir number. A prediction for the angle between the wind stress and cell direction is obtained using the law of the wall; this prediction only requires the wind stress, Stokes drift, and boundary layer depth. Conditional analyses show that, with increasing misalignment, the typically antisymmetric Langmuir cell pairs become asymmetric. This asymmetry is due, in part, to the advection by cross cell flow of vorticity from one vortex tube onto the other, and in part due to an asymmetry induced by the stretching of vertical vorticity into cross cell vorticity."
+    },
+    {
+      "title": "Langmuir–Submesoscale Interactions: Descriptive Analysis of Multiscale Frontal Spindown Simulations",
+      "doi": "https://doi.org/10.1175/jpo-d-13-0139.1",
+      "publication_year": 2014,
+      "cited_by_count": 125,
+      "venue": "Journal of Physical Oceanography",
+      "abstract": "Abstract The interactions between boundary layer turbulence, including Langmuir turbulence, and submesoscale processes in the oceanic mixed layer are described using large-eddy simulations of the spindown of a temperature front in the presence of submesoscale eddies, winds, and waves. The simulations solve the surface-wave-averaged Boussinesq equations with Stokes drift wave forcing at a resolution that is sufficiently fine to capture small-scale Langmuir turbulence. A simulation without Stokes drift forcing is also performed for comparison. Spatial and spectral properties of temperature, velocity, and vorticity fields are described, and these fields are scale decomposed in order to examine multiscale fluxes of momentum and buoyancy. Buoyancy flux results indicate that Langmuir turbulence counters the restratifying effects of submesoscale eddies, leading to small-scale vertical transport and mixing that is 4 times greater than in the simulations without Stokes drift forcing. The observed fluxes are also shown to be in good agreement with results from an asymptotic analysis of the surface-wave-averaged, or Craik–Leibovich, equations. Regions of potential instability in the flow are identified using Richardson and Rossby numbers, and it is found that mixed gravitational/symmetric instabilities are nearly twice as prevalent when Langmuir turbulence is present, in contrast to simulations without Stokes drift forcing, which are dominated by symmetric instabilities. Mixed layer depth calculations based on potential vorticity and temperature show that the mixed layer is up to 2 times deeper in the presence of Langmuir turbulence. Differences between measures of the mixed layer depth based on potential vorticity and temperature are smaller in the simulations with Stokes drift forcing, indicating a reduced incidence of symmetric instabilities in the presence of Langmuir turbulence."
+    },
+    {
+      "title": "Structure and dynamics of highly turbulent premixed combustion",
+      "doi": "https://doi.org/10.1016/j.pecs.2020.100900",
+      "publication_year": 2021,
+      "cited_by_count": 108,
+      "venue": "Progress in Energy and Combustion Science",
+      "abstract": "Turbulent premixed combustion involves simultaneous and mutually interacting fluid, chemical, and transport phenomena spanning a wide range of spatial and temporal scales. Many practical combustion devices – such as gas turbine combustors, afterburners, and ramjets – operate with turbulent flows that contain length and time scales smaller than those associated with premixed flame propagation. This paper reviews current knowledge and understanding of premixed flames at such “highly turbulent” conditions, including the effects of turbulence on the flame and of the flame on turbulence. At these conditions, turbulent fluid motions can have a leading-order effect on the flame thermochemical structure, scalar gradients, and the resultant scalar dynamics. At the same time, the turbulent flow itself is affected by heat release from the flame, resulting in differences compared to classical non-reacting turbulence and to turbulence in flames at lower intensities. We therefore aim to address the following overarching questions: (a) What are highly turbulent premixed flames, how do we characterize them, and what are some of their macroscale behaviors? (b) How are the flame thermochemical states, scalar gradients, diffusion, and other aspects of the flame structure affected by intense turbulence? (c) How are the structure and dynamics of the turbulence affected by the presence of the flame in terms of fluxes, spectra, kinetic energy, and other relevant quantities? We also provide a summary of critical knowledge gaps and an outlook for future research directions."
+    },
+    {
+      "title": "Effects of submesoscale turbulence on ocean tracers",
+      "doi": "https://doi.org/10.1002/2015jc011089",
+      "publication_year": 2015,
+      "cited_by_count": 94,
+      "venue": "Journal of Geophysical Research Oceans",
+      "abstract": "Abstract Ocean tracers such as carbon dioxide, nutrients, plankton, and oil advect, diffuse, and react primarily in the oceanic mixed layer where air‐sea gas exchange occurs and light is plentiful for photosynthesis. There can be substantial heterogeneity in the spatial distributions of these tracers due to turbulent stirring, particularly in the submesoscale range where partly geostrophic fronts and eddies and small‐scale three‐dimensional turbulence are simultaneously active. In this study, a large eddy simulation spanning horizontal scales from 20 km down to 5 m is used to examine the effects of multiscale turbulent mixing on nonreactive passive ocean tracers from interior and sea‐surface sources. The simulation includes the effects of both wave‐driven Langmuir turbulence and submesoscale eddies, and tracers with different initial and boundary conditions are examined in order to understand the respective impacts of small‐scale and submesoscale motions on tracer transport. Tracer properties are characterized using spatial fields and statistics, multiscale fluxes, and spectra, and the results detail how tracer mixing depends on air‐sea tracer flux rate, tracer release depth, and flow regime. Although vertical fluxes of buoyancy by submesoscale eddies compete with mixing by Langmuir turbulence, vertical fluxes of tracers are often dominated by Langmuir turbulence, particularly for tracers that are released near the mixed‐layer base or that dissolve rapidly through the surface, even in regions with pronounced submesoscale activity. Early in the evolution of some tracers, negative eddy diffusivities occur co‐located with regions of negative potential vorticity, suggesting that symmetric instabilities or other submesoscale phenomenon may act to oppose turbulent mixing."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Parameter estimation for subgrid-scale models using Markov chain Monte Carlo approximate Bayesian computation",
+      "doi": "https://doi.org/10.1063/5.0316210",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Physics of Fluids",
+      "abstract": "We demonstrate the use of approximate Bayesian computation (ABC) combined with an “improved” Markov chain Monte Carlo (IMCMC) method to estimate posterior distributions of model parameters in subgrid-scale (SGS) closures for large eddy simulations (LES) of turbulent flows. The ABC–IMCMC approach avoids the need to directly compute a likelihood function during parameter estimation, enabling greater flexibility compared to full Bayesian inversion methods. The method also naturally provides uncertainties in parameter estimates, avoiding the artificial certainty implied by many optimization methods for determining model parameters. In this study, we outline the salient features of the present ABC–IMCMC algorithm, including the use of an adaptive proposal and calibration step to accelerate the parameter estimation process. We demonstrate the approach by estimating parameters in two nonlinear SGS closure forms using three different types of reference data from direct numerical simulations of homogeneous isotropic turbulence. We show that the resulting parameter distributions give excellent agreement with reference probability density functions of the SGS stress and kinetic energy production rate in a priori tests, while also providing stable solutions in forward LES (i.e., a posteriori tests). The ABC–IMCMC method is thus shown to be an effective and efficient approach as compared to traditional ABC for estimating unknown parameters, including their uncertainties, in SGS closure models for LES of turbulent flows, and can be straightforwardly applied to other model forms and reference data."
+    },
+    {
+      "title": "Simultaneous versus sequential estimation of biogeochemical and physical parameters in coupled marine ecosystem models",
+      "doi": "https://doi.org/10.5194/gmd-19-5601-2026",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Geoscientific model development",
+      "abstract": "Abstract. As computational resources have increased in availability and capability, so has the complexity of the models used to represent biogeochemical (BGC) processes in ocean simulations. To effectively calibrate the increasingly large number of uncertain parameters in these models, efficient parameter estimation methods are needed to ensure that the models can accurately represent the BGC processes under investigation. In this study, we address this challenge using a multistage automatic parameter estimation methodology that sequentially applies global sampling and local optimization to calibrate both the BGC model parameters and the parameters associated with the mathematical representation of physical ocean dynamics. We quantitatively compare the accuracy of sequential and simultaneous parameter estimations of moderately complex BGC and physical models at locations corresponding to the Bermuda Atlantic time series and the Hawaii Ocean time series. The results show that the best overall agreement with the observational data is obtained when the BGC and physical model parameters are estimated simultaneously, rather than sequentially. In particular, simultaneous estimation results in significantly improved predictions of oxygen and particulate organic nitrogen. Moreover, the agreement is improved in general when the physical model is included in the estimation, as opposed to calibrating the BGC model alone. This study also serves as a demonstration of a meta-algorithm for performing parameter estimation in high-dimensional models with local optimization approaches."
+    },
+    {
+      "title": "Adaptive Computational Framework to Infer Flaring Source Conditions from Remotely-Sensed Measurements of Methane Emissions",
+      "doi": "https://doi.org/10.5281/zenodo.19829556",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": ""
+    },
+    {
+      "title": "Adaptive Computational Framework to Infer Flaring Source Conditions from Remotely-Sensed Measurements of Methane Emissions",
+      "doi": "https://doi.org/10.5281/zenodo.19829555",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": ""
+    },
+    {
+      "title": "High-speed thermal imaging of disk-shaped firebrands in a wind tunnel",
+      "doi": "https://doi.org/10.1016/j.firesaf.2026.104707",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Fire Safety Journal",
+      "abstract": ""
+    },
+    {
+      "title": "Using terrestrial laser scanning to estimate mass of hand-built slash piles following hazardous fuels treatments",
+      "doi": "https://doi.org/10.3389/ffgc.2025.1663753",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Frontiers in Forests and Global Change",
+      "abstract": "Pile burning is increasingly used in many forest and woodland ecosystems to reduce hazardous fuel loads following fuel hazard reduction or forest restoration efforts. Pile burning is often linked to thinning practices where residual fuel is piled and subsequently burned; the burning is typically done in winter months when conditions reduce the risk of unwanted fire behavior such as escapes. A key aspect of pile burning is estimating the amount of pile biomass and the amount of fuel consumed during burning as these two variables are critical for estimating treatment efficacy and smoke emissions. Methods to estimate pile masses have been studied and developed previously, however, they are time consuming and require extensive user training. Terrestrial laser scanning (TLS) is a remote sensing tool that has been successfully used on broadcast burning for fuel characterization and has the potential to estimate pile masses at prescribed burning sites. TLS reduces measurement error, requires less extensive user training, and eliminates observer bias in measurements. A total of 16 pile masses were measured across Colorado, United States, using a previously developed pile measurement methodology, using TLS, and by taking apart the pile and weighing the contents of the pile, to determine if TLS would be an adequate method for predicting pile masses. Individually, TLS did not do a good job predicting pile masses, however, when comparing across all 15 piles, using three TLS scans of a pile to estimate pile mass had the lowest median percent error across all piles."
+    },
+    {
+      "title": "Automatic reduction of ocean biogeochemical models: a case study with BFM (v5.3)",
+      "doi": "https://doi.org/10.5194/egusphere-2025-2901",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Abstract. Modeling biogeochemical processes in ocean fluid dynamics simulations is computationally expensive, necessitating efficient model reduction techniques. Large-scale biophysical simulations, such as high-resolution large-eddy simulations (LES) of the upper ocean, require significant computing resources to capture small-scale turbulent processes while also resolving the evolution of reactive biogeochemical tracers. However, the complexity of existing biogeochemical models, such as the Biogeochemical Flux Model (BFM) which resolves 56 state variables, leads to unfeasibly high computational costs when represented in detailed LES. To address this, we applied model reduction techniques from the field of combustion to systematically reduce the complexity of the BFM while maintaining high fidelity. Specifically, we developed a modified version of the Directed Relation Graph with Error Propagation method and applied it to a 50-state-variable BFM. By analyzing 24 reduction scenarios, we produced five reduced models containing between 1 and 36 state variables capable of accurately capturing trends in concentration of the target fields. The results demonstrate the effectiveness of this reduction approach in preserving key biogeochemical dynamics while significantly reducing model size and complexity, paving the way for more efficient high-resolution ocean biogeochemical simulations."
+    },
+    {
+      "title": "Global analysis of the interactions between small-scale ocean turbulence and carbonate chemistry",
+      "doi": "https://doi.org/10.22541/essoar.175372323.33290055/v1",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "The flux of carbon dioxide (\\ce{CO2}) at the air-sea interface is affected by many factors, including the transport of dissolved \\ce{CO2} away from the surface by turbulent advection. In this study, we characterize the effects of turbulence on \\ce{CO2} fluxes by examining global variations in the time scales associated with small-scale turbulent mixing and carbonate chemistry. A map of the turbulence time scale, $\\tau_t$, is obtained from a series of hydrodynamics-only large eddy simulations (LES) and the chemical time scale, $\\tau_c$, is obtained from the Jacobian of the carbonate chemical system. The global map of the ratio $\\tau_t/\\tau_c$, known as the Damk\\”{o}hler number (Da), shows that turbulence has the strongest effect on \\ce{CO2} fluxes in mid- to high-latitude regions with lower surface temperatures and higher wind speeds and stresses. We verified these results using higher-resolution LES with coupled chemistry for five conditions corresponding to low, intermediate, and high Da."
+    },
+    {
+      "title": "Multifidelity Optimization of Turbulence in a Gas Turbine Combustor Simulator",
+      "doi": "https://doi.org/10.1115/1.4068012",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Journal of Engineering for Gas Turbines and Power",
+      "abstract": "Abstract Combustor turbulence in a gas turbine engine greatly influences the efficiency of the downstream high-pressure turbine stage. Here we use a multifidelity computational optimization methodology to modify the geometry of a nonreacting combustor simulator such that turbulence properties are optimized at the combustor-turbine interface. We modify the size, orientation, and positioning of the primary and dilution jets to minimize turbulence intensity at the combustor exit while demonstrating negligible or favorable changes to the pressure loss and mixing characteristics of the combustor. The optimization is performed using a machine learning surrogate-assisted genetic algorithm coupled with large eddy simulations (LES) and Reynolds-averaged Navier–Stokes (RANS) simulations. The optimization is performed in three phases: (i) we develop a continuously learning artificial neural network surrogate model, (ii) we perform a stochastic optimization with RANS simulations to narrow the parameter space, and (iii) we perform a stochastic optimization with a coarse-grid LES to identify the optimal solution. Using this approach, we are able to achieve a 5.35% reduction in turbulence intensity and a 0.42% reduction in pressure loss while maintaining good mixing uniformity at the combustor exit. These changes are enabled primarily by changing the aspect ratio, diameter, and spacing of the primary zone and dilution jets, as well as the chute height of the primary zone jets. This successful demonstration of multifidelity optimization in the combustor simulator can be extended in the future to the design of improved gas turbine combustors."
+    },
+    {
+      "title": "Examination of Turbulent Kinetic Energy Transfer in Realistic Premixed Reacting Flows",
+      "doi": "https://doi.org/10.1115/imece2024-147166",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Abstract We investigate the kinetic energy flux across different spatial scales for a premixed flame in a realistic configuration. We use PeleC, a fully-compressible reacting flow code with adaptive mesh refinement, to obtain a fully-resolved flow field for a bluff body stabilized premixed methane-air flame situated within a converging nozzle and subjected to free-stream turbulence. We apply Gaussian filters of multiple sizes to the simulation data to evaluate the net kinetic energy flux between resolved (i.e., large) and sub-grid (i.e., small) scales, with transfer from small to large scales corresponding to energy “backscatter”. Using three filter sizes, we find that there is statistically-significant amounts of backscatter towards the unburned side of the flame, coinciding with regions of high flame-generated enstrophy production due to baroclinic torque. Despite the same general trends recovered through each of the filters, backscatter is more pronounced for the smaller filter widths that are a fraction of the thermal flame thickness, indicating that backscatter becomes less pronounced further from the flame scale in this flow."
+    }
+  ]
+}

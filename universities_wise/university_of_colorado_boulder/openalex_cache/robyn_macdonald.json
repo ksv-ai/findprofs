@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Robyn Macdonald",
+  "full_name": "Robyn L. Macdonald",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5017038842",
+  "works_count": 38,
+  "cited_by_count": 588,
+  "h_index": 8,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 27
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 12
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 9
+    },
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 5
+    },
+    {
+      "topic": "Quantum, superfluid, helium dynamics",
+      "count": 5
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "HBTU activation for automated Fmoc solid-phase peptide synthesis.",
+      "doi": "",
+      "publication_year": 1992,
+      "cited_by_count": 230,
+      "venue": "PubMed",
+      "abstract": "Excellent results have been obtained for the Fmoc solid-phase syntheses of peptides using the activating reagent 2-(1H-benzotriazol-1-yl)-1,1,3,3,-tetramethyluronium hexafluorophosphate (HBTU). Activation occurs very rapidly in N,N-dimethylformamide and N-methyl-pyrrolidone, optimal solvents for peptide-resin solvation. It has been observed that complete coupling reactions occur in only 10-30 min. Residues such as Arg, Ile, Leu and Val, which often require double coupling by other activation methods, react with high efficiency by single coupling when HBTU is used. The Fmoc/HBTU chemistry has recently been applied to the peptide synthesizers. The incorporation of trityl side-chain protection for Fmoc-Asn and Fmoc-Gln further enhances coupling efficiencies in difficult sequences."
+    },
+    {
+      "title": "Construction of a coarse-grain quasi-classical trajectory method. I. Theory and application to N2–N2 system",
+      "doi": "https://doi.org/10.1063/1.5011331",
+      "publication_year": 2018,
+      "cited_by_count": 103,
+      "venue": "The Journal of Chemical Physics",
+      "abstract": "This work aims to construct a reduced order model for energy transfer and dissociation in non-equilibrium nitrogen mixtures. The objective is twofold: to present the Coarse-Grain Quasi-Classical Trajectory (CG-QCT) method, a novel framework for constructing a reduced order model for diatom-diatom systems; and to analyze the physics of non-equilibrium relaxation of the nitrogen molecules undergoing dissociation in an ideal chemical reactor. The CG-QCT method couples the construction of the reduced order model under the coarse-grain model framework with the quasi-classical trajectory calculations to directly construct the reduced model without the need for computing the individual rovibrational specific kinetic data. In the coarse-grain model, the energy states are lumped together into groups containing states with similar properties, and the distribution of states within each of these groups is prescribed by a Boltzmann distribution at the local translational temperature. The required grouped kinetic properties are obtained directly by the QCT calculations. Two grouping strategies are considered: energy-based grouping, in which states of similar internal energy are lumped together, and vibrational grouping, in which states with the same vibrational quantum number are grouped together. A zero-dimensional chemical reactor simulation, in which the molecules are instantaneously heated, forcing the system into strong non-equilibrium, is used to study the differences between the two grouping strategies. The comparison of the numerical results against available experimental data demonstrates that the energy-based grouping is more suitable to capture dissociation, while the energy transfer process is better described with a vibrational grouping scheme. The dissociation process is found to be strongly dependent on the behavior of the high energy states, which contribute up to 50% of the dissociating molecules. Furthermore, up to 40% of the energy required to dissociate the molecules comes from the rotational mode, underscoring the importance of accounting for this mode when constructing non-equilibrium kinetic models. In contrast, the relaxation process is governed primarily by low energy states, which exhibit significantly slower transitions in the vibrational binning model due to the prevalence of mode separation in these states."
+    },
+    {
+      "title": "Construction of a coarse-grain quasi-classical trajectory method. II. Comparison against the direct molecular simulation method",
+      "doi": "https://doi.org/10.1063/1.5011332",
+      "publication_year": 2018,
+      "cited_by_count": 80,
+      "venue": "The Journal of Chemical Physics",
+      "abstract": "This work presents the analysis of non-equilibrium energy transfer and dissociation of nitrogen molecules (N2(Σg+1)) using two different approaches: the direct molecular simulation (DMS) method and the coarse-grain quasi-classical trajectory (CG-QCT) method. The two methods are used to study thermochemical relaxation in a zero-dimensional isochoric and isothermal reactor in which the nitrogen molecules are heated to several thousand degrees Kelvin, forcing the system into strong non-equilibrium. The analysis considers thermochemical relaxation for temperatures ranging from 10 000 to 25 000 K. Both methods make use of the same potential energy surface for the N2(Σg+1)−N2(Σg+1) system taken from the NASA Ames quantum chemistry database. Within the CG-QCT method, the rovibrational energy levels of the electronic ground state of the nitrogen molecule are lumped into a reduced number of bins. Two different grouping strategies are used: the more conventional vibrational-based grouping, widely used in the literature, and energy-based grouping. The analysis of both the internal state populations and concentration profiles show excellent agreement between the energy-based grouping and the DMS solutions. During the energy transfer process, discrepancies arise between the energy-based grouping and DMS solution due to the increased importance of mode separation for low energy states. By contrast, the vibrational grouping, traditionally considered state-of-the-art, captures well the behavior of the energy relaxation but fails to consistently predict the dissociation process. The deficiency of the vibrational grouping model is due to the assumption of strict mode separation and equilibrium of rotational energy states. These assumptions result in errors predicting the energy contribution to dissociation from the rotational and vibrational modes, with rotational energy actually contributing 30%-40% of the energy required to dissociate a molecule. This work confirms the findings discussed in Paper I [R. L. Macdonald et al., J. Chem. Phys. 148, 054309 (2018)], which underlines the importance of rotational energy to the dissociation process, and demonstrates that an accurate non-equilibrium chemistry model must accurately predict the deviation of rovibrational distribution from equilibrium."
+    },
+    {
+      "title": "State-to-State Master Equation and Direct Molecular Simulation Study of Energy Transfer and Dissociation for the N2–N System",
+      "doi": "https://doi.org/10.1021/acs.jpca.0c04029",
+      "publication_year": 2020,
+      "cited_by_count": 42,
+      "venue": "The Journal of Physical Chemistry A",
+      "abstract": "We present a detailed comparison of two high-fidelity approaches for simulating non-equilibrium chemical processes in gases: the state-to-state master equation (StS-ME) and the direct molecular simulation (DMS) methods. The former is a deterministic method, which relies on the pre-computed kinetic database for the N 2 –N system based on the NASA Ames ab initio potential energy surface (PES) to describe the evolution of the molecules’ internal energy states through a system of master equations. The latter is a stochastic interpretation of molecular dynamics relying exclusively on the same ab initio PES. It directly tracks the microscopic gas state through a particle ensemble undergoing a sequence of collisions. We study a mixture of nitrogen molecules and atoms forced into strong thermochemical non-equilibrium by sudden exposure of rovibrationally cold gas to a high-temperature heat bath. We observe excellent agreement between the DMS and StS-ME predictions for the transfer rates of translational into rotational and vibrational energy, as well as of dissociation rates across a wide range of temperatures. Both methods agree down to the microscopic scale, where they predict the same non-Boltzmann population distributions during quasi-steady-state dissociation. Beyond establishing the equivalence of both methods, this cross-validation helped in reinterpreting the NASA Ames kinetic database and resolve discrepancies observed in prior studies. The close agreement found between the StS-ME and DMS methods, whose sole model inputs are the PESs, lends confidence to their use as benchmark tools for studying high-temperature air chemistry."
+    },
+    {
+      "title": "Nonequilibrium radiation and dissociation of CO molecules in shock-heated flows",
+      "doi": "https://doi.org/10.1103/physrevfluids.1.043401",
+      "publication_year": 2016,
+      "cited_by_count": 35,
+      "venue": "Physical Review Fluids",
+      "abstract": "Vehicles descending onto a planet's atmosphere create shocks and radiative heat transfer. A theoretical study on the behavior of the excited electronic states of CO molecules sheds light on the determination of the radiative heat loads generated while attempting to land on Mars."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Rovibrational-Specific Kinetics Database and Master Equation Study for the O2 + N and NO+O Systems Using Ground Electronic State NO2 Potential Energy Surfaces",
+      "doi": "https://doi.org/10.1021/acs.jpca.6c02327",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "The Journal of Physical Chemistry A",
+      "abstract": "Abstract Motivated by the study of high-enthalpy air flows, this work investigates the nonequilibrium kinetics of the O2 + N and NO + O systems. Rovibrationally resolved kinetic data for the O2 + N and NO + O systems are generated using quasi-classical trajectory (QCT) simulations performed on high-fidelity ab initio potential energy surfaces (PESs). State-specific cross sections and rate coefficients are computed over a wide range of collision energies and initial rovibrational states and subsequently incorporated into a master-equation framework to evaluate thermal and quasi-steady-state (QSS) rate coefficients, internal energy transfer, and dissociation energy removal. The results reveal strong mode-specific effects in dissociation kinetics. For both systems, dissociation rates increase sharply with internal energy; however, at fixed total energy, molecules with high vibrational energy dissociate several orders of magnitude faster than those with low vibrational energy but matched internal energy, demonstrating clear preferential vibrational promotion. Bound–bound transitions show that higher-multiplicity potential energy surfaces significantly enhance inelastic transition rates, particularly for large energy gaps. Master-equation analysis indicates that vibrational and rotational modes relax on distinct time scales at low temperatures, with convergence at higher temperatures driven by increased collisional efficiency. Comparison with data from literature reveals the importance of the inclusion of the sextet PES in accurately predicting the energy relaxation rates. These results provide detailed insight into energy transfer and dissociation dynamics in the NO2 system and establish a physically consistent basis for reduced-order kinetic modeling under nonequilibrium conditions."
+    },
+    {
+      "title": "Influence of wall thermal boundary condition on mean-flow characteristics of a Mach 2.5 fully rough turbulent boundary layer",
+      "doi": "https://doi.org/10.48550/arxiv.2609.09341",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We investigate turbulent boundary layers at Mach 2.5 over sinusoidal roughness at matched $Re_τ=784$. We considered three wall temperatures, $T_w/T_r=$ 1.0, 0.7, and 0.4. Each wall temperature was repeated with a smooth and rough surface, the latter following a three-dimensional sinusoidal profile with effective slope 0.5 and matched $k^+=79.1$. In total six direct numerical simulations were completed. Analysis of mean wall shear and heat transfer detailed the augmentation in skin friction and heat transfer coefficient between smooth and rough cases; resulting in the classical failure of the Reynolds analogy for rough walls. We also show that differences in shear stress across wall temperatures are driven by the viscous component even though the pressure component dominates. The roughness sublayer was found to be $R_{RSL}=3k-6k$, consistent with the literature. Moreover, the wall offset $d=d_Θ\\approx0.5k$ for both momentum and thermal boundary layers, signifying the offset represents the half peak-to-valley height rather than the \"mean roughness height.\" For the mean momentum boundary layer, we find the present conditions recover the incompressible roughness function $Δu_1^+$ when matched via the semi-local roughness Reynolds number $k^*$. For this reason, an equivalent sand-grain roughness of $k_s^*\\approx3.7k^*$ is proposed. The existing compressible transformations hold regardless of wall temperature or roughness - contradicting recent claims otherwise. The generalized Reynolds analogy works for smooth walls but fails for rough walls; a roughness correction term is proposed and validated. Compressible mean temperature transformations fail for cold walls, especially when $(T_w-T_e)/(T_r-T_e)<0$. The thermal roughness function, $ΔΘ^+$, is reported with caution given transformation singularities."
+    },
+    {
+      "title": "Distributed Roughness-Induced Transition on a Blunt Body at Mach 6: a Numerical Investigation",
+      "doi": "https://doi.org/10.48550/arxiv.2602.03617",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Surface roughness significantly impacts transition to turbulence, especially over high-speed, blunt geometries where surface ablation is necessary to mitigate heat loads during atmospheric entry. Inspired by sand-grain roughness experiments performed by Hollis (2017), we perform the first direct numerical simulation (DNS) of a blunt cylinder in Mach 6 cross-flow with roughness elements distributed along the entire surface. Such simulations aimed to uncover the precise means by which laminar-turbulent transition occurs given the limited measurements attainable from experiments and non-existent high-fidelity simulations. Element heights were held fixed at approximately 35% boundary layer thickness, while the relative phasing between streamwise rows was varied. All configurations exhibited convective instabilities driving the transition process, with the mode type being set by the roughness configuration. A fundamental sinuous streak mode dominated the aligned roughness element case, whereas both the staggered and randomly phased cases saw 2D T-S waves dominating. These instability waves, when grown to sufficient amplitude, triggered the steady streaks seeded by the underlying roughness pattern to begin forming hairpin vortices and breakdown occurred soon thereafter. The roughness arrangement was found to dramatically influence the degree to which the waves were destabilised, as well as the strength of the underlying steady streaks, thereby combining to dictate the position along the surface where LTT occurred. Finally, exogeneous forcing was not required for the T-S dominated cases as the acoustics generated by the turbulence in the subsonic flow excited T-S waves on the other side - a feedback mechanism hitherto unknown."
+    },
+    {
+      "title": "Distributed Roughness-Induced Transition on a Blunt Body at Mach 6: a Numerical Investigation",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Surface roughness significantly impacts transition to turbulence, especially over high-speed, blunt geometries where surface ablation is necessary to mitigate heat loads during atmospheric entry. Inspired by sand-grain roughness experiments performed by Hollis (2017), we perform the first direct numerical simulation (DNS) of a blunt cylinder in Mach 6 cross-flow with roughness elements distributed along the entire surface. Such simulations aimed to uncover the precise means by which laminar-turbulent transition occurs given the limited measurements attainable from experiments and non-existent high-fidelity simulations. Element heights were held fixed at approximately 35% boundary layer thickness, while the relative phasing between streamwise rows was varied. All configurations exhibited convective instabilities driving the transition process, with the mode type being set by the roughness configuration. A fundamental sinuous streak mode dominated the aligned roughness element case, whereas both the staggered and randomly phased cases saw 2D T-S waves dominating. These instability waves, when grown to sufficient amplitude, triggered the steady streaks seeded by the underlying roughness pattern to begin forming hairpin vortices and breakdown occurred soon thereafter. The roughness arrangement was found to dramatically influence the degree to which the waves were destabilised, as well as the strength of the underlying steady streaks, thereby combining to dictate the position along the surface where LTT occurred. Finally, exogeneous forcing was not required for the T-S dominated cases as the acoustics generated by the turbulence in the subsonic flow excited T-S waves on the other side - a feedback mechanism hitherto unknown."
+    },
+    {
+      "title": "Compressible Laminar Locally Self-Similar Boundary Layers in Thermochemical Nonequilibrium",
+      "doi": "https://doi.org/10.2514/6.2026-2061",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "",
+      "abstract": "Computational Fluid Dynamics (CFD) simulations have played an important role in the analysis of boundary layers in thermochemical nonequilibrium, as these simulation provide abundant information on flow over complex geometries. However, sometimes it may be desirable to obtain the important trends within boundary layers. We employ a locally self-similar approximation to reduce a complicated two-dimensional problem involving partial differential equations, to one involving nonlinear ordinary differential equations (ODEs) which are solved using appropriate numerical techniques. Solutions are presented for chemically reacting boundary layers in thermal equilibrium and nonequilibrium. We observe that the addition of nonequilibrium thermochemistry results in lower chemical activity and marginally higher wall heating, compared to cases with equilibrium thermochemistry. Prandtl and Lewis numbers remain largely constant within the boundary layer, but are defined differently for trans-rotational and vibro-electronic energy diffusion processes. Finally, using a Damköhler number study, we show that NO molecules are key drivers of both vibrational and chemical nonequilibrium. The solver is proposed to be extended to include state-specific chemistry and surface catalysis, and will be verified against CFD calculations."
+    },
+    {
+      "title": "Assessment of QCT–Master Equation Informed Chemical Kinetic Parameters for the O 2 +N interaction in a Two-Temperature Mode",
+      "doi": "https://doi.org/10.2514/6.2026-2803",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Accurate modeling of thermochemical nonequilibrium is essential for predicting plasma formation and radio communication blackout in hypersonic flows. This work develops a new QCT-informed kinetic model for the NO2 system—focusing on the O2+N reactions—and evaluates its impact on electron and NO predictions at several trajectory points of the RAM-C II and BSUV-2 flight tests. State-resolved QCT data are processed with master-equation calculations to obtain thermal and QSS rate coefficients, vibrational relaxation times, and vibrational energy removal, which are then fitted to Arrhenius and modified Marrone–Treanor (MMT) forms for two-temperature CFD. Zero-dimensional analysis shows that Park’s commonly used O2+N dissociation rate overpredicts QCT-based values by up to a factor of four and that Millikan–White relaxation significantly misrepresents O2+N vibrational relaxation at high temperatures. CFD simulations reveal that, at the 5.1~km/s BSUV-2 condition, the choice of chemistry model produces a factor of two to three difference in electron number density, while the new QCT-based rates modify electron and NO concentrations by 15–20%. At the higher-velocity RAM-C II trajectory points (7.6~km/s), sensitivity to neutral kinetics decreases for electrons but remains substantial for NO populations. Overall, the results highlight 5–6~km/s re-entry conditions as highly discriminating for chemistry model validation and demonstrate the importance of updating legacy 2T air models with QCT- and DMS-informed kinetics for O2 and NO reactions."
+    },
+    {
+      "title": "State-to-State Oxygen and Nitrogen Recombination Rates Computed Using Selectively Sampled Quasiclassical Trajectories",
+      "doi": "https://doi.org/10.2514/1.t7216",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Journal of Thermophysics and Heat Transfer",
+      "abstract": "Gas-phase recombination is observed in several hypersonic flow environments involving rapid cooling and acceleration through expansion. However, high-fidelity kinetic databases for these conditions are often unavailable due to the difficulty in resolving reaction rate coefficients using Monte Carlo methods at relatively low temperatures. In this work, we demonstrate the application of a selective sampling methodology to calculate highly accurate rovibrational state-specific dissociation rate coefficients between temperatures 1000 and 5000 K and the calculation of recombination rate coefficients using microscopic reversibility. Selective sampling results in statistically better resolved dissociation rate coefficients at much lower computational costs. The calculated rate coefficients for the [Formula: see text] and [Formula: see text] systems exhibit excellent agreement with literature over a wide range of temperatures and comprise two of the few high-fidelity databases that contain rate coefficients at temperatures of below 2500 K. Isothermal heat bath simulations are used to verify the accuracy of the databases obtained using selective sampling. The existing and updated [Formula: see text] kinetic databases are in excellent agreement in terms of both macroscopic and microscopic parameters, while differences arise between the [Formula: see text] databases due to the comparatively lower resolution of the existing [Formula: see text] database. The updated kinetic databases are available upon request."
+    },
+    {
+      "title": "Demonstration of an integral method for estimating wall shear stress in complex high-speed flows",
+      "doi": "https://doi.org/10.48550/arxiv.2508.15024",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Turbulent flows over blunt bodies with distributed roughness present a class of problems relevant to hypersonic atmospheric entry systems. However, accurate predictions of shear stress on such bodies remains elusive. This work presents a simple integral formulation to infer wall shear stress based on the Favre-averaged streamwise momentum equation, integrated once in the wall-normal direction. The proposed integral formulation eliminates streamwise dependence, relying only on data and gradients extracted in the wall normal direction. Eight demonstration cases were selected to show the contributions of the various terms of the integral equation, the associated error in the estimate, and outline practical considerations when estimating the wall shear stress for complex flow conditions. In all cases, the error in the predicted shear stress compared to a more traditional approach was no more than 5%, with many cases having much lower error. Notably, the method was found to be viable even for surfaces in the transitionally rough and fully rough regimes by appropriate selection of a virtual origin, as well as flows over curved surfaces or with pressure gradients. Finally, the method produces acceptable estimates of shear stress even in the extreme condition when over 40% of the near-wall boundary layer data is absent. In brief, the present integral method is general and applicable to flows with curvature, surface roughness, and pressure gradients."
+    },
+    {
+      "title": "Rovibrational-Specific Kinetics Database and Master Equations Study on NO(X2Π)+O(3P) and O2(3Σg-)+N(4S) Systems",
+      "doi": "https://doi.org/10.2514/6.2025-2341",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "",
+      "abstract": "This study investigates the kinetics for the NO + O and O2 + N systems in hypersonic environments, focusing on state-specific rovibrational processes. QCT simulations are performed using PESs developed by Varga et al. to compute state-resolved rate coefficients, which are integrated into a comprehensive master equations analysis. The study examines energy transfer mechanisms and the validity of QSS rates, emphasizing dissociation and heterogeneous exchange reactions. The results reveal significant differences in relaxation profiles between NO and O2, influenced by internal molecular structures and energy barriers. While the QSS approximation is validated at T = 10,000~K, a substantial fraction of the chemical production for heterogeneous exchange processes occurs outside the QSS period. These findings highlight the critical role of dissociation and energy redistribution in shaping the nonequilibrium kinetics of the Zeldovich mechanism."
+    },
+    {
+      "title": "Two Temperature Wall Model for High Enthalpy Hypersonic Large Eddy Simulation",
+      "doi": "https://doi.org/10.2514/6.2025-2576",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Turbulence modeling for high-enthalpy hypersonic flows used in design are restricted to Reynolds Averaged Navier-Stokes (RANS) approaches due to the large computational cost of scale resolving methods. Large eddy simulation (LES) provides increased accuracy, but the computational cost rapidly approaches that of DNS when solving for wall bounded flows. This paper proposes a wall model capable of capturing relevant thermochemical non-equilibrium phenomena for hypersonic atmospheric entry flows. The proposed model is based on the Park 2-Temperature model widely used in the hypersonic entry modeling community. We test the proposed model in an uncoupled simulation to verify the implementation using data obtained from RANS calculations."
+    }
+  ]
+}

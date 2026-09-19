@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Ian Grooms",
+  "full_name": "Ian Grooms",
+  "department": "Applied Mathematics",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5016646160",
+  "works_count": 137,
+  "cited_by_count": 1409,
+  "h_index": 20,
+  "top_topics": [
+    {
+      "topic": "Climate variability and models",
+      "count": 63
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 55
+    },
+    {
+      "topic": "Oceanographic and Atmospheric Processes",
+      "count": 54
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 20
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 10
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Statistical and physical balances in low Rossby number Rayleigh–Bénard convection",
+      "doi": "https://doi.org/10.1080/03091929.2012.696109",
+      "publication_year": 2012,
+      "cited_by_count": 234,
+      "venue": "Geophysical & Astrophysical Fluid Dynamics",
+      "abstract": "Rapidly rotating Rayleigh–Bénard convection is studied using an asymptotically reduced equation set valid in the limit of low Rossby numbers. Four distinct dynamical regimes are identified: a disordered cellular regime near threshold, a regime of weakly interacting convective Taylor columns at larger Rayleigh numbers, followed for yet larger Rayleigh numbers by a breakdown of the convective Taylor columns into a disordered plume regime characterized by reduced efficiency and finally by geostrophic turbulence. The transitions are quantified by examining the properties of the horizontally and temporally averaged temperature and thermal dissipation rate. The maximum of the thermal dissipation rate is used to define the width of the thermal boundary layer. In contrast to the non-rotating Rayleigh–Bénard convection, the temperature drop across this layer decreases monotonically with increasing Rayleigh number and does not saturate. The breakdown of the convective Taylor column regime is attributed to the onset of convective instability of the thermal boundary layer and confirmed using the explicit linear stability analysis. Horizontal spectra of the vorticity, vertical velocity and temperature fluctuations are computed and their evolution with time is elucidated. A large-scale barotropic mode evolves from random initial conditions on an extremely long time scale and leads to continued evolution of the nominally saturated Nusselt number and its variance over very long times. The results are used to provide insights into the dynamics of rapidly rotating convection outside the asymptotic regime described by the reduced equations."
+    },
+    {
+      "title": "Model of Convective Taylor Columns in Rotating Rayleigh-Bénard Convection",
+      "doi": "https://doi.org/10.1103/physrevlett.104.224501",
+      "publication_year": 2010,
+      "cited_by_count": 91,
+      "venue": "Physical Review Letters",
+      "abstract": "Observations, and laboratory and numerical studies, of fluid flows with strong rotation and thermal forcing often show long-lived convective Taylor columns (CTCs) which carry a large portion of the vertical heat and mass fluxes. However, owing to experimental and numerical challenges, these structures remain poorly understood. Here we present a nonlinear, analytical multiscale model of CTCs in the context of rotating Rayleigh-Bénard convection that successfully matches numerical simulations and provides a new multiscale interpretation of the Taylor-Proudman constraint."
+    },
+    {
+      "title": "Diffusion‐Based Smoothers for Spatial Filtering of Gridded Geophysical Data",
+      "doi": "https://doi.org/10.1029/2021ms002552",
+      "publication_year": 2021,
+      "cited_by_count": 74,
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "abstract": "Abstract We describe a new way to apply a spatial filter to gridded data from models or observations, focusing on low‐pass filters. The new method is analogous to smoothing via diffusion, and its implementation requires only a discrete Laplacian operator appropriate to the data. The new method can approximate arbitrary filter shapes, including Gaussian filters, and can be extended to spatially varying and anisotropic filters. The new diffusion‐based smoother's properties are illustrated with examples from ocean model data and ocean observational products. An open‐source Python package implementing this algorithm, called gcm‐filters, is currently under development."
+    },
+    {
+      "title": "Efficient stochastic superparameterization for geophysical turbulence",
+      "doi": "https://doi.org/10.1073/pnas.1302548110",
+      "publication_year": 2013,
+      "cited_by_count": 72,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "abstract": "Efficient computation of geophysical turbulence, such as occurs in the atmosphere and ocean, is a formidable challenge for the following reasons: the complex combination of waves, jets, and vortices; significant energetic backscatter from unresolved small scales to resolved large scales; a lack of dynamical scale separation between large and small scales; and small-scale instabilities, conditional on the large scales, which do not saturate. Nevertheless, efficient methods are needed to allow large ensemble simulations of sufficient size to provide meaningful quantifications of uncertainty in future predictions and past reanalyses through data assimilation and filtering. Here, a class of efficient stochastic superparameterization algorithms is introduced. In contrast to conventional superparameterization, the method here (i) does not require the simulation of nonlinear eddy dynamics on periodic embedded domains, (ii) includes a better representation of unresolved small-scale instabilities, and (iii) allows efficient representation of a much wider range of unresolved scales. The simplest algorithm implemented here radically improves efficiency by representing small-scale eddies at and below the limit of computational resolution by a suitable one-dimensional stochastic model of random-direction plane waves. In contrast to heterogeneous multiscale methods, the methods developed here do not require strong scale separation or conditional equilibration of local statistics. The simplest algorithm introduced here shows excellent performance on a difficult test suite of prototype problems for geophysical turbulence with waves, jets, and vortices, with a speedup of several orders of magnitude compared with direct simulation."
+    },
+    {
+      "title": "Stochastic superparameterization in a quasigeostrophic model of the Antarctic Circumpolar Current",
+      "doi": "https://doi.org/10.1016/j.ocemod.2014.10.001",
+      "publication_year": 2014,
+      "cited_by_count": 62,
+      "venue": "Ocean Modelling",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Beyond Inflation: Backscatter Parameterizations to Address the Variability Deficit in Global Ocean Data Assimilation",
+      "doi": "https://doi.org/10.3390/jmse14141273",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Marine Science and Engineering",
+      "abstract": "Global ocean models at non-eddying resolutions currently used for subseasonal to seasonal to decadal (S2S2D) prediction suffer from a severe deficit in internal variability. In ensemble data assimilation (DA), this can lead to under-dispersed ensembles that require inflation schemes. However, inflation corrections do not persist into the forecast phase, causing ensemble spread to collapse at longer lead times. This study evaluates an alternative approach: addressing the variability deficit directly within the model physics using a “Backscatter Package” (BackPack) consisting of the stochastic Stanley, stochastic GM+E, and Leith+E backscatter parameterizations. Implemented within a global MOM6/CESM framework at nominal 2/3° resolution using the DART ensemble DA package, the BackPack’s impacts are compared against cutting-edge adaptive inflation. The results demonstrate that the BackPack substantially increases internal variability and ensemble spread, successfully lowering the amount of required inflation. While reductions in ensemble-mean state errors are modest, the BackPack significantly improves ensemble calibration, assessed using a novel spread–error calibration ratio metric. Although this study only addresses the data assimilation phase, we expect that physics-based BackPack schemes may provide a physically sustainable pathway to maintain spread during the subsequent forecast phase."
+    },
+    {
+      "title": "Data and Scripts for Beyond Inflation: Backscatter Parameterizations to Address the Variability Deficit in Global Ocean Data Assimilation",
+      "doi": "https://doi.org/10.6084/m9.figshare.32811074",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Scripts and data used in the paper \"Beyond Inflation: Backscatter Parameterizations to Address the Variability Deficit in Global Ocean Data Assimilation\" by Boden et al. (2026)"
+    },
+    {
+      "title": "Data and Scripts for Beyond Inflation: Backscatter Parameterizations to Address the Variability Deficit in Global Ocean Data Assimilation",
+      "doi": "https://doi.org/10.6084/m9.figshare.32811074.v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Scripts and data used in the paper \"Beyond Inflation: Backscatter Parameterizations to Address the Variability Deficit in Global Ocean Data Assimilation\" by Boden et al. (2026)"
+    },
+    {
+      "title": "Simulated and observed transport estimates across the Overturning in the Subpolar North Atlantic Program (OSNAP) sections",
+      "doi": "https://doi.org/10.5194/gmd-19-5071-2026",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Geoscientific model development",
+      "abstract": "A comparison of simulated and observed overturning transports and related properties across the Overturning in the Subpolar North Atlantic Program (OSNAP) sections for the 2014–2022 period is presented, considering both depth and density space transports. The effort was motivated by the observational transport estimates at both OSNAP-West (OW) and OSNAP-East (OE) sections which show a minor role for the Labrador Sea (LS) in setting the mean and variability of the overturning in the subpolar North Atlantic. There are 9 participating groups from around the world, contributing a total of 18 ocean – sea-ice simulations with 6 different ocean models. The simulations use a common set of interannually varying atmospheric forcing datasets. The horizontal resolutions of the simulations range from nominal 1° to eddy-resolving resolutions of 0.1–0.05°. While there are many differences between the simulations and observations as well as among the individual simulations in terms of transport properties, the simulations show significantly larger transports at OE than at OW in agreement with the observations. Analyzing overturning circulations in both depth and density space together provides a more complete picture of the overturning properties and features. This analysis also reveals that, in both the simulations and observations, northward and southward flows substantially cancel each other at a given depth or density, producing much smaller residual (total) transports. Such cancellations tend to be much more prominent in depth space than in density space. In general, the observed transport features are captured better at OE than OW. The simulations generally show larger (smaller) transports with positive (negative) temperature and salinity biases in the upper ocean near the OSNAP sections, but with no such relationship with density biases. In high-resolution simulations, the transport profiles agree better with the observations, but challenges remain in some other metrics considered in our analysis. When transports are calculated using a density referenced to 2000 m depth, rather than the ocean surface, the relative contributions of transports at OW increase modestly."
+    },
+    {
+      "title": "Thank You to Our 2025 Peer Reviewers",
+      "doi": "https://doi.org/10.1029/2026ms006024",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "abstract": "Abstract The editors of Journal of Advances in Modeling Earth Systems thank the 1,035 reviewers who provided 1,649 reviews during 2025. Their hard work and insights, typically done anonymously, benefits authors, readers, and the broader science community."
+    },
+    {
+      "title": "Demographics of Mesoscale Eddies in an Eddy-Permitting Ocean Model and Reanalysis",
+      "doi": "https://doi.org/10.48550/arxiv.2604.22524",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Ocean mesoscale eddies can be thought of as the \"weather\" of the ocean and strongly influence the ocean's physics, chemistry, and biology; they influence other components of the Earth system via air-sea and sea-ice interactions, and are crucial drivers of marine heat waves. Thus, proper modeling of eddies in both historical and future climates is crucial to accurately capturing the Earth system. Climate projections using global coupled models with eddying ocean components are only recently starting to be more widely used. Despite their critical role in understanding and forecasting climate characteristics, these so-called eddy-permitting models have not been explored to verify that resolved eddies are realistic, and thus any downstream scientific testing of hypotheses in biogeochemistry, ocean physics or other associated Earth systems impacted by eddies hinge on this critical assumption. This paper compares observed eddies with lifetimes longer than 6 weeks present in $1/4^\\circ$ satellite altimetry data with observed eddies in $1/4^\\circ$ reanalysis data and ocean model output. When compared to eddies observed in satellite altimetry data, eddies in reanalysis data and ocean model output are missing almost 30% of the number of eddy trajectories. In addition to missing eddy trajectories, the characteristics of eddies in reanalysis data and ocean model output differ from eddies observed in satellite altimetry data. At a high level, eddies in reanalysis data and ocean model output tend to live longer, are larger, and are weaker than eddies in observed altimetry data. This paper presents a variety of statistics describing these differences both spatially and in global aggregate."
+    },
+    {
+      "title": "Stochastic GM+E: An energetically-informed stochastic backscatter scheme for ocean models",
+      "doi": "https://doi.org/10.5194/egusphere-egu26-14014",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Global ocean models at resolutions that do not resolve mesoscale eddies lack variability, not just on scales that they cannot represent because they are below the grid scale, but also on resolvable scales. This research develops a backscatter parameterizations that increases variability on the resolved scales of a non-eddying model. The parameterization acts on the model's momentum equations, and sets the rate of backscatter, viz. the rate at which energy is injected to the resolved scales, proportional to the rate at which the Gent-McWilliams (GM) parameterization removes energy from the resolved scales. This models the physical process whereby mesoscales convert large-scale potential energy to kinetic energy, and then transfer that kinetic energy towards larger scales. These parameterization is implemented in the MOM6 ocean model, and results are presented on its impact in simulations at nominal 2/3-degree resolution. Stochastic GM+E acts primarily in the Southern Ocean, the North Atlantic Current, and the Kuroshio Extension, where it impacts SST variability and southern-hemisphere sea ice extent."
+    },
+    {
+      "title": "Mesoscale Eddy Verification in an Eddy-Permitting Ocean Models and Reanalysis Data",
+      "doi": "https://doi.org/10.5194/egusphere-egu26-13777",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Ocean mesoscale eddies are ubiquitous features of the open ocean and strongly influence the ocean’s physics, chemistry, and biology. Mesoscale eddies play a critical role in the climate system and regulating the exchange of heat and carbon with the atmosphere. They also play a significant role in the redistribution of heat, salt, carbon, and nutrients around the ocean. Thus, proper modeling of eddies in both historical and future climates is crucial to accurately capturing the Earth system. Climate projections using global coupled models with eddy ocean components have recently started to become more widely used. Despite their critical role in understanding and forecasting climate characteristics, these so-called eddy-permitting models have not been rigorously explored to verify that resolved eddies are realistic, and thus any downstream scientific testing of hypotheses in biogeochemistry, ocean physics or other associated Earth systems impacted by eddies hinge on this critical assumption. This presentation compares the characteristics and behavior of observed eddies in ¼ degree satellite altimetry data with eddies detected in ¼ degree reanalysis data and ocean model output. When compared to eddies observed in satellite altimetry data, eddies in reanalysis data and ocean model output are missing almost 30% of the number of eddy trajectories. Further, many characteristics of eddies in reanalysis data and ocean model output differ from eddies observed in altimetry data. At a high level, eddies in reanalysis data and ocean model output generally live longer, are larger, and are weaker than observed eddies in satellite altimetry data. These comparisons are made both locally and in the global aggregate to assess the differences in both the global distribution of eddy characteristics as well as differences in the regional eddy behavior."
+    },
+    {
+      "title": "Balancing Backscatter and Diffusion in a 1/4° Forced Global Ocean Model",
+      "doi": "https://doi.org/10.1029/2025ms005462",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Journal of Advances in Modeling Earth Systems",
+      "abstract": "Abstract Mesoscale ocean eddies in 1/4 global ocean models lie near the grid scale and are overdamped by viscosity, leading to reduced eddy kinetic energy, weak sea surface height variability, and mean‐state biases. Backscatter has been proposed to remedy this problem by re‐injecting dissipated energy, but its diabatic consequences are poorly characterized. We first show that using backscatter alone in a 1/4 forced CESM2‐MOM6 ocean–sea ice model produces unrealistically large southward heat transport. To address this problem, we define a non‐dimensional ratio (deformation radius over grid spacing) and adopt a nearly step‐like resolution function with a threshold of . Isopycnal height and tracer diffusion act where and backscatter acts where . We compare two backscatter schemes that differ mainly in where they apply backscatter. One applies backscatter broadly in the Southern Ocean, whereas the other confines it near western boundary currents. Both schemes energize the model by 20%–25%. When backscatter is applied in the Southern Ocean, it energizes and barotropizes the flow but also increases southward heat transport, warms surface temperatures, shifts deep winter mixed layers poleward, and reduces Antarctic sea ice. In contrast, limiting backscatter to western boundary currents strongly enhances eddy kinetic energy there while keeping Southern Ocean heat transport, sea surface temperatures, mixed‐layer depth, and sea ice much closer to the reference run. These results show strong sensitivity to backscatter placement and, in this configuration, favor confining it to western boundary currents."
+    },
+    {
+      "title": "Two‐step ensemble data assimilation on the simplex: Application to sea‐ice concentration",
+      "doi": "https://doi.org/10.1002/qj.70068",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Quarterly Journal of the Royal Meteorological Society",
+      "abstract": "Abstract Ensemble‐based data assimilation is widely used in atmospheric and oceanic sciences to improve modeled state estimates by incorporating observations. Ensemble Kalman filters are a class of data‐assimilation methods that assume the joint distribution in observation‐state space is Gaussian. Two‐step ensemble data assimilation is an alternative framework that relaxes Gaussianity assumptions. It works by first making a scalar update in observation space and then updating the state‐space variables accordingly. This article develops a non‐Gaussian parametric approach to the second step, the state‐space update, that is designed specifically for variables constrained to the simplex. The method assumes the joint observation‐state space prior is a mixed Dirichlet and constructs an analysis ensemble using transport methods. Results from the assimilation of sea‐ice concentration into a single‐column sea‐ice model (Icepack) show that, for ensemble sizes and , the new method outperforms existing approaches."
+    }
+  ]
+}

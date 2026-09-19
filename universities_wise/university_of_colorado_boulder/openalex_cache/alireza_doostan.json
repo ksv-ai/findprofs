@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Alireza Doostan",
+  "full_name": "Alireza Doostan",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5005638433",
+  "works_count": 181,
+  "cited_by_count": 4139,
+  "h_index": 33,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 89
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 50
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 37
+    },
+    {
+      "topic": "Structural Health Monitoring Techniques",
+      "count": 17
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A non-adapted sparse approximation of PDEs with stochastic inputs",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.01.002",
+      "publication_year": 2011,
+      "cited_by_count": 461,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Compressive sampling of polynomial chaos expansions: Convergence analysis and sampling strategies",
+      "doi": "https://doi.org/10.1016/j.jcp.2014.09.019",
+      "publication_year": 2014,
+      "cited_by_count": 225,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Stochastic model reduction for chaos representations",
+      "doi": "https://doi.org/10.1016/j.cma.2006.10.047",
+      "publication_year": 2007,
+      "cited_by_count": 195,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "A weighted -minimization approach for sparse polynomial chaos expansions",
+      "doi": "https://doi.org/10.1016/j.jcp.2014.02.024",
+      "publication_year": 2014,
+      "cited_by_count": 191,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "On the construction and analysis of stochastic models: Characterization and propagation of the errors associated with limited data",
+      "doi": "https://doi.org/10.1016/j.jcp.2006.01.037",
+      "publication_year": 2006,
+      "cited_by_count": 191,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physically interpretable representation learning with Gaussian Mixture Variational AutoEncoder (GM-VAE)",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119288",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "In situ training of implicit neural compressors for scientific simulations via sketch-based regularization",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115245",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Scalable Data Reduction Techniques for Extreme-Scale Unstructured PDE Simulations",
+      "doi": "https://doi.org/10.2172/3374153",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "The present report summarizes activities performed over the 3-year (plus one year of NCE) duration of the award DE-SC0022283, “Scalable Data Reduction Techniques for Extreme-Scale Unstructured PDE Simulations,” funded by the DOE Office of Advanced Scientific Computing Research (ASCR)."
+    },
+    {
+      "title": "Learning gradient flow: Using equation discovery to accelerate engineering optimization",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119099",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Integration of local and global surrogates for failure probability estimation",
+      "doi": "https://doi.org/10.48550/arxiv.2603.17211",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This paper presents the development of an algorithm, termed the Global-Local Hybrid Surrogate (GLHS), designed to efficiently compute the probability of rare failure events in complex systems. The primary goal is to enhance the accuracy of reliability analysis while minimizing computational cost, particularly for high-dimensional problems where traditional methods, such as Monte Carlo simulations, become prohibitively expensive. The proposed GLHS builds upon the foundational work of Li et al., by integrating an adaptive strategy based on the General Domain Adaptive Strategy (Adcock et al.). The algorithm aims to approximate the failure domain of a given system, defined as the region in the input domain where the system transitions from safe to failure modes, described by a limit state surface. This failure domain is not explicitly known and must be learned iteratively during the analysis. The method employs a buffer zone, defined as the region surrounding the limit state surface. Within this buffer zone, Christoffel Adaptive Sampling is utilized to select new samples for constructing localized surrogate models, which are designed to refine the approximation in regions critical to failure probability estimation. The iterative process proceeds until convergence is reached. This results in a hybrid methodology that integrates a global surrogate to capture the overall trend with local surrogates that concentrate on critical regions near the limit state function. By adopting this strategy, the GLHS method balances computational efficiency with accuracy in estimating the failure probability."
+    },
+    {
+      "title": "Integration of local and global surrogates for failure probability estimation",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This paper presents the development of an algorithm, termed the Global-Local Hybrid Surrogate (GLHS), designed to efficiently compute the probability of rare failure events in complex systems. The primary goal is to enhance the accuracy of reliability analysis while minimizing computational cost, particularly for high-dimensional problems where traditional methods, such as Monte Carlo simulations, become prohibitively expensive. The proposed GLHS builds upon the foundational work of Li et al., by integrating an adaptive strategy based on the General Domain Adaptive Strategy (Adcock et al.). The algorithm aims to approximate the failure domain of a given system, defined as the region in the input domain where the system transitions from safe to failure modes, described by a limit state surface. This failure domain is not explicitly known and must be learned iteratively during the analysis. The method employs a buffer zone, defined as the region surrounding the limit state surface. Within this buffer zone, Christoffel Adaptive Sampling is utilized to select new samples for constructing localized surrogate models, which are designed to refine the approximation in regions critical to failure probability estimation. The iterative process proceeds until convergence is reached. This results in a hybrid methodology that integrates a global surrogate to capture the overall trend with local surrogates that concentrate on critical regions near the limit state function. By adopting this strategy, the GLHS method balances computational efficiency with accuracy in estimating the failure probability."
+    },
+    {
+      "title": "Robust prediction of parameterized cardiovascular hemodynamics using deep operator networks with time normalization",
+      "doi": "https://doi.org/10.1016/j.cmpb.2026.109311",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods and Programs in Biomedicine",
+      "abstract": ""
+    },
+    {
+      "title": "Fast algorithms for least squares problems with Kronecker lower subsets",
+      "doi": "https://doi.org/10.1007/s10915-026-03224-9",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Scientific Computing",
+      "abstract": ""
+    },
+    {
+      "title": "Learning Gradient Flow: Using Equation Discovery to Accelerate Engineering Optimization",
+      "doi": "https://doi.org/10.48550/arxiv.2602.13513",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "In this work, we investigate the use of data-driven equation discovery for dynamical systems to model and forecast continuous-time dynamics of unconstrained optimization problems. To avoid expensive evaluations of the objective function and its gradient, we leverage trajectory data on the optimization variables to learn the continuous-time dynamics associated with gradient descent, Newton's method, and ADAM optimization. The discovered gradient flows are then solved as a surrogate for the original optimization problem. To this end, we introduce the Learned Gradient Flow (LGF) optimizer, which is equipped to build surrogate models of variable polynomial order in full- or reduced-dimensional spaces at user-defined intervals in the optimization process. We demonstrate the efficacy of this approach on several standard problems from engineering mechanics and scientific machine learning, including two inverse problems, structural topology optimization, and two forward solves with different discretizations. Our results suggest that the learned gradient flows can significantly expedite convergence by capturing critical features of the optimization trajectory while avoiding expensive evaluations of the objective and its gradient."
+    },
+    {
+      "title": "Inferring Titan Atmosphere Methane Content From Dragonfly Backshell Radiation Measurements",
+      "doi": "https://doi.org/10.2514/6.2026-1287",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "During the entry of the Dragonfly capsule into the atmosphere of Titan, a variety of instruments will record vehicle surface properties including radiation. Uncertainty in CN emission remains a principal limitation in modeling and interpreting radiative heating during Titan atmospheric entry. Prior work has shown that the ratio of integrated CN red and CN violet band radiances can, in principle, be used to infer the freestream methane mole fraction when only chemical kinetic uncertainty is considered. In this study, we extend that framework to include uncertainty in the heavy-particle excitation rates governing the CN(A–X) and CN(B–X) band systems. The rates of these excitation processes are difficult to measure experimentally and exhibit discrepancies of multiple orders of magnitude across available datasets. Using polynomial chaos expansion surrogate models coupled with Bayesian inference in PyMC, we examine how methane identifiability evolves as excitation-rate uncertainty bounds are systematically tightened. We find that current uncertainty levels produce broad, non-informative methane posteriors, even when radiative measurements are assumed noise-free, but that progressive reduction of the dominant excitation-rate uncertainties yields a clear transition toward identifiable and increasingly concentrated posteriors. Analyses at both peak convective and peak radiative heating conditions on the entry trajectory demonstrate the degree of uncertainty reduction required before meaningful methane retrieval becomes feasible. These results provide a quantitative mapping between excitation-rate precision and methane identifiability, underscoring the need for targeted laboratory and theoretical studies to enable robust methane inference during Dragonfly’s atmospheric entry."
+    }
+  ]
+}

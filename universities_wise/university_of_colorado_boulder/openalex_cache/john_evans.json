@@ -1,0 +1,156 @@
+{
+  "faculty_name": "John Evans",
+  "full_name": "John A. Evans",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5016099408",
+  "works_count": 461,
+  "cited_by_count": 19626,
+  "h_index": 68,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Analysis Techniques",
+      "count": 80
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 54
+    },
+    {
+      "topic": "Esophageal and GI Pathology",
+      "count": 45
+    },
+    {
+      "topic": "Gallbladder and Bile Duct Disorders",
+      "count": 40
+    },
+    {
+      "topic": "Pancreatic and Hepatic Oncology Research",
+      "count": 31
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Isogeometric analysis using T-splines",
+      "doi": "https://doi.org/10.1016/j.cma.2009.02.036",
+      "publication_year": 2009,
+      "cited_by_count": 1033,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "The management of antithrombotic agents for patients undergoing GI endoscopy",
+      "doi": "https://doi.org/10.1016/j.gie.2015.09.035",
+      "publication_year": 2015,
+      "cited_by_count": 723,
+      "venue": "Gastrointestinal Endoscopy",
+      "abstract": ""
+    },
+    {
+      "title": "Guidelines for sedation and anesthesia in GI endoscopy",
+      "doi": "https://doi.org/10.1016/j.gie.2017.07.018",
+      "publication_year": 2018,
+      "cited_by_count": 681,
+      "venue": "Gastrointestinal Endoscopy",
+      "abstract": ""
+    },
+    {
+      "title": "Complications of ERCP",
+      "doi": "https://doi.org/10.1016/j.gie.2011.07.010",
+      "publication_year": 2012,
+      "cited_by_count": 605,
+      "venue": "Gastrointestinal Endoscopy",
+      "abstract": ""
+    },
+    {
+      "title": "Isogeometric finite element data structures based on Bézier extraction of NURBS",
+      "doi": "https://doi.org/10.1002/nme.2968",
+      "publication_year": 2010,
+      "cited_by_count": 501,
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "abstract": "Abstract We present the B'ezier extraction operator and isogeometric Bézier elements for non‐uniform rational B‐Spline (NURBS)‐based isogeometric analysis. The Bézier extraction operator allows numerical integration of smooth functions to be performed on C 0 Bézier elements. We show how the Bézier extraction operator is computed for NURBS. We then show that the extraction operator and Bézier elements provide an element structure for isogeometric analysis that can be easily incorporated into existing finite element codes, without any changes to element form and assembly algorithms, and standard data processing arrays. All significant changes may be implemented in a shape function subroutine. Copyright © 2010 John Wiley & Sons, Ltd."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Solving Engineering Eigenvalue Problems With Neural Networks Using the Rayleigh Quotient",
+      "doi": "https://doi.org/10.1002/nme.70209",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "abstract": "ABSTRACT From characterizing the speed of a thermal system's response to computing natural modes of vibration, eigenvalue analysis is ubiquitous in engineering. In spite of this, eigenvalue problems have received relatively little treatment compared to standard forward and inverse problems in the physics‐informed machine learning (PIML) literature. In particular, neural network discretizations of solutions to eigenvalue problems have seen only a handful of studies. Owing to their nonlinearity, neural network discretizations prevent the conversion of the continuous eigenvalue differential equation into a standard discrete eigenvalue problem. In this setting, eigenvalue analysis requires more specialized techniques. Using a neural network discretization of the eigenfunction, we show that a variational form of the eigenvalue problem called the “Rayleigh quotient,” in tandem with a Gram–Schmidt orthogonalization procedure, is a particularly simple and robust approach to find the eigenvalues and their corresponding eigenfunctions. This method is shown to be useful for finding sets of Laplacian eigenfunctions on irregular domains, parametric and nonlinear eigenproblems, and high‐dimensional eigenanalysis. We also discuss the utility of eigenfunctions as a spectral basis for approximating solutions to partial differential equations. Through various examples from engineering mechanics, the combination of the Rayleigh quotient objective, Gram–Schmidt procedure, and the neural network discretization of the eigenfunction is shown to offer unique advantages for handling continuous eigenvalue problems."
+    },
+    {
+      "title": "Enriched immersed finite element and isogeometric analysis: algorithms and data structures",
+      "doi": "https://doi.org/10.1007/s00366-025-02163-7",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Engineering With Computers",
+      "abstract": "Abstract Immersed finite element methods provide a convenient analysis framework for problems involving geometrically complex domains, such as those found in topology optimization and microstructures for engineered materials. However, their implementation remains a major challenge due to, among other things, the need to apply nontrivial stabilization schemes and generate custom quadrature rules. This article introduces the robust and computationally efficient algorithms and data structures comprising an immersed finite element preprocessing framework. The input to the preprocessor consists of a background mesh and one or more geometries defined on its domain. The output is structured into groups of elements with custom quadrature rules formatted such that common finite element assembly routines may be used without or with only minimal modifications. The key to the preprocessing framework is the construction of material topology information, concurrently with the generation of a quadrature rule, which is then used to perform enrichment and generate stabilization rules. While the algorithmic framework applies to a wide range of immersed finite element methods using different types of meshes, integration, and stabilization schemes, the preprocessor is presented within the context of the extended isogeometric analysis. This method utilizes a structured B-spline mesh, a generalized Heaviside enrichment strategy considering the material layout within individual basis functions’ supports, and face-oriented ghost stabilization. Using a set of examples, the effectiveness of the enrichment and stabilization strategies is demonstrated alongside the preprocessor’s robustness in geometric edge cases. Additionally, the performance and parallel scalability of the implementation are evaluated."
+    },
+    {
+      "title": "Interpolation-based reproducing kernel particle method",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118291",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": "Meshfree methods, including the reproducing kernel particle method (RKPM), have been widely used within the computational mechanics community to model physical phenomena in materials undergoing large deformations or extreme topology changes. RKPM shape functions and their derivatives cannot be accurately integrated with the Gauss-quadrature methods widely employed for the finite element method (FEM) and typically require sophisticated nodal integration techniques, preventing them from easily being implemented in existing FEM software. Interpolation-based methods have been developed to address similar problems with isogeometric and immersed boundary methods, allowing these techniques to be implemented within open-source finite element software. With interpolation-based methods, background basis functions are represented as linear combinations of Lagrange polynomial foreground basis functions defined upon a boundary-conforming foreground mesh. This work extends the applications of interpolation-based methods to implement RKPM within open-source finite element software. Interpolation-based RKPM is applied to several PDEs, and error convergence rates are equivalent to classic RKPM integrated using high-order Gauss-quadrature schemes. The interpolation-based method is able to exploit the continuity of the RKPM basis to solve higher-order PDEs, demonstrated through the biharmonic problem. The method is extended to multi-material problems through Heaviside enrichment schemes, using local foreground refinement to reduce geometric integration error and achieve high-order accuracy. The computational cost of interpolation-based RKPM offers significant savings over Gauss-quadrature-based meshfree methods and the method is easily implementated within existing finite element software."
+    },
+    {
+      "title": "Variational volume reconstruction with the Deep Ritz Method",
+      "doi": "https://doi.org/10.48550/arxiv.2508.08309",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We present a novel approach to variational volume reconstruction from sparse, noisy slice data using the Deep Ritz method. Motivated by biomedical imaging applications such as MRI-based slice-to-volume reconstruction (SVR), our approach addresses three key challenges: (i) the reliance on image segmentation to extract boundaries from noisy grayscale slice images, (ii) the need to reconstruct volumes from a limited number of slice planes, and (iii) the computational expense of traditional mesh-based methods. We formulate a variational objective that combines a regression loss designed to avoid image segmentation by operating on noisy slice data directly with a modified Cahn-Hilliard energy incorporating anisotropic diffusion to regularize the reconstructed geometry. We discretize the phase field with a neural network, approximate the objective at each optimization step with Monte Carlo integration, and use ADAM to find the minimum of the approximated variational objective. While the stochastic integration may not yield the true solution to the variational problem, we demonstrate that our method reliably produces high-quality reconstructed volumes in a matter of seconds, even when the slice data is sparse and noisy."
+    },
+    {
+      "title": "Interpolation-based reproducing kernel particle method",
+      "doi": "https://doi.org/10.48550/arxiv.2506.14916",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Meshfree methods, including the reproducing kernel particle method (RKPM), have been widely used within the computational mechanics community to model physical phenomena in materials undergoing large deformations or extreme topology changes. RKPM shape functions and their derivatives cannot be accurately integrated with the Gauss-quadrature methods widely employed for the finite element method (FEM) and typically require sophisticated nodal integration techniques, preventing them from easily being implemented in existing FEM software. Interpolation-based methods have been developed to address similar problems with isogeometric and immersed boundary methods, allowing these techniques to be implemented within open-source finite element software. With interpolation-based methods, background basis functions are represented as linear combinations of Lagrange polynomial foreground basis functions defined upon a boundary-conforming foreground mesh. This work extends the applications of interpolation-based methods to implement RKPM within open-source finite element software. Interpolation-based RKPM is applied to several PDEs, and error convergence rates are equivalent to classic RKPM integrated using high-order Gauss-quadrature schemes. The interpolation-based method is able to exploit the continuity of the RKPM basis to solve higher-order PDEs, demonstrated through the biharmonic problem. The method is extended to multi-material problems through Heaviside enrichment schemes, using local foreground refinement to reduce geometric integration error and achieve high-order accuracy. The computational cost of interpolation-based RKPM is similar to the smoothed gradient nodal integration schemes, offering significant savings over Gauss-quadrature-based meshfree methods while enabling easy implementation within existing finite element software."
+    },
+    {
+      "title": "Solving engineering eigenvalue problems with neural networks using the Rayleigh quotient",
+      "doi": "https://doi.org/10.48550/arxiv.2506.04375",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "From characterizing the speed of a thermal system's response to computing natural modes of vibration, eigenvalue analysis is ubiquitous in engineering. In spite of this, eigenvalue problems have received relatively little treatment compared to standard forward and inverse problems in the physics-informed machine learning literature. In particular, neural network discretizations of solutions to eigenvalue problems have seen only a handful of studies. Owing to their nonlinearity, neural network discretizations prevent the conversion of the continuous eigenvalue differential equation into a standard discrete eigenvalue problem. In this setting, eigenvalue analysis requires more specialized techniques. Using a neural network discretization of the eigenfunction, we show that a variational form of the eigenvalue problem called the \"Rayleigh quotient\" in tandem with a Gram-Schmidt orthogonalization procedure is a particularly simple and robust approach to find the eigenvalues and their corresponding eigenfunctions. This method is shown to be useful for finding sets of harmonic functions on irregular domains, parametric and nonlinear eigenproblems, and high-dimensional eigenanalysis. We also discuss the utility of harmonic functions as a spectral basis for approximating solutions to partial differential equations. Through various examples from engineering mechanics, the combination of the Rayleigh quotient objective, Gram-Schmidt procedure, and the neural network discretization of the eigenfunction is shown to offer unique advantages for handling continuous eigenvalue problems."
+    },
+    {
+      "title": "Enriched Immersed Finite Element and Isogeometric Analysis -- Algorithms and Data Structures",
+      "doi": "https://doi.org/10.48550/arxiv.2501.17853",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Immersed finite element methods provide a convenient analysis framework for problems involving geometrically complex domains, such as those found in topology optimization and microstructures for engineered materials. However, their implementation remains a major challenge due to, among other things, the need to apply nontrivial stabilization schemes and generate custom quadrature rules. This article introduces the robust and computationally efficient algorithms and data structures comprising an immersed finite element preprocessing framework. The input to the preprocessor consists of a background mesh and one or more geometries defined on its domain. The output is structured into groups of elements with custom quadrature rules formatted such that common finite element assembly routines may be used without or with only minimal modifications. The key to the preprocessing framework is the construction of material topology information, concurrently with the generation of a quadrature rule, which is then used to perform enrichment and generate stabilization rules. While the algorithmic framework applies to a wide range of immersed finite element methods using different types of meshes, integration, and stabilization schemes, the preprocessor is presented within the context of the extended isogeometric analysis. This method utilizes a structured B-spline mesh, a generalized Heaviside enrichment strategy considering the material layout within individual basis functions$'$ supports, and face-oriented ghost stabilization. Using a set of examples, the effectiveness of the enrichment and stabilization strategies is demonstrated alongside the preprocessor$'$s robustness in geometric edge cases. Additionally, the performance and parallel scalability of the implementation are evaluated."
+    },
+    {
+      "title": "Preface",
+      "doi": "https://doi.org/10.3934/acse.2025008",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Advances in Computational Science and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Interpolation-Based Reproducing Kernel Particle Method",
+      "doi": "https://doi.org/10.2139/ssrn.5280312",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    },
+    {
+      "title": "Preface",
+      "doi": "https://doi.org/10.3934/acse.2025009",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Advances in Computational Science and Engineering",
+      "abstract": ""
+    }
+  ]
+}

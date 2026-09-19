@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Robert MacCurdy",
+  "full_name": "Robert MacCurdy",
+  "department": "Paul M. Rady Mechanical Engineering",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5012324349",
+  "works_count": 71,
+  "cited_by_count": 3339,
+  "h_index": 21,
+  "top_topics": [
+    {
+      "topic": "Modular Robots and Swarm Intelligence",
+      "count": 17
+    },
+    {
+      "topic": "Soft Robotics and Applications",
+      "count": 13
+    },
+    {
+      "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "count": 8
+    },
+    {
+      "topic": "Advanced Materials and Mechanics",
+      "count": 7
+    },
+    {
+      "topic": "Innovative Energy Harvesting Technologies",
+      "count": 6
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Exploration of underwater life with an acoustically controlled soft robotic fish",
+      "doi": "https://doi.org/10.1126/scirobotics.aar3449",
+      "publication_year": 2018,
+      "cited_by_count": 863,
+      "venue": "Science Robotics",
+      "abstract": "Closeup exploration of underwater life requires new forms of interaction, using biomimetic creatures that are capable of agile swimming maneuvers, equipped with cameras, and supported by remote human operation. Current robotic prototypes do not provide adequate platforms for studying marine life in their natural habitats. This work presents the design, fabrication, control, and oceanic testing of a soft robotic fish that can swim in three dimensions to continuously record the aquatic life it is following or engaging. Using a miniaturized acoustic communication module, a diver can direct the fish by sending commands such as speed, turning angle, and dynamic vertical diving. This work builds on previous generations of robotic fish that were restricted to one plane in shallow water and lacked remote control. Experimental results gathered from tests along coral reefs in the Pacific Ocean show that the robotic fish can successfully navigate around aquatic life at depths ranging from 0 to 18 meters. Furthermore, our robotic fish exhibits a lifelike undulating tail motion enabled by a soft robotic actuator design that can potentially facilitate a more natural integration into the ocean environment. We believe that our study advances beyond what is currently achievable using traditional thruster-based and tethered autonomous underwater vehicles, demonstrating methods that can be used in the future for studying the interactions of aquatic life and ocean dynamics."
+    },
+    {
+      "title": "Three-Dimensional Root Phenotyping with a Novel Imaging and Software Platform",
+      "doi": "https://doi.org/10.1104/pp.110.169102",
+      "publication_year": 2011,
+      "cited_by_count": 479,
+      "venue": "PLANT PHYSIOLOGY",
+      "abstract": "A novel imaging and software platform was developed for the high-throughput phenotyping of three-dimensional root traits during seedling development. To demonstrate the platform's capacity, plants of two rice (Oryza sativa) genotypes, Azucena and IR64, were grown in a transparent gellan gum system and imaged daily for 10 d. Rotational image sequences consisting of 40 two-dimensional images were captured using an optically corrected digital imaging system. Three-dimensional root reconstructions were generated and analyzed using a custom-designed software, RootReader3D. Using the automated and interactive capabilities of RootReader3D, five rice root types were classified and 27 phenotypic root traits were measured to characterize these two genotypes. Where possible, measurements from the three-dimensional platform were validated and were highly correlated with conventional two-dimensional measurements. When comparing gellan gum-grown plants with those grown under hydroponic and sand culture, significant differences were detected in morphological root traits (P < 0.05). This highly flexible platform provides the capacity to measure root traits with a high degree of spatial and temporal resolution and will facilitate novel investigations into the development of entire root systems or selected components of root systems. In combination with the extensive genetic resources that are now available, this platform will be a powerful resource to further explore the molecular and genetic determinants of root system architecture."
+    },
+    {
+      "title": "Printable hydraulics: A method for fabricating robots by 3D co-printing solids and liquids",
+      "doi": "https://doi.org/10.1109/icra.2016.7487576",
+      "publication_year": 2016,
+      "cited_by_count": 215,
+      "venue": "",
+      "abstract": "This paper introduces a novel technique for fabricating functional robots using 3D printers. Simultaneously depositing photopolymers and a non-curing liquid allows complex, pre-filled fluidic channels to be fabricated. This new printing capability enables complex hydraulically actuated robots and robotic components to be automatically built, with no assembly required. The technique is showcased by printing linear bellows actuators, gear pumps, soft grippers and a hexapod robot, using a commercially-available 3D printer. We detail the steps required to modify the printer and describe the design constraints imposed by this new fabrication approach."
+    },
+    {
+      "title": "Unshackling evolution",
+      "doi": "https://doi.org/10.1145/2463372.2463404",
+      "publication_year": 2013,
+      "cited_by_count": 213,
+      "venue": "",
+      "abstract": "In 1994 Karl Sims showed that computational evolution can produce interesting morphologies that resemble natural organisms. Despite nearly two decades of work since, evolved morphologies are not obviously more complex or natural, and the field seems to have hit a complexity ceiling. One hypothesis for the lack of increased complexity is that most work, including Sims', evolves morphologies composed of rigid elements, such as solid cubes and cylinders, limiting the design space. A second hypothesis is that the encodings of previous work have been overly regular, not allowing complex regularities with variation. Here we test both hypotheses by evolving soft robots with multiple materials and a powerful generative encoding called a compositional pattern-producing network (CPPN). Robots are selected for locomotion speed. We find that CPPNs evolve faster robots than a direct encoding and that the CPPN morphologies appear more natural. We also find that locomotion performance increases as more materials are added, that diversity of form and behavior can be increased with different cost functions without stifling performance, and that organisms can be evolved at different levels of resolution. These findings suggest the ability of generative soft-voxel systems to scale towards evolving a large diversity of complex, natural, multi-material creatures. Our results suggest that future work that combines the evolution of CPPN-encoded soft, multi-material robots with modern diversity-encouraging techniques could finally enable the creation of creatures far more complex and interesting than those produced by Sims nearly twenty years ago."
+    },
+    {
+      "title": "Advances in tracking small migratory birds: a technical review of light-level geolocation",
+      "doi": "https://doi.org/10.1111/jofo.12011",
+      "publication_year": 2013,
+      "cited_by_count": 209,
+      "venue": "Journal of Field Ornithology",
+      "abstract": "Light-level geolocation data loggers, or geologgers, have recently been miniaturized to the extent that they can be deployed on small songbirds, allowing us to determine many previously unknown migration routes, breeding locations, and wintering sites. Use of geologgers on small birds has great potential to help address major research and conservation questions, but the method is not without its shortcomings. Among these shortcomings are the need to recapture birds after they have carried a device throughout a migration cycle and the potential for the devices to affect survival and behavior. We examined return rates of birds with geologgers in published and unpublished studies and found no evidence of a general negative effect of geologgers on survival, although there were a few individual studies where such an effect was evident. From these same studies, we found that most currently used harness materials are equivalent in terms of failure rates, and the most reliable geologgers are those made by the British Antarctic Survey (although these were also the largest geologgers used in the studies we examined). With regard to analysis methods, we believe there is much room for improvement. Use of online archiving of both data and analysis parameters would greatly improve the repeatability and transparency of geologger research."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Implicit Modeling for 3D-printed Multi-material Computational Object Design via Python",
+      "doi": "https://doi.org/10.1145/3745778.3766659",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "",
+      "abstract": "This paper introduces open-source contributions designed to accelerate research in volumetric multi-material additive manufacturing and metamaterial design. We present a flexible Python-based API facilitating parametric expression of multi-material gradients, integration with external libraries, multi-material lattice structure design, and interoperability with finite element modeling. Novel implicit multi-material modeling techniques enable detailed spatial grading at multiple scales within lattice structures. Additionally, our framework integrates with finite element analysis, offering predictive simulations via adaptive mesh sizing and direct import of simulation results to guide material distributions. Practical case studies illustrate the utility of these contributions, including functionally graded lattices, algorithmically generated structures, and simulation-informed designs, exemplified by a multi-material bicycle seat optimized for mechanical performance and rider comfort. Finally, we introduce a mesh export strategy compatible with standard slicing software, significantly broadening the accessibility and adoption of functionality graded computational design methodologies for multi-material fabrication."
+    },
+    {
+      "title": "Implicit Modeling for 3D-printed Multi-material Computational Object Design via Python",
+      "doi": "https://doi.org/10.48550/arxiv.2509.15562",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This paper introduces open-source contributions designed to accelerate research in volumetric multi-material additive manufacturing and metamaterial design. We present a flexible Python-based API facilitating parametric expression of multi-material gradients, integration with external libraries, multi-material lattice structure design, and interoperability with finite element modeling. Novel implicit multi-material modeling techniques enable detailed spatial grading at multiple scales within lattice structures. Additionally, our framework integrates with finite element analysis, offering predictive simulations via adaptive mesh sizing and direct import of simulation results to guide material distributions. Practical case studies illustrate the utility of these contributions, including functionally graded lattices, algorithmically generated structures, and simulation-informed designs, exemplified by a multi-material bicycle seat optimized for mechanical performance and rider comfort. Finally, we introduce a mesh export strategy compatible with standard slicing software, significantly broadening the accessibility and adoption of functionality graded computational design methodologies for multi-material fabrication."
+    },
+    {
+      "title": "Implicit toolpath generation for functionally graded additive manufacturing via gradient-informed slicing",
+      "doi": "https://doi.org/10.1016/j.addma.2025.104963",
+      "publication_year": 2025,
+      "cited_by_count": 5,
+      "venue": "Additive manufacturing",
+      "abstract": ""
+    },
+    {
+      "title": "Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Informed Slicing",
+      "doi": "https://doi.org/10.48550/arxiv.2505.08093",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This paper presents a novel gradient-informed slicing method for functionally graded additive manufacturing (FGM) that overcomes the limitations of conventional toolpath planning approaches, which struggle to produce truly continuous gradients. By integrating multi-material gradients into the toolpath generation process, our method enables the fabrication of FGMs with complex gradients that vary seamlessly in any direction. We leverage OpenVCAD's implicit representation of geometry and material fields to directly extract iso-contours, enabling accurate, controlled gradient toolpaths. Two novel strategies are introduced to integrate these gradients into the toolpath planning process. The first strategy maintains traditional perimeter, skin, and infill structures subdivided by mixture ratios, with automated 'zippering' to mitigate stress concentrations. The second strategy fills iso-contoured regions densely, printing directly against gradients to eliminate purging and reduce waste. Both strategies accommodate gradually changing printing parameters, such as mixed filament ratios, toolhead switching, and variable nozzle temperatures for foaming materials. This capability allows for controlled variation of composition, density, and other properties within a single build, expanding the design space for functionally graded parts. Experimental results demonstrate the fabrication of high-quality FGMs with complex, multi-axis gradients, highlighting the versatility of our method. We showcase the successful implementation of both strategies on a range of geometries and material combinations, demonstrating the potential of our approach to produce intricate and functional FGMs. This work provides a robust, open-source, and automated framework for designing and fabricating advanced FGMs, accelerating research in multi-material additive manufacturing."
+    },
+    {
+      "title": "IROS 2023 Workshop Report: Draft Guidelines on Manufacturing Procedures, Test Methods and Reporting for Soft Robotics",
+      "doi": "https://doi.org/10.2172/2516711",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Soft roboticists are facing challenges with reproducibility, which prevents researchers from making holistic comparisons to prior work, impedes full understanding of results, and forces the need to “reinvent the wheel,” delaying fundamental advances. Reproducibility of results is key to advancing science as well as achieving technology transfer from research laboratories to industrial applications. Recently, a discussion-based workshop dedicated to the topic, “Developing Standard Testing and Reporting Guidelines for Soft Robotics,” was held at IROS 2023 in Detroit, MI. The purpose of this document is to record a set of recommendations and voluntary draft guidelines for soft roboticists concerning fabrication/manufacturing, test procedures, and reporting, which were collectively developed at the workshop. Together as a community, we hope to improve the reporting standards of soft robotics and drive the field as a whole toward more rigorous research practices."
+    },
+    {
+      "title": "Cuboidal Deformation of Multimaterial Composites Prepared by 3-D Printing of Liquid Crystalline Elastomers",
+      "doi": "https://doi.org/10.1021/acsami.4c14792",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "ACS Applied Materials & Interfaces",
+      "abstract": "Multimaterial 3-D printing (3DP) of isotropic (IsoE) and liquid crystalline elastomers (LCE) yields spatially programmed elements that undergo a cuboidal shape transformation upon heating. The thermomechanical deformation of 3DP elements is determined by the geometry and extent of the isotropic and anisotropic regions. The synthesis and experimental characterization of the 3DP elements are complemented by finite element analysis (FEA). Calculations emphasize that the cuboidal deformation of the myriad 3DP elements is a manifestation of local stress gradients imparted by local control of the material composition and anisotropy. Varying the rectilinear spatial distribution of the multimaterial elastomer composites produces complex, multistable states that provide insights into how stress gradients drive multimaterial elastomer actuation. The thermomechanical stimuli response of the multimaterial elements is explored as a tactile element."
+    },
+    {
+      "title": "Femtosecond Laser Fabricated Nitinol Living Hinges for Millimeter-Sized Robots",
+      "doi": "https://doi.org/10.1109/lra.2024.3392490",
+      "publication_year": 2024,
+      "cited_by_count": 16,
+      "venue": "IEEE Robotics and Automation Letters",
+      "abstract": "Nitinol is a smart material that can be used as an actuator, a sensor, or a structural element, and has the potential to significantly enhance the capabilities of microrobots. Femtosecond laser technology can be used to process nitinol while avoiding heat-affected zones (HAZ), thus retaining superelastic properties. In this work, we manufacture living hinges of arbitrary cross sections from nitinol using a femtosecond laser micromachining process. We first determined the laser cutting parameters, 4.1Jcm-2fluence with 5 passes for 5 μm ablation, by varying laser power level and number of passes Next, we modeled the hinges using an analytical model as well as creating an Abaqus finite element method, and showed the accuracy of the models by comparing them to the torque produced by eight different hinges, four with a rectangular cross section and four with an elliptic notch cross section. Finally, we manufactured a prototype miniature device to illustrate the usefulness of these nitinol hinges: a piezoelectric actuated robotic wing mechanism, and we characterized its performance."
+    },
+    {
+      "title": "Characterization of organic fouling on thermal bubble-driven micro-pumps",
+      "doi": "https://doi.org/10.1080/08927014.2024.2353034",
+      "publication_year": 2024,
+      "cited_by_count": 3,
+      "venue": "Biofouling",
+      "abstract": "Thermal bubble-driven micro-pumps are an upcoming micro-actuator technology that can be directly integrated into micro/mesofluidic channels, have no moving parts, and leverage existing mass production fabrication approaches. These micro-pumps consist of a high-power micro-resistor that boils fluid in microseconds to create a high-pressure vapor bubble which performs mechanical work. As such, these micro-pumps hold great promise for micro/mesofluidic systems such as lab-on-a-chip technologies. However, to date, no current work has studied the interaction of these micro-pumps with biofluids such as blood and protein-rich fluids. In this study, the effects of organic fouling due to egg albumin and bovine whole blood are characterized using stroboscopic high-speed imaging and a custom deep learning neural network based on transfer learning of RESNET-18. It was found that the growth of a fouling film inhibited vapor bubble formation. A new metric to quantify the extent of fouling was proposed using the decrease in vapor bubble area as a function of the number of micro-pump firing events. Fouling due to egg albumin and bovine whole blood was found to significantly degrade pump performance as well as the lifetime of thermal bubble-driven micro-pumps to less than 104 firings, which may necessitate the use of protective thin film coatings to prevent the buildup of a fouling layer."
+    },
+    {
+      "title": "Direct ink writing of viscous inks in variable gravity regimes using parabolic flights",
+      "doi": "https://doi.org/10.1016/j.actaastro.2024.03.037",
+      "publication_year": 2024,
+      "cited_by_count": 13,
+      "venue": "Acta Astronautica",
+      "abstract": ""
+    },
+    {
+      "title": "An Architecture Study for Low-Power Satellite-Based Wildlife Tracking",
+      "doi": "https://doi.org/10.1109/aero58975.2024.10521172",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "",
+      "abstract": "Accurate satellite-based positioning has revolutionized several industries over the past two decades, from agriculture to transportation. However, conventional GNSS receivers consume significant energy and are too large for many wildlife-tracking applications, which are of critical importance to conservation efforts and our understanding of the global climate. To address this capability gap, we propose a new positioning system designed from the outset to minimize the size, mass, power, and cost of the terrestrial tracking device. We analyze, through extensive modeling and simulation, a mission concept that relies on space-based receivers hosted on a constellation of small satellites in low-Earth orbit that detect and localize signals from very small transmitter tags. We compare a variety of signal modulations, frequencies, and positioning techniques, including both Doppler and time-of-arrival methods, and evaluate the transmitter power required, minimum number of satellites, and achievable position accuracy across a range of design parameters. Our model accounts for errors in satellite orbital state knowledge, clock offsets, frequency measurement errors, and ionospheric effects. This paper presents the results of our extensive trade study, as well as hardware field experiments performed outdoors using flight-traceable software-defined radio receivers."
+    }
+  ]
+}

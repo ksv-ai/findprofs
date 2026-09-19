@@ -1,0 +1,100 @@
+{
+  "faculty_name": "Gregory Beylkin",
+  "full_name": "Gregory Beylkin",
+  "department": "Applied Mathematics",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5054096786",
+  "works_count": 156,
+  "cited_by_count": 10299,
+  "h_index": 41,
+  "top_topics": [
+    {
+      "topic": "Image and Signal Denoising Methods",
+      "count": 39
+    },
+    {
+      "topic": "Seismic Imaging and Inversion Techniques",
+      "count": 29
+    },
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 25
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 18
+    },
+    {
+      "topic": "Digital Filter Design and Implementation",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Fast wavelet transforms and numerical algorithms I",
+      "doi": "https://doi.org/10.1002/cpa.3160440202",
+      "publication_year": 1991,
+      "cited_by_count": 1781,
+      "venue": "Communications on Pure and Applied Mathematics",
+      "abstract": "Abstract A class of algorithms is introduced for the rapid numerical application of a class of linear operators to arbitrary vectors. Previously published schemes of this type utilize detailed analytical information about the operators being applied and are specific to extremely narrow classes of matrices. In contrast, the methods presented here are based on the recently developed theory of wavelets and are applicable to all Calderon‐Zygmund and pseudo‐differential operators. The algorithms of this paper require order O ( N ) or O ( N log N ) operations to apply an N × N matrix to a vector (depending on the particular operator and the version of the algorithm being used), and our numerical experiments indicate that many previously intractable problems become manageable with the techniques presented here."
+    },
+    {
+      "title": "Imaging of discontinuities in the inverse scattering problem by inversion of a causal generalized Radon transform",
+      "doi": "https://doi.org/10.1063/1.526755",
+      "publication_year": 1985,
+      "cited_by_count": 640,
+      "venue": "Journal of Mathematical Physics",
+      "abstract": "This paper treats the linearized inverse scattering problem for the case of variable background velocity and for an arbitrary configuration of sources and receivers. The linearized inverse scattering problem is formulated in terms of an integral equation in a form which covers wave propagation in fluids with constant and variable densities and in elastic solids. This integral equation is connected with the causal generalized Radon transform (GRT), and an asymptotic expansion of the solution of the integral equation is obtained using an inversion procedure for the GRT. The first term of this asymptotic expansion is interpreted as a migration algorithm. As a result, this paper contains a rigorous derivation of migration as a technique for imaging discontinuities of parameters describing a medium. Also, a partial reconstruction operator is explicitly derived for a limited aperture. When specialized to a constant background velocity and specific source–receiver geometries our results are directly related to some known migration algorithms."
+    },
+    {
+      "title": "On the Representation of Operators in Bases of Compactly Supported Wavelets",
+      "doi": "https://doi.org/10.1137/0729097",
+      "publication_year": 1992,
+      "cited_by_count": 608,
+      "venue": "SIAM Journal on Numerical Analysis",
+      "abstract": "This paper describes exact and explicit representations of the differential operators, ${{d^n } / {dx^n }}$, $n = 1,2, \\cdots $, in orthonormal bases of compactly supported wavelets as well as the representations of the Hilbert transform and fractional derivatives. The method of computing these representations is directly applicable to multidimensional convolution operators. Also, sparse representations of shift operators in orthonormal bases of compactly supported wavelets are discussed and a fast algorithm requiring $O(N\\log N)$ operations for computing the wavelet coefficients of all N circulant shifts of a vector of the length $N = 2^n $ is constructed. As an example of an application of this algorithm, it is shown that the storage requirements of the fast algorithm for applying the standard form of a pseudodifferential operator to a vector (see [G. Beylkin, R. R. Coifman, and V. Rokhlin, Comm. Pure. Appl. Math., 44 (1991), pp. 141–183]) may be reduced from $O(N)$ to $O(\\log ^2 N)$ significant entries."
+    },
+    {
+      "title": "Discrete radon transform",
+      "doi": "https://doi.org/10.1109/tassp.1987.1165108",
+      "publication_year": 1987,
+      "cited_by_count": 435,
+      "venue": "IEEE Transactions on Acoustics Speech and Signal Processing",
+      "abstract": "This paper describes the discrete Radon transform (DRT) and the exact inversion algorithm for it. Similar to the discrete Fourier transform (DFT), the DRT is defined for periodic vector-sequences and studied as a transform in its own right. Casting the forward transform as a matrix-vector multiplication, the key observation is that the matrix-although very large-has a block-circulant structure. This observation allows construction of fast direct and inverse transforms. Moreover, we show that the DRT can be used to compute various generalizations of the classical Radon transform (RT) and, in particular, the generalization where straight lines are replaced by curves and weight functions are introduced into the integrals along these curves. In fact, we describe not a single transform, but a class of transforms, representatives of which correspond in one way or another to discrete versions of the RT and its generalizations. An interesting observation is that the exact inversion algorithm cannot be obtained directly from Radon's inversion formula. Given the fact that the RT has no nontrivial one-dimensional analog, exact invertibility makes the DRT a useful tool geared specifically for multidimensional digital signal processing. Exact invertibility of the DRT, flexibility in its definition, and fast computational algorithm affect present applications and open possibilities for new ones. Some of these applications are discussed in the paper."
+    },
+    {
+      "title": "A new slant on seismic imaging; migration and integral geometry",
+      "doi": "https://doi.org/10.1190/1.1442364",
+      "publication_year": 1987,
+      "cited_by_count": 416,
+      "venue": "Geophysics",
+      "abstract": "Abstract A new approach to seismic migration formalizes the classical diffraction (or common-tangent) stack by relating it to linearized seismic inversion and the generalized Radon transform. This approach recasts migration as the problem of reconstructing the earth's acoustic scattering potential from its integrals over isochron surfaces. The theory rests on a solution of the wave equation with the geometrical-optics Green function and an approximate inversion formula for the generalized Radon transform. The method can handle both complex velocity models and (nearly) arbitrary configurations of sources and receivers. In this general case, the method can be implemented as a weighted diffraction stack, with the weights determined by tracing rays from image points to the experiment's sources and receivers. When tested on a finite-difference simulation of a deviated-well vertical seismic profile (a hybrid experiment which is difficult to treat with conventional wave-equation methods), the algorithm accurately reconstructed faulted-earth models. Analytical reconstruction formulas are derived from the general formula for zero-offset and fixed-offset surface experiments in which the background velocity is constant. The zero-offset inversion formula resembles standard Kirchhoff migration.Our analysis provides a direct connection between the experimental setup (source and receiver positions, source wavelet, background velocity) and the spatial resolution of the reconstruction. Synthetic examples illustrate that the lateral resolution in seismic images is described well by the theory and is improved greatly by combining surface data and borehole data. The best resolution is obtained from a zero-offset experiment that surrounds the region to be imaged."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Fast convolution algorithm for state space models",
+      "doi": "https://doi.org/10.48550/arxiv.2411.17729",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We present an unconditionally stable algorithm for applying matrix transfer function of a linear time invariant system (LTI) in time domain. The state matrix of an LTI system used for modeling long range dependencies in state space models (SSMs) has eigenvalues close to $1$. The standard recursion defining LTI system becomes unstable if the $m\\times m$ state matrix has just one eigenvalue with absolute value even slightly greater than 1. This may occur when approximating a state matrix by a structured matrix to reduce the cost of matrix-vector multiplication from $\\mathcal{O}\\left(m^{2}\\right)$ to $\\mathcal{O}\\left(m\\right)$ or $\\mathcal{O}\\left(m\\log m\\right).$ We introduce an unconditionally stable algorithm that uses an approximation of the rational transfer function in the z-domain by a matrix polynomial of degree $2^{N+1}-1$, where $N$ is chosen to achieve any user-selected accuracy. Using a cascade implementation in time domain, applying such transfer function to compute $L$ states requires no more than $2L$ matrix-vector multiplications (whereas the standard recursion requires $L$ matrix-vector multiplications). However, using unconditionally stable algorithm, it is not necessary to assure that an approximate state matrix has all eigenvalues with absolute values strictly less than 1 i.e., within the desired accuracy, the absolute value of some eigenvalues may possibly exceed $1$. Consequently, this algorithm allows one to use a wider variety of structured approximations to reduce the cost of matrix-vector multiplication and we briefly describe several of them to be used for this purpose."
+    },
+    {
+      "title": "On representations of the Helmholtz Green's function",
+      "doi": "https://doi.org/10.1016/j.acha.2024.101633",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "Applied and Computational Harmonic Analysis",
+      "abstract": ""
+    },
+    {
+      "title": "On representations of the Helmholtz Green's function",
+      "doi": "https://doi.org/10.48550/arxiv.2308.01289",
+      "publication_year": 2023,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We consider the free space Helmholtz Green's function and split it into the sum of oscillatory and non-oscillatory (singular) components. The goal is to separate the impact of the singularity of the real part at the origin from the oscillatory behavior controlled by the wave number k. The oscillatory component can be chosen to have any finite number of continuous derivatives at the origin and can be applied to a function in the Fourier space in $\\mathcal{O}\\left(k^{d}\\log k\\right)$ operations. The non-oscillatory component has a multiresolution representation via a linear combination of Gaussians and is applied efficiently in space."
+    }
+  ]
+}

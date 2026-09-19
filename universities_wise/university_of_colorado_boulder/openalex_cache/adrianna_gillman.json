@@ -1,0 +1,132 @@
+{
+  "faculty_name": "Adrianna Gillman",
+  "full_name": "Adrianna Gillman",
+  "department": "Applied Mathematics",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5091762247",
+  "works_count": 50,
+  "cited_by_count": 517,
+  "h_index": 11,
+  "top_topics": [
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 33
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 31
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 16
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 14
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 3
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A direct solver with O(N) complexity for integral equations on one-dimensional domains",
+      "doi": "https://doi.org/10.1007/s11464-012-0188-3",
+      "publication_year": 2012,
+      "cited_by_count": 125,
+      "venue": "Frontiers of Mathematics",
+      "abstract": ""
+    },
+    {
+      "title": "A spectrally accurate direct solution technique for frequency-domain scattering problems with variable media",
+      "doi": "https://doi.org/10.1007/s10543-014-0499-8",
+      "publication_year": 2014,
+      "cited_by_count": 110,
+      "venue": "BIT Numerical Mathematics",
+      "abstract": ""
+    },
+    {
+      "title": "A Direct Solver with $O(N)$ Complexity for Variable Coefficient Elliptic PDEs Discretized via a High-Order Composite Spectral Collocation Method",
+      "doi": "https://doi.org/10.1137/130918988",
+      "publication_year": 2014,
+      "cited_by_count": 56,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "A numerical method for solving elliptic PDEs with variable coefficients on two-dimensional domains is presented. The method is based on high-order composite spectral approximations and is designed for problems with smooth solutions. The resulting system of linear equations is solved using a direct (as opposed to iterative) solver that has optimal $O(N)$ complexity for all stages of the computation when applied to problems with nonoscillatory solutions such as the Laplace and the Stokes equations. Numerical examples demonstrate that the scheme is capable of computing solutions with a relative accuracy of $10^{-10}$ or better for challenging problems such as highly oscillatory Helmholtz problems and convection-dominated convection-diffusion equations. In terms of speed, it is demonstrated that a problem with a nonoscillatory solution that was discretized using $10^{8}$ nodes can be solved in 115 minutes on a personal workstation with two quad-core 3.3 GHz CPUs. Since the solver is direct, and the “solution operator” fits in RAM, any solves beyond the first are very fast. In the example with $10^{8}$ unknowns, solves require only 30 seconds."
+    },
+    {
+      "title": "A high-order accurate accelerated direct solver for acoustic scattering from surfaces",
+      "doi": "https://doi.org/10.1007/s10543-014-0508-y",
+      "publication_year": 2014,
+      "cited_by_count": 39,
+      "venue": "BIT Numerical Mathematics",
+      "abstract": ""
+    },
+    {
+      "title": "A fast direct solver for quasi-periodic scattering problems",
+      "doi": "https://doi.org/10.1016/j.jcp.2013.04.015",
+      "publication_year": 2013,
+      "cited_by_count": 29,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Algorithm librla: A library of randomized linear algebra routines",
+      "doi": "https://doi.org/10.48550/arxiv.2607.20732",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The library \\texttt{librla} is a randomized linear algebra library that is specifically designed for the intermediate-sized matrices (of dimension up to roughly 10,000) that arise in applications such as reduced order modeling, fast direct solvers, least squares solves and, in some settings, data compression. \\texttt{librla} is the first software package that is both stable and efficient in several high-level languages: MATLAB, Python and Julia. It also provides increased functionality over existing software. Specifically, it allows the user to choose to create a factorization based on a fixed rank or a desired tolerance. The factorization options include QR, SVD and the interpolative decomposition. Additionally, the factorization can be generated either with access to the matrix or access to a matrix-vector multiplication routine. Numerical results compare the Python implementation with the available PyTorch and SciPy randomized factorizations. Performance of \\texttt{librla} in the three languages is comparable."
+    },
+    {
+      "title": "Algorithm librla: A library of randomized linear algebra routines",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The library \\texttt{librla} is a randomized linear algebra library that is specifically designed for the intermediate-sized matrices (of dimension up to roughly 10,000) that arise in applications such as reduced order modeling, fast direct solvers, least squares solves and, in some settings, data compression. \\texttt{librla} is the first software package that is both stable and efficient in several high-level languages: MATLAB, Python and Julia. It also provides increased functionality over existing software. Specifically, it allows the user to choose to create a factorization based on a fixed rank or a desired tolerance. The factorization options include QR, SVD and the interpolative decomposition. Additionally, the factorization can be generated either with access to the matrix or access to a matrix-vector multiplication routine. Numerical results compare the Python implementation with the available PyTorch and SciPy randomized factorizations. Performance of \\texttt{librla} in the three languages is comparable."
+    },
+    {
+      "title": "Generating entangled steady states in multistable open quantum systems via initial state control",
+      "doi": "https://doi.org/10.1103/s8kc-crf3",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Physical Review Research",
+      "abstract": "Entanglement underpins the power of quantum technologies, yet it is fragile and typically destroyed by dissipation. Paradoxically, the same dissipation, when carefully engineered, can drive a system toward robust entangled steady states. However, this engineering task is nontrivial, as dissipative many-body systems are complex, particularly when they support multiple steady states. Here, we derive analytic expressions that predict how the steady state of a system evolving under a Lindblad equation depends on the initial state, without requiring integration of the dynamics. These results extend Refs. [V. V. Albert and L. Jiang, ; V. V. Albert , ], showing that while the steady-state manifold is determined by the Liouvillian kernel, the weights within it depend on both the Liouvillian and the initial state. We identify a special class of Liouvillians for which the steady state depends only on the initial overlap with the kernel. Our framework provides analytical insight and a computationally efficient tool for predicting steady states in open quantum systems. As an application, we propose schemes to generate metrologically useful entangled steady states in spin ensembles via balanced collective decay."
+    },
+    {
+      "title": "Generating entangled steady states in multistable open quantum systems via initial state control",
+      "doi": "https://doi.org/10.1103/s8kc-crf3",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Physical Review Research",
+      "abstract": "Entanglement underpins the power of quantum technologies, yet it is fragile and typically destroyed by dissipation. Paradoxically, the same dissipation, when carefully engineered, can drive a system toward robust entangled steady states. However, this engineering task is nontrivial, as dissipative many-body systems are complex, particularly when they support multiple steady states. Here, we derive analytic expressions that predict how the steady state of a system evolving under a Lindblad equation depends on the initial state, without requiring integration of the dynamics. These results extend Refs. [V. V. Albert and L. Jiang, ; V. V. Albert , ], showing that while the steady-state manifold is determined by the Liouvillian kernel, the weights within it depend on both the Liouvillian and the initial state. We identify a special class of Liouvillians for which the steady state depends only on the initial overlap with the kernel. Our framework provides analytical insight and a computationally efficient tool for predicting steady states in open quantum systems. As an application, we propose schemes to generate metrologically useful entangled steady states in spin ensembles via balanced collective decay."
+    },
+    {
+      "title": "librla: A library of randomized linear algebra routines",
+      "doi": "https://doi.org/10.18434/mds2-4070",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "National Institute of Standards and Technology (NIST)",
+      "abstract": ""
+    },
+    {
+      "title": "An efficient boundary integral equation solution technique for solving aperiodic scattering problems from two-dimensional, periodic boundaries",
+      "doi": "https://doi.org/10.48550/arxiv.2511.04424",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This manuscript presents an efficient boundary integral equation technique for solving two-dimensional Helmholtz problems defined in the half-plane bounded by an infinite, periodic curve with Neumann boundary conditions and an aperiodic point source. The technique is designed for boundaries where one period does not require a large number of discretization points to achieve high accuracy. The Floquet--Bloch transform turns the problem into evaluating a contour integral where the integrand is the solution of quasiperiodic boundary value problems. To approximate the integral, one must solve a collection of these problems. This manuscript uses a variant of the periodizing scheme by Cho and Barnett which alleviates the need for evaluating the quasiperiodic Green's function and is amenable to a large amount of precomputation that can be reused for all of the necessary solves. The solution technique is accelerated by the use of low rank linear algebra. The numerical results illustrate that the presented method is 20-30 faster than the technique utilizing the quasiperiodic Green's function for a stair-like geometry."
+    },
+    {
+      "title": "An Iterative Solver for the HPS Discretization Applied to Three Dimensional Helmholtz Problems",
+      "doi": "https://doi.org/10.1137/21m1463380",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "Abstract. This manuscript presents an efficient solver for the linear system that arises from the hierarchical Poincaré–Steklov (HPS) discretization of three dimensional variable coefficient Helmholtz problems. Previous work on the HPS method has tied it with a direct solver. This work is the first efficient iterative solver for the linear system that results from the HPS discretization. The solution technique utilizes GMRES coupled with a locally homogenized block-Jacobi preconditioner. The local nature of the discretization and preconditioner naturally yield the matrix-free application of the linear system. Numerical results illustrate the performance of the solution technique. This includes an experiment where a problem approximately 100 wavelengths in each direction that requires more than a billion unknowns to achieve approximately 4 digits of accuracy takes less than 20 minutes to solve."
+    }
+  ]
+}

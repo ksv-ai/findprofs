@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Kurt Maute",
+  "full_name": "Kurt Maute",
+  "department": "Aerospace Engineering Sciences",
+  "university": "University of Colorado Boulder",
+  "author_id": "A5084828592",
+  "works_count": 245,
+  "cited_by_count": 12386,
+  "h_index": 53,
+  "top_topics": [
+    {
+      "topic": "Topology Optimization in Engineering",
+      "count": 122
+    },
+    {
+      "topic": "Composite Structure Analysis and Optimization",
+      "count": 55
+    },
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 46
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 33
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 30
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Topology optimization approaches",
+      "doi": "https://doi.org/10.1007/s00158-013-0978-6",
+      "publication_year": 2013,
+      "cited_by_count": 2882,
+      "venue": "Structural and Multidisciplinary Optimization",
+      "abstract": ""
+    },
+    {
+      "title": "Level-set methods for structural topology optimization: a review",
+      "doi": "https://doi.org/10.1007/s00158-013-0912-y",
+      "publication_year": 2013,
+      "cited_by_count": 1004,
+      "venue": "Structural and Multidisciplinary Optimization",
+      "abstract": ""
+    },
+    {
+      "title": "Strain effects on the thermal conductivity of nanostructures",
+      "doi": "https://doi.org/10.1103/physrevb.81.245318",
+      "publication_year": 2010,
+      "cited_by_count": 460,
+      "venue": "Physical Review B",
+      "abstract": "Applying stress/strain on a material provides a mechanism to tune the thermal conductivity of materials dynamically or on demand. Experimental and simulation results have shown that thermal conductivity of bulk materials can change significantly under external pressure (compressive stress). However, stress/strain effects on the thermal conductivity of nanostructures have not been systematically studied. In this paper, equilibrium molecular-dynamics (EMD) simulation is performed to systematically study the strain effects on the lattice thermal conductivity of low-dimensional silicon and carbon materials: silicon nanowires (one dimensional) and thin-films (two dimensional), single-walled carbon nanotube (SWCNT, one dimensional) and single-layer graphene sheet (two dimensional). Spectral analysis of EMD is further developed and then applied to avoid the numerical artifacts such as the neglect of long-wavelength phonons that are often encountered when using EMD with periodic boundary conditions. Intrinsic thermal conductivity of the simulated bulk and nanostructures can be obtained using spectral analysis of EMD. The thermal conductivity of the strained silicon and diamond nanowires and thin films is shown to decrease continuously when the strain changes from compressive to tensile. However, for SWCNT and single-layer graphene, the thermal conductivity has a peak value, and the corresponding applied strain is at $\\ensuremath{-}0.06$ or $\\ensuremath{-}0.03$ for SWCNTs depending on the chirality and at zero for graphene, respectively. The following two reasons could explain well the effects of strains on the thermal conductivity of the nanowires and thin films that decreases continuously from compressive strain to tensile strain: (1) mode-specific group velocities of phonons decrease continuously from compressive strain to tensile strain and (2) the specific heat of each propagating phonon modes decrease continuously from compressive strain to tensile strain. However, for SWCNT and single-layer graphene, the mechanical instability induces buckling phenomenon when they are under compressive strains. The phonon-phonon scattering rate increases significantly when the structure buckles. This results in the decreasing behavior of thermal conductivity of SWCNT and graphene under compressive stress and explains the peak thermal conductivity value observed in SWCNT and single-layer graphene when they are under strain. The results obtained in this paper has important implications of challenging thermal management of electronics using advanced materials such as carbon nanotubes and graphene. It also points to a potentially new direction of dynamic thermal management."
+    },
+    {
+      "title": "Design of effective fins for fast PCM melting and solidification in shell-and-tube latent heat thermal energy storage through topology optimization",
+      "doi": "https://doi.org/10.1016/j.apenergy.2017.10.050",
+      "publication_year": 2017,
+      "cited_by_count": 347,
+      "venue": "Applied Energy",
+      "abstract": ""
+    },
+    {
+      "title": "Reliability-based design of MEMS mechanisms by topology optimization",
+      "doi": "https://doi.org/10.1016/s0045-7949(03)00008-7",
+      "publication_year": 2003,
+      "cited_by_count": 265,
+      "venue": "Computers & Structures",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Primal and dual localized AFETI methods for the partitioned solution of heterogeneous structural systems",
+      "doi": "https://doi.org/10.1016/j.compstruc.2026.108381",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computers & Structures",
+      "abstract": "Partitioned methods play a crucial role in enabling scalable simulations of large-scale structural systems. While dual-based approaches such as FETI have demonstrated considerable success, they often suffer from limitations in robustness and scalability when applied to ill-conditioned heterogeneous problems. Primal methods, particularly Balancing Domain Decomposition (BDD) and its variant BDDC, have addressed some of these issues, yet the computation of their coarse problems continues to present a significant bottleneck in massively parallel settings. This paper introduces a novel class of primal domain decomposition methods derived from the algebraic FETI (AFETI) framework with localized Lagrange multipliers. Building upon our previous research on dual AFETI methods González and Park (2020) [1] , we present a localized primal variant within the same theoretical framework. The proposed primal iterative methods search for partition boundary displacements in appropriately chosen subspaces. A natural projection of these primal unknowns leads to a formulation that is cheaper than equivalent dual methods and better suited for ill-conditioned systems. Additionally, a one-level variant is introduced, incorporating additional constraints to produce a coarse problem structurally similar to BDD, but with improved robustness and lower computational overhead. Although the primal and dual forms of AFETI are theoretically equivalent, numerical experiments confirm that the primal approach offers greater generality and enhanced robustness for the solution of heterogeneous partitioned problems. These features make the proposed primal methods particularly attractive for large-scale nonlinear structural applications."
+    },
+    {
+      "title": "Learning Gradient Flow: Using Equation Discovery to Accelerate Engineering Optimization",
+      "doi": "https://doi.org/10.48550/arxiv.2602.13513",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "In this work, we investigate the use of data-driven equation discovery for dynamical systems to model and forecast continuous-time dynamics of unconstrained optimization problems. To avoid expensive evaluations of the objective function and its gradient, we leverage trajectory data on the optimization variables to learn the continuous-time dynamics associated with gradient descent, Newton's method, and ADAM optimization. The discovered gradient flows are then solved as a surrogate for the original optimization problem. To this end, we introduce the Learned Gradient Flow (LGF) optimizer, which is equipped to build surrogate models of variable polynomial order in full- or reduced-dimensional spaces at user-defined intervals in the optimization process. We demonstrate the efficacy of this approach on several standard problems from engineering mechanics and scientific machine learning, including two inverse problems, structural topology optimization, and two forward solves with different discretizations. Our results suggest that the learned gradient flows can significantly expedite convergence by capturing critical features of the optimization trajectory while avoiding expensive evaluations of the objective and its gradient."
+    },
+    {
+      "title": "Solving Engineering Eigenvalue Problems With Neural Networks Using the Rayleigh Quotient",
+      "doi": "https://doi.org/10.1002/nme.70209",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "International Journal for Numerical Methods in Engineering",
+      "abstract": "ABSTRACT From characterizing the speed of a thermal system's response to computing natural modes of vibration, eigenvalue analysis is ubiquitous in engineering. In spite of this, eigenvalue problems have received relatively little treatment compared to standard forward and inverse problems in the physics‐informed machine learning (PIML) literature. In particular, neural network discretizations of solutions to eigenvalue problems have seen only a handful of studies. Owing to their nonlinearity, neural network discretizations prevent the conversion of the continuous eigenvalue differential equation into a standard discrete eigenvalue problem. In this setting, eigenvalue analysis requires more specialized techniques. Using a neural network discretization of the eigenfunction, we show that a variational form of the eigenvalue problem called the “Rayleigh quotient,” in tandem with a Gram–Schmidt orthogonalization procedure, is a particularly simple and robust approach to find the eigenvalues and their corresponding eigenfunctions. This method is shown to be useful for finding sets of Laplacian eigenfunctions on irregular domains, parametric and nonlinear eigenproblems, and high‐dimensional eigenanalysis. We also discuss the utility of eigenfunctions as a spectral basis for approximating solutions to partial differential equations. Through various examples from engineering mechanics, the combination of the Rayleigh quotient objective, Gram–Schmidt procedure, and the neural network discretization of the eigenfunction is shown to offer unique advantages for handling continuous eigenvalue problems."
+    },
+    {
+      "title": "Solving FEM models without assembly: Its promise and challenge",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118588",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": "The present paper is a compendium of recent advances by seven research teams who have applied the PartStiff and PartFlex methods in solving seven distinctly different problems. Each of the research teams exploited the key feature of the PartStiff and PartFlex methods: partitioned (unassembled) FEM models without Lagrange multipliers. The unassembled PartStiff equation is given by M d ¨ = P d ( f − K d ) where ( M , K , f , d ¨ , d , P d ) are the partitioned block diagonal mass and block diagonal stiffness matrices and the applied force, acceleration and displacement vectors, and the projection operator P d which accomplishes the necessary coupling among the partitions. The paper presents applications of both the PartStiff and PartFlex methods: high-fidelity parallel solvers for heterogeneous problems; an element-by-element implicit-explicit transient algorithm; reduced-order modeling (ROM) with a practical model-order reduction criterion; component mode synthesis guided by a rational mode selection guide, identification of damage locations and damage levels via experimentally identified models and/or data-driven digital-twin models; and, topology optimization, among others."
+    },
+    {
+      "title": "Enriched immersed finite element and isogeometric analysis: algorithms and data structures",
+      "doi": "https://doi.org/10.1007/s00366-025-02163-7",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Engineering With Computers",
+      "abstract": "Abstract Immersed finite element methods provide a convenient analysis framework for problems involving geometrically complex domains, such as those found in topology optimization and microstructures for engineered materials. However, their implementation remains a major challenge due to, among other things, the need to apply nontrivial stabilization schemes and generate custom quadrature rules. This article introduces the robust and computationally efficient algorithms and data structures comprising an immersed finite element preprocessing framework. The input to the preprocessor consists of a background mesh and one or more geometries defined on its domain. The output is structured into groups of elements with custom quadrature rules formatted such that common finite element assembly routines may be used without or with only minimal modifications. The key to the preprocessing framework is the construction of material topology information, concurrently with the generation of a quadrature rule, which is then used to perform enrichment and generate stabilization rules. While the algorithmic framework applies to a wide range of immersed finite element methods using different types of meshes, integration, and stabilization schemes, the preprocessor is presented within the context of the extended isogeometric analysis. This method utilizes a structured B-spline mesh, a generalized Heaviside enrichment strategy considering the material layout within individual basis functions’ supports, and face-oriented ghost stabilization. Using a set of examples, the effectiveness of the enrichment and stabilization strategies is demonstrated alongside the preprocessor’s robustness in geometric edge cases. Additionally, the performance and parallel scalability of the implementation are evaluated."
+    },
+    {
+      "title": "Physics-informed solution reconstruction in elasticity and heat transfer using the explicit constraint force method",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118260",
+      "publication_year": 2025,
+      "cited_by_count": 6,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Optimization of Lattice Structures Using Neural Networks as Immersed Boundary Representations",
+      "doi": "https://doi.org/10.5281/zenodo.18171105",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": ""
+    },
+    {
+      "title": "Recent advances in design optimization and additive manufacturing of composites: from enhanced mechanical properties to innovative functionalities",
+      "doi": "https://doi.org/10.1038/s44334-025-00040-1",
+      "publication_year": 2025,
+      "cited_by_count": 37,
+      "venue": "npj Advanced Manufacturing",
+      "abstract": "Abstract This review highlights recent progress in additive manufacturing (AM) techniques for polymer composites reinforced with nanoparticles, short fibers, and continuous fibers. It also explores the integration of functional resins and fibers to enable advanced capabilities such as shape morphing, enhanced electrical and thermal conductivity, and self-healing behavior. Building on these advances, the review examines computational design strategies that optimize material distribution and fiber orientation. Representative approaches range from density-based methods to emerging level-set topology optimization frameworks, with objectives evolving from improving mechanical performance to addressing complex multi-physics functional requirements. The review also identifies emerging opportunities, including the need for technological innovations to further improve mechanical properties and enable adaptable multifunctionality. Further advances in theoretical modeling and integrated design-printing workflows are also discussed. By synthesizing these developments, this review aims to foster interdisciplinary collaborations and accelerate innovation in AM-enabled composite materials across a wide range of applications."
+    },
+    {
+      "title": "Solving engineering eigenvalue problems with neural networks using the Rayleigh quotient",
+      "doi": "https://doi.org/10.48550/arxiv.2506.04375",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "From characterizing the speed of a thermal system's response to computing natural modes of vibration, eigenvalue analysis is ubiquitous in engineering. In spite of this, eigenvalue problems have received relatively little treatment compared to standard forward and inverse problems in the physics-informed machine learning literature. In particular, neural network discretizations of solutions to eigenvalue problems have seen only a handful of studies. Owing to their nonlinearity, neural network discretizations prevent the conversion of the continuous eigenvalue differential equation into a standard discrete eigenvalue problem. In this setting, eigenvalue analysis requires more specialized techniques. Using a neural network discretization of the eigenfunction, we show that a variational form of the eigenvalue problem called the \"Rayleigh quotient\" in tandem with a Gram-Schmidt orthogonalization procedure is a particularly simple and robust approach to find the eigenvalues and their corresponding eigenfunctions. This method is shown to be useful for finding sets of harmonic functions on irregular domains, parametric and nonlinear eigenproblems, and high-dimensional eigenanalysis. We also discuss the utility of harmonic functions as a spectral basis for approximating solutions to partial differential equations. Through various examples from engineering mechanics, the combination of the Rayleigh quotient objective, Gram-Schmidt procedure, and the neural network discretization of the eigenfunction is shown to offer unique advantages for handling continuous eigenvalue problems."
+    },
+    {
+      "title": "Physics-informed solution reconstruction in elasticity and heat transfer using the explicit constraint force method",
+      "doi": "https://doi.org/10.48550/arxiv.2505.04875",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "One use case of ``physics-informed neural networks'' (PINNs) is solution reconstruction, which aims to estimate the full-field state of a physical system from sparse measurements. Parameterized governing equations of the system are used in tandem with the measurements to regularize the regression problem. However, in real-world solution reconstruction problems, the parameterized governing equation may be inconsistent with the physical phenomena that give rise to the measurement data. We show that due to assuming consistency between the true and parameterized physics, PINNs-based approaches may fail to satisfy three basic criteria of interpretability, robustness, and data consistency. As we argue, these criteria ensure that (i) the quality of the reconstruction can be assessed, (ii) the reconstruction does not depend strongly on the choice of physics loss, and (iii) that in certain situations, the physics parameters can be uniquely recovered. In the context of elasticity and heat transfer, we demonstrate how standard formulations of the physics loss and techniques for constraining the solution to respect the measurement data lead to different ``constraint forces\" -- which we define as additional source terms arising from the constraints -- and that these constraint forces can significantly influence the reconstructed solution. To avoid the potentially substantial influence of the choice of physics loss and method of constraint enforcement on the reconstructed solution, we propose the ``explicit constraint force method'' (ECFM) to gain control of the source term introduced by the constraint. We then show that by satisfying the criteria of interpretability, robustness, and data consistency, this approach leads to more predictable and customizable reconstructions from noisy measurement data, even when the parameterization of the missing physics is inconsistent with the measured system."
+    }
+  ]
+}
