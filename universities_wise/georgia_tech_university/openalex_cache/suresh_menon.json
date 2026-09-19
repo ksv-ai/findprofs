@@ -1,0 +1,254 @@
+{
+  "name": "Suresh Menon",
+  "uni": "Georgia Institute of Technology",
+  "author_id": "A5103010149",
+  "author_display_name": "Suresh Menon",
+  "works_count": 483,
+  "cited_by_count": 10018,
+  "top_topics": [
+    {
+      "topic": "Combustion and flame dynamics",
+      "count": 281
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 158
+    },
+    {
+      "topic": "Advanced Combustion Engine Technologies",
+      "count": 146
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 146
+    },
+    {
+      "topic": "Combustion and Detonation Processes",
+      "count": 67
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Secondary instability of a temporally growing mixing layer",
+      "publication_year": 1987,
+      "publication_date": "1987-11-01",
+      "doi": "https://doi.org/10.1017/s0022112087002866",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 359,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Pairing",
+        "Physics",
+        "Instability",
+        "Vortex",
+        "Reynolds number",
+        "Turbulence",
+        "Inviscid flow",
+        "Amplitude"
+      ],
+      "abstract": "The three-dimensional stability of two-dimensional vortical states of planar mixing layers is studied by direct numerical integration of the Navier-Stokes equations. Small-scale instabilities are shown to exist for spanwise scales at which classical linear modes are stable. These modes grow on convective timescales, extract their energy from the mean flow and exist at moderately low Reynolds numbers. Their growth rates are comparable with the most rapidly growing inviscid instability and with the growth rates of two-dimensional subharmonic (pairing) modes. At high amplitudes, they can evolve into pairs of counter-rotating, streamwise vortices, connecting the primary spanwise vortices, which are very similar to the structures observed in laboratory experiments. The three-dimensional modes do not appear to saturate in quasi-steady states as do the purely two-dimensional fundamental and subharmonic modes in the absence of pairing. The subsequent evolution of the flow depends on the relative amplitudes of the pairing modes. Persistent pairings can inhibit three-dimensional instability and, hence, keep the flow predominantly two-dimensional. Conversely, suppression of the pairing pro...",
+      "authors": [
+        "Ralph W. Metcalfe",
+        "Steven A. Orszag",
+        "Marc Brächet",
+        "Suresh Menon",
+        "James J. Riley"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulation of a Gas Turbine Combustor Flow",
+      "publication_year": 1999,
+      "publication_date": "1999-08-01",
+      "doi": "https://doi.org/10.1080/00102209908924192",
+      "venue": "Combustion Science and Technology",
+      "type": "article",
+      "cited_by_count": 332,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Large eddy simulation",
+        "Turbulence",
+        "Mechanics",
+        "Combustion",
+        "Gas turbines",
+        "Flow (mathematics)",
+        "Turbine"
+      ],
+      "abstract": "Large-eddy simulation (LES) of turbulent premixed reacting flows in a gas turbine combustor (General Electric's lean premixed dry low-NOx LM6000) has been carried out to evaluate the potential of LES for design studies of realistic hardware. A flamelet model for the premixed flame is combined with a dynamic model for the subgrid kinetic energy to simulate the propagation of the turbulent flame in this high swirl and high Reynolds number flow. Comparison of the computed results with experimental data indicate good agreement in spite of relatively coarse grid resolution employed in the LES. These results provide significant confidence that LES capability for design studies of practical interest is feasible in the near future.",
+      "authors": [
+        "Won-Wook Kim",
+        "Suresh Menon",
+        "Hukam Mongia"
+      ]
+    },
+    {
+      "title": "A new dynamic one-equation subgrid-scale model for large eddy simulations",
+      "publication_year": 1995,
+      "publication_date": "1995-01-09",
+      "doi": "https://doi.org/10.2514/6.1995-356",
+      "venue": "33rd Aerospace Sciences Meeting and Exhibit",
+      "type": "conference-paper",
+      "cited_by_count": 307,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Scale (ratio)",
+        "Scale model",
+        "Large eddy simulation",
+        "Computer science",
+        "Statistical physics",
+        "Mechanics",
+        "Physics",
+        "Aerospace engineering"
+      ],
+      "abstract": "",
+      "authors": [
+        "Won-Wook Kim",
+        "Suresh Menon"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Application of Hybrid Transported-Tabulated Chemistry for Efficient Large-Eddy Simulation of Turbulent Combustion",
+      "publication_year": 2026,
+      "publication_date": "2026-09-17",
+      "doi": "https://doi.org/10.1007/s10494-026-00794-4",
+      "venue": "Flow Turbulence and Combustion",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s10494-026-00794-4.pdf",
+      "concepts": [
+        "Turbulence",
+        "Combustion",
+        "Mechanics",
+        "A priori and a posteriori",
+        "Computation",
+        "Minor (academic)",
+        "Thermodynamics",
+        "Computational fluid dynamics"
+      ],
+      "abstract": "Abstract The performance of a hybrid transported-tabulated chemistry (HTTC) strategy is evaluated for large-eddy simulations (LES) of turbulent combustion with detailed finite-rate kinetics. The computational cost of LES is reduced in the HTTC approach by segregating the species list into major and minor species, with the former transported and the latter tabulated. Apart from reducing the number of transported species, the HTTC approach and its variants decrease computational cost by enabling efficient computation of thermodynamics and transport properties and by relieving the stiffness of chemical source terms. The calculations can be up to 11 times faster with stiff kinetics (29 species, 141 steps), as the HTTC approach eliminates the need to integrate and transport the minor species, which typically have short chemical times. The original HTTC and other variants are assessed for their accuracy, efficiency, and robustness for LES by considering two temporally evolving challenging test cases: a freely propagating turbulent premixed flame in the thin reaction zone regime and a turbulent non-premixed jet flame exhibiting local extinction and re-ignition. Modifications to the ori...",
+      "authors": [
+        "Achyut Panchal",
+        "Reetesh Ranjan",
+        "Suresh Menon"
+      ]
+    },
+    {
+      "title": "Modeling and validation of liquid injection in a rotating detonation combustor",
+      "publication_year": 2026,
+      "publication_date": "2026-08-30",
+      "doi": "https://doi.org/10.1016/j.ast.2026.113673",
+      "venue": "Aerospace Science and Technology",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Detonation",
+        "Breakup",
+        "Injector",
+        "Mechanics",
+        "Fuel injection",
+        "Diesel fuel",
+        "Combustion"
+      ],
+      "abstract": "",
+      "authors": [
+        "Marc Salvadori",
+        "Achyut Panchal",
+        "Suresh Menon"
+      ]
+    },
+    {
+      "title": "Predicting Postoperative Nausea and Vomiting in Oral and Maxillofacial Surgery: Evaluating Risk Factors and Applicability of the Apfel Score",
+      "publication_year": 2025,
+      "publication_date": "2025-07-11",
+      "doi": "https://doi.org/10.1007/s12663-025-02659-1",
+      "venue": "Journal of Maxillofacial and Oral Surgery",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Medicine",
+        "Oral and maxillofacial surgery",
+        "Otorhinolaryngology",
+        "Nausea",
+        "Vomiting",
+        "Plastic surgery",
+        "Head and neck surgery",
+        "Postoperative nausea and vomiting"
+      ],
+      "abstract": "",
+      "authors": [
+        "A Mohan",
+        "Jahnavi Nimmagadda",
+        "K. Murali Manohar",
+        "Suresh Menon",
+        "M. E. Sham",
+        "S. Archana",
+        "Sheron Mathews",
+        "Pranav Narayan"
+      ]
+    },
+    {
+      "title": "Large-Eddy Simulations of Soot Formation and Dispersion in Rich-Burn Quick-Mix Lean-Burn (RQL) Spray Combustor",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-2484",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 2,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Combustor",
+        "Burn out",
+        "Lean burn",
+        "Soot",
+        "Materials science",
+        "Dispersion (optics)",
+        "Burn-in",
+        "Large eddy simulation"
+      ],
+      "abstract": "The influence of varying fuel/air ratios on the primary zone soot formation characteristics of the liquid-fueled rich-quench-lean (RQL) combustor is investigated numerically. Large- eddy simulations (LES) of two global equivalence ratios (��) corresponding to 0.12 and 0.2 respectively are conducted at an overall pressure of 6.8 atm. The employed LES modeling framework includes Lagrangian treatment for liquid-fuel spray, finite-rate chemistry for gas- phase combustion, a polycyclic aromatic hydrocarbon (PAH)-based soot model, a partially stirred reactor model for turbulence-soot-chemistry interactions, and an optically thin radiation model. The soot and gas-phase chemistry modeling framework is verified against the experimental measurements from canonical premixed and non-premixed flames of gaseous ethylene fuels. The LES simulations of the RQL combustor qualitatively demonstrate the trend of increasing soot volume fractions (SVFs) under the two conditions investigated in this work. Further analysis of local flame-soot-spray interactions and soot source terms is reported to explain the observed differences.",
+      "authors": [
+        "Shubham B. Karpe",
+        "Suresh Menon"
+      ]
+    },
+    {
+      "title": "Characterizing Simulant Mixing and Decomposition in an Explosive Fireball: A Numerical Study",
+      "publication_year": 2025,
+      "publication_date": "2025-01-03",
+      "doi": "https://doi.org/10.2514/6.2025-1384",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Explosive material",
+        "Mixing (physics)",
+        "Decomposition",
+        "Materials science",
+        "Nuclear engineering",
+        "Physics",
+        "Engineering",
+        "Chemistry"
+      ],
+      "abstract": "Explosions are often used to decompose harmful substances since they create a high-temperature post-detonation environment. Free-field explosion of high-explosive charge results in spherical shock wave(s) generated from the core and a reaction front between oxygen-deficient high-temperature detonation products and shock-heated ambient air, i.e., fireball. Furthermore, in a confined geometry, there can be wall reflections and complex wave interactions that promote further mixing of hot products with the background air. This study evaluates the effect of PETN explosion on mixing and decomposition of a simulant cloud (modeled as a passive scalar) placed in the near- vs. the far-field. To model a simulant cloud placed in the near-field of the charge (i.e., $l/l^*$<0.5, where $l$ is the charge location and $l^*$ is the characteristic length), 3D simulations starting from spherical detonation wave initial conditions are considered and passive simulant mixing and mixed temperature are shown to be largely dependent on whether the simulant cloud interacts with the fireball or not. When the simulant cloud is placed far from the charge location, the initial temperature rise is only due to ...",
+      "authors": [
+        "Achyut Panchal",
+        "Suresh Menon"
+      ]
+    }
+  ]
+}

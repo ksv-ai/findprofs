@@ -1,0 +1,260 @@
+{
+  "name": "Cyrus K. Aidun",
+  "uni": "Georgia Institute of Technology",
+  "author_id": "A5080454760",
+  "author_display_name": "Cyrus K. Aidun",
+  "works_count": 251,
+  "cited_by_count": 6063,
+  "top_topics": [
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 80
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 49
+    },
+    {
+      "topic": "Particle Dynamics in Fluid Flows",
+      "count": 40
+    },
+    {
+      "topic": "Blood properties and coagulation",
+      "count": 33
+    },
+    {
+      "topic": "Rheology and Fluid Dynamics Studies",
+      "count": 32
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Lattice-Boltzmann Method for Complex Flows",
+      "publication_year": 2009,
+      "publication_date": "2009-09-23",
+      "doi": "https://doi.org/10.1146/annurev-fluid-121108-145519",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 1988,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Computer science",
+        "Lattice gas automaton",
+        "Statistical physics",
+        "Eulerian path",
+        "Knudsen number",
+        "Kinetic theory",
+        "Grid"
+      ],
+      "abstract": "With its roots in kinetic theory and the cellular automaton concept, the lattice-Boltzmann (LB) equation can be used to obtain continuum flow quantities from simple and local update rules based on particle interactions. The simplicity of formulation and its versatility explain the rapid expansion of the LB method to applications in complex and multiscale flows. We review many significant developments over the past decade with specific examples. Some of the most active developments include the entropic LB method and the application of the LB method to turbulent flow, multiphase flow, and deformable particle and fiber suspensions. Hybrid methods based on the combination of the Eulerian lattice with a Lagrangian grid system for the simulation of moving deformable boundaries show promise for more efficient applications to a broader class of problems. We also discuss higher-order boundary conditions and the simulation of microchannel flow with finite Knudsen number. Additionally, the remarkable scalability of the LB method for parallel processing is shown with examples. Teraflop simulations with the LB method are routine, and there is no doubt that this method will be one of the firs...",
+      "authors": [
+        "Cyrus K. Aidun",
+        "Jonathan Clausen"
+      ]
+    },
+    {
+      "title": "Direct analysis of particulate suspensions with inertia using the discrete Boltzmann equation",
+      "publication_year": 1998,
+      "publication_date": "1998-10-25",
+      "doi": "https://doi.org/10.1017/s0022112098002493",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 625,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Mechanics",
+        "Cylinder",
+        "Ellipsoid",
+        "Ellipse",
+        "Inertia",
+        "Physics",
+        "Shear flow"
+      ],
+      "abstract": "An efficient and robust computational method, based on the lattice-Boltzmann method, is presented for analysis of impermeable solid particle(s) suspended in fluid with inertia. In contrast to previous lattice-Boltzmann approaches, the present method can be used for any solid-to-fluid density ratio. The details of the numerical technique and implementation of the boundary conditions are presented. The accuracy and robustness of the method is demonstrated by simulating the flow over a circular cylinder in a two-dimensional channel, a circular cylinder in simple shear flow, sedimentation of a circular cylinder in a two-dimensional channel, and sedimentation of a sphere in a three-dimensional channel. With a solid-to-fluid density ratio close to one, new results from two-dimensional and three-dimensional computational analysis of dynamics of an ellipse and an ellipsoid in a simple shear flow, as well as two-dimensional and three-dimensional results for sedimenting ellipses and prolate spheroids, are presented.",
+      "authors": [
+        "Cyrus K. Aidun",
+        "Yannan Lu",
+        "E. J. Ding"
+      ]
+    },
+    {
+      "title": "Lattice Boltzmann simulation of solid particles suspended in fluid",
+      "publication_year": 1995,
+      "publication_date": "1995-10-01",
+      "doi": "https://doi.org/10.1007/bf02179967",
+      "venue": "Journal of Statistical Physics",
+      "type": "article",
+      "cited_by_count": 194,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Lattice Boltzmann methods",
+        "Reynolds number",
+        "Computational fluid dynamics",
+        "Inertia",
+        "Fluid dynamics",
+        "Physics",
+        "Mechanics",
+        "Classical mechanics"
+      ],
+      "abstract": "",
+      "authors": [
+        "Cyrus K. Aidun",
+        "Yannan Lu"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "On the scaling of bubble interactions in dynamic turbulence: theoretical, numerical, and experimental study",
+      "publication_year": 2026,
+      "publication_date": "2026-07-28",
+      "doi": "https://doi.org/10.48550/arxiv.2607.25251",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2607.25251",
+      "concepts": [
+        "Turbulence",
+        "Reynolds number",
+        "Bubble",
+        "Mechanics",
+        "Breakup",
+        "Physics",
+        "Coalescence (physics)",
+        "Population"
+      ],
+      "abstract": "This study investigates dilute bubbly decaying homogeneous isotropic turbulence at high Reynolds number using theory, direct numerical simulation, and experiments. The turbulent kinetic energy and dissipation rate follow power-law decay, while the bubble population reorganizes relative to the evolving Hinze scale. When the dissipation decays sufficiently rapidly, the Hinze scale grows faster than the characteristic bubble diameter, driving the population from super-Hinze toward sub-Hinze sizes. The system passes through a mixed regime in which coalescence dominates but breakup remains active, followed by a pure-coalescence regime. Residual breakup in the mixed regime increases the number of small bubbles and enhances coalescence, leading to faster growth of the characteristic bubble size. DNS of dilute bubble-laden turbulence shows decay exponents close to single-phase turbulence and a bubble-size distribution that shifts toward smaller diameter relative to the Hinze scale. Before the transition, the distribution exhibits two power-law ranges associated with capillary effects and inertial breakup; after the transition, it approaches a single capillary-dominated scaling. Theory a...",
+      "authors": [
+        "Vivek Kumar",
+        "Prasoon Suchandra",
+        "Shivam Prajapati",
+        "Suhas S. Jain",
+        "Cyrus K. Aidun"
+      ]
+    },
+    {
+      "title": "On the scaling of bubble interactions in dynamic turbulence: theoretical, numerical, and experimental study",
+      "publication_year": 2026,
+      "publication_date": "2026-07-28",
+      "doi": "https://arxiv.org/abs/2607.25251",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2607.25251",
+      "concepts": [
+        "Turbulence",
+        "Reynolds number",
+        "Bubble",
+        "Mechanics",
+        "Breakup",
+        "Physics",
+        "Coalescence (physics)",
+        "Population"
+      ],
+      "abstract": "This study investigates dilute bubbly decaying homogeneous isotropic turbulence at high Reynolds number using theory, direct numerical simulation, and experiments. The turbulent kinetic energy and dissipation rate follow power-law decay, while the bubble population reorganizes relative to the evolving Hinze scale. When the dissipation decays sufficiently rapidly, the Hinze scale grows faster than the characteristic bubble diameter, driving the population from super-Hinze toward sub-Hinze sizes. The system passes through a mixed regime in which coalescence dominates but breakup remains active, followed by a pure-coalescence regime. Residual breakup in the mixed regime increases the number of small bubbles and enhances coalescence, leading to faster growth of the characteristic bubble size. DNS of dilute bubble-laden turbulence shows decay exponents close to single-phase turbulence and a bubble-size distribution that shifts toward smaller diameter relative to the Hinze scale. Before the transition, the distribution exhibits two power-law ranges associated with capillary effects and inertial breakup; after the transition, it approaches a single capillary-dominated scaling. Theory a...",
+      "authors": [
+        "Vivek Kumar",
+        "Prasoon Suchandra",
+        "Shivam Prajapati",
+        "Suhas S. Jain",
+        "Cyrus K. Aidun"
+      ]
+    },
+    {
+      "title": "Mass-Transfer Control With Microbubbles in Highly Turbulent Decaying Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://doi.org/10.48550/arxiv.2604.24520",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.48550/arxiv.2604.24520",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Turbulence kinetic energy",
+        "Reynolds number",
+        "Surface tension",
+        "Bubble",
+        "Physics",
+        "Breakup"
+      ],
+      "abstract": "We hypothesize that combining extreme turbulence with a minute reduction in surface tension $σ$ (surface tension of the liquid) using surfactant provides a simple and scalable route for controlling micron scale bubble size in gas--liquid systems. To test this, we generate high-intensity turbulence using a multiphase pump [turbulent intensity $\\ge 40\\%$; Taylor Reynolds number $Re_λ=\\mathcal{O}(10^3)$; bulk Reynolds number $Re=\\mathcal{O}(10^5)$] feeding a straight duct, which produces a decaying turbulent flow where, without additives, bubble coalescence dominates and causes monotonic downstream growth in the mean diameter $d_\\mathrm{avg}$ of the bubbles. This growth is governed by the turbulent dissipation rate $\\varepsilon$. High-speed imaging, back-lit shadowgraph and particle shadow velocimetry (PSV) quantify bubble statistics ($d_\\mathrm{avg}$, and the bubble-size distribution) and turbulence metrics (turbulent kinetic energy $k$, turbulence intensity $\\mathcal{I}$, and dissipation rate $\\varepsilon$). We then introduce a minute amount ($\\sim 0.01\\%$ critical micelle concentration) of additive that produces a slight reduction in $σ$, used here only as an interfacial tuning ...",
+      "authors": [
+        "Vivek Kumar",
+        "Prasoon Suchandra",
+        "Jason Rom",
+        "Shivam Prajapati",
+        "Suhas Jain",
+        "Cyrus K. Aidun"
+      ]
+    },
+    {
+      "title": "Mass-Transfer Control With Microbubbles in Highly Turbulent Decaying Flows",
+      "publication_year": 2026,
+      "publication_date": "2026-04-27",
+      "doi": "https://arxiv.org/abs/2604.24520",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://arxiv.org/pdf/2604.24520",
+      "concepts": [
+        "Turbulence",
+        "Mechanics",
+        "Turbulence kinetic energy",
+        "Reynolds number",
+        "Surface tension",
+        "Bubble",
+        "Physics",
+        "Breakup"
+      ],
+      "abstract": "We hypothesize that combining extreme turbulence with a minute reduction in surface tension $σ$ (surface tension of the liquid) using surfactant provides a simple and scalable route for controlling micron scale bubble size in gas--liquid systems. To test this, we generate high-intensity turbulence using a multiphase pump [turbulent intensity $\\ge 40\\%$; Taylor Reynolds number $Re_λ=\\mathcal{O}(10^3)$; bulk Reynolds number $Re=\\mathcal{O}(10^5)$] feeding a straight duct, which produces a decaying turbulent flow where, without additives, bubble coalescence dominates and causes monotonic downstream growth in the mean diameter $d_\\mathrm{avg}$ of the bubbles. This growth is governed by the turbulent dissipation rate $\\varepsilon$. High-speed imaging, back-lit shadowgraph and particle shadow velocimetry (PSV) quantify bubble statistics ($d_\\mathrm{avg}$, and the bubble-size distribution) and turbulence metrics (turbulent kinetic energy $k$, turbulence intensity $\\mathcal{I}$, and dissipation rate $\\varepsilon$). We then introduce a minute amount ($\\sim 0.01\\%$ critical micelle concentration) of additive that produces a slight reduction in $σ$, used here only as an interfacial tuning ...",
+      "authors": [
+        "Vivek Kumar",
+        "Prasoon Suchandra",
+        "Jason Rom",
+        "Shivam Prajapati",
+        "Suhas Jain",
+        "Cyrus K. Aidun"
+      ]
+    },
+    {
+      "title": "Bubble coalescence dynamics in a high-Reynolds number decaying turbulent flow",
+      "publication_year": 2026,
+      "publication_date": "2026-04-13",
+      "doi": "https://doi.org/10.1017/jfm.2026.11410",
+      "venue": "Journal of Fluid Mechanics",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.1017/jfm.2026.11410",
+      "concepts": [
+        "Bubble",
+        "Mechanics",
+        "Turbulence",
+        "Physics",
+        "Coalescence (physics)",
+        "Breakup",
+        "Sauter mean diameter",
+        "Reynolds number"
+      ],
+      "abstract": "This study experimentally investigates bubble size evolution and void fraction redistribution in an unexplored, coalescence-dominated regime of a decaying turbulent bubbly flow. The flow is generated downstream of a regenerative pump in a duct, with bulk Reynolds number ( Re ) $\\sim \\mathcal{O}(10^5)$ , Taylor-scale Reynolds number ( Re $_\\lambda$ ) $\\sim \\mathcal{O}(10^3)$ and void fraction ( $\\phi$ ) $\\sim \\mathcal{O}(1\\,\\%)$ , where the inlet turbulence is extremely intense (turbulence intensity $\\gt 30\\,\\%$ ) but decays rapidly along the duct. Shadowgraph imaging and particle shadow velocimetry are used for measurements. The experimentally obtained turbulent dissipation in the duct flow decays as $\\varepsilon \\sim \\mathcal{L}^{-2}$ , where $\\mathcal{L}$ is the axial position, in close agreement with the homogeneous isotropic turbulence prediction of $\\varepsilon \\sim \\mathcal{L}^{-2.2}$ . High-speed imaging and statistical analysis reveal that bubble coalescence dominates over breakup across most of the domain, leading to monotonic growth in the Sauter mean diameter ( $d_{32}$ ) and progressive broadening of the bubble size distribution. The normalised extreme-to-mean diamet...",
+      "authors": [
+        "Vivek Kumar",
+        "Prasoon Suchandra",
+        "Ardalan Javadi",
+        "Suhas S. Jain",
+        "Cyrus K. Aidun"
+      ]
+    }
+  ]
+}

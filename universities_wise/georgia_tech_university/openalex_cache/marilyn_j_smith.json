@@ -1,0 +1,246 @@
+{
+  "name": "Marilyn J Smith",
+  "uni": "Georgia Institute of Technology",
+  "author_id": "A5007936229",
+  "author_display_name": "Marilyn Smith",
+  "works_count": 216,
+  "cited_by_count": 2653,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 105
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 85
+    },
+    {
+      "topic": "Aerodynamics and Fluid Dynamics Research",
+      "count": 44
+    },
+    {
+      "topic": "Fluid Dynamics and Vibration Analysis",
+      "count": 42
+    },
+    {
+      "topic": "Plasma and Flow Control in Aerodynamics",
+      "count": 28
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Physics and Modeling of Large Flow Disturbances: Discrete Gust Encounters for Modern Air Vehicles",
+      "publication_year": 2021,
+      "publication_date": "2021-11-01",
+      "doi": "https://doi.org/10.1146/annurev-fluid-031621-085520",
+      "venue": "Annual Review of Fluid Mechanics",
+      "type": "review",
+      "cited_by_count": 153,
+      "is_oa": true,
+      "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-fluid-031621-085520",
+      "concepts": [
+        "Aerodynamics",
+        "Flow (mathematics)",
+        "Aerospace engineering",
+        "Amplitude",
+        "Vortex",
+        "Nonlinear system",
+        "Physics",
+        "Transverse plane"
+      ],
+      "abstract": "Gusts of moderate and large magnitude induce flow separation and other complexities when they interact with the lifting surfaces of air vehicles. The presence of these nonlinear gusts are becoming ubiquitous in twenty-first-century air vehicles, where the classic potential flow–based methodologies applied in the past may no longer be valid. In this review, we define the parameter space for the presence of large-amplitude gusts and describe where and when these gusts may primarily be found. Recent research using modern experimental and computational techniques to define the limits of classical unsteady and indicial aerodynamic theories is summarized, with a focus on discrete transverse, streamwise (longitudinal), and vortex gust encounters. We propose areas where future research is needed to transition these studies of large-amplitude gust physics to real-time prediction and mitigation during flight.",
+      "authors": [
+        "Anya R. Jones",
+        "Oksan Cetiner",
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "Evaluation of Computational Algorithms Suitable for Fluid-Structure Interactions",
+      "publication_year": 2000,
+      "publication_date": "2000-03-01",
+      "doi": "https://doi.org/10.2514/2.2592",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 139,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aeroelasticity",
+        "Computational fluid dynamics",
+        "Algorithm",
+        "Nonlinear system",
+        "Interpolation (computer graphics)",
+        "Computer science",
+        "Field (mathematics)",
+        "Mathematical optimization"
+      ],
+      "abstract": "The objective was to identify and mathematically evaluate suitable methods to transfer information between nonlinear computational fluid dynamics (CFD) and computational structural dynamics (CSD) grids. This data transfer is vital in the field of computational aeroelasticity, where the interpolation method between the two grids can easily be the limiting factor in the accuracy of an aeroelastic simulation. The data to be transferred can include a variety of field variables, such as deflections, loads, pressure, and temperature. For a method to be suitable, it is important that it provide a smooth, yet accurate transfer of data for a wide variety of functional forms that the data may represent. An extensive literature survey was completed that identified current algorithms in use, as well as other candidate algorithms from different implementations, such as mapping and CAD/CAM. The performance of the various methods was assessed on a number of analytical functions, followed by a series of applications that have been or are currently being studied using nonlinear CFD methods coupled with linear representations of the CSD equations (equivalent plate/shell mode shapes and influence ...",
+      "authors": [
+        "Marilyn Smith",
+        "Dewey H. Hodges",
+        "Carlos E. S. Cesnik"
+      ]
+    },
+    {
+      "title": "Performance analysis of a wing with multiple winglets",
+      "publication_year": 2001,
+      "publication_date": "2001-06-11",
+      "doi": "https://doi.org/10.2514/6.2001-2407",
+      "venue": "19th AIAA Applied Aerodynamics Conference",
+      "type": "conference-paper",
+      "cited_by_count": 94,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Wingtip device",
+        "Wing",
+        "Computer science",
+        "Structural engineering",
+        "Engineering"
+      ],
+      "abstract": "This effort examined the potential of multi-winglets for the reduction of induced drag without increasing the span of aircraft wings. Wind tunnel models were constructed using a NACA 0012 airfoil section for the untwisted, rectangular wing and flat plates for the winglets. Testing of the configurations occurred over a range of Reynolds numbers from 161,000 to 300,000. Wind tunnel balances provided lift and drag measurements, and laser flow visualization obtained wingtip vortex information. The Cobalt60 unstructured solver generated flow simulations of the experimental configuration via solution of the Euler equations of motion. The results show that certain multi-winglet configurations reduced the wing induced drag and improved lift by 15-30% compared with the baseline 0012 wing. A substantial increase in lift curve slope occurs with dihedral spread of winglets set at zero incidence relative to the wing. Dihedral spread also distributes the tip vortex. These observations supplement previous results on drag reduction due to lift reorientation with twisted winglets set at negative incidence.",
+      "authors": [
+        "Marilyn Smith",
+        "Narayanan Komerath",
+        "Richard Ames",
+        "Oliver D. Wong",
+        "J. Pearson"
+      ]
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Physics of the Proprotor–Wing Interactional Aerodynamics Across the Tiltrotor Conversion Maneuver",
+      "publication_year": 2026,
+      "publication_date": "2026-09-07",
+      "doi": "https://doi.org/10.2514/1.c038965",
+      "venue": "Journal of Aircraft",
+      "type": "article",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Wing",
+        "Aerospace engineering",
+        "Tilt (camera)",
+        "Thrust",
+        "Engineering",
+        "Aerodynamic force",
+        "Flow (mathematics)"
+      ],
+      "abstract": "The conversion maneuver is one of the most complex and hazardous aspects of tiltrotor operations. The complex interactions increase pilot workload and vibratory wing loads, making it imperative to further understand and accurately predict this dynamic operation. An extensively correlated high-fidelity computational fluid dynamics (CFD) model elucidates the physics within these two-way coupled aerodynamic interactions for a generic model-scale tractor proprotor–wing configuration. Quasi-static evaluations are conducted for proprotor tilt angles in fifteen degree increments to capture the conversion from low-speed edgewise flight to cruise. To assess and quantify the coupled proprotor–wing interactions, additional assessments of an isolated wing at two relevant wing angles of attack and an isolated proprotor operating at all tilt angles were conducted. Wing thickness and loading were mildly correlated with the proprotor loads due to the large proprotor–wing separation relative to the proprotor radius. The proprotor-to-wing effects were assessed using a power spectral density of the wing surface pressure within the proprotor wake. This novel approach elucidates the dominant frequen...",
+      "authors": [
+        "Pranav Sridhar",
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "Mid-Fidelity Investigation of the Proprotor-Wing Aerodynamic Interactions across the Tiltrotor Conversion Maneuver",
+      "publication_year": 2026,
+      "publication_date": "2026-05-05",
+      "doi": "https://doi.org/10.4050/f-0082-2026-0243",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 0,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Computer science",
+        "Boundary (topology)",
+        "Adaptive mesh refinement",
+        "Engineering",
+        "Aerodynamic force",
+        "Simulation"
+      ],
+      "abstract": "This paper assesses the capabilities and limitations of mid-fidelity computational fluid dynamics (CFD) approaches when resolving the complex aerodynamic interactions for a generic model-scale proprotor-wing configuration across the tiltrotor conversion maneuver. The Helios mid-fidelity Reduced Order Aerodynamic Model (ROAM) is evaluated against prior extensively validated high-fidelity Helios-OVERFLOW assessments for the proprotor-wing configuration. The ROAM actuator line model (ALM), which represents the proprotor blade via source terms injected into the off-body Cartesian domain, is assessed for the isolated proprotor configuration at several mesh resolutions to understand the requirements to accurately resolve the proprotor physics across the conversion maneuver. The impact of adaptive mesh refinement (AMR) on ROAM's ability to resolve the proprotor physics is also investigated. Next, the flow characteristics and wing loads are evaluated using the ROAM immersed boundary method (IBM) for the isolated wing. The sensitivity of the ROAM IBM predictions to mesh resolution and boundary condition selection is quantified in these assessments. Leveraging the findings from the isolat...",
+      "authors": [
+        "Pranav Sridhar",
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "Advances in unsteady computational aerodynamics with separation: The 61st Lanchester memorial lecture",
+      "publication_year": 2025,
+      "publication_date": "2025-08-19",
+      "doi": "https://doi.org/10.1017/aer.2025.10043",
+      "venue": "The Aeronautical Journal",
+      "type": "article",
+      "cited_by_count": 3,
+      "is_oa": true,
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F346E9160A4D397BD710ACDDE052919/S0001924025100432a.pdf/div-class-title-advances-in-unsteady-computational-aerodynamics-with-separation-the-61st-lanchester-memorial-lecture-div.pdf",
+      "concepts": [
+        "Aerodynamics",
+        "Separation (statistics)",
+        "Aeronautics",
+        "Aerospace engineering",
+        "Computer science",
+        "Operations research",
+        "Engineering",
+        "Machine learning"
+      ],
+      "abstract": "Abstract This paper is based on the Lanchester Lecture of the Royal Aeronautical Society held in London, UK, in October 2023. The lecture discussed the advances in computational modeling of separated flows in aerospace applications since Elsenaar’s Lanchester Lecture in 2000. Elsenaar’s efforts focused on assumptions primarily associated with separation for steady inflow and a static (non-moving) vehicle or component. Since that time, significant advancements in computational hardware, coupled with substantial investments in the development of algorithms and solvers, have led to important breakthroughs in the field. In particular, computational aerodynamics techniques are currently applied to complex aerospace problems that include unsteady or dynamic considerations, such as dynamic stall and gusts, which are discussed. A perspective of the technology developed over the past quarter-century, highlighting their importance to computational aerodynamics is discussed. Finally, the potential of future areas of development, such as machine learning, that may be exploited for the next generation of computational aerodynamics applications is explored.",
+      "authors": [
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "Physics of the Interactional Proprotor-Wing Aerodynamics During the Tiltrotor Conversion Maneuver",
+      "publication_year": 2025,
+      "publication_date": "2025-05-20",
+      "doi": "https://doi.org/10.4050/f-0081-2025-0271",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Wing",
+        "Computer science",
+        "Aeronautics",
+        "Physics",
+        "Engineering"
+      ],
+      "abstract": "This paper presents findings from a joint computational-experimental venture that seeks to advance the physical understanding and validation-quality database for a model-scale generic tractor proprotor–wing system during the tiltrotor conversion maneuver. This study evaluates the interactions in a quasi-static manner for various proprotor tilt angles (θ) across the tiltrotor conversion maneuver. Independent experimental measurements of the wing and proprotor loads accompany synchronous wing surface pressure measurements along with stereoscopic particle image velocimetry flow field measurements at discrete spanwise locations. High-fidelity computational fluid dynamics simulations leverage the multi-disciplinary rotorcraft simulation tool CREATE™-AV Helios to assess the interactional aerodynamics of the proprotor–wing configuration across the tiltrotor conversion maneuver. Computational simulations use a newly implemented Helios module to trim to the experimental proprotor thrust. Validation of the computational model, along with a mesh refinement study, is shown via comparison of the integrated proprotor and wing loads as well as wing surface pressure distributions. The validated...",
+      "authors": [
+        "Pranav Sridhar",
+        "Shreyas Srivathsan",
+        "Juergen Rauleder",
+        "Marilyn Smith"
+      ]
+    },
+    {
+      "title": "Lichten Runner-Up: A Real-Time Reduced-Order Model for the Atmospheric Boundary Layer Including Roughness Sublayer",
+      "publication_year": 2025,
+      "publication_date": "2025-05-20",
+      "doi": "https://doi.org/10.4050/f-0081-2025-0325",
+      "venue": "",
+      "type": "conference-paper",
+      "cited_by_count": 1,
+      "is_oa": false,
+      "oa_url": "",
+      "concepts": [
+        "Boundary layer",
+        "Layer (electronics)",
+        "Surface finish",
+        "Surface roughness",
+        "Planetary boundary layer",
+        "Materials science",
+        "Atmospheric model",
+        "Boundary (topology)"
+      ],
+      "abstract": "Advanced Air Mobility (AAM) faces operational challenges because a significant portion of AAM flight operations are likely to occur within the atmospheric boundary layer (ABL). In particular, terminal flight paths within the ABL roughness sublayer will involve flying through building wakes that will likely result in a considerable increase in significant dynamic and vibratory loads on the vehicle, affecting flight safety and ride quality. A new representative environmental method (REM) has been developed that provides real-time estimates of the unsteady wind environments, including the roughness sublayer. The approach has numerous advantages over computational fluid dynamics solutions of any fidelity, as no meshing is required and it can easily be modified to evaluate the sensitivity of different environmental factors on operations or design. This approach is explained, verified, and validated using computational and experimental data.",
+      "authors": [
+        "Duncan Waanders",
+        "Marilyn Smith",
+        "Juergen Rauleder",
+        "Sheldon Salins"
+      ]
+    }
+  ]
+}
