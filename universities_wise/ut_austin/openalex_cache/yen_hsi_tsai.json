@@ -1,0 +1,132 @@
+{
+  "faculty_name": "Yen-Hsi Tsai",
+  "full_name": "Yen-Hsi Richard Tsai",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5108397658",
+  "works_count": 36,
+  "cited_by_count": 1355,
+  "h_index": 12,
+  "top_topics": [
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 6
+    },
+    {
+      "topic": "Robotics and Sensor-Based Localization",
+      "count": 6
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 5
+    },
+    {
+      "topic": "Computational Geometry and Mesh Generation",
+      "count": 4
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 4
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Fast Sweeping Algorithms for a Class of Hamilton--Jacobi Equations",
+      "doi": "https://doi.org/10.1137/s0036142901396533",
+      "publication_year": 2003,
+      "cited_by_count": 447,
+      "venue": "SIAM Journal on Numerical Analysis",
+      "abstract": "We derive a Godunov-type numerical flux for the class of strictly convex, homogeneous Hamiltonians that includes $H(p,q)=\\sqrt{ap^{2}+bq^{2}-2cpq},$ $c^{2}"
+    },
+    {
+      "title": "Automated Polyp Detection in Colon Capsule Endoscopy",
+      "doi": "https://doi.org/10.1109/tmi.2014.2314959",
+      "publication_year": 2014,
+      "cited_by_count": 304,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "abstract": "Colorectal polyps are important precursors to colon cancer, a major health problem. Colon capsule endoscopy is a safe and minimally invasive examination procedure, in which the images of the intestine are obtained via digital cameras on board of a small capsule ingested by a patient. The video sequence is then analyzed for the presence of polyps. We propose an algorithm that relieves the labor of a human operator analyzing the frames in the video sequence. The algorithm acts as a binary classifier, which labels the frame as either containing polyps or not, based on the geometrical analysis and the texture content of the frame.We assume that the polyps are characterized as protrusions that are mostly round in shape. Thus, a best fit ball radius is used as a decision parameter of the classifier. We present a statistical performance evaluation of our approach on a data set containing over 18 900 frames from the endoscopic video sequences of five adult patients. The algorithm achieves 47% sensitivity per frame and 81% sensitivity per polyp at a specificity level of 90%. On average, with a video sequence length of 3747 frames, only 367 false positive frames need to be inspected by an operator."
+    },
+    {
+      "title": "Threshold dynamics for the piecewise constant Mumford–Shah functional",
+      "doi": "https://doi.org/10.1016/j.jcp.2005.05.027",
+      "publication_year": 2005,
+      "cited_by_count": 196,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Rapid and Accurate Computation of the Distance Function Using Grids",
+      "doi": "https://doi.org/10.1006/jcph.2002.7028",
+      "publication_year": 2002,
+      "cited_by_count": 118,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Computing multivalued physical observables for the semiclassical limit of the Schrödinger equation",
+      "doi": "https://doi.org/10.1016/j.jcp.2004.11.008",
+      "publication_year": 2004,
+      "cited_by_count": 84,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Data-Induced Multiscale Losses and Efficient Multirate Gradient Descent Schemes",
+      "doi": "https://doi.org/10.4208/jiasc.2026-91-1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Intelligent Algorithms and Scientific Computing",
+      "abstract": "This paper investigates the impact of multiscale data, characterized by significant variations in scale across different principal directions, on the optimization dynamics of machine learning algorithms, particularly in deep neural networks. We rigorously establish that such multiscale data induces a corresponding multiscale geometry in the loss landscape. By deriving asymptotic multiscale expansions, we identify explicit component-wise multiscale structure in both the gradients and Hessians. To exploit this structural connection algorithmically, we draw inspiration from multiscale methods in scientific computing and propose Multirate Gradient Descent (MrGD). Rather than relying on empirical learning-rate schedules or being limited by the most restrictive stability constraints, MrGD provides a systematic, data-informed strategy that combines large and small step sizes. Our theoretical and numerical analyses show that this approach goes beyond heuristic tuning, provides rigorous convergence guarantees, and significantly improves the convergence rate."
+    },
+    {
+      "title": "Rendezvous Planning from Sparse Observations of Optimally Controlled Targets",
+      "doi": "https://doi.org/10.48550/arxiv.2604.01428",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We develop a probabilistic framework for \\emph{rendezvous planning}: given sparse, noisy observations of a fast-moving target, plan rendezvous spatiotemporal coordinates for a set of significantly slower seeking agents. The unknown target trajectory is estimated under uncertain dynamics using a filtering approach that combines a kernel-based maximum a posteriori estimation with Gaussian process correction, producing a mixture over trajectory hypotheses. This estimate is used to select spatiotemporal rendezvous points that maximize the probability of successful rendezvous. Points are chosen sequentially by greedily minimizing failure probability in the current belief space, which is updated after each step by conditioning on unsuccessful rendezvous attempts. We show that the failure-conditioned update correctly captures the posterior belief for subsequent decisions, ensuring that each step in the greedy sequence is informed by a statistically consistent representation of the remaining search space, and derive the corresponding Bayesian updates incorporating temporal correlations intrinsic to the trajectory model. This result provides a systematic framework for planning under uncertainty in applications of autonomous rendezvous such as unmanned aerial vehicle refueling, spacecraft servicing, autonomous surface vessel operations, search and rescue missions, and missile defense. In each, the motion of the target entity can be modeled using a system of differential equations undergoing optimal control for a chosen objective, in our example case Hamilton--Jacobi--Bellman solutions for minimum arrival time of a Dubins car with uncertain turning radius and destination."
+    },
+    {
+      "title": "Rendezvous Planning from Sparse Observations of Optimally Controlled Targets",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We develop a probabilistic framework for \\emph{rendezvous planning}: given sparse, noisy observations of a fast-moving target, plan rendezvous spatiotemporal coordinates for a set of significantly slower seeking agents. The unknown target trajectory is estimated under uncertain dynamics using a filtering approach that combines a kernel-based maximum a posteriori estimation with Gaussian process correction, producing a mixture over trajectory hypotheses. This estimate is used to select spatiotemporal rendezvous points that maximize the probability of successful rendezvous. Points are chosen sequentially by greedily minimizing failure probability in the current belief space, which is updated after each step by conditioning on unsuccessful rendezvous attempts. We show that the failure-conditioned update correctly captures the posterior belief for subsequent decisions, ensuring that each step in the greedy sequence is informed by a statistically consistent representation of the remaining search space, and derive the corresponding Bayesian updates incorporating temporal correlations intrinsic to the trajectory model. This result provides a systematic framework for planning under uncertainty in applications of autonomous rendezvous such as unmanned aerial vehicle refueling, spacecraft servicing, autonomous surface vessel operations, search and rescue missions, and missile defense. In each, the motion of the target entity can be modeled using a system of differential equations undergoing optimal control for a chosen objective, in our example case Hamilton--Jacobi--Bellman solutions for minimum arrival time of a Dubins car with uncertain turning radius and destination."
+    },
+    {
+      "title": "A minimizing movements approach for crystalline eikonal-curvature flows of spirals",
+      "doi": "https://doi.org/10.4171/ifb/547",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Interfaces and Free Boundaries Mathematical Analysis Computation and Applications",
+      "abstract": "We propose an algorithm for evolving spiral curves on a planar domain by normal velocities depending on the so-called crystalline curvatures. The algorithm uses a minimizing movements approach and relies on a special level set method for embedding the spirals. We present numerical simulations and comparisons demonstrating the efficacy of the proposed numerical algorithm."
+    },
+    {
+      "title": "A minimizing movements approach for crystalline eikonal-curvature flows of spirals",
+      "doi": "https://doi.org/10.48550/arxiv.2409.16421",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We propose an algorithm for evolving spiral curves on a planar domain by normal velocities depending on the so-called crystalline curvatures. The algorithm uses a minimizing movement approach and relies on a special level set method for embedding the spirals. We present numerical simulations and comparisons demonstrating the efficacy of the proposed numerical algorithm."
+    },
+    {
+      "title": "Optimizing Sensor Network Design for Multiple Coverage",
+      "doi": "https://doi.org/10.48550/arxiv.2405.09096",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Sensor placement optimization methods have been studied extensively. They can be applied to a wide range of applications, including surveillance of known environments, optimal locations for 5G towers, and placement of missile defense systems. However, few works explore the robustness and efficiency of the resulting sensor network concerning sensor failure or adversarial attacks. This paper addresses this issue by optimizing for the least number of sensors to achieve multiple coverage of non-simply connected domains by a prescribed number of sensors. We introduce a new objective function for the greedy (next-best-view) algorithm to design efficient and robust sensor networks and derive theoretical bounds on the network's optimality. We further introduce a Deep Learning model to accelerate the algorithm for near real-time computations. The Deep Learning model requires the generation of training examples. Correspondingly, we show that understanding the geometric properties of the training data set provides important insights into the performance and training process of deep learning techniques. Finally, we demonstrate that a simple parallel version of the greedy approach using a simpler objective can be highly competitive."
+    },
+    {
+      "title": "Efficient and robust Sensor Placement in Complex Environments",
+      "doi": "https://doi.org/10.48550/arxiv.2309.08545",
+      "publication_year": 2023,
+      "cited_by_count": 1,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We address the problem of efficient and unobstructed surveillance or communication in complex environments. On one hand, one wishes to use a minimal number of sensors to cover the environment. On the other hand, it is often important to consider solutions that are robust against sensor failure or adversarial attacks. This paper addresses these challenges of designing minimal sensor sets that achieve multi-coverage constraints -- every point in the environment is covered by a prescribed number of sensors. We propose a greedy algorithm to achieve the objective. Further, we explore deep learning techniques to accelerate the evaluation of the objective function formulated in the greedy algorithm. The training of the neural network reveals that the geometric properties of the data significantly impact the network's performance, particularly at the end stage. By taking into account these properties, we discuss the differences in using greedy and $ε$-greedy algorithms to generate data and their impact on the robustness of the network."
+    }
+  ]
+}

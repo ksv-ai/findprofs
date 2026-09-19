@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Spencer Bryngelson",
+  "full_name": "Spencer H. Bryngelson",
+  "department": "ME",
+  "university": "University of Texas at Austin",
+  "author_id": "A5137810788",
+  "works_count": 23,
+  "cited_by_count": 1,
+  "h_index": 1,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Heat Transfer",
+      "count": 5
+    },
+    {
+      "topic": "Ultrasound and Cavitation Phenomena",
+      "count": 4
+    },
+    {
+      "topic": "Advanced Neural Network Applications",
+      "count": 2
+    },
+    {
+      "topic": "Parallel Computing and Optimization Techniques",
+      "count": 2
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 2
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Hierarchical Bayesian constitutive model selection for high-strain-rate soft material characterization",
+      "doi": "https://doi.org/10.1039/d5sm01193k",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Soft Matter",
+      "abstract": "A hierarchical Bayesian framework is developed for the inertial microcavitation rheometry technique to probabilistically select constitutive models and estimate parameters of soft materials from bubble dynamics under ultra-high strain rates."
+    },
+    {
+      "title": "ANEForge: Python for direct computation on the Apple Neural Engine",
+      "doi": "https://doi.org/10.5281/zenodo.20672609",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Pretrained models across four modalities now load from Hugging Face weights and run on the Apple Neural Engine, and LLM decode is faster by default. 46 commits since v0.3.0. New model loaders Decoder LLMs: GPT-2 (#210), Gemma (GeGLU + scaled embeddings + (1+w) RMSNorm, #205), and Mistral (GQA + sliding window, #206) adapters, alongside the existing Llama/Qwen/MoE/hybrid path. Unsupported architectures are rejected rather than silently mis-loaded (#214). CLIP zero-shot image/text classification, both towers on the ANE (#225). ViT image classifiers (#212) and CrossEncoder rerankers, including RoBERTa/XLM-R (#208) and DistilBERT (#223). ResNet 18/34/50/101 from torchvision (#209). Whisper speech-to-text (whisper-base.en), audio encoder and text decoder both on the ANE (#237). Faster LLM decode GPT-2 runs through the unified LLM runner with resident KV-cache decode, ~140 tok/s on gpt2-medium (#224, #229). The lm_head runs on the ANE by default, tiled along vocab, replacing the host fp32 matmul. Greedy stays bit-exact via a tie-margin host fallback, and an execute-path fallback keeps generate from breaking on a misconfigured target (#240, #243, #245). Pass ane_lm_head=False for the host matmul. Demos and fixes RAG on the engine: chat with a folder of docs using embeddings, a reranker, and an LLM all on the ANE (examples/rag_chat.py, #231-236). The BERT encoder pads and masks a batch so varied-length inputs share one program instead of one per length (#233). Applied math linalg.inv and QR-based least squares (#197); erf computed as its own polynomial (#196). Docs The manual now covers the full model-loader set, tightened to plain ASCII. Install: pip install -U aneforge (pretrained loaders: pip install \"aneforge[models]\")."
+    },
+    {
+      "title": "ANEForge: Python for direct computation on the Apple Neural Engine",
+      "doi": "https://doi.org/10.5281/zenodo.22058403",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Pretrained models across four modalities now load from Hugging Face weights and run on the Apple Neural Engine, and LLM decode is faster by default. 46 commits since v0.3.0. New model loaders Decoder LLMs: GPT-2 (#210), Gemma (GeGLU + scaled embeddings + (1+w) RMSNorm, #205), and Mistral (GQA + sliding window, #206) adapters, alongside the existing Llama/Qwen/MoE/hybrid path. Unsupported architectures are rejected rather than silently mis-loaded (#214). CLIP zero-shot image/text classification, both towers on the ANE (#225). ViT image classifiers (#212) and CrossEncoder rerankers, including RoBERTa/XLM-R (#208) and DistilBERT (#223). ResNet 18/34/50/101 from torchvision (#209). Whisper speech-to-text (whisper-base.en), audio encoder and text decoder both on the ANE (#237). Faster LLM decode GPT-2 runs through the unified LLM runner with resident KV-cache decode, ~140 tok/s on gpt2-medium (#224, #229). The lm_head runs on the ANE by default, tiled along vocab, replacing the host fp32 matmul. Greedy stays bit-exact via a tie-margin host fallback, and an execute-path fallback keeps generate from breaking on a misconfigured target (#240, #243, #245). Pass ane_lm_head=False for the host matmul. Demos and fixes RAG on the engine: chat with a folder of docs using embeddings, a reranker, and an LLM all on the ANE (examples/rag_chat.py, #231-236). The BERT encoder pads and masks a batch so varied-length inputs share one program instead of one per length (#233). Applied math linalg.inv and QR-based least squares (#197); erf computed as its own polynomial (#196). Docs The manual now covers the full model-loader set, tightened to plain ASCII. Install: pip install -U aneforge (pretrained loaders: pip install \"aneforge[models]\")."
+    },
+    {
+      "title": "ANEForge: Python for direct computation on the Apple Neural Engine",
+      "doi": "https://doi.org/10.5281/zenodo.21810189",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Linear algebra & scientific computing linalg.solve (on-ANE pivoted LU) with vector and matrix right-hand sides linalg.expm (scaling-and-squaring) det/slogdet, rank-k pinv, solve_triangular, matrix norms (fro/1/inf), matrix_power einsum ellipsis support and diagonal extraction dsp Kaiser/Bartlett/Tukey windows and Welch PSD ONNX frontend Large coverage expansion: LSTM/GRU/RNN (unrolled over the static sequence length), Attention (opset 23) onto the native fused-attention layer, control flow (If / Loop), Slice with step > 1, GlobalLpPool, Mod, Pad/Cast/Shrink/OneHot, tanh-approximate Gelu, and roughly thirty more ops. Compile correctness & robustness A differential fuzzer plus workarounds for the Espresso bugs it found The matmul fp16 saturation cliff (~fp16_max/2) characterized opt=2 fails closed when a variant's accuracy cannot be computed opt=1 keeps the int8 variant when declared input activation ranges prove it safe LLM inference Batched prefill (~45x lower TTFT) The 512-token attention context ceiling lifted (M*dh <= 65536) Llama-3.1 rope_scaling, multi-token EOS stop set Tooling MLPerf-lite harness (ResNet-50 + LLM decode, real LoadGen) Cross-chip roofline suite and numeric-cliff sweeps Tiled decode vocab head so tok/s measures on every ANE family Also Python 3.14 in CI, AGENTS.md for coding-agent contributors, numeric-cliffs docs. Full changelog: https://github.com/sbryngelson/ANEForge/compare/v0.2.0...v0.3.0"
+    },
+    {
+      "title": "Discontinuous Galerkin Semidiscretization of the Information Geometric Regularized Compressible Euler Equations",
+      "doi": "https://doi.org/10.48550/arxiv.2608.02223",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Shock stabilization in compressible Euler flows remains a central challenge for high-order numerical methods. Existing shock-capturing approaches, including limiters, artificial viscosity, and reconstruction-based methods, involve tradeoffs between robustness, accuracy, preservation of fine-scale flow features, and computational complexity. In this work, we develop a discontinuous Galerkin (DG) discretization of the information geometric regularization (IGR) framework introduced by Cao and Schäfer for the compressible Euler equations. The method regularizes shocks at the PDE level by augmenting the Euler equations with the entropic pressure $Σ$, obtained from an auxiliary elliptic equation. Within the DG formulation, the regularization enters only through the augmented pressure $P+Σ$ in the Euler fluxes, preserving the conservative structure of the discretization while using a common approximation space for both the hyperbolic and elliptic equations. Numerical experiments spanning one and two-dimensional benchmark problems show the proposed formulation stabilizes shocks without shock-capturing limiters or artificial viscosity, although positivity-preserving methods may still be required when the density or pressure approaches zero. Compared with a characteristic TVB-limited DG formulation, the IGR-DG method resolves increasingly finer-scale flow features as the polynomial order is increased while maintaining stable shock resolution. The entropic pressure remains localized to regions of strong compression with minimal activation in smooth regions of the flow, providing selective PDE-level regularization while preserving the underlying solution elsewhere."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Discontinuous Galerkin Semidiscretization of the Information Geometric Regularized Compressible Euler Equations",
+      "doi": "https://doi.org/10.48550/arxiv.2608.02223",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Shock stabilization in compressible Euler flows remains a central challenge for high-order numerical methods. Existing shock-capturing approaches, including limiters, artificial viscosity, and reconstruction-based methods, involve tradeoffs between robustness, accuracy, preservation of fine-scale flow features, and computational complexity. In this work, we develop a discontinuous Galerkin (DG) discretization of the information geometric regularization (IGR) framework introduced by Cao and Schäfer for the compressible Euler equations. The method regularizes shocks at the PDE level by augmenting the Euler equations with the entropic pressure $Σ$, obtained from an auxiliary elliptic equation. Within the DG formulation, the regularization enters only through the augmented pressure $P+Σ$ in the Euler fluxes, preserving the conservative structure of the discretization while using a common approximation space for both the hyperbolic and elliptic equations. Numerical experiments spanning one and two-dimensional benchmark problems show the proposed formulation stabilizes shocks without shock-capturing limiters or artificial viscosity, although positivity-preserving methods may still be required when the density or pressure approaches zero. Compared with a characteristic TVB-limited DG formulation, the IGR-DG method resolves increasingly finer-scale flow features as the polynomial order is increased while maintaining stable shock resolution. The entropic pressure remains localized to regions of strong compression with minimal activation in smooth regions of the flow, providing selective PDE-level regularization while preserving the underlying solution elsewhere."
+    },
+    {
+      "title": "Discontinuous Galerkin Semidiscretization of the Information Geometric Regularized Compressible Euler Equations",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Shock stabilization in compressible Euler flows remains a central challenge for high-order numerical methods. Existing shock-capturing approaches, including limiters, artificial viscosity, and reconstruction-based methods, involve tradeoffs between robustness, accuracy, preservation of fine-scale flow features, and computational complexity. In this work, we develop a discontinuous Galerkin (DG) discretization of the information geometric regularization (IGR) framework introduced by Cao and Schäfer for the compressible Euler equations. The method regularizes shocks at the PDE level by augmenting the Euler equations with the entropic pressure $Σ$, obtained from an auxiliary elliptic equation. Within the DG formulation, the regularization enters only through the augmented pressure $P+Σ$ in the Euler fluxes, preserving the conservative structure of the discretization while using a common approximation space for both the hyperbolic and elliptic equations. Numerical experiments spanning one and two-dimensional benchmark problems show the proposed formulation stabilizes shocks without shock-capturing limiters or artificial viscosity, although positivity-preserving methods may still be required when the density or pressure approaches zero. Compared with a characteristic TVB-limited DG formulation, the IGR-DG method resolves increasingly finer-scale flow features as the polynomial order is increased while maintaining stable shock resolution. The entropic pressure remains localized to regions of strong compression with minimal activation in smooth regions of the flow, providing selective PDE-level regularization while preserving the underlying solution elsewhere."
+    },
+    {
+      "title": "Coupled Rayleigh--Taylor and Faraday instabilities in vertically vibrated cylindrical containers",
+      "doi": "https://doi.org/10.48550/arxiv.2607.28932",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Interfacial instabilities govern the mixing in confined multiphase flows. Yet, the two mechanisms that drive them are usually studied independently: the pressure-gradient-driven Rayleigh--Taylor (RT) instability, which amplifies long-wavelength modes, and the parametrically forced Faraday instability, which selects shorter-wavelength harmonic or subharmonic modes. When an adverse density contrast and vertical vibration act together, the two compete, and neither alone describes the response. We use Floquet analysis to characterize the onset, growth, modal structure, and velocity fields of Faraday--RT waves in a vertically vibrated cylinder, resolved by azimuthal wavenumber, radial (Bessel) mode, and Floquet harmonic. The formulation recovers the classical RT and Faraday limits and reproduces the instability onset at the frequencies measured experimentally. For a free-sliding interface, increasing the vibration amplitude shifts the dominant instability mechanism from RT growth to subharmonic and then harmonic Faraday responses. Lateral confinement can also stabilize individual RT modes, which is not possible in an unbounded domain, although other Faraday modes may remain unstable. Pinning the contact line couples radial modes that otherwise evolve independently, allowing the unstable mode to be a superposition of RT-unstable and Faraday-stable components. This superposition alters the instability mechanism, producing a richer radial pattern. Reconstruction of the unstable modes shows the (linear) velocity fields that imaging cannot access and demonstrates how the instabilities can change the flow more broadly."
+    },
+    {
+      "title": "Coupled Rayleigh--Taylor and Faraday instabilities in vertically vibrated cylindrical containers",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Interfacial instabilities govern the mixing in confined multiphase flows. Yet, the two mechanisms that drive them are usually studied independently: the pressure-gradient-driven Rayleigh--Taylor (RT) instability, which amplifies long-wavelength modes, and the parametrically forced Faraday instability, which selects shorter-wavelength harmonic or subharmonic modes. When an adverse density contrast and vertical vibration act together, the two compete, and neither alone describes the response. We use Floquet analysis to characterize the onset, growth, modal structure, and velocity fields of Faraday--RT waves in a vertically vibrated cylinder, resolved by azimuthal wavenumber, radial (Bessel) mode, and Floquet harmonic. The formulation recovers the classical RT and Faraday limits and reproduces the instability onset at the frequencies measured experimentally. For a free-sliding interface, increasing the vibration amplitude shifts the dominant instability mechanism from RT growth to subharmonic and then harmonic Faraday responses. Lateral confinement can also stabilize individual RT modes, which is not possible in an unbounded domain, although other Faraday modes may remain unstable. Pinning the contact line couples radial modes that otherwise evolve independently, allowing the unstable mode to be a superposition of RT-unstable and Faraday-stable components. This superposition alters the instability mechanism, producing a richer radial pattern. Reconstruction of the unstable modes shows the (linear) velocity fields that imaging cannot access and demonstrates how the instabilities can change the flow more broadly."
+    },
+    {
+      "title": "A sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer",
+      "doi": "https://doi.org/10.48550/arxiv.2607.27426",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Ensemble-averaged models of polydisperse bubbly flows require statistics of the evolving bubble population. Prior quadrature-based moment formulations close bubble pressure with a polytropic relation that omits heat and mass transfer at the bubble wall. We formulate constant-transfer equations for bubble pressure and vapor mass within a conditional hyperbolic quadrature method. Second-order conditional inversion produces four joint radius--radial-velocity nodes per equilibrium-radius bin. Bubble pressure and vapor mass are advanced at each node. The node values close the ensemble-averaged flow equations without adding mixed pressure or vapor-mass moments to the transported moment set. The model is implemented in MFC. Monte Carlo calculations verify the evolution of quadrature nodes and the mean bubble variables for a harmonically forced population. Bubble-screen calculations quantify closure error as the equilibrium radius is discretized and the initial distributions vary. The constant-transfer calculation does not exhibit the high-frequency pressure oscillations observed with the polytropic closure under the conditions considered. 3D bubble-screen calculations give a 1.5% relative root-mean-square error between the Euler--Euler center pressure and the mean of 40 volume-averaged Euler--Lagrange realizations."
+    },
+    {
+      "title": "A sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Ensemble-averaged models of polydisperse bubbly flows require statistics of the evolving bubble population. Prior quadrature-based moment formulations close bubble pressure with a polytropic relation that omits heat and mass transfer at the bubble wall. We formulate constant-transfer equations for bubble pressure and vapor mass within a conditional hyperbolic quadrature method. Second-order conditional inversion produces four joint radius--radial-velocity nodes per equilibrium-radius bin. Bubble pressure and vapor mass are advanced at each node. The node values close the ensemble-averaged flow equations without adding mixed pressure or vapor-mass moments to the transported moment set. The model is implemented in MFC. Monte Carlo calculations verify the evolution of quadrature nodes and the mean bubble variables for a harmonically forced population. Bubble-screen calculations quantify closure error as the equilibrium radius is discretized and the initial distributions vary. The constant-transfer calculation does not exhibit the high-frequency pressure oscillations observed with the polytropic closure under the conditions considered. 3D bubble-screen calculations give a 1.5% relative root-mean-square error between the Euler--Euler center pressure and the mean of 40 volume-averaged Euler--Lagrange realizations."
+    },
+    {
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "doi": "https://doi.org/10.48550/arxiv.2606.22283",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of the engine, based on direct measurement on Apple silicon and static analysis of the private runtime, compiler, kernel driver, and firmware. It documents the datapath and the roofline that bound the engine's throughput and energy, the dispatch route that reaches it below Core ML, the compiler and on-disk program format, the weight-compression scheme, and the kernel driver, firmware, and command protocol beneath them. The account covers the A11 through A18 and M1 through M5 families, with per-chip target tables and an operation-by-device matrix; the direct measurements are on the M1 and M5. Claims are labeled as measured, decompile-derived, or predicted, and the methodology and open questions are recorded. The direct route is callable from ordinary user space but remains undocumented, unsupported, and version-fragile; it is intended for measurement, research, and on-device work, not for shipping software, where Core ML remains the supported path."
+    },
+    {
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of the engine, based on direct measurement on Apple silicon and static analysis of the private runtime, compiler, kernel driver, and firmware. It documents the datapath and the roofline that bound the engine's throughput and energy, the dispatch route that reaches it below Core ML, the compiler and on-disk program format, the weight-compression scheme, and the kernel driver, firmware, and command protocol beneath them. The account covers the A11 through A18 and M1 through M5 families, with per-chip target tables and an operation-by-device matrix; the direct measurements are on the M1 and M5. Claims are labeled as measured, decompile-derived, or predicted, and the methodology and open questions are recorded. The direct route is callable from ordinary user space but remains undocumented, unsupported, and version-fragile; it is intended for measurement, research, and on-device work, not for shipping software, where Core ML remains the supported path."
+    },
+    {
+      "title": "ANEForge: Python for direct computation on the Apple Neural Engine",
+      "doi": "https://doi.org/10.48550/arxiv.2606.17090",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "ANEForge is a Python package that programs the Apple Neural Engine (ANE), the fixed-function neural accelerator on every recent Apple device, directly and without CoreML. In production the engine is reachable only through CoreML, which treats it as a scheduling option: no configuration requires the ANE, and a model can silently run on the CPU or GPU instead. ANEForge compiles a lazy tensor graph, built from 58 fused operators and 19 native bridge operators, into a single ANE program. The program is dispatched through the same ANE daemon and kernel-driver stack as Apple's internal framework. Beyond inference, the package reaches the engine's native fused attention, streams int8, int4, and sparse weights, keeps decoder and optimizer state resident across steps, and runs the forward pass, backward pass, and optimizer update of training on the engine. A small fused program completes a call in about 90us, near the engine's 70us per-program dispatch floor, and a pretrained ResNet-18 forward runs end-to-end in 0.33ms. ResNet-18, a sentence encoder, and a Vision Transformer run end-to-end against framework references, and a Stable Diffusion U-Net validates its forward pass. ANEForge targets Apple Silicon under macOS 14 and later. Each release is verified against a recorded macOS and ANE-compiler version."
+    },
+    {
+      "title": "ANEForge: Python for direct computation on the Apple Neural Engine",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "ANEForge is a Python package that programs the Apple Neural Engine (ANE), the fixed-function neural accelerator on every recent Apple device, directly and without CoreML. In production the engine is reachable only through CoreML, which treats it as a scheduling option: no configuration requires the ANE, and a model can silently run on the CPU or GPU instead. ANEForge compiles a lazy tensor graph, built from 58 fused operators and 19 native bridge operators, into a single ANE program. The program is dispatched through the same ANE daemon and kernel-driver stack as Apple's internal framework. Beyond inference, the package reaches the engine's native fused attention, streams int8, int4, and sparse weights, keeps decoder and optimizer state resident across steps, and runs the forward pass, backward pass, and optimizer update of training on the engine. A small fused program completes a call in about 90us, near the engine's 70us per-program dispatch floor, and a pretrained ResNet-18 forward runs end-to-end in 0.33ms. ResNet-18, a sentence encoder, and a Vision Transformer run end-to-end against framework references, and a Stable Diffusion U-Net validates its forward pass. ANEForge targets Apple Silicon under macOS 14 and later. Each release is verified against a recorded macOS and ANE-compiler version."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Rachel Ward",
+  "full_name": "Rachel Ward",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5040543665",
+  "works_count": 194,
+  "cited_by_count": 4279,
+  "h_index": 31,
+  "top_topics": [
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 84
+    },
+    {
+      "topic": "Stochastic Gradient Optimization Techniques",
+      "count": 37
+    },
+    {
+      "topic": "Microwave Imaging and Scattering Analysis",
+      "count": 18
+    },
+    {
+      "topic": "Blind Source Separation Techniques",
+      "count": 17
+    },
+    {
+      "topic": "Numerical methods in inverse problems",
+      "count": 16
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Stochastic gradient descent, weighted sampling, and the randomized Kaczmarz algorithm",
+      "doi": "https://doi.org/10.1007/s10107-015-0864-7",
+      "publication_year": 2015,
+      "cited_by_count": 442,
+      "venue": "Mathematical Programming",
+      "abstract": ""
+    },
+    {
+      "title": "Stable Image Reconstruction Using Total Variation Minimization",
+      "doi": "https://doi.org/10.1137/120868281",
+      "publication_year": 2013,
+      "cited_by_count": 268,
+      "venue": "SIAM Journal on Imaging Sciences",
+      "abstract": "This paper presents near-optimal guarantees for stable and robust image recovery from undersampled noisy measurements using total variation minimization. In particular, we show that from $O(s\\log(N))$ nonadaptive linear measurements, an image can be reconstructed to within the best $s$-term approximation of its gradient up to a logarithmic factor, and this factor can be removed by taking slightly more measurements. Along the way, we prove a strengthened Sobolev inequality for functions lying in the null space of a suitably incoherent matrix."
+    },
+    {
+      "title": "Sparse Legendre expansions via ℓ1 -minimization",
+      "doi": "https://doi.org/10.1016/j.jat.2012.01.008",
+      "publication_year": 2012,
+      "cited_by_count": 256,
+      "venue": "Journal of Approximation Theory",
+      "abstract": ""
+    },
+    {
+      "title": "Repeated blood–brain barrier opening with an implantable ultrasound device for delivery of albumin-bound paclitaxel in patients with recurrent glioblastoma: a phase 1 trial",
+      "doi": "https://doi.org/10.1016/s1470-2045(23)00112-2",
+      "publication_year": 2023,
+      "cited_by_count": 249,
+      "venue": "The Lancet Oncology",
+      "abstract": ""
+    },
+    {
+      "title": "Low-rank Matrix Recovery via Iteratively Reweighted Least Squares Minimization",
+      "doi": "https://doi.org/10.1137/100811404",
+      "publication_year": 2011,
+      "cited_by_count": 229,
+      "venue": "SIAM Journal on Optimization",
+      "abstract": "We present and analyze an efficient implementation of an iteratively reweighted least squares algorithm for recovering a matrix from a small number of linear measurements. The algorithm is designed for the simultaneous promotion of both a minimal nuclear norm and an approximately low-rank solution. Under the assumption that the linear measurements fulfill a suitable generalization of the null space property known in the context of compressed sensing, the algorithm is guaranteed to recover iteratively any matrix with an error of the order of the best k-rank approximation. In certain relevant cases, for instance, for the matrix completion problem, our version of this algorithm can take advantage of the Woodbury matrix identity, which allows us to expedite the solution of the least squares problems required at each iteration. We present numerical experiments which confirm the robustness of the algorithm for the solution of matrix completion problems, and we demonstrate its competitiveness with respect to other techniques proposed recently in the literature."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Dynamic release of extracellular particles after opening of the blood-brain barrier predicts glioblastoma susceptibility to paclitaxel",
+      "doi": "https://doi.org/10.1038/s41467-025-65681-4",
+      "publication_year": 2025,
+      "cited_by_count": 14,
+      "venue": "Nature Communications",
+      "abstract": "Liquid biopsies hold promise to improve the diagnosis, assessment of response to therapy, and ultimately guide the management of cancer patients. However, implementation of this approach in brain tumors has proven challenging due to the limited passage of molecules across the blood-brain barrier (BBB). We recently reported results from a phase I clinical trial in which the BBB was transiently opened in glioblastoma (GBM) patients using skull-implantable low-intensity pulsed ultrasound combined with microbubbles (LIPU/MB). In this study, treatment and BBB opening was performed every 3 weeks with paclitaxel administration until disease progression or up to 6 cycles (NCT04528680). As an exploratory objective of this trial, here we investigate extracellular vesicles and particles (EVPs/EPs) released into circulation in the context of tumor cell death as a potential biomarker for response to treatment. We develop and validate a microfluidic device designed to capture tumor-derived EVPs in glioblastoma patients (GlioExoChip). This approach leverages GBM-based expression of phosphatidylserine and Annexin-V chemistry that is traditionally used to measure apoptosis. EVPs are characterized using nanoparticle tracking analysis, proteomics, western blot, and scanning electron microscopy. Proteomic analysis of circulating EVPs isolated from GBM patients reveals distinct expression patterns to that of healthy individuals, and scRNA-seq analysis of these genes supported their tumoral origin within the GBM microenvironment. In vitro, paclitaxel-susceptible glioma cells treated with this drug exhibit apoptosis and dose-dependent EVP release. In concordance, we find changes in EVP release following the initiation of paclitaxel with LIPU/MB correlated with overall survival in GBM patients. Thus, our study introduces an efficient microfluidic platform for the capture of circulating GBM EVPs and demonstrates that release upon BBB opening is predictive of outcomes following paclitaxel treatment. This approach represents a real-time surrogate biomarker for treatment response for a disease where imaging-based assessment of response has not been shown to be reliable. Future prospective validation is warranted. Recently published results from a Phase I trial showed the blood brain barrier could be transiently opened in glioblastoma patients using low-intensity ultrasound and microbubbles. Here, the authors develop a microfluidic chip to capture tumour-derived extracellular vesicles and particles in response to paclitaxel treatment."
+    },
+    {
+      "title": "DDEL-22. Safety, feasibility, and preliminary efficacy of albumin-bound paclitaxel as monotherapy and in combination with carboplatin delivered by blood-brain barrier opening using a skull-implantable ultrasound: Preliminary results of a Phase I-II trial in recurrent glioblastoma",
+      "doi": "https://doi.org/10.1093/neuonc/noaf201.0627",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Neuro-Oncology",
+      "abstract": "Abstract BACKGROUND We previously established the safety of administration of either carboplatin or albumin-bound paclitaxel (ABX) in conjunction with blood-brain barrier (BBB) opening by low-intensity pulsed ultrasound with microbubbles (LIPU/MB) using an implantable device (Sonocloud-9) (NCT03744026, NCT04528680). We demonstrated a multiple-fold increase in non-enhancing brain parenchymal levels of ABX and carboplatin by LIPU/MB, and prolonged carboplatin retention in the brain parenchyma after sonication. We have now evaluated ABX plus carboplatin delivered by LIPU/MB. METHODS We conducted a phase II clinical trial to deliver carboplatin (AUC 5) and ABX (260 mg/m2) in conjunction with BBB opening by LIPU/MB for treatment of first recurrence of glioblastoma (GBM) (NCT04528680). 35 patients were enrolled and evaluable. Endpoints included safety and tolerability, tumor growth rate (TGR), defined by volumetric measurements of contrast enhancement in sonicated regions in disease evaluation MRI, progression-free (PFS), and overall survival (OS). Patients with the first GBM recurrence of the Phase I trial were included for comparisons (n=16). RESULTS Main toxicity was myelosuppression, primarily uncomplicated and short-lived grade 4 neutropenia. PFS of patients treated with the combination regimen was significantly longer compared to that of patients treated with single-agent ABX (median PFS of 3.8 months vs 2.8 months, Log-rank p=0.02). Negative TGR exhibited prolonged OS (median OS 14.4 months) compared to positive TGR (median OS 8.4 months) in patients treated with ABX as monotherapy or combined with carboplatin (Log-rank p=0.03, n=43). By November 2025, data will be mature for a preliminary comparison of OS. CONCLUSIONS Delivery of ABX plus carboplatin using LIPU/MB is well-tolerated. TGR in sonicated brain appears to predict OS in patients treated with ABX with or without carboplatin delivered by LIPU/MB. Early signs of efficacy suggest that this combination might be superior to ABX monotherapy. Additional studies are necessary to confirm this observation."
+    },
+    {
+      "title": "125P Artificial intelligence-based TSR quantification reveals prognostic value and stromal-driven immunosuppression in colorectal cancer: An international validation study",
+      "doi": "https://doi.org/10.1016/j.esmorw.2025.100322",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "ESMO Real World Data and Digital Oncology",
+      "abstract": "Colorectal cancer (CRC) exhibits high heterogeneity, affecting variable outcomes and response to therapy. Tumor stroma drives progression and immunosuppression. The tumor–stroma ratio (TSR), a parameter for quantifying stroma proportion, is a validated prognostic marker, but conventional visual scoring is subjective. Artificial intelligence (AI enables standardized TSR quantification on hematoxylin and eosin (HE) whole-slide images (WSI), supporting clinical integration and personalized therapy."
+    },
+    {
+      "title": "Generating synthetic data for neural operators",
+      "doi": "https://doi.org/10.5802/smai-jcm.132",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "SMAI Journal of Computational Mathematics",
+      "abstract": "Recent advances in the literature show promising potential of deep learning methods, particularly neural operators, in obtaining numerical solutions to partial differential equations (PDEs) beyond the reach of current numerical solvers. However, existing data-driven approaches often rely on training data produced by numerical PDE solvers (e.g., finite difference or finite element methods). We introduce a “backward” data generation method that avoids solving the PDE numerically: by randomly sampling candidate solutions u j from the appropriate solution space (e.g., H 0 1 ( Ω ) ), we compute the corresponding right-hand side f j directly from the equation by differentiation. This produces training pairs ( f j , u j ) by computing derivatives rather than solving a PDE numerically for each data point, enabling fast, large-scale data generation consisting of exact solutions. Experiments indicate that models trained on this synthetic data generalize well when tested on data produced by standard solvers. While the idea is simple, we hope this method will expand the potential of neural PDE solvers that do not rely on classical numerical solvers for data generation."
+    },
+    {
+      "title": "Modeling turbulent and self-gravitating fluids with Fourier neural operators",
+      "doi": "https://doi.org/10.1063/5.0263607",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "APL Machine Learning",
+      "abstract": "Neural Operators (NOs) are a leading method for surrogate modeling of partial differential equations. Unlike traditional neural networks, which approximate individual functions, NOs learn the mappings between function spaces. While NOs have been predominantly tested on simplified 1D and 2D problems, such as those explored in prior works, these studies fail to address the complexities of more realistic, high-dimensional, and high-dynamic range systems. Moreover, many real-world applications involve incomplete or noisy data, which has not been adequately explored in current NO literature. In this work, we present a novel application of NOs to astrophysical data, which involves high-dynamic range projections into an observational space. We train Fourier NO (FNO) models to predict the evolution of incomplete observational proxies with density variations spanning four orders of magnitude. We demonstrate that FNOs can predict the effects of unobserved dynamical variables. Our work lays the groundwork for future studies that forecast direct astronomical observables."
+    },
+    {
+      "title": "Pharmacokinetic analysis of carboplatin and fluorescein brain permanence following ultrasound-based blood-brain barrier opening",
+      "doi": "https://doi.org/10.1101/2025.01.20.25320847",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "medRxiv",
+      "abstract": "Background: The blood-brain barrier (BBB) impedes the passage of most circulating drugs into the brain. Low-intensity pulsed ultrasound with microbubbles (LIPU/MB) transiently opens the BBB, improving parenchymal drug penetration. Parenchymal drug permanence upon short-lived BBB opening is unknown. We compared the parenchymal permanence of temozolomide, carboplatin, and fluorescein, and investigated the effect of LIPU/MB on the concentration of carboplatin and fluorescein. Methods: We analyzed four patients who underwent intraoperative LIPU/MB with intravenous administration of carboplatin and fluorescein in the NCT04528680 clinical trial. Microdialysis catheters were implanted into sonicated and non-sonicated brain and measured drug levels over 24 hours. Published data from a microdialysis study of temozolomide without LIPU/MB were used for comparison. Results: LIPU/MB led to sustained elevated parenchymal drug concentrations, achieving 3.1-fold increase in brain-to-plasma AUC for carboplatin and fluorescein (P = 0.03). Compared to non-sonicated brain, sonicated brain had higher concentrations of carboplatin for 11 hours, and fluorescein for 5 hours. Drug levels in the sonicated brain exceeded their plasma concentrations at 21 hours and 7 hours, for carboplatin and fluorescein, respectively. In non-sonicated brain, drug half-life was longest for fluorescein (13.6 ± 11.0 hours), followed by carboplatin (5.1 ± 1.9 hours) and temozolomide (2.9 ± 1.6 hours). Sonication did not affect parenchymal drug half-life. Conclusion: Following LIPU/MB, BBB-impermeable drugs exhibit sustained elevated parenchymal concentrations surpassing their plasma levels, highlighting the bi-directional restriction of drug passage by the BBB. Future studies are warranted to explore drug trapping and the efficacy of sustained exposure to cytotoxic drugs for the treatment of brain-infiltrating tumors."
+    },
+    {
+      "title": "Age and Postural Stability in Firefighters: An Analysis of Anterior Reach Asymmetry and the Two-Foot Length Criterion",
+      "doi": "https://doi.org/10.70252/hsmv3009",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "International journal of exercise science",
+      "abstract": "This study explored how age affects postural stability (PS) in firefighters by focusing on two key objectives: 1) determining if age affects right-to-left anterior (ANT) reach distance asymmetry (ASYM) during the Motor Control Screen (MCS) test and 2) assessing whether the proportion of firefighters not meeting the greater than two-foot length (2FL) criterion for ANT reach differs across age groups. Data from 95 male firefighters were analyzed using the MCS ANT reach test, part of the Y-Balance Test (YBT). The key outcomes were the difference in ANT reach distances between legs (ASYM) and the proportion reaching less than or equal to 2FL. Statistical analyses used Mann-Whitney U tests for ASYM and chi-square tests for proportions. No statistical difference in ASYM was found between younger and middle-aged firefighters (U=1025, p=0.501, r=-.069). Similarly, the proportion of firefighters not meeting the greater than 2FL criterion did not significantly differ across age groups for both right and left ANT reaches (p= 0.997, ϕ=.000 for right and p= 0.547, ϕ=-.062 for left). These findings indicate that age does not significantly influence right-to-left ANT reach ASYM or the likelihood of failing to meet the greater than 2FL criterion in this firefighter population. The results suggest that PS, as measured by ANT reach ASYM and the greater than 2FL criterion, does not significantly decline with age among firefighters. This may be due to the physical demands of firefighting. Future research should explore how ANT reach measures relate to injury risk and evaluate age-specific balance training interventions."
+    },
+    {
+      "title": "Endothelial response to blood-brain barrier disruption in the human brain",
+      "doi": "https://doi.org/10.1172/jci.insight.187328",
+      "publication_year": 2024,
+      "cited_by_count": 10,
+      "venue": "JCI Insight",
+      "abstract": "Cerebral endothelial cell (EC) injury and blood-brain barrier (BBB) permeability contribute to neuronal injury in acute neurological disease states. Preclinical experiments have used animal models to study this phenomenon, yet the response of human cerebral ECs to BBB disruption remains unclear. In our phase I clinical trial (ClinicalTrials.gov NCT04528680), we used low-intensity pulsed ultrasound with microbubbles (LIPU/MB) to induce transient BBB disruption of peritumoral brain in patients with recurrent glioblastoma. We found radiographic evidence that BBB integrity was mostly restored within 1 hour of this procedure. Using single-cell RNA sequencing and transmission electron microscopy, we analyzed the acute response of human brain ECs to ultrasound-mediated BBB disruption. Our analysis revealed distinct EC gene expression changes after LIPU/MB, particularly in genes related to neurovascular barrier function and structure, including changes to genes involved in the basement membrane, EC cytoskeleton, and junction complexes, as well as caveolar transcytosis and various solute transporters. Ultrastructural analysis showed that LIPU/MB led to a decrease in luminal caveolae, the emergence of cytoplasmic vacuoles, and the disruption of the basement membrane and tight junctions, among other things. These findings suggested that acute BBB disruption by LIPU/MB led to specific transcriptional and ultrastructural changes and could represent a conserved mechanism of BBB repair after neurovascular injury in humans."
+    },
+    {
+      "title": "Constrained Dynamics, Stochastic Numerical Methods and the Modeling of Complex Systems",
+      "doi": "https://doi.org/10.4171/owr/2024/26",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "Oberwolfach Reports",
+      "abstract": "The workshop aimed to unite researchers from diverse fields of mathematics and statistics to explore the foundations of high-dimensional modeling and computational studies. It addressed recent advancements in numerical analysis, dynamical systems, and stochastic differential equations that support model reduction for large-scale complex systems.Incorporating targeted geometric structures, such as Riemannian manifolds, into large-scale statistical models is known to enhance the stability, reliability, and efficiency of numerical methods. However, algorithms are often presented in application contexts without adequate attention to their fundamental properties, limiting the adoption of these advanced modeling methods.The workshop emphasized understanding the fundamental properties of these structures, their impact on dynamics and stochastic dynamics, and the need to redesign algorithms to capture essential properties, aiming for robustness and suitability for high-performance computation.By bringing together numerical analysts, statisticians, and modelers, the workshop sought to improve the quality of methods and identify new model frameworks to guide future development."
+    },
+    {
+      "title": "DDEL-15. PHARMACOKINETIC ANALYSIS OF CARBOPLATIN AND FLUORESCEIN BRAIN PENETRATION AND PERMANENCE FOLLOWING ULTRASOUND-BASED BLOOD-BRAIN BARRIER OPENING ON GLIOBLASTOMA CLINICAL TRIAL",
+      "doi": "https://doi.org/10.1093/neuonc/noae165.0481",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "Neuro-Oncology",
+      "abstract": "Abstract The blood-brain barrier (BBB) impedes the passage of most circulating drugs into the brain. Low-intensity pulsed ultrasound with microbubbles (LIPU/MB) transiently opens the BBB, improving drug delivery to the brain. The implication of this transient BBB opening on parenchymal drug permanence is unknown. We compared the parenchymal levels and permanence/retention of temozolomide, carboplatin, and fluorescein, and investigated in a clinical trial (NCT04528680) the effect of LIPU/MB on the permanence of carboplatin and fluorescein in the human brain. Four patients underwent intraoperative LIPU/MB (SonoCloud-9, Carthera) with intravenous carboplatin and fluorescein infusion. Microdialysis catheters were implanted into sonicated and non-sonicated brain for continuous drug measurement over 24 hours. Published data from a microdialysis study of temozolomide were used for comparison. Temozolomide and carboplatin exhibited similar brain-to-plasma AUC ratios (17.8 ± 13.3%; 16.3 ± 8.2%, respectively) which were higher than that of fluorescein (10.4 ± 6.9%). Parenchymal half-life was the longest for fluorescein (13.6 ± 11.0 hours), followed by carboplatin (5.1 ± 1.9 hours) and temozolomide (2.9 ± 1.6 hours). LIPU/MB led to sustained elevated parenchymal drug concentrations, achieving a 3.1-fold increase in AUC for both carboplatin (P = 0.02), and fluorescein (P = 0.04), and higher parenchymal than systemic drug levels starting at 21 hours and 7 hours for these drugs respectively (P < 0.05), timepoints where these drugs had mostly cleared from the plasma. Fluorescein exhibits prolonged permanence in the brain parenchyma and may be “trapped” by the BBB. In the context of transient BBB opening by LIPU/MB, parenchymal carboplatin and fluorescein concentrations remain elevated over time, supporting the notion that the BBB exhibits a bi-directional restriction of drug passage. Future studies are warranted to explore the efficacy of drug trapping to achieve prolonged/sustained exposure of cytotoxic drugs for brain tumor therapy."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "faculty_name": "Thomas Hughes",
+  "full_name": "Thomas J.R. Hughes",
+  "department": "ASE",
+  "university": "University of Texas at Austin",
+  "author_id": "A5031451887",
+  "works_count": 739,
+  "cited_by_count": 105684,
+  "h_index": 150,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 209
+    },
+    {
+      "topic": "Advanced Numerical Analysis Techniques",
+      "count": 178
+    },
+    {
+      "topic": "Numerical methods in engineering",
+      "count": 110
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 75
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 56
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Isogeometric analysis: CAD, finite elements, NURBS, exact geometry and mesh refinement",
+      "doi": "https://doi.org/10.1016/j.cma.2004.10.008",
+      "publication_year": 2005,
+      "cited_by_count": 6315,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Streamline upwind/Petrov-Galerkin formulations for convection dominated flows with particular emphasis on the incompressible Navier-Stokes equations",
+      "doi": "https://doi.org/10.1016/0045-7825(82)90071-8",
+      "publication_year": 1982,
+      "cited_by_count": 5355,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "The Finite Element Method: Linear Static and Dynamic Finite Element Analysis",
+      "doi": "",
+      "publication_year": 1987,
+      "cited_by_count": 4865,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "Mathematical Foundations of Elasticity",
+      "doi": "https://doi.org/10.1115/1.3167757",
+      "publication_year": 1984,
+      "cited_by_count": 2703,
+      "venue": "Journal of Applied Mechanics",
+      "abstract": "This advanced-level study approaches mathematical foundations of three-dimensional elasticity using modern differential geometry and functional analysis. It is directed to mathematicians, engineers and physicists who wish to see this classical subject in a modern setting with examples of newer mathematical contributions. Prerequisites include a solid background in advanced calculus and the basics of geometry and functional analysis.The first two chapters cover the background geometry ― developed as needed ― and use this discussion to obtain the basic results on kinematics and dynamics of con"
+    },
+    {
+      "title": "Improved numerical dissipation for time integration algorithms in structural dynamics",
+      "doi": "https://doi.org/10.1002/eqe.4290050306",
+      "publication_year": 1977,
+      "cited_by_count": 2418,
+      "venue": "Earthquake Engineering & Structural Dynamics",
+      "abstract": "Abstract A new family of unconditionally stable one‐step methods for the direct integration of the equations of structural dynamics is introduced and is shown to possess improved algorithmic damping properties which can be continuously controlled. The new methods are compared with members of the Newmark family, and the Houbolt and Wilson methods."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "An optimal Petrov–Galerkin framework for operator networks",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119046",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "TU/e Research Portal",
+      "abstract": "The optimal Petrov–Galerkin formulation to solve partial differential equations (PDEs) recovers the best approximation in a specified finite-dimensional (trial) space with respect to a suitable norm. However, the recovery of this optimal solution is contingent on being able to construct the optimal weighting functions associated with the trial basis. While explicit constructions are available for simple one- and two-dimensional problems, such constructions for a general multidimensional problem remain elusive. In the present work, we revisit the optimal Petrov–Galerkin formulation through the lens of deep learning. We propose an operator network framework called Petrov–Galerkin Variationally Mimetic Operator Network (PG-VarMiON), which emulates the optimal Petrov–Galerkin weak form of the underlying PDE. The PG-VarMiON is trained in a supervised manner using a labeled dataset comprising the PDE data and the corresponding PDE solution, with the training loss depending on the choice of the optimal norm. The special architecture of the PG-VarMiON allows it to implicitly learn the optimal weighting functions, thus endowing the proposed operator network with the ability to generalize well beyond the training set. We derive approximation error estimates for PG-VarMiON, highlighting the contributions of various error sources, particularly the error in learning the true weighting functions. Several numerical results are presented for the advection-diffusion equation to demonstrate the efficacy of the proposed method. By embedding the Petrov–Galerkin structure into the network architecture, PG-VarMiON exhibits greater robustness and improved generalization compared to other popular deep operator frameworks, particularly when the training data is limited."
+    },
+    {
+      "title": "An optimal Petrov–Galerkin framework for operator networks",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119046",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": "The optimal Petrov-Galerkin formulation to solve partial differential equations (PDEs) recovers the best approximation in a specified finite-dimensional (trial) space with respect to a suitable norm. However, the recovery of this optimal solution is contingent on being able to construct the optimal weighting functions associated with the trial basis. While explicit constructions are available for simple one- and two-dimensional problems, such constructions for a general multi-dimensional problem remain elusive. In the present work, we revisit the optimal Petrov-Galerkin formulation through the lens of deep learning. We propose an operator network framework called Petrov-Galerkin Variationally Mimetic Operator Network (PG-VarMiON), which emulates the optimal Petrov-Galerkin weak form of the underlying PDE. The PG-VarMiON is trained in a supervised manner using a labeled dataset comprising the PDE data and the corresponding PDE solution, with the training loss depending on the choice of the optimal norm. The special architecture of the PG-VarMiON allows it to implicitly learn the optimal weighting functions, thus endowing the proposed operator network with the ability to generalize well beyond the training set. We derive approximation error estimates for PG-VarMiON, highlighting the contributions of various error sources, particularly the error in learning the true weighting functions. Several numerical results are presented for the advection-diffusion equation to demonstrate the efficacy of the proposed method. By embedding the Petrov-Galerkin structure into the network architecture, PG-VarMiON exhibits greater robustness and improved generalization compared to other popular deep operator frameworks, particularly when the training data is limited."
+    },
+    {
+      "title": "Biomechanical index for predicting the risk of acute coronary syndrome",
+      "doi": "https://doi.org/10.3389/fcvm.2026.1766059",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Frontiers in Cardiovascular Medicine",
+      "abstract": "Background: A patient-specific biomechanical model for quantifying the stress state within coronary atherosclerotic lesions for the noninvasive prediction of acute coronary syndrome (ACS) has not been established. Methods: Sixty-nine patients with clearly documented ACS and available coronary computed tomographic angiography (cCTA) acquired between 1 month and 2 years before the development of ACS were included. In 63 culprit and 146 nonculprit lesions, lumen geometry, the presence of adverse plaque characteristics (APC), and hemodynamic parameters were evaluated using previously described methods. A novel biomechanical metric, denoted as the Cap Vulnerability Index (CVI), was calculated from cCTA data using computational solid and fluid mechanics and compared to anatomic, plaque and hemodynamics variables for the ability to discriminate culprit from nonculprit lesions. Results: Culprit lesions had a greater diameter stenosis, lesion length, more adverse plaque and hemodynamic characteristics and a greater CVI. Among all parameters evaluated, CVI had the highest AUC (0.75), was the strongest independent predictor for ACS and was comparable to previously described statistical models combining anatomy, plaque and hemodynamic variables. Conclusions: Noninvasive biomechanical assessment of coronary plaques using computational solid and fluid mechanics may improve identification of culprit lesions for ACS and simplify the interpretation of risk factors for individual lesions."
+    },
+    {
+      "title": "Extensions to the Navier–Stokes–Fourier equations for rarefied transport: Variational multiscale moment methods for the Boltzmann equation",
+      "doi": "https://doi.org/10.1142/s021820252650003x",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Mathematical Models and Methods in Applied Sciences",
+      "abstract": "In this paper, we derive a fourth-order entropy stable extension of the Navier–Stokes–Fourier equations into the transition regime of rarefied gases. We do this through a novel reformulation of the closure of conservation equations derived from the Boltzmann equation that subsumes existing methods such as the Chapman–Enskog expansion. We apply the linearized version of this extension to the stationary heat problem and the Poiseuille channel and compare our analytical solutions to asymptotic and numerical solutions of the linearized Boltzmann equation. In both model problems, our solutions compare remarkably well in the transition regime. For some macroscopic variables, this agreement even extends far beyond the transition regime."
+    },
+    {
+      "title": "Unifying machine learning and interpolation theory via interpolating neural networks",
+      "doi": "https://doi.org/10.1038/s41467-025-63790-8",
+      "publication_year": 2025,
+      "cited_by_count": 11,
+      "venue": "Nature Communications",
+      "abstract": "Computational science and engineering are shifting toward data-centric, optimization-based, and self-correcting solvers with artificial intelligence. This transition faces challenges such as low accuracy with sparse data, poor scalability, and high computational cost in complex system design. This work introduces Interpolating Neural Network (INN)-a network architecture blending interpolation theory and tensor decomposition. INN significantly reduces computational effort and memory requirements while maintaining high accuracy. Thus, it outperforms traditional partial differential equation (PDE) solvers, machine learning (ML) models, and physics-informed neural networks (PINNs). It also efficiently handles sparse data and enables dynamic updates of nonlinear activation. Demonstrated in metal additive manufacturing, INN rapidly constructs an accurate surrogate model of Laser Powder Bed Fusion (L-PBF) heat transfer simulation. It achieves sub-10-micrometer resolution for a 10 mm path in under 15 minutes on a single GPU, which is 5-8 orders of magnitude faster than competing ML models. This offers a new perspective for addressing challenges in computational science and engineering."
+    },
+    {
+      "title": "Stabilized isogeometric mixed material point method for modeling coupled diffusion and deformation in hydrogels",
+      "doi": "https://doi.org/10.1016/j.cma.2026.119339",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Dataset and codes to investigate personalized computational forecasting of prostate cancer growth and progression at diagnosis",
+      "doi": "https://doi.org/10.5281/zenodo.22088217",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Dataset and codes to investigate personalized computational forecasting of prostate cancer growth and progression at diagnosis"
+    },
+    {
+      "title": "Dataset and codes to investigate personalized computational forecasting of prostate cancer growth and progression at diagnosis",
+      "doi": "https://doi.org/10.5281/zenodo.22088216",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Dataset and codes to investigate personalized computational forecasting of prostate cancer growth and progression at diagnosis"
+    },
+    {
+      "title": "Turbulent Undercurrents",
+      "doi": "https://doi.org/10.4324/9781003737001-7",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "The New Is Old Again",
+      "doi": "https://doi.org/10.4324/9781003737001-17",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This chapter outlines the pattern and structure of NATO and Russian exercises between 2014 and 2018, setting them in the context of the increasingly strained relationship between the two actors. Despite media emphasis on size, Russia often constructed exercises below CSBM thresholds, limiting formal observation. NATO exercises increased after 2014, reversing Cold War patterns by conducting fewer extremely large-scale exercises than Russia but frequently conducting smaller-scale exercises. Undermining efforts to use exercises for nuanced signalling, NATO members’ national exercises occurred in parallel with official NATO exercises but lacked centralized planning."
+    },
+    {
+      "title": "The Missing Span",
+      "doi": "https://doi.org/10.4324/9781003737001-9",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This chapter provides an analysis of the theory and reality of confidence-building in Europe, drawing on ideas of vulnerability as part of trust-building and the meaning of “confidence”. While C(S)BMs may raise short-term confidence in the benign intent of an exercising force, this is based on reconfiguring the costs of a surprise attack, rather than developing a belief that the exercising party would not attack even if the costs were low. In the medium term, C(S)BMs enhancing confidence in the low likelihood of attack again stemmed from the ability to measure others’ capability. That is, the possibility that the potential attacker overestimates its chances of winning diminishes, reducing the likelihood of escalation. Mutual adherence to the C(S)BMs, therefore, could develop confidence that others will not attack in the short and medium term by indicating the balance of capability, but does not generate a trusting relationship. This was highlighted by the introduction of “Security” into Confidence-Building, which indicated a new understanding of the intent of the regime. By 2018, the CSBMs were insufficient even to enhance confidence in assessments of others’ capability. In addition, negotiations were consistently used to shape the security environment and reflected perceptions of the relative balance of capability."
+    },
+    {
+      "title": "The Stockholm Document",
+      "doi": "https://doi.org/10.4324/9781003737001-5",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This chapter provides an analysis of the updated CBMs included in the Stockholm Document and the overt introduction of “Security” into Confidence-Building Measures to create “Confidence- and Security-Building Measures”. As with the previous chapter, this focuses on the intended effect of the Stockholm Document, emphasizing the way in which the regime was intended to move beyond the Helsinki Final Act. This required a shift from using CBMs to ensure that there could not be a surprise attack founded in an exercise, to using the observation of exercises to generate an accurate interpretation of the medium-term intent of another actor. The chapter then covers the difference in priorities of NATO and the Soviet Union, highlighting the greater willingness of NATO to institutionalize transparency and the Soviet priority of “declaratory measures”. The analysis of archival documents also demonstrates the competitive nature of the negotiations and the NATO perception of Soviet “duplicity” in their negotiating position."
+    },
+    {
+      "title": "Through the Looking Glass",
+      "doi": "https://doi.org/10.4324/9781003737001-12",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This chapter assesses NATO and Soviet responses to others’ exercises and the concerns that were particularly significant in re-shaping the perception of threat. Ultimately, while NATO remained concerned about the potential for an exercise to turn into offensive action, it was the breach of the C(S)BM regime that led most directly to NATO perceiving a threat from Soviet exercises. In breaking the rules, the Soviet Union undermined NATO&s;s efforts to build security through mutually agreed rules and NATO felt itself in a threateningly unpredictable environment. The Soviet Union, with a less socially grounded commitment to openness and rule-following, usually followed the letter of rules and used the transparency generated by the C(S)BM regime where it saw an advantage, but did not put the regime at the centre of their approach to security. Soviet concerns around exercises focused on NATO&s;s ability to gather forces in Europe. Large-scale exercises were considered threatening, and Soviet reaction to Able Archer 83 , as well as the scenario in Druzhba 85 , demonstrates that they viewed the possibility of NATO transforming an exercise into offensive action as realistic. Nevertheless, primary concerns were about the development of general NATO capability through exercises, a concern that was impervious to NATO transparency."
+    },
+    {
+      "title": "Foundations Laid",
+      "doi": "https://doi.org/10.4324/9781003737001-4",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This chapter describes the negotiation and terms of the Helsinki Final Act relating to military exercises, and the reaction to the implementation of its terms in the immediate aftermath. The chapter is structured around outlining the intent behind the CBM regime, the “type” of confidence that it was intended to develop, and a comparison of the way in which the Soviet Union and NATO members approached and understood the regime. While the Helsinki Final Act provided a framework for a broad array of actions, military exercises were an important component. Drawing on archival documents including minutes of meetings at the Atlantic Council and notes from the negotiators, the chapter demonstrates the uncertainty around the intended function of the CBMs. The chapter highlights how both the Soviet Union and US negotiators attempted to generate a relative advantage through the regime, and the splits that emerged between the US and their European partners in defining acceptable terms. The chapter emphasizes the absence of verification measures included in the terms of the CBMs, with the consequence that simple adherence to the terms of the regime changed little in the interpretation of others’ intent, but non-adherence was understood as a symbol of aggressive intent."
+    }
+  ]
+}

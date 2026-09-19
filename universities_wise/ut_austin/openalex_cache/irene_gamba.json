@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Irene Gamba",
+  "full_name": "Irene M. Gamba",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5087543049",
+  "works_count": 166,
+  "cited_by_count": 3046,
+  "h_index": 29,
+  "top_topics": [
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 122
+    },
+    {
+      "topic": "Numerical methods in inverse problems",
+      "count": 35
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 32
+    },
+    {
+      "topic": "Thermal properties of materials",
+      "count": 29
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "On Some Properties of Kinetic and Hydrodynamic Equations for Inelastic Interactions",
+      "doi": "https://doi.org/10.1023/a:1018627625800",
+      "publication_year": 2000,
+      "cited_by_count": 272,
+      "venue": "Journal of Statistical Physics",
+      "abstract": ""
+    },
+    {
+      "title": "A WENO-solver for the transients of Boltzmann–Poisson system for semiconductor devices: performance and comparisons with Monte Carlo methods",
+      "doi": "https://doi.org/10.1016/s0021-9991(02)00032-3",
+      "publication_year": 2003,
+      "cited_by_count": 141,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Moment Inequalities and High-Energy Tails for Boltzmann Equations with Inelastic Interactions",
+      "doi": "https://doi.org/10.1023/b:joss.0000041751.11664.ea",
+      "publication_year": 2004,
+      "cited_by_count": 139,
+      "venue": "Journal of Statistical Physics",
+      "abstract": ""
+    },
+    {
+      "title": "A discontinuous Galerkin method for the Vlasov–Poisson system",
+      "doi": "https://doi.org/10.1016/j.jcp.2011.09.020",
+      "publication_year": 2011,
+      "cited_by_count": 136,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "On the Boltzmann Equation for Diffusively Excited Granular Media",
+      "doi": "https://doi.org/10.1007/s00220-004-1051-5",
+      "publication_year": 2004,
+      "cited_by_count": 129,
+      "venue": "Communications in Mathematical Physics",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Reconstruction of the Heat Relaxation Index in the Phonon Transport Equation",
+      "doi": "https://doi.org/10.1137/25m1737341",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SIAM Journal on Applied Mathematics",
+      "abstract": "Abstract. For nanomaterials, the concept of heat conductivity needs to be revisited. At this fine scale, heat is propagated using the phonon transport equation, an ab initio model derived from first principles. In this problem, a material’s thermal property is coded in a coefficient termed the relaxation time [Formula: see text], depending on the phonon frequency. We propose a novel inverse problem in this paper that infers the relaxation time using a material’s temperature response upon heat injection. This inverse problem is formulated in a PDE-constrained optimization and is numerically solved by the stochastic gradient descent method (SGD) and its variants. In the execution of SGD, the Fréchet derivative is computed and Lipschitz continuity is proved. This approach, in comparison to the earlier studies, enhances the ab initio concept of heat conduction in nanostructures associated to nanomaterials."
+    },
+    {
+      "title": "Stability of the reconstruction of the heat reflection coefficient in the phonon transport equation",
+      "doi": "https://doi.org/10.3934/krm.2026021",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Kinetic and Related Models",
+      "abstract": "The reflection coefficient is an important thermal property of materials, especially at the nanoscale, and determining this property requires solving an inverse problem based on macroscopic temperature measurements. In this manuscript, we investigate the stability of this inverse problem to infer the reflection coefficient in the phonon transport equation. We show that the problem becomes ill-posed as the system transitions from the ballistic to the diffusive regime, characterized by the Knudsen number converging to zero. Such a stability estimate clarifies the discrepancy observed in previous studies on the well-posedness of this inverse problem. Furthermore, we quantify the rate at which the stability deteriorates with respect to the Knudsen number and confirm the theoretical result with numerical evidence."
+    },
+    {
+      "title": "A Structure-Preserving Solver for Particle-Wave Interaction in Non-uniform Magnetized Plasmas",
+      "doi": "https://doi.org/10.1007/978-3-032-00094-1_66",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Springer aerospace technology",
+      "abstract": "Abstract We present a struture-preserving solver for particle-wave interaction in magnetized plasmas. The solver combines a conservative local discontinuous Galerkin (LDG) scheme for the interaction part with a trajectory averaging method for the Hamiltonian flow part. The proposed LDG scheme is an extension of the conservative scheme we developed in 2023. The trajectory averaging method significantly reduces computational cost by taking advantage of the multiscale feature of this system. By introducing a novel concept “trajectory bundle”, we transform a continuous topological problem into a discrete graph theory problem. Numerical examples for a non-uniform magnetized plasma in an infinitely long symmetric cylinder is presented. It is verified that the connection-proportion algorithm allows to distinguish different trajectory bundles, and the proposed DG scheme rigorously preserves all the conservation laws."
+    },
+    {
+      "title": "Stability of the reconstruction of the heat reflection coefficient in the phonon transport equation",
+      "doi": "",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The reflection coefficient is an important thermal property of materials, especially at the nanoscale, and determining this property requires solving an inverse problem based on macroscopic temperature measurements. In this manuscript, we investigate the stability of this inverse problem to infer the reflection coefficient in the phonon transport equation. We show that the problem becomes ill-posed as the system transitions from the ballistic to the diffusive regime, characterized by the Knudsen number converging to zero. Such a stability estimate clarifies the discrepancy observed in previous studies on the well-posedness of this inverse problem. Furthermore, we quantify the rate at which the stability deteriorates with respect to the Knudsen number and confirm the theoretical result with numerical evidence."
+    },
+    {
+      "title": "Extensions to the Navier–Stokes–Fourier equations for rarefied transport: Variational multiscale moment methods for the Boltzmann equation",
+      "doi": "https://doi.org/10.1142/s021820252650003x",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Mathematical Models and Methods in Applied Sciences",
+      "abstract": "In this paper, we derive a fourth-order entropy stable extension of the Navier–Stokes–Fourier equations into the transition regime of rarefied gases. We do this through a novel reformulation of the closure of conservation equations derived from the Boltzmann equation that subsumes existing methods such as the Chapman–Enskog expansion. We apply the linearized version of this extension to the stationary heat problem and the Poiseuille channel and compare our analytical solutions to asymptotic and numerical solutions of the linearized Boltzmann equation. In both model problems, our solutions compare remarkably well in the transition regime. For some macroscopic variables, this agreement even extends far beyond the transition regime."
+    },
+    {
+      "title": "Exponentially-tailed regularity and decay rate to equilibrium for the Boltzmann equation",
+      "doi": "https://doi.org/10.1016/j.na.2025.113920",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Nonlinear Analysis",
+      "abstract": ""
+    },
+    {
+      "title": "Entropy Stable Hydrodynamic Discretizations of the Linearized Boltzmann Equation",
+      "doi": "https://doi.org/10.2139/ssrn.5497563",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    },
+    {
+      "title": "The Cauchy Problem for Boltzmann Bi-linear Systems: The Mixing of Monatomic and Polyatomic Gases",
+      "doi": "https://doi.org/10.1007/s10955-023-03221-4",
+      "publication_year": 2024,
+      "cited_by_count": 6,
+      "venue": "Journal of Statistical Physics",
+      "abstract": "Abstract From a unified vision of vector valued solutions in weighted Banach spaces, this paper establishes the existence and uniqueness for space homogeneous Boltzmann bi-linear systems with conservative collisional forms arising in complex gas dynamical structures. This broader vision is directly applied to dilute multi-component gas mixtures composed of both monatomic and polyatomic gases. Such models can be viewed as extensions of scalar Boltzmann binary elastic flows, as much as monatomic gas mixtures with disparate masses and single polyatomic gases, providing a unified approach for vector valued solutions in weighted Banach spaces. Novel aspects of this work include developing the extension of a general ODE theory in vector valued weighted Banach spaces, precise lower bounds for the collision frequency in terms of the weighted Banach norm, energy identities, angular or compact manifold averaging lemmas which provide coerciveness resulting into global in time stability, a new combinatorics estimate forp-binomial forms producing sharper estimates for thek-moments of bi-linear collisional forms. These techniques enable the Cauchy problem improvement that resolves the model with initial data corresponding to strictly positive and bounded initial vector valued mass and total energy, in addition to only a $$2^+$$ 2+ moment determined by the hard potential rates discrepancy, a result comparable in generality to the classical Cauchy theory of the scalar homogeneous Boltzmann equation."
+    },
+    {
+      "title": "A conservative Galerkin solver for the quasilinear diffusion model in magnetized plasmas",
+      "doi": "https://doi.org/10.1016/j.jcp.2023.112220",
+      "publication_year": 2023,
+      "cited_by_count": 2,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "The Cauchy problem for Boltzmann bi-linear systems: The mixing of monatomic and polyatomic gases",
+      "doi": "https://doi.org/10.48550/arxiv.2304.06005",
+      "publication_year": 2023,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "From a unified vision of vector valued solutions in weighted Banach spaces, this manuscript establishes the existence and uniqueness for space homogeneous Boltzmann bi-linear systems with conservative collisional forms arising in complex gas dynamical structures. This broader vision is directly applied to dilute multi-component gas mixtures composed of both monatomic and polyatomic gases. Such models can be viewed as extensions of scalar Boltzmann binary elastic flows, as much as monatomic gas mixtures with disparate masses and single polyatomic gases, providing a unify approach for vector valued solutions in weighted vector Banach spaces. Novel aspects of this work include developing the extension of a general ODE theory in vector valued weighted Banach spaces, precise lower bounds for the collision frequency in terms of the weighted Banach norm, energy identities and the consequently angular or compact manifold averaging lemmas which provide coerciveness resulting into global in time stability, a new combinatorics estimate for $p$-binomial forms producing sharper estimates for the $k$-moments of bi-linear collisional forms. These techniques enable the Cauchy problem improvement that resolves the model with initial data corresponding to strictly positive and bounded initial vector valued mass and total energy, in addition to only $2^+$ moment determined by the hard potential rates discrepancy, a result comparable in generality to the classical Cauchy theory of the scalar homogeneous Boltzmann equation."
+    }
+  ]
+}

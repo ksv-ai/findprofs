@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Bjorn Engquist",
+  "full_name": "Björn Engquist",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5109921511",
+  "works_count": 255,
+  "cited_by_count": 19587,
+  "h_index": 53,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 77
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 71
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 44
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 39
+    },
+    {
+      "topic": "Composite Material Mechanics",
+      "count": 38
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Uniformly high order accurate essentially non-oscillatory schemes, III",
+      "doi": "https://doi.org/10.1016/0021-9991(87)90031-3",
+      "publication_year": 1987,
+      "cited_by_count": 3019,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Absorbing boundary conditions for the numerical simulation of waves",
+      "doi": "https://doi.org/10.1090/s0025-5718-1977-0436612-4",
+      "publication_year": 1977,
+      "cited_by_count": 2399,
+      "venue": "Mathematics of Computation",
+      "abstract": "In practical calculations, it is often essential to introduce artificial boundaries to limit the area of computation. Here we develop a systematic method for obtaining a hierarchy of local boundary conditions at these artificial boundaries. These boundary conditions not only guarantee stable difference approximations but also minimize the (unphysical) artificial reflections which occur at the boundaries."
+    },
+    {
+      "title": "Absorbing boundary conditions for acoustic and elastic wave equations",
+      "doi": "https://doi.org/10.1785/bssa0670061529",
+      "publication_year": 1977,
+      "cited_by_count": 1256,
+      "venue": "Bulletin of the Seismological Society of America",
+      "abstract": "abstract Boundary conditions are derived for numerical wave simulation that minimize artificial reflections from the edges of the domain of computation. In this way acoustic and elastic wave propagation in a limited area can be efficiently used to describe physical behavior in an unbounded domain. The boundary conditions are based on paraxial approximations of the scalar and elastic wave equations. They are computationally inexpensive and simple to apply, and they reduce reflections over a wide range of incident angles."
+    },
+    {
+      "title": "The Heterognous Multiscale Methods",
+      "doi": "https://doi.org/10.4310/cms.2003.v1.n1.a8",
+      "publication_year": 2003,
+      "cited_by_count": 987,
+      "venue": "Communications in Mathematical Sciences",
+      "abstract": "The heterogenous multiscale method (HMM) is presented as a general\\nmethodology for the efficient numerical computation of problems with\\nmultiscales and multiphysics on multigrids. Both variational and\\ndynamic problems are considered. The method relies on an efficent\\ncoupling between the macroscopic and microscopic models. In cases\\nwhen the macroscopic model is not explicity available or invalid,\\nthe microscopic solver is used to supply the necessary data for the\\nmicroscopic solver. Besides unifying several existing multiscale\\nmethods such as the ab initio molecular dynamics [13],\\nquasicontinuum methods [73,69,68] and projective methods for systems\\nwith multiscales [34,35], HMM also provides a methodology for\\ndesigning new methods for a large variety of multiscale problems. A\\nframework is presented for the analysis of the stability and accuracy\\nof HMM. Applications to problems such as homogenization, molecular\\ndynamics, kinetic models and interfacial dynamics are discussed."
+    },
+    {
+      "title": "Radiation boundary conditions for acoustic and elastic wave calculations",
+      "doi": "https://doi.org/10.1002/cpa.3160320303",
+      "publication_year": 1979,
+      "cited_by_count": 754,
+      "venue": "Communications on Pure and Applied Mathematics",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Velocity Reconstruction from Flow-Induced Magnetic Fields",
+      "doi": "https://doi.org/10.48550/arxiv.2602.22097",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We study the inverse problem of reconstructing an incompressible velocity field $\\boldsymbol{v}$ from observations of the induced magnetic field $\\boldsymbol{b}$. In the presence of a strong, constant background field $\\mathbf{F}$, the evolution of the magnetic perturbation $\\boldsymbol{b}$ is governed by the linearized induction equation. We analyze the system on both the entire space $Ω= \\mathbb{R}^d$ and a periodic domain $Ω= \\prod_{i=1}^d [0, L_i)$, which models a homogeneous medium with side lengths $L_i > 0$. We analyze this problem by decomposing it into the injectivity of a parabolic forward map and the solvability of a divergence-free transport sub-problem. On the whole space $\\mathbb{R}^d$, we show that the transport sub-problem is well-posed when data is prescribed on a non-characteristic hypersurface transverse to $\\mathbf{F}$. On the torus, we establish a sharp uniqueness criterion based on the rational dependence of the ratios $\\{F_i/L_i\\}_{i=1}^d$ between the background-field components and the corresponding domain periods. Furthermore, we show that for the reconstructed velocity to belong to $L^2$, a sufficient condition is that the background field must satisfy a Diophantine condition. The proof combines injectivity of the parabolic forward map with uniqueness for a steady transport equation along $\\mathbf{F}$."
+    },
+    {
+      "title": "Velocity Reconstruction from Flow-Induced Magnetic Fields",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We study the inverse problem of reconstructing an incompressible velocity field $\\boldsymbol{v}$ from observations of the induced magnetic field $\\boldsymbol{b}$. In the presence of a strong, constant background field $\\mathbf{F}$, the evolution of the magnetic perturbation $\\boldsymbol{b}$ is governed by the linearized induction equation. We analyze the system on both the entire space $Ω= \\mathbb{R}^d$ and a periodic domain $Ω= \\prod_{i=1}^d [0, L_i)$, which models a homogeneous medium with side lengths $L_i > 0$. We analyze this problem by decomposing it into the injectivity of a parabolic forward map and the solvability of a divergence-free transport sub-problem. On the whole space $\\mathbb{R}^d$, we show that the transport sub-problem is well-posed when data is prescribed on a non-characteristic hypersurface transverse to $\\mathbf{F}$. On the torus, we establish a sharp uniqueness criterion based on the rational dependence of the ratios $\\{F_i/L_i\\}_{i=1}^d$ between the background-field components and the corresponding domain periods. Furthermore, we show that for the reconstructed velocity to belong to $L^2$, a sufficient condition is that the background field must satisfy a Diophantine condition. The proof combines injectivity of the parabolic forward map with uniqueness for a steady transport equation along $\\mathbf{F}$."
+    },
+    {
+      "title": "Computational Multiscale Methods",
+      "doi": "https://doi.org/10.4171/owr/2025/22",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Oberwolfach Reports",
+      "abstract": "Many scientific and engineering problems exhibit complex interactions over a wide range of inseparable scales in space and time. Direct numerical simulations to solve such multiscale problems are often beyond current computational capabilities. The difficulties are exacerbated by the presence of uncertainty, randomness, and disorder and are hardly manageable for multiscale inverse problems. Therefore, the simulation of novel phenomena using multiscale models requires a new generation of multiscale computational methods. These must account for under-resolved scales, cross-scale couplings, and stochasticity in a hierarchical and adaptive manner and be able to integrate probabilistic, data-driven, and machine learning approaches. The workshop enhanced the development of a new generation of efficient multiscale computational methods and their rigorous mathematical and numerical analysis so that reliable and fast simulations of challenging multiscale problems from applications eventually become a reality."
+    },
+    {
+      "title": "A Dilation-Based Seamless Multiscale Method for Elliptic Problems",
+      "doi": "https://doi.org/10.1137/24m1668755",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Multiscale Modeling and Simulation",
+      "abstract": "Abstract. Many numerical methods for multiscale differential equations require a scale separation between the larger and the smaller scales to achieve accuracy and computational efficiency. In the area of multiscale dynamical systems, so-called seamless methods have been introduced to reduce the requirement of scale separation. We will translate these methods to numerical homogenization problems and extend the technique to multiple dimensions. The initial step is to prove that a one-dimensional second-order elliptic operator with oscillatory coefficients can be rewritten as a multiscale dynamical system. Inspired by this, multiscale elliptic operators in higher dimensions are approximated by a novel approach based on local dilation, which provides a middle ground for balancing intractability and accuracy without the need for full resolution. The dilation operator can be further generalized to preserve important structures by properly decomposing the coefficient field. Error estimates are developed, and promising numerical results of different examples are included."
+    },
+    {
+      "title": "Preface: High-order accuracy numerical methods and their applications, in honor of Professor Chi-Wang Shu on the occasion of his 65th birthday",
+      "doi": "https://doi.org/10.4310/bpam.250414223141",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Beijing Journal of Pure and Applied Mathematics",
+      "abstract": ""
+    },
+    {
+      "title": "An algebraically converging stochastic gradient descent algorithm for global optimization",
+      "doi": "https://doi.org/10.4310/cms.250607105334",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Communications in Mathematical Sciences",
+      "abstract": ""
+    },
+    {
+      "title": "Sampling with Adaptive Variance for Multimodal Distributions",
+      "doi": "https://doi.org/10.48550/arxiv.2411.15220",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We propose and analyze a class of adaptive sampling algorithms for multimodal distributions on a bounded domain, which share a structural resemblance to the classic overdamped Langevin dynamics. We first demonstrate that this class of linear dynamics with adaptive diffusion coefficients and vector fields can be interpreted and analyzed as weighted Wasserstein gradient flows of the Kullback--Leibler (KL) divergence between the current distribution and the target Gibbs distribution, which directly leads to the exponential convergence of both the KL and $χ^2$ divergences, with rates depending on the weighted Wasserstein metric and the Gibbs potential. We then show that a derivative-free version of the dynamics can be used for sampling without gradient information of the Gibbs potential and that for Gibbs distributions with nonconvex potentials, this approach could achieve significantly faster convergence than the classical overdamped Langevin dynamics. A comparison of the mean transition times between local minima of a nonconvex potential further highlights the better efficiency of the derivative-free dynamics in sampling."
+    },
+    {
+      "title": "On the Nature of the Boundary Resonance Error in Numerical Homogenization and Its Reduction",
+      "doi": "https://doi.org/10.1137/23m1594492",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "Multiscale Modeling and Simulation",
+      "abstract": "Abstract. Numerical homogenization of multiscale equations typically requires taking an average of the solution to a microscale problem. Both the boundary conditions and domain size of the microscale problem play an important role in the accuracy of the homogenization procedure. In particular, imposing naive boundary conditions leads to an [Formula: see text] error in the computation, where [Formula: see text] is the characteristic size of the microscopic fluctuations in the heterogeneous media, and [Formula: see text] is the size of the microscopic domain. This so-called boundary or “cell resonance” error can dominate discretization error and pollute the entire homogenization scheme. There exist several techniques in the literature to reduce the error. Most strategies involve modifying the form of the microscale cell problem. Below we present an alternative procedure based on the observation that the resonance error itself is an oscillatory function of domain size [Formula: see text]. After rigorously characterizing the oscillatory behavior for one-dimensional and quasi-one-dimensional microscale domains, we present a novel strategy to reduce the resonance error. Rather than modifying the form of the cell problem, the original problem is solved for a sequence of domain sizes, and the results are averaged against kernels satisfying certain moment conditions and regularity properties. Numerical examples in one and two dimensions illustrate the utility of the approach."
+    },
+    {
+      "title": "Adaptive State-Dependent Diffusion for Derivative-Free Optimization",
+      "doi": "https://doi.org/10.1007/s42967-023-00324-3",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "Communications on Applied Mathematics and Computation",
+      "abstract": ""
+    },
+    {
+      "title": "Optimal transport for elastic source inversion",
+      "doi": "https://doi.org/10.1190/image2023-3916500.1",
+      "publication_year": 2023,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Full-waveform inversion (FWI) is a state-of-the-art method for imaging the earth’s subsurface. However, FWI is notorious for local-minimum trapping, or “cycle skipping,” and thus requires an accurate initial model (M´etivier et al. (2018)). Cycle skipping is caused by the nonconvex nature of the misfit optimization landscape in its typical least-squares formulation. TheWasserstein-2 distance is convex with respect to shifts and dilations, both of which occur naturally in seismic data. Therefore, we propose using this optimal transport metric as our misfit for FWI. Previous work using optimal transport for source inversion, whose applications include microseismic event detection and deformation mechanics in subduction zones, has shown promise (Chen et al. (2018)). However, this work uses the acoustic wave equation, which is less accurate than the elastic wave equation. In this paper, we extend these results to elastic source inversion in two spatial dimensions and show that they translate well to the elastic model."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "faculty_name": "Per-Gunnar Martinsson",
+  "full_name": "Per‐Gunnar Martinsson",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5038211364",
+  "works_count": 170,
+  "cited_by_count": 9302,
+  "h_index": 30,
+  "top_topics": [
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 76
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 55
+    },
+    {
+      "topic": "Matrix Theory and Algorithms",
+      "count": 48
+    },
+    {
+      "topic": "Sparse and Compressive Sensing Techniques",
+      "count": 41
+    },
+    {
+      "topic": "Stochastic Gradient Optimization Techniques",
+      "count": 39
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions",
+      "doi": "https://doi.org/10.1137/090771806",
+      "publication_year": 2011,
+      "cited_by_count": 4160,
+      "venue": "SIAM Review",
+      "abstract": "Low-rank matrix approximations, such as the truncated singular value decomposition and the rank-revealing QR decomposition, play a central role in data analysis and scientific computing. This work surveys and extends recent research which demonstrates that randomization offers a powerful tool for performing low-rank matrix approximation. These techniques exploit modern computational architectures more fully than classical methods and open the possibility of dealing with truly massive data sets. This paper presents a modular framework for constructing randomized algorithms that compute partial matrix decompositions. These methods use random sampling to identify a subspace that captures most of the action of a matrix. The input matrix is then compressed—either explicitly or implicitly—to this subspace, and the reduced matrix is manipulated deterministically to obtain the desired low-rank factorization. In many cases, this approach beats its classical competitors in terms of accuracy, robustness, and/or speed. These claims are supported by extensive numerical experiments and a detailed error analysis. The specific benefits of randomized techniques depend on the computational environment. Consider the model problem of finding the k dominant components of the singular value decomposition of an $m \\times n$ matrix. (i) For a dense input matrix, randomized algorithms require $\\bigO(mn \\log(k))$ floating-point operations (flops) in contrast to $ \\bigO(mnk)$ for classical algorithms. (ii) For a sparse input matrix, the flop count matches classical Krylov subspace methods, but the randomized approach is more robust and can easily be reorganized to exploit multiprocessor architectures. (iii) For a matrix that is too large to fit in fast memory, the randomized techniques require only a constant number of passes over the data, as opposed to $\\bigO(k)$ passes for classical algorithms. In fact, it is sometimes possible to perform matrix approximation with a single pass over the data."
+    },
+    {
+      "title": "Randomized algorithms for the low-rank approximation of matrices",
+      "doi": "https://doi.org/10.1073/pnas.0709640104",
+      "publication_year": 2007,
+      "cited_by_count": 578,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "abstract": "We describe two recently proposed randomized algorithms for the construction of low-rank approximations to matrices, and demonstrate their application (inter alia) to the evaluation of the singular value decompositions of numerically low-rank matrices. Being probabilistic, the schemes described here have a finite probability of failure; in most cases, this probability is rather negligible (10(-17) is a typical value). In many situations, the new procedures are considerably more efficient and reliable than the classical (deterministic) ones; they also parallelize naturally. We present several numerical examples to illustrate the performance of the schemes."
+    },
+    {
+      "title": "A randomized algorithm for the decomposition of matrices",
+      "doi": "https://doi.org/10.1016/j.acha.2010.02.003",
+      "publication_year": 2010,
+      "cited_by_count": 364,
+      "venue": "Applied and Computational Harmonic Analysis",
+      "abstract": ""
+    },
+    {
+      "title": "On the Compression of Low Rank Matrices",
+      "doi": "https://doi.org/10.1137/030602678",
+      "publication_year": 2005,
+      "cited_by_count": 319,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "A procedure is reported for the compression of rank-deficient matrices. A matrix A of rank k is represented in the form $A = U \\circ B \\circ V$, where B is a $k\\times k$ submatrix of A, and U, V are well-conditioned matrices that each contain a $k\\times k$ identity submatrix. This property enables such compression schemes to be used in certain situations where the singular value decomposition (SVD) cannot be used efficiently. Numerical examples are presented."
+    },
+    {
+      "title": "Randomized numerical linear algebra: Foundations and algorithms",
+      "doi": "https://doi.org/10.1017/s0962492920000021",
+      "publication_year": 2020,
+      "cited_by_count": 315,
+      "venue": "Acta Numerica",
+      "abstract": "This survey describes probabilistic algorithms for linear algebraic computations, such as factorizing matrices and solving linear systems. It focuses on techniques that have a proven track record for real-world problems. The paper treats both the theoretical foundations of the subject and practical computational issues. Topics include norm estimation, matrix approximation by sampling, structured and unstructured random embeddings, linear regression problems, low-rank approximation, subspace iteration and Krylov methods, error estimation and adaptivity, interpolatory and CUR factorizations, Nyström approximation of positive semidefinite matrices, single-view (‘streaming’) algorithms, full rank-revealing factorizations, solvers for linear systems, and approximation of kernel matrices that arise in machine learning and in scientific computing."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Randomized Block Low-Rank Matrix Compression by Tagging",
+      "doi": "https://doi.org/10.1137/25m175857x",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SIAM Journal on Matrix Analysis and Applications",
+      "abstract": "Abstract. In this work, we present randomized compression algorithms for flat rank-structured matrices with shared bases, termed uniform block low-rank (BLR) matrices. Our main contribution is a technique called tagging, which improves upon the efficiency of existing algorithms for basis matrix computation while preserving accuracy. Tagging operates on the matrix using matrix-vector products of the matrix and its adjoint, making it suitable for black-box environments where accessing individual matrix entries is computationally expensive or infeasible. We show tagging requires a constant number of matrix-vector products coupled with linear postprocessing; crucially, the asymptotic prefactors in tagging depend only on the rank parameter and the underlying problem geometry. We also establish a theoretical connection between the optimal construction of tagging matrices and projective varieties in algebraic geometry, suggesting a hybrid numeric-symbolic avenue of future work. To validate our approach, we apply tagging to compress uniform BLR matrices arising from the discretization of integral and partial differential equations. Empirical results show that tagging outperforms alternative compression techniques, significantly reducing both the number of required matrix-vector products and overall computational time. These findings highlight the practicality and scalability of tagging as an efficient method for flat rank-structured matrices in scientific computing."
+    },
+    {
+      "title": "Robust Blockwise Random Pivoting: Fast and Accurate Adaptive Interpolative Decomposition",
+      "doi": "https://doi.org/10.1137/24m1678027",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "SIAM Journal on Matrix Analysis and Applications",
+      "abstract": "Abstract. The interpolative decomposition (ID) aims to construct a low-rank approximation formed by a basis consisting of row/column skeletons in the original matrix and a corresponding interpolation matrix. This work explores fast and accurate ID algorithms from comprehensive perspectives for empirical performance, including accuracy in both skeleton selection and interpolation matrix construction, efficiency in terms of asymptotic complexity and hardware efficiency, as well as rank-adaptiveness. While many algorithms have been developed to optimize some of these aspects, practical ID algorithms proficient in all aspects remain absent. To fill in the gap, we introduce robust blockwise random pivoting (RBRP) that is asymptotically fast, hardware efficient, and rank-adaptive, providing accurate skeletons and interpolation matrices comparable to the best existing ID algorithms in practice. Through extensive numerical experiments on various synthetic and natural datasets, we demonstrate the appealing empirical performance of RBRP from the aforementioned perspectives, as well as the robustness of RBRP to adversarial inputs. Reproducibility of computational results. This paper has been awarded the “SIAM Reproducibility Badge: Code and data available” as a recognition that the authors have followed reproducibility principles valued by SIMAX and the scientific computing community. Code and data that allow readers to reproduce the results in this paper are available at https://github.com/dyjdongyijun/Robust_Blockwise_Random_Pivoting and in the supplemental material ( RBRP.zip [3.65MB]). [Formula: see text]"
+    },
+    {
+      "title": "Accelerating a restarted Krylov method for matrix functions with randomization",
+      "doi": "https://doi.org/10.48550/arxiv.2503.22631",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Many scientific applications require the evaluation of the action of a matrix function on a vector, and Krylov subspace methods are the most common ones for this task. Since the orthogonalization cost and the memory requirements can quickly become overwhelming as the basis grows, the Krylov method is often restarted after a few iterations. This paper proposes a new acceleration technique for restarted Krylov methods based on randomization. The numerical experiments show that the randomized method greatly outperforms the classical approach at the same level of accuracy. In fact, randomization can actually improve the convergence rate of restarted methods in some cases. The paper also compares the performance and stability of several existing randomized methods for solving very large, ill-conditioned problems, complementing the numerical analyses from previous studies."
+    },
+    {
+      "title": "Adaptive Parallelizable Algorithms for Interpolative Decompositions via Partially Pivoted LU",
+      "doi": "https://doi.org/10.1002/nla.70002",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Numerical Linear Algebra with Applications",
+      "abstract": "ABSTRACT Interpolative decompositions (ID) involve “natural bases” of row and column subsets, or skeletons, of a given matrix that approximately span its row and column spaces. Although finding optimal skeleton subsets is combinatorially hard, classical greedy pivoting algorithms with rank‐revealing properties like column‐pivoted QR (CPQR) often provide good heuristics in practice. To select skeletons efficiently for large matrices, randomized sketching is commonly leveraged as a preprocessing step to reduce the problem dimension while preserving essential information in the matrix. In addition to accelerating computations, randomization via sketching improves robustness against adversarial inputs while relaxing the rank‐revealing assumption on the pivoting scheme. This enables faster skeleton selection based on LU with partial pivoting (LUPP) as a reliable alternative to rank‐revealing pivoting methods like CPQR. However, while coupling sketching with LUPP provides an efficient solution for ID with a given rank, the lack of rank‐revealing properties of LUPP makes it challenging to adaptively determine a suitable rank without prior knowledge of the matrix spectrum. As a remedy, in this work, we introduce an adaptive randomized LUPP algorithm that approximates the desired rank via fast estimation of the residual error. The resulting algorithm is not only adaptive but also parallelizable, attaining much higher practical speed due to the lower communication requirements of LUPP over CPQR. The method has been implemented for both CPUs and GPUs, and the resulting software has been made publicly available."
+    },
+    {
+      "title": "Randomized Block Low-Rank Matrix Compression by Tagging",
+      "doi": "https://doi.org/10.48550/arxiv.2501.05528",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "In this work, we present randomized compression algorithms for flat rank-structured matrices with shared bases, termed uniform Block Low-Rank (BLR) matrices. Our main contribution is a technique called tagging, which improves upon the efficiency of existing algorithms for basis matrix computation while preserving accuracy. Tagging operates on the matrix using matrix-vector products of the matrix and its adjoint, making it suitable for black-box environments where accessing individual matrix entries is computationally expensive or infeasible. We show tagging requires a constant number of matrix-vector products coupled with linear post-processing; crucially, the asymptotic pre-factors in tagging depend only on the rank parameter and the underlying problem geometry. We also establish a theoretical connection between the optimal construction of tagging matrices and projective varieties in algebraic geometry, suggesting a hybrid numeric-symbolic avenue of future work. To validate our approach, we apply tagging to compress uniform BLR matrices arising from the discretization of integral and partial differential equations. Empirical results show that tagging outperforms alternative compression techniques, significantly reducing both the number of required matrix-vector products and overall computational time. These findings highlight the practicality and scalability of tagging as an efficient method for flat rank-structured matrices in scientific computing."
+    },
+    {
+      "title": "A two-level direct solver for the hierarchical Poincaré-Steklov method",
+      "doi": "https://doi.org/10.1016/j.camwa.2026.07.020",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computers & Mathematics with Applications",
+      "abstract": ""
+    },
+    {
+      "title": "Correction to: Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization of Hierarchical Matrices using Matrix–Vector Products",
+      "doi": "https://doi.org/10.1007/s10915-026-03299-4",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Scientific Computing",
+      "abstract": ""
+    },
+    {
+      "title": "Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization of Hierarchical Matrices using Matrix–Vector Products",
+      "doi": "https://doi.org/10.1007/s10915-025-03157-9",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Journal of Scientific Computing",
+      "abstract": ""
+    },
+    {
+      "title": "Randomized Strong Recursive Skeletonization: Simultaneous Compression and LU Factorization of Hierarchical Matrices using Matrix–Vector Products",
+      "doi": "https://doi.org/10.1007/s10915-025-03157-9",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Scientific Computing",
+      "abstract": ""
+    },
+    {
+      "title": "Randomized Algorithms for Low-Rank Matrix and Tensor Decompositions",
+      "doi": "https://doi.org/10.1007/978-3-032-33428-2_7",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Lecture notes in computational science and engineering",
+      "abstract": ""
+    },
+    {
+      "title": "A time-frequency method for acoustic scattering with trapping",
+      "doi": "https://doi.org/10.2139/ssrn.6478466",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    }
+  ]
+}

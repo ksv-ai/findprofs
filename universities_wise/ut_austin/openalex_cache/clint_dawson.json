@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Clint Dawson",
+  "full_name": "Clint Dawson",
+  "department": "ASE",
+  "university": "University of Texas at Austin",
+  "author_id": "A5089253713",
+  "works_count": 361,
+  "cited_by_count": 11968,
+  "h_index": 57,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 115
+    },
+    {
+      "topic": "Tropical and Extratropical Cyclones Research",
+      "count": 72
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 70
+    },
+    {
+      "topic": "Coastal and Marine Dynamics",
+      "count": 55
+    },
+    {
+      "topic": "Ocean Waves and Remote Sensing",
+      "count": 51
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Modeling hurricane waves and storm surge using integrally-coupled, scalable computations",
+      "doi": "https://doi.org/10.1016/j.coastaleng.2010.08.001",
+      "publication_year": 2010,
+      "cited_by_count": 672,
+      "venue": "Coastal Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "A Basin- to Channel-Scale Unstructured Grid Hurricane Storm Surge Model Applied to Southern Louisiana",
+      "doi": "https://doi.org/10.1175/2007mwr1946.1",
+      "publication_year": 2008,
+      "cited_by_count": 492,
+      "venue": "Monthly Weather Review",
+      "abstract": "Abstract Southern Louisiana is characterized by low-lying topography and an extensive network of sounds, bays, marshes, lakes, rivers, and inlets that permit widespread inundation during hurricanes. A basin- to channel-scale implementation of the Advanced Circulation (ADCIRC) unstructured grid hydrodynamic model has been developed that accurately simulates hurricane storm surge, tides, and river flow in this complex region. This is accomplished by defining a domain and computational resolution appropriate for the relevant processes, specifying realistic boundary conditions, and implementing accurate, robust, and highly parallel unstructured grid numerical algorithms. The model domain incorporates the western North Atlantic, the Gulf of Mexico, and the Caribbean Sea so that interactions between basins and the shelf are explicitly modeled and the boundary condition specification of tidal and hurricane processes can be readily defined at the deep water open boundary. The unstructured grid enables highly refined resolution of the complex overland region for modeling localized scales of flow while minimizing computational cost. Kinematic data assimilative or validated dynamic-modeled wind fields provide the hurricane wind and pressure field forcing. Wind fields are modified to incorporate directional boundary layer changes due to overland increases in surface roughness, reduction in effective land roughness due to inundation, and sheltering due to forested canopies. Validation of the model is achieved through hindcasts of Hurricanes Betsy and Andrew. A model skill assessment indicates that the computed peak storm surge height has a mean absolute error of 0.30 m."
+    },
+    {
+      "title": "A High-Resolution Coupled Riverine Flow, Tide, Wind, Wind Wave, and Storm Surge Model for Southern Louisiana and Mississippi. Part I: Model Development and Validation",
+      "doi": "https://doi.org/10.1175/2009mwr2906.1",
+      "publication_year": 2009,
+      "cited_by_count": 452,
+      "venue": "Monthly Weather Review",
+      "abstract": "Abstract A coupled system of wind, wind wave, and coastal circulation models has been implemented for southern Louisiana and Mississippi to simulate riverine flows, tides, wind waves, and hurricane storm surge in the region. The system combines the NOAA Hurricane Research Division Wind Analysis System (H*WIND) and the Interactive Objective Kinematic Analysis (IOKA) kinematic wind analyses, the Wave Model (WAM) offshore and Steady-State Irregular Wave (STWAVE) nearshore wind wave models, and the Advanced Circulation (ADCIRC) basin to channel-scale unstructured grid circulation model. The system emphasizes a high-resolution (down to 50 m) representation of the geometry, bathymetry, and topography; nonlinear coupling of all processes including wind wave radiation stress-induced set up; and objective specification of frictional parameters based on land-cover databases and commonly used parameters. Riverine flows and tides are validated for no storm conditions, while winds, wind waves, hydrographs, and high water marks are validated for Hurricanes Katrina and Rita."
+    },
+    {
+      "title": "Performance of the Unstructured-Mesh, SWAN+ADCIRC Model in Computing Hurricane Waves and Surge",
+      "doi": "https://doi.org/10.1007/s10915-011-9555-6",
+      "publication_year": 2011,
+      "cited_by_count": 376,
+      "venue": "Journal of Scientific Computing",
+      "abstract": ""
+    },
+    {
+      "title": "Compatible algorithms for coupled flow and transport",
+      "doi": "https://doi.org/10.1016/j.cma.2003.12.059",
+      "publication_year": 2004,
+      "cited_by_count": 308,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Opposing trends in post-landfall decay of strong and weak tropical cyclones in a warming climate",
+      "doi": "https://doi.org/10.24433/co.5021363.v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Code Ocean",
+      "abstract": "This repository contains code and data supporting the findings of our study \"Opposing trends in post-landfall decay of strong and weak tropical cyclones in a warming climate\". Codes in this repository can directly generate all main figures and extended figures in this paper. Please find details in our GitHub: https://github.com/huchenxi401/Intensity-Dependent-Tropical-Cyclone-Decay-in-a-Warming-Climate.git Tropical cyclone post-landfall decay strongly shapes hazard impacts, posing escalating threats amid growing coastal populations. Previous studies suggest that climate warming prolongs inland persistence through enhanced sea surface temperature and moisture. This view implicitly assumes uniform storm responses and overlooks that storm structure and associated responses vary systematically with intensity. Here we identify an intensity-dependent bifurcation in global trends of tropical cyclone post-landfall decay, centered near the tropical storm–hurricane threshold (33 m s⁻¹) at landfall intensity. Analyzing 506 events (1990–2024), we show that strong storms (≥33 m s⁻¹) now weaken 22% faster after landfall (P < 0.01), whereas weak storms persist 19% longer inland (P < 0.01). Interpretable machine-learning analyses reveal contrasting environmental sensitivities underlying these divergent responses: strong cyclones are more sensitive to dynamic conditions (e.g., translation speed and atmospheric stability), while weak cyclones exhibit greater sensitivity to thermodynamic factors, particularly low-level moisture. These divergent trends challenge uniform-response assumptions in tropical cyclone risk assessment, forging a dual-threat landscape: intensifying coastal impacts from faster decay strong storms alongside expanding inland risks from increasingly persistent weak systems. Our findings reveal critical heterogeneities in extreme weather responses, urging refined hazard models and adaptation strategies for vulnerable and unprepared regions worldwide."
+    },
+    {
+      "title": "A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics",
+      "doi": "https://doi.org/10.1029/2025jh000697",
+      "publication_year": 2026,
+      "cited_by_count": 2,
+      "venue": "Journal of Geophysical Research Machine Learning and Computation",
+      "abstract": "Abstract Coastal regions and river floodplains are particularly vulnerable to the impacts of extreme weather events. Accurate real‐time forecasting of hydrodynamic processes in these areas is essential for infrastructure planning and climate adaptation. Yet high‐fidelity numerical models are often too computationally expensive for real‐time use, and lower‐cost approaches, such as traditional model order reduction algorithms or conventional neural networks, typically struggle to generalize to out‐of‐distribution conditions. In this study, we present the Multiple‐Input Temporal Operator Network (MITONet), a novel autoregressive neural emulator that employs latent‐space operator learning to efficiently approximate high‐dimensional numerical solvers for complex, nonlinear problems that are governed by time‐dependent, parameterized partial differential equations. We showcase MITONet's predictive capabilities by forecasting regional tide‐driven dynamics in the Shinnecock Inlet in New York and riverine flow in a section of the Red River in Louisiana, both described by the two‐dimensional shallow‐water equations (2D shallow water equations), while incorporating initial conditions, time‐varying boundary conditions, and domain parameters such as the bottom friction coefficient. Despite the distinct flow regimes, the complex geometries and meshes, and the wide range of bottom friction coefficients studied, MITONet displays consistently high predictive skill, with anomaly correlation coefficients above 0.9, a maximum normalized root mean square error of 0.011, and computational speedups between , even for 175 days of autoregressive rollout forecast from random initial conditions and with unseen parameter values."
+    },
+    {
+      "title": "R2-D2 Smoothing: A novel DEM smoothing method for kinematic wave models",
+      "doi": "https://doi.org/10.2139/ssrn.6396583",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    },
+    {
+      "title": "MuSIKAL: Multiphysics Simulations and Knowledge Discovery Through AI/ML Technologies (Final Technical Report)",
+      "doi": "https://doi.org/10.2172/3007466",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This report was prepared as an account of"
+    },
+    {
+      "title": "adcirc/adcirc: v56.2.1",
+      "doi": "https://doi.org/10.5281/zenodo.17655547",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "v56.2.1 v56.2.1 is a bug fix release which resolves an issue for certain MPI libraries that do not support use lists in the legacy MPI Fortran module. What's Changed Removing mpi use lists for legacy MPI module by @zcobell in https://github.com/adcirc/adcirc/pull/487 Full Changelog: https://github.com/adcirc/adcirc/compare/v56.2.0...v56.2.1 Checksums | Algorithm | Checksum | |--|--| | MD5 |8cf630c314d0d5917528f77ee8b7616a| | SHA1 |8be9cf35e703cdd1870a12f519c9debb3c033a48| | SHA256 |1320f1312cfa092c73ebaf826173317403178de3db5d64a5bbd803c81e71cbf2|"
+    },
+    {
+      "title": "Variational Data-Consistent Assimilation",
+      "doi": "https://doi.org/10.48550/arxiv.2511.01759",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This work introduces a new class of four-dimensional variational data assimilation (4D-Var) methods grounded in data-consistent inversion (DCI) theory. The methods extend classical 4D-Var by incorporating a predictability-aware regularization term. The first method formulated is referred to as Data-Consistent 4D-Var (DC-4DVar), which is then enhanced using a Weighted Mean Error (WME) quantity-of-interest map to construct the DC-WME 4D-Var method. While the DC and DC-WME cost functions both involve a predictability-aware regularization term, the DC-WME function includes a modification to the model-data misfit, thereby improving estimation accuracy, robustness, and theoretical consistency in nonlinear and partially observed dynamical systems. Proofs are provided that establish the existence and uniqueness of the minimizer and analyze how a predictability assumption that is common within the DCI framework helps to promote solution stability. Numerical experiments are presented on benchmark dynamical systems (Lorenz-63 and Lorenz-96) as well as for the shallow water equations (SWE). In the benchmark dynamical systems, the DC-WME 4D-Var formulation is shown to consistently outperform standard 4D-Var in reducing both error and bias while maintaining robustness under high observation noise and short assimilation windows. Despite introducing modest computational overhead, DC-WME 4D-Var delivers improvements in estimation performance and forecast skill, demonstrating its potential practicality and scalability for high-dimensional data assimilation problems."
+    },
+    {
+      "title": "GPU-acceleration of the Discontinuous Galerkin Shallow Water Equations Model (DG-SWEM) with OpenACC",
+      "doi": "https://doi.org/10.48550/arxiv.2508.21208",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "This paper presents a porting of {DG-SWEM}, a first-order discontinuous Galerkin solver for storm surge based on the Advanced Circulation Model (ADCIRC), to NVIDIA GPUs. Time-explicit discontinuous Galerkin methods contain a large number of degrees of freedom but have been shown to exhibit a large amount of data parallelism due to the loose coupling between elements, and thus are naturally mapped to the GPU architecture. A previous framework in porting DG-SWEM to GPUs required converting subroutines from Fortran to C++ to be used with CUDA C++. By using OpenACC and Unified Memory, we simplify the porting process and maintain a single codebase for both CPU and GPU versions. We test the code using a large Hurricane Harvey scenario on NVIDIA's Grace Hopper chip, and compare the GPU code's performance on multiple H200 nodes to the CPU version on the same amount of Grace CPU nodes."
+    },
+    {
+      "title": "Coupled Continuous-Discontinuous Galerkin Finite Element Solver for Compound Flood Simulations",
+      "doi": "https://doi.org/10.48550/arxiv.2508.15948",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Several recent tropical cyclones, e.g., Hurricane Harvey (2017), have lead to significant rainfall and resulting runoff. When the runoff interacts with storm surge, the resulting floods can be greatly amplified and lead to effects that cannot be correctly modeled by simple superposition of its distinctive sources. In an effort to develop accurate numerical simulations of runoff, surge, and compounding floods, we develop a locally conservative coupled DG-CG discretization of the shallow water equations and integrate it into the Advanced Circulation Model (ADCIRC). We also modify the continuity equation to include spatially and temporally variable rainfall into the model using parametric rainfall models. We demonstrate the capabilities of the scheme though a sequence of physically relevant numerical tests, including small scale test cases based on laboratory measurements and large scale experiments with Hurricane Harvey in the Gulf of Mexico. The results highlight the conservation properties and robustness of the developed method and show the potential of compound flood modeling using our approach."
+    },
+    {
+      "title": "TAEN: a model-constrained Tikhonov autoencoder network for forward and inverse problems",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118245",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "A decade of DesignSafe: enabling open science in natural hazards",
+      "doi": "https://doi.org/10.3389/fbuil.2025.1594375",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Frontiers in Built Environment",
+      "abstract": "DesignSafe ( www.designsafe-ci.org ) is the leading cyberinfrastructure for engineering and social science research related to natural hazards. It provides tools for managing, analyzing, and sharing data, helping researchers study how natural hazards affect both physical infrastructure and communities. DesignSafe connects curated datasets from academic experimental facilities and field reconnaissance teams to researchers focused on data analysis, computation, and numerical simulation. The platform provides researchers with petabyte-scale storage and hundreds of millions of computing hours mediated by intuitive interfaces that lower the bar of entry to advanced computational capabilities. By enabling sophisticated simulations and data-driven workflows previously unattainable with desktop computers or small clusters/servers and enabling streamlined data curation, publication, and dissemination, DesignSafe empowers researchers to accelerate discoveries and helps them amplify the impact of their work."
+    }
+  ]
+}

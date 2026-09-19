@@ -1,0 +1,156 @@
+{
+  "faculty_name": "David Goldstein",
+  "full_name": "David B. Goldstein",
+  "department": "ASE",
+  "university": "University of Texas at Austin",
+  "author_id": "A5103561784",
+  "works_count": 215,
+  "cited_by_count": 2485,
+  "h_index": 28,
+  "top_topics": [
+    {
+      "topic": "Astro and Planetary Science",
+      "count": 88
+    },
+    {
+      "topic": "Planetary Science and Exploration",
+      "count": 59
+    },
+    {
+      "topic": "Gas Dynamics and Kinetic Theory",
+      "count": 46
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 40
+    },
+    {
+      "topic": "Spacecraft and Cryogenic Technologies",
+      "count": 19
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Secondary flow induced by riblets",
+      "doi": "https://doi.org/10.1017/s0022112098008921",
+      "publication_year": 1998,
+      "cited_by_count": 166,
+      "venue": "Journal of Fluid Mechanics",
+      "abstract": "The effects of riblets on one wall of a channel bounding fully developed turbulent flow are investigated. Various perturbation elements including wires, fins and slots are modelled in order to understand the effects of riblets. It is found that widely spaced riblets, fins and wires create a substantial increase in turbulent activity just above the element. These elements are also found to produce a remarkable pattern of secondary mean flows consisting of matched pairs of streamwise vortices. The secondary flows occur only if the bulk flow is turbulent and their characteristics depend on element geometry. It is suggested that these secondary flows are strongly linked with the increase in drag experienced by widely spaced riblets in experimental studies. The secondary flows are probably caused by two-dimensional spanwise sloshing of the flow, inherent in a turbulent boundary layer, interacting with the stream-aligned element. This two-dimensional mechanism is investigated with a series of two-dimensional simulations of sloshing flow over isolated elements. Grid resolution and domain size checks are made throughout the investigation."
+    },
+    {
+      "title": "Two-Dimensional Synthetic Jet Simulation",
+      "doi": "https://doi.org/10.2514/2.1675",
+      "publication_year": 2002,
+      "cited_by_count": 118,
+      "venue": "AIAA Journal",
+      "abstract": "Direct numerical simulation was used to model an array of two-dimensional synthetic slot jets pulsing into initially quiescent e ow. Such zero-net mass-e ux jets can represent an array of microelectromechanical systems. Fluid ejected by the pulsing jets rolls up into vortex pairs that propagate as a result of their mutually induced velocity andtheinitial momentum given by thepulse.Theeffectsofe uidand geometricparametersontheresulting e owe eld were studied. The results near the slots were compared with experimental data and found to be in good agreement."
+    },
+    {
+      "title": "Hybrid Euler/Particle Approach for Continuum/Rarefied Flows",
+      "doi": "https://doi.org/10.2514/2.3349",
+      "publication_year": 1998,
+      "cited_by_count": 112,
+      "venue": "Journal of Spacecraft and Rockets",
+      "abstract": "Covers advancements in spacecraft and tactical and strategic missile systems, including subsystem design and application, mission design and analysis, materials and structures, developments in space sciences, space processing and manufacturing, space operations, and applications of space technologies to other fields."
+    },
+    {
+      "title": "Simulation of gas dynamics and radiation in volcanic plumes on Io",
+      "doi": "https://doi.org/10.1016/s0019-1035(03)00050-2",
+      "publication_year": 2003,
+      "cited_by_count": 85,
+      "venue": "Icarus",
+      "abstract": ""
+    },
+    {
+      "title": "Approach for Modeling Rocket Plume Impingement and Dust Dispersal on the Moon",
+      "doi": "https://doi.org/10.2514/1.a33058",
+      "publication_year": 2015,
+      "cited_by_count": 77,
+      "venue": "Journal of Spacecraft and Rockets",
+      "abstract": "When a lander approaches the lunar surface, the plume from the descent engine impinges on the ground and entrains loose regolith into a high-velocity spray. This problem is simulated with a hybrid continuum-kinetic solver, where the internal nozzle flow and near-field plume are simulated with a continuum solver (data parallel line relaxation) and the regions of two-phase flow are simulated via the direct simulation Monte Carlo method. Fully coupled two-phase dust and gas motions and an inelastic grain–grain collision model have been implemented for a polydisperse distribution of particles sizes. This work examines the sensitivity of the solutions to these models for the case of steady axisymmetric plume impingement at different hovering altitudes. Of the physical phenomena modeled in this work, the dust sprays were found to be most sensitive to grain–grain collisions. The coefficient of restitution for colliding grains was parametrically studied and has a significant impact on how grain–grain collisions scatter the dust sprays."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Mie theory-based light scattering analysis of entrained grains in Io's Tvashtar plume observed during new horizons' 2007 flyby",
+      "doi": "https://doi.org/10.1016/j.icarus.2025.116628",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Icarus",
+      "abstract": ""
+    },
+    {
+      "title": "Constraining volcanic vent parameters to understand the 2007 brightness surge in Io's Tvashtar plume: A DSMC approach",
+      "doi": "https://doi.org/10.1016/j.icarus.2025.116458",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "Icarus",
+      "abstract": ""
+    },
+    {
+      "title": "Model Predictive Control of Large-Scale Motions for Separated Flow Over an Airfoil",
+      "doi": "https://doi.org/10.2514/6.2025-1302",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "",
+      "abstract": "Turbulent boundary layers (TBLs) are dominated by large-scale motions (LSMs) of streamwise momentum surplus and deficits. These LSMs carry a significant portion of turbulent kinetic energy and have the potential to alter flow behavior and mean statistics. This study extends the concept of selectively targeting LSMs to delay flow separation over an airfoil for improved aerodynamic performance. Large eddy simulations were conducted for the flow over a NACA4412 airfoil at a moderate chord-based Reynolds number of 200,000 and an angle of attack of 10 degrees. To achieve the desired TBL and generate the LSMs of interest, the boundary layer was tripped at 10% of the chord length using random volumetric forcing akin to sand-grain roughness. A model predictive control scheme was employed based on a reduced-order model of the flow, directing the LSMs towards the separated flow region optimally via body force-induced downwash. The effectiveness of this approach at reducing flow separation and its impact on lift and drag coefficient was examined. Results showed that targeting fast LSMs shows more performance improvement compared to targeting slow LSMs, random actuation, or constant actuation."
+    },
+    {
+      "title": "Optimizing Space Debris Detumbling Using DSMC: Plume Impingement Dynamics and Sensitivities",
+      "doi": "https://doi.org/10.2514/6.2025-1162",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "",
+      "abstract": "The exponential increase in space debris presents significant challenges to the safety and sustainability of space missions, particularly in Low Earth Orbit (LEO). This study explores the plume impingement technique as a contactless approach for detumbling space debris, focusing on the dynamics of a krypton-based cold gas thruster. A hybrid Computational Fluid Dynamics (CFD) and Direct Simulation Monte Carlo (DSMC) approach is employed to model plume flow dynamics from the nozzle to the target. Key contributions include identifying optimal plume impingement configurations, assessing force and moment sensitivity to nozzle off-pointing errors, and evaluating atmospheric interactions with the plume. Sensitivity analysis shows that nozzle off-pointing by ±5◦ in the pitch direction results in a 27% force reduction for negative pitch and a 12% increase for positive pitch, while yaw off-pointing causes a 17% force reduction. The database of forces and moments generated under varying operational conditions highlights maximum force and moment generation for target inclination angles between −30◦ and 20◦, with adjustments in nozzle orientation and target distance further optimizing mission efficiency. Additionally, results demonstrate that free-stream interactions significantly affect plume behavior at lower altitudes. Preliminary findings reveal that plume backflow caused by target reflections can exert forces equivalent to 8.5% of the nozzle thrust on the chaser spacecraft, potentially generating torque and causing damage to solar panels."
+    },
+    {
+      "title": "Single- and Multinozzle Plume Impingement to Detumble Space Debris",
+      "doi": "https://doi.org/10.2514/1.a36079",
+      "publication_year": 2024,
+      "cited_by_count": 8,
+      "venue": "Journal of Spacecraft and Rockets",
+      "abstract": "The management of space debris is increasingly crucial for ensuring the safety of space missions by mitigating collision risks. Most proposed debris management systems involve the capture and deorbiting of debris. However, it is also essential to eliminate any residual rotation and nutation of the debris to perform capture without accidents. The current work examines the effectiveness of thruster plume impingement for despinning space debris. A proof-of-concept study of plume impingement dynamics is conducted on a rectangular prism target using single- and multiple-nozzle arrangements for different target offsets and orientations. The three-dimensional simulation is carried out using the open-source Direct Simulation Monte Carlo code SPARTA. Staging and dynamic grid adaptation techniques are incorporated to obtain high-resolution results for the multiscale problem. It is observed that the plume–plume interaction in the multinozzle configuration leads to the beneficial formation of a relatively narrow beam of flow interacting with the target; that is, a multinozzle plume exerts a more concentrated directed force, which imparts greater countertorque across a broader spectrum of target orientations than a single-nozzle plume."
+    },
+    {
+      "title": "Computational and Experimental Investigation of Plume Impingement for Orbital Detumbling",
+      "doi": "https://doi.org/10.2514/6.2024-4208",
+      "publication_year": 2024,
+      "cited_by_count": 2,
+      "venue": "",
+      "abstract": "Conical cold gas thrusters are characterized for a contactless method to detumble space debris using plume impingement. Vacuum chamber experiments and matching simulations using Computational Fluid Dynamics (for continuum flow) and Direct Simulation Monte Carlo (for rarefied flow) are performed to obtain scaling laws of imparted force on a 10 cm x 10 cm flat plate target as functions of back pressure and target placement. Back pressures are varied from 0.51 MPa to 0.93 MPa, target axial offset distances are varied from 0.2 m to 0.6 m, and target vertical offset distances are varied from 0 mm to 25 mm. This study serves as a basis for the development of joint experimental and computational tools to provide reliable predictions for plume impingement forces at greater offset distances in the true space environment."
+    },
+    {
+      "title": "Effect of Directionally Porous Textures on Roughness Induced Transition",
+      "doi": "https://doi.org/10.2514/6.2024-4485",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Boundary layer transition to turbulence caused by environmental debris (e.g. insect impacts) on a wing leading edge can lead to significantly reduced performance and range of aircraft. The use of engineered low-amplitude distributed roughness patches or span-oriented solid shielding strips placed in the vicinity of the discrete roughness to delay transition has also been recently demonstrated. Such engineered surface textures can disrupt the streamwise vortices generated by the discrete roughness elements, reducing the transient growth and rendering the disturbances subcritical, and this is one of the mechanisms by which “roughness shielding” works. In this paper, direct numerical simulations with an immersed boundary pseudo spectral solver are used to study the shielding effectiveness of surface textures made of materials with directional porosity. The role of different kinds of porous strips on the evolution of streamwise vortices and transition delay is studied. The present simulations demonstrate directionally porous strips to better dissipate streamwise vortices and to be more effective in delaying roughness induced transition than similarly sized solid strips."
+    },
+    {
+      "title": "Mitigation of Roughness-Induced Boundary-Layer Transition on Airfoils Using Shielding Strips",
+      "doi": "https://doi.org/10.2514/1.j063590",
+      "publication_year": 2024,
+      "cited_by_count": 4,
+      "venue": "AIAA Journal",
+      "abstract": "Boundary-layer transition in the wake of a discrete roughness element results in a turbulent wedge that can adversely affect aerodynamic performance. Even when surfaces are designed for laminar flow, roughness that accumulates near the leading edge can cause premature transition and degrade performance. One approach for mitigating such transition is to place small spanwise-oriented shielding strips upstream or downstream of potential roughness elements accumulation sites. Shielding strips have been shown to be effective at eliminating transition in zero-pressure-gradient, flat-plate boundary layers. This work documents the shielding performance near the leading edge of an NACA 63(3)-418 airfoil where the pressure gradient is strongly favorable. Infrared thermography is used to evaluate the laminar or turbulent state of the boundary layer behind multiple roughness elements with and without shielding strips. The performance of various upstream and downstream shielding configurations is evaluated, as well as the performance improvement of combining these two strategies simultaneously. Direct numerical simulations provide validation and additional insight into the mechanisms responsible for the shielding phenomenon."
+    },
+    {
+      "title": "The Interaction of Turbulent Spots With Low-Speed Streaks",
+      "doi": "https://doi.org/10.1115/1.4064852",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "Journal of Fluids Engineering",
+      "abstract": "Abstract Turbulent spots are regions of turbulence surrounded by laminar flow that appear during the late stages of boundary layer transition. While turbulent spots are often studied in isolation, they usually occur near low-speed streaks and other disturbances during transition. This paper investigates the interaction between a turbulent spot and a subcritical low-speed streak using direct numerical simulations. The results, analyzed from streak instability and vorticity points of view, reveal mechanisms of the destabilization of the streak by the spot and provide insights into spot evolution in a realistic environment. Additional simulations involving intentional local control of portions of the streak provide further insight into the interaction mechanisms and potential transition mitigation strategies."
+    },
+    {
+      "title": "Generation of Hairpin Vortices Using a Hybrid Physio-Cyber Data Assimilation Approach",
+      "doi": "https://doi.org/10.2514/6.2024-0931",
+      "publication_year": 2024,
+      "cited_by_count": 1,
+      "venue": "",
+      "abstract": "Turbulent boundary layers are largely influenced by spatiotemporally developing coherent structures known as Large-Scale Motions (LSMs). This work examines the idea of creating synthetic hairpin trains, a model for LSMs, generated in a nominal zero pressure gradient laminar boundary layer. The study investigates the agreement between the experimentally measured flow field and the hairpin vortices and its simulated counterpart with a hybrid 2D inlet region. This approach uses time-varying unsteady spatially discrete velocity data obtained through experiments as an inflow boundary condition to the direct numerical simulation (DNS). A pre-processing divergence correction and interpolation scheme is employed to convert experimental data into a format better suited for the DNS. The matching is done by recreating a downstream flow using this hybrid physio-cyber approach. This method demonstrates the capability to produce a sequence of hairpins even with a simple 2D planar coarse dataset. A satisfactory qualitative and quantitative agreement was evident when comparing Q-criterion iso-surfaces of instantaneous DNS and phase-locked experimental data. The results of this study not only demonstrate the efficacy of the proposed approach in recreating LSMs but also suggest its applicability to future hybrid experimental-DNS flow control studies."
+    }
+  ]
+}

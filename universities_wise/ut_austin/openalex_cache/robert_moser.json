@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Robert Moser",
+  "full_name": "Robert Moser",
+  "department": "ME",
+  "university": "University of Texas at Austin",
+  "author_id": "A5011004406",
+  "works_count": 379,
+  "cited_by_count": 18679,
+  "h_index": 44,
+  "top_topics": [
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 191
+    },
+    {
+      "topic": "Wind and Air Flow Studies",
+      "count": 70
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 57
+    },
+    {
+      "topic": "Aerodynamics and Acoustics in Jet Flows",
+      "count": 43
+    },
+    {
+      "topic": "Meteorological Phenomena and Simulations",
+      "count": 35
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Turbulence statistics in fully developed channel flow at low Reynolds number",
+      "doi": "https://doi.org/10.1017/s0022112087000892",
+      "publication_year": 1987,
+      "cited_by_count": 4830,
+      "venue": "Journal of Fluid Mechanics",
+      "abstract": "A direct numerical simulation of a turbulent channel flow is performed. The unsteady Navier-Stokes equations are solved numerically at a Reynolds number of 3300, based on the mean centreline velocity and channel half-width, with about 4 × 10 6 grid points (192 × 129 × 160 in x, y, z ). All essential turbulence scales are resolved on the computational grid and no subgrid model is used. A large number of turbulence statistics are computed and compared with the existing experimental data at comparable Reynolds numbers. Agreements as well as discrepancies are discussed in detail. Particular attention is given to the behaviour of turbulence correlations near the wall. In addition, a number of statistical correlations which are complementary to the existing experimental data are reported for the first time."
+    },
+    {
+      "title": "Direct numerical simulation of turbulent channel flow up to Reτ=590",
+      "doi": "https://doi.org/10.1063/1.869966",
+      "publication_year": 1999,
+      "cited_by_count": 2649,
+      "venue": "Physics of Fluids",
+      "abstract": "Numerical simulations of fully developed turbulent channel flow at three Reynolds numbers up to Reτ=590 are reported. It is noted that the higher Reynolds number simulations exhibit fewer low Reynolds number effects than previous simulations at Reτ=180. A comprehensive set of statistics gathered from the simulations is available on the web at http://www.tam.uiuc.edu/Faculty/Moser/channel."
+    },
+    {
+      "title": "Direct numerical simulation of turbulent channel flow up to",
+      "doi": "https://doi.org/10.1017/jfm.2015.268",
+      "publication_year": 2015,
+      "cited_by_count": 1341,
+      "venue": "Journal of Fluid Mechanics",
+      "abstract": "A direct numerical simulation of incompressible channel flow at a friction Reynolds number ( $\\mathit{Re}_{{\\it\\tau}}$ ) of 5186 has been performed, and the flow exhibits a number of the characteristics of high-Reynolds-number wall-bounded turbulent flows. For example, a region where the mean velocity has a logarithmic variation is observed, with von Kármán constant ${\\it\\kappa}=0.384\\pm 0.004$ . There is also a logarithmic dependence of the variance of the spanwise velocity component, though not the streamwise component. A distinct separation of scales exists between the large outer-layer structures and small inner-layer structures. At intermediate distances from the wall, the one-dimensional spectrum of the streamwise velocity fluctuation in both the streamwise and spanwise directions exhibits $k^{-1}$ dependence over a short range in wavenumber $(k)$ . Further, consistent with previous experimental observations, when these spectra are multiplied by $k$ (premultiplied spectra), they have a bimodal structure with local peaks located at wavenumbers on either side of the $k^{-1}$ range."
+    },
+    {
+      "title": "Spectral methods for the Navier-Stokes equations with one infinite and two periodic directions",
+      "doi": "https://doi.org/10.1016/0021-9991(91)90238-g",
+      "publication_year": 1991,
+      "cited_by_count": 697,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Scaling of the energy spectra of turbulent channels",
+      "doi": "https://doi.org/10.1017/s002211200300733x",
+      "publication_year": 2004,
+      "cited_by_count": 695,
+      "venue": "Journal of Fluid Mechanics",
+      "abstract": "The spectra and correlations of the velocity fluctuations in turbulent channels, especially above the buffer layer, are analysed using new direct numerical simulations with friction Reynolds numbers up to Re $_{\\tau}\\,{=}\\,1900$ . It is found, and explained, that their scaling is anomalous in several respects, including a square-root behaviour of their width with respect to their length, and a velocity scaling of the largest modes with the centreline velocity $U_c$ . It is shown that this implies a logarithmic correction to the $k^{-1}$ energy spectrum, and that it leads to a scaling of the total fluctuation intensities away from the wall which agrees well with the mixed scaling of de Graaff & Eaton (2000) at intermediate Reynolds numbers, but which tends to a pure scaling with $U_c$ at very large ones."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Modeling of low-temperature argon plasma in capacitively-coupled glow discharges with a collisional-radiative model",
+      "doi": "https://doi.org/10.1088/1361-6595/ae0c33",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "Plasma Sources Science and Technology",
+      "abstract": "Abstract A comprehensive collisional-radiative model is developed and coupled with a one-dimensional two-temperature fluid model to study capacitively coupled radio-frequency argon discharges at pressures ranging from 0.5 to 5 Torr and electrode peak-to-peak voltages of 150 and 300 V. The fluid model is formulated using the drift-diffusion approximation. The CR model accounts for the argon ground state, 30 excited states in the 4 s, 4p, 3d, and 5 s manifolds, electrons, atomic (Ar+) and molecular (Ar 2 + ) ions, and argon excimer molecules (Ar 2 ∗ ). The processes included in the model are electron-impact excitation and ionization, radiation emission, heavy-particle collisions, radiative recombination, and processes involving Ar 2 + and Ar 2 ∗ molecules. Non-Maxwellian electron energy distribution functions, calculated using Bolsig+, are considered, with fine-structure collisional cross-sections acquired from the LXCat database. A detailed comparison is presented between numerical predictions and experimental measurements from a glow discharge device developed at UT Austin, focusing on populations of excited states in the 4p and 4 s manifolds, and electron number density. Additional comparisons are made with experimental data and PIC/Monte Carlo simulations from the study by (Donkó et al 2023 Plasma Sources Sci. Technol. 32 065002). While agreement with the Donkó et al data is somewhat improved—particularly with the PIC/Monte Carlo results—the CR-fluid model systematically overpredicts the experimental values. Possible contributing factors to these discrepancies and improvements to the model are discussed. In addition, the sensitivity of the results to the EEDF modeling is assessed by comparing simulations using Bolsig+-derived, Druyvesteyn, and Maxwellian distributions. The results show that predictions of electron temperature and plasma potential are strongly affected by the assumed EEDF shape. The inclusion of higher-lying excited states beyond the 4p manifold was found to have a minimal impact on discharge dynamics under the conditions studied. The code has been made publicly available on GitHub as open-source software."
+    },
+    {
+      "title": "Partnership Center for High-Fidelity Boundary Plasma Simulation (Final Report)",
+      "doi": "https://doi.org/10.2172/2553891",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "Boltzsim: A fast solver for the 1D-space electron Boltzmann equation with applications to radio-frequency glow discharge plasmas",
+      "doi": "https://doi.org/10.48550/arxiv.2502.16555",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We present an algorithm for solving the one-dimensional space collisional Boltzmann transport equation (BTE) for electrons in low-temperature plasmas (LTPs). Modeling LTPs is useful in many applications, including advanced manufacturing, material processing, and hypersonic flows, to name a few. The proposed BTE solver is based on an Eulerian formulation. It uses Chebyshev collocation method in physical space and a combination of Galerkin and discrete ordinates in velocity space. We present self-convergence results and cross-code verification studies compared to an in-house particle-in-cell (PIC) direct simulation Monte Carlo (DSMC) code. Boltzsim is our open source implementation of the solver. Furthermore, we use Boltzsim to simulate radio-frequency glow discharge plasmas (RF-GDPs) and compare with an existing methodology that approximates the electron BTE. We compare these two approaches and quantify their differences as a function of the discharge pressure. The two approaches show an 80x, 3x, 1.6x, and 0.98x difference between cycle-averaged time periodic electron number density profiles at 0.1 Torr, 0.5 Torr, 1 Torr, and 2 Torr discharge pressures, respectively. As expected, these differences are significant at low pressures, for example less than 1 Torr."
+    },
+    {
+      "title": "Wall-Bounded Turbulence",
+      "doi": "https://doi.org/10.1017/9781009377379.013",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Cambridge University Press eBooks",
+      "abstract": "We explore the treatment of near-wall turbulence in coarse-grained representations of wall-bounded turbulence. Such representations are complicated by the fact that at high Reynolds number the near-wall effects occur in an asymptotically thin layer. Because of this, many near-wall models are posed as effective boundary conditions, essentially eliminating the thin wall layer that is too thin to resolve. This is commonly referred to as wall-modeled large eddy simulation, and the viability of this approach is supported by the weakness of the interaction between the near-wall turbulence and that further away. Such models are generally informed by known characteristics of near-wall turbulence, such as the log-layer in the mean velocity and the so-called law-of-the-wall. In this chapter, we consider such coarse-grained near-wall models and the approximations implicit in their formulation from the perspective of thin-layer asymptotics."
+    },
+    {
+      "title": "Characterization of uncertainties in electron-argon collision cross sections",
+      "doi": "https://doi.org/10.1088/1361-6595/adacd5",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "Plasma Sources Science and Technology",
+      "abstract": "Abstract The predictive capability of a plasma discharge model depends on accurate representations of electron-impact collision cross sections, which determine the corresponding reaction rates and electron transport properties. The values of cross sections can be known only approximately either through experiments or simulations and are thus subject to uncertainties. Quantifying the uncertainties in plasma simulations allows us to assess the reliability of simulations and to provide a basis for interpreting discrepancies between simulations and experiments. For such uncertainty quantification of plasma simulations, it is essential to quantify the uncertainties of the underlying cross sections. Although much effort has been committed to calibrate the cross section values, their uncertainties are not well investigated. We characterize uncertainties in electron-argon atom collision cross sections using a Bayesian framework. Six collision processes—elastic momentum transfer, ionization, and four excitations—are characterized with semi-empirical models, which effectively capture the features important to the macroscopic properties of the plasma. A probability model for the uncertain parameters of these semi-empirical models is developed. Specifically, a Gaussian-process likelihood model is proposed to capture discrepancies among data sets, as well as the model-form inadequacies of the semi-empirical models. Two other likelihood models are compared with the proposed Gaussian-process model, to illustrate the importance of the choice of the likelihood model. The cross section models are calibrated using the electron-beam experiments and ab-inito quantum simulations. The resulting calibrated uncertainties capture well the scattering among the data sets. The calibrated cross section models are further validated against swarm-parameter experiments and zero-dimensional Boltzmann equation simulations of widely used cross section datasets."
+    },
+    {
+      "title": "Blood banking services in critical access hospitals in Kansas: A laboratory perspective",
+      "doi": "https://doi.org/10.1093/ajcp/aqae169",
+      "publication_year": 2024,
+      "cited_by_count": 3,
+      "venue": "American Journal of Clinical Pathology",
+      "abstract": "OBJECTIVES: To investigate the resource capacity for blood banking in critical access hospitals (CAHs) in Kansas and the experiences of medical laboratory personnel working in them. METHODS: An electronic survey was implemented to record data from all 82 CAHs in Kansas between May and July 2023. The distance between hospitals with no blood bank services and commercial blood banks was calculated. RESULTS: Only 63.4% of Kansas CAHs located in nonmetropolitan counties reported access to 24/7 blood bank services. In 12.2% of laboratories with 5 or fewer workers, there were no staff proficient in blood bank testing. While 72% of laboratories could perform type and screen and crossmatching, many lacked antibody identification capacity. Only 2 hospitals had the capacity to transfuse packed red blood cells, plasma, and platelets simultaneously if needed, with 20.6% of nonmetropolitan hospitals holding no blood products in inventory. CONCLUSIONS: The blood banking capacity of CAHs in Kansas is influenced by the lack of workforce availability and training, reduced availability of blood products, and distance from facilities where blood is processed. Solutions tailored to the unique rural environment are needed to ensure adequate access to blood for patients."
+    },
+    {
+      "title": "National Institutes of Health pathways to prevention workshop: Improving rural health through telehealth-guided provider-to-provider communication.",
+      "doi": "https://doi.org/10.17615/wryb-hg29",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+      "abstract": "INTRODUCTION: Rural communities often face chronic challenges of high rates of serious health conditions coupled with inadequate access to health care services-challenges exacerbated by the COVID-19 pandemic. One strategy with the potential to mitigate these problems is the increased use of telehealth technology. A feature of telehealth applications-collaboration between health care providers for consultation and other purposes-referred to herein as Rural Provider-to-Provider Telehealth (RPPT), introduces important expertise that may not exist locally in rural communities. Literature indicates that RPPT is operationalized through many methods with an array of purposes. While RPPT is a promising strategy that brings additional expertise to patient-centered rural care delivery, there is limited evidence addressing important considerations, including how patient access and outcomes, provider satisfaction and performance, and payment may be affected by its use. METHODS: Recognizing the significant potential of RPPT and the need for more information associated with its use, the National Institutes of Health convened a Pathways to Prevention (P2P) workshop to further understand RPPT's effectiveness and impact on improving health outcomes in rural settings. The P2P initiative, supported by several federal health agencies, engaged rural health stakeholders and experts to examine four key questions, identify related knowledge gaps, and provide recommendations to advance understanding of the use and impact of RPPT. RESULTS: Included in this report is a description of the process used to generate information about RPPT, the identification of key knowledge gaps, and specific recommendations to further build needed evidence. DISCUSSION: The emerging use of RPPT is an important tool for bridging gaps in access to care that impacts rural populations. However, to fully understand the value and effects of RPPT, new research is needed to fill the knowledge gaps identified in this report. Additionally, this report should help engage providers, payors, and policymakers interested in supporting evidence-informed RPPT practice, policy, and payment, with the ultimate aim of improving access to health care and health status of rural communities in the United States and worldwide."
+    },
+    {
+      "title": "A fast solver for the spatially homogeneous electron Boltzmann equation",
+      "doi": "https://doi.org/10.48550/arxiv.2409.00207",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We present a numerical method for the velocity-space, spatially homogeneous, collisional Boltzmann equation for electron transport in low-temperature plasma (LTP) conditions. Modeling LTP plasmas is useful in many applications, including advanced manufacturing, material processing, semiconductor processing, and hypersonics, to name a few. Most state-of-the-art methods for electron kinetics are based on Monte-Carlo sampling for collisions combined with Lagrangian particle-in-cell methods. We discuss an Eulerian solver that approximates the electron velocity distribution function using spherical harmonics (angular components) and B-splines (energy component). Our solver supports electron-heavy elastic and inelastic binary collisions, electron-electron Coulomb interactions, steady-state and transient dynamics, and an arbitrary nmber of angular terms in the electron distribution function. We report convergence results and compare our solver to two other codes: an in-house particle Monte-Carlo ethod; and Bolsig+, a state-of-the-art Eulerian solver for electron transport in LTPs. Furthermore, we use our solver to study the relaxation time scales of the higher-order anisotropic correction terms. Our code is open-source and provides an interface that allows coupling to multiphysics simulations of low-temperature plasmas."
+    },
+    {
+      "title": "A second-order-in-time, explicit approach addressing the redundancy in the low-Mach, variable-density Navier-Stokes equations",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.113216",
+      "publication_year": 2024,
+      "cited_by_count": 2,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Characterization of uncertainties in electron-argon collision cross sections",
+      "doi": "https://doi.org/10.48550/arxiv.2404.00467",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "The predictive capability of a plasma discharge model depends on accurate representations of electron-impact collision cross sections, which determine the key reaction rates and transport properties of the plasma. Although many cross sections have been identified through experiments and quantum mechanical simulations, their uncertainties are not well-investigated. We characterize the uncertainties in electron-argon collision cross sections using a Bayesian framework. Six collision processes -- elastic momentum transfer, ionization, and four excitations -- are characterized with semi-empirical models, whose parametric uncertainties effectively capture the features important to the macroscopic properties of the plasma, namely transport properties and chemical reaction rates. The method is designed to capture the effects of systematic errors that lead to large discrepancies between some data sets. Specifically, for the purposes of Bayesian inference, each of the parametric cross section models is augmented with a Gaussian process representing systematic measurement errors as well as model inadequacies in the parametric form. The results show that the method is able to capture scatter in the data between the electron-beam experiments and ab-initio quantum simulations. The calibrated cross section models are further validated against measurements from swarm-parameter experiments."
+    }
+  ]
+}

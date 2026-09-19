@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Todd Arbogast",
+  "full_name": "Todd Arbogast",
+  "department": "Math",
+  "university": "University of Texas at Austin",
+  "author_id": "A5034967156",
+  "works_count": 131,
+  "cited_by_count": 5197,
+  "h_index": 34,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 67
+    },
+    {
+      "topic": "Advanced Mathematical Modeling in Engineering",
+      "count": 52
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 29
+    },
+    {
+      "topic": "Hydraulic Fracturing and Reservoir Analysis",
+      "count": 20
+    },
+    {
+      "topic": "Enhanced Oil Recovery Techniques",
+      "count": 18
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Derivation of the Double Porosity Model of Single Phase Flow via Homogenization Theory",
+      "doi": "https://doi.org/10.1137/0521046",
+      "publication_year": 1990,
+      "cited_by_count": 613,
+      "venue": "SIAM Journal on Mathematical Analysis",
+      "abstract": "A general form of the double porosity model of single phase flow in a naturally fractured reservoir is derived from homogenization theory. The microscopic model consists of the usual equations describing Darcy flow in a reservoir, except that the porosity and permeability coefficients are highly discontinuous. Over the matrix domain, the coefficients are scaled by a parameter $\\epsilon $ representing the size of the matrix blocks. This scaling preserves the physics of the flow in the matrix as $\\epsilon $ tends to zero. An effective macroscopic limit model is obtained that includes the usual Darcy equations in the matrix blocks and a similar equation for the fracture system that contains a term representing a source of fluid from the matrix. The convergence is shown by extracting weak limits in appropriate Hilbert spaces. A dilation operator is utilized to see the otherwise vanishing physics in the matrix blocks as $\\epsilon $ tends to zero."
+    },
+    {
+      "title": "Mixed Finite Elements for Elliptic Problems with Tensor Coefficients as Cell-Centered Finite Differences",
+      "doi": "https://doi.org/10.1137/s0036142994262585",
+      "publication_year": 1997,
+      "cited_by_count": 412,
+      "venue": "SIAM Journal on Numerical Analysis",
+      "abstract": "We present an expanded mixed finite element approximation of second-order elliptic problems containing a tensor coefficient. The mixed method is expanded in the sense that three variables are explicitly approximated, namely, the scalar unknown, the negative of its gradient, and its flux (the tensor coefficient times the negative gradient). The resulting linear system is a saddle point problem. In the case of the lowest order Raviart--Thomas elements on rectangular parallelepipeds, we approximate this expanded mixed method by incorporating certain quadrature rules. This enables us to write the system as a simple, cell-centered finite difference method requiring the solution of a sparse, positive semidefinite linear system for the scalar unknown. For a general tensor coefficient, the sparsity pattern for the scalar unknown is a 9-point stencil in two dimensions and 19 points in three dimensions. Existing theory shows that the expanded mixed method gives optimal order approximations in the $L^2$- and $H^{-s}$-norms (and superconvergence is obtained between the $L^2$-projection of the scalar variable and its approximation). We show that these rates of convergence are retained for the finite difference method. If h denotes the maximal mesh spacing, then the optimal rate is $O(h)$. The superconvergence rate $O(h^{2})$ is obtained for the scalar unknown and rate $O(h^{3/2})$ for its gradient and flux in certain discrete norms; moreover, the full $O(h^{2})$ is obtained in the strict interior of the domain. Computational results illustrate these theoretical results."
+    },
+    {
+      "title": "A Multiscale Mortar Mixed Finite Element Method",
+      "doi": "https://doi.org/10.1137/060662587",
+      "publication_year": 2007,
+      "cited_by_count": 305,
+      "venue": "Multiscale Modeling and Simulation",
+      "abstract": "We develop multiscale mortar mixed finite element discretizations for second order elliptic equations. The continuity of flux is imposed via a mortar finite element space on a coarse grid scale, while the equations in the coarse elements (or subdomains) are discretized on a fine grid scale. The polynomial degree of the mortar and subdomain approximation spaces may differ; in fact, the mortar space achieves approximation comparable to the fine scale on its coarse grid by using higher order polynomials. Our formulation is related to, but more flexible than, existing multiscale finite element and variational multiscale methods. We derive a priori error estimates and show, with appropriate choice of the mortar space, optimal order convergence and some superconvergence on the fine scale for both the solution and its flux. We also derive efficient and reliable a posteriori error estimators, which are used in an adaptive mesh refinement algorithm to obtain appropriate subdomain and mortar grids. Numerical experiments are presented in confirmation of the theory."
+    },
+    {
+      "title": "A computational method for approximating a Darcy–Stokes system governing a vuggy porous medium",
+      "doi": "https://doi.org/10.1007/s10596-007-9043-0",
+      "publication_year": 2007,
+      "cited_by_count": 246,
+      "venue": "Computational Geosciences",
+      "abstract": ""
+    },
+    {
+      "title": "Mixed Finite Element Methods on Nonmatching Multiblock Grids",
+      "doi": "https://doi.org/10.1137/s0036142996308447",
+      "publication_year": 2000,
+      "cited_by_count": 230,
+      "venue": "SIAM Journal on Numerical Analysis",
+      "abstract": "We consider mixed finite element methods for second order elliptic equations on nonmatching multiblock grids. A mortar finite element space is introduced on the nonmatching interfaces. We approximate in this mortar space the trace of the solution, and we impose weakly a continuity of flux condition. A standard mixed finite element method is used within the blocks. Optimal order convergence is shown for both the solution and its flux. Moreover, at certain discrete points, superconvergence is obtained for the solution and also for the flux in special cases. Computational results using an efficient parallel domain decomposition algorithm are presented in confirmation of the theory."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Further Studies on the Self-Adaptive Theta Scheme for Conservation Laws",
+      "doi": "https://doi.org/10.1007/s10915-025-02938-6",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Journal of Scientific Computing",
+      "abstract": "Abstract The finite volume, self-adaptive theta (SATh) scheme was defined in Arbogast and Huang, A self-adaptive theta scheme using discontinuity aware quadrature for solving conservation laws, IMA J. Numer. Anal. (2022). The basic scheme evolves both the local space and space-time averages of the solution in time with an implicitly defined theta parameter. Here, the scheme is extended to unstructured meshes in multiple space dimensions, general numerical flux functions, and higher (formally second) order using WENO reconstructions. Theoretical results apply to the one space dimension, upstream weighted case, in the setting of a monotone solution. In this case, if the theta parameter is bounded below by $$\\theta _{\\min }=0$$ θ min = 0 , it is shown that SATh is stable, L-stable for the linear problem, total variation diminishing (TVD), and maximum principle preserving (MPP). These results generalize those known previously with the assumption that $$\\theta _{\\min }=1/2$$ θ min = 1 / 2 . Numerical tests for problems with contact discontinuities, shocks, and rarefactions show that SATh performs better than finite volume schemes using backward Euler time stepping. Moreover, SATh gives solutions about as sharp as when using Crank-Nicolson time stepping, but SATh is non-oscillatory. In cases covered by the theoretical results, SATh combined with a Lax-Friedrichs numerical flux (rather than upstream weighting) appears to be TVD and MPP. SATh is non-oscillatory if $$\\theta _{\\min }=1/2$$ θ min = 1 / 2 , but if $$\\theta _{\\min }=0$$ θ min = 0 and the solution is not monotone, it can develop oscillations. The higher order SATh scheme converges to order two and compares favorably with CN, but is less oscillatory."
+    },
+    {
+      "title": "Functional Analysis for the Applied Mathematician",
+      "doi": "https://doi.org/10.1201/9781003492139",
+      "publication_year": 2024,
+      "cited_by_count": 2,
+      "venue": "",
+      "abstract": "Functional Analysis for the Applied Mathematician is a self-contained volume providing a rigorous introduction to functional analysis and its applications. Students from mathematics, science, engineering, and certain social science and interdisciplinary programs will benefit from the material. It is accessible to graduate and advanced undergraduate students with a solid background in undergraduate mathematics and an appreciation of mathematical rigor. Students are called upon to actively engage with the material, to the point of proving some of the basic results or their straightforward generalizations, both within the text and within the generous set of exercises. Features: Replete with exercises and examples Suitable for graduate students and advanced undergraduates Develops the basics of functional analysis, exploring the interplay between algebraic linear space theory and topology Presents a variety of applications, often dealing with partial differential equations and their numerical approximation Doubles as a reference book with an extensive index listing the concepts and results"
+    },
+    {
+      "title": "Preliminaries",
+      "doi": "https://doi.org/10.1201/9781003492139-1",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 1 , Preliminaries, is designed to assist the reader with basic prerequisite material that will find use throughout. Three topics are discussed. Well prepared students may wish to skip one or more of these topics and simply refer back to parts of the material as needed. The first topic is elementary or point-set topology, which is concerned with open and closed sets and concepts of convergence of sequences, limit points, continuity of functions, and compactness. The subject is discussed in a general setting, although a particular emphasis is on metric topologies. The second topic discussed is Lebesgue measure and integration. Certain technical details need to be formalized regarding how one measures the size of a set and integrates a function. The three main convergence theorems (monotone, Fatou, and dominated) are also discussed. Topic three provides some elementary complex analysis, including the basics of holomorphic or analytic functions, the residue theorem, and complex contour integration. The latter is useful for computing Fourier transforms and will come up in Chapter 6 ."
+    },
+    {
+      "title": "The Calculus of Variations",
+      "doi": "https://doi.org/10.1201/9781003492139-10",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 10 , The Calculus of Variations, is a short introduction to this classic subject. One is given a real-valued functional and asked to find functions that minimize the functional. On its face, one merely needs to use the previous chapter to find the critical points, and determine which are minima. However, when the functional is an integral operator of a certain form often appearing in applications, the search for a critical point is simplified and leads to the Euler-Lagrange equations. This system of second-order, nonlinear ordinary differential equations speeds the analysis. An exploration of minimization under constraints is also pursued, resulting in the theory of Lagrange multipliers. A brief foray into the theory&s;s modern counterpart concludes the chapter, resulting in the elucidation of the concept of lower semicontinuity. Several classic problems are solved, including the isoperimetric problem, and the existence of geodesics on manifolds is established."
+    },
+    {
+      "title": "Differential Calculus in Banach Spaces",
+      "doi": "https://doi.org/10.1201/9781003492139-9",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 9 , Differential Calculus in Banach Spaces, begins the study of nonlinear functional analysis. Although many of the results will appear at first glance to be familiar from advanced calculus, the focus here is on abstract and possibly infinite dimensional Banach spaces. Elementary calculus in Banach spaces is developed first, including notions of differentiation, the chain rule, and a mean-value theorem. Attention is then turned to solving nonlinear equations. Developed are the Banach contraction mapping theorem for finding fixed points, Newton-like methods to find zeroes, and inverse and implicit function theorems. The chapter closes with a discourse on higher order derivatives and extrema. Along the way, the ideas are applied to showing that nonlinear ordinary and partial differential equations have solutions, and that the eigenvalues of a matrix depend continuously on its coefficients, at least until a bifurcation occurs."
+    },
+    {
+      "title": "A High Order, Finite Volume, Multilevel WENO Scheme Applied to Porous Media",
+      "doi": "https://doi.org/10.1007/978-3-031-86173-4_8",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Lecture notes in computational science and engineering",
+      "abstract": ""
+    },
+    {
+      "title": "Boundary Value Problems",
+      "doi": "https://doi.org/10.1201/9781003492139-8",
+      "publication_year": 2024,
+      "cited_by_count": 15,
+      "venue": "",
+      "abstract": "Chapter 8 , Boundary Value Problems, turns to a development of the techniques needed to solve linear elliptic boundary-value problems. The basic theory is developed to solve abstract variational problems and operator equations. Many of the concepts and methods introduced earlier are on display in this chapter. Indeed, it was attempts to solve such problems that led to many of these ideas. New concepts are also introduced, including the Poincaré inequality and results that relate properties of an operator to its dual operator, such as the closed range theorem, inf-sup, and coercivity conditions leading to Lax-Milgram-type existence and uniqueness results for variational problems. The theory is then brought to bear upon elliptic boundary-value problems with various boundary conditions in Sobolev spaces. Elliptic regularity, Galerkin methods, and Green&s;s functions also arise in the discussion."
+    },
+    {
+      "title": "The Fourier Transform",
+      "doi": "https://doi.org/10.1201/9781003492139-6",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 6 , The Fourier Transform, concerns decomposing a function into simple harmonic functions. The Fourier transform is the amplitude of each simple harmonic function in the decomposition. One can recover the function by inverting the process, at least for some functions. It is easy to define the Fourier transform on the Lebesgue space of order 1. It maps into but not onto the Lebesgue space of order infinity, so the inverse transform is not so easily understood. The natural space of definition is the Lebesgue space of order 2; however, it is not a simple task to define the transform here. Instead, the Fourier transform is defined on a class of functions, the Schwartz space of infinitely differentiable functions that decrease rapidly at infinity. On this space, interesting properties of the Fourier transform can be developed, including that it is invertible, that convolution transforms to multiplication, and that differentiation transforms to multiplication by a polynomial. By continuous extension of the operator from the Schwartz class, one obtains the Fourier transform on the Lebesgue space of order 2 with the same properties. The dual of the Schwartz space is the space of tempered distributions, a subset of the distributions, on which the Fourier transform can be defined. Some important problems in applied mathematics related to partial differential equations and translation invariant operators arising in signal processing are solved using what was learned about the Fourier transform."
+    },
+    {
+      "title": "Spectral Theory and Compact Operators",
+      "doi": "https://doi.org/10.1201/9781003492139-4",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 4 , Spectral Theory and Compact Operators, is concerned with questions of invertibility of an operator mapping a Banach space to itself. Invertibility of an operator in infinite dimensions can be rather subtle. For example, spectral values may not have associated eigenvalues with corresponding eigenvectors. The theory discussed can be applied to gain insight into the structure of a particular operator. The theory is further developed for special operators known as compact and/or self-adjoint operators. In particular, compact self-adjoint operators on a Hilbert space provide an orthonormal basis of eigenvectors for the space which behaves nicely under the action of the operator. As a consequence of the Ascoli-Arzelà theorem, important examples of compact operators include many integral operators. The chapter ends with an extended application of spectral theory to boundary-value problems in the form of the classic Sturm-Liouville theory. The notion of a Green&s;s function is introduced, which is an integral operator and thus compact. Cosine and sine series are extracted, and the technique of separation of variables is justified."
+    },
+    {
+      "title": "Normed Linear Spaces and Banach Spaces",
+      "doi": "https://doi.org/10.1201/9781003492139-2",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Chapter 2 , Normed Linear Spaces and Banach Spaces, explores the interplay between vector space theory, topology, and duality. One can begin the subject of Functional Analysis from many starting points. This book starts the subject with finite and infinite dimensional normed linear spaces over the ground field of either real or complex numbers. Banach spaces find application in many branches of pure and applied mathematics, and it is important to have a basic understanding of their properties. Both Banach and Hilbert spaces ( Chapter 3 ) are special examples of normed linear spaces. The norm gives both a measure of the size of a vector and induces a metric topology. Once the interaction of topology and vector space structure is understood, the three fundamental theorems of the theory, the Hahn-Banach theorem, the open mapping theorem, and the uniform boundedness principle are discussed in detail and many of their important corollaries derived. Interest in all these results turns around mappings between normed linear spaces that interact well with their structure. These are the linear and continuous mappings. The dual space is a special collection of such mappings, the set of continuous linear mappings from a given space into the ground field. Such objects map an abstract vector into the space of real or complex numbers. The set of all these numbers characterizes the vector. Important examples of Banach spaces, the Lebesgue spaces of real or complex valued integrable functions, are explored in some detail. The chapter concludes with the notion of weak convergence and compactness which will play roles many times in what follows."
+    }
+  ]
+}

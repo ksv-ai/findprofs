@@ -1,0 +1,180 @@
+{
+  "faculty_name": "Jesse Chan",
+  "full_name": "Jesse Chan",
+  "department": "ASE",
+  "university": "University of Texas at Austin",
+  "author_id": "A5018693723",
+  "works_count": 183,
+  "cited_by_count": 1511,
+  "h_index": 24,
+  "top_topics": [
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 78
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 57
+    },
+    {
+      "topic": "Electromagnetic Simulation and Numerical Methods",
+      "count": 25
+    },
+    {
+      "topic": "Fluid Dynamics and Turbulent Flows",
+      "count": 21
+    },
+    {
+      "topic": "Numerical methods for differential equations",
+      "count": 20
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "On discretely entropy conservative and entropy stable discontinuous Galerkin methods",
+      "doi": "https://doi.org/10.1016/j.jcp.2018.02.033",
+      "publication_year": 2018,
+      "cited_by_count": 170,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "A robust DPG method for convection-dominated diffusion problems II: Adjoint boundary conditions and mesh-dependent test norms",
+      "doi": "https://doi.org/10.1016/j.camwa.2013.06.010",
+      "publication_year": 2013,
+      "cited_by_count": 86,
+      "venue": "Computers & Mathematics with Applications",
+      "abstract": ""
+    },
+    {
+      "title": "GPU-accelerated discontinuous Galerkin methods on hybrid meshes",
+      "doi": "https://doi.org/10.1016/j.jcp.2016.04.003",
+      "publication_year": 2016,
+      "cited_by_count": 83,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Efficient Entropy Stable Gauss Collocation Methods",
+      "doi": "https://doi.org/10.1137/18m1209234",
+      "publication_year": 2019,
+      "cited_by_count": 72,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "The construction of high order entropy stable collocation schemes on quadrilateral and hexahedral elements has relied on the use of Gauss--Legendre--Lobatto collocation points and their equivalence with summation-by-parts (SBP) finite difference operators. In this work, we show how to efficiently generalize the construction of semidiscretely entropy stable schemes on tensor product elements to Gauss points and generalized SBP operators. Numerical experiments suggest that the use of Gauss points significantly improves accuracy on curved meshes."
+    },
+    {
+      "title": "Diffuse axonal injury: detection of changes in anisotropy of water diffusion by diffusion-weighted imaging",
+      "doi": "https://doi.org/10.1007/s00234-002-0891-y",
+      "publication_year": 2003,
+      "cited_by_count": 63,
+      "venue": "Neuroradiology",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Entropy correction artificial viscosity for high order DG methods using multiple artificial viscosities",
+      "doi": "https://doi.org/10.48550/arxiv.2604.03158",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Entropy stable discontinuous Galerkin (DG) methods display improved robustness for problems with shocks, turbulence, and under-resolved features by enforcing an entropy inequality. Such methods have traditionally relied on entropy conservative (EC) fluxes that are computationally expensive to evaluate. An alternative approach for enforcing an entropy inequality is through a minimally dissipative ``entropy correction\" artificial viscosity. We review how to construct such an artificial viscosity formulation and extend this approach to multiple types of viscosity (e.g., viscosity and thermal diffusivity). We determine simple analytical expressions for optimal viscosity parameters. We compare this to the case of a single monolithic viscosity parameter for different 1D and 2D problems, and show that the proposed method allows users to more precisely target specific physical phenomena while retaining robustness for general problem settings."
+    },
+    {
+      "title": "Volume Term Adaptivity for Discontinuous Galerkin Schemes",
+      "doi": "https://doi.org/10.48550/arxiv.2603.24189",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We introduce the concept of volume term adaptivity for high-order discontinuous Galerkin (DG) schemes solving time-dependent partial differential equations. Termed v-adaptivity, we present a novel general approach that exchanges the discretization of the volume contribution of the DG scheme at every Runge-Kutta stage based on suitable indicators. Depending on whether robustness or efficiency is the main concern, different adaptation strategies can be chosen. Precisely, the weak form volume term discretization is used instead of the entropy-conserving flux-differencing volume integral whenever the former produces more entropy than the latter, resulting in an entropy-stable scheme. Conversely, if increasing the efficiency is the main objective, the weak form volume integral may be employed as long as it does not increase entropy beyond a certain threshold or cause instabilities. Thus, depending on the choice of the indicator, the v-adaptive DG scheme improves robustness, efficiency and approximation quality compared to schemes with a uniform volume term discretization. We thoroughly verify the accuracy, linear stability, and entropy-admissibility of the v-adaptive DG scheme before applying it to various compressible flow problems in two and three dimensions."
+    },
+    {
+      "title": "On the choice of viscous discontinuous Galerkin discretization for entropy correction artificial viscosity methods",
+      "doi": "https://doi.org/10.48550/arxiv.2602.23210",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Entropy correction artificial viscosity (ECAV) is an approach for enforcing a semi-discrete entropy inequality through an entropy dissipative correction term. The resulting method can be implemented as an artificial viscosity with an extremely small viscosity coefficient. In this work, we analyze ECAV when the artificial viscosity is discretized using a local discontinuous Galerkin (LDG) method. We prove an $O(h)$ upper bound on the ECAV coefficient, indicating that ECAV does not result in a restrictive time-step condition. We additionally show that ECAV is contact preserving, and compare ECAV to traditional shock capturing artificial viscosity methods."
+    },
+    {
+      "title": "Entropy stable reduced order modeling of nonlinear conservation laws using discontinuous Galerkin methods",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114830",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "An artificial viscosity approach to high order entropy stable discontinuous Galerkin methods",
+      "doi": "https://doi.org/10.1016/j.jcp.2025.114380",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "A robust first order meshfree method for time-dependent nonlinear conservation laws",
+      "doi": "https://doi.org/10.3934/acse.2025021",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "Advances in Computational Science and Engineering",
+      "abstract": "We introduce a robust first order accurate meshfree method to numerically solve time-dependent nonlinear conservation laws. The main contribution of this work is the meshfree construction of first order consistent summation by parts differentiations. We describe how to efficiently construct such operators on a point cloud. We then study the performance of such differentiations, and then combine these operators with a numerical flux-based formulation to approximate the solution of nonlinear conservation laws, with focus on the advection equation and the compressible Euler equations. We observe numerically that, while the resulting mesh-free differentiation operators are only $ O(h^\\frac{1}{2}) $ accurate in the $ L^2 $ norm, they achieve $ O(h) $ rates of convergence when applied to the numerical solution of PDEs."
+    },
+    {
+      "title": "An energy stable high-order cut cell discontinuous Galerkin method with state redistribution for wave propagation",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.113528",
+      "publication_year": 2024,
+      "cited_by_count": 4,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Pseudodifferential Models for Ultrasound Waves with Fractional Attenuation",
+      "doi": "https://doi.org/10.1137/24m1634011",
+      "publication_year": 2024,
+      "cited_by_count": 4,
+      "venue": "SIAM Journal on Applied Mathematics",
+      "abstract": "Abstract. To strike a balance between modeling accuracy and computational efficiency for simulations of ultrasound waves in soft tissues, we derive a pseudodifferential factorization of the wave operator with fractional attenuation. This factorization allows us to approximately solve the Helmholtz equation via one-way (transmission) or two-way (transmission and reflection) sweeping schemes tailored to high-frequency wave fields. We provide explicitly the three highest order terms of the pseudodifferential expansion to incorporate the well-known square-root first order symbol for wave propagation, the zeroth order symbol for amplitude modulation due to changes in wave speed and damping, and the next symbol to model fractional attenuation. We also propose wide-angle Padé approximations for the pseudodifferential operators corresponding to these three highest order symbols. Our analysis provides insights regarding the role played by the frequency and the Padé approximations in the estimation of error bounds. We also provide a proof-of-concept numerical implementation of the proposed method and test the error estimates numerically."
+    },
+    {
+      "title": "Entropy stable discontinuous Galerkin methods for the shallow water equations with subcell positivity preservation",
+      "doi": "https://doi.org/10.1002/num.23129",
+      "publication_year": 2024,
+      "cited_by_count": 0,
+      "venue": "Numerical Methods for Partial Differential Equations",
+      "abstract": "Abstract High order schemes are known to be unstable in the presence of shock discontinuities or under‐resolved solution features, and have traditionally required additional filtering, limiting, or artificial viscosity to avoid solution blow up. Entropy stable schemes address this instability by ensuring that physically relevant solutions satisfy a semi‐discrete entropy inequality independently of discretization parameters. However, additional measures must be taken to ensure that solutions satisfy physical constraints such as positivity. In this work, we present a high order entropy stable discontinuous Galerkin (ESDG) method for the nonlinear shallow water equations (SWE) on two‐dimensional (2D) triangular meshes which preserves the positivity of the water heights. The scheme combines a low order positivity preserving method with a high order entropy stable method using convex limiting. This method is entropy stable and well‐balanced for fitted meshes with continuous bathymetry profiles."
+    },
+    {
+      "title": "High order entropy stable schemes for the quasi-one-dimensional shallow water and compressible Euler equations",
+      "doi": "https://doi.org/10.1016/j.jcp.2024.112876",
+      "publication_year": 2024,
+      "cited_by_count": 2,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "High order entropy stable discontinuous Galerkin spectral element methods through subcell limiting",
+      "doi": "https://doi.org/10.1016/j.jcp.2023.112677",
+      "publication_year": 2023,
+      "cited_by_count": 15,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Efficient Implementation of Modern Entropy Stable and Kinetic Energy Preserving Discontinuous Galerkin Methods for Conservation Laws",
+      "doi": "https://doi.org/10.1145/3625559",
+      "publication_year": 2023,
+      "cited_by_count": 18,
+      "venue": "ACM Transactions on Mathematical Software",
+      "abstract": "Many modern discontinuous Galerkin (DG) methods for conservation laws make use of summation by parts operators and flux differencing to achieve kinetic energy preservation or entropy stability. While these techniques increase the robustness of DG methods significantly, they are also computationally more demanding than standard weak form nodal DG methods. We present several implementation techniques to improve the efficiency of flux differencing DG methods that use tensor product quadrilateral or hexahedral elements, in 2D or 3D, respectively. Focus is mostly given to CPUs and DG methods for the compressible Euler equations, although these techniques are generally also useful for other physical systems, including the compressible Navier-Stokes and magnetohydrodynamics equations. We present results using two open source codes, Trixi.jl written in Julia and FLUXO written in Fortran, to demonstrate that our proposed implementation techniques are applicable to different code bases and programming languages."
+    },
+    {
+      "title": "High-order methods for hypersonic flows with strong shocks and real chemistry",
+      "doi": "https://doi.org/10.1016/j.jcp.2023.112310",
+      "publication_year": 2023,
+      "cited_by_count": 24,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "faculty_name": "George Biros",
+  "full_name": "George Biros",
+  "department": "ME",
+  "university": "University of Texas at Austin",
+  "author_id": "A5044137409",
+  "works_count": 261,
+  "cited_by_count": 7242,
+  "h_index": 47,
+  "top_topics": [
+    {
+      "topic": "Electromagnetic Scattering and Analysis",
+      "count": 30
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 25
+    },
+    {
+      "topic": "Medical Image Segmentation Techniques",
+      "count": 22
+    },
+    {
+      "topic": "Lattice Boltzmann Simulation Studies",
+      "count": 22
+    },
+    {
+      "topic": "Mathematical Biology Tumor Growth",
+      "count": 22
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A kernel-independent adaptive fast multipole algorithm in two and three dimensions",
+      "doi": "https://doi.org/10.1016/j.jcp.2003.11.021",
+      "publication_year": 2004,
+      "cited_by_count": 508,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques",
+      "doi": "https://doi.org/10.1093/neuonc/nov127",
+      "publication_year": 2015,
+      "cited_by_count": 309,
+      "venue": "Neuro-Oncology",
+      "abstract": "BACKGROUND: MRI characteristics of brain gliomas have been used to predict clinical outcome and molecular tumor characteristics. However, previously reported imaging biomarkers have not been sufficiently accurate or reproducible to enter routine clinical practice and often rely on relatively simple MRI measures. The current study leverages advanced image analysis and machine learning algorithms to identify complex and reproducible imaging patterns predictive of overall survival and molecular subtype in glioblastoma (GB). METHODS: One hundred five patients with GB were first used to extract approximately 60 diverse features from preoperative multiparametric MRIs. These imaging features were used by a machine learning algorithm to derive imaging predictors of patient survival and molecular subtype. Cross-validation ensured generalizability of these predictors to new patients. Subsequently, the predictors were evaluated in a prospective cohort of 29 new patients. RESULTS: Survival curves yielded a hazard ratio of 10.64 for predicted long versus short survivors. The overall, 3-way (long/medium/short survival) accuracy in the prospective cohort approached 80%. Classification of patients into the 4 molecular subtypes of GB achieved 76% accuracy. CONCLUSIONS: By employing machine learning techniques, we were able to demonstrate that imaging patterns are highly predictive of patient survival. Additionally, we found that GB subtypes have distinctive imaging phenotypes. These results reveal that when imaging markers related to infiltration, cell density, microvascularity, and blood-brain barrier compromise are integrated via advanced pattern analysis methods, they form very accurate predictive biomarkers. These predictive markers used solely preoperative images, hence they can significantly augment diagnosis and treatment of GB patients."
+    },
+    {
+      "title": "Parallel Lagrange--Newton--Krylov--Schur Methods for PDE-Constrained Optimization. Part I: The Krylov--Schur Solver",
+      "doi": "https://doi.org/10.1137/s106482750241565x",
+      "publication_year": 2005,
+      "cited_by_count": 273,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "Large-scale optimization of systems governed by partial differential equations (PDEs) is a frontier problem in scientific computation. Reduced quasi-Newton sequential quadratic programming (SQP) methods are state-of-the-art approaches for such problems. These methods take full advantage of existing PDE solver technology and parallelize well. However, their algorithmic scalability is questionable; for certain problem classes they can be very slow to converge. In this two-part article we propose a new method for steady-state PDE-constrained optimization, based on the idea of using a full space Newton solver combined with an approximate reduced space quasi-Newton SQP preconditioner. The basic components of the method are Newton solution of the first-order optimality conditions that characterize stationarity of the Lagrangian function; Krylov solution of the Karush--Kuhn--Tucker (KKT) linear systems arising at each Newton iteration using a symmetric quasi-minimum residual method; preconditioning of the KKT system using an approximate state/decision variable decomposition that replaces the forward PDE Jacobians by their own preconditioners, and the decision space Schur complement (the reduced Hessian) by a BFGS approximation initialized by a two-step stationary method. Accordingly, we term the new method {\\it Lagrange--Newton--Krylov--Schur} (LNKS). It is fully parallelizable, exploits the structure of available parallel algorithms for the PDE forward problem, and is locally quadratically convergent. In part I of this two-part article, we investigate the effectiveness of the KKT linear system solver. We test our method on two optimal control problems in which the state constraints are described by the steady-state Stokes equations. The objective is to minimize dissipation or the deviation from a given velocity field; the control variables are the boundary velocities. Numerical experiments on up to 256 Cray T3E processors and on an SGI Origin 2000 include scalability and performance assessment of the LNKS algorithm and comparisons with reduced SQP for up to $1,000,000$ state and50,000 decision variables. In part II of the article, we address globalization and inexactness issues, and apply LNKS to the optimal control of the steady incompressible Navier--Stokes equations."
+    },
+    {
+      "title": "An image-driven parameter estimation problem for a reaction–diffusion glioma growth model with mass effects",
+      "doi": "https://doi.org/10.1007/s00285-007-0139-x",
+      "publication_year": 2007,
+      "cited_by_count": 255,
+      "venue": "Journal of Mathematical Biology",
+      "abstract": ""
+    },
+    {
+      "title": "The 2019 mathematical oncology roadmap",
+      "doi": "https://doi.org/10.1088/1478-3975/ab1a09",
+      "publication_year": 2019,
+      "cited_by_count": 231,
+      "venue": "Physical Biology",
+      "abstract": "Whether the nom de guerre is Mathematical Oncology, Computational or Systems Biology, Theoretical Biology, Evolutionary Oncology, Bioinformatics, or simply Basic Science, there is no denying that mathematics continues to play an increasingly prominent role in cancer research. Mathematical Oncology-defined here simply as the use of mathematics in cancer research-complements and overlaps with a number of other fields that rely on mathematics as a core methodology. As a result, Mathematical Oncology has a broad scope, ranging from theoretical studies to clinical trials designed with mathematical models. This Roadmap differentiates Mathematical Oncology from related fields and demonstrates specific areas of focus within this unique field of research. The dominant theme of this Roadmap is the personalization of medicine through mathematics, modelling, and simulation. This is achieved through the use of patient-specific clinical data to: develop individualized screening strategies to detect cancer earlier; make predictions of response to therapy; design adaptive, patient-specific treatment plans to overcome therapy resistance; and establish domain-specific standards to share model predictions and to make models and simulations reproducible. The cover art for this Roadmap was chosen as an apt metaphor for the beautiful, strange, and evolving relationship between mathematics and cancer."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Interactive Debugger for Performance Portable Python HPC Kernels",
+      "doi": "https://doi.org/10.48550/arxiv.2609.07912",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We propose PKDB, the first interactive debugger for GPU and multithreaded low-level kernels written in Python. Python is widely used in high performance computing (HPC), with frameworks such as PyKokkos translating Python-embedded domain-specific languages to native code that runs across OpenMP-threaded CPUs and various GPUs. Yet interactive debugging support for such code is absent: developers resort to print statements, framework-specific assertions, or CPU-only execution, the last of which requires altering the program or its data and can mask device-specific bugs. PKDB enables standard interactive debugging like breakpoints, stepping, and variable inspection while preserving actual on-device execution without source modification. Beyond these fundamentals, PKDB introduces two advanced capabilities that exploit the dynamic nature of Python and PyKokkos: (i) Live code evaluation, which lets developers execute arbitrary Python expressions or entire kernels in the middle of a paused kernel without restarting the process; (ii) Kernel call site substitution, which allows an actively running kernel to be updated and reloaded on the fly, so only the kernel is recompiled and re-executed without restarting the application. Our performance evaluation on Intel, AMD, and NVIDIA CPUs, and NVIDIA and AMD GPUs shows that PKDB introduces limited overhead and is practical for everyday use while introducing critical debugging features to the Python HPC ecosystem."
+    },
+    {
+      "title": "shanjiang7/Jiffy: SC26 camera-ready freeze",
+      "doi": "https://doi.org/10.5281/zenodo.21834710",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "shanjiang7/Jiffy: SC26 camera-ready freeze",
+      "doi": "https://doi.org/10.5281/zenodo.22108828",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "shanjiang7/Jiffy: SC26 camera-ready",
+      "doi": "https://doi.org/10.5281/zenodo.22106656",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "shanjiang7/Jiffy: JIFFY v1.0.0 - SC'26 Artifact",
+      "doi": "https://doi.org/10.5281/zenodo.21834711",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "No description provided."
+    },
+    {
+      "title": "Extensions of the Regret-Minimization Algorithm for Optimal Design",
+      "doi": "https://doi.org/10.1137/25m1753097",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SIAM Journal on Matrix Analysis and Applications",
+      "abstract": "Abstract. We consider the problem of selecting a subset of points from a dataset of [Formula: see text] unlabeled examples for labeling, with the goal of training a multiclass classifier. To address this, we build upon the regret minimization framework introduced by Allen-Zhu et al. [ Near-optimal design of experiments via regret minimization, in Proceedings of the 34th International Conference on Machine Learning, PMLR 70, 2017, pp. 126–135]. We propose an alternative regularization scheme within this framework, which leads to a new sample selection objective along with a provable sample complexity bound that guarantees a [Formula: see text]-approximate solution. Additionally, we extend the regret minimization approach to handle experimental design in the ridge regression setting. We evaluate the selected samples using logistic regression and compare performance against several state-of-the-art methods. Our empirical results on MNIST, CIFAR-10, and a 50-class subset of ImageNet demonstrate that our method consistently outperforms competing approaches across most scenarios."
+    },
+    {
+      "title": "An efficient solver for the spatially homogeneous electron Boltzmann equation for weakly ionized collisional plasmas",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.115131",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "HERMES: A fast transient heat transfer solver for metal additive manufacturing",
+      "doi": "https://doi.org/10.1016/j.cma.2025.118673",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    },
+    {
+      "title": "VLCs: Managing Parallelism with Virtualized Libraries",
+      "doi": "https://doi.org/10.1145/3772052.3772265",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "As the complexity and scale of modern parallel machines continue to grow, programmers increasingly rely on composition of software libraries to encapsulate and exploit parallelism. However, many libraries are not designed with composition in mind and assume they have exclusive access to all resources. Using such libraries concurrently can result in contention and degraded performance. Prior solutions involve modifying the libraries or the OS, which is often infeasible."
+    },
+    {
+      "title": "Aligning personalized biomarker trajectories onto a common time axis: a connectome-based ODE model for Tau–Amyloid beta dynamics",
+      "doi": "https://doi.org/10.1016/j.media.2025.103757",
+      "publication_year": 2025,
+      "cited_by_count": 4,
+      "venue": "Medical Image Analysis",
+      "abstract": ""
+    },
+    {
+      "title": "A single-snapshot inverse solver for two-species graph model of tau pathology spreading in human Alzheimer’s disease",
+      "doi": "https://doi.org/10.1186/s40708-025-00264-z",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Brain Informatics",
+      "abstract": "We propose a method that uses a two-species ordinary differential equation (ODE) model for subject-specific misfolded tau protein spreading in Alzheimer's disease (AD) and calibrates it from magnetic resonance imaging (MRI) and positron emission tomography (PET) scans. The ODE model is a variant of the heterodimer Fisher-Kolmogorov (HFK) model. The unknown model parameters are the initial condition (IC) for tau and three scalar parameters representing the migration, proliferation, and clearance of tau proteins. Driven by imaging data, these parameters are estimated by formulating a constrained optimization problem with a sparsity regularization for the IC. This optimization problem is solved with a projection-based quasi-Newton algorithm. We evaluate the performance of our method on both synthetic and clinical data. Subjects are from the AD Neuroimaging Initiative (ADNI) datasets: 455 cognitively normal (CN), 212 mild cognitive impairment (MCI), and 45 AD subjects. We compare the performance of our approach to the commonly used Fisher-Kolmogorov (FK) model with a fixed IC at the entorhinal cortex (EC). Our method demonstrates an average improvement of 19.6% relative error compared to the FK model on the AD dataset. HFK also achieves an R-squared score of 0.591 for fitting AD data compared with 0.256 from FK model results with IC fixing at EC. The inverted IC from our scheme indicates that the EC is the most likely initial seeding region if subcortical regions are excluded from the analysis. However, other regions also have probability to be the IC seeding regions. Furthermore, for cases that have longitudinal data, we estimate a subject-specific AD onset time."
+    },
+    {
+      "title": "Inverse Problem Regularization for 3D Multi‐Species Tumor Growth Models",
+      "doi": "https://doi.org/10.1002/cnm.70057",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "International Journal for Numerical Methods in Biomedical Engineering",
+      "abstract": "We present a multi-species partial differential equation (PDE) model for tumor growth and an algorithm for calibrating the model from magnetic resonance imaging (MRI) scans. The model is designed for glioblastoma multiforme (GBM) a fast-growing type of brain cancer. The modeled species correspond to proliferative, infiltrative, and necrotic tumor cells. The model calibration is formulated as an inverse problem and solved by a PDE-constrained optimization method. The data that drives the calibration is derived by a single multi-parametric MRI image. This is a typical clinical scenario for GBMs. The unknown parameters that need to be calibrated from data include 10 scalar parameters and the infinite dimensional initial condition (IC) for proliferative tumor cells. This inverse problem is highly ill-posed as we try to calibrate a nonlinear dynamical system from data taken at a single time. To address this ill-posedness, we split the inversion into two stages. First, we regularize the IC reconstruction by solving a single-species compressed sensing problem. Then, using the IC reconstruction, we invert for model parameters using a weighted regularization term. We construct the regularization term by using auxiliary 1D inverse problems. We apply our proposed scheme to clinical data. We compare our algorithm with single-species reconstruction and unregularized reconstructions. Our scheme enables the stable estimation of non-observable species and quantification of infiltrative tumor cells. Our regularization improves the tumor Dice score by 5%-10% compared to single-species model reconstruction. Also, our regularization reduces model parameter reconstruction errors by 4%-80% in cases with known initial condition and brain anatomy compared to cases without regularization. Importantly, our model can estimate infiltrative tumor cells using observable tumor species."
+    },
+    {
+      "title": "Dynamically Fusing Python HPC Kernels",
+      "doi": "https://doi.org/10.1145/3728959",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "venue": "Proceedings of the ACM on software engineering.",
+      "abstract": "Recent trends in high-performance computing show an increase in the adoption of performance portable frameworks such as Kokkos and interpreted languages such as Python. PyKokkos follows these trends and enables programmers to write performance-portable kernels in Python which greatly increases productivity. One issue that programmers still face is how to organize parallel code, as splitting code into separate kernels simplifies testing and debugging but may result in suboptimal performance. To enable programmers to organize kernels in any way they prefer while ensuring good performance, we present PyFuser , a program analysis framework for automatic fusion of performance portable PyKokkos kernels. PyFuser dynamically traces kernel calls and lazily fuses them once the result is requested by the application. PyFuser generates fused kernels that execute faster due to better reuse of data, improved compiler optimizations, and reduced kernel launch overhead, while not requiring any changes to existing PyKokkos code. We also introduce automated code transformations that further optimize the fused kernels generated by PyFuser . Our experiments show that on average PyFuser achieves speedups compared to unfused kernels of 3.8× on NVIDIA and AMD GPUs, as well as Intel and AMD CPUs."
+    },
+    {
+      "title": "Scalable KNN Graph Construction for Heterogeneous Architectures",
+      "doi": "https://doi.org/10.1145/3733610",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "venue": "ACM Transactions on Parallel Computing",
+      "abstract": "Constructing k-nearest neighbor (kNN) graphs is a fundamental component in many machine learning and scientific computing applications. Despite its prevalence, efficiently building all-nearest-neighbor graphs at scale on distributed heterogeneous HPC systems remains challenging, especially for large sparse non-integer datasets. We introduce optimizations for algorithms based on forests of random projection trees. Our novel GPU kernels for batched, within leaf, exact searches achieve 1.18× speedup over sparse reference kernels with less peak memory, and up to 19× speedup over CPU for memory-intensive problems. Our library, PyRKNN , implements distributed randomized projection forests for approximate kNN search. Optimizations to reduce and hide communication overhead allow us to achieve 5× speedup, in per iteration performance, relative to GOFMM (another projection tree, MPI-based kNN library), for a 64M 128d dataset on 1,024 processes. On a single-node we achieve speedup over FAISS-GPU for dense datasets and up to 10× speedup over CPU-only libraries. PyRKNN uniquely supports distributed memory kNN graph construction for both dense and sparse coordinates on CPU and GPU accelerators."
+    },
+    {
+      "title": "Performance Characterization of Python Runtimes for Multi-device Task Parallel Programming",
+      "doi": "https://doi.org/10.1007/s10766-025-00788-1",
+      "publication_year": 2025,
+      "cited_by_count": 4,
+      "venue": "International Journal of Parallel Programming",
+      "abstract": ""
+    }
+  ]
+}

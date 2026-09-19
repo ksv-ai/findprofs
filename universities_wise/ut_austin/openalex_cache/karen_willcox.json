@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Karen Willcox",
+  "full_name": "Karen Willcox",
+  "department": "ASE",
+  "university": "University of Texas at Austin",
+  "author_id": "A5017431306",
+  "works_count": 364,
+  "cited_by_count": 22740,
+  "h_index": 60,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 164
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 153
+    },
+    {
+      "topic": "Advanced Multi-Objective Optimization Algorithms",
+      "count": 78
+    },
+    {
+      "topic": "Computational Fluid Dynamics and Aerodynamics",
+      "count": 39
+    },
+    {
+      "topic": "Advanced Aircraft Design and Technologies",
+      "count": 26
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Kinetics and Kinematics for Translational Motions in Microgravity During Parabolic Flight",
+      "doi": "https://doi.org/10.3357/asem.2356.2009",
+      "publication_year": 2009,
+      "cited_by_count": 5266,
+      "venue": "Aviation Space and Environmental Medicine",
+      "abstract": "INTRODUCTION: Astronauts soaring through space modules with the grace of birds seems counterintuitive. How do they adapt to the weightless environment? Previous spaceflights have shown that astronauts in orbit adapt their motor strategies to each change in their gravitational environment. During adaptation, performance is degraded and can lead to mission-threatening injuries. If adaptation can occur before a mission, productivity during the mission might improve, minimizing risk. The goal is to combine kinetic and kinematic data to examine translational motions during microgravity adaptations. METHODS: Experiments were performed during parabolic flights aboard NASA's C-9. Five subjects used their legs to push off from a sensor, landing on a target 3.96 m (13 ft) away. The sensor quantified the kinetics during contact, while four cameras recorded kinematics during push-off. Joint torques were calculated for a subset of traverses (N = 50) using the forces, moments, and joint angles. RESULTS: During the 149 traverses, the average peak force exerted onto the sensor was 224.6 +/- 74.6 N, with peak values ranging between 65.8-461.9 N. Two types of force profiles were observed, some having single, strong peaks (N = 64) and others having multiple, weaker peaks (N = 86). CONCLUSIONS: The force data were consistent with values recorded previously in sustained microgravity aboard Mir and the Space Shuttle. A training program for astronauts might be designed to encourage fine-control motions (i.e., multiple, weaker peaks) as these reduce the risk of injury and increase controllability. Additionally, a kinematic and kinetic sensor suite was successfully demonstrated in the weightless environment onboard the C-9 aircraft."
+    },
+    {
+      "title": "A Survey of Projection-Based Model Reduction Methods for Parametric Dynamical Systems",
+      "doi": "https://doi.org/10.1137/130932715",
+      "publication_year": 2015,
+      "cited_by_count": 1939,
+      "venue": "SIAM Review",
+      "abstract": "Numerical simulation of large-scale dynamical systems plays a fundamental role in studying a wide range of complex physical phenomena; however, the inherent large-scale nature of the models often leads to unmanageable demands on computational resources. Model reduction aims to reduce this computational burden by generating reduced models that are faster and cheaper to simulate, yet accurately represent the original large-scale system behavior. Model reduction of linear, nonparametric dynamical systems has reached a considerable level of maturity, as reflected by several survey papers and books. However, parametric model reduction has emerged only more recently as an important and vibrant research area, with several recent advances making a survey paper timely. Thus, this paper aims to provide a resource that draws together recent contributions in different communities to survey the state of the art in parametric model reduction methods. Parametric model reduction targets the broad class of problems for which the equations governing the system behavior depend on a set of parameters. Examples include parameterized partial differential equations and large-scale systems of parameterized ordinary differential equations. The goal of parametric model reduction is to generate low-cost but accurate models that characterize system response for different values of the parameters. This paper surveys state-of-the-art methods in projection-based parametric model reduction, describing the different approaches within each class of methods for handling parametric variation and providing a comparative discussion that lends insights to potential advantages and disadvantages in applying each of the methods. We highlight the important role played by parametric model reduction in design, control, optimization, and uncertainty quantification---settings that require repeated model evaluations over different parameter values."
+    },
+    {
+      "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+      "doi": "https://doi.org/10.1137/16m1082469",
+      "publication_year": 2018,
+      "cited_by_count": 1072,
+      "venue": "SIAM Review",
+      "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model. The overall premise of these multifidelity methods is that low-fidelity models are leveraged for speedup while the high-fidelity model is kept in the loop to establish accuracy and/or convergence guarantees. We categorize multifidelity methods according to three classes of strategies: adaptation, fusion, and filtering. The paper reviews multifidelity methods in the outer-loop contexts of uncertainty propagation, inference, and optimization."
+    },
+    {
+      "title": "Balanced Model Reduction via the Proper Orthogonal Decomposition",
+      "doi": "https://doi.org/10.2514/2.1570",
+      "publication_year": 2002,
+      "cited_by_count": 995,
+      "venue": "AIAA Journal",
+      "abstract": "A new method for performing a balanced reduction of a high-order linear system is presented. The technique combines the proper orthogonal decomposition and concepts from balanced realization theory. The method of snapshots is used to obtain low-rank, reduced-range approximationsto the system controllability and observability grammiansin either the time or frequency domain.The approximationsare then used to obtain a balanced reducedorder model. The method is particularly effective when a small number of outputs is of interest. It is demonstrated for a linearized high-order system that models unsteady motion of a two-dimensional airfoil. Computation of the exact grammians would be impractical for such a large system. For this problem, very accurate reducedorder models are obtained that capture the required dynamics with just three states. The new models exhibit far superior performance than those derived using a conventionalproper orthogonaldecomposition. Although further development is necessary, the concept also extends to nonlinear systems. W Nomenclature h = airfoil plunge displacement K = proper orthogonal decomposition (POD) kernel m = number of POD snapshots n = number of states in computational � uid dynamics (CFD) model nr = number of states in reduced-ordermodel R = correlation matrix T = matrix whose columns contain the balancing transformation vectors u; U = vector containing inputs for models, time and frequency domain Wc = controllabilitygrammian Wco = grammian product Wo = observability grammian x; X = aerodynamic state vector for CFD model, time and frequency domain xr = aerodynamic state vector for reduced-ordermodel y; Y = vector containing outputs of CFD model, time and frequency domain yr = vector containing outputs of reduced-ordermodel z = dual state vector for CFD model i = ith Hankel singular value = basis vector! = forcing frequency"
+    },
+    {
+      "title": "Aerodynamic Data Reconstruction and Inverse Design Using Proper Orthogonal Decomposition",
+      "doi": "https://doi.org/10.2514/1.2159",
+      "publication_year": 2004,
+      "cited_by_count": 546,
+      "venue": "AIAA Journal",
+      "abstract": "The application of proper orthogonal decomposition for incomplete (gappy) data for compressible external aerodynamic problems has been demonstrated successfully in this paper for the first time. Using this approach, it is possible to construct entire aerodynamic flowfields from the knowledge of computed aerodynamic flow data or measured flow data specified on the aerodynamic surface, thereby demonstrating a means to effectively combine experimental and computational data. The sensitivity of flow reconstruction results to available measurements and to experimental error is analyzed. Another new extension of this approach allows one to cast the problem of inverse airfoil design as a gappy data problem. The gappy methodology demonstrates a great simplification for the inverse airfoil design problem and is found to work well on a range of examples, including both subsonic and transonic cases."
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Nested operator inference for adaptive data-driven learning of reduced-order models",
+      "doi": "https://doi.org/10.1007/s10444-026-10322-7",
+      "publication_year": 2026,
+      "cited_by_count": 1,
+      "venue": "Advances in Computational Mathematics",
+      "abstract": "This paper presents a data-driven, nested Operator Inference (OpInf) approach for learning physics-informed reduced-order models (ROMs) from snapshot data of high-dimensional dynamical systems. The approach exploits the inherent hierarchy within the reduced space to iteratively construct initial guesses for the OpInf learning problem that prioritize the interactions of the dominant modes. The initial guess computed for any target reduced dimension corresponds to a ROM with provably smaller or equal snapshot reconstruction error than with standard OpInf. Moreover, our nested OpInf algorithm can be warm-started from previously learned models, enabling versatile application scenarios involving dynamic basis and model form updates. We demonstrate the performance of our algorithm on a cubic heat conduction problem, with nested OpInf achieving a four times smaller error than standard OpInf at a comparable offline time. Further, we apply nested OpInf to a large-scale, parameterized model of the Greenland ice sheet where, despite model form approximation errors, it learns a ROM with, on average, 3 % error and computational speed-up factor above 19,000."
+    },
+    {
+      "title": "TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.1186/s12911-026-03520-2",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "BMC Medical Informatics and Decision Making",
+      "abstract": "BACKGROUND: Advances in the theory and methods of computational oncology have enabled accurate characterization and prediction of tumor growth and treatment response on a patient-specific basis. This capability can be integrated into a digital twin framework in which bi-directional data-flow between the physical tumor and the digital tumor facilitate dynamic model re-calibration, uncertainty quantification, and clinical decision-support via recommendation of optimal therapeutic interventions. However, many digital twin frameworks rely on bespoke implementations tailored to each disease site, modeling choice, and algorithmic implementation. FINDINGS: We present TumorTwin, a modular software framework for initializing, updating, and leveraging patient-specific cancer tumor digital twins. TumorTwin is publicly available as a Python package, with associated documentation, datasets, and tutorials. Novel contributions include the development of a patient-data structure adaptable to different disease sites, a modular architecture to enable the composition of different data, model, solver, and optimization objects, and CPU- or GPU-parallelized implementations of forward model solves and gradient computations. We demonstrate the functionality of TumorTwin via an in silico dataset of high-grade glioma growth and response to radiation therapy. CONCLUSIONS: The TumorTwin framework enables rapid prototyping and testing of image-guided oncology digital twins. This allows researchers to systematically investigate different models, algorithms, disease sites, or treatment decisions while leveraging robust numerical and computational infrastructure."
+    },
+    {
+      "title": "Additional file 2 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887831",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 2"
+    },
+    {
+      "title": "Additional file 2 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887831.v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 2"
+    },
+    {
+      "title": "Additional file 3 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887834",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 3"
+    },
+    {
+      "title": "Additional file 3 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887834.v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 3"
+    },
+    {
+      "title": "Additional file 1 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887828.v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 1"
+    },
+    {
+      "title": "Additional file 1 of TumorTwin: a Python framework for patient-specific digital twins in oncology",
+      "doi": "https://doi.org/10.6084/m9.figshare.32887828",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Figshare",
+      "abstract": "Supplementary Material 1"
+    },
+    {
+      "title": "Modeling Longitudinal Student Pathways with Explainable Generative Models",
+      "doi": "https://doi.org/10.1145/3785022.3785085",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "Student pathways — trajectories spanning academic readiness, course selections, grades, and enrollment outcomes — are critical for understanding educational progress, particularly in community college systems where pathways are highly diverse. Restricted access to student records and a sparsity of coherent pathway data pose barriers to modeling and broader research engagement. This paper contributes a scalable and explainable framework for generating synthetic student pathway data, along with a Bayesian network structure learning approach adapted to the sparsity and temporal complexity of educational trajectories. We present a generative modeling approach that produces realistic synthetic student pathway data by learning a Bayesian network trained on longitudinal student records across multiple tables linked across time. Our model captures complex conditional dependencies across hundreds of variables while remaining interpretable: each parameter encodes transparent relationships that can be inspected or adjusted. We show that our method outperforms an independent sampler in reproducing marginal, conditional, and higher-order patterns in the real data. Our analysis shows that existing k-anonymity rules are infeasible for real or synthetic data, motivating a shift toward model-aware approaches for privacy considerations in student pathway data."
+    },
+    {
+      "title": "Simulating complex physics at lightning speed",
+      "doi": "https://doi.org/10.1038/s44286-026-00377-0",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Nature Chemical Engineering",
+      "abstract": ""
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "faculty_name": "Omar Ghattas",
+  "full_name": "Omar Ghattas",
+  "department": "ME",
+  "university": "University of Texas at Austin",
+  "author_id": "A5049331711",
+  "works_count": 246,
+  "cited_by_count": 8441,
+  "h_index": 48,
+  "top_topics": [
+    {
+      "topic": "Probabilistic and Robust Engineering Design",
+      "count": 50
+    },
+    {
+      "topic": "Model Reduction and Neural Networks",
+      "count": 46
+    },
+    {
+      "topic": "Advanced Numerical Methods in Computational Mathematics",
+      "count": 40
+    },
+    {
+      "topic": "Seismic Imaging and Inversion Techniques",
+      "count": 38
+    },
+    {
+      "topic": "Gaussian Processes and Bayesian Inference",
+      "count": 34
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "A Stochastic Newton MCMC Method for Large-Scale Statistical Inverse Problems with Application to Seismic Inversion",
+      "doi": "https://doi.org/10.1137/110845598",
+      "publication_year": 2012,
+      "cited_by_count": 454,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "We address the solution of large-scale statistical inverse problems in the framework of Bayesian inference. The Markov chain Monte Carlo (MCMC) method is the most popular approach for sampling the posterior probability distribution that describes the solution of the statistical inverse problem. MCMC methods face two central difficulties when applied to large-scale inverse problems: first, the forward models (typically in the form of partial differential equations) that map uncertain parameters to observable quantities make the evaluation of the probability density at any point in parameter space very expensive; and second, the high-dimensional parameter spaces that arise upon discretization of infinite-dimensional parameter fields make the exploration of the probability density function prohibitive. The challenge for MCMC methods is to construct proposal functions that simultaneously provide a good approximation of the target density while being inexpensive to manipulate. Here we present a so-called Stochastic Newton method in which MCMC is accelerated by constructing and sampling from a proposal density that builds a local Gaussian approximation based on local gradient and Hessian (of the log posterior) information. Thus, the method exploits tools (adjoint-based gradients and Hessians) that have been instrumental for fast (often mesh-independent) solution of deterministic inverse problems. Hessian manipulations (inverse, square root) are made tractable by a low-rank approximation that exploits the compact nature of the data misfit operator. This is analogous to a reduced model of the parameter-to-observable map. The method is applied to the Bayesian solution of an inverse medium problem governed by 1D seismic wave propagation. We compare the Stochastic Newton method with a reference black box MCMC method as well as a gradient-based Langevin MCMC method, and observe at least two orders of magnitude improvement in convergence for problems with up to 65 parameters. Numerical evidence suggests that a 1025 parameter problem converges at the same rate as the 65 parameter problem."
+    },
+    {
+      "title": "A Computational Framework for Infinite-Dimensional Bayesian Inverse Problems Part I: The Linearized Case, with Application to Global Seismic Inversion",
+      "doi": "https://doi.org/10.1137/12089586x",
+      "publication_year": 2013,
+      "cited_by_count": 380,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "We present a computational framework for estimating the uncertainty in the numerical solution of linearized infinite-dimensional statistical inverse problems. We adopt the Bayesian inference formulation: given observational data and their uncertainty, the governing forward problem and its uncertainty, and a prior probability distribution describing uncertainty in the parameter field, find the posterior probability distribution over the parameter field. The prior must be chosen appropriately in order to guarantee well-posedness of the infinite-dimensional inverse problem and facilitate computation of the posterior. Furthermore, straightforward discretizations may not lead to convergent approximations of the infinite-dimensional problem. And finally, solution of the discretized inverse problem via explicit construction of the covariance matrix is prohibitive due to the need to solve the forward problem as many times as there are parameters. Our computational framework builds on the infinite-dimensional formulation proposed by Stuart [Acta Numer., 19 (2010), pp. 451--559] and incorporates a number of components aimed at ensuring a convergent discretization of the underlying infinite-dimensional inverse problem. The framework additionally incorporates algorithms for manipulating the prior, constructing a low rank approximation of the data-informed component of the posterior covariance operator, and exploring the posterior that together ensure scalability of the entire framework to very high parameter dimensions. We demonstrate this computational framework on the Bayesian solution of an inverse problem in three-dimensional global seismic wave propagation with hundreds of thousands of parameters."
+    },
+    {
+      "title": "The Dynamics of Plate Tectonics and Mantle Flow: From Local to Global Scales",
+      "doi": "https://doi.org/10.1126/science.1191223",
+      "publication_year": 2010,
+      "cited_by_count": 377,
+      "venue": "Science",
+      "abstract": "Plate tectonics is regulated by driving and resisting forces concentrated at plate boundaries, but observationally constrained high-resolution models of global mantle flow remain a computational challenge. We capitalized on advances in adaptive mesh refinement algorithms on parallel computers to simulate global mantle flow by incorporating plate motions, with individual plate margins resolved down to a scale of 1 kilometer. Back-arc extension and slab rollback are emergent consequences of slab descent in the upper mantle. Cold thermal anomalies within the lower mantle couple into oceanic plates through narrow high-viscosity slabs, altering the velocity of oceanic plates. Viscous dissipation within the bending lithosphere at trenches amounts to approximately 5 to 20% of the total dissipation through the entire lithosphere and mantle."
+    },
+    {
+      "title": "Model Reduction for Large-Scale Systems with High-Dimensional Parametric Input Space",
+      "doi": "https://doi.org/10.1137/070694855",
+      "publication_year": 2008,
+      "cited_by_count": 365,
+      "venue": "SIAM Journal on Scientific Computing",
+      "abstract": "A model-constrained adaptive sampling methodology is proposed for the reduction of large-scale systems with high-dimensional parametric input spaces. Our model reduction method uses a reduced basis approach, which requires the computation of high-fidelity solutions at a number of sample points throughout the parametric input space. A key challenge that must be addressed in the optimization, control, and probabilistic settings is the need for the reduced models to capture variation over this parametric input space, which, for many applications, will be of high dimension. We pose the task of determining appropriate sample points as a PDE-constrained optimization problem, which is implemented using an efficient adaptive algorithm that scales well to systems with a large number of parameters. The methodology is demonstrated using examples with parametric input spaces of dimension 11 and 21, which describe thermal analysis and design of a heat conduction fin, and compared with statistically based sampling methods. For these examples, the model-constrained adaptive sampling leads to reduced models that, for a given basis size, have error several orders of magnitude smaller than that obtained using the other methods."
+    },
+    {
+      "title": "Large-scale simulation of elastic wave propagation in heterogeneous media on parallel computers",
+      "doi": "https://doi.org/10.1016/s0045-7825(97)00183-7",
+      "publication_year": 1998,
+      "cited_by_count": 323,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "abstract": ""
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+      "doi": "https://doi.org/10.48550/arxiv.2603.03211",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Shape optimization under uncertainty (OUU) is computationally intensive for classical PDE-based methods due to the high cost of repeated sampling-based risk evaluation across many uncertainty realizations and varying geometries, while standard neural surrogates often fail to provide accurate and efficient sensitivities for optimization. We introduce Shape-DINO, a derivative-informed neural operator framework for learning PDE solution operators on families of varying geometries, with a particular focus on accelerating PDE-constrained shape OUU. Shape-DINOs encode geometric variability through diffeomorphic mappings to a fixed reference domain and employ a derivative-informed operator learning objective that jointly learns the PDE solution and its Fréchet derivatives with respect to design variables and uncertain parameters, enabling accurate state predictions and reliable gradients for large-scale OUU. We establish a priori error bounds linking surrogate accuracy to optimization error and prove universal approximation results for multi-input reduced basis neural operators in suitable $C^1$ norms. We demonstrate efficiency and scalability on three representative shape OUU problems, including boundary design for a Poisson equation and shape design governed by steady-state Navier-Stokes exterior flows in two and three dimensions. Across these examples, Shape-DINOs produce more reliable optimization results than operator surrogates trained without derivative information. In our examples, Shape-DINOs achieve 3-8 orders-of-magnitude speedups in state and gradient evaluations. Counting training data generation, Shape-DINOs reduce necessary PDE solves by 1-2 orders-of-magnitude compared to a strictly PDE-based approach for a single OUU problem. Moreover, Shape-DINO construction costs can be amortized across many objectives and risk measures, enabling large-scale shape OUU for complex systems."
+    },
+    {
+      "title": "Neural Operator-Enabled Aerodynamic Load Estimation for Hypersonics",
+      "doi": "https://doi.org/10.2514/6.2026-1210",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": "This work expands on a strain-based aerodynamic sensing strategy for hypersonics to account for nonlinear temperature effects in real time. The sensing strategy uses sparse strain observations to infer the aerodynamic pressure loads, which is mathematically posed as a partial differential equation (PDE)-constrained inverse problem. In previous work, this inverse problem was shown to have a closed-form solution, where offline computation of the operations requiring the PDE solution was exploited to enable real-time evaluation speeds. In this work, the temperature effects preclude the offline pre-computation acceleration because the PDE operator is nonlinearly temperature dependent. To address this challenge, the recently developed neural matrix operator (NEMO) approach is employed to account for the temperature dependence. The NEMO method explicitly incorporates the physics structure of the governing equations, and thus preserves the availability of a closed-form inverse solution that can be computed rapidly onboard the vehicle. This work further considers the tasks of estimating the temperature field from sparse temperature measurements, and compensation for the thermal strain. The overall performance is demonstrated on the Initial Concept 3.X hypersonic vehicle. The results show strong approximation performance of NEMO and corresponding inverse solution accuracy, but further work is necessary to reduce errors in the thermal strain compensation."
+    },
+    {
+      "title": "ONE- VS TWO- OR THREE-DIMENSIONAL EFFECTS IN SEDIMENTARY VALLEYS",
+      "doi": "https://doi.org/10.71846/12-wcee-0885",
+      "publication_year": 2025,
+      "cited_by_count": 16,
+      "venue": "",
+      "abstract": "This study of the effects of local geological conditions on seismic ground motion uses 1D amplification as a reference point and examines, via simple theoretical and more realistic numerical examples and observations, how 2D and 3D conditions differ from 1D estimations. Because 1D simulations cannot model basin and edge effects, 1D response tends, in general, to exhibit lower peaks and be of shorter duration than 2D and 3D results. On the other hand, due to destructive interference of different types of waves, there are sites where the response can be much smaller than predicted by 1D models."
+    },
+    {
+      "title": "Derivative-Informed Fourier Neural Operator: Universal Approximation and Applications to PDE-Constrained Optimization",
+      "doi": "https://doi.org/10.48550/arxiv.2512.14086",
+      "publication_year": 2025,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "We present approximation theories and efficient training methods for derivative-informed Fourier neural operators (DIFNOs) with applications to PDE-constrained optimization. A DIFNO is an FNO trained by minimizing its prediction error jointly on output and Fréchet derivative samples of a high-fidelity operator (e.g., a parametric PDE solution operator). As a result, a DIFNO can closely emulate not only the high-fidelity operator's response but also its sensitivities. To motivate the use of DIFNOs instead of conventional FNOs as surrogate models, we show that accurate surrogate-driven PDE-constrained optimization requires accurate surrogate Fréchet derivatives. Then, we establish (i) simultaneous universal approximation of continuously differentiable operators and their Fréchet derivatives by FNOs on compact sets, and (ii) universal approximation of continuously differentiable operators by FNOs in weighted Sobolev spaces with input measures that have unbounded supports. Our theoretical results certify the capability of FNOs for accurate derivative-informed operator learning and for the solution of PDE-constrained optimization problems. Furthermore, we develop efficient training schemes that leverage dimensionality reduction and multi-resolution techniques to significantly reduce memory and computational costs in Fréchet derivative learning. Numerical examples on nonlinear diffusion--reaction, Helmholtz, and Navier--Stokes equations demonstrate that DIFNOs are superior in sample complexity for operator learning and solving infinite-dimensional PDE-constrained inverse problems, achieving high accuracy at low training sample sizes."
+    },
+    {
+      "title": "Advancing aquifer characterization through the integration of satellite geodesy, geomechanics, and Bayesian inference",
+      "doi": "https://doi.org/10.22541/essoar.15001295/v1",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "",
+      "abstract": ""
+    },
+    {
+      "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+      "doi": "",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Shape optimization under uncertainty (OUU) is computationally intensive for classical PDE-based methods due to the high cost of repeated sampling-based risk evaluation across many uncertainty realizations and varying geometries, while standard neural surrogates often fail to provide accurate and efficient sensitivities for optimization. We introduce Shape-DINO, a derivative-informed neural operator framework for learning PDE solution operators on families of varying geometries, with a particular focus on accelerating PDE-constrained shape OUU. Shape-DINOs encode geometric variability through diffeomorphic mappings to a fixed reference domain and employ a derivative-informed operator learning objective that jointly learns the PDE solution and its Fréchet derivatives with respect to design variables and uncertain parameters, enabling accurate state predictions and reliable gradients for large-scale OUU. We establish a priori error bounds linking surrogate accuracy to optimization error and prove universal approximation results for multi-input reduced basis neural operators in suitable $C^1$ norms. We demonstrate efficiency and scalability on three representative shape OUU problems, including boundary design for a Poisson equation and shape design governed by steady-state Navier-Stokes exterior flows in two and three dimensions. Across these examples, Shape-DINOs produce more reliable optimization results than operator surrogates trained without derivative information. In our examples, Shape-DINOs achieve 3-8 orders-of-magnitude speedups in state and gradient evaluations. Counting training data generation, Shape-DINOs reduce necessary PDE solves by 1-2 orders-of-magnitude compared to a strictly PDE-based approach for a single OUU problem. Moreover, Shape-DINO construction costs can be amortized across many objectives and risk measures, enabling large-scale shape OUU for complex systems."
+    },
+    {
+      "title": "Goal-oriented real-time Bayesian inference for linear autonomous dynamical systems with application to digital twins for tsunami early warning",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114682",
+      "publication_year": 2026,
+      "cited_by_count": 3,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Accelerating seismic inversion and uncertainty quantification with efficient high-rank Hessian approximations",
+      "doi": "https://doi.org/10.2139/ssrn.6826569",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "SSRN Electronic Journal",
+      "abstract": ""
+    },
+    {
+      "title": "Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning",
+      "doi": "https://doi.org/10.1016/j.jcp.2026.114682",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "venue": "Journal of Computational Physics",
+      "abstract": ""
+    },
+    {
+      "title": "Real-Time Bayesian Inference at Extreme Scale: A Digital Twin for Tsunami Early Warning Applied to the Cascadia Subduction Zone",
+      "doi": "https://doi.org/10.1145/3712285.3771787",
+      "publication_year": 2025,
+      "cited_by_count": 6,
+      "venue": "",
+      "abstract": "We present a Bayesian inversion-based digital twin that employs acoustic pressure data from seafloor sensors, along with 3D coupled acoustic–gravity wave equations, to infer earthquake-induced spatiotemporal seafloor motion in real time and forecast tsunami propagation toward coastlines for early warning with quantified uncertainties. Our target is the Cascadia subduction zone, with one billion parameters. Computing the posterior mean alone would require 50 years on a 512 GPU machine. Instead, exploiting the shift invariance of the parameter-to-observable map and devising novel parallel algorithms, we induce a fast offline–online decomposition. The offline component requires just one adjoint wave propagation per sensor; using MFEM, we scale this part of the computation to the full El Capitan system (43,520 GPUs) with 92% weak parallel efficiency. Moreover, given real-time data, the online component exactly solves the Bayesian inverse and forecasting problems in 0.2 seconds on a modest GPU system, a ten-billion-fold speedup."
+    }
+  ]
+}
