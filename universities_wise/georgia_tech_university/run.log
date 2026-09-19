@@ -1,311 +1,313 @@
-2026-09-19 09:50:23,809 - INFO - Scraping Georgia Institute of Technology (AE + ME + Mathematics)...
-2026-09-19 09:50:26,191 - INFO - GT AE: found 57 faculty
-2026-09-19 09:50:32,066 - INFO - GT ME: found 101 faculty
-2026-09-19 09:50:32,691 - INFO - GT Math: found 72 faculty
-2026-09-19 09:50:32,709 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Krishan K Ahuja (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,714 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christos E Athanasiou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,714 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher Carr (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,715 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yongxin Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,717 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Glen Chou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,718 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Christian (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,718 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Dec (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,719 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bolei Deng (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,719 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Claudio Vinicius Di Leo (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,720 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin Lee Emerson II (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,720 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karen M Feigh (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,721 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Olivia J Fischer (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,721 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Lu Gan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,721 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Laurie A. Garrow (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,722 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Brian J German (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,722 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Brian C Gunter (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,722 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wassim M Haddad (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,723 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Masatoshi Hirabayashi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,723 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Koki Ho (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,724 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suhas Jain (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,724 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kai James (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,725 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor George Kardomateas (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,725 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Graeme James Kennedy (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,726 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sarah H.Q. Li (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,726 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Edgar Glenn Lightsey (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,727 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sandra "Sandy" Magnus (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,729 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dimitri Mavris (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,729 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chance C McColl (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,730 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Keegan J. Moore (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,731 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jay Nagy (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,731 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yashwanth Kumar Nakka (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,732 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Masahiro (Hiro) Ono (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,733 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mayuresh Patil (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,733 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonnalagadda V R Prasad (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,734 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Elizabeth Qian (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,734 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Juergen Rauleder (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,735 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cristina Riso (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,735 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas González Roberts (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,736 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Rogers (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,737 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Álvaro Romero-Calvo (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,737 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Stephen M Ruffin (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,739 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wenting Sun (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,739 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Evangelos Theodorou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,739 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sedina Tsikata (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,740 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Panagiotis Tsiotras (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,740 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kyriakos G Vamvoudakis (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,741 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Pui-Kuen Yeung (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,741 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Beckett Zhou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,742 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Greeshma Agasthya (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,742 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ferdous Alam (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,743 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Antonia Antoniou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,743 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Costas D. Arvanitis (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,743 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nazanin Bassiri-Gharb (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,743 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Steven Biegalski (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bert Bras (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor George P. Burdell (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yifeng Che (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hailong Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tony G. Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,744 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Seung-Kyum Choi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,745 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Baratunde A. Cola (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,745 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suman Das (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,745 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nico F. Declercq (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,745 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor F. Levent Degertekin (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,746 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chaitanya S. Deo (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,746 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shaheen Dewji (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,746 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor J. Brandon Dixon (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,747 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bachir El Fil (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,747 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anna Erickson (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,747 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alper Erturk (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,748 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrei G. Fedorov (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,748 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aldo A. Ferri (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,749 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Craig R. Forest (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,749 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Gaines (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,749 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrés J. García (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,750 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Srinivas Garimella (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,750 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Caroline L. Genzale (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,750 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor S. Mostafa Ghiaasiaan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,751 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rudolph L. Gleason (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,751 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Samuel Graham (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,751 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Frank L. Hammond III (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,752 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tequila A. L. Harris (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,752 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Marta Hatzell (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,752 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Peter J. Hesketh (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,752 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yuhang Hu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,753 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor David Hu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,753 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Roger Jiao (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,754 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yogendra Joshi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,754 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kyriaki Kalaitzidou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,755 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Surya Kalidindi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,755 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor YongTae (Tony) Kim (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,755 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dan Kotlyar (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,756 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shreyas Kousik (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,756 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor David N. Ku (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,757 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Satish Kumar (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,757 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas Kurfess (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,757 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Seung Woo Lee (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,757 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Steven Y. Liang (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,758 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julie Linsey (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,758 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Peter Loutzenhiser (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,758 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anirban Mazumdar (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,759 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ellen Yi Chen Mazumdar (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,759 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Matthew McDowell (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,760 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julien Meaud (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,760 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shreyes N. Melkote (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,760 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Akanksha Menon (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,761 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karthik Menon (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,761 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mohsen Moghaddam (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,762 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Richard W. Neu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,762 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bojan Petrovic (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,763 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Olivier Pierron (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,763 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor H. Jerry Qi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,764 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Farzad Rahnema (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,764 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Devesh Ranjan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,765 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karim Sabra (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,765 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nader Sadegh (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,766 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sourabh Saha (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,766 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher J. Saldaña (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,767 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Emily Sanders (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,767 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gregory Sawicki (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,768 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Carolyn Seepersad (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,768 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jianjun (Jan) Shi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,768 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ankur Singh (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,769 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor William E. Singhose (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,769 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suresh K. Sitaraman (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,770 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Vanessa Smet (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,770 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Stephen Sprigle (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,771 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aaron Stebner (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,771 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Todd Sulchek (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,772 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Susan Napier Thomas (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,772 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mike Tinskey (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,772 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jun Ueda (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,772 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yan Wang (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,773 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor C.-K. Chris Wang (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,773 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael West Jr. (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,774 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Levi Wood (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,774 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shuman Xia (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,775 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shannon Yee (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,775 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor W. Hong Yeo (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,775 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Minami Yoda (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,776 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aaron Young (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,776 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Fan Zhang (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,777 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Zhuomin Zhang (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,777 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ye Zhao (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,777 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Min Zhou (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,778 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ting Zhu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,778 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Leonardo Abbrescia (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,779 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Matt Baker (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,779 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Salvador Barone (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,779 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Igor Belegradek (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,780 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Greg Blekherman (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,780 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Harold Blum (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,781 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alex Blumenthal (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,781 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Federico Bonetto (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,781 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Leonid Bunimovich (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,782 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ayushi Chakrabarty (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,782 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gong Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,783 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xu-Yan Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,783 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hannah Choi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,784 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ernie Croot (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,784 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Damron (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,784 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alex Dunn (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,785 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Etnyre (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,785 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mohammad Ghomi (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,785 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Guillermo Goldsztein (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,785 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Klara Grodzinsky (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,785 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xiaoyu He (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,786 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher Heil (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,786 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christine Heitsch (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,786 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jennifer Hom (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,787 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christian Houdré (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,787 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Plamen Iliev (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,788 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chris Jankowski (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,788 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin Jaye (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,788 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Adam Kanigowski (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,789 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Asaf Katz (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,789 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tom Kelly (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,789 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Vladimir Koltchinskii (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,790 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rachel Kuske (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,790 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Lacey (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,791 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thang Le (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,791 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hunter Lehmann (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,791 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kalila Lehmann (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,792 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anton Leykin (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,792 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wing Li (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,792 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wenjing Liao (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,793 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julia Lindberg (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,793 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Galyna Livshyts (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,794 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Loss (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,794 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Doron Lubinsky (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,794 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karthikeya Mamillapalle (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,795 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cheng Mao (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,795 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Heinrich Matzinger (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,795 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gregory Mayer (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,796 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rose McCarty (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,796 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John McCuan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,796 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin McKenna (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,796 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shahaf Nitzan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,796 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dmitrii Ostrovskii (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,797 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ronghua Pan (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,797 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tobias Ried (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,797 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Martin Short (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,797 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrzej Swiech (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,798 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Molei Tao (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,798 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Douglas Torrance (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,816 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas Tran (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,816 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cuyler Warnock (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,816 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Wolf (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,817 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Josephine Yu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,817 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xingxing Yu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,817 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anton Zeitlin (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,818 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chongchun Zeng (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,818 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mayya Zhilova (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,818 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wei Zhu (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,819 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Zung (🔴 Tier 4: Robotics / Controls / Autonomy)
-2026-09-19 09:50:32,819 - INFO - Retained 15 Tier 1 & Tier 2 active GT faculty for deep enrichment...
-2026-09-19 09:50:32,820 - INFO - [1/15] Processing Timothy Charles Lieuwen (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:50:37,310 - INFO - [2/15] Processing Suresh Menon (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:50:42,925 - INFO - [3/15] Processing Joseph Oefelein (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:50:49,958 - INFO - [4/15] Processing Lakshmi N Sankar (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:50:55,760 - INFO - [5/15] Processing Jerry M Seitzman (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:01,587 - INFO - [6/15] Processing Marilyn J Smith (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:08,205 - INFO - [7/15] Processing Adam M. Steinberg (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:14,057 - INFO - [8/15] Processing Mitchell L.R. Walker II (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:16,318 - INFO - [9/15] Processing Vigor Yang (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:21,288 - INFO - [10/15] Processing Cyrus K. Aidun (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:29,692 - INFO - [11/15] Processing Alexander Alexeev (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:37,095 - INFO - [12/15] Processing Ari Glezer (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
-2026-09-19 09:51:39,659 - INFO - [13/15] Processing Sung Ha Kang (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:45,369 - INFO - [14/15] Processing Yingjie Liu (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:53,012 - INFO - [15/15] Processing Haomin Zhou (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
-2026-09-19 09:51:58,129 - INFO - Total Tier 1 & Tier 2 active GT faculty successfully extracted: 15
-2026-09-19 09:51:58,375 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.xlsx
-2026-09-19 09:51:58,379 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.md
-2026-09-19 09:51:58,381 - INFO - 
+2026-09-19 10:26:26,391 - INFO - Removed unnecessary file: new_pillars_dict.json
+2026-09-19 10:26:26,392 - INFO - Removed unnecessary file: openalex_selected_flagships.json
+2026-09-19 10:26:26,393 - INFO - Scraping Georgia Institute of Technology (AE + ME + Mathematics)...
+2026-09-19 10:26:28,815 - INFO - GT AE: found 57 faculty
+2026-09-19 10:26:35,310 - INFO - GT ME: found 101 faculty
+2026-09-19 10:26:35,947 - INFO - GT Math: found 72 faculty
+2026-09-19 10:26:35,961 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Krishan K Ahuja (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,963 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christos E Athanasiou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,963 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher Carr (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,963 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yongxin Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,963 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Glen Chou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,964 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Christian (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,964 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Dec (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,964 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bolei Deng (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,964 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Claudio Vinicius Di Leo (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,964 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin Lee Emerson II (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,965 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karen M Feigh (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,965 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Olivia J Fischer (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,965 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Lu Gan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,966 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Laurie A. Garrow (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,966 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Brian J German (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,966 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Brian C Gunter (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,966 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wassim M Haddad (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,967 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Masatoshi Hirabayashi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,967 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Koki Ho (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,967 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suhas Jain (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,967 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kai James (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,967 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor George Kardomateas (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,968 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Graeme James Kennedy (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,968 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sarah H.Q. Li (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,968 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Edgar Glenn Lightsey (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,969 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sandra "Sandy" Magnus (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,969 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dimitri Mavris (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,969 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chance C McColl (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,969 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Keegan J. Moore (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,970 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jay Nagy (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,970 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yashwanth Kumar Nakka (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,970 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Masahiro (Hiro) Ono (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,971 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mayuresh Patil (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,971 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonnalagadda V R Prasad (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,971 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Elizabeth Qian (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,971 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Juergen Rauleder (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,972 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cristina Riso (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,972 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas González Roberts (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,972 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Rogers (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,973 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Álvaro Romero-Calvo (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,973 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Stephen M Ruffin (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,974 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wenting Sun (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,975 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Evangelos Theodorou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,975 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sedina Tsikata (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,975 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Panagiotis Tsiotras (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,976 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kyriakos G Vamvoudakis (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,977 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Pui-Kuen Yeung (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,977 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Beckett Zhou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,978 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Greeshma Agasthya (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,978 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ferdous Alam (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,979 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Antonia Antoniou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,979 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Costas D. Arvanitis (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,980 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nazanin Bassiri-Gharb (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,980 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Steven Biegalski (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,980 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bert Bras (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,981 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor George P. Burdell (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,981 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yifeng Che (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,981 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hailong Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,981 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tony G. Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,982 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Seung-Kyum Choi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,982 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Baratunde A. Cola (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,982 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suman Das (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,982 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nico F. Declercq (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,983 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor F. Levent Degertekin (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,983 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chaitanya S. Deo (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,983 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shaheen Dewji (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,983 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor J. Brandon Dixon (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,984 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bachir El Fil (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,984 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anna Erickson (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,984 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alper Erturk (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,985 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrei G. Fedorov (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,985 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aldo A. Ferri (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,986 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Craig R. Forest (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,986 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Gaines (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,986 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrés J. García (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,987 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Srinivas Garimella (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,987 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Caroline L. Genzale (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,987 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor S. Mostafa Ghiaasiaan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,987 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rudolph L. Gleason (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,988 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Samuel Graham (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,988 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Frank L. Hammond III (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,989 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tequila A. L. Harris (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,989 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Marta Hatzell (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Peter J. Hesketh (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yuhang Hu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor David Hu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Roger Jiao (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yogendra Joshi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,990 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kyriaki Kalaitzidou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,991 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Surya Kalidindi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,991 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor YongTae (Tony) Kim (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,991 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dan Kotlyar (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,991 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shreyas Kousik (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,992 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor David N. Ku (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,992 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Satish Kumar (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,992 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas Kurfess (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,992 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Seung Woo Lee (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,992 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Steven Y. Liang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,993 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julie Linsey (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,993 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Peter Loutzenhiser (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,993 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anirban Mazumdar (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,993 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ellen Yi Chen Mazumdar (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,993 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Matthew McDowell (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,994 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julien Meaud (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,994 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shreyes N. Melkote (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,994 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Akanksha Menon (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,994 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karthik Menon (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,995 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mohsen Moghaddam (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,995 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Richard W. Neu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,996 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Bojan Petrovic (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,996 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Olivier Pierron (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,996 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor H. Jerry Qi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,997 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Farzad Rahnema (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,997 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Devesh Ranjan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,997 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karim Sabra (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,998 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Nader Sadegh (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,998 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Sourabh Saha (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,998 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher J. Saldaña (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,998 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Emily Sanders (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,998 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gregory Sawicki (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,999 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Carolyn Seepersad (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,999 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jianjun (Jan) Shi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:35,999 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ankur Singh (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,000 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor William E. Singhose (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,000 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Suresh K. Sitaraman (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,000 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Vanessa Smet (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,001 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Stephen Sprigle (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,001 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aaron Stebner (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,002 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Todd Sulchek (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,002 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Susan Napier Thomas (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,002 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mike Tinskey (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,003 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jun Ueda (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,003 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Yan Wang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,003 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor C.-K. Chris Wang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,003 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael West Jr. (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,004 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Levi Wood (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,004 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shuman Xia (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,004 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shannon Yee (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,004 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor W. Hong Yeo (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,005 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Minami Yoda (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,005 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Aaron Young (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,005 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Fan Zhang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,005 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Zhuomin Zhang (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,005 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ye Zhao (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,006 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Min Zhou (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,006 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ting Zhu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,006 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Leonardo Abbrescia (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,006 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Matt Baker (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,006 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Salvador Barone (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,007 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Igor Belegradek (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,007 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Greg Blekherman (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,007 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Harold Blum (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,008 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alex Blumenthal (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,008 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Federico Bonetto (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,008 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Leonid Bunimovich (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,008 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ayushi Chakrabarty (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,008 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gong Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,009 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xu-Yan Chen (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,009 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hannah Choi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,009 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ernie Croot (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,009 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Damron (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,010 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Alex Dunn (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,010 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John Etnyre (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,010 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mohammad Ghomi (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,010 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Guillermo Goldsztein (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,011 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Klara Grodzinsky (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,011 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xiaoyu He (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,011 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christopher Heil (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,011 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christine Heitsch (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,012 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jennifer Hom (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,012 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Christian Houdré (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,012 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Plamen Iliev (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,013 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chris Jankowski (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,013 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin Jaye (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,013 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Adam Kanigowski (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,014 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Asaf Katz (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,014 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tom Kelly (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,014 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Vladimir Koltchinskii (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,014 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rachel Kuske (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,014 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Lacey (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,015 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thang Le (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,015 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Hunter Lehmann (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,015 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Kalila Lehmann (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,016 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anton Leykin (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,016 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wing Li (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,016 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wenjing Liao (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,017 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Julia Lindberg (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,017 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Galyna Livshyts (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,017 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Loss (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,018 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Doron Lubinsky (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,018 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Karthikeya Mamillapalle (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,018 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cheng Mao (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,018 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Heinrich Matzinger (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Gregory Mayer (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Rose McCarty (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor John McCuan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Benjamin McKenna (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Shahaf Nitzan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,019 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Dmitrii Ostrovskii (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,020 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Ronghua Pan (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,020 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Tobias Ried (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,020 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Martin Short (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,020 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Andrzej Swiech (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,020 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Molei Tao (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,021 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Douglas Torrance (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,021 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Thomas Tran (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,021 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Cuyler Warnock (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,021 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Michael Wolf (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,021 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Josephine Yu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,022 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Xingxing Yu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,022 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Anton Zeitlin (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,022 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Chongchun Zeng (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,022 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Mayya Zhilova (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,022 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Wei Zhu (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,023 - INFO -    -> [Filtered Out]: Dropping non-Tier 1/2 professor Jonathan Zung (🔴 Tier 4: Robotics / Controls / Autonomy)
+2026-09-19 10:26:36,023 - INFO - Retained 15 Tier 1 & Tier 2 active GT faculty for deep enrichment...
+2026-09-19 10:26:36,023 - INFO - [1/15] Processing Timothy Charles Lieuwen (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:26:40,378 - INFO - [2/15] Processing Suresh Menon (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:26:46,337 - INFO - [3/15] Processing Joseph Oefelein (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:26:52,965 - INFO - [4/15] Processing Lakshmi N Sankar (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:26:59,866 - INFO - [5/15] Processing Jerry M Seitzman (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:05,756 - INFO - [6/15] Processing Marilyn J Smith (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:11,738 - INFO - [7/15] Processing Adam M. Steinberg (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:18,061 - INFO - [8/15] Processing Mitchell L.R. Walker II (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:20,429 - INFO - [9/15] Processing Vigor Yang (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:25,880 - INFO - [10/15] Processing Cyrus K. Aidun (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:34,053 - INFO - [11/15] Processing Alexander Alexeev (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:50,072 - INFO - [12/15] Processing Ari Glezer (🟡 Tier 2: Thermal / Heat Transfer / Energy)...
+2026-09-19 10:27:52,730 - INFO - [13/15] Processing Sung Ha Kang (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:27:59,286 - INFO - [14/15] Processing Yingjie Liu (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:28:05,620 - INFO - [15/15] Processing Haomin Zhou (🔵 Tier 1: Core Aero / Fluids / Propulsion)...
+2026-09-19 10:28:10,957 - INFO - Total Tier 1 & Tier 2 active GT faculty successfully extracted: 15
+2026-09-19 10:28:11,221 - INFO - Excel successfully created at: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.xlsx
+2026-09-19 10:28:11,224 - INFO - Markdown successfully created at: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.md
+2026-09-19 10:28:11,226 - INFO - 
 ===============================================================================================
-2026-09-19 09:51:58,381 - INFO - GEORGIA TECH (AE + ME + MATHEMATICS) PIPELINE EXECUTION AUDIT REPORT
-2026-09-19 09:51:58,381 - INFO - ===============================================================================================
-2026-09-19 09:51:58,381 - INFO - Total Active Faculty Extracted: 15
-2026-09-19 09:51:58,381 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion / Math: 14 (Exclusively populates 'Aero Focus' Tab)
-2026-09-19 09:51:58,381 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     1
-2026-09-19 09:51:58,381 - INFO -   - [Tier 3] Structures / Materials / Mfg:         0
-2026-09-19 09:51:58,381 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       0
-2026-09-19 09:51:58,381 - INFO - Field-Matched Faculty Candidates: 12 / 15 (80.0%)
-2026-09-19 09:51:58,382 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 09:51:58,382 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
-2026-09-19 09:51:58,382 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
-2026-09-19 09:51:58,382 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 09:51:58,382 - INFO - 1   | Name                                   | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,382 - INFO - 2   | University                             | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,382 - INFO - 3   | Profile URL                            | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,382 - INFO - 4   | Google Scholar URL                     | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 5   | Job Title                              | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 6   | Department                             | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 7   | Scholar ID                             | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,383 - INFO - 8   | Email                                  | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 9   | Research Tier                          | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 10  | Research Category                      | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 11  | Matched Count                          | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,383 - INFO - 12  | Matched Fields                         | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,383 - INFO - 13  | Research Hook                          | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
-2026-09-19 09:51:58,383 - INFO - 14  | Tech Stack                             | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
-2026-09-19 09:51:58,383 - INFO - 15  | Flagship 1 Title                       | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 16  | Flagship 1 DOI                         | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 17  | Flagship 1 Tripartite Finding          | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 18  | Flagship 1 Abstract                    | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 19  | Flagship 2 Title                       | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 20  | Flagship 2 DOI                         | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 21  | Flagship 2 Tripartite Finding          | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 22  | Flagship 2 Abstract                    | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,384 - INFO - 23  | Flagship Paper Hook                    | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
-2026-09-19 09:51:58,384 - INFO - 24  | Flagship Paper DOI                     | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
-2026-09-19 09:51:58,385 - INFO - 25  | Physical Finding                       | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
-2026-09-19 09:51:58,385 - INFO - 26  | Latest Paper / Publication             | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,385 - INFO - 27  | Recent Papers (2023-2026)              | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,385 - INFO - 28  | Top Cited Papers                       | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,385 - INFO - 29  | Courses Taught                         | 3        | 12         |  20.0% | 🟡 Selective
-2026-09-19 09:51:58,385 - INFO - 30  | Recent Awards / Honors                 | 6        | 9          |  40.0% | 🟡 Selective
-2026-09-19 09:51:58,385 - INFO - 31  | Cold Email / Application Instructions  | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,385 - INFO - 32  | OpenAlex Research Topics               | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,385 - INFO - 33  | Google Scholar Tags                    | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,385 - INFO - 34  | Research Interests                     | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,386 - INFO - 35  | Expertise Areas                        | 0        | 15         |   0.0% | ⚪ None
-2026-09-19 09:51:58,386 - INFO - 36  | Research / Bio Summary                 | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,386 - INFO - 37  | Education / Degrees                    | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,386 - INFO - 38  | Lab / Research Group Name              | 14       | 1          |  93.3% | 🔵 Strong
-2026-09-19 09:51:58,386 - INFO - 39  | Lab / Personal Website                 | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,386 - INFO - 40  | Actively Hiring / Openings             | 3        | 12         |  20.0% | 🟡 Selective
-2026-09-19 09:51:58,386 - INFO - 41  | Target Skills / Prerequisites          | 0        | 15         |   0.0% | ⚪ None
-2026-09-19 09:51:58,386 - INFO - 42  | Lab Facilities & Equipment             | 0        | 15         |   0.0% | ⚪ None
-2026-09-19 09:51:58,386 - INFO - 43  | Funding Sponsors                       | 0        | 15         |   0.0% | ⚪ None
-2026-09-19 09:51:58,386 - INFO - 44  | Software / Code Repo                   | 0        | 15         |   0.0% | ⚪ None
-2026-09-19 09:51:58,386 - INFO - 45  | Latest Project / Highlight             | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,387 - INFO - 46  | Office Location                        | 12       | 3          |  80.0% | 🔵 Strong
-2026-09-19 09:51:58,387 - INFO - 47  | Is Field Match                         | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,387 - INFO - 48  | Directory URL                          | 15       | 0          | 100.0% | ✅ Complete
-2026-09-19 09:51:58,387 - INFO - -----------------------------------------------------------------------------------------------
-2026-09-19 09:51:58,387 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
-2026-09-19 09:51:58,387 - INFO -   [OK] Active Faculty Discovery: HTML scraping of GT AE, ME, and Mathematics department directories.
-2026-09-19 09:51:58,387 - INFO -   [OK] Selective OpenAlex Integration: All 11 Tier 1 Core Aero faculty queried; non-aero strictly filtered.
-2026-09-19 09:51:58,387 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Paper, Clickable DOI, Tech Stack, & Tripartite Finding.
-2026-09-19 09:51:58,387 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and full paper abstracts.
-2026-09-19 09:51:58,387 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
-2026-09-19 09:51:58,387 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.xlsx
-2026-09-19 09:51:58,387 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.md
-2026-09-19 09:51:58,387 - INFO - Run Log File: D:\Others\findprofs\universities_wise\georgia_tech_university\run.log
-2026-09-19 09:51:58,388 - INFO - ===============================================================================================
+2026-09-19 10:28:11,226 - INFO - GEORGIA TECH (AE + ME + MATHEMATICS) PIPELINE EXECUTION AUDIT REPORT
+2026-09-19 10:28:11,226 - INFO - ===============================================================================================
+2026-09-19 10:28:11,226 - INFO - Total Active Faculty Extracted: 15
+2026-09-19 10:28:11,226 - INFO -   - [Tier 1] Core Aero / Fluids / CFD / Propulsion / Math: 14 (Exclusively populates 'Aero Focus' Tab)
+2026-09-19 10:28:11,226 - INFO -   - [Tier 2] Thermal / Heat Transfer / Energy:     1
+2026-09-19 10:28:11,226 - INFO -   - [Tier 3] Structures / Materials / Mfg:         0
+2026-09-19 10:28:11,227 - INFO -   - [Tier 4] Robotics / Controls / Autonomy:       0
+2026-09-19 10:28:11,227 - INFO - Field-Matched Faculty Candidates: 12 / 15 (80.0%)
+2026-09-19 10:28:11,227 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 10:28:11,227 - INFO - 📊 DETAILED COLUMN-BY-COLUMN EXTRACTION AUDIT (FILLED vs. REMAINING):
+2026-09-19 10:28:11,227 - INFO - #   | Column Name                            | Filled   | Remaining  | Fill %  | Status
+2026-09-19 10:28:11,227 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 10:28:11,227 - INFO - 1   | Name                                   | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 2   | University                             | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 3   | Profile URL                            | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 4   | Google Scholar URL                     | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 5   | Job Title                              | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 6   | Department                             | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,227 - INFO - 7   | Scholar ID                             | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,228 - INFO - 8   | Email                                  | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,228 - INFO - 9   | Research Tier                          | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,228 - INFO - 10  | Research Category                      | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,228 - INFO - 11  | Matched Count                          | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,228 - INFO - 12  | Matched Fields                         | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,228 - INFO - 13  | Research Hook                          | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
+2026-09-19 10:28:11,228 - INFO - 14  | Tech Stack                             | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
+2026-09-19 10:28:11,228 - INFO - 15  | Flagship 1 Title                       | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,228 - INFO - 16  | Flagship 1 DOI                         | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,228 - INFO - 17  | Flagship 1 Tripartite Finding          | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 18  | Flagship 1 Abstract                    | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 19  | Flagship 2 Title                       | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 20  | Flagship 2 DOI                         | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 21  | Flagship 2 Tripartite Finding          | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 22  | Flagship 2 Abstract                    | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,229 - INFO - 23  | Flagship Paper Hook                    | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
+2026-09-19 10:28:11,229 - INFO - 24  | Flagship Paper DOI                     | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
+2026-09-19 10:28:11,229 - INFO - 25  | Physical Finding                       | 14       | 1          |  93.3% | 🔵 Strong (Tier 1 Core Aero: 14/14)
+2026-09-19 10:28:11,229 - INFO - 26  | Latest Paper / Publication             | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,229 - INFO - 27  | Recent Papers (2023-2026)              | 11       | 4          |  73.3% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 28  | Top Cited Papers                       | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 29  | Courses Taught                         | 3        | 12         |  20.0% | 🟡 Selective
+2026-09-19 10:28:11,230 - INFO - 30  | Recent Awards / Honors                 | 6        | 9          |  40.0% | 🟡 Selective
+2026-09-19 10:28:11,230 - INFO - 31  | Cold Email / Application Instructions  | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,230 - INFO - 32  | OpenAlex Research Topics               | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 33  | Google Scholar Tags                    | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 34  | Research Interests                     | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 35  | Expertise Areas                        | 0        | 15         |   0.0% | ⚪ None
+2026-09-19 10:28:11,230 - INFO - 36  | Research / Bio Summary                 | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 37  | Education / Degrees                    | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 38  | Lab / Research Group Name              | 14       | 1          |  93.3% | 🔵 Strong
+2026-09-19 10:28:11,230 - INFO - 39  | Lab / Personal Website                 | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,230 - INFO - 40  | Actively Hiring / Openings             | 3        | 12         |  20.0% | 🟡 Selective
+2026-09-19 10:28:11,230 - INFO - 41  | Target Skills / Prerequisites          | 0        | 15         |   0.0% | ⚪ None
+2026-09-19 10:28:11,230 - INFO - 42  | Lab Facilities & Equipment             | 0        | 15         |   0.0% | ⚪ None
+2026-09-19 10:28:11,231 - INFO - 43  | Funding Sponsors                       | 0        | 15         |   0.0% | ⚪ None
+2026-09-19 10:28:11,231 - INFO - 44  | Software / Code Repo                   | 0        | 15         |   0.0% | ⚪ None
+2026-09-19 10:28:11,231 - INFO - 45  | Latest Project / Highlight             | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,231 - INFO - 46  | Office Location                        | 12       | 3          |  80.0% | 🔵 Strong
+2026-09-19 10:28:11,231 - INFO - 47  | Is Field Match                         | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,231 - INFO - 48  | Directory URL                          | 15       | 0          | 100.0% | ✅ Complete
+2026-09-19 10:28:11,231 - INFO - -----------------------------------------------------------------------------------------------
+2026-09-19 10:28:11,231 - INFO - 🛠️ PIPELINE SUCCESSES & EXECUTION HEALTH:
+2026-09-19 10:28:11,231 - INFO -   [OK] Active Faculty Discovery: HTML scraping of GT AE, ME, and Mathematics department directories.
+2026-09-19 10:28:11,231 - INFO -   [OK] Selective OpenAlex Integration: All 11 Tier 1 Core Aero faculty queried; non-aero strictly filtered.
+2026-09-19 10:28:11,231 - INFO -   [OK] Cold Email Pillars: 100% of Tier 1 faculty equipped with Research Hook, Flagship Paper, Clickable DOI, Tech Stack, & Tripartite Finding.
+2026-09-19 10:28:11,231 - INFO -   [OK] Markdown Reference: Generated with clickable flagship DOI links and full paper abstracts.
+2026-09-19 10:28:11,231 - INFO -   [OK] Multi-Sheet Excel Workbook: Generated with dynamic clickable HYPERLINK formulas on 'Aero Focus', 'Field Matched', and 'All Faculty'.
+2026-09-19 10:28:11,232 - INFO - Excel Workbook: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.xlsx
+2026-09-19 10:28:11,232 - INFO - Markdown Reference: D:\Others\findprofs\universities_wise\georgia_tech_university\georgia_tech_aerospace_mechanical_faculty.md
+2026-09-19 10:28:11,232 - INFO - Run Log File: D:\Others\findprofs\universities_wise\georgia_tech_university\run.log
+2026-09-19 10:28:11,232 - INFO - ===============================================================================================

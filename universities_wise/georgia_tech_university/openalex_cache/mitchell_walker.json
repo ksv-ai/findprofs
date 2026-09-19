@@ -1,0 +1,137 @@
+{
+  "name": "Mitchell L.R. Walker",
+  "uni": "Georgia Institute of Technology",
+  "author_id": "A5060005980",
+  "author_display_name": "Mitchell L. R. Walker",
+  "works_count": 208,
+  "cited_by_count": 2859,
+  "top_topics": [
+    {
+      "topic": "Plasma Diagnostics and Applications",
+      "count": 153
+    },
+    {
+      "topic": "Electrohydrodynamics and Fluid Dynamics",
+      "count": 96
+    },
+    {
+      "topic": "Magnetic Field Sensors Techniques",
+      "count": 25
+    },
+    {
+      "topic": "Plasma Applications and Diagnostics",
+      "count": 21
+    },
+    {
+      "topic": "Particle accelerators and beam dynamics",
+      "count": 17
+    }
+  ],
+  "top_cited_works": [
+    {
+      "title": "Recent progress and perspectives of space electric propulsion systems based on smart nanomaterials",
+      "publication_year": 2018,
+      "doi": "https://doi.org/10.1038/s41467-017-02269-7",
+      "venue": "Nature Communications",
+      "cited_by_count": 305
+    },
+    {
+      "title": "Recommended Practice for Use of Faraday Probes in Electric Propulsion Testing",
+      "publication_year": 2016,
+      "doi": "https://doi.org/10.2514/1.b35696",
+      "venue": "Journal of Propulsion and Power",
+      "cited_by_count": 138
+    },
+    {
+      "title": "Recommended Practice for Thrust Measurement in Electric Propulsion Testing",
+      "publication_year": 2017,
+      "doi": "https://doi.org/10.2514/1.b35564",
+      "venue": "Journal of Propulsion and Power",
+      "cited_by_count": 127
+    }
+  ],
+  "recent_works": [
+    {
+      "title": "Characterization of a heaterless 60 A hollow cathode on krypton and argon",
+      "publication_year": 2026,
+      "publication_date": "2026-09-15",
+      "doi": "https://doi.org/10.1007/s44205-026-00221-w",
+      "venue": "Journal of Electric Propulsion",
+      "type": "article",
+      "cited_by_count": 0,
+      "abstract": "Abstract We present a steady-state current-voltage (IV) characterization of a heaterless version of the 9 kW-class H9 Hall thruster cathode. This work was conducted at Georgia Tech\u2019s High-Power Electric Propulsion Laboratory (HPEPL) at operational background pressures of 0.22\u20130.70 \u00b5Torr on krypton and 0.11\u20130.24 \u00b5Torr on argon, with a base pressure of 9.1 \u00d7 10 \u2212 8 Torr. The characterization mapped steady-state voltage behavior from 5 to 45 A of discharge current on krypton and 5 to 30 A on argon (with paired magnetized and unmagnetized data over 5 to 35 A on krypton and 5 to 20 A on argon), in both magnetized and unmagnetized configurations. The magnetized configuration produced a higher discharge voltage than the unmagnetized configuration at every paired (current, flow) operating point on both propellants. On krypton, the magnetized-unmagnetized voltage gap ranged from near zero at the highest cathode flow and lowest current to + 39.6 V (+ 148%) at 30 A and 12.39 sccm. On argon, the gap ranged from + 6.0 V at 15 A and 12.39 sccm to + 67.5 V (+ 159%) at 20 A and 15.89 sccm. In both cases, the gap widened with discharge current and narrowed with cathode flow. These results verify reproducible ignition at every tested flow rate, confirm uninterrupted steady-state heaterless operation on krypton and argon, and quantify how the applied magnetic field shifts the steady-state operating point at fixed discharge current. The key finding is that the applied magnetic field increases the steady-state discharge voltage at fixed current rather than reducing it, and the effect is systematically larger on argon than on krypton at matched operating conditions.",
+      "authors": [
+        "Naia Butler-Craig",
+        "Dan Lev",
+        "Mitchell L. R. Walker"
+      ]
+    },
+    {
+      "title": "Effect of body bias on near-field electron behavior in a magnetically shielded Hall thruster",
+      "publication_year": 2026,
+      "publication_date": "2026-08-24",
+      "doi": "https://doi.org/10.1063/5.0340395",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 0,
+      "abstract": "This work investigates the influence of thruster body bias on near-field electron behavior in a magnetically shielded Hall effect thruster (HET) through spatially resolved laser Thomson scattering diagnostics. Experiments were conducted on the 9 kW class H9 magnetically shielded HET operating at 40 A discharge current and 150 V discharge voltage on krypton propellant in the Georgia Tech Vacuum Test Facility 2. Three electrical configurations were examined: floating (body electrically isolated), cathode-tied (body at cathode potential, approximately \u221210.3 V relative to facility ground), and +2 V bias (body biased +2 V relative to ground). Spatially resolved measurements of electron density, electron temperature, and radial electron bulk velocity were obtained at up to 23 locations (a 15-point radial grid and up to eight axial stations along the cathode centerline) spanning the cathode near-field from the cathode centerline to the discharge channel centerline. A configuration-dependent spatial density inversion reveals distinct circuit topologies: at z/r0 = 0.029, cathode-tied elevates ne at the cathode centerline (4.4 \u00d7 1019 m\u22123) while exhibiting the lowest channel-centerline density (6.6 \u00d7 1017 m\u22123), whereas the +2 V configuration shows the opposite pattern (3.4 \u00d7 1019 and 9.0 \u00d7 1017 m\u22123, respectively). The +2 V configuration exhibits the lowest Te at the inner front pole cover, consistent with magnetization-limited, energy-selective electron collection. Electron pressure does not serve as a reliable proxy for electrostatic potential in this near-field region due to unmeasured anomalous transport terms.",
+      "authors": [
+        "Naia Butler-Craig",
+        "Julian Lopez-Uricoechea",
+        "R. Dutta",
+        "Mitchell L. R. Walker"
+      ]
+    },
+    {
+      "title": "Causality analysis of vacuum chamber facility effects for Hall effect thruster operation",
+      "publication_year": 2026,
+      "publication_date": "2026-08-20",
+      "doi": "https://doi.org/10.1063/5.0325466",
+      "venue": "Journal of Applied Physics",
+      "type": "article",
+      "cited_by_count": 1,
+      "abstract": "Characterization of plasma dynamics is critical for controlling electric propulsion systems on spacecraft. Understanding the causal relations between measurement data can play an important role both in minimizing the number of diagnostics and in informing which dynamic information needs to be accounted for in a computational model. In this paper, we apply extended convergent cross mapping (eCCM) to three measured telemetry signals\u2014cathode current, discharge voltage, and cathode-to-ground voltage\u2014collected from a krypton-fed magnetically shielded Hall-effect thruster with base operating pressures of 6.8 and 8.5 \u03bcTorr at the 4.5 and 6 kW power levels, respectively. Data were also collected at elevated pressures, two to three times the base operating pressure. We discuss the sensitivity of the cross-mapping skill to the embedding parameters and background pressure in the vacuum chamber. We propose eCCM as a framework for characterizing dynamic relationships in the Hall-effect thruster circuit, guiding the selection of signals and the prioritization of dynamic measurements in subsequent physics-based modeling and diagnostic efforts. The results show that cross-mapping skill decreases across nearly all signal pairs for both power levels, indicating a reduction in mutual dynamic information between electrical circuit components as background pressure increases. The analysis suggests that the discharge plasma is coupled to other unmeasured components in the system as the facility pressure varies.",
+      "authors": [
+        "Seth J. Thompson",
+        "Kentaro Hara",
+        "Janice D. Cabrera",
+        "Mitchell L. R. Walker",
+        "John D. Williams"
+      ]
+    },
+    {
+      "title": "Study of Machine Learning Techniques for Performance Prediction in Low-Power Hall Effect Thruster Operating on Monoatomic and Molecular Propellants",
+      "publication_year": 2026,
+      "publication_date": "2026-08-13",
+      "doi": "https://doi.org/10.21203/rs.3.rs-10583210/v1",
+      "venue": "Research Square",
+      "type": "preprint",
+      "cited_by_count": 0,
+      "abstract": "",
+      "authors": [
+        "Shantanusinh Parmar",
+        "Joseph A. Moskovitz",
+        "Dan Lev",
+        "Mitchell L. R. Walker"
+      ]
+    },
+    {
+      "title": "Performance comparison and analysis of low-power hall thruster operation on atomic and molecular propellants",
+      "publication_year": 2026,
+      "publication_date": "2026-07-09",
+      "doi": "https://doi.org/10.1007/s44205-026-00199-5",
+      "venue": "Journal of Electric Propulsion",
+      "type": "article",
+      "cited_by_count": 0,
+      "abstract": "Abstract A detailed experimental investigation into the performance of a low-power Hall effect thruster (HET), Simplified CAMILA, operating on both atomic (Xe, Kr, Ar) and molecular (CO $$_2$$ , N $$_2$$ ) propellants is performed. The study measures thrust, specific impulse, and internal efficiencies across a range of discharge voltages ( $$\\sim$$ 75\u2013450 V), input powers ( $$\\sim$$ 75\u2013450 W), and magnetic field strengths ( $$\\sim$$ 118\u2013293 G). Xenon consistently delivers the highest anode efficiency ( $$\\eta _A$$ ) performance ( $$\\eta _A$$ = 48.74%, 400 W), followed by krypton ( $$\\eta _A$$ = 33.01%, 450 W), argon ( $$\\eta _A$$ = 22.72%, 450 W), CO $$_2$$ ( $$\\eta _A$$ = 11.68%, 450 W), and N $$_2$$ ( $$\\eta _A$$ = 7.35%, 400 W). Molecular propellants exhibit significantly lower efficiencies and narrower regions of operational stability, and thus require higher volumetric mass flow rates and magnetic field strengths for stable operation. These observations highlight the engineering challenges of maintaining discharge stability with molecular gases, particularly at lower voltages where mass utilization efficiency sharply declines. Mass and current utilization efficiencies improve with power for all propellants\u2014particularly for molecular ones\u2014though beam efficiency remains relatively constant. We employ a previously developed mass utilization efficiency model to accurately predict experimental results for all propellants within the margin of error, with argon exhibiting the largest deviation. Increasing magnetic field strength initially enhances anode efficiency (requiring $$\\sim$$ 1\u00b748x stronger fields for molecular gases versus Xe/Kr), but eventually reduces ion beam current, especially in lighter molecular gases, potentially because of increased ion trajectory divergence due to smaller ion cyclotron radii relative to heavier xenon. These findings underscore the challenges and potential of using molecular propellants in low-power HETs. While inert gases remain superior in performance, molecular propellants can sustain operation under optimized conditions. Further thruster design and operational refinements are needed to improve the viability of molecular propellants for future space missions.",
+      "authors": [
+        "Joseph A. Moskovitz",
+        "Maxim Rubanovich",
+        "William P. Brabston",
+        "Dan Lev",
+        "Mitchell L. R. Walker",
+        "V. V. Balabanov"
+      ]
+    }
+  ]
+}
